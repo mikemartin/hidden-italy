@@ -1,0 +1,44 @@
+<div class="my-8 xl:my-12" id="livewire-collection">
+    <div class="grid grid-cols-4 items-center gap-3 lg:gap-5 mb-4 xl:mb-8">
+        <div>
+            <div class="mb-2 font-bold">Type of Walk</div>
+            {{ livewire:lf-select-filter
+                blueprint="tours.tour"
+                field="tour_types"
+                condition="taxonomy"
+            }}
+        </div>
+        <div>
+            <div class="mb-2 font-bold">Regions</div>
+            {{ livewire:lf-checkbox-filter
+                blueprint="tours.tour"
+                field="regions"
+                condition="taxonomy"
+                view="lf-checkbox-advanced"
+                placeholder="Please select"
+            }}
+        </div>
+        <div>
+            <div class="mb-2 font-bold">Seasons (months)</div>
+            {{ livewire:lf-checkbox-filter
+                blueprint="tours.tour"
+                field="seasons"
+                condition="taxonomy"
+                view="lf-checkbox-advanced"
+                placeholder="Please select"
+            }}
+        </div>
+        <div>
+            <div class="mb-2 font-bold">Walking grade</div>
+            {{# livewire:lf-checkbox-filter
+                blueprint="tours.tour"
+                field="grade"
+                condition="query_scope"
+                modifier="walking_grade"
+            #}}
+        </div>
+    </div>
+	<div>
+	  {{ livewire-collection:tours paginate="12" scrollTo="#livewire-collection" }}
+	</div>
+</div>

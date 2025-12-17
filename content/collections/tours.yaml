@@ -1,0 +1,19 @@
+title: Tours
+icon: travel-map
+template: default
+layout: layout
+mount: home
+taxonomies:
+  - tour_types
+  - seasons
+  - regions
+revisions: false
+sort_dir: asc
+date_behavior:
+  past: null
+  future: null
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

@@ -1,0 +1,30 @@
+nav:
+  content:
+    'content::collections':
+      action: '@modify'
+      reorder:
+        - 'content::collections::pages'
+collections:
+  tours:
+    view: list
+    columns:
+      - title
+      - location
+      - days
+      - tour_types
+      - status
+    filters:
+      guided:
+        display: Guided
+        filters:
+          fields:
+            tour_types:
+              operator: like
+              term: guided
+      self_guided:
+        display: Self-guided
+        filters:
+          fields:
+            tour_types:
+              operator: like
+              term: self-guided

@@ -1,0 +1,98 @@
+title: Tour
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: location
+            field:
+              type: text
+              display: Location
+              width: 33
+              validate:
+                - required
+          -
+            handle: days
+            field:
+              type: integer
+              display: Days
+              width: 33
+              validate:
+                - required
+                - integer
+          -
+            handle: tour_types
+            field:
+              max_items: 1
+              type: terms
+              display: 'Tour Type'
+              taxonomies:
+                - tour_types
+              mode: select
+              create: false
+              validate:
+                - required
+              width: 33
+          -
+            handle: regions
+            field:
+              type: terms
+              taxonomies:
+                - regions
+              display: Region
+              max_items: 1
+              create: false
+              mode: select
+              width: 33
+          -
+            handle: seasons
+            field:
+              type: terms
+              taxonomies:
+                - seasons
+              display: Season
+              max_items: 1
+              create: false
+              mode: select
+              if:
+                tour_types: 'contains tour_types::guided'
+              width: 33
+          -
+            handle: grade
+            field:
+              max: 5
+              type: range
+              display: Grade
+              append: '/ 5'
+              width: 33
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: image
+            field:
+              container: assets
+              folder: tours
+              dynamic: slug
+              restrict: true
+              mode: grid
+              max_files: 1
+              type: assets
+              display: Image
