@@ -12,23 +12,111 @@ tabs:
               required: true
               validate:
                 - required
+              width: 50
           -
             handle: location
             field:
               type: text
               display: Location
-              width: 33
+              width: 50
               validate:
                 - required
+          -
+            handle: summary
+            field:
+              character_limit: 90
+              type: text
+              display: Summary
+          -
+            handle: image
+            field:
+              container: assets
+              folder: tours
+              dynamic: slug
+              restrict: true
+              mode: grid
+              max_files: 1
+              type: assets
+              display: Image
+      -
+        display: Overview
+        fields:
           -
             handle: days
             field:
               type: integer
               display: Days
-              width: 33
               validate:
                 - required
                 - integer
+              width: 50
+          -
+            handle: grade
+            field:
+              max: 5
+              type: range
+              display: Grade
+              append: '/ 5'
+              width: 50
+          -
+            handle: tour_size
+            field:
+              type: integer
+              display: 'Tour Size'
+              validate:
+                - integer
+              if:
+                tour_types: 'contains tour_types::guided'
+              width: 50
+          -
+            handle: date
+            field:
+              type: date
+              display: Date
+              if:
+                tour_types: 'contains tour_types::guided'
+              width: 50
+          -
+            handle: overview
+            field:
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - anchor
+              remove_empty_nodes: false
+              type: bard
+              display: Overview
+          -
+            handle: inclusions
+            field:
+              type: list
+              display: Inclusions
+          -
+            handle: gallery
+            field:
+              container: assets
+              dynamic: slug
+              mode: grid
+              max_files: 12
+              type: assets
+              display: Gallery
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+      -
+        display: Taxonomy
+        fields:
           -
             handle: tour_types
             field:
@@ -41,18 +129,6 @@ tabs:
               create: false
               validate:
                 - required
-              width: 33
-          -
-            handle: regions
-            field:
-              type: terms
-              taxonomies:
-                - regions
-              display: Region
-              max_items: 1
-              create: false
-              mode: select
-              width: 33
           -
             handle: seasons
             field:
@@ -65,34 +141,13 @@ tabs:
               mode: select
               if:
                 tour_types: 'contains tour_types::guided'
-              width: 33
           -
-            handle: grade
+            handle: regions
             field:
-              max: 5
-              type: range
-              display: Grade
-              append: '/ 5'
-              width: 33
-  sidebar:
-    display: Sidebar
-    sections:
-      -
-        fields:
-          -
-            handle: slug
-            field:
-              type: slug
-              localizable: true
-              validate: 'max:200'
-          -
-            handle: image
-            field:
-              container: assets
-              folder: tours
-              dynamic: slug
-              restrict: true
-              mode: grid
-              max_files: 1
-              type: assets
-              display: Image
+              type: terms
+              taxonomies:
+                - regions
+              display: Region
+              max_items: 1
+              create: false
+              mode: select
