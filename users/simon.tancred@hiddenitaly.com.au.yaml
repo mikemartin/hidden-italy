@@ -1,5 +1,6 @@
 name: 'Simon Tancred'
 super: true
+avatar: people/r0_0_729_410_w1200_h678_fmax.jpg
 id: deb352aa-ad74-476e-8287-4bb96703e2cc
 password_hash: $2y$12$ei4WctAlb.ZyZ9IEeIrQDuqOnSyq1/nNK2UPYGiCbnRvrrWvjU7kq
 preferences:
