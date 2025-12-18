@@ -2,3 +2,9 @@ name: 'Mike Martin'
 super: true
 id: deb352aa-ad74-476e-8287-4bb96703e2cc
 password_hash: $2y$12$/ATrRYUGCfbPsNmv2SpofeK3cLXbm1cFWbyX7mapY08JQn0vAEq/O
+preferences:
+  collections:
+    tours:
+      view: list
+    pages:
+      view: tree

@@ -30,12 +30,14 @@
         </div>
         <div>
             <div class="mb-2 font-bold">Walking grade</div>
-            {{# livewire:lf-checkbox-filter
+            {{ livewire:query-scope-checkbox-filter
                 blueprint="tours.tour"
-                field="grade"
+                field="filter_grade"
                 condition="query_scope"
                 modifier="walking_grade"
-            #}}
+                view="lf-checkbox-advanced"
+                placeholder="Please select"
+            }}
         </div>
     </div>
 	<div>

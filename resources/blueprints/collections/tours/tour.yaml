@@ -59,6 +59,20 @@ tabs:
               append: '/ 5'
               width: 50
           -
+            handle: filter_grade
+            field:
+              type: select
+              display: 'Walking Grade Filter'
+              options:
+                moderate: 'Moderate (0-2)'
+                intermediate: 'Intermediate (2-3)'
+                challenging: 'Challenging (3-5)'
+              instructions: 'Used only for filtering; not part of entry data.'
+              width: 50
+              visibility: hidden
+              listable: false
+              default: ''
+          -
             handle: tour_size
             field:
               type: integer
