@@ -55,7 +55,18 @@ return [
     */
 
     'widgets' => [
-        //
+        [ 
+            'type' => 'collection',
+            'collection' => 'pages',
+            'limit' => 10,
+            'width' => '50',
+        ], 
+        [ 
+            'type' => 'collection',
+            'collection' => 'tours',
+            'limit' => 10,
+            'width' => '50',
+        ], 
     ],
 
     /*
