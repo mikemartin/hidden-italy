@@ -83,7 +83,7 @@ return [
         */
 
         'presets' => [
-            'max_upload_size' => ['w' => 2000, 'h' => 2000, 'fit' => 'max'],
+            'max_upload_size' => ['w' => 3000, 'h' => 3000, 'fit' => 'max'],
             'small' => ['w' => 720, 'h' => 540, 'q' => 75, 'fit' => 'crop'],
         ],
 
