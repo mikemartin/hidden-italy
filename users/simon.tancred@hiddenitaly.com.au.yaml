@@ -1,4 +1,10 @@
 name: 'Simon Tancred'
 super: true
 id: deb352aa-ad74-476e-8287-4bb96703e2cc
-password_hash: $2y$12$BdbQctGUSnKTHbWwTHjxnuOMZEi6/hVfpoPmWvDN/XdXPCAlRSbTG
+password_hash: $2y$12$ei4WctAlb.ZyZ9IEeIrQDuqOnSyq1/nNK2UPYGiCbnRvrrWvjU7kq
+preferences:
+  collections:
+    tours:
+      view: list
+    pages:
+      view: tree
