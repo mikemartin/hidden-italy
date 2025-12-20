@@ -18,6 +18,7 @@
 /public/static
 /public/storage
 /public/vendor/statamic
+/public/img
 /storage/*.key
 /storage/pail
 /vendor
