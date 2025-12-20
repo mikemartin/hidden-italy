@@ -9,3 +9,6 @@ preferences:
       view: list
     pages:
       view: tree
+  assets:
+    assets:
+      mode: grid

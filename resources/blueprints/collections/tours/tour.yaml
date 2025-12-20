@@ -26,7 +26,7 @@ tabs:
             field:
               character_limit: 90
               type: text
-              display: Summary
+              display: Teaser
           -
             handle: image
             field:
@@ -71,7 +71,6 @@ tabs:
               width: 50
               visibility: hidden
               listable: false
-              default: ''
           -
             handle: tour_size
             field:
@@ -102,7 +101,9 @@ tabs:
                 - anchor
               remove_empty_nodes: false
               type: bard
-              display: Overview
+              display: Summary
+              reading_time: true
+              word_count: true
           -
             handle: inclusions
             field:
@@ -117,6 +118,7 @@ tabs:
               max_files: 12
               type: assets
               display: Gallery
+              instructions: 'Add at least 5 photos of people in action, and show different angles.'
   sidebar:
     display: Sidebar
     sections:
