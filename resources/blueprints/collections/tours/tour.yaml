@@ -119,6 +119,150 @@ tabs:
               type: assets
               display: Gallery
               instructions: 'Add at least 5 photos of people in action, and show different angles.'
+      -
+        display: 'Page Builder'
+        fields:
+          -
+            handle: page_builder
+            field:
+              type: replicator
+              display: 'Page Builder'
+              button_label: 'Add Section'
+              sets:
+                tour:
+                  display: Tour
+                  icon: travel-map
+                  sets:
+                    highlights:
+                      display: Highlights
+                      instructions: 'Add up to 6 highlights'
+                      icon: star
+                      image: highlights.png
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            type: text
+                            display: Title
+                        -
+                          handle: activities
+                          field:
+                            type: grid
+                            display: Activities
+                            instructions: 'Start with a warm welcome and end with a strong finale. Keep the itinerary clear and concise.'
+                            mode: stacked
+                            add_row: 'Add Activity'
+                            fields:
+                              -
+                                handle: title
+                                field:
+                                  type: text
+                                  display: Title
+                                  instructions: 'Explain the activity in 2 to 4 words. Always start with a verb.'
+                              -
+                                handle: summary
+                                field:
+                                  character_limit: 120
+                                  type: textarea
+                                  display: Summary
+                                  instructions: 'Expand on the title in a sentence. What can travellers expect to do at this point of the tour.'
+                              -
+                                handle: photo
+                                field:
+                                  container: assets
+                                  dynamic: slug
+                                  max_files: 1
+                                  type: assets
+                                  display: Photo
+                                  instructions: 'Choose a simple image that matches the description. Focus on one subject.'
+                    itinerary:
+                      display: Itinerary
+                      instructions: 'Create a day by day itinerary'
+                      icon: arrow-roadmap-path-flow
+                      image: itinerary.png
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            type: text
+                            display: Title
+                        -
+                          handle: summary
+                          field:
+                            type: textarea
+                            display: Summary
+                            instructions: 'Write a brief overview of the itinerary. Focus on the route, region, and overall experience.'
+                        -
+                          handle: days
+                          field:
+                            mode: stacked
+                            add_row: 'Add Day'
+                            type: grid
+                            display: Days
+                            instructions: 'Start with a warm welcome and end with a strong finale. Keep the itinerary clear and concise.'
+                            fields:
+                              -
+                                handle: title
+                                field:
+                                  type: text
+                                  display: Title
+                                  instructions: 'Describe the day in 2 to 4 words. Always start with a verb.'
+                              -
+                                handle: description
+                                field:
+                                  character_limit: 500
+                                  type: textarea
+                                  display: Description
+                                  instructions: 'Describe the main experiences of the day. Keep it concise and easy to scan.'
+                              -
+                                handle: duration
+                                field:
+                                  append: m
+                                  type: integer
+                                  display: Duration
+                                  width: 33
+                                  instructions: 'Total walking time for the day.'
+                              -
+                                handle: distance
+                                field:
+                                  append: kms
+                                  type: integer
+                                  display: Distance
+                                  width: 33
+                                  instructions: 'Total walking distance.'
+                              -
+                                handle: elevation
+                                field:
+                                  append: m
+                                  type: integer
+                                  display: Elevation
+                                  width: 33
+                                  instructions: 'Total ascent.'
+                              -
+                                handle: photo
+                                field:
+                                  container: assets
+                                  dynamic: slug
+                                  max_files: 1
+                                  type: assets
+                                  display: Photo
+                              -
+                                handle: meals_included
+                                field:
+                                  options:
+                                    -
+                                      key: breakfast
+                                      value: Breakfast
+                                    -
+                                      key: lunch
+                                      value: Lunch
+                                    -
+                                      key: dinner
+                                      value: Dinner
+                                  inline: true
+                                  type: checkboxes
+                                  display: 'Meals Included'
+                                  instructions: 'Select the meals provided on this day.'
   sidebar:
     display: Sidebar
     sections:
