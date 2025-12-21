@@ -32,26 +32,32 @@ page_builder:
         id: mjflez0m
         title: 'Arrive in Biella'
         summary: 'Settle into a 4-star hotel and share a welcome dinner with your group in this historic alpine town.'
+        icon: hotel-booking/hotel-building-accommodation-lodging-stay.svg
       -
         id: mjflfcs4
         title: 'Walk the Pilgrim Trail'
         summary: 'Follow an ancient route through forests and villages to reach the sanctuary of Oropa.'
+        icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mjflflyr
         title: 'Sleep in a Monastery'
         summary: 'Stay in a centuries-old baroque monastery nestled in the mountains, with a simple, hearty dinner.'
+        icon: hotel-booking/bed-sleep-room-rest-accommodation.svg
       -
         id: mjflft3i
         title: 'Reach the High Hut'
         summary: 'Ascend steep alpine trails to a remote mountain refuge with sweeping views and shared bunk-style lodging.'
+        icon: winter-travel/cabin-snow-lodge-winter-holiday.svg
       -
         id: mjflfz9u
         title: 'Descend into Alagna'
         summary: 'Hike through glacier-carved valleys and past Walser farmhouses before arriving in a welcoming alpine village.'
+        icon: types-houses/ranch-single-story-suburban-sprawling-american-family-simple-residential.svg
       -
         id: mjflgcks
         title: 'Celebrate with a Farewell Dinner'
         summary: 'Mark the end of your alpine journey with a festive group meal in a charming mountain village near the Swiss border.'
+        icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
     type: highlights
     enabled: true
   -
@@ -93,5 +99,5 @@ tour_types: guided
 seasons: summer
 regions: northern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1766313848
+updated_at: 1766318874
 ---

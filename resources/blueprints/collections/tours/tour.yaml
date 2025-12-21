@@ -119,6 +119,8 @@ tabs:
               type: assets
               display: Gallery
               instructions: 'Add at least 5 photos of people in action, and show different angles.'
+              folder: tours
+              restrict: true
       -
         display: 'Page Builder'
         fields:
@@ -167,14 +169,15 @@ tabs:
                                   display: Summary
                                   instructions: 'Expand on the title in a sentence. What can travellers expect to do at this point of the tour.'
                               -
-                                handle: photo
+                                handle: icon
                                 field:
-                                  container: assets
-                                  dynamic: slug
+                                  container: icons
                                   max_files: 1
                                   type: assets
-                                  display: Photo
-                                  instructions: 'Choose a simple image that matches the description. Focus on one subject.'
+                                  display: Icon
+                                  instructions: 'Choose a simple icon that matches the description.'
+                                  show_filename: false
+                                  show_set_alt: false
                     itinerary:
                       display: Itinerary
                       instructions: 'Create a day by day itinerary'
@@ -246,6 +249,7 @@ tabs:
                                   max_files: 1
                                   type: assets
                                   display: Photo
+                                  folder: tours
                               -
                                 handle: meals_included
                                 field:
