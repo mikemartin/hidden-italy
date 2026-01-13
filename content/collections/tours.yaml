@@ -6,8 +6,9 @@ mount: home
 taxonomies:
   - tour_types
   - seasons
-  - regions
+  - locations
 revisions: false
+title_format: '{region} - {name}'
 sort_dir: asc
 date_behavior:
   past: null

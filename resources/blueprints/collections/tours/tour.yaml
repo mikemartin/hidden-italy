@@ -8,19 +8,22 @@ tabs:
           -
             handle: title
             field:
-              type: text
-              required: true
-              validate:
-                - required
-              width: 50
+              type: hidden
+              required: false
           -
-            handle: location
+            handle: region
             field:
               type: text
-              display: Location
-              width: 50
+              display: Region
               validate:
                 - required
+          -
+            handle: name
+            field:
+              type: text
+              validate:
+                - required
+              display: Name
           -
             handle: summary
             field:
@@ -288,6 +291,7 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
+              show_regenerate: true
       -
         display: Taxonomy
         fields:
@@ -316,12 +320,12 @@ tabs:
               if:
                 tour_types: 'contains tour_types::guided'
           -
-            handle: regions
+            handle: locations
             field:
               type: terms
               taxonomies:
-                - regions
-              display: Region
+                - locations
+              display: Location
               max_items: 1
               create: false
               mode: select

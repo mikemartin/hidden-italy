@@ -1,8 +1,9 @@
 ---
 id: 0d717011-26fe-4d13-89f4-a0739f966e3d
 blueprint: tour
-title: 'Trails to Freedom (example)'
-location: 'Italian Alps'
+title: 'Italian Alps - Trails to Freedom'
+name: 'Trails to Freedom'
+region: 'Italian Alps'
 summary: 'Ten-day hike blending stunning scenery, alpine towns, and a WWII escape story.'
 days: 10
 grade: 0
@@ -97,7 +98,7 @@ page_builder:
     enabled: true
 tour_types: guided
 seasons: summer
-regions: northern-italy
+locations: northern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1766318874
+updated_at: 1768277233
 ---
