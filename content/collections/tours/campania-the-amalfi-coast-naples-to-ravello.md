@@ -9,5 +9,6 @@ days: 13
 seasons: spring
 grade: 2
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1768277224
+updated_at: 1768371263
+summary: 'Campania a stunningly beautiful area with all the exuberance and colour of southern Italy.'
 ---

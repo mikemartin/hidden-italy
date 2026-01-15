@@ -8,7 +8,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1768277249
+updated_at: 1768366801
 grade: 3
 summary: 'Sardinia is a magical island, a few hours by ferry, but a world away from mainland Italy.'
 tour_size: 15
@@ -46,4 +46,18 @@ inclusions:
   - 'All paid admissions during the tour'
   - '7 guided walks'
   - 'Services of a full-time professional tour guide'
+image: tours/sardinia-cagliari-to-the-costa-smeralda/img_5939.jpg
+gallery:
+  - tours/sardinia-cagliari-to-the-costa-smeralda/02.jpg
+  - tours/sardinia-cagliari-to-the-costa-smeralda/16.jpg
+  - tours/sardinia-cagliari-to-the-costa-smeralda/carloforte-1.jpg
+  - tours/sardinia-cagliari-to-the-costa-smeralda/14.jpg
+  - tours/sardinia-cagliari-to-the-costa-smeralda/46.jpg
+  - tours/sardinia-cagliari-to-the-costa-smeralda/caprera-1.jpg
+  - tours/sardinia-cagliari-to-the-costa-smeralda/img_5939.jpg
+  - tours/sardinia-cagliari-to-the-costa-smeralda/hotel-7.jpg
+  - tours/sardinia-cagliari-to-the-costa-smeralda/img_5840.jpg
+  - tours/sardinia-cagliari-to-the-costa-smeralda/img_5769-(2).jpg
+  - tours/sardinia-cagliari-to-the-costa-smeralda/hotel-1.jpg
+  - tours/sardinia-cagliari-to-the-costa-smeralda/78.jpg
 ---
