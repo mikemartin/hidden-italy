@@ -292,6 +292,12 @@ tabs:
               localizable: true
               validate: 'max:200'
               show_regenerate: true
+          -
+            handle: simple_likes
+            field:
+              type: simple_likes
+              display: Likes
+              allow_guest_likes: true
       -
         display: Taxonomy
         fields:
