@@ -15,7 +15,19 @@ overview:
     content:
       -
         type: text
-        text: "The tour starts in beautiful Alba, 95 kilometres south of Turin.\_ A handsome town of Roman origin, Alba is the ‘capital’ of the Langhe, a close-knit range of hills and valleys which are crowded with impeccably tended rows of nebbiolo vines, the source of some of Italy’s finest wines.\_ They form a unique and striking landscape, so much so that the district was recently listed as a UNESCO World Heritage site, Italy’s 50th."
+        text: 'This extraordinary ten-day hike combines breath-taking scenery, enchanting towns, challenging walks and delicious food with the fascinating story of four young men who crossed the Italian Alps to freedom in the Second World War.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "\_On the 3rd of October 1943, four young Australian soldiers crossed from Italy to Switzerland at the border on Monte Moro Pass, thus ending a three-week odyssey that had started in a Fascist prison camp on the Po Plain near Biella in Piedmont (north of Turin).\_ The route they took followed a network of medieval paths that had been re-opened by the partisans and came to be known as the ‘sentieri della liberta’ or the trails to freedom."
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "\_Based on several years’ research, this magnificent hike follows the same route, starting in Biella and finishing on Mt Moro on the Swiss border. \_It passes through some of the most spectacular scenery in the European Alps, staying in a mixture of hotels, pilgrim monasteries and mountain huts along the way.\_ Although we will walk through uncontaminated mountain landscapes, this is an ancient land: traders, pilgrims and graziers have been passing through here for millennia, in fact, since before the Bronze Age."
 inclusions:
   - '9 nights in comfortable accommodation'
   - 'Breakfast, lunch, and dinner daily (with wine)'
@@ -100,5 +112,19 @@ tour_types: guided
 seasons: summer
 locations: northern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1768450748
+updated_at: 1768626801
+gallery:
+  - tours/italian-alps-trails-to-freedom/94.jpg
+  - tours/italian-alps-trails-to-freedom/5.5.jpg
+  - tours/italian-alps-trails-to-freedom/12.jpg
+  - tours/italian-alps-trails-to-freedom/57.png
+  - tours/italian-alps-trails-to-freedom/44.jpg
+  - tours/italian-alps-trails-to-freedom/65.jpg
+  - tours/italian-alps-trails-to-freedom/dscf1836.jpg
+  - tours/italian-alps-trails-to-freedom/74.jpg
+  - tours/italian-alps-trails-to-freedom/dscf0276.jpg
+  - tours/italian-alps-trails-to-freedom/3-(2).jpg
+  - tours/italian-alps-trails-to-freedom/p8270231.jpg
+  - tours/italian-alps-trails-to-freedom/10.jpg
+image: tours/italian-alps-trails-to-freedom/94.jpg
 ---
