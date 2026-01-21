@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a9e7d3384d7ae19c4cff7319d4a301f",
+    "content-hash": "247d6dc2a043c2cd7744e196c32cb7f8",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -3083,16 +3083,16 @@
         },
         {
             "name": "mikomagni/simple-likes",
-            "version": "6.x-dev",
+            "version": "dev-feature/guest-wishlist",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikomagni/simple-likes.git",
-                "reference": "24fd1171f3cd43b025605fb74e8151944f6a18a3"
+                "reference": "2b0f1a15e6f7d2491d52666a1301ca0975550f66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikomagni/simple-likes/zipball/24fd1171f3cd43b025605fb74e8151944f6a18a3",
-                "reference": "24fd1171f3cd43b025605fb74e8151944f6a18a3",
+                "url": "https://api.github.com/repos/mikomagni/simple-likes/zipball/2b0f1a15e6f7d2491d52666a1301ca0975550f66",
+                "reference": "2b0f1a15e6f7d2491d52666a1301ca0975550f66",
                 "shasum": ""
             },
             "require": {
@@ -3102,17 +3102,17 @@
             },
             "type": "statamic-addon",
             "extra": {
+                "statamic": {
+                    "name": "Simple Likes",
+                    "slug": "simple-likes",
+                    "description": "Simple Likes is a lightweight addon for Statamic that lets visitors like, save, or favourite your content.",
+                    "developer": "MikoMagni",
+                    "developer_url": "https://graffio.co"
+                },
                 "laravel": {
                     "providers": [
                         "Mikomagni\\SimpleLikes\\ServiceProvider"
                     ]
-                },
-                "statamic": {
-                    "name": "Simple Likes",
-                    "slug": "simple-likes",
-                    "developer": "MikoMagni",
-                    "description": "Simple Likes is a lightweight addon for Statamic that lets visitors like, save, or favourite your content.",
-                    "developer_url": "https://graffio.co"
                 }
             },
             "autoload": {
@@ -3120,7 +3120,6 @@
                     "Mikomagni\\SimpleLikes\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
@@ -3133,11 +3132,11 @@
             "description": "Simple Likes is a lightweight addon for Statamic that lets visitors like, save, or favourite your content.",
             "homepage": "https://simplelikes.com",
             "keywords": [
-                "Favorites",
                 "addon",
                 "bookmarks",
                 "cms",
                 "engagement",
+                "favorites",
                 "favourites",
                 "laravel",
                 "likes",
@@ -3148,10 +3147,10 @@
                 "statistics"
             ],
             "support": {
-                "issues": "https://github.com/mikomagni/simple-likes/issues",
-                "source": "https://github.com/mikomagni/simple-likes/tree/6.x"
+                "source": "https://github.com/mikomagni/simple-likes/tree/feature/guest-wishlist",
+                "issues": "https://github.com/mikomagni/simple-likes/issues"
             },
-            "time": "2025-12-21T23:31:10+00:00"
+            "time": "2026-01-21T04:05:54+00:00"
         },
         {
             "name": "monolog/monolog",

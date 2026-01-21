@@ -3,80 +3,89 @@
         <div class="col-span-12 lg:col-span-6">
             <div class="text-3xl font-bold">Wishlist</div>
         </div>
-        <div class="col-span-12 lg:col-span-2 lg:col-start-11"></div>
+        <div class="col-span-12 lg:col-span-2 lg:col-start-11 lg:flex lg:justify-end"> 
+            <a href="/" class="flex items-center mb-2">
+                <x-lucide-arrow-left class="w-6 h-6 stroke-[1.5] mr-2" />
+                <span class="font-medium">
+                    Back to Tours
+                </span>
+            </a>
+        </div>
     </div>
 	<div>
-        {{ wishlist = {simple_like:my_likes collection="tours"} }}
+        {{ wishlist = {simple_like:wishlist collection="tours"} }}
 
         {{ if wishlist }}
             <div class="@container">
                 <div class="grid grid-cols-1 @2xl:grid-cols-2 @5xl:grid-cols-3 @6xl:grid-cols-4 gap-8 transition-opacity duration-700" wire:loading.class="opacity-40">
                     {{ wishlist }}
-                    <div class="flex flex-col bg-gray-100 h-full rounded p-4">
-                        <div class="mb-2">
-                            {{ if image }}
-                            <img src="{{ glide:image w="720" h="540" }}" class="object-cover rounded w-full h-[180px]"/>
-                            {{ else }}
-                            <div class="rounded w-full h-[180px] flex items-center justify-center bg-gray-200">
-                                <x-lucide-image class="w-20 h-20 text-gray-300" />
-                            </div>
-                            {{ /if }}
-                        </div>
-                        <h2 class="leading-none my-3">
-                            <div class="text-xs uppercase tracking-wide">{{ region }}</div> 
-                            <span class="sr-only"> - </span> 
-                            <div class="mt-1 font-bold">{{ name }}</div>
-                        </h2>
-                        <div class="flex items-center mb-2">
-                            <div class="mr-2">
-                                <x-lucide-map class="w-6 h-6 stroke-[1.5]" />
-                            </div>
-                            <div class="text-sm">
-                                <span class="font-bold">Tour type:</span>
-                                {{ tour_types:title }}
-                            </div>
-                        </div>
-                        <div class="flex items-center mb-2">
-                            <div class="mr-2">
-                                <x-lucide-clock class="w-6 h-6 stroke-[1.5]" />
-                            </div>
-                            <div class="text-sm">
-                                <span class="font-bold">Days:</span>
-                                {{ days }}
-                            </div>
-                        </div>
-                        {{ if seasons }}
-                        <div class="flex items-center mb-2">
-                            <div class="mr-2">
-                                {{ if seasons|raw == 'spring' }}
-                                    <x-lucide-flower class="w-6 h-6 stroke-[1.5]" />
-                                {{ elseif seasons|raw == 'summer' }}
-                                    <x-lucide-sun class="w-6 h-6 stroke-[1.5]" />
-                                {{ elseif seasons|raw == 'autumn' }}
-                                    <x-lucide-leaf class="w-6 h-6 stroke-[1.5]" />
-                                {{ elseif seasons|raw == 'winter' }}
-                                    <x-lucide-snowflake class="w-6 h-6 stroke-[1.5]" />
+                        {{ entry }}
+                        <div class="flex flex-col bg-gray-100 h-full rounded p-4">
+                            <div class="mb-2">
+                                {{ if image }}
+                                <img src="{{ glide:image w="720" h="540" }}" class="object-cover rounded w-full h-[180px]"/>
+                                {{ else }}
+                                <div class="rounded w-full h-[180px] flex items-center justify-center bg-gray-200">
+                                    <x-lucide-image class="w-20 h-20 text-gray-300" />
+                                </div>
                                 {{ /if }}
                             </div>
-                            <div class="text-sm">
-                                <span class="font-bold">Season:</span>
-                                {{ seasons:title }}
+                            <h2 class="leading-none my-3">
+                                <div class="text-xs uppercase tracking-wide">{{ region }}</div> 
+                                <span class="sr-only"> - </span> 
+                                <div class="mt-1 font-bold">{{ name }}</div>
+                            </h2>
+                            <div class="flex items-center mb-2">
+                                <div class="mr-2">
+                                    <x-lucide-map class="w-6 h-6 stroke-[1.5]" />
+                                </div>
+                                <div class="text-sm">
+                                    <span class="font-bold">Tour type:</span>
+                                    {{ tour_types:title }}
+                                </div>
                             </div>
+                            <div class="flex items-center mb-2">
+                                <div class="mr-2">
+                                    <x-lucide-clock class="w-6 h-6 stroke-[1.5]" />
+                                </div>
+                                <div class="text-sm">
+                                    <span class="font-bold">Days:</span>
+                                    {{ days }}
+                                </div>
+                            </div>
+                            {{ if seasons }}
+                            <div class="flex items-center mb-2">
+                                <div class="mr-2">
+                                    {{ if seasons|raw == 'spring' }}
+                                        <x-lucide-flower class="w-6 h-6 stroke-[1.5]" />
+                                    {{ elseif seasons|raw == 'summer' }}
+                                        <x-lucide-sun class="w-6 h-6 stroke-[1.5]" />
+                                    {{ elseif seasons|raw == 'autumn' }}
+                                        <x-lucide-leaf class="w-6 h-6 stroke-[1.5]" />
+                                    {{ elseif seasons|raw == 'winter' }}
+                                        <x-lucide-snowflake class="w-6 h-6 stroke-[1.5]" />
+                                    {{ /if }}
+                                </div>
+                                <div class="text-sm">
+                                    <span class="font-bold">Season:</span>
+                                    {{ seasons:title }}
+                                </div>
+                            </div>
+                            {{ /if }}
+                            {{ if grade }}
+                            <div class="flex items-center mb-2">
+                                <div class="mr-2">
+                                    <x-lucide-dumbbell class="w-6 h-6 stroke-[1.5]" />
+                                </div>
+                                <div class="text-sm">
+                                    <span class="font-bold">Grade:</span>
+                                    {{ grade }} / 5
+                                </div>
+                            </div>
+                            {{ /if }}
+                            {{ simple_like }}
                         </div>
-                        {{ /if }}
-                        {{ if grade }}
-                        <div class="flex items-center mb-2">
-                            <div class="mr-2">
-                                <x-lucide-dumbbell class="w-6 h-6 stroke-[1.5]" />
-                            </div>
-                            <div class="text-sm">
-                                <span class="font-bold">Grade:</span>
-                                {{ grade }} / 5
-                            </div>
-                        </div>
-                        {{ /if }}
-                        {{ simple_like }}
-                    </div>
+                        {{ /entry }}
                     {{ /wishlist }}
                 </div>
             </div>

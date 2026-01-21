@@ -14,7 +14,7 @@
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
         "mallardduck/blade-lucide-icons": "^1.24",
-        "mikomagni/simple-likes": "6.x-dev",
+        "mikomagni/simple-likes": "dev-feature/guest-wishlist",
         "statamic/cms": "^6.0"
     },
     "require-dev": {
@@ -101,6 +101,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/mikemartin/statamic-livewire-filters"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mikomagni/simple-likes"
         }
     ]
 }
