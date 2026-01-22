@@ -24,7 +24,7 @@ return [
         'assets' => false,
         'globals' => false,
         'forms' => false,
-        'users' => false,
+        'users' => true,
     ],
 
     'route' => env('STATAMIC_API_ROUTE', 'api'),

@@ -2,14 +2,21 @@
     <div class="grid grid-cols-12 mb-4 md:mb-8 xl:mb-12">
         <div class="col-span-12 lg:col-span-6">
             <div class="text-3xl font-bold">Wishlist</div>
+            {{ if {simple_like:is_guest} }}
+                <p>
+                    <a href="/register" class="text-indigo-600 underline">Create a Hidden Italy account</a> to view your wishlist on all to your devices
+                </p>
+            {{ /if }}
         </div>
-        <div class="col-span-12 lg:col-span-2 lg:col-start-11 lg:flex lg:justify-end"> 
-            <a href="/" class="flex items-center mb-2">
+        <div class="col-span-12 lg:col-span-2 lg:col-start-11 lg:flex lg:items-center lg:justify-end lg:gap-4"> 
+            <a href="/" class="flex items-center">
                 <x-lucide-arrow-left class="w-6 h-6 stroke-[1.5] mr-2" />
                 <span class="font-medium">
-                    Back to Tours
+                    Back
                 </span>
             </a>
+            {{ partial:components/nav-wishlist }}
+            {{ partial:components/nav-account }}
         </div>
     </div>
 	<div>

@@ -18,7 +18,8 @@
         "vite": "^7.0.4"
     },
     "dependencies": {
+        "@statamic/cms": "file:./vendor/statamic/cms/resources/dist-package",
         "@tailwindcss/forms": "^0.5.10",
-        "@statamic/cms": "file:./vendor/statamic/cms/resources/dist-package"
+        "alpinejs": "^3.15.4"
     }
 }

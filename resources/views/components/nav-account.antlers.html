@@ -1,0 +1,17 @@
+{{ if logged_in }}
+    {{ current_user}}
+    <a href="/account" class="flex items-center">
+        <x-lucide-user-circle class="w-6 h-6 stroke-[1.5] mr-2" />
+        <span class="font-medium whitespace-nowrap">
+            {{ name }}
+        </span>
+    </a>
+    {{ /current_user}}
+{{ else }}
+    <a href="/login" class="flex items-center">
+        <x-lucide-user-circle class="w-6 h-6 stroke-[1.5] mr-2" />
+        <span class="font-medium whitespace-nowrap">
+            Account
+        </span>
+    </a>
+{{ /if }}

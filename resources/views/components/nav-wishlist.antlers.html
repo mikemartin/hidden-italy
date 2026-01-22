@@ -1,0 +1,15 @@
+<a x-data href="/wishlist" class="flex items-center">
+    <span class="mr-2 relative inline-block">
+        <div :style="{ transition: 'transform 0.15s ease-out', transform: Alpine.store('wishlist').popping ? 'scale(1.2)' : 'scale(1)' }">
+            <x-lucide-heart class="w-6 h-6 stroke-[1.5]" />
+        </div>
+        <template x-if="Alpine.store('wishlist').count > 0">
+            <span aria-hidden="true"
+                class="absolute -top-0.5 -right-1.5 rounded-full bg-[#ef4444] min-w-[15px] px-[4px] text-center text-[10px] font-medium whitespace-nowrap text-white"
+                x-text="Alpine.store('wishlist').count"></span>
+        </template>
+    </span>
+    <span class="font-medium">
+        Wishlist
+    </span>
+</a>

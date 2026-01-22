@@ -226,7 +226,7 @@ document.addEventListener('alpine:init', () => {
                 this.count = data.likes_count;
                 this.errorMessage = '';
 
-                Alpine.store('wishlist').refresh();
+                Alpine.store('wishlist').refresh(true);
 
                 // Invalidate batch cache so next page load gets fresh data
                 window.SimpleLikesBatch.invalidate(this.entryId);
