@@ -115,20 +115,20 @@ window.SimpleLikesBatch = {
     }
 };
 
-document.addEventListener('alpine:init', () => {
-    Alpine.data('simpleLikes', (config = {}) => ({
-        // State
-        entryId: config.entryId || '',
-        liked: false,
-        count: config.count || 0,
-        loading: true, // Start as loading until hydrated
-        hydrated: false,
-        canInteract: config.canInteract !== false,
-        isLocked: config.isLocked || false,
-        isAuthenticated: config.isAuthenticated || false,
-        allowGuestLikes: config.allowGuestLikes || false,
-        errorMessage: '',
-        errorType: '',
+// Define the component function
+const simpleLikes = (config = {}) => ({
+    // State
+    entryId: config.entryId || '',
+    liked: false,
+    count: config.count || 0,
+    loading: true, // Start as loading until hydrated
+    hydrated: false,
+    canInteract: config.canInteract !== false,
+    isLocked: config.isLocked || false,
+    isAuthenticated: config.isAuthenticated || false,
+    allowGuestLikes: config.allowGuestLikes || false,
+    errorMessage: '',
+    errorType: '',
 
         /**
          * Initialise component - register for batched status fetch
@@ -260,5 +260,7 @@ document.addEventListener('alpine:init', () => {
                 this.errorType = '';
             }, 5000);
         }
-    }));
 });
+
+// Export for site.js
+export default simpleLikes;

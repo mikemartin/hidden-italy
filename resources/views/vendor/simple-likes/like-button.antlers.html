@@ -13,6 +13,7 @@
 #}}
 
 <div class="simple-likes"
+     wire:key="like-{{ entry_id }}"
      x-data="{
         ...simpleLikes({
             entryId: '{{ entry_id }}',
@@ -24,10 +25,9 @@
         }),
         popping: false,
         async handleLike() {
-            // Animate on both like and unlike
             this.popping = true;
             setTimeout(() => this.popping = false, 200);
-            this.toggleLike();
+            await this.toggleLike();
         }
      }">
 

@@ -1,7 +1,8 @@
 import Alpine from 'alpinejs';
-import './components/simple-likes.js';
+import simpleLikes from './components/simple-likes.js';
 
 window.Alpine = Alpine;
+window.simpleLikes = simpleLikes;
 
 Alpine.store('wishlist', {
     count: 0,
@@ -21,5 +22,15 @@ Alpine.store('wishlist', {
     }
 });
 
+// Register Alpine components before starting
+Alpine.data('simpleLikes', simpleLikes);
+
 Alpine.start();
 Alpine.store('wishlist').refresh();
+
+// Clear SimpleLikes cache when Livewire updates the DOM
+document.addEventListener('livewire:morph', () => {
+    if (window.SimpleLikesBatch) {
+        window.SimpleLikesBatch.cache = {};
+    }
+});
