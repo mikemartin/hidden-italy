@@ -4,7 +4,6 @@ namespace App\Listeners;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Log;
 use Mikomagni\SimpleLikes\Models\SimpleLike;
 
 /**
@@ -12,47 +11,54 @@ use Mikomagni\SimpleLikes\Models\SimpleLike;
  */
 class MigrateGuestLikesListener
 {
-    public function handle($event)
+    public function handle($event): void
     {
-        try {
-            if (!$event->user || !request()->ip() || !request()->userAgent()) {
-                return;
+        // Validate required data
+        if (!$event->user || !request()->ip() || !request()->userAgent()) {
+            return;
+        }
+
+        $userId = (string) $event->user->id();
+        $guestId = 'guest_' . hash('sha256', request()->ip() . '|' . request()->userAgent());
+
+        // Fetch guest likes
+        $guestLikes = SimpleLike::where('user_id', $guestId)
+            ->where('user_type', 'guest')
+            ->get();
+
+        if ($guestLikes->isEmpty()) {
+            return;
+        }
+
+        // Get existing user likes to avoid duplicates
+        $existingEntryIds = SimpleLike::where('user_id', $userId)
+            ->whereIn('entry_id', $guestLikes->pluck('entry_id'))
+            ->pluck('entry_id');
+
+        DB::transaction(function () use ($guestLikes, $userId, $existingEntryIds) {
+            $migrated = false;
+
+            foreach ($guestLikes as $like) {
+                if ($existingEntryIds->contains($like->entry_id)) {
+                    $like->delete(); // Remove duplicate
+                    continue;
+                }
+
+                $like->update([
+                    'user_id' => $userId,
+                    'user_type' => 'authenticated',
+                ]);
+
+                // Clear cache for this entry
+                Cache::forget("simple_likes_display_{$like->entry_id}_{$userId}");
+                Cache::forget("simple_likes_count_{$like->entry_id}");
+                
+                $migrated = true;
             }
 
-            $userId = (string) $event->user->id();
-            $guestId = 'guest_' . hash('sha256', request()->ip() . '|' . request()->userAgent());
-            
-            $guestLikes = SimpleLike::where('user_id', $guestId)
-                ->where('user_type', 'guest')
-                ->get();
-            
-            if ($guestLikes->isEmpty()) {
-                return;
+            if ($migrated) {
+                session(['wishlist_migrated' => true]);
             }
-            
-            DB::transaction(function () use ($guestLikes, $userId) {
-                $migrated = false;
-                
-                foreach ($guestLikes as $like) {
-                    $exists = SimpleLike::where('entry_id', $like->entry_id)
-                        ->where('user_id', $userId)
-                        ->exists();
-                    
-                    if (!$exists) {
-                        $like->update(['user_id' => $userId, 'user_type' => 'authenticated']);
-                        $migrated = true;
-                        
-                        Cache::forget("simple_likes_display_{$like->entry_id}_{$userId}");
-                        Cache::forget("simple_likes_count_{$like->entry_id}");
-                    }
-                }
-                
-                if ($migrated) {
-                    session(['wishlist_migrated' => true]);
-                }
-            });
-        } catch (\Exception $e) {
-            Log::error('Guest likes migration failed', ['error' => $e->getMessage()]);
-        }
+        });
     }
 }
