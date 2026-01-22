@@ -7,9 +7,9 @@ use Illuminate\Support\Facades\DB;
 use Mikomagni\SimpleLikes\Models\SimpleLike;
 
 /**
- * Migrate guest likes to authenticated user on login/registration.
+ * Sync guest likes to authenticated user on login/registration.
  */
-class MigrateGuestLikesListener
+class SyncGuestLikes
 {
     public function handle($event): void
     {
@@ -57,7 +57,7 @@ class MigrateGuestLikesListener
             }
 
             if ($migrated) {
-                session(['likes_migrated' => true]);
+                session(['likes_synced' => true]);
             }
         });
     }

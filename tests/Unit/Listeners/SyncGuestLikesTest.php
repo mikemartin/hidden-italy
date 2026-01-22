@@ -2,7 +2,7 @@
 
 namespace Tests\Unit\Listeners;
 
-use App\Listeners\MigrateGuestLikesListener;
+use App\Listeners\SyncGuestLikes;
 use Illuminate\Auth\Events\Login;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Request;
@@ -14,7 +14,7 @@ use Statamic\Contracts\Auth\User;
 use Statamic\Events\UserRegistered;
 use Tests\TestCase;
 
-class MigrateGuestLikesListenerTest extends TestCase
+class SyncGuestLikesTest extends TestCase
 {
     use RefreshDatabase;
 
@@ -45,7 +45,7 @@ class MigrateGuestLikesListenerTest extends TestCase
         $guestId = $this->guestId();
         $this->createGuestLike($guestId, 'entry-1');
         
-        (new MigrateGuestLikesListener)->handle($this->loginEvent());
+        (new SyncGuestLikes)->handle($this->loginEvent());
 
         $this->assertDatabaseHas('simple_likes', [
             'entry_id' => 'entry-1',
@@ -53,7 +53,7 @@ class MigrateGuestLikesListenerTest extends TestCase
             'user_type' => 'authenticated',
         ]);
         
-        $this->assertTrue(session('wishlist_migrated'));
+        $this->assertTrue(session('likes_synced'));
     }
 
     #[Test]
@@ -63,7 +63,7 @@ class MigrateGuestLikesListenerTest extends TestCase
         $this->createGuestLike($guestId, 'entry-1');
         $this->createGuestLike($guestId, 'entry-2');
         
-        (new MigrateGuestLikesListener)->handle($this->loginEvent());
+        (new SyncGuestLikes)->handle($this->loginEvent());
 
         $this->assertEquals(2, SimpleLike::where('user_id', $this->userId)->count());
     }
@@ -75,7 +75,7 @@ class MigrateGuestLikesListenerTest extends TestCase
         $this->createAuthLike($this->userId, 'entry-1');
         $this->createGuestLike($guestId, 'entry-1');
         
-        (new MigrateGuestLikesListener)->handle($this->loginEvent());
+        (new SyncGuestLikes)->handle($this->loginEvent());
 
         $this->assertEquals(1, SimpleLike::where('entry_id', 'entry-1')->count());
         $this->assertDatabaseMissing('simple_likes', ['user_id' => $guestId]);
@@ -84,10 +84,10 @@ class MigrateGuestLikesListenerTest extends TestCase
     #[Test]
     public function it_does_nothing_when_no_guest_likes(): void
     {
-        (new MigrateGuestLikesListener)->handle($this->loginEvent());
+        (new SyncGuestLikes)->handle($this->loginEvent());
 
         $this->assertDatabaseCount('simple_likes', 0);
-        $this->assertFalse(session()->has('wishlist_migrated'));
+        $this->assertFalse(session()->has('likes_migrated'));
     }
 
     #[Test]
@@ -96,7 +96,7 @@ class MigrateGuestLikesListenerTest extends TestCase
         $event = Mockery::mock(Login::class);
         $event->user = null;
 
-        (new MigrateGuestLikesListener)->handle($event);
+        (new SyncGuestLikes)->handle($event);
 
         $this->assertDatabaseCount('simple_likes', 0);
     }
