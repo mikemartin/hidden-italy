@@ -57,7 +57,7 @@ class MigrateGuestLikesListener
             }
 
             if ($migrated) {
-                session(['wishlist_migrated' => true]);
+                session(['likes_migrated' => true]);
             }
         });
     }

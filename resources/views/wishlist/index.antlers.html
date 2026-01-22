@@ -20,18 +20,17 @@
         </div>
     </div>
     
-    {{ if {session:has key="wishlist_migrated"} }}
+    {{ if {session:has key="likes_migrated"} }}
         <div class="flex rounded-lg bg-green-50 p-4 mb-6">
             <div class="shrink-0">
                 <x-lucide-circle-check-big class="size-5 text-green-400" />
             </div>
             <div class="ml-3">
                 <p class="text-sm font-medium text-green-800">
-                    Your wishlist is saved. You can now access it on all your devices.
+                    Your wishlist has been saved to your account.
                 </p>
             </div>
         </div>
-        {{ session:forget keys="wishlist_migrated" }}
     {{ /if }}
     
 	<div>
