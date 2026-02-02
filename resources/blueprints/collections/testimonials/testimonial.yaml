@@ -1,0 +1,44 @@
+title: Testimonial
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: quote
+            field:
+              type: textarea
+              display: Quote
+          -
+            handle: name
+            field:
+              type: text
+              display: Name
+          -
+            handle: tour
+            field:
+              collections:
+                - tours
+              mode: select
+              max_items: 1
+              type: entries
+              display: Tour
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'

@@ -1,0 +1,56 @@
+title: Person
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: subtitle
+            field:
+              type: text
+              display: Subtitle
+              listable: true
+          -
+            handle: short_bio
+            field:
+              character_limit: 600
+              type: textarea
+              display: 'Short Bio'
+          -
+            handle: testimonial
+            field:
+              collections:
+                - testimonials
+              max_items: 1
+              type: entries
+              display: Testimonial
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: image
+            field:
+              container: assets
+              folder: people
+              dynamic: slug
+              restrict: true
+              mode: grid
+              max_files: 1
+              type: assets
+              display: Image
