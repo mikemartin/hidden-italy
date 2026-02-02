@@ -48,7 +48,6 @@ tabs:
             field:
               container: assets
               folder: people
-              dynamic: slug
               restrict: true
               mode: grid
               max_files: 1
