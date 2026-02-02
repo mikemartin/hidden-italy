@@ -67,6 +67,18 @@ return [
             'limit' => 10,
             'width' => '50',
         ], 
+        [ 
+            'type' => 'collection',
+            'collection' => 'people',
+            'limit' => 10,
+            'width' => '50',
+        ], 
+        [ 
+            'type' => 'collection',
+            'collection' => 'testimonials',
+            'limit' => 10,
+            'width' => '50',
+        ], 
     ],
 
     /*
