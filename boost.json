@@ -1,10 +1,14 @@
 {
     "agents": [
-        "claude_code"
+        "claude_code",
+        "copilot"
     ],
     "editors": [
+        "claude_code",
         "vscode"
     ],
-    "guidelines": [],
+    "guidelines": [
+        "statamic/cms"
+    ],
     "herd_mcp": true
 }

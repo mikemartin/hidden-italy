@@ -6,9 +6,3 @@ preferences:
   collections:
     tours:
       view: list
-    pages:
-      view: tree
-    people:
-      view: list
-    testimonials:
-      view: list
