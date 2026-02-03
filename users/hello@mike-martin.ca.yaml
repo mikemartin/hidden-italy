@@ -6,3 +6,5 @@ preferences:
   collections:
     tours:
       view: list
+    testimonials:
+      view: list
