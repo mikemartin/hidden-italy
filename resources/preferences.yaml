@@ -20,11 +20,13 @@ collections:
           fields:
             tour_types:
               operator: like
-              term: guided
+              term:
+                - 'tour_types::guided'
       self_guided:
         display: Self-guided
         filters:
           fields:
             tour_types:
               operator: like
-              term: self-guided
+              term:
+                - 'tour_types::self-guided'
