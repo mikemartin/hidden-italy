@@ -8,3 +8,5 @@ preferences:
       view: list
     testimonials:
       view: list
+    people:
+      view: list
