@@ -8,9 +8,9 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1768366801
+updated_at: 1770770184
 grade: 3
-summary: 'Sardinia is a magical island, a few hours by ferry, but a world away from mainland Italy.'
+summary: 'Sardinia is a magical island, a few hours by ferry, a world away from continental Italy.'
 tour_size: 15
 date: '2026-05-07 14:00'
 overview:
@@ -60,4 +60,5 @@ gallery:
   - tours/sardinia-cagliari-to-the-costa-smeralda/img_5769-(2).jpg
   - tours/sardinia-cagliari-to-the-costa-smeralda/hotel-1.jpg
   - tours/sardinia-cagliari-to-the-costa-smeralda/78.jpg
+simple_likes: 0
 ---
