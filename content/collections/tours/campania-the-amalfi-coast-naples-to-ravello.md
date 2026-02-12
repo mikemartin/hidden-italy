@@ -9,7 +9,7 @@ days: 13
 seasons: spring
 grade: 2
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1770867173
+updated_at: 1770874603
 summary: 'Campania a stunningly beautiful area with all the exuberance and colour of southern Italy.'
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15
@@ -47,11 +47,16 @@ gallery:
   - tours/campania-the-amalfi-coast-naples-to-ravello/3.8.jpg
   - tours/campania-the-amalfi-coast-naples-to-ravello/img_1680.jpg
   - tours/campania-the-amalfi-coast-naples-to-ravello/maratea-2.jpg
+  - tours/campania-the-amalfi-coast-naples-to-ravello/img_2369-v2.jpg
   - tours/campania-the-amalfi-coast-naples-to-ravello/img_3120-v2.jpg
   - tours/campania-the-amalfi-coast-naples-to-ravello/maratea-1.jpg
-  - tours/campania-the-amalfi-coast-naples-to-ravello/img_2369-v2.jpg
   - tours/campania-the-amalfi-coast-naples-to-ravello/img_8037.jpg
   - tours/campania-the-amalfi-coast-naples-to-ravello/img_7102-v2.jpg
   - tours/campania-the-amalfi-coast-naples-to-ravello/img_2509-v2.jpg
+page_builder:
+  -
+    id: mlj10cx3
+    type: highlights
+    enabled: true
 simple_likes: 0
 ---
