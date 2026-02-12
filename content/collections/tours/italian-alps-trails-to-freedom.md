@@ -64,7 +64,7 @@ page_builder:
       -
         id: mjflfz9u
         title: 'Enjoy mountain hospitality'
-        summary: 'Enjoy the generous hospitality of the the mountain people in a little-visited part of Italy: warm welcomes and fine food'
+        summary: 'Enjoy the generous hospitality of the mountain people in a little-visited part of Italy: warm welcomes and fine food!'
         icon: types-houses/ranch-single-story-suburban-sprawling-american-family-simple-residential.svg
       -
         id: mjflgcks
@@ -104,6 +104,7 @@ page_builder:
         distance: 11
         elevation: 393
         meals_included:
+          - breakfast
           - lunch
           - dinner
     type: itinerary
@@ -112,7 +113,7 @@ tour_types: guided
 seasons: summer
 locations: northern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1770871490
+updated_at: 1770873299
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
