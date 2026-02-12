@@ -7,7 +7,7 @@ tour_types: self-guided
 region: "Val d'Aosta"
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1770864818
+updated_at: 1770865414
 grade: 0
 summary: 'A 7-day hike along historic trails through one of Italy’s most beautiful mountain valleys!'
 image: tours/val-daosta-valley-del-lys/1.jpg
@@ -56,7 +56,8 @@ gallery:
   - tours/val-daosta-valley-del-lys/8.jpg
   - tours/val-daosta-valley-del-lys/9.jpg
   - tours/val-daosta-valley-del-lys/10.jpg
-  - tours/val-daosta-valley-del-lys/11.jpg
   - tours/val-daosta-valley-del-lys/13.jpg
+  - tours/val-daosta-valley-del-lys/11.jpg
+  - tours/val-daosta-valley-del-lys/16.jpg
 simple_likes: 0
 ---
