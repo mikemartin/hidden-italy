@@ -48,28 +48,28 @@ page_builder:
         icon: hotel-booking/hotel-building-accommodation-lodging-stay.svg
       -
         id: mjflfcs4
-        title: 'Walk the Pilgrim Trail'
-        summary: 'Follow an ancient route through forests and villages to reach the sanctuary of Oropa.'
+        title: 'Walk the Trails to Freedom'
+        summary: 'Follow ancient trails through the European Alps in the footsteps of 4 Aussie POWs who escaped Fascist Italy in 1943.'
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mjflflyr
-        title: 'Sleep in a Monastery'
-        summary: 'Stay in a centuries-old baroque monastery nestled in the mountains, with a simple, hearty dinner.'
-        icon: hotel-booking/bed-sleep-room-rest-accommodation.svg
+        title: 'Sleep in two ancient monasteries'
+        summary: 'Stay in two centuries-old baroque monasteries nestled in the mountains, and enjoy their history and the hearty dinners.'
+        icon: types-houses/victorian-historic-ornate-19th-century-traditional-period-simple-architecture.svg
       -
         id: mjflft3i
-        title: 'Reach the High Hut'
-        summary: 'Ascend steep alpine trails to a remote mountain refuge with sweeping views and shared bunk-style lodging.'
-        icon: winter-travel/cabin-snow-lodge-winter-holiday.svg
+        title: 'Explore the spectacular scenery'
+        summary: 'This hikes takes you through some of the most spectacular scenery in Europe: mountains and forests; lakes and glaciers.'
+        icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
       -
         id: mjflfz9u
-        title: 'Descend into Alagna'
-        summary: 'Hike through glacier-carved valleys and past Walser farmhouses before arriving in a welcoming alpine village.'
+        title: 'Enjoy mountain hospitality'
+        summary: 'Enjoy the generous hospitality of the the mountain people in a little-visited part of Italy: warm welcomes and fine food'
         icon: types-houses/ranch-single-story-suburban-sprawling-american-family-simple-residential.svg
       -
         id: mjflgcks
         title: 'Celebrate with a Farewell Dinner'
-        summary: 'Mark the end of your alpine journey with a festive group meal in a charming mountain village near the Swiss border.'
+        summary: 'Mark the end of your alpine adventure with a festive group meal in a charming mountain village near the Swiss border.'
         icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
     type: highlights
     enabled: true
@@ -112,9 +112,10 @@ tour_types: guided
 seasons: summer
 locations: northern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1768626801
+updated_at: 1770871490
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
+  - tours/italian-alps-trails-to-freedom/3-(2).jpg
   - tours/italian-alps-trails-to-freedom/5.5.jpg
   - tours/italian-alps-trails-to-freedom/12.jpg
   - tours/italian-alps-trails-to-freedom/57.png
@@ -123,8 +124,8 @@ gallery:
   - tours/italian-alps-trails-to-freedom/dscf1836.jpg
   - tours/italian-alps-trails-to-freedom/74.jpg
   - tours/italian-alps-trails-to-freedom/dscf0276.jpg
-  - tours/italian-alps-trails-to-freedom/3-(2).jpg
-  - tours/italian-alps-trails-to-freedom/p8270231.jpg
   - tours/italian-alps-trails-to-freedom/10.jpg
+  - tours/italian-alps-trails-to-freedom/p8270231.jpg
 image: tours/italian-alps-trails-to-freedom/94.jpg
+simple_likes: 0
 ---
