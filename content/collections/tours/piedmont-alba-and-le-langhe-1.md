@@ -2,15 +2,15 @@
 id: 96805144-50d8-471e-9208-b397627a3a1c
 published: false
 blueprint: tour
-title: 'Piedmont - Alba and Le Langhe'
-name: 'Alba and Le Langhe'
+title: 'Puglia - Puglia in the Spring'
+name: 'Puglia in the Spring'
 tour_types: self-guided
-region: Piedmont
+region: Puglia
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1770869786
+updated_at: 1770871619
 grade: 3
-summary: "8-day circular walk from Alba on Le Langhe's trails, past vineyards, villages and castles."
+summary: 'Puglia is pure southern Italy: vibrant towns, endless trails and coastline; fabulous food!'
 image: tours/piedmont-alba-and-le-langhe/7-v2.jpg
 overview:
   -
@@ -50,4 +50,5 @@ gallery:
   - tours/piedmont-alba-and-le-langhe/11.jpg
 locations: northern-italy
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
+simple_likes: 0
 ---
