@@ -9,7 +9,7 @@ days: 13
 seasons: spring
 grade: 2
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1770874603
+updated_at: 1771213807
 summary: 'Campania a stunningly beautiful area with all the exuberance and colour of southern Italy.'
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15
@@ -58,5 +58,27 @@ page_builder:
     id: mlj10cx3
     type: highlights
     enabled: true
+    title: 'Enjoy the vibrancy of southern Italy!'
+    activities:
+      -
+        id: mlombrtm
+        title: 'Discover the secrets of Naples'
+        summary: "Local guides will help you unlock the secrets of the fascinating and multilayered 'capital' of southern Italy."
+      -
+        id: mlomhha0
+        title: 'Climb to the top of Mount Vesuvius'
+        summary: 'Enjoy the extraordinary views over the Gulf of Naples to the Isle of Capri from the top of this legendary mountain.'
+      -
+        id: mlomkfe7
+        title: 'Explore the Monti Picentini'
+        summary: 'Spend four days exploring the charms and great natural beauty of this little-visited corner of the interior of Campania.'
+      -
+        id: mlompfm9
+        title: 'Savour the flavours of Campania cuisine'
+        summary: 'Campania is the home of some of the icons of Italian cuisine (pizza, pasta, mozzarella) but there is so much more!'
+      -
+        id: mlomvqg9
+        title: 'Revel in the charms of the Amalfi Coast'
+        summary: "The tour finishes with two nights in a 4-star hotel in Ravello a gorgeous town 'closer to the sky than the seashore'."
 simple_likes: 0
 ---
