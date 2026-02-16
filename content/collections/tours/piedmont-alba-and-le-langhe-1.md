@@ -6,9 +6,9 @@ title: 'Puglia - Puglia in the Spring'
 name: 'Puglia in the Spring'
 tour_types: guided
 region: Puglia
-days: 8
+days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1771219366
+updated_at: 1771219470
 grade: 3
 summary: 'Puglia is pure southern Italy: vibrant towns, endless trails and coastline; fabulous food!'
 image: tours/piedmont-alba-and-le-langhe/19.7.jpg
@@ -47,14 +47,16 @@ gallery:
   - tours/piedmont-alba-and-le-langhe/40.6.jpg
   - tours/piedmont-alba-and-le-langhe/43.5.jpg
   - tours/piedmont-alba-and-le-langhe/alberobello-9.jpg
-  - tours/piedmont-alba-and-le-langhe/lecce-28.jpg
   - tours/piedmont-alba-and-le-langhe/matera-14.jpg
+  - tours/piedmont-alba-and-le-langhe/lecce-28.jpg
   - tours/piedmont-alba-and-le-langhe/otranto-24.jpg
   - tours/piedmont-alba-and-le-langhe/palmento-29.jpg
   - tours/piedmont-alba-and-le-langhe/portoselvaggio-2.jpg
   - tours/piedmont-alba-and-le-langhe/ruvo-9.jpg
 locations: southern-italy
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
+tour_size: 15
+date: '2026-05-16 14:00'
 simple_likes: 0
 seasons: spring
 ---
