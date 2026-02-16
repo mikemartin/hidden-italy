@@ -9,7 +9,7 @@ days: 13
 seasons: spring
 grade: 2
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1771215898
+updated_at: 1771216092
 summary: 'Campania a stunningly beautiful area with all the exuberance and colour of southern Italy.'
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15
@@ -76,10 +76,6 @@ page_builder:
         id: mlompfm9
         title: 'Savour the flavours of Campania cuisine'
         summary: 'Campania is the home of some of the icons of Italian cuisine (pizza, pasta, mozzarella) but there is so much more!'
-      -
-        id: mlomvqg9
-        title: 'Revel in the charms of the Amalfi Coast'
-        summary: "The tour finishes with two nights in a 4-star hotel in Ravello a gorgeous town 'closer to the sky than the seashore'."
   -
     id: mlomz5st
     title: 'Campania & The Amalfi Coast walking tour itinerary'
