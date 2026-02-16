@@ -9,6 +9,8 @@ preferences:
       view: list
     pages:
       view: tree
+    people:
+      view: list
   assets:
     icons:
       mode: grid
