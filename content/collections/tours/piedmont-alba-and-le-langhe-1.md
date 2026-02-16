@@ -1,6 +1,5 @@
 ---
 id: 96805144-50d8-471e-9208-b397627a3a1c
-published: false
 blueprint: tour
 title: 'Puglia - Puglia in the Spring'
 name: 'Puglia in the Spring'
@@ -8,7 +7,7 @@ tour_types: guided
 region: Puglia
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1771219470
+updated_at: 1771219488
 grade: 3
 summary: 'Puglia is pure southern Italy: vibrant towns, endless trails and coastline; fabulous food!'
 image: tours/piedmont-alba-and-le-langhe/19.7.jpg
