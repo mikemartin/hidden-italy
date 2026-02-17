@@ -5,9 +5,9 @@ title: 'Trentino-Alto Adige - Dolomites'
 name: Dolomites
 region: 'Trentino-Alto Adige'
 days: 13
-tour_types: self-guided
+tour_types: guided
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1770774438
+updated_at: 1771307743
 locations: northern-italy
 grade: 3
 image: tours/trentino-alto-adige-dolomites/804729994-100.jpg
