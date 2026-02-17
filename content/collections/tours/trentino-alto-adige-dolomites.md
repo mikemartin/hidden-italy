@@ -7,7 +7,7 @@ region: 'Trentino-Alto Adige'
 days: 13
 tour_types: guided
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1771307743
+updated_at: 1771308791
 locations: northern-italy
 grade: 3
 image: tours/trentino-alto-adige-dolomites/804729994-100.jpg
@@ -54,4 +54,27 @@ gallery:
   - tours/trentino-alto-adige-dolomites/p9192166.jpg
   - tours/trentino-alto-adige-dolomites/61.jpg
 simple_likes: 0
+page_builder:
+  -
+    id: mlq6wt91
+    title: 'Highlights Trentino-Alto Adige'
+    activities:
+      -
+        id: mlq6xexm
+        title: 'Be seduced by Verona'
+        summary: "Stay a classic 4-star hotel in the heart of old town and explore Italy's most romantic town with our own local guide."
+      -
+        id: mlq71o6y
+        title: 'Immerse yourself in the Dolomites'
+        summary: 'Immerse yourself in the most beautiful mountains in the world, following well-marked trials accompanied by local guides.'
+      -
+        id: mlq77jb0
+        title: 'Enjoy world-class accommodation'
+        summary: 'Enjoy 4-star accommodation staying in classic hotels in Verona and Cortina, and spectacular mountains lodges in between.'
+      -
+        id: mlq7aw9b
+        title: 'Delight in the cuisine (and wines)'
+        summary: 'Enjoy excellent local food, a delicious combination of traditional mountain cooking and sophisticated Austrian cuisine.'
+    type: highlights
+    enabled: true
 ---
