@@ -6,6 +6,11 @@ preferences:
   collections:
     tours:
       view: list
+      columns:
+        - title
+        - days
+        - tour_types
+        - status
     testimonials:
       view: list
     people:
