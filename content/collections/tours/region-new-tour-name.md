@@ -2,51 +2,65 @@
 id: 43c82038-3f21-4148-8641-024253f68420
 published: false
 blueprint: tour
-title: 'Region - New Tour Name'
-name: 'New Tour Name'
+title: 'Abruzzo and Molise - From the mountains to the sea'
+name: 'From the mountains to the sea'
 tour_types: guided
-region: Region
+region: 'Abruzzo and Molise'
 days: 13
-updated_by: 6e2cc1d1-1470-4391-963d-37aed038e27a
-updated_at: 1771303091
-grade: 3
-summary: 'Puglia is pure southern Italy: vibrant towns, endless trails and coastline; fabulous food!'
+updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
+updated_at: 1771387564
+grade: 4
+summary: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
+image: tours/puglia-puglia-in-the-spring/img_2920.jpg
 overview:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'A bridge between Italy and the East, Puglia is pure southern Italy: layers of history, vibrant cities and towns, ancient traditions celebrated in colourful festivals; a timeless interior edged by an endless coastline; gracious hospitality and fabulous food.'
+        text: 'Starting with two nights in Rome, this exclusive 7-person tour explores Abruzzo and Molise, two of Italy’s least-visited regions, nestled in the Apennines, the mountainous spine of Italy but also bound by the endless beaches of the Adriatic Coast.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "\_Visiting Puglia is an adventure.\_ It is a delightfully different world to the fashionable streets of Florence, Milan and Venice: little English is spoken; time is flexible; it has been little touched by tourism and surprises lurk around every corner. \_A trip to Puglia is a fascinating and rewarding experience, particularly in the spring."
+        text: "Abruzzo and Molise are renowned for their natural beauty: soaring mountains; vast national parks; rolling pastures scattered with villages and isolated monasteries; and long sandy beaches; but they also have fascinating histories and ancient traditions.\_ The real bonus, though, of visiting this part of the world is that you are so far from the usual tourist trails!\_ \_A holiday in Abruzzo and Molise is full of surprises, charm and authentic hospitality."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "\_The highlights of the Hidden Italy Puglia tour include walking along country lanes lined with ancient dry-stone walls, olive groves and fields filled with wildflowers; exploring the mysteries of Matera; sleeping in a restored 18th century Masseria, surrounded by ancient olive trees; sailing on the Adriatic Sea; a cooking day in a 15th century tower in the heart of the 'Salento' district; coastal walks along both the Adriatic and Ionian Seas; visiting Frederick's extraordinary castle of Castel del Monte; wandering the medieval lanes and allies of Bari Vecchia (old Bari); the fabulous Pugliese cooking; and last, but not least, the warm southern hospitality."
+        text: "The tour starts with two nights in the heart of Rome, around the corner from the Pantheon. \_We then drive one hundred kilometres east to a beautifully restored medieval village on the edge of the Gran Sasso National Park, our base for the next four nights’. \_From here we drive south into Molise, where our base for four nights is a lovely, family-run 'agriturismo'.\_ We finish the tour with two nights on the sea, staying in the historic centre of Termoli, a charming coastal town close to the Puglia border."
 inclusions:
-  - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
+  - '•12 nights accommodation (see the itinerary for details) in hotels and private apartments'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
-  - 'All transfers and activities during the tours'
+  - 'All land and sea transfers during the tours'
   - 'All taxes and service charges at the hotels and restaurants'
   - 'All paid admissions during the tour'
-  - '8 guided walks'
-  - 'Guided sight seeing tours of Bari and Lecce'
-  - 'Services of a full-time professional tour guide'
+  - '6 guided walks'
+  - 'Services of a two full-time professional tour guide'
+  - 'A bespoke small group tour (max 7 people)!'
+gallery:
+  - tours/puglia-puglia-in-the-spring/rome-1.jpg
+  - tours/puglia-puglia-in-the-spring/rome-2.jpg
+  - tours/puglia-puglia-in-the-spring/img_2777.jpg
+  - tours/puglia-puglia-in-the-spring/img_8356-v2.jpg
+  - tours/puglia-puglia-in-the-spring/img_2869.jpg
+  - tours/puglia-puglia-in-the-spring/img_3123.jpg
+  - tours/puglia-puglia-in-the-spring/img_2830.jpg
+  - tours/puglia-puglia-in-the-spring/img_3344.jpg
+  - tours/puglia-puglia-in-the-spring/img_2920.jpg
+  - tours/puglia-puglia-in-the-spring/img_8188.jpg
+  - tours/puglia-puglia-in-the-spring/15-termoli.jpg
+  - tours/puglia-puglia-in-the-spring/14-termoli.jpg
 locations: southern-italy
 duplicated_from: 96805144-50d8-471e-9208-b397627a3a1c
-tour_size: 15
-date: '2026-05-16 14:00'
+tour_size: 7
+date: '2027-05-27 14:00'
 page_builder:
   -
     id: mloqd78x
-    title: 'Puglia tour highlights'
+    title: aB
     activities:
       -
         id: mloqdoo9
