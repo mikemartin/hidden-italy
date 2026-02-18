@@ -2,15 +2,15 @@
 id: bf401969-bac2-4370-8ffd-d7c62b8f4ade
 published: false
 blueprint: tour
-title: 'Abruzzo and Molise - From the mountains to the sea'
-name: 'From the mountains to the sea'
+title: "Val d'Aosta - Turin and the Val d'Aosta guided tour"
+name: "Turin and the Val d'Aosta guided tour"
 tour_types: guided
-region: 'Abruzzo and Molise'
+region: "Val d'Aosta"
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1771392605
+updated_at: 1771393870
 grade: 4
-summary: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
+summary: 'The home'
 image: tours/puglia-puglia-in-the-spring/img_2920.jpg
 overview:
   -
