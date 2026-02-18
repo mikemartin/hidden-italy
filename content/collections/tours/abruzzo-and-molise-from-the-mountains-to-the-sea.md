@@ -1,6 +1,5 @@
 ---
 id: 43c82038-3f21-4148-8641-024253f68420
-published: false
 blueprint: tour
 title: 'Abruzzo and Molise - From the mountains to the sea'
 name: 'From the mountains to the sea'
@@ -8,7 +7,7 @@ tour_types: guided
 region: 'Abruzzo and Molise'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1771390397
+updated_at: 1771390438
 grade: 4
 summary: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
 image: tours/puglia-puglia-in-the-spring/img_2920.jpg
