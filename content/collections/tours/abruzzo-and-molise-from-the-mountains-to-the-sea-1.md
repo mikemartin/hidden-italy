@@ -8,7 +8,7 @@ tour_types: guided
 region: "Val d'Aosta"
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1771393870
+updated_at: 1772169419
 grade: 4
 summary: 'The home'
 overview:
@@ -17,59 +17,68 @@ overview:
     content:
       -
         type: text
-        text: 'Starting with two nights in Rome, this exclusive 7-person tour explores Abruzzo and Molise, two of Italy’s least-visited regions, nestled in the Apennines, the mountainous spine of Italy but also bound by the endless beaches of the Adriatic Coast.'
+        text: "The Val d’Aosta may be Italy’s smallest region, but it is also one of its most spectacular, a wedge of mountains and valleys in the north-west corner of the country.\_ The region shares borders with Switzerland and France and contains Europe’s four highest peaks: Mt Blanc, the Matterhorn, Monte Rosa and Gran Paradiso."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Abruzzo and Molise are renowned for their natural beauty: soaring mountains; vast national parks; rolling pastures scattered with villages and isolated monasteries; and long sandy beaches; but they also have fascinating histories and ancient traditions.\_ The real bonus, though, of visiting this part of the world is that you are so far from the usual tourist trails!\_ \_A holiday in Abruzzo and Molise is full of surprises, charm and authentic hospitality."
+        text: 'The Val d’Aosta offers some of Europe’s finest walking, following a network of clearly marked and well-maintained trails. These paths traverse small valleys, linking historic villages to high pastures and mountain passes, passing waterfalls and glaciers along the way.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "The tour starts with two nights in the heart of Rome, around the corner from the Pantheon. \_We then drive one hundred kilometres east to a beautifully restored medieval village on the edge of the Gran Sasso National Park, our base for the next four nights’. \_From here we drive south into Molise, where our base for four nights is a lovely, family-run 'agriturismo'.\_ We finish the tour with two nights on the sea, staying in the historic centre of Termoli, a charming coastal town close to the Puglia border."
+        text: "With its strategic position, the Val d’Aosta has a rich history, which is reflected in its cherished traditions. Italian and French are both official languages.\_ This cultural diversity is reflected in the local cuisine, simple, hearty mountain fare.\_ The region also produces some excellent cold-climate wines."
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "This tour highlights the Val d’Aosta's natural beauty and cultural heritage.\_ It begins with two days in elegant Turin; followed by three days in the Gressoney Valley at the foot of Mt Rosa; four days are in Cogne exploring Gran Paradiso National Park, Italy’s oldest national park; and finally, three days in glamorous Courmayeur at the foot of Mt Blanc. Travelling in early September means we avoid crowds and enjoy pleasant autumn weather.\_"
 inclusions:
-  - '•12 nights accommodation (see the itinerary for details) in hotels and private apartments'
+  - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
-  - 'All land and sea transfers during the tours'
+  - 'All transfers during the tours'
   - 'All taxes and service charges at the hotels and restaurants'
   - 'All paid admissions during the tour'
-  - '6 guided walks'
-  - 'Services of a two full-time professional tour guide'
-  - 'A bespoke small group tour (max 7 people)!'
+  - '7 guided walks'
+  - 'Services of a full-time professional tour guide'
 locations: southern-italy
 duplicated_from: 43c82038-3f21-4148-8641-024253f68420
-tour_size: 7
+tour_size: 15
 date: '2027-05-27 14:00'
 page_builder:
   -
     id: mloqd78x
-    title: 'Abruzzo and Molise guided tour'
+    title: "Turin and Val d'Aosta guided tour"
     activities:
       -
         id: mloqdoo9
-        title: "Get an insider's view of Rome"
-        summary: "Stay in an historic hotel near the Pantheon, explore Rome with a local and have dinner at the city's oldest restaurant."
+        title: 'Discover the elegance of Turin'
+        summary: "Turin is one of Italy's hidden gems: an elegant city with kilometres of arcades, historic cafes and excellent museums."
       -
         id: mloqi0iy
-        title: 'Explore the Gran Sasso National Park'
-        summary: 'Explore the largest national park in central Italy, following well-marked trails and beautiful historic droving trails.'
+        title: 'Stay in fabulous accommodation'
+        summary: 'This tour is 4-star all the way: an historic hotel in Turin and then a series of lovely family-run mountain hotels.'
       -
         id: mloqndod
-        title: 'Be a guest in marvellous accommodation'
-        summary: 'Stay in an extraordinary restored medieval village, a lovely family-run agriturismo, a private apartment with seaviews.'
+        title: "Explore Italy's most spectacular region"
+        summary: "Every corner of the Val d'Aosta has breathtaking views: spectacular mountains, glaciers, high pastures and cute villages"
       -
         id: mloqrnhn
-        title: 'Discover Molise'
-        summary: "Discover the rolling hills, vineyards, walking trails, coastline, islands food, traditions of Italy's least-known region"
+        title: "Walk some of Europe's finest trails"
+        summary: 'Walk well-maintained and well-marked mountain trails each day, surrounded on every side by incomparable natural beauty.'
+      -
+        id: mm4fpvo1
+        title: 'Enjoy wholesome mountain cuisine'
+        summary: "The valley's cuisine is a mix of traditional mountain food and sophisticated French cuisine, all based on local produce."
     type: highlights
     enabled: true
   -
     id: mloqvfcq
-    title: 'Abruzzo and Molise guided tour'
-    summary: 'This exclusive 7-person tour explores Abruzzo and Molise, two of Italy’s less-visited regions, which are nestled in the Apennines, the mountainous spine of Italy, both have rolling hills that stretch down to the endless beaches of the Adriatic Coast'
+    title: "Turin and the Val d'Aosta guided tour"
+    summary: "This wonderful tour introduces you to one of Italy's best kept secrets: the Val d'Aosta, which holds Europe's highest peaks, hidden valleys and villages that cling proudly to their long traditions."
     days:
       -
         id: mloqwjgq
@@ -181,4 +190,18 @@ page_builder:
     enabled: true
 simple_likes: 0
 seasons: spring
+image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/-valle-del-lys.jpeg
+gallery:
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/k.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/c.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/5a.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_4790.jpeg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_9838.jpeg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/-valle-del-lys.jpeg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_7198.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_5043.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/a.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/21.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/val-ferret.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_5240.jpg
 ---
