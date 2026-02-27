@@ -11,7 +11,6 @@ updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
 updated_at: 1771393870
 grade: 4
 summary: 'The home'
-image: tours/puglia-puglia-in-the-spring/img_2920.jpg
 overview:
   -
     type: paragraph
@@ -40,19 +39,6 @@ inclusions:
   - '6 guided walks'
   - 'Services of a two full-time professional tour guide'
   - 'A bespoke small group tour (max 7 people)!'
-gallery:
-  - tours/puglia-puglia-in-the-spring/rome-1.jpg
-  - tours/puglia-puglia-in-the-spring/rome-2.jpg
-  - tours/puglia-puglia-in-the-spring/img_2777.jpg
-  - tours/puglia-puglia-in-the-spring/img_8356-v2.jpg
-  - tours/puglia-puglia-in-the-spring/img_2869.jpg
-  - tours/puglia-puglia-in-the-spring/img_3123.jpg
-  - tours/puglia-puglia-in-the-spring/img_2830.jpg
-  - tours/puglia-puglia-in-the-spring/img_3344.jpg
-  - tours/puglia-puglia-in-the-spring/img_2920.jpg
-  - tours/puglia-puglia-in-the-spring/img_8188.jpg
-  - tours/puglia-puglia-in-the-spring/15-termoli.jpg
-  - tours/puglia-puglia-in-the-spring/14-termoli.jpg
 locations: southern-italy
 duplicated_from: 43c82038-3f21-4148-8641-024253f68420
 tour_size: 7

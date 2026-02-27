@@ -10,7 +10,6 @@ updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
 updated_at: 1771390438
 grade: 4
 summary: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
-image: tours/puglia-puglia-in-the-spring/img_2920.jpg
 overview:
   -
     type: paragraph
@@ -39,19 +38,6 @@ inclusions:
   - '6 guided walks'
   - 'Services of a two full-time professional tour guide'
   - 'A bespoke small group tour (max 7 people)!'
-gallery:
-  - tours/puglia-puglia-in-the-spring/rome-1.jpg
-  - tours/puglia-puglia-in-the-spring/rome-2.jpg
-  - tours/puglia-puglia-in-the-spring/img_2777.jpg
-  - tours/puglia-puglia-in-the-spring/img_8356-v2.jpg
-  - tours/puglia-puglia-in-the-spring/img_2869.jpg
-  - tours/puglia-puglia-in-the-spring/img_3123.jpg
-  - tours/puglia-puglia-in-the-spring/img_2830.jpg
-  - tours/puglia-puglia-in-the-spring/img_3344.jpg
-  - tours/puglia-puglia-in-the-spring/img_2920.jpg
-  - tours/puglia-puglia-in-the-spring/img_8188.jpg
-  - tours/puglia-puglia-in-the-spring/15-termoli.jpg
-  - tours/puglia-puglia-in-the-spring/14-termoli.jpg
 locations: southern-italy
 duplicated_from: 96805144-50d8-471e-9208-b397627a3a1c
 tour_size: 7
