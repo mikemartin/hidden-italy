@@ -8,7 +8,7 @@ tour_types: guided
 region: "Val d'Aosta"
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772169495
+updated_at: 1772423235
 grade: 4
 summary: 'The home'
 overview:
@@ -78,112 +78,114 @@ page_builder:
   -
     id: mloqvfcq
     title: "Turin and the Val d'Aosta guided tour"
-    summary: "This wonderful tour introduces you to one of Italy's best kept secrets: the Val d'Aosta, which holds Europe's highest peaks, hidden valleys and villages that cling proudly to their long traditions."
+    summary: "This wonderful tour introduces you to one of Italy's best kept secrets: the Val d'Aosta, which holds Europe's highest peaks, hidden valleys and villages that proudly embrace their long and diverse traditions."
     days:
       -
         id: mloqwjgq
-        title: 'Day 1:  Arrive in Rome'
-        description: 'The tour starts in the heart of Rome, in an historic hotel a short walk from the Pantheon.  We will meet at the hotel at 19.00 and walk to dinner at a nearby osteria (first mentioned in a document in 1518 and reputedly the oldest in Rome and a favourite of Caravaggio) which specialises in classic Roman cuisine.'
+        title: 'Day 1:  Arrive in Turin'
+        description: 'Arrival in Turin, my favourite Italian city: miles of arcades with bookshops, chocolate shops, excellent museums and historic cafes.  We will spend the first two nights in an elegant 4-star hotel in the pedestrian centre of the city.  We’ll meet in the hotel foyer at 19.00 and then have dinner in a very nice restaurant a short walk from the hotel.'
         meals_included:
           - dinner
       -
         id: mloqxcnx
-        title: 'Day 2:  Explore Rome'
-        description: 'This morning we will be taken on a guided tour of the centre of Rome finishing with a delicious lunch. After this, the rest of the afternoon and evening are free to explore the ‘Eternal City’.'
+        title: 'Day 2:  Explore Turin'
+        description: "This morning you will be taken on a guided walk through Turin's centre visiting some of the city's Baroque splendour, the legacy of the Savoy kings who ruled from here for nearly six centuries.  After lunch, the afternoon and evening are free."
         meals_included:
           - breakfast
           - lunch
       -
         id: mloqy5ed
-        title: 'Day 3:  Transfer to Abruzzo'
-        description: 'This morning we drive one hundred kilometres east into the Apennine Mountains. On the way we stop for a guided tour of Tivoli, including a visit to Villa Adriana, the retirement home of Hadrian, ‘the largest and most sumptuous villa in the Roman Empire’.  After checking into our wonderful accommodation (‘a truly unique and special experience’), you will be free to explore the village. We will have dinner at our accommodation’s excellent restaurant.'
+        title: 'Day 3:  Transfer to Gressoney'
+        description: 'Today we head north, following the course of the Dora River from Turin.  We will stop to visit Fort Bard, an historic fortification that guards the entrance into the Val d’Aosta. Our base for the next three days is in a beautiful village at the head of one of a valley dominated by a glacier and Monte Rosa (the second highest peak in the Alps).  Our accommodation is in a charming family-run, 4-star hotel.  The alla carte dinners for the next 3 nights will be in the hotel’s excellent restaurant.'
         meals_included:
           - breakfast
           - lunch
           - dinner
       -
         id: mloqzruj
-        title: 'Day 4:  Walk through rolling hills'
-        description: 'This morning we go for a fascinating walk starting from our village, following an undulating trail that was once used by drovers moving their flocks between the mountains and the coast.  The first stop is at the spectacular ruins of a medieval castle.  From here we walk down into the valley past a lake and farmlands to the next village.  We’ll have a cut lunch along the way.  After refreshments, we will be driven back to base.  The evening is free.'
-        duration: 5
-        distance: 15
-        elevation: 650
+        title: 'Day 4:  Meet the glacier'
+        description: 'The first walk follows a trail that is one of the most popular among hikers visiting the valley.  We leave directly from our hotel and head north following the Lys river, climbing up through larch forests towards the glacial source of the river.  It is relatively short and allows you to quickly reach the border between the ‘normal’ mountain and the ‘glacial’ mountain in a quite spectacular location.  We follow the river back to our base.'
+        duration: 3
+        distance: 8
+        elevation: 400
         meals_included:
           - breakfast
           - lunch
       -
         id: mlor10w3
-        title: "Day 5:  Visit L'Aquila"
-        description: 'This morning we drive thirty kilometres north to L’Aquila, the mountain capital of Abruzzo, which has an ancient history. The city’s golden days were in the 15th century, when it had its own university, its own mint and was the home of saints and scholars.  After lunch, we will return to our base, where the rest of the afternoon is free. In the evening, we will have a lesson that will introduce us to the one of the secrets of traditional Abruzzo cuisine.  This will be followed by dinner.'
+        title: 'Day 5:'
+        description: 'Today we will immerse ourselves in the local Walser culture.  This morning’s walk again starts from the hotel but this time we head south, following the historic Grand Walser Trail, walking through stone hamlets and high pastures that have remained unchanged for centuries, stopping for lunch along the way.  After, we take the path down to a neighbouring village where we will be taken on a guided visit of an enchanting castle, once the summer residence of Margherita, the first queen of Italy.'
         meals_included:
           - breakfast
           - lunch
           - dinner
+        duration: 4
+        distance: 9
+        elevation: 365
       -
         id: mlor23s2
-        title: 'Day 6:  Walk on the Gran Sasso'
-        description: 'This morning we explore some of the most spectacular scenery in central Italy: the Campo Imperatore, a vast high plain and the Gran Sasso, the Apennine’s highest peak.  This walk is one of the most rewarding in Abruzzo. It starts with a gradual climb up a well-made path and then contours up to a pass with a superb view of the Gran Sasso and the surrounding countryside.  We then drive back to our base, having a delicious lunch on the way.  The rest of the afternoon and evening are free.'
-        duration: 3
-        distance: 6
-        elevation: 360
+        title: 'Day 6:  Vineyards and the Gran Paradiso Park'
+        description: 'Today we head west o our next base, which is tucked away in another valley on the edge of the Gran Paradiso National Park, Italy’s oldest.  On the way, we’ll visit one of the best vineyards in the region for a comprehensive tasting of their very fine wines.  We will then have a delicious lunch.  From here it is a short drive to our next base, where we will stay in a beautiful 4-star hotel, a family-run 4-star mountain hideaway that dates from the 1920’s.  After settling in, the evening is free.'
         meals_included:
           - breakfast
           - lunch
       -
         id: mlor3ri3
         title: 'Day 7:'
-        description: 'Today, we leave Abruzzo and drive south into rolling hills and forests of Molise. On the way, we stop at Isernia, the ‘capital’ of Alto Molise (Upper Molise) for a guided visit of one of the most extraordinary museums in the region.  After lunch in town, we continue our drive to Agnone, a remarkable small town in the hills of northern Molise. Our accommodation is in a beautiful, family-run ‘agriturismo’ in a vineyard in the valley.  The afternoon is free then dinner is at the agriturismo.'
+        description: 'Today we leave our hotel and walk up through pine forest to the end of the valley to visit a series of spectacular waterfalls. After a picnic lunch, we follow the river back to our accommodation, where the afternoon is free.  We will regroup for an aperitivo in the evening and then dinner in our hotel’s excellent restaurant.'
         meals_included:
           - breakfast
           - lunch
           - dinner
-      -
-        id: mlor6aar
-        title: 'Day 8:  Walk along a ridge'
-        description: 'This morning, we take a thirty-minute winding drive up to a small village that is the highest point in the valley.  From here we follow trails up through beech forest to a long ridge, with very spectacular views.  We will have a cut lunch in the forest.  The rest of the afternoon is free.  In the evening, we will have a short transfer to one of the surprises of the area, a lovely farm-based restaurant where we will have degustation dinner prepared by their Michelin-starred local chef.'
         duration: 4
         distance: 10
-        elevation: 340
+        elevation: 355
+      -
+        id: mlor6aar
+        title: 'Day 8:  Visit Aosta town'
+        description: "Today we will be taken on a guided visit the regional capital, Aosta city, a very interesting town surrounded by snow-capped mountains, a thirty minute drive away.  Once an important Roman town, character of the city now is more southern French than Italian, thanks to the Aosta's historic allegiance to the house of Challant and its vicinity to France.  The locals speak 'patois', a French dialect.  After lunch we will head back to our base, where the evening is free."
         meals_included:
           - breakfast
           - lunch
-          - dinner
       -
         id: mlor867w
-        title: 'Day 9:  Get immersed in local traditions'
-        description: 'This morning, we take a short drive from our base is one of the most important archaeological sites in Molise.  After a guided tour of the site, we will have a light lunch in a small trattoria. In the afternoon, we will be taken on guided tour of the great surprises of this area: a bell foundry which has been operating in the town since the 13th century. It has been in the hands of the same family all this time, 27 generations, and so is the oldest continually operating company in the world!'
+        title: 'Day 9:  Climb into the mountains'
+        description: 'Today we get a short lift up the side of the valley to a pretty village. From here we follow a trail into a spectacular neighbouring valley, to a small stone hamlet, which is summer accommodation for the ‘pastori’ who still walk their sheep up here to graze on the meadows. We’ll have a cut lunch, then retrace our way back to the village, where we can have a cold drink before getting a lift back down to base.  Dinner tonight will be in a charming traditional restaurant.'
         meals_included:
           - breakfast
           - lunch
           - dinner
+        duration: 12
+        distance: 5
+        elevation: 566
       -
         id: mlora14b
-        title: 'Day 10:  Walk in ancient beech forest'
-        description: 'At seven thousand kilometres, the Sentiero Italia is the longest walking trail in the world. It was created to connect all the Italian regions and unite their cultural diversity, beauty and traditions. This morning, we walk a section of Sentiero, a loop walk following a well-made trail through spectacular old-growth beech forest. After a cut lunch along the way, we return to our base where you can swim in the pool and relax for the rest of the afternoon. We have dinner at the agriturismo.'
-        duration: 4
-        distance: 9
-        elevation: 340
+        title: 'Day 10:  Discover Courmayeur'
+        description: "This morning we head to Courmayeur at the foot of Mt Blanc, which, at 4810 mts asl, is Europe's highest mountain.  Flush against the French border, Courmayeur was once a Roman outpost but is now a very upmarket ski and outdoor sports resort.  On the way, we will enjoy a guided visit of a Roman aqueduct and then a recently restored castle/noble residence before having lunch.  After checking into our 5-star, family-run hotel (the best in the region) the rest of the afternoon and evening is free."
         meals_included:
           - breakfast
           - lunch
-          - dinner
       -
         id: mlorbjxg
-        title: 'Day 11:  Transfer to the coast'
-        description: 'Today we leave the mountains and drive east to Termoli, a very attractive fishing town on the southern coast of Molise, near the border with Puglia. Termoli sits on a promontory dominated by a small Norman castle. Kilometres of beaches stretch to the north and south.  Our accommodation for the last two nights will be in seaview apartments in the beautifully restored historic centre. Once we have checked in, the afternoon and evening are free to enjoy this gorgeous town and its beaches.'
+        title: 'Day 11:'
+        description: 'This morning we drive into the neighbouring Val Ferret and enjoy a beautiful panoramic walk at the foot of Mont Blanc, one of my all-time favourite walks. We start by walking beside the river before a long, gentle climb up to the ridge. From here we walk back down the valley with extraordinary views up to the mountains. We will stop for lunch in a ‘rifugio’ and then head down to the river, where we will be picked up and driven back to our hotel.  The evening is free.'
         meals_included:
           - breakfast
+          - lunch
+        duration: 4
+        distance: 12
+        elevation: 400
       -
         id: mlore9l3
-        title: 'Day 12:  Touring the Tremoli Islands'
-        description: 'This morning, we take a one-hour ferry ride across the Adriatic to the Isole Tremiti, an archipelago of three magical islands off the coast of Puglia.  We will be taken by a private boat for a tour of the islands with plenty of chances for swimming. We will have a light lunch back at the port, before returning by ferry to Termoli.  In the evening we have our farewell dinner outdoors in the historic centre of Termoli at a small restaurant that specialises in the freshest of local seafood.'
+        title: 'Day 12:  Go to the top of Europe'
+        description: 'This morning we catch the famous Mont Blanc Skyway (a spectacular cable car inaugurated in 2015) up to Punta Helbronner, the highest point on the Italian side of the mountain.  After enjoying the spectacular views, you will have the option of taking another, smaller cable car across glaciers to the French side of Mont Blanc.  After lunch we head back down, visiting a high altitude botanical gardens on the way.  In the evening, our farewell dinner will be at our hotel’s excellent restaurant.'
         meals_included:
           - breakfast
           - dinner
       -
         id: mlorf281
-        title: 'Day 13:  Departure'
-        description: 'Termoli is connect by rail to Pescara and Bologna to the north and Bari and Lecce to the south. For those interested, we will have a transfer 50 minutes south to Foggia which has fast train connections to Naples and Rome.'
+        title: 'Day 13:  Return to Turin'
+        description: 'This morning, we leave to 08.00 and head back to Turin (approximately 2 hours away) which has excellent national and international rail and air connections.'
         meals_included:
           - breakfast
     type: itinerary
@@ -194,14 +196,14 @@ image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/-valle-del-lys.j
 gallery:
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/k.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/c.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/5a.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_4790.jpeg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_9838.jpeg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/-valle-del-lys.jpeg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/5a.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_8817.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_9838.jpeg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_7198.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_5043.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/a.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/21.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/val-ferret.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/21.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_0108-a.jpeg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_5240.jpg
 ---
