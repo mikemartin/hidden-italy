@@ -1,6 +1,5 @@
 ---
 id: bf401969-bac2-4370-8ffd-d7c62b8f4ade
-published: false
 blueprint: tour
 title: "Val d'Aosta - Turin and the Val d'Aosta guided tour"
 name: "Turin and the Val d'Aosta guided tour"
@@ -8,7 +7,7 @@ tour_types: guided
 region: "Val d'Aosta"
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772423487
+updated_at: 1772423503
 grade: 4
 summary: "Two weeks exploring the Val d'Aosta, Italy's smallest, but most spectacular, region!"
 overview:
