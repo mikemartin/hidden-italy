@@ -8,9 +8,9 @@ tour_types: guided
 region: "Val d'Aosta"
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772423235
+updated_at: 1772423413
 grade: 4
-summary: 'The home'
+summary: "Two weeks exploring the Val d'Aosta, Italy's smallest, but most spectacular, region!"
 overview:
   -
     type: paragraph
@@ -196,8 +196,8 @@ image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/-valle-del-lys.j
 gallery:
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/k.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/c.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/-valle-del-lys.jpeg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/5a.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/-valle-del-lys.jpeg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_8817.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_9838.jpeg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_7198.jpg
