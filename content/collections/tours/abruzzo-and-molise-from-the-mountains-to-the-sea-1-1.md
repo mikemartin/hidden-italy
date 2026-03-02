@@ -192,18 +192,4 @@ page_builder:
     enabled: true
 simple_likes: 0
 seasons: spring
-image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/-valle-del-lys.jpeg
-gallery:
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/k.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/c.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/5a.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/-valle-del-lys.jpeg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_8817.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_9838.jpeg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_7198.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_5043.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/val-ferret.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/21.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_0108-a.jpeg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_5240.jpg
 ---
