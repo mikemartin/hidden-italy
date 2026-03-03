@@ -7,7 +7,7 @@ tour_types: guided
 region: "Val d'Aosta"
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772423503
+updated_at: 1772511753
 grade: 4
 summary: "Two weeks exploring the Val d'Aosta, Italy's smallest, but most spectacular, region!"
 overview:
@@ -130,7 +130,7 @@ page_builder:
           - lunch
       -
         id: mlor3ri3
-        title: 'Day 7:'
+        title: 'Day 7:  Walk to waterfalls'
         description: 'Today we leave our hotel and walk up through pine forest to the end of the valley to visit a series of spectacular waterfalls. After a picnic lunch, we follow the river back to our accommodation, where the afternoon is free.  We will regroup for an aperitivo in the evening and then dinner in our hotel’s excellent restaurant.'
         meals_included:
           - breakfast
@@ -166,7 +166,7 @@ page_builder:
           - lunch
       -
         id: mlorbjxg
-        title: 'Day 11:'
+        title: 'Day 11:  A spectacular mountain hike'
         description: 'This morning we drive into the neighbouring Val Ferret and enjoy a beautiful panoramic walk at the foot of Mont Blanc, one of my all-time favourite walks. We start by walking beside the river before a long, gentle climb up to the ridge. From here we walk back down the valley with extraordinary views up to the mountains. We will stop for lunch in a ‘rifugio’ and then head down to the river, where we will be picked up and driven back to our hotel.  The evening is free.'
         meals_included:
           - breakfast
@@ -176,7 +176,7 @@ page_builder:
         elevation: 400
       -
         id: mlore9l3
-        title: 'Day 12:  Go to the top of Europe'
+        title: 'Day 12:  Fly to the top of Europe'
         description: 'This morning we catch the famous Mont Blanc Skyway (a spectacular cable car inaugurated in 2015) up to Punta Helbronner, the highest point on the Italian side of the mountain.  After enjoying the spectacular views, you will have the option of taking another, smaller cable car across glaciers to the French side of Mont Blanc.  After lunch we head back down, visiting a high altitude botanical gardens on the way.  In the evening, our farewell dinner will be at our hotel’s excellent restaurant.'
         meals_included:
           - breakfast
