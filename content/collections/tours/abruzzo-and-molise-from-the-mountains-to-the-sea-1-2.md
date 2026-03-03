@@ -1,6 +1,5 @@
 ---
 id: 9fd38ab4-55ef-435d-82cc-d9246de83cc3
-published: false
 blueprint: tour
 title: 'Friuli Venezia Giulia - Trieste and Friuli guided tour: Udine to Trieste'
 name: 'Trieste and Friuli guided tour: Udine to Trieste'
@@ -8,7 +7,7 @@ tour_types: guided
 region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772511668
+updated_at: 1772512842
 grade: 4
 summary: 'A special tour to a fascinating region: 3 borders, 4 national parks; and five languages.'
 overview:
@@ -143,33 +142,37 @@ page_builder:
         elevation: 355
       -
         id: mlor6aar
-        title: 'Day 8:  Visit Aosta town'
-        description: "Today we will be taken on a guided visit the regional capital, Aosta city, a very interesting town surrounded by snow-capped mountains, a thirty minute drive away.  Once an important Roman town, character of the city now is more southern French than Italian, thanks to the Aosta's historic allegiance to the house of Challant and its vicinity to France.  The locals speak 'patois', a French dialect.  After lunch we will head back to our base, where the evening is free."
-        meals_included:
-          - breakfast
-          - lunch
-      -
-        id: mlor867w
-        title: 'Day 9:  Climb into the mountains'
-        description: 'Today we get a short lift up the side of the valley to a pretty village. From here we follow a trail into a spectacular neighbouring valley, to a small stone hamlet, which is summer accommodation for the ‘pastori’ who still walk their sheep up here to graze on the meadows. We’ll have a cut lunch, then retrace our way back to the village, where we can have a cold drink before getting a lift back down to base.  Dinner tonight will be in a charming traditional restaurant.'
+        title: 'Day 8:  A very special hike'
+        description: 'Today we go on one of the most extraordinary walks in the Hidden Italy repertoire: a spectacular itinerary along the ridges that form the border between Italy and Slovenia, the border between West and East.  It was one of the most bitterly contested fronts in WWI and was also part of the ‘Iron Curtain’. A local guide will accompany us, revealing its fascinating history.  After lunch the afternoon is free.  We regroup for dinner at an osteria that has been operating since the 14th century.'
         meals_included:
           - breakfast
           - lunch
           - dinner
-        duration: 12
-        distance: 5
-        elevation: 566
+        duration: 3
+        distance: 6
+        elevation: 479
       -
-        id: mlora14b
-        title: 'Day 10:  Discover Courmayeur'
-        description: "This morning we head to Courmayeur at the foot of Mt Blanc, which, at 4810 mts asl, is Europe's highest mountain.  Flush against the French border, Courmayeur was once a Roman outpost but is now a very upmarket ski and outdoor sports resort.  On the way, we will enjoy a guided visit of a Roman aqueduct and then a recently restored castle/noble residence before having lunch.  After checking into our 5-star, family-run hotel (the best in the region) the rest of the afternoon and evening is free."
+        id: mlor867w
+        title: 'Day 9:  A day of relax'
+        description: 'You will have a morning free to sleep in and explore our base. After lunch, we will take a guided tour around the town, which was founded by Julius Caesar; became an important Lombard capital in the 6th century); was the seat of the powerful Patriarch of Aquileia in the 8th century; and is now a buzzy market town.  It was declared a UNESCO World Heritage site in 2007.  In the evening, we will go to a family-run vineyard just outside the town where we will enjoy a wine tasting and a light dinner.'
         meals_included:
           - breakfast
           - lunch
+          - dinner
+      -
+        id: mlora14b
+        title: 'Day 10:  Vineyards and a Michelin-starred lunch'
+        description: 'This morning, we will drive a town at the centre of the Collio wine district, one of the premier wine producing regions of northern Italy.  From here we go for a lovely walk along country lanes through the rolling hills and vineyards and olive groves before arriving at a family-run Michelin-starred restaurant where we will have a long lunch with a tasting menu.  After lunch we’ll continue the walk back to town and then return to base where the evening is free.'
+        meals_included:
+          - breakfast
+          - lunch
+        duration: 4
+        distance: 11
+        elevation: 288
       -
         id: mlorbjxg
-        title: 'Day 11:'
-        description: 'This morning we drive into the neighbouring Val Ferret and enjoy a beautiful panoramic walk at the foot of Mont Blanc, one of my all-time favourite walks. We start by walking beside the river before a long, gentle climb up to the ridge. From here we walk back down the valley with extraordinary views up to the mountains. We will stop for lunch in a ‘rifugio’ and then head down to the river, where we will be picked up and driven back to our hotel.  The evening is free.'
+        title: 'Day 11:  Transfer to Trieste'
+        description: 'Today we transfer to Trieste, the capital of Friuli Venezia Giulia. For 2 centuries the main port of the Austro-Hungarian Empire, Trieste is still a busy commercial centre with many vestiges of its rich history and intellectual traditions.  On the way, we visit an important archaeological site with spectacular early Christian mosaics and then visit a castle on the coast close to Trieste.   Our hotel is an elegant 4-star hotel in the city’s famous Piazza Unita d’Italia.  The evening is free.'
         meals_included:
           - breakfast
           - lunch
@@ -178,15 +181,15 @@ page_builder:
         elevation: 400
       -
         id: mlore9l3
-        title: 'Day 12:  Go to the top of Europe'
-        description: 'This morning we catch the famous Mont Blanc Skyway (a spectacular cable car inaugurated in 2015) up to Punta Helbronner, the highest point on the Italian side of the mountain.  After enjoying the spectacular views, you will have the option of taking another, smaller cable car across glaciers to the French side of Mont Blanc.  After lunch we head back down, visiting a high altitude botanical gardens on the way.  In the evening, our farewell dinner will be at our hotel’s excellent restaurant.'
+        title: 'Day 12:  Explore Trieste'
+        description: 'This morning we will have the chance to sleep in and enjoy the hotel’s wonderful breakfast. Late in the morning we will take the ferry across the gulf to a beautiful little port where we will have lunch.  Once back in the city, we will be taken on a guided tour of the fascinating city’s centre, starting in Piazza Unita d’Italia then winding our way through the old town up to the castle with its huge views of the gulf before finishing in the ‘new’ town, laid out by Empress Maria Teresa of Austria.   The evening is free.'
         meals_included:
           - breakfast
-          - dinner
+          - lunch
       -
         id: mlorf281
-        title: 'Day 13:  Return to Turin'
-        description: 'This morning, we leave to 08.00 and head back to Turin (approximately 2 hours away) which has excellent national and international rail and air connections.'
+        title: 'Day 13:  Depart Trieste'
+        description: 'After breakfast you are free to continue your holiday.  Trieste railway station is a short taxi ride or walk from the hotel and has direct connections to Venice, Milan, Florence and the rest of Italy.'
         meals_included:
           - breakfast
     type: itinerary
