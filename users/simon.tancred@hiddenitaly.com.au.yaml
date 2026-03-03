@@ -11,6 +11,8 @@ preferences:
       view: tree
     people:
       view: list
+    testimonials:
+      view: list
   assets:
     icons:
       mode: grid
