@@ -2,42 +2,36 @@
 id: 9fd38ab4-55ef-435d-82cc-d9246de83cc3
 published: false
 blueprint: tour
-title: "Val d'Aosta - Turin and the Val d'Aosta guided tour"
-name: "Turin and the Val d'Aosta guided tour"
+title: 'Friuli Venezia Giulia - Trieste and Friuli guided tour: Udine to Trieste'
+name: 'Trieste and Friuli guided tour: Udine to Trieste'
 tour_types: guided
-region: "Val d'Aosta"
+region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772507721
+updated_at: 1772511668
 grade: 4
-summary: "Two weeks exploring the Val d'Aosta, Italy's smallest, but most spectacular, region!"
+summary: 'A special tour to a fascinating region: 3 borders, 4 national parks; and five languages.'
 overview:
   -
     type: paragraph
     content:
       -
         type: text
-        text: "The Val d’Aosta may be Italy’s smallest region, but it is also one of its most spectacular, a wedge of mountains and valleys in the north-west corner of the country.\_ The region shares borders with Switzerland and France and contains Europe’s four highest peaks: Mt Blanc, the Matterhorn, Monte Rosa and Gran Paradiso."
+        text: "With its mountains, plains and seashores all less than an hour's drive apart, Italian writer Ippolito Nievo fondly described the region Friuli Venezia Giulia (FVG) as a \"little compendium of the universe\".\_ This Hidden Italy special sets about exploring that universe."
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'The Val d’Aosta offers some of Europe’s finest walking, following a network of clearly marked and well-maintained trails. These paths traverse small valleys, linking historic villages to high pastures and mountain passes, passing waterfalls and glaciers along the way.'
+        text: "Bordering Austria to the north and Slovenia to the east, FVG has long been contested by rival powers wanting to access the rich plains of northern Italy.\_ Today, German, Slavic and Italian populations all call it home.\_ The region’s landscapes are equally varied, a beguiling combination of soaring Alps, limestone plateaux, deep green valleys, rolling plains and a long stretch of Adriatic coastline."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "With its strategic position, the Val d’Aosta has a rich history, which is reflected in its cherished traditions. Italian and French are both official languages.\_ This cultural diversity is reflected in the local cuisine, simple, hearty mountain fare.\_ The region also produces some excellent cold-climate wines."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This tour highlights the Val d’Aosta's natural beauty and cultural heritage.\_ It begins with two days in elegant Turin; followed by three days in the Gressoney Valley at the foot of Mt Rosa; four days are in Cogne exploring Gran Paradiso National Park, Italy’s oldest national park; and finally, three days in glamorous Courmayeur at the foot of Mt Blanc. Travelling in early September means we avoid crowds and enjoy pleasant autumn weather.\_"
+        text: "This marvellous tour starts with two days in Udine, an elegant provincial capital.\_ We then head north-east into the mountains, staying in a beautifully preserved village in the heart of the Carnian Alps, our base for the next four days.\_ From here we drive east across the plains to ‘Venetian Slovenia’, a wedge of forested hills that forms the frontier between Italy and Slovenia.\_ Our base is a family-run hotel in the centre of beautiful frontier town that was founded by Julius Caesar.\_ Our last two nights are in the grand port city of Trieste, for four centuries the Mediterranean port for the Austro-Hungarian Empire.\_ Trieste has fast train connections to the rest of Italy."
 inclusions:
-  - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
+  - '12 night’s accommodation (see the itinerary for details) in excellent boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
   - 'All transfers during the tours'
   - 'All taxes and service charges at the hotels and restaurants'
@@ -51,70 +45,73 @@ date: '2027-05-27 14:00'
 page_builder:
   -
     id: mloqd78x
-    title: "Turin and Val d'Aosta guided tour"
+    title: 'Trieste and Friuli guided tour'
     activities:
       -
         id: mloqdoo9
-        title: 'Discover the elegance of Turin'
-        summary: "Turin is one of Italy's hidden gems: an elegant city with kilometres of arcades, historic cafes and excellent museums."
+        title: 'Discover the elegance of Udine'
+        summary: 'Discover the secrets of Udine, an elegant provincial city with lane-ways, canals, fine food and a fascinating history.'
       -
         id: mloqi0iy
         title: 'Stay in fabulous accommodation'
-        summary: 'This tour is 4-star all the way: an historic hotel in Turin and then a series of lovely family-run mountain hotels.'
+        summary: 'Including a 4-star hotel in Udine; a family-run hotel from the 14th century; and an historic, 4-star hotel in Trieste.'
       -
         id: mloqndod
-        title: "Explore Italy's most spectacular region"
-        summary: "Every corner of the Val d'Aosta has breathtaking views: spectacular mountains, glaciers, high pastures and cute villages"
+        title: "Explore Italy's most diverse region"
+        summary: 'With 5 official languages, 3 international borders, soaring mountains + endless coastline, Friuli is a captivating place'
       -
         id: mloqrnhn
-        title: "Walk some of Europe's finest trails"
-        summary: 'Walk well-maintained and well-marked mountain trails each day, surrounded on every side by incomparable natural beauty.'
+        title: 'Walk incomparable trails'
       -
         id: mm4fpvo1
-        title: 'Enjoy wholesome mountain cuisine'
-        summary: "The valley's cuisine is a mix of traditional mountain food and sophisticated French cuisine, all based on local produce."
+        title: 'Enjoy sophisticated cuisine'
+        summary: "A combination of Italian, Austrian and Slovenian traditions and top quality produce, yields some of Italy's finest food."
     type: highlights
     enabled: true
   -
     id: mloqvfcq
-    title: "Turin and the Val d'Aosta guided tour"
-    summary: "This wonderful tour introduces you to one of Italy's best kept secrets: the Val d'Aosta, which holds Europe's highest peaks, hidden valleys and villages that proudly embrace their long and diverse traditions."
+    title: 'Trieste and Friuli guided tour'
+    summary: 'With five languages, four national park, three borders, beaches and Alpine mountains, exceptional walking, gorgeous towns and fabulous food, the region of Friuli Venezia Giulia (FVG) has all the ingredients for a very special two week visit!'
     days:
       -
         id: mloqwjgq
-        title: 'Day 1:  Arrive in Turin'
-        description: 'Arrival in Turin, my favourite Italian city: miles of arcades with bookshops, chocolate shops, excellent museums and historic cafes.  We will spend the first two nights in an elegant 4-star hotel in the pedestrian centre of the city.  We’ll meet in the hotel foyer at 19.00 and then have dinner in a very nice restaurant a short walk from the hotel.'
+        title: 'Day 1:  Arrive in Udine'
+        description: 'Prosperous Udine sits on a fertile plain in the middle of Friuli Venezia Giulia (FVG).  With its elegant architecture and refined way of life, Udine has retained much of its past as part of the Venetian Empire.  The first two nights of our tour are in a classic 4-star hotel in the centre of the city.  After an aperitivo in our hotel, we’ll have dinner in an elegant restaurant near the hotel.'
         meals_included:
           - dinner
       -
         id: mloqxcnx
-        title: 'Day 2:  Explore Turin'
-        description: "This morning you will be taken on a guided walk through Turin's centre visiting some of the city's Baroque splendour, the legacy of the Savoy kings who ruled from here for nearly six centuries.  After lunch, the afternoon and evening are free."
+        title: 'Day 2:  Explore Udine'
+        description: 'This morning we take a guided walk through the fascinating historic centre of the city, including a visit to the Tiepolo Gallery (the great Venetian artist lived and worked for many years in Udine).  We will have lunch together, and then the evening is free..'
         meals_included:
           - breakfast
           - lunch
       -
         id: mloqy5ed
-        title: 'Day 3:  Transfer to Gressoney'
-        description: 'Today we head north, following the course of the Dora River from Turin.  We will stop to visit Fort Bard, an historic fortification that guards the entrance into the Val d’Aosta. Our base for the next three days is in a beautiful village at the head of one of a valley dominated by a glacier and Monte Rosa (the second highest peak in the Alps).  Our accommodation is in a charming family-run, 4-star hotel.  The alla carte dinners for the next 3 nights will be in the hotel’s excellent restaurant.'
+        title: 'Day 3:  Transfer to the mountains'
+        description: 'This morning, we leave Udine, driving north across the plains and up into the Carnia Alps, stopping for a lovely forest walk and then lunch in a mountain lodge on the way.  Our base for the next four days is a small, beautifully preserved mountain village surrounded by forests and soaring peaks, twenty kilometres from the Austrian border.'
+        meals_included:
+          - breakfast
+          - lunch
+          - dinner
+        duration: 2
+        distance: 7
+        elevation: 135
+      -
+        id: mloqzruj
+        title: 'Day 4:  A walk in the valley'
+        description: 'This morning, we walk through the surrounding forests, contouring around the mountains with beautiful views over the lake before winding down to a neighbouring village where we’ll have lunch.   After lunch there is the option of following another trail back to the hotel (6 kms, 2 hrs, 333 mts ascent) or catching the local bus back.  The rest of the afternoon is free before regrouping for dinner.'
+        duration: 4
+        distance: 11
+        elevation: 270
         meals_included:
           - breakfast
           - lunch
           - dinner
       -
-        id: mloqzruj
-        title: 'Day 4:  Meet the glacier'
-        description: 'The first walk follows a trail that is one of the most popular among hikers visiting the valley.  We leave directly from our hotel and head north following the Lys river, climbing up through larch forests towards the glacial source of the river.  It is relatively short and allows you to quickly reach the border between the ‘normal’ mountain and the ‘glacial’ mountain in a quite spectacular location.  We follow the river back to our base.'
-        duration: 3
-        distance: 8
-        elevation: 400
-        meals_included:
-          - breakfast
-          - lunch
-      -
         id: mlor10w3
-        title: 'Day 5:'
-        description: 'Today we will immerse ourselves in the local Walser culture.  This morning’s walk again starts from the hotel but this time we head south, following the historic Grand Walser Trail, walking through stone hamlets and high pastures that have remained unchanged for centuries, stopping for lunch along the way.  After, we take the path down to a neighbouring village where we will be taken on a guided visit of an enchanting castle, once the summer residence of Margherita, the first queen of Italy.'
+        title: 'Day 5: Explore the heritage of the valley'
+        description: 'Our village and its twin neighbour form a German-speaking enclave in the heart of the Friulian Alps; its population descended from Austrian deserters who took refuge here in the 13th century.  Today we explore their rich heritage walking from one village to another, including a visit to the excellent community museum and the gorgeous church of San Osvaldo.'
         meals_included:
           - breakfast
           - lunch
@@ -124,15 +121,19 @@ page_builder:
         elevation: 365
       -
         id: mlor23s2
-        title: 'Day 6:  Vineyards and the Gran Paradiso Park'
-        description: 'Today we head west o our next base, which is tucked away in another valley on the edge of the Gran Paradiso National Park, Italy’s oldest.  On the way, we’ll visit one of the best vineyards in the region for a comprehensive tasting of their very fine wines.  We will then have a delicious lunch.  From here it is a short drive to our next base, where we will stay in a beautiful 4-star hotel, a family-run 4-star mountain hideaway that dates from the 1920’s.  After settling in, the evening is free.'
+        title: 'Day 6:  Walk in the mountains'
+        description: 'Today we do a loop walk down to the neighbouring village.  After a reviving coffee, we climb up through pine forest to a ridge with spectacular views down across the valley to the lake and to the beginning of the Dolomites on the western horizon.  We have lunch at a mountain lodge along the way.  After some downtime back at base, we regroup for dinner in the evening.'
         meals_included:
           - breakfast
           - lunch
+          - dinner
+        duration: 4
+        distance: 9
+        elevation: 377
       -
         id: mlor3ri3
-        title: 'Day 7:'
-        description: 'Today we leave our hotel and walk up through pine forest to the end of the valley to visit a series of spectacular waterfalls. After a picnic lunch, we follow the river back to our accommodation, where the afternoon is free.  We will regroup for an aperitivo in the evening and then dinner in our hotel’s excellent restaurant.'
+        title: 'Day 7:  Transfer to the Natisone Valley'
+        description: 'Today we drive east heading to the beautiful hills and mountains that form the border between Italy and Slovenia. After lunch we will visit a museum dedicated to World War I and in particular to a battle fought there which was Italy’s most famous military defeat. Our base is a pretty town founded by Julius Cesare.  After settling into our historic hotel, the evening is free.'
         meals_included:
           - breakfast
           - lunch
@@ -192,4 +193,18 @@ page_builder:
     enabled: true
 simple_likes: 0
 seasons: spring
+image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/29a.jpg
+gallery:
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/1.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/2.7-a.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/2.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/3.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/13.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/59a.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/16.5.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/sauris-2.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/68a-2.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/87.5.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/29a.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/88.7.jpg
 ---
