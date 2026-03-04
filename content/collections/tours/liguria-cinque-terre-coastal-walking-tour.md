@@ -1,6 +1,5 @@
 ---
 id: 65354be1-c899-4486-82f9-2883d090c270
-published: false
 blueprint: tour
 title: 'Liguria - Cinque Terre Coastal walking tour'
 name: 'Cinque Terre Coastal walking tour'
@@ -8,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772600016
+updated_at: 1772600522
 grade: 3
 summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
 overview:
