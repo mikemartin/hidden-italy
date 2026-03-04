@@ -6,9 +6,9 @@ title: 'Liguria - Cinque Terre Coastal walking tour'
 name: 'Cinque Terre Coastal walking tour'
 tour_types: self-guided
 region: Liguria
-days: 8
+days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772593026
+updated_at: 1772593667
 grade: 3
 summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
 overview:
@@ -17,23 +17,26 @@ overview:
     content:
       -
         type: text
-        text: "The tour starts in beautiful Alba, 95 kilometres south of Turin.\_ A handsome town of Roman origin, Alba is the ‘capital’ of the Langhe, a close-knit range of hills and valleys which are crowded with impeccably tended rows of nebbiolo vines, the source of some of Italy’s finest wines.\_ They form a unique and striking landscape, so much so that the district was recently listed as a UNESCO World Heritage site, Italy’s 50th."
+        text: 'Following an extraordinary trail, this continuous walk (no trains!) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere six days later, leaving you plenty of time to explore the charming villages you stay in each day.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "But Alba and the Langhe are more than this.\_ A neighbour of Bra (the home of the Slow Food Association) Alba is also one of Italy’s gastronomic capitals, well-known for its cheeses, meats, Ferrero chocolates and nougat but particularly famous for its white truffles, found in the surrounding poplar and oak forests, which fill the medieval streets of the towns with their pungent aroma throughout October and November."
+        text: "This continous walk along the Cinque Terre follows stone paths that have linked the villages for centuries, starting in Levanto at the eastern end of the National Park and finishing in glorious Portovenere at the western end of the park. They twist and wind along the rugged coast passing through pine forests and terraced vineyards, with breath-taking views out over the Mediterranean, including the less walked routes from Riomaggiore to Portovenere and around the little island off Portovenere.\_ At the end of the walk, you'll be dropped off at La Spezia railway station (on the Rome/Genoa line)."
+  -
+    type: paragraph
 inclusions:
-  - 'Private transfer to and from Turin at the beginning and end of the tour'
-  - 'Seven nights accommodation'
+  - 'Six nights accommodation'
   - 'All breakfasts included'
   - 'Reading lists, historical and cultural notes'
-  - 'Detailed roadbook with maps and daily notes (updated annually)'
+  - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
-  - 'Daily transfers of baggage between hotels each morning'
-  - '24 hour backup from our operations manager'
-  - 'City taxes are not included in t'
+  - 'Daily transfers of baggage between hotels'
+  - 'Drop-off at the end of the tour from Portovenere to La Spezia station (on the Rome/Genoa line)'
+  - 'The Santa Margherita/Portofino option includes 3 nights in a 4-star hotel, sea views'
+  - '24 hour backup from local manager'
+  - 'City taxes are not included in the cost of the tour'
 locations: northern-italy
 page_builder:
   -
@@ -134,4 +137,18 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
+image: tours/piedmont-alba-and-le-langhe-1/monterosso-4.jpg
+gallery:
+  - tours/piedmont-alba-and-le-langhe-1/vernazza-8-a.jpg
+  - tours/piedmont-alba-and-le-langhe-1/manarola-1-a.jpg
+  - tours/piedmont-alba-and-le-langhe-1/vernazza-11.jpg
+  - tours/piedmont-alba-and-le-langhe-1/vernazza-3-a.jpg
+  - tours/piedmont-alba-and-le-langhe-1/djedj-cinque-terre-2928723_1920-a.jpg
+  - tours/piedmont-alba-and-le-langhe-1/vernazza-2.jpg
+  - tours/piedmont-alba-and-le-langhe-1/44.jpg
+  - tours/piedmont-alba-and-le-langhe-1/monterosso-7.jpeg
+  - tours/piedmont-alba-and-le-langhe-1/portovenere-1.jpg
+  - tours/piedmont-alba-and-le-langhe-1/monterosso-9.jpg
+  - tours/piedmont-alba-and-le-langhe-1/monterosso-4.jpg
+  - tours/piedmont-alba-and-le-langhe-1/siret-jaksic-yats80aqvmm-unsplash.jpg
 ---
