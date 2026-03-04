@@ -36,17 +36,11 @@ inclusions:
   - 'City taxes are not included in t'
 gallery:
   - tours/piedmont-alba-and-le-langhe/7-v2.jpg
-  - tours/piedmont-alba-and-le-langhe/2.jpg
-  - tours/piedmont-alba-and-le-langhe/4-v2.jpg
   - tours/piedmont-alba-and-le-langhe/9.jpg
-  - tours/piedmont-alba-and-le-langhe/10-v2.jpg
   - tours/piedmont-alba-and-le-langhe/6.jpg
   - tours/piedmont-alba-and-le-langhe/5.jpg
   - tours/piedmont-alba-and-le-langhe/8.jpg
-  - tours/piedmont-alba-and-le-langhe/12.jpg
   - tours/piedmont-alba-and-le-langhe/a-v2.jpg
-  - tours/piedmont-alba-and-le-langhe/3.jpg
-  - tours/piedmont-alba-and-le-langhe/11.jpg
 locations: northern-italy
 page_builder:
   -
