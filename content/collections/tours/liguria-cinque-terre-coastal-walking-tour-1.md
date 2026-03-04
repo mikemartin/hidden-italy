@@ -8,9 +8,9 @@ tour_types: self-guided
 region: 'Alto Adige'
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772601182
+updated_at: 1772601269
 grade: 3
-summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
+summary: "Enjoy some of Italy's finest walking through some of Europe's most breath-taking scenery!"
 overview:
   -
     type: paragraph
