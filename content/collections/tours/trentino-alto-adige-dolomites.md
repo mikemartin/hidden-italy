@@ -1,13 +1,13 @@
 ---
 id: 8c969301-fa7c-418d-b306-3d50f60c142a
 blueprint: tour
-title: 'Trentino-Alto Adige - Dolomites'
-name: Dolomites
+title: 'Trentino-Alto Adige - Verona and the Dolomites'
+name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
 tour_types: guided
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772599856
+updated_at: 1772599877
 locations: northern-italy
 grade: 3
 image: tours/trentino-alto-adige-dolomites/804729994-100.jpg
