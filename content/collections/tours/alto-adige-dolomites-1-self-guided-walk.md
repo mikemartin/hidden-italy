@@ -8,7 +8,7 @@ tour_types: self-guided
 region: 'Alto Adige'
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772601269
+updated_at: 1772601275
 grade: 3
 summary: "Enjoy some of Italy's finest walking through some of Europe's most breath-taking scenery!"
 overview:
