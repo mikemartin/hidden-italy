@@ -7,7 +7,7 @@ tour_types: guided
 region: 'Abruzzo and Molise'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1771390438
+updated_at: 1772600502
 grade: 4
 summary: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
 overview:
@@ -63,6 +63,10 @@ page_builder:
         id: mloqrnhn
         title: 'Discover Molise'
         summary: "Discover the rolling hills, vineyards, walking trails, coastline, islands food, traditions of Italy's least-known region"
+      -
+        id: mmbkfbin
+        title: 'Go boating around the Tremiti Islands'
+        summary: 'After the mountains, enjoy a day in a private boat exploring the Tremiti Islands with lots of chances to swim in the Med'
     type: highlights
     enabled: true
   -
