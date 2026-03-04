@@ -7,7 +7,7 @@ region: 'Trentino-Alto Adige'
 days: 13
 tour_types: guided
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1771376486
+updated_at: 1772599856
 locations: northern-italy
 grade: 3
 image: tours/trentino-alto-adige-dolomites/804729994-100.jpg
