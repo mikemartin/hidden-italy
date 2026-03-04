@@ -8,7 +8,7 @@ tour_types: self-guided
 region: 'Alto Adige'
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772601275
+updated_at: 1772604860
 grade: 3
 summary: "Enjoy some of Italy's finest walking through some of Europe's most breath-taking scenery!"
 overview:
@@ -132,4 +132,17 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
+gallery:
+  - tours/alto-adige-dolomites-1-self-guided-walk/2.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/img_8778.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/11.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/p9192120.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/22.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/34.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/img_1570.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/p9192176.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/p9171957-(2).jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/img_3481.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/sassolungo-with-horse.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/35.jpg
 ---
