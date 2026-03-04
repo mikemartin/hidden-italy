@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Piedmont
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1771217738
+updated_at: 1772599979
 grade: 3
 summary: "8-day circular walk from Alba on Le Langhe's trails, past vineyards, villages and castles."
 overview:
@@ -72,7 +72,7 @@ page_builder:
       -
         id: mloozlek
         title: 'Day 2:  Walk along the Tanaro River'
-        description: 'You leave Alba heading south-west, passing the Ferrero chocolate factory (home of Nutella) and then follow an easy path along the left bank of the Tanaro River, before turning south and climbing up to a small hilltop village that is famous for its.  The second half of the walk takes you through vineyards to another lovely hilltop town, with a ruined castle from where you have a breathtaking view south over all the Langhe hills. (4 hrs; 15 kms; min: 158 mts, max: 376 mts)'
+        description: 'You leave Alba heading south-west, passing the Ferrero chocolate factory (home of Nutella) and then follow an easy path along the left bank of the Tanaro River, before turning south and climbing up to a small hilltop village that is famous for its.  The second half of the walk takes you through vineyards to another lovely hilltop town, with a ruined castle from where you have a breathtaking view south over all the Langhe hills.'
         duration: 4
         distance: 15
         elevation: 281
@@ -89,7 +89,7 @@ page_builder:
           - breakfast
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk thorugh chestnut forests'
+        title: 'Day 4:  Walk through chestnut forests'
         description: 'Today’s walk takes you out of the wine growing area and into the Alta Langhe, the slightly ‘wilder’ (relatively!) part of the district which is characterised by steeper hills, hazelnut and fruit orchards and tracts of chestnut forests. Although there are a couple of hills, today’s walk is quite short which will leave you time to explore the interesting places you are pass, including the very interesting castle with time for a light lunch as well.'
         duration: 3
         distance: 8
@@ -108,7 +108,7 @@ page_builder:
       -
         id: mlop6avf
         title: 'Day 6:  Walk to the pretty village in the area'
-        description: 'Leaving your accommodation the trail further along the ridge through forests and orchards, passing close to Santo Stefano Belbo, the home of one of the Langhe’s favourite sons: Cesare Pavese (1908 to 1950), poet, novelist, critic and translator.  The second part of today’s walk takes you back into the sweet rolling hills of the wine country, through vineyards dedicated to Barbaresco, a light version of Barolo, to one of the prettiest and best preserved villages in the area. (5 hrs; 17 kms; min: 229 mts, max: 697 mts)'
+        description: 'Leaving your accommodation the trail further along the ridge through forests and orchards, passing close to Santo Stefano Belbo, the home of one of the Langhe’s favourite sons: Cesare Pavese (1908 to 1950), poet, novelist, critic and translator.  The second part of today’s walk takes you back into the sweet rolling hills of the wine country, through vineyards dedicated to Barbaresco, a light version of Barolo, to one of the prettiest and best preserved villages in the area.'
         duration: 5
         distance: 17
         elevation: 468
@@ -117,7 +117,7 @@ page_builder:
       -
         id: mlop8uiy
         title: 'Day 7:  Head back to Alba'
-        description: 'The last walk of your visit takes you back to Alba.  It loops around through more vineyards, passing a number of settlements, including the town of Barbaresco itself, before entering forest and following the banks of the Tanaro River along a trail that is dedicated to Beppe Fenoglio (1922 to 1963), another beloved local writer who fought the German occupation during World War II.  Your last night is spent in Alba.  (4 hrs; 13 kms;  min: 155 mts, max: 290 mts)'
+        description: 'The last walk of your visit takes you back to Alba.  It loops around through more vineyards, passing a number of settlements, including the town of Barbaresco itself, before entering forest and following the banks of the Tanaro River along a trail that is dedicated to Beppe Fenoglio (1922 to 1963), another beloved local writer who fought the German occupation during World War II.  Your last night is spent in Alba.'
         duration: 4
         distance: 13
         elevation: 135
