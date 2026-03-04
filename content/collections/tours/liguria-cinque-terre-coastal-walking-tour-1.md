@@ -2,13 +2,13 @@
 id: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
 published: false
 blueprint: tour
-title: 'Liguria - Cinque Terre Coastal walking tour'
-name: 'Cinque Terre Coastal walking tour'
+title: 'Alto Adige - Dolomites 1 self-guided walk.'
+name: 'Dolomites 1 self-guided walk.'
 tour_types: self-guided
-region: Liguria
+region: 'Alto Adige'
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772600540
+updated_at: 1772601182
 grade: 3
 summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
 overview:
