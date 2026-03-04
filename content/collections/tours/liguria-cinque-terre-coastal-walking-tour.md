@@ -131,18 +131,4 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
-image: tours/piedmont-alba-and-le-langhe-1/monterosso-4.jpg
-gallery:
-  - tours/piedmont-alba-and-le-langhe-1/vernazza-8-a.jpg
-  - tours/piedmont-alba-and-le-langhe-1/manarola-1-a.jpg
-  - tours/piedmont-alba-and-le-langhe-1/44.jpg
-  - tours/piedmont-alba-and-le-langhe-1/vernazza-3-a.jpg
-  - tours/piedmont-alba-and-le-langhe-1/djedj-cinque-terre-2928723_1920-a.jpg
-  - tours/piedmont-alba-and-le-langhe-1/monterosso-9.jpg
-  - tours/piedmont-alba-and-le-langhe-1/monterosso-4.jpg
-  - tours/piedmont-alba-and-le-langhe-1/monterosso-7.jpeg
-  - tours/piedmont-alba-and-le-langhe-1/portovenere-1.jpg
-  - tours/piedmont-alba-and-le-langhe-1/vernazza-2.jpg
-  - tours/piedmont-alba-and-le-langhe-1/vernazza-11.jpg
-  - tours/piedmont-alba-and-le-langhe-1/siret-jaksic-yats80aqvmm-unsplash.jpg
 ---

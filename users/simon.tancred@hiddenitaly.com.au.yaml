@@ -7,6 +7,7 @@ preferences:
   collections:
     tours:
       view: list
+      after_save: continue_editing
     pages:
       view: tree
     people:
