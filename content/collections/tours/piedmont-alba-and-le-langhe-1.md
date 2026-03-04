@@ -2,15 +2,15 @@
 id: 65354be1-c899-4486-82f9-2883d090c270
 published: false
 blueprint: tour
-title: 'Liguria - Alba and Le Langhe'
-name: 'Alba and Le Langhe'
+title: 'Liguria - Cinque Terre Coastal walking tour'
+name: 'Cinque Terre Coastal walking tour'
 tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772587995
+updated_at: 1772593026
 grade: 3
-summary: "8-day circular walk from Alba on Le Langhe's trails, past vineyards, villages and castles."
+summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
 overview:
   -
     type: paragraph
