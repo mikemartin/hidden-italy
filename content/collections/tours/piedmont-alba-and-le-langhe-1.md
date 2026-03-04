@@ -2,13 +2,13 @@
 id: 65354be1-c899-4486-82f9-2883d090c270
 published: false
 blueprint: tour
-title: 'Piedmont - Alba and Le Langhe'
+title: 'Liguria - Alba and Le Langhe'
 name: 'Alba and Le Langhe'
 tour_types: self-guided
-region: Piedmont
+region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772513290
+updated_at: 1772587995
 grade: 3
 summary: "8-day circular walk from Alba on Le Langhe's trails, past vineyards, villages and castles."
 image: tours/piedmont-alba-and-le-langhe/7-v2.jpg
