@@ -11,7 +11,6 @@ updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
 updated_at: 1772587995
 grade: 3
 summary: "8-day circular walk from Alba on Le Langhe's trails, past vineyards, villages and castles."
-image: tours/piedmont-alba-and-le-langhe/7-v2.jpg
 overview:
   -
     type: paragraph
@@ -35,13 +34,6 @@ inclusions:
   - 'Daily transfers of baggage between hotels each morning'
   - '24 hour backup from our operations manager'
   - 'City taxes are not included in t'
-gallery:
-  - tours/piedmont-alba-and-le-langhe/7-v2.jpg
-  - tours/piedmont-alba-and-le-langhe/9.jpg
-  - tours/piedmont-alba-and-le-langhe/6.jpg
-  - tours/piedmont-alba-and-le-langhe/5.jpg
-  - tours/piedmont-alba-and-le-langhe/8.jpg
-  - tours/piedmont-alba-and-le-langhe/a-v2.jpg
 locations: northern-italy
 page_builder:
   -
