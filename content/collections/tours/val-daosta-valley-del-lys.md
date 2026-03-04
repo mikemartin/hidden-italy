@@ -7,7 +7,7 @@ tour_types: self-guided
 region: "Val d'Aosta"
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1771378860
+updated_at: 1772599793
 grade: 0
 summary: 'A 7-day hike along historic trails through one of Italy’s most beautiful mountain valleys!'
 image: tours/val-daosta-valley-del-lys/1.jpg
@@ -36,6 +36,12 @@ overview:
       -
         type: text
         text: "The fully-supported tour begins with a transfer from Pont-St-Martin railway to the start of the hike.\_ From here you follow well-marked trails, including sections of the Great Walser Trail, to the foot of Monte Rosa.\_ Along the way, you will stay in marvellous, historic accommodation and enjoy the hospitality of these welcoming mountain people.\_ You will be transferred back to Pont-St-Martin at the end of the tour."
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Please note that your breakfasts and dinners are included each day!'
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
   - '6 nights accommodation'
@@ -80,7 +86,7 @@ page_builder:
       -
         id: mlrc4uq2
         title: 'Enjoy genuine mountain hospitality'
-        summary: 'Enjoy the hospitality of welcoming people, staying in family-run accommodation, proudly serving delicious local food.'
+        summary: 'Enjoy the hospitality of welcoming people, staying in family-run accommodation.  A delicious dinner included each night!'
       -
         id: mlrc9yr3
         title: 'Be intrigued by the history'
@@ -116,10 +122,13 @@ page_builder:
         duration: 4
         distance: 10
         elevation: 713
+        meals_included:
+          - breakfast
+          - dinner
       -
         id: mlrcpsyv
         title: 'Day 4:  Visit Gressoney-la-Trinite'
-        description: 'A pretty and relaxed walk today that descends gradually through larch forest down to the pretty town of Gressoney-la-Trinite, where you’ll have the chance to have a break and visit the Walser Museum.  From here you follow the Lys River up to the head of the valley, Monte Rosa and its glaciers looming large in front of you beckoning you to to stay.  Your accommodation is in an elegantly restored historic inn.  (7 kms; min: 1623 mts; max: 1892 mts)'
+        description: 'A pretty and relaxed walk today that descends gradually through larch forest down to the pretty town of Gressoney-la-Trinite, where you’ll have the chance to have a break and visit the Walser Museum.  From here you follow the Lys River up to the head of the valley, Monte Rosa and its glaciers looming large in front of you beckoning you to to stay.  Your accommodation is in an elegantly restored historic inn.'
         duration: 3
         distance: 7
         elevation: 269
