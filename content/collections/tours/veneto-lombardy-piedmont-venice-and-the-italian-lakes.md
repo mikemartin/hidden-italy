@@ -7,7 +7,7 @@ tour_types: guided
 region: Veneto-Lombardy-Piedmont
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772431235
+updated_at: 1772599529
 grade: 4
 summary: 'This wonderful tour gives new twists to some of the classic destinations of northern Italy'
 overview:
