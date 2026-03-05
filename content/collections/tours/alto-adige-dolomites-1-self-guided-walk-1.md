@@ -160,7 +160,6 @@ simple_likes: 0
 duplicated_from: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
 image: tours/alto-adige-dolomites-1-self-guided-walk/porto.jpg
 gallery:
-  - tours/alto-adige-dolomites-1-self-guided-walk/1.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/6.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/5.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/porto.jpg
