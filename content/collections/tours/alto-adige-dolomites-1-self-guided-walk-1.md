@@ -151,18 +151,4 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
-image: tours/alto-adige-dolomites-1-self-guided-walk/p9192176.jpg
-gallery:
-  - tours/alto-adige-dolomites-1-self-guided-walk/2.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/img_8778.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/11.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/p9192120.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/22.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/34.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/img_1570.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/p9192176.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/p9171957-(2).jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/sassolungo-with-horse.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/img_1568.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/35.jpg
 ---
