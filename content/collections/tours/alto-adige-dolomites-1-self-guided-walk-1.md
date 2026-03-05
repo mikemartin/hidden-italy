@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Liguria
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772682544
+updated_at: 1772688449
 grade: 4
 summary: 'Follow ancient paths through fishing villages, vineyards on the beautiful Italian Riviera!'
 overview:
@@ -17,38 +17,27 @@ overview:
     content:
       -
         type: text
-        text: 'This wonderful six day self-guided walk introduces you to some ot the most spectacular mountains in the world and some of the finest walking in Europe.'
+        text: 'The Italian Riviera 1 self-guided walk is first section of the 15 day Italian Riviera walk, which takes you the length of the Italian Riviera from Genoa to Portofino, passing through the Cinque Terre along the way.  '
   -
     type: paragraph
     content:
       -
         type: text
-        marks:
-          -
-            type: italic
-        text: "“The Dolomites National Park protects a series of highly distinctive mountain landscapes that are of exceptional natural beauty, extraordinary in a global context, and amongst the most beautiful in the world……..”\_\_ UNESCO World Heritage Listing, June 2009."
+        text: 'The Italian Riviera starts in Genoa and finishes in the charming Sestri Levante.  The route follows seaside paths and forested trails, passing through vineyards and olive groves, following an arc of coastline dotted with fishing towns and glam resorts, such as Portofino, Santa Margherita and Rapallo.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Celebrated as a skiing destination, the Dolomites also offer unrivalled walking in the summer.\_ You will use cable cars to get to the start of most walks and then follow well-marked trails as they wind your way back to your base, with the option at one of the charming mountains huts (rifugio) for a break or lunch along the way."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "On Day 1 you’ll be met in charming Bolzano, the capital of the South Tyrol and an important stop on the main Verona/Innsbruck train line, and driven to the spectacular valley an hour away.\_ This valley is one of the prettiest in the ‘Ladino’ heartland of the Dolomite mountains and you will be your base for the next five nights.  You will be driven back to Bolzano on Day 6."
-  -
-    type: paragraph
+        text: "Liguria is a region steeped in maritime history: seafaring, shipbuilding and fishing and the buzzy towns you'll stay in along the way still retain much of their colourful pasts.  With its blend of sea, mountains and forest, the Italian Riviera 1 offers some of Italy’s finest coastal walks. "
 inclusions:
-  - 'Private transfer to and from Bolzano at the beginning and end of the tour'
-  - 'Five nights accommodation'
-  - 'All breakfasts and five dinners included'
+  - 'Seven nights accommodation'
+  - 'All breakfasts included'
   - 'Reading lists and historical and cultural notes'
   - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
-  - 'Transfers to the beginning of the walks on Day 2 and Day 4'
+  - 'Daily transfers of baggage between hotels'
+  - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: northern-italy
 page_builder:
@@ -151,4 +140,18 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
+image: tours/alto-adige-dolomites-1-self-guided-walk/porto.jpg
+gallery:
+  - tours/alto-adige-dolomites-1-self-guided-walk/1.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/6.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/5.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/porto.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/30.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/21.5.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/27-a.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/21.2.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/img_9266-a.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/chiavari-26.png
+  - tours/alto-adige-dolomites-1-self-guided-walk/18.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/pesto.jpg
 ---
