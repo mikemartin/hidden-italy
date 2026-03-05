@@ -6,10 +6,10 @@ title: 'Alto Adige - Dolomites 1 self-guided walk.'
 name: 'Dolomites 1 self-guided walk.'
 tour_types: self-guided
 region: 'Alto Adige'
-days: 7
+days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772604860
-grade: 3
+updated_at: 1772682179
+grade: 4
 summary: "Enjoy some of Italy's finest walking through some of Europe's most breath-taking scenery!"
 overview:
   -
@@ -17,51 +17,64 @@ overview:
     content:
       -
         type: text
-        text: 'Following an extraordinary trail, this continuous walk (no trains!) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere six days later, leaving you plenty of time to explore the charming villages you stay in each day.'
+        text: 'This wonderful six day self-guided walk introduces you to some ot the most spectacular mountains in the world and some of the finest walking in Europe.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "This continous walk along the Cinque Terre follows stone paths that have linked the villages for centuries, starting in Levanto at the eastern end of the National Park and finishing in glorious Portovenere at the western end of the park. They twist and wind along the rugged coast passing through pine forests and terraced vineyards, with breath-taking views out over the Mediterranean, including the less walked routes from Riomaggiore to Portovenere and around the little island off Portovenere.\_ At the end of the walk, you'll be dropped off at La Spezia railway station (on the Rome/Genoa line)."
+        marks:
+          -
+            type: italic
+        text: "“The Dolomites National Park protects a series of highly distinctive mountain landscapes that are of exceptional natural beauty, extraordinary in a global context, and amongst the most beautiful in the world……..”\_\_ UNESCO World Heritage Listing, June 2009."
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Celebrated as a skiing destination, the Dolomites also offer unrivalled walking in the summer.\_ You will use cable cars to get to the start of most walks and then follow well-marked trails as they wind your way back to your base, with the option at one of the charming mountains huts (rifugio) for a break or lunch along the way."
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "On Day 1 you’ll be met in charming Bolzano, the capital of the South Tyrol and an important stop on the main Verona/Innsbruck train line, and driven to the spectacular valley an hour away.\_ This valley is one of the prettiest in the ‘Ladino’ heartland of the Dolomite mountains and you will be your base for the next five nights.  You will be driven back to Bolzano on Day 6."
   -
     type: paragraph
 inclusions:
-  - 'Six nights accommodation'
-  - 'All breakfasts included'
-  - 'Reading lists, historical and cultural notes'
+  - 'Private transfer to and from Bolzano at the beginning and end of the tour'
+  - 'Five nights accommodation'
+  - 'All breakfasts and five dinners included'
+  - 'Reading lists and historical and cultural notes'
   - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
-  - 'Daily transfers of baggage between hotels'
-  - 'Drop-off at the end of the tour from Portovenere to La Spezia station (on the Rome/Genoa line)'
-  - 'The Santa Margherita/Portofino option includes 3 nights in a 4-star hotel, sea views'
-  - '24 hour backup from local manager'
+  - 'Transfers to the beginning of the walks on Day 2 and Day 4'
   - 'City taxes are not included in the cost of the tour'
 locations: northern-italy
 page_builder:
   -
     id: mloocwbk
-    title: 'Highlights of the Cinque Terre Coastal walk'
+    title: 'Highlights of the Dolomites 1 walking tour'
     activities:
       -
         id: mlooee34
-        title: 'Enjoy a continuous 6-day walk'
-        summary: 'Enjoy a continuous walk from village to village for the whole six days (no trains to get to and from the walks each day)'
+        title: 'Explore the most beautiful mountains in the world!'
+        summary: 'Pass your time exploring a gorgeous valley in the heart of the most beautiful mountains in the world.'
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mloog7vk
-        title: 'Savour the famous food and wines'
-        summary: 'Ligurian cuisine is the delicious result of fresh produce from gardens and sea being combined with generations of skill.'
+        title: 'Enjoy magnificent walking'
+        summary: 'Enjoy a variety of extraordinary walks following well-marked trails with breath-taking views everywhere you turn.'
         icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
       -
         id: mlooou12
-        title: 'Walk through stunning scenery'
-        summary: 'The ancient walking trails take you through the most stunning scenery in Italy: mountains on the left, sea on the right!'
+        title: 'Revel in a luxurious accommodation'
+        summary: 'Your accommodation is in a family-run, 4-star hotel, a seductive combination of Austrian efficiency and Italian warmth.'
         icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
       -
         id: mlooun08
-        title: 'Immerse yourself in gorgeous villages'
-        summary: "You will have all the time in the world to immerse yourself in the life of six of Italy's most beautiful villages."
+        title: 'Indulge your taste buds'
+        summary: 'Breakfast and alla carte, three-course dinners are included each day of the tour.'
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
@@ -70,68 +83,75 @@ page_builder:
     enabled: true
   -
     id: mloox88g
-    title: 'Cinque Terre walking tour itinerary'
-    summary: 'Following an extraordinary trail, this continuous walk (no trains) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere 6 days later, with plenty of time to explore the charming villages you stay in each day.'
+    title: 'Dolomites 1 self-guided walking tour itinerary'
+    summary: 'This wonderful five night/six day self-guided walk introduces you to some spectacular mountains in the world and some of the finest walking in Europe.'
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Levanto'
-        description: 'The tour starts in Levanto, a charming and unpretentious town on the main Genoa/Rome railway line with a sandy beach and a wonderful new cycle-way, a thoroughly Italian sea-side resort.'
+        title: 'Day 1: Arrive in the Dolomites'
+        description: 'You will be picked up in Bolzano and taken north, following the Adige Valley towards Austria, before turning left into one of the most beautiful valleys in the Dolomites (a fascinating one-hour drive away).'
+        meals_included:
+          - dinner
       -
         id: mloozlek
-        title: 'Day 2:  Walk to Monterosso'
-        description: 'The first walk follows a superb coastal path, through woods and scented scrub with breathtaking views over the gulf and the five villages of Cinque Terre.  Along the way it passes the ruins of an abandoned convent, before dipping down to the first Cinque Terre village.'
-        duration: 3
-        distance: 7
-        elevation: 314
+        title: 'Day 2:  Walk the north side of the valley'
+        description: 'Your first walk is a spectacular introduction to the Dolomites.  To get to the start, you will be driven to the western end of the valley.  You then take a cable car to the top of the northern side, where you have breath-taking views over the whole range, stretching from Austria in the north to Veneto in the south.   You then take an undulating path across alpine pastures, through pine forests and back down to your village, with the option of stopping for lunch in a mountain hut along the way.'
+        duration: 4
+        distance: 10
+        elevation: 250
         meals_included:
           - breakfast
+          - dinner
       -
         id: mlop159i
-        title: 'Day 3:  Walk through vineyards'
-        description: "With today's walk you start on  the Sentiero Azzurro, the celebrated path that links all the five villages of the Cinque Terre. The walk today weaves along cliffs and through terraces, offering spectacular views over the bays and the villages, before taking you to Vernazza, which, with its natural harbour and its Gothic church, many consider the loveliest of all."
+        title: 'Day 3:  Walk to Ortisei'
+        description: |-
+          This morning is an easy day, following a gentle river-side path that takes you the length of the valley past farmhouses and through villages to the largest town in the valley  (2.5 hrs; 9 kms; max: 1563 mts, min: 1221 mts)
+
+          You’ll have time to visit the town with its shops, markets and museums and also have lunch.  In the afternoon, you will have the option of walking back your base along the same trail or taking one of the regular local buses back to your base.
         duration: 3
-        distance: 5
-        elevation: 200
+        distance: 9
+        elevation: 187
         meals_included:
           - breakfast
+          - dinner
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk to Riomaggiore'
-        description: "This morning, you pick up the Sentiero Azzurro again passing through olive groves with views up to ancient terraces in the mountains above you.  Along the way you visit two more of the Cinque Terre villages (perfect for resfershments and lunch) and then continue on to Riomaggiore, the last of the five villages, where you'll stay the night.  We also include a beautiful alternative high walk through the vineyards of Volastra."
-        duration: 2
-        distance: 7
-        elevation: 184
+        title: 'Day 4:  Walk Walk the south side of the valley'
+        description: |-
+          The walk today starts with a transfer back to the eastern end of the valley and another cable car ride, this time up the southern side of the valley (to 2,000 metres) from where you walk across the largest high altitude alpine meadows in Europe, a vast undulating amphitheatre of green fields surrounded by some of the most spectacular ranges in the area. 
+
+          The walk passes a small hamlet where you can have lunch before continuing under the cliffs and then dropping back down through forest into the valley to your base.  (4.5 hrs; 14 kms; max: 1995 mts, min: 1544 mts)
+        duration: 5
+        distance: 14
+        elevation: 279
         meals_included:
           - breakfast
+          - dinner
       -
         id: mlop5205
-        title: 'Day 5:  Walk to Portovenere'
-        description: 'Today you walk above the eastern part of the gulf to Portovenere.  It’s starts with a big climb up through forest to the ridge, passing an ancient religious sanctuary along the way.  From here you slowly descend to Portovenere, an ancient, narrow-laned town that sits astride a spit of land on the very tip of the Gulf of the Poets.  Portovenere has a small, sandy beach and a number of rocky coves, excellent for swimming.'
-        duration: 4
-        distance: 14
-        elevation: 563
+        title: 'Day 5:  The grand finale'
+        description: 'As the grand finale to your visit, you have a circuit walk around one of the most famous formations in the Dolomites.  To get to the start, you take a cable car directly up from the town.  From here, you follow a trail that contours around this extraordinary massif, with cliffs soaring up above you (3000 mts). There are regular mountain huts along the way for refreshments.  This trail is not suitable for suffers of vertigo so we have included a shorter, lower and less challenging alternative.'
+        duration: 6
+        distance: 19
+        elevation: 394
         meals_included:
           - breakfast
+          - dinner
       -
         id: mlop6avf
-        title: 'Day 6:  Do a lap of Palmaria island'
-        description: 'The walk this morning starts with a short boat ride across the narrow waterway that separates Portovenere from a fascinating island, which has a small fishing village, the remains of a monastery from the 11th century, and a very good small restaurant.  The walk circumnavigates the island, starting and finishing at the wharf.  You return by boat to Portovenere.'
+        title: 'Day 6:  Transfer to Bolzano'
+        description: 'You’ll be taken back to Bolzano by a private transfer, which has regular national and international rail connections.'
         duration: 2
         distance: 6
         elevation: 181
-        meals_included:
-          - breakfast
-      -
-        id: mlop8uiy
-        title: 'Day 7:  Transfer to La Spezia'
-        description: "After breakfast, you'll be transferred by private vehicle to La Spezia (30 minutes away) a busy and colourful port, with a number of excellent museums, a picturesque harbour and daily markets.  La Spezia has regular rail connections to Rome, Florence and Milan."
         meals_included:
           - breakfast
     type: itinerary
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
+image: tours/alto-adige-dolomites-1-self-guided-walk/p9192176.jpg
 gallery:
   - tours/alto-adige-dolomites-1-self-guided-walk/2.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/img_8778.jpg
@@ -142,7 +162,7 @@ gallery:
   - tours/alto-adige-dolomites-1-self-guided-walk/img_1570.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/p9192176.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/p9171957-(2).jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/img_3481.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/sassolungo-with-horse.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/img_1568.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/35.jpg
 ---
