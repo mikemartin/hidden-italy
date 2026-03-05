@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772692455
+updated_at: 1772692987
 grade: 4
 summary: 'Follow ancient paths via fishing villages and vineyards on the beautiful Italian Riviera!'
 overview:
@@ -160,15 +160,16 @@ simple_likes: 0
 duplicated_from: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
 image: tours/alto-adige-dolomites-1-self-guided-walk/porto.jpg
 gallery:
+  - tours/alto-adige-dolomites-1-self-guided-walk/img_9103-a.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/6.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/5.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/18.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/img_9183-a.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/21.2.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/porto.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/30.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/21.5.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/27-a.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/21.2.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/img_9266-a.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/chiavari-26.png
-  - tours/alto-adige-dolomites-1-self-guided-walk/18.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/27-a.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/pesto.jpg
 ---
