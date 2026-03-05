@@ -6,30 +6,48 @@ title: 'Liguria - Italian Riviera 1 self-guided walk.'
 name: 'Italian Riviera 1 self-guided walk.'
 tour_types: self-guided
 region: Liguria
-days: 6
+days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772688449
+updated_at: 1772692455
 grade: 4
-summary: 'Follow ancient paths through fishing villages, vineyards on the beautiful Italian Riviera!'
+summary: 'Follow ancient paths via fishing villages and vineyards on the beautiful Italian Riviera!'
 overview:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'The Italian Riviera 1 self-guided walk is first section of the 15 day Italian Riviera walk, which takes you the length of the Italian Riviera from Genoa to Portofino, passing through the Cinque Terre along the way.  '
+        text: 'This 8-day walk takes you along the Italian Riviera following an arc of coastline dotted with fishing towns and glam resorts.  It starts in the port city of Genova, the capital of the region of Liguria, and finishes six days later in enchanting Sestri Levante.  '
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'The Italian Riviera starts in Genoa and finishes in the charming Sestri Levante.  The route follows seaside paths and forested trails, passing through vineyards and olive groves, following an arc of coastline dotted with fishing towns and glam resorts, such as Portofino, Santa Margherita and Rapallo.'
+        text: 'Along the way you follow seaside paths; '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'creuze de ma '
+      -
+        type: text
+        text: "(traditional country lanes lined with dry-stone walls); and forest trails, passing through vineyards and olive groves, constantly accompanied by spectacular views up into the mountains and out over the sea.  Liguria is a region steeped in maritime history (seafaring, shipbuilding and fishing) and the buzzy towns you'll stay in still proudly retain their traditions and vestiges of their colourful pasts.   "
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Liguria is a region steeped in maritime history: seafaring, shipbuilding and fishing and the buzzy towns you'll stay in along the way still retain much of their colourful pasts.  With its blend of sea, mountains and forest, the Italian Riviera 1 offers some of Italy’s finest coastal walks. "
+        text: "To make your adventure complete, along the way you will have the chance to sample one of Italy's finest cuisines, characterised by simple recipes based on the freshest produce, such as pasta al pesto genovese, gnocchi with walnut sauce and crunchy focaccia bread, as well as the freshest seafood including swordfish, mussels, scampi, octopus and anchovies, all accompanied some very fine white wines and olive oils."
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Please note, that the Italian Riviera 1 walk is the only first section of the complete 15 day Italian Riviera walk, which takes you the whole length of the whole eastern Italian Riviera, from Genoa to Portofino, passing through the Cinque Terre along the way.  '
 inclusions:
   - 'Seven nights accommodation'
   - 'All breakfasts included'
