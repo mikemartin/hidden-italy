@@ -2,15 +2,15 @@
 id: c10e8a1d-dab8-454a-8c80-abbba7b0a648
 published: false
 blueprint: tour
-title: 'Alto Adige - Dolomites 1 self-guided walk.'
-name: 'Dolomites 1 self-guided walk.'
+title: 'Liguria - Italian Riviera 1 self-guided walk.'
+name: 'Italian Riviera 1 self-guided walk.'
 tour_types: self-guided
-region: 'Alto Adige'
+region: Liguria
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772682347
+updated_at: 1772682544
 grade: 4
-summary: "Enjoy some of Italy's finest walking through some of Europe's most breath-taking scenery!"
+summary: 'Follow ancient paths through fishing villages, vineyards on the beautiful Italian Riviera!'
 overview:
   -
     type: paragraph
