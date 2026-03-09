@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773028156
+updated_at: 1773028299
 grade: 4
 summary: 'Follow ancient paths through fishing villages and forests on the beautiful Italian Riviera'
 overview:
@@ -165,8 +165,8 @@ gallery:
   - tours/alto-adige-dolomites-1-self-guided-walk-1/21.5.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1/chiavari-26.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1/6.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1/img_4846.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1/18.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1/img_9183-a.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1/img_4828-a.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1/portofino-2.jpg
 ---
