@@ -8,37 +8,22 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773028357
+updated_at: 1773031956
 grade: 4
-summary: 'Follow ancient paths through fishing villages and forests on the beautiful Italian Riviera'
+summary: "Walk Italy's most celebrated coastline from romantic Sestri Levante to the Cinque Terre!"
 overview:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'This 8-day walk takes you along the Italian Riviera following an arc of coastline dotted with fishing towns and glam resorts.  It starts in the port city of Genova, the capital of the region of Liguria, and finishes six days later in enchanting Sestri Levante.  '
+        text: "This is a walk of two parts: the first three days take you through some of least visited parts of the Ligurian Coast, following well-marked mountain trails through unspoilt forests and staying in laid-back coastal towns quite untouched by tourism.\_ The remaining days take you along the trails of the Cinque Terre, one of the most celebrated and spectacular stretches of coastline in the Mediterranean, following stone paths that have linked the fishing villages for centuries."
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Along the way you follow seaside paths; '
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'creuze de ma '
-      -
-        type: text
-        text: "(traditional country lanes lined with dry-stone walls); and forest trails, passing through vineyards and olive groves, constantly accompanied by spectacular views up into the mountains and out over the sea.  Liguria is a region steeped in maritime history (seafaring, shipbuilding and fishing) and the buzzy towns you'll stay in still proudly retain their traditions and vestiges of their colourful pasts.   "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "To make your adventure complete, along the way you will have the chance to sample one of Italy's finest cuisines, characterised by simple recipes based on the freshest produce, such as pasta al pesto genovese, gnocchi with walnut sauce and crunchy focaccia bread, as well as the freshest seafood including swordfish, mussels, scampi, octopus and anchovies, all accompanied some very fine white wines and olive oils."
+        text: "The highlights of the tour include:\_ strolling around Sestri Levante’s Bay of Silence; the tranquillity of the trails that take you through oak and pine forests on the first two walks; the breath-taking sea views from the ruined tower on Punte Baffe; the lanes of old Levanto;\_ swimming at the Mediterranean beaches; your first views of Vernazza; dinner al fresco on the top of a tower overlooking the port; walking through the vineyards high above the sea; a crisp glass of local Cinque Terre white wine in Riomaggiore; coming down above the cliffs to Portovenere; a moonlight walk to San Pietro at the tip of Portovenere; the boat ride across the gulf for your last walk."
   -
     type: paragraph
     content:
@@ -47,9 +32,9 @@ overview:
         marks:
           -
             type: italic
-        text: 'Please note, that the Italian Riviera 1 walk is the only first section of the complete 15 day Italian Riviera walk, which takes you the whole length of the whole eastern Italian Riviera, from Genoa to Portofino, passing through the Cinque Terre along the way.  '
+        text: 'Please note, that the Italian Riviera 2 walk is the second section of the complete 15 day Italian Riviera walk, which takes you the whole length of the whole eastern Italian Riviera, from Genoa to Portofino, passing through the Cinque Terre along the way.  '
 inclusions:
-  - 'Seven nights accommodation'
+  - 'Eight nights accommodation'
   - 'All breakfasts included'
   - 'Reading lists and historical and cultural notes'
   - 'Maps and detailed walking instructions'
@@ -61,17 +46,17 @@ locations: northern-italy
 page_builder:
   -
     id: mloocwbk
-    title: 'Highlights of the Italian Riviera 1 tour'
+    title: 'Highlights of the Italian Riviera 2 tour'
     activities:
       -
         id: mlooee34
-        title: 'Explore the stunning Italian Riviera'
-        summary: "Starting in bustling Genova and finishing in enchanted Sestri Levante, you will explore Italy's most romantic coastline."
+        title: "Hike Italy's most celebrated coastline"
+        summary: 'Hiking well-marked trails through forests and quiet fishing villages before hitting the breath-taking Cinque Terre.'
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mloog7vk
-        title: 'Stay in enchanting Portofino'
-        summary: "Stay in a family-run hotel off the main piazza and schmooze in one of Italy's most picturesque seaside villages!"
+        title: 'Swim in the blue Mediterranean'
+        summary: "You will rocky coves and some of northern Italy's best beaches, with plenty of opportunities to plunge into the sea."
         icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
       -
         id: mlooun08
@@ -155,4 +140,18 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: c10e8a1d-dab8-454a-8c80-abbba7b0a648
+image: tours/alto-adige-dolomites-1-self-guided-walk-1-1/1.jpg
+gallery:
+  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/1.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/2.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/8.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/7.5.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/img_7590.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/24.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/25.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/19.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/italy-autmun-2013-048.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/shutterstock_1172539480-a.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/view-from-window-at-paradiso.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/wine-bottle.jpg
 ---
