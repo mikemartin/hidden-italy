@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Lombardy
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773039469
+updated_at: 1773039505
 grade: 3
 summary: "Spend a marvellous week exploring the beauty and charms of Italy's most romantic lake!"
 overview:
@@ -139,9 +139,9 @@ gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour/17-v2.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/32-a.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/menaggio-18.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/intragna-11.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/28.3.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/menaggio-17.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/intragna-11.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/136.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/iseo-6.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/dervio-8.jpg
