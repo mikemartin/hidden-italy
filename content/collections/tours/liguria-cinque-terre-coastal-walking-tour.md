@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772600522
+updated_at: 1773023116
 grade: 3
 summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
 overview:
@@ -131,4 +131,18 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
+image: tours/liguria-cinque-terre-coastal-walking-tour/vernazza-11.jpg
+gallery:
+  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-11.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/44.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/hans-spaghetti-186337_1920.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/img_4637-a.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/manarola-1-a.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/monterosso-4.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/portovenere-1.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/siret-jaksic-yats80aqvmm-unsplash.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/djedj-cinque-terre-2928723_1920-a.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-3-a.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-8-a.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-2.jpg
 ---
