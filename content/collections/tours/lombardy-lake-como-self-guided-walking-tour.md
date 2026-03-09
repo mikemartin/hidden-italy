@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Lombardy
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773039505
+updated_at: 1773039671
 grade: 3
 summary: "Spend a marvellous week exploring the beauty and charms of Italy's most romantic lake!"
 overview:
@@ -17,13 +17,13 @@ overview:
     content:
       -
         type: text
-        text: 'Following an extraordinary trail, this continuous walk (no trains!) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere six days later, leaving you plenty of time to explore the charming villages you stay in each day.'
+        text: "Lake Como is the most sophisticated and interesting of the Italian lakes, it is also the most beautiful. You'll spend the first four days the tour based in a delightful little town on the shores of the lake, with views up towards Switzerland. From here you'll take a ferry ride to spend two nights in Bellagio, the jewel of Lake Como and considered the most beautiful town in Italy."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "This continous walk along the Cinque Terre follows stone paths that have linked the villages for centuries, starting in Levanto at the eastern end of the National Park and finishing in glorious Portovenere at the western end of the park. They twist and wind along the rugged coast passing through pine forests and terraced vineyards, with breath-taking views out over the Mediterranean, including the less walked routes from Riomaggiore to Portovenere and around the little island off Portovenere.\_ At the end of the walk, you'll be dropped off at La Spezia railway station (on the Rome/Genoa line)."
+        text: "Each walk reveals a different side of this fascinating area's history and traditions: a beautiful lake side route that follows a stone medieval trading path through forests and villages above the eastern shore; a loop walk that follows an old smugglers' routes above the western side of the lake\_ up through oak forests to open farmlands with breath-taking views into Switzerland; an interesting walk through the villages that surround Bellagio; and, as a grande finale, an extraordinary walk in the mountains above Bellagio with endless views across the lake and surrounding mountains."
   -
     type: paragraph
 inclusions:
@@ -32,9 +32,9 @@ inclusions:
   - 'Reading lists, historical and cultural notes'
   - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
-  - 'Daily transfers of baggage between hotels'
-  - 'Drop-off at the end of the tour from Portovenere to La Spezia station (on the Rome/Genoa line)'
-  - 'The Santa Margherita/Portofino option includes 3 nights in a 4-star hotel, sea views'
+  - 'Private transfer from Como to the start of the tour'
+  - 'Transfers of baggage between hotels'
+  - 'Private transfer from Bellagio to Como at the end of the tour'
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: northern-italy
