@@ -1,6 +1,5 @@
 ---
 id: c10e8a1d-dab8-454a-8c80-abbba7b0a648
-published: false
 blueprint: tour
 title: 'Liguria - Italian Riviera 1 self-guided walk.'
 name: 'Italian Riviera 1 self-guided walk.'
@@ -8,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773028332
+updated_at: 1773028336
 grade: 4
 summary: 'Follow ancient paths through fishing villages and forests on the beautiful Italian Riviera'
 overview:
