@@ -164,7 +164,6 @@ gallery:
   - tours/alto-adige-dolomites-1-self-guided-walk-1/30.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1/21.5.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1/chiavari-26.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1/6.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1/18.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1/img_9183-a.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1/img_4828-a.jpg
