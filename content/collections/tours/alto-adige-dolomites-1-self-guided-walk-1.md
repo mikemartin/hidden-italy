@@ -8,9 +8,9 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773024142
+updated_at: 1773028156
 grade: 4
-summary: 'Follow ancient paths via fishing villages and vineyards on the beautiful Italian Riviera!'
+summary: 'Follow ancient paths through fishing villages and forests on the beautiful Italian Riviera'
 overview:
   -
     type: paragraph
@@ -89,63 +89,66 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in the Dolomites'
-        description: 'You will be picked up in Bolzano and taken north, following the Adige Valley towards Austria, before turning left into one of the most beautiful valleys in the Dolomites (a fascinating one-hour drive away).'
-        meals_included:
-          - dinner
+        title: 'Day 1: Arrive in Genova'
+        description: 'Staying in a comfortable hotel in the medieval centre of Genoa, your first day is an opportunity to explore the treasures of a city that once ruled the Mediterranean and was known for centuries as La Superba (the Proud).  Genoa preserves many relics of its ancient and honourable history, including numerous palaces and magnificent art collections of its maritime families, as well as its colourful old port.'
       -
         id: mloozlek
-        title: 'Day 2:  Walk the north side of the valley'
-        description: 'Your first walk is a spectacular introduction to the Dolomites.  To get to the start, you will be driven to the western end of the valley.  You then take a cable car to the top of the northern side, where you have breath-taking views over the whole range, stretching from Austria in the north to Veneto in the south.   You then take an undulating path across alpine pastures, through pine forests and back down to your village, with the option of stopping for lunch in a mountain hut along the way.'
+        title: 'Day 2:  Walk along the coast'
+        description: 'The first section of today’s walk starts from Genoa’s historic port, an ‘urban walk’ through the lane and alleys to a coastal promenade that takes you to a seaside resort.  Here you have the option of shortening the walk by taking the train. The second section follows stone trails that you will walk for much of the tour.  You climb into the foothills with views to the promontory of Portofino, before descending to a picturesque fishing village.'
         duration: 4
-        distance: 10
-        elevation: 250
+        distance: 14
+        elevation: 218
         meals_included:
           - breakfast
-          - dinner
       -
         id: mlop159i
-        title: 'Day 3:  Walk to Ortisei'
-        description: |-
-          This morning is an easy day, following a gentle river-side path that takes you the length of the valley past farmhouses and through villages to the largest town in the valley  (2.5 hrs; 9 kms; max: 1563 mts, min: 1221 mts)
-
-          You’ll have time to visit the town with its shops, markets and museums and also have lunch.  In the afternoon, you will have the option of walking back your base along the same trail or taking one of the regular local buses back to your base.
-        duration: 3
-        distance: 9
-        elevation: 187
+        title: 'Day 3:  Walk to Camogli'
+        description: 'This first section of the walk follows creuze de ma again up through hamlets to the ridge of Monte Croce.  It continues along the ridge before descending to another cute fishing village.  Here you can shortening the walk by taking the train. The second leg is straight forward, following lanes and marked trails but it also involves two steep climb with the effort is rewarded by wide views over the Portofino Peninsula and arrive in the busy little port of Camogli.'
+        duration: 5
+        distance: 15
+        elevation: 263
         meals_included:
           - breakfast
-          - dinner
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk Walk the south side of the valley'
-        description: |-
-          The walk today starts with a transfer back to the eastern end of the valley and another cable car ride, this time up the southern side of the valley (to 2,000 metres) from where you walk across the largest high altitude alpine meadows in Europe, a vast undulating amphitheatre of green fields surrounded by some of the most spectacular ranges in the area. 
-
-          The walk passes a small hamlet where you can have lunch before continuing under the cliffs and then dropping back down through forest into the valley to your base.  (4.5 hrs; 14 kms; max: 1995 mts, min: 1544 mts)
-        duration: 5
-        distance: 14
-        elevation: 279
+        title: 'Day 4:  Walk to Portofino'
+        description: 'Today you leave Camogli by walking above the coastline on the western edge of the Portofino National Park with its vast views across the Gulf of Genoa before climbing up into forest.  You then wind your way down through forest and olive groves to the stunning little village of Portofino, one of the most celebrated spots on the Italian coast.'
+        duration: 3
+        distance: 10
+        elevation: 271
         meals_included:
           - breakfast
-          - dinner
       -
         id: mlop5205
-        title: 'Day 5:  The grand finale'
-        description: 'As the grand finale to your visit, you have a circuit walk around one of the most famous formations in the Dolomites.  To get to the start, you take a cable car directly up from the town.  From here, you follow a trail that contours around this extraordinary massif, with cliffs soaring up above you (3000 mts). There are regular mountain huts along the way for refreshments.  This trail is not suitable for suffers of vertigo so we have included a shorter, lower and less challenging alternative.'
-        duration: 6
-        distance: 19
-        elevation: 394
+        title: 'Day 5:  Walk through the Portofino park'
+        description: 'This morning you head out of Portofino along a lovely path that winds above the coast passing through olive groves with views over bays and hidden villas to the elegant resort town of Santa Margherita Ligure.  From here you follow a well-marked path through a busy neighbouring port, entering the the final town over a Roman bridge that Hannibal himself crossed, or so the legend goes.'
+        duration: 3
+        distance: 8
+        elevation: 203
         meals_included:
           - breakfast
-          - dinner
       -
         id: mlop6avf
-        title: 'Day 6:  Transfer to Bolzano'
-        description: 'You’ll be taken back to Bolzano by a private transfer, which has regular national and international rail connections.'
-        duration: 2
-        distance: 6
+        title: 'Day 6:  Walk along the Tigullio Gulf'
+        description: 'Today’s gorgeous walk starts with a 15-minute funicular ride from the port up to one of the holiest religious sanctuaries in the area, founded in the 16th century.  From here, you follow an ancient and well-marked walk that takes you from the sanctuary along a descending ridge line through beautiful oak and chestnut forests to Giuseppe Garibaldi’s bustling hometown, whose origins predates the Romans.'
+        duration: 3
+        distance: 10
         elevation: 181
+        meals_included:
+          - breakfast
+      -
+        id: mmin3e1a
+        title: 'Day 7:  Walk to Sestri Levante'
+        description: 'Today, the trail takes you along the sea front to a neighbouring town before picking up the pilgrim trail again, climbing up into the hills along an old paved trail to a ruined church with breath-taking views and down over Sestri Levante and the Bay of Silences.'
+        duration: 3
+        distance: 11
+        elevation: 230
+        meals_included:
+          - breakfast
+      -
+        id: mmin5pe3
+        title: 'Day 8:  Depart Sestri Levante'
+        description: 'Sestri Levante is on the Genoa/La Spezia line well serviced by regular trains in either direction (including to the Cinque Terre, three stops away to the east).'
         meals_included:
           - breakfast
     type: itinerary
