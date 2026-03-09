@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773024122
+updated_at: 1773024142
 grade: 4
 summary: 'Follow ancient paths via fishing villages and vineyards on the beautiful Italian Riviera!'
 overview:
@@ -152,7 +152,7 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
-image: tours/alto-adige-dolomites-1-self-guided-walk-1/6.jpg
+image: tours/alto-adige-dolomites-1-self-guided-walk-1/porto.jpg
 gallery:
   - tours/alto-adige-dolomites-1-self-guided-walk-1/porto.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1/img_9103-a.jpg
