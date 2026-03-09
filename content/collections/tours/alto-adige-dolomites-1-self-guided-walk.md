@@ -7,7 +7,7 @@ tour_types: self-guided
 region: 'Alto Adige'
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772682185
+updated_at: 1773019698
 grade: 4
 summary: "Enjoy some of Italy's finest walking through some of Europe's most breath-taking scenery!"
 overview:
@@ -150,4 +150,5 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
+image: tours/alto-adige-dolomites-1-self-guided-walk/img_8778-1773019621.jpg
 ---
