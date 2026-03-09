@@ -43,18 +43,18 @@ page_builder:
     activities:
       -
         id: mjflez0m
-        title: 'Arrive in Biella'
+        title: 'Explore Biella'
         summary: 'Settle into a 4-star hotel and share a welcome dinner with your group in this historic alpine town.'
         icon: hotel-booking/hotel-building-accommodation-lodging-stay.svg
       -
         id: mjflfcs4
-        title: 'Walk the Trails to Freedom'
+        title: 'Walk historic trails'
         summary: 'Follow ancient trails through the European Alps in the footsteps of 4 Aussie POWs who escaped Fascist Italy in 1943.'
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mjflflyr
-        title: 'Sleep in two ancient monasteries'
-        summary: 'Stay in two centuries-old baroque monasteries nestled in the mountains, and enjoy their history and the hearty dinners.'
+        title: 'Sleep in ancient monasteries'
+        summary: 'Stay in marvellous baroque monasteries nestled in the heart of the mountains, enjoying their history and hearty dinners.'
         icon: types-houses/victorian-historic-ornate-19th-century-traditional-period-simple-architecture.svg
       -
         id: mjflft3i
@@ -176,7 +176,7 @@ tour_types: guided
 seasons: summer
 locations: northern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1770874513
+updated_at: 1773022044
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
