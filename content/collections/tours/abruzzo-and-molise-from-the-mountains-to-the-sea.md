@@ -7,7 +7,7 @@ tour_types: guided
 region: 'Abruzzo and Molise'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772600502
+updated_at: 1773021671
 grade: 4
 summary: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
 overview:
@@ -50,7 +50,7 @@ page_builder:
       -
         id: mloqdoo9
         title: "Get an insider's view of Rome"
-        summary: "Stay in an historic hotel near the Pantheon, explore Rome with a local and have dinner at the city's oldest restaurant."
+        summary: "Stay in a historic hotel behind the Pantheon, explore Rome with a local and have dinner at the city's oldest restaurant."
       -
         id: mloqi0iy
         title: 'Explore the Gran Sasso National Park'
@@ -58,7 +58,7 @@ page_builder:
       -
         id: mloqndod
         title: 'Be a guest in marvellous accommodation'
-        summary: 'Stay in an extraordinary restored medieval village, a lovely family-run agriturismo, a private apartment with seaviews.'
+        summary: 'Stay in an extraordinary restored medieval village; a lovely family-run agriturismo; a private apartment with seaviews.'
       -
         id: mloqrnhn
         title: 'Discover Molise'
@@ -66,7 +66,7 @@ page_builder:
       -
         id: mmbkfbin
         title: 'Go boating around the Tremiti Islands'
-        summary: 'After the mountains, enjoy a day in a private boat exploring the Tremiti Islands with lots of chances to swim in the Med'
+        summary: 'After exploring the mountains, finish with a day on a private boat exploring the Tremiti Islands and swimming in the Med'
     type: highlights
     enabled: true
   -
@@ -184,4 +184,18 @@ page_builder:
     enabled: true
 simple_likes: 0
 seasons: spring
+image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2869.jpg
+gallery:
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2777.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/rome-2.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/11-capracotta.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2830.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/9-masseria.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2869.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_3344.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_8356-v2.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_3123.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2920.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/15-termoli.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/14-termoli.jpg
 ---
