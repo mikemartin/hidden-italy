@@ -7,7 +7,7 @@ tour_types: guided
 region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772600119
+updated_at: 1773021902
 grade: 4
 summary: 'A special tour to a fascinating region: 3 borders, 4 national parks; and five languages.'
 overview:
@@ -57,10 +57,11 @@ page_builder:
       -
         id: mloqndod
         title: "Explore Italy's most diverse region"
-        summary: 'With 5 official languages, 3 international borders, soaring mountains + endless coastline, Friuli is a captivating place'
+        summary: 'With 5 official languages, 3 international borders, soaring mountains and endless coasts, Friuli is a captivating place.'
       -
         id: mloqrnhn
         title: 'Walk incomparable trails'
+        summary: 'Led by local guides enjoy a variety of beautiful walks: through mountain and valleys, and along along beautiful coasts.'
       -
         id: mm4fpvo1
         title: 'Enjoy sophisticated cuisine'
