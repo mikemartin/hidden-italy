@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772692987
+updated_at: 1773024122
 grade: 4
 summary: 'Follow ancient paths via fishing villages and vineyards on the beautiful Italian Riviera!'
 overview:
@@ -61,27 +61,22 @@ locations: northern-italy
 page_builder:
   -
     id: mloocwbk
-    title: 'Highlights of the Dolomites 1 walking tour'
+    title: 'Highlights of the Italian Riviera 1 tour'
     activities:
       -
         id: mlooee34
-        title: 'Explore the most beautiful mountains in the world!'
-        summary: 'Pass your time exploring a gorgeous valley in the heart of the most beautiful mountains in the world.'
+        title: 'Explore the stunning Italian Riviera'
+        summary: "Starting in bustling Genova and finishing in enchanted Sestri Levante, you will explore Italy's most romantic coastline."
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mloog7vk
-        title: 'Enjoy magnificent walking'
-        summary: 'Enjoy a variety of extraordinary walks following well-marked trails with breath-taking views everywhere you turn.'
+        title: 'Stay in enchanting Portofino'
+        summary: "Stay in a family-run hotel off the main piazza and schmooze in one of Italy's most picturesque seaside villages!"
         icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
       -
-        id: mlooou12
-        title: 'Revel in a luxurious accommodation'
-        summary: 'Your accommodation is in a family-run, 4-star hotel, a seductive combination of Austrian efficiency and Italian warmth.'
-        icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
-      -
         id: mlooun08
-        title: 'Indulge your taste buds'
-        summary: 'Breakfast and alla carte, three-course dinners are included each day of the tour.'
+        title: "Sample Liguria's celebrated cuisine"
+        summary: "Liguria's simple and healthy cuisine is a masterful combination of the freshest local produce with the freshest seafood!"
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
@@ -90,8 +85,7 @@ page_builder:
     enabled: true
   -
     id: mloox88g
-    title: 'Dolomites 1 self-guided walking tour itinerary'
-    summary: 'This wonderful five night/six day self-guided walk introduces you to some spectacular mountains in the world and some of the finest walking in Europe.'
+    summary: 'This 8 days/7 nights walk takes you along the first half of the Italian Riviera Levante starts in the Genoa and finishes in the charming Sestri Levante, following forested trails and seaside paths along an arc of coastline dotted with fishing towns and glam resorts.'
     days:
       -
         id: mlooymbz
@@ -158,4 +152,18 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
+image: tours/alto-adige-dolomites-1-self-guided-walk-1/6.jpg
+gallery:
+  - tours/alto-adige-dolomites-1-self-guided-walk-1/porto.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1/img_9103-a.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1/21.2.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1/27-a.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1/30.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1/21.5.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1/chiavari-26.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1/6.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1/img_4846.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1/18.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1/img_9183-a.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1/portofino-2.jpg
 ---
