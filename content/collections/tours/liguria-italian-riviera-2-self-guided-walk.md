@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773031972
+updated_at: 1773032993
 grade: 4
 summary: "Walk Italy's most celebrated coastline from romantic Sestri Levante to the Cinque Terre!"
 overview:
@@ -70,72 +70,79 @@ page_builder:
     enabled: true
   -
     id: mloox88g
-    summary: 'This 8 days/7 nights walk takes you along the first half of the Italian Riviera Levante starts in the Genoa and finishes in the charming Sestri Levante, following forested trails and seaside paths along an arc of coastline dotted with fishing towns and glam resorts.'
+    summary: 'This marvelous walk is the second half of of our Italian Riviera walk. It starts in Sestri Levante, a beautiful resort town on the eastern headland of the Tigullio Gulf and finishes at the gorgeous town of Portovenere overlooking the La Spezia Gulf.'
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Genova'
-        description: 'Staying in a comfortable hotel in the medieval centre of Genoa, your first day is an opportunity to explore the treasures of a city that once ruled the Mediterranean and was known for centuries as La Superba (the Proud).  Genoa preserves many relics of its ancient and honourable history, including numerous palaces and magnificent art collections of its maritime families, as well as its colourful old port.'
+        title: 'Day 1: Arrive in Sestri Levante'
+        description: 'The tour starts in Sestri Levante, a very attractive resort town that is built along a peninsula , with a bay on either side: the charming Bay of Silence and the Bay of Fairies (name in honour of Hans Christian Anderson who lived here in the 1880s).  Peninsula ends with a forested hill a monastery on top.'
       -
         id: mloozlek
         title: 'Day 2:  Walk along the coast'
-        description: 'The first section of today’s walk starts from Genoa’s historic port, an ‘urban walk’ through the lane and alleys to a coastal promenade that takes you to a seaside resort.  Here you have the option of shortening the walk by taking the train. The second section follows stone trails that you will walk for much of the tour.  You climb into the foothills with views to the promontory of Portofino, before descending to a picturesque fishing village.'
-        duration: 4
-        distance: 14
-        elevation: 218
+        description: 'The first section on today’s walk follows a trail through forest to a headland with views over to Portofino.  From here the trail rounds the peninsula, passing through more forest before descending to a small town with a long sandy beach.  Here you have the option of shortening the walk by taking the train.  The second section climbs up to another headland with the ruins of a medieval lookout tower.  It then contours through forest before descending to an attractive town with a small port.'
+        duration: 5
+        distance: 15
+        elevation: 368
         meals_included:
           - breakfast
       -
         id: mlop159i
         title: 'Day 3:  Walk to Camogli'
-        description: 'This first section of the walk follows creuze de ma again up through hamlets to the ridge of Monte Croce.  It continues along the ridge before descending to another cute fishing village.  Here you can shortening the walk by taking the train. The second leg is straight forward, following lanes and marked trails but it also involves two steep climb with the effort is rewarded by wide views over the Portofino Peninsula and arrive in the busy little port of Camogli.'
-        duration: 5
-        distance: 15
-        elevation: 263
+        description: 'The first section today passes through one of the most unspoilt sections of the Ligurian coast, to an attractive neighbouring town.  Here you have the option of shortening the walk by taking the train. The second section involves a steep climb at the beginning, following an ancient path through oak forests, one of the most beautiful walks along the whole route.  You finishes at a very quaint town that has a long sandy beach.'
+        duration: 6
+        distance: 17
+        elevation: 333
         meals_included:
           - breakfast
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk to Portofino'
-        description: 'Today you leave Camogli by walking above the coastline on the western edge of the Portofino National Park with its vast views across the Gulf of Genoa before climbing up into forest.  You then wind your way down through forest and olive groves to the stunning little village of Portofino, one of the most celebrated spots on the Italian coast.'
+        title: 'Day 4:  Walk to the Cinque Terre'
+        description: 'There is a gentle start to today’s walk as you leave town along a disused railway tunnel which has recently been converted into a cycle/walking path, taking you to Levanto.  After walking along the waterfront, the trail picks a superb coastal path, going through woods with breathtaking views of the gulf and the Cinque Terre.  It finishes at the first of the five famous villages.'
         duration: 3
         distance: 10
-        elevation: 271
+        elevation: 310
         meals_included:
           - breakfast
       -
         id: mlop5205
-        title: 'Day 5:  Walk through the Portofino park'
-        description: 'This morning you head out of Portofino along a lovely path that winds above the coast passing through olive groves with views over bays and hidden villas to the elegant resort town of Santa Margherita Ligure.  From here you follow a well-marked path through a busy neighbouring port, entering the the final town over a Roman bridge that Hannibal himself crossed, or so the legend goes.'
+        title: 'Day 5:  Walk to Vernazza'
+        description: "With today's walk you start on  the Sentiero Azzuro, the celebrated path that links the five villages of the Cinque Terre. The walk weaves along cliffs and through terraces, offering spectacular views over the bays and the villages, taking you to Vernazza. (5 kms; 2.5 hrs; min: 3 mts, max: 200 mts)."
         duration: 3
-        distance: 8
-        elevation: 203
+        distance: 5
+        elevation: 197
         meals_included:
           - breakfast
       -
         id: mlop6avf
-        title: 'Day 6:  Walk along the Tigullio Gulf'
-        description: 'Today’s gorgeous walk starts with a 15-minute funicular ride from the port up to one of the holiest religious sanctuaries in the area, founded in the 16th century.  From here, you follow an ancient and well-marked walk that takes you from the sanctuary along a descending ridge line through beautiful oak and chestnut forests to Giuseppe Garibaldi’s bustling hometown, whose origins predates the Romans.'
-        duration: 3
-        distance: 10
-        elevation: 181
+        title: 'Day 6:  Walk to Riomaggiore'
+        description: "This morning, you pick up the Sentiero Azzuro again passing through olive groves with views up to the ancient terraces climbing  the mountains above you  You pass through two more of the Cinque Terre villages (where you can stop for lunch) before finishing at the last of the five villages, where you'll stay the night.  A beautiful alternative high walk through the vineyards of Volastra for this day is included as a more challenging option."
+        duration: 2
+        distance: 6
+        elevation: 184
         meals_included:
           - breakfast
       -
         id: mmin3e1a
-        title: 'Day 7:  Walk to Sestri Levante'
-        description: 'Today, the trail takes you along the sea front to a neighbouring town before picking up the pilgrim trail again, climbing up into the hills along an old paved trail to a ruined church with breath-taking views and down over Sestri Levante and the Bay of Silences.'
-        duration: 3
-        distance: 11
-        elevation: 230
+        title: 'Day 7:  Walk to Portovenere'
+        description: 'Today you walk above the eastern part of the gulf to Portovenere.  It’s a big climb up to the ridge.  The first stop is a religious sanctuary, before continuing up through forest to the top of the ridge.  From here you slowly walk down to a small village where you can pause for a break.  The final section is a long steady descent through forest to the spectacularly situated Portovenere.'
+        duration: 4
+        distance: 14
+        elevation: 558
         meals_included:
           - breakfast
       -
         id: mmin5pe3
-        title: 'Day 8:  Depart Sestri Levante'
-        description: 'Sestri Levante is on the Genoa/La Spezia line well serviced by regular trains in either direction (including to the Cinque Terre, three stops away to the east).'
+        title: 'Day 8:  Do a lap of Palmaria'
+        description: 'The walk this morning starts with a short boat ride across the narrow waterway that separates Portovenere from a fascinating island which has a small fishing village and the remains of a monastery from the 11th century.  You return by boat to Portovenere.  (2 hrs; 6 kms; min: 1 mt; max: 181 mts)'
         meals_included:
           - breakfast
+        duration: 2
+        distance: 6
+        elevation: 180
+      -
+        id: mmiq1kti
+        title: 'Day 9: Private transfer to La Spezia'
+        description: 'This morning you have a private transfer to La Spezia, thirty minutes’ drive away.  La Spezia is a busy and colourful port, which has a number of excellent museums and good rail connections.'
     type: itinerary
     enabled: true
 simple_likes: 0
@@ -148,8 +155,8 @@ gallery:
   - tours/alto-adige-dolomites-1-self-guided-walk-1-1/7.5.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1-1/img_7590.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1-1/24.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/25.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1-1/19.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/25.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1-1/italy-autmun-2013-048.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1-1/shutterstock_1172539480-a.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1-1/view-from-window-at-paradiso.jpg
