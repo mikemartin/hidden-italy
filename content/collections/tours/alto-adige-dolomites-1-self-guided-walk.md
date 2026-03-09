@@ -7,7 +7,7 @@ tour_types: self-guided
 region: 'Alto Adige'
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773020146
+updated_at: 1773020693
 grade: 4
 summary: "Enjoy some of Italy's finest walking through some of Europe's most breath-taking scenery!"
 overview:
@@ -58,7 +58,7 @@ page_builder:
       -
         id: mlooee34
         title: 'Explore the most beautiful mountains in the world!'
-        summary: 'Pass your time exploring a gorgeous valley in the heart of the most beautiful mountains in the world.'
+        summary: 'Take your time to enjoy five days exploring a gorgeous valley in the heart of the most beautiful mountains in the world.'
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mloog7vk
@@ -73,7 +73,7 @@ page_builder:
       -
         id: mlooun08
         title: 'Indulge your taste buds'
-        summary: 'Breakfast and alla carte, three-course dinners are included each day of the tour.'
+        summary: 'Indulge your senses with very generous breakfasts and 3-course, alla carte dinners, included for each day of the tour.'
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
@@ -152,13 +152,16 @@ simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 image: tours/alto-adige-dolomites-1-self-guided-walk/img_8778-1773019621.jpg
 gallery:
-  - tours/alto-adige-dolomites-1-self-guided-walk/img_8778-1773019782.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/p9171957-(2)-1773019785.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/p9192176-1773020026.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/2.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/p9192120-1773020023.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/p9171957-(2)-1773019785.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/22.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/36.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/p9171957-(2)-1773020004.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/p9192120-1773020023.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/p9192176-1773020026.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/34-1773020320.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/sassolungo-with-horse-1773020028.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/img_1570-1773020174.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/img_8778-1773019782.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/img_3481-1773020206.jpg
+  - tours/alto-adige-dolomites-1-self-guided-walk/35-1773020227.jpg
 ---
