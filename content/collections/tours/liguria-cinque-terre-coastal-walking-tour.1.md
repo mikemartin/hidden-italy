@@ -2,15 +2,15 @@
 id: c4b08565-bc23-4d2d-877c-69e8e02e78b8
 published: false
 blueprint: tour
-title: 'Liguria - Cinque Terre Coastal walking tour'
-name: 'Cinque Terre Coastal walking tour'
+title: 'Lombardy - Lake Como self-guided walking tour'
+name: 'Lake Como self-guided walking tour'
 tour_types: self-guided
-region: Liguria
+region: Lombardy
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773034750
+updated_at: 1773034858
 grade: 3
-summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
+summary: "Spend a marvellous week exploring the beauty and charms of Italy's most romantic lake!"
 overview:
   -
     type: paragraph
