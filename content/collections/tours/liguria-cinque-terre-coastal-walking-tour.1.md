@@ -132,18 +132,4 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-image: tours/liguria-cinque-terre-coastal-walking-tour/vernazza-11.jpg
-gallery:
-  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-11.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/44.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/hans-spaghetti-186337_1920.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/img_4637-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/manarola-1-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/monterosso-4.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/portovenere-1.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/siret-jaksic-yats80aqvmm-unsplash.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/djedj-cinque-terre-2928723_1920-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-3-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-8-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-2.jpg
 ---
