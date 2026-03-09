@@ -154,17 +154,4 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
-image: tours/alto-adige-dolomites-1-self-guided-walk-1/porto.jpg
-gallery:
-  - tours/alto-adige-dolomites-1-self-guided-walk-1/porto.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1/img_9103-a.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1/21.2.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1/27-a.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1/30.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1/21.5.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1/chiavari-26.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1/18.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1/img_9183-a.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1/img_4828-a.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1/portofino-2.jpg
 ---
