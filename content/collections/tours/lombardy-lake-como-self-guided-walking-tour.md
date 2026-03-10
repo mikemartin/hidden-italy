@@ -131,18 +131,4 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-image: tours/liguria-cinque-terre-coastal-walking-tour/116.jpg
-gallery:
-  - tours/liguria-cinque-terre-coastal-walking-tour/116.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/varenna-2.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/17-v2.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/la-villetta-5.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/28.3.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/menaggio-18.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/menaggio-17.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/321.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/136.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/iseo-6.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/dervio-8.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/varenna-3.jpg
 ---
