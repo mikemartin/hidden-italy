@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Lombardy
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773039671
+updated_at: 1773105044
 grade: 3
 summary: "Spend a marvellous week exploring the beauty and charms of Italy's most romantic lake!"
 overview:
@@ -41,27 +41,27 @@ locations: northern-italy
 page_builder:
   -
     id: mloocwbk
-    title: 'Highlights of the Cinque Terre Coastal walk'
+    title: 'Lake Como self-guided walk'
     activities:
       -
         id: mlooee34
-        title: 'Enjoy a continuous 6-day walk'
-        summary: 'Enjoy a continuous walk from village to village for the whole six days (no trains to get to and from the walks each day)'
+        title: "Experience Italy's most romantic lake"
+        summary: "Spend a relaxing week exploring the villages, paths and historic villas of Italy's most picturesque and seductive lake."
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mloog7vk
-        title: 'Savour the famous food and wines'
-        summary: 'Ligurian cuisine is the delicious result of fresh produce from gardens and sea being combined with generations of skill.'
+        title: 'Enjoy incomparable walking'
+        summary: "Enjoy Italy's finest walking trails, following historic paths with breathtaking views over the lake and the mountains."
         icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
       -
         id: mlooou12
-        title: 'Walk through stunning scenery'
-        summary: 'The ancient walking trails take you through the most stunning scenery in Italy: mountains on the left, sea on the right!'
+        title: 'Stay in gorgeous lakeside accommodation'
+        summary: 'Your accommodation is in lovely lakeside hotels, four nights in the western shore and two nights in mythical Bellagio.'
         icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
       -
         id: mlooun08
-        title: 'Immerse yourself in gorgeous villages'
-        summary: "You will have all the time in the world to immerse yourself in the life of six of Italy's most beautiful villages."
+        title: 'Explore the villages and villas'
+        summary: "You will have plenty of time to explore the charming towns and historic villas and gardens that line the lake's shores."
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
@@ -70,7 +70,7 @@ page_builder:
     enabled: true
   -
     id: mloox88g
-    title: 'Cinque Terre walking tour itinerary'
+    title: Lake
     summary: 'Following an extraordinary trail, this continuous walk (no trains) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere 6 days later, with plenty of time to explore the charming villages you stay in each day.'
     days:
       -
@@ -138,9 +138,9 @@ gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour/varenna-2.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/17-v2.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/32-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/menaggio-18.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/intragna-11.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/28.3.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/menaggio-18.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/la-villetta-5.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/menaggio-17.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/136.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/iseo-6.jpg
