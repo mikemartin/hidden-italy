@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773116459
+updated_at: 1773116544
 grade: 3
 summary: 'Spend a week exploring the Portofino National Park and the stupendous Tigullio Gulf!'
 overview:
@@ -77,7 +77,7 @@ page_builder:
     enabled: true
   -
     id: mloox88g
-    title: 'Lake Como self-guided walk'
+    title: 'Portofino and the Tigullio self-guided walk'
     summary: 'Portofino is the star turn of the Italian Riviera, a beautifully preserved fishing village tucked into a perfect bay, but it is only one of the highlights of this fascinating stretch of coastline that sits between Genoa and the Cinque Terre.'
     days:
       -
@@ -95,7 +95,7 @@ page_builder:
           - breakfast
       -
         id: mlop159i
-        title: 'Day 3:  Walk aroung the Gulf of Tigullio'
+        title: 'Day 3:  Walk around the Gulf of Tigullio'
         description: 'This morning you head out of Portofino following a lovely path that winds above the coast, passing through olive groves with views over bays and hidden villas to arrive at the elegant resort town of Santa Margherita Ligure.  From here, you follow a well-marked path to a busy neighbouring port, entering the town your staying in over a Roman bridge that Hannibal himself is said to have crossed.'
         duration: 3
         distance: 8
