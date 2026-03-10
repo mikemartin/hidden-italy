@@ -1,6 +1,5 @@
 ---
 id: c4b08565-bc23-4d2d-877c-69e8e02e78b8
-published: false
 blueprint: tour
 title: 'Lombardy - Lake Como self-guided walking tour'
 name: 'Lake Como self-guided walking tour'
@@ -8,7 +7,7 @@ tour_types: self-guided
 region: Lombardy
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773107504
+updated_at: 1773107510
 grade: 3
 summary: "Spend a marvellous week exploring the beauty and charms of Italy's most romantic lake!"
 overview:
