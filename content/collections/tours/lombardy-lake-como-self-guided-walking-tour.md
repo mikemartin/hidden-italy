@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Lombardy
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773105044
+updated_at: 1773107504
 grade: 3
 summary: "Spend a marvellous week exploring the beauty and charms of Italy's most romantic lake!"
 overview:
@@ -70,62 +70,62 @@ page_builder:
     enabled: true
   -
     id: mloox88g
-    title: Lake
-    summary: 'Following an extraordinary trail, this continuous walk (no trains) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere 6 days later, with plenty of time to explore the charming villages you stay in each day.'
+    title: 'Lake Como self-guided walk'
+    summary: 'Lake Como is the most romantic of the Italian lakes and with its excellent hotels and extensive network of ancient paths, is the perfect place for a Hidden Italy walk!'
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Levanto'
-        description: 'The tour starts in Levanto, a charming and unpretentious town on the main Genoa/Rome railway line with a sandy beach and a wonderful new cycle-way, a thoroughly Italian sea-side resort.'
+        title: 'Day 1: Arrive in Lake Como'
+        description: 'You will met in Como and driven to your lakeside accommodation with a private transfer.  After checking in, the rest of the day will be free for you to explore.'
       -
         id: mloozlek
-        title: 'Day 2:  Walk to Monterosso'
-        description: 'The first walk follows a superb coastal path, through woods and scented scrub with breathtaking views over the gulf and the five villages of Cinque Terre.  Along the way it passes the ruins of an abandoned convent, before dipping down to the first Cinque Terre village.'
-        duration: 3
-        distance: 7
-        elevation: 314
+        title: 'Day 2:  Walk the western lake shore'
+        description: "This morning you head north along the western shore towards Switzerland.  Starting in Varenna with a steep climb up to the castle, the trail then passes through forests and villages, following stone medieval paths with breathtaking views over the lake and mountains.  You finish in a pretty lake side town where you can take either a train or ferry back to your base.  It's possible to shorten this walk by stopping at an earlier village and taking the train or ferry  back to your base from there."
+        duration: 4
+        distance: 10
+        elevation: 213
         meals_included:
           - breakfast
       -
         id: mlop159i
-        title: 'Day 3:  Walk through vineyards'
-        description: "With today's walk you start on  the Sentiero Azzurro, the celebrated path that links all the five villages of the Cinque Terre. The walk today weaves along cliffs and through terraces, offering spectacular views over the bays and the villages, before taking you to Vernazza, which, with its natural harbour and its Gothic church, many consider the loveliest of all."
-        duration: 3
-        distance: 5
-        elevation: 200
+        title: 'Day 3:  Visit the villas and gardens'
+        description: 'Today is a free day to enjoy what the the lake has to offer.  We will provide you with details (opening information, ferry timetables etc) to visit two of the finest villas and gardens on the central lake, both of which can be easily reached with short pleasant ferry rides.  We have also included an additional walk that starts that can be combined with the villa visits or can be done as an alternative to the villa visits.'
+        duration: 4
+        distance: 9
+        elevation: 670
         meals_included:
           - breakfast
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk to Riomaggiore'
-        description: "This morning, you pick up the Sentiero Azzurro again passing through olive groves with views up to ancient terraces in the mountains above you.  Along the way you visit two more of the Cinque Terre villages (perfect for resfershments and lunch) and then continue on to Riomaggiore, the last of the five villages, where you'll stay the night.  We also include a beautiful alternative high walk through the vineyards of Volastra."
-        duration: 2
-        distance: 7
-        elevation: 184
+        title: 'Day 4:  Walk the eastern lake shore'
+        description: "Today's walk is a circuit walk up into the mountains on the eastern side of the lake. This spectacular walk starts and finishes in Menaggio.  It follows old smugglers paths, taking you up past villas and into oak forests that open on to orchards and farmlands filled with grazing cows with bells, offering breath-taking views across into Switzerland and Lake Lugano.  You take another ancient cobbled path back down to the lake where you started from."
+        duration: 4
+        distance: 13
+        elevation: 308
         meals_included:
           - breakfast
       -
         id: mlop5205
-        title: 'Day 5:  Walk to Portovenere'
-        description: 'Today you walk above the eastern part of the gulf to Portovenere.  It’s starts with a big climb up through forest to the ridge, passing an ancient religious sanctuary along the way.  From here you slowly descend to Portovenere, an ancient, narrow-laned town that sits astride a spit of land on the very tip of the Gulf of the Poets.  Portovenere has a small, sandy beach and a number of rocky coves, excellent for swimming.'
-        duration: 4
-        distance: 14
-        elevation: 563
+        title: 'Day 5:  Transfer to Bellagio'
+        description: 'Today you transfer to Bellagio, a short ferry ride across the lake (your bags will be delivered privately), your base for the next two nights.  We have included an interesting walk takes you around the Bellagio promontory, which visits the two branches of the lake, passing through fishing villages and past handsome historic villas before returning to Bellagio, via the beautiful gardens of Villa Melzi, the villa which graces the edge of the town.'
+        duration: 2
+        distance: 4
+        elevation: 46
         meals_included:
           - breakfast
       -
         id: mlop6avf
-        title: 'Day 6:  Do a lap of Palmaria island'
-        description: 'The walk this morning starts with a short boat ride across the narrow waterway that separates Portovenere from a fascinating island, which has a small fishing village, the remains of a monastery from the 11th century, and a very good small restaurant.  The walk circumnavigates the island, starting and finishing at the wharf.  You return by boat to Portovenere.'
-        duration: 2
-        distance: 6
-        elevation: 181
+        title: 'Day 6:  Walk Monte San Primo'
+        description: 'Monte San Primo is the mountain that forms the backdrop behind Bellagio and which offers spectacular views over whole of Lake Como and on to the Swiss mountains.  This fabulous walk, the tour finale, takes you on a well-marked path that loops the top of the mountain. You will have a private transfer to the start of the walk and you will be picked up and driven back to Bellagio at the end of the walk.  There is a shorter version of the walk, which avoids the steep climb.'
+        duration: 3
+        distance: 7
+        elevation: 551
         meals_included:
           - breakfast
       -
         id: mlop8uiy
-        title: 'Day 7:  Transfer to La Spezia'
-        description: "After breakfast, you'll be transferred by private vehicle to La Spezia (30 minutes away) a busy and colourful port, with a number of excellent museums, a picturesque harbour and daily markets.  La Spezia has regular rail connections to Rome, Florence and Milan."
+        title: 'Day 7:  Transfer to Como'
+        description: 'After breakfast at you will be driven to Como by private transfer.  Como railway station has national and international rail links.   Please note that, with notice, we can book transfers to Malpensa airport (additional costs apply) which is an hour and a half away.'
         meals_included:
           - breakfast
     type: itinerary
@@ -137,11 +137,11 @@ gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour/116.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/varenna-2.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/17-v2.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/32-a.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/la-villetta-5.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/28.3.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/menaggio-18.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/la-villetta-5.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/menaggio-17.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/321.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/136.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/iseo-6.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/dervio-8.jpg
