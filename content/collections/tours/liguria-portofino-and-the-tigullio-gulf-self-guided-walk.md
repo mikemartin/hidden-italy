@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773121618
+updated_at: 1773199961
 grade: 3
 summary: 'Spend a week exploring the Portofino National Park and the stupendous Tigullio Gulf!'
 overview:
@@ -132,16 +132,16 @@ simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 image: tours/liguria-cinque-terre-coastal-walking-tour/georgiana-andreca-h-hkuehqrs0-unsplash-a.jpg
 gallery:
-  - tours/liguria-cinque-terre-coastal-walking-tour/georgiana-andreca-h-hkuehqrs0-unsplash-a.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/linfer3-santa-margherita-2784154_1920.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/camogli-5.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/primaselezione-portofino-7504460_1920-a.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/chaewon-you-vrngfwxd0nm-unsplash.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/chiavari-6.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/erinsummer-beautiful-5284440_1920-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-9-a.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/moira-nazzari-cbtepzflvtu-unsplash.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-9-a.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/gabriel-tovar-yzqxu8nrlow-unsplash-a.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/img_4819.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/linfer3-santa-margherita-2784154_1920.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/georgiana-andreca-h-hkuehqrs0-unsplash-a.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/nathan-prost-ivrymcq9jae-unsplash.jpg
 ---
