@@ -2,39 +2,44 @@
 id: f0135e9f-7439-4a88-b4d1-cc54b20d7e0c
 published: false
 blueprint: tour
-title: 'Liguria - Cinque Terre Coastal walking tour'
-name: 'Cinque Terre Coastal walking tour'
+title: 'Umbria - Cammino of St Francis:  Umbria 1'
+name: 'Cammino of St Francis:  Umbria 1'
 tour_types: self-guided
-region: Liguria
+region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773287409
+updated_at: 1773374877
 grade: 3
-summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
+summary: "Walk well-marked trails thru Italy's most beautiful region, in the footsteps of St Francis"
 overview:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Following an extraordinary trail, this continuous walk (no trains!) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere six days later, leaving you plenty of time to explore the charming villages you stay in each day.'
+        text: 'This six-day walk is the first section of the Cammino of St Francis. It follows the official pilgrim route, a regularly marked trail that weaves through the hills and farmlands of Central Italy, from Assisi, home of St Francis, to Spoleto through some of the most beautiful country in the region.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "This continous walk along the Cinque Terre follows stone paths that have linked the villages for centuries, starting in Levanto at the eastern end of the National Park and finishing in glorious Portovenere at the western end of the park. They twist and wind along the rugged coast passing through pine forests and terraced vineyards, with breath-taking views out over the Mediterranean, including the less walked routes from Riomaggiore to Portovenere and around the little island off Portovenere.\_ At the end of the walk, you'll be dropped off at La Spezia railway station (on the Rome/Genoa line)."
+        text: "This first section starts in the beautiful town of Assisi.\_ The trail contours along the foothills of the Appennine Mountains with spectacular views over the Vale of Umbria, winding through classic Umbria countryside of farmlands and olives groves.  The trail finishes\_ in the remarkable town of Spoleto.  Along the way, you visit some of the best-preserved hilltop towns in the region, several that date from Roman times You're accommodation along the way is in welcoming, family-run, 3-star hotel.\_ "
   -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: "Umbria 1 walk is the first section of the Cammino of St Francis, a marvellous 258 km walk that starts in Assisi and finishes in Rome, following in the footsteps of Italy's most beloved saint.  The whole three-week walk can be broken up into three one-week sections: Umbria 1, Umbria 2 and Lazio."
 inclusions:
-  - 'Six nights accommodation'
-  - 'All breakfasts included'
-  - 'Reading lists, historical and cultural notes'
+  - 'Five nights accommodation'
+  - 'All breakfasts + 1 dinner included'
+  - 'Reading lists and historical and cultural notes'
   - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
-  - 'Daily transfers of baggage between hotels'
-  - 'Drop-off at the end of the tour from Portovenere to La Spezia station (on the Rome/Genoa line)'
-  - 'The Santa Margherita/Portofino option includes 3 nights in a 4-star hotel, sea views'
+  - 'Daily transfer of baggage between hotels'
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: northern-italy
