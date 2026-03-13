@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773376419
+updated_at: 1773376610
 grade: 3
 summary: "Walk well-marked trails thru Italy's most beautiful region, in the footsteps of St Francis"
 overview:
@@ -140,15 +140,15 @@ duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 image: tours/liguria-cinque-terre-coastal-walking-tour-1/2.jpg
 gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour-1/2.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/6.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/11.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/4.5.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/arriving-in-spello.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/14.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/11.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/6.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/12.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/13.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/11.7.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/3.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/4.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/16.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/umbria-3686911_1280.jpg
 ---
