@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773374877
+updated_at: 1773374886
 grade: 3
 summary: "Walk well-marked trails thru Italy's most beautiful region, in the footsteps of St Francis"
 overview:
