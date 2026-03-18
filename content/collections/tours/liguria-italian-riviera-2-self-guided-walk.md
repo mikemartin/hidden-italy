@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773032999
+updated_at: 1773799262
 grade: 4
 summary: "Walk Italy's most celebrated coastline from romantic Sestri Levante to the Cinque Terre!"
 overview:
@@ -38,6 +38,7 @@ inclusions:
   - 'Reading lists and historical and cultural notes'
   - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'A curated list of restaurants for each town you visit'
   - 'Daily transfers of baggage between hotels'
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
