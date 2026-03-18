@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773796552
+updated_at: 1773796557
 grade: 3
 summary: "A week-long walk along well-marked trails through the charming 'green heart of Italy'."
 overview:
