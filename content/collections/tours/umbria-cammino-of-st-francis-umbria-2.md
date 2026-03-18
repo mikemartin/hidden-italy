@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773798526
+updated_at: 1773799016
 grade: 3
 summary: "A week-long walk along well-marked trails through the charming 'green heart of Italy'."
 overview:
@@ -84,69 +84,61 @@ page_builder:
   -
     id: mloox88g
     title: 'Umbria 2 tour itinerary'
-    summary: |-
-      The second leg of the ‘Cammino of St Francis’, this beautiful seven day walk takes you far from the madding crowd to explore the ‘green heart of Italy’, following well-marked trails through forests, along river valleys and past lakes to Rieti, home of the Sabines and an ancient rival of Rome.
-      strip 2 Cammino Via Francigena Way of St Francis umbria self-guided
-
-      Leaving Spoleto via the 13th century Ponte delle Torri bridge, you finish a week later, staying in a lovely 3-star hotel in the centre of the ancient town of Rieti.  Along the way, you will visit some extraordinary places including one of central Italy’s finest abbeys (founded in the 8th century); one of Europe’s highest waterfalls (created by the Romans in the 3rd century BC); some gorgeous hilltop villages that date from the Dark Ages; a dreamy lake that is home to the Italian rowing team and a thousand year old tree believed to have been blessed by St Francis himself. 
-
-      The most memorable feature of this itinerary, though, is the peaceful, unspoilt nature you walk through: the evergreen forests of the Monteluco National Park, the meadows along the banks of the Nera River, the lake shores and the woods overlooking Rieti. 
-
-      This independent walk is the second section of the Cammino of St Francis - click here for details.  In the spirit of the long-distance pilgrimage, we have sought to keep the costs down.
+    summary: 'The second leg of the ‘Cammino of St Francis’, this beautiful seven day walk takes you far from the madding crowd to explore the ‘green heart of Italy’, following well-marked trails through forests, along river valleys and past lakes to Rieti, home of the Sabines and an ancient rival of Rome.'
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Levanto'
-        description: 'The tour starts in Levanto, a charming and unpretentious town on the main Genoa/Rome railway line with a sandy beach and a wonderful new cycle-way, a thoroughly Italian sea-side resort.'
+        title: 'Day 1: Arrive in Spoleto'
+        description: 'Arrival in Spoleto, well-connected to Florence and Rome.  This charming city has a long and fascinating history: besieged by Hannibal and his elephants, it was the seat of a Lombard duchy and had the 19 year old Lucrezia Borgia as it’s governor.  These days it is best known for its summer festival, the Festival dei Due Mondi, Italy’s largest international arts event.'
       -
         id: mloozlek
-        title: 'Day 2:  Walk to Monterosso'
-        description: 'The first walk follows a superb coastal path, through woods and scented scrub with breathtaking views over the gulf and the five villages of Cinque Terre.  Along the way it passes the ruins of an abandoned convent, before dipping down to the first Cinque Terre village.'
-        duration: 3
-        distance: 7
-        elevation: 314
+        title: 'Day 2:  Walk to the Nera Valley'
+        description: 'After a steep climb to the Franciscan convent of Monteluco (built around a cave in which St Francis lived), this walk crosses forests, along paths that traverse mountain-sides with breath-taking views of the Tiber and Nera valleys.  After a steep downhill path, you arrive at a hamlet and then follow the Nera River to a gorgeous, small hilltop town.'
+        duration: 5
+        distance: 21
+        elevation: 666
         meals_included:
           - breakfast
       -
         id: mlop159i
-        title: 'Day 3:  Walk through vineyards'
-        description: "With today's walk you start on  the Sentiero Azzurro, the celebrated path that links all the five villages of the Cinque Terre. The walk today weaves along cliffs and through terraces, offering spectacular views over the bays and the villages, before taking you to Vernazza, which, with its natural harbour and its Gothic church, many consider the loveliest of all."
-        duration: 3
-        distance: 5
-        elevation: 200
+        title: 'Day 3:  Walk down the Nera River'
+        description: 'Today’s walk takes you along a flat trail that passes through a national park beside the Nera River to a pretty medieval village sitting on a rocky pinnacle above the river.  Along the way, you will be able to detour to visit a spectacularly sited abbey founded in the 8th century considered one of the most beautiful in central Italy, where you can have lunch and enjoy the views. (5 hrs; 18 kms; min: 228 mts, max: 314 mts)'
+        duration: 5
+        distance: 18
+        elevation: 86
         meals_included:
           - breakfast
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk to Riomaggiore'
-        description: "This morning, you pick up the Sentiero Azzurro again passing through olive groves with views up to ancient terraces in the mountains above you.  Along the way you visit two more of the Cinque Terre villages (perfect for resfershments and lunch) and then continue on to Riomaggiore, the last of the five villages, where you'll stay the night.  We also include a beautiful alternative high walk through the vineyards of Volastra."
-        duration: 2
-        distance: 7
-        elevation: 184
+        title: 'Day 4:  Walk to a lake'
+        description: 'A spectacular waterfall created when the Romans drained the marshlands of Rieti in 267 BC and a serene lake are the highlights of today’s walk.  The undulating trail follows the Nera River along quiet country roads and marked pathways to the lake, home of the Italian national rowing team, where you’ll stay in a hotel on the lake shores.  (4 hrs; 14 kms; min: 213 mts, max: 391 mts).'
+        duration: 4
+        distance: 14
+        elevation: 178
         meals_included:
           - breakfast
       -
         id: mlop5205
-        title: 'Day 5:  Walk to Portovenere'
-        description: 'Today you walk above the eastern part of the gulf to Portovenere.  It’s starts with a big climb up through forest to the ridge, passing an ancient religious sanctuary along the way.  From here you slowly descend to Portovenere, an ancient, narrow-laned town that sits astride a spit of land on the very tip of the Gulf of the Poets.  Portovenere has a small, sandy beach and a number of rocky coves, excellent for swimming.'
-        duration: 4
-        distance: 14
-        elevation: 563
+        title: 'Day 5:  Discover the Rieti valley'
+        description: 'The day’s walk is probably the most demanding of the week, but is also one of the most spectacular.  It starts by crossing the border from Umbria into the region of Lazio, climbing to an ancient village perched high above the lake.  It continues to a remote  forest and an ancient tree that is believed to have sheltered St Francis during a storm.  The long downhill walk is rewarded with an overnight in a medieval village which has beautiful views across the Rieti valley.'
+        duration: 5
+        distance: 20
+        elevation: 726
         meals_included:
           - breakfast
       -
         id: mlop6avf
-        title: 'Day 6:  Do a lap of Palmaria island'
-        description: 'The walk this morning starts with a short boat ride across the narrow waterway that separates Portovenere from a fascinating island, which has a small fishing village, the remains of a monastery from the 11th century, and a very good small restaurant.  The walk circumnavigates the island, starting and finishing at the wharf.  You return by boat to Portovenere.'
-        duration: 2
-        distance: 6
-        elevation: 181
+        title: 'Day 6:  Walk to Rieti'
+        description: 'Today takes on a lovely walk through forests, fields and farms to another charming town, followed by a visit to a 13th century sanctuary where St Francis took refuge in the later stages of his life.  It finishes in the buzzy centre of Rieti, with shops, restaurants, a rich history and a beautiful cathedral.  (4.5 hrs; 18 kms; min: 390 mts, max: 716 mts)'
+        duration: 5
+        distance: 18
+        elevation: 326
         meals_included:
           - breakfast
       -
         id: mlop8uiy
-        title: 'Day 7:  Transfer to La Spezia'
-        description: "After breakfast, you'll be transferred by private vehicle to La Spezia (30 minutes away) a busy and colourful port, with a number of excellent museums, a picturesque harbour and daily markets.  La Spezia has regular rail connections to Rome, Florence and Milan."
+        title: 'Day 7:  Depart Rieti'
+        description: "After breakfast, you'll be free to continue your holiday.   Rieti is well connected by regular train to Rome and the rest of Italy."
         meals_included:
           - breakfast
     type: itinerary
