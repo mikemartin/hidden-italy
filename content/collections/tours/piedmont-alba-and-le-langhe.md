@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Piedmont
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772599979
+updated_at: 1773799441
 grade: 3
 summary: "8-day circular walk from Alba on Le Langhe's trails, past vineyards, villages and castles."
 overview:
@@ -30,6 +30,7 @@ inclusions:
   - 'Reading lists, historical and cultural notes'
   - 'Detailed roadbook with maps and daily notes (updated annually)'
   - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'A curated list of restaurants for each town you visit'
   - 'Daily transfers of baggage between hotels each morning'
   - '24 hour backup from our operations manager'
   - 'City taxes are not included in t'
