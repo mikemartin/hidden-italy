@@ -7,7 +7,7 @@ tour_types: self-guided
 region: "Val d'Aosta"
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772599840
+updated_at: 1773799557
 grade: 0
 summary: 'A 7-day hike along historic trails through one of Italy’s most beautiful mountain valleys!'
 image: tours/val-daosta-valley-del-lys/1.jpg
@@ -17,7 +17,7 @@ overview:
     content:
       -
         type: text
-        text: 'This exciting seven-day/six-night hike introduces you to the Valley del Lys, one of the most beautiful valleys in the European Alps, via historic trails that have been connecting the mountain communities for centuries.'
+        text: 'This exciting seven-day/six-night hike introduces you to the Valley del Lys, one of the most beautiful valleys in the European Alps, via historic trails that have been connecting the mountain communities for centuries.  Breakfast, dinners and some lunches are included.'
   -
     type: paragraph
     content:
