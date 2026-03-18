@@ -1,28 +1,29 @@
 ---
 id: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
+published: false
 blueprint: tour
-title: 'Piedmont - Alba and Le Langhe'
-name: 'Alba and Le Langhe'
+title: 'Lazio - Cammino of St Francis:  Lazio'
+name: 'Cammino of St Francis:  Lazio'
 tour_types: self-guided
-region: Piedmont
+region: Lazio
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773799441
+updated_at: 1773801285
 grade: 3
-summary: "8-day circular walk from Alba on Le Langhe's trails, past vineyards, villages and castles."
+summary: 'From the quiet green hills of central Italy to the steps of St Peters in the heart of Rome'
 overview:
   -
     type: paragraph
     content:
       -
         type: text
-        text: "The tour starts in beautiful Alba, 95 kilometres south of Turin.\_ A handsome town of Roman origin, Alba is the ‘capital’ of the Langhe, a close-knit range of hills and valleys which are crowded with impeccably tended rows of nebbiolo vines, the source of some of Italy’s finest wines.\_ They form a unique and striking landscape, so much so that the district was recently listed as a UNESCO World Heritage site, Italy’s 50th."
+        text: "This marvellous 8-day walk starts in the quiet streets of Rieti, a lovely town in the north of Lazio, before climbing into the hills of the central Apennines, through an district known as Sabina, which is dotted with small, proud towns, each with its own history traced back to the Romans and beyond.\_ The hills gradually give way to the undulating farmlands of the Tiber River plain.  The trail then winds through two nature reserves before reaching the outer suburbs of Rome. \_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: "But Alba and the Langhe are more than this.\_ A neighbour of Bra (the home of the Slow Food Association) Alba is also one of Italy’s gastronomic capitals, well-known for its cheeses, meats, Ferrero chocolates and nougat but particularly famous for its white truffles, found in the surrounding poplar and oak forests, which fill the medieval streets of the towns with their pungent aroma throughout October and November."
+        text: "From here, the final walk takes along a dedicated 'greenway' from the Monte Sacro district in northern Rome along the banks the Aniene River and  the Tiber rivers to Castel Sant'Angelo.  From here you walk up the Via della Conciliazione to embracing arms Piazza San Pietro and the stairs of St Peter’s Basilica, one of the most spectacular buildings in the world, a memorable finale to a memorable walk."
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
   - 'Seven nights accommodation'
@@ -133,4 +134,5 @@ page_builder:
     type: itinerary
     enabled: true
 simple_likes: 0
+image: tours/piedmont-alba-and-le-langhe/rome-1.jpg
 ---
