@@ -1,6 +1,5 @@
 ---
 id: 5e536055-01da-4264-a45c-5c879a0d73d7
-published: false
 blueprint: tour
 title: 'Lazio - Cammino of St Francis:  Lazio'
 name: 'Cammino of St Francis:  Lazio'
@@ -8,7 +7,7 @@ tour_types: self-guided
 region: Lazio
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773807394
+updated_at: 1773807401
 grade: 3
 summary: 'From the quiet green hills of central Italy to the steps of St Peters in the heart of Rome'
 overview:
