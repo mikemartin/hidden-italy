@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773376610
+updated_at: 1773796147
 grade: 3
 summary: "Walk well-marked trails thru Italy's most beautiful region, in the footsteps of St Francis"
 overview:
@@ -46,27 +46,27 @@ locations: northern-italy
 page_builder:
   -
     id: mloocwbk
-    title: 'Highlights of the Cinque Terre Coastal walk'
+    title: 'Highlights of the Umbria 1 walk'
     activities:
       -
         id: mlooee34
-        title: 'Enjoy a continuous 6-day walk'
-        summary: 'Enjoy a continuous walk from village to village for the whole six days (no trains to get to and from the walks each day)'
+        title: "Five days walking through the 'green heart' of Italy"
+        summary: 'Enjoy a continuous walk through hilltop villages and an unspoilt region of rolling green hills, woods and valleys.'
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mloog7vk
         title: 'Savour the famous food and wines'
-        summary: 'Ligurian cuisine is the delicious result of fresh produce from gardens and sea being combined with generations of skill.'
+        summary: "Enjoy the region's hearty cuisine: pasta served with garden fresh vegetables, cheeses and meats, teamed with fine wines."
         icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
       -
         id: mlooou12
-        title: 'Walk through stunning scenery'
-        summary: 'The ancient walking trails take you through the most stunning scenery in Italy: mountains on the left, sea on the right!'
+        title: "Lose yourself in the region's fine art"
+        summary: "Lose yourself in small villages and towns holding some of Italy's finest art: Giotto, Pinturicchio and Fra Lippo Lippi."
         icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
       -
         id: mlooun08
-        title: 'Immerse yourself in gorgeous villages'
-        summary: "You will have all the time in the world to immerse yourself in the life of six of Italy's most beautiful villages."
+        title: 'Soak up the vibe'
+        summary: 'Home of St Francis, the green hills, golden stone towns and shimmering light give the region an almost mystical quality.'
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
@@ -75,62 +75,56 @@ page_builder:
     enabled: true
   -
     id: mloox88g
-    title: 'Cinque Terre walking tour itinerary'
-    summary: 'Following an extraordinary trail, this continuous walk (no trains) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere 6 days later, with plenty of time to explore the charming villages you stay in each day.'
+    title: 'Unbria 1 walk tour itinerary'
+    summary: 'This six-day walk is the first section of the Cammino of St Francis (Assisi to Rome). It follows the official pilgrim route, a regularly marked trail that weaves through the hills and farmlands of Central Italy, from Assisi, home of St Francis, to Spoleto through some of the most beautiful country in the region.'
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Levanto'
-        description: 'The tour starts in Levanto, a charming and unpretentious town on the main Genoa/Rome railway line with a sandy beach and a wonderful new cycle-way, a thoroughly Italian sea-side resort.'
+        title: 'Day 1: Arrive in Assisi'
+        description: 'Arrival in Assisi, one of the most beautiful towns in central Italy.  It is, of course, the home of St Francis (1182 – 1226).  It is dominated by the two-level Basilica of St Francis (consecrated in 1256) which contains some of the finest art in Western Europe, including works by Giotto, Cimabue and the Lorenzetti brothers.'
       -
         id: mloozlek
-        title: 'Day 2:  Walk to Monterosso'
-        description: 'The first walk follows a superb coastal path, through woods and scented scrub with breathtaking views over the gulf and the five villages of Cinque Terre.  Along the way it passes the ruins of an abandoned convent, before dipping down to the first Cinque Terre village.'
-        duration: 3
-        distance: 7
-        elevation: 314
+        title: "Day 2:  Visit St Francis' retreat"
+        description: 'This itinerary starts with a steep climb up to a beautiful hermitage surrounded by forests that was a place of retreat for St Francis.  From here the path contours around the side of Mt Subasio with wide views across the valley to Montefalco and the Martani Hills, before descending to a beautiful hill-town founded by the Romans.   Please note there is an alternative, which is lower and shorter.  (11.5 kms, 3.5 hrs; 220 mts)'
+        duration: 5
+        distance: 15
+        elevation: 570
         meals_included:
           - breakfast
       -
         id: mlop159i
-        title: 'Day 3:  Walk through vineyards'
-        description: "With today's walk you start on  the Sentiero Azzurro, the celebrated path that links all the five villages of the Cinque Terre. The walk today weaves along cliffs and through terraces, offering spectacular views over the bays and the villages, before taking you to Vernazza, which, with its natural harbour and its Gothic church, many consider the loveliest of all."
-        duration: 3
-        distance: 5
-        elevation: 200
+        title: 'Day 3:  Walk the Olive Trail'
+        description: 'The first half of today’s walk takes you down onto the valley floor passing through a string of towns including Foligno, before climbing up the side of the valley and picking paths that take you classic Umbria countryside dominated by centuries old olive groves finishing in one of the best-preserved and attractive hill-towns in the region  (19.5 kms; 6 hrs; min: 228 mts, max: 413 mts)'
+        duration: 6
+        distance: 19
+        elevation: 185
         meals_included:
           - breakfast
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk to Riomaggiore'
-        description: "This morning, you pick up the Sentiero Azzurro again passing through olive groves with views up to ancient terraces in the mountains above you.  Along the way you visit two more of the Cinque Terre villages (perfect for resfershments and lunch) and then continue on to Riomaggiore, the last of the five villages, where you'll stay the night.  We also include a beautiful alternative high walk through the vineyards of Volastra."
-        duration: 2
-        distance: 7
-        elevation: 184
+        title: 'Day 4:  Enjoy the views'
+        description: 'The route continues to skirt along the side of the mountains with spectacular views across the valley and up to the Sibillini Mountains.  It largely follows unsealed country lanes through farmlands and olive groves passing sites of considerable historical interest, including a Franciscan hermitage and a sleepy medieval village.  (10 kms; 3 hrs; min: 324 mts, max: 552 mts)'
+        duration: 3
+        distance: 10
+        elevation: 228
         meals_included:
           - breakfast
       -
         id: mlop5205
-        title: 'Day 5:  Walk to Portovenere'
-        description: 'Today you walk above the eastern part of the gulf to Portovenere.  It’s starts with a big climb up through forest to the ridge, passing an ancient religious sanctuary along the way.  From here you slowly descend to Portovenere, an ancient, narrow-laned town that sits astride a spit of land on the very tip of the Gulf of the Poets.  Portovenere has a small, sandy beach and a number of rocky coves, excellent for swimming.'
-        duration: 4
-        distance: 14
-        elevation: 563
+        title: 'Day 5:  Walk to Spoleto'
+        description: "The last walk continues along the 'Sentiero degli Ulivi', winding through olive groves, around the side of the hills past a string of villages before arriving in Spoleto, entering this gorgeous city through the lower medieval walls and climbing up to the cathedral square.  (5 hrs; 18 kms; min: 299 mts, max: 556 mts)"
+        duration: 5
+        distance: 18
+        elevation: 257
         meals_included:
           - breakfast
       -
         id: mlop6avf
-        title: 'Day 6:  Do a lap of Palmaria island'
-        description: 'The walk this morning starts with a short boat ride across the narrow waterway that separates Portovenere from a fascinating island, which has a small fishing village, the remains of a monastery from the 11th century, and a very good small restaurant.  The walk circumnavigates the island, starting and finishing at the wharf.  You return by boat to Portovenere.'
+        title: 'Day 6:  Depart Spoleto'
+        description: "After breakfast, you'll be free to continue your holiday.  Spoleto station has direct connections to Rome and Florence."
         duration: 2
         distance: 6
         elevation: 181
-        meals_included:
-          - breakfast
-      -
-        id: mlop8uiy
-        title: 'Day 7:  Transfer to La Spezia'
-        description: "After breakfast, you'll be transferred by private vehicle to La Spezia (30 minutes away) a busy and colourful port, with a number of excellent museums, a picturesque harbour and daily markets.  La Spezia has regular rail connections to Rome, Florence and Milan."
         meals_included:
           - breakfast
     type: itinerary
