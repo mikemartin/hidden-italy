@@ -1,6 +1,5 @@
 ---
 id: 2c566c23-3738-482e-b78a-a2ac67ccf9cf
-published: false
 blueprint: tour
 title: 'Umbria - Cammino of St Francis:  Umbria 2'
 name: 'Cammino of St Francis:  Umbria 2'
@@ -8,7 +7,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773799016
+updated_at: 1773799083
 grade: 3
 summary: "A week-long walk along well-marked trails through the charming 'green heart of Italy'."
 overview:
@@ -50,6 +49,7 @@ inclusions:
   - 'Daily transfers of baggage between hotels'
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
+  - 'A curated list of restaurants for each town you visit'
 locations: northern-italy
 page_builder:
   -
