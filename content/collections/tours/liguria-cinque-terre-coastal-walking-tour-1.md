@@ -2,28 +2,46 @@
 id: 2c566c23-3738-482e-b78a-a2ac67ccf9cf
 published: false
 blueprint: tour
-title: 'Liguria - Cinque Terre Coastal walking tour'
-name: 'Cinque Terre Coastal walking tour'
+title: 'Umbria - Cammino of St Francis:  Umbria 2'
+name: 'Cammino of St Francis:  Umbria 2'
 tour_types: self-guided
-region: Liguria
+region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773796179
+updated_at: 1773796552
 grade: 3
-summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
+summary: "A week-long walk along well-marked trails through the charming 'green heart of Italy'."
 overview:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Following an extraordinary trail, this continuous walk (no trains!) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere six days later, leaving you plenty of time to explore the charming villages you stay in each day.'
+        text: "The second section of the Cammino of St Francis, this lovey, week-long walk takes you through 'the green heart of Italy'.  Leaving Spoleto via the 13th century Ponte delle Torri bridge, you finish a week later, staying in a lovely 3-star hotel in the centre of the ancient town of Rieti.\_ "
   -
     type: paragraph
     content:
       -
         type: text
-        text: "This continous walk along the Cinque Terre follows stone paths that have linked the villages for centuries, starting in Levanto at the eastern end of the National Park and finishing in glorious Portovenere at the western end of the park. They twist and wind along the rugged coast passing through pine forests and terraced vineyards, with breath-taking views out over the Mediterranean, including the less walked routes from Riomaggiore to Portovenere and around the little island off Portovenere.\_ At the end of the walk, you'll be dropped off at La Spezia railway station (on the Rome/Genoa line)."
+        text: "Along the way, you will visit some extraordinary places including one of central Italy’s finest abbeys (founded in the 8th century); one of Europe’s highest waterfalls (created by the Romans in the 3rd century BC); some gorgeous hilltop villages that date from the Dark Ages; a dreamy lake that is home to the Italian rowing team and a thousand year old tree believed to have been blessed by St Francis himself.\_"
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "The most memorable feature of this itinerary, though, is the peaceful, unspoilt nature you walk through: the evergreen forests of the Monteluco National Park, the meadows along the banks of the Nera River, the lake shores and the woods overlooking Rieti.\_"
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'This independent walk is the second section of the Cammino of St Francis. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "\_"
   -
     type: paragraph
 inclusions:
