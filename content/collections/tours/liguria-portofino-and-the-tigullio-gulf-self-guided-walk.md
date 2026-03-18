@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773199961
+updated_at: 1773799287
 grade: 3
 summary: 'Spend a week exploring the Portofino National Park and the stupendous Tigullio Gulf!'
 overview:
@@ -41,6 +41,7 @@ inclusions:
   - 'Reading lists and historical and cultural notes'
   - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'A curated list of restaurants for each town you visit'
   - 'Daily transfers of baggage between hotels'
   - '24 hour back-up from local operations manager'
   - 'City taxes are not included in the cost of the tour'
