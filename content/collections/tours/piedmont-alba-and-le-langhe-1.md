@@ -140,19 +140,5 @@ page_builder:
     type: itinerary
     enabled: true
 simple_likes: 0
-gallery:
-  - tours/piedmont-alba-and-le-langhe/5.jpg
-  - tours/piedmont-alba-and-le-langhe/2.jpg
-  - tours/piedmont-alba-and-le-langhe/11.jpg
-  - tours/piedmont-alba-and-le-langhe/4.jpg
-  - tours/piedmont-alba-and-le-langhe/6.jpg
-  - tours/piedmont-alba-and-le-langhe/10-v2.jpg
-  - tours/piedmont-alba-and-le-langhe/12.jpg
-  - tours/piedmont-alba-and-le-langhe/7.jpg
-  - tours/piedmont-alba-and-le-langhe/3.jpg
-  - tours/piedmont-alba-and-le-langhe/8.jpg
-  - tours/piedmont-alba-and-le-langhe/10730786_973938792633308_6466160054485861720_n.jpg
-  - tours/piedmont-alba-and-le-langhe/9.jpg
-image: tours/piedmont-alba-and-le-langhe/7.jpg
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 ---
