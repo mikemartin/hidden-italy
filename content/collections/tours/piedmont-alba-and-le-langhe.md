@@ -2,28 +2,34 @@
 id: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 published: false
 blueprint: tour
-title: 'Lazio - Cammino of St Francis:  Lazio'
-name: 'Cammino of St Francis:  Lazio'
+title: 'Piedmont - Alba and Le Langhe tour'
+name: 'Alba and Le Langhe tour'
 tour_types: self-guided
-region: Lazio
+region: Piedmont
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773801285
+updated_at: 1773803037
 grade: 3
-summary: 'From the quiet green hills of central Italy to the steps of St Peters in the heart of Rome'
+summary: 'An 8-day tour that takes you through the seductive rolling hills of southern Piedmont.'
 overview:
   -
     type: paragraph
     content:
       -
         type: text
-        text: "This marvellous 8-day walk starts in the quiet streets of Rieti, a lovely town in the north of Lazio, before climbing into the hills of the central Apennines, through an district known as Sabina, which is dotted with small, proud towns, each with its own history traced back to the Romans and beyond.\_ The hills gradually give way to the undulating farmlands of the Tiber River plain.  The trail then winds through two nature reserves before reaching the outer suburbs of Rome. \_"
+        text: "This delightful 8-day circuit walk starts with a private transfer to beautiful Alba, 95 kilometres south of Turin.\_ A handsome town of Roman origin, Alba is the ‘capital’ of the Langhe, a close-knit range of hills and valleys which are crowded with impeccably tended rows of nebbiolo vines, the source of some of Italy’s finest wines, including Barolo and Barbaresco.\_ They form a unique and striking landscape which is dotted with attractive hill-towns, castles and wineries, so much so that the district was recently listed as a UNESCO World Heritage site."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "From here, the final walk takes along a dedicated 'greenway' from the Monte Sacro district in northern Rome along the banks the Aniene River and  the Tiber rivers to Castel Sant'Angelo.  From here you walk up the Via della Conciliazione to embracing arms Piazza San Pietro and the stairs of St Peter’s Basilica, one of the most spectacular buildings in the world, a memorable finale to a memorable walk."
+        text: 'Your well-marked walking trails will take through this exceptional area, passing undulating vineyards, pine forests, orchards and hazel nut farms.  Along the way, you will visit in some very attractive towns and villages and stay in welcoming accommodation, that is often part of the history of the towns themselves.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "You'll also have plenty of opportunity to sample some Le Langhe's very special treats.  The district is also one of Italy’s gastronomic capitals, the home of the Slow Food Association, famous for its cheeses, meats, chocolates, hazel nuts and white truffles, as well, of course, as its excellent wines.  There is much to see and do!"
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
   - 'Seven nights accommodation'
@@ -134,4 +140,5 @@ page_builder:
     type: itinerary
     enabled: true
 simple_likes: 0
+image: tours/piedmont-alba-and-le-langhe/7.jpg
 ---
