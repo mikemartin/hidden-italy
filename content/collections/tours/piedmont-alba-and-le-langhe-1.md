@@ -134,6 +134,5 @@ page_builder:
     type: itinerary
     enabled: true
 simple_likes: 0
-image: tours/piedmont-alba-and-le-langhe/rome-1.jpg
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 ---
