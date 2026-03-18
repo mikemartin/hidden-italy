@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773023120
+updated_at: 1773799158
 grade: 3
 summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
 overview:
@@ -36,6 +36,7 @@ inclusions:
   - 'The Santa Margherita/Portofino option includes 3 nights in a 4-star hotel, sea views'
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
+  - 'A curated list of restaurants for each town you visit'
 locations: northern-italy
 page_builder:
   -
