@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773796557
+updated_at: 1773798526
 grade: 3
 summary: "A week-long walk along well-marked trails through the charming 'green heart of Italy'."
 overview:
@@ -35,51 +35,46 @@ overview:
     content:
       -
         type: text
-        text: 'This independent walk is the second section of the Cammino of St Francis. '
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
+        marks:
+          -
+            type: italic
+        text: "Umbria 2 walk is the first section of the Cammino of St Francis, a marvellous 258 km walk that starts in Assisi and finishes in Rome, following in the footsteps of Italy's most beloved saint.  The whole three-week walk can be broken up into three one-week sections: Umbria 1, Umbria 2 and Lazio."
   -
     type: paragraph
 inclusions:
   - 'Six nights accommodation'
   - 'All breakfasts included'
-  - 'Reading lists, historical and cultural notes'
+  - 'Reading lists and historical and cultural notes'
   - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
   - 'Daily transfers of baggage between hotels'
-  - 'Drop-off at the end of the tour from Portovenere to La Spezia station (on the Rome/Genoa line)'
-  - 'The Santa Margherita/Portofino option includes 3 nights in a 4-star hotel, sea views'
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: northern-italy
 page_builder:
   -
     id: mloocwbk
-    title: 'Highlights of the Cinque Terre Coastal walk'
+    title: 'Highlights of the Umbria 2 tour'
     activities:
       -
         id: mlooee34
-        title: 'Enjoy a continuous 6-day walk'
-        summary: 'Enjoy a continuous walk from village to village for the whole six days (no trains to get to and from the walks each day)'
+        title: 'Get off the beaten track'
+        summary: "Enjoy a relaxed week following well-marked trails through some of central Italy's most beautiful countryside."
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mloog7vk
-        title: 'Savour the famous food and wines'
-        summary: 'Ligurian cuisine is the delicious result of fresh produce from gardens and sea being combined with generations of skill.'
+        title: 'Explore the towns'
+        summary: "Staying in welcoming, family-run accommodation, you'll have plenty of time to explore the gorgeous little-visited towns."
         icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
       -
         id: mlooou12
-        title: 'Walk through stunning scenery'
-        summary: 'The ancient walking trails take you through the most stunning scenery in Italy: mountains on the left, sea on the right!'
+        title: 'Admire the spectacular scenery'
+        summary: 'The walk takes you south through the lush Nera Valley with breath-taking views over mountains, lakes and rolling plains.'
         icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
       -
         id: mlooun08
-        title: 'Immerse yourself in gorgeous villages'
-        summary: "You will have all the time in the world to immerse yourself in the life of six of Italy's most beautiful villages."
+        title: 'Enjoy Umbrian home cooking'
+        summary: 'Sit down and enjoy the wholesome home-cooking: cold cuts, cheeses, pastas, soups, roast meats, fresh garden vegetables.'
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
@@ -88,8 +83,16 @@ page_builder:
     enabled: true
   -
     id: mloox88g
-    title: 'Cinque Terre walking tour itinerary'
-    summary: 'Following an extraordinary trail, this continuous walk (no trains) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere 6 days later, with plenty of time to explore the charming villages you stay in each day.'
+    title: 'Umbria 2 tour itinerary'
+    summary: |-
+      The second leg of the ‘Cammino of St Francis’, this beautiful seven day walk takes you far from the madding crowd to explore the ‘green heart of Italy’, following well-marked trails through forests, along river valleys and past lakes to Rieti, home of the Sabines and an ancient rival of Rome.
+      strip 2 Cammino Via Francigena Way of St Francis umbria self-guided
+
+      Leaving Spoleto via the 13th century Ponte delle Torri bridge, you finish a week later, staying in a lovely 3-star hotel in the centre of the ancient town of Rieti.  Along the way, you will visit some extraordinary places including one of central Italy’s finest abbeys (founded in the 8th century); one of Europe’s highest waterfalls (created by the Romans in the 3rd century BC); some gorgeous hilltop villages that date from the Dark Ages; a dreamy lake that is home to the Italian rowing team and a thousand year old tree believed to have been blessed by St Francis himself. 
+
+      The most memorable feature of this itinerary, though, is the peaceful, unspoilt nature you walk through: the evergreen forests of the Monteluco National Park, the meadows along the banks of the Nera River, the lake shores and the woods overlooking Rieti. 
+
+      This independent walk is the second section of the Cammino of St Francis - click here for details.  In the spirit of the long-distance pilgrimage, we have sought to keep the costs down.
     days:
       -
         id: mlooymbz
@@ -150,4 +153,18 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
+image: tours/umbria-cammino-of-st-francis-umbria-2/7.jpg
+gallery:
+  - tours/umbria-cammino-of-st-francis-umbria-2/1.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/2.5.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/2.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/7.6.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/5.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/14.8.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/img_5356.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/img_5360.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/img_5409.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/p4280723-a.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/7.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/sofia-msnxoysxjsq-unsplash.jpg
 ---
