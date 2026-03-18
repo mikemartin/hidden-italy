@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Lazio
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773806819
+updated_at: 1773807394
 grade: 3
 summary: 'From the quiet green hills of central Italy to the steps of St Peters in the heart of Rome'
 overview:
@@ -69,66 +69,66 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Transfer from Turin to Alba'
-        description: 'You will be taken by private transfer from Turin to beautiful Alba, 95 kilometres south.  The plan of the historic centre of Alba reflects its Roman origins (an orderly grid tucked behind defensive walls) while its narrow streets are decidedly medieval, complete with a five brick tower-houses that date from the 13th century.'
+        title: 'Day 1: Arrive in Rieti'
+        description: 'Arrival in Rieti, which is well-connected by rail to Rome.  Pre-dating Rome, this small city was a long-time rival of the capital most famously remembered when the founders of Rome kidnapped its women, the ‘Sabines’, to help populate the new city.  Under Roman rule it was known as Umbilicus Italiae (the belly-button of Italy) because it is the geographical centre of the peninsula.  It has an interesting historical centre and is ringed by the Velino River.'
       -
         id: mloozlek
-        title: 'Day 2:  Walk along the Tanaro River'
-        description: 'You leave Alba heading south-west, passing the Ferrero chocolate factory (home of Nutella) and then follow an easy path along the left bank of the Tanaro River, before turning south and climbing up to a small hilltop village that is famous for its.  The second half of the walk takes you through vineyards to another lovely hilltop town, with a ruined castle from where you have a breathtaking view south over all the Langhe hills.'
-        duration: 4
-        distance: 15
-        elevation: 281
+        title: 'Day 2:  Walk into the Apennines'
+        description: 'A mostly flat and easy stage that takes you along creeks and through fields and forests, crossing a 4th century Roman bridge, before climbing up to a small farming town, whose ancient walls are over 2000 years old.  You stay in a lovely ‘agriturismo’ on the edge of the town.  (5.5 hrs; 21 kms; min: 388 mts, max: 644 mts)'
+        duration: 5
+        distance: 21
+        elevation: 256
         meals_included:
           - breakfast
       -
         id: mlop159i
-        title: 'Day 3:  Walk through vineyards'
-        description: 'Today’s walk takes you through the heart of Barolo country following lanes that cut through the middle of the some of the finest and most famous vineyards in Italy such as ‘Cannubi’ and ‘Sori’, passing through the town of Barolo itself (where you can have lunch and visit one of the cantine and/or its Oenological Museum).  After passing through more vineyards, you arrive at another charming hilltop town.'
+        title: 'Day 3:  Ramble through countryside'
+        description: 'Today’s route takes you south along unsealed country lanes with spectacular mountain scenery and very pleasant walks through orchards, fields and farms, passing an historic village, two lovely Romanesque churches before arriving at an attractive farming village.  (4 hrs; 12 kms; min: 336 mts, max: 550 mts)'
         duration: 4
-        distance: 13
-        elevation: 267
+        distance: 12
+        elevation: 214
         meals_included:
           - breakfast
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk through chestnut forests'
-        description: 'Today’s walk takes you out of the wine growing area and into the Alta Langhe, the slightly ‘wilder’ (relatively!) part of the district which is characterised by steeper hills, hazelnut and fruit orchards and tracts of chestnut forests. Although there are a couple of hills, today’s walk is quite short which will leave you time to explore the interesting places you are pass, including the very interesting castle with time for a light lunch as well.'
-        duration: 3
-        distance: 8
-        elevation: 264
+        title: 'Day 4:  Farmland and orchards'
+        description: 'Leading down from the mountains onto the Tiber Valley plain, this long and undulating itinerary on unsealed country roads stretches passes through rich farmlands and orchards to finish at a lovely hilltop town.  You will be picked up from here and driven back to your Day 3 accommodation, where you will spend a second night.  (4 hrs; 15 kms; min: 216 mts, max: 545 mts)'
+        duration: 4
+        distance: 15
+        elevation: 329
         meals_included:
           - breakfast
       -
         id: mlop5205
-        title: 'Day 5:  Walk along a ridge'
-        description: 'The walk today takes heads north following a ridge above the Belbo River, passing though long tracts of forest and orchards with extensive views south over the Alta Langhe.  It passes through a number of small villages where you can break for lunch. With notice, this walk can be shortened.'
-        duration: 5
-        distance: 17
-        elevation: 401
+        title: 'Day 5:  Passieggiata and an Orsini palace'
+        description: 'This morning you will be driven back to the hilltop town to continue your walk.  Passing through a number of pretty towns, todays walk takes you down onto the plains, passing through a nature reserve, following gravel and asphalt roads before finishing in a buzzy hill-town, famous for its passeggiata and an 18th century Orsini palace. With notice, it is possible to break this leg of the walk into two, staying in a small village along the way.  (8 kms then 18 kms).'
+        duration: 6
+        distance: 26
+        elevation: 398
         meals_included:
           - breakfast
       -
         id: mlop6avf
-        title: 'Day 6:  Walk to the pretty village in the area'
-        description: 'Leaving your accommodation the trail further along the ridge through forests and orchards, passing close to Santo Stefano Belbo, the home of one of the Langhe’s favourite sons: Cesare Pavese (1908 to 1950), poet, novelist, critic and translator.  The second part of today’s walk takes you back into the sweet rolling hills of the wine country, through vineyards dedicated to Barbaresco, a light version of Barolo, to one of the prettiest and best preserved villages in the area.'
+        title: 'Day 6:  First contact with Rome'
+        description: 'The first half of the day is a very pleasant walk through farmland and another nature reserve, while the second half transitions into the busy outer suburbs of Rome finishing at lovely 4-star hotel in the fashionable Monte Sacro district.  (4.5 hrs; 18 kms; min: 32 mts, max: 164 mts).'
         duration: 5
-        distance: 17
-        elevation: 468
+        distance: 18
+        elevation: 132
         meals_included:
           - breakfast
       -
         id: mlop8uiy
-        title: 'Day 7:  Head back to Alba'
-        description: 'The last walk of your visit takes you back to Alba.  It loops around through more vineyards, passing a number of settlements, including the town of Barbaresco itself, before entering forest and following the banks of the Tanaro River along a trail that is dedicated to Beppe Fenoglio (1922 to 1963), another beloved local writer who fought the German occupation during World War II.  Your last night is spent in Alba.'
+        title: 'Day 7:  Arrive at the Vatican'
+        description: 'While there is a nearby station that can take you directly to the Vatican, today’s walk is well worth the effort, following a cycle path/greenway that winds along beside the Aniene River before crossing the famous Milvio Bridge then following the Tiber River past eight more bridges to the Castel Sant’Angelo and St Peter’s Square.  (4 hrs;15 kms; min: 9 mts, max 67 mts)'
         duration: 4
-        distance: 13
-        elevation: 135
+        distance: 15
+        elevation: 58
         meals_included:
           - breakfast
       -
         id: mlop9wks
-        title: 'Day 8:  Transfer back to Turin'
-        description: 'After breakfast, you will be taken by private vehicle back to Turin, 95 kilometres to the north.'
+        title: 'Day 8:  Depart Rome'
+        description: 'After breakfast, you are fee to continue your holiday.'
         meals_included:
           - breakfast
     type: itinerary
