@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Lazio
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773801362
+updated_at: 1773806762
 grade: 3
 summary: 'From the quiet green hills of central Italy to the steps of St Peters in the heart of Rome'
 overview:
@@ -39,22 +39,22 @@ locations: northern-italy
 page_builder:
   -
     id: mloocwbk
-    title: 'Highlights of the Alba and Le Langhe tour'
+    title: 'Highlights of the Lazio tour'
     activities:
       -
         id: mlooee34
-        title: 'Enjoy a continuous 8-day walk'
-        summary: 'Enjoy a continuous walk from village to village for seven days, (no buses to get to and from the walks each day)'
+        title: 'Enjoy the progress'
+        summary: 'Start in forested hills and quiet countryside then pass through undulating farmland before arriving in the heart of Rome'
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mloog7vk
-        title: 'Savour the famous food and wines'
-        summary: "Relish Alba's famous cuisine (truffles, mushrooms, cheeses and game) and its famous wines (Barolo Barbaresco and Arneis)"
+        title: 'Enjoy the accommodation'
+        summary: 'Stay in a 3-star hotel in Rieti; an agriturismo; a 4-star hotel in outer Rome; a lovely 3-star hotel near the Vatican.'
         icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
       -
         id: mlooou12
-        title: 'Be wowed by the gorgeous scenery'
-        summary: 'You will walk through rolling hills covered in vineyards, past cute towns with snowy peaks of the Alps in the distance.'
+        title: 'Discover a little-known corner of Italy'
+        summary: 'So close to Rome and yet so little known, Lazio is a fascinating region with much to offer: history, food, and nature.'
         icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
       -
         id: mlooun08
@@ -64,8 +64,8 @@ page_builder:
     enabled: true
   -
     id: mloox88g
-    title: 'Alba and Le Langhe walking tour itinerary'
-    summary: "Starting and finishing in beautiful Alba, this 8 day circular walk explores the sweet rolling hills of the Langhe, one of Italy's premier wine and food regions, it is scattered with villages and castles that date from Roman times and crisscrossed with trails that have been walked for centuries."
+    title: 'Lazio walking tour itinerary'
+    summary: 'The last section of the Cammino of St Francis, this wonderful walk starts in Rieti and finishes 8 days and 100 kilometres later at the steps of St Peter’s Basilica in the heart of Rome, taking you through protected forestlands, nature reserves, past archaeological digs and medieval castles and towns'
     days:
       -
         id: mlooymbz
@@ -134,5 +134,19 @@ page_builder:
     type: itinerary
     enabled: true
 simple_likes: 0
+gallery:
+  - tours/piedmont-alba-and-le-langhe-1/1.5.jpg
+  - tours/piedmont-alba-and-le-langhe-1/1.8.jpg
+  - tours/piedmont-alba-and-le-langhe-1/12.7.jpg
+  - tours/piedmont-alba-and-le-langhe-1/8.jpg
+  - tours/piedmont-alba-and-le-langhe-1/13.4.jpg
+  - tours/piedmont-alba-and-le-langhe-1/14.5.jpg
+  - tours/piedmont-alba-and-le-langhe-1/12.2.jpg
+  - tours/piedmont-alba-and-le-langhe-1/p6051915.jpg
+  - tours/piedmont-alba-and-le-langhe-1/12.9.jpg
+  - tours/piedmont-alba-and-le-langhe-1/14.jpg
+  - tours/piedmont-alba-and-le-langhe-1/21.jpg
+  - tours/piedmont-alba-and-le-langhe-1/rome-1.jpg
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
+image: tours/piedmont-alba-and-le-langhe-1/rome-1.jpg
 ---
