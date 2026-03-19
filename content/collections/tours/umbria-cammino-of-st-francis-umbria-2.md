@@ -1,13 +1,13 @@
 ---
 id: 2c566c23-3738-482e-b78a-a2ac67ccf9cf
 blueprint: tour
-title: 'Umbria - Cammino of St Francis:  Umbria 2'
-name: 'Cammino of St Francis:  Umbria 2'
+title: 'Umbria - Cammino of St Francis:  Umbria 2 self-guided tour (Spoleto to Rieti)'
+name: 'Cammino of St Francis:  Umbria 2 self-guided tour (Spoleto to Rieti)'
 tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773799503
+updated_at: 1773894048
 grade: 3
 summary: "A week-long walk along well-marked trails through the charming 'green heart of Italy'."
 overview:
