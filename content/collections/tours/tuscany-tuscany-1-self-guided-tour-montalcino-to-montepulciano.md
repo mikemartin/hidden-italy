@@ -6,10 +6,10 @@ title: 'Tuscany - Tuscany 1 self-guided tour (Montalcino to Montepulciano)'
 name: 'Tuscany 1 self-guided tour (Montalcino to Montepulciano)'
 tour_types: self-guided
 region: Tuscany
-days: 7
+days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773895020
-grade: 3
+updated_at: 1773895881
+grade: 2
 summary: 'Pure Tuscany: rolling hills, cypress pines, Renaissance towns, fine food, relaxed walking.'
 overview:
   -
@@ -17,15 +17,28 @@ overview:
     content:
       -
         type: text
-        text: 'Following an extraordinary trail, this continuous walk (no trains!) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere six days later, leaving you plenty of time to explore the charming villages you stay in each day.'
+        text: "This wonderful tour starts with a private transfer from Siena (or Chiusi) to Montalcino, a gorgeous hill-town celebrated for its wines.  From here, the walk takes you through the Val d'Orcia, one of the most beautiful places in Italy (the world?).  You pass through classic Tuscan countryside, following sections of the Via Francigena, a medieval road that bisected the valley linking Papal Rome with northern Europe, carrying pilgrims, traders, Crusader armies, emperors and popes.  The valley is lined with castles, monasteries and villages that date from this period. "
   -
     type: paragraph
     content:
       -
         type: text
-        text: "This continous walk along the Cinque Terre follows stone paths that have linked the villages for centuries, starting in Levanto at the eastern end of the National Park and finishing in glorious Portovenere at the western end of the park. They twist and wind along the rugged coast passing through pine forests and terraced vineyards, with breath-taking views out over the Mediterranean, including the less walked routes from Riomaggiore to Portovenere and around the little island off Portovenere.\_ At the end of the walk, you'll be dropped off at La Spezia railway station (on the Rome/Genoa line)."
+        text: "Leaving the medieval walls of\_Montalcino, you'll following well-marked, undulating trails to finish four days later\_in Montepulciano, having passed through\_an area as famous for its rolling hills, wheat fields dotted with red brick farmhouses, stands of deep green cypress pines and endless views, as it is famous for its wines and food."
   -
     type: paragraph
+    content:
+      -
+        type: text
+        text: "Along the way you stay in some of the most celebrated town in Tuscany, cultural treasures that include a beautifully restored pilgrim town; a magnificent papal town; and Montepulciano, 'pearl of the Renaissance'.  At the end of the tour you will have a private transfer to Chiusi, well-connected by train to Rome and Florence.  "
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: "The Val d'Orcia is where Hidden Italy had its first tour over thirty years ago, and it is still one of my favourite areas in Italy!"
 inclusions:
   - 'Six nights accommodation'
   - 'All breakfasts included'
@@ -38,7 +51,7 @@ inclusions:
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
   - 'A curated list of restaurants for each town you visit'
-locations: northern-italy
+locations: central-italy
 page_builder:
   -
     id: mloocwbk
