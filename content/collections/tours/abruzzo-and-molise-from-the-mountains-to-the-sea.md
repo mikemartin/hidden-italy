@@ -1,13 +1,13 @@
 ---
 id: 43c82038-3f21-4148-8641-024253f68420
 blueprint: tour
-title: 'Abruzzo and Molise - From the mountains to the sea'
-name: 'From the mountains to the sea'
+title: 'Abruzzo and Molise - From the mountains to the sea (Rome to Termoli)'
+name: 'From the mountains to the sea (Rome to Termoli)'
 tour_types: guided
 region: 'Abruzzo and Molise'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773021671
+updated_at: 1773893523
 grade: 4
 summary: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
 overview:
