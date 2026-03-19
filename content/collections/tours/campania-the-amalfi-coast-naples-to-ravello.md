@@ -1,15 +1,15 @@
 ---
 id: a5eb2e54-ad28-467a-9e7a-b32fdce0c6d7
 blueprint: tour
-title: 'Campania and Basilicata - Campania and the Amalfi Coast guided tour (Naples to Ravello)'
-name: 'Campania and the Amalfi Coast guided tour (Naples to Ravello)'
+title: 'Campania and Basilicata - Campania and the Amalfi Coast (Naples to Ravello)'
+name: 'Campania and the Amalfi Coast (Naples to Ravello)'
 tour_types: guided
 region: 'Campania and Basilicata'
 days: 13
 seasons: spring
 grade: 2
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773893650
+updated_at: 1773896237
 summary: 'Campania a stunningly beautiful area with all the exuberance and colour of southern Italy.'
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15
@@ -194,4 +194,5 @@ page_builder:
     type: itinerary
     enabled: true
 simple_likes: 0
+locations: southern-italy
 ---
