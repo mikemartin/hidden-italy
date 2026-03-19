@@ -1,13 +1,13 @@
 ---
 id: c10e8a1d-dab8-454a-8c80-abbba7b0a648
 blueprint: tour
-title: 'Liguria - Italian Riviera 1 walk (Genova to Sestri Levante)'
-name: 'Italian Riviera 1 walk (Genova to Sestri Levante)'
+title: 'Liguria - Italian Riviera 1 tour (Genova to Sestri Levante)'
+name: 'Italian Riviera 1 tour (Genova to Sestri Levante)'
 tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773893252
+updated_at: 1773893263
 grade: 4
 summary: 'Follow ancient paths through fishing villages and forests on the beautiful Italian Riviera'
 overview:
