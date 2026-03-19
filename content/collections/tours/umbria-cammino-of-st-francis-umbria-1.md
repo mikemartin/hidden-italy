@@ -1,13 +1,13 @@
 ---
 id: f0135e9f-7439-4a88-b4d1-cc54b20d7e0c
 blueprint: tour
-title: 'Umbria - Cammino of St Francis:  Umbria 1'
-name: 'Cammino of St Francis:  Umbria 1'
+title: 'Umbria - Cammino of St Francis:  Umbria 1 self-guided tour (Assisi to Spoleto)'
+name: 'Cammino of St Francis:  Umbria 1 self-guided tour (Assisi to Spoleto)'
 tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773799473
+updated_at: 1773894018
 grade: 3
 summary: "Walk well-marked trails thru Italy's most beautiful region, in the footsteps of St Francis"
 overview:
