@@ -1,13 +1,13 @@
 ---
 id: acc266b3-4cb5-44f3-b331-96d21d8fe85c
 blueprint: tour
-title: 'Veneto-Lombardy-Piedmont - Venice and the Italian Lakes'
-name: 'Venice and the Italian Lakes'
+title: 'Lombardy-Piedmont - Venice and the Italian Lakes guided tour (Venice to Turin)'
+name: 'Venice and the Italian Lakes guided tour (Venice to Turin)'
 tour_types: guided
-region: Veneto-Lombardy-Piedmont
+region: Lombardy-Piedmont
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1772599529
+updated_at: 1773894154
 grade: 4
 summary: 'This wonderful tour gives new twists to some of the classic destinations of northern Italy'
 overview:
