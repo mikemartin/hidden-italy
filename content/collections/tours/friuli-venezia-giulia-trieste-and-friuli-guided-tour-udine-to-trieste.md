@@ -1,13 +1,13 @@
 ---
 id: 9fd38ab4-55ef-435d-82cc-d9246de83cc3
 blueprint: tour
-title: 'Friuli Venezia Giulia - Trieste and Friuli guided tour: Udine to Trieste'
-name: 'Trieste and Friuli guided tour: Udine to Trieste'
+title: 'Friuli Venezia Giulia - Trieste and Friuli guided tour (Udine to Trieste)'
+name: 'Trieste and Friuli guided tour (Udine to Trieste)'
 tour_types: guided
 region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773021902
+updated_at: 1773893483
 grade: 4
 summary: 'A special tour to a fascinating region: 3 borders, 4 national parks; and five languages.'
 overview:
