@@ -1,8 +1,8 @@
 ---
 id: 0d717011-26fe-4d13-89f4-a0739f966e3d
 blueprint: tour
-title: 'Italian Alps - Trails to Freedom guided tour (Biella to Macugnaga)'
-name: 'Trails to Freedom guided tour (Biella to Macugnaga)'
+title: 'Italian Alps - Trails to Freedom (Biella to Macugnaga)'
+name: 'Trails to Freedom (Biella to Macugnaga)'
 region: 'Italian Alps'
 summary: 'Ten-day hike blending stunning scenery, alpine towns, and a WWII escape story.'
 days: 10
@@ -176,7 +176,7 @@ tour_types: guided
 seasons: summer
 locations: northern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773893684
+updated_at: 1773896312
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
