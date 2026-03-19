@@ -1,13 +1,13 @@
 ---
 id: bf401969-bac2-4370-8ffd-d7c62b8f4ade
 blueprint: tour
-title: "Val d'Aosta - Turin and the Val d'Aosta guided tour (Turin to Courmayeur)"
-name: "Turin and the Val d'Aosta guided tour (Turin to Courmayeur)"
+title: "Val d'Aosta - Turin and the Val d'Aosta (Turin to Courmayeur)"
+name: "Turin and the Val d'Aosta (Turin to Courmayeur)"
 tour_types: guided
 region: "Val d'Aosta"
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773894080
+updated_at: 1773896811
 grade: 4
 summary: "Two weeks exploring the Val d'Aosta, Italy's smallest, but most spectacular, region!"
 overview:
@@ -43,7 +43,7 @@ inclusions:
   - 'All paid admissions during the tour'
   - '7 guided walks'
   - 'Services of a full-time professional tour guide'
-locations: southern-italy
+locations: northern-italy
 duplicated_from: 43c82038-3f21-4148-8641-024253f68420
 tour_size: 15
 date: '2027-05-27 14:00'
@@ -190,5 +190,5 @@ page_builder:
     type: itinerary
     enabled: true
 simple_likes: 0
-seasons: spring
+seasons: autumn
 ---
