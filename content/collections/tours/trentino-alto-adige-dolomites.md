@@ -1,13 +1,13 @@
 ---
 id: 8c969301-fa7c-418d-b306-3d50f60c142a
 blueprint: tour
-title: "Trentino-Alto Adige - Dolomites guided tour (Verona to Cortina d'Ampezzo)"
-name: "Dolomites guided tour (Verona to Cortina d'Ampezzo)"
+title: "Trentino-Alto Adige - Dolomites (Verona to Cortina d'Ampezzo)"
+name: "Dolomites (Verona to Cortina d'Ampezzo)"
 region: 'Trentino-Alto Adige'
 days: 13
 tour_types: guided
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773893957
+updated_at: 1773896636
 locations: northern-italy
 grade: 3
 image: tours/trentino-alto-adige-dolomites/804729994-100.jpg
@@ -204,4 +204,5 @@ page_builder:
           - breakfast
     type: itinerary
     enabled: true
+seasons: autumn
 ---
