@@ -1,6 +1,5 @@
 ---
 id: 94b14cda-124a-4b87-82f5-7bc566ac2edf
-published: false
 blueprint: tour
 title: 'Tuscany and Umbria - La Tuscia walking tour (Pitigliano to Orvieto)'
 name: 'La Tuscia walking tour (Pitigliano to Orvieto)'
@@ -8,7 +7,7 @@ tour_types: self-guided
 region: 'Tuscany and Umbria'
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773893138
+updated_at: 1773893143
 grade: 3
 summary: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
 overview:
