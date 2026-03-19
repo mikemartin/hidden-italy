@@ -8,7 +8,7 @@ tour_types: self-guided
 region: 'Tuscany and Umbria'
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773892601
+updated_at: 1773893138
 grade: 3
 summary: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
 overview:
@@ -70,65 +70,63 @@ page_builder:
     enabled: true
   -
     id: mloox88g
-    title: 'Alba and Le Langhe walking tour itinerary'
-    summary: "Starting and finishing in beautiful Alba, this 8 day circular walk explores the sweet rolling hills of the Langhe, one of Italy's premier wine and food regions, it is scattered with villages and castles that date from Roman times and crisscrossed with trails that have been walked for centuries."
+    title: 'La Tuscia tour itinerary'
+    summary: 'Following beautiful trails through rolling farmlands, forests and sleepy country villages steeped history well off the beaten track, the La Tuscia tour is a Hidden Italy special!'
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Transfer from Turin to Alba'
-        description: 'You will be taken by private transfer from Turin to beautiful Alba, 95 kilometres south.  The plan of the historic centre of Alba reflects its Roman origins (an orderly grid tucked behind defensive walls) while its narrow streets are decidedly medieval, complete with a five brick tower-houses that date from the 13th century.'
+        title: 'Day 1: Transfer from Rome to Pitigliano'
+        description: 'You will be picked up in Rome and transferred to Pitigliano. This spectacularly sited town is bounded by two ravines and is over three thousand years old.  The historic centre of the town is a tangle of lanes and car-free streets, a fascinating place to spend some time exploring.'
       -
         id: mloozlek
-        title: 'Day 2:  Walk along the Tanaro River'
-        description: 'You leave Alba heading south-west, passing the Ferrero chocolate factory (home of Nutella) and then follow an easy path along the left bank of the Tanaro River, before turning south and climbing up to a small hilltop village that is famous for its.  The second half of the walk takes you through vineyards to another lovely hilltop town, with a ruined castle from where you have a breathtaking view south over all the Langhe hills.'
-        duration: 4
-        distance: 15
-        elevation: 281
+        title: 'Day 2:  Walk ancient trails'
+        description: "In the morning you will be transferred to nearby Pitigliano, where you'll have time to explore this spectacular town before doing the extraordinary walk that links Pitigliano to Sovana.  The trail follows an Etruscan path carved out of living rock two and a half thousand years ago.  You will have time in the afternoon to walk down to the valleys surrounding Sovana to explore the Etruscan sites."
+        duration: 2
+        distance: 8
+        elevation: 115
         meals_included:
           - breakfast
       -
         id: mlop159i
-        title: 'Day 3:  Walk through vineyards'
-        description: 'Today’s walk takes you through the heart of Barolo country following lanes that cut through the middle of the some of the finest and most famous vineyards in Italy such as ‘Cannubi’ and ‘Sori’, passing through the town of Barolo itself (where you can have lunch and visit one of the cantine and/or its Oenological Museum).  After passing through more vineyards, you arrive at another charming hilltop town.'
-        duration: 4
-        distance: 13
-        elevation: 267
+        title: 'Day 3:  Sleep in a castle'
+        description: "The next leg of the walk is to another extraordinary neighbouring town, founded at the same time as Pitigliano and with an equally extraordinary location, perched on volcanic cliffs above a river, staying in a hotel situated in the town's medieval fortress."
+        duration: 3
+        distance: 11
+        elevation: 160
         meals_included:
           - breakfast
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk through chestnut forests'
-        description: 'Today’s walk takes you out of the wine growing area and into the Alta Langhe, the slightly ‘wilder’ (relatively!) part of the district which is characterised by steeper hills, hazelnut and fruit orchards and tracts of chestnut forests. Although there are a couple of hills, today’s walk is quite short which will leave you time to explore the interesting places you are pass, including the very interesting castle with time for a light lunch as well.'
+        title: 'Day 4:  Discover an abandoned city'
+        description: 'After a morning exploring town, the next walk is to a charming farming town following a shaded stream and a route that originally joined landlocked Orvieto with the coast, visiting on the way the ruins of a very interesting abandoned medieval town, swallowed up by forests centuries ago.  Dinner in your lovely agriturismo is included tonight.'
         duration: 3
-        distance: 8
-        elevation: 264
+        distance: 7
+        elevation: 140
         meals_included:
           - breakfast
+          - dinner
       -
         id: mlop5205
-        title: 'Day 5:  Walk along a ridge'
-        description: 'The walk today takes heads north following a ridge above the Belbo River, passing though long tracts of forest and orchards with extensive views south over the Alta Langhe.  It passes through a number of small villages where you can break for lunch. With notice, this walk can be shortened.'
+        title: 'Day 5:  Sleep lakeside'
+        description: "Today you walk to Lake Bolsena via a sleepy country town, leaving Tuscany and crossing into Lazio, from the Grand Duchy into the Papal State. The walk finishes on the shores of the lake at a tiny trattoria shaded by willows were you'll be able to have lunch. You will be picked up from here by our driver and taken around the lake to your accommodation in a 4-star hotel on the lakeshore."
         duration: 5
-        distance: 17
-        elevation: 401
+        distance: 18
+        elevation: 322
         meals_included:
           - breakfast
       -
         id: mlop6avf
-        title: 'Day 6:  Walk to the pretty village in the area'
-        description: 'Leaving your accommodation the trail further along the ridge through forests and orchards, passing close to Santo Stefano Belbo, the home of one of the Langhe’s favourite sons: Cesare Pavese (1908 to 1950), poet, novelist, critic and translator.  The second part of today’s walk takes you back into the sweet rolling hills of the wine country, through vineyards dedicated to Barbaresco, a light version of Barolo, to one of the prettiest and best preserved villages in the area.'
+        title: 'Day 6:  Walk to Orvieto'
+        description: "Walk from Lake Bolsena to the marvellous town of Orvieto following for much of the way the original route of a branch of the medieval Via Francigena. On the way you will pass through forest (past an Etruscan excavation and a rock that was miraculously split to allow a medieval procession carrying a relic of Christ's blood to reach Orvieto) before, picking up a dead straight paved section of original Roman road which will take you into Orvieto.  (18 kms, 5 hrs; min: 188 mts, max: 626 mts)"
         duration: 5
         distance: 17
-        elevation: 468
+        elevation: 442
         meals_included:
           - breakfast
       -
         id: mlop8uiy
-        title: 'Day 7:  Head back to Alba'
-        description: 'The last walk of your visit takes you back to Alba.  It loops around through more vineyards, passing a number of settlements, including the town of Barbaresco itself, before entering forest and following the banks of the Tanaro River along a trail that is dedicated to Beppe Fenoglio (1922 to 1963), another beloved local writer who fought the German occupation during World War II.  Your last night is spent in Alba.'
-        duration: 4
-        distance: 13
-        elevation: 135
+        title: 'Day 7:  Depart Orvieto'
+        description: 'Breakfast in your hotel. Orvieto station is on the main Rome/Florence line and you will be able to continue your holiday from there.'
         meals_included:
           - breakfast
       -
