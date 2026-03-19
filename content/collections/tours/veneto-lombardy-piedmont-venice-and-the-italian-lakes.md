@@ -1,13 +1,13 @@
 ---
 id: acc266b3-4cb5-44f3-b331-96d21d8fe85c
 blueprint: tour
-title: 'Lombardy-Piedmont - Venice and the Italian Lakes guided tour (Venice to Turin)'
-name: 'Venice and the Italian Lakes guided tour (Venice to Turin)'
+title: 'Lombardy-Piedmont - Venice and the Italian Lakes  (Venice to Turin)'
+name: 'Venice and the Italian Lakes  (Venice to Turin)'
 tour_types: guided
 region: Lombardy-Piedmont
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773894154
+updated_at: 1773896495
 grade: 4
 summary: 'This wonderful tour gives new twists to some of the classic destinations of northern Italy'
 overview:
@@ -43,7 +43,7 @@ inclusions:
   - 'All paid admissions during the tour'
   - '7 guided walks'
   - 'Full-time services of a fully experienced bi-lingual guide'
-locations: southern-italy
+locations: northern-italy
 duplicated_from: bf401969-bac2-4370-8ffd-d7c62b8f4ade
 tour_size: 15
 date: '2027-05-27 14:00'
@@ -191,7 +191,7 @@ page_builder:
     type: itinerary
     enabled: true
 simple_likes: 0
-seasons: spring
+seasons: autumn
 image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/5.jpg
 gallery:
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/1.jpg
