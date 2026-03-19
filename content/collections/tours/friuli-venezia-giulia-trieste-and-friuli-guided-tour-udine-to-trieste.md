@@ -1,13 +1,13 @@
 ---
 id: 9fd38ab4-55ef-435d-82cc-d9246de83cc3
 blueprint: tour
-title: 'Friuli Venezia Giulia - Trieste and Friuli guided tour (Udine to Trieste)'
-name: 'Trieste and Friuli guided tour (Udine to Trieste)'
+title: 'Friuli Venezia Giulia - Trieste and Friuli (Udine to Trieste)'
+name: 'Trieste and Friuli (Udine to Trieste)'
 tour_types: guided
 region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773893483
+updated_at: 1773896280
 grade: 4
 summary: 'A special tour to a fascinating region: 3 borders, 4 national parks; and five languages.'
 overview:
@@ -37,7 +37,7 @@ inclusions:
   - 'All paid admissions during the tour'
   - '7 guided walks'
   - 'Services of a full-time professional tour guide'
-locations: southern-italy
+locations: northern-italy
 duplicated_from: bf401969-bac2-4370-8ffd-d7c62b8f4ade
 tour_size: 15
 date: '2027-05-27 14:00'
@@ -196,7 +196,7 @@ page_builder:
     type: itinerary
     enabled: true
 simple_likes: 0
-seasons: spring
+seasons: autumn
 image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/29a.jpg
 gallery:
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/1.jpg
