@@ -8,7 +8,7 @@ tour_types: self-guided
 region: 'Tuscany and Umbria'
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773814159
+updated_at: 1773891068
 grade: 3
 summary: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
 overview:
@@ -141,4 +141,5 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
+image: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/la-tuscia-walk-pitigliano.jpg
 ---
