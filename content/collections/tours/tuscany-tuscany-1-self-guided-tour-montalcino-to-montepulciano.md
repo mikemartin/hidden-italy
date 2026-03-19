@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Tuscany
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773895921
+updated_at: 1773896148
 grade: 2
 summary: 'Pure Tuscany: rolling hills, cypress pines, Renaissance towns, fine food, relaxed walking.'
 overview:
@@ -40,17 +40,16 @@ overview:
             type: italic
         text: "The Val d'Orcia is where Hidden Italy had its first tour over thirty years ago, and it is still one of my favourite areas in Italy!"
 inclusions:
-  - 'Six nights accommodation'
+  - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
+  - 'Five nights accommodation'
   - 'All breakfasts included'
-  - 'Reading lists, historical and cultural notes'
+  - 'Reading lists and historical and cultural notes'
   - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'A curated list of restaurants in each town'
   - 'Daily transfers of baggage between hotels'
-  - 'Drop-off at the end of the tour from Portovenere to La Spezia station (on the Rome/Genoa line)'
-  - 'The Santa Margherita/Portofino option includes 3 nights in a 4-star hotel, sea views'
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
-  - 'A curated list of restaurants for each town you visit'
 locations: central-italy
 page_builder:
   -
@@ -147,4 +146,17 @@ page_builder:
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 image: tours/liguria-cinque-terre-coastal-walking-tour-1/f1000012-a.jpg
+gallery:
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/f1000012-a.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/shutterstock_574301368.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5098.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/f1010003.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5049.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/f1050006-a.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5057.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5149.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_0741.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5075.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5117.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5261.jpg
 ---
