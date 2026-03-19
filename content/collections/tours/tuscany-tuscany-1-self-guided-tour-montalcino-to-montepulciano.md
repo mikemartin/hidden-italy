@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Tuscany
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896666
+updated_at: 1773897898
 grade: 2
 summary: 'Pure Tuscany: rolling hills, cypress pines, Renaissance towns, fine food, relaxed walking.'
 overview:
@@ -54,22 +54,22 @@ locations: central-italy
 page_builder:
   -
     id: mloocwbk
-    title: 'Highlights of the Cinque Terre Coastal walk'
+    title: 'Highlights of Tuscany 1'
     activities:
       -
         id: mlooee34
-        title: 'Enjoy a continuous 6-day walk'
-        summary: 'Enjoy a continuous walk from village to village for the whole six days (no trains to get to and from the walks each day)'
+        title: 'Enjoy a continuous 5-day walk'
+        summary: 'Enjoy a continuous walk from village to village for five days following well-marked trails through beautiful countryside'
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mloog7vk
-        title: 'Savour the famous food and wines'
-        summary: 'Ligurian cuisine is the delicious result of fresh produce from gardens and sea being combined with generations of skill.'
+        title: 'Get lost in gorgeous towns'
+        summary: 'Stay in heart of some of the most beautiful and interesting towns in central Italy, heart of the Renaissance.'
         icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
       -
         id: mlooou12
-        title: 'Walk through stunning scenery'
-        summary: 'The ancient walking trails take you through the most stunning scenery in Italy: mountains on the left, sea on the right!'
+        title: 'Be entranced by the extraordinary scenery'
+        summary: "Walk through the beautiful Val d'Orcia, UNESCO Heritage listed, with some of the most iconic scenery in all of Italy."
         icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
       -
         id: mlooun08
@@ -77,8 +77,10 @@ page_builder:
         summary: "You will have all the time in the world to immerse yourself in the life of six of Italy's most beautiful villages."
       -
         id: mmbinilb
-        title: 'Relax and enjoy your holiday'
-        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        title: 'Indulge in fine food and wines'
+        summary: "Val d'Orcia is celebrated for its food (wholesome home-cooking) but more so for its fine wines (the best in the country)"
+      -
+        id: mmx1061d
     type: highlights
     enabled: true
   -
@@ -145,7 +147,7 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-image: tours/liguria-cinque-terre-coastal-walking-tour-1/f1000012-a.jpg
+image: tours/liguria-cinque-terre-coastal-walking-tour-1/shutterstock_574301368.jpg
 gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour-1/f1000012-a.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/shutterstock_574301368.jpg
