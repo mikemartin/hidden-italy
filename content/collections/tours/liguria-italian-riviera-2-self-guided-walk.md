@@ -1,13 +1,13 @@
 ---
 id: f943eb67-6a4d-42c3-b854-183322963089
 blueprint: tour
-title: 'Liguria - Italian Riviera 2 self-guided walk.'
-name: 'Italian Riviera 2 self-guided walk.'
+title: 'Liguria - Italian Riviera 2 tour (Sestri Levante to Portovenere)'
+name: 'Italian Riviera 2 tour (Sestri Levante to Portovenere)'
 tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773799262
+updated_at: 1773893309
 grade: 4
 summary: "Walk Italy's most celebrated coastline from romantic Sestri Levante to the Cinque Terre!"
 overview:
