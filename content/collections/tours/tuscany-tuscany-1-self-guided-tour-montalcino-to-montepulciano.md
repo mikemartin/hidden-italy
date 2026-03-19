@@ -2,13 +2,13 @@
 id: 5300daa4-c274-4a6e-8715-fbd320d02144
 published: false
 blueprint: tour
-title: 'Tuscany - Tuscany 1 self-guided tour (Montalcino to Montepulciano)'
-name: 'Tuscany 1 self-guided tour (Montalcino to Montepulciano)'
+title: 'Tuscany - Tuscany 1 (Montalcino to Montepulciano)'
+name: 'Tuscany 1 (Montalcino to Montepulciano)'
 tour_types: self-guided
 region: Tuscany
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896148
+updated_at: 1773896666
 grade: 2
 summary: 'Pure Tuscany: rolling hills, cypress pines, Renaissance towns, fine food, relaxed walking.'
 overview:
