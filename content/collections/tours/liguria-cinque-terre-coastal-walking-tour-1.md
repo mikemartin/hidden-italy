@@ -2,15 +2,15 @@
 id: 5300daa4-c274-4a6e-8715-fbd320d02144
 published: false
 blueprint: tour
-title: 'Liguria - Cinque Terre Coastal self-guided tour (Levanto to Portovenere)'
-name: 'Cinque Terre Coastal self-guided tour (Levanto to Portovenere)'
+title: 'Tuscany - Tuscany 1 self-guided tour (Montalcino to Montepulciano)'
+name: 'Tuscany 1 self-guided tour (Montalcino to Montepulciano)'
 tour_types: self-guided
-region: Liguria
+region: Tuscany
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773894190
+updated_at: 1773895011
 grade: 3
-summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
+summary: 'Pure Tuscany: rolling hills, cypress pines, Renaissance towns, fine food, relaxed walking.'
 overview:
   -
     type: paragraph
@@ -133,4 +133,5 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
+image: tours/liguria-cinque-terre-coastal-walking-tour-1/f1000012-a.jpg
 ---
