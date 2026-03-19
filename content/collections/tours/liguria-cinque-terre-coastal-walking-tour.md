@@ -1,13 +1,13 @@
 ---
 id: 65354be1-c899-4486-82f9-2883d090c270
 blueprint: tour
-title: 'Liguria - Cinque Terre Coastal tour (Levanto to Portovenere)'
-name: 'Cinque Terre Coastal tour (Levanto to Portovenere)'
+title: 'Liguria - Cinque Terre Coastal self-guided tour (Levanto to Portovenere)'
+name: 'Cinque Terre Coastal self-guided tour (Levanto to Portovenere)'
 tour_types: self-guided
 region: Liguria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773893210
+updated_at: 1773893740
 grade: 3
 summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
 overview:
