@@ -1,16 +1,15 @@
 ---
 id: 96805144-50d8-471e-9208-b397627a3a1c
 blueprint: tour
-title: 'Puglia - Puglia in the Spring'
-name: 'Puglia in the Spring'
+title: 'Puglia - Puglia in the Spring (Lecce to Bari)'
+name: 'Puglia in the Spring (Lecce to Bari)'
 tour_types: guided
 region: Puglia
 days: 13
-updated_by: 6e2cc1d1-1470-4391-963d-37aed038e27a
-updated_at: 1771297540
+updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
+updated_at: 1773893452
 grade: 3
 summary: 'Puglia is pure southern Italy: vibrant towns, endless trails and coastline; fabulous food!'
-image: tours/puglia-puglia-in-the-spring/19.7.jpg
 overview:
   -
     type: paragraph
@@ -39,19 +38,6 @@ inclusions:
   - '8 guided walks'
   - 'Guided sight seeing tours of Bari and Lecce'
   - 'Services of a full-time professional tour guide'
-gallery:
-  - tours/puglia-puglia-in-the-spring/19.7.jpg
-  - tours/puglia-puglia-in-the-spring/19.8.jpg
-  - tours/puglia-puglia-in-the-spring/30.jpg
-  - tours/puglia-puglia-in-the-spring/40.6.jpg
-  - tours/puglia-puglia-in-the-spring/43.5.jpg
-  - tours/puglia-puglia-in-the-spring/alberobello-9.jpg
-  - tours/puglia-puglia-in-the-spring/matera-14.jpg
-  - tours/puglia-puglia-in-the-spring/lecce-28.jpg
-  - tours/puglia-puglia-in-the-spring/otranto-24.jpg
-  - tours/puglia-puglia-in-the-spring/palmento-29.jpg
-  - tours/puglia-puglia-in-the-spring/portoselvaggio-2.jpg
-  - tours/puglia-puglia-in-the-spring/ruvo-9.jpg
 locations: southern-italy
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 tour_size: 15
