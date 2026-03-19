@@ -8,7 +8,7 @@ tour_types: self-guided
 region: 'Tuscany and Umbria'
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773891068
+updated_at: 1773892601
 grade: 3
 summary: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
 overview:
@@ -17,50 +17,50 @@ overview:
     content:
       -
         type: text
-        text: "This delightful 8-day circuit walk starts with a private transfer to beautiful Alba, 95 kilometres south of Turin.\_ A handsome town of Roman origin, Alba is the ‘capital’ of the Langhe, a close-knit range of hills and valleys which are crowded with impeccably tended rows of nebbiolo vines, the source of some of Italy’s finest wines, including Barolo and Barbaresco.\_ They form a unique and striking landscape which is dotted with attractive hill-towns, castles and wineries, so much so that the district was recently listed as a UNESCO World Heritage site."
+        text: "This 7-day exploration starts with a private transfer from Rome to Pitigliano, where the walk begins.\_ Known as La Tuscia since Roman times, this fascinating \_district is on the\_borders where southern Tuscany overlaps with the lakes of northern Lazio and the mountains of the south-west corner of Umbria."
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Your well-marked walking trails will take through this exceptional area, passing undulating vineyards, pine forests, orchards and hazel nut farms.  Along the way, you will visit in some very attractive towns and villages and stay in welcoming accommodation, that is often part of the history of the towns themselves.'
+        text: "It is dramatically beautiful area, characterised by rolling downs of black soil, deep basalt canyons, mountain ranges and crater lakes.\_ It has been inhabited since prehistoric times and is one of the cradles of Italian civilisation: six centuries BC it was the heart of the Etruscan Federation and then, in the Renaissance, it was the stronghold of two of the great papal dynasties.\_ The villages and countryside of La Tuscia retain many of the glories of their rich past. If you are looking for a truly off-the-beaten-track walk, this is the one for you!"
   -
     type: paragraph
     content:
       -
         type: text
-        text: "You'll also have plenty of opportunity to sample some Le Langhe's very special treats.  The district is also one of Italy’s gastronomic capitals, the home of the Slow Food Association, famous for its cheeses, meats, chocolates, hazel nuts and white truffles, as well, of course, as its excellent wines.  There is much to see and do!"
+        text: "The tour starts by first visiting the 'three lost villages of Tuscany' then progresses to Lake Bolsena and finishes in the spectacular Umbrian town of Orvieto.\_ On the way you follow country lanes, sections of ancient Etruscan roads and stretches of the Via Francigena, the Medieval road that carried pilgrims, merchants and crusader armies from Papal Rome to northern Italy and the rest of Europe.   You stay in very comfortable accommodation in quiet farming villages that are more than two thousand old.\_ It's one of my favourite hikes and the food and wine is pretty good as well!"
 inclusions:
-  - 'Private transfer to and from Turin at the beginning and end of the tour'
-  - 'Seven nights accommodation'
-  - 'All breakfasts included'
-  - 'Reading lists, historical and cultural notes'
-  - 'Detailed roadbook with maps and daily notes (updated annually)'
+  - 'Pick-up from Rome and transfer to Pitigliano on Day 1'
+  - '6 nights accommodation'
+  - 'All breakfasts and one dinner included'
+  - 'Reading lists and historical and cultural notes'
+  - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
-  - 'A curated list of restaurants for each town you visit'
-  - 'Daily transfers of baggage between hotels each morning'
-  - '24 hour backup from our operations manager'
-  - 'City taxes are not included in t'
+  - 'A curated list of restaurants in each town and village'
+  - 'Daily transfers of baggage between hotels'
+  - '24 hour backup from local manager'
+  - 'City taxes are not included in the cost of the tour'
 locations: northern-italy
 page_builder:
   -
     id: mloocwbk
-    title: 'Highlights of the Alba and Le Langhe tour'
+    title: 'Highlights of the La Tuscia tour'
     activities:
       -
         id: mlooee34
-        title: 'Enjoy a continuous 8-day walk'
-        summary: 'Enjoy a continuous walk from village to village for seven days, (no buses to get to and from the walks each day)'
+        title: 'Enjoy seven days way off the beaten track!'
+        summary: 'Enjoy a continuous walk following country lanes, Etruscan paths and Medieval pilgrim trails through peaceful countryside'
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mloog7vk
-        title: 'Savour the famous food and wines'
-        summary: "Relish Alba's famous cuisine (truffles, mushrooms, cheeses and game) and its famous wines (Barolo Barbaresco and Arneis)"
+        title: 'Be astonished by ancient villages'
+        summary: 'Be astonished by these forgotten villages that are perched in impossible places overlooking spectacular scenery.'
         icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
       -
         id: mlooou12
-        title: 'Be wowed by the gorgeous scenery'
-        summary: 'You will walk through rolling hills covered in vineyards, past cute towns with snowy peaks of the Alps in the distance.'
+        title: 'Be immersed in history and traditions'
+        summary: 'Immerse yourself in the fascinating history and traditions of this peaceful corner of central Italy'
         icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
       -
         id: mlooun08
@@ -142,4 +142,17 @@ page_builder:
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 image: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/la-tuscia-walk-pitigliano.jpg
+gallery:
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/la-tuscia-walk-pitigliano.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020002.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/sovana-1.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1050010.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano-2.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/img_5389.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1050002.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/sorano-1-a.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020009-a.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/walking.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-1.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-8.jpg
 ---
