@@ -1,13 +1,13 @@
 ---
 id: c4b08565-bc23-4d2d-877c-69e8e02e78b8
 blueprint: tour
-title: 'Liguria - Portofino and the Tigullio Gulf self-guided walk'
-name: 'Portofino and the Tigullio Gulf self-guided walk'
+title: 'Liguria - Portofino and the Tigullio Gulf tour (Camogli to Sestri Levante)'
+name: 'Portofino and the Tigullio Gulf tour (Camogli to Sestri Levante)'
 tour_types: self-guided
 region: Liguria
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773799407
+updated_at: 1773893339
 grade: 3
 summary: 'Spend a week exploring the Portofino National Park and the stupendous Tigullio Gulf!'
 overview:
