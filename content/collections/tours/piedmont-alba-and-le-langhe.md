@@ -1,13 +1,13 @@
 ---
 id: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 blueprint: tour
-title: 'Piedmont - Alba and Le Langhe tour'
-name: 'Alba and Le Langhe tour'
+title: 'Piedmont - Alba and Le Langhe tour (Alba circuit walk)'
+name: 'Alba and Le Langhe tour (Alba circuit walk)'
 tour_types: self-guided
 region: Piedmont
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773807660
+updated_at: 1773893365
 grade: 3
 summary: 'An 8-day tour that takes you through the seductive rolling hills of southern Piedmont.'
 overview:
