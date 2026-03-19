@@ -1,13 +1,13 @@
 ---
 id: 5e536055-01da-4264-a45c-5c879a0d73d7
 blueprint: tour
-title: 'Lazio - Cammino of St Francis:  Lazio (Rieti to Rome)'
-name: 'Cammino of St Francis:  Lazio (Rieti to Rome)'
+title: 'Lazio - Cammino of St Francis:  Lazio self-guided tour (Rieti to Rome)'
+name: 'Cammino of St Francis:  Lazio self-guided tour (Rieti to Rome)'
 tour_types: self-guided
 region: Lazio
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773893177
+updated_at: 1773893719
 grade: 3
 summary: 'From the quiet green hills of central Italy to the steps of St Peters in the heart of Rome'
 overview:
