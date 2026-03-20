@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Tuscany
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773898381
+updated_at: 1773981966
 grade: 2
 summary: 'Pure Tuscany: rolling hills, cypress pines, Renaissance towns, fine food, relaxed walking.'
 overview:
@@ -150,7 +150,7 @@ gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5057.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5149.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/img_0741.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5261.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5075.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5117.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5261.jpg
 ---
