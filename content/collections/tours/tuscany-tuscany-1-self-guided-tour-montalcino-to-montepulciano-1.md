@@ -140,18 +140,4 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
-image: tours/liguria-cinque-terre-coastal-walking-tour-1/shutterstock_574301368.jpg
-gallery:
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/f1000012-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/shutterstock_574301368.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5098.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/f1010003.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5049.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/f1050006-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5057.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5149.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_0741.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5261.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5075.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_5117.jpg
 ---
