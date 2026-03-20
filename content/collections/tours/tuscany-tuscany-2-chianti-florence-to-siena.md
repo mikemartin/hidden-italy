@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Tuscany
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773990373
+updated_at: 1773990834
 grade: 2
 summary: 'Enjoy a seven-day walk through the rolling vineyards, forest and market towns of Chianti.'
 overview:
@@ -37,13 +37,13 @@ overview:
         type: text
         text: "The tour starts with a private transfer from Florence to Impruneta.\_ From here well-marked trails take you through undulating farmlands, over the forest-covered hills of the colline di Chianti, and then south towards Siena.\_ You stay in comfortable accommodation in the centre of a series buzzy market towns, as well as a charming agriturismo in the hills.\_ At the end of the last walk, you will be transferred to Siena, where you spend the last night in a very nice hotel in an historic palazzo in the heart of the city, close to the famous Piazza del Campo."
 inclusions:
-  - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
-  - 'Five nights accommodation'
-  - 'All breakfasts included'
+  - 'Private transfer from Florence on Day 1; private transfer to Siena on Day 6'
+  - 'Six nights accommodation'
+  - 'All breakfasts'
   - 'Reading lists and historical and cultural notes'
   - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
-  - 'A curated list of restaurants in each town'
+  - 'A curated list of restaurants for each town and village you stay in'
   - 'Daily transfers of baggage between hotels'
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
@@ -138,4 +138,17 @@ page_builder:
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
 image: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/samuele-bertoli-zg2fy6cxihk-unsplash.jpg
+gallery:
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/rich-martello-yqcvybdd4y-unsplash.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/kristina-c-qwaolhfrx3i-unsplash.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/016.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/aleksandrs-karevs-ne-z7d7v2yu-unsplash(1).jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/026.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/img_0738-2.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/flo-p-puor_oqheg4-unsplash.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/img_5083.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/samuele-bertoli-zg2fy6cxihk-unsplash.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/alessandro-rossi-ju_bgza3zhe-unsplash.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/mario-la-pergola-vopuqdtcnja-unsplash.jpg
 ---
