@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Tuscany
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773991156
+updated_at: 1773991350
 grade: 2
 summary: 'Enjoy a seven-day walk through the rolling vineyards, forest and market towns of Chianti.'
 overview:
@@ -137,7 +137,7 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
-image: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/samuele-bertoli-zg2fy6cxihk-unsplash.jpg
+image: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/rich-martello-yqcvybdd4y-unsplash.jpg
 gallery:
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/rich-martello-yqcvybdd4y-unsplash.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/016.jpg
@@ -148,7 +148,7 @@ gallery:
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/flo-p-puor_oqheg4-unsplash.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/img_5083.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/samuele-bertoli-zg2fy6cxihk-unsplash.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/paolo-d-andrea-msrizqwwlc4-unsplash.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/alessandro-rossi-ju_bgza3zhe-unsplash.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/mario-la-pergola-vopuqdtcnja-unsplash.jpg
 ---
