@@ -2,43 +2,40 @@
 id: 97c7707c-9b34-4f4f-9445-39668362d1fd
 published: false
 blueprint: tour
-title: 'Tuscany - Tuscany 2 (Montalcino to Montepulciano)'
-name: 'Tuscany 2 (Montalcino to Montepulciano)'
+title: 'Tuscany - Tuscany 2 (Chianti: Florence to Siena)'
+name: 'Tuscany 2 (Chianti: Florence to Siena)'
 tour_types: self-guided
 region: Tuscany
-days: 6
+days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773982019
+updated_at: 1773990373
 grade: 2
-summary: 'Pure Tuscany: rolling hills, cypress pines, Renaissance towns, fine food, relaxed walking.'
+summary: 'Enjoy a seven-day walk through the rolling vineyards, forest and market towns of Chianti.'
 overview:
   -
     type: paragraph
     content:
       -
         type: text
-        text: "This wonderful tour starts with a private transfer from Siena (or Chiusi) to Montalcino, a gorgeous hill-town celebrated for its wines.  From here, the walk takes you through the Val d'Orcia, one of the most beautiful places in Italy (the world?).  You pass through classic Tuscan countryside, following sections of the Via Francigena, a medieval road that bisected the valley linking Papal Rome with northern Europe, carrying pilgrims, traders, Crusader armies, emperors and popes.  The valley is lined with castles, monasteries and villages that date from this period. "
+        text: 'This magnificent walk passes through the Chianti, some of the most celebrated countryside in Europe, a unique landscape of rolling hills, vineyards, olive groves,  thick oak forests, isolated farmhouses, medieval market towns and ancient villages, all shaped by over three millennia of settlement.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Leaving the medieval walls of\_Montalcino, you'll following well-marked, undulating trails to finish four days later\_in Montepulciano, having passed through\_an area as famous for its rolling hills, wheat fields dotted with red brick farmhouses, stands of deep green cypress pines and endless views, as it is famous for its wines and food."
+        text: "But Chianti is not only a place of exceptional natural beauty, it also has a very rich in history.\_Its most formative years were during the Middle Ages, when the district became a battleground, caught between the implacable ambitions of Florence and Siena.\_ The fortified towns, magnificent monasteries and famous castles that you encounter during the walk bear testament to this legacy.\_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Along the way you stay in some of the most celebrated town in Tuscany, cultural treasures that include a beautifully restored pilgrim town; a magnificent papal town; and Montepulciano, 'pearl of the Renaissance'.  At the end of the tour you will have a private transfer to Chiusi, well-connected by train to Rome and Florence.  "
+        text: "Chianti is famous for its wholesome home-cooking, pastas and soups, roast meats and garden vegetables, but it is, of course, best know its eponymous red wine, which, some say, is amongst the best produced in Italy.\_ You will have plenty of chances to sample these treats along the way and make your own decision!"
   -
     type: paragraph
     content:
       -
         type: text
-        marks:
-          -
-            type: italic
-        text: "The Val d'Orcia is where Hidden Italy had its first tour over thirty years ago, and it is still one of my favourite areas in Italy!"
+        text: "The tour starts with a private transfer from Florence to Impruneta.\_ From here well-marked trails take you through undulating farmlands, over the forest-covered hills of the colline di Chianti, and then south towards Siena.\_ You stay in comfortable accommodation in the centre of a series buzzy market towns, as well as a charming agriturismo in the hills.\_ At the end of the last walk, you will be transferred to Siena, where you spend the last night in a very nice hotel in an historic palazzo in the heart of the city, close to the famous Piazza del Campo."
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
   - 'Five nights accommodation'
@@ -140,4 +137,5 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
+image: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/samuele-bertoli-zg2fy6cxihk-unsplash.jpg
 ---
