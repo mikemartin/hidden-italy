@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Tuscany
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774064765
+updated_at: 1774064879
 grade: 2
 summary: 'Enjoy a seven-day walk through the rolling vineyards, forest and market towns of Chianti.'
 overview:
@@ -84,7 +84,7 @@ page_builder:
   -
     id: mloox88g
     title: 'Tiuscany 2 itinerary'
-    summary: 'Starting in Florence and finishing in Siena, and staying in gorgeous market towns along the way, this classic seven-day walk takes you through the Chianti via some of the most celebrated landscapes in Italy: undulating farmlands, vineyards and oak and chestnut forests.'
+    summary: 'Starting in Florence and finishing in Siena, and staying in gorgeous market towns along the way, this classic seven-day walk takes you through the Chianti via some of the most celebrated landscapes in Italy: undulating farmlands, rolling vineyards, oak and chestnut forests.'
     days:
       -
         id: mlooymbz
