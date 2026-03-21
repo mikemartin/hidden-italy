@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Tuscany
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773991350
+updated_at: 1774064753
 grade: 2
 summary: 'Enjoy a seven-day walk through the rolling vineyards, forest and market towns of Chianti.'
 overview:
@@ -39,7 +39,7 @@ overview:
 inclusions:
   - 'Private transfer from Florence on Day 1; private transfer to Siena on Day 6'
   - 'Six nights accommodation'
-  - 'All breakfasts'
+  - 'All breakfasts and one dinner'
   - 'Reading lists and historical and cultural notes'
   - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
@@ -51,31 +51,31 @@ locations: central-italy
 page_builder:
   -
     id: mloocwbk
-    title: 'Highlights of Tuscany 1'
+    title: 'Highlights of Tuscany 2'
     activities:
       -
         id: mlooee34
-        title: 'Enjoy a continuous 5-day walk'
+        title: 'Enjoy a continuous 7-day walk'
         summary: 'Enjoy a continuous walk from village to village for five days following well-marked trails through beautiful countryside'
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mloog7vk
-        title: 'Get lost in gorgeous towns'
-        summary: 'Stay in heart of some of the most beautiful and interesting towns in central Italy, heart of the Renaissance.'
+        title: 'Immerse yourself in the daily life'
+        summary: 'You will have plenty of time each day to immerse yourself in the daily life of a series of buzzy market towns.'
         icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
       -
         id: mlooou12
-        title: 'Be entranced by the extraordinary scenery'
-        summary: "Walk through the beautiful Val d'Orcia, UNESCO Heritage listed, with some of the most iconic scenery in all of Italy."
+        title: 'Sample the local brew'
+        summary: "Enjoy sampling the district's fine red wines, the most celebrated in Italy, accompanied by district's equally fine food."
         icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
       -
         id: mlooun08
-        title: 'Immerse yourself in gorgeous villages'
-        summary: "You will have all the time in the world to immerse yourself in the life of six of Italy's most beautiful villages."
+        title: 'Staying in a charming agriturismo'
+        summary: 'Relax in a charming agriturismo in Chianti hills, with a swimming pool, beautiful grounds, and an excellent restaurant.'
       -
         id: mmbinilb
-        title: 'Indulge in fine food and wines'
-        summary: "Val d'Orcia is celebrated for its food (wholesome homecooking) but more so for its fine wines (the best in the country?)"
+        title: 'Soak up Siena'
+        summary: "Stay in a lovely hotel near the Piazza del Campo, in the heart of Siena, Europe's most perfectly preserved Medieval city"
       -
         id: mmx1061d
         title: 'Relax and enjoy for holiday'
@@ -84,53 +84,63 @@ page_builder:
     enabled: true
   -
     id: mloox88g
-    title: 'Tiuscany 1 itinerary'
-    summary: 'Starting with a private transfer to the charming medieval town of Montalcino, this walk tour crosses the Orcia River Valley in southern Tuscany, passing through some of the most beautiful country in central Italy.'
+    title: 'Tiuscany 2 itinerary'
+    summary: 'Starting in Florence and finishing in Siena, and staying in gorgeous market towns along the way, this classic seven-day walk takes you through the Chianti via some of the most celebrated landscapes in Italy: undulating farmlands, vineyards and oak and chestnut forests.'
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Montalcino'
-        description: "You will be picked up at either Siena or Chiusi and taken to Montalcino, a perfectly preserved walled hilltop town, famous for both its views and its red wine, Brunello di Montalcino. Included in your notes is a short walk around the outside of the town's walls."
+        title: 'Day 1: Arrive in Impruneta'
+        description: 'The tour starts with a private transfer from Florence to Impruneta, a pleasant town twenty kilometres Florence. Your family hotel has views of the town’s famous basilica in the central piazza, dating from the 11th century, which contains a miraculous image of the Madonna, fragments of the True Cross and masterpieces by Luca della Robbia and Michelozzi.'
       -
         id: mloozlek
-        title: 'Day 2:  Stay in a Medieval village'
-        description: 'The first walk takes you down through forests to a Romanesque abbey isolated in fields of wheat and vineyards, which is one of the most beautiful in Tuscany. Your accommodation for the night is in the small village that overlooks the abbey.  (3 hrs; 12 kms; min: 303 mts, max: 641 mts).'
+        title: 'Day 2:  Stroll through farmlands'
+        description: "Today's is a gentle walk, taking you along well-marked trails over the undulating hills of northern Tuscany to a small market town, where you spend the night.  Along the way, you pass through undulating farmlands, wheat fields and patches of forests."
         duration: 3
-        distance: 12
-        elevation: 328
+        distance: 9
+        elevation: 165
         meals_included:
           - breakfast
       -
         id: mlop159i
         title: 'Day 3:  Walk through vineyards'
-        description: 'Today you climb up through vineyards and olive groves, to a beautifully restored medieval pilgrim town, a key point on the road to Rome, which is now a peaceful agricultural town and one of the most charming in the area. Despite its pedestrian centre, two beautiful Romansque churches and several beautiful gardens, which still remains relatively unvisited.'
-        duration: 4
-        distance: 14
-        elevation: 453
+        description: 'The walk today takes you through the heartland of the Chianti wine district, following a well-marked trail through rolling hills covered in vineyards, to a small town that is one the centres of viticulture in Tuscany.  Along the walk, you will have the opportunity  to visit one of the oldest and wealthiest abbeys in the region, and have lunch at their excellent restaurant (there is a simpler bistrot nearby, if you prefer).  It is possible to shorten this walk.'
+        duration: 5
+        distance: 17
+        elevation: 278
         meals_included:
           - breakfast
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk a Renaissance gem'
-        description: "Today you follow parts of the medieval road down into the bare, rolling hills of the Val d'Orcia, with sweeping views across the valley to the forests and peaks of Mount Amiata before a short climb up to your base for the evening.  This enchanting little town was the birth place of one of the more important 15th century popes, who  had the modest village razed and then rebuilt in his honour, creating one of the gems of southern Tuscany, a fine example early Renaissance architecture. (3 hrs; 10 kms; min: 295 mts, max: 519 mts)"
-        duration: 3
-        distance: 10
-        elevation: 214
+        title: 'Day 4:  Cross the Chianti hills'
+        description: 'Today’s walk starts with a long climb up to the ridge of the highest range hills in the Chianti district.  On the way, you pass a medieval castle and several hamlets.  From the top of the range you are rewarded with spectacular views over the Greve River valley.  The walk continues along the ridge, passing through oak and chestnut forests on the way to your accommodation, a lovely ‘agriturismo’ with a swimming pool and an excellent restaurant.  Your dinner is included tonight.'
+        duration: 5
+        distance: 15
+        elevation: 636
         meals_included:
           - breakfast
+          - dinner
       -
         id: mlop5205
-        title: 'Day 5:  Walk to Montepulciano'
-        description: 'The last walk takes you through forests to Montepulciano. On the way you pass a tiny fortified village, perfect for lunch. Perched on a hill between the Orcia and Chianina valleys, Montepulciano was an ally of Florence in their relentless war against Siena, and was amply rewarded and has an extraordinary architectural heritage from this period.  (4 hrs; 13.5 kms; min: 331 mts, max: 539 mts).'
+        title: 'Day 5:  Walk to  through forests'
+        description: 'Today you continue your walk along the ridge before descending through pine and oak forests, to a magnificent wine estate situated in a converted medieval abbey (where you can have lunch and sample some of their produce).  Your goal, another small town devoted to wine industry, is an hour’s descent through more oak forest and farmlands.  Along the way you pass from the Florentine territory into the Sienese territory.'
         duration: 4
-        distance: 14
-        elevation: 208
+        distance: 16
+        elevation: -546
         meals_included:
           - breakfast
       -
         id: mlop6avf
-        title: 'Day 6:  Transfer to Chiusi station'
-        description: "After breakfast at 9.00 you'll be transfered to nearby Chiusi on the main Rome/Florence railway line."
+        title: 'Day 6:  Transfer to Siena'
+        description: 'This morning you have a short walk, passing through classic Chianti countryside passing more vineyards, farm houses with panoramic views and a beautiful castle along the way.  You will be picked up by private transfer at a small hamlet at 12.00 and driven to Siena, ten kilometres south, which will leave you plenty of time to explore this extraordinary city in the afternoon and evening.'
+        meals_included:
+          - breakfast
+        duration: 2
+        distance: 7
+        elevation: 174
+      -
+        id: mmzs9nie
+        title: 'Day 7:  Depart Siena'
+        description: "This morning, after breakfast, you'll be able to continue your holiday.  Siena is connected to Florence and Rome by regular buses and trains."
         meals_included:
           - breakfast
     type: itinerary
@@ -140,14 +150,14 @@ duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
 image: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/rich-martello-yqcvybdd4y-unsplash.jpg
 gallery:
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/rich-martello-yqcvybdd4y-unsplash.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/016.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/kristina-c-qwaolhfrx3i-unsplash.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/016.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/026.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/img_0738-2.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/aleksandrs-karevs-ne-z7d7v2yu-unsplash(1).jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/flo-p-puor_oqheg4-unsplash.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/img_5083.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/flo-p-puor_oqheg4-unsplash.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/paolo-d-andrea-msrizqwwlc4-unsplash.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/alessandro-rossi-ju_bgza3zhe-unsplash.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/mario-la-pergola-vopuqdtcnja-unsplash.jpg
