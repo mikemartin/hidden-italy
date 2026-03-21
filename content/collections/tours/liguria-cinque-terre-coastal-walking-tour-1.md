@@ -2,43 +2,49 @@
 id: fe7d8f05-4262-4ff2-9fa6-af18f7825ec2
 published: false
 blueprint: tour
-title: 'Liguria - Cinque Terre Coastal (Levanto to Portovenere)'
-name: 'Cinque Terre Coastal (Levanto to Portovenere)'
+title: 'Campania - Amalfi Coast tour (Ravello to Positano)'
+name: 'Amalfi Coast tour (Ravello to Positano)'
 tour_types: self-guided
-region: Liguria
-days: 7
+region: Campania
+days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774067939
+updated_at: 1774071674
 grade: 3
-summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
+summary: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
 overview:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Following an extraordinary trail, this continuous walk (no trains!) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere six days later, leaving you plenty of time to explore the charming villages you stay in each day.'
+        text: "This fabulous continuous walk along the length of the breathtaking Amalfi Coast starts with a private transfer from Naples to Ravello and then finishes with a private transfer from Positano back to Naples at the end. \_In between you get to experience the 'costiera' in all its colour and glory."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "This continous walk along the Cinque Terre follows stone paths that have linked the villages for centuries, starting in Levanto at the eastern end of the National Park and finishing in glorious Portovenere at the western end of the park. They twist and wind along the rugged coast passing through pine forests and terraced vineyards, with breath-taking views out over the Mediterranean, including the less walked routes from Riomaggiore to Portovenere and around the little island off Portovenere.\_ At the end of the walk, you'll be dropped off at La Spezia railway station (on the Rome/Genoa line)."
+        text: "The Amalfi Coast is surely one of the most spectacular parts of the Mediterranean, with steep mountains rising almost 1500 metres above the limpid aquamarine sea and whitewashed villages that seem to have tumbled down the slopes to the water's edge.  It is an area of a vibrant colours, lush vegetation and warm, boisterous people.  And then there is the food (the finest in the south?)!"
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "This is a tour of two worlds: the winding trails take you high above the coast during the day, following stone paths that have been used for centuries, passing through shaded forests, remote farming communities and ancient terraces and not meeting anyone along the way; and then there are the buzzy, picturesque villages on the coast, where you'll spend each, staying in charming, family-run hotels and eating in excellent restaurants and trattorias!  "
   -
     type: paragraph
 inclusions:
-  - 'Six nights accommodation'
+  - 'Private transfer from Naples to Ravello on Day 1'
+  - 'Private transfer from Positano to Naples on Day 6'
+  - 'Five nights accommodation'
   - 'All breakfasts included'
-  - 'Reading lists, historical and cultural notes'
+  - 'Reading lists and historical and cultural notes'
   - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'A curated list of restaurants in each town'
   - 'Daily transfers of baggage between hotels'
-  - 'Drop-off at the end of the tour from Portovenere to La Spezia station (on the Rome/Genoa line)'
-  - 'The Santa Margherita/Portofino option includes 3 nights in a 4-star hotel, sea views'
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
-  - 'A curated list of restaurants for each town you visit'
-locations: northern-italy
+locations: southern-italy
 page_builder:
   -
     id: mloocwbk
