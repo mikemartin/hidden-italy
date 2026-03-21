@@ -1,6 +1,5 @@
 ---
 id: 97c7707c-9b34-4f4f-9445-39668362d1fd
-published: false
 blueprint: tour
 title: 'Tuscany - Tuscany 2 (Chianti: Florence to Siena)'
 name: 'Tuscany 2 (Chianti: Florence to Siena)'
@@ -8,7 +7,7 @@ tour_types: self-guided
 region: Tuscany
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774064753
+updated_at: 1774064765
 grade: 2
 summary: 'Enjoy a seven-day walk through the rolling vineyards, forest and market towns of Chianti.'
 overview:
