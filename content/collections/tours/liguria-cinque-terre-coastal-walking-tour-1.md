@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Campania
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774071674
+updated_at: 1774159125
 grade: 3
 summary: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
 overview:
@@ -48,27 +48,27 @@ locations: southern-italy
 page_builder:
   -
     id: mloocwbk
-    title: 'Highlights of the Cinque Terre Coastal walk'
+    title: 'Highlights of the Amalfi Coast tour'
     activities:
       -
         id: mlooee34
-        title: 'Enjoy a continuous 6-day walk'
-        summary: 'Enjoy a continuous walk from village to village for the whole six days (no trains to get to and from the walks each day)'
+        title: "Walk the entire length of the 'Costiera'"
+        summary: 'Walk the entire length of the Amalfi Coast (no buses!) following ancient trails with breath-taking views all the way!'
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mloog7vk
-        title: 'Savour the famous food and wines'
-        summary: 'Ligurian cuisine is the delicious result of fresh produce from gardens and sea being combined with generations of skill.'
+        title: 'Stay in fabulous accommodation'
+        summary: 'Stay in the best available accommodation in each town, always welcoming, always central and usually with sea views!'
         icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
       -
         id: mlooou12
-        title: 'Walk through stunning scenery'
-        summary: 'The ancient walking trails take you through the most stunning scenery in Italy: mountains on the left, sea on the right!'
+        title: 'Relish the wonderful food'
+        summary: 'Enjoy surprisingly simple specialities: vegetables grown in volcanic soil, fresh seafood, mozzarella, pasta and pizza!'
         icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
       -
         id: mlooun08
-        title: 'Immerse yourself in gorgeous villages'
-        summary: "You will have all the time in the world to immerse yourself in the life of six of Italy's most beautiful villages."
+        title: 'Die for the views'
+        summary: 'Sheer cliffs drop to rugged shoreline dotted with beaches, fishing villages, vineyards and lemon grove: simply stunning!'
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
@@ -77,66 +77,73 @@ page_builder:
     enabled: true
   -
     id: mloox88g
-    title: 'Cinque Terre walking tour itinerary'
-    summary: 'Following an extraordinary trail, this continuous walk (no trains) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere 6 days later, with plenty of time to explore the charming villages you stay in each day.'
+    title: 'The Amalfi Coast tour itinerary'
+    summary: 'The magnificent, six-day Amalfi Coast walking tour takes you the length of the coast (with no buses or shuttles), starting at the romantic town of Ravello and finishing at the spectacular seaside town of Positano, with views over the sparkling Mediterranean Sea all the way - a unique experience!'
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Levanto'
-        description: 'The tour starts in Levanto, a charming and unpretentious town on the main Genoa/Rome railway line with a sandy beach and a wonderful new cycle-way, a thoroughly Italian sea-side resort.'
+        title: 'Day 1: Arrive in Ravello'
+        description: 'You are picked up by a private vehicle at a time and place that suits you and driven from Naples to Ravello, a beautiful village perched 350 metres above the port of Amalfi, celebrated for Wagner, its gardens and superb views over the Gulf of Salerno.'
       -
         id: mloozlek
-        title: 'Day 2:  Walk to Monterosso'
-        description: 'The first walk follows a superb coastal path, through woods and scented scrub with breathtaking views over the gulf and the five villages of Cinque Terre.  Along the way it passes the ruins of an abandoned convent, before dipping down to the first Cinque Terre village.'
-        duration: 3
-        distance: 7
-        elevation: 314
+        title: 'Day 2:  Walk the Valle delle Ferriere'
+        description: 'Today you have two options.  The first winds down stone paths to the coast and then wraps around to the town of Amalfi, leaving plenty of time to explore this fascinating town that once ruled the Mediterranean Sea. The second option is a more challenging, longer walk into the the extraordinary Valle delle Ferriere, which wraps through a national park, passing towering cliffs, chestnut forests, and waterfalls, with breathtaking views over the coast. (4 hrs; 13.5 kms; max: - 610 mts)'
+        duration: 2
+        distance: 3
+        elevation: -361
         meals_included:
           - breakfast
       -
         id: mlop159i
-        title: 'Day 3:  Walk through vineyards'
-        description: "With today's walk you start on  the Sentiero Azzurro, the celebrated path that links all the five villages of the Cinque Terre. The walk today weaves along cliffs and through terraces, offering spectacular views over the bays and the villages, before taking you to Vernazza, which, with its natural harbour and its Gothic church, many consider the loveliest of all."
-        duration: 3
-        distance: 5
-        elevation: 200
+        title: 'Day 3:  Walk above the coast'
+        description: "Today's walk follows an ancient path that has linked the villages between for centuries, passing an ancient monastery before dropping down to a little hamlet sitting above the sea, where you'll stay the night. B elow your hotel is a beautiful hidden port, with coloured fishing boats, a small shingle beach and a very pleasant bar. In the afternoon, you will also have time to visit the famous nearby Grotta Smeralda."
+        duration: 2
+        distance: 6
+        elevation: 261
         meals_included:
           - breakfast
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk to Riomaggiore'
-        description: "This morning, you pick up the Sentiero Azzurro again passing through olive groves with views up to ancient terraces in the mountains above you.  Along the way you visit two more of the Cinque Terre villages (perfect for resfershments and lunch) and then continue on to Riomaggiore, the last of the five villages, where you'll stay the night.  We also include a beautiful alternative high walk through the vineyards of Volastra."
-        duration: 2
-        distance: 7
-        elevation: 184
+        title: 'Day 4:  Climbiing high'
+        description: 'Today you have a choice of two trails.  The first, more demanding trail, starts with a steep climb through hamlets to a busy village.  It then contours around the mountains before entering a green valley and descending to your accommodation, a lovely family-run hotel with views across the gulf to Positano.  The second, less demanding, trail follows a lower route along a path above the sea which has spectacular views.  After crossing a fjord, you climb up to your accommodation.  (3 hrs; 7 kms)'
+        duration: 4
+        distance: 11
+        elevation: 570
         meals_included:
           - breakfast
       -
         id: mlop5205
-        title: 'Day 5:  Walk to Portovenere'
-        description: 'Today you walk above the eastern part of the gulf to Portovenere.  It’s starts with a big climb up through forest to the ridge, passing an ancient religious sanctuary along the way.  From here you slowly descend to Portovenere, an ancient, narrow-laned town that sits astride a spit of land on the very tip of the Gulf of the Poets.  Portovenere has a small, sandy beach and a number of rocky coves, excellent for swimming.'
+        title: 'Day 5:  Walk the Path of the Gods'
+        description: 'It is not by chance that the locals have baptised this walk with the rather extravagant name of Via degli Dei, the Path of the God’s.  Despite the tourist hyperbole that has made this one of the most famous walks in the area, the views and the hike are extraordinary.  It is a big climb up to the start of the path but it is worth it, and from there it is all down hill to arrive in magical Positano!'
         duration: 4
-        distance: 14
-        elevation: 563
+        distance: 11
+        elevation: 517
         meals_included:
           - breakfast
       -
         id: mlop6avf
-        title: 'Day 6:  Do a lap of Palmaria island'
-        description: 'The walk this morning starts with a short boat ride across the narrow waterway that separates Portovenere from a fascinating island, which has a small fishing village, the remains of a monastery from the 11th century, and a very good small restaurant.  The walk circumnavigates the island, starting and finishing at the wharf.  You return by boat to Portovenere.'
+        title: 'Day 6:  Transfer to Naples'
+        description: 'After breakfast in your hotel, at a time that suits you, you will be taken by private vehicle back to the Naples, an hour or so north.'
         duration: 2
         distance: 6
         elevation: 181
-        meals_included:
-          - breakfast
-      -
-        id: mlop8uiy
-        title: 'Day 7:  Transfer to La Spezia'
-        description: "After breakfast, you'll be transferred by private vehicle to La Spezia (30 minutes away) a busy and colourful port, with a number of excellent museums, a picturesque harbour and daily markets.  La Spezia has regular rail connections to Rome, Florence and Milan."
         meals_included:
           - breakfast
     type: itinerary
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
+gallery:
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/1.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/amalfi.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_2481.jpeg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/b.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_2216.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_4350.jpeg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_4282.jpeg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/santa-maria.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/view-to-positano.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_4424.jpeg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/positano-pan-1.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
 ---
