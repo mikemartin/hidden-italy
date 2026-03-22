@@ -1,6 +1,5 @@
 ---
 id: fe7d8f05-4262-4ff2-9fa6-af18f7825ec2
-published: false
 blueprint: tour
 title: 'Campania - Amalfi Coast tour (Ravello to Positano)'
 name: 'Amalfi Coast tour (Ravello to Positano)'
@@ -8,7 +7,7 @@ tour_types: self-guided
 region: Campania
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774159137
+updated_at: 1774159141
 grade: 3
 summary: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
 overview:
