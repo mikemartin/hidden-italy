@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774242406
+updated_at: 1774246489
 grade: 0
 summary: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
 overview:
@@ -152,4 +152,17 @@ page_builder:
     enabled: true
 locations: northern-italy
 duplicated_from: 7397f93f-96a7-4030-b13c-2315e28fe22c
+gallery:
+  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/08.jpg
+  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/25-2.jpg
+  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/saints-day-out.jpg
+  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture4.jpg
+  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_0270.jpg
+  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/125.jpg
+  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/palermo.jpg
+  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6633.jpeg
+  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/45.5.jpg
+  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6635.jpeg
+  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture5.jpg
+  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6695.jpeg
 ---
