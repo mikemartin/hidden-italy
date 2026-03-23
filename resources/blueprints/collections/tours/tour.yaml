@@ -474,7 +474,7 @@ tabs:
                     leader:
                       display: 'Tour Leader'
                       instructions: 'Introduce the guide leading this tour.'
-                      icon: person
+                      icon: leader
                       image: leader.png
                       fields:
                         -
@@ -490,9 +490,8 @@ tabs:
                             collections:
                               - people
                             display: Person
-                            instructions: 'Links to the person''s bio in the People collection.'
+                            instructions: "Links to the person's bio in the People collection."
                             max_items: 1
-                            mode: default
                     essentials:
                       display: Essentials
                       instructions: 'Practical info travellers need to book.'
