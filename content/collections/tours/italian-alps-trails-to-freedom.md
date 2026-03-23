@@ -38,6 +38,25 @@ inclusions:
   - 'Support from 2 full-time tour guides'
 page_builder:
   -
+    id: Ovh3ytUJq2Rwd06pw-R_-
+    title: "Follow the escape route used\Lby Allied POW's"
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'On 3 October 1943, four young Australian soldiers crossed the Italian border at the Monte Moro Pass into Switzerland, ending a three-week journey that began in a Fascist prison camp near Biella in Piedmont. They hiked nearly 100 kilometres across the Italian Alps, crossed five mountain passes, climbed over 5,000 metres, and skirted Mt Rosa, the second-highest mountain in the Alps. Their route followed medieval paths reopened by partisans, known locally as the ‘sentieri della liberta’ or trails to freedom.'
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Based on years of research, this hike retraces that route, starting in Biella and ending on Mt Moro at the Swiss border. It passes through spectacular Alpine scenery, staying in a mix of hotels, pilgrim monasteries, and mountain huts. It also includes a cable car side trip to the base of Mt Rosa (3,600 m) for panoramic views and a hearty mountain lunch.'
+    type: history
+    enabled: true
+  -
     id: mjfler2v
     title: 'Trails to Freedom highlights'
     activities:
@@ -175,8 +194,8 @@ page_builder:
 tour_types: guided
 seasons: summer
 locations: northern-italy
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896312
+updated_by: 6e2cc1d1-1470-4391-963d-37aed038e27a
+updated_at: 1774238876
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
