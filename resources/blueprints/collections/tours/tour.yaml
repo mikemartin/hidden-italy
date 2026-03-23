@@ -471,6 +471,28 @@ tabs:
                                           max_files: 4
                                           type: assets
                                           display: Images
+                    leader:
+                      display: 'Tour Leader'
+                      instructions: 'Introduce the guide leading this tour.'
+                      icon: person
+                      image: leader.png
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            type: text
+                            display: Title
+                            default: 'Tour Leader'
+                        -
+                          handle: person
+                          field:
+                            type: entries
+                            collections:
+                              - people
+                            display: Person
+                            instructions: 'Links to the person''s bio in the People collection.'
+                            max_items: 1
+                            mode: default
                     essentials:
                       display: Essentials
                       instructions: 'Practical info travellers need to book.'
