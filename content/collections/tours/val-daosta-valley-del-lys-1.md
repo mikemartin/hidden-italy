@@ -52,13 +52,6 @@ inclusions:
   - 'Daily transfers of baggage between accommodation each morning (except Days 3 and 5)'
   - '24 hour backup from our operations manager'
   - 'City taxes are not included in the cost of the tour'
-gallery:
-  - tours/val-daosta-valley-del-lys/4.jpg
-  - tours/val-daosta-valley-del-lys/5.jpg
-  - tours/val-daosta-valley-del-lys/7.jpg
-  - tours/val-daosta-valley-del-lys/6.jpg
-  - tours/val-daosta-valley-del-lys/9.jpg
-  - tours/val-daosta-valley-del-lys/8.jpg
 simple_likes: 0
 page_builder:
   -
