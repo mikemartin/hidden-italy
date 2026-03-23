@@ -2,44 +2,45 @@
 id: 3d10a0a0-5538-48e1-a7ad-e8e84b633ed9
 published: false
 blueprint: tour
-title: 'Tuscany and Umbria - La Tuscia (Pitigliano to Orvieto)'
-name: 'La Tuscia (Pitigliano to Orvieto)'
+title: 'Puglia - Puglia (Gargano: San Marco to Vieste)'
+name: 'Puglia (Gargano: San Marco to Vieste)'
 tour_types: self-guided
-region: 'Tuscany and Umbria'
+region: Puglia
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774236701
+updated_at: 1774238364
 grade: 3
-summary: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
+summary: 'Ramble the length of Gargano Peninsula through farmlands and forest to the sparkling sea!'
 overview:
   -
     type: paragraph
     content:
       -
         type: text
-        text: "This 7-day exploration starts with a private transfer from Rome to Pitigliano, where the walk begins.\_ Known as La Tuscia since Roman times, this fascinating \_district is on the\_borders where southern Tuscany overlaps with the lakes of northern Lazio and the mountains of the south-west corner of Umbria."
+        text: "The Gargano is in the north of Puglia.  The ‘spur’ on the boot of Italy, it is an expansive promontory covered by one of Italy’s oldest national parks, surrounded by sparkling waters, white limestone cliffs and pretty fishing villages.\_ Gargano has a rich history.\_ It has been inhabited since Neolithic times and has towns that were founded by the ancient Greeks and Romans, but its glory days were during the Crusades when the sanctuary of Monte San Michele became one of the most important pilgrim destinations in the Middle Ages."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "It is dramatically beautiful area, characterised by rolling downs of black soil, deep basalt canyons, mountain ranges and crater lakes.\_ It has been inhabited since prehistoric times and is one of the cradles of Italian civilisation: six centuries BC it was the heart of the Etruscan Federation and then, in the Renaissance, it was the stronghold of two of the great papal dynasties.\_ The villages and countryside of La Tuscia retain many of the glories of their rich past. If you are looking for a truly off-the-beaten-track walk, this is the one for you!"
+        text: "The tour starts with a private transfer from the nearby town of Foggia to a small town perched on the western end of the Gargano peninsula.\_ You then follow pilgrim trails through farmlands and the Foresta Umbra, an ancient beech forest, before a spectacular descent down to the sea, finishing at the dramatically located town of Vieste, where you’ll spend the final two days, which includes a morning tour in a private boat exploring some of the most beautiful coastline in southern Italy.  You'll be transferred back to Foggia on the last day.  Breakfast and dinners are included each day."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "The tour starts by first visiting the 'three lost villages of Tuscany' then progresses to Lake Bolsena and finishes in the spectacular Umbrian town of Orvieto.\_ On the way you follow country lanes, sections of ancient Etruscan roads and stretches of the Via Francigena, the Medieval road that carried pilgrims, merchants and crusader armies from Papal Rome to northern Italy and the rest of Europe.   You stay in very comfortable accommodation in quiet farming villages that are more than two thousand old.\_ It's one of my favourite hikes and the food and wine is pretty good as well!"
+        text: "This is a marvellous walker's walk, a very satisfying exploration of an area that few foreigners visit!"
 inclusions:
-  - 'Pick-up from Rome and transfer to Pitigliano on Day 1'
-  - '6 nights accommodation'
-  - 'All breakfasts and one dinner included'
+  - 'Private transfer from Foggia to San Marco on Day 1'
+  - 'Private transfer from Vieste to Foggia on Day 8'
+  - 'Seven nights’ accommodation'
+  - 'All breakfasts and dinners included'
   - 'Reading lists and historical and cultural notes'
   - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
-  - 'A curated list of restaurants in each town and village'
+  - 'A curated list of restaurants is included'
   - 'Daily transfers of baggage between hotels'
-  - '24 hour backup from local manager'
+  - '24-hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: central-italy
 page_builder:
@@ -139,4 +140,18 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 94b14cda-124a-4b87-82f5-7bc566ac2edf
+image: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/15.jpg
+gallery:
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/1.4.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/2.6.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_3328.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_3561.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/4.9.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/2.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_2819.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_3531.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_3610.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/15.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_2836.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/17.5.jpg
 ---
