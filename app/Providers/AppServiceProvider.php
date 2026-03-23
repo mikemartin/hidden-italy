@@ -8,6 +8,7 @@ use Illuminate\Support\ServiceProvider;
 use Statamic\Statamic;
 use Statamic\Events\UserRegistered;
 use App\Listeners\SyncGuestLikes;
+use Statamic\Fieldtypes\Sets;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -36,6 +37,8 @@ class AppServiceProvider extends ServiceProvider
         //     'resources/js/cp.js',
         //     'resources/css/cp.css',
         // ]);
+
+        Sets::useIcons('lucide', resource_path('svg/lucide'));
 
         // Listen for user registration and login events to sync guest likes
         Event::listen(UserRegistered::class, SyncGuestLikes::class);

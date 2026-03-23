@@ -1,0 +1,44 @@
+title: Question
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+              display: Question
+          -
+            handle: answer
+            field:
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - quote
+                - anchor
+                - table
+              link_collections:
+                - pages
+                - tours
+              remove_empty_nodes: false
+              type: bard
+              display: Answer
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'

@@ -15,3 +15,5 @@ preferences:
       view: list
     people:
       view: list
+    questions:
+      view: list
