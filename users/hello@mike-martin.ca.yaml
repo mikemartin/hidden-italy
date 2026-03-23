@@ -17,3 +17,5 @@ preferences:
       view: list
     questions:
       view: list
+    pages:
+      view: tree
