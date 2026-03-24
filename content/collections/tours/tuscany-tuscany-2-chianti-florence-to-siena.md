@@ -146,18 +146,4 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
-image: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/rich-martello-yqcvybdd4y-unsplash.jpg
-gallery:
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/rich-martello-yqcvybdd4y-unsplash.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/kristina-c-qwaolhfrx3i-unsplash.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/016.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/026.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/img_0738-2.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/aleksandrs-karevs-ne-z7d7v2yu-unsplash(1).jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/img_5083.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/flo-p-puor_oqheg4-unsplash.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/paolo-d-andrea-msrizqwwlc4-unsplash.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/alessandro-rossi-ju_bgza3zhe-unsplash.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/mario-la-pergola-vopuqdtcnja-unsplash.jpg
 ---
