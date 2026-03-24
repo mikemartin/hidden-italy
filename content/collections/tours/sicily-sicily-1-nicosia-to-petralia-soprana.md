@@ -8,8 +8,8 @@ tour_types: self-guided
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774246489
-grade: 0
+updated_at: 1774316198
+grade: 4
 summary: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
 overview:
   -
@@ -56,24 +56,24 @@ simple_likes: 0
 page_builder:
   -
     id: mlrbu308
-    title: 'Valley del Lys highlights'
+    title: 'Sicily 1 highlights'
     activities:
       -
         id: mlrbvyrv
-        title: 'Discover a hidden valley'
-        summary: 'Far from the regular tourist trails, at the foot of Monte Rosa, this is one of the most beautiful valleys in the Alps.'
+        title: 'Experience a side of Sicly others only read about!'
+        summary: 'Far from the regular tourist trails, this tour allows you to experience the charm and authenticity of the real Sicily!'
       -
         id: mlrbzbll
-        title: 'Stay in fabulous accommodation'
-        summary: "Stay in a combination of beautiful boutique hotels and 'rifugi' set in hostoric residences, one from the 16th century."
+        title: 'Discover the Madonie Mountains'
+        summary: 'Discover an area of dramatic natural beauty: rolling hills, craggy mountains, all with views as far as the eye can see!'
       -
         id: mlrc2l11
-        title: 'Walk spectacular trails'
-        summary: 'Follow spectacular and well-marked trails that have been used by traders, farmers and travelers since the Middle Ages.'
+        title: 'Enjoy authentic Sicilian cooking'
+        summary: 'Far from the Michelin-starred restaurants on the coast, you will experience authentic home-cooking, prepared with love.'
       -
         id: mlrc4uq2
-        title: 'Enjoy genuine mountain hospitality'
-        summary: 'Enjoy the hospitality of welcoming people, staying in family-run accommodation.  A delicious dinner included each night!'
+        title: 'Explore the fascinating villages'
+        summary: 'Stay in gorgeous mountain villages, each so different to the other, two were voted the most villages beautiful in Italy.'
       -
         id: mlrc9yr3
         title: 'Be intrigued by the history'
@@ -82,12 +82,12 @@ page_builder:
     enabled: true
   -
     id: mlrccjcj
-    title: 'Valley del Lys self-guided itinerary'
-    summary: 'This marvellous seven-day/six-night hike introduces you to the Valley del Lys, one of the most beautiful valleys in the European Alps, via the historic trails that have been connecting the mountain communities for centuries.'
+    title: 'Sicily 1 itinerary'
+    summary: "Far removed from the busier sites and cities on the coast, this tour takes you through the spectacular natural beauty of central Sicily, following unsealed country roads through rolling wheat fields to the Madonie National Park, staying in some of Italy's most charming villages: a unique experience!"
     days:
       -
         id: mlrcdegn
-        title: 'Day 1:  Arrive in the valley'
+        title: 'Day 1:  Arrive in Nicosia'
         description: 'You will be met at Pont-Saint-Martin railway station (which is on the main line that connects Turin, Aosta city and Geneva) and driven to your base, a lovely historic hamlet on the slopes of the Valley del Lys.  Your accommodation is in a gloriously restored, historic Walser residence.  You will be given a briefing on the tour on arrival at your accommodation.'
         meals_included:
           - dinner
@@ -154,8 +154,8 @@ locations: northern-italy
 duplicated_from: 7397f93f-96a7-4030-b13c-2315e28fe22c
 gallery:
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/08.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/25-2.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/saints-day-out.jpg
+  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/25-2.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture4.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_0270.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/125.jpg
@@ -163,6 +163,6 @@ gallery:
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6633.jpeg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/45.5.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6635.jpeg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture5.jpg
+  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture1.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6695.jpeg
 ---
