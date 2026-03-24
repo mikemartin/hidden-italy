@@ -6,9 +6,9 @@ title: 'Tuscany - Tuscany 3 (San Gimignano to Siena)'
 name: 'Tuscany 3 (San Gimignano to Siena)'
 tour_types: self-guided
 region: Tuscany
-days: 6
+days: 5
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774324078
+updated_at: 1774327926
 grade: 2
 summary: 'A classic walk takes you through celebrated landscapes and iconic towns to glorious Siena.'
 overview:
@@ -17,28 +17,31 @@ overview:
     content:
       -
         type: text
-        text: "This wonderful tour starts with a private transfer from Siena (or Chiusi) to Montalcino, a gorgeous hill-town celebrated for its wines.  From here, the walk takes you through the Val d'Orcia, one of the most beautiful places in Italy (the world?).  You pass through classic Tuscan countryside, following sections of the Via Francigena, a medieval road that bisected the valley linking Papal Rome with northern Europe, carrying pilgrims, traders, Crusader armies, emperors and popes.  The valley is lined with castles, monasteries and villages that date from this period. "
+        text: "Walking the Via Francigena from San Gimignano to Siena is a unique experience.   Starting in San Gimignano with its stunning hilltop skyline of towers, you follow well-marked trails in the footsteps of pilgrims to the glorious walled city of Siena, 'the most perfectly preserved medieval city in Europe'.  "
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Leaving the medieval walls of\_Montalcino, you'll following well-marked, undulating trails to finish four days later\_in Montepulciano, having passed through\_an area as famous for its rolling hills, wheat fields dotted with red brick farmhouses, stands of deep green cypress pines and endless views, as it is famous for its wines and food."
+        text: "In between, on Day 2, you stay in a town strategically perched above the Elsa River, which grew rich during the Middle Ages on its wool and glass industries and, on Day 3, you stay in an extraordinary fortress-village, which was Siena's stronghold against their implacable Florentine enemies.  "
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Along the way you stay in some of the most celebrated town in Tuscany, cultural treasures that include a beautifully restored pilgrim town; a magnificent papal town; and Montepulciano, 'pearl of the Renaissance'.  At the end of the tour you will have a private transfer to Chiusi, well-connected by train to Rome and Florence.  "
+        text: "Along the way you pass through rolling countryside: vineyards, olive groves, and long, open stretches of farmlands and fields, dotted the occasional farmhouse or cluster of cypress, each day you passing through small villages and rural hamlets, where you can pause for a coffee, a drink of water or a snack.\_  "
   -
     type: paragraph
     content:
       -
         type: text
-        marks:
-          -
-            type: italic
-        text: "The Val d'Orcia is where Hidden Italy had its first tour over thirty years ago, and it is still one of my favourite areas in Italy!"
+        text: "The accommodation is a highlight of the tour.  You stay in very comfortable, three-star hotels in historic buildings in the heart of each town.  Another highlight, of course, is the food.  Tuscan cooking, with its emphasis on simple dishes using fresh, quality, local ingredients, has had a seminal influence on Italian cuisine.  To top it off, you are walking through the Chianti district, which produces some of the country's finest wines."
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "What more could you want for a week's walking?"
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
   - 'Five nights accommodation'
@@ -140,4 +143,5 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
+image: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/t3.jpg
 ---
