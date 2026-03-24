@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Tuscany
 days: 5
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774327926
+updated_at: 1774333024
 grade: 2
 summary: 'A classic walk takes you through celebrated landscapes and iconic towns to glorious Siena.'
 overview:
@@ -144,4 +144,17 @@ page_builder:
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
 image: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/t3.jpg
+gallery:
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/deepak-sharma-0y0ap85o7cy-unsplash.jpg
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/aver007-san-gimignano-4720522.jpg
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/t3.jpg
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/walking-in-chianti-9.jpg
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/achim-ruhnau-a3fwnq1inoi-unsplash(1).jpg
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/img_0736.jpg
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/makalu-italy-3608515.jpg
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/img_5061.jpg
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/justsomedutchdude-old-2121643.jpg
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/kristof-van-rentergem-lpywtwptwbs-unsplash.jpg
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/palmik-siena-2658932.jpg
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/p1010314.jpg
 ---
