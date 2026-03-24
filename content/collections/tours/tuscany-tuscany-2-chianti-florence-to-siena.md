@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Tuscany
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774067926
+updated_at: 1774331260
 grade: 2
 summary: 'Enjoy a seven-day walk through the rolling vineyards, forest and market towns of Chianti.'
 overview:
@@ -146,4 +146,18 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
+image: tours/tuscany-tuscany-2-chianti-florence-to-siena/rich-martello-yqcvybdd4y-unsplash-1774331143.jpg
+gallery:
+  - tours/tuscany-tuscany-2-chianti-florence-to-siena/rich-martello-yqcvybdd4y-unsplash-1774331143.jpg
+  - tours/tuscany-tuscany-2-chianti-florence-to-siena/aleksandrs-karevs-ne-z7d7v2yu-unsplash(1).jpg
+  - tours/tuscany-tuscany-2-chianti-florence-to-siena/img_0738-2.jpg
+  - tours/tuscany-tuscany-2-chianti-florence-to-siena/img_5083.jpg
+  - tours/tuscany-tuscany-2-chianti-florence-to-siena/jonathan-skule-hvhpyxztqmc-unsplash(1).jpg
+  - tours/tuscany-tuscany-2-chianti-florence-to-siena/flo-p-puor_oqheg4-unsplash.jpg
+  - tours/tuscany-tuscany-2-chianti-florence-to-siena/paolo-d-andrea-msrizqwwlc4-unsplash.jpg
+  - tours/tuscany-tuscany-2-chianti-florence-to-siena/kristina-c-qwaolhfrx3i-unsplash.jpg
+  - tours/tuscany-tuscany-2-chianti-florence-to-siena/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
+  - tours/tuscany-tuscany-2-chianti-florence-to-siena/016.jpg
+  - tours/tuscany-tuscany-2-chianti-florence-to-siena/alessandro-rossi-ju_bgza3zhe-unsplash.jpg
+  - tours/tuscany-tuscany-2-chianti-florence-to-siena/mario-la-pergola-vopuqdtcnja-unsplash.jpg
 ---
