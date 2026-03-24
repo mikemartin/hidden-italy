@@ -1,6 +1,5 @@
 ---
 id: 9b40b14d-a9c5-43b5-ae27-eeb883bc2c34
-published: false
 blueprint: tour
 title: 'Sicily - Sicily 1 (Nicosia to Petralia Soprana)'
 name: 'Sicily 1 (Nicosia to Petralia Soprana)'
@@ -8,7 +7,7 @@ tour_types: self-guided
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774322079
+updated_at: 1774322085
 grade: 4
 summary: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
 overview:
