@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Tuscany
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774324071
+updated_at: 1774324078
 grade: 2
 summary: 'A classic walk takes you through celebrated landscapes and iconic towns to glorious Siena.'
 overview:
