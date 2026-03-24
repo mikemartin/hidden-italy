@@ -2,15 +2,15 @@
 id: 7e191ba5-7ed0-4683-bf70-1a754fadc11d
 published: false
 blueprint: tour
-title: 'Tuscany - Tuscany 1 (Montalcino to Montepulciano)'
-name: 'Tuscany 1 (Montalcino to Montepulciano)'
+title: 'Tuscany - Tuscany 3 (San Gimignano to Siena)'
+name: 'Tuscany 3 (San Gimignano to Siena)'
 tour_types: self-guided
 region: Tuscany
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774322109
+updated_at: 1774324071
 grade: 2
-summary: 'Pure Tuscany: rolling hills, cypress pines, Renaissance towns, fine food, relaxed walking.'
+summary: 'A classic walk takes you through celebrated landscapes and iconic towns to glorious Siena.'
 overview:
   -
     type: paragraph
