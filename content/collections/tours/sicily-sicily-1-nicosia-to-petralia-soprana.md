@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774316198
+updated_at: 1774316932
 grade: 4
 summary: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
 overview:
@@ -17,40 +17,35 @@ overview:
     content:
       -
         type: text
-        text: 'This exciting seven-day/six-night hike introduces you to the Valley del Lys, one of the most beautiful valleys in the European Alps, via historic trails that have been connecting the mountain communities for centuries.  Breakfast, dinners and some lunches are included.'
+        text: "This wonderful tour takes you through the heart of Sicily, an area untouched by tourism, where the traditions, daily life, and hospitality of the island are alive and well.\_ Following mostly unsealed country lanes you’ll pass through some of the most spectacular countryside on Sicily: rolling farmlands covered in wheat fields overlooked by jagged mountains, with the forested peaks of the Madonie National Park in the distance.\_ "
   -
     type: paragraph
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
-        text: "\_"
-      -
-        type: text
-        text: "The Valley del Lys a long and narrow valley that starts at the glacier-covered slopes of Monte Rosa, the second highest mountain in the European Alps, and winds south following the course of the Lys River to the main Aosta Valley.\_ It is a narrow valley, its steep sides covered in pine and beech forests; and highland pastures scattered with tiny hamlets.\_ The valley was originally inhabited by the Walsers, a German-speaking people who migrated over the passes from Switzerland in the 13th century.\_ Even after eight centuries, German is still spoken, the traditions are still alive and the towns and villages of the valley are still characterised by their beautiful, timber architecture."
+        text: "On a clear day, the conical form of Mt Etna, Europe’s largest and most-active volcano, smokes on the horizon, one hundred kilometres away.\_ Along the way, you visit some of Italy’s most unspoilt villages, two of which have been winners of ‘Italy’s Most Beautiful Village’, one in 2014 (Day 4) and other in 2018 (Day 6)."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "The fully-supported tour begins with a transfer from Pont-St-Martin railway to the start of the hike.\_ From here you follow well-marked trails, including sections of the Great Walser Trail, to the foot of Monte Rosa.\_ Along the way, you will stay in marvellous, historic accommodation and enjoy the hospitality of these welcoming mountain people.\_ You will be transferred back to Pont-St-Martin at the end of the tour."
+        text: "You start the tour with a private transfer from either Palermo or Catania and then taken to Nicosia, a bussling farming centre, where you spend the first night.\_ For the next four nights, you will stay in a series very attractive and interesting villages, until Day 6, when you arrive at Petralia Soprana at the foot of the Madonie Mountains, where the tour finishes.\_ From here you will be driven by private transfer back to either Palermo or Catania.\_ "
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Please note that your breakfasts and dinners are included each day!'
+        text: 'The Sicily 1 walk is a wonderful opportunity to get local, experience the famous Sicilian hospitality, its delicious seasonal cuisine as well as enjoying some long country rambles.'
 inclusions:
-  - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
-  - '6 nights accommodation'
-  - 'All breakfasts, all dinners and 5 lunches included'
-  - 'Reading lists, historical and cultural notes'
-  - 'Detailed roadbook with maps and daily notes (updated annually)'
+  - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
+  - 'Private transfer from Petralia Soprana to either Palermo or Catania on Day 7'
+  - "Six nights' accommodation"
+  - 'All breakfasts + dinners are included'
+  - 'Reading lists and historical and cultural notes'
+  - 'Maps with gps markers and walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
-  - 'Daily transfers of baggage between accommodation each morning (except Days 3 and 5)'
-  - '24 hour backup from our operations manager'
+  - 'Daily transfers of baggage between the accommodation'
+  - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 simple_likes: 0
 page_builder:
@@ -150,7 +145,7 @@ page_builder:
           - breakfast
     type: itinerary
     enabled: true
-locations: northern-italy
+locations: southern-italy
 duplicated_from: 7397f93f-96a7-4030-b13c-2315e28fe22c
 gallery:
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/08.jpg
