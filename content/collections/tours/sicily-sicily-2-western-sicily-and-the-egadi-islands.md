@@ -8,8 +8,9 @@ tour_types: self-guided
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774410488
+updated_at: 1774410573
 grade: 4
+summary: 'Coastal walks, island hoping and fabulous food, this tour is southern Italy at its best!'
 overview:
   -
     type: paragraph
