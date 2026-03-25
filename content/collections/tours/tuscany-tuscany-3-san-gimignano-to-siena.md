@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Tuscany
 days: 5
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774406769
+updated_at: 1774410407
 grade: 2
 summary: 'A classic walk takes you through celebrated landscapes and iconic towns to glorious Siena.'
 overview:
@@ -95,44 +95,35 @@ page_builder:
         elevation: 195
       -
         id: mloozlek
-        title: 'Day 2:  Stay in a Medieval village'
-        description: 'The first walk takes you down through forests to a Romanesque abbey isolated in fields of wheat and vineyards, which is one of the most beautiful in Tuscany. Your accommodation for the night is in the small village that overlooks the abbey.  (3 hrs; 12 kms; min: 303 mts, max: 641 mts).'
+        title: 'Day 2:  Walk through vineyards'
+        description: "Today's walk takes you to another well-preserved medieval town that prospered trading in the Middle Ages. The walk leaves San Gimignano along the Via Francigena.  It passes vineyards and olive groves before following a narrow, forested valley, taking you through a landscape that has changed little since the Middle Ages."
         duration: 3
         distance: 12
-        elevation: 328
+        elevation: 174
         meals_included:
           - breakfast
       -
         id: mlop159i
-        title: 'Day 3:  Walk through vineyards'
-        description: 'Today you climb up through vineyards and olive groves, to a beautifully restored medieval pilgrim town, a key point on the road to Rome, which is now a peaceful agricultural town and one of the most charming in the area. Despite its pedestrian centre, two beautiful Romansque churches and several beautiful gardens, which still remains relatively unvisited.'
-        duration: 4
-        distance: 14
-        elevation: 453
+        title: 'Day 3:  Stay in a medieval fortress'
+        description: 'The walk this morning again picks up the Via Francigena, and takes you across undulating farmlands, passing hamlets, castles and a fine Romanesque abbey before arriving at a tiny walled medieval village, a little gem with a ring of high walls that enclose a precious collection of restored houses, gardens and palazzi.  (18 kms; 4.5 hrs; min: 172 mts, max: 285 mts)'
+        duration: 5
+        distance: 18
+        elevation: 113
         meals_included:
           - breakfast
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk a Renaissance gem'
-        description: "Today you follow parts of the medieval road down into the bare, rolling hills of the Val d'Orcia, with sweeping views across the valley to the forests and peaks of Mount Amiata before a short climb up to your base for the evening.  This enchanting little town was the birth place of one of the more important 15th century popes, who  had the modest village razed and then rebuilt in his honour, creating one of the gems of southern Tuscany, a fine example early Renaissance architecture. (3 hrs; 10 kms; min: 295 mts, max: 519 mts)"
-        duration: 3
-        distance: 10
-        elevation: 214
+        title: 'Day 4:  Arrive in Siena'
+        description: "The walk today takes you to Siena, the dynamic capital of southern Tuscany.  It passes through forests and the range of hills that once protected Siena's northern frontier from their enemies in Florence.  A city rich in art and history, Siena is a wonderful place to explore or simply while away time, sipping an aperitivo and watching the colourful life pass by.   It is a long day but the walk can be shortened by taking a bus on the outskirts of Siena."
+        duration: 5
+        distance: 20
+        elevation: 119
         meals_included:
           - breakfast
       -
         id: mlop5205
-        title: 'Day 5:  Walk to Montepulciano'
-        description: 'The last walk takes you through forests to Montepulciano. On the way you pass a tiny fortified village, perfect for lunch. Perched on a hill between the Orcia and Chianina valleys, Montepulciano was an ally of Florence in their relentless war against Siena, and was amply rewarded and has an extraordinary architectural heritage from this period.  (4 hrs; 13.5 kms; min: 331 mts, max: 539 mts).'
-        duration: 4
-        distance: 14
-        elevation: 208
-        meals_included:
-          - breakfast
-      -
-        id: mlop6avf
-        title: 'Day 6:  Transfer to Chiusi station'
-        description: "After breakfast at 9.00 you'll be transfered to nearby Chiusi on the main Rome/Florence railway line."
+        title: 'Day 5:  Depart Siena'
+        description: 'After breakfast in your hotel, you are free to continue your holiday.  Siena is connected to Florence and Rome by rail and bus.'
         meals_included:
           - breakfast
     type: itinerary
@@ -151,6 +142,6 @@ gallery:
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/palmik-siena-2658932.jpg
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/justsomedutchdude-old-2121643.jpg
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/kristof-van-rentergem-lpywtwptwbs-unsplash.jpg
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/achim-ruhnau-a3fwnq1inoi-unsplash(1).jpg
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/p1010314.jpg
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/achim-ruhnau-a3fwnq1inoi-unsplash(1).jpg
 ---
