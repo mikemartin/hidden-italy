@@ -146,7 +146,6 @@ page_builder:
 locations: southern-italy
 duplicated_from: 7397f93f-96a7-4030-b13c-2315e28fe22c
 gallery:
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/08.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/saints-day-out.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/25-2.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture4.jpg

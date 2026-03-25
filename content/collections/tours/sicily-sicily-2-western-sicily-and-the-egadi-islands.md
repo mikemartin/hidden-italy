@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774412280
+updated_at: 1774413560
 grade: 4
 summary: 'Coastal walks, island hoping and fabulous food, this tour is southern Italy at its best!'
 overview:
@@ -31,14 +31,17 @@ overview:
         type: text
         text: "Starting with a private transfer from Palermo, this tour takes you to the Egadi islands off the western tip of Sicily.\_ You’ll spend the next four days island hopping, exploring this fascinating and beautiful archipelago.\_ From here you’ll be taken to Sicily’s first national park for the last two nights, a spectacular piece of coastline stretching along the Castellamare Gulf, which you’ll walk on the last day."
 inclusions:
-  - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
-  - 'Private transfer from Petralia Soprana to either Palermo or Catania on Day 7'
-  - "Six nights' accommodation"
-  - 'All breakfasts + dinners are included'
-  - 'Reading lists and historical and cultural notes'
-  - 'Maps with gps markers and walking instructions'
+  - 'Private transfer from Palermo to Trapani on Day 1'
+  - 'Private transfer from Trapani to Lo Zingaro Regional Park on Day 5'
+  - 'Private transfer from Lo Zingaro Regional Park to Palermo on Day 7'
+  - 'Six nights’ accommodation'
+  - 'Generous breakfasts included'
+  - 'All ferry tickets required (from and back to Trapani and around the islands'
+  - 'Entrance ticklet to the prehistoric grotto on Levanzo'
+  - 'Reading lists, historical and cultural notes'
+  - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
-  - 'Daily transfers of baggage between the accommodation'
+  - 'A curated list of restaurants in each town'
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 simple_likes: 0
@@ -140,17 +143,4 @@ page_builder:
     enabled: true
 locations: southern-italy
 duplicated_from: 9b40b14d-a9c5-43b5-ae27-eeb883bc2c34
-gallery:
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/08.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/saints-day-out.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/25-2.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture4.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_0270.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/125.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/palermo.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6633.jpeg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/45.5.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6635.jpeg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture1.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6695.jpeg
 ---
