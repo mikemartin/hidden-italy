@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774410573
+updated_at: 1774412280
 grade: 4
 summary: 'Coastal walks, island hoping and fabulous food, this tour is southern Italy at its best!'
 overview:
@@ -17,25 +17,19 @@ overview:
     content:
       -
         type: text
-        text: "This wonderful tour takes you through the heart of Sicily, an area untouched by tourism, where the traditions, daily life, and hospitality of the island are alive and well.\_ Following mostly unsealed country lanes you’ll pass through some of the most spectacular countryside on Sicily: rolling farmlands covered in wheat fields overlooked by jagged mountains, with the forested peaks of the Madonie National Park in the distance.\_ "
+        text: 'The west of Sicily is a land apart.  Skirting around the coast from Trapani, the provincial capital, the cubic whitewashed houses, palm trees, active fishing harbours and sunburned lowlands seem more akin to Africa than Europe, and historically, the west of the island has always looked south: the Carthaginians were entrenched here; the Muslims first occupied Sicily here; the Saracens raided the area regularly; and the towns have more than a little North African atmosphere to them.  '
   -
     type: paragraph
     content:
       -
         type: text
-        text: "On a clear day, the conical form of Mt Etna, Europe’s largest and most-active volcano, smokes on the horizon, one hundred kilometres away.\_ Along the way, you visit some of Italy’s most unspoilt villages, two of which have been winners of ‘Italy’s Most Beautiful Village’, one in 2014 (Day 4) and other in 2018 (Day 6)."
+        text: 'It is a place of dramatic beauty: long rocky bays, soaring mountains and volcanic islands.  Once a neglected region renowned more for its Mafia strongholds than its tourist destinations, western Sicily has been reborn over the last 10 years and has much to offer, including its history, natural beauty, national parks and its food and wines.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "You start the tour with a private transfer from either Palermo or Catania and then taken to Nicosia, a bussling farming centre, where you spend the first night.\_ For the next four nights, you will stay in a series very attractive and interesting villages, until Day 6, when you arrive at Petralia Soprana at the foot of the Madonie Mountains, where the tour finishes.\_ From here you will be driven by private transfer back to either Palermo or Catania.\_ "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'The Sicily 1 walk is a wonderful opportunity to get local, experience the famous Sicilian hospitality, its delicious seasonal cuisine as well as enjoying some long country rambles.'
+        text: "Starting with a private transfer from Palermo, this tour takes you to the Egadi islands off the western tip of Sicily.\_ You’ll spend the next four days island hopping, exploring this fascinating and beautiful archipelago.\_ From here you’ll be taken to Sicily’s first national park for the last two nights, a spectacular piece of coastline stretching along the Castellamare Gulf, which you’ll walk on the last day."
 inclusions:
   - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
   - 'Private transfer from Petralia Soprana to either Palermo or Catania on Day 7'
