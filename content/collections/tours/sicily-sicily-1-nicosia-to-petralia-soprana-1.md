@@ -2,15 +2,14 @@
 id: 4890c31c-65dd-42bf-8f81-1bd6835115e9
 published: false
 blueprint: tour
-title: 'Sicily - Sicily 1 (Nicosia to Petralia Soprana)'
-name: 'Sicily 1 (Nicosia to Petralia Soprana)'
+title: 'Sicily - Sicily 2 (Western Sicily and the Egadi Islands)'
+name: 'Sicily 2 (Western Sicily and the Egadi Islands)'
 tour_types: self-guided
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774410432
+updated_at: 1774410481
 grade: 4
-summary: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
 overview:
   -
     type: paragraph
