@@ -145,8 +145,4 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-gallery:
-  - tours/umbria-cammino-of-st-francis-umbria-2/img_5409.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/p4280723-a.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/sofia-msnxoysxjsq-unsplash.jpg
 ---
