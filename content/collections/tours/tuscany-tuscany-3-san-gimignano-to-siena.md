@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Tuscany
 days: 5
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774405564
+updated_at: 1774406769
 grade: 2
 summary: 'A classic walk takes you through celebrated landscapes and iconic towns to glorious Siena.'
 overview:
@@ -40,45 +40,41 @@ overview:
             type: italic
         text: "What more could you want for a week's walking?"
 inclusions:
-  - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
-  - 'Five nights accommodation'
-  - 'All breakfasts included'
+  - 'Private transfer from Florence to San Gimignano on Day 1'
+  - 'Four nights accommodation'
+  - 'Generous breakfasts each day'
   - 'Reading lists and historical and cultural notes'
   - 'Maps and detailed walking instructions'
-  - 'Hidden Italy App with GPS to complement the roadbook'
-  - 'A curated list of restaurants in each town'
   - 'Daily transfers of baggage between hotels'
+  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'A curated list of restaurants for each town'
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: central-italy
 page_builder:
   -
     id: mloocwbk
-    title: 'Highlights of Tuscany 1'
+    title: 'Highlights of Tuscany 3'
     activities:
       -
         id: mlooee34
         title: 'Enjoy a continuous 5-day walk'
-        summary: 'Enjoy a continuous walk from village to village for five days following well-marked trails through beautiful countryside'
+        summary: 'Enjoy a continuous walk from town to town for four days following pilgrim trails through magnificent Tuscan countryside!'
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mloog7vk
-        title: 'Get lost in gorgeous towns'
-        summary: 'Stay in heart of some of the most beautiful and interesting towns in central Italy, heart of the Renaissance.'
+        title: 'Immerse yourself in daily Tuscan life'
+        summary: 'Immerse yourself in the traditions, history and daily life of four classic Tuscan towns.'
         icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
       -
         id: mlooou12
-        title: 'Be entranced by the extraordinary scenery'
-        summary: "Walk through the beautiful Val d'Orcia, UNESCO Heritage listed, with some of the most iconic scenery in all of Italy."
+        title: 'Soak up the beguiling landscapes'
+        summary: 'Easy walking allows you to relax and soak up the beautiful landscapes you are passing through, classic Tuscany!'
         icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
       -
         id: mlooun08
-        title: 'Immerse yourself in gorgeous villages'
-        summary: "You will have all the time in the world to immerse yourself in the life of six of Italy's most beautiful villages."
-      -
-        id: mmbinilb
-        title: 'Indulge in fine food and wines'
-        summary: "Val d'Orcia is celebrated for its food (wholesome homecooking) but more so for its fine wines (the best in the country?)"
+        title: 'Indulge in the food and wine'
+        summary: 'Enjoy the food and wine that have made this region famous: fresh authentic flavors, simple dishes with exceptional wine.'
       -
         id: mmx1061d
         title: 'Relax and enjoy for holiday'
@@ -87,13 +83,16 @@ page_builder:
     enabled: true
   -
     id: mloox88g
-    title: 'Tiuscany 1 itinerary'
-    summary: 'Starting with a private transfer to the charming medieval town of Montalcino, this walk tour crosses the Orcia River Valley in southern Tuscany, passing through some of the most beautiful country in central Italy.'
+    title: 'Tiuscany 3 itinerary'
+    summary: 'Starting with a transfer from Florence to San Gimignano, these well-marlked trail take you along the Via Francigena, a medieval pilgrim route, passing through the famous Tuscany countryside: forests, olive groves, vineyards and rolling hills - a classic walk!'
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Montalcino'
-        description: "You will be picked up at either Siena or Chiusi and taken to Montalcino, a perfectly preserved walled hilltop town, famous for both its views and its red wine, Brunello di Montalcino. Included in your notes is a short walk around the outside of the town's walls."
+        title: 'Day 1: Arrive in San Gimgnano'
+        description: "A private transfer will take you from Florence to your hotel in San Gimignano, a walled medieval town famous for its towers, which was on the Via Francigena, the most important route to Rome in the Middle Ages. In the afternoon there is a short loop walk through the celebrated Vernaccia vineyards with wonderful views over San Gimignano's famous skyline before returning to your base."
+        duration: 2
+        distance: 9
+        elevation: 195
       -
         id: mloozlek
         title: 'Day 2:  Stay in a Medieval village'
@@ -144,14 +143,14 @@ image: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/t3
 gallery:
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/deepak-sharma-0y0ap85o7cy-unsplash.jpg
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/aver007-san-gimignano-4720522.jpg
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/t3.jpg
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/walking-in-chianti-9.jpg
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/achim-ruhnau-a3fwnq1inoi-unsplash(1).jpg
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/t3.jpg
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/img_5061.jpg
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/img_0736.jpg
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/makalu-italy-3608515.jpg
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/img_5061.jpg
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/palmik-siena-2658932.jpg
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/justsomedutchdude-old-2121643.jpg
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/kristof-van-rentergem-lpywtwptwbs-unsplash.jpg
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/palmik-siena-2658932.jpg
+  - tours/tuscany-tuscany-3-san-gimignano-to-siena/achim-ruhnau-a3fwnq1inoi-unsplash(1).jpg
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/p1010314.jpg
 ---
