@@ -145,18 +145,8 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-image: tours/umbria-cammino-of-st-francis-umbria-2/7.jpg
 gallery:
-  - tours/umbria-cammino-of-st-francis-umbria-2/1.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/2.5.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/2.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/7.6.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/5.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/14.8.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/img_5356.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/img_5360.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2/img_5409.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2/p4280723-a.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/7.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2/sofia-msnxoysxjsq-unsplash.jpg
 ---
