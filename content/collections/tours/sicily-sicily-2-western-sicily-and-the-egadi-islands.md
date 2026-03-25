@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774413560
+updated_at: 1774415816
 grade: 4
 summary: 'Coastal walks, island hoping and fabulous food, this tour is southern Italy at its best!'
 overview:
@@ -48,24 +48,20 @@ simple_likes: 0
 page_builder:
   -
     id: mlrbu308
-    title: 'Sicily 1 highlights'
+    title: 'Sicily 2 highlights'
     activities:
       -
         id: mlrbvyrv
-        title: 'Experience a side of Sicily others only read about!'
-        summary: 'Far from the regular tourist trails, this tour allows you to experience the charm and authenticity of the real Sicily!'
+        title: 'Enjoy coastal walking'
+        summary: 'All the walks follow well-marked paths above the sea with spectacular views and plenty of opportunities for swimming!'
       -
         id: mlrbzbll
-        title: 'Discover the Madonie Mountains'
-        summary: 'Discover an area of dramatic natural beauty: rolling hills, craggy mountains, all with views as far as the eye can see!'
+        title: 'Relish the authentic food'
+        summary: "Enjoy the area's fine food based on garden vegetables and fresh seafood all with North African twists, such as couscous."
       -
         id: mlrc2l11
-        title: 'Enjoy authentic Sicilian cooking'
-        summary: 'Far from the Michelin-starred restaurants on the coast, you will experience authentic home-cooking, prepared with love.'
-      -
-        id: mlrc4uq2
-        title: 'Explore the fascinating villages'
-        summary: 'Stay in gorgeous mountain villages, each so different to the other, two were voted the most villages beautiful in Italy.'
+        title: 'Go island hopping'
+        summary: 'The ferry tickets are included so you can experience the pleasure of island hopping around the Mediterranean Sea'
       -
         id: mlrc9yr3
         title: 'Relax and enjoy your holiday'
@@ -74,22 +70,20 @@ page_builder:
     enabled: true
   -
     id: mlrccjcj
-    title: 'Sicily 1 itinerary'
-    summary: "Far removed from the busier sites and cities on the coast, this tour takes you through the spectacular natural beauty of central Sicily, following unsealed country roads through rolling wheat fields to the Madonie National Park, staying in some of Italy's most charming villages: a unique experience!"
+    title: 'Sicily 2 itinerary'
+    summary: 'Explore the ‘other’ Sicily: the remarkable western side of the island, which contains some of the most ancient and celebrated sites, some of the most dramatic landscapes, some of the finest walking and some of the best food in Sicily.'
     days:
       -
         id: mlrcdegn
-        title: 'Day 1:  Arrive in Nicosia'
-        description: 'Your tour starts with a private transfer from either Palermo or Catania to Nicosia in central Sicily, an hour and a half away.  A strategic point on the mountain road that linked eastern Sicily with Palermo, Nicosia grew up around a 7th century Byzantine castle and flourished under Norman rule in the 12th century.  Today it is a bustling agricultural centre – pure Sicily!'
-        meals_included:
-          - dinner
+        title: 'Day 1:  Arrive in Favignana'
+        description: 'The tour starts with a private transfer from Palermo to Trapani (approximately 2 hrs).  From here you take a hydrofoil from Trapani to Favignana, the largest of the Egadi islands.  Accommodation is in an excellent, family-run 3-star hotel in the centre of town, a short walk from the port.'
       -
         id: mlrce7n9
-        title: 'Day 2:  Walk into the mountains'
-        description: 'Your first walk is an easy hike across the valley to a tiny village that grew up around a rock outcrop riddled with prehistoric cave dwellings.  Mt Etna, 100 kms to the east, is visible from the village’s impregnable castle.  The village’s dialect still has traces of the French invaders who were garrisoned here in the 13th century.'
+        title: 'Day 2:  Go island hopping'
+        description: "Today you take a ferry to explore the smallest and most remote of the three islands of the archipelago (which is 30 minutes away).  You follow a paved out of the port and then up to the top of the island before descending into a lovely valley with dense vegetation of rock roses, heather, lentisco and rosemary bushes, before returning along the coast to Marettimo, where you'll have plenty of time for lunch before the ferry back to Favignana.  (3.5 hrs; 9 kms; min: 4 mts, max: 463 mts)"
         duration: 3
-        distance: 13
-        elevation: 166
+        distance: 4
+        elevation: 459
         meals_included:
           - breakfast
           - dinner
@@ -143,4 +137,17 @@ page_builder:
     enabled: true
 locations: southern-italy
 duplicated_from: 9b40b14d-a9c5-43b5-ae27-eeb883bc2c34
+gallery:
+  - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/scopello-tonnara-1.jpg
+  - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/a.jpeg
+  - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/levanzo-1.jpg
+  - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/fried-fish-1.jpg
+  - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/g.jpg
+  - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/favignana-1.jpg
+  - 'tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/trapani,_sicily.jpg'
+  - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/favignana-6.jpg
+  - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/sicilie-egadische-eilanden-marettimo-3.jpg
+  - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/f.jpg
+  - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/favignana-3.jpg
+  - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/p1010686.jpg
 ---
