@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774421306
+updated_at: 1774421340
 grade: 3
 summary: 'Enjoy the best Umbria has to offer: superior accommodation, great art, excellent walking!'
 overview:
@@ -17,30 +17,25 @@ overview:
     content:
       -
         type: text
-        text: "The second section of the Cammino of St Francis, this lovey, week-long walk takes you through 'the green heart of Italy'.  Leaving Spoleto via the 13th century Ponte delle Torri bridge, you finish a week later, staying in a lovely 3-star hotel in the centre of the ancient town of Rieti.\_ "
+        text: "Often referred to as 'the green heart of Italy', Umbria is a beautiful, largely unspoilt, landlocked region of rolling hills, woods, stream and valleys.\_ Within its borders are a dozen or so classic hill-towns, each resolutely individual and crammed with artistic and architectural treasures that frequently rival bigger and more famous cities."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Along the way, you will visit some extraordinary places including one of central Italy’s finest abbeys (founded in the 8th century); one of Europe’s highest waterfalls (created by the Romans in the 3rd century BC); some gorgeous hilltop villages that date from the Dark Ages; a dreamy lake that is home to the Italian rowing team and a thousand year old tree believed to have been blessed by St Francis himself.\_"
+        text: "Umbria was the birthplace of some of Italy's most beloved saints, including St Francis and St Benedict and the region has earned the name of 'Umbra Santa' and 'Umbra mistica' and the landscape itself has contributed to this mystical reputation.\_ Starting in Assisi and finishing in Spoleto, the well-marked trails you follow take you through this gorgeous countryside of rolling hills dotted with olive groves and draped with grape vines, with wide views across the valley below, the Vale of Umbra.\_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: "The most memorable feature of this itinerary, though, is the peaceful, unspoilt nature you walk through: the evergreen forests of the Monteluco National Park, the meadows along the banks of the Nera River, the lake shores and the woods overlooking Rieti.\_"
+        text: "Staying in superior accommodation in historic buildings, you will have plenty of time explore some of the region's charming towns, where you'll be able to admire some of the finest art of the Renaissance, including works by Giotto, Perugino and Raphael, a reflection of Umbria's wealth and prestige in the past."
   -
     type: paragraph
     content:
       -
         type: text
-        marks:
-          -
-            type: italic
-        text: "Umbria 2 walk is the first section of the Cammino of St Francis, a marvellous 258 km walk that starts in Assisi and finishes in Rome, following in the footsteps of Italy's most beloved saint.  The whole three-week walk can be broken up into three one-week sections: Umbria 1, Umbria 2 and Lazio."
-  -
-    type: paragraph
+        text: "You'll also have plenty of opportunities to sample the region's celebrated cuisine, which tends to be simple, seasonal and homely.\_ It is best known for its vegetables (including lentils from Castellucio and beans from Trasimeno); its game (pigeon; pheasant and wild boar); and its truffles (both black and white); and the crowning glory is its porchetta (whole suckling pig, pit roasted).\_ Umbria is also well-known for its wines, including the red Sagrantino and the white Grechetto."
 inclusions:
   - 'Six nights accommodation'
   - 'All breakfasts included'
