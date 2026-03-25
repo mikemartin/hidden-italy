@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Tuscany
 days: 5
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774333024
+updated_at: 1774405564
 grade: 2
 summary: 'A classic walk takes you through celebrated landscapes and iconic towns to glorious Siena.'
 overview:
@@ -17,30 +17,27 @@ overview:
     content:
       -
         type: text
-        text: "Walking the Via Francigena from San Gimignano to Siena is a unique experience.   Starting in San Gimignano with its stunning hilltop skyline of towers, you follow well-marked trails in the footsteps of pilgrims to the glorious walled city of Siena, 'the most perfectly preserved medieval city in Europe'.  "
+        text: "Walking the Via Francigena from San Gimignano to Siena is a unique experience.\_\_ It starts in San Gimignano, a gorgeous town with a stunning hilltop skyline of towers.\_ From here you follow in the footsteps of medieval pilgrims to the glorious all the way to the walled city of Siena, 'the most perfectly preserved medieval city in Europe'.\_ On the way, you stay in a town that made its wealth in the wool trade in the Middle Ages and a fortified village that was Siena's stronghold again Florence."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "In between, on Day 2, you stay in a town strategically perched above the Elsa River, which grew rich during the Middle Ages on its wool and glass industries and, on Day 3, you stay in an extraordinary fortress-village, which was Siena's stronghold against their implacable Florentine enemies.  "
+        text: "The well-marked trails take you through rolling countryside covered in vineyards, olive groves and forest, with long, open stretches of farmlands and fields dotted the occasional farmhouse or cluster of cypress.\_ Each day you pass through small villages and rural hamlets, where you can pause for a coffee, a drink of water or a snack.\_\_"
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Along the way you pass through rolling countryside: vineyards, olive groves, and long, open stretches of farmlands and fields, dotted the occasional farmhouse or cluster of cypress, each day you passing through small villages and rural hamlets, where you can pause for a coffee, a drink of water or a snack.\_  "
+        text: "The accommodation is a highlight of the tour.\_ You stay in very comfortable, three-star hotels in historic buildings in the heart of each town.\_ Another highlight, of course, is the food.\_ Tuscan cooking, with its emphasis on simple dishes using fresh, quality, local ingredients, has had an enormous influence on Italian cuisine.\_ As well as this, you are also walking through the Chianti district, which produces some of the country's finest wines."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "The accommodation is a highlight of the tour.  You stay in very comfortable, three-star hotels in historic buildings in the heart of each town.  Another highlight, of course, is the food.  Tuscan cooking, with its emphasis on simple dishes using fresh, quality, local ingredients, has had a seminal influence on Italian cuisine.  To top it off, you are walking through the Chianti district, which produces some of the country's finest wines."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
+        marks:
+          -
+            type: italic
         text: "What more could you want for a week's walking?"
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
