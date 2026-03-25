@@ -1,6 +1,5 @@
 ---
 id: 4890c31c-65dd-42bf-8f81-1bd6835115e9
-published: false
 blueprint: tour
 title: 'Sicily - Sicily 2 (Western Sicily and the Egadi Islands)'
 name: 'Sicily 2 (Western Sicily and the Egadi Islands)'
@@ -8,7 +7,7 @@ tour_types: self-guided
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774417473
+updated_at: 1774417500
 grade: 4
 summary: 'Coastal walks, island hoping and fabulous food, this tour is southern Italy at its best!'
 overview:
