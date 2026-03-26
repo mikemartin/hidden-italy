@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774495579
+updated_at: 1774495856
 grade: 3
 summary: 'Enjoy the best of Umbria has to offer: superior accommodation, great art, amazing walks!'
 overview:
@@ -94,7 +94,7 @@ page_builder:
       -
         id: mloozlek
         title: 'Day 2:  Walk under Monte Subasio'
-        description: "This itinerary starts with a steep climb up to a beautiful hermitage surrounded by forests that was a place of retreat for St Francis.  From here the path contours around the side of Mt Subasio with wide views across the valley before descending to a beautiful hill-town founded by the Romans. You'll have time to visit the 13th century church with Pinturicchio's dazzling fresco cycle.  Please note a shorter version, with less climbing, is included in the notes (4 hrs; 11.5 kms; min: 220 mts)"
+        description: "This itinerary starts with a steep climb up to a beautiful hermitage surrounded by forests that was a place of retreat for St Francis.  From here the path contours around the side of Mt Subasio with wide views across the valley before descending to a beautiful hill-town founded by the Romans. You'll have time to visit the 13th century church with Pinturicchio's dazzling fresco cycle.  Please note a shorter version, with less climbing, is included in the notes (4 hrs; 11.5 kms; 220 mts)."
         duration: 5
         distance: 15
         elevation: 570
@@ -112,7 +112,7 @@ page_builder:
       -
         id: mlop3c5r
         title: 'Day 4:'
-        description: "Today you walk up rolling hills to one of the viticulture centres of the region, which has beautiful views over the valley.  On the way, you pass through the vineyards that have made the town famous. The town also has a rich artistic heritage out of all proportion to its size, including a beautiful fresco cycle of St Francis' life by the influential Florentine artist Gozzoli.  (7 kms; 2 hrs; min: 203 mts, max: 449 mts)"
+        description: "Today you walk up rolling hills to one of the viticulture centres of the region, which has beautiful views over the valley.  On the way, you pass through the vineyards that have made the town famous. The town also has a rich artistic heritage out of all proportion to its size, including a beautiful fresco cycle of St Francis' life by the influential Florentine artist Gozzoli."
         duration: 2
         distance: 7
         elevation: 246
@@ -130,7 +130,7 @@ page_builder:
       -
         id: mlop6avf
         title: 'Day 6:  Walk to Spoleto'
-        description: "The last walk picks up the 'Sentiero degli Ulivi', the Trail of the Olives, winding through olive groves, around the side of the hills past a string of villages before arriving in Spoleto.  You enter this gorgeous city through the lower medieval walls and climb up to the cathedral square (there is an escalator as well!).  (4 hrs; 15 kms; min: 299 mts, max: 557 mts)"
+        description: "The last walk picks up the 'Sentiero degli Ulivi', the Trail of the Olives, winding through olive groves, around the side of the hills past a string of villages before arriving in Spoleto.  You enter this gorgeous city through the lower medieval walls and climb up to the cathedral square (there is an escalator as well!)."
         duration: 4
         distance: 15
         elevation: 258
