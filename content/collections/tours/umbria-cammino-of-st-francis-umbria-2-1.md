@@ -8,34 +8,34 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774421340
+updated_at: 1774488922
 grade: 3
-summary: 'Enjoy the best Umbria has to offer: superior accommodation, great art, excellent walking!'
+summary: 'Enjoy the best Umbria has to offer: superior accommodation, great art, amazing walks!'
 overview:
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Often referred to as 'the green heart of Italy', Umbria is a beautiful, largely unspoilt, landlocked region of rolling hills, woods, stream and valleys.\_ Within its borders are a dozen or so classic hill-towns, each resolutely individual and crammed with artistic and architectural treasures that frequently rival bigger and more famous cities."
+        text: "Often referred to as 'the green heart of Italy', Umbria is a beautiful, largely unspoilt, region of rolling hills, woods, streams and valleys.\_ Within its borders are a dozen or so classic hill-towns, each resolutely individual and crammed with artistic and architectural treasures that frequently rival bigger and more famous cities."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Umbria was the birthplace of some of Italy's most beloved saints, including St Francis and St Benedict and the region has earned the name of 'Umbra Santa' and 'Umbra mistica' and the landscape itself has contributed to this mystical reputation.\_ Starting in Assisi and finishing in Spoleto, the well-marked trails you follow take you through this gorgeous countryside of rolling hills dotted with olive groves and draped with grape vines, with wide views across the valley below, the Vale of Umbra.\_"
+        text: "Starting in Assisi and finishing in Spoleto, this wonderful walk will take through the most alluring part of the region: the Valle Umbra (the Umbra Valley).  Following well-marked trails, you walk through a beguiling landscape of rolling hills dotted with olive groves and draped with grape vines, with mountains above you and valleys below.  Staying in superior accommodation in historic palazzi, you will also have plenty of time explore some of the region's most charming towns and admire some of the best art in central Italy, including works by Giotto, Perugino, Pinturicchio and Raphael. "
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Staying in superior accommodation in historic buildings, you will have plenty of time explore some of the region's charming towns, where you'll be able to admire some of the finest art of the Renaissance, including works by Giotto, Perugino and Raphael, a reflection of Umbria's wealth and prestige in the past."
+        text: "Of course, we mustn't forget the food!  You'll also have plenty of opportunities to sample the region's celebrated cuisine, which tends to be simple and seasonal home-cooking.\_ Umbria is best known for its vegetables (including lentils from Castellucio and beans from Trasimeno); its game (pigeon; pheasant and wild boar); and its truffles (both black and white); but the crowning glory is its porchetta (whole suckling pig, pit roasted)!\_ Umbria is also well-known for its wines, including the red Sagrantino and the white Grechetto."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "You'll also have plenty of opportunities to sample the region's celebrated cuisine, which tends to be simple, seasonal and homely.\_ It is best known for its vegetables (including lentils from Castellucio and beans from Trasimeno); its game (pigeon; pheasant and wild boar); and its truffles (both black and white); and the crowning glory is its porchetta (whole suckling pig, pit roasted).\_ Umbria is also well-known for its wines, including the red Sagrantino and the white Grechetto."
+        text: 'What more could you ask for?'
 inclusions:
   - 'Six nights accommodation'
   - 'All breakfasts included'
