@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774488922
+updated_at: 1774489858
 grade: 3
 summary: 'Enjoy the best Umbria has to offer: superior accommodation, great art, amazing walks!'
 overview:
@@ -38,7 +38,7 @@ overview:
         text: 'What more could you ask for?'
 inclusions:
   - 'Six nights accommodation'
-  - 'All breakfasts included'
+  - 'Generous breakfasts included'
   - 'Reading lists and historical and cultural notes'
   - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
@@ -141,4 +141,17 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 2c566c23-3738-482e-b78a-a2ac67ccf9cf
+gallery:
+  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020011.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020013-a.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020014.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020010.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2-1/bevagna.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020018.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020015.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2-1/borgo-della-marmotta-1.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2-1/clitumno-2089647_1920.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020012.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020022.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1030001.jpg
 ---
