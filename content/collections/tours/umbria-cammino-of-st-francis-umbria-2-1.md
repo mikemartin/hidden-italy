@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774495559
+updated_at: 1774495579
 grade: 3
 summary: 'Enjoy the best of Umbria has to offer: superior accommodation, great art, amazing walks!'
 overview:
@@ -146,6 +146,7 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 2c566c23-3738-482e-b78a-a2ac67ccf9cf
+image: tours/umbria-cammino-of-st-francis-umbria-2-1/f1020015.jpg
 gallery:
   - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020011.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020013-a.jpg
