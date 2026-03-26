@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774492185
+updated_at: 1774495529
 grade: 3
 summary: 'Enjoy the best Umbria has to offer: superior accommodation, great art, amazing walks!'
 overview:
@@ -95,52 +95,52 @@ page_builder:
       -
         id: mloozlek
         title: 'Day 2:  Walk under Monte Subasio'
-        description: 'After a steep climb to the Franciscan convent of Monteluco (built around a cave in which St Francis lived), this walk crosses forests, along paths that traverse mountain-sides with breath-taking views of the Tiber and Nera valleys.  After a steep downhill path, you arrive at a hamlet and then follow the Nera River to a gorgeous, small hilltop town.'
+        description: "This itinerary starts with a steep climb up to a beautiful hermitage surrounded by forests that was a place of retreat for St Francis.  From here the path contours around the side of Mt Subasio with wide views across the valley before descending to a beautiful hill-town founded by the Romans. You'll have time to visit the 13th century church with Pinturicchio's dazzling fresco cycle.  Please note a shorter version, with less climbing, is included in the notes (4 hrs; 11.5 kms; min: 220 mts)"
         duration: 5
-        distance: 21
-        elevation: 666
+        distance: 15
+        elevation: 570
         meals_included:
           - breakfast
       -
         id: mlop159i
-        title: 'Day 3:  Walk down the Nera River'
-        description: 'Today’s walk takes you along a flat trail that passes through a national park beside the Nera River to a pretty medieval village sitting on a rocky pinnacle above the river.  Along the way, you will be able to detour to visit a spectacularly sited abbey founded in the 8th century considered one of the most beautiful in central Italy, where you can have lunch and enjoy the views. (5 hrs; 18 kms; min: 228 mts, max: 314 mts)'
-        duration: 5
-        distance: 18
-        elevation: 86
+        title: 'Day 3:  Walk across the valley'
+        description: "A gentle walk following country roads across the valley floor, leaving via a magnificent Roman gate and passing through wheat fields to a small town on the plain, one of the hidden treasures of the region. This sleepy town has two of Umbria's finest Romanesque churches as well as impressive Roman mosaics and a delightful little 19th century theatre."
+        duration: 4
+        distance: 14
+        elevation: -109
         meals_included:
           - breakfast
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk to a lake'
-        description: 'A spectacular waterfall created when the Romans drained the marshlands of Rieti in 267 BC and a serene lake are the highlights of today’s walk.  The undulating trail follows the Nera River along quiet country roads and marked pathways to the lake, home of the Italian national rowing team, where you’ll stay in a hotel on the lake shores.  (4 hrs; 14 kms; min: 213 mts, max: 391 mts).'
-        duration: 4
-        distance: 14
-        elevation: 178
+        title: 'Day 4:'
+        description: "Today you walk up rolling hills to one of the viticulture centres of the region, which has beautiful views over the valley.  On the way, you pass through the vineyards that have made the town famous. The town also has a rich artistic heritage out of all proportion to its size, including a beautiful fresco cycle of St Francis' life by the influential Florentine artist Gozzoli.  (7 kms; 2 hrs; min: 203 mts, max: 449 mts)"
+        duration: 2
+        distance: 7
+        elevation: 246
         meals_included:
           - breakfast
       -
         id: mlop5205
-        title: 'Day 5:  Discover the Rieti valley'
-        description: 'The day’s walk is probably the most demanding of the week, but is also one of the most spectacular.  It starts by crossing the border from Umbria into the region of Lazio, climbing to an ancient village perched high above the lake.  It continues to a remote  forest and an ancient tree that is believed to have sheltered St Francis during a storm.  The long downhill walk is rewarded with an overnight in a medieval village which has beautiful views across the Rieti valley.'
+        title: "Day 5:  Stay in a 'borgo'"
+        description: 'Descending from the hills, you cross the valley floor again, following a medieval path through wheat fields, past quiet farming villages and springs from a river source sacred to the Romans which inspired poets from Virgil to Byron, before climbing up to your accommodation.  Please note that this walk can be shortened with an night in an excellent 4-star hotel along the way (7kms + 14 kms).'
         duration: 5
-        distance: 20
-        elevation: 726
+        distance: 21
+        elevation: 238
         meals_included:
           - breakfast
       -
         id: mlop6avf
-        title: 'Day 6:  Walk to Rieti'
-        description: 'Today takes on a lovely walk through forests, fields and farms to another charming town, followed by a visit to a 13th century sanctuary where St Francis took refuge in the later stages of his life.  It finishes in the buzzy centre of Rieti, with shops, restaurants, a rich history and a beautiful cathedral.  (4.5 hrs; 18 kms; min: 390 mts, max: 716 mts)'
-        duration: 5
-        distance: 18
-        elevation: 326
+        title: 'Day 6:  Walk to Spoleto'
+        description: "The last walk picks up the 'Sentiero degli Ulivi', the Trail of the Olives, winding through olive groves, around the side of the hills past a string of villages before arriving in Spoleto.  You enter this gorgeous city through the lower medieval walls and climb up to the cathedral square (there is an escalator as well!).  (4 hrs; 15 kms; min: 299 mts, max: 557 mts)"
+        duration: 4
+        distance: 15
+        elevation: 258
         meals_included:
           - breakfast
       -
         id: mlop8uiy
-        title: 'Day 7:  Depart Rieti'
-        description: "After breakfast, you'll be free to continue your holiday.   Rieti is well connected by regular train to Rome and the rest of Italy."
+        title: 'Day 7:  Depart Spoleto'
+        description: "After breakfast, you'll be free to continue your holiday.   Spoleto is well connected by regular train to Florence, Rome and the rest of Italy."
         meals_included:
           - breakfast
     type: itinerary
