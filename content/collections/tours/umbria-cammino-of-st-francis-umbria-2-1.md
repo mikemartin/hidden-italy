@@ -1,6 +1,5 @@
 ---
 id: 885f3bc4-e91d-444f-a666-44cc0eda6277
-published: false
 blueprint: tour
 title: 'Umbria - Umbria Classic (Assisi to Spoleto)'
 name: 'Umbria Classic (Assisi to Spoleto)'
@@ -8,7 +7,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774495529
+updated_at: 1774495535
 grade: 3
 summary: 'Enjoy the best Umbria has to offer: superior accommodation, great art, amazing walks!'
 overview:
