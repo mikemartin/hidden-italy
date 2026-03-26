@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774489920
+updated_at: 1774492185
 grade: 3
 summary: 'Enjoy the best Umbria has to offer: superior accommodation, great art, amazing walks!'
 overview:
@@ -54,41 +54,47 @@ page_builder:
     activities:
       -
         id: mlooee34
-        title: Th
-        summary: "Enjoy a relaxed week following well-marked trails through some of central Italy's most beautiful countryside."
+        title: 'Walk through magical landscapes'
+        summary: "Follow well-marked trails through the 'green heart of Italy': rolling hills, vineyards, olive groves and charming towns."
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
         id: mloog7vk
-        title: 'Explore the towns'
-        summary: "Staying in welcoming, family-run accommodation, you'll have plenty of time to explore the gorgeous little-visited towns."
+        title: 'Stay in fabulous accommodation'
+        summary: 'A feature of this Classic tour is the fabulous accommodation: fab 4-star hotels in the historical centre of each town'
         icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
       -
         id: mlooou12
-        title: 'Admire the spectacular scenery'
-        summary: 'The walk takes you south through the lush Nera Valley with breath-taking views over mountains, lakes and rolling plains.'
+        title: 'Soak up the atmosphere'
+        summary: 'Spend time soaking up the atmosphere of some of the most charming towns in central Italy, each so different to the other'
         icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
       -
         id: mlooun08
+        title: 'Admire the art'
+        summary: 'Admire fabulous works by some of the important artists of the Italian Renaissance: Cimabue, Giotto, Perugino and Raphael'
+      -
+        id: mmbinilb
         title: 'Enjoy Umbrian home cooking'
         summary: 'Sit down and enjoy the wholesome home-cooking: cold cuts, cheeses, pastas, soups, roast meats, fresh garden vegetables.'
       -
-        id: mmbinilb
+        id: yzrNBaT-_rmmrnPeEEdB9
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
     type: highlights
     enabled: true
   -
     id: mloox88g
-    title: 'Umbria 2 tour itinerary'
-    summary: 'The second leg of the ‘Cammino of St Francis’, this beautiful seven day walk takes you far from the madding crowd to explore the ‘green heart of Italy’, following well-marked trails through forests, along river valleys and past lakes to Rieti, home of the Sabines and an ancient rival of Rome.'
+    title: 'Umbria Classic itinerary'
+    summary: 'This wonderful 7 day walk takes you through forests, across farmlands, past olive groves and staying in some of the most gorgeous and interesting towns with some of the finest art in central Italy, staying in excellent 4-star hotels along the way.'
     days:
       -
         id: mlooymbz
         title: 'Day 1: Arrive in Spoleto'
-        description: 'Arrival in Spoleto, well-connected to Florence and Rome.  This charming city has a long and fascinating history: besieged by Hannibal and his elephants, it was the seat of a Lombard duchy and had the 19 year old Lucrezia Borgia as it’s governor.  These days it is best known for its summer festival, the Festival dei Due Mondi, Italy’s largest international arts event.'
+        description: 'Even without St Francis Assisi would be irresistible, a charming medieval town nestled under the forested peak of Monte Subasio. However, the monuments that have been dedicated to the saint make Assisi a highlight of any visit to Umbria. The Basilica dedicated to Saint Francis contains some of the masterpieces of Western art, including seminal works by Cimabue, Giotto, Simone Martini and the Lorenzetti brothers.'
+        meals_included:
+          - breakfast
       -
         id: mloozlek
-        title: 'Day 2:  Walk to the Nera Valley'
+        title: 'Day 2:  Walk under Monte Subasio'
         description: 'After a steep climb to the Franciscan convent of Monteluco (built around a cave in which St Francis lived), this walk crosses forests, along paths that traverse mountain-sides with breath-taking views of the Tiber and Nera valleys.  After a steep downhill path, you arrive at a hamlet and then follow the Nera River to a gorgeous, small hilltop town.'
         duration: 5
         distance: 21
