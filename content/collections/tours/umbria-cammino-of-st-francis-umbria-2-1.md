@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774489858
+updated_at: 1774489920
 grade: 3
 summary: 'Enjoy the best Umbria has to offer: superior accommodation, great art, amazing walks!'
 overview:
@@ -50,11 +50,11 @@ locations: central-italy
 page_builder:
   -
     id: mloocwbk
-    title: 'Highlights of the Umbria 2 tour'
+    title: 'Highlights of the Umbria Classic'
     activities:
       -
         id: mlooee34
-        title: 'Get off the beaten track'
+        title: Th
         summary: "Enjoy a relaxed week following well-marked trails through some of central Italy's most beautiful countryside."
         icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
       -
