@@ -168,7 +168,6 @@ tabs:
                             type: grid
                             display: Activities
                             instructions: 'Start with a warm welcome and end with a strong finale. Keep the itinerary clear and concise.'
-                            mode: stacked
                             add_row: 'Add Activity'
                             fields:
                               -
