@@ -102,8 +102,8 @@ page_builder:
         title: 'Arrival in Biella'
         description: "Your first night is in Biella, a pleasant town north of Turin with a rail link. Located where the Po River plain meets the foothills of the Alps, Biella has long been a trade and commercial centre. The Oropa Valley has connected Italy to Switzerland and France since Roman times. Its centuries-old textile tradition continues today, producing high-quality wool and housing fashion brands like Ermenegildo Zegna. We'll have dinner at an innovative local restaurant."
         meals_included:
-          - breakfast
           - dinner
+        photo: tours/italian-alps-trails-to-freedom/img_0975.jpg
       -
         id: mjflhmx3
         title: 'Hike to a baroque monastery'
@@ -115,6 +115,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/italian-alps-trails-to-freedom/img_0986.jpg
       -
         id: mjfliav4
         title: 'Sanctuary tour and ridge walk'
@@ -126,6 +127,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/italian-alps-trails-to-freedom/57.png
       -
         id: mlizaetv
         title: 'The first big climb'
@@ -137,6 +139,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/italian-alps-trails-to-freedom/10.jpg
       -
         id: mlj01a3m
         title: 'A long walk to Alagna'
@@ -147,6 +150,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/italian-alps-trails-to-freedom/dscf0143.jpg
       -
         id: mlj05x9f
         title: 'Free day in Alagna'
@@ -154,6 +158,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/italian-alps-trails-to-freedom/65.jpg
       -
         id: mlj06yj3
         title: 'Museum visit and climb to Monte Rosa'
@@ -165,6 +170,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/italian-alps-trails-to-freedom/p8270231.jpg
       -
         id: mlj0rpd5
         title: 'The first views of Switzerland'
@@ -175,6 +181,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/italian-alps-trails-to-freedom/dscf0276.jpg
       -
         id: mlj0t848
         title: 'Macugnaga and the Swiss border'
@@ -183,19 +190,21 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/italian-alps-trails-to-freedom/94.jpg
       -
         id: mlj0uhz8
         title: 'Heading for Milano'
         description: 'This morning after breakfast you’ll be picked up at 08.00 by private bus and driven to Milan, 150 kilometres south.  We should arrive around 10.30.'
         meals_included:
           - breakfast
+        photo: tours/italian-alps-trails-to-freedom/183.png
     type: itinerary
     enabled: true
 tour_types: guided
 seasons: summer
 locations: northern-italy
-updated_by: 6e2cc1d1-1470-4391-963d-37aed038e27a
-updated_at: 1774238876
+updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
+updated_at: 1774916938
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
