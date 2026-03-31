@@ -7,7 +7,7 @@ tour_types: guided
 region: 'Abruzzo and Molise'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896175
+updated_at: 1774918369
 grade: 4
 summary: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
 overview:
@@ -80,6 +80,7 @@ page_builder:
         description: 'The tour starts in the heart of Rome, in an historic hotel a short walk from the Pantheon.  We will meet at the hotel at 19.00 and walk to dinner at a nearby osteria (first mentioned in a document in 1518 and reputedly the oldest in Rome and a favourite of Caravaggio) which specialises in classic Roman cuisine.'
         meals_included:
           - dinner
+        photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/rome-2-1773021157.jpg
       -
         id: mloqxcnx
         title: 'Day 2:  Explore Rome'
@@ -87,6 +88,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2777.jpg
       -
         id: mloqy5ed
         title: 'Day 3:  Transfer to Abruzzo'
@@ -95,6 +97,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_8437.jpeg
       -
         id: mloqzruj
         title: 'Day 4:  Walk through rolling hills'
@@ -105,6 +108,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2869.jpg
       -
         id: mlor10w3
         title: "Day 5:  Visit L'Aquila"
@@ -113,6 +117,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_8768.jpeg
       -
         id: mlor23s2
         title: 'Day 6:  Walk on the Gran Sasso'
@@ -123,14 +128,16 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2920.jpg
       -
         id: mlor3ri3
-        title: 'Day 7:'
+        title: 'Day 7:  Transfer to Alto Molise'
         description: 'Today, we leave Abruzzo and drive south into rolling hills and forests of Molise. On the way, we stop at Isernia, the ‘capital’ of Alto Molise (Upper Molise) for a guided visit of one of the most extraordinary museums in the region.  After lunch in town, we continue our drive to Agnone, a remarkable small town in the hills of northern Molise. Our accommodation is in a beautiful, family-run ‘agriturismo’ in a vineyard in the valley.  The afternoon is free then dinner is at the agriturismo.'
         meals_included:
           - breakfast
           - lunch
           - dinner
+        photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/9-masseria.jpg
       -
         id: mlor6aar
         title: 'Day 8:  Walk along a ridge'
@@ -142,6 +149,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/11-capracotta.jpg
       -
         id: mlor867w
         title: 'Day 9:  Get immersed in local traditions'
@@ -150,6 +158,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2830.jpg
       -
         id: mlora14b
         title: 'Day 10:  Walk in ancient beech forest'
@@ -161,12 +170,14 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_3142.jpeg
       -
         id: mlorbjxg
         title: 'Day 11:  Transfer to the coast'
         description: 'Today we leave the mountains and drive east to Termoli, a very attractive fishing town on the southern coast of Molise, near the border with Puglia. Termoli sits on a promontory dominated by a small Norman castle. Kilometres of beaches stretch to the north and south.  Our accommodation for the last two nights will be in seaview apartments in the beautifully restored historic centre. Once we have checked in, the afternoon and evening are free to enjoy this gorgeous town and its beaches.'
         meals_included:
           - breakfast
+        photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/15-termoli.jpg
       -
         id: mlore9l3
         title: 'Day 12:  Touring the Tremoli Islands'
@@ -174,12 +185,14 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/14-termoli.jpg
       -
         id: mlorf281
         title: 'Day 13:  Departure'
         description: 'Termoli is connect by rail to Pescara and Bologna to the north and Bari and Lecce to the south. For those interested, we will have a transfer 50 minutes south to Foggia which has fast train connections to Naples and Rome.'
         meals_included:
           - breakfast
+        photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_8356-v2.jpg
     type: itinerary
     enabled: true
 simple_likes: 0
@@ -190,6 +203,7 @@ gallery:
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/rome-2.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/11-capracotta.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2830.jpg
+  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_8219.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/9-masseria.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2869.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_3344.jpg
