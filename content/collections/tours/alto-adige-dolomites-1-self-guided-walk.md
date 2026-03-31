@@ -7,7 +7,7 @@ tour_types: self-guided
 region: 'Alto Adige'
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896207
+updated_at: 1774934480
 grade: 4
 summary: "Enjoy some of Italy's finest walking through some of Europe's most breath-taking scenery!"
 overview:
@@ -91,6 +91,7 @@ page_builder:
         description: 'You will be picked up in Bolzano and taken north, following the Adige Valley towards Austria, before turning left into one of the most beautiful valleys in the Dolomites (a fascinating one-hour drive away).'
         meals_included:
           - dinner
+        photo: tours/alto-adige-dolomites-1-self-guided-walk/2.jpg
       -
         id: mloozlek
         title: 'Day 2:  Walk the north side of the valley'
@@ -101,6 +102,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/alto-adige-dolomites-1-self-guided-walk/img_1568.jpg
       -
         id: mlop159i
         title: 'Day 3:  Walk to Ortisei'
@@ -114,6 +116,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/alto-adige-dolomites-1-self-guided-walk/p9171957-(2)-1773019785.jpg
       -
         id: mlop3c5r
         title: 'Day 4:  Walk Walk the south side of the valley'
@@ -127,6 +130,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/alto-adige-dolomites-1-self-guided-walk/36.jpg
       -
         id: mlop5205
         title: 'Day 5:  The grand finale'
@@ -137,6 +141,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/alto-adige-dolomites-1-self-guided-walk/p9192176-1773019628.jpg
       -
         id: mlop6avf
         title: 'Day 6:  Transfer to Bolzano'
@@ -146,7 +151,58 @@ page_builder:
         elevation: 181
         meals_included:
           - breakfast
+        photo: tours/alto-adige-dolomites-1-self-guided-walk/35-1773020227.jpg
     type: itinerary
+    enabled: true
+  -
+    id: tgGgo5fD6Wp46H72nZl2P
+    title: 'Dolomites 1 Experience'
+    tabs:
+      -
+        id: AOPi3gsbq397Xcy1m50Yr
+        title: Walk
+        grade: 3
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The trails follow well-marked and well-maintained paths with no dramatic climbs or descents and pass mountain huts along the way for breaks and lunch. While the walks do not have steep or long climbs (you use cable cars to avoid this), several of the walks are quite long: Day 4 is 14 kms and Day 5 is 19 kms (there is a shorter alternative on Day 5).\_ The circuit walk on Day 5 has some ‘exposed’ sections so is not suitable for people who suffer from vertigo (there is an alternative walk).\_ Full details on each walk are on the itinerary.\_ The self-guided itineraries are re-walked and the notes updated each year."
+        start_location: Bollzano
+        finish_location: 'Val Gardena'
+        image: tours/p9192120-1774934194.jpg
+        type: walk
+        enabled: true
+      -
+        id: P1I3feuFEatAXmUf0m3b2
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Accommodation is in ‘superior’ rooms with en-suite bathrooms in a very well located 4-star hotel, an excellent family run hotel on the sunny side of the valley with a ‘wellness’ centre, pool and surrounded by lawns.\_ It is in prettiest town in the valley.\_\_"
+        images:
+          - tours/2.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: BbO6EYQ6rGn_q8Sjutz6D
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Food, of course, is one of the highlights of the trip. The people of the Dolomites are\_extremely proud of the produce of their beautiful territory (fruit, vegetables, cheeses, hams and a wide variety of breads etc) and the local cuisine is a fascinating combination Italian and Austrian cooking. The Alto Adige/Sud Tirol is particularly famous for its high altitude white wines.\_ "
+        images:
+          - tours/img_1570.jpg
+        type: food
+        enabled: true
+    type: experience
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
