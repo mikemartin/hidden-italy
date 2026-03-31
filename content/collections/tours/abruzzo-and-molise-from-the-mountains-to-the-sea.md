@@ -194,7 +194,6 @@ gallery:
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2869.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_3344.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_8356-v2.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_3123.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2920.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/15-termoli.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/14-termoli.jpg
