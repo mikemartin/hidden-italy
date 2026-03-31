@@ -7,7 +7,7 @@ tour_types: guided
 region: 'Abruzzo and Molise'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774918369
+updated_at: 1774918484
 grade: 4
 summary: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
 overview:
@@ -80,7 +80,7 @@ page_builder:
         description: 'The tour starts in the heart of Rome, in an historic hotel a short walk from the Pantheon.  We will meet at the hotel at 19.00 and walk to dinner at a nearby osteria (first mentioned in a document in 1518 and reputedly the oldest in Rome and a favourite of Caravaggio) which specialises in classic Roman cuisine.'
         meals_included:
           - dinner
-        photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/rome-2-1773021157.jpg
+        photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/rome-2.jpg
       -
         id: mloqxcnx
         title: 'Day 2:  Explore Rome'
