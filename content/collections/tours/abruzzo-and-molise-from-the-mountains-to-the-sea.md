@@ -7,7 +7,7 @@ tour_types: guided
 region: 'Abruzzo and Molise'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774919952
+updated_at: 1774936956
 grade: 2
 summary: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
 overview:
@@ -246,6 +246,67 @@ page_builder:
         type: food
         enabled: true
     type: experience
+    enabled: true
+  -
+    id: Oo1saFI3INeyoC15VtrpQ
+    title: 'What you should know'
+    sections:
+      -
+        id: W4yqAt6KpWWJfotG4btmM
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: F8C4IgZNpLqgZPXKl-KkH
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_ "
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.hiddenitaly.com.au/footer/default.aspx?p=14'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Click here for full T&C’s'
+        type: booking_cancellation
+        enabled: true
+      -
+        id: fTWMxVo2bGfpUDs91BQPm
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance.\_ "
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.hiddenitaly.com.au/footer/default.aspx?p=14'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Click here for full T&C’s'
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 seasons: spring
