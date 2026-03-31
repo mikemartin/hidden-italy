@@ -7,7 +7,7 @@ tour_types: guided
 region: 'Abruzzo and Molise'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774918484
+updated_at: 1774919904
 grade: 4
 summary: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
 overview:
@@ -194,6 +194,58 @@ page_builder:
           - breakfast
         photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_8356-v2.jpg
     type: itinerary
+    enabled: true
+  -
+    id: ajaZp5in47xbHnusFqtcN
+    title: 'Abruzzo and Molise Essentials'
+    tabs:
+      -
+        id: se4QkDqZh0I8FJcN9EucR
+        title: Walk
+        total_distance: 40
+        total_elevation: 1690
+        grade: 2
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The walks on this tour follow trails that have been used by traders, drovers and brigands for millennia.\_\_ They include some more challenging walks on the high plains and in the spectacular mountains of the Gran Sasso National Park, as well as gentler walks in the undulating hills of Upper Molise.\_\_ The walks range from seven to fifteen kilometres following well-marked paths over hilly terrain (see the itinerary for details)."
+        start_location: Rome
+        finish_location: Tremoli
+        image: tours/img_3162.jpg
+        type: walk
+        enabled: true
+      -
+        id: z4jOmJRexBi9FHSlXkZoZ
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The accommodation is one of the highlights of the tour.\_ It includes stays in a historic hotel in the centre of Rome; a marvellous ‘albergo diffuso’, staying in meticulously restored apartments in a medieval village; a beautiful, family-run ‘agriturismo’ in the middle of vineyards with a swimming pool and gardens; and another ‘albergo diffuso’ , staying in very comfortable sea-view apartments in the historic centre of Termoli."
+        images:
+          - tours/muro-torto.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: cT-vMnfVFOfDgf2AXOBUJ
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Food in these agricultural regions centres on local, seasonal produce and the tradition of ‘cucina povera,’ combining fresh ingredients with age-old methods for healthy, memorable meals. This delicious mountain cuisine is based on vegetables, bread, cheese, and wine. Notable dishes include pasta alla chitarra, legume soups, cheese-rich polenta, scrippelle in broth, lamb arrosticini, and deep-fried pastries like cicerchiatta, pan dell’orso, and calgionetti. Coastal areas feature fresh seafood, such as brodetto di Termoli (an amazing fish soup). Abruzzo and Molise also offer quality wines, including Montepulciano d’Abruzzo, Tintilia, Trebbiano, and Bombino.\_ Wine is included with all meals."
+        images:
+          - tours/img_8219.jpg
+        type: food
+        enabled: true
+    type: experience
     enabled: true
 simple_likes: 0
 seasons: spring
