@@ -200,11 +200,81 @@ page_builder:
         photo: tours/italian-alps-trails-to-freedom/183.png
     type: itinerary
     enabled: true
+  -
+    id: QkV2317y6zSp1bBIhKySL
+    title: 'Trails to Freedom Experience'
+    tabs:
+      -
+        id: 4B51YZfmo3puQemzyeq0f
+        title: Walks
+        total_distance: 96
+        total_elevation: 5000
+        grade: 5
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The trails are well-marked, starting with a pilgrim route that takes us up into the hills above Biella in northern Piedmont before picking up sections of two long distance trails: the Grande Traversata degli Alpi (GTA) and the final section of the Tour de Mt Rosa (TMR) that take us to the Swiss border.\_ A large part of the route follows ancient pack routes, variously narrow, wide, cobbled and paved.\_ You will cross some long stretches of skree and boulders, so you’ll need to be sure-footed and fit."
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Technically the route is simple, however, it is a challenge.\_ You will be required to climb more than a thousand metres on several days, there are some exposed sections and you will be crossing high altitude country where weather conditions can change dramatically so you will require a high level of fitness.\_\_ You must also be prepared to walk in all conditions rain, hail or shine! This is a tough but very satisfying hike."
+        start_location: Biella
+        finish_location: Macugnaga
+        image: tours/5.5.jpg
+        type: walk
+        enabled: true
+      -
+        id: i4EDk_jCNw6hqyKsCeo0T
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The accommodation is one of the highlights of the tour.\_ We will start with the first night in a 4-star hotel in Biella in Piedmont.\_ For the next two night we will stay in a very comfortable pilgrim accommodation in magnificent monasteries that date from the Middle Ages.\_ The next night is in a ‘rifugio’, or mountain hut, where we will sleep overnight in shared rooms (with shared bathrooms).\_ The following two nights are in a lovely 3-star hotel in a town at the head of the Sesia Valley.\_ The next night is in a gorgeous rifugio at the foot of Mont Rosa, with shared rooms (with shared bathrooms)..\_ The last two nights we spend in a family-run 3-star hotel in a village below the Mt Moro Pass and the Swiss border"
+        images:
+          - tours/b96f4a2a-dec1-40ff-b7cb-9c99a23a7e4f.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: NWBlCLN3ip_O8OJVtsjT1
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'The walk passes through the region of Piemonte (Piedmont), home of the Slow Food movement and one of Italy’s premier food and wine regions, so, although sometimes simple, the food on the tour will always be local, hearty and delicious.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Dinner each night will usually consists of three courses: a first course which may consist of risotto, ravioli or polenta; mains such as veal or rabbit stew; and a desserts such as bonet (a thick chocolate pudding) or a slice of excellent mature local cheese, chased down with coffee and/or a shot of grappa.\_ Wine with the meals is included.\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Lunches on the track will be a mixture of picnic lunches and cut lunches prepared by our accommodation.'
+        images:
+          - tours/44.jpg
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
 tour_types: guided
 seasons: summer
 locations: northern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774916938
+updated_at: 1774917320
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
