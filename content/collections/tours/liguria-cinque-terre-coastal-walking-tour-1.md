@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Campania
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774159141
+updated_at: 1774936569
 grade: 3
 summary: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
 overview:
@@ -83,6 +83,7 @@ page_builder:
         id: mlooymbz
         title: 'Day 1: Arrive in Ravello'
         description: 'You are picked up by a private vehicle at a time and place that suits you and driven from Naples to Ravello, a beautiful village perched 350 metres above the port of Amalfi, celebrated for Wagner, its gardens and superb views over the Gulf of Salerno.'
+        photo: tours/liguria-cinque-terre-coastal-walking-tour-1/1.jpg
       -
         id: mloozlek
         title: 'Day 2:  Walk the Valle delle Ferriere'
@@ -92,6 +93,7 @@ page_builder:
         elevation: -361
         meals_included:
           - breakfast
+        photo: tours/liguria-cinque-terre-coastal-walking-tour-1/amalfi.jpg
       -
         id: mlop159i
         title: 'Day 3:  Walk above the coast'
@@ -101,6 +103,7 @@ page_builder:
         elevation: 261
         meals_included:
           - breakfast
+        photo: tours/liguria-cinque-terre-coastal-walking-tour-1/img_4282.jpeg
       -
         id: mlop3c5r
         title: 'Day 4:  Climbiing high'
@@ -110,6 +113,7 @@ page_builder:
         elevation: 570
         meals_included:
           - breakfast
+        photo: tours/liguria-cinque-terre-coastal-walking-tour-1/b.jpg
       -
         id: mlop5205
         title: 'Day 5:  Walk the Path of the Gods'
@@ -119,6 +123,7 @@ page_builder:
         elevation: 517
         meals_included:
           - breakfast
+        photo: tours/liguria-cinque-terre-coastal-walking-tour-1/view-to-positano.jpg
       -
         id: mlop6avf
         title: 'Day 6:  Transfer to Naples'
@@ -128,7 +133,134 @@ page_builder:
         elevation: 181
         meals_included:
           - breakfast
+        photo: tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
     type: itinerary
+    enabled: true
+  -
+    id: OR8Dy9UjbFMvJq7xEKVOz
+    title: 'Amalfi Coast Experience'
+    tabs:
+      -
+        id: UWuoa3i6XJocQEfsXVRkm
+        title: Walks
+        grade: 0
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The walks take between 3 to 5 hours.\_ The distances are short but the paths for two of the walks run approximately 400 metres above sea level meaning a stiff climb up old stone stairs to get to the start. \_For this reason we have introduced shorter, less demanding alternative walks on Days 2, 4 and 5.  While the walks generally follow clearly marked, centuries old paths, there are a couple of sections, where you will have to pay attention!\_ Full details on each walk are on the itinerary.  "
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: 'The self-guided itineraries are rewalked and the notes updated each year.'
+        start_location: Ravello
+        finish_location: Positano
+        image: tours/img_2481.jpeg
+        type: walk
+        enabled: true
+      -
+        id: Xw8j3JVBxDHhDIwMMwxU1
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Hidden Italy tours use the best available accommodation.\_ On the Amalfi Coast walking tour this means staying each night in very good, centrally located, hotels (most with swimming pools) with whom we've been working for years.\_ The Standard option uses 3-star hotels while the Superior option uses 4-star hotels. \_ We request rooms with sea views. \_All rooms have en suite bathrooms."
+        images:
+          - tours/hotel-positano.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: AaYAvgyA02X1tONQIc3pZ
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Campania, is a region of contrasts and this is reflected in region's cuisine.\_ With pasta and spaghetti, Campania created dishes that are not only part of the national cuisine but also international gastronomy.\_ Cooking on the Amalfi Coast, is simple, preserving the freshness of its ingredient, including its exceptional vegetables and fruit, grown in volcanic soils, as well as its abundant fresh fish.\_ Campania's excellent wines, which grown around Ischia, Capri, Vesuvius and the Sorrentine Peninsula, have a very long history, dating back to Greek and Roman times."
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+        images:
+          - tours/c.jpg
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: nM9adWkZwzsoqHX-oyWUI
+    title: 'What you should know'
+    sections:
+      -
+        id: h2bGCcQ3XOfQ8N8aiZJiL
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: yPo9sXUggQjlzOvcgQtDP
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_ "
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.hiddenitaly.com.au/footer/default.aspx?p=14'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Click here for full T&C’s'
+        type: booking_cancellation
+        enabled: true
+      -
+        id: VUBY-9PSL_n54qEGZwqLQ
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance.\_ "
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.hiddenitaly.com.au/footer/default.aspx?p=14'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Click here for full T&C’s'
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
