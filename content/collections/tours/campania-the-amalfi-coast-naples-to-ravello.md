@@ -9,7 +9,7 @@ days: 13
 seasons: spring
 grade: 2
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775006049
+updated_at: 1775007165
 summary: 'Campania a stunningly beautiful area with all the exuberance and colour of southern Italy.'
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15
@@ -132,7 +132,6 @@ page_builder:
         title: 'Day 6:'
         description: "Today we explore the fine wines and cuisine of the district.  After a late start, we will visit one of the region’s finest producers, where we’ll visit their wonderful vineyard and cellars, have a degustation of the wines and a light lunch, before returning to our base for a bit of R&R.  After the siesta, we'll have dinner in our town."
         meals_included:
-          - breakfast
           - lunch
           - dinner
         photo: tours/campania-the-amalfi-coast-naples-to-ravello/img_2094.jpeg
@@ -147,6 +146,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/campania-the-amalfi-coast-naples-to-ravello/img_3162.jpg
       -
         id: mlonsfkn
         title: 'Day 8:  Transfer to the Pollicastro Gulf'
@@ -154,6 +154,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/campania-the-amalfi-coast-naples-to-ravello/maratea-2.jpg
       -
         id: mlonw8im
         title: 'Day 9:  Go for a spectacular walk above the sea'
@@ -165,6 +166,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/campania-the-amalfi-coast-naples-to-ravello/maratea-5.jpg
       -
         id: mlonyye8
         title: 'Day 10:  Go boating up the coast'
@@ -175,6 +177,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
       -
         id: mloo1bta
         title: 'Day 11:  Transfer to the Amalfi Coast'
@@ -182,6 +185,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/campania-the-amalfi-coast-naples-to-ravello/img_5314.jpeg
       -
         id: mloo58a6
         title: 'Day 12:  A glorious walk to Amalfi'
@@ -193,10 +197,14 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/campania-the-amalfi-coast-naples-to-ravello/1.jpg
       -
         id: mloo6vkh
         title: 'Day 13:  Transfer to Naples'
         description: 'In the morning we will be transferred back to Naples, an hour’s drive from Ravello, which has national and international rail and air connections.  The transfer is scheduled for 08.30.  First stop Naples Centrale station (around 10.00) and then Naples airport (around 10.30).'
+        photo: tours/campania-the-amalfi-coast-naples-to-ravello/img_2509-v2.jpg
+        meals_included:
+          - breakfast
     type: itinerary
     enabled: true
 simple_likes: 0
