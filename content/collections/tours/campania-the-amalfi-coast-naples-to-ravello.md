@@ -9,7 +9,7 @@ days: 13
 seasons: spring
 grade: 2
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896237
+updated_at: 1775006049
 summary: 'Campania a stunningly beautiful area with all the exuberance and colour of southern Italy.'
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15
@@ -87,6 +87,7 @@ page_builder:
         description: 'Our accommodation is an elegant 4-star hotel in a pedestrian precinct a short walk from Via Toledo.  After meeting in the foyer at 19.00, we will walk to a sophisticated nearby restaurant for dinner.'
         meals_included:
           - dinner
+        photo: tours/campania-the-amalfi-coast-naples-to-ravello/1.5.png
       -
         id: mlondlri
         title: 'Day 2:  Explore the city'
@@ -94,6 +95,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/campania-the-amalfi-coast-naples-to-ravello/3.8.jpg
       -
         id: mlonefs6
         title: 'Day 3:  Climb Mount Vesuvius and more'
@@ -104,6 +106,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/campania-the-amalfi-coast-naples-to-ravello/img_1475.jpeg
       -
         id: mlonggeq
         title: 'Day 4:  Drive into the interior'
@@ -112,6 +115,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/campania-the-amalfi-coast-naples-to-ravello/img_4724-v2.jpg
       -
         id: mlonj7ll
         title: 'Day 5:  Go walking in the mountains'
@@ -122,6 +126,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/campania-the-amalfi-coast-naples-to-ravello/13.5.jpg
       -
         id: mlonlca0
         title: 'Day 6:'
@@ -130,6 +135,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/campania-the-amalfi-coast-naples-to-ravello/img_2094.jpeg
       -
         id: mlonqtn1
         title: 'Day 7:  Have a picnic lunch in a beech forest'
