@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896407
+updated_at: 1775015752
 grade: 4
 summary: 'Follow ancient paths through fishing villages and forests on the beautiful Italian Riviera'
 overview:
@@ -155,4 +155,18 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
+image: tours/liguria-italian-riviera-1-self-guided-walk/18.jpg
+gallery:
+  - tours/liguria-italian-riviera-1-self-guided-walk/1.jpg
+  - tours/liguria-italian-riviera-1-self-guided-walk/6.jpg
+  - tours/liguria-italian-riviera-1-self-guided-walk/img_9103-a.jpg
+  - tours/liguria-italian-riviera-1-self-guided-walk/21.2.jpg
+  - tours/liguria-italian-riviera-1-self-guided-walk/30.jpg
+  - tours/liguria-italian-riviera-1-self-guided-walk/porto.jpg
+  - tours/liguria-italian-riviera-1-self-guided-walk/img_9183-a.jpg
+  - tours/liguria-italian-riviera-1-self-guided-walk/nastasia-yakoub-4nreelf-_6c-unsplash-a.jpg
+  - tours/liguria-italian-riviera-1-self-guided-walk/chiavari-26.jpg
+  - tours/liguria-italian-riviera-1-self-guided-walk/18.jpg
+  - tours/liguria-italian-riviera-1-self-guided-walk/img_4828-a.jpg
+  - tours/liguria-italian-riviera-1-self-guided-walk/27-a.jpg
 ---
