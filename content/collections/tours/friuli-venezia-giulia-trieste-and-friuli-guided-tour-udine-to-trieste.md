@@ -7,7 +7,7 @@ tour_types: guided
 region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775009068
+updated_at: 1775009186
 grade: 4
 summary: 'A special tour to a fascinating region: 3 borders, 4 national parks; and five languages.'
 overview:
@@ -262,6 +262,68 @@ page_builder:
     id: pSNURlLFvvD4ZnJrFvQah
     title: 'Tour Leader'
     type: leader
+    enabled: true
+    person: 23e6d349-a85f-443a-83be-9d3a0f718a23
+  -
+    id: vd-bo2xUCPV3g4gawnBeq
+    title: 'What you should know'
+    sections:
+      -
+        id: cG6TKA2ZnYvsM18po74m9
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: TM9uaf0LiZ7YC7U80RvST
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_ "
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.hiddenitaly.com.au/footer/default.aspx?p=14'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Click here for full T&C’s'
+        type: booking_cancellation
+        enabled: true
+      -
+        id: 4G8toHgW0GTPYrtT6IDkl
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_ "
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.hiddenitaly.com.au/footer/default.aspx?p=14'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Click here for full T&C’s'
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 seasons: autumn
