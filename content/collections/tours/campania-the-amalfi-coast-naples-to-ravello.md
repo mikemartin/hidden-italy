@@ -9,7 +9,7 @@ days: 13
 seasons: spring
 grade: 2
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775007546
+updated_at: 1775007760
 summary: 'Campania a stunningly beautiful area with all the exuberance and colour of southern Italy.'
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15
@@ -273,6 +273,68 @@ page_builder:
     id: FZPAH5g2-0cnT7cqJUPaV
     title: 'Tour Leader'
     type: leader
+    enabled: true
+    person: b08df9d3-3d2e-4ee5-a911-dfc4c430c7e4
+  -
+    id: Wbn93LssKpNECI5qeXTCy
+    title: 'What you should know'
+    sections:
+      -
+        id: sb8Jm3-sjh2LBbDGDpZcq
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: hd8c0SU4kAwmaNl6cpo2P
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_ "
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.hiddenitaly.com.au/footer/default.aspx?p=14'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Click here for full T&C’s'
+        type: booking_cancellation
+        enabled: true
+      -
+        id: 77WsuV6l4MFHMzfibNYnJ
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_ "
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.hiddenitaly.com.au/footer/default.aspx?p=14'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Click here for full T&C’s'
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 locations: southern-italy
