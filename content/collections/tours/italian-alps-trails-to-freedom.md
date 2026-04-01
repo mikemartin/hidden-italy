@@ -270,11 +270,87 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+  -
+    id: t9ajidL_bIDpc33abj59O
+    title: 'What you should know'
+    sections:
+      -
+        id: PxEObY82TNkjub2BrHPjr
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Because several of the legs do not have car access, you will need to carry your own gear for the week.\_ We will provide you with a comprehensive (and prescriptive) list of what is required (nothing more and nothing less!).\_ The first requirement is a good quality 35 to 40 litre backpack.\_ The total loaded weight should be no more than 12 kilos.\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: 'Please note, that the rest of our luggage will be stored in Biella for the duration of the walk and then will be forwarded to Macugnaga, and will be waiting for us at the end of the walk.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "As mentioned, the trail is well maintained, well-marked and there will be other people walking the route, however, the trail does pass through long stretches of uninhabited land at high altitude where the weather can change quickly so safety is a priority. \_The main safety requirements are a high level of fitness and common sense. \_We will be accompanied by certified mountain guides and there is the mountain rescue service as backup."
+        type: equipment
+        enabled: true
+      -
+        id: d8LK2_zMPsH-CNpC2XemQ
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_ "
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.hiddenitaly.com.au/footer/default.aspx?p=14'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Click here for full T&C’s'
+        type: booking_cancellation
+        enabled: true
+      -
+        id: VK4nnEYrUArsvVORDLHT6
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_ "
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.hiddenitaly.com.au/footer/default.aspx?p=14'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Click here for full T&C’s'
+        type: travel_insurance
+        enabled: true
+    type: essentials
+    enabled: true
 tour_types: guided
 seasons: summer
 locations: northern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774917320
+updated_at: 1775011891
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
