@@ -9,7 +9,7 @@ days: 13
 seasons: spring
 grade: 2
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775007207
+updated_at: 1775007456
 summary: 'Campania a stunningly beautiful area with all the exuberance and colour of southern Italy.'
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15
@@ -206,6 +206,68 @@ page_builder:
         meals_included:
           - breakfast
     type: itinerary
+    enabled: true
+  -
+    id: Hyi4uHW_dRdqSqYlispaP
+    title: 'Campania and Amalfi Coast Experience'
+    tabs:
+      -
+        id: fYIXmjYPBmHhUcM3k3JuE
+        title: Walks
+        grade: 0
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The walks on this tour are as varied as the region itself.\_ They include a short walk up to the crater of Mt Vesuvius; two beautiful walks in the dappled beech forests of the mountains of the Picentini National Park; a ridge walk above the Pollicastro Gulf, which finishes with lunch on a beach;\_ and a looping walk through forest that links Ravello with Amalfi, enjoying spectacular views over the sea along the way.\_ The walks are between 4 to 12 kilometres long.\_ They follow good trails over generally undulating terrain.\_ There are a couple of short steep sections along the way.\_ Please see the daily for the details of each walk."
+        start_location: Naples
+        finish_location: Ravello
+        image: tours/img_2369-v2-1775006818.jpg
+        type: walk
+        enabled: true
+      -
+        id: RNgVDy8HXrH-vhRmxQIoy
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The accommodation is one of the highlights of the tour.\_ In Naples we stay in a very nice 4-star in the centre of the city, near Via Toledo.\_ In the Apennines, our base is an hour and a half east of Naples, well off the beaten tourist trails.\_ We will be staying in a lovely family-run country hotel in a small hilltop town that looks over to the mountai.\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "We then head south to the border between Campania and Basilicata.\_ Here we spend three nights in a 4-star hote, a restored 18th century monastery, in the heart of a town with views over the Pollicastro Gulf.\_ The hotel has beautiful gardens and a great swimming pool."
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'The tour finishes in marvellous Ravello, perched high above the Amalfi Coast. Our accommodation is another 4-star hotel, also with gardens, a swimming pool and great views, a short walk from the mian piazza and from Villa Cimbrone.'
+        images:
+          - tours/maratea-1.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: Tdo-BVjfyAiIML-632W0V
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "At one time the capital of a kingdom, Naples, and the surrounding region of Campania, is a land of contrasts, and this is reflected in region's cuisine. The poorest and most authentic cooking is intermingled with that of the nobility, which draws heavily from French traditions. With pizza, spaghetti, mozzarella and expresso coffee, Campania created dishes that are not only part of the national cuisine but also part of international gastronomy. \_Campanian cooking is often simple, the chefs respecting the freshness and integrity of their excellent ingredients: vegetables and fruit grown in volcanic soils as well as the abundant fresh fish.\_ We’ll have plenty of opportunity to sample this in all its variety as we move from the city to the mountains and then the coast.\_ Campania's excellent wines also have a very long history, dating back to Greek and Roman times.\_\_Wine is included with each meal."
+        images:
+          - tours/22.5.jpg
+        type: food
+        enabled: true
+    type: experience
     enabled: true
 simple_likes: 0
 locations: southern-italy
