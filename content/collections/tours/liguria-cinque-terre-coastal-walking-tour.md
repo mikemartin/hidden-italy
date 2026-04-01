@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775014301
+updated_at: 1775015099
 grade: 3
 summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
 overview:
@@ -136,6 +136,104 @@ page_builder:
           - breakfast
         photo: tours/liguria-cinque-terre-coastal-walking-tour/siret-jaksic-yats80aqvmm-unsplash.jpg
     type: itinerary
+    enabled: true
+  -
+    id: I4oWuumPU31wnOL_G34Pw
+    title: 'Cinque Terre Experience'
+    tabs:
+      -
+        id: VPMYlzlYJW_a-h4wvNqkO
+        title: Walks
+        grade: 3
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "You follow well-marked tracks; and there are some long climbs up stone stairs.\_ The trails between Monterosso and Vernazza and Vernazza and Riomaggiore can get busy in summer but the crowds (usually daytrippers) can be avioded by getting early starts.\_ The walks can be comfortably done in half a day, which leaves you plenty of time to explore the little villages you'll be staying in.\_ Full details on each walk are on the itinerary."
+        start_location: Levanto
+        finish_location: Portovenere
+        image: tours/img_1544.jpg
+        type: walk
+        enabled: true
+      -
+        id: uhLUaATLOCO40xXP-F75V
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Hidden Italy uses the best accommodation available.\_ On the Cinque Terre this means very comfortable, centrally located, family-run hotels. All rooms have en suite bathrooms and air-conditioning.\_ Please bear in mind that these are essentially small fishing villages and don't have a range of accommodation options."
+        images:
+          - tours/terrazza_hotel_villa_argentina.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: '-1bLf_gGa2RXKSAioqeIB'
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Ligurians like to use their own trusted products which come from the 350 kilometres of coastline with it rough, mountainous hinterland or is fished out of ther own waters.\_ It is an austere but delicous style of cooking that has produced such specialities as pesto sauce and foccaccia.\_ Even the wines, grown with great effort on the steep, rocky terraces seems to have been invented in Liguria, and suits the local food perfectly."
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+        images:
+          - tours/siret-jaksic-yats80aqvmm-unsplash.jpg
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: eh8PmKp4Cq_7wwiLYbnlP
+    title: 'What you should know'
+    sections:
+      -
+        id: lR_EB8wZUKD7jAu_zuDh1
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: BInKAkAuPGl2lRZEeKwBO
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+        type: booking_cancellation
+        enabled: true
+      -
+        id: 7AbVoumW1bIko2FTxevO4
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
