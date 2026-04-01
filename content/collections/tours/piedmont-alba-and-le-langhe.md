@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Piedmont
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775020901
+updated_at: 1775021413
 grade: 3
 summary: 'An 8-day tour that takes you through the seductive rolling hills of southern Piedmont.'
 overview:
@@ -76,6 +76,7 @@ page_builder:
         id: mlooymbz
         title: 'Day 1: Transfer from Turin to Alba'
         description: 'You will be taken by private transfer from Turin to beautiful Alba, 95 kilometres south.  The plan of the historic centre of Alba reflects its Roman origins (an orderly grid tucked behind defensive walls) while its narrow streets are decidedly medieval, complete with a five brick tower-houses that date from the 13th century.'
+        photo: tours/piedmont-alba-and-le-langhe/alba-2.jpg
       -
         id: mloozlek
         title: 'Day 2:  Walk along the Tanaro River'
@@ -85,6 +86,7 @@ page_builder:
         elevation: 281
         meals_included:
           - breakfast
+        photo: tours/piedmont-alba-and-le-langhe/monforte-2.5.jpg
       -
         id: mlop159i
         title: 'Day 3:  Walk through vineyards'
@@ -94,6 +96,7 @@ page_builder:
         elevation: 267
         meals_included:
           - breakfast
+        photo: tours/piedmont-alba-and-le-langhe/monforte-17.jpg
       -
         id: mlop3c5r
         title: 'Day 4:  Walk through chestnut forests'
@@ -103,6 +106,7 @@ page_builder:
         elevation: 264
         meals_included:
           - breakfast
+        photo: tours/piedmont-alba-and-le-langhe/4-v2.jpg
       -
         id: mlop5205
         title: 'Day 5:  Walk along a ridge'
@@ -112,6 +116,7 @@ page_builder:
         elevation: 401
         meals_included:
           - breakfast
+        photo: tours/piedmont-alba-and-le-langhe/10-v2.jpg
       -
         id: mlop6avf
         title: 'Day 6:  Walk to the pretty village in the area'
@@ -121,6 +126,7 @@ page_builder:
         elevation: 468
         meals_included:
           - breakfast
+        photo: tours/piedmont-alba-and-le-langhe/img_5836.jpeg
       -
         id: mlop8uiy
         title: 'Day 7:  Head back to Alba'
@@ -130,13 +136,119 @@ page_builder:
         elevation: 135
         meals_included:
           - breakfast
+        photo: tours/piedmont-alba-and-le-langhe/alba-view-2.jpg
       -
         id: mlop9wks
         title: 'Day 8:  Transfer back to Turin'
         description: 'After breakfast, you will be taken by private vehicle back to Turin, 95 kilometres to the north.'
         meals_included:
           - breakfast
+        photo: tours/piedmont-alba-and-le-langhe/k.jpg
     type: itinerary
+    enabled: true
+  -
+    id: WkSha4RzUHTVzyntjtSpa
+    title: 'Alba and Le Langhe Experience'
+    tabs:
+      -
+        id: AQLrEh44beSblC6yaQZgA
+        title: Walks
+        grade: 3
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The trails are well-marked and generally follow unsealed country lanes over rolling hills often through vineyards and orchards. There are the occasional rougher sections and some asphalt walking into and out of the larger towns.\_ The walks on Day 5 is 17 kms and on Day 6 is 19 km, which will take around 5 hours walking.\_ With notice, both walks can be shortened.\_ Full details on each walk are on the itinerary"
+        start_location: Turin
+        finish_location: Alba
+        image: tours/5.jpg
+        type: walk
+        enabled: true
+      -
+        id: RWbepClQNMoJHh8prXiV2
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Alba and the Langhe have a long history of hospitality and offer a range of very comfortable and welcoming accommodation. \_During the walk you will stay in a variety of accommodation including 4-star hotels (in Alba on Days 1 and 7 and on Day 5); an ex-castle/vineyard which once belonged to the king of Italy (Day 2); a lovely small hotel in the heart of the prettiest village in the district (Day 6) and an agriturismo outside a small hilltop village, which has a pool and an excellent restaurant\_ (Day 4).\_ All the accommodation has ensuite services."
+        images:
+          - tours/benevello-6.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: 3tlodKMRpo2wJKn_syRpt
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Alba and the Langhe is one of Italy’s gastronomic and wine capitals so you will eat and drink very well during this tour (just as well there are some long walks!).\_ According to Pliny the Elder and Strabo, this area was producing fine wines in Roman times.\_ It’s modern manifestation started in the mid-1800s with the introduction of production techniques from nearby France.\_ Big, bold Barolo, the flagship wine, is recognised as one of the finest reds in Europe.\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The area is also famous for its food:\_ the white truffles; cheeses like toma and castelmagno; Carru beef and traditional dishes such as agnolotti (local ravioli); tajarin (‘angel hair’ pasta usually served with truffles or porcini mushrooms); bagna caoda (boiled meats); vitello tonnato; brasato al Barolo (beef stewed in Barolo); coniglio con pepperoni (rabbit slow cooked in white wine with bell peppers) and bonet (a rich chocolate pudding)."
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+        images:
+          - tours/9.jpg
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: 0Yx1fxR_ygFXnR6uZPoAm
+    title: 'What you should know'
+    sections:
+      -
+        id: 2kijTuCwT4FnieL72cjfY
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: 7xQZYtdCVax63-AkNLjM3
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+        type: booking_cancellation
+        enabled: true
+      -
+        id: GUKkNfCeh9jI4prFFTumt
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 image: tours/piedmont-alba-and-le-langhe/7-v2.jpg
