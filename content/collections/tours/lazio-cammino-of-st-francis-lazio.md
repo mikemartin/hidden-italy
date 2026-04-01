@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Lazio
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775012262
+updated_at: 1775012607
 grade: 3
 summary: 'From the quiet green hills of central Italy to the steps of St Peters in the heart of Rome'
 overview:
@@ -139,6 +139,102 @@ page_builder:
           - breakfast
         photo: tours/lazio-cammino-of-st-francis-lazio/20.jpg
     type: itinerary
+    enabled: true
+  -
+    id: Jklx_3F65rDcMelahRi2I
+    title: 'Lazio 1 Experience'
+    tabs:
+      -
+        id: zxktSz2B6F5A-gtT8KePT
+        title: Walk
+        grade: 4
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "There are three long walks: Day 2, 21 kms; Day 4, 17 kms and Day 5, 26 kms (please note that this latter walk can be broken into two separate walks of 8 and 18 kms).\_ Until reaching the outer suburbs of Rome on the penultimate day, the walk takes you through forested hills and rolling farmlands following predominantly unsealed roads and asphalted country lanes and is well-marked.\_ In Rome you follow paved 'greenways' through park-lands and along the Tiber River, and suburban streets. Full details on each walk are on the itinerary.\_ The self-guided itineraries are re-walked and the notes updated each year."
+        start_location: Rieti
+        finish_location: 'Rome (Vatican)'
+        image: tours/14.jpg
+        type: walk
+        enabled: true
+      -
+        id: 3hNY7PB8TsiGICLpeht9g
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "In the spirit of the long-distance pilgrimage, we have sought to keep the costs down. The tour starts on Day 1 in a 3-star hotel near the main square in Rieti and finishes in a lovely boutique hotel a short walk from the Vatican.\_ Along the way, you stay in the best accommodation available:\_ very attracitve agriturismo’s on Days 2 and 4; a private apartment on Day 3; a fantastic 3-star in the historic centre of a buzzy agricultural centre on Day 5 and a smart hotel in the Monte Sacro district of Rome on Day 6."
+        type: accommodation
+        enabled: true
+      -
+        id: W8rMzD2R7Q1wbO80cJWG6
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The food in regional Lazio is generally robust country cooking, dependent on seasonal offerings and influenced by the cuisine of the Capital, eg first courses may include bucatini (a thick spaghetti with a rich sauce such as cacio e pepe (pecorino cheese with pepper) or the famous carbonara (eggs, smoked pork cheek, pecorino and parmesan cheese).\_ Apart from the standard offers of veal and beef, seconds might include more interesting fare like baccala (salted cod); oxtail stew; lamb and all types of offal (tongue, liver and tripe).\_ Artichokes are the quintessential Roman vegetable either stuffed with garlic and mint and stewed or served in the ‘Jewish style’, flattened and deep fried in olive oil.\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+        images:
+          - tours/14.5.jpg
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: RtkRoZFEI8JOxPWYEyXEd
+    title: 'What you should know'
+    sections:
+      -
+        id: 2Fw_88CGlqYx7yqROFXHp
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: xNxkK8WBnknJ-CRJsgUU6
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_ "
+        type: booking_cancellation
+        enabled: true
+      -
+        id: hJil6lKSTaaiYP_aWBBXn
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_ "
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 gallery:
