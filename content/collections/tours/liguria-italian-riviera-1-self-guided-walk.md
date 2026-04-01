@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775015752
+updated_at: 1775015861
 grade: 4
 summary: 'Follow ancient paths through fishing villages and forests on the beautiful Italian Riviera'
 overview:
@@ -91,6 +91,7 @@ page_builder:
         id: mlooymbz
         title: 'Day 1: Arrive in Genova'
         description: 'Staying in a comfortable hotel in the medieval centre of Genoa, your first day is an opportunity to explore the treasures of a city that once ruled the Mediterranean and was known for centuries as La Superba (the Proud).  Genoa preserves many relics of its ancient and honourable history, including numerous palaces and magnificent art collections of its maritime families, as well as its colourful old port.'
+        photo: tours/liguria-italian-riviera-1-self-guided-walk/img_9103-a.jpg
       -
         id: mloozlek
         title: 'Day 2:  Walk along the coast'
@@ -100,6 +101,7 @@ page_builder:
         elevation: 218
         meals_included:
           - breakfast
+        photo: tours/liguria-italian-riviera-1-self-guided-walk/6.jpg
       -
         id: mlop159i
         title: 'Day 3:  Walk to Camogli'
@@ -109,6 +111,7 @@ page_builder:
         elevation: 263
         meals_included:
           - breakfast
+        photo: tours/liguria-italian-riviera-1-self-guided-walk/18.jpg
       -
         id: mlop3c5r
         title: 'Day 4:  Walk to Portofino'
@@ -118,6 +121,7 @@ page_builder:
         elevation: 271
         meals_included:
           - breakfast
+        photo: tours/liguria-italian-riviera-1-self-guided-walk/porto.jpg
       -
         id: mlop5205
         title: 'Day 5:  Walk through the Portofino park'
@@ -127,6 +131,7 @@ page_builder:
         elevation: 203
         meals_included:
           - breakfast
+        photo: tours/liguria-italian-riviera-1-self-guided-walk/nastasia-yakoub-4nreelf-_6c-unsplash-a.jpg
       -
         id: mlop6avf
         title: 'Day 6:  Walk along the Tigullio Gulf'
@@ -136,6 +141,7 @@ page_builder:
         elevation: 181
         meals_included:
           - breakfast
+        photo: tours/liguria-italian-riviera-1-self-guided-walk/21.2.jpg
       -
         id: mmin3e1a
         title: 'Day 7:  Walk to Sestri Levante'
@@ -145,12 +151,14 @@ page_builder:
         elevation: 230
         meals_included:
           - breakfast
+        photo: tours/liguria-italian-riviera-1-self-guided-walk/27-a.jpg
       -
         id: mmin5pe3
         title: 'Day 8:  Depart Sestri Levante'
         description: 'Sestri Levante is on the Genoa/La Spezia line well serviced by regular trains in either direction (including to the Cinque Terre, three stops away to the east).'
         meals_included:
           - breakfast
+        photo: tours/liguria-italian-riviera-1-self-guided-walk/chiavari-26.jpg
     type: itinerary
     enabled: true
 simple_likes: 0
