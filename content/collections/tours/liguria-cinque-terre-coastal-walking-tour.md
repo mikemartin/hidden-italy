@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896377
+updated_at: 1775014301
 grade: 3
 summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
 overview:
@@ -77,6 +77,7 @@ page_builder:
         id: mlooymbz
         title: 'Day 1: Arrive in Levanto'
         description: 'The tour starts in Levanto, a charming and unpretentious town on the main Genoa/Rome railway line with a sandy beach and a wonderful new cycle-way, a thoroughly Italian sea-side resort.'
+        photo: tours/liguria-cinque-terre-coastal-walking-tour/levanto-1-1775014187.jpg
       -
         id: mloozlek
         title: 'Day 2:  Walk to Monterosso'
@@ -86,6 +87,7 @@ page_builder:
         elevation: 314
         meals_included:
           - breakfast
+        photo: tours/liguria-cinque-terre-coastal-walking-tour/monterosso-9.jpg
       -
         id: mlop159i
         title: 'Day 3:  Walk through vineyards'
@@ -95,6 +97,7 @@ page_builder:
         elevation: 200
         meals_included:
           - breakfast
+        photo: tours/liguria-cinque-terre-coastal-walking-tour/vernazza-3-a.jpg
       -
         id: mlop3c5r
         title: 'Day 4:  Walk to Riomaggiore'
@@ -104,6 +107,7 @@ page_builder:
         elevation: 184
         meals_included:
           - breakfast
+        photo: tours/liguria-cinque-terre-coastal-walking-tour/vernazza-10-a.jpeg
       -
         id: mlop5205
         title: 'Day 5:  Walk to Portovenere'
@@ -113,6 +117,7 @@ page_builder:
         elevation: 563
         meals_included:
           - breakfast
+        photo: tours/liguria-cinque-terre-coastal-walking-tour/portovenere-town-1.jpg
       -
         id: mlop6avf
         title: 'Day 6:  Do a lap of Palmaria island'
@@ -122,14 +127,30 @@ page_builder:
         elevation: 181
         meals_included:
           - breakfast
+        photo: tours/liguria-cinque-terre-coastal-walking-tour/camogli-5.jpg
       -
         id: mlop8uiy
         title: 'Day 7:  Transfer to La Spezia'
         description: "After breakfast, you'll be transferred by private vehicle to La Spezia (30 minutes away) a busy and colourful port, with a number of excellent museums, a picturesque harbour and daily markets.  La Spezia has regular rail connections to Rome, Florence and Milan."
         meals_included:
           - breakfast
+        photo: tours/liguria-cinque-terre-coastal-walking-tour/siret-jaksic-yats80aqvmm-unsplash.jpg
     type: itinerary
     enabled: true
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
+image: tours/liguria-cinque-terre-coastal-walking-tour/vernazza-8-a.jpg
+gallery:
+  - tours/liguria-cinque-terre-coastal-walking-tour/levanto-1.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/monterosso-9.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/img_4637-a.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-2.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-11.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-10-a.jpeg
+  - tours/liguria-cinque-terre-coastal-walking-tour/djedj-cinque-terre-2928723_1920-a.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-6.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/manarola-1-a.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/44.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/portovenere-town-1.jpg
+  - tours/liguria-cinque-terre-coastal-walking-tour/siret-jaksic-yats80aqvmm-unsplash.jpg
 ---
