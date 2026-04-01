@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Piedmont
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896524
+updated_at: 1775020901
 grade: 3
 summary: 'An 8-day tour that takes you through the seductive rolling hills of southern Piedmont.'
 overview:
@@ -139,4 +139,18 @@ page_builder:
     type: itinerary
     enabled: true
 simple_likes: 0
+image: tours/piedmont-alba-and-le-langhe/7-v2.jpg
+gallery:
+  - tours/piedmont-alba-and-le-langhe/alba-2.jpg
+  - tours/piedmont-alba-and-le-langhe/10-v2.jpg
+  - tours/piedmont-alba-and-le-langhe/9.jpg
+  - tours/piedmont-alba-and-le-langhe/4-v2.jpg
+  - tours/piedmont-alba-and-le-langhe/5.jpg
+  - tours/piedmont-alba-and-le-langhe/12.jpg
+  - tours/piedmont-alba-and-le-langhe/7-v2.jpg
+  - tours/piedmont-alba-and-le-langhe/3.jpg
+  - tours/piedmont-alba-and-le-langhe/monforte-17.jpg
+  - tours/piedmont-alba-and-le-langhe/monforte-18.jpg
+  - tours/piedmont-alba-and-le-langhe/monforte-2.5.jpg
+  - tours/piedmont-alba-and-le-langhe/img_5838.jpg
 ---
