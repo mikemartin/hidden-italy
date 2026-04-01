@@ -7,7 +7,7 @@ tour_types: guided
 region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775008421
+updated_at: 1775009068
 grade: 4
 summary: 'A special tour to a fascinating region: 3 borders, 4 national parks; and five languages.'
 overview:
@@ -207,6 +207,61 @@ page_builder:
           - breakfast
         photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/87.5.jpg
     type: itinerary
+    enabled: true
+  -
+    id: N9Dhm5hY_vmH4K2bQRXCQ
+    title: 'Trieste and Friuli Experience'
+    tabs:
+      -
+        id: Uc-1uEYyywlP03OD_0Vbp
+        title: Walks
+        grade: 3
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'With its pristine forests, national parks and fascinating history, FVG offers some wonderful walks, including: exploring the valleys and mountains of the Carnian Alps; following the historic trails through the hills that hug the Slovenian border; walking through the vineyards of the Collio region; and a stroll along the Adriatic Coast The walks range from 8 to 17 kms and follow well-marked trails, mostly unsealed country roads. In some cases it is possible to shorten the walk or to opt out and join the walkers for lunch.'
+        start_location: Udine
+        finish_location: Trieste
+        image: tours/4.1.jpg
+        type: walk
+        enabled: true
+      -
+        id: m3JEmFcFMlSJsJDXjvTXC
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The tour starts with two nights in a classic four-star hotel in the centre of Udine and finishes in one of the grand hotels of Italy: set in an elegant\_palazzo dating from 1727\_overlooking the Piazza Unita d'Italia, the heart of Trieste.\_ In between, we stay in a beautiful small hotel in the mountains for four nights and\_another\_four nights in a family-run hotel in the heart of a lovely town on the Natisone River that was founded by Julius Caesar"
+        images:
+          - tours/3.5.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: DmGhPijoLKwyK7wVV3wDo
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "With its long coastline, fertile plains, unspoilt mountains and ancient traditions, the food of Friuli is as diverse as the region itself.\_ Friuli also produces some of Italy's finest ingredients, including Collio wines, San Daniele ham and Montasio cheese.\_ You will have plenty of opportunity to experience these along the way, including dining at stylish city restaurants; simple home-cooked fare in the mountains; a long lunch at a Michelin-starred trattoria in the country; finishing with a delicious seafood lunch overlooking the Gulf of Trieste.\_ Wine is included with the meals."
+        images:
+          - tours/img_3936.jpeg
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: pSNURlLFvvD4ZnJrFvQah
+    title: 'Tour Leader'
+    type: leader
     enabled: true
 simple_likes: 0
 seasons: autumn
