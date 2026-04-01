@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896435
+updated_at: 1775017439
 grade: 4
 summary: "Walk Italy's most celebrated coastline from romantic Sestri Levante to the Cinque Terre!"
 overview:
@@ -76,6 +76,7 @@ page_builder:
         id: mlooymbz
         title: 'Day 1: Arrive in Sestri Levante'
         description: 'The tour starts in Sestri Levante, a very attractive resort town that is built along a peninsula , with a bay on either side: the charming Bay of Silence and the Bay of Fairies (name in honour of Hans Christian Anderson who lived here in the 1880s).  Peninsula ends with a forested hill a monastery on top.'
+        photo: tours/liguria-italian-riviera-2-self-guided-walk/1.jpg
       -
         id: mloozlek
         title: 'Day 2:  Walk along the coast'
@@ -85,6 +86,7 @@ page_builder:
         elevation: 368
         meals_included:
           - breakfast
+        photo: tours/liguria-italian-riviera-2-self-guided-walk/8.jpg
       -
         id: mlop159i
         title: 'Day 3:  Walk to Camogli'
@@ -94,6 +96,7 @@ page_builder:
         elevation: 333
         meals_included:
           - breakfast
+        photo: tours/liguria-italian-riviera-2-self-guided-walk/framura-5.jpg
       -
         id: mlop3c5r
         title: 'Day 4:  Walk to the Cinque Terre'
@@ -103,6 +106,7 @@ page_builder:
         elevation: 310
         meals_included:
           - breakfast
+        photo: tours/liguria-italian-riviera-2-self-guided-walk/yy.jpg
       -
         id: mlop5205
         title: 'Day 5:  Walk to Vernazza'
@@ -112,6 +116,7 @@ page_builder:
         elevation: 197
         meals_included:
           - breakfast
+        photo: tours/liguria-italian-riviera-2-self-guided-walk/italy-autmun-2013-048.jpg
       -
         id: mlop6avf
         title: 'Day 6:  Walk to Riomaggiore'
@@ -121,6 +126,7 @@ page_builder:
         elevation: 184
         meals_included:
           - breakfast
+        photo: tours/liguria-italian-riviera-2-self-guided-walk/24.jpg
       -
         id: mmin3e1a
         title: 'Day 7:  Walk to Portovenere'
@@ -130,6 +136,7 @@ page_builder:
         elevation: 558
         meals_included:
           - breakfast
+        photo: tours/liguria-italian-riviera-2-self-guided-walk/25.jpg
       -
         id: mmin5pe3
         title: 'Day 8:  Do a lap of Palmaria'
@@ -139,11 +146,161 @@ page_builder:
         duration: 2
         distance: 6
         elevation: 180
+        photo: tours/liguria-italian-riviera-2-self-guided-walk/img_7590.jpg
       -
         id: mmiq1kti
         title: 'Day 9: Private transfer to La Spezia'
         description: 'This morning you have a private transfer to La Spezia, thirty minutes’ drive away.  La Spezia is a busy and colourful port, which has a number of excellent museums and good rail connections.'
+        photo: tours/liguria-italian-riviera-2-self-guided-walk/7.5.jpg
+        meals_included:
+          - breakfast
     type: itinerary
+    enabled: true
+  -
+    id: aTqBWuwV2T0Ga0dhlJHtM
+    title: 'What you should know'
+    sections:
+      -
+        id: wOj-JNVWrDm6WWI7vxuPt
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: GdQITkmA9yqR_8KSN9dC6
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+        type: booking_cancellation
+        enabled: true
+      -
+        id: nDitpnIMRh_hz1jGInUfp
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+        type: travel_insurance
+        enabled: true
+    type: essentials
+    enabled: true
+  -
+    id: CYDj9sHmq-j7AVlxso859
+    title: 'Italian Riviera 2 Experience'
+    tabs:
+      -
+        id: ljsZcf26MaePy5eVgM-9n
+        title: Walks
+        grade: 3
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The trails are well-maintained and clearly marked.\_ The first two walks take you through mountains and valleys covered with beautiful forests with sea views where you will rarely meet another walker.\_"
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: ' They are quite long but can be shortened by taking one of the regular local trains along the way.'
+              -
+                type: text
+                text: "\_ The second section takes you along narrow stone paths of the Cinque Terrre.\_ There are some steep climbs up from the villages to the trail and some steep descents at the end."
+        start_location: 'Sestri Levante'
+        finish_location: Portovenere
+        image: tours/2-1775017239.jpg
+        type: walk
+        enabled: true
+      -
+        id: BXlnSomvhAchT4BY2uOR3
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Hidden Italy uses the best accommodation available.\_ On this walk this means very comfortable, centrally located, family-run hotels, a mix of 4-star hotels, 3-star hotels and a simple, family-run ‘pensione’.\_ All the rooms have en suite bathrooms and air-conditioning.\_ Please bear in mind that the places you are visiting are essentially small fishing villages and don't have a range of accommodation options.\_ Some of the hotels have their own swimming pools and their is always the opportunity to swim at beaches along the way."
+        images:
+          - tours/view-from-window-at-paradiso.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: D9HYmr-1eACWxctvCrZo_
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Like its inhabitants, the food of Ligurian is austere and reserved, based on the finest ingredients hard won from the rocky slopes of the Apennine Mountains and the blue waters of the Mediterranean Sea.\_ The classic dishes are pesto (a basil, pine-nut and garlic paste, traditionally served with a local short pasta and diced potato); focaccia (a dimpled, rustic bread served with herbs and lashing of the excellent local olive oil) and farinata (a delicious flat-bread made from chic peas with more olive oil).\_ There is an abundance of very good seafood, complemented with very good, locally grown vegetables.\_ "
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+        images:
+          - tours/img_7590.jpg
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: 3oo4TYIvgLhZtee48HxI_
+    title: 'What you should know'
+    sections:
+      -
+        id: f7nVkZxcG1Zc0R_IZWszj
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: HUDSfm_stvaX1Egdmo_m_
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+        type: booking_cancellation
+        enabled: true
+      -
+        id: '-O8TyXwHrOQMMNw6WzXaa'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 duplicated_from: c10e8a1d-dab8-454a-8c80-abbba7b0a648
