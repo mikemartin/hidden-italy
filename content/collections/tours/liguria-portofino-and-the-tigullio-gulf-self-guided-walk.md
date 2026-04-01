@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896457
+updated_at: 1775018284
 grade: 3
 summary: 'Spend a week exploring the Portofino National Park and the stupendous Tigullio Gulf!'
 overview:
@@ -85,6 +85,7 @@ page_builder:
         id: mlooymbz
         title: 'Day 1: Arrive in Camogli'
         description: "You start the tour in Camogli, which is on the main La Spezia/Genoa railway line, where you’ll spend your first night in a lovely hotel set in the centre of the town overlooking the sea.  Dickens described Camogli as 'the saltiest, roughest, most piratical little place'.  The rough edges have long gone but it remains one of the most attractive resorts on the coast."
+        photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/moira-nazzari-cbtepzflvtu-unsplash.jpg
       -
         id: mloozlek
         title: 'Day 2:  Walk through the Portofino National Park'
@@ -94,6 +95,7 @@ page_builder:
         elevation: 471
         meals_included:
           - breakfast
+        photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/primaselezione-portofino-7504460_1920.jpg
       -
         id: mlop159i
         title: 'Day 3:  Walk around the Gulf of Tigullio'
@@ -103,6 +105,7 @@ page_builder:
         elevation: 203
         meals_included:
           - breakfast
+        photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/linfer3-santa-margherita-2784154_1920.jpg
       -
         id: mlop3c5r
         title: 'Day 4:  A high forest walk'
@@ -112,6 +115,7 @@ page_builder:
         elevation: -633
         meals_included:
           - breakfast
+        photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/img_4819.jpg
       -
         id: mlop5205
         title: 'Day 5:  Walk to Sestri Levante'
@@ -121,25 +125,125 @@ page_builder:
         elevation: 203
         meals_included:
           - breakfast
+        photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/brendan-greenway-soufafk9-kq-unsplash.jpg
       -
         id: mlop6avf
         title: 'Day 6:  Departure from Sestri Levante'
         description: "After breakfast, you'll be able to continue your holidays.  Sestri Levante is on the Genoa/La Spezia line well serviced by regular trains in either direction (including to the Cinque Terre, three stops away to the east."
         meals_included:
           - breakfast
+        photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/nathan-prost-ivrymcq9jae-unsplash.jpg
     type: itinerary
+    enabled: true
+  -
+    id: mr7Ib2Pvw1h1uzvXMCBRr
+    title: 'Portofino and the Tigullio Gulf Experience'
+    tabs:
+      -
+        id: FMil8DyuNemeDMw9RLcKI
+        title: Walks
+        grade: 1
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The walks range from 6 km to 11 km per day.\_ They follow a combination of trade and pilgrim trails that run above the Liguria coast, climbing up into the forested hills at the beginning each day before dipping down to the bustling coastal towns at the end. The trails follow a combination of ancient paved paths and well-marked walking trails.\_ It is straightforward and without long climbs.\_ Full details on each walk are on the itinerary.\_"
+        start_location: Camogli
+        finish_location: 'Sestri Levante'
+        image: tours/chiavari-6.jpg
+        type: walk
+        enabled: true
+      -
+        id: Y7RPKWLkf_yg7gMHhBjcg
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "You'll be staying in a mix excellent, centrally located, family-run 3 and 4-star hotels that have been operating since the early 1900s.\_ They have comfortable rooms with\_generous breakfasts, en suite bathrooms and sea views."
+        images:
+          - tours/erinsummer-beautiful-5284440_1920-a.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: lEvvsDoQd-h6vNFmRTwBM
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Ligurians like to use their own trusted products which come from the 350 kilometres of coastline with its rough, mountainous hinterland or which is fished out of ther own waters.\_ It is an austere but delicous style of cooking that has produced such specialities as pesto sauce and foccaccia.\_ Even the wines, grown with great effort on the steep, rocky terraces suit the local food perfectly.\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village"
+        images:
+          - tours/chaewon-you-vrngfwxd0nm-unsplash.jpg
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: B3WYPPy01qA_l3x-6nGIy
+    title: 'What you should know'
+    sections:
+      -
+        id: VFmCZxZXVUJ_8-wBGtDXq
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: PH-UyCgMIczjVGmkcHq3B
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+        type: booking_cancellation
+        enabled: true
+      -
+        id: X4jSXN4LtlwiZYvKX-zIA
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 image: tours/liguria-cinque-terre-coastal-walking-tour/georgiana-andreca-h-hkuehqrs0-unsplash-a.jpg
 gallery:
+  - tours/liguria-cinque-terre-coastal-walking-tour/moira-nazzari-cbtepzflvtu-unsplash.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/linfer3-santa-margherita-2784154_1920.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/camogli-5.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/primaselezione-portofino-7504460_1920-a.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/chaewon-you-vrngfwxd0nm-unsplash.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/chiavari-6.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/erinsummer-beautiful-5284440_1920-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/moira-nazzari-cbtepzflvtu-unsplash.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-9-a.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/gabriel-tovar-yzqxu8nrlow-unsplash-a.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/img_4819.jpg
