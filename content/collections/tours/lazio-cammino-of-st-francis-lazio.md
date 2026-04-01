@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Lazio
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896350
+updated_at: 1775012262
 grade: 3
 summary: 'From the quiet green hills of central Italy to the steps of St Peters in the heart of Rome'
 overview:
@@ -70,6 +70,7 @@ page_builder:
         id: mlooymbz
         title: 'Day 1: Arrive in Rieti'
         description: 'Arrival in Rieti, which is well-connected by rail to Rome.  Pre-dating Rome, this small city was a long-time rival of the capital most famously remembered when the founders of Rome kidnapped its women, the ‘Sabines’, to help populate the new city.  Under Roman rule it was known as Umbilicus Italiae (the belly-button of Italy) because it is the geographical centre of the peninsula.  It has an interesting historical centre and is ringed by the Velino River.'
+        photo: tours/lazio-cammino-of-st-francis-lazio/1.5.jpg
       -
         id: mloozlek
         title: 'Day 2:  Walk into the Apennines'
@@ -79,6 +80,7 @@ page_builder:
         elevation: 256
         meals_included:
           - breakfast
+        photo: tours/lazio-cammino-of-st-francis-lazio/7.jpg
       -
         id: mlop159i
         title: 'Day 3:  Ramble through countryside'
@@ -88,6 +90,7 @@ page_builder:
         elevation: 214
         meals_included:
           - breakfast
+        photo: tours/lazio-cammino-of-st-francis-lazio/12.7.jpg
       -
         id: mlop3c5r
         title: 'Day 4:  Farmland and orchards'
@@ -97,6 +100,7 @@ page_builder:
         elevation: 329
         meals_included:
           - breakfast
+        photo: tours/lazio-cammino-of-st-francis-lazio/12.2.jpg
       -
         id: mlop5205
         title: 'Day 5:  Passieggiata and an Orsini palace'
@@ -106,6 +110,7 @@ page_builder:
         elevation: 398
         meals_included:
           - breakfast
+        photo: tours/lazio-cammino-of-st-francis-lazio/13.4.jpg
       -
         id: mlop6avf
         title: 'Day 6:  First contact with Rome'
@@ -115,6 +120,7 @@ page_builder:
         elevation: 132
         meals_included:
           - breakfast
+        photo: tours/lazio-cammino-of-st-francis-lazio/p4300817.jpg
       -
         id: mlop8uiy
         title: 'Day 7:  Arrive at the Vatican'
@@ -124,12 +130,14 @@ page_builder:
         elevation: 58
         meals_included:
           - breakfast
+        photo: tours/lazio-cammino-of-st-francis-lazio/rome-1.jpg
       -
         id: mlop9wks
         title: 'Day 8:  Depart Rome'
         description: 'After breakfast, you are fee to continue your holiday.'
         meals_included:
           - breakfast
+        photo: tours/lazio-cammino-of-st-francis-lazio/20.jpg
     type: itinerary
     enabled: true
 simple_likes: 0
