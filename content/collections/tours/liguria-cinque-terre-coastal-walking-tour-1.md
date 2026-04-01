@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Campania
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774936569
+updated_at: 1775004068
 grade: 3
 summary: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
 overview:
@@ -185,7 +185,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Campania, is a region of contrasts and this is reflected in region's cuisine.\_ With pasta and spaghetti, Campania created dishes that are not only part of the national cuisine but also international gastronomy.\_ Cooking on the Amalfi Coast, is simple, preserving the freshness of its ingredient, including its exceptional vegetables and fruit, grown in volcanic soils, as well as its abundant fresh fish.\_ Campania's excellent wines, which grown around Ischia, Capri, Vesuvius and the Sorrentine Peninsula, have a very long history, dating back to Greek and Roman times."
+                text: "Campania, is a region of contrasts and this is reflected in region's cuisine.\_ With pizza and spaghetti, Campania created dishes that are not only part of the national cuisine but also international gastronomy.\_ Cooking on the Amalfi Coast, is simple, preserving the freshness of its ingredient, including its exceptional vegetables and fruit, grown in volcanic soils, as well as its abundant fresh fish.\_ Campania's excellent wines, which grown around Ischia, Capri, Vesuvius and the Sorrentine Peninsula, have a very long history, dating back to Greek and Roman times."
           -
             type: paragraph
             content:
@@ -246,7 +246,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance.\_ "
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_ "
               -
                 type: text
                 marks:
