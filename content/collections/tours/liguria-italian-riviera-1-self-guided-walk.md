@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775015861
+updated_at: 1775016295
 grade: 4
 summary: 'Follow ancient paths through fishing villages and forests on the beautiful Italian Riviera'
 overview:
@@ -160,6 +160,112 @@ page_builder:
           - breakfast
         photo: tours/liguria-italian-riviera-1-self-guided-walk/chiavari-26.jpg
     type: itinerary
+    enabled: true
+  -
+    id: rx4jHkrMKUdbVGMC8M341
+    title: 'Italian Riviera 1 Experience'
+    tabs:
+      -
+        id: V8mGS9Amnm2UfF6XBni8f
+        title: Walks
+        grade: 4
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "several walks on this tour are between 12 and 15 kms; orientation is straight forward and the paths are well-marked and maintained; and there are some long climbs.\_ The walks are very varied, including an urban walk, hill climbs along ancient trails; coastal walks and a bushwalk through a national park.\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "One of the characteristics of this route is its flexibility: all the towns are connected by regular local trains, which means you can hop on and off the train to shorten the longer legs.\_"
+        start_location: Genova
+        finish_location: 'Sestri Levante'
+        image: tours/21.2.jpg
+        type: walk
+        enabled: true
+      -
+        id: mGIVHCFT4hpsr0F544-zy
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "You will stay in a variety of accommodation: fancy 4-star hotels, comfortable 3-star hotels and a lovely family run ‘agriturismo’, which has its own restaurant.\_ Hidden Italy uses the best available in each place: it is comfortable and welcoming, with seaview, when possible.\_ Several of the hotels have their own swimming pools but there are also plenty of beautiful beaches along the way."
+        images:
+          - tours/agriturismo-la-pale-1.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: fBUv90eacQ9WzHofLU2E2
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Like its inhabitants, the food of Ligurian is austere and reserved, based on the finest ingredients hard won from the rocky slopes of the Apennine Mountains and the blue waters of the Mediterranean Sea.\_ The classic dishes are pesto (a basil, pine-nut and garlic paste, traditionally served with a local short pasta and diced potato); focaccia (a dimpled, rustic bread served with herbs and lashing of the excellent local olive oil) and farinata (a delicious flat-bread made from chick peas with more olive oil).\_ There is an abundance of very good seafood, complemented with very good, locally grown vegetables.\_ The most celebrated dry white wine is  Vermentino) but Liguria also produces some good reds too."
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+          -
+            type: paragraph
+        images:
+          - tours/30.jpg
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: '-fl9-vw6v0O0na9-d8v_W'
+    title: 'What you should know'
+    sections:
+      -
+        id: dI8bzBqnchbZvuYu_Vn5o
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: Usrg1v-P6dvCwSWbKX1I0
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+        type: booking_cancellation
+        enabled: true
+      -
+        id: q1Hg9yEdCnR01gBJVx56m
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 duplicated_from: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
