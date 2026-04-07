@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Tuscany
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774332199
+updated_at: 1775545492
 grade: 2
 summary: 'Enjoy a seven-day walk through the rolling vineyards, forest and market towns of Chianti.'
 overview:
@@ -90,6 +90,7 @@ page_builder:
         id: mlooymbz
         title: 'Day 1: Arrive in Impruneta'
         description: 'The tour starts with a private transfer from Florence to Impruneta, a pleasant town twenty kilometres Florence. Your family hotel has views of the town’s famous basilica in the central piazza, dating from the 11th century, which contains a miraculous image of the Madonna, fragments of the True Cross and masterpieces by Luca della Robbia and Michelozzi.'
+        photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/kristina-c-qwaolhfrx3i-unsplash.jpg
       -
         id: mloozlek
         title: 'Day 2:  Stroll through farmlands'
@@ -99,6 +100,7 @@ page_builder:
         elevation: 165
         meals_included:
           - breakfast
+        photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/jonathan-skule-hvhpyxztqmc-unsplash(1).jpg
       -
         id: mlop159i
         title: 'Day 3:  Walk through vineyards'
@@ -108,6 +110,7 @@ page_builder:
         elevation: 278
         meals_included:
           - breakfast
+        photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/016.jpg
       -
         id: mlop3c5r
         title: 'Day 4:  Cross the Chianti hills'
@@ -118,6 +121,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
       -
         id: mlop5205
         title: 'Day 5:  Walk to  through forests'
@@ -127,6 +131,7 @@ page_builder:
         elevation: -546
         meals_included:
           - breakfast
+        photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/img_0738-2.jpg
       -
         id: mlop6avf
         title: 'Day 6:  Transfer to Siena'
@@ -136,13 +141,121 @@ page_builder:
         duration: 2
         distance: 7
         elevation: 174
+        photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/alessandro-rossi-ju_bgza3zhe-unsplash.jpg
       -
         id: mmzs9nie
         title: 'Day 7:  Depart Siena'
         description: "This morning, after breakfast, you'll be able to continue your holiday.  Siena is connected to Florence and Rome by regular buses and trains."
         meals_included:
           - breakfast
+        photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/paolo-d-andrea-msrizqwwlc4-unsplash.jpg
     type: itinerary
+    enabled: true
+  -
+    id: TuKx4S9Oq12u8HU3zN6nt
+    title: 'Tuscany 2 experience'
+    tabs:
+      -
+        id: OP85htJdF8NKhc6jXS1-9
+        title: Walks
+        total_distance: 64
+        total_elevation: 707
+        grade: 0
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The walks are from 9 to 19 kms (2.5 to 5 hours). Except for the first day, most of the trail is clearly marked with walking signs. It generally follows unsealed country roads, although there are several sections which wind along smaller paths. There are no steep climbs although on Day 3 there is a sustained walk up to the ridge of the Chianti Hills. Much of Day 4 winds through forests.\_ Full details on each walk are on the itinerary. "
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: 'The self-guided itineraries are re-walked and the notes updated each year.'
+        start_location: Impruneta
+        finish_location: Siena
+        image: tours/-7.5.jpg
+        type: walk
+        enabled: true
+      -
+        id: IZI927G7rn9HrPxQcNqJk
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The Hidden Italy use the best accommodation available.\_ This includes a combination of family-run 3-star hotels, 4-star hotels in restored historical buildings and lovely country ‘agriturismo’s with swimming pools and fine local cooking.\_ All rooms have, private ensuite bathrooms.\_ Guaranteed!"
+        images:
+          - tours/flo-p-puor_oqheg4-unsplash.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: GC3YI0hZaj86e40Kl_u0p
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The traditional dishes of Tuscany are Italy's most influential cuisine.\_ The ingredients and techniques of the region have made their mark not just on the menus of the rest of Italy but also abroad, even in France.\_ The produce is of the highest quality, with its mushrooms, truffles and prosciutto especially prized.\_ Wine has always been central to Tuscany's economy and way of life, familiar names like Chianti and Brunello are just a portion of their enormous output.\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+        images:
+          - tours/img_5083.jpg
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: rghhMRzfeQqYDLSL0r0ef
+    title: 'What you should know'
+    sections:
+      -
+        id: CAc-K4wrpwLo3fWa-58R6
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: EZU-Bkdtsztj5HvzROub1
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+        type: booking_cancellation
+        enabled: true
+      -
+        id: qZXBRlt5Nzk54B6CVzDwA
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
