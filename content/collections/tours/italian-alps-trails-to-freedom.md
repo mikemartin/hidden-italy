@@ -308,18 +308,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_ "
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://www.hiddenitaly.com.au/footer/default.aspx?p=14'
-                      rel: null
-                      target: null
-                      title: null
-                text: 'Click here for full T&C’s'
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
         type: booking_cancellation
         enabled: true
       -
@@ -330,18 +319,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_ "
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://www.hiddenitaly.com.au/footer/default.aspx?p=14'
-                      rel: null
-                      target: null
-                      title: null
-                text: 'Click here for full T&C’s'
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
         type: travel_insurance
         enabled: true
     type: essentials
@@ -350,7 +328,7 @@ tour_types: guided
 seasons: summer
 locations: northern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775011891
+updated_at: 1775527223
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
@@ -360,9 +338,9 @@ gallery:
   - tours/italian-alps-trails-to-freedom/44.jpg
   - tours/italian-alps-trails-to-freedom/65.jpg
   - tours/italian-alps-trails-to-freedom/dscf1836.jpg
-  - tours/italian-alps-trails-to-freedom/74.jpg
-  - tours/italian-alps-trails-to-freedom/dscf0276.jpg
+  - tours/italian-alps-trails-to-freedom/dscf0143.jpg
   - tours/italian-alps-trails-to-freedom/10.jpg
+  - tours/italian-alps-trails-to-freedom/dscf0276.jpg
   - tours/italian-alps-trails-to-freedom/p8270231.jpg
 image: tours/italian-alps-trails-to-freedom/94.jpg
 simple_likes: 0
