@@ -1,6 +1,5 @@
 ---
 id: 7e191ba5-7ed0-4683-bf70-1a754fadc11d
-published: false
 blueprint: tour
 title: 'Tuscany - Tuscany 3 (San Gimignano to Siena)'
 name: 'Tuscany 3 (San Gimignano to Siena)'
@@ -8,7 +7,7 @@ tour_types: self-guided
 region: Tuscany
 days: 5
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775546122
+updated_at: 1775546129
 grade: 2
 summary: 'A classic walk takes you through celebrated landscapes and iconic towns to glorious Siena.'
 overview:
