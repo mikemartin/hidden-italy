@@ -7,7 +7,7 @@ region: 'Trentino-Alto Adige'
 days: 13
 tour_types: guided
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896636
+updated_at: 1775543933
 locations: northern-italy
 grade: 3
 image: tours/trentino-alto-adige-dolomites/804729994-100.jpg
@@ -92,6 +92,7 @@ page_builder:
         description: "The tour starts in Verona, one of the most beautiful and romantic towns in Italy. After meeting in our hotel foyer at 19.00, we'll have a traditional dinner in one of the town's finest osterias."
         meals_included:
           - dinner
+        photo: tours/trentino-alto-adige-dolomites/7.jpg
       -
         id: mlrb0u64
         title: 'Day 2:  Explore Verona'
@@ -99,6 +100,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/trentino-alto-adige-dolomites/105.jpg
       -
         id: mlrb41ej
         title: 'Day 3:  Head into the mountains'
@@ -107,6 +109,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/trentino-alto-adige-dolomites/1.9.jpg
       -
         id: mlrb55m6
         title: 'Day 4:  Meet the Dolomites'
@@ -118,6 +121,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/trentino-alto-adige-dolomites/p9171981.jpg
       -
         id: mlrb71ly
         title: 'Day 5:  Explore Bolzano'
@@ -127,6 +131,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/trentino-alto-adige-dolomites/4.jpg
       -
         id: mlrb874i
         title: 'Day 6:  Walk the high plains'
@@ -138,6 +143,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/trentino-alto-adige-dolomites/3.9.jpg
       -
         id: mlrba04p
         title: 'Day 7:  Transfer to the Val Badia'
@@ -146,6 +152,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/trentino-alto-adige-dolomites/39.jpg
       -
         id: mlrbbbr6
         title: 'Day 8:  Another walk in the mountains'
@@ -157,6 +164,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/trentino-alto-adige-dolomites/7.3.jpg
       -
         id: mlrbfnmc
         title: 'Day 9:  Discover Braies Lake'
@@ -167,6 +175,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/trentino-alto-adige-dolomites/367.jpg
       -
         id: mlrbilht
         title: 'Day 10:  Visit the most magical place in the Dolomites'
@@ -178,6 +187,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/trentino-alto-adige-dolomites/505.jpg
       -
         id: mlrblkbg
         title: "Day 11:  Transfer to Cortina d'Ampezzo"
@@ -185,6 +195,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/trentino-alto-adige-dolomites/jerryming-town-6875859.jpg
       -
         id: mlrbor6n
         title: 'Day 12:  Loop the Tre Cime di Lavaredo'
@@ -196,13 +207,107 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/trentino-alto-adige-dolomites/51.7.jpg
       -
         id: mlrbqrqr
         title: 'Day 13:  Transfer to Venice'
         description: 'After an early breakfast, we will be transferred at 8.00am to Venice/Mestre, 1.5 hours away, with a first stop at Venice airport (which has water taxis and vaporettos directly into Venice) and then on to Mestre station (which has national and international rail connections).'
         meals_included:
           - breakfast
+        photo: tours/trentino-alto-adige-dolomites/804729994-100.jpg
     type: itinerary
+    enabled: true
+  -
+    id: fatw_zajV_o6OrNA3hTu6
+    title: 'Verona and Dolomites experience'
+    tabs:
+      -
+        id: d0AHPD8QyyUAhyiGlXN5t
+        title: Walks
+        grade: 0
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The seven beautiful walks during the tour are straightforward, following well-marked and well-maintained paths with no dramatic climbs or descents as we take cable cars to the start of the high walks and follow good tracks across alpine meadows to the valleys below.\_ On the way we stop at mountain huts for breaks and lunch (even for an occasional mid-morning cappuccino). In some cases it is possible to shorten the walk or to opt out and join the walkers for lunch.\_"
+        image: tours/3.7.jpg
+        type: walk
+        enabled: true
+      -
+        id: NnQtzJAgOBLTWBzts_kLQ
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The accommodation is in lovely 4-star hotels all the way.\_ In Verona we stay in a classic hotel in the centre of town (Maria Calls used to stay here when she was preforming at the Arena).\_ In the valleys we stay in two spacious Tyrolean-style, family-run hotels, both of which have wellness centres and swimming pools.\_ In Cortina d'Ampezzo we stay in another classic 4-star hotel, a short walk from the centre of town."
+        images:
+          - tours/2-1775543819.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: ZcxKqMdy48Fh9Ma1jmx2H
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Food, of course, is one of the highlights of the trip. The people of the Dolomites are\_extremely proud of the produce of their beautiful territory (fruit, vegetables, cheeses, hams and a wide variety of breads etc) and the local cuisine is a fascinating combination Italian and Austrian cooking. The Alto Adige/Sud Tirol is particularly famous for its high altitude white wines.\_ Wine is included with each meal."
+        images:
+          - tours/7.8.jpg
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: MqjKRTdGj_huvWXIOGgOs
+    title: 'What you should know'
+    sections:
+      -
+        id: 5gkzzwhyIq1431NJVADRw
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best.  Bring something warm for the evenings."
+        type: equipment
+        enabled: true
+      -
+        id: cxH3jwLw_fF82BaPaKbuq
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+        type: booking_cancellation
+        enabled: true
+      -
+        id: biClg67diAOoDc3YUVDZJ
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.'
+        type: travel_insurance
+        enabled: true
+    type: essentials
+    enabled: true
+  -
+    id: Zhb9MH5PIPDlCMyH394IM
+    title: 'Tour Leader'
+    type: leader
     enabled: true
 seasons: autumn
 ---
