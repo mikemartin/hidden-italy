@@ -7,7 +7,7 @@ tour_types: guided
 region: Puglia
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775529524
+updated_at: 1775529948
 grade: 3
 summary: 'Puglia is pure southern Italy: vibrant towns, endless trails and coastline; fabulous food!'
 overview:
@@ -199,6 +199,104 @@ page_builder:
           - breakfast
         photo: tours/puglia-puglia-in-the-spring/lecce-28.jpg
     type: itinerary
+    enabled: true
+  -
+    id: bjgbejCe8busBcGYSsXS1
+    title: 'Puglia in the Spring experiences'
+    tabs:
+      -
+        id: el5KqFwyNhPFhoJk-ErQN
+        title: Walks
+        grade: 0
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Without mountains, Puglia offers relaxed walking through undulating hills, following country lanes lined with drystone walls or following trails along spectacular coastline. Three walks are in central Puglia, passing through forest, wheat fields, cherry orchards and olive groves.\_ Two are coastal walks: the first walk winds along the Ionian coast through Puglia's oldest national park while the other heads south down the Adriatic coast with glimpses of the mountains of Albania to the east and Corfu in the south (weather permitting).\_ The main feature of all the walks in this season is the wildflowers.\_ The walks range from 4 to 14 kilometres and take from 1 to 4 hours.\_ In some cases it is possible to shorten the walks or opt out and join the walkers for lunch."
+        start_location: Lecce
+        finish_location: Bari
+        image: tours/matera-14-1775529640.jpg
+        type: walk
+        enabled: true
+      -
+        id: o7lp5poRyWNtY2tZYQg8V
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "We stay in the best accommodation available, ie low-key and gracious. The tour starts with two nights in a lovely hotel in the pedestrian centre of Lecce, the ‘Florence of the South’.\_ The next is a welcoming 5-star boutique hotel with a roof terrace with views over the port in the heart of the most charming town in Puglia.\_ We then move a lovely hotel set in gardens surrounded by olive groves with a beautiful swimming pool, a recently restored 18th century '"
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "masseria'"
+              -
+                type: text
+                text: ".\_ Finally, we stay in a comfortable hotel in the centre of Bari."
+        images:
+          - tours/palmento-19.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: 4Gsvug0XWxDg_eHfMDeCy
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "In springtime the market gardens and kitchen gardens of Puglia are bursting with fresh produce (tomatoes, zucchini, eggplants, artichokes, asparagus, fava beans) which provides the basis for all the region’s cooking.\_ Pugliese cuisine is simple, rustic and cheerful, based on the abundance of its fertile plains and coastline. As Italy's wheat belt, pasta and a variety of excellent breads are pillars of Pugliese diet, as is olive oil (Puglia has over 50 million olive trees, some over 2000 years old).\_ Puglia is bounded by two seas, the Adriatic and Ionian, and has an abundance of seafood, while the butchers of the Itria Valley are famous throughout Italy."
+        images:
+          - tours/bari-12.jpg
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: MRQ7ZyG03WMKfwpZJHTCO
+    title: 'What you should know'
+    sections:
+      -
+        id: lcnL2ba2U9XdXGAjFm5U9
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: 8FW8-2FyATo51IF8Tpf41
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+        type: booking_cancellation
+        enabled: true
+      -
+        id: QPZeyRWycpXerHd72N3vH
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 seasons: spring
