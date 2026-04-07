@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Tuscany
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773981966
+updated_at: 1775544899
 grade: 2
 summary: 'Pure Tuscany: rolling hills, cypress pines, Renaissance towns, fine food, relaxed walking.'
 overview:
@@ -93,15 +93,17 @@ page_builder:
         id: mlooymbz
         title: 'Day 1: Arrive in Montalcino'
         description: "You will be picked up at either Siena or Chiusi and taken to Montalcino, a perfectly preserved walled hilltop town, famous for both its views and its red wine, Brunello di Montalcino. Included in your notes is a short walk around the outside of the town's walls."
+        photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/f1000012-a.jpg
       -
         id: mloozlek
         title: 'Day 2:  Stay in a Medieval village'
-        description: 'The first walk takes you down through forests to a Romanesque abbey isolated in fields of wheat and vineyards, which is one of the most beautiful in Tuscany. Your accommodation for the night is in the small village that overlooks the abbey.  (3 hrs; 12 kms; min: 303 mts, max: 641 mts).'
+        description: 'The first walk takes you down through forests to a Romanesque abbey isolated in fields of wheat and vineyards, which is one of the most beautiful in Tuscany. Your accommodation for the night is in the small village that overlooks the abbey.'
         duration: 3
         distance: 12
         elevation: 328
         meals_included:
           - breakfast
+        photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5057.jpg
       -
         id: mlop159i
         title: 'Day 3:  Walk through vineyards'
@@ -111,15 +113,17 @@ page_builder:
         elevation: 453
         meals_included:
           - breakfast
+        photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5098.jpg
       -
         id: mlop3c5r
         title: 'Day 4:  Walk a Renaissance gem'
-        description: "Today you follow parts of the medieval road down into the bare, rolling hills of the Val d'Orcia, with sweeping views across the valley to the forests and peaks of Mount Amiata before a short climb up to your base for the evening.  This enchanting little town was the birth place of one of the more important 15th century popes, who  had the modest village razed and then rebuilt in his honour, creating one of the gems of southern Tuscany, a fine example early Renaissance architecture. (3 hrs; 10 kms; min: 295 mts, max: 519 mts)"
+        description: "Today you follow parts of the medieval road down into the bare, rolling hills of the Val d'Orcia, with sweeping views across the valley to the forests and peaks of Mount Amiata before a short climb up to your base for the evening.  This enchanting little town was the birth place of one of the more important 15th century popes, who  had the modest village razed and then rebuilt in his honour, creating one of the gems of southern Tuscany, a fine example early Renaissance architecture."
         duration: 3
         distance: 10
         elevation: 214
         meals_included:
           - breakfast
+        photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5149.jpg
       -
         id: mlop5205
         title: 'Day 5:  Walk to Montepulciano'
@@ -129,14 +133,123 @@ page_builder:
         elevation: 208
         meals_included:
           - breakfast
+        photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/shutterstock_574301368.jpg
       -
         id: mlop6avf
         title: 'Day 6:  Transfer to Chiusi station'
         description: "After breakfast at 9.00 you'll be transfered to nearby Chiusi on the main Rome/Florence railway line."
         meals_included:
           - breakfast
+        photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_0741.jpg
     type: itinerary
+    enabled: true
+  -
+    id: dOAGZ6SIAYjn6mO5rQVkv
+    title: 'Tuscany 1 experience'
+    tabs:
+      -
+        id: JTeAttRp1U3VqiEkToA6K
+        title: Walks
+        total_distance: 50
+        total_elevation: 1203
+        grade: 0
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The walks are from 10 to 12 kilometres and take between 3 to 4 hours. They are well marked and generally follow good, unsealed country roads through undulating hills. There are several rougher sections but the trails are easy to follow. The walk is suitable throughout the year.\_ Full details on each walk are on the itinerary.\_ "
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: 'The self-guided itineraries are rewalked and the notes updated each year.'
+        image: tours/f1050006-a.jpg
+        type: walk
+        enabled: true
+      -
+        id: oSOJpfCkYgaVjML8_AO8R
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Hidden Italy uses the best accommodation available.\_ On this tour all the accommodation is in\_ family-run, three star hotels which are based in centrally located, restored heritage buildings which themselves are part of the the local history.\_ The exception is\_Day 2 when you'll stay in a private serviced apartment in the centre of a tiny\_medieval village (there are no hotels here)."
+        images:
+          - tours/hotel-view-montalcino.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: Hot1lcixLVk2HiSrQUKO1
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The traditional dishes of Tuscany are Italy's most influential cuisine.\_ The ingredients and techniques of the region have made their mark not just on the menus of the rest of Italy but also abroad, even in France.\_ The produce is of the highest quality, with its mushrooms, truffles and prosciutto especially prized.\_ Wine has always been central to Tuscany's economy and way of life, familiar names like Chianti and Brunello are just a portion of their enormous output."
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: aQ2UMC7nildseGcN9glza
+    title: 'What you should know'
+    sections:
+      -
+        id: z88nQRn04qZvpSkTHN8l3
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: SxnQrvB9bmfq9Pqf5skQF
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+        type: booking_cancellation
+        enabled: true
+      -
+        id: 1pqd1pMpowzqcTfAU_ZUZ
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
+image: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_0741.jpg
+gallery:
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/f1000012-a.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/f1050006-a.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5261.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_0741.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5049.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5075.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/shutterstock_574301368.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5098.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5057.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5142.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5117.jpg
+  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5149.jpg
 ---
