@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775533868
+updated_at: 1775538293
 tour_types: guided
 days: 14
 image: tours/sicily-palermo-to-taormina/804728531-13.jpg
@@ -194,6 +194,12 @@ page_builder:
         id: EtPXnMrh4_7D4BidgyAzQ
         title: 'Day 14: transfer to Catania'
         description: 'After breakfast, we leave our hotel at 8.00am and transfer to Catania, which has an international airport and rail connections to the mainland (the train is ferried across the Straits of Messina) and to the rest of Europe. If required, we can also organise transfers back to Palermo.'
+        meals_included:
+          - breakfast
     type: itinerary
+    enabled: true
+  -
+    id: JElBjk_hp08VuSFkQtzh4
+    type: experience
     enabled: true
 ---
