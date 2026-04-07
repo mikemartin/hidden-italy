@@ -8,7 +8,7 @@ tour_types: self-guided
 region: Tuscany
 days: 5
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774495971
+updated_at: 1775546122
 grade: 2
 summary: 'A classic walk takes you through celebrated landscapes and iconic towns to glorious Siena.'
 overview:
@@ -93,6 +93,7 @@ page_builder:
         duration: 2
         distance: 9
         elevation: 195
+        photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/aver007-san-gimignano-4720522.jpg
       -
         id: mloozlek
         title: 'Day 2:  Walk through vineyards'
@@ -102,6 +103,7 @@ page_builder:
         elevation: 174
         meals_included:
           - breakfast
+        photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/deepak-sharma-0y0ap85o7cy-unsplash.jpg
       -
         id: mlop159i
         title: 'Day 3:  Stay in a medieval fortress'
@@ -111,6 +113,7 @@ page_builder:
         elevation: 113
         meals_included:
           - breakfast
+        photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/img_0736.jpg
       -
         id: mlop3c5r
         title: 'Day 4:  Arrive in Siena'
@@ -120,13 +123,119 @@ page_builder:
         elevation: 119
         meals_included:
           - breakfast
+        photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/p1010314.jpg
       -
         id: mlop5205
         title: 'Day 5:  Depart Siena'
         description: 'After breakfast in your hotel, you are free to continue your holiday.  Siena is connected to Florence and Rome by rail and bus.'
         meals_included:
           - breakfast
+        photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/achim-ruhnau-a3fwnq1inoi-unsplash(1).jpg
     type: itinerary
+    enabled: true
+  -
+    id: nYOhLVKk2yrkFP3yR7zw2
+    title: 'Tuscany 3 experience'
+    tabs:
+      -
+        id: uoQNOk3xz3I0So87biTFG
+        title: Walks
+        grade: 0
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It generally follows unsealed country roads through rolling hills and farmland, passing through villages and hamlets along the way.\_ The walks range from 8 kilometres to 16 kilometres.\_ The last walk into Siena is 20 kms long but can be shortened!\_ There are no steep climbs and you have plenty of time to enjoy the walks.\_ Full details on each walk are on the itinerary.\_ "
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: 'The self-guided itineraries are re-walked and the notes updated each year.'
+        start_location: 'San Gimignano'
+        finish_location: Siena
+        image: tours/walking-in-chianti-9.jpg
+        type: walk
+        enabled: true
+      -
+        id: y35_xIxVn7IletDwp4YZK
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Hidden Italy uses the best accommodation available and the accommodation on this walk is one of the highlights.\_\_You'll be staying in the best hotels in each place,all\_in\_restored historical palazzi in the heart of each town and village, some dating from the Middle Ages and all steeped in the wonderful history of Tuscany. \_All rooms have ensuite bathrooms."
+        images:
+          - tours/palazzo-ravizza-siena-pic-33.jpeg
+        type: accommodation
+        enabled: true
+      -
+        id: Ijoj0uFYMCP1AJUz9z1x8
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The traditional dishes of Tuscany are Italy's most influential cuisine.\_ The ingredients and techniques of the region have made their mark not just on the menus of the rest of Italy but also abroad, even in France.\_ The produce is of the highest quality, with its mushrooms, truffles and prosciutto especially prized.\_ Wine has always been central to Tuscany's economy and way of life, familiar names like Chianti and Brunello are just a portion of their enormous output."
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+        images:
+          - tours/img_5061.jpg
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: ntGfyixzpE7gtpdo6rpm6
+    title: 'What you should know'
+    sections:
+      -
+        id: gCNv3j3uzdP3MoP85SrT-
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: p9C-LteWEy2Cta4w3gE_3
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+        type: booking_cancellation
+        enabled: true
+      -
+        id: mmJID6D8Ktt8_Ta6ntaR2
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
