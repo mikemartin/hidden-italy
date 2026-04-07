@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Campania
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775526959
+updated_at: 1775527068
 grade: 3
 summary: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
 overview:
@@ -225,17 +225,6 @@ page_builder:
               -
                 type: text
                 text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_ "
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://www.hiddenitaly.com.au/footer/default.aspx?p=14'
-                      rel: null
-                      target: null
-                      title: null
-                text: 'Click here for full T&C’s'
         type: booking_cancellation
         enabled: true
       -
