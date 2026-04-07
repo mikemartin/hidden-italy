@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Campania
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775004068
+updated_at: 1775526950
 grade: 3
 summary: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
 overview:
@@ -247,17 +247,6 @@ page_builder:
               -
                 type: text
                 text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_ "
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://www.hiddenitaly.com.au/footer/default.aspx?p=14'
-                      rel: null
-                      target: null
-                      title: null
-                text: 'Click here for full T&C’s'
         type: travel_insurance
         enabled: true
     type: essentials
@@ -277,4 +266,5 @@ gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour-1/img_4424.jpeg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/positano-pan-1.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
+image: tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
 ---
