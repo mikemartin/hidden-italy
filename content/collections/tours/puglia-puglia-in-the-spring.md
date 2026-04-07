@@ -7,7 +7,7 @@ tour_types: guided
 region: Puglia
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896553
+updated_at: 1775529524
 grade: 3
 summary: 'Puglia is pure southern Italy: vibrant towns, endless trails and coastline; fabulous food!'
 overview:
@@ -80,6 +80,7 @@ page_builder:
         description: "We will meet in the foyer of our hotel, a classic hotel in the centre of the old town of Lecce, the 'Florence of the South'.  After an aperitivo at the roof bar of the hotel, we'll walk to a neighbouring restaurant for dinner."
         meals_included:
           - dinner
+        photo: tours/puglia-puglia-in-the-spring/lecce-14.jpg
       -
         id: mloqxcnx
         title: 'Day 2:  Explore Lecce'
@@ -87,6 +88,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/puglia-puglia-in-the-spring/lecce-12.jpg
       -
         id: mloqy5ed
         title: 'Day 3:  Transfer to the coast'
@@ -98,6 +100,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/puglia-puglia-in-the-spring/otranto-3.jpg
       -
         id: mloqzruj
         title: 'Day 4:  Walk along the coast'
@@ -108,6 +111,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/puglia-puglia-in-the-spring/40.6.jpg
       -
         id: mlor10w3
         title: 'Day 5:  Go sailing'
@@ -116,6 +120,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/puglia-puglia-in-the-spring/otranto-24.jpg
       -
         id: mlor23s2
         title: 'Day 6:  Go for a walk and a cooking lesson'
@@ -126,6 +131,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/puglia-puglia-in-the-spring/tower-1.jpeg
       -
         id: mlor3ri3
         title: 'Day 7:  Visit a vineyard and stay in a masseria'
@@ -134,6 +140,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/puglia-puglia-in-the-spring/tenuta-monticelli.webp
       -
         id: mlor6aar
         title: 'Day 8:  Walk through forest and orchards'
@@ -145,6 +152,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: tours/puglia-puglia-in-the-spring/palmento-29.jpg
       -
         id: mlor867w
         title: 'Day 9:  Visit Matera'
@@ -152,6 +160,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/puglia-puglia-in-the-spring/matera-12.jpg
       -
         id: mlora14b
         title: 'Day 10:  Walk to Alberobello'
@@ -162,6 +171,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/puglia-puglia-in-the-spring/19.8.jpg
       -
         id: mlorbjxg
         title: 'Day 11:  Transfer to Bari'
@@ -172,6 +182,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: tours/puglia-puglia-in-the-spring/castel-1.jpg
       -
         id: mlore9l3
         title: 'Day 12:  Explore Bari'
@@ -179,14 +190,30 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/puglia-puglia-in-the-spring/bari-5.jpg
       -
         id: mlorf281
         title: 'Day 13:  Departure'
         description: 'After breakfast, you’ll be able to continue your holiday.  Bari is well connected by air, rail and road to the rest of Italy and Europe.'
         meals_included:
           - breakfast
+        photo: tours/puglia-puglia-in-the-spring/lecce-28.jpg
     type: itinerary
     enabled: true
 simple_likes: 0
 seasons: spring
+image: tours/puglia-puglia-in-the-spring/19.7.jpg
+gallery:
+  - tours/puglia-puglia-in-the-spring/19.7.jpg
+  - tours/puglia-puglia-in-the-spring/19.8.jpg
+  - tours/puglia-puglia-in-the-spring/40.6.jpg
+  - tours/puglia-puglia-in-the-spring/otranto-3.jpg
+  - tours/puglia-puglia-in-the-spring/43.5.jpg
+  - tours/puglia-puglia-in-the-spring/otranto-24.jpg
+  - tours/puglia-puglia-in-the-spring/30.jpg
+  - tours/puglia-puglia-in-the-spring/castel-1.jpg
+  - tours/puglia-puglia-in-the-spring/lecce-28.jpg
+  - tours/puglia-puglia-in-the-spring/matera-14.jpg
+  - tours/puglia-puglia-in-the-spring/ruvo-9.jpg
+  - tours/puglia-puglia-in-the-spring/tower-1.jpeg
 ---
