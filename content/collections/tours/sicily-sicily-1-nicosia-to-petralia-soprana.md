@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774322085
+updated_at: 1775541592
 grade: 4
 summary: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
 overview:
@@ -85,6 +85,7 @@ page_builder:
         description: 'Your tour starts with a private transfer from either Palermo or Catania to Nicosia in central Sicily, an hour and a half away.  A strategic point on the mountain road that linked eastern Sicily with Palermo, Nicosia grew up around a 7th century Byzantine castle and flourished under Norman rule in the 12th century.  Today it is a bustling agricultural centre – pure Sicily!'
         meals_included:
           - dinner
+        photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/saints-day-out.jpg
       -
         id: mlrce7n9
         title: 'Day 2:  Walk into the mountains'
@@ -95,6 +96,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/45.5.jpg
       -
         id: mlrchqfo
         title: 'Day 3:  A ramble through the valleys'
@@ -105,6 +107,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/42.jpg
       -
         id: mlrcpsyv
         title: 'Day 4:  Stay in a family-run agriturismo'
@@ -115,6 +118,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/08.jpg
       -
         id: mlrcryci
         title: 'Day 5:  Walk to the Madonie Park'
@@ -125,6 +129,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/121.jpg
       -
         id: mlrczqmb
         title: 'Day 6:  Walk to Petralia Soprana'
@@ -135,13 +140,117 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/25-2.jpg
       -
         id: mlrd7giq
         title: 'Day 7:  Transfer to Palermo or Catania'
         description: 'After breakfast, you will be transferred to either Palermo or Catania, a one and a half hour drive away.'
         meals_included:
           - breakfast
+        photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/img_6695.jpeg
     type: itinerary
+    enabled: true
+  -
+    id: n18X67XzTjJckf8DsGJTo
+    title: 'Sicily 1 experience'
+    tabs:
+      -
+        id: fpHvrxAdfZnl5Y7tvG0om
+        title: Walks
+        grade: 0
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "This is a continuous walk.\_ The walks range from 3 to 4 hours, covering between 12 to 15 kilometres.\_ They generally follow unsealed country lanes passing through rolling farmlands.\_ There are also some short sections following smaller trails with uneven footing. \_The trails are unmarked but are straight-forward to follow - there is always a farmhouse in sight.\_ Full details on each walk are on the itinerary.  The self-guided itineraries are re-walked and the notes updated each year."
+        start_location: Nicosia
+        finish_location: 'P etralia Soprana'
+        image: tours/img_6633.jpeg
+        type: walk
+        enabled: true
+      -
+        id: AVioUleD96C6NlpNZLZzf
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "You will stay in a variety of accommodation, themselves often part of the area's history, which are always comfortable and welcoming: two family-run 'agriturismos' (one of which was once a baronial residence); a private apartment; a small, family-run hotel; a 15th century convent (hosted by nuns) and finishing in a restored noble residence in the heart of an ancient village.\_"
+        images:
+          - tours/img_2547.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: Xt_mVIeOY3x9zfGzWJVla
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Sicilian food is completely hybrid, reflecting the island's extraordinary history.\_ From Greece came the the traditional country dishes around Syracuse and Ragusa; the Arabs introduced sweet and sour; the Spanish a Baroque taste for excess; the French introduced the onion, while Swiss chef influenced the their dessterts with cream and stuffing."
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Food is one of the highlights of a visit to this prosperous area, all based on delicious seasonal vegetables and fruits and fresh farm produce, including cheeses like fresh ricotta and\_cacciacavallo; cured hams and salami; an amazing variety of breads; olives, eggplants and wild greens and, of course, those wonderful Sicilian pastries.....\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "Generous breakfasts are included each day.\_ Given the relative 'isolation' of the small villages and 'agriturismo' you stay on during this wonderful walk, we have included the dinners as well on this tour."
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: 1rWXh02Lfz-RO1U9UPY1K
+    title: 'What you should know'
+    sections:
+      -
+        id: vyO89kcQ0nx5ur_v75Jdq
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: Gr4v2xEvGNvzLz_vxXcDU
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+        type: booking_cancellation
+        enabled: true
+      -
+        id: yTI749DIpRg3JIg-1lDFP
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 locations: southern-italy
 duplicated_from: 7397f93f-96a7-4030-b13c-2315e28fe22c
@@ -149,12 +258,13 @@ gallery:
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/saints-day-out.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/25-2.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture4.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_0270.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/125.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/palermo.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6633.jpeg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/45.5.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6635.jpeg
+  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/22.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture1.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6695.jpeg
+  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_0270.jpg
 ---
