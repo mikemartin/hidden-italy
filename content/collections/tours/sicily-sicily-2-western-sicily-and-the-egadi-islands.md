@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774417500
+updated_at: 1775542125
 grade: 4
 summary: 'Coastal walks, island hoping and fabulous food, this tour is southern Italy at its best!'
 overview:
@@ -76,6 +76,9 @@ page_builder:
         id: mlrcdegn
         title: 'Day 1:  Arrive in Favignana'
         description: 'The tour starts with a private transfer from Palermo to Trapani (approximately 2 hrs).  From here you take a hydrofoil from Trapani to Favignana, the largest of the Egadi islands.  Accommodation is in an excellent, family-run 3-star hotel in the centre of town, a short walk from the port.'
+        photo: 'tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/trapani,_sicily.jpg'
+        meals_included:
+          - dinner
       -
         id: mlrce7n9
         title: 'Day 2:  Go island hopping'
@@ -85,7 +88,7 @@ page_builder:
         elevation: 459
         meals_included:
           - breakfast
-          - dinner
+        photo: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/sicilie-egadische-eilanden-marettimo-3.jpg
       -
         id: mlrchqfo
         title: 'Day 3:  Explore Favignana'
@@ -95,6 +98,7 @@ page_builder:
         elevation: 33
         meals_included:
           - breakfast
+        photo: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/favignana-1.jpg
       -
         id: mlrcpsyv
         title: 'Day 4:  Explore Levanzo'
@@ -105,12 +109,14 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/levanzo-1.jpg
       -
         id: mlrcryci
         title: 'Day 5:  Transfer to Lo Zingaro Regional Park'
         description: 'Today you take the hydrofoil back to Trapani, where you’ll be met and driven to Lo Zingaro Regional Park.  Along the way, you will visit the beautiful town of Erice, which sits on a hill high above Trapani.  You’ll be able to explore this remarkable town (with time for a light lunch) before being taken to a gorgeous hamlet on the edge of Sicily’s first national park, which stretches along the Gulf of Castellamare.'
         meals_included:
           - breakfast
+        photo: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/scopello-tonnara-1.jpg
       -
         id: mlrczqmb
         title: 'Day 6:  A long coastal walk'
@@ -121,13 +127,126 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/a.jpeg
       -
         id: mlrd7giq
         title: 'Day 7:  Transfer to Palermo'
         description: 'After breakfast, you will be transferred to Palermo (airport or city).'
         meals_included:
           - breakfast
+        photo: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/favignana-6.jpg
     type: itinerary
+    enabled: true
+  -
+    id: EQoQyQK6295CpZMBd3Dzo
+    title: 'Sicily 2 experience'
+    tabs:
+      -
+        id: DKYtX-J9tTIHSu4eitcRQ
+        title: Walks
+        grade: 0
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The walks follow well marked trails along good paths over generally undulating terrain, with spectacular sea views each day.\_ They range from 8 to 15 kilometres. On Day 2 and Day 4, you'll need to take ferries to and from the start of each walk (tickets included in the tour cost).\_ You will have plenty of opportunity to swim along the way.\_ "
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: 'Please note that it can be very hot in Sicily in the summer (July/August) and there is limited shade along the walks (early starts can help mitigate this!).  '
+              -
+                type: text
+                text: 'The self-guided itineraries are rewalked and the notes updated each year.'
+        start_location: Favignana
+        finish_location: Scopello
+        image: tours/g.jpg
+        type: walk
+        enabled: true
+      -
+        id: QaJxSxOiTE3WiCwZ3MDqx
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The accommodation is in very comfortable, family-run 3-star hotels. \_The superior rooms have en suite bathrooms, terraces and ample breakfasts are included.  The first hotel is in the centre of the main town of the Egadi Islands, only 50 metres from the seaside and a short walk from the port. \_It is in an historical building that has been recently restored. \_You'll spend four nights here. \_The second hotel is in the centre of a small fortified hamlet a short walk from the seashore. \_You'll spend two nights here. \_Both hotel's have excellent restaurants."
+        images:
+          - tours/tavernetta-1.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: 25bUHtF7F8SXCJx_j0TIM
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "As far as Sicilians' are convinced that the best things in life include good company, family life, sunny days and above all, good food.\_ Sicilian food is completely hybrid, reflecting the island's extraordinary history.\_ From Greece came the the traditional country dishes around Syracuse and Ragusa; the Arabs introduced sweet and sour; the Spanish a Baroque taste for excess; the French introduced the onion, while Swiss chefs influenced their desserts with cream and stuffing.\_ Eating and drinking in Sicily is synonymous with a delicious journey back in time!"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "On the coast, the cooking mixes staples like pasta, tomato sauce and fresh vegetables with local specialities like the abundant freshfish, including tuna, sardines swordfish, with chillies, olives, pine nuts and capers.\_ The Arabic influence is clear through the couscous and rich sweets and desserts like marzipan and cassata."
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: wsO7vjspNn15rmXVSS-UA
+    title: 'What you should know'
+    sections:
+      -
+        id: PwywyBpQzBa4QFAbfXbCM
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: sxe4NaiwM-fFZkUj6Ezbd
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+        type: booking_cancellation
+        enabled: true
+      -
+        id: 14MMpRaVDCwcBgT-C-ACN
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 locations: southern-italy
 duplicated_from: 9b40b14d-a9c5-43b5-ae27-eeb883bc2c34
