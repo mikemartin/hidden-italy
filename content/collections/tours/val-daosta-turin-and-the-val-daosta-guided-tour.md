@@ -7,7 +7,7 @@ tour_types: guided
 region: "Val d'Aosta"
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896811
+updated_at: 1775798511
 grade: 4
 summary: "Two weeks exploring the Val d'Aosta, Italy's smallest, but most spectacular, region!"
 overview:
@@ -188,6 +188,12 @@ page_builder:
         meals_included:
           - breakfast
     type: itinerary
+    enabled: true
+  -
+    id: BbB2CsYNZxXDD1VFZThvw
+    title: 'Tour Leader'
+    person: 6f660f25-b4d0-4bc9-b097-b8d3742f1c11
+    type: leader
     enabled: true
 simple_likes: 0
 seasons: autumn
