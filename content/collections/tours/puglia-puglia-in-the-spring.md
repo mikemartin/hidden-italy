@@ -1,13 +1,13 @@
 ---
 id: 96805144-50d8-471e-9208-b397627a3a1c
 blueprint: tour
-title: 'Puglia - Puglia (Lecce to Bari)'
+title: 'Puglia in the Spring - Puglia (Lecce to Bari)'
 name: 'Puglia (Lecce to Bari)'
 tour_types: guided
-region: Puglia
+region: 'Puglia in the Spring'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775797843
+updated_at: 1775797882
 grade: 3
 summary: 'Puglia is pure southern Italy: vibrant towns, endless trails and coastline; fabulous food!'
 overview:
