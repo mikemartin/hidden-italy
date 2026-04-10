@@ -7,7 +7,7 @@ tour_types: self-guided
 region: 'Tuscany and Umbria'
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775801686
+updated_at: 1775802654
 grade: 3
 summary: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
 overview:
@@ -76,6 +76,7 @@ page_builder:
         id: mlooymbz
         title: 'Day 1: Transfer from Rome to Pitigliano'
         description: 'You will be picked up in Rome and transferred to Pitigliano. This spectacularly sited town is bounded by two ravines and is over three thousand years old.  The historic centre of the town is a tangle of lanes and car-free streets, a fascinating place to spend some time exploring.'
+        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano_-tuscany-s-hilltop-beauty.png
       -
         id: mloozlek
         title: 'Day 2:  Walk ancient trails'
@@ -85,6 +86,7 @@ page_builder:
         elevation: 115
         meals_included:
           - breakfast
+        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/hiking-the-ancient-via-cava.png
       -
         id: mlop159i
         title: 'Day 3:  Sleep in a castle'
@@ -94,6 +96,7 @@ page_builder:
         elevation: 160
         meals_included:
           - breakfast
+        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/sorano-1-a.jpg
       -
         id: mlop3c5r
         title: 'Day 4:  Discover an abandoned city'
@@ -104,6 +107,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/walking.jpg
       -
         id: mlop5205
         title: 'Day 5:  Sleep lakeside'
@@ -113,6 +117,7 @@ page_builder:
         elevation: 322
         meals_included:
           - breakfast
+        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/bolsena-1.jpg
       -
         id: mlop6avf
         title: 'Day 6:  Walk to Orvieto'
@@ -122,19 +127,125 @@ page_builder:
         elevation: 442
         meals_included:
           - breakfast
+        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-cathedral-in-vibrant-daylight.png
       -
         id: mlop8uiy
         title: 'Day 7:  Depart Orvieto'
         description: 'Breakfast in your hotel. Orvieto station is on the main Rome/Florence line and you will be able to continue your holiday from there.'
         meals_included:
           - breakfast
-      -
-        id: mlop9wks
-        title: 'Day 8:  Transfer back to Turin'
-        description: 'After breakfast, you will be taken by private vehicle back to Turin, 95 kilometres to the north.'
-        meals_included:
-          - breakfast
+        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020002.jpg
     type: itinerary
+    enabled: true
+  -
+    id: mfkdUCRox-sHPWuo9V4WX
+    title: 'La Tuscia experience'
+    tabs:
+      -
+        id: hm_KqkbxxKsWJItLexN2s
+        title: Walks
+        total_distance: 63
+        total_elevation: 1179
+        grade: 3
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The walks range from 8 to 18 kms. The tour starts with shorter walks for the first three days, building up to the two longer walks at the end.\_ The trails mostly follow unsealed country roads through undulating farmlands. and are well-marked\_ There are a couple of rougher sections which follow small but clear trails.\_ Full details on each walk are on the itinerary.\_ "
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: 'The self-guided itineraries are re-walked and the notes updated each year.'
+        image: tours/hiking-the-ancient-via-cava-1775802079.png
+        type: walk
+        enabled: true
+      -
+        id: Vik88iabOwsDlufN41UEO
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The accommodation is one of the special features of this tour.\_ As usual, Hidden Italy uses the best accommodation available.\_ All the hotels are in historical buildings in the centre of the small villages and towns including a 4-star resort built on Etruscan foundations; a hotel built in a restored Medici fortress; a family-run hotel in the shadow of the Orvieto cathedral and, my favourite, a 3rd generation country hotel in a tiny rural village. All rooms have an en suite bathroom and air conditioning."
+        images:
+          - tours/hotel-della-fortezza.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: e6_jNucqtFakwrEiDp0XN
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The traditional dishes of Tuscany are Italy's most influential cuisine.\_ The ingredients and techniques of the region have made their mark not just on the menus of the rest of Italy but also abroad, even in France.\_ The produce is of the highest quality, with its mushrooms, truffles and prosciutto especially prized.\_ Wine has always been central to Tuscany's economy and way of life, familiar names like Chianti and Brunello are just a portion of their enormous output.\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Umbria, Italy's only landlocked region, may not be accorded quite the same degree of reverence but it has its own specialities, including pasta, pulses, polenta, pork and game, as well as some fine wines such as white Orvieto, and the Sagrantino and Torgiano reds."
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+        images:
+          - tours/f1020009-a.jpg
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: B5PGkOu1CvOE1V8aMFmLM
+    title: 'What you should know'
+    sections:
+      -
+        id: xbOMR9cnppvVJebvNoJ1Y
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: BwyLiuKtw7FMAqJ8pRWP_
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+        type: booking_cancellation
+        enabled: true
+      -
+        id: v-2VM0HQHtgcQqFloTt0g
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
