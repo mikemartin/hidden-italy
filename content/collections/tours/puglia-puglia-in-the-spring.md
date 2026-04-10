@@ -7,7 +7,7 @@ tour_types: guided
 region: Puglia
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775529948
+updated_at: 1775797843
 grade: 3
 summary: 'Puglia is pure southern Italy: vibrant towns, endless trails and coastline; fabulous food!'
 overview:
@@ -297,6 +297,12 @@ page_builder:
         type: travel_insurance
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: iOkmFU6ExNE08DptpipsO
+    title: 'Tour Leader'
+    person: 1230cc0a-4e65-42f4-8ae8-b9b7c8d2efd2
+    type: leader
     enabled: true
 simple_likes: 0
 seasons: spring
