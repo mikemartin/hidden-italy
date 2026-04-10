@@ -7,7 +7,7 @@ tour_types: guided
 region: 'Abruzzo and Molise'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775527011
+updated_at: 1775797554
 grade: 2
 summary: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
 overview:
@@ -248,6 +248,11 @@ page_builder:
     type: experience
     enabled: true
   -
+    id: aYXCAIktLPE-ML89McjqM
+    title: 'Tour Leader'
+    type: leader
+    enabled: true
+  -
     id: Oo1saFI3INeyoC15VtrpQ
     title: 'What you should know'
     sections:
@@ -285,11 +290,6 @@ page_builder:
         type: travel_insurance
         enabled: true
     type: essentials
-    enabled: true
-  -
-    id: aYXCAIktLPE-ML89McjqM
-    title: 'Tour Leader'
-    type: leader
     enabled: true
 simple_likes: 0
 seasons: spring
