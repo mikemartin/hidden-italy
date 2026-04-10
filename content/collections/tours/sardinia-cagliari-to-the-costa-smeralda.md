@@ -8,7 +8,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775797973
+updated_at: 1775798067
 grade: 3
 summary: 'Sardinia is a magical island, a few hours by ferry, a world away from continental Italy.'
 tour_size: 15
@@ -273,6 +273,12 @@ page_builder:
         type: food
         enabled: true
     type: experience
+    enabled: true
+  -
+    id: usUm--pyAOLbxEXIGOs3A
+    title: 'Tour Leader'
+    person: 9a1428c1-852b-434f-9547-2feb06269b99
+    type: leader
     enabled: true
   -
     id: B4m_cmGZh_rR-hWPazlj8
