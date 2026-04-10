@@ -271,6 +271,12 @@ page_builder:
     type: experience
     enabled: true
   -
+    id: J5i0VWMfEbXL5ACtZxLBv
+    title: 'Tour Leader'
+    person: 7a758c7b-1287-4bd4-8522-707974d0d9c7
+    type: leader
+    enabled: true
+  -
     id: t9ajidL_bIDpc33abj59O
     title: 'What you should know'
     sections:
@@ -328,7 +334,7 @@ tour_types: guided
 seasons: summer
 locations: northern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775527223
+updated_at: 1775797769
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
