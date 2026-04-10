@@ -1,14 +1,14 @@
 ---
 id: 543d98ec-f3a9-42a3-9f7b-0ad11cfca5a9
 blueprint: tour
-title: 'Sardinia - Sardinia (Cagliari to the Costa Smeralda)'
-name: 'Sardinia (Cagliari to the Costa Smeralda)'
+title: 'Sardinia - Sardinia in the Spring (Cagliari to the Costa Smeralda)'
+name: 'Sardinia in the Spring (Cagliari to the Costa Smeralda)'
 tour_types: guided
 region: Sardinia
 days: 13
 seasons: spring
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775530697
+updated_at: 1775797973
 grade: 3
 summary: 'Sardinia is a magical island, a few hours by ferry, a world away from continental Italy.'
 tour_size: 15
