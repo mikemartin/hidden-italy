@@ -7,7 +7,7 @@ tour_types: self-guided
 region: 'Tuscany and Umbria'
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896714
+updated_at: 1775801686
 grade: 3
 summary: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
 overview:
@@ -138,4 +138,18 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
+image: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano_-tuscany-s-hilltop-beauty.png
+gallery:
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano_-tuscany-s-hilltop-beauty.png
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020002.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/bolsena-1.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/hiking-the-ancient-via-cava.png
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/sorano-1-a.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1050010.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020009-a.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/img_6947.jpeg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano-2.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-8.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/walking.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-cathedral-in-vibrant-daylight.png
 ---
