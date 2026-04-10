@@ -7,7 +7,7 @@ tour_types: guided
 region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775527122
+updated_at: 1775797514
 grade: 4
 summary: 'A special tour to a fascinating region: 3 borders, 4 national parks; and five languages.'
 overview:
@@ -259,11 +259,11 @@ page_builder:
     type: experience
     enabled: true
   -
-    id: pSNURlLFvvD4ZnJrFvQah
+    id: YEFY7hZMnIxanwuc-b1Gz
     title: 'Tour Leader'
+    person: 9a02b1a9-0133-4c3d-83cc-2b0cbfb4a215
     type: leader
     enabled: true
-    person: 23e6d349-a85f-443a-83be-9d3a0f718a23
   -
     id: vd-bo2xUCPV3g4gawnBeq
     title: 'What you should know'
