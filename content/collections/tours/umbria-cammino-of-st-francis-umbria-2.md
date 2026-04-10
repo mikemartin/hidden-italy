@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896777
+updated_at: 1775804665
 grade: 3
 summary: "A week-long walk along well-marked trails through the charming 'green heart of Italy'."
 overview:
@@ -90,6 +90,7 @@ page_builder:
         id: mlooymbz
         title: 'Day 1: Arrive in Spoleto'
         description: 'Arrival in Spoleto, well-connected to Florence and Rome.  This charming city has a long and fascinating history: besieged by Hannibal and his elephants, it was the seat of a Lombard duchy and had the 19 year old Lucrezia Borgia as it’s governor.  These days it is best known for its summer festival, the Festival dei Due Mondi, Italy’s largest international arts event.'
+        photo: tours/umbria-cammino-of-st-francis-umbria-2/1.jpg
       -
         id: mloozlek
         title: 'Day 2:  Walk to the Nera Valley'
@@ -99,6 +100,7 @@ page_builder:
         elevation: 666
         meals_included:
           - breakfast
+        photo: tours/umbria-cammino-of-st-francis-umbria-2/img_5409.jpg
       -
         id: mlop159i
         title: 'Day 3:  Walk down the Nera River'
@@ -108,6 +110,7 @@ page_builder:
         elevation: 86
         meals_included:
           - breakfast
+        photo: tours/umbria-cammino-of-st-francis-umbria-2/7.jpg
       -
         id: mlop3c5r
         title: 'Day 4:  Walk to a lake'
@@ -117,6 +120,7 @@ page_builder:
         elevation: 178
         meals_included:
           - breakfast
+        photo: tours/umbria-cammino-of-st-francis-umbria-2/sofia-msnxoysxjsq-unsplash.jpg
       -
         id: mlop5205
         title: 'Day 5:  Discover the Rieti valley'
@@ -126,6 +130,7 @@ page_builder:
         elevation: 726
         meals_included:
           - breakfast
+        photo: tours/umbria-cammino-of-st-francis-umbria-2/img_5356.jpg
       -
         id: mlop6avf
         title: 'Day 6:  Walk to Rieti'
@@ -135,14 +140,130 @@ page_builder:
         elevation: 326
         meals_included:
           - breakfast
+        photo: tours/umbria-cammino-of-st-francis-umbria-2/p4280723-a.jpg
       -
         id: mlop8uiy
         title: 'Day 7:  Depart Rieti'
         description: "After breakfast, you'll be free to continue your holiday.   Rieti is well connected by regular train to Rome and the rest of Italy."
         meals_included:
           - breakfast
+        photo: tours/umbria-cammino-of-st-francis-umbria-2/2.jpg
     type: itinerary
+    enabled: true
+  -
+    id: xcWZUtn7sJtCsH09d0uvO
+    title: 'Umbria 2 experience'
+    tabs:
+      -
+        id: mHb4rqFxO0jDx8CKjPTWK
+        title: Walks
+        total_distance: 91
+        total_elevation: 1982
+        grade: 4
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The walks follow clear and well-marked trails and much of the walk passes along river flats and over undulating farmlands.\_ However, there are two days with long walks: Day 5 (20 kms) and Day 6 (18 kms) and two days with long climbs long climbs (on Day 2 and on Day 5).\_ Full details on each walk are on the itinerary.\_"
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: 'The self-guided itineraries are re-walked and the notes updated each year.'
+        start_location: Spoleto
+        finish_location: Rieti
+        image: tours/2.5.jpg
+        type: walk
+        enabled: true
+      -
+        id: dJqX1COMa8d7m_txezz-P
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "In the spirit of the long-distance pilgrimage, we have sought to keep the costs down.\_ The accommodation in between is the best available in each places including a 4-star hotel, asimple family-run agriturismo, a private apartment and modern lake-side hotel.\_ All the accommodation is clean, comfortable and welcoming and each room has an en suite bathroom."
+        images:
+          - tours/miralago-1.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: 2vX4JZSJLTgzqr7rufXnX
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "You are walking through one of the more celebrated food and wine regions of Italy - famous for its Sagrantino red wine; 'norcineria' (sausages and cold cuts); lentils; truffles and.... chocolate.\_ Umbrian cuisine is dominated by olive oil, which features in everything from roast pork to its luxurious truffle dishes, the pride of the region.\_ Local dishes, as a result, are simple and tasty, putting the accent on the excellent quality of the raw materials.\_ You only need three things to make good Umbrian food: a fire or oven, local produce and plenty of time."
+        images:
+          - tours/7.6.jpg
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: wGskjraBynP9JZnX6TVDz
+    title: 'What you should know'
+    sections:
+      -
+        id: S8vW2ofm6Q4TNn13_8FkE
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: xK9VMs0cL1AgyO9Hl4EbB
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+        type: booking_cancellation
+        enabled: true
+      -
+        id: psWx7Q6tjmzUER1kF2UF6
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
+image: tours/umbria-cammino-of-st-francis-umbria-2/1.jpg
+gallery:
+  - tours/umbria-cammino-of-st-francis-umbria-2/1.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/2.5.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/2.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/5.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/p4280723-a.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/7.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/7.6.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/f1020015.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/img_5356.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/14.8.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/img_5360.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/img_5409.jpg
 ---
