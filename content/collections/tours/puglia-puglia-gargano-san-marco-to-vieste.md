@@ -209,8 +209,6 @@ page_builder:
                   -
                     type: italic
                 text: "Generous breakfasts and three course dinners are included each day on this tour.\_ "
-        images:
-          - tours/img_2836-1775022672.jpg
         type: food
         enabled: true
     type: experience

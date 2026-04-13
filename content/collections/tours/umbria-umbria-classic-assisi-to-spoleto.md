@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1774495856
+updated_at: 1776046501
 grade: 3
 summary: 'Enjoy the best of Umbria has to offer: superior accommodation, great art, amazing walks!'
 overview:
@@ -89,8 +89,7 @@ page_builder:
         id: mlooymbz
         title: 'Day 1: Arrive in Spoleto'
         description: 'Even without St Francis Assisi would be irresistible, a charming medieval town nestled under the forested peak of Monte Subasio. However, the monuments that have been dedicated to the saint make Assisi a highlight of any visit to Umbria. The Basilica dedicated to Saint Francis contains some of the masterpieces of Western art, including seminal works by Cimabue, Giotto, Simone Martini and the Lorenzetti brothers.'
-        meals_included:
-          - breakfast
+        photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020011.jpg
       -
         id: mloozlek
         title: 'Day 2:  Walk under Monte Subasio'
@@ -100,6 +99,7 @@ page_builder:
         elevation: 570
         meals_included:
           - breakfast
+        photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020014.jpg
       -
         id: mlop159i
         title: 'Day 3:  Walk across the valley'
@@ -109,6 +109,7 @@ page_builder:
         elevation: -109
         meals_included:
           - breakfast
+        photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020015.jpg
       -
         id: mlop3c5r
         title: 'Day 4:'
@@ -118,15 +119,18 @@ page_builder:
         elevation: 246
         meals_included:
           - breakfast
+        photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020018.jpg
       -
         id: mlop5205
         title: "Day 5:  Stay in a 'borgo'"
-        description: 'Descending from the hills, you cross the valley floor again, following a medieval path through wheat fields, past quiet farming villages and springs from a river source sacred to the Romans which inspired poets from Virgil to Byron, before climbing up to your accommodation.  Please note that this walk can be shortened with an night in an excellent 4-star hotel along the way (7kms + 14 kms).'
+        description: 'Descending from the hills, you cross the valley floor again, following a medieval path through wheat fields, past quiet farming villages and springs from a river source sacred to the Romans which inspired poets from Virgil to Byron, before climbing up to your accommodation.  Dinner is included tonight.  Please note that this walk can be shortened with an night in an excellent 4-star hotel along the way (7kms + 14 kms).'
         duration: 5
         distance: 21
         elevation: 238
         meals_included:
           - breakfast
+          - dinner
+        photo: tours/umbria-umbria-classic-assisi-to-spoleto/eggi-view.jpg
       -
         id: mlop6avf
         title: 'Day 6:  Walk to Spoleto'
@@ -136,13 +140,119 @@ page_builder:
         elevation: 258
         meals_included:
           - breakfast
+        photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1030001.jpg
       -
         id: mlop8uiy
         title: 'Day 7:  Depart Spoleto'
         description: "After breakfast, you'll be free to continue your holiday.   Spoleto is well connected by regular train to Florence, Rome and the rest of Italy."
         meals_included:
           - breakfast
+        photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020013-a.jpg
     type: itinerary
+    enabled: true
+  -
+    id: 4ks2Z4mm56m2e9NwdZKLe
+    title: 'Umbria Classic experience'
+    tabs:
+      -
+        id: _mDmVfayfhOdoqr-fftAm
+        title: Walks
+        total_distance: 73
+        total_elevation: 1312
+        grade: 0
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The walks mainly\_follow unsealed country roads passing thdough farmlands, olive groves and vineyards. The walks range from 8 to 21 kilometres (3 to 6 hours).\_ The first walk on Day 2 is probably the most challenging with a steep climb at the beginning (the views on the top of Mt Subasio are your reward) however, there is a shorter option with less climbing is included in the notes. \_Day 5 walk (21 kms) can be shortened with an night in an excellent 4-star hotel along the way (highly recommended!).\_ "
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: 'The self-guided itineraries are re-walked and the notes updated each year.'
+        image: tours/f1020010.jpg
+        type: walk
+        enabled: true
+      -
+        id: nkXvBhjxld4s_M-3z-F3V
+        title: Accommodation
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Hidden Italy uses the best accommodation available and the accommodation is one of the highlights of this walk: \_including centrally-located hotels in recently restored historical buildings that are themselves part of the history of the towns and a beautifully restored country estate with a swimming pool and its own olive groves and vineyards."
+        images:
+          - tours/borgo-della-marmotta-1-1776046318.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: 1grdU8mk7fgoQdVPvS6M6
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "You are walking through one of the most celebrated food and wine regions of Italy - famous for its Sagrantino red wine; 'norcineria' (sausages and cold cuts); lentils; truffles and.... chocolate.\_ Umbrian by olive oil, which features in everything from roast pork to its luxurious truffle dishes, the pride of the region.\_ Local dishes, as a result, are simple and tasty, putting the accent on the excellent quality of the raw materials.\_ You only need three things to make good Umbrian food: a fire or oven, local produce and plenty of time."
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+        images:
+          - tours/img_5261.jpg
+        type: food
+        enabled: true
+    type: experience
+    enabled: true
+  -
+    id: mDzuivrLElLWsFQ6ucAPL
+    title: 'What you should know'
+    sections:
+      -
+        id: ZLv7Dct01tcylNKHHErE3
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: ehr1Zwd-VXGQVL2jNgIBj
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+        type: booking_cancellation
+        enabled: true
+      -
+        id: lMMPiCufi-W9yEAgjT12g
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+        type: travel_insurance
+        enabled: true
+    type: essentials
     enabled: true
 simple_likes: 0
 duplicated_from: 2c566c23-3738-482e-b78a-a2ac67ccf9cf
