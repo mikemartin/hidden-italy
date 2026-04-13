@@ -7,7 +7,7 @@ region: 'Trentino-Alto Adige'
 days: 13
 tour_types: guided
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775798406
+updated_at: 1776048500
 locations: northern-italy
 grade: 3
 image: tours/trentino-alto-adige-dolomites/804729994-100.jpg
@@ -283,7 +283,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best.  Bring something warm for the evenings."
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_It is autumn and we are in the mountains so you will need to take some warm clothes, eg a pullover, a puffer-type jacket and some warm pants.  Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
         type: equipment
         enabled: true
       -
