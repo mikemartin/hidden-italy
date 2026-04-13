@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Piedmont
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776053620
+updated_at: 1776054124
 grade: 3
 summary: 'An 8-day tour that takes you through the seductive rolling hills of southern Piedmont.'
 overview:
@@ -216,6 +216,18 @@ page_builder:
     title: 'What you should know'
     sections:
       -
+        id: s5LqZM3JT9wLBd_5Qr6gN
+        heading: 'Support on the tour'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To guide you through this wonderful walk you will have the Hidden Italy road-book (an eighty-page A5 booklet that includes comprehensive daily walking notes accompanied by detailed maps, updated and revised each year);\_ access to the exclusive Hidden Italy App to complement the road-book (the App is downloadable to Apple and Android devices and features information about the routes: maps, GPS tracks, altimetric profiles, etc; GPS navigation on all the routes; an alert function if you stray off the track; and an emergency function);\_ twenty-four-hour phone support from our local team as well as our Italy-based Operations Manager."
+        type: general
+        enabled: true
+      -
         id: 2kijTuCwT4FnieL72cjfY
         body:
           -
@@ -247,18 +259,6 @@ page_builder:
                 type: text
                 text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
         type: travel_insurance
-        enabled: true
-      -
-        id: s5LqZM3JT9wLBd_5Qr6gN
-        heading: 'Support on the tour'
-        body:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: "To guide you through this wonderful walk you will have the Hidden Italy road-book (an eighty-page A5 booklet that includes comprehensive daily walking notes accompanied by detailed maps, updated and revised each year);\_ access to the exclusive Hidden Italy App to complement the road-book (the App is downloadable to Apple and Android devices and features information about the routes: maps, GPS tracks, altimetric profiles, etc; GPS navigation on all the routes; an alert function if you stray off the track; and an emergency function);\_ twenty-four-hour phone support from our local team as well as our Italy-based Operations Manager."
-        type: general
         enabled: true
     type: essentials
     enabled: true
