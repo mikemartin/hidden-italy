@@ -7,7 +7,7 @@ tour_types: self-guided
 region: 'Tuscany and Umbria'
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776045531
+updated_at: 1776054512
 grade: 3
 summary: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
 overview:
@@ -206,6 +206,18 @@ page_builder:
     id: B5PGkOu1CvOE1V8aMFmLM
     title: 'What you should know'
     sections:
+      -
+        id: 9zsmUluqN7MIy2AB8xb-h
+        heading: 'Support on the tour'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To guide you through this wonderful walk you will have the Hidden Italy road-book (an eighty-page A5 booklet that includes comprehensive daily walking notes accompanied by detailed maps, updated and revised each year);\_ access to the exclusive Hidden Italy App to complement the road-book (the App is downloadable to Apple and Android devices and features information about the routes: maps, GPS tracks, altimetric profiles, etc; GPS navigation on all the routes; an alert function if you stray off the track; and an emergency function);\_ twenty-four-hour phone support from our local team as well as our Italy-based Operations Manager."
+        type: general
+        enabled: true
       -
         id: xbOMR9cnppvVJebvNoJ1Y
         body:
