@@ -186,8 +186,6 @@ page_builder:
               -
                 type: text
                 text: "The accommodation is a mix of well-located hotels.\_ On Days 1, 2 and 3 you stay in excellent 4-star hotels (each with a swimming pool); on Days 4 and 5 you stay in two very comfortable, family-run ‘agriturismos’ while, for your last two nights in Vieste, Days 6 and 7, you stay in a very comfortable hotel in the centre of this buzzing coastal town."
-        images:
-          - tours/palace-hotel-1775022616.jpg
         type: accommodation
         enabled: true
       -

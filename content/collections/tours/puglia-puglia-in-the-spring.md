@@ -217,7 +217,6 @@ page_builder:
                 text: "Without mountains, Puglia offers relaxed walking through undulating hills, following country lanes lined with drystone walls or following trails along spectacular coastline. Three walks are in central Puglia, passing through forest, wheat fields, cherry orchards and olive groves.\_ Two are coastal walks: the first walk winds along the Ionian coast through Puglia's oldest national park while the other heads south down the Adriatic coast with glimpses of the mountains of Albania to the east and Corfu in the south (weather permitting).\_ The main feature of all the walks in this season is the wildflowers.\_ The walks range from 4 to 14 kilometres and take from 1 to 4 hours.\_ In some cases it is possible to shorten the walks or opt out and join the walkers for lunch."
         start_location: Lecce
         finish_location: Bari
-        image: tours/matera-14-1775529640.jpg
         type: walk
         enabled: true
       -

@@ -186,8 +186,6 @@ page_builder:
               -
                 type: text
                 text: "Hidden Italy uses the best accommodation available and the accommodation is one of the highlights of this walk: \_including centrally-located hotels in recently restored historical buildings that are themselves part of the history of the towns and a beautifully restored country estate with a swimming pool and its own olive groves and vineyards."
-        images:
-          - tours/borgo-della-marmotta-1-1776046318.jpg
         type: accommodation
         enabled: true
       -
