@@ -1,13 +1,13 @@
 ---
 id: 3d10a0a0-5538-48e1-a7ad-e8e84b633ed9
 blueprint: tour
-title: 'Puglia - Puglia (Gargano: San Marco to Vieste)'
-name: 'Puglia (Gargano: San Marco to Vieste)'
+title: 'Puglia - Puglia (Gargano Peninsula to Vieste)'
+name: 'Puglia (Gargano Peninsula to Vieste)'
 tour_types: self-guided
 region: Puglia
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776053714
+updated_at: 1776054052
 grade: 4
 summary: 'Ramble the length of Gargano Peninsula through farmlands and forest to the sparkling sea!'
 overview:
