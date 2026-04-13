@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775804665
+updated_at: 1776045664
 grade: 3
 summary: "A week-long walk along well-marked trails through the charming 'green heart of Italy'."
 overview:
@@ -202,6 +202,15 @@ page_builder:
               -
                 type: text
                 text: "You are walking through one of the more celebrated food and wine regions of Italy - famous for its Sagrantino red wine; 'norcineria' (sausages and cold cuts); lentils; truffles and.... chocolate.\_ Umbrian cuisine is dominated by olive oil, which features in everything from roast pork to its luxurious truffle dishes, the pride of the region.\_ Local dishes, as a result, are simple and tasty, putting the accent on the excellent quality of the raw materials.\_ You only need three things to make good Umbrian food: a fire or oven, local produce and plenty of time."
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
         images:
           - tours/7.6.jpg
         type: food
