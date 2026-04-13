@@ -7,7 +7,7 @@ tour_types: self-guided
 region: "Val d'Aosta"
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776049595
+updated_at: 1776049692
 grade: 0
 summary: 'A 7-day hike along historic trails through one of Italy’s most beautiful mountain valleys!'
 overview:
@@ -180,6 +180,119 @@ page_builder:
         id: QXGy6f2w5gCF1-Gb_IAiG
         title: Accommodation
         type: accommodation
+        enabled: true
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "The accommodation is definitely one of the highlights of the visit.\_ You stay in a combination of beautiful boutique hotels set in restored Walser residences, one dating from the 16th century and, for two nights, two very comfortable 'rifugios' (mountain lodges) in spectacular locations, one in a hamlet that dates from the 12th century.\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "All the accommodation is in small historic buildings mostly made local timber and stone and all run by proud local families.\_ All the rooms, in the hotels and rifugios, have private, en suite bathrooms."
+        images:
+          - tours/5-1776049637.jpg
+      -
+        id: R_bvUwm17pAGaqCUbgQT_
+        title: Food
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'The tour cost includes all breakfasts, a light lunch and dinners.'
+              -
+                type: text
+                text: "\_ You will enjoy some of the finest food in northern Italy, proudly based on local and seasonal produce.\_"
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: ' Polenta'
+              -
+                type: text
+                text: " and hearty soups are the stalwarts of the local cuisine.\_\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Main courses may include '
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: carbonada
+              -
+                type: text
+                text: ' (beef stew cooked with red wine), '
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: 'costoletta alla valdostana'
+              -
+                type: text
+                text: ' (a ‘schnitty’ served with '
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: fontina
+              -
+                type: text
+                text: " cheese) and local trout (generally cooked with fresh veggies, butter and sage).\_ The area is also famous for its cheeses (particularly "
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: fontina
+              -
+                type: text
+                text: ' and '
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: toma
+              -
+                type: text
+                text: ') and its high altitude, cold climate wines such as '
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: 'Torrette, Fumin '
+              -
+                type: text
+                text: and
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: ' Gamay'
+              -
+                type: text
+                text: .
+        images:
+          - tours/8.jpg
+        type: food
         enabled: true
     type: experience
     enabled: true
