@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Puglia
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776053662
+updated_at: 1776053714
 grade: 4
 summary: 'Ramble the length of Gargano Peninsula through farmlands and forest to the sparkling sea!'
 overview:
@@ -276,6 +276,6 @@ gallery:
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_2799.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/15.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/17.5.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_3610.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_2836.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_3610.jpg
 ---
