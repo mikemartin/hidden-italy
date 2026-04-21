@@ -9,7 +9,7 @@ days: 13
 seasons: spring
 grade: 2
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775797660
+updated_at: 1776749832
 summary: 'Campania a stunningly beautiful area with all the exuberance and colour of southern Italy.'
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15
@@ -313,6 +313,14 @@ page_builder:
         type: travel_insurance
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: DTIS5wOA0I16LznMjkaNB
+    title: 'What our travellers are saying'
+    testimonials:
+      - 70aaf54b-388a-4901-a321-6688ac483bbf
+      - 645d9e38-4f9a-4590-b2f5-27761417d043
+    type: testimonials
     enabled: true
 simple_likes: 0
 locations: southern-italy
