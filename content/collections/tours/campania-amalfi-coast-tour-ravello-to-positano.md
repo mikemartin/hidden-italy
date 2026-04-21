@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Campania
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776052959
+updated_at: 1776749363
 grade: 3
 summary: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
 overview:
@@ -251,6 +251,15 @@ page_builder:
         type: travel_insurance
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: Z4Eo1v9GS-MOK7Yj_nhsF
+    title: 'What our travellers are saying'
+    testimonials:
+      - abed777c-bcf3-4f03-a324-027c876335ee
+      - d8789430-b786-4f4f-a392-12794da0f312
+      - 86d468b5-96c6-4c66-8f1a-6a24245ddc41
+    type: testimonials
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
