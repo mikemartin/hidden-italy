@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Piedmont
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776054124
+updated_at: 1776837911
 grade: 3
 summary: 'An 8-day tour that takes you through the seductive rolling hills of southern Piedmont.'
 overview:
@@ -261,6 +261,15 @@ page_builder:
         type: travel_insurance
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: wJiPgTM98bfJql8xCh5Nc
+    title: 'What our travellers are saying'
+    testimonials:
+      - 8bad08d1-c459-47ff-b947-f620f0cf5c4b
+      - 55fd1566-07d2-4856-b001-0d47ea0ca332
+      - fbe5bdc8-92b4-4773-b6eb-b12e6d3edac2
+    type: testimonials
     enabled: true
 simple_likes: 0
 image: tours/piedmont-alba-and-le-langhe/7-v2.jpg
