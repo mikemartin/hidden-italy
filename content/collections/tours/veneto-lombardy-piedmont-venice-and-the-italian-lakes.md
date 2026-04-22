@@ -7,7 +7,7 @@ tour_types: guided
 region: Lombardy-Piedmont
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1773896495
+updated_at: 1776828604
 grade: 4
 summary: 'This wonderful tour gives new twists to some of the classic destinations of northern Italy'
 overview:
@@ -189,6 +189,15 @@ page_builder:
         meals_included:
           - breakfast
     type: itinerary
+    enabled: true
+  -
+    id: hqjZfm096AlKce4Tz15li
+    title: 'What our travellers are saying'
+    testimonials:
+      - 877f5193-444f-4490-b938-85dda15ade4e
+      - 6715e193-829f-4c07-96e8-410f9bade787
+      - 2a3af93d-3a55-4a7c-b47b-e3e05f0965da
+    type: testimonials
     enabled: true
 simple_likes: 0
 seasons: autumn
