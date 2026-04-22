@@ -6,6 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title ?? site:name }}</title>
         <meta name="csrf-token" content="{{ csrf_token }}">
+        <link rel="preload" href="{{ vite:asset src='resources/fonts/MonaSansVF-wght-opsz-ital.woff2' }}" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="{{ vite:asset src='resources/fonts/MonaSansMonoVF-wght.woff2' }}" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="{{ vite:asset src='resources/fonts/RomaNeue-SemiBold.woff2' }}" as="font" type="font/woff2" crossorigin>
         <link rel="stylesheet" href="/vendor/simple-likes/css/simple-likes.css">
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
     </head>

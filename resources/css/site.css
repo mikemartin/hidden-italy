@@ -1,4 +1,18 @@
 @import "tailwindcss";
+@import "./font.css";
+
+@theme {
+  --font-display: 'Roma Neue', system-ui, sans-serif;
+  --font-sans: 'Mona Sans VF', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
 @plugin "@tailwindcss/typography";
 @plugin "@tailwindcss/forms" {
     strategy: class
