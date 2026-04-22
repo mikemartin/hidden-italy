@@ -6,5 +6,5 @@ quote: 'We have just finished our incredible walk around Alba and the Piedmont a
 name: 'Marylou H'
 tour: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776837820
+updated_at: 1776837863
 ---
