@@ -330,11 +330,20 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+  -
+    id: v-Y1X2gPDJm6PxI5fCblV
+    title: 'What our travellers are saying'
+    testimonials:
+      - c4dad366-cfdd-443a-8db6-c29df33df79a
+      - 5e20d0e8-847b-4371-95a7-a7c859735fee
+      - 966a5684-0228-4341-8790-8ef4f90f52dc
+    type: testimonials
+    enabled: true
 tour_types: guided
 seasons: summer
 locations: northern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775797769
+updated_at: 1776827335
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
