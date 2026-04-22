@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Puglia
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776054089
+updated_at: 1776838159
 grade: 4
 summary: 'Ramble the length of Gargano Peninsula through farmlands and forest to the sparkling sea!'
 overview:
@@ -261,6 +261,15 @@ page_builder:
         type: travel_insurance
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: plmi3WQfZapIU1xNNVm5E
+    title: 'What our travellers are saying'
+    testimonials:
+      - 97388b8f-a044-4e0f-bd8d-9340ea77276a
+      - 799d3578-55d6-4b42-8695-a6c34e3a3582
+      - 4ac64d17-a1bb-443e-8f58-a6023213e49f
+    type: testimonials
     enabled: true
 simple_likes: 0
 duplicated_from: 94b14cda-124a-4b87-82f5-7bc566ac2edf
