@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776053452
+updated_at: 1776828020
 grade: 4
 summary: 'Follow ancient paths through fishing villages and forests on the beautiful Italian Riviera'
 overview:
@@ -278,6 +278,15 @@ page_builder:
         type: general
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: UPVpERyOQrTSBZrnBJD0s
+    title: 'What our travellers are saying'
+    testimonials:
+      - c9401d75-f304-40b9-8def-48c31fbb7d07
+      - 6c70b0e8-764e-4d1a-b4a7-11a908b68de4
+      - a3bc8fd1-1a62-46ce-a32b-16b725b7897f
+    type: testimonials
     enabled: true
 simple_likes: 0
 duplicated_from: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
