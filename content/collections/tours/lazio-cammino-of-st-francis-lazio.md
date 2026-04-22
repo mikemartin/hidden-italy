@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Lazio
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776053254
+updated_at: 1776827598
 grade: 3
 summary: 'From the quiet green hills of central Italy to the steps of St Peters in the heart of Rome'
 overview:
@@ -247,6 +247,15 @@ page_builder:
         type: travel_insurance
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: kNzs88__zkkDBKYUudDQn
+    title: 'What our travellers are saying'
+    testimonials:
+      - 6b14dc69-5c8e-4c0c-b37c-7f1340d9e33f
+      - 9c86ac3f-e58e-4f4a-8f4c-e52a63dc2237
+      - 6fcf2d29-4fab-45fc-83f5-ee7ed490f886
+    type: testimonials
     enabled: true
 simple_likes: 0
 gallery:
