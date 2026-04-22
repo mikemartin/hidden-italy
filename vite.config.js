@@ -6,7 +6,6 @@ export default defineConfig(({ command, mode }) => {
     const env = loadEnv(mode, process.cwd(), '')
     return {
         build: {
-            buildDirectory: '_build',
             rollupOptions: {
                 output: {
                     manualChunks: (id) => {
@@ -19,7 +18,6 @@ export default defineConfig(({ command, mode }) => {
             tailwindcss(),
             laravel({
                 refresh: true,
-                buildDirectory: '_build',
                 input: [
                     'resources/css/site.css',
                     'resources/js/site.js',
