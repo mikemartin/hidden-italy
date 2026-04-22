@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776053992
+updated_at: 1776841158
 grade: 4
 summary: 'Coastal walks, island hoping and fabulous food, this tour is southern Italy at its best!'
 overview:
@@ -259,6 +259,15 @@ page_builder:
         type: travel_insurance
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: AAGSASPL4-n2QwiDU8GoN
+    title: 'What our travellers are saying'
+    testimonials:
+      - 7dc91f51-95db-43d9-937e-1a0f60631c6d
+      - 8e8cd370-fbb2-4770-bf18-3debccf03031
+      - 1fbd53c4-6126-4511-aaa4-70f1c2253d25
+    type: testimonials
     enabled: true
 locations: southern-italy
 duplicated_from: 9b40b14d-a9c5-43b5-ae27-eeb883bc2c34
