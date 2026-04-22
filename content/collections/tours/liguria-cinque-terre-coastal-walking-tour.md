@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776053360
+updated_at: 1776827818
 grade: 3
 summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
 overview:
@@ -246,6 +246,15 @@ page_builder:
         type: general
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: e0MVbbIGrAUhO79dXb94n
+    title: 'What our travellers are saying'
+    testimonials:
+      - a3519272-9f93-46df-90cf-8c28d7a03683
+      - 67398d4d-4c1a-4103-a4fd-4ec816867e63
+      - 740df3a3-af3b-4b7b-adb2-26e42fe3e024
+    type: testimonials
     enabled: true
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
