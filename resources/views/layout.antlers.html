@@ -1,20 +1,34 @@
+{{#
+    @name Layout
+    @desc The default layout file.
+#}}
+
+<!-- /layout.antlers.html -->
 <!doctype html>
-<html lang="{{ site:short_locale }}">
+<html lang="{{ site:short_locale }}" class="antialiased scroll-smooth scroll-pt-4">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ title ?? site:name }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
         <meta name="csrf-token" content="{{ csrf_token }}">
         <link rel="preload" href="{{ vite:asset src='resources/fonts/MonaSansVF-wght-opsz-ital.woff2' }}" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="{{ vite:asset src='resources/fonts/MonaSansMonoVF-wght.woff2' }}" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="{{ vite:asset src='resources/fonts/RomaNeue-SemiBold.woff2' }}" as="font" type="font/woff2" crossorigin>
         <link rel="stylesheet" href="/vendor/simple-likes/css/simple-likes.css">
-        {{ vite src="resources/js/site.js|resources/css/site.css" }}
+        {{ vite src="resources/css/site.css|resources/js/site.js" directory="_build" }}
+        {{ partial:statamic-peak-seo::snippets/seo }}
+        {{ partial:statamic-peak-tools::snippets/browser_appearance }}
+        {{ stack:head }}
     </head>
-    <body class="relative font-sans leading-normal text-slate-800 min-h-screen">
-        <div class="container mx-auto px-2">
-            {{ template_content }}
-        </div>
+    <body class="flex flex-col min-h-screen bg-white">
+        {{ stack:seo_body }}
+        {{ partial:statamic-peak-tools::snippets/noscript }}
+        {{ partial:statamic-peak-tools::navigation/skip_links }}
+        {{ partial:statamic-peak-tools::components/toolbar }}
+
+        {{ partial:layout/header }}
+        {{ template_content }}
+        {{ partial:layout/footer }}
     </body>
 </html>
+<!-- End: /layout.antlers.html -->

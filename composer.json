@@ -24,7 +24,9 @@
         "laravel/tinker": "^3.0",
         "mallardduck/blade-lucide-icons": "^1.24",
         "mikomagni/simple-likes": "^2.0",
-        "statamic/cms": "^6.0"
+        "statamic/cms": "^6.0",
+        "studio1902/statamic-peak-seo": "^11.0",
+        "studio1902/statamic-peak-tools": "^9.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^4.0",

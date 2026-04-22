@@ -1,9 +1,12 @@
 nav:
   content:
-    'content::collections':
+    'content::assets':
       action: '@modify'
-      reorder:
-        - 'content::collections::pages'
+      reorder: true
+      children:
+        'content::assets::images': '@inherit'
+        'content::assets::files': '@inherit'
+        'content::assets::social_images': '@inherit'
 collections:
   tours:
     view: list

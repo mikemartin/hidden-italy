@@ -1,22 +1,53 @@
 @import "tailwindcss";
-@import "./font.css";
+@import "./buttons.css";
+@import "./peak.css";
+@import "./typography.css";
 
 @theme {
-  --font-display: 'Roma Neue', system-ui, sans-serif;
-  --font-sans: 'Mona Sans VF', system-ui, sans-serif;
+    --color-primary: oklch(53.24% 0.301 290.86);
+
+    --color-neutral: var(--color-slate-800);
+    --color-neutral-50: var(--color-slate-50);
+    --color-neutral-100: var(--color-slate-100);
+    --color-neutral-200: var(--color-slate-200);
+    --color-neutral-300: var(--color-slate-300);
+    --color-neutral-400: var(--color-slate-400);
+    --color-neutral-500: var(--color-slate-500);
+    --color-neutral-600: var(--color-slate-600);
+    --color-neutral-700: var(--color-slate-700);
+    --color-neutral-800: var(--color-slate-800);
+    --color-neutral-900: var(--color-slate-900);
+    --color-neutral-950: var(--color-slate-950);
+
+    --font-display: 'Roma Neue', system-ui, sans-serif;
+    --font-sans: 'Mona Sans VF', system-ui, sans-serif;
+
+    --font-sans: 'Mona Sans VF', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-display: 'Roma Neue', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif; 
+    --font-mono: 'Mona Sans Mono VF', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; 
+
+    --font-weight-*: initial;
+    /* --font-weight-hairline: 100; */
+    /* --font-weight-thin: 200; */
+    /* --font-weight-light: 300; */
+    --font-weight-normal: 400;
+    /* --font-weight-medium: 500; */
+    /* --font-weight-semibold: 600; */
+    --font-weight-bold: 700;
+    /* --font-weight-extrabold: 800; */
+    /* --font-weight-black: 900; */
 }
 
 @layer base {
-  html {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-}
+    html {
+        color: var(--color-neutral);
+        font-family: var(--font-sans);
+    }
 
-@plugin "@tailwindcss/typography";
-@plugin "@tailwindcss/forms" {
-    strategy: class
+   ::selection,
+   ::target-text {
+        background-color: var(--color-primary);
+        color: var(--color-white);
+   }
 }
-@source "../views";
-@source "../../content";
 @import "./livewire-filters-theme.css";

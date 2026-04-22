@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5824963fc944d9182020ec8f048679a6",
+    "content-hash": "ee63c17392a3286f5d921cdb88e2261b",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -5690,6 +5690,100 @@
                 }
             ],
             "time": "2026-02-26T17:21:13+00:00"
+        },
+        {
+            "name": "studio1902/statamic-peak-seo",
+            "version": "v11.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/studio1902/statamic-peak-seo.git",
+                "reference": "c18bd4c5b5a5fc91e96b16b85a4b224cd129e88e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/studio1902/statamic-peak-seo/zipball/c18bd4c5b5a5fc91e96b16b85a4b224cd129e88e",
+                "reference": "c18bd4c5b5a5fc91e96b16b85a4b224cd129e88e",
+                "shasum": ""
+            },
+            "require": {
+                "statamic/cms": "^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Studio1902\\PeakSeo\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Statamic Peak SEO",
+                    "description": "Statamic Peak SEO addon"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Studio1902\\PeakSeo\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/studio1902/statamic-peak-seo/issues",
+                "source": "https://github.com/studio1902/statamic-peak-seo/tree/v11.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/studio1902",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-04-13T14:39:19+00:00"
+        },
+        {
+            "name": "studio1902/statamic-peak-tools",
+            "version": "v9.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/studio1902/statamic-peak-tools.git",
+                "reference": "30473ad5032f365e171c4df013a4faacb887f75f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/studio1902/statamic-peak-tools/zipball/30473ad5032f365e171c4df013a4faacb887f75f",
+                "reference": "30473ad5032f365e171c4df013a4faacb887f75f",
+                "shasum": ""
+            },
+            "require": {
+                "statamic/cms": "^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Studio1902\\PeakTools\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Statamic Peak Tools",
+                    "description": "Statamic Peak Tools addon"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Studio1902\\PeakTools\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/studio1902/statamic-peak-tools/issues",
+                "source": "https://github.com/studio1902/statamic-peak-tools/tree/v9.0.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/studio1902",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-04-08T15:38:34+00:00"
         },
         {
             "name": "symfony/clock",

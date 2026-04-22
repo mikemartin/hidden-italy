@@ -1,7 +1,12 @@
-import Alpine from 'alpinejs';
+import Alpine from 'alpinejs'
+import collapse from '@alpinejs/collapse'
+import focus from '@alpinejs/focus'
+import morph from '@alpinejs/morph'
+import persist from '@alpinejs/persist'
+import precognition from 'laravel-precognition-alpine';
 import simpleLikes from './components/simple-likes.js';
 
-window.Alpine = Alpine;
+window.Alpine = Alpine
 window.simpleLikes = simpleLikes;
 
 Alpine.store('wishlist', {
@@ -22,9 +27,8 @@ Alpine.store('wishlist', {
     }
 });
 
-// Register Alpine components before starting
+Alpine.plugin([collapse, focus, morph, persist, precognition])
 Alpine.data('simpleLikes', simpleLikes);
-
 Alpine.start();
 Alpine.store('wishlist').refresh();
 
