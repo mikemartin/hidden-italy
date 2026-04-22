@@ -12,6 +12,7 @@
     <{{ as or 'a' }}
         class="
             {{ button_type === 'inline' ? 'button-inline' : 'button' }}
+            {{ large ?= 'button--large' }}
             {{ small ?= 'button--small' }}
             {{ class }}
         "

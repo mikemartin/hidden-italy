@@ -1,0 +1,317 @@
+{{#
+    @name Type Scale
+    @desc A reference page demonstrating the full typographic hierarchy with metadata.
+#}}
+
+<!-- /type-scale.antlers.html -->
+<main id="content" class="py-12 md:py-16 lg:py-24">
+    <section class="fluid-grid">
+        <div class="span-content stack-16">
+
+            {{# Page header #}}
+            <div class="bg-neutral-50 p-8 md:p-12 rounded-lg">
+                {{ partial:typography/h1
+                    content="Type Scale"
+                    class="mb-4 md:text-7xl tracking-[-0.03em]"
+                }}
+                {{ partial:typography/p
+                    content="The typographic hierarchy and system of weights and sizes for desktop and mobile views."
+                    class="!mb-0"
+                }}
+            </div>
+
+            {{# Type scale rows #}}
+            <div class="stack-6">
+
+                {{ partial:type-scale/row
+                    label="h1.big-display"
+                    typeface="Roma Neue"
+                    size="30px / 72px"
+                    line_height="125% / 110%"
+                    weight="700 / 600"
+                    letter_spacing="1% / -2%"
+                    content="The quick brown fox jumps over the lazy dog."
+                    partial_path="typography/h1_big_display"
+                }}
+
+                {{ partial:type-scale/row
+                    label="h1.display"
+                    typeface="Roma Neue"
+                    size="30px / 48px"
+                    line_height="125% / 110%"
+                    weight="700 / 600"
+                    letter_spacing="1% / -2%"
+                    content="The quick brown fox jumps over the lazy dog."
+                    partial_path="typography/h1_display"
+                }}
+
+                {{ partial:type-scale/row
+                    label="h1"
+                    typeface="Roma Neue"
+                    size="30px / 60px"
+                    line_height="125% / 110%"
+                    weight="700 / 600"
+                    letter_spacing="1% / -2%"
+                    content="The quick brown fox jumps over the lazy dog."
+                    partial_path="typography/h1"
+                    class="uppercase md:normal-case"
+                }}
+
+                {{ partial:type-scale/row
+                    label="h2"
+                    typeface="Roma Neue"
+                    size="24px / 36px"
+                    line_height="125%"
+                    weight="700 / 600"
+                    letter_spacing="1% / -1%"
+                    content="The quick brown fox jumps over the lazy dog."
+                    partial_path="typography/h2"
+                    class="uppercase md:normal-case"
+                }}
+
+                {{ partial:type-scale/row
+                    label="h3"
+                    typeface="Roma Neue"
+                    size="20px / 24px"
+                    line_height="125% / 150%"
+                    weight="700 / 600"
+                    letter_spacing="0"
+                    content="The quick brown fox jumps over the lazy dog."
+                    partial_path="typography/h3"
+                }}
+
+                {{ partial:type-scale/row
+                    label="h4"
+                    typeface="Roma Neue"
+                    size="18px / 20px"
+                    line_height="125%"
+                    weight="700 / 600"
+                    letter_spacing="0 / -1%"
+                    content="The quick brown fox jumps over the lazy dog."
+                    partial_path="typography/h4"
+                }}
+
+                {{ partial:type-scale/row
+                    label="h5"
+                    typeface="Roma Neue"
+                    size="12px / 16px"
+                    line_height="150%"
+                    weight="700"
+                    letter_spacing="8% / 5%"
+                    content="The quick brown fox jumps over the lazy dog."
+                    partial_path="typography/h5"
+                }}
+
+                {{ partial:type-scale/row
+                    label="h6"
+                    typeface="Roma Neue"
+                    size="16px / 18px"
+                    line_height="125% / 150%"
+                    weight="700 / 500"
+                    letter_spacing="0"
+                    content="The quick brown fox jumps over the lazy dog."
+                    partial_path="typography/h6"
+                }}
+
+                {{ partial:type-scale/row
+                    label="p"
+                    typeface="Mona Sans"
+                    size="16px / 18px"
+                    line_height="150% / 160%"
+                    weight="400"
+                    letter_spacing="0"
+                    content="The quick brown fox jumps over the lazy dog."
+                    partial_path="typography/p"
+                    class="!mb-0"
+                }}
+
+                {{ partial:type-scale/row
+                    label="p.small"
+                    typeface="Mona Sans"
+                    size="14px / 16px"
+                    line_height="150%"
+                    weight="400"
+                    letter_spacing="0"
+                    content="The quick brown fox jumps over the lazy dog."
+                    partial_path="typography/p_small"
+                    class="!mb-0"
+                }}
+
+                {{ partial:type-scale/row
+                    label="p.xsmall"
+                    typeface="Mona Sans"
+                    size="14px"
+                    line_height="150%"
+                    weight="400"
+                    letter_spacing="0"
+                    content="The quick brown fox jumps over the lazy dog."
+                    class="hidden md:block font-normal text-sm leading-[1.5]"
+                }}
+
+                {{ partial:type-scale/row
+                    label="p.mono"
+                    typeface="Mona Sans Mono"
+                    size="16px / 18px"
+                    line_height="150% / 160%"
+                    weight="400"
+                    letter_spacing="0"
+                    content="The quick brown fox jumps over the lazy dog."
+                    partial_path="typography/p"
+                    class="font-mono !mb-0"
+                }}
+
+                {{ partial:type-scale/row
+                    label="p.mono.small"
+                    typeface="Mona Sans Mono"
+                    size="14px / 16px"
+                    line_height="150%"
+                    weight="400"
+                    letter_spacing="0"
+                    content="The quick brown fox jumps over the lazy dog."
+                    partial_path="typography/p_small"
+                    class="font-mono !mb-0"
+                }}
+
+                {{ partial:type-scale/row
+                    label="a"
+                    typeface="Mona Sans"
+                    size="16px / 18px"
+                    line_height="150% / 160%"
+                    weight="400"
+                    letter_spacing="0"
+                    content="The quick brown fox jumps over the lazy dog."
+                    class="font-normal text-base md:text-lg leading-[1.5] md:leading-[1.6] text-primary underline"
+                }}
+
+                {{ partial:type-scale/row
+                    label="a.small"
+                    typeface="Mona Sans"
+                    size="14px / 16px"
+                    line_height="150%"
+                    weight="400"
+                    letter_spacing="0"
+                    content="The quick brown fox jumps over the lazy dog."
+                    class="font-normal text-sm md:text-base leading-[1.5] text-primary underline"
+                }}
+
+                {{ partial:type-scale/row
+                    label="blockquote"
+                    typeface="Roma Neue"
+                    size="14px / 18px"
+                    line_height="150% / 160%"
+                    weight="400"
+                    letter_spacing="0"
+                    content="The quick brown fox jumps over the lazy dog."
+                    class="font-display font-normal text-sm md:text-lg leading-[1.5] md:leading-[1.6]"
+                }}
+
+                {{ partial:type-scale/row
+                    label="label.large"
+                    typeface="Mona Sans"
+                    size="16px"
+                    line_height="160%"
+                    weight="500"
+                    letter_spacing="0"
+                    content="The quick brown fox jumps over the lazy dog."
+                    partial_path="typography/label"
+                    large="true"
+                }}
+
+                {{ partial:type-scale/row
+                    label="label.medium"
+                    typeface="Mona Sans"
+                    size="14px"
+                    line_height="160%"
+                    weight="500"
+                    letter_spacing="0"
+                    content="The quick brown fox jumps over the lazy dog."
+                    partial_path="typography/label"
+                }}
+
+                {{ partial:type-scale/row
+                    label="label.small"
+                    typeface="Mona Sans"
+                    size="12px"
+                    line_height="160%"
+                    weight="500"
+                    letter_spacing="0"
+                    content="The quick brown fox jumps over the lazy dog."
+                    partial_path="typography/label"
+                    small="true"
+                }}
+
+                {{ partial:type-scale/row
+                    label="button.large"
+                    typeface="Mona Sans"
+                    size="18px"
+                    line_height="100%"
+                    weight="700"
+                    letter_spacing="2%"
+                    button_label="Large Button"
+                    button_large="true"
+                    class="hidden md:block"
+                }}
+
+                {{ partial:type-scale/row
+                    label="button.medium"
+                    typeface="Mona Sans"
+                    size="16px"
+                    line_height="100%"
+                    weight="600"
+                    letter_spacing="2%"
+                    button_label="Medium Button"
+                    class="hidden md:block"
+                }}
+
+                {{ partial:type-scale/row
+                    label="button.small"
+                    typeface="Mona Sans"
+                    size="12px"
+                    line_height="100%"
+                    weight="600"
+                    letter_spacing="2%"
+                    button_label="Small Button"
+                    button_small="true"
+                    class="hidden md:block"
+                }}
+
+                {{ partial:type-scale/row
+                    label="input.large"
+                    typeface="Mona Sans"
+                    size="18px"
+                    line_height="131%"
+                    weight="400"
+                    letter_spacing="0"
+                    input_placeholder="Large Input"
+                    input_large="true"
+                    class="hidden md:block"
+                }}
+
+                {{ partial:type-scale/row
+                    label="input.medium"
+                    typeface="Mona Sans"
+                    size="16px"
+                    line_height="128%"
+                    weight="400"
+                    letter_spacing="0"
+                    input_placeholder="Medium Input"
+                    class="hidden md:block"
+                }}
+
+                {{ partial:type-scale/row
+                    label="input.small"
+                    typeface="Mona Sans"
+                    size="14px"
+                    line_height="128%"
+                    weight="400"
+                    letter_spacing="0"
+                    input_placeholder="Small Input"
+                    input_small="true"
+                    class="hidden md:block"
+                }}
+
+            </div>
+        </div>
+    </section>
+</main>
+<!-- End: /type-scale.antlers.html -->

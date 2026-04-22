@@ -5,7 +5,9 @@
 
 @config '../js/tailwind.peak.js';
 
-@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/forms" {
+    strategy: class;
+}
 
 @theme {
     --color-black: #000;

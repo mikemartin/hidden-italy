@@ -7,7 +7,15 @@
         'border-red-600 focus:border-red-600 outline-red-600/50!': form.invalid('{{ handle }}'),
         'border-neutral focus:border-primary': !form.invalid('{{ handle }}')
     }"
-    class="w-full rounded-sm caret-primary"
+    class="
+        form-input w-full rounded-sm caret-primary font-normal text-neutral
+        {{ switch(
+            (large) => 'text-lg leading-[1.31]',
+            (small) => 'text-sm leading-[1.28]',
+            () => 'text-base leading-[1.28]'
+        ) }}
+        {{ class }}
+    "
     id="{{ handle }}"
     name="{{ handle }}"
     type="{{ input_type ?? 'text' }}"

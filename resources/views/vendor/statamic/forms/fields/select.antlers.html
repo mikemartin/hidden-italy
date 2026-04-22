@@ -7,7 +7,7 @@
         'border-red-600 focus:border-red-600 outline-red-600/50!': form.invalid('{{ handle }}'),
         'border-neutral focus:border-primary': !form.invalid('{{ handle }}')
     }"
-    class="w-full rounded-sm"
+    class="form-select w-full rounded-sm"
     id="{{ handle }}"
     name="{{ handle }}{{ multiple ?= "[]" }}"
     {{ instructions ?= 'aria-describedBy="{handle}-instructions"' }}
