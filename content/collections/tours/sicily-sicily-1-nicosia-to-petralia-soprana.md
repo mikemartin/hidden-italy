@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776054022
+updated_at: 1776840959
 grade: 4
 summary: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
 overview:
@@ -263,6 +263,15 @@ page_builder:
         type: travel_insurance
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: fLinNhBxoepkNYWQhuS77
+    title: 'What our travellers are saying'
+    testimonials:
+      - ac867e06-3f99-4094-a214-e23656243ab3
+      - 691ee424-cfa3-44a1-bed4-b7c70d8a29c2
+      - 2e19ce5a-c9c8-4a40-94ca-868608999b10
+    type: testimonials
     enabled: true
 locations: southern-italy
 duplicated_from: 7397f93f-96a7-4030-b13c-2315e28fe22c
