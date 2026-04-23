@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Tuscany
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776054283
+updated_at: 1776926265
 grade: 2
 summary: 'Enjoy a seven-day walk through the rolling vineyards, forest and market towns of Chianti.'
 overview:
@@ -268,6 +268,15 @@ page_builder:
         type: travel_insurance
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: 8rK-u0cF5zvkZTo3_aDO3
+    title: 'What our travellers are saying'
+    testimonials:
+      - c4128db6-cf05-4a80-a42a-a42ba87791be
+      - bd250726-3b76-4c28-876d-e79621907672
+      - 4224a279-fcb7-464f-9535-50193349cd6a
+    type: testimonials
     enabled: true
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
