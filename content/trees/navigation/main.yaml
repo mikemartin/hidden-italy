@@ -3,6 +3,9 @@ tree:
     id: ae84904c-b9ed-4ee3-bbc3-ae5c00feab7c
     entry: home
   -
+    id: 240c7eff-e8c5-44b1-98da-46073bdea0c3
+    entry: 2d1f3903-3248-4037-8e09-e76e8d62781c
+  -
     id: 5611d85b-6394-4253-b6ca-b10ef31c12b9
     title: Examples
     url: '#'

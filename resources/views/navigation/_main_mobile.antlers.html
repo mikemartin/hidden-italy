@@ -37,7 +37,7 @@
                     >
                         <a
                             class="
-                                w-full py-2 flex items-center gap-x-1 font-medium text-base leading-[1.6] hover:text-primary
+                                w-full py-2 flex items-center gap-x-1 font-medium text-sm leading-[1.6] hover:text-primary
                                 {{ is_current || is_parent ? 'text-primary' : 'text-neutral' }}
                             "
                             {{ if children }}
@@ -48,6 +48,7 @@
                                 :aria-expanded="subnavOpen"
                             {{ else }}
                                 href="{{ url }}"
+                                wire:navigate
                             {{ /if }}
                             {{ is_current ?= 'aria-current="page"' }}
                         >
@@ -75,6 +76,7 @@
                                                 {{ is_current || is_parent ? 'text-primary' : 'text-neutral' }}
                                             "
                                             href="{{ url }}"
+                                            wire:navigate
                                             {{ is_current ?= 'aria-current="page"' }}
                                         >
                                             {{ title }}
@@ -87,6 +89,10 @@
                 {{ /unless }}
             {{ /nav:main }}
         </ul>
+        <div class="flex flex-col gap-4 mt-8 pt-6 border-t border-neutral/10">
+            {{ partial:components/nav-wishlist }}
+            {{ partial:components/nav-account }}
+        </div>
     </div>
 </nav>
 <!-- End: /navigation/_main_mobile.antlers.html -->

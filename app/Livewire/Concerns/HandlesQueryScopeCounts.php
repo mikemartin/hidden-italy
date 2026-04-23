@@ -3,15 +3,15 @@
 namespace App\Livewire\Concerns;
 
 use Statamic\Tags\Collection\Entries;
+use Statamic\Tags\Context;
+use Statamic\Tags\Parameters;
 
 trait HandlesQueryScopeCounts
 {
     protected function updateCountsWithBatchQuery($baseParams, $fieldHandle)
     {
-        // Initialize counts for configured options
         $this->statamic_field['counts'] = array_fill_keys(array_keys($this->statamic_field['options']), 0);
 
-        // Ensure the current scope modifier is present in query_scope
         $params = $baseParams;
         $scopes = [];
         if (isset($params['query_scope']) && is_string($params['query_scope'])) {
@@ -22,12 +22,14 @@ trait HandlesQueryScopeCounts
         }
         $params['query_scope'] = implode('|', $scopes);
 
-        // For each option, run a small entries query with that option applied via query_scope
         foreach (array_keys($this->statamic_field['options']) as $optionKey) {
-            $optionParams = $params;
-            $optionParams[$this->getParamKey()] = $optionKey; // e.g. "walking_grade:filter_grade" => "moderate"
+            $optionParams = array_merge(
+                ['from' => $this->collection],
+                $params,
+                [$this->getParamKey() => $optionKey],
+            );
 
-            $entries = (new Entries($this->generateParamsForCount($this->collection, $optionParams)))->get();
+            $entries = (new Entries(Parameters::make($optionParams, Context::make([]))))->get();
             $this->statamic_field['counts'][$optionKey] = method_exists($entries, 'count') ? $entries->count() : 0;
         }
     }

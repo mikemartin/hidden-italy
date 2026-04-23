@@ -1,4 +1,4 @@
-<a x-data href="/wishlist" class="flex items-center">
+<a x-data href="/wishlist" wire:navigate class="flex items-center">
     <span class="mr-2 relative inline-block">
         <div :style="{ transition: 'transform 0.15s ease-out', transform: Alpine.store('wishlist').popping ? 'scale(1.2)' : 'scale(1)' }">
             <x-lucide-heart class="w-6 h-6 stroke-[1.5]" />
@@ -9,7 +9,7 @@
                 x-text="Alpine.store('wishlist').count"></span>
         </template>
     </span>
-    <span class="font-medium">
+    <span class="font-medium text-sm leading-[1.6]">
         Wishlist
     </span>
 </a>

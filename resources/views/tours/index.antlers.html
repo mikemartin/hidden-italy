@@ -1,15 +1,21 @@
-<div class="my-8 xl:my-12" id="livewire-collection">
-    <div class="grid grid-cols-12 mb-4 md:mb-8 xl:mb-12">
-        <div class="col-span-12 lg:col-span-6">
-            <div class="text-3xl font-bold">Discover Our Walking Tours</div>
+{{#
+    @name Tours Index
+    @desc The tours listing page. Wraps the Livewire-powered collection and filters in Peak's fluid-grid layout.
+#}}
+
+<!-- /tours/index.antlers.html -->
+<main id="content" class="py-12 md:py-16 lg:py-24">
+    <section class="fluid-grid">
+        <div id="livewire-collection" class="span-content stack-16">
+
+            {{# Page header #}}
+            {{ partial:typography/h1 content="Discover Our Walking Tours" class="!mb-0" }}
+
+            {{ partial:components/tour-filters }}
+
+            {{ livewire-collection:tours paginate="12" scrollTo="#livewire-collection" }}
+
         </div>
-        <div class="col-span-12 lg:col-span-2 lg:col-start-11 lg:flex lg:items-center lg:justify-end lg:gap-4"> 
-            {{ partial:components/nav-wishlist }}
-            {{ partial:components/nav-account }}
-        </div>
-    </div>
-    {{ partial:components/tour-filters }}
-	<div>
-	  {{ livewire-collection:tours paginate="12" scrollTo="#livewire-collection" }}
-	</div>
-</div>
+    </section>
+</main>
+<!-- End: /tours/index.antlers.html -->

@@ -7,10 +7,11 @@ use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\ServiceProvider;
+use Livewire\Livewire;
 use Statamic\Facades\Form;
+use Statamic\Facades\Icon;
 use Statamic\Policies\UserPolicy;
 use Studio1902\PeakSeo\Handlers\ErrorPage;
-use Statamic\Facades\Icon; 
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -41,7 +42,9 @@ class AppServiceProvider extends ServiceProvider
 
         ErrorPage::handle404AsEntry();
 
-        Icon::register('wencory', base_path('public/icons')); 
+        Icon::register('wencory', base_path('public/icons'));
+
+        Livewire::forceAssetInjection();
 
         $this->bootRoute();
 
