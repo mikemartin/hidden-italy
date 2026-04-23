@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776923450
+updated_at: 1776924789
 tour_types: guided
 days: 14
 image: tours/sicily-palermo-to-taormina/804728531-13.jpg
