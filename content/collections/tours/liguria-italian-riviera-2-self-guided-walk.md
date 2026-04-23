@@ -52,20 +52,22 @@ page_builder:
         id: mlooee34
         title: "Hike Italy's most celebrated coastline"
         summary: 'Hiking well-marked trails through forests and quiet fishing villages before hitting the breath-taking Cinque Terre.'
-        icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
+        icon: trekking-boots.svg
       -
         id: mloog7vk
         title: 'Swim in the blue Mediterranean'
         summary: "You will rocky coves and some of northern Italy's best beaches, with plenty of opportunities to plunge into the sea."
-        icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mlooun08
         title: "Sample Liguria's celebrated cuisine"
         summary: "Liguria's simple and healthy cuisine is a masterful combination of the freshest local produce with the freshest seafood!"
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        icon: service-hours.svg
     type: highlights
     enabled: true
   -

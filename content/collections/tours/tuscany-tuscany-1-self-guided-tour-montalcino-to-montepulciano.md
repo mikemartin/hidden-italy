@@ -59,29 +59,32 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 5-day walk'
         summary: 'Enjoy a continuous walk from village to village for five days following well-marked trails through beautiful countryside'
-        icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
+        icon: trekking-boots.svg
       -
         id: mloog7vk
         title: 'Get lost in gorgeous towns'
         summary: 'Stay in heart of some of the most beautiful and interesting towns in central Italy, heart of the Renaissance.'
-        icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mlooou12
         title: 'Be entranced by the extraordinary scenery'
         summary: "Walk through the beautiful Val d'Orcia, UNESCO Heritage listed, with some of the most iconic scenery in all of Italy."
-        icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
+        icon: geography-exploration-mountain.svg
       -
         id: mlooun08
         title: 'Immerse yourself in gorgeous villages'
         summary: "You will have all the time in the world to immerse yourself in the life of six of Italy's most beautiful villages."
+        icon: geography-cartography-city.svg
       -
         id: mmbinilb
         title: 'Indulge in fine food and wines'
         summary: "Val d'Orcia is celebrated for its food (wholesome homecooking) but more so for its fine wines (the best in the country?)"
+        icon: culture-wine.svg
       -
         id: mmx1061d
         title: 'Relax and enjoy for holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        icon: service-hours.svg
     type: highlights
     enabled: true
   -

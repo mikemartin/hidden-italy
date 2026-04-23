@@ -1,0 +1,58 @@
+{{#
+    @name Type Row
+    @desc A single type scale row with a text sample and typographic metadata.
+    @param* content The sample text.
+    @param* label Element name (e.g. "h1.big-display").
+    @param* typeface Font family name.
+    @param* size Size specification (e.g. "30px / 72px").
+    @param* line_height Line height specification.
+    @param* weight Font weight specification.
+    @param* letter_spacing Letter spacing specification.
+    @param partial_path Path to a typography partial to render the sample (e.g. "typography/h1"). Falls back to a plain div.
+    @param class Additional CSS classes applied to the sample (or wrapper div for button rows).
+    @param button_label When set, renders a real button component instead of text. Use for button.* rows.
+    @param button_large Boolean. Renders the large button variant.
+    @param button_small Boolean. Renders the small button variant.
+    @param input_placeholder When set, renders a real form input with the type-scale size classes.
+    @param input_large Boolean. Renders the large input variant.
+    @param input_small Boolean. Renders the small input variant.
+    @param large Boolean. Forwarded to the typography partial (for partials that support size variants, e.g. typography/label).
+    @param small Boolean. Forwarded to the typography partial (for partials that support size variants, e.g. typography/label).
+#}}
+
+<!-- /type-scale/_row.antlers.html -->
+<div class="border-b border-neutral/10 pb-6 flex flex-col gap-6">
+    {{ if button_label }}
+        <div class="{{ class }}">
+            {{ partial:components/button :label="button_label" as="button" faux="true" :large="button_large" :small="button_small" }}
+        </div>
+    {{ elseif input_placeholder }}
+        <div class="{{ class }}">
+            <input
+                type="text"
+                placeholder="{{ input_placeholder }}"
+                class="
+                    form-input w-full rounded-sm font-normal text-neutral border-neutral focus:border-primary
+                    {{ switch(
+                        (input_large) => 'text-lg leading-[1.31]',
+                        (input_small) => 'text-sm leading-[1.28]',
+                        () => 'text-base leading-[1.28]'
+                    ) }}
+                "
+            >
+        </div>
+    {{ elseif partial_path }}
+        {{ partial :src="partial_path" :content="content" :class="class" :large="large" :small="small" }}
+    {{ else }}
+        <div class="text-neutral {{ class }}">{{ content }}</div>
+    {{ /if }}
+    <div class="flex flex-wrap gap-x-6 gap-y-1 text-sm text-neutral/70">
+        <span><span class="font-bold">Element:</span> {{ label }}</span>
+        <span><span class="font-bold">Typeface:</span> {{ typeface }}</span>
+        <span><span class="font-bold">Size:</span> {{ size }}</span>
+        <span><span class="font-bold">Line-height:</span> {{ line_height }}</span>
+        <span><span class="font-bold">Weight:</span> {{ weight }}</span>
+        <span><span class="font-bold">Letter spacing:</span> {{ letter_spacing }}</span>
+    </div>
+</div>
+<!-- End: /type-scale/_row.antlers.html -->

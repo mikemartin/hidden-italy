@@ -1,5 +1,5 @@
 ---
-id: home
+id: 2d1f3903-3248-4037-8e09-e76e8d62781c
 blueprint: pages
 title: Tours
 template: tours/index

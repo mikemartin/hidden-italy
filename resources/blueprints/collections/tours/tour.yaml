@@ -176,6 +176,7 @@ tabs:
                                   type: text
                                   display: Title
                                   instructions: 'Explain the activity in 2 to 4 words. Always start with a verb.'
+                                  width: 25
                               -
                                 handle: summary
                                 field:
@@ -183,16 +184,16 @@ tabs:
                                   type: textarea
                                   display: Summary
                                   instructions: 'Expand on the title in a sentence. What can travellers expect to do at this point of the tour.'
+                                  width: 50
                               -
                                 handle: icon
                                 field:
                                   container: icons
+                                  mode: grid
                                   max_files: 1
                                   type: assets
                                   display: Icon
-                                  instructions: 'Choose a simple icon that matches the description.'
-                                  show_filename: false
-                                  show_set_alt: false
+                                  width: 25
                     itinerary:
                       display: Itinerary
                       instructions: 'Create a day by day itinerary'

@@ -35,11 +35,26 @@ return [
         |--------------------------------------------------------------------------
         |
         | The driver that will be used under the hood for image manipulation.
-        | Supported: "gd", "imagick" or a class name of a custom driver.
+        | Supported: "gd" or "imagick" (if installed on your server)
         |
         */
 
-        'driver' => 'gd',
+        'driver' => env('IMAGE_MANIPULATION_DRIVER', 'gd'),
+
+        /*
+        |--------------------------------------------------------------------------
+        | Additional Image Extensions
+        |--------------------------------------------------------------------------
+        |
+        | Define any additional image file extensions you would like Statamic to
+        | process. You should ensure that both your server and the selected
+        | image manipulation driver properly supports these extensions.
+        |
+        */
+
+        'additional_extensions' => [
+            // 'heic',
+        ],
 
         /*
         |--------------------------------------------------------------------------
@@ -52,7 +67,7 @@ return [
         |
         */
 
-        'cache' => true,
+        'cache' => false,
         'cache_path' => public_path('img'),
 
         /*
@@ -61,7 +76,7 @@ return [
         |--------------------------------------------------------------------------
         |
         | You may define global defaults for all manipulation parameters, such as
-        | quality, format, and sharpness. These can and will be overwritten
+        | quality, format, and sharpness. These can and will be be overwritten
         | on the tag parameter level as well as the preset level.
         |
         */
@@ -77,14 +92,12 @@ return [
         |
         | Rather than specifying your manipulation params in your templates with
         | the glide tag, you may define them here and reference their handles.
-        | They may also be automatically generated when you upload assets.
-        | Containers can be configured to warm these caches on upload.
+        | They will also be automatically generated when you upload assets.
         |
         */
 
         'presets' => [
-            'max_upload_size' => ['w' => 3000, 'h' => 3000, 'fit' => 'max'],
-            'small' => ['w' => 720, 'h' => 540, 'q' => 75, 'fit' => 'crop'],
+            'replacement' => ['w' => 4500, 'fit' => 'max'],
         ],
 
         /*
@@ -108,7 +121,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | Enabling this will make Glide automatically crop assets at their focal
-    | point (which is the center if no focal point is defined). Otherwise,
+    | point (at at the center if no focal point is defined). Otherwise,
     | you will need to manually add any crop related parameters.
     |
     */
@@ -130,18 +143,6 @@ return [
         'max_width' => 10000,
         'max_height' => 10000,
     ],
-
-    /*
-    |--------------------------------------------------------------------------
-    | Control Panel Video Thumbnails
-    |--------------------------------------------------------------------------
-    |
-    | When enabled, Statamic will generate thumbnails for videos.
-    | Generated thumbnails are displayed in the Control Panel.
-    |
-    */
-
-    'video_thumbnails' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -210,6 +211,19 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Additional Filename Character Replacements
+    |--------------------------------------------------------------------------
+    |
+    | When uploading files, certain characters in filenames will be replaced
+    | to ensure a safe filename. You may configure additional replacements.
+    | These are in addition to the native ones. They are not overridable.
+    |
+    */
+
+    'additional_filename_replacements' => [],
+
+    /*
+    |--------------------------------------------------------------------------
     | SVG Sanitization
     |--------------------------------------------------------------------------
     |
@@ -223,21 +237,6 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | FFmpeg
-    |--------------------------------------------------------------------------
-    |
-    | Statamic uses FFmpeg to extract thumbnails from videos to be shown in the
-    | Control Panel. You may adjust the binary location and cache path here.
-    |
-    */
-
-    'ffmpeg' => [
-        'binary' => null,
-        'cache_path' => storage_path('statamic/glide/ffmpeg'),
-    ],
-
-    /*
-    |--------------------------------------------------------------------------
     | Replicator and Bard Set Preview Images
     |--------------------------------------------------------------------------
     |
@@ -248,8 +247,8 @@ return [
     */
 
     'set_preview_images' => [
-        'container' => 'assets',
-        'folder' => 'set-previews',
+        'container' => 'page_builder',
+        'folder' => null,
     ],
 
 ];

@@ -1,0 +1,40 @@
+@layer components {
+    .button {
+        @apply inline-flex items-center justify-center gap-2 max-w-full py-3 px-4 bg-primary rounded-full select-none text-white motion-safe:transition disabled:cursor-not-allowed disabled:opacity-50 focus:outline-primary;
+
+        span {
+            @apply min-w-fit text-center text-base font-semibold uppercase leading-none tracking-[0.02em] no-underline motion-safe:transition;
+        }
+
+        /* Large variant */
+        &.button--large {
+            @apply py-4 px-6;
+
+            span {
+                @apply text-lg font-bold;
+            }
+        }
+
+        /* Small variant */
+        &.button--small {
+            @apply py-2 px-3;
+
+            span {
+                @apply text-xs;
+            }
+        }
+
+        /* Themed variant */
+        /* &[data-theme~='primary'] {
+
+        } */
+    }
+
+    .button-inline {
+        @apply inline-flex items-center gap-1 text-neutral hover:text-primary motion-safe:transition;
+
+        span {
+            @apply min-w-fit font-bold text-current underline decoration-primary focus:outline-primary;
+        }
+    }
+}

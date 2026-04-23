@@ -51,25 +51,27 @@ page_builder:
         id: mlooee34
         title: 'Enjoy eight days way off the beaten track!'
         summary: 'Enjoy a continuous walk following Medieval pilgrim trails through peaceful countryside, spectacular forest to the coast!'
-        icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
+        icon: trekking-boots.svg
       -
         id: mloog7vk
         title: 'Enjoy the marvellous food'
         summary: 'With dinners included, you can enjoy the bounty of northern Pugliese cuisine each day, both country-style and coastal'
-        icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mlooou12
         title: 'Walk through ancient forests'
         summary: 'Follow ancient paths through the Foresta Umbra, a vast beech forest covers much of the Gargano Peninsula'
-        icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
+        icon: geography-exploration-mountain.svg
       -
         id: mlooun08
         title: 'Go for a private boat ride'
         summary: 'On Day 7 in Vieste, you will be taken for a private tour along the beautiful coastline with plenty of chances for swims!'
+        icon: transport-sailboat.svg
       -
         id: mn2o0oyw
         title: 'Relax, you are fully-supported'
         summary: 'Everything is organised: you are transfer to and from Alba; your bags moved each day; and you have 24-hour local support'
+        icon: service-hours.svg
     type: highlights
     enabled: true
   -

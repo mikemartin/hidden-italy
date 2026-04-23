@@ -19,3 +19,6 @@ preferences:
       view: list
     pages:
       view: tree
+  assets:
+    icons:
+      mode: grid

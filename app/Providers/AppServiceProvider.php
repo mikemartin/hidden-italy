@@ -2,22 +2,34 @@
 
 namespace App\Providers;
 
-use Illuminate\Auth\Events\Login;
-use Illuminate\Support\Facades\Event;
+use App\Policies\CustomUserPolicy;
+use Illuminate\Cache\RateLimiting\Limit;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\ServiceProvider;
-use Statamic\Statamic;
-use Statamic\Events\UserRegistered;
-use App\Listeners\SyncGuestLikes;
-use Statamic\Fieldtypes\Sets;
+use Livewire\Livewire;
+use Statamic\Facades\Form;
+use Statamic\Facades\Icon;
+use Statamic\Policies\UserPolicy;
+use Studio1902\PeakSeo\Handlers\ErrorPage;
 
 class AppServiceProvider extends ServiceProvider
 {
+    /**
+     * The path to your application's "home" route.
+     *
+     * Typically, users are redirected here after authentication.
+     *
+     * @var string
+     */
+    public const HOME = '/home';
+
     /**
      * Register any application services.
      */
     public function register(): void
     {
-        //
+        $this->app->bind(UserPolicy::class, CustomUserPolicy::class);
     }
 
     /**
@@ -25,23 +37,53 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        Statamic::vite('app', [
-            'input' => [
-                'resources/js/cp.js',
-                'resources/css/cp.css',
+        // Statamic::script('app', 'cp');
+        // Statamic::style('app', 'cp');
+
+        ErrorPage::handle404AsEntry();
+
+        Icon::register('wencory', base_path('public/icons'));
+
+        Livewire::forceAssetInjection();
+
+        $this->bootRoute();
+
+        $this->bootFormConfig();
+    }
+
+    public function bootRoute(): void
+    {
+        RateLimiter::for('api', function (Request $request) {
+            return Limit::perMinute(60)->by($request->user()?->id ?: $request->ip());
+        });
+    }
+
+    public function bootFormConfig(): void
+    {
+        Form::appendConfigFields('*', __('Custom form sender text'), [
+            'content_sender' => [
+                'full_width_setting' => true,
+                'type' => 'group',
+                'display' => '',
+                'fullscreen' => false,
+                'border' => false,
+                'fields' => [
+                    ['import' => 'form_email_config'],
+                ],
             ],
-            'buildDirectory' => 'vendor/app',
         ]);
 
-        // Statamic::vite('app', [
-        //     'resources/js/cp.js',
-        //     'resources/css/cp.css',
-        // ]);
-
-        Sets::useIcons('lucide', resource_path('svg/lucide'));
-
-        // Listen for user registration and login events to sync guest likes
-        Event::listen(UserRegistered::class, SyncGuestLikes::class);
-        Event::listen(Login::class, SyncGuestLikes::class);
+        Form::appendConfigFields('*', __('Custom form owner text'), [
+            'content_owner' => [
+                'full_width_setting' => true,
+                'type' => 'group',
+                'display' => '',
+                'fullscreen' => false,
+                'border' => false,
+                'fields' => [
+                    ['import' => 'form_email_config'],
+                ],
+            ],
+        ]);
     }
 }

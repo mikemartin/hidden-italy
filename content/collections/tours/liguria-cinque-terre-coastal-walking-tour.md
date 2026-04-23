@@ -47,25 +47,27 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 6-day walk'
         summary: 'Enjoy a continuous walk from village to village for the whole six days (no trains to get to and from the walks each day)'
-        icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
+        icon: trekking-boots.svg
       -
         id: mloog7vk
         title: 'Savour the famous food and wines'
         summary: 'Ligurian cuisine is the delicious result of fresh produce from gardens and sea being combined with generations of skill.'
-        icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mlooou12
         title: 'Walk through stunning scenery'
         summary: 'The ancient walking trails take you through the most stunning scenery in Italy: mountains on the left, sea on the right!'
-        icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
+        icon: geography-exploration-mountain.svg
       -
         id: mlooun08
         title: 'Immerse yourself in gorgeous villages'
         summary: "You will have all the time in the world to immerse yourself in the life of six of Italy's most beautiful villages."
+        icon: geography-cartography-city.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        icon: service-hours.svg
     type: highlights
     enabled: true
   -

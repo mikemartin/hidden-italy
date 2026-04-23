@@ -1,0 +1,12 @@
+{{#
+    @name Icons Lucide Tile
+    @desc A single lucide icon tile. Pass the <x-lucide-*> blade component via slot and the icon name as a param.
+    @param* name The icon name (used as label).
+#}}
+
+<!-- /icons/_lucide_tile.antlers.html -->
+<li class="flex flex-col items-center gap-3 p-6 border border-neutral/10 rounded-lg">
+    {{ slot }}
+    <code class="text-xs leading-[1.6] text-neutral/70 font-mono text-center break-all">{{ name }}</code>
+</li>
+<!-- End: /icons/_lucide_tile.antlers.html -->

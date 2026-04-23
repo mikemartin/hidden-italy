@@ -64,32 +64,32 @@ page_builder:
         id: mjflez0m
         title: 'Explore Biella'
         summary: 'Settle into a 4-star hotel and share a welcome dinner with your group in this historic alpine town.'
-        icon: hotel-booking/hotel-building-accommodation-lodging-stay.svg
+        icon: ski-alpine-hotel.svg
       -
         id: mjflfcs4
         title: 'Walk historic trails'
         summary: 'Follow ancient trails through the European Alps in the footsteps of 4 Aussie POWs who escaped Fascist Italy in 1943.'
-        icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
+        icon: trekking-boots.svg
       -
         id: mjflflyr
         title: 'Sleep in ancient monasteries'
         summary: 'Stay in marvellous baroque monasteries nestled in the heart of the mountains, enjoying their history and hearty dinners.'
-        icon: types-houses/victorian-historic-ornate-19th-century-traditional-period-simple-architecture.svg
+        icon: housing-house.svg
       -
         id: mjflft3i
         title: 'Explore the spectacular scenery'
         summary: 'This hikes takes you through some of the most spectacular scenery in Europe: mountains and forests; lakes and glaciers.'
-        icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
+        icon: geography-exploration-mountain.svg
       -
         id: mjflfz9u
         title: 'Enjoy mountain hospitality'
         summary: 'Enjoy the generous hospitality of the the mountain people in this little-visited part of Italy: warm welcomes, fine food'
-        icon: types-houses/ranch-single-story-suburban-sprawling-american-family-simple-residential.svg
+        icon: ski-alpine-Chalet.svg
       -
         id: mjflgcks
         title: 'Celebrate with a farewell dinner'
         summary: 'Mark the end of your alpine adventure with a festive group meal in a charming mountain village near the Swiss border.'
-        icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
     type: highlights
     enabled: true
   -

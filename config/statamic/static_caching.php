@@ -41,6 +41,7 @@ return [
                 'directory' => 0755,
                 'file' => 0644,
             ],
+            'warm_concurrency' => 10,
         ],
 
     ],
@@ -61,9 +62,10 @@ return [
         'class' => null,
 
         'urls' => [
-            //
+            '/site.webmanifest',
+            '/sitemap.xml',
+            '/sitemaps.xml',
         ],
-
     ],
 
     /*
@@ -83,9 +85,7 @@ return [
 
         'class' => null,
 
-        'rules' => [
-            //
-        ],
+        'rules' => 'all',
 
     ],
 
@@ -126,6 +126,8 @@ return [
     'nocache' => 'cache',
 
     'nocache_db_connection' => env('STATAMIC_NOCACHE_DB_CONNECTION'),
+
+    'nocache_js_position' => 'body',
 
     /*
     |--------------------------------------------------------------------------

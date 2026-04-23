@@ -51,22 +51,22 @@ page_builder:
         id: mloqdoo9
         title: 'Be immersed in the magic of southern Italy'
         summary: 'Spend two weeks experiencing the charm and fascination of southern Italy, exploring the towns, coast and interior.'
-        icon: camping-outdoor/binoculars-outdoor-nature-hiking-observation.svg
+        icon: trekking-binoculars.svg
       -
         id: mloqi0iy
         title: 'Stay in fabulous accommodation'
         summary: 'Stay in a restored palazzo in Lecce; an historic palazzo on the coast; an ancient masseria; and a 4-star hotel in Bari.'
-        icon: hotel-booking/front-desk-service-help-check-in-hotel.svg
+        icon: hotel-bed-sleep-room-rest-accommodation.svg
       -
         id: mloqndod
         title: 'Go walking along rolling hills and undulating coastline'
         summary: 'The tour includes 8 guided walks along undulating hills, through orchards and vineyards and along spectacular coastline.'
-        icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
+        icon: trekking-boots.svg
       -
         id: mloqrnhn
         title: "Indulge yourself in Italy's finest food"
         summary: "Puglia has Italy's finest food:  the freshest fruit and veggies; the fab meats of Itria Valley and spectacular seafood."
-        icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
     type: highlights
     enabled: true
   -

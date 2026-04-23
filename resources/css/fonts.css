@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Mona Sans VF';
+  src:
+    url('../fonts/MonaSansVF-wght-opsz-ital.woff2') format('woff2 supports variations'),
+    url('../fonts/MonaSansVF-wght-opsz-ital.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+@font-face {
+  font-family: 'Mona Sans VF';
+  src:
+    url('../fonts/MonaSansVF-wght-opsz-ital.woff2') format('woff2 supports variations'),
+    url('../fonts/MonaSansVF-wght-opsz-ital.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-style: italic;
+  font-optical-sizing: auto;
+}
+
+@font-face {
+  font-family: 'Mona Sans Mono VF';
+  src:
+    url('../fonts/MonaSansMonoVF-wght.woff2') format('woff2 supports variations'),
+    url('../fonts/MonaSansMonoVF-wght.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+@font-face {
+  font-family: 'Roma Neue';
+  src: url('../fonts/RomaNeue-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}

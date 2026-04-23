@@ -52,25 +52,27 @@ page_builder:
         id: mlooee34
         title: "Five days walking through the 'green heart' of Italy"
         summary: 'Enjoy a continuous walk through hilltop villages and an unspoilt region of rolling green hills, woods and valleys.'
-        icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
+        icon: trekking-boots.svg
       -
         id: mloog7vk
         title: 'Savour the famous food and wines'
         summary: "Enjoy the region's hearty cuisine: pasta served with garden fresh vegetables, cheeses and meats, teamed with fine wines."
-        icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mlooou12
         title: "Lose yourself in the region's fine art"
         summary: "Lose yourself in small villages and towns holding some of Italy's finest art: Giotto, Pinturicchio and Fra Lippo Lippi."
-        icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
+        icon: geography-exploration-mountain.svg
       -
         id: mlooun08
         title: 'Soak up the vibe'
         summary: 'Home of St Francis, the green hills, golden stone towns and shimmering light give the region an almost mystical quality.'
+        icon: geography-cartography-hills.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        icon: service-hours.svg
     type: highlights
     enabled: true
   -

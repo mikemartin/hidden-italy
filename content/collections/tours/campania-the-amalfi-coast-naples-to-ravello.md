@@ -64,18 +64,22 @@ page_builder:
         id: mlombrtm
         title: 'Discover the secrets of Naples'
         summary: "Local guides will help you unlock the secrets of the fascinating and multilayered 'capital' of southern Italy."
+        icon: geography-cartography-city.svg
       -
         id: mlomhha0
         title: 'Climb to the top of Mount Vesuvius'
         summary: 'Enjoy the extraordinary views over the Gulf of Naples to the Isle of Capri from the top of this legendary mountain.'
+        icon: geography-exploration-mountain.svg
       -
         id: mlomkfe7
         title: 'Explore the Monti Picentini'
         summary: 'Spend four days exploring the charms and great natural beauty of this little-visited corner of the interior of Campania.'
+        icon: geography-exploration-mountain.svg
       -
         id: mlompfm9
         title: 'Savour the flavours of Campania cuisine'
         summary: 'Campania is the home of some of the icons of Italian cuisine (pizza, pasta, mozzarella) but there is so much more!'
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
   -
     id: mlomz5st
     title: 'Campania & The Amalfi Coast walking tour itinerary'

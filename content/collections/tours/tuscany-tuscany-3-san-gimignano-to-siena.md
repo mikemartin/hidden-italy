@@ -59,25 +59,27 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 5-day walk'
         summary: 'Enjoy a continuous walk from town to town for four days following pilgrim trails through magnificent Tuscan countryside!'
-        icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
+        icon: trekking-boots.svg
       -
         id: mloog7vk
         title: 'Immerse yourself in daily Tuscan life'
         summary: 'Immerse yourself in the traditions, history and daily life of four classic Tuscan towns.'
-        icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mlooou12
         title: 'Soak up the beguiling landscapes'
         summary: 'Easy walking allows you to relax and soak up the beautiful landscapes you are passing through, classic Tuscany!'
-        icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
+        icon: geography-exploration-mountain.svg
       -
         id: mlooun08
         title: 'Indulge in the food and wine'
         summary: 'Enjoy the food and wine that have made this region famous: fresh authentic flavors, simple dishes with exceptional wine.'
+        icon: culture-wine.svg
       -
         id: mmx1061d
         title: 'Relax and enjoy for holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        icon: service-hours.svg
     type: highlights
     enabled: true
   -

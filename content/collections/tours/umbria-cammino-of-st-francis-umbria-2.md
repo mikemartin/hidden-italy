@@ -60,25 +60,27 @@ page_builder:
         id: mlooee34
         title: 'Get off the beaten track'
         summary: "Enjoy a relaxed week following well-marked trails through some of central Italy's most beautiful countryside."
-        icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
+        icon: trekking-boots.svg
       -
         id: mloog7vk
         title: 'Explore the towns'
         summary: "Staying in welcoming, family-run accommodation, you'll have plenty of time to explore the gorgeous little-visited towns."
-        icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mlooou12
         title: 'Admire the spectacular scenery'
         summary: 'The walk takes you south through the lush Nera Valley with breath-taking views over mountains, lakes and rolling plains.'
-        icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
+        icon: geography-exploration-mountain.svg
       -
         id: mlooun08
         title: 'Enjoy Umbrian home cooking'
         summary: 'Sit down and enjoy the wholesome home-cooking: cold cuts, cheeses, pastas, soups, roast meats, fresh garden vegetables.'
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        icon: service-hours.svg
     type: highlights
     enabled: true
   -

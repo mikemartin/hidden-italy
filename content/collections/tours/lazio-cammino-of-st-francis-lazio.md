@@ -44,21 +44,22 @@ page_builder:
         id: mlooee34
         title: 'Enjoy the progress'
         summary: 'Start in forested hills and quiet countryside then pass through undulating farmland before arriving in the heart of Rome'
-        icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
+        icon: trekking-boots.svg
       -
         id: mloog7vk
         title: 'Enjoy the accommodation'
         summary: 'Stay in a 3-star hotel in Rieti; an agriturismo; a 4-star hotel in outer Rome; a lovely 3-star hotel near the Vatican.'
-        icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mlooou12
         title: 'Discover a little-known corner of Italy'
         summary: 'So close to Rome and yet so little known, Lazio is a fascinating region with much to offer: history, food, and nature.'
-        icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
+        icon: geography-exploration-mountain.svg
       -
         id: mlooun08
         title: 'Relax, you are fully-supported'
         summary: 'Everything is organised: you are transfer to and from Alba; your bags moved each day; and you have 24-hour local support'
+        icon: service-hours.svg
     type: highlights
     enabled: true
   -

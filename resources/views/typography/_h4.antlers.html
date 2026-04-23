@@ -1,0 +1,12 @@
+{{#
+    @name h4
+    @desc The typography h4 partial to render an h4 with `class`, `as`, `color` and `content` attributes.
+    @param* content The h4 content.
+    @param as The wrapping element. Defaults to `h4`.
+    @param color Set a custom text color utility. Falls back to `text-neutral`.
+    @param class Add custom CSS classes.
+#}}
+
+<!-- /typography/_h4.antlers.html -->
+<{{ as or 'h4' }} class="font-display font-bold text-lg md:text-xl leading-[1.25] md:tracking-[-0.01em] {{ color or 'text-neutral' }} {{ class }}">{{ content | nl2br }}</{{ as or 'h4' }}>
+<!-- End: /typography/_h4.antlers.html -->

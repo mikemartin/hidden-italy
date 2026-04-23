@@ -50,22 +50,27 @@ page_builder:
         id: mloqdoo9
         title: 'Discover the elegance of Udine'
         summary: 'Discover the secrets of Udine, an elegant provincial city with lane-ways, canals, fine food and a fascinating history.'
+        icon: geography-cartography-city.svg
       -
         id: mloqi0iy
         title: 'Stay in fabulous accommodation'
         summary: 'Including a 4-star hotel in Udine; a family-run hotel from the 14th century; and an historic, 4-star hotel in Trieste.'
+        icon: hotel-bed-sleep-room-rest-accommodation.svg
       -
         id: mloqndod
         title: "Explore Italy's most diverse region"
         summary: 'With 5 official languages, 3 international borders, soaring mountains and endless coasts, Friuli is a captivating place.'
+        icon: culture-italy.svg
       -
         id: mloqrnhn
         title: 'Walk incomparable trails'
         summary: 'Led by local guides enjoy a variety of beautiful walks: through mountain and valleys, and along along beautiful coasts.'
+        icon: trekking-boots.svg
       -
         id: mm4fpvo1
         title: 'Enjoy sophisticated cuisine'
         summary: "A combination of Italian, Austrian and Slovenian traditions and top quality produce, yields some of Italy's finest food."
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
     type: highlights
     enabled: true
   -

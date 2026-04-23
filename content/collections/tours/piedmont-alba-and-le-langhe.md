@@ -50,21 +50,22 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 8-day walk'
         summary: 'Enjoy a continuous walk from village to village for seven days, (no buses to get to and from the walks each day)'
-        icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
+        icon: trekking-boots.svg
       -
         id: mloog7vk
         title: 'Savour the famous food and wines'
         summary: "Relish Alba's famous cuisine (truffles, mushrooms, cheeses and game) and its famous wines (Barolo Barbaresco and Arneis)"
-        icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mlooou12
         title: 'Be wowed by the gorgeous scenery'
         summary: 'You will walk through rolling hills covered in vineyards, past cute towns with snowy peaks of the Alps in the distance.'
-        icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
+        icon: geography-exploration-mountain.svg
       -
         id: mlooun08
         title: 'Relax, you are fully-supported'
         summary: 'Everything is organised: you are transfer to and from Alba; your bags moved each day; and you have 24-hour local support'
+        icon: service-hours.svg
     type: highlights
     enabled: true
   -
