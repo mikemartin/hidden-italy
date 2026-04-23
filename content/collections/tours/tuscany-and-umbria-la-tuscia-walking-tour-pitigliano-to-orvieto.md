@@ -7,7 +7,7 @@ tour_types: self-guided
 region: 'Tuscany and Umbria'
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776054512
+updated_at: 1776927132
 grade: 3
 summary: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
 overview:
@@ -252,6 +252,15 @@ page_builder:
         type: travel_insurance
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: dRHaVU1FqtQ83NQaQEBy3
+    title: 'What our travellers are saying'
+    testimonials:
+      - 36e0a7c0-32c2-4968-887c-e7eefce1d1a1
+      - 9074dca3-7c3b-4f7a-a3cd-2b10ace5c3b5
+      - e6203f32-18d8-4a78-96f3-baa0dcfedcc1
+    type: testimonials
     enabled: true
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
