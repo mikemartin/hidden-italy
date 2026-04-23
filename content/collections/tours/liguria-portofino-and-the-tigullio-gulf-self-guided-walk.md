@@ -55,25 +55,27 @@ page_builder:
         id: mlooee34
         title: 'Enjoy challenging walks'
         summary: 'The tour includes coastal hikes; forest walks; and easy rambles along cobbled lanes through charming towns and villages.'
-        icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
+        icon: trekking-boots.svg
       -
         id: mloog7vk
         title: 'Stay in great hotels'
         summary: 'Accommodation includes a family hotel off the main piazza in Portofino and a 4-star hotel overlooking the Bay of Silence'
-        icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mlooou12
         title: 'Experience Ligurian cuisine'
         summary: 'Ligurian cuisine is the most delicious in Italy: simple, healthy food created from the freshest local ingredients.'
-        icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
+        icon: geography-exploration-mountain.svg
       -
         id: mlooun08
         title: 'Discover the magical towns'
         summary: 'You will stay in some of the most celebrated coastal towns in Italy, including Camogli; Portofino; and Sestri Levante.'
+        icon: geography-cartography-city.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        icon: service-hours.svg
     type: highlights
     enabled: true
   -

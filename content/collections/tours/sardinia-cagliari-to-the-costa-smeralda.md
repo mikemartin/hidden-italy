@@ -69,26 +69,27 @@ page_builder:
         id: mlpxk1gl
         title: 'Discover magical Cagliari'
         summary: 'Cagliari is a wonderful place, a vibrant port city. Discover its secrets with your tour guide, a born and bred local!'
-        icon: camping-outdoor/binoculars-outdoor-nature-hiking-observation.svg
+        icon: trekking-binoculars.svg
       -
         id: mlpxsikg
         title: 'Relish the delicious food (and wine)'
         summary: "Sardinia's cuisine revolves around the freshest ingredients: spring vegetables; handmade pasta; seafood; suckling pig!"
-        icon: italian-cuisine/spaghetti-pasta-noodles-italian-dish.svg
+        icon: gastronomy-spaghetti.svg
       -
         id: mlpxzpka
         title: 'Embrace the nature'
         summary: "Embrace the island's pristine nature: walking coastal paths and mountain trails; and sailing along the Costa Smeralda!"
+        icon: trekking-boots.svg
       -
         id: mlpy8s53
         title: "Stay in the island's finest hotel!"
         summary: "Spend four nights in Sardinia's finest hotel, a 4-star, family-run country house at the foot on the Supramonte Mountains"
-        icon: types-houses/cottage-countryside-quaint-rural-cozy-simple-traditional-house.svg
+        icon: housing-house.svg
       -
         id: mlpyf1mv
         title: 'Get spoilt on the Costa Smeralda'
         summary: 'The tour finishes with three nights in a beautiful 4-star hotel with a private beach on the legendary Costa Smeralda.'
-        icon: hotel-booking/star-rating-hotel-quality-accommodation.svg
+        icon: ski-alpine-hotel.svg
     type: highlights
     enabled: true
   -

@@ -51,22 +51,27 @@ page_builder:
         id: mloqdoo9
         title: "Get an insider's view of Rome"
         summary: "Stay in a historic hotel behind the Pantheon, explore Rome with a local and have dinner at the city's oldest restaurant."
+        icon: culture-Pantheon.svg
       -
         id: mloqi0iy
         title: 'Explore the Gran Sasso National Park'
         summary: 'Explore the largest national park in central Italy, following well-marked trails and beautiful historic droving trails.'
+        icon: geography-exploration-mountain.svg
       -
         id: mloqndod
         title: 'Be a guest in marvellous accommodation'
         summary: 'Stay in an extraordinary restored medieval village; a lovely family-run agriturismo; a private apartment with seaviews.'
+        icon: hotel-bed-sleep-room-rest-accommodation.svg
       -
         id: mloqrnhn
         title: 'Discover Molise'
         summary: "Discover the rolling hills, vineyards, walking trails, coastline, islands food, traditions of Italy's least-known region"
+        icon: geography-cartography-hills.svg
       -
         id: mmbkfbin
         title: 'Go boating around the Tremiti Islands'
         summary: 'After exploring the mountains, finish with a day on a private boat exploring the Tremiti Islands and swimming in the Med'
+        icon: transport-sailboat.svg
     type: highlights
     enabled: true
   -

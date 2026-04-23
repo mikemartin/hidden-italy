@@ -10,6 +10,7 @@ use Illuminate\Support\ServiceProvider;
 use Statamic\Facades\Form;
 use Statamic\Policies\UserPolicy;
 use Studio1902\PeakSeo\Handlers\ErrorPage;
+use Statamic\Facades\Icon; 
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -39,6 +40,8 @@ class AppServiceProvider extends ServiceProvider
         // Statamic::style('app', 'cp');
 
         ErrorPage::handle404AsEntry();
+
+        Icon::register('wencory', base_path('public/icons')); 
 
         $this->bootRoute();
 

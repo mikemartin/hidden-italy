@@ -50,21 +50,22 @@ page_builder:
         id: mlooee34
         title: 'Enjoy seven days way off the beaten track!'
         summary: 'Enjoy a continuous walk following country lanes, Etruscan paths and Medieval pilgrim trails through peaceful countryside'
-        icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
+        icon: trekking-boots.svg
       -
         id: mloog7vk
         title: 'Be astonished by ancient villages'
         summary: 'Be astonished by these forgotten villages that are perched in impossible places overlooking spectacular scenery.'
-        icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mlooou12
         title: 'Be immersed in history and traditions'
         summary: 'Immerse yourself in the fascinating history and traditions of this peaceful corner of central Italy'
-        icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
+        icon: geography-exploration-mountain.svg
       -
         id: mlooun08
         title: 'Relax, you are fully-supported'
         summary: 'Everything is organised: you are transfer to and from Alba; your bags moved each day; and you have 24-hour local support'
+        icon: service-hours.svg
     type: highlights
     enabled: true
   -

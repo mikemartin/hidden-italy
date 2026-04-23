@@ -61,22 +61,27 @@ page_builder:
         id: mlrbvyrv
         title: 'Discover a hidden valley'
         summary: 'Far from the regular tourist trails, at the foot of Monte Rosa, this is one of the most beautiful valleys in the Alps.'
+        icon: geography-exploration-mountain.svg
       -
         id: mlrbzbll
         title: 'Stay in fabulous accommodation'
         summary: "Stay in a combination of beautiful boutique hotels and 'rifugi' set in hostoric residences, one from the 16th century."
+        icon: hotel-bed-sleep-room-rest-accommodation.svg
       -
         id: mlrc2l11
         title: 'Walk spectacular trails'
         summary: 'Follow spectacular and well-marked trails that have been used by traders, farmers and travelers since the Middle Ages.'
+        icon: trekking-boots.svg
       -
         id: mlrc4uq2
         title: 'Enjoy genuine mountain hospitality'
         summary: 'Enjoy the hospitality of welcoming people, staying in family-run accommodation.  A delicious dinner included each night!'
+        icon: hotel-bed-sleep-room-rest-accommodation.svg
       -
         id: mlrc9yr3
         title: 'Be intrigued by the history'
         summary: 'The valley was settled a German-speaking people in 13th century.  Their traditions and stories are still alive and well!'
+        icon: culture-Colosseum.svg
     type: highlights
     enabled: true
   -

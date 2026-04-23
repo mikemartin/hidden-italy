@@ -53,18 +53,22 @@ page_builder:
         id: mlrbvyrv
         title: 'Enjoy coastal walking'
         summary: 'All the walks follow well-marked paths above the sea with spectacular views and plenty of opportunities for swimming!'
+        icon: trekking-boots.svg
       -
         id: mlrbzbll
         title: 'Relish the authentic food'
         summary: "Enjoy the area's fine food based on garden vegetables and fresh seafood all with North African twists, such as couscous."
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mlrc2l11
         title: 'Go island hopping'
         summary: 'The ferry tickets are included so you can experience the pleasure of island hopping around the Mediterranean Sea'
+        icon: landscape-island.svg
       -
         id: mlrc9yr3
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        icon: service-hours.svg
     type: highlights
     enabled: true
   -

@@ -56,29 +56,32 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 7-day walk'
         summary: 'Enjoy a continuous walk from village to village for five days following well-marked trails through beautiful countryside'
-        icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
+        icon: trekking-boots.svg
       -
         id: mloog7vk
         title: 'Immerse yourself in the daily life'
         summary: 'You will have plenty of time each day to immerse yourself in the daily life of a series of buzzy market towns.'
-        icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mlooou12
         title: 'Sample the local brew'
         summary: "Enjoy sampling the district's fine red wines, the most celebrated in Italy, accompanied by district's equally fine food."
-        icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
+        icon: geography-exploration-mountain.svg
       -
         id: mlooun08
         title: 'Staying in a charming agriturismo'
         summary: 'Relax in a charming agriturismo in Chianti hills, with a swimming pool, beautiful grounds, and an excellent restaurant.'
+        icon: hotel-bed-sleep-room-rest-accommodation.svg
       -
         id: mmbinilb
         title: 'Soak up Siena'
         summary: "Stay in a lovely hotel near the Piazza del Campo, in the heart of Siena, Europe's most perfectly preserved Medieval city"
+        icon: geography-cartography-city.svg
       -
         id: mmx1061d
         title: 'Relax and enjoy for holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        icon: service-hours.svg
     type: highlights
     enabled: true
   -

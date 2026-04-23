@@ -56,22 +56,27 @@ page_builder:
         id: mlrbvyrv
         title: 'Experience a side of Sicily others only read about!'
         summary: 'Far from the regular tourist trails, this tour allows you to experience the charm and authenticity of the real Sicily!'
+        icon: culture-italy.svg
       -
         id: mlrbzbll
         title: 'Discover the Madonie Mountains'
         summary: 'Discover an area of dramatic natural beauty: rolling hills, craggy mountains, all with views as far as the eye can see!'
+        icon: geography-exploration-mountain.svg
       -
         id: mlrc2l11
         title: 'Enjoy authentic Sicilian cooking'
         summary: 'Far from the Michelin-starred restaurants on the coast, you will experience authentic home-cooking, prepared with love.'
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mlrc4uq2
         title: 'Explore the fascinating villages'
         summary: 'Stay in gorgeous mountain villages, each so different to the other, two were voted the most villages beautiful in Italy.'
+        icon: geography-cartography-city.svg
       -
         id: mlrc9yr3
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        icon: service-hours.svg
     type: highlights
     enabled: true
   -

@@ -1,0 +1,111 @@
+{{#
+    @name Icons
+    @desc A reference page documenting the flat illustration icon catalog rendered via the Statamic svg tag from the "icons" asset container. Filenames carry a category prefix so sorting groups related icons together.
+#}}
+
+<!-- /icons.antlers.html -->
+<main id="content" class="py-12 md:py-16 lg:py-24">
+    <section class="fluid-grid">
+        <div class="span-content stack-16">
+
+            {{# Page header #}}
+            <div class="bg-neutral-50 p-8 md:p-12 rounded-lg">
+                {{ partial:typography/h1
+                    content="Icons"
+                    class="mb-4 md:text-7xl tracking-[-0.03em]"
+                }}
+                {{ partial:typography/p
+                    content="The icon catalog. Wencory illustrations are listed alphabetically by category prefix; Lucide icons follow below."
+                    class="!mb-0"
+                }}
+            </div>
+
+            {{# Flat browsable grid — one tile per SVG in the icons container #}}
+            <section class="flex flex-col gap-6">
+                {{ partial:typography/h2 content="Wencory" }}
+                <p class="text-sm leading-[1.6] font-medium text-neutral/70">
+                    Usage: <code class="font-mono">&#123;&#123; svg src="icons/filename" &#125;&#125;</code>
+                </p>
+                <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                    {{ assets container="icons" sort="filename" }}
+                        <li class="flex flex-col items-center gap-3 p-6 rounded-lg border border-neutral/10">
+                            <div class="w-16 h-16 flex items-center justify-center">
+                                {{ svg src="icons/{filename}" class="max-w-full max-h-full" }}
+                            </div>
+                            <code class="text-xs leading-[1.6] text-neutral/70 font-mono text-center break-all">{{ filename }}</code>
+                        </li>
+                    {{ /assets }}
+                </ul>
+            </section>
+
+            {{# Lucide #}}
+            <section class="flex flex-col gap-6">
+                {{ partial:typography/h2 content="Lucide" }}
+                <p class="text-sm leading-[1.6] font-medium text-neutral/70">
+                    Usage: <code class="font-mono">&lt;x-lucide-iconname class="..." /&gt;</code>
+                </p>
+                <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                    {{ partial:icons/lucide_tile name="check" }}<x-lucide-check class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="map" }}<x-lucide-map class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="footprints" }}<x-lucide-footprints class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="clock" }}<x-lucide-clock class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="heart" }}<x-lucide-heart class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="calendar" }}<x-lucide-calendar class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="users-round" }}<x-lucide-users-round class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="compass" }}<x-lucide-compass class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="utensils" }}<x-lucide-utensils class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="bed-double" }}<x-lucide-bed-double class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="mountain-snow" }}<x-lucide-mountain-snow class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="pizza" }}<x-lucide-pizza class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="wine" }}<x-lucide-wine class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="binoculars" }}<x-lucide-binoculars class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="sun" }}<x-lucide-sun class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="flower" }}<x-lucide-flower class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="snowflake" }}<x-lucide-snowflake class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="leaf" }}<x-lucide-leaf class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="arrow-left" }}<x-lucide-arrow-left class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{# {{ partial:icons/lucide_tile name="arrow-top-right" }}<x-lucide-arrow-top-right class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }} #}}
+                    {{ partial:icons/lucide_tile name="arrow-right" }}<x-lucide-arrow-right class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="download" }}<x-lucide-download class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="circle-user-round" }}<x-lucide-circle-user-round class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="backpack" }}<x-lucide-backpack class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="route" }}<x-lucide-route class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="map-pinned" }}<x-lucide-map-pinned class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="flag" }}<x-lucide-flag class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="bell" }}<x-lucide-bell class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="chevron-down" }}<x-lucide-chevron-down class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="headset" }}<x-lucide-headset class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="lightbulb" }}<x-lucide-lightbulb class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="log-out" }}<x-lucide-log-out class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="key" }}<x-lucide-key class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="ambulance" }}<x-lucide-ambulance class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="mailbox" }}<x-lucide-mailbox class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="phone" }}<x-lucide-phone class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="loader-circle" }}<x-lucide-loader-circle class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="chevron-left" }}<x-lucide-chevron-left class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="chevron-right" }}<x-lucide-chevron-right class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="arrow-down" }}<x-lucide-arrow-down class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="mouse" }}<x-lucide-mouse class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="plus" }}<x-lucide-plus class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="search" }}<x-lucide-search class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="eye-closed" }}<x-lucide-eye-closed class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="eye" }}<x-lucide-eye class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="circle-question-mark" }}<x-lucide-circle-question-mark class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="circle-x" }}<x-lucide-circle-x class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="mail" }}<x-lucide-mail class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="info" }}<x-lucide-info class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="share" }}<x-lucide-share class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="circle-play" }}<x-lucide-circle-play class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="goal" }}<x-lucide-goal class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="circle" }}<x-lucide-circle class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="circle-dashed" }}<x-lucide-circle-dashed class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="signpost" }}<x-lucide-signpost class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                    {{ partial:icons/lucide_tile name="x" }}<x-lucide-x class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
+                </ul>
+            </section>
+
+        </div>
+    </section>
+</main>
+
+<!-- End: /icons.antlers.html -->

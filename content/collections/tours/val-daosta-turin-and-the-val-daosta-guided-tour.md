@@ -56,22 +56,27 @@ page_builder:
         id: mloqdoo9
         title: 'Discover the elegance of Turin'
         summary: "Turin is one of Italy's hidden gems: an elegant city with kilometres of arcades, historic cafes and excellent museums."
+        icon: geography-cartography-city.svg
       -
         id: mloqi0iy
         title: 'Stay in fabulous accommodation'
         summary: 'This tour is 4-star all the way: an historic hotel in Turin and then a series of lovely family-run mountain hotels.'
+        icon: hotel-bed-sleep-room-rest-accommodation.svg
       -
         id: mloqndod
         title: "Explore Italy's most spectacular region"
         summary: "Every corner of the Val d'Aosta has breathtaking views: spectacular mountains, glaciers, high pastures and cute villages"
+        icon: geography-exploration-mountain.svg
       -
         id: mloqrnhn
         title: "Walk some of Europe's finest trails"
         summary: 'Walk well-maintained and well-marked mountain trails each day, surrounded on every side by incomparable natural beauty.'
+        icon: trekking-boots.svg
       -
         id: mm4fpvo1
         title: 'Enjoy wholesome mountain cuisine'
         summary: "The valley's cuisine is a mix of traditional mountain food and sophisticated French cuisine, all based on local produce."
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
     type: highlights
     enabled: true
   -

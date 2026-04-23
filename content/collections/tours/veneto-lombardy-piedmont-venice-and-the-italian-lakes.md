@@ -56,22 +56,27 @@ page_builder:
         id: mloqdoo9
         title: 'Explore the secrets of Venice'
         summary: 'Stay in a tucked away 4-star hotel, and join a local guide to explore the hidden secrets of this most magical of cities.'
+        icon: geography-cartography-city.svg
       -
         id: mloqi0iy
         title: 'Stay in fabulous accommodation'
         summary: 'Stay in 4-star hotels: on a Venetian canal; overlooking Lake Como; in a mountain village; and in the arcades of Turin.'
+        icon: hotel-bed-sleep-room-rest-accommodation.svg
       -
         id: mloqndod
         title: 'Discover the glories of the Italian Lakes'
         summary: 'Follow a network of historic stone paths to discover the beauty of the Italian Lakes and mountains that surround them.'
+        icon: nature-lake.svg
       -
         id: mloqrnhn
         title: 'Immerse yourself in the history and culture'
         summary: 'Local guides will reveal the fascinating history of Venice, lakeside villas, ancient villages and the arcades of Turin.'
+        icon: culture-Colosseum.svg
       -
         id: mm4fpvo1
         title: 'Indulge yourself in the food and wine of northern Italy'
         summary: 'Enjoy fabulous cuisine, from the seafood of Venice; to the risotto of Lake Como; and the cheeses and wines of Turin.'
+        icon: culture-wine.svg
     type: highlights
     enabled: true
   -

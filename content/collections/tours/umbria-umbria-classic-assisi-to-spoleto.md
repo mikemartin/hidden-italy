@@ -55,29 +55,32 @@ page_builder:
         id: mlooee34
         title: 'Walk through magical landscapes'
         summary: "Follow well-marked trails through the 'green heart of Italy': rolling hills, vineyards, olive groves and charming towns."
-        icon: camping-outdoor/hiking-boots-outdoor-hiking-camping-footwear.svg
+        icon: trekking-boots.svg
       -
         id: mloog7vk
         title: 'Stay in fabulous accommodation'
         summary: 'A feature of this Classic tour is the fabulous accommodation: fab 4-star hotels in the historical centre of each town'
-        icon: restaurant/fork-knife-cutlery-dining-restaurant-meal-utensils-silverware.svg
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: mlooou12
         title: 'Soak up the atmosphere'
         summary: 'Spend time soaking up the atmosphere of some of the most charming towns in central Italy, each so different to the other'
-        icon: camping-outdoor/mountain-outdoor-adventure-hiking-nature.svg
+        icon: geography-exploration-mountain.svg
       -
         id: mlooun08
         title: 'Admire the art'
         summary: 'Admire fabulous works by some of the important artists of the Italian Renaissance: Cimabue, Giotto, Perugino and Raphael'
+        icon: culture-violin.svg
       -
         id: mmbinilb
         title: 'Enjoy Umbrian home cooking'
         summary: 'Sit down and enjoy the wholesome home-cooking: cold cuts, cheeses, pastas, soups, roast meats, fresh garden vegetables.'
+        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
       -
         id: yzrNBaT-_rmmrnPeEEdB9
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        icon: service-hours.svg
     type: highlights
     enabled: true
   -
