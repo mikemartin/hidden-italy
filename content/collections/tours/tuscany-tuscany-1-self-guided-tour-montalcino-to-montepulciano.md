@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Tuscany
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776053921
+updated_at: 1776926034
 grade: 2
 summary: 'Pure Tuscany: rolling hills, cypress pines, Renaissance towns, fine food, relaxed walking.'
 overview:
@@ -247,6 +247,15 @@ page_builder:
         type: travel_insurance
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: ROcyXirV_l_KWTeqChSYf
+    title: 'What our travellers are saying'
+    testimonials:
+      - 88956cf4-d45c-40e9-85f5-4415bf4d73c8
+      - 63d5b5d1-333f-446c-b812-83f68e2323c0
+      - 898ad6a9-bf99-4b6b-94d7-2f4b1cc9fe7c
+    type: testimonials
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
