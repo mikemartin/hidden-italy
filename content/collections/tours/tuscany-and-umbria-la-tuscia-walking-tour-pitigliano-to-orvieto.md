@@ -127,7 +127,6 @@ page_builder:
         elevation: 442
         meals_included:
           - breakfast
-        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-cathedral-in-vibrant-daylight.png
       -
         id: mlop8uiy
         title: 'Day 7:  Depart Orvieto'
@@ -276,5 +275,4 @@ gallery:
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano-2.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-8.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/walking.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-cathedral-in-vibrant-daylight.png
 ---
