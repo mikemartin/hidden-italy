@@ -1,7 +1,7 @@
 {{ if logged_in }}
     {{ current_user}}
     <a href="/account" wire:navigate class="flex items-center">
-        <x-lucide-user-circle class="w-6 h-6 stroke-[1.5] mr-2" />
+        <x-lucide-circle-user-round class="w-6 h-6 stroke-[1.5] mr-2" />
         <span class="font-medium text-sm leading-[1.6] whitespace-nowrap">
             {{ name }}
         </span>
@@ -9,7 +9,7 @@
     {{ /current_user}}
 {{ else }}
     <a href="/login" wire:navigate class="flex items-center">
-        <x-lucide-user-circle class="w-6 h-6 stroke-[1.5] mr-2" />
+        <x-lucide-circle-user-round class="w-6 h-6 stroke-[1.5] mr-2" />
         <span class="font-medium text-sm leading-[1.6] whitespace-nowrap">
             Account
         </span>

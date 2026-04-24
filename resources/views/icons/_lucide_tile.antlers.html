@@ -2,6 +2,7 @@
     @name Icons Lucide Tile
     @desc A single lucide icon tile. Pass the <x-lucide-*> blade component via slot and the icon name as a param. Clicking the tile serializes the inline SVG and triggers a download as {name}.svg.
     @param* name The icon name (used as label and download filename).
+    @param in_use When true, visually marks the tile as referenced elsewhere in the site.
 #}}
 
 <!-- /icons/_lucide_tile.antlers.html -->
@@ -22,9 +23,12 @@
             a.remove();
             URL.revokeObjectURL(url);
         "
-        class="w-full flex flex-col items-center gap-3 p-6 border border-neutral/10 rounded-lg hover:border-primary hover:bg-neutral-50 transition-colors cursor-pointer"
-        aria-label="Download {{ name }}.svg"
+        class="relative w-full flex flex-col items-center gap-3 p-6 border rounded-lg transition-colors cursor-pointer {{ if in_use }}border-primary bg-primary/5 hover:bg-primary/10{{ else }}border-neutral/10 hover:border-primary hover:bg-neutral-50{{ /if }}"
+        aria-label="Download {{ name }}.svg{{ if in_use }} (in use){{ /if }}"
     >
+        {{ if in_use }}
+            <span class="absolute top-2 right-2 text-[10px] font-medium uppercase tracking-wide text-primary">In use</span>
+        {{ /if }}
         {{ slot }}
         <code class="text-xs leading-[1.6] text-neutral/70 font-mono text-center break-all">{{ name }}</code>
     </button>
