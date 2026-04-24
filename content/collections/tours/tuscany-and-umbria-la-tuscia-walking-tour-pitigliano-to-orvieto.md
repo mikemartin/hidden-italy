@@ -87,7 +87,6 @@ page_builder:
         elevation: 115
         meals_included:
           - breakfast
-        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/hiking-the-ancient-via-cava.png
       -
         id: mlop159i
         title: 'Day 3:  Sleep in a castle'
@@ -270,7 +269,6 @@ gallery:
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano_-tuscany-s-hilltop-beauty.png
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020002.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/bolsena-1.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/hiking-the-ancient-via-cava.png
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/sorano-1-a.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1050010.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020009-a.jpg
