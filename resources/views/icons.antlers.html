@@ -20,19 +20,26 @@
                 }}
             </div>
 
-            {{# Flat browsable grid — one tile per SVG in the icons container #}}
+            {{# Flat browsable grid — one tile per SVG in the icons container. Click a tile to download the file. #}}
             <section class="flex flex-col gap-6">
                 {{ partial:typography/h2 content="Wencory" }}
                 <p class="text-sm leading-[1.6] font-medium text-neutral/70">
-                    Usage: <code class="font-mono">&#123;&#123; svg src="icons/filename" &#125;&#125;</code>
+                    Click any tile to download the SVG. Usage: <code class="font-mono">&#123;&#123; svg src="icons/filename" &#125;&#125;</code>
                 </p>
                 <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
                     {{ assets container="icons" sort="filename" }}
-                        <li class="flex flex-col items-center gap-3 p-6 rounded-lg border border-neutral/10">
-                            <div class="w-16 h-16 flex items-center justify-center">
-                                {{ svg src="icons/{filename}" class="max-w-full max-h-full" }}
-                            </div>
-                            <code class="text-xs leading-[1.6] text-neutral/70 font-mono text-center break-all">{{ filename }}</code>
+                        <li>
+                            <a
+                                href="/icons/{{ basename }}"
+                                download="{{ basename }}"
+                                class="flex flex-col items-center gap-3 p-6 rounded-lg border border-neutral/10 hover:border-primary hover:bg-neutral-50 transition-colors"
+                                aria-label="Download {{ basename }}"
+                            >
+                                <div class="w-16 h-16 flex items-center justify-center">
+                                    {{ svg src="icons/{filename}" class="max-w-full max-h-full" }}
+                                </div>
+                                <code class="text-xs leading-[1.6] text-neutral/70 font-mono text-center break-all">{{ basename }}</code>
+                            </a>
                         </li>
                     {{ /assets }}
                 </ul>
@@ -42,7 +49,7 @@
             <section class="flex flex-col gap-6">
                 {{ partial:typography/h2 content="Lucide" }}
                 <p class="text-sm leading-[1.6] font-medium text-neutral/70">
-                    Usage: <code class="font-mono">&lt;x-lucide-iconname class="..." /&gt;</code>
+                    Click any tile to download the SVG. Usage: <code class="font-mono">&lt;x-lucide-iconname class="..." /&gt;</code>
                 </p>
                 <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
                     {{ partial:icons/lucide_tile name="check" }}<x-lucide-check class="w-8 h-8 stroke-[1.5] text-neutral" />{{ /partial:icons/lucide_tile }}
