@@ -22,4 +22,4 @@ preferences:
     assets:
       per_page: 50
       mode: grid
-    browser_checkerboard_mode: light
+    browser_checkerboard_mode: dark
