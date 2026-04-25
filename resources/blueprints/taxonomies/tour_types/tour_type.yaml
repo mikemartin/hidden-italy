@@ -12,6 +12,16 @@ tabs:
               required: true
               validate:
                 - required
+          -
+            handle: image
+            field:
+              container: assets
+              folder: tour-types
+              max_files: 1
+              type: assets
+              display: Image
+              instructions: 'Hero image used on the Tour Types card on the homepage.'
+              mode: grid
   sidebar:
     display: Sidebar
     sections:

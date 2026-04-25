@@ -38,25 +38,21 @@
                 :style="{ opacity: loading ? '0.7' : '1' }"
                 style="display: flex; align-items: center; gap: 4px; background: none; border: none; cursor: pointer;">
 
-            {{# Heart icon - fill changes based on liked state #}}
+            {{# Heart icon - white stroke + dark wash by default, terracotta fill when liked. #}}
             <svg xmlns="http://www.w3.org/2000/svg"
                  width="24" height="24" viewBox="0 0 24 24"
-                 :fill="liked ? 'currentColor' : 'none'"
-                 stroke="currentColor"
-                 stroke-width="1.5"
+                 :fill="liked ? '#d56844' : 'rgba(49, 46, 41, 0.5)'"
+                 stroke="white"
+                 stroke-width="2"
                  stroke-linecap="round"
                  stroke-linejoin="round"
                  :style="{
-                     color: '#ef4444',
-                     transition: 'transform 0.15s ease-out',
+                     transition: 'fill 0.2s ease-out, transform 0.15s ease-out',
                      transform: popping ? 'scale(1.2)' : 'scale(1)'
                  }">
                 <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/>
             </svg>
 
-            {{# Like count - color changes based on liked state #}}
-            <span :style="{ color: liked ? '#ef4444' : 'inherit' }"
-                  x-text="count"></span>
         </button>
     {{ else }}
         {{# Non-interactive display - locked or no permission #}}
@@ -64,15 +60,13 @@
              title="{{ is_locked ? 'Likes are closed' : (!is_authenticated && !allow_guest_likes ? 'Log in to like' : '') }}">
             <svg xmlns="http://www.w3.org/2000/svg"
                  width="24" height="24" viewBox="0 0 24 24"
-                 fill="currentColor"
-                 stroke="currentColor"
-                 stroke-width="1.5"
+                 fill="rgba(49, 46, 41, 0.5)"
+                 stroke="white"
+                 stroke-width="2"
                  stroke-linecap="round"
-                 stroke-linejoin="round"
-                 style="color: #6b7280;">
+                 stroke-linejoin="round">
                 <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/>
             </svg>
-            <span style="color: #6b7280;" x-text="count"></span>
         </div>
     {{ /if }}
 

@@ -5,10 +5,35 @@
 @import "./typography.css";
 
 @theme {
-    --color-primary: oklch(53.24% 0.301 290.86);
+    /* ============================================================
+       Palette — raw brand colors (mirrored from Figma variables)
+       ============================================================ */
 
+    /* Blues — Chathams Blue family */
+    --color-blue-950: #0a3241; /* Chathams Blue / d-100 */
+    --color-blue-900: #1f3b4d; /* Foreground */
+    --color-blue-800: #2c5971; /* Text */
+    --color-blue-700: #27556b; /* Background */
+    --color-blue-500: #376d86; /* Accent Light */
+
+    /* Parchment */
+    --color-parchment-50:  #fefcf7;
+    --color-parchment-100: #fdf9f0;
+    --color-parchment-200: #faf3e0;
+    --color-parchment-400: #e8d4a0;
+
+    /* Mustard — Dijon Mustard / Secondary */
+    --color-mustard-50:  #fcfaf4;
+    --color-mustard-500: #beac50;
+
+    /* Warm accents */
+    --color-gold:       #e2ae4d; /* Accent */
+    --color-amber:      #bb4d00; /* Accent 2 / Amber 700 */
+    --color-terracotta: #d56844; /* Tumeric Red / Error 600 */
+
+    /* Neutrals — White Heat endpoints override slate 50/900 only */
     --color-neutral: var(--color-slate-800);
-    --color-neutral-50: var(--color-slate-50);
+    --color-neutral-50:  #faf9f8; /* White Heat / l-50 */
     --color-neutral-100: var(--color-slate-100);
     --color-neutral-200: var(--color-slate-200);
     --color-neutral-300: var(--color-slate-300);
@@ -17,8 +42,24 @@
     --color-neutral-600: var(--color-slate-600);
     --color-neutral-700: var(--color-slate-700);
     --color-neutral-800: var(--color-slate-800);
-    --color-neutral-900: var(--color-slate-900);
+    --color-neutral-900: #312e29; /* White Heat / d-100 */
     --color-neutral-950: var(--color-slate-950);
+
+    /* ============================================================
+       Semantic tokens — role-based aliases. Templates should
+       prefer these over raw palette names so skins can swap.
+       ============================================================ */
+
+    --color-background:     var(--color-blue-700);
+    --color-foreground:     var(--color-blue-900);
+    --color-text:           var(--color-blue-800);
+    --color-accent:         var(--color-gold);
+    --color-accent-2:       var(--color-amber);
+    --color-accent-light:   var(--color-blue-500);
+    --color-card:           var(--color-parchment-50);
+
+    /* Backwards-compat alias for existing `primary` references. */
+    --color-primary: var(--color-blue-700);
 
     --font-display: 'Roma Neue', system-ui, sans-serif;
     --font-sans: 'Mona Sans VF', system-ui, sans-serif;
@@ -52,3 +93,37 @@
    }
 }
 @import "./livewire-filters-theme.css";
+
+/* Hide scrollbar on horizontal scroll-snap tracks (hero & tours carousels). */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+
+/* Footer decorative wordmark — uses the SVG as a CSS mask so the colour
+   comes from the surrounding `text-*` utility. The SVG itself ships with
+   white-filled paths; the mask drops the original colour entirely. */
+.footer-wordmark {
+    aspect-ratio: 329 / 71;
+    background-color: currentColor;
+    -webkit-mask: url('/visuals/hidden-italy-logo.svg') no-repeat center / contain;
+    mask: url('/visuals/hidden-italy-logo.svg') no-repeat center / contain;
+}
+
+/* Transparent header overlay — applied when an entry sets `transparent_header`
+   in the page blueprint. The site header floats over the first page-builder
+   block (typically a hero) with light text and a subtle bottom border. */
+@layer components {
+    .has-overlay-header header {
+        background-color: transparent;
+        color: white;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .has-overlay-header header a,
+    .has-overlay-header header button {
+        color: white;
+    }
+
+    .has-overlay-header header svg {
+        color: currentColor;
+    }
+}

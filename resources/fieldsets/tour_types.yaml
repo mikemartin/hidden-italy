@@ -1,0 +1,24 @@
+title: 'Tour types'
+fields:
+  -
+    handle: heading
+    field:
+      type: text
+      localizable: true
+      display: Heading
+      default: 'Choose your adventure'
+  -
+    handle: tour_types
+    field:
+      taxonomies:
+        - tour_types
+      type: terms
+      display: 'Tour Types'
+      instructions: 'Large linkable cards for the main tour types. Two cards side-by-side is the intended layout.'
+  -
+    handle: buttons
+    field: buttons.buttons
+    config:
+      display: 'Trailing button'
+      instructions: 'Optional button under the cards (e.g. "Browse all tours").'
+      max_sets: 1

@@ -22,3 +22,5 @@ preferences:
   assets:
     icons:
       mode: grid
+    assets:
+      mode: grid

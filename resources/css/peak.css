@@ -71,9 +71,11 @@
     }
 
     :root {
-        /* Fluid typography from 1 rem to 1.2 rem with fallback to 16px. */
+        /* Root font size locked at 16px — Peak's fluid typography clamp
+           (`clamp(1rem, 1.6vw, 1.2rem)`) is disabled so rem-based Tailwind
+           classes resolve to the documented type-scale values without
+           overshooting on wide viewports. Re-enable here if you want fluid. */
         font-size: 100%;
-        font-size: clamp(1rem, 1.6vw, 1.2rem);
         /* Safari resize fix. */
         min-height: 0vw;
         --focus-outline-width: 2px;

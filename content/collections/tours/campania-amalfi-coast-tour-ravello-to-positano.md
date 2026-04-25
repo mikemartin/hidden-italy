@@ -6,8 +6,8 @@ name: 'Amalfi Coast tour (Ravello to Positano)'
 tour_types: self-guided
 region: Campania
 days: 6
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776917998
+updated_by: 6e2cc1d1-1470-4391-963d-37aed038e27a
+updated_at: 1777126698
 grade: 3
 summary: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
 overview:
@@ -279,4 +279,5 @@ gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour-1/positano-pan-1.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
 image: tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
+now_open: true
 ---

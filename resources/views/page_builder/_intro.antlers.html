@@ -1,0 +1,59 @@
+{{#
+    @name Intro with benefits
+    @desc Centred heading + bard intro on a parchment surface, three Benefit
+          entries shown as round icon tiles, and an optional outline-gold CTA
+          tuned for the light background.
+    @set page.page_builder.intro
+#}}
+
+<!-- /page_builder/_intro.antlers.html -->
+{{ partial:page_builder/block class="gap-y-10 md:gap-y-16" }}
+    <header class="span-content flex flex-col items-start md:items-center text-left md:text-center gap-6">
+        {{ if block:eyebrow }}
+            {{ partial:typography/label :content="block:eyebrow" class="text-accent-2" }}
+        {{ /if }}
+
+        {{ partial:typography/h2 :content="block:heading" color="text-foreground" class="uppercase" }}
+
+        {{ if block:intro }}
+            <div class="font-sans text-base md:text-xl leading-[1.6] text-text md:max-w-4xl text-pretty">
+                {{ block:intro }}
+            </div>
+        {{ /if }}
+    </header>
+
+    {{ if block:benefits }}
+        <ul class="span-content flex flex-col md:grid md:grid-cols-3 gap-10 md:gap-9">
+            {{ block:benefits }}
+                <li class="flex md:flex-col gap-4 md:gap-6 md:items-center text-left md:text-center">
+                    {{ icon }}
+                        <div class="flex shrink-0 items-center justify-center size-16 md:size-24 rounded-full bg-parchment-200 text-accent-2">
+                            {{ svg
+                                src="icons/{path}"
+                                attr:class="size-10 md:size-16 fill-current"
+                                attr:aria-hidden="true"
+                                attr:role="img"
+                            }}
+                        </div>
+                    {{ /icon }}
+
+                    <div class="flex flex-col gap-2 md:gap-4 flex-1 md:flex-none md:max-w-prose">
+                        {{ partial:typography/h4 :content="title" color="text-foreground" }}
+                        {{ if description }}
+                            {{ partial:typography/p_small :content="description" color="text-text" class="text-pretty !mb-0" }}
+                        {{ /if }}
+                    </div>
+                </li>
+            {{ /block:benefits }}
+        </ul>
+    {{ /if }}
+
+    {{ if block:buttons }}
+        <div class="span-content flex flex-wrap gap-4 justify-center">
+            {{ block:buttons }}
+                {{ partial:components/button class="button--outline button--gold button--on-light" }}
+            {{ /block:buttons }}
+        </div>
+    {{ /if }}
+{{ /partial:page_builder/block }}
+<!-- End: /page_builder/_intro.antlers.html -->

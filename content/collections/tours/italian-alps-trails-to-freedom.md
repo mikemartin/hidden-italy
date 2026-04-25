@@ -342,8 +342,8 @@ page_builder:
 tour_types: guided
 seasons: summer
 locations: northern-italy
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776827335
+updated_by: 6e2cc1d1-1470-4391-963d-37aed038e27a
+updated_at: 1777126689
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
@@ -359,4 +359,5 @@ gallery:
   - tours/italian-alps-trails-to-freedom/p8270231.jpg
 image: tours/italian-alps-trails-to-freedom/94.jpg
 simple_likes: 0
+now_open: true
 ---

@@ -93,6 +93,14 @@ tabs:
                 tour_types: 'contains tour_types::guided'
               width: 50
           -
+            handle: now_open
+            field:
+              type: toggle
+              display: 'Now open'
+              default: false
+              instructions: 'Show a "Now open" badge on the tour card to flag that bookings are currently being taken.'
+              width: 50
+          -
             handle: leader
             field:
               type: entries

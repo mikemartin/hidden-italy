@@ -1,0 +1,40 @@
+title: 'Travel tips'
+fields:
+  -
+    handle: heading
+    field:
+      type: text
+      localizable: true
+      display: Heading
+      default: 'Travel tips and inspiration'
+      width: 66
+  -
+    handle: link_text
+    field:
+      type: text
+      localizable: true
+      display: 'View all label'
+      default: 'View all'
+      width: 33
+  -
+    handle: link_entry
+    field:
+      type: entries
+      localizable: true
+      display: 'View all entry'
+      collections:
+        - pages
+      max_items: 1
+      instructions: 'Select the page this link points to (e.g. the blog index).'
+  -
+    handle: articles
+    field:
+      type: entries
+      localizable: true
+      display: Articles
+      collections:
+        - pages
+      max_items: 6
+      instructions: "Pick articles for the grid. Three is the intended count. Update the allowed collections once a dedicated blog collection exists."
+      validate:
+        - required

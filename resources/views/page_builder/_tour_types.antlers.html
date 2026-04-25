@@ -1,0 +1,75 @@
+{{#
+    @name Tour types
+    @desc Two large image cards (one per selected `tour_types` taxonomy term)
+          with a centred title and a tour-count chip. Section surface flips
+          from white on mobile to deep blue on desktop. Each card pulls its
+          title and image straight from the term, and counts the tours that
+          carry the term's slug.
+    @set page.page_builder.tour_types
+#}}
+
+<!-- /page_builder/_tour_types.antlers.html -->
+{{ partial:page_builder/block class="stack-space-collapse py-10 lg:py-30 gap-y-10 lg:gap-y-14 bg-card lg:bg-background" }}
+    {{ if block:heading }}
+        <header class="span-content text-center">
+            <h2 class="font-display font-semibold uppercase text-2xl lg:text-[40px] leading-[1.25] tracking-[0.01em] lg:tracking-[-0.01em] text-foreground lg:text-parchment-100">
+                {{ block:heading }}
+            </h2>
+        </header>
+    {{ /if }}
+
+    {{ if block:tour_types }}
+        <ul class="span-content flex flex-col lg:flex-row gap-10 lg:gap-9 items-stretch">
+            {{ block:tour_types }}
+                <li class="group relative w-full lg:flex-1 aspect-video lg:aspect-square rounded-3xl overflow-hidden bg-mustard-50">
+
+                    {{# Image lives on the term itself. Multiply blend + 40% dark wash for legibility. #}}
+                    {{ if image }}
+                        {{
+                            picture
+                            :image="image"
+                            class="absolute inset-0 w-full h-full object-cover mix-blend-multiply transition-transform duration-500 ease-out group-hover:scale-105"
+                            cover="true"
+                            sizes="(min-width: 1024px) 50vw, 100vw"
+                            loading="lazy"
+                        }}
+                    {{ /if }}
+                    <div class="absolute inset-0 bg-neutral-900/40 pointer-events-none" aria-hidden="true"></div>
+
+                    {{# Centred label + tour-count chip. #}}
+                    <div class="absolute inset-0 flex flex-col items-center justify-center gap-3 px-4 text-center">
+                        <span class="font-display font-semibold uppercase text-2xl lg:text-5xl leading-none tracking-[0.01em] text-white">
+                            {{ title }}
+                        </span>
+
+                        {{# Tour count derived from the term's slug. #}}
+                        {{ entries from="tours" :tour_types="slug" limit="1" }}
+                            <span class="inline-flex items-center px-3 py-1.5 rounded-full border border-gold">
+                                <span class="font-sans font-semibold uppercase text-[15px] tracking-[0.02em] leading-none text-parchment-50 whitespace-nowrap">
+                                    {{ total_results }} {{ total_results == 1 ? 'Tour' : 'Tours' }}
+                                </span>
+                            </span>
+                        {{ /entries }}
+                    </div>
+
+                    {{# Stretched link to the filtered tour listing. #}}
+                    <a
+                        href="/tours?type={{ slug }}"
+                        class="absolute inset-0 rounded-3xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                    >
+                        <span class="sr-only">View {{ title }} tours</span>
+                    </a>
+                </li>
+            {{ /block:tour_types }}
+        </ul>
+    {{ /if }}
+
+    {{ if block:buttons }}
+        <div class="span-content flex justify-center">
+            {{ block:buttons }}
+                {{ partial:components/button class="button--accent-light" }}
+            {{ /block:buttons }}
+        </div>
+    {{ /if }}
+{{ /partial:page_builder/block }}
+<!-- End: /page_builder/_tour_types.antlers.html -->

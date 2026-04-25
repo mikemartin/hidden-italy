@@ -1,0 +1,78 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Contact details'
+        instructions: 'Used in the footer "Get in touch" column.'
+        fields:
+          -
+            handle: email
+            field:
+              type: text
+              input_type: email
+              localizable: true
+              display: Email
+              instructions: 'Primary contact email.'
+              width: 50
+          -
+            handle: address
+            field:
+              type: textarea
+              localizable: true
+              display: Address
+              instructions: 'Multi-line. Each line break shows as a new line in the footer.'
+              width: 50
+          -
+            handle: phones
+            field:
+              type: replicator
+              localizable: true
+              display: Phone numbers
+              button_label: 'Add phone number'
+              collapse: accordion
+              instructions: 'Each phone is shown as "Label +number" in the footer.'
+              sets:
+                main:
+                  display: Main
+                  sets:
+                    phone:
+                      display: Phone
+                      fields:
+                        -
+                          handle: label
+                          field:
+                            type: text
+                            display: Label
+                            instructions: 'e.g. "Guided Tours" or "Self-guided Tours".'
+                            width: 50
+                            validate:
+                              - required
+                        -
+                          handle: number
+                          field:
+                            type: text
+                            input_type: tel
+                            display: Number
+                            instructions: 'Include the country code, e.g. "+61 457 427 472".'
+                            width: 50
+                            validate:
+                              - required
+      -
+        display: Newsletter
+        instructions: 'Copy shown above the newsletter sign-up in the footer.'
+        fields:
+          -
+            handle: newsletter_heading
+            field:
+              type: text
+              localizable: true
+              display: Heading
+              default: 'Subscribe to our Newsletter'
+          -
+            handle: newsletter_text
+            field:
+              type: textarea
+              localizable: true
+              display: Description
+              default: "Sign up to get travel tips and inspiration delivered right to your inbox."

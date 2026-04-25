@@ -1,0 +1,53 @@
+{{#
+    @name Travel tips
+    @desc Article/blog grid with optional "view all" link. Gracefully handles both Pages entries (current fallback) and a future Articles collection.
+    @set page.page_builder.travel_tips
+#}}
+
+<!-- /page_builder/_travel_tips.antlers.html -->
+{{ partial:page_builder/block class="gap-y-10" }}
+    <header class="span-content flex flex-wrap items-end justify-between gap-4">
+        {{ partial:typography/h2 :content="block:heading" class="!mb-0" }}
+
+        {{ block:link_entry }}
+            <a href="{{ url }}" class="button-inline group inline-flex items-center gap-1">
+                <span>{{ block:link_text ?? 'View all' }}</span>
+                <x-lucide-arrow-right class="w-4 h-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
+            </a>
+        {{ /block:link_entry }}
+    </header>
+
+    {{ if block:articles }}
+        <ul class="span-content grid grid-cols-1 md:grid-cols-3 gap-fluid-grid-gap">
+            {{ block:articles }}
+                <li>
+                    <a href="{{ url }}" class="group block stack-3">
+                        <figure class="relative aspect-[4/3] overflow-hidden rounded-lg bg-stone-200">
+                            {{ if image }}
+                                {{
+                                    picture
+                                    :image="image"
+                                    class="absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-105"
+                                    cover="true"
+                                    sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                                    loading="lazy"
+                                }}
+                            {{ else }}
+                                <div class="absolute inset-0 flex items-center justify-center text-stone-400">
+                                    <x-lucide-image class="w-12 h-12" aria-hidden="true" />
+                                </div>
+                            {{ /if }}
+                        </figure>
+
+                        {{ partial:typography/h4 :content="title" class="group-hover:underline underline-offset-4" }}
+
+                        <time datetime="{{ date | format('Y-m-d') }}" class="text-xs uppercase tracking-wide text-neutral-500">
+                            {{ date | format('d F Y') }}
+                        </time>
+                    </a>
+                </li>
+            {{ /block:articles }}
+        </ul>
+    {{ /if }}
+{{ /partial:page_builder/block }}
+<!-- End: /page_builder/_travel_tips.antlers.html -->
