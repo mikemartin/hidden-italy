@@ -23,5 +23,5 @@ preferences:
       per_page: 50
       mode: grid
     editor_checkerboard_mode: light
-    browser_checkerboard_mode: light
+    browser_checkerboard_mode: dark
   color_mode: light
