@@ -22,4 +22,4 @@ preferences:
   assets:
     icons:
       mode: grid
-  color_mode: dark
+  color_mode: light
