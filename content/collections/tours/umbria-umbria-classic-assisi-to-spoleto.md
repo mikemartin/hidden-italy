@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776054671
+updated_at: 1777261127
 grade: 3
 summary: 'Enjoy the best of Umbria has to offer: superior accommodation, great art, amazing walks!'
 overview:
@@ -266,6 +266,15 @@ page_builder:
         type: travel_insurance
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: QvH7NPEvhgUO4Xu3_g4aD
+    title: 'What our travellers are saying'
+    testimonials:
+      - 8f7dbb98-902f-43ad-822e-d213ef44b785
+      - 3fcc881c-469b-4226-aac6-9072fd6de343
+      - f468044d-04e7-42a9-8bb9-2cbfcc128f13
+    type: testimonials
     enabled: true
 simple_likes: 0
 duplicated_from: 2c566c23-3738-482e-b78a-a2ac67ccf9cf
