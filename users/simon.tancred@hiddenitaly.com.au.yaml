@@ -24,4 +24,5 @@ preferences:
       mode: grid
     editor_checkerboard_mode: light
     browser_checkerboard_mode: light
+    browser_thumbnail_size: 160
   color_mode: light
