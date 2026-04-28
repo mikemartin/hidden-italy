@@ -1,0 +1,20 @@
+title: 'Self-guided Tours'
+icon: travel-map
+template: tours/show
+layout: layout
+mount: fff5d1d0-e05d-4088-9a54-1f2e7f630c28
+taxonomies:
+  - seasons
+  - locations
+revisions: false
+title_format: '{region} - {name}'
+route: '/tours/self-guided/{slug}'
+sort_dir: asc
+date_behavior:
+  past: null
+  future: null
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

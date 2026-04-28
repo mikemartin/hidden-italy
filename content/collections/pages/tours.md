@@ -5,6 +5,7 @@ title: Tours
 template: tours/index
 headline: 'Discover our walking tours'
 description: 'Our guided and self-guided walking tours are a unique way to discover a side of this fascinating country that most people only read about.'
+tour_collections: 'guided|self-guided'
 author: deb352aa-ad74-476e-8287-4bb96703e2cc
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
 updated_at: 1765964912

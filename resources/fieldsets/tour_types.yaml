@@ -10,11 +10,12 @@ fields:
   -
     handle: tour_types
     field:
-      taxonomies:
-        - tour_types
-      type: terms
+      type: entries
+      collections:
+        - pages
+      max_items: 2
       display: 'Tour Types'
-      instructions: 'Large linkable cards for the main tour types. Two cards side-by-side is the intended layout.'
+      instructions: 'Pick the two pages this section links to (typically Guided + Self-Guided). Each card uses the page''s title, URL, and Card image.'
   -
     handle: buttons
     field: buttons.buttons

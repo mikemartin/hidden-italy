@@ -60,8 +60,8 @@ page_builder:
     enabled: true
     heading: 'Choose your adventure'
     tour_types:
-      - guided
-      - self-guided
+      - 46b6b124-89cf-4efb-b06a-cdb4d28312ba
+      - fff5d1d0-e05d-4088-9a54-1f2e7f630c28
     buttons:
       -
         id: home_types_btn

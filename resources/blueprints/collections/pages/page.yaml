@@ -49,6 +49,16 @@ tabs:
               options:
                 standard: Standard
                 large: Large
+          -
+            handle: card_image
+            field:
+              type: assets
+              container: assets
+              max_files: 1
+              localizable: true
+              listable: hidden
+              display: 'Card image'
+              instructions: 'Background image used when this page is referenced as a card (e.g. the homepage Tour types block).'
       -
         display: 'Page builder'
         fields:

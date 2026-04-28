@@ -1,10 +1,11 @@
 {{#
     @name Tour types
-    @desc Two large image cards (one per selected `tour_types` taxonomy term)
-          with a centred title and a tour-count chip. Section surface flips
-          from white on mobile to deep blue on desktop. Each card pulls its
-          title and image straight from the term, and counts the tours that
-          carry the term's slug.
+    @desc Two large image cards (one per selected page entry — typically the
+          Guided and Self-Guided listing pages) with a centred title and a
+          tour-count chip. Section surface flips from white on mobile to
+          deep blue on desktop. Each card pulls its title, URL, and card
+          image from the linked page entry; the count is the number of
+          entries in the collection mounted to that page.
     @set page.page_builder.tour_types
 #}}
 
@@ -23,11 +24,12 @@
             {{ block:tour_types }}
                 <li class="group relative w-full lg:flex-1 aspect-video lg:aspect-square rounded-3xl overflow-hidden bg-mustard-50">
 
-                    {{# Image lives on the term itself. Multiply blend + 40% dark wash for legibility. #}}
-                    {{ if image }}
+                    {{# Card image lives on the linked page entry. Multiply
+                        blend + 40% dark wash for legibility. #}}
+                    {{ if card_image }}
                         {{
                             picture
-                            :image="image"
+                            :image="card_image"
                             class="absolute inset-0 w-full h-full object-cover mix-blend-multiply transition-transform duration-500 ease-out group-hover:scale-105"
                             cover="true"
                             sizes="(min-width: 1024px) 50vw, 100vw"
@@ -42,8 +44,8 @@
                             {{ title }}
                         </span>
 
-                        {{# Tour count derived from the term's slug. #}}
-                        {{ entries from="tours" :tour_types="slug" limit="1" }}
+                        {{# Tour count — page slug matches the mounted collection's handle. #}}
+                        {{ entries :from="slug" limit="1" }}
                             <span class="inline-flex items-center px-3 py-1.5 rounded-full border border-gold">
                                 <span class="font-sans font-semibold uppercase text-[15px] tracking-[0.02em] leading-none text-parchment-50 whitespace-nowrap">
                                     {{ total_results }} {{ total_results == 1 ? 'Tour' : 'Tours' }}
@@ -52,12 +54,12 @@
                         {{ /entries }}
                     </div>
 
-                    {{# Stretched link to the filtered tour listing. #}}
+                    {{# Stretched link to the linked page. #}}
                     <a
-                        href="/tours?type={{ slug }}"
+                        href="{{ url }}"
                         class="absolute inset-0 rounded-3xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
                     >
-                        <span class="sr-only">View {{ title }} tours</span>
+                        <span class="sr-only">View {{ title }}</span>
                     </a>
                 </li>
             {{ /block:tour_types }}

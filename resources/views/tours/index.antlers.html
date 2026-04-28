@@ -1,9 +1,9 @@
 {{#
     @name Tours Index
-    @desc The tours listing page. Also used by /tours/guided and
-          /tours/self-guided — those entries set `preset_tour_type` in their
-          front matter to filter the listing to a single tour type and to
-          hide the tour-type filter from the filters partial.
+    @desc Listing template shared by /tours, /guided, and /self-guided. Each
+          page entry sets `tour_collections` in its front matter to scope
+          the listing — `guided`, `self-guided`, or the pipe-joined
+          `guided|self-guided` for the combined index.
 
           The whole page sits on a parchment-100 surface with the topographic
           decoration anchored to the top corners so the pattern carries
@@ -20,13 +20,9 @@
 
     <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
         <div id="livewire-collection" class="span-content stack-16">
-            {{ partial:components/tour-filters hide_tour_types="{preset_tour_type}" }}
+            {{ partial:components/tour-filters }}
 
-            {{ if preset_tour_type }}
-                {{ livewire-collection:tours taxonomy:tour_types:any="{preset_tour_type}" paginate="50" scrollTo="#livewire-collection" }}
-            {{ else }}
-                {{ livewire-collection:tours paginate="50" scrollTo="#livewire-collection" }}
-            {{ /if }}
+            {{ livewire-collection :from="tour_collections" paginate="50" scrollTo="#livewire-collection" }}
         </div>
     </section>
 </main>

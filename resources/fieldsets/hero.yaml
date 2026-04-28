@@ -19,7 +19,8 @@ fields:
     handle: tour_photos
     field:
       collections:
-        - tours
+        - guided
+        - self-guided
       max_items: 4
       type: entries
       display: 'Tour Photos'

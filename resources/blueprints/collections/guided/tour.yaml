@@ -1,0 +1,752 @@
+title: Tour
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: hidden
+              required: false
+          -
+            handle: region
+            field:
+              type: text
+              display: Region
+              validate:
+                - required
+          -
+            handle: name
+            field:
+              type: text
+              validate:
+                - required
+              display: Name
+          -
+            handle: summary
+            field:
+              character_limit: 90
+              type: text
+              display: Teaser
+          -
+            handle: image
+            field:
+              container: assets
+              folder: tours
+              dynamic: slug
+              restrict: true
+              mode: grid
+              max_files: 1
+              type: assets
+              display: Image
+      -
+        display: Overview
+        fields:
+          -
+            handle: start_location
+            field:
+              type: text
+              display: 'Start Location'
+              width: 50
+              instructions: 'Where the tour starts (e.g. "Rome").'
+          -
+            handle: finish_location
+            field:
+              type: text
+              display: 'Finish Location'
+              width: 50
+              instructions: 'Where the tour finishes (e.g. "Termoli").'
+          -
+            handle: days
+            field:
+              type: integer
+              display: Days
+              validate:
+                - required
+                - integer
+              width: 50
+          -
+            handle: grade
+            field:
+              max: 5
+              type: range
+              display: Grade
+              append: '/ 5'
+              width: 50
+          -
+            handle: filter_grade
+            field:
+              type: select
+              display: 'Walking Grade Filter'
+              options:
+                moderate: 'Moderate (0-2)'
+                intermediate: 'Intermediate (2-3)'
+                challenging: 'Challenging (3-5)'
+              instructions: 'Used only for filtering; not part of entry data.'
+              width: 50
+              visibility: hidden
+              listable: false
+          -
+            handle: tour_size
+            field:
+              type: integer
+              display: 'Tour Size'
+              validate:
+                - integer
+              width: 50
+          -
+            handle: date
+            field:
+              type: date
+              display: Date
+              width: 50
+          -
+            handle: now_open
+            field:
+              type: toggle
+              display: 'Now open'
+              default: false
+              instructions: 'Show a "Now open" badge on the tour card to flag that bookings are currently being taken.'
+              width: 50
+          -
+            handle: leader
+            field:
+              type: entries
+              display: 'Tour Leader'
+              collections:
+                - people
+              max_items: 1
+              width: 50
+              instructions: 'Select the guide leading this tour.'
+          -
+            handle: overview
+            field:
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - anchor
+              remove_empty_nodes: false
+              type: bard
+              display: Summary
+              reading_time: true
+              word_count: true
+          -
+            handle: inclusions
+            field:
+              type: list
+              display: Inclusions
+          -
+            handle: gallery
+            field:
+              container: assets
+              dynamic: slug
+              mode: grid
+              max_files: 12
+              type: assets
+              display: Gallery
+              instructions: 'Add at least 5 photos of people in action, and show different angles.'
+              folder: tours
+              restrict: true
+      -
+        display: 'Page Builder'
+        fields:
+          -
+            handle: page_builder
+            field:
+              type: replicator
+              display: 'Page Builder'
+              button_label: 'Add Section'
+              sets:
+                tour:
+                  display: Tour
+                  icon: travel-map
+                  sets:
+                    highlights:
+                      display: Highlights
+                      instructions: 'Add up to 6 top activities'
+                      icon: scenery
+                      image: highlights.png
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            type: text
+                            display: Title
+                            instructions: 'eg. Trails to Freedom Highlights'
+                        -
+                          handle: activities
+                          field:
+                            type: grid
+                            display: Activities
+                            instructions: 'Start with a warm welcome and end with a strong finale. Keep the itinerary clear and concise.'
+                            add_row: 'Add Activity'
+                            fields:
+                              -
+                                handle: title
+                                field:
+                                  type: text
+                                  display: Title
+                                  instructions: 'Explain the activity in 2 to 4 words. Always start with a verb.'
+                                  width: 25
+                              -
+                                handle: summary
+                                field:
+                                  character_limit: 120
+                                  type: textarea
+                                  display: Summary
+                                  instructions: 'Expand on the title in a sentence. What can travellers expect to do at this point of the tour.'
+                                  width: 50
+                              -
+                                handle: icon
+                                field:
+                                  container: icons
+                                  mode: grid
+                                  max_files: 1
+                                  type: assets
+                                  display: Icon
+                                  width: 25
+                    itinerary:
+                      display: Itinerary
+                      instructions: 'Create a day by day itinerary'
+                      icon: route
+                      image: itinerary.png
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            type: text
+                            display: Title
+                            instructions: 'eg. Trails to Freedom Itinerary'
+                        -
+                          handle: summary
+                          field:
+                            type: textarea
+                            display: Summary
+                            instructions: 'Write a brief overview of the itinerary. Focus on the route, region, and overall experience.'
+                        -
+                          handle: days
+                          field:
+                            mode: stacked
+                            add_row: 'Add Day'
+                            type: grid
+                            display: Days
+                            instructions: 'Start with a warm welcome and end with a strong finale. Keep the itinerary clear and concise.'
+                            fields:
+                              -
+                                handle: title
+                                field:
+                                  type: text
+                                  display: Title
+                                  instructions: 'Describe the day in 2 to 4 words. Always start with a verb.'
+                              -
+                                handle: description
+                                field:
+                                  character_limit: 500
+                                  type: textarea
+                                  display: Description
+                                  instructions: 'Describe the main experiences of the day. Keep it concise and easy to scan.'
+                              -
+                                handle: duration
+                                field:
+                                  append: hr
+                                  type: integer
+                                  display: Duration
+                                  width: 33
+                                  instructions: 'Total walking time for the day.'
+                              -
+                                handle: distance
+                                field:
+                                  append: km
+                                  type: integer
+                                  display: Distance
+                                  width: 33
+                                  instructions: 'Total walking distance.'
+                              -
+                                handle: elevation
+                                field:
+                                  append: m
+                                  type: integer
+                                  display: Elevation
+                                  width: 33
+                                  instructions: 'Total ascent.'
+                              -
+                                handle: photo
+                                field:
+                                  container: assets
+                                  dynamic: slug
+                                  max_files: 1
+                                  type: assets
+                                  display: Photo
+                                  folder: tours
+                              -
+                                handle: meals_included
+                                field:
+                                  options:
+                                    -
+                                      key: breakfast
+                                      value: Breakfast
+                                    -
+                                      key: lunch
+                                      value: Lunch
+                                    -
+                                      key: dinner
+                                      value: Dinner
+                                  inline: true
+                                  type: checkboxes
+                                  display: 'Meals Included'
+                                  instructions: 'Select the meals provided on this day.'
+                    history:
+                      display: History
+                      instructions: 'Tell the story behind the tour route.'
+                      icon: Info
+                      image: history.png
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            type: text
+                            display: Title
+                        -
+                          handle: column_left
+                          field:
+                            buttons:
+                              - bold
+                              - italic
+                              - anchor
+                            type: bard
+                            display: 'Left Column'
+                            instructions: 'First column of body copy.'
+                            reading_time: true
+                        -
+                          handle: column_right
+                          field:
+                            buttons:
+                              - bold
+                              - italic
+                              - anchor
+                            type: bard
+                            display: 'Right Column'
+                            instructions: 'Second column of body copy.'
+                            reading_time: true
+                        -
+                          handle: images
+                          field:
+                            container: assets
+                            folder: tours
+                            restrict: true
+                            mode: grid
+                            max_files: 3
+                            type: assets
+                            display: Images
+                            instructions: 'Add up to 3 images for the photo strip below the text.'
+                    experience:
+                      display: Experience
+                      instructions: 'Walk, accommodation and food details.'
+                      icon: walking
+                      image: experience.png
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            type: text
+                            display: Title
+                            instructions: 'eg. Trails to Freedom Experience'
+                        -
+                          handle: tabs
+                          field:
+                            type: replicator
+                            display: Tabs
+                            button_label: 'Add Tab'
+                            instructions: 'Add one block per experience tab. Order determines the tab order on the page.'
+                            sets:
+                              main:
+                                display: Main
+                                sets:
+                                  walk:
+                                    display: Walk
+                                    icon: walking
+                                    fields:
+                                      -
+                                        handle: title
+                                        field:
+                                          type: text
+                                          display: Title
+                                      -
+                                        handle: total_distance
+                                        field:
+                                          append: km
+                                          type: integer
+                                          display: 'Total Distance'
+                                          width: 33
+                                      -
+                                        handle: total_elevation
+                                        field:
+                                          append: m
+                                          type: integer
+                                          display: 'Total Elevation'
+                                          width: 33
+                                      -
+                                        handle: grade
+                                        field:
+                                          max: 5
+                                          type: range
+                                          display: Grade
+                                          append: '/ 5'
+                                          width: 33
+                                      -
+                                        handle: description
+                                        field:
+                                          buttons:
+                                            - bold
+                                            - italic
+                                            - unorderedlist
+                                            - anchor
+                                          type: bard
+                                          display: Description
+                                      -
+                                        handle: image
+                                        field:
+                                          container: assets
+                                          folder: tours
+                                          restrict: true
+                                          max_files: 1
+                                          type: assets
+                                          display: Image
+                                  accommodation:
+                                    display: Accommodation
+                                    icon: accommodation
+                                    fields:
+                                      -
+                                        handle: title
+                                        field:
+                                          type: text
+                                          display: Title
+                                      -
+                                        handle: description
+                                        field:
+                                          buttons:
+                                            - bold
+                                            - italic
+                                            - unorderedlist
+                                            - anchor
+                                          type: bard
+                                          display: Description
+                                      -
+                                        handle: images
+                                        field:
+                                          container: assets
+                                          folder: tours
+                                          restrict: true
+                                          max_files: 4
+                                          type: assets
+                                          display: Images
+                                  food:
+                                    display: Food
+                                    icon: food
+                                    fields:
+                                      -
+                                        handle: title
+                                        field:
+                                          type: text
+                                          display: Title
+                                      -
+                                        handle: description
+                                        field:
+                                          buttons:
+                                            - bold
+                                            - italic
+                                            - unorderedlist
+                                            - anchor
+                                          type: bard
+                                          display: Description
+                                      -
+                                        handle: images
+                                        field:
+                                          container: assets
+                                          folder: tours
+                                          restrict: true
+                                          max_files: 4
+                                          type: assets
+                                          display: Images
+                    leader:
+                      display: 'Tour Leader'
+                      instructions: 'Introduce the guide leading this tour.'
+                      icon: leader
+                      image: leader.png
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            type: text
+                            display: Title
+                            default: 'Tour Leader'
+                        -
+                          handle: person
+                          field:
+                            type: entries
+                            collections:
+                              - people
+                            display: Person
+                            instructions: "Links to the person's bio in the People collection."
+                            max_items: 1
+                    essentials:
+                      display: Essentials
+                      instructions: 'Practical info travellers need to book.'
+                      icon: backpack
+                      image: essentials.png
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            type: text
+                            display: Title
+                            default: 'What you should know'
+                        -
+                          handle: sections
+                          field:
+                            type: replicator
+                            display: Sections
+                            button_label: 'Add Section'
+                            instructions: 'Each section renders as a labelled row. Use the named sets for shared content types, or General for anything tour-specific.'
+                            sets:
+                              main:
+                                display: Main
+                                sets:
+                                  equipment:
+                                    display: 'Equipment Needed'
+                                    icon: backpack
+                                    fields:
+                                      -
+                                        handle: body
+                                        field:
+                                          buttons:
+                                            - bold
+                                            - italic
+                                            - unorderedlist
+                                            - orderedlist
+                                            - anchor
+                                          type: bard
+                                          display: Body
+                                          instructions: 'List the clothing, footwear and gear required for this tour.'
+                                      -
+                                        handle: link_text
+                                        field:
+                                          type: text
+                                          display: 'Link Text'
+                                          width: 50
+                                          instructions: 'Optional. e.g. "Download packing list"'
+                                      -
+                                        handle: link_url
+                                        field:
+                                          type: text
+                                          display: 'Link URL'
+                                          width: 50
+                                  travel_insurance:
+                                    display: 'Travel Insurance'
+                                    icon: emergency
+                                    fields:
+                                      -
+                                        handle: body
+                                        field:
+                                          buttons:
+                                            - bold
+                                            - italic
+                                            - unorderedlist
+                                            - anchor
+                                          type: bard
+                                          display: Body
+                                          instructions: 'Describe the insurance requirements and any recommended providers.'
+                                      -
+                                        handle: link_text
+                                        field:
+                                          type: text
+                                          display: 'Link Text'
+                                          width: 50
+                                      -
+                                        handle: link_url
+                                        field:
+                                          type: text
+                                          display: 'Link URL'
+                                          width: 50
+                                  booking_cancellation:
+                                    display: 'Booking & Cancellation'
+                                    icon: dates
+                                    fields:
+                                      -
+                                        handle: body
+                                        field:
+                                          buttons:
+                                            - bold
+                                            - italic
+                                            - unorderedlist
+                                            - orderedlist
+                                            - anchor
+                                          type: bard
+                                          display: Body
+                                          instructions: 'Outline the booking process, deposit requirements and cancellation policy.'
+                                      -
+                                        handle: link_text
+                                        field:
+                                          type: text
+                                          display: 'Link Text'
+                                          width: 50
+                                          instructions: 'Optional. e.g. "Read full terms & conditions"'
+                                      -
+                                        handle: link_url
+                                        field:
+                                          type: text
+                                          display: 'Link URL'
+                                          width: 50
+                                  general:
+                                    display: General
+                                    icon: Info
+                                    fields:
+                                      -
+                                        handle: heading
+                                        field:
+                                          type: text
+                                          display: Heading
+                                          instructions: 'Label for this section (e.g. "Visas & entry requirements").'
+                                      -
+                                        handle: body
+                                        field:
+                                          buttons:
+                                            - bold
+                                            - italic
+                                            - unorderedlist
+                                            - orderedlist
+                                            - anchor
+                                          type: bard
+                                          display: Body
+                                      -
+                                        handle: link_text
+                                        field:
+                                          type: text
+                                          display: 'Link Text'
+                                          width: 50
+                                      -
+                                        handle: link_url
+                                        field:
+                                          type: text
+                                          display: 'Link URL'
+                                          width: 50
+                    testimonials:
+                      display: Testimonials
+                      instructions: 'Add reviews from past travellers.'
+                      icon: favorite
+                      image: testimonials.png
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            type: text
+                            display: Title
+                            default: 'What our travellers are saying'
+                        -
+                          handle: testimonials
+                          field:
+                            type: entries
+                            collection: testimonials
+                            display: Testimonials
+                            max_items: 3
+                    faqs:
+                      display: FAQs
+                      instructions: 'Tour-specific and common FAQs.'
+                      icon: question
+                      image: faq.png
+                      fields:
+                        -
+                          handle: heading
+                          field:
+                            type: text
+                            display: 'Section Heading'
+                            default: 'Frequently Asked Questions'
+                        -
+                          handle: tour_questions
+                          field:
+                            type: grid
+                            display: 'Tour Questions'
+                            mode: stacked
+                            add_row: 'Add Question'
+                            instructions: 'Questions specific to this tour.'
+                            fields:
+                              -
+                                handle: question
+                                field:
+                                  type: text
+                                  display: Question
+                                  instructions: 'Write the question as a traveller would ask it.'
+                              -
+                                handle: answer
+                                field:
+                                  buttons:
+                                    - bold
+                                    - italic
+                                    - unorderedlist
+                                    - anchor
+                                  type: bard
+                                  display: Answer
+                        -
+                          handle: common_questions
+                          field:
+                            type: entries
+                            collections:
+                              - questions
+                            display: 'Common Questions'
+                            instructions: 'Select shared questions from the Questions collection. These are appended after tour-specific questions.'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        display: Wireframe
+        fields:
+          -
+            handle: wireframe
+            field:
+              html: '<a class="relative inline-flex items-center justify-center whitespace-nowrap shrink-0 font-medium antialiased cursor-pointer no-underline disabled:text-gray-400 dark:disabled:text-gray-600 disabled:[&amp;_svg]:opacity-30 disabled:cursor-not-allowed [&amp;_svg]:shrink-0 [&amp;_svg]:text-black [&amp;_svg]:opacity-60 dark:[&amp;_svg]:text-white bg-linear-to-b from-white to-gray-50 hover:to-gray-100 hover:bg-gray-50 text-gray-900 border border-gray-300 shadow-ui-sm dark:from-gray-850 dark:to-gray-900 dark:hover:to-gray-850 dark:hover:bg-gray-900 dark:border-gray-700/80 dark:text-gray-300 dark:shadow-ui-md px-4 h-10 text-sm gap-2 rounded-lg [&amp;_svg]:-me-1" disabled="false" data-ui-group-target="true" href="https://www.figma.com/proto/lqlrBkmz2DBdbB8VP43SfP/Hidden-Italy?page-id=0%3A1&node-id=2515-11684&viewport=-265%2C1767%2C0.5&t=AzarM6Cr8O1ULYhL-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=5287%3A16404" target="_blank"><!----><!----><div class="st-text-trim-start flex content-center">View Wireframe</div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16" class="size-4 shrink-0"><g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M1.097 11.735a3.58 3.58 0 0 0 3.146 3.155c1.222.136 2.477.253 3.757.253s2.535-.117 3.757-.253a3.58 3.58 0 0 0 3.146-3.155c.13-1.215.24-2.463.24-3.735s-.11-2.52-.24-3.735a3.58 3.58 0 0 0-3.146-3.155C10.535.974 9.28.857 8 .857s-2.535.117-3.757.253a3.58 3.58 0 0 0-3.146 3.155C.967 5.48.857 6.728.857 8s.11 2.52.24 3.735M5.623 10.377l4.3-4.3"></path><path d="M6.69 6.078c.606-.606 2.222-.606 3.232 0 .606 1.01.606 2.626 0 3.232"></path></g></svg></a>'
+              type: html
+              display: 'Desktop Wireframe'
+              instructions: 'Navigate the wireframe using the main nav, or use the left and right keys.'
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+              show_regenerate: true
+          -
+            handle: simple_likes
+            field:
+              type: simple_likes
+              display: Likes
+              allow_guest_likes: true
+      -
+        display: Taxonomy
+        fields:
+          -
+            handle: seasons
+            field:
+              type: terms
+              taxonomies:
+                - seasons
+              display: Season
+              max_items: 1
+              create: false
+              mode: select
+          -
+            handle: locations
+            field:
+              type: terms
+              taxonomies:
+                - locations
+              display: Location
+              max_items: 1
+              create: false
+              mode: select

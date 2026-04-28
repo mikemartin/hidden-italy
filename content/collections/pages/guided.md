@@ -5,5 +5,6 @@ title: 'Guided Tours'
 template: tours/index
 headline: 'Guided Walking Tours'
 description: 'Our guided walking tours to Sicily and Venice and the Italian Lakes are a gentle and unique way to discover a side of this fascinating country that most people only read about.'
-preset_tour_type: guided
+tour_collections: guided
+card_image: tours/italian-alps-trails-to-freedom/94.jpg
 ---
