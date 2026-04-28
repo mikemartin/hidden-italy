@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776828025
+updated_at: 1777352751
 grade: 4
 summary: 'Follow ancient paths through fishing villages and forests on the beautiful Italian Riviera'
 overview:
@@ -67,17 +67,27 @@ page_builder:
         id: mlooee34
         title: 'Explore the stunning Italian Riviera'
         summary: "Starting in bustling Genova and finishing in enchanted Sestri Levante, you will explore Italy's most romantic coastline."
-        icon: trekking-boots.svg
+        icon: nature-beach.svg
       -
         id: mloog7vk
-        title: 'Stay in enchanting Portofino'
+        title: 'Stay in fabulous Portofino'
         summary: "Stay in a family-run hotel off the main piazza and schmooze in one of Italy's most picturesque seaside villages!"
-        icon: housing-house.svg
+        icon: nature-beach.svg
       -
         id: mlooun08
         title: "Sample Liguria's celebrated cuisine"
         summary: "Liguria's simple and healthy cuisine is a masterful combination of the freshest local produce with the freshest seafood!"
-        icon: housing-house.svg
+        icon: gastronomy-spaghetti.svg
+      -
+        id: 6ie2Lj2ewJn2NIpV3_xII
+        title: 'enjoy continuous walking along this beautiful coastline'
+        summary: 'Enjoy following well-marked trails the length of the coast, from urban Genova through fishing villages and rolling hills'
+        icon: trekking-trekking.svg
+      -
+        id: kmbm05nSUD7URhPWwOiKU
+        title: 'Go for swims!'
+        summary: "Each day you'll have the opportunity to swim in the blue Mediterranean Sea, from sandy beaches and rocky coves."
+        icon: water-sports-swimming.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
