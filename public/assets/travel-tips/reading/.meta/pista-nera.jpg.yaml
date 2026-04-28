@@ -1,6 +1,10 @@
 data: {  }
 size: 104718
+<<<<<<< HEAD
 last_modified: 1777042521
+=======
+last_modified: 1776951598
+>>>>>>> c196532 (Travel tips meta)
 width: 1072
 height: 1500
 mime_type: image/jpeg
