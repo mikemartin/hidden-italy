@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776840959
+updated_at: 1777358244
 grade: 4
 summary: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
 overview:
@@ -56,22 +56,27 @@ page_builder:
         id: mlrbvyrv
         title: 'Experience a side of Sicily others only read about!'
         summary: 'Far from the regular tourist trails, this tour allows you to experience the charm and authenticity of the real Sicily!'
-        icon: culture-italy.svg
+        icon: culture-Vineyard.svg
+      -
+        id: _nPPb6hfVZftShhGhn9D_
+        title: 'Walk continuous trails'
+        summary: 'Walk on continuous trails, following ancient paths through rolling farmlands and the foothills of the Madonie Mountains.'
+        icon: trekking-trekking.svg
       -
         id: mlrbzbll
         title: 'Discover the Madonie Mountains'
         summary: 'Discover an area of dramatic natural beauty: rolling hills, craggy mountains, all with views as far as the eye can see!'
-        icon: culture-pizza.svg
+        icon: trekking-river.svg
       -
         id: mlrc2l11
         title: 'Enjoy authentic Sicilian cooking'
         summary: 'Far from the Michelin-starred restaurants on the coast, you will experience authentic home-cooking, prepared with love.'
-        icon: housing-house.svg
+        icon: gastronomy-spaghetti.svg
       -
         id: mlrc4uq2
         title: 'Explore the fascinating villages'
         summary: 'Stay in gorgeous mountain villages, each so different to the other, two were voted the most villages beautiful in Italy.'
-        icon: geography-cartography-city.svg
+        icon: ski-alpine-Chalet.svg
       -
         id: mlrc9yr3
         title: 'Relax and enjoy your holiday'
