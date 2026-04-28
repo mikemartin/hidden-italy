@@ -1,8 +1,8 @@
 ---
 id: 9b40b14d-a9c5-43b5-ae27-eeb883bc2c34
 blueprint: tour
-title: 'Sicily - Sicily 1 (Nicosia to Petralia Soprana)'
-name: 'Sicily 1 (Nicosia to Petralia Soprana)'
+title: 'Sicily - Sicily 1'
+name: 'Sicily 1'
 tour_types: self-guided
 region: Sicily
 days: 7
@@ -175,8 +175,6 @@ page_builder:
               -
                 type: text
                 text: "This is a continuous walk.\_ The walks range from 3 to 4 hours, covering between 12 to 15 kilometres.\_ They generally follow unsealed country lanes passing through rolling farmlands.\_ There are also some short sections following smaller trails with uneven footing. \_The trails are unmarked but are straight-forward to follow - there is always a farmhouse in sight.\_ Full details on each walk are on the itinerary.  The self-guided itineraries are re-walked and the notes updated each year."
-        start_location: Nicosia
-        finish_location: 'P etralia Soprana'
         image: tours/img_6633.jpeg
         type: walk
         enabled: true
@@ -298,4 +296,6 @@ gallery:
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture1.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6695.jpeg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_0270.jpg
+start_location: Nicosia
+finish_location: 'Petralia Soprana'
 ---

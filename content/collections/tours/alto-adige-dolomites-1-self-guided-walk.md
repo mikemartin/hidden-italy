@@ -171,8 +171,6 @@ page_builder:
               -
                 type: text
                 text: "The trails follow well-marked and well-maintained paths with no dramatic climbs or descents and pass mountain huts along the way for breaks and lunch. While the walks do not have steep or long climbs (you use cable cars to avoid this), several of the walks are quite long: Day 4 is 14 kms and Day 5 is 19 kms (there is a shorter alternative on Day 5).\_ The circuit walk on Day 5 has some ‘exposed’ sections so is not suitable for people who suffer from vertigo (there is an alternative walk).\_ Full details on each walk are on the itinerary.\_ The self-guided itineraries are re-walked and the notes updated each year."
-        start_location: Bollzano
-        finish_location: 'Val Gardena'
         type: walk
         enabled: true
       -
@@ -278,4 +276,6 @@ gallery:
   - tours/alto-adige-dolomites-1-self-guided-walk/img_8778-1773019782.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/img_3481-1773020206.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/35-1773020227.jpg
+start_location: Bolzano
+finish_location: 'Val Gardena'
 ---

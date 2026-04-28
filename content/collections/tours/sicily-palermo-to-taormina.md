@@ -1,8 +1,8 @@
 ---
 id: d6a3ceb1-2eac-4860-b7c0-b70500e53345
 blueprint: tour
-title: 'Sicily - Sicily in the Spring (Palermo to Taormina)'
-name: 'Sicily in the Spring (Palermo to Taormina)'
+title: 'Sicily - Sicily in the Spring'
+name: 'Sicily in the Spring'
 region: Sicily
 seasons: spring
 locations: southern-italy
@@ -229,8 +229,6 @@ page_builder:
               -
                 type: text
                 text: "This tour has a variety of walks, including easy coastal strolls, longer mountain walks following unsealed country roads as well as more challenging walks such as the climb to the top of Vulcano in the Aeolian islands.\_ Going in May means that we'll be able to enjoy the island's idyllic spring weather and abundant wildflowers as well as avoid the crowds of the busier seasons.\_ In some cases it is possible to shorten the walk or to opt out and join the walkers for lunch.\_ Details for the individual walks are on the itinerary."
-        start_location: Palermo
-        finish_location: Taormina
         image: tours/60.jpg
         type: walk
         enabled: true
@@ -352,4 +350,6 @@ page_builder:
         icon: switzerland-mountain.svg
     type: highlights
     enabled: true
+start_location: Palermo
+finish_location: Taormina
 ---

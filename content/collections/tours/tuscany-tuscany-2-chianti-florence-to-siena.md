@@ -1,8 +1,8 @@
 ---
 id: 97c7707c-9b34-4f4f-9445-39668362d1fd
 blueprint: tour
-title: 'Tuscany - Tuscany 2 (Chianti: Florence to Siena)'
-name: 'Tuscany 2 (Chianti: Florence to Siena)'
+title: 'Tuscany - Tuscany 2'
+name: 'Tuscany 2'
 tour_types: self-guided
 region: Tuscany
 days: 7
@@ -177,8 +177,6 @@ page_builder:
                   -
                     type: italic
                 text: 'The self-guided itineraries are re-walked and the notes updated each year.'
-        start_location: Impruneta
-        finish_location: Siena
         image: tours/-7.5.jpg
         type: walk
         enabled: true
@@ -297,4 +295,6 @@ gallery:
   - tours/tuscany-tuscany-2-chianti-florence-to-siena/016.jpg
   - tours/tuscany-tuscany-2-chianti-florence-to-siena/alessandro-rossi-ju_bgza3zhe-unsplash.jpg
   - tours/tuscany-tuscany-2-chianti-florence-to-siena/mario-la-pergola-vopuqdtcnja-unsplash.jpg
+start_location: Florence
+finish_location: Siena
 ---

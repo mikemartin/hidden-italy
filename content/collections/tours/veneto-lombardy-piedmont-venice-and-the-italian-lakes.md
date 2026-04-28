@@ -1,8 +1,8 @@
 ---
 id: acc266b3-4cb5-44f3-b331-96d21d8fe85c
 blueprint: tour
-title: 'Lombardy-Piedmont - Venice and the Italian Lakes  (Venice to Turin)'
-name: 'Venice and the Italian Lakes  (Venice to Turin)'
+title: 'Lombardy-Piedmont - Venice and the Italian Lakes'
+name: 'Venice and the Italian Lakes'
 tour_types: guided
 region: Lombardy-Piedmont
 days: 13

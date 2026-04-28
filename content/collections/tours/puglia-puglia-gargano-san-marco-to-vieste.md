@@ -1,8 +1,8 @@
 ---
 id: 3d10a0a0-5538-48e1-a7ad-e8e84b633ed9
 blueprint: tour
-title: 'Puglia - Puglia (Gargano Peninsula to Vieste)'
-name: 'Puglia (Gargano Peninsula to Vieste)'
+title: 'Puglia - Puglia'
+name: Puglia
 tour_types: self-guided
 region: Puglia
 days: 8

@@ -1,8 +1,8 @@
 ---
 id: 8c969301-fa7c-418d-b306-3d50f60c142a
 blueprint: tour
-title: "Trentino-Alto Adige - Dolomites in Autumn (Verona to Cortina d'Ampezzo)"
-name: "Dolomites in Autumn (Verona to Cortina d'Ampezzo)"
+title: 'Trentino-Alto Adige - Dolomites in Autumn'
+name: 'Dolomites in Autumn'
 region: 'Trentino-Alto Adige'
 days: 13
 tour_types: guided

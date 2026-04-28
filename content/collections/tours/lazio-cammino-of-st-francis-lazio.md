@@ -1,8 +1,8 @@
 ---
 id: 5e536055-01da-4264-a45c-5c879a0d73d7
 blueprint: tour
-title: 'Lazio - Cammino of St Francis:  Lazio (Rieti to Rome)'
-name: 'Cammino of St Francis:  Lazio (Rieti to Rome)'
+title: 'Lazio - Cammino of St Francis:  Lazio'
+name: 'Cammino of St Francis:  Lazio'
 tour_types: self-guided
 region: Lazio
 days: 8
@@ -166,8 +166,6 @@ page_builder:
               -
                 type: text
                 text: "There are three long walks: Day 2, 21 kms; Day 4, 17 kms and Day 5, 26 kms (please note that this latter walk can be broken into two separate walks of 8 and 18 kms).\_ Until reaching the outer suburbs of Rome on the penultimate day, the walk takes you through forested hills and rolling farmlands following predominantly unsealed roads and asphalted country lanes and is well-marked.\_ In Rome you follow paved 'greenways' through park-lands and along the Tiber River, and suburban streets. Full details on each walk are on the itinerary.\_ The self-guided itineraries are re-walked and the notes updated each year."
-        start_location: Rieti
-        finish_location: 'Rome (Vatican)'
         image: tours/14.jpg
         type: walk
         enabled: true
@@ -284,4 +282,6 @@ gallery:
   - tours/piedmont-alba-and-le-langhe-1/rome-1.jpg
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 image: tours/piedmont-alba-and-le-langhe-1/rome-1.jpg
+start_location: Rieti
+finish_location: Rome
 ---

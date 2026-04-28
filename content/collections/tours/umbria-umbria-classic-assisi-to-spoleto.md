@@ -1,8 +1,8 @@
 ---
 id: 885f3bc4-e91d-444f-a666-44cc0eda6277
 blueprint: tour
-title: 'Umbria - Umbria Classic (Assisi to Spoleto)'
-name: 'Umbria Classic (Assisi to Spoleto)'
+title: 'Umbria - Umbria Classic'
+name: 'Umbria Classic'
 tour_types: self-guided
 region: Umbria
 days: 7

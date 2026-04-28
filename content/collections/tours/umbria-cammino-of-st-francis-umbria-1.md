@@ -1,8 +1,8 @@
 ---
 id: f0135e9f-7439-4a88-b4d1-cc54b20d7e0c
 blueprint: tour
-title: 'Umbria - Cammino of St Francis:  Umbria 1 (Assisi to Spoleto)'
-name: 'Cammino of St Francis:  Umbria 1 (Assisi to Spoleto)'
+title: 'Umbria - Cammino of St Francis:  Umbria 1'
+name: 'Cammino of St Francis:  Umbria 1'
 tour_types: self-guided
 region: Umbria
 days: 7

@@ -1,8 +1,8 @@
 ---
 id: 5300daa4-c274-4a6e-8715-fbd320d02144
 blueprint: tour
-title: 'Tuscany - Tuscany 1 (Montalcino to Montepulciano)'
-name: 'Tuscany 1 (Montalcino to Montepulciano)'
+title: 'Tuscany - Tuscany 1'
+name: 'Tuscany 1'
 tour_types: self-guided
 region: Tuscany
 days: 6

@@ -1,8 +1,8 @@
 ---
 id: 9fd38ab4-55ef-435d-82cc-d9246de83cc3
 blueprint: tour
-title: 'Friuli Venezia Giulia - Trieste and Friuli (Udine to Trieste)'
-name: 'Trieste and Friuli (Udine to Trieste)'
+title: 'Friuli Venezia Giulia - Trieste and Friuli'
+name: 'Trieste and Friuli'
 tour_types: guided
 region: 'Friuli Venezia Giulia'
 days: 13
@@ -233,8 +233,6 @@ page_builder:
               -
                 type: text
                 text: 'With its pristine forests, national parks and fascinating history, FVG offers some wonderful walks, including: exploring the valleys and mountains of the Carnian Alps; following the historic trails through the hills that hug the Slovenian border; walking through the vineyards of the Collio region; and a stroll along the Adriatic Coast The walks range from 8 to 17 kms and follow well-marked trails, mostly unsealed country roads. In some cases it is possible to shorten the walk or to opt out and join the walkers for lunch.'
-        start_location: Udine
-        finish_location: Trieste
         image: tours/4.1.jpg
         type: walk
         enabled: true
@@ -338,4 +336,6 @@ gallery:
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/68a-2.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/87.5.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/88.7.jpg
+start_location: Udine
+finish_location: Trieste
 ---

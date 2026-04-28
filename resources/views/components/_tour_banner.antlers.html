@@ -5,7 +5,8 @@
           header and by the `tour_banner` page-builder block.
     @param region Small uppercase label above the headline.
     @param title Large headline.
-    @param location Map-pin caption shown along the bottom.
+    @param start Start location shown next to the map-pin icon (with `finish`).
+    @param finish Finish location shown next to the map-pin icon (with `start`).
     @param image Background image (asset path or asset object).
     @param eager Pass `true` to load the image with high priority.
 #}}
@@ -39,11 +40,11 @@
         <div class="span-content flex flex-col items-center justify-center text-center gap-6 lg:gap-10 h-full">
             <div class="flex flex-col items-center gap-4 lg:gap-6">
                 {{ if region }}
-                    <p class="font-medium uppercase tracking-[0.04em] text-white text-sm md:text-base">
+                    <p class="bg-black/25 inline-flex items-center h-8 px-4 py-2 rounded-full font-medium uppercase tracking-[0.04em] text-white text-sm md:text-base">
                         {{ region }}
                     </p>
                 {{ /if }}
-                {{ partial:typography/h1_big_display :content="title" class="!text-white max-w-3xl" }}
+                {{ partial:typography/h1_big_display :content="title" class="!text-white max-w-4xl" }}
             </div>
 
             {{ if slot }}
@@ -54,13 +55,13 @@
         </div>
     </div>
 
-    {{# Bottom row — map-pin + location text. Centred on mobile, left on desktop. #}}
-    {{ if location }}
+    {{# Bottom row — map-pin + start / finish. #}}
+    {{ if start && finish }}
         <div class="absolute inset-x-0 bottom-10 lg:bottom-12 z-10 px-6 lg:px-[120px]">
             <div class="mx-auto flex w-full max-w-[1200px] items-center justify-center">
                 <div class="flex items-center gap-2">
                     <x-lucide-map-pin class="size-6 text-white" stroke-width="2" aria-hidden="true" />
-                    <p class="font-mono text-sm md:text-base text-white">{{ location }}</p>
+                    <p class="font-mono text-sm md:text-base text-white">{{ start }} to {{ finish }}</p>
                 </div>
             </div>
         </div>

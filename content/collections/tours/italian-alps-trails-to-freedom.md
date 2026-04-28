@@ -1,8 +1,8 @@
 ---
 id: 0d717011-26fe-4d13-89f4-a0739f966e3d
 blueprint: tour
-title: 'Italian Alps - Trails to Freedom (Biella to Macugnaga)'
-name: 'Trails to Freedom (Biella to Macugnaga)'
+title: 'Italian Alps - Trails to Freedom'
+name: 'Trails to Freedom'
 region: 'Italian Alps'
 summary: 'Ten-day hike blending stunning scenery, alpine towns, and a WWII escape story.'
 days: 10
@@ -223,8 +223,6 @@ page_builder:
               -
                 type: text
                 text: "Technically the route is simple, however, it is a challenge.\_ You will be required to climb more than a thousand metres on several days, there are some exposed sections and you will be crossing high altitude country where weather conditions can change dramatically so you will require a high level of fitness.\_\_ You must also be prepared to walk in all conditions rain, hail or shine! This is a tough but very satisfying hike."
-        start_location: Biella
-        finish_location: Macugnaga
         image: tours/5.5.jpg
         type: walk
         enabled: true
@@ -359,4 +357,6 @@ gallery:
   - tours/italian-alps-trails-to-freedom/p8270231.jpg
 image: tours/italian-alps-trails-to-freedom/94.jpg
 simple_likes: 0
+start_location: Biella
+finish_location: Macugnaga
 ---

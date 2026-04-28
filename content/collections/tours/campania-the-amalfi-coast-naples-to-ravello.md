@@ -1,8 +1,8 @@
 ---
 id: a5eb2e54-ad28-467a-9e7a-b32fdce0c6d7
 blueprint: tour
-title: 'Campania and Basilicata - Campania and the Amalfi Coast (Naples to Ravello)'
-name: 'Campania and the Amalfi Coast (Naples to Ravello)'
+title: 'Campania and Basilicata - Campania and the Amalfi Coast'
+name: 'Campania and the Amalfi Coast'
 tour_types: guided
 region: 'Campania and Basilicata'
 days: 13
@@ -236,8 +236,6 @@ page_builder:
               -
                 type: text
                 text: "The walks on this tour are as varied as the region itself.\_ They include a short walk up to the crater of Mt Vesuvius; two beautiful walks in the dappled beech forests of the mountains of the Picentini National Park; a ridge walk above the Pollicastro Gulf, which finishes with lunch on a beach;\_ and a looping walk through forest that links Ravello with Amalfi, enjoying spectacular views over the sea along the way.\_ The walks are between 4 to 12 kilometres long.\_ They follow good trails over generally undulating terrain.\_ There are a couple of short steep sections along the way.\_ Please see the daily for the details of each walk."
-        start_location: Naples
-        finish_location: Ravello
         image: tours/img_2369-v2-1775006818.jpg
         type: walk
         enabled: true
@@ -338,4 +336,6 @@ page_builder:
     enabled: true
 simple_likes: 0
 locations: southern-italy
+start_location: Naples
+finish_location: Ravello
 ---

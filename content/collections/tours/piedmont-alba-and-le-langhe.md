@@ -1,8 +1,8 @@
 ---
 id: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 blueprint: tour
-title: 'Piedmont - Alba and Le Langhe (Alba to Alba)'
-name: 'Alba and Le Langhe (Alba to Alba)'
+title: 'Piedmont - Alba and Le Langhe'
+name: 'Alba and Le Langhe'
 tour_types: self-guided
 region: Piedmont
 days: 8
@@ -172,8 +172,6 @@ page_builder:
               -
                 type: text
                 text: "The trails are well-marked and generally follow unsealed country lanes over rolling hills often through vineyards and orchards. There are the occasional rougher sections and some asphalt walking into and out of the larger towns.\_ The walks on Day 5 is 17 kms and on Day 6 is 19 km, which will take around 5 hours walking.\_ With notice, both walks can be shortened.\_ Full details on each walk are on the itinerary"
-        start_location: Turin
-        finish_location: Alba
         image: tours/5.jpg
         type: walk
         enabled: true
@@ -297,4 +295,6 @@ gallery:
   - tours/piedmont-alba-and-le-langhe/monforte-18.jpg
   - tours/piedmont-alba-and-le-langhe/monforte-2.5.jpg
   - tours/piedmont-alba-and-le-langhe/img_5838.jpg
+start_location: Turin
+finish_location: Alba
 ---

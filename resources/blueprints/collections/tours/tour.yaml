@@ -45,6 +45,20 @@ tabs:
         display: Overview
         fields:
           -
+            handle: start_location
+            field:
+              type: text
+              display: 'Start Location'
+              width: 50
+              instructions: 'Where the tour starts (e.g. "Rome").'
+          -
+            handle: finish_location
+            field:
+              type: text
+              display: 'Finish Location'
+              width: 50
+              instructions: 'Where the tour finishes (e.g. "Termoli").'
+          -
             handle: days
             field:
               type: integer
@@ -400,20 +414,6 @@ tabs:
                                             - anchor
                                           type: bard
                                           display: Description
-                                      -
-                                        handle: start_location
-                                        field:
-                                          type: text
-                                          display: 'Start Location'
-                                          width: 50
-                                          instructions: 'e.g. "Biella"'
-                                      -
-                                        handle: finish_location
-                                        field:
-                                          type: text
-                                          display: 'Finish Location'
-                                          width: 50
-                                          instructions: 'e.g. "Macugnaga"'
                                       -
                                         handle: image
                                         field:

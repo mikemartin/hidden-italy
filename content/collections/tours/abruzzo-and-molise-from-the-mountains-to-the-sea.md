@@ -1,8 +1,8 @@
 ---
 id: 43c82038-3f21-4148-8641-024253f68420
 blueprint: tour
-title: 'Abruzzo and Molise - From the mountains to the sea (Rome to Termoli)'
-name: 'From the mountains to the sea (Rome to Termoli)'
+title: 'Abruzzo and Molise - From the mountains to the sea'
+name: 'From the mountains to the sea'
 tour_types: guided
 region: 'Abruzzo and Molise'
 days: 13
@@ -226,8 +226,6 @@ page_builder:
               -
                 type: text
                 text: "The walks on this tour follow trails that have been used by traders, drovers and brigands for millennia.\_\_ They include some more challenging walks on the high plains and in the spectacular mountains of the Gran Sasso National Park, as well as gentler walks in the undulating hills of Upper Molise.\_\_ The walks range from seven to fifteen kilometres following well-marked paths over hilly terrain (see the itinerary for details)."
-        start_location: Rome
-        finish_location: Tremoli
         image: tours/img_3162.jpg
         type: walk
         enabled: true
@@ -321,4 +319,6 @@ gallery:
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2920.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/15-termoli.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/14-termoli.jpg
+start_location: Rome
+finish_location: Termoli
 ---

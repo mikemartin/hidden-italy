@@ -1,8 +1,8 @@
 ---
 id: 543d98ec-f3a9-42a3-9f7b-0ad11cfca5a9
 blueprint: tour
-title: 'Sardinia - Sardinia in the Spring (Cagliari to the Costa Smeralda)'
-name: 'Sardinia in the Spring (Cagliari to the Costa Smeralda)'
+title: 'Sardinia - Sardinia in the Spring'
+name: 'Sardinia in the Spring'
 tour_types: guided
 region: Sardinia
 days: 13
@@ -245,8 +245,6 @@ page_builder:
               -
                 type: text
                 text: "The walks on this tour are as varied as Sardinia itself.\_ They include a guided morning walk through Cagliari's old town; spectacular walks along the island's peerless coastline; walks in the mountains with breath-taking views of the interior; and a forest walk to find the ruins of a Pheonician temple.\_ The walks are from 5 to 12 kilometres long, take from 2 to 4 hours.\_ They follow good trails over mostly undulating terrain. There are some steeper climbs in the mountains. Details of each day's walk are listed in the itinerary."
-        start_location: Cagliari
-        finish_location: 'Costa Smeralda'
         image: tours/01-v3.jpg
         type: walk
         enabled: true
@@ -336,4 +334,6 @@ page_builder:
     enabled: true
 simple_likes: 0
 locations: southern-italy
+start_location: Cagliari
+finish_location: 'the Costa Smeralda'
 ---

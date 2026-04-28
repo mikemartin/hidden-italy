@@ -1,8 +1,8 @@
 ---
 id: c10e8a1d-dab8-454a-8c80-abbba7b0a648
 blueprint: tour
-title: 'Liguria - Italian Riviera 1 (Genova to Sestri Levante)'
-name: 'Italian Riviera 1 (Genova to Sestri Levante)'
+title: 'Liguria - Italian Riviera 1'
+name: 'Italian Riviera 1'
 tour_types: self-guided
 region: Liguria
 days: 8
@@ -194,8 +194,6 @@ page_builder:
               -
                 type: text
                 text: "One of the characteristics of this route is its flexibility: all the towns are connected by regular local trains, which means you can hop on and off the train to shorten the longer legs.\_"
-        start_location: Genova
-        finish_location: 'Sestri Levante'
         image: tours/21.2.jpg
         type: walk
         enabled: true
@@ -316,4 +314,6 @@ gallery:
   - tours/liguria-italian-riviera-1-self-guided-walk/18.jpg
   - tours/liguria-italian-riviera-1-self-guided-walk/img_4828-a.jpg
   - tours/liguria-italian-riviera-1-self-guided-walk/27-a.jpg
+start_location: Genova
+finish_location: 'Sestri Levante'
 ---

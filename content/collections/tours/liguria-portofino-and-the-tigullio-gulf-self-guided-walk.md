@@ -1,8 +1,8 @@
 ---
 id: c4b08565-bc23-4d2d-877c-69e8e02e78b8
 blueprint: tour
-title: 'Liguria - Portofino and the Tigullio Gulf (Camogli to Sestri Levante)'
-name: 'Portofino and the Tigullio Gulf (Camogli to Sestri Levante)'
+title: 'Liguria - Portofino and the Tigullio Gulf'
+name: 'Portofino and the Tigullio Gulf'
 tour_types: self-guided
 region: Liguria
 days: 6
@@ -157,8 +157,6 @@ page_builder:
               -
                 type: text
                 text: "The walks range from 6 km to 11 km per day.\_ They follow a combination of trade and pilgrim trails that run above the Liguria coast, climbing up into the forested hills at the beginning each day before dipping down to the bustling coastal towns at the end. The trails follow a combination of ancient paved paths and well-marked walking trails.\_ It is straightforward and without long climbs.\_ Full details on each walk are on the itinerary.\_"
-        start_location: Camogli
-        finish_location: 'Sestri Levante'
         image: tours/chiavari-6.jpg
         type: walk
         enabled: true
@@ -277,4 +275,6 @@ gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour/img_4819.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/georgiana-andreca-h-hkuehqrs0-unsplash-a.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/nathan-prost-ivrymcq9jae-unsplash.jpg
+start_location: Camogli
+finish_location: 'Sestri Levante'
 ---

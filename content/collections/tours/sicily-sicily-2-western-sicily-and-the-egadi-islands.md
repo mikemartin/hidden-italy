@@ -175,8 +175,6 @@ page_builder:
               -
                 type: text
                 text: 'The self-guided itineraries are rewalked and the notes updated each year.'
-        start_location: Favignana
-        finish_location: Scopello
         image: tours/g.jpg
         type: walk
         enabled: true
@@ -300,4 +298,6 @@ gallery:
   - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/f.jpg
   - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/p1010686.jpg
 seasons: autumn
+start_location: Favignana
+finish_location: Scopello
 ---

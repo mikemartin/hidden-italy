@@ -1,8 +1,8 @@
 ---
 id: 94b14cda-124a-4b87-82f5-7bc566ac2edf
 blueprint: tour
-title: 'Tuscany and Umbria - La Tuscia (Pitigliano to Orvieto)'
-name: 'La Tuscia (Pitigliano to Orvieto)'
+title: 'Tuscany and Umbria - La Tuscia'
+name: 'La Tuscia'
 tour_types: self-guided
 region: 'Tuscany and Umbria'
 days: 8

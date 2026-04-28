@@ -1,8 +1,8 @@
 ---
 id: bf401969-bac2-4370-8ffd-d7c62b8f4ade
 blueprint: tour
-title: "Val d'Aosta - Turin and the Val d'Aosta (Turin to Courmayeur)"
-name: "Turin and the Val d'Aosta (Turin to Courmayeur)"
+title: "Val d'Aosta - Turin and the Val d'Aosta"
+name: "Turin and the Val d'Aosta"
 tour_types: guided
 region: "Val d'Aosta"
 days: 13

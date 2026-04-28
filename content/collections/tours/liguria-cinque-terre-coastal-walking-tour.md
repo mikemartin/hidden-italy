@@ -1,8 +1,8 @@
 ---
 id: 65354be1-c899-4486-82f9-2883d090c270
 blueprint: tour
-title: 'Liguria - Cinque Terre Coastal (Levanto to Portovenere)'
-name: 'Cinque Terre Coastal (Levanto to Portovenere)'
+title: 'Liguria - Cinque Terre Coastal'
+name: 'Cinque Terre Coastal'
 tour_types: self-guided
 region: Liguria
 days: 7
@@ -159,8 +159,6 @@ page_builder:
               -
                 type: text
                 text: "You follow well-marked tracks; and there are some long climbs up stone stairs.\_ The trails between Monterosso and Vernazza and Vernazza and Riomaggiore can get busy in summer but the crowds (usually daytrippers) can be avioded by getting early starts.\_ The walks can be comfortably done in half a day, which leaves you plenty of time to explore the little villages you'll be staying in.\_ Full details on each walk are on the itinerary."
-        start_location: Levanto
-        finish_location: Portovenere
         image: tours/img_1544.jpg
         type: walk
         enabled: true
@@ -279,4 +277,6 @@ gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour/44.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/portovenere-town-1.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/siret-jaksic-yats80aqvmm-unsplash.jpg
+start_location: Levanto
+finish_location: Portovenere
 ---

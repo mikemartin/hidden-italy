@@ -1,8 +1,8 @@
 ---
 id: 7e191ba5-7ed0-4683-bf70-1a754fadc11d
 blueprint: tour
-title: 'Tuscany - Tuscany 3 (San Gimignano to Siena)'
-name: 'Tuscany 3 (San Gimignano to Siena)'
+title: 'Tuscany - Tuscany 3'
+name: 'Tuscany 3'
 tour_types: self-guided
 region: Tuscany
 days: 5
@@ -155,8 +155,6 @@ page_builder:
                   -
                     type: italic
                 text: 'The self-guided itineraries are re-walked and the notes updated each year.'
-        start_location: 'San Gimignano'
-        finish_location: Siena
         image: tours/walking-in-chianti-9.jpg
         type: walk
         enabled: true
@@ -275,4 +273,6 @@ gallery:
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/kristof-van-rentergem-lpywtwptwbs-unsplash.jpg
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/p1010314.jpg
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/achim-ruhnau-a3fwnq1inoi-unsplash(1).jpg
+start_location: 'San Gimignano'
+finish_location: Siena
 ---

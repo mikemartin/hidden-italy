@@ -1,8 +1,8 @@
 ---
 id: fe7d8f05-4262-4ff2-9fa6-af18f7825ec2
 blueprint: tour
-title: 'Campania - Amalfi Coast tour (Ravello to Positano)'
-name: 'Amalfi Coast tour (Ravello to Positano)'
+title: 'Campania - Amalfi Coast tour'
+name: 'Amalfi Coast tour'
 tour_types: self-guided
 region: Campania
 days: 6
@@ -164,8 +164,6 @@ page_builder:
                   -
                     type: italic
                 text: 'The self-guided itineraries are rewalked and the notes updated each year.'
-        start_location: Ravello
-        finish_location: Positano
         image: tours/img_2481.jpeg
         type: walk
         enabled: true
@@ -284,4 +282,6 @@ gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour-1/positano-pan-1.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
 image: tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
+start_location: Ravello
+finish_location: Positano
 ---

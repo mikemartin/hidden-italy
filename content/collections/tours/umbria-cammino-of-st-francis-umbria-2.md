@@ -1,8 +1,8 @@
 ---
 id: 2c566c23-3738-482e-b78a-a2ac67ccf9cf
 blueprint: tour
-title: 'Umbria - Cammino of St Francis:  Umbria 2 (Spoleto to Rieti)'
-name: 'Cammino of St Francis:  Umbria 2 (Spoleto to Rieti)'
+title: 'Umbria - Cammino of St Francis:  Umbria 2'
+name: 'Cammino of St Francis:  Umbria 2'
 tour_types: self-guided
 region: Umbria
 days: 7
@@ -175,8 +175,6 @@ page_builder:
                   -
                     type: italic
                 text: 'The self-guided itineraries are re-walked and the notes updated each year.'
-        start_location: Spoleto
-        finish_location: Rieti
         image: tours/2.5.jpg
         type: walk
         enabled: true
@@ -298,4 +296,6 @@ gallery:
   - tours/umbria-cammino-of-st-francis-umbria-2/14.8.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2/img_5360.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2/img_5409.jpg
+start_location: Spoleto
+finish_location: Rieti
 ---

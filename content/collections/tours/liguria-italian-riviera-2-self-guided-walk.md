@@ -1,8 +1,8 @@
 ---
 id: f943eb67-6a4d-42c3-b854-183322963089
 blueprint: tour
-title: 'Liguria - Italian Riviera 2 (Sestri Levante to Portovenere)'
-name: 'Italian Riviera 2 (Sestri Levante to Portovenere)'
+title: 'Liguria - Italian Riviera 2'
+name: 'Italian Riviera 2'
 tour_types: self-guided
 region: Liguria
 days: 8
@@ -231,8 +231,6 @@ page_builder:
               -
                 type: text
                 text: "\_ The second section takes you along narrow stone paths of the Cinque Terrre.\_ There are some steep climbs up from the villages to the trail and some steep descents at the end."
-        start_location: 'Sestri Levante'
-        finish_location: Portovenere
         image: tours/2-1775017239.jpg
         type: walk
         enabled: true
@@ -351,4 +349,6 @@ gallery:
   - tours/alto-adige-dolomites-1-self-guided-walk-1-1/shutterstock_1172539480-a.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1-1/view-from-window-at-paradiso.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1-1/wine-bottle.jpg
+start_location: 'Sestri Levante'
+finish_location: Portovenere
 ---
