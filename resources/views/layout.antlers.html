@@ -26,7 +26,7 @@
         {{ partial:statamic-peak-tools::navigation/skip_links }}
         {{ partial:statamic-peak-tools::components/toolbar }}
 
-        {{ if transparent_header }}
+        {{ if {view:transparent_header} }}
             {{# Banner + header float over the first page-builder block and stay
                 fixed at the top of the viewport. The header transitions to the
                 brand colour past 20px of scroll (see /layout/_header). #}}

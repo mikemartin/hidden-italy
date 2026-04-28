@@ -1,6 +1,6 @@
 ---
 id: home
-blueprint: page
+blueprint: home
 title: Home
 template: home
 updated_by: 6e2cc1d1-1470-4391-963d-37aed038e27a
@@ -10,28 +10,24 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 1
-page_builder:
+headline: |-
+  Explore Italy,
+  one step at a time
+buttons:
   -
-    id: home_hero
-    type: hero
+    id: home_hero_btn
+    label: 'Discover tours'
+    link_type: entry
+    entry: 2d1f3903-3248-4037-8e09-e76e8d62781c
+    target_blank: false
+    button_type: button
+    type: button
     enabled: true
-    heading: |-
-      Explore Italy,
-      one step at a time
-    buttons:
-      -
-        id: home_hero_btn
-        label: 'Discover tours'
-        link_type: entry
-        entry: 2d1f3903-3248-4037-8e09-e76e8d62781c
-        target_blank: false
-        button_type: button
-        type: button
-        enabled: true
-    tour_photos:
-      - d6a3ceb1-2eac-4860-b7c0-b70500e53345
-      - 0d717011-26fe-4d13-89f4-a0739f966e3d
-      - fe7d8f05-4262-4ff2-9fa6-af18f7825ec2
+tour_photos:
+  - d6a3ceb1-2eac-4860-b7c0-b70500e53345
+  - 0d717011-26fe-4d13-89f4-a0739f966e3d
+  - fe7d8f05-4262-4ff2-9fa6-af18f7825ec2
+page_builder:
   -
     id: home_intro
     type: intro

@@ -1,11 +1,11 @@
 title: Hero
 fields:
   -
-    handle: heading
+    handle: headline
     field:
       type: text
       localizable: true
-      display: Heading
+      display: Headline
       instructions: 'Main headline overlaid on the hero image.'
       validate:
         - required

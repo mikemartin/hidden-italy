@@ -4,9 +4,15 @@
 #}}
 
 <!-- /default.antlers.html -->
-<main class="page-builder" id="content">
-    {{ page_builder scope="block" }}
-        {{ partial src="page_builder/{type}" }}
-    {{ /page_builder }}
+<main id="content">
+    {{ if headline }}
+        {{ partial:components/page_header }}
+    {{ /if }}
+
+    <div class="page-builder">
+        {{ page_builder scope="block" }}
+            {{ partial src="page_builder/{type}" }}
+        {{ /page_builder }}
+    </div>
 </main>
 <!-- End: /default.antlers.html -->

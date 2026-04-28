@@ -50,13 +50,6 @@ fields:
           instructions: 'Hero, intro, feature grids and CTA blocks used on the homepage and other landing pages.'
           icon: scenery
           sets:
-            hero:
-              display: Hero
-              instructions: 'Full-bleed hero image with headline and CTA.'
-              icon: hero-image-above-text
-              fields:
-                -
-                  import: hero
             tour_banner:
               display: 'Tour banner'
               instructions: 'Full-bleed 700px banner with region label, headline, CTA and a map-pin location row.'

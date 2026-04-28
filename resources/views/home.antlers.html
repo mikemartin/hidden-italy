@@ -3,15 +3,20 @@ transparent_header: true
 ---
 {{#
     @name Homepage
-    @desc Renders the homepage entry's page-builder blocks. `transparent_header`
-          is set in the front matter so the fixed site header overlays the
-          hero and fades to the brand colour past 20px of scroll.
+    @desc Renders the homepage hero (top-level fields) followed by its
+          page-builder blocks. `transparent_header` is set in the front matter
+          so the fixed site header overlays the hero and fades to the brand
+          colour past 20px of scroll.
 #}}
 
 <!-- /home.antlers.html -->
-<main class="page-builder" id="content">
-    {{ page_builder scope="block" }}
-        {{ partial src="page_builder/{type}" }}
-    {{ /page_builder }}
+<main id="content">
+    {{ partial:home/hero }}
+
+    <div class="page-builder">
+        {{ page_builder scope="block" }}
+            {{ partial src="page_builder/{type}" }}
+        {{ /page_builder }}
+    </div>
 </main>
 <!-- End: /home.antlers.html -->

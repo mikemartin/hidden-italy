@@ -1,0 +1,101 @@
+{{#
+    @name Page header
+    @desc Section header for stub/landing pages. Two variants:
+
+          - "standard" (default): parchment background, breadcrumb pill, page
+            headline and optional description, all left-aligned. Used on most
+            stub pages.
+          - "large": centred, larger type, taller padding. Used on the
+            About page.
+
+          Both variants render the parchment topographic decoration anchored
+          to the top corners of the section.
+
+          The breadcrumb walks ancestors (excluding home) and ends with the
+          current page, so a top-level page like /about shows just the
+          current page as a single chip.
+    @param headline        Marketing headline shown as the h1.
+    @param description     Optional intro paragraph below the headline.
+    @param header_variant  "standard" (default) or "large".
+#}}
+
+<!-- /components/_page_header.antlers.html -->
+<section
+    class="
+        relative isolate overflow-hidden bg-parchment-100 fluid-grid
+        {{ if header_variant == 'large' }}
+            pt-12 md:pt-16 pb-16 md:pb-24
+        {{ else }}
+            py-12 md:py-16
+        {{ /if }}
+    "
+>
+    {{# Decorative topographic pattern anchored to the top corners. Tinted
+        via currentColor — text-parchment-400 gives the warm sand tone
+        shown in the design. #}}
+    <div class="pointer-events-none absolute inset-x-0 top-0 -z-10 text-parchment-400" aria-hidden="true">
+        {{ if header_variant == 'large' }}
+            {{ svg:top-left attr:class="absolute top-0 left-0 w-[320px] md:w-[400px] h-auto -translate-x-1/2 lg:translate-x-0" }}
+        {{ else }}
+            {{ svg:top-left attr:class="absolute top-0 left-0 w-[320px] md:w-[400px] h-auto -translate-x-1/2" }}
+        {{ /if }}
+        {{ svg:top-right attr:class="absolute top-0 right-0 w-[320px] md:w-[400px] h-auto" }}
+    </div>
+
+    <div
+        class="
+            span-content flex flex-col
+            {{ if header_variant == 'large' }}
+                items-center text-center gap-6 md:gap-10
+            {{ else }}
+                items-start gap-4
+            {{ /if }}
+        "
+    >
+        <nav aria-label="Breadcrumb">
+            <ol class="bg-parchment-200 flex items-center gap-1 h-8 px-4 py-2 rounded-full">
+                {{ nav:breadcrumbs include_home="false" }}
+                    {{ unless first }}
+                        <li class="flex items-center" aria-hidden="true">
+                            <x-lucide-chevron-right class="size-[18px] text-amber" stroke-width="1.5" />
+                        </li>
+                    {{ /unless }}
+                    <li>
+                        {{ if is_current }}
+                            <span class="font-sans font-medium text-sm leading-[1.6] text-amber" aria-current="page">{{ title }}</span>
+                        {{ else }}
+                            <a href="{{ url }}" class="font-sans font-medium text-sm leading-[1.6] text-amber hover:underline">{{ title }}</a>
+                        {{ /if }}
+                    </li>
+                {{ /nav:breadcrumbs }}
+            </ol>
+        </nav>
+
+        <h1
+            class="
+                font-display font-semibold text-foreground
+                {{ if header_variant == 'large' }}
+                    text-4xl md:text-[64px] leading-[1.1] tracking-[-0.02em]
+                {{ else }}
+                    text-3xl md:text-[40px] leading-[1.25] tracking-[-0.01em]
+                {{ /if }}
+            "
+        >
+            {{ headline or title }}
+        </h1>
+
+        {{ if description }}
+            <p
+                class="
+                    font-sans leading-[1.6] text-text
+                    {{ if header_variant == 'large' }}
+                        text-lg md:text-[21px] max-w-3xl
+                    {{ else }}
+                        text-base md:text-lg max-w-3xl
+                    {{ /if }}
+                "
+            >{{ description }}</p>
+        {{ /if }}
+    </div>
+</section>
+<!-- End: /components/_page_header.antlers.html -->

@@ -10,18 +10,18 @@
 
 <!-- /layout/_header.antlers.html -->
 <header
-    {{ if transparent_header }}
+    {{ if {view:transparent_header} }}
         x-data="{ scrolled: false }"
         x-init="scrolled = window.scrollY > 20"
         @scroll.window.passive="scrolled = window.scrollY > 20"
-        class="fluid-grid py-4 lg:py-5 transition-colors duration-300 ease-out lg:border-b"
+        class="fluid-grid py-4 transition-colors duration-300 ease-out lg:border-b"
         :class="scrolled ? 'lg:bg-blue-700 lg:border-transparent lg:shadow-md' : 'lg:bg-transparent lg:border-white/20'"
     {{ else }}
-        class="fluid-grid py-4 bg-neutral-900"
+        class="fluid-grid py-4 bg-blue-700"
     {{ /if }}
 >
     <div class="span-content flex items-center gap-8">
-        {{ partial:components/logo class="h-7 lg:h-10 w-auto" }}
+        {{ partial:components/logo class="h-7 lg:h-12 w-auto" }}
 
         <div class="hidden lg:flex items-center gap-8 mx-auto">
             {{ partial:navigation/main_desktop }}

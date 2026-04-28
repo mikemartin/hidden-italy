@@ -1,5 +1,5 @@
 {{#
-    @name Hero
+    @name Home hero
     @desc Full-bleed hero with a crossfading carousel. Each slide is built from
           a tour entry — the tour's `image` becomes the slide image and that
           image asset's `caption` is shown as the location label. On desktop a
@@ -8,18 +8,17 @@
           mobile the bottom row stacks centred with dot indicators (no arrows
           or chevron) and the CTA becomes a solid white pill. Auto-advances
           every 6 seconds.
-    @set page.page_builder.hero
 #}}
 
-<!-- /page_builder/_hero.antlers.html -->
+<!-- /home/_hero.antlers.html -->
 <section
     class="stack-space-collapse span-full relative isolate bg-neutral-900 text-white overflow-hidden h-svh min-h-[600px] lg:min-h-[760px] max-h-[820px]"
-    x-data="hero_carousel({ count: {{ block:tour_photos | count }}, interval: 6000 })"
+    x-data="hero_carousel({ count: {{ tour_photos | count }}, interval: 6000 })"
     aria-roledescription="carousel"
-    aria-label="{{ block:heading | strip_tags | entities }}"
+    aria-label="{{ headline | strip_tags | entities }}"
 >
     {{# Slides — each layered absolutely, crossfading via opacity. #}}
-    {{ block:tour_photos }}
+    {{ tour_photos }}
         <div
             class="absolute inset-0 transition-opacity duration-[1200ms] ease-in-out"
             :class="current === {{ index }} ? 'opacity-100 z-0' : 'opacity-0 -z-10'"
@@ -47,18 +46,18 @@
                 style="background-image: linear-gradient(180deg, rgba(0,0,0,0.55) 8%, rgba(0,0,0,0) 28%), linear-gradient(180deg, rgba(0,0,0,0) 70%, rgba(0,0,0,0.5) 100%);"
             ></div>
         </div>
-    {{ /block:tour_photos }}
+    {{ /tour_photos }}
 
     {{# Foreground content — headline + CTA, centred. #}}
     <div class="relative z-10 h-full fluid-grid pointer-events-none">
         <div class="span-content flex flex-col items-center justify-center text-center gap-6 lg:gap-10 h-full">
-            {{ partial:typography/h1_big_display :content="block:heading" class="!text-white max-w-3xl" }}
+            {{ partial:typography/h1_big_display :content="headline" class="!text-white max-w-3xl" }}
 
-            {{ if block:buttons }}
+            {{ if buttons }}
                 <div class="flex flex-wrap gap-4 justify-center pointer-events-auto">
-                    {{ block:buttons }}
+                    {{ buttons }}
                         {{ partial:components/button class="button--hero button--large" }}
-                    {{ /block:buttons }}
+                    {{ /buttons }}
                 </div>
             {{ /if }}
         </div>
@@ -66,9 +65,9 @@
 
     {{# Bottom row — desktop: location (left) + prev/next arrows (right).
         Mobile: location stacked centred above dot indicators, arrows hidden. #}}
-    {{ if block:tour_photos | count > 0 }}
-        <div class="absolute inset-x-0 bottom-10 lg:bottom-12 z-10 px-6 lg:px-[120px]">
-            <div class="mx-auto flex w-full max-w-[1200px] flex-col items-center gap-5 lg:flex-row lg:items-center lg:justify-between lg:gap-6">
+    {{ if tour_photos | count > 0 }}
+        <div class="absolute inset-x-0 bottom-10 lg:bottom-12 z-10 fluid-grid">
+            <div class="span-content flex flex-col items-center gap-5 lg:flex-row lg:items-center lg:justify-between lg:gap-6">
                 {{# Location text — render every tour's region, only the current is visible.
                     The ring next to it shows progress toward the next auto-advance and is
                     hidden on mobile. #}}
@@ -95,16 +94,16 @@
                         same 1200ms timing as the image so caption and photo move in sync.
                         Each caption comes from the image asset's `caption` field. #}}
                     <div class="grid">
-                        {{ block:tour_photos }}
+                        {{ tour_photos }}
                             <p
                                 class="row-start-1 col-start-1 font-mono text-sm md:text-base text-white whitespace-nowrap transition-opacity duration-[1200ms] ease-in-out"
                                 :class="current === {{ index }} ? 'opacity-100' : 'opacity-0'"
                             >{{ image }}{{ caption ?? '' }}{{ /image }}</p>
-                        {{ /block:tour_photos }}
+                        {{ /tour_photos }}
                     </div>
                 </div>
 
-                {{ if block:tour_photos | count > 1 }}
+                {{ if tour_photos | count > 1 }}
                     {{# Desktop arrows. #}}
                     <div class="hidden lg:flex items-center gap-4">
                         <button
@@ -127,7 +126,7 @@
 
                     {{# Mobile dot indicators. #}}
                     <div class="order-2 flex lg:hidden items-center gap-3">
-                        {{ block:tour_photos }}
+                        {{ tour_photos }}
                             <button
                                 type="button"
                                 @click="goTo({{ index }})"
@@ -135,7 +134,7 @@
                                 class="size-3 rounded-full transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
                                 :class="current === {{ index }} ? 'bg-white' : 'bg-neutral-900'"
                             ></button>
-                        {{ /block:tour_photos }}
+                        {{ /tour_photos }}
                     </div>
                 {{ /if }}
             </div>
@@ -154,4 +153,4 @@
 
 {{# Anchor for the scroll indicator — sits at the boundary of the next block. #}}
 <span id="content-below-hero" class="sr-only" aria-hidden="true"></span>
-<!-- End: /page_builder/_hero.antlers.html -->
+<!-- End: /home/_hero.antlers.html -->

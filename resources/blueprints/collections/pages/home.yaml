@@ -1,4 +1,4 @@
-title: Page
+title: Home
 tabs:
   main:
     display: Main
@@ -18,37 +18,11 @@ tabs:
               validate:
                 - required
       -
-        display: 'Page header'
-        instructions: 'Optional header section with breadcrumb, headline and description. Rendered when “Headline” is set.'
+        display: Hero
+        instructions: 'Full-bleed hero shown at the top of the homepage.'
         fields:
           -
-            handle: headline
-            field:
-              type: text
-              localizable: true
-              listable: hidden
-              display: Headline
-              instructions: 'Marketing-friendly title shown in the page header. If empty, the page header is not rendered.'
-          -
-            handle: description
-            field:
-              type: textarea
-              localizable: true
-              listable: hidden
-              display: Description
-              instructions: 'Short intro paragraph shown beneath the page-header headline.'
-          -
-            handle: header_variant
-            field:
-              type: button_group
-              default: standard
-              localizable: true
-              listable: hidden
-              display: Variant
-              instructions: '“Large” centres the content, ramps up the type, and adds the parchment topographic background — used on the About page.'
-              options:
-                standard: Standard
-                large: Large
+            import: hero
       -
         display: 'Page builder'
         fields:
