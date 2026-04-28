@@ -64,12 +64,12 @@ page_builder:
         id: mloog7vk
         title: 'Get lost in gorgeous towns'
         summary: 'Stay in heart of some of the most beautiful and interesting towns in central Italy, heart of the Renaissance.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Be entranced by the extraordinary scenery'
         summary: "Walk through the beautiful Val d'Orcia, UNESCO Heritage listed, with some of the most iconic scenery in all of Italy."
-        icon: geography-exploration-mountain.svg
+        icon: culture-pizza.svg
       -
         id: mlooun08
         title: 'Immerse yourself in gorgeous villages'
@@ -84,7 +84,7 @@ page_builder:
         id: mmx1061d
         title: 'Relax and enjoy for holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: service-hours.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
   -

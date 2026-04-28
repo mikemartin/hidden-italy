@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Puglia
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776838159
+updated_at: 1777355663
 grade: 4
 summary: 'Ramble the length of Gargano Peninsula through farmlands and forest to the sparkling sea!'
 overview:
@@ -51,17 +51,22 @@ page_builder:
         id: mlooee34
         title: 'Enjoy eight days way off the beaten track!'
         summary: 'Enjoy a continuous walk following Medieval pilgrim trails through peaceful countryside, spectacular forest to the coast!'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Enjoy the marvellous food'
-        summary: 'With dinners included, you can enjoy the bounty of northern Pugliese cuisine each day, both country-style and coastal'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        summary: 'With dinners included, you can enjoy the bounty of northern Pugliese cuisine each day, both country-style and coastal.'
+        icon: gastronomy-spaghetti.svg
+      -
+        id: BL0BCFZ3eqANalVYMQ_CC
+        title: 'Stay in a variety of accommodation'
+        summary: 'Stay in a variety of accommodation, from modern 4-star hotels with pools to family-run agrituismos in the countryside.'
+        icon: geography-cartography-hills.svg
       -
         id: mlooou12
-        title: 'Walk through ancient forests'
-        summary: 'Follow ancient paths through the Foresta Umbra, a vast beech forest covers much of the Gargano Peninsula'
-        icon: geography-exploration-mountain.svg
+        title: 'Enjoy the solitude of ancient forests'
+        summary: 'Follow well-marked ancient paths through the Foresta Umbra, a vast beech forest covering much of the Gargano Peninsula.'
+        icon: trekking-river.svg
       -
         id: mlooun08
         title: 'Go for a private boat ride'
@@ -71,7 +76,7 @@ page_builder:
         id: mn2o0oyw
         title: 'Relax, you are fully-supported'
         summary: 'Everything is organised: you are transfer to and from Alba; your bags moved each day; and you have 24-hour local support'
-        icon: service-hours.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
   -

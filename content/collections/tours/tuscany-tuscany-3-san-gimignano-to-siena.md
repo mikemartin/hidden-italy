@@ -64,12 +64,12 @@ page_builder:
         id: mloog7vk
         title: 'Immerse yourself in daily Tuscan life'
         summary: 'Immerse yourself in the traditions, history and daily life of four classic Tuscan towns.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Soak up the beguiling landscapes'
         summary: 'Easy walking allows you to relax and soak up the beautiful landscapes you are passing through, classic Tuscany!'
-        icon: geography-exploration-mountain.svg
+        icon: culture-pizza.svg
       -
         id: mlooun08
         title: 'Indulge in the food and wine'
@@ -79,7 +79,7 @@ page_builder:
         id: mmx1061d
         title: 'Relax and enjoy for holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: service-hours.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
   -

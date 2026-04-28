@@ -69,7 +69,7 @@ page_builder:
         id: mjflfcs4
         title: 'Walk historic trails'
         summary: 'Follow ancient trails through the European Alps in the footsteps of 4 Aussie POWs who escaped Fascist Italy in 1943.'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mjflflyr
         title: 'Sleep in ancient monasteries'
@@ -79,7 +79,7 @@ page_builder:
         id: mjflft3i
         title: 'Explore the spectacular scenery'
         summary: 'This hikes takes you through some of the most spectacular scenery in Europe: mountains and forests; lakes and glaciers.'
-        icon: geography-exploration-mountain.svg
+        icon: nature-lake.svg
       -
         id: mjflfz9u
         title: 'Enjoy mountain hospitality'
@@ -89,7 +89,7 @@ page_builder:
         id: mjflgcks
         title: 'Celebrate with a farewell dinner'
         summary: 'Mark the end of your alpine adventure with a festive group meal in a charming mountain village near the Swiss border.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
   -
@@ -342,8 +342,8 @@ page_builder:
 tour_types: guided
 seasons: summer
 locations: northern-italy
-updated_by: 6e2cc1d1-1470-4391-963d-37aed038e27a
-updated_at: 1777126689
+updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
+updated_at: 1777350805
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
@@ -359,5 +359,4 @@ gallery:
   - tours/italian-alps-trails-to-freedom/p8270231.jpg
 image: tours/italian-alps-trails-to-freedom/94.jpg
 simple_likes: 0
-now_open: true
 ---

@@ -6,8 +6,8 @@ name: 'Amalfi Coast tour (Ravello to Positano)'
 tour_types: self-guided
 region: Campania
 days: 6
-updated_by: 6e2cc1d1-1470-4391-963d-37aed038e27a
-updated_at: 1777126698
+updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
+updated_at: 1777349105
 grade: 3
 summary: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
 overview:
@@ -53,27 +53,32 @@ page_builder:
         id: mlooee34
         title: "Walk the entire length of the 'Costiera'"
         summary: 'Walk the entire length of the Amalfi Coast (no buses!) following ancient trails with breath-taking views all the way!'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Stay in fabulous accommodation'
         summary: 'Stay in the best available accommodation in each town, always welcoming, always central and usually with sea views!'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: ski-alpine-hotel.svg
       -
         id: mlooou12
         title: 'Relish the wonderful food'
         summary: 'Enjoy surprisingly simple specialities: vegetables grown in volcanic soil, fresh seafood, mozzarella, pasta and pizza!'
-        icon: geography-exploration-mountain.svg
+        icon: culture-pizza.svg
       -
         id: mlooun08
-        title: 'Fabulous views'
+        title: 'Be astonished by the views'
         summary: 'Sheer cliffs drop to rugged shoreline dotted with beaches, fishing villages, vineyards and lemon grove: simply stunning!'
         icon: nature-beach.svg
+      -
+        id: Y_o0Zoe7gdIqFYluomJOV
+        title: 'Go for a swim'
+        summary: 'There are plenty of chances to plunge into the blue waters of the Mediterranean or simply relax poolside at your hotel.'
+        icon: water-sports-swimming.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: service-hours.svg
+        icon: restaurant-glass-beverage-drink-restaurant-bar-dining.svg
     type: highlights
     enabled: true
   -
@@ -279,5 +284,4 @@ gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour-1/positano-pan-1.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
 image: tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
-now_open: true
 ---

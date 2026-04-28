@@ -22,3 +22,7 @@ preferences:
     assets:
       per_page: 50
       mode: grid
+    editor_checkerboard_mode: light
+    browser_checkerboard_mode: light
+    browser_thumbnail_size: 85
+  color_mode: light

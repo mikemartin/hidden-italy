@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776054616
+updated_at: 1777260783
 grade: 3
 summary: "A week-long walk along well-marked trails through the charming 'green heart of Italy'."
 overview:
@@ -65,22 +65,22 @@ page_builder:
         id: mloog7vk
         title: 'Explore the towns'
         summary: "Staying in welcoming, family-run accommodation, you'll have plenty of time to explore the gorgeous little-visited towns."
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Admire the spectacular scenery'
         summary: 'The walk takes you south through the lush Nera Valley with breath-taking views over mountains, lakes and rolling plains.'
-        icon: geography-exploration-mountain.svg
+        icon: culture-pizza.svg
       -
         id: mlooun08
         title: 'Enjoy Umbrian home cooking'
         summary: 'Sit down and enjoy the wholesome home-cooking: cold cuts, cheeses, pastas, soups, roast meats, fresh garden vegetables.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: service-hours.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
   -
@@ -272,6 +272,15 @@ page_builder:
         type: travel_insurance
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: h-IyYhsF6gtsu-fdDVHyk
+    title: 'What our travellers are saying'
+    testimonials:
+      - 82ffcd37-2ac7-4803-b2f4-042a61d8aa6e
+      - a332228f-c6ab-4251-b5b1-f1c2756165d6
+      - b6f4574f-72b1-417a-a475-6f4d3a005af2
+    type: testimonials
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270

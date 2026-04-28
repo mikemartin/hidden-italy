@@ -61,7 +61,7 @@ page_builder:
         id: mloqi0iy
         title: 'Stay in fabulous accommodation'
         summary: 'Stay in 4-star hotels: on a Venetian canal; overlooking Lake Como; in a mountain village; and in the arcades of Turin.'
-        icon: hotel-bed-sleep-room-rest-accommodation.svg
+        icon: housing-house.svg
       -
         id: mloqndod
         title: 'Discover the glories of the Italian Lakes'

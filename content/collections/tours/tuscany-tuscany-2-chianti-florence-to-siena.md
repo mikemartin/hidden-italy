@@ -61,17 +61,17 @@ page_builder:
         id: mloog7vk
         title: 'Immerse yourself in the daily life'
         summary: 'You will have plenty of time each day to immerse yourself in the daily life of a series of buzzy market towns.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Sample the local brew'
         summary: "Enjoy sampling the district's fine red wines, the most celebrated in Italy, accompanied by district's equally fine food."
-        icon: geography-exploration-mountain.svg
+        icon: culture-pizza.svg
       -
         id: mlooun08
         title: 'Staying in a charming agriturismo'
         summary: 'Relax in a charming agriturismo in Chianti hills, with a swimming pool, beautiful grounds, and an excellent restaurant.'
-        icon: hotel-bed-sleep-room-rest-accommodation.svg
+        icon: housing-house.svg
       -
         id: mmbinilb
         title: 'Soak up Siena'
@@ -81,7 +81,7 @@ page_builder:
         id: mmx1061d
         title: 'Relax and enjoy for holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: service-hours.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
   -

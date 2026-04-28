@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776841158
+updated_at: 1777359188
 grade: 4
 summary: 'Coastal walks, island hoping and fabulous food, this tour is southern Italy at its best!'
 overview:
@@ -52,23 +52,33 @@ page_builder:
       -
         id: mlrbvyrv
         title: 'Enjoy coastal walking'
-        summary: 'All the walks follow well-marked paths above the sea with spectacular views and plenty of opportunities for swimming!'
-        icon: trekking-boots.svg
+        summary: 'Follow well-marked paths that take you above the sea with spectacular views over the coastline and surrounding mountains'
+        icon: trekking-trekking.svg
+      -
+        id: tlktoZzf1f6p1C_QwMNEB
+        title: 'Be pampered'
+        summary: 'The tour includes transfers from and to Palermo, and a private guided tour of Erice, a fascinating town above Trapani.'
+        icon: tourism-taxi.svg
+      -
+        id: mlrc2l11
+        title: 'Go island hopping'
+        summary: 'The ferry tickets are included so you can experience the pleasure of island hopping around the Mediterranean Sea.'
+        icon: transport-ship.svg
       -
         id: mlrbzbll
         title: 'Relish the authentic food'
         summary: "Enjoy the area's fine food based on garden vegetables and fresh seafood all with North African twists, such as couscous."
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: gastronomy-spaghetti.svg
       -
-        id: mlrc2l11
-        title: 'Go island hopping'
-        summary: 'The ferry tickets are included so you can experience the pleasure of island hopping around the Mediterranean Sea'
-        icon: landscape-island.svg
+        id: jN_hk2eMs1Gwps2azBE5i
+        title: 'Discover gorgeous fishing villages'
+        summary: 'You will have lots of time to explore the little fishing villages of the islands and enjoy outdoor dining at their ports'
+        icon: nature-beach.svg
       -
         id: mlrc9yr3
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: service-hours.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
   -
@@ -289,4 +299,5 @@ gallery:
   - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/favignana-3.jpg
   - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/f.jpg
   - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/p1010686.jpg
+seasons: autumn
 ---

@@ -758,8 +758,6 @@ tabs:
               max_items: 1
               create: false
               mode: select
-              if:
-                tour_types: 'contains tour_types::guided'
           -
             handle: locations
             field:

@@ -55,17 +55,17 @@ page_builder:
         id: mloog7vk
         title: 'Be astonished by ancient villages'
         summary: 'Be astonished by these forgotten villages that are perched in impossible places overlooking spectacular scenery.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Be immersed in history and traditions'
         summary: 'Immerse yourself in the fascinating history and traditions of this peaceful corner of central Italy'
-        icon: geography-exploration-mountain.svg
+        icon: culture-pizza.svg
       -
         id: mlooun08
         title: 'Relax, you are fully-supported'
         summary: 'Everything is organised: you are transfer to and from Alba; your bags moved each day; and you have 24-hour local support'
-        icon: service-hours.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
   -
@@ -87,7 +87,6 @@ page_builder:
         elevation: 115
         meals_included:
           - breakfast
-        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/hiking-the-ancient-via-cava.png
       -
         id: mlop159i
         title: 'Day 3:  Sleep in a castle'
@@ -128,7 +127,6 @@ page_builder:
         elevation: 442
         meals_included:
           - breakfast
-        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-cathedral-in-vibrant-daylight.png
       -
         id: mlop8uiy
         title: 'Day 7:  Depart Orvieto'
@@ -270,7 +268,6 @@ gallery:
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano_-tuscany-s-hilltop-beauty.png
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020002.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/bolsena-1.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/hiking-the-ancient-via-cava.png
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/sorano-1-a.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1050010.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020009-a.jpg
@@ -278,5 +275,4 @@ gallery:
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano-2.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-8.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/walking.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-cathedral-in-vibrant-daylight.png
 ---

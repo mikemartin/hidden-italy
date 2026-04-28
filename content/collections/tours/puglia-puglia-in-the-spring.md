@@ -7,7 +7,7 @@ tour_types: guided
 region: Puglia
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1775797941
+updated_at: 1777356636
 grade: 3
 summary: 'Puglia is pure southern Italy: vibrant towns, endless trails and coastline; fabulous food!'
 overview:
@@ -51,22 +51,32 @@ page_builder:
         id: mloqdoo9
         title: 'Be immersed in the magic of southern Italy'
         summary: 'Spend two weeks experiencing the charm and fascination of southern Italy, exploring the towns, coast and interior.'
-        icon: trekking-binoculars.svg
+        icon: festa-fireworks.svg
       -
         id: mloqi0iy
         title: 'Stay in fabulous accommodation'
         summary: 'Stay in a restored palazzo in Lecce; an historic palazzo on the coast; an ancient masseria; and a 4-star hotel in Bari.'
-        icon: hotel-bed-sleep-room-rest-accommodation.svg
+        icon: housing-house.svg
       -
         id: mloqndod
         title: 'Go walking along rolling hills and undulating coastline'
         summary: 'The tour includes 8 guided walks along undulating hills, through orchards and vineyards and along spectacular coastline.'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mloqrnhn
         title: "Indulge yourself in Italy's finest food"
-        summary: "Puglia has Italy's finest food:  the freshest fruit and veggies; the fab meats of Itria Valley and spectacular seafood."
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        summary: "Puglia has Italy's finest food:  the freshest fruit and veggies; the fab meats of Itria Valley; and spectacular seafood."
+        icon: gastronomy-spaghetti.svg
+      -
+        id: 0TMxr-ateMuphRzONcxmY
+        title: "Visit one of Puglia's most innovative vineyards."
+        summary: 'Puglia is proud of its wines and you will visit one its finest vineyards, enjoying a tasting and a light lunch.'
+        icon: wine-grapes.svg
+      -
+        id: jHWGNbTTt9a3Y36qp8wN3
+        title: 'Go sailing on the Med'
+        summary: 'Enjoy a day sailing, grazing and swimming aboard two private yachts, exploring the coastline of the Mediterranean Sea.'
+        icon: transport-sailboat.svg
     type: highlights
     enabled: true
   -

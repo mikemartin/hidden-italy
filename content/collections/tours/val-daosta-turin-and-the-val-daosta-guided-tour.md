@@ -7,7 +7,7 @@ tour_types: guided
 region: "Val d'Aosta"
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776048545
+updated_at: 1777261491
 grade: 4
 summary: "Two weeks exploring the Val d'Aosta, Italy's smallest, but most spectacular, region!"
 overview:
@@ -61,12 +61,12 @@ page_builder:
         id: mloqi0iy
         title: 'Stay in fabulous accommodation'
         summary: 'This tour is 4-star all the way: an historic hotel in Turin and then a series of lovely family-run mountain hotels.'
-        icon: hotel-bed-sleep-room-rest-accommodation.svg
+        icon: housing-house.svg
       -
         id: mloqndod
         title: "Explore Italy's most spectacular region"
         summary: "Every corner of the Val d'Aosta has breathtaking views: spectacular mountains, glaciers, high pastures and cute villages"
-        icon: geography-exploration-mountain.svg
+        icon: culture-pizza.svg
       -
         id: mloqrnhn
         title: "Walk some of Europe's finest trails"
@@ -76,7 +76,7 @@ page_builder:
         id: mm4fpvo1
         title: 'Enjoy wholesome mountain cuisine'
         summary: "The valley's cuisine is a mix of traditional mountain food and sophisticated French cuisine, all based on local produce."
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
     type: highlights
     enabled: true
   -
@@ -301,6 +301,13 @@ page_builder:
         type: travel_insurance
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: YOURaWQLZ636mGVIO_688
+    title: 'What our travellers are saying'
+    testimonials:
+      - a64ee694-6861-49e0-b244-ed6c4b239593
+    type: testimonials
     enabled: true
 simple_likes: 0
 seasons: autumn

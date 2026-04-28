@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776827818
+updated_at: 1777351795
 grade: 3
 summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
 overview:
@@ -47,27 +47,32 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 6-day walk'
         summary: 'Enjoy a continuous walk from village to village for the whole six days (no trains to get to and from the walks each day)'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Savour the famous food and wines'
         summary: 'Ligurian cuisine is the delicious result of fresh produce from gardens and sea being combined with generations of skill.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: gastronomy-spaghetti.svg
       -
         id: mlooou12
         title: 'Walk through stunning scenery'
         summary: 'The ancient walking trails take you through the most stunning scenery in Italy: mountains on the left, sea on the right!'
-        icon: geography-exploration-mountain.svg
+        icon: nature-lake.svg
       -
         id: mlooun08
         title: 'Immerse yourself in gorgeous villages'
         summary: "You will have all the time in the world to immerse yourself in the life of six of Italy's most beautiful villages."
-        icon: geography-cartography-city.svg
+        icon: nature-beach.svg
+      -
+        id: mpkrDehOpEFtkL4YdtWzO
+        title: 'Go for a swim'
+        summary: 'You will have plenty of opportunity each day to jump in the blue Mediterranean, and swim at sandy beaches or rocky coves'
+        icon: water-sports-swimming.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: service-hours.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
   -

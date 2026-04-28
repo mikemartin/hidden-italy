@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Lazio
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776827598
+updated_at: 1777351207
 grade: 3
 summary: 'From the quiet green hills of central Italy to the steps of St Peters in the heart of Rome'
 overview:
@@ -44,22 +44,32 @@ page_builder:
         id: mlooee34
         title: 'Enjoy the progress'
         summary: 'Start in forested hills and quiet countryside then pass through undulating farmland before arriving in the heart of Rome'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Enjoy the accommodation'
         summary: 'Stay in a 3-star hotel in Rieti; an agriturismo; a 4-star hotel in outer Rome; a lovely 3-star hotel near the Vatican.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Discover a little-known corner of Italy'
         summary: 'So close to Rome and yet so little known, Lazio is a fascinating region with much to offer: history, food, and nature.'
-        icon: geography-exploration-mountain.svg
+        icon: geography-cartography-hills.svg
+      -
+        id: '-5ntPCivujAJma1Ub8KCr'
+        title: 'Finish at St Peters Baslica'
+        summary: "The tour follows well-marked trails through countryside and into the 'Eternal City', finishing at the steps of St Peter."
+        icon: culture-vatican.svg
+      -
+        id: cpRf8ZwWnS4qBRJuKfaYg
+        title: 'Explore the Eternal City'
+        summary: "Your last in the heart of Rome, a few steps from the Vatican, is a perfect base from which to explore the 'Eternal City'"
+        icon: culture-Colosseum.svg
       -
         id: mlooun08
         title: 'Relax, you are fully-supported'
         summary: 'Everything is organised: you are transfer to and from Alba; your bags moved each day; and you have 24-hour local support'
-        icon: service-hours.svg
+        icon: restaurant-glass-beverage-drink-restaurant-bar-dining.svg
     type: highlights
     enabled: true
   -

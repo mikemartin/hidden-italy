@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Piedmont
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776837911
+updated_at: 1777354828
 grade: 3
 summary: 'An 8-day tour that takes you through the seductive rolling hills of southern Piedmont.'
 overview:
@@ -50,22 +50,32 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 8-day walk'
         summary: 'Enjoy a continuous walk from village to village for seven days, (no buses to get to and from the walks each day)'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Savour the famous food and wines'
-        summary: "Relish Alba's famous cuisine (truffles, mushrooms, cheeses and game) and its famous wines (Barolo Barbaresco and Arneis)"
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        summary: "Relish the district's famous cuisine (truffles, mushrooms, cheeses, game) and its celebrated wines, both reds and whites"
+        icon: 'wine-wine bottle.svg'
       -
         id: mlooou12
         title: 'Be wowed by the gorgeous scenery'
         summary: 'You will walk through rolling hills covered in vineyards, past cute towns with snowy peaks of the Alps in the distance.'
-        icon: geography-exploration-mountain.svg
+        icon: geography-cartography-hills.svg
+      -
+        id: 0cFvFwfWzMeuNllxlpi-e
+        title: 'Stay in exceptional accommodation'
+        summary: 'Stay in exceptional accommodation from a restored medieval home, to a charming agriturismo and a former royal residence.'
+        icon: culture-Vineyard.svg
+      -
+        id: wwcrR53eEZZnhGZMcBplA
+        title: 'Explore Alba'
+        summary: 'Beautiful Alba is one of the most interesting and pretty towns in Piedmont and you will have lots of time to explore it.'
+        icon: culture-Pantheon.svg
       -
         id: mlooun08
         title: 'Relax, you are fully-supported'
         summary: 'Everything is organised: you are transfer to and from Alba; your bags moved each day; and you have 24-hour local support'
-        icon: service-hours.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
   -

@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776054671
+updated_at: 1777261127
 grade: 3
 summary: 'Enjoy the best of Umbria has to offer: superior accommodation, great art, amazing walks!'
 overview:
@@ -60,12 +60,12 @@ page_builder:
         id: mloog7vk
         title: 'Stay in fabulous accommodation'
         summary: 'A feature of this Classic tour is the fabulous accommodation: fab 4-star hotels in the historical centre of each town'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Soak up the atmosphere'
         summary: 'Spend time soaking up the atmosphere of some of the most charming towns in central Italy, each so different to the other'
-        icon: geography-exploration-mountain.svg
+        icon: culture-pizza.svg
       -
         id: mlooun08
         title: 'Admire the art'
@@ -75,12 +75,12 @@ page_builder:
         id: mmbinilb
         title: 'Enjoy Umbrian home cooking'
         summary: 'Sit down and enjoy the wholesome home-cooking: cold cuts, cheeses, pastas, soups, roast meats, fresh garden vegetables.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: yzrNBaT-_rmmrnPeEEdB9
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: service-hours.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
   -
@@ -266,6 +266,15 @@ page_builder:
         type: travel_insurance
         enabled: true
     type: essentials
+    enabled: true
+  -
+    id: QvH7NPEvhgUO4Xu3_g4aD
+    title: 'What our travellers are saying'
+    testimonials:
+      - 8f7dbb98-902f-43ad-822e-d213ef44b785
+      - 3fcc881c-469b-4226-aac6-9072fd6de343
+      - f468044d-04e7-42a9-8bb9-2cbfcc128f13
+    type: testimonials
     enabled: true
 simple_likes: 0
 duplicated_from: 2c566c23-3738-482e-b78a-a2ac67ccf9cf
