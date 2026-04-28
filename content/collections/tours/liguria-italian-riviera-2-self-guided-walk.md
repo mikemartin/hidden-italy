@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777353321
+updated_at: 1777353378
 grade: 4
 summary: "Walk Italy's most celebrated coastline from romantic Sestri Levante to the Cinque Terre!"
 overview:
@@ -64,15 +64,15 @@ page_builder:
         summary: "You will rocky coves and some of northern Italy's best beaches, with plenty of opportunities to plunge into the sea."
         icon: water-sports-swimming.svg
       -
-        id: mlooun08
-        title: "Sample Liguria's celebrated cuisine"
-        summary: "Liguria's simple and healthy cuisine is a masterful combination of the freshest local produce with the freshest seafood!"
-        icon: gastronomy-spaghetti.svg
-      -
         id: VvRv3xIve8BoWdW7xq8cI
         title: 'Walk on coastal paths that time has forgotten'
         summary: "The first two walks take you along a stretch of spectacular coastline where you won't see another hiker."
         icon: nature-lake.svg
+      -
+        id: mlooun08
+        title: "Sample Liguria's celebrated cuisine"
+        summary: "Liguria's simple and healthy cuisine is a masterful combination of the freshest local produce with the freshest seafood!"
+        icon: gastronomy-spaghetti.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
