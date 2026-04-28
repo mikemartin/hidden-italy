@@ -57,6 +57,13 @@ fields:
               fields:
                 -
                   import: hero
+            tour_banner:
+              display: 'Tour banner'
+              instructions: 'Full-bleed 700px banner with region label, headline, CTA and a map-pin location row.'
+              icon: hero-image-above-text
+              fields:
+                -
+                  import: tour_banner
             intro:
               display: 'Intro with benefits'
               instructions: 'Heading, intro copy and three benefit tiles pulled from the Benefits collection.'

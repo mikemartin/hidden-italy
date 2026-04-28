@@ -23,6 +23,12 @@ document.addEventListener('alpine:init', () => {
         }
     });
 
+    window.Alpine.store('nav', {
+        mobileOpen: false,
+        toggle() { this.mobileOpen = !this.mobileOpen; },
+        close() { this.mobileOpen = false; },
+    });
+
     window.Alpine.data('simpleLikes', simpleLikes);
     window.Alpine.data('hero_carousel', heroCarousel);
     window.Alpine.data('tours_carousel', toursCarousel);

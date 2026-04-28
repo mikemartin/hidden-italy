@@ -2,16 +2,18 @@
     @name Hero
     @desc Full-bleed hero with a crossfading carousel. Each slide is built from
           a tour entry — the tour's `image` becomes the slide image and that
-          image asset's `caption` is shown as the location label (paired with a
-          gold progress ring that fills as the slide ages). Includes prev/next
-          arrows, an animated scroll indicator, and a centred headline + CTA.
-          Auto-advances every 6 seconds.
+          image asset's `caption` is shown as the location label. On desktop a
+          gold progress ring fills as the slide ages, prev/next arrows sit on
+          the right and a bouncing chevron points to the next section. On
+          mobile the bottom row stacks centred with dot indicators (no arrows
+          or chevron) and the CTA becomes a solid white pill. Auto-advances
+          every 6 seconds.
     @set page.page_builder.hero
 #}}
 
 <!-- /page_builder/_hero.antlers.html -->
 <section
-    class="stack-space-collapse span-full relative isolate bg-neutral-900 text-white overflow-hidden h-svh min-h-[640px] max-h-[820px]"
+    class="stack-space-collapse span-full relative isolate bg-neutral-900 text-white overflow-hidden h-svh min-h-[600px] lg:min-h-[760px] max-h-[820px]"
     x-data="hero_carousel({ count: {{ block:tour_photos | count }}, interval: 6000 })"
     aria-roledescription="carousel"
     aria-label="{{ block:heading | strip_tags | entities }}"
@@ -49,29 +51,31 @@
 
     {{# Foreground content — headline + CTA, centred. #}}
     <div class="relative z-10 h-full fluid-grid pointer-events-none">
-        <div class="span-content flex flex-col items-center justify-center text-center gap-10 h-full">
+        <div class="span-content flex flex-col items-center justify-center text-center gap-6 lg:gap-10 h-full">
             {{ partial:typography/h1_big_display :content="block:heading" class="!text-white max-w-3xl" }}
 
             {{ if block:buttons }}
                 <div class="flex flex-wrap gap-4 justify-center pointer-events-auto">
                     {{ block:buttons }}
-                        {{ partial:components/button class="button--outline button--gold button--large" }}
+                        {{ partial:components/button class="button--hero button--large" }}
                     {{ /block:buttons }}
                 </div>
             {{ /if }}
         </div>
     </div>
 
-    {{# Bottom row — location (left) + prev/next arrows (right). #}}
+    {{# Bottom row — desktop: location (left) + prev/next arrows (right).
+        Mobile: location stacked centred above dot indicators, arrows hidden. #}}
     {{ if block:tour_photos | count > 0 }}
-        <div class="absolute inset-x-0 bottom-12 z-10 px-6 lg:px-[120px]">
-            <div class="mx-auto flex w-full max-w-[1200px] items-center justify-between gap-6">
+        <div class="absolute inset-x-0 bottom-10 lg:bottom-12 z-10 px-6 lg:px-[120px]">
+            <div class="mx-auto flex w-full max-w-[1200px] flex-col items-center gap-5 lg:flex-row lg:items-center lg:justify-between lg:gap-6">
                 {{# Location text — render every tour's region, only the current is visible.
-                    The ring next to it shows progress toward the next auto-advance. #}}
-                <div class="flex items-center gap-3 min-h-[24px]">
+                    The ring next to it shows progress toward the next auto-advance and is
+                    hidden on mobile. #}}
+                <div class="order-1 lg:order-none flex items-center gap-3 min-h-[24px]">
                     <svg
                         viewBox="0 0 24 24"
-                        class="size-6 -rotate-90 text-gold"
+                        class="hidden lg:block size-6 -rotate-90 text-gold"
                         fill="none"
                         aria-hidden="true"
                     >
@@ -101,7 +105,8 @@
                 </div>
 
                 {{ if block:tour_photos | count > 1 }}
-                    <div class="flex items-center gap-4">
+                    {{# Desktop arrows. #}}
+                    <div class="hidden lg:flex items-center gap-4">
                         <button
                             type="button"
                             @click="prev()"
@@ -119,15 +124,28 @@
                             <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />
                         </button>
                     </div>
+
+                    {{# Mobile dot indicators. #}}
+                    <div class="order-2 flex lg:hidden items-center gap-3">
+                        {{ block:tour_photos }}
+                            <button
+                                type="button"
+                                @click="goTo({{ index }})"
+                                aria-label="Go to slide {{ index | add:1 }}"
+                                class="size-3 rounded-full transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                                :class="current === {{ index }} ? 'bg-white' : 'bg-neutral-900'"
+                            ></button>
+                        {{ /block:tour_photos }}
+                    </div>
                 {{ /if }}
             </div>
         </div>
     {{ /if }}
 
-    {{# Scroll indicator — bouncing chevron at bottom-centre. #}}
+    {{# Scroll indicator — bouncing chevron at bottom-centre. Desktop only. #}}
     <a
         href="#content-below-hero"
-        class="absolute bottom-0 left-1/2 -translate-x-1/2 z-10 p-6 text-white/90 hover:text-white transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+        class="absolute bottom-0 left-1/2 -translate-x-1/2 z-10 hidden lg:block p-6 text-white/90 hover:text-white transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
         aria-label="Scroll to next section"
     >
         <x-lucide-chevron-down class="size-12 animate-bounce" stroke-width="1" aria-hidden="true" />

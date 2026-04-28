@@ -1,6 +1,7 @@
 {{#
     @name Logo
-    @desc The logo component with a `width` attribute.
+    @desc The logo component. Accepts a `class` for sizing (e.g. `h-7 lg:h-10
+          w-auto`) and falls back to a `width` attribute when no class is set.
 #}}
 
 <!-- /components/_logo.antlers.html -->
@@ -9,6 +10,12 @@
     href="{{ site:url }}"
     wire:navigate
 >
-    <img src="/visuals/hidden-italy-logo.svg" class="select-none {{ class }}" width="{{ width }}" alt="" aria-hidden="true"/>
+    <img
+        src="/visuals/hidden-italy-logo.svg"
+        class="select-none {{ class }}"
+        {{ unless class }}width="{{ width }}"{{ /unless }}
+        alt=""
+        aria-hidden="true"
+    />
 </a>
 <!-- End: /components/_logo.antlers.html -->

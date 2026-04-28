@@ -63,4 +63,13 @@
     .button.button--accent-light {
         @apply bg-accent-light text-white border-0 hover:bg-blue-700 focus:outline-gold;
     }
+
+    /* Hero CTA — solid white pill with dark text on mobile, gold-outline on
+       desktop. Used by the homepage hero and the tour banner block where the
+       button sits on a full-bleed image. */
+    .button.button--hero {
+        @apply bg-white text-neutral-900 border-0 hover:bg-white/90
+               lg:bg-transparent lg:text-white lg:border-2 lg:border-gold lg:hover:bg-gold/20 lg:hover:border-white
+               focus:outline-gold;
+    }
 }

@@ -27,8 +27,10 @@
         {{ partial:statamic-peak-tools::components/toolbar }}
 
         {{ if transparent_header }}
-            {{# Banner + header float over the first page-builder block. #}}
-            <div class="absolute inset-x-0 top-0 z-30">
+            {{# Banner + header float over the first page-builder block and stay
+                fixed at the top of the viewport. The header transitions to the
+                brand colour past 20px of scroll (see /layout/_header). #}}
+            <div class="fixed inset-x-0 top-0 z-30">
                 {{ partial:layout/announcement_banner }}
                 {{ partial:layout/header }}
             </div>
