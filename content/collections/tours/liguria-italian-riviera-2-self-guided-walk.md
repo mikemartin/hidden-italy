@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776828171
+updated_at: 1777353321
 grade: 4
 summary: "Walk Italy's most celebrated coastline from romantic Sestri Levante to the Cinque Terre!"
 overview:
@@ -52,22 +52,32 @@ page_builder:
         id: mlooee34
         title: "Hike Italy's most celebrated coastline"
         summary: 'Hiking well-marked trails through forests and quiet fishing villages before hitting the breath-taking Cinque Terre.'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
+      -
+        id: 0bzkfKar62qNq6TG-Oga6
+        title: "Start and finish in two of Italy's most charming seaside towns"
+        summary: "Your starts in Sestri Levante and finishes in Portofino, two of the Italy's most charming and interesting seaside towns."
+        icon: culture-champagne.svg
       -
         id: mloog7vk
         title: 'Swim in the blue Mediterranean'
         summary: "You will rocky coves and some of northern Italy's best beaches, with plenty of opportunities to plunge into the sea."
-        icon: housing-house.svg
+        icon: water-sports-swimming.svg
       -
         id: mlooun08
         title: "Sample Liguria's celebrated cuisine"
         summary: "Liguria's simple and healthy cuisine is a masterful combination of the freshest local produce with the freshest seafood!"
-        icon: housing-house.svg
+        icon: gastronomy-spaghetti.svg
+      -
+        id: VvRv3xIve8BoWdW7xq8cI
+        title: 'Walk on coastal paths that time has forgotten'
+        summary: "The first two walks take you along a stretch of spectacular coastline where you won't see another hiker."
+        icon: nature-lake.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: culture-champagne.svg
+        icon: restaurant-glass-beverage-drink-restaurant-bar-dining.svg
     type: highlights
     enabled: true
   -
