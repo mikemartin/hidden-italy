@@ -7,7 +7,7 @@ tour_types: guided
 region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776750304
+updated_at: 1777350607
 grade: 4
 summary: 'A special tour to a fascinating region: 3 borders, 4 national parks; and five languages.'
 overview:
@@ -50,7 +50,7 @@ page_builder:
         id: mloqdoo9
         title: 'Discover the elegance of Udine'
         summary: 'Discover the secrets of Udine, an elegant provincial city with lane-ways, canals, fine food and a fascinating history.'
-        icon: geography-cartography-city.svg
+        icon: 'tourism-tour guide.svg'
       -
         id: mloqi0iy
         title: 'Stay in fabulous accommodation'
@@ -65,12 +65,17 @@ page_builder:
         id: mloqrnhn
         title: 'Walk incomparable trails'
         summary: 'Led by local guides enjoy a variety of beautiful walks: through mountain and valleys, and along along beautiful coasts.'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mm4fpvo1
         title: 'Enjoy sophisticated cuisine'
         summary: "A combination of Italian, Austrian and Slovenian traditions and top quality produce, yields some of Italy's finest food."
-        icon: housing-house.svg
+        icon: 'wine-wine bottle.svg'
+      -
+        id: js_5ne3PRsZOs4LH-5Cgf
+        title: "Discover Trieste, the region's wonderful capital"
+        summary: 'Staying in an historic 5-star, get to know this marvellous city with a guided tour and a harbourside farewell lunch'
+        icon: tourism-beach.svg
     type: highlights
     enabled: true
   -
