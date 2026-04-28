@@ -142,7 +142,7 @@
                                 aria-label="Go to slide {{ index | add:1 }}"
                                 @click="goTo({{ index }})"
                                 class="h-2 rounded-full transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-                                :class="current === {{ index }} ? 'w-6 bg-white' : 'w-2 bg-white/30 hover:bg-white/60'"
+                                :class="current === {{ index }} ? 'w-6 bg-gold' : 'w-2 bg-white/30 hover:bg-white/60'"
                             ></button>
                         {{ /tour_photos }}
                     </div>
