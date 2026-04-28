@@ -25,6 +25,31 @@ collections:
       - location
       - days
       - status
+    filters:
+      northern_italy:
+        display: 'Northern Italy'
+        filters:
+          fields:
+            locations:
+              operator: like
+              term:
+                - 'locations::northern-italy'
+      central_italy:
+        display: 'Central Italy'
+        filters:
+          fields:
+            locations:
+              operator: like
+              term:
+                - 'locations::central-italy'
+      southern_italy:
+        display: 'Southern Italy'
+        filters:
+          fields:
+            locations:
+              operator: like
+              term:
+                - 'locations::southern-italy'
   self-guided:
     view: list
     columns:
@@ -32,3 +57,28 @@ collections:
       - location
       - days
       - status
+    filters:
+      northern_italy:
+        display: 'Northern Italy'
+        filters:
+          fields:
+            locations:
+              operator: like
+              term:
+                - 'locations::northern-italy'
+      central_italy:
+        display: 'Central Italy'
+        filters:
+          fields:
+            locations:
+              operator: like
+              term:
+                - 'locations::central-italy'
+      southern_italy:
+        display: 'Southern Italy'
+        filters:
+          fields:
+            locations:
+              operator: like
+              term:
+                - 'locations::southern-italy'
