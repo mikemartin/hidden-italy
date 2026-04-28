@@ -1,0 +1,9 @@
+tree:
+  -
+    id: 49ffd6e4-e1ae-4b02-9932-469dbb05ebf2
+    title: 'Privacy Policy'
+    url: /privacy
+  -
+    id: 2f350040-15a3-4255-9f97-dad1990eae59
+    title: 'Terms & Conditions'
+    url: /terms

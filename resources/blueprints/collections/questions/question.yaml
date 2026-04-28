@@ -27,7 +27,8 @@ tabs:
                 - table
               link_collections:
                 - pages
-                - tours
+                - guided
+                - self-guided
               remove_empty_nodes: false
               type: bard
               display: Answer

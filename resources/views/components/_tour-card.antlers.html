@@ -1,0 +1,129 @@
+{{#
+    @name Tour card
+    @desc The reusable tour card. Renders inside any context that exposes
+          tour-entry fields directly (e.g. page-builder featured tours and
+          the /tours livewire-collection grid). Parchment surface with an
+          inset 16:9 image, the favourite heart over the photo, a chip row
+          for region + tour type, summary, an info row (duration / season /
+          grade), and an optional "next departure" line for guided tours.
+          The whole card is clickable via a stretched link; the heart sits
+          above on its own z-layer so it stays interactive.
+#}}
+
+<!-- /components/_tour-card.antlers.html -->
+<article class="group relative isolate h-full flex flex-col bg-card border border-parchment-200 rounded-xl shadow-sm overflow-hidden">
+
+    {{# Stretched link — covers the whole card for navigation, sits below
+        the heart so the favourite control stays clickable. #}}
+    <a
+        href="{{ url }}"
+        class="absolute inset-0 z-10 rounded-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+    >
+        <span class="sr-only">View {{ name }}</span>
+    </a>
+
+    {{# "Now open" diagonal ribbon — draped over top-left.
+        pointer-events-none keeps the stretched link clickable underneath. #}}
+    {{ if now_open }}
+        <div class="absolute -left-14 -top-11 z-30 w-52 h-40 flex items-center justify-center pointer-events-none">
+            <div class="-rotate-[34deg]">
+                <div class="bg-gold w-56 h-10 flex items-center justify-center rounded shadow-md">
+                    <span class="font-sans font-semibold text-foreground text-[13px] tracking-[0.26px] uppercase leading-none whitespace-nowrap">
+                        Now open
+                    </span>
+                </div>
+            </div>
+        </div>
+    {{ /if }}
+
+    {{# Image — 16:9, with a subtle dark wash via mix-blend-multiply. #}}
+    <div class="relative p-1">
+        <div class="relative w-full aspect-[16/9] rounded-lg overflow-hidden bg-neutral-900/15">
+            {{ if image }}
+                {{
+                    picture
+                    :image="image"
+                    class="absolute inset-0 w-full h-full object-cover mix-blend-multiply transition-transform duration-500 ease-out group-hover:scale-105"
+                    cover="true"
+                    sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                    loading="lazy"
+                }}
+            {{ else }}
+                <div class="absolute inset-0 flex items-center justify-center text-stone-400">
+                    <x-lucide-image class="w-12 h-12" aria-hidden="true" />
+                </div>
+            {{ /if }}
+
+            {{# Heart favourite — sits above the stretched link. #}}
+            <div class="absolute top-3 right-3 z-20">
+                {{ simple_like }}
+            </div>
+        </div>
+    </div>
+
+    {{# Content #}}
+    <div class="flex-1 flex flex-col justify-between gap-4 px-5 py-6">
+        <div class="flex flex-col gap-4">
+            {{# Location chip + title + summary stack tightly together. #}}
+            <div class="flex flex-col gap-2">
+                {{# Region label + Guided / Self-guided collection badge. #}}
+                <div class="flex items-center justify-between gap-3">
+                    {{ if region }}
+                        <span class="text-xs font-semibold uppercase tracking-[0.08em] text-text">{{ region }}</span>
+                    {{ /if }}
+                    <span class="bg-parchment-200 px-2 py-0.5 rounded-full text-[13px] text-accent-2 leading-tight">
+                        {{ if {collection:handle} == 'guided' }}Guided{{ elseif {collection:handle} == 'self-guided' }}Self-guided{{ /if }}
+                    </span>
+                </div>
+
+                {{ partial:typography/h4 :content="name" color="text-foreground" }}
+
+                {{ if summary }}
+                    {{ partial:typography/p_small :content="summary" color="text-text" class="!mb-0" }}
+                {{ /if }}
+            </div>
+
+            {{# Info icons row — duration, season, grade #}}
+            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-foreground">
+                {{ if days }}
+                    <span class="inline-flex items-center gap-2">
+                        <x-lucide-clock class="size-5 text-accent-2 shrink-0" stroke-width="1.5" aria-hidden="true" />
+                        <span class="text-base">{{ days }} {{ days == 1 ? 'day' : 'days' }}</span>
+                    </span>
+                {{ /if }}
+
+                {{ if seasons }}
+                    <span class="inline-flex items-center gap-2">
+                        {{ if {seasons:slug} == 'spring' }}
+                            <x-lucide-flower class="size-5 text-accent-2 shrink-0" stroke-width="1.5" aria-hidden="true" />
+                        {{ elseif {seasons:slug} == 'summer' }}
+                            <x-lucide-sun class="size-5 text-accent-2 shrink-0" stroke-width="1.5" aria-hidden="true" />
+                        {{ elseif {seasons:slug} == 'autumn' || {seasons:slug} == 'fall' }}
+                            <x-lucide-leaf class="size-5 text-accent-2 shrink-0" stroke-width="1.5" aria-hidden="true" />
+                        {{ elseif {seasons:slug} == 'winter' }}
+                            <x-lucide-snowflake class="size-5 text-accent-2 shrink-0" stroke-width="1.5" aria-hidden="true" />
+                        {{ else }}
+                            <x-lucide-sun class="size-5 text-accent-2 shrink-0" stroke-width="1.5" aria-hidden="true" />
+                        {{ /if }}
+                        <span class="text-base">{{ seasons:title }}</span>
+                    </span>
+                {{ /if }}
+
+                {{ if grade }}
+                    <span class="inline-flex items-center gap-2">
+                        <x-lucide-footprints class="size-5 text-accent-2 shrink-0" stroke-width="1.5" aria-hidden="true" />
+                        <span class="text-base">Grade {{ grade }} / 5</span>
+                    </span>
+                {{ /if }}
+            </div>
+        </div>
+
+        {{# Bottom info — next departure for guided tours, otherwise nothing. #}}
+        {{ if date }}
+            <p class="text-base text-text mt-2">
+                Next departure: {{ date | format:'j M Y' }}
+            </p>
+        {{ /if }}
+    </div>
+</article>
+<!-- End: /components/_tour-card.antlers.html -->

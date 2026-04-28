@@ -5,7 +5,7 @@ tabs:
     sections:
       -
         display: 'Alternative text'
-        instructions: "Alt texts are important for users who depend on assistive technology."
+        instructions: 'Alt texts are important for users who depend on assistive technology.'
         fields:
           -
             handle: alt
@@ -19,13 +19,18 @@ tabs:
             handle: exempt_from_alt
             field:
               inline_label: "This image doesn't need an alt text."
-              default: false
               type: toggle
               display: Exempt
-              icon: toggle
-              listable: hidden
               instructions_position: below
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
               instructions: "When enabled, this image won't show up in the control panel dashboard as an image that misses alt text. Images without an alt text will automatically be hidden for screen readers."
+      -
+        display: Caption
+        instructions: 'Optional caption used by templates that surface a label — typically the location where the photo was taken.'
+        fields:
+          -
+            handle: caption
+            field:
+              type: text
+              display: Caption
+              instructions: "e.g. 'Palermo to Taormina, Sicily'."
+              listable: false

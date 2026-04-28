@@ -68,4 +68,7 @@ return [
     'next' => 'next',
     'of' => 'of',
     'previous' => 'previous',
+
+    // Request booking
+    'request_booking' => 'Request booking',
 ];

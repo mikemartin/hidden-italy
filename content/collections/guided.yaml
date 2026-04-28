@@ -1,0 +1,20 @@
+title: 'Guided Tours'
+icon: travel-map
+template: tours/show
+layout: layout
+mount: 46b6b124-89cf-4efb-b06a-cdb4d28312ba
+taxonomies:
+  - seasons
+  - locations
+revisions: false
+title_format: '{region} - {name}'
+route: '/tours/guided/{slug}'
+sort_dir: asc
+date_behavior:
+  past: null
+  future: null
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

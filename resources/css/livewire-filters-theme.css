@@ -1,20 +1,30 @@
 @theme {
-    --color-lf-accent: var(--color-sky-700); /* Main accent color */
+    --color-lf-accent: var(--color-gold); /* Main accent color — gold for focus + chevron */
     --color-lf-subtle:  color-mix(in oklab, var(--color-gray-900) 5%, transparent); /* Lighter color */
     --color-lf-text: var(--color-gray-900); /* Main text color */
     --color-lf-muted: var(--color-gray-500); /* Muted/secondary text color */
     --color-lf-input-bg: var(--color-gray-50); /* Background of input elements */
 
 
-    --color-lf-border: var(--color-gray-300); /* Border color */
+    --color-lf-border: var(--color-parchment-300); /* Border color */
     --lf-border-width: 1px; /* Main border width */
-    --radius-lf: var(--radius-lg); /* Border radius */
+    --radius-lf: var(--radius-xl); /* Border radius */
     --radius-lf-sm: var(--radius-sm); /* Border radius for checkboxes and smaller items */
 
 
-    --text-lf: var(--text-sm); /* Main text size */
+    --text-lf: var(--text-base); /* Main text size — matches label.large */
 
     --spacing-lf: calc(var(--spacing) * 2.5);
     --spacing-lf-icon: calc(var(--spacing) * 10);
+
+}
+
+@layer components {
+    /* Recolour the @tailwindcss/forms select chevron to our gold accent.
+       The plugin paints a hard-coded gray SVG via background-image; we
+       override it with the same chevron stroked in #e2ae4d (--color-gold). */
+    .form-select {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='%23e2ae4d'%3e%3cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+    }
 
 }

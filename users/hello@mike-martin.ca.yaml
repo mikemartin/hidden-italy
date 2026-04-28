@@ -19,6 +19,62 @@ preferences:
       view: list
     pages:
       view: tree
+    guided:
+      view: list
+      filters:
+        northern_italy:
+          display: 'Northern Italy'
+          filters:
+            fields:
+              locations:
+                operator: like
+                term:
+                  - 'locations::northern-italy'
+        central_italy:
+          display: 'Central Italy'
+          filters:
+            fields:
+              locations:
+                operator: like
+                term:
+                  - 'locations::central-italy'
+        southern_italy:
+          display: 'Southern Italy'
+          filters:
+            fields:
+              locations:
+                operator: like
+                term:
+                  - 'locations::southern-italy'
+    self-guided:
+      view: list
+      filters:
+        northern_italy:
+          display: 'Northern Italy'
+          filters:
+            fields:
+              locations:
+                operator: like
+                term:
+                  - 'locations::northern-italy'
+        central_italy:
+          display: 'Central Italy'
+          filters:
+            fields:
+              locations:
+                operator: like
+                term:
+                  - 'locations::central-italy'
+        southern_italy:
+          display: 'Southern Italy'
+          filters:
+            fields:
+              locations:
+                operator: like
+                term:
+                  - 'locations::southern-italy'
   assets:
     icons:
+      mode: grid
+    assets:
       mode: grid

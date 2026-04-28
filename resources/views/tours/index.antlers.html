@@ -1,20 +1,28 @@
 {{#
     @name Tours Index
-    @desc The tours listing page. Wraps the Livewire-powered collection and filters in Peak's fluid-grid layout.
+    @desc Listing template shared by /tours, /guided, and /self-guided. Each
+          page entry sets `tour_collections` in its front matter to scope
+          the listing — `guided`, `self-guided`, or the pipe-joined
+          `guided|self-guided` for the combined index.
+
+          The whole page sits on a parchment-100 surface with the topographic
+          decoration anchored to the top corners so the pattern carries
+          through the page header and on behind the tour-card grid.
 #}}
 
 <!-- /tours/index.antlers.html -->
-<main id="content" class="py-12 md:py-16 lg:py-24">
-    <section class="fluid-grid">
+<main id="content" class="relative isolate overflow-hidden bg-parchment-100">
+    {{ partial:components/topographic }}
+
+    {{ if headline }}
+        {{ partial:components/page_header }}
+    {{ /if }}
+
+    <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
         <div id="livewire-collection" class="span-content stack-16">
-
-            {{# Page header #}}
-            {{ partial:typography/h1 content="Discover Our Walking Tours" class="!mb-0" }}
-
             {{ partial:components/tour-filters }}
 
-            {{ livewire-collection:tours paginate="12" scrollTo="#livewire-collection" }}
-
+            {{ livewire-collection :from="tour_collections" paginate="50" scrollTo="#livewire-collection" }}
         </div>
     </section>
 </main>

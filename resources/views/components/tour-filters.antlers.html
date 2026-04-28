@@ -1,16 +1,16 @@
-<div class="grid grid-cols-4 items-center gap-3 lg:gap-5 mb-4 xl:mb-8">
+{{#
+    @name Tour filters
+    @desc Filter row above the tours grid. Locations / Seasons / Grade.
+          Tour-type filtering is now expressed through the URL (the /guided
+          and /self-guided routes scope the listing to a single collection),
+          so there's no in-page type filter.
+#}}
+
+<div class="grid grid-cols-3 items-center gap-3 lg:gap-5 mb-4 xl:mb-8">
     <div>
-        <div class="mb-2 font-bold">Type of Walk</div>
-        {{ livewire:lf-select-filter
-            blueprint="tours.tour"
-            field="tour_types"
-            condition="taxonomy"
-        }}
-    </div>
-    <div>
-        <div class="mb-2 font-bold">Locations</div>
+        {{ partial:typography/label as="div" large="true" color="text-text" content="Locations" class="mb-2" }}
         {{ livewire:lf-checkbox-filter
-            blueprint="tours.tour"
+            blueprint="guided.tour"
             field="locations"
             condition="taxonomy"
             view="lf-checkbox-advanced"
@@ -18,9 +18,9 @@
         }}
     </div>
     <div>
-        <div class="mb-2 font-bold">Seasons (months)</div>
+        {{ partial:typography/label as="div" large="true" color="text-text" content="Seasons (months)" class="mb-2" }}
         {{ livewire:seasons-checkbox-filter
-            blueprint="tours.tour"
+            blueprint="guided.tour"
             field="seasons"
             condition="taxonomy"
             view="lf-checkbox-advanced"
@@ -28,9 +28,9 @@
         }}
     </div>
     <div>
-        <div class="mb-2 font-bold">Walking grade</div>
+        {{ partial:typography/label as="div" large="true" color="text-text" content="Walking grade" class="mb-2" }}
         {{ livewire:query-scope-checkbox-filter
-            blueprint="tours.tour"
+            blueprint="guided.tour"
             field="filter_grade"
             condition="query_scope"
             modifier="walking_grade"

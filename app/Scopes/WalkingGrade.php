@@ -2,6 +2,7 @@
 
 namespace App\Scopes;
 
+use Statamic\Query\Builder;
 use Statamic\Query\Scopes\Filter;
 
 class WalkingGrade extends Filter
@@ -39,15 +40,15 @@ class WalkingGrade extends Filter
                     'intermediate' => 'Intermediate (2-3)',
                     'challenging' => 'Challenging (3-5)',
                 ],
-            ]
+            ],
         ];
     }
 
     /**
      * Apply the filter.
      *
-     * @param \Statamic\Query\Builder $query
-     * @param array $values
+     * @param  Builder  $query
+     * @param  array  $values
      * @return void
      */
     public function apply($query, $values)
@@ -93,7 +94,7 @@ class WalkingGrade extends Filter
     /**
      * Define the applied filter's badge text.
      *
-     * @param array $values
+     * @param  array  $values
      * @return string
      */
     public function badge($values)
@@ -109,12 +110,11 @@ class WalkingGrade extends Filter
     /**
      * Determine when the filter is shown.
      *
-     * @param string $key
+     * @param  string  $key
      * @return bool
      */
     public function visibleTo($key)
     {
-        return $key === 'entries' && $this->context['collection'] == 'tours';
-
+        return $key === 'entries' && in_array($this->context['collection'] ?? null, ['guided', 'self-guided'], true);
     }
 }

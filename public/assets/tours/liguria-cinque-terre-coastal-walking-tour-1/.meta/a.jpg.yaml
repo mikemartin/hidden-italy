@@ -1,4 +1,5 @@
-data: {  }
+data:
+  caption: 'Positano, Amalfi Coast'
 size: 2234546
 last_modified: 1774155313
 width: 3000

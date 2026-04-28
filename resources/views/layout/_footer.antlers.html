@@ -1,31 +1,123 @@
 {{#
     @name Footer
-    @desc The sites footer rendered on each page.
+    @desc Site footer. Pulls navs from `footer_tours`, `footer_explore`,
+          `footer_legal` and contact details + newsletter copy from the
+          `contact` global. Social icons come from the `social_media` global.
 #}}
 
 <!-- /layout/_footer.antlers.html -->
-<footer class="fluid-grid py-4 mt-auto">
-    <div class="span-content flex flex-col gap-4 md:flex-row md:justify-between md:items-center">
-        <div class="flex flex-col gap-4 md:flex-row text-xs font-bold">
-            <span>
-                &copy; {{ configuration:copyright_since }}
-                {{ unless (now | format('Y')) == configuration:copyright_since }}
-                    - {{ now | format('Y') }}
-                    {{ /unless }}
-                {{ configuration:copyright_name ?? config:app:name }}
-            </span>
+<footer class="bg-background text-parchment-100 mt-auto">
+    <div class="fluid-grid py-16 lg:py-24">
+        <div class="span-content flex flex-col gap-12 lg:gap-16">
 
-            {{# Let's users reset consent when you use the consent banner. #}}
+            {{# ============ Top: newsletter + nav columns ============ #}}
+            <div class="flex flex-col lg:flex-row gap-12 lg:gap-9">
+
+                {{# Newsletter #}}
+                <div class="flex flex-col gap-5 lg:basis-[486px] lg:shrink-0">
+                    <header class="flex flex-col gap-4">
+                        <p class="font-display font-semibold text-[21px] leading-[1.25]">{{ contact:newsletter_heading ?? 'Subscribe to our Newsletter' }}</p>
+                        <p class="text-[17px] leading-[1.5]">{{ contact:newsletter_text | nl2br }}</p>
+                    </header>
+
+                    {{# Sign-up form. Wire `action` to a Statamic Form or a third-party
+                        endpoint when the newsletter integration is ready. #}}
+                    <form action="#" method="post" class="w-full max-w-[360px]">
+                        <label class="sr-only" for="footer-newsletter-email">Email address</label>
+                        <div class="flex items-stretch bg-accent-light rounded-full border border-background overflow-hidden p-1">
+                            <input
+                                id="footer-newsletter-email"
+                                name="email"
+                                type="email"
+                                required
+                                placeholder="Enter your email"
+                                class="flex-1 bg-transparent px-4 py-3 text-parchment-100 text-[18px] outline-none placeholder:text-parchment-100/80"
+                            >
+                            <button
+                                type="submit"
+                                class="shrink-0 size-10 inline-flex items-center justify-center rounded-full bg-gold text-background hover:bg-gold/90 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-parchment-100"
+                                aria-label="Subscribe"
+                            >
+                                <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                {{# Nav columns #}}
+                <div class="flex flex-col sm:flex-row flex-wrap lg:flex-nowrap gap-9 lg:gap-9 lg:flex-1">
+                    {{ partial:layout/footer_nav handle="footer_tours" heading="Tours" }}
+                    {{ partial:layout/footer_nav handle="footer_explore" heading="Explore" }}
+
+                    {{# "Get in touch" — built from the `contact` global rather than a nav. #}}
+                    <div class="flex flex-col gap-2 sm:basis-[170px] lg:basis-auto lg:flex-1">
+                        <p class="font-display font-semibold uppercase text-xs tracking-[0.08em] text-gold leading-[1.5] h-8">Get in touch</p>
+
+                        {{ if contact:email }}
+                            <a href="mailto:{{ contact:email }}" class="text-[15px] leading-[1.5] hover:text-gold transition-colors">
+                                {{ contact:email }}
+                            </a>
+                        {{ /if }}
+
+                        {{ if contact:phones }}
+                            <div class="text-[15px] leading-[1.5]">
+                                {{ contact:phones }}
+                                    <div>{{ label }} {{ number }}</div>
+                                {{ /contact:phones }}
+                            </div>
+                        {{ /if }}
+
+                        {{ if contact:address }}
+                            <p class="text-[15px] leading-[1.5]">{{ contact:address | nl2br }}</p>
+                        {{ /if }}
+
+                        {{# Social icons — from the existing social_media global. #}}
+                        {{ if social_media:social_media }}
+                            <div class="flex gap-3 items-center pt-5">
+                                {{ social_media:social_media }}
+                                    <a
+                                        href="{{ prefix }}{{ handle }}"
+                                        rel="noopener{{ type == 'mastodon' ?= ' me' }}"
+                                        target="_blank"
+                                        aria-label="{{ config:app:name }} {{ trans:strings.on }} {{ type | title }}"
+                                        class="text-parchment-100 hover:text-gold transition-colors"
+                                    >
+                                        {{ svg :src="type" attr:class="size-6 fill-current" attr:alt="" attr:aria-hidden="true" }}
+                                    </a>
+                                {{ /social_media:social_media }}
+                            </div>
+                        {{ /if }}
+                    </div>
+                </div>
+            </div>
+
+            {{# ============ Decorative giant wordmark ============ #}}
+            <div
+                class="footer-wordmark hidden lg:block w-full text-accent-light"
+                role="presentation"
+                aria-hidden="true"
+            ></div>
+
+            {{# ============ Bottom row: legal + copyright ============ #}}
+            <div class="flex flex-col-reverse md:flex-row md:items-center md:justify-between gap-4 text-[15px] text-parchment-100/90">
+                <div class="flex flex-wrap gap-x-6 gap-y-2">
+                    {{ nav:footer_legal }}
+                        <a href="{{ url }}" class="hover:text-gold transition-colors">{{ title }}</a>
+                    {{ /nav:footer_legal }}
+                </div>
+
+                <p>
+                    &copy; {{ configuration:copyright_since }}
+                    {{ unless (now | format('Y')) == configuration:copyright_since }}
+                        - {{ now | format('Y') }}
+                    {{ /unless }}
+                    {{ configuration:copyright_name ?? config:app:name }}. All rights reserved.
+                </p>
+            </div>
+
+            {{# Cookie consent reset, if the consent banner is enabled. #}}
             {{ yield:reset_consent }}
         </div>
-
-        {{ if social_media:social_media }}
-            <div class="flex">
-                {{ social_media:social_media }}
-                    <a class="p-1 text-neutral" href="{{ prefix }}{{ handle }}" rel="noopener{{ type == 'mastodon' ?= ' me' }}" aria-label="{{ config:app:name }} {{ trans:strings.on }} {{ type | title }}" target="_blank">{{ svg :src="type" attr:class="w-4 h-4 overflow-visible fill-current" attr:alt="" attr:aria-hidden="true" }}</a>
-                {{ /social_media:social_media }}
-            </div>
-        {{ /if }}
     </div>
 </footer>
 <!-- End: /layout/_footer.antlers.html -->

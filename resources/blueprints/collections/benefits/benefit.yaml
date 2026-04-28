@@ -1,0 +1,43 @@
+title: Benefit
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+              display: Title
+              instructions: "Short label (e.g. 'Exceptional walking')."
+          -
+            handle: icon
+            field:
+              container: icons
+              max_files: 1
+              type: assets
+              display: Icon
+              instructions: "Pick an icon from the Icons asset container."
+              validate:
+                - required
+          -
+            handle: description
+            field:
+              type: textarea
+              display: Description
+              instructions: "One or two sentences explaining the benefit."
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'

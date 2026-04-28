@@ -1,0 +1,27 @@
+title: Hero
+fields:
+  -
+    handle: headline
+    field:
+      type: text
+      localizable: true
+      display: Headline
+      instructions: 'Main headline overlaid on the hero image.'
+      validate:
+        - required
+  -
+    handle: buttons
+    field: buttons.buttons
+    config:
+      display: 'Call to action'
+      max_sets: 2
+  -
+    handle: tour_photos
+    field:
+      collections:
+        - guided
+        - self-guided
+      max_items: 4
+      type: entries
+      display: 'Tour Photos'
+      instructions: "Pick up to 4 tours. Each tour becomes one slide of the hero carousel — its main photo is the slide image and the tour's region is shown as the location label below it. Order here is the order they appear in the slider."

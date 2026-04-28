@@ -1,0 +1,32 @@
+---
+transparent_header: true
+---
+{{#
+    @name Tour show
+    @desc Single tour entry. The tour banner header sits at the top — region
+          label + tour name + a map-pin location row — followed by the entry's
+          page-builder blocks. `transparent_header` is set in the front matter
+          so the fixed site header overlays the banner and fades to the brand
+          colour past 20px of scroll.
+#}}
+
+<!-- /tours/show.antlers.html -->
+{{ partial:components/tour_banner
+    :region="region"
+    :title="name"
+    :start="start_location"
+    :finish="finish_location"
+    :image="image"
+    eager="true"
+}}
+    <a href="#book" class="button button--hero button--large">
+        <span>{{ trans:strings.request_booking ?? 'Request Booking' }}</span>
+    </a>
+{{ /partial:components/tour_banner }}
+
+<main class="page-builder" id="content">
+    {{ page_builder scope="block" }}
+        {{ partial src="page_builder/{type}" }}
+    {{ /page_builder }}
+</main>
+<!-- End: /tours/show.antlers.html -->

@@ -1,0 +1,55 @@
+{{#
+    @name Announcement banner
+    @desc Site-wide promo strip driven by the `announcement_banner` global.
+          Reads `enabled`, `text`, `dismissible` and an optional `button` replicator.
+#}}
+
+{{ announcement_banner }}
+    {{ if enabled && text }}
+        <!-- /layout/_announcement_banner.antlers.html -->
+        <aside
+            role="region"
+            aria-label="{{ trans:strings.announcement ?? 'Announcement' }}"
+            class="w-full bg-stone-100 text-stone-800 text-sm border-b border-stone-200"
+            {{ if dismissible }}
+                x-data="{
+                    key: 'announcement_banner::{{ text | md5 }}',
+                    dismissed: false,
+                    init() { this.dismissed = localStorage.getItem(this.key) === '1'; },
+                    dismiss() { this.dismissed = true; localStorage.setItem(this.key, '1'); }
+                }"
+                x-show="!dismissed"
+                x-cloak
+            {{ /if }}
+        >
+            <div class="fluid-grid">
+                <div class="span-content flex items-center justify-center gap-3 py-3 min-h-[56px] relative">
+                    {{ if button }}
+                        {{ button | first }}
+                            <a
+                                class="text-center font-medium hover:underline underline-offset-4"
+                                {{ partial:statamic-peak-tools::snippets/button_attributes }}
+                            >
+                                {{ text }}
+                            </a>
+                        {{ /button }}
+                    {{ else }}
+                        <span class="text-center font-medium">{{ text }}</span>
+                    {{ /if }}
+
+                    {{ if dismissible }}
+                        <button
+                            type="button"
+                            class="absolute right-4 p-1 text-stone-500 hover:text-stone-800 focus-visible:outline-2 focus-visible:outline-offset-2"
+                            aria-label="{{ trans:strings.dismiss ?? 'Dismiss announcement' }}"
+                            @click="dismiss()"
+                        >
+                            <x-lucide-x class="w-4 h-4" />
+                        </button>
+                    {{ /if }}
+                </div>
+            </div>
+        </aside>
+        <!-- End: /layout/_announcement_banner.antlers.html -->
+    {{ /if }}
+{{ /announcement_banner }}

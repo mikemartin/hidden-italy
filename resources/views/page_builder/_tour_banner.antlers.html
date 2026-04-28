@@ -1,0 +1,22 @@
+{{#
+    @name Tour banner
+    @desc Page-builder wrapper for the tour banner component. Pulls the region,
+          heading, location and image from block data and renders the configured
+          buttons inside the CTA slot.
+    @set page.page_builder.tour_banner
+#}}
+
+<!-- /page_builder/_tour_banner.antlers.html -->
+{{ partial:components/tour_banner
+    :region="block:region"
+    :title="block:heading"
+    :location="block:location"
+    :image="block:image"
+}}
+    {{ if block:buttons }}
+        {{ block:buttons }}
+            {{ partial:components/button class="button--hero button--large" }}
+        {{ /block:buttons }}
+    {{ /if }}
+{{ /partial:components/tour_banner }}
+<!-- End: /page_builder/_tour_banner.antlers.html -->

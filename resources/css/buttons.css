@@ -37,4 +37,39 @@
             @apply min-w-fit font-bold text-current underline decoration-primary focus:outline-primary;
         }
     }
+
+    /* Outline variant — transparent fill with a coloured border. Pair with a
+       colour modifier (e.g. .button--gold) to set the border and text colour. */
+    .button.button--outline {
+        @apply bg-transparent border-2 motion-safe:transition focus:outline-gold;
+
+        span {
+            @apply text-current;
+        }
+    }
+
+    .button.button--gold {
+        @apply border-gold text-white hover:border-white;
+    }
+
+    /* Pair with .button--gold when the button sits on a light surface — keeps
+       the gold border but uses dark text + a dark hover border. */
+    .button.button--gold.button--on-light {
+        @apply text-foreground hover:border-foreground;
+    }
+
+    /* Solid blue button — uses the lighter accent blue, deeper on hover.
+       Designed to sit on the deep-blue background of the Tour Types section. */
+    .button.button--accent-light {
+        @apply bg-accent-light text-white border-0 hover:bg-blue-700 focus:outline-gold;
+    }
+
+    /* Hero CTA — solid white pill with dark text on mobile, gold-outline on
+       desktop. Used by the homepage hero and the tour banner block where the
+       button sits on a full-bleed image. */
+    .button.button--hero {
+        @apply bg-white text-neutral-900 border-0 hover:bg-white/90
+               lg:bg-transparent lg:text-white lg:border-2 lg:border-gold lg:hover:bg-gold/20 lg:hover:border-white
+               focus:outline-gold;
+    }
 }

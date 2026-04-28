@@ -1,35 +1,34 @@
 nav:
   content:
+    'content::collections':
+      action: '@modify'
+      reorder:
+        - 'content::collections::pages'
+        - 'content::collections::guided_tours'
+        - 'content::collections::self_guided_tours'
+        - 'content::collections::benefits'
+        - 'content::collections::people'
     'content::assets':
       action: '@modify'
-      reorder: true
-      children:
-        'content::assets::images': '@inherit'
-        'content::assets::files': '@inherit'
-        'content::assets::social_images': '@inherit'
+      reorder:
+        - 'content::assets::images'
+        - 'content::assets::files'
+        - 'content::assets::social_images'
+        - 'content::assets::assets'
+        - 'content::assets::favicons'
+        - 'content::assets::icons'
 collections:
-  tours:
+  guided:
     view: list
     columns:
       - title
       - location
       - days
-      - tour_types
       - status
-    filters:
-      guided:
-        display: Guided
-        filters:
-          fields:
-            tour_types:
-              operator: like
-              term:
-                - 'tour_types::guided'
-      self_guided:
-        display: Self-guided
-        filters:
-          fields:
-            tour_types:
-              operator: like
-              term:
-                - 'tour_types::self-guided'
+  self-guided:
+    view: list
+    columns:
+      - title
+      - location
+      - days
+      - status

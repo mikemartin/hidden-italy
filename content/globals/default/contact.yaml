@@ -1,0 +1,20 @@
+email: info@hiddenitaly.com.au
+address: |
+  20 – 40 Meagher Street,
+  Chippendale, Sydney NSW, 2008
+  (by appointment only)
+phones:
+  -
+    id: phone_guided
+    type: phone
+    enabled: true
+    label: 'Guided Tours'
+    number: '+61 457 427 472'
+  -
+    id: phone_self_guided
+    type: phone
+    enabled: true
+    label: 'Self-guided Tours'
+    number: '+61 420 981 435'
+newsletter_heading: 'Subscribe to our Newsletter'
+newsletter_text: "Sign up to get travel tips and inspiration delivered right to your inbox."

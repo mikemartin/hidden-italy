@@ -1,6 +1,7 @@
-data: {  }
+data:
+  caption: 'Monte Moro Pass, Macugnaga'
 size: 1354481
-last_modified: 1768626080
+last_modified: 1777042519
 width: 3000
 height: 2250
 mime_type: image/jpeg

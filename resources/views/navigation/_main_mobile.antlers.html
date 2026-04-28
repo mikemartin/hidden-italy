@@ -5,26 +5,26 @@
 
 <!-- /navigation/_main_mobile.antlers.html -->
 <nav
-    x-data="{ mobileNavOpen: false }"
-    class="md:hidden"
+    class="lg:hidden"
     aria-label="{{ trans:strings.main_navigation_mobile }}"
-    x-trap.inert.noscroll.noautofocus="mobileNavOpen"
-    @keyup.escape.stop.prevent="mobileNavOpen = false"
+    x-trap.inert.noscroll.noautofocus="$store.nav.mobileOpen"
+    @keyup.escape.stop.prevent="$store.nav.close()"
     x-cloak
 >
-    <button
-        @click.prevent.stop="mobileNavOpen = !mobileNavOpen"
-        class="fixed bottom-0 right-0 z-30 flex items-center justify-center w-16 h-16 mr-8 text-xs font-bold text-white mb-safe rounded-sm bg-primary"
-        :aria-label="mobileNavOpen ? '{{ trans:strings.nav_close }}' : '{{ trans:strings.nav_open }}'"
-        :aria-expanded="mobileNavOpen"
-        x-text="mobileNavOpen ? '{{ trans:strings.close }}' : '{{ trans:strings.menu }}'"
-    ></button>
-
     <div
-        class="fixed inset-0 z-20 pt-8 px-8 pb-12 flex flex-col justify-end bg-white"
-        x-show="mobileNavOpen"
+        class="fixed inset-0 z-40 pt-8 px-8 pb-12 flex flex-col justify-end bg-white"
+        x-show="$store.nav.mobileOpen"
         x-transition.origin.bottom.right
     >
+        <button
+            type="button"
+            @click="$store.nav.close()"
+            aria-label="{{ trans:strings.nav_close }}"
+            class="absolute top-4 right-4 inline-flex items-center justify-center w-11 h-11 rounded-full text-neutral hover:bg-neutral-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+        >
+            <x-lucide-x class="size-6" stroke-width="1.75" aria-hidden="true" />
+        </button>
+
         <ul class="flex flex-col py-2 gap-y-4 overflow-auto">
             {{ nav:main max_depth="2" include_home="true" select="title|url" }}
                 {{ unless no_results }}

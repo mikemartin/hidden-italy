@@ -1,0 +1,85 @@
+{{#
+    @name Featured tours
+    @desc Horizontally-scrolling carousel of tour cards. Mobile shows one
+          card at a time with dot pagination; desktop shows three with
+          prev/next arrow buttons in the header (replacing the old
+          "View all" link). Up to 6 tours can live in the track; CSS
+          scroll-snap powers swipe + arrow nav (Alpine just toggles the
+          scroll position).
+          Each card has a parchment surface, inset 16:9 image with a warm wash,
+          location + tour-type chip header, summary, and an amber info row.
+          Whole card is clickable via a stretched link; the favourite heart
+          sits above and remains independently interactive.
+    @set page.page_builder.featured_tours
+#}}
+
+<!-- /page_builder/_featured_tours.antlers.html -->
+{{ if block:tours }}
+    <section
+        class="fluid-grid gap-y-10 md:gap-y-16"
+        x-data="tours_carousel({ count: {{ block:tours | count }} })"
+    >
+        <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            {{ partial:typography/h2 :content="block:heading" class="!mb-0 uppercase md:normal-case" color="text-foreground" }}
+
+            {{# Desktop prev/next arrows — only when there's something to scroll to. #}}
+            {{ if block:tours | count > 3 }}
+                <div class="hidden md:flex items-center gap-4 self-start md:self-auto">
+                    <button
+                        type="button"
+                        @click="prev()"
+                        aria-label="Previous tour"
+                        class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                    >
+                        <x-lucide-arrow-left class="size-5" stroke-width="2" aria-hidden="true" />
+                    </button>
+                    <button
+                        type="button"
+                        @click="next()"
+                        aria-label="Next tour"
+                        class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                    >
+                        <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />
+                    </button>
+                </div>
+            {{ /if }}
+        </header>
+
+        {{# Scroll-snap track. Each cell is full-width on mobile, 1/3 on desktop. #}}
+        <div class="span-content relative">
+            <ul
+                x-ref="track"
+                @scroll.debounce.100ms="syncFromScroll()"
+                class="flex overflow-x-auto snap-x snap-mandatory scroll-smooth no-scrollbar items-stretch -mx-3 md:-mx-[18px] py-3"
+            >
+                {{ block:tours }}
+                    <li class="snap-start shrink-0 basis-full md:basis-1/3 px-3 md:px-[18px]">
+                        {{ partial:components/tour-card }}
+                    </li>
+                {{ /block:tours }}
+            </ul>
+
+            {{# Dot pagination — mobile only. #}}
+            {{ if block:tours | count > 1 }}
+                <div
+                    role="tablist"
+                    aria-label="Choose tour"
+                    class="md:hidden flex justify-center gap-2 mt-6"
+                >
+                    <template x-for="i in count" :key="i">
+                        <button
+                            type="button"
+                            role="tab"
+                            :aria-selected="current === (i - 1)"
+                            :aria-label="'Go to tour ' + i"
+                            @click="goTo(i - 1)"
+                            class="h-2 rounded-full transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                            :class="current === (i - 1) ? 'w-6 bg-foreground' : 'w-2 bg-foreground/30 hover:bg-foreground/60'"
+                        ></button>
+                    </template>
+                </div>
+            {{ /if }}
+        </div>
+    </section>
+{{ /if }}
+<!-- End: /page_builder/_featured_tours.antlers.html -->

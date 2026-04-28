@@ -26,7 +26,8 @@ tabs:
             handle: tour
             field:
               collections:
-                - tours
+                - guided
+                - self-guided
               mode: select
               max_items: 1
               type: entries

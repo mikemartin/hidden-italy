@@ -18,6 +18,48 @@ tabs:
               validate:
                 - required
       -
+        display: 'Page header'
+        instructions: 'Optional header section with breadcrumb, headline and description. Rendered when “Headline” is set.'
+        fields:
+          -
+            handle: headline
+            field:
+              type: text
+              localizable: true
+              listable: hidden
+              display: Headline
+              instructions: 'Marketing-friendly title shown in the page header. If empty, the page header is not rendered.'
+          -
+            handle: description
+            field:
+              type: textarea
+              localizable: true
+              listable: hidden
+              display: Description
+              instructions: 'Short intro paragraph shown beneath the page-header headline.'
+          -
+            handle: header_variant
+            field:
+              type: button_group
+              default: standard
+              localizable: true
+              listable: hidden
+              display: Variant
+              instructions: '“Large” centres the content, ramps up the type, and adds the parchment topographic background — used on the About page.'
+              options:
+                standard: Standard
+                large: Large
+          -
+            handle: card_image
+            field:
+              type: assets
+              container: assets
+              max_files: 1
+              localizable: true
+              listable: hidden
+              display: 'Card image'
+              instructions: 'Background image used when this page is referenced as a card (e.g. the homepage Tour types block).'
+      -
         display: 'Page builder'
         fields:
           -

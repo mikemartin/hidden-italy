@@ -1,0 +1,39 @@
+title: 'CTA banner'
+fields:
+  -
+    handle: heading
+    field:
+      type: text
+      localizable: true
+      display: Heading
+      instructions: 'Large headline overlaid on the banner image.'
+      validate:
+        - required
+  -
+    handle: image
+    field:
+      container: assets
+      folder: cta
+      max_files: 1
+      type: assets
+      localizable: true
+      display: 'Background image'
+      instructions: 'Full-bleed landscape image.'
+      validate:
+        - required
+  -
+    handle: overlay
+    field:
+      type: toggle
+      localizable: true
+      display: 'Dark overlay'
+      default: true
+      instructions: 'Darken the image to keep the text readable.'
+  -
+    handle: buttons
+    field: buttons.buttons
+    config:
+      display: 'Call to action'
+      max_sets: 2
+      validate:
+        - required

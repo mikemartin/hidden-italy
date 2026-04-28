@@ -45,3 +45,57 @@ fields:
               fields:
                 -
                   import: cards
+        home:
+          display: 'Marketing sections'
+          instructions: 'Hero, intro, feature grids and CTA blocks used on the homepage and other landing pages.'
+          icon: scenery
+          sets:
+            tour_banner:
+              display: 'Tour banner'
+              instructions: 'Full-bleed 700px banner with region label, headline, CTA and a map-pin location row.'
+              icon: hero-image-above-text
+              fields:
+                -
+                  import: tour_banner
+            intro:
+              display: 'Intro with benefits'
+              instructions: 'Heading, intro copy and three benefit tiles pulled from the Benefits collection.'
+              icon: text-formatting-image-bottom
+              fields:
+                -
+                  import: intro
+            tour_types:
+              display: 'Tour types'
+              instructions: 'Two linkable cards for the main tour types (e.g. Guided / Self-guided).'
+              icon: travel-map
+              fields:
+                -
+                  import: tour_types
+            featured_tours:
+              display: 'Featured tours'
+              instructions: 'Curated grid or slider of tour entries.'
+              icon: scenery
+              fields:
+                -
+                  import: featured_tours
+            testimonials:
+              display: Testimonials
+              instructions: 'Three testimonial entries side-by-side.'
+              icon: favorite
+              fields:
+                -
+                  import: testimonials
+            travel_tips:
+              display: 'Travel tips'
+              instructions: 'Three article cards linking to blog/inspiration entries.'
+              icon: text-formatting-image-bottom
+              fields:
+                -
+                  import: travel_tips
+            cta_banner:
+              display: 'CTA banner'
+              instructions: 'Full-bleed image with a centred headline and CTA button.'
+              icon: link
+              fields:
+                -
+                  import: cta_banner

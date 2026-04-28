@@ -1,0 +1,42 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Announcement banner'
+        instructions: 'Site-wide banner shown above the header.'
+        fields:
+          -
+            handle: enabled
+            field:
+              type: toggle
+              localizable: true
+              display: Enabled
+              default: false
+              instructions: 'Show the banner on every page.'
+              width: 50
+          -
+            handle: dismissible
+            field:
+              type: toggle
+              localizable: true
+              display: Dismissible
+              default: true
+              instructions: 'Show a close button and remember the dismissal in the browser.'
+              width: 50
+          -
+            handle: text
+            field:
+              type: text
+              localizable: true
+              display: Text
+              instructions: 'Short announcement copy.'
+              validate:
+                - 'required_if:enabled,true'
+          -
+            handle: button
+            field: buttons.buttons
+            config:
+              display: 'Optional link'
+              instructions: 'If set, the whole banner will link through.'
+              max_sets: 1

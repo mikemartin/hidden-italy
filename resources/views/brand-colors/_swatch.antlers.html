@@ -1,0 +1,72 @@
+{{#
+    @name Brand Color Swatch
+    @desc A single colour swatch with name, hex and CSS/Tailwind token names. Clicking copies the hex to the clipboard.
+    @param* name Human-readable colour name (e.g. "Blue / 700").
+    @param* hex The hex value (e.g. "#27556b").
+    @param token The CSS custom property name (e.g. "--color-blue-700"). Omit for semantic-only rows.
+    @param utility The Tailwind utility name (e.g. "bg-blue-700"). Omit for semantic-only rows.
+    @param alias If set, renders an "Aliases → {alias}" line (for semantic tokens).
+    @param on_dark Boolean. Forces white label text for very dark swatches.
+    @param role Optional usage hint (e.g. "Header, hero overlay").
+#}}
+
+<!-- /brand-colors/_swatch.antlers.html -->
+<figure
+    x-data="{
+        copied: false,
+        copy(value) {
+            navigator.clipboard.writeText(value).then(() => {
+                this.copied = true;
+                setTimeout(() => this.copied = false, 1200);
+            });
+        }
+    }"
+    class="group relative flex flex-col rounded-lg overflow-hidden border border-neutral/10 bg-white"
+>
+    <button
+        type="button"
+        @click="copy('{{ hex }}')"
+        aria-label="Copy {{ hex }} to clipboard"
+        class="relative block aspect-[4/3] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+        style="background-color: {{ hex }};"
+    >
+        <span
+            x-show="copied"
+            x-cloak
+            x-transition
+            class="absolute inset-0 flex items-center justify-center text-sm font-semibold {{ on_dark ? 'text-white' : 'text-neutral-900' }}"
+        >
+            Copied {{ hex }}
+        </span>
+    </button>
+
+    <figcaption class="p-4 flex flex-col gap-1">
+        <div class="flex items-baseline justify-between gap-2">
+            <span class="font-display font-semibold text-lg">{{ name }}</span>
+            <code class="text-sm font-mono text-neutral/70">{{ hex }}</code>
+        </div>
+
+        {{ if role }}
+            <span class="text-xs text-neutral/60">{{ role }}</span>
+        {{ /if }}
+
+        {{ if alias }}
+            <div class="mt-1 text-xs text-neutral/60">
+                <span class="font-semibold">Aliases:</span>
+                <code class="font-mono">{{ alias }}</code>
+            </div>
+        {{ /if }}
+
+        {{ if token || utility }}
+            <div class="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs text-neutral/60">
+                {{ if token }}
+                    <span><span class="font-semibold">CSS:</span> <code class="font-mono">var({{ token }})</code></span>
+                {{ /if }}
+                {{ if utility }}
+                    <span><span class="font-semibold">Tailwind:</span> <code class="font-mono">{{ utility }}</code></span>
+                {{ /if }}
+            </div>
+        {{ /if }}
+    </figcaption>
+</figure>
+<!-- End: /brand-colors/_swatch.antlers.html -->

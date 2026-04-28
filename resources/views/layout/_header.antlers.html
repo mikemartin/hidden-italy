@@ -1,20 +1,50 @@
 {{#
     @name Header
-    @desc The sites header rendered on each page.
+    @desc Site header. On pages with `transparent_header`, the header is fixed
+          and overlays the first page-builder block; it stays transparent at the
+          top of the page and fades to the brand colour past 20px of scroll.
+          Other pages keep a solid neutral background. Mobile collapses the
+          desktop nav and account/wishlist links into a single dark "Menu"
+          button that opens the existing mobile drawer.
 #}}
 
 <!-- /layout/_header.antlers.html -->
-<header class="fluid-grid py-4 bg-neutral-900">
-    <div class="span-content flex justify-between items-center gap-8">
-        {{# Make partials you want to use for the header or use and edit premade examples like the following ones. #}}
-        {{ partial:components/logo width="220" }}
-        <div class="flex items-center gap-8">
-            {{ partial:navigation/main }}
-            <div class="hidden md:flex items-center gap-6 text-white">
-                {{ partial:components/nav-wishlist }}
-                {{ partial:components/nav-account }}
-            </div>
+<header
+    {{ if {view:transparent_header} }}
+        x-data="{ scrolled: false }"
+        x-init="scrolled = window.scrollY > 20"
+        @scroll.window.passive="scrolled = window.scrollY > 20"
+        class="fluid-grid py-4 transition-colors duration-300 ease-out lg:border-b"
+        :class="scrolled ? 'lg:bg-blue-700 lg:border-transparent lg:shadow-md' : 'lg:bg-transparent lg:border-white/20'"
+    {{ else }}
+        class="fluid-grid py-4 bg-blue-700"
+    {{ /if }}
+>
+    <div class="span-content flex items-center gap-8">
+        {{ partial:components/logo class="h-7 lg:h-12 w-auto" }}
+
+        <div class="hidden lg:flex items-center gap-8 mx-auto">
+            {{ partial:navigation/main_desktop }}
         </div>
+
+        <div class="hidden lg:flex items-center gap-6 text-white ml-auto">
+            {{ partial:components/nav-wishlist }}
+            {{ partial:components/nav-account }}
+        </div>
+
+        <button
+            type="button"
+            @click="$store.nav.toggle()"
+            :aria-label="$store.nav.mobileOpen ? '{{ trans:strings.nav_close }}' : '{{ trans:strings.nav_open }}'"
+            :aria-expanded="$store.nav.mobileOpen"
+            class="lg:hidden ml-auto inline-flex items-center gap-2 rounded-full bg-blue-900 px-4 py-3 uppercase tracking-[0.04em] text-white font-semibold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+        >
+            <x-lucide-menu class="size-5" stroke-width="2" aria-hidden="true" />
+            <span class="text-[15px] leading-none">{{ trans:strings.menu }}</span>
+        </button>
     </div>
 </header>
+
+{{# Mobile nav drawer — toggled by the Menu button via the `nav` Alpine store. #}}
+{{ partial:navigation/main_mobile }}
 <!-- End: /layout/_header.antlers.html -->

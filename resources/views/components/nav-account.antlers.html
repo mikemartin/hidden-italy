@@ -1,16 +1,16 @@
 {{ if logged_in }}
     {{ current_user}}
-    <a href="/account" wire:navigate class="flex items-center">
-        <x-lucide-circle-user-round class="w-6 h-6 stroke-[1.5] mr-2" />
-        <span class="font-medium text-sm leading-[1.6] whitespace-nowrap">
+    <a href="/account" wire:navigate class="flex items-center hover:text-white/80">
+        <x-lucide-circle-user-round class="w-6 h-6 stroke-[1.5] xl:mr-2" />
+        <span class="hidden xl:inline font-medium text-sm leading-[1.6] whitespace-nowrap">
             {{ name }}
         </span>
     </a>
     {{ /current_user}}
 {{ else }}
-    <a href="/login" wire:navigate class="flex items-center">
-        <x-lucide-circle-user-round class="w-6 h-6 stroke-[1.5] mr-2" />
-        <span class="font-medium text-sm leading-[1.6] whitespace-nowrap">
+    <a href="/login" wire:navigate class="flex items-center hover:text-white/80">
+        <x-lucide-circle-user-round class="w-6 h-6 stroke-[1.5] xl:mr-2" />
+        <span class="hidden xl:inline font-medium text-sm leading-[1.6] whitespace-nowrap">
             Account
         </span>
     </a>

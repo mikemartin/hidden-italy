@@ -1,0 +1,77 @@
+{{#
+    @name Tour types
+    @desc Two large image cards (one per selected page entry — typically the
+          Guided and Self-Guided listing pages) with a centred title and a
+          tour-count chip. Section surface flips from white on mobile to
+          deep blue on desktop. Each card pulls its title, URL, and card
+          image from the linked page entry; the count is the number of
+          entries in the collection mounted to that page.
+    @set page.page_builder.tour_types
+#}}
+
+<!-- /page_builder/_tour_types.antlers.html -->
+{{ partial:page_builder/block class="stack-space-collapse py-10 lg:py-30 gap-y-10 lg:gap-y-14 bg-card lg:bg-background" }}
+    {{ if block:heading }}
+        <header class="span-content text-center">
+            <h2 class="font-display font-semibold uppercase text-2xl lg:text-[40px] leading-[1.25] tracking-[0.01em] lg:tracking-[-0.01em] text-foreground lg:text-parchment-100">
+                {{ block:heading }}
+            </h2>
+        </header>
+    {{ /if }}
+
+    {{ if block:tour_types }}
+        <ul class="span-content flex flex-col lg:flex-row gap-10 lg:gap-9 items-stretch">
+            {{ block:tour_types }}
+                <li class="group relative w-full lg:flex-1 aspect-video lg:aspect-square rounded-3xl overflow-hidden bg-mustard-50">
+
+                    {{# Card image lives on the linked page entry. Multiply
+                        blend + 40% dark wash for legibility. #}}
+                    {{ if card_image }}
+                        {{
+                            picture
+                            :image="card_image"
+                            class="absolute inset-0 w-full h-full object-cover mix-blend-multiply transition-transform duration-500 ease-out group-hover:scale-105"
+                            cover="true"
+                            sizes="(min-width: 1024px) 50vw, 100vw"
+                            loading="lazy"
+                        }}
+                    {{ /if }}
+                    <div class="absolute inset-0 bg-neutral-900/40 pointer-events-none" aria-hidden="true"></div>
+
+                    {{# Centred label + tour-count chip. #}}
+                    <div class="absolute inset-0 flex flex-col items-center justify-center gap-3 px-4 text-center">
+                        <span class="font-display font-semibold uppercase text-2xl lg:text-5xl leading-none tracking-[0.01em] text-white">
+                            {{ title }}
+                        </span>
+
+                        {{# Tour count — page slug matches the mounted collection's handle. #}}
+                        {{ entries :from="slug" limit="1" }}
+                            <span class="inline-flex items-center px-3 py-1.5 rounded-full border border-gold">
+                                <span class="font-sans font-semibold uppercase text-[15px] tracking-[0.02em] leading-none text-parchment-50 whitespace-nowrap">
+                                    {{ total_results }} {{ total_results == 1 ? 'Tour' : 'Tours' }}
+                                </span>
+                            </span>
+                        {{ /entries }}
+                    </div>
+
+                    {{# Stretched link to the linked page. #}}
+                    <a
+                        href="{{ url }}"
+                        class="absolute inset-0 rounded-3xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                    >
+                        <span class="sr-only">View {{ title }}</span>
+                    </a>
+                </li>
+            {{ /block:tour_types }}
+        </ul>
+    {{ /if }}
+
+    {{ if block:buttons }}
+        <div class="span-content flex justify-center">
+            {{ block:buttons }}
+                {{ partial:components/button class="button--accent-light" }}
+            {{ /block:buttons }}
+        </div>
+    {{ /if }}
+{{ /partial:page_builder/block }}
+<!-- End: /page_builder/_tour_types.antlers.html -->
