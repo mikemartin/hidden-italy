@@ -73,7 +73,7 @@ page_builder:
         id: mlq77jb0
         title: 'Enjoy world-class accommodation'
         summary: 'Enjoy 4-star accommodation staying in classic hotels in Verona and Cortina, and spectacular mountains lodges in between.'
-        icon: hotel-bed-sleep-room-rest-accommodation.svg
+        icon: housing-house.svg
       -
         id: mlq7aw9b
         title: 'Delight in the cuisine (and wines)'

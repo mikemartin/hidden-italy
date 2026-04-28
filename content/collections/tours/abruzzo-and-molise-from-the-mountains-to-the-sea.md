@@ -61,7 +61,7 @@ page_builder:
         id: mloqndod
         title: 'Be a guest in marvellous accommodation'
         summary: 'Stay in an extraordinary restored medieval village; a lovely family-run agriturismo; a private apartment with seaviews.'
-        icon: hotel-bed-sleep-room-rest-accommodation.svg
+        icon: housing-house.svg
       -
         id: mloqrnhn
         title: 'Discover Molise'

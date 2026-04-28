@@ -66,7 +66,7 @@ page_builder:
         id: mlrbzbll
         title: 'Stay in fabulous accommodation'
         summary: "Stay in a combination of beautiful boutique hotels and 'rifugi' set in hostoric residences, one from the 16th century."
-        icon: hotel-bed-sleep-room-rest-accommodation.svg
+        icon: housing-house.svg
       -
         id: mlrc2l11
         title: 'Walk spectacular trails'
@@ -76,7 +76,7 @@ page_builder:
         id: mlrc4uq2
         title: 'Enjoy genuine mountain hospitality'
         summary: 'Enjoy the hospitality of welcoming people, staying in family-run accommodation.  A delicious dinner included each night!'
-        icon: hotel-bed-sleep-room-rest-accommodation.svg
+        icon: housing-house.svg
       -
         id: mlrc9yr3
         title: 'Be intrigued by the history'

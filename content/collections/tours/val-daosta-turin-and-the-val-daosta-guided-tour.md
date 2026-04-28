@@ -61,7 +61,7 @@ page_builder:
         id: mloqi0iy
         title: 'Stay in fabulous accommodation'
         summary: 'This tour is 4-star all the way: an historic hotel in Turin and then a series of lovely family-run mountain hotels.'
-        icon: hotel-bed-sleep-room-rest-accommodation.svg
+        icon: housing-house.svg
       -
         id: mloqndod
         title: "Explore Italy's most spectacular region"

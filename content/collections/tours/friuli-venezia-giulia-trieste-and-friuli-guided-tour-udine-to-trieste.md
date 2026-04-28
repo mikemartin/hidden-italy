@@ -55,7 +55,7 @@ page_builder:
         id: mloqi0iy
         title: 'Stay in fabulous accommodation'
         summary: 'Including a 4-star hotel in Udine; a family-run hotel from the 14th century; and an historic, 4-star hotel in Trieste.'
-        icon: hotel-bed-sleep-room-rest-accommodation.svg
+        icon: housing-house.svg
       -
         id: mloqndod
         title: "Explore Italy's most diverse region"

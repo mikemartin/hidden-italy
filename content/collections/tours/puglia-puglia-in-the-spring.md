@@ -56,7 +56,7 @@ page_builder:
         id: mloqi0iy
         title: 'Stay in fabulous accommodation'
         summary: 'Stay in a restored palazzo in Lecce; an historic palazzo on the coast; an ancient masseria; and a 4-star hotel in Bari.'
-        icon: hotel-bed-sleep-room-rest-accommodation.svg
+        icon: housing-house.svg
       -
         id: mloqndod
         title: 'Go walking along rolling hills and undulating coastline'

@@ -71,7 +71,7 @@ page_builder:
         id: mlooun08
         title: 'Staying in a charming agriturismo'
         summary: 'Relax in a charming agriturismo in Chianti hills, with a swimming pool, beautiful grounds, and an excellent restaurant.'
-        icon: hotel-bed-sleep-room-rest-accommodation.svg
+        icon: housing-house.svg
       -
         id: mmbinilb
         title: 'Soak up Siena'
