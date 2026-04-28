@@ -68,7 +68,7 @@ page_builder:
         id: mlq71o6y
         title: 'Immerse yourself in the Dolomites'
         summary: 'Immerse yourself in the most beautiful mountains in the world, following well-marked trials accompanied by local guides.'
-        icon: geography-exploration-mountain.svg
+        icon: agriculture-harvest.svg
       -
         id: mlq77jb0
         title: 'Enjoy world-class accommodation'
@@ -83,7 +83,7 @@ page_builder:
         id: mlrar05e
         title: "Discover Cortina d'Ampezzo"
         summary: "Discover Cortina ('Pearl of the Dolomites') staying in a classic hotel and visiting the iconic Tre Cime di Lavaredo"
-        icon: geography-exploration-mountain.svg
+        icon: agriculture-harvest.svg
     type: highlights
     enabled: true
   -

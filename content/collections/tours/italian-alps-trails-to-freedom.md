@@ -79,7 +79,7 @@ page_builder:
         id: mjflft3i
         title: 'Explore the spectacular scenery'
         summary: 'This hikes takes you through some of the most spectacular scenery in Europe: mountains and forests; lakes and glaciers.'
-        icon: geography-exploration-mountain.svg
+        icon: agriculture-harvest.svg
       -
         id: mjflfz9u
         title: 'Enjoy mountain hospitality'

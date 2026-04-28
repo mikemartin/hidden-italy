@@ -60,7 +60,7 @@ page_builder:
         id: mlooou12
         title: 'Be immersed in history and traditions'
         summary: 'Immerse yourself in the fascinating history and traditions of this peaceful corner of central Italy'
-        icon: geography-exploration-mountain.svg
+        icon: agriculture-harvest.svg
       -
         id: mlooun08
         title: 'Relax, you are fully-supported'

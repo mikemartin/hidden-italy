@@ -66,7 +66,7 @@ page_builder:
         id: mloqndod
         title: "Explore Italy's most spectacular region"
         summary: "Every corner of the Val d'Aosta has breathtaking views: spectacular mountains, glaciers, high pastures and cute villages"
-        icon: geography-exploration-mountain.svg
+        icon: agriculture-harvest.svg
       -
         id: mloqrnhn
         title: "Walk some of Europe's finest trails"

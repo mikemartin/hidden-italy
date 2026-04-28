@@ -69,7 +69,7 @@ page_builder:
         id: mlooou12
         title: 'Soak up the beguiling landscapes'
         summary: 'Easy walking allows you to relax and soak up the beautiful landscapes you are passing through, classic Tuscany!'
-        icon: geography-exploration-mountain.svg
+        icon: agriculture-harvest.svg
       -
         id: mlooun08
         title: 'Indulge in the food and wine'

@@ -65,7 +65,7 @@ page_builder:
         id: mlooou12
         title: 'Soak up the atmosphere'
         summary: 'Spend time soaking up the atmosphere of some of the most charming towns in central Italy, each so different to the other'
-        icon: geography-exploration-mountain.svg
+        icon: agriculture-harvest.svg
       -
         id: mlooun08
         title: 'Admire the art'

@@ -62,7 +62,7 @@ page_builder:
         id: mlooou12
         title: "Lose yourself in the region's fine art"
         summary: "Lose yourself in small villages and towns holding some of Italy's finest art: Giotto, Pinturicchio and Fra Lippo Lippi."
-        icon: geography-exploration-mountain.svg
+        icon: agriculture-harvest.svg
       -
         id: mlooun08
         title: 'Soak up the vibe'

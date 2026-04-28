@@ -54,7 +54,7 @@ page_builder:
         id: mlooou12
         title: 'Discover a little-known corner of Italy'
         summary: 'So close to Rome and yet so little known, Lazio is a fascinating region with much to offer: history, food, and nature.'
-        icon: geography-exploration-mountain.svg
+        icon: agriculture-harvest.svg
       -
         id: mlooun08
         title: 'Relax, you are fully-supported'
