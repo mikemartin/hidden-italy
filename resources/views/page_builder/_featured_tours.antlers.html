@@ -73,8 +73,8 @@
                             :aria-selected="current === (i - 1)"
                             :aria-label="'Go to tour ' + i"
                             @click="goTo(i - 1)"
-                            class="h-2 rounded-full transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-                            :class="current === (i - 1) ? 'w-6 bg-foreground' : 'w-2 bg-foreground/30 hover:bg-foreground/60'"
+                            class="h-2 rounded-full transition-[width] duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                            :class="current === (i - 1) ? 'w-6 bg-gold' : 'w-2 bg-text hover:bg-text/80'"
                         ></button>
                     </template>
                 </div>
