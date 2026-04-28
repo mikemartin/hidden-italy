@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776924789
+updated_at: 1777360534
 tour_types: guided
 days: 14
 image: tours/sicily-palermo-to-taormina/804728531-13.jpg
@@ -315,5 +315,41 @@ page_builder:
       - 708c9249-1670-4243-ad71-56d7525ad061
       - 83669b00-6af8-4b55-920f-3ab8b5f75784
     type: testimonials
+    enabled: true
+  -
+    id: S-GxLPbJ4K3UJXaWyild9
+    title: 'Sicily in the Spring guided tour'
+    activities:
+      -
+        id: gloWg_rvBS0ZTTj_kZRfD
+        title: 'Discover authentic Sicily'
+        summary: "Let our local guide introduce you to the 'real' Sicily, meeting people and exploring places far from the madding crowds."
+        icon: culture-guitar.svg
+      -
+        id: Mmvg9lPq1cz9SwdlfdY-s
+        title: 'Stay in fabulous accommodation'
+        summary: 'The accommodation includes 4-star hotels in Palermo, the islands and Taormina, and a boutique hotel in the mountains.'
+        icon: ski-alpine-Chalet.svg
+      -
+        id: d3oIvR78iTmdORtYuOoEK
+        title: 'Experience the food'
+        summary: "One of the highlights of the tour is discovering the island's  wonderous cuisine (some would say the finest in Italy!)"
+        icon: gastronomy-spaghetti.svg
+      -
+        id: Nq5hG3HzgmtEUg-VMunXK
+        title: 'EWnjoy a variety of walks'
+        summary: 'Enjoy a fabulous variety of walks following trails across farmlands, around mountains, and along the spectacular coast.'
+        icon: trekking-trekking.svg
+      -
+        id: dANQOWIjeF8xx0YKt2kLG
+        title: 'Experience the marvellous Aeolian islands'
+        summary: 'From our base in Lipari we explore these marvellous islands, including spectacular walks and two days on a private boat.'
+        icon: nature-beach.svg
+      -
+        id: DotGM37-xynuYv-Mjx6oV
+        title: 'Taormina, the grnad finale'
+        summary: "We have three days to explore this enchanting part of the world, including a guided tour and a fab' walk around Mt Etna."
+        icon: switzerland-mountain.svg
+    type: highlights
     enabled: true
 ---
