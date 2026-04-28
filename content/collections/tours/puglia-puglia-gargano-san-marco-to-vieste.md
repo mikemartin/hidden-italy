@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Puglia
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776838159
+updated_at: 1777355187
 grade: 4
 summary: 'Ramble the length of Gargano Peninsula through farmlands and forest to the sparkling sea!'
 overview:
@@ -51,22 +51,27 @@ page_builder:
         id: mlooee34
         title: 'Enjoy eight days way off the beaten track!'
         summary: 'Enjoy a continuous walk following Medieval pilgrim trails through peaceful countryside, spectacular forest to the coast!'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Enjoy the marvellous food'
-        summary: 'With dinners included, you can enjoy the bounty of northern Pugliese cuisine each day, both country-style and coastal'
-        icon: housing-house.svg
+        summary: 'With dinners included, you can enjoy the bounty of northern Pugliese cuisine each day, both country-style and coastal.'
+        icon: gastronomy-spaghetti.svg
       -
         id: mlooou12
         title: 'Walk through ancient forests'
-        summary: 'Follow ancient paths through the Foresta Umbra, a vast beech forest covers much of the Gargano Peninsula'
-        icon: culture-pizza.svg
+        summary: 'Follow well-marked ancient paths through the Foresta Umbra, a vast beech forest covering much of the Gargano Peninsula.'
+        icon: trekking-river.svg
       -
         id: mlooun08
         title: 'Go for a private boat ride'
         summary: 'On Day 7 in Vieste, you will be taken for a private tour along the beautiful coastline with plenty of chances for swims!'
         icon: transport-sailboat.svg
+      -
+        id: BL0BCFZ3eqANalVYMQ_CC
+        title: 'Stay in a variety of accommodation'
+        summary: 'Stay in a variety of accommodation, from modern 4-star hotels with pools to family-run agrituismos in the countryside.'
+        icon: geography-cartography-hills.svg
       -
         id: mn2o0oyw
         title: 'Relax, you are fully-supported'
