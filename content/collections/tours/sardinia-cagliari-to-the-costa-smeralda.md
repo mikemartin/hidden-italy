@@ -8,7 +8,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776838805
+updated_at: 1777357105
 grade: 3
 summary: 'Sardinia is a magical island, a few hours by ferry, a world away from continental Italy.'
 tour_size: 15
@@ -69,7 +69,7 @@ page_builder:
         id: mlpxk1gl
         title: 'Discover magical Cagliari'
         summary: 'Cagliari is a wonderful place, a vibrant port city. Discover its secrets with your tour guide, a born and bred local!'
-        icon: trekking-binoculars.svg
+        icon: 'tourism-tour guide.svg'
       -
         id: mlpxsikg
         title: 'Relish the delicious food (and wine)'
@@ -79,17 +79,22 @@ page_builder:
         id: mlpxzpka
         title: 'Embrace the nature'
         summary: "Embrace the island's pristine nature: walking coastal paths and mountain trails; and sailing along the Costa Smeralda!"
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mlpy8s53
         title: "Stay in the island's finest hotel!"
-        summary: "Spend four nights in Sardinia's finest hotel, a 4-star, family-run country house at the foot on the Supramonte Mountains"
+        summary: "Spend 4 nights being spoilt in Sardinia's finest hotel, a 4-star, family-run hotel in the island's mountainous interior."
         icon: housing-house.svg
       -
         id: mlpyf1mv
         title: 'Get spoilt on the Costa Smeralda'
         summary: 'The tour finishes with three nights in a beautiful 4-star hotel with a private beach on the legendary Costa Smeralda.'
         icon: ski-alpine-hotel.svg
+      -
+        id: xKsmZ3r1OV4Dm758VMckF
+        title: 'Enjoy a day cruising'
+        summary: 'As the grand finale, you will spend the last day cruising the Costa Smeralda in a private launch, with swims and lunch.'
+        icon: transport-sailboat.svg
     type: highlights
     enabled: true
   -
