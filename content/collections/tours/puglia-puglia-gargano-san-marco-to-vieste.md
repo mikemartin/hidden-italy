@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Puglia
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777355187
+updated_at: 1777355663
 grade: 4
 summary: 'Ramble the length of Gargano Peninsula through farmlands and forest to the sparkling sea!'
 overview:
@@ -58,8 +58,13 @@ page_builder:
         summary: 'With dinners included, you can enjoy the bounty of northern Pugliese cuisine each day, both country-style and coastal.'
         icon: gastronomy-spaghetti.svg
       -
+        id: BL0BCFZ3eqANalVYMQ_CC
+        title: 'Stay in a variety of accommodation'
+        summary: 'Stay in a variety of accommodation, from modern 4-star hotels with pools to family-run agrituismos in the countryside.'
+        icon: geography-cartography-hills.svg
+      -
         id: mlooou12
-        title: 'Walk through ancient forests'
+        title: 'Enjoy the solitude of ancient forests'
         summary: 'Follow well-marked ancient paths through the Foresta Umbra, a vast beech forest covering much of the Gargano Peninsula.'
         icon: trekking-river.svg
       -
@@ -67,11 +72,6 @@ page_builder:
         title: 'Go for a private boat ride'
         summary: 'On Day 7 in Vieste, you will be taken for a private tour along the beautiful coastline with plenty of chances for swims!'
         icon: transport-sailboat.svg
-      -
-        id: BL0BCFZ3eqANalVYMQ_CC
-        title: 'Stay in a variety of accommodation'
-        summary: 'Stay in a variety of accommodation, from modern 4-star hotels with pools to family-run agrituismos in the countryside.'
-        icon: geography-cartography-hills.svg
       -
         id: mn2o0oyw
         title: 'Relax, you are fully-supported'
