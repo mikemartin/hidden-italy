@@ -1,14 +1,24 @@
-<div class="grid grid-cols-4 items-center gap-3 lg:gap-5 mb-4 xl:mb-8">
+{{#
+    @name Tour filters
+    @desc Filter row above the tours grid. Type / Locations / Seasons / Grade.
+    @param hide_tour_types  Truthy to hide the "Type of Walk" filter — used on
+                            the /tours/guided and /tours/self-guided pages
+                            where the type is preset.
+#}}
+
+<div class="grid {{ hide_tour_types ? 'grid-cols-3' : 'grid-cols-4' }} items-center gap-3 lg:gap-5 mb-4 xl:mb-8">
+    {{ unless hide_tour_types }}
+        <div>
+            {{ partial:typography/label as="div" large="true" color="text-text" content="Type of Walk" class="mb-2" }}
+            {{ livewire:lf-select-filter
+                blueprint="tours.tour"
+                field="tour_types"
+                condition="taxonomy"
+            }}
+        </div>
+    {{ /unless }}
     <div>
-        <div class="mb-2 font-bold">Type of Walk</div>
-        {{ livewire:lf-select-filter
-            blueprint="tours.tour"
-            field="tour_types"
-            condition="taxonomy"
-        }}
-    </div>
-    <div>
-        <div class="mb-2 font-bold">Locations</div>
+        {{ partial:typography/label as="div" large="true" color="text-text" content="Locations" class="mb-2" }}
         {{ livewire:lf-checkbox-filter
             blueprint="tours.tour"
             field="locations"
@@ -18,7 +28,7 @@
         }}
     </div>
     <div>
-        <div class="mb-2 font-bold">Seasons (months)</div>
+        {{ partial:typography/label as="div" large="true" color="text-text" content="Seasons (months)" class="mb-2" }}
         {{ livewire:seasons-checkbox-filter
             blueprint="tours.tour"
             field="seasons"
@@ -28,7 +38,7 @@
         }}
     </div>
     <div>
-        <div class="mb-2 font-bold">Walking grade</div>
+        {{ partial:typography/label as="div" large="true" color="text-text" content="Walking grade" class="mb-2" }}
         {{ livewire:query-scope-checkbox-filter
             blueprint="tours.tour"
             field="filter_grade"

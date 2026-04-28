@@ -1,11 +1,15 @@
 {{#
     @name Default
-    @desc The default template with an outer wrapper grid as defined in `resources/css/peak.css`. It makes sure all blocks on a page get evenly spaced without having to worry about margins or paddings.
+    @desc The default template with an outer wrapper grid as defined in
+          `resources/css/peak.css`. Pages that have a `headline` get the
+          parchment surface and topographic decoration spanning the page
+          header and any page-builder content below it.
 #}}
 
 <!-- /default.antlers.html -->
-<main id="content">
+<main id="content" class="{{ if headline }}relative isolate overflow-hidden bg-parchment-100{{ /if }}">
     {{ if headline }}
+        {{ partial:components/topographic }}
         {{ partial:components/page_header }}
     {{ /if }}
 

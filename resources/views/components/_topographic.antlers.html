@@ -1,0 +1,23 @@
+{{#
+    @name Topographic decoration
+    @desc Topographic-line pattern anchored to the top corners of the
+          parent. The parent must be `relative` and usually `overflow-hidden`.
+          Tinted via currentColor on the wrapper — text-parchment-400 gives
+          the warm sand tone shown in the design.
+
+          Reads `header_variant` from the surrounding entry context. The
+          "large" variant snaps the top-left SVG back to translate-0 at lg
+          so it doesn't overlap centred content; everything else keeps the
+          left SVG offset half off-screen.
+#}}
+
+<!-- /components/_topographic.antlers.html -->
+<div class="pointer-events-none absolute inset-x-0 top-0 -z-10 text-parchment-400" aria-hidden="true">
+    {{ if header_variant == 'large' }}
+        {{ svg:top-left attr:class="absolute top-0 left-0 w-[320px] md:w-[400px] h-auto -translate-x-1/2 lg:translate-x-0" }}
+    {{ else }}
+        {{ svg:top-left attr:class="absolute top-0 left-0 w-[320px] md:w-[400px] h-auto -translate-x-1/2" }}
+    {{ /if }}
+    {{ svg:top-right attr:class="absolute top-0 right-0 w-[320px] md:w-[400px] h-auto" }}
+</div>
+<!-- End: /components/_topographic.antlers.html -->

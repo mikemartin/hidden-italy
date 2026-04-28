@@ -2,18 +2,17 @@
     @name Page header
     @desc Section header for stub/landing pages. Two variants:
 
-          - "standard" (default): parchment background, breadcrumb pill, page
-            headline and optional description, all left-aligned. Used on most
-            stub pages.
+          - "standard" (default): breadcrumb pill, page headline and optional
+            description, all left-aligned. Used on most stub pages.
           - "large": centred, larger type, taller padding. Used on the
             About page.
-
-          Both variants render the parchment topographic decoration anchored
-          to the top corners of the section.
 
           The breadcrumb walks ancestors (excluding home) and ends with the
           current page, so a top-level page like /about shows just the
           current page as a single chip.
+
+          Background colour and topographic decoration are the wrapping
+          template's responsibility — the header just lays out content.
     @param headline        Marketing headline shown as the h1.
     @param description     Optional intro paragraph below the headline.
     @param header_variant  "standard" (default) or "large".
@@ -22,7 +21,7 @@
 <!-- /components/_page_header.antlers.html -->
 <section
     class="
-        relative isolate overflow-hidden bg-parchment-100 fluid-grid
+        fluid-grid
         {{ if header_variant == 'large' }}
             pt-12 md:pt-16 pb-16 md:pb-24
         {{ else }}
@@ -30,18 +29,6 @@
         {{ /if }}
     "
 >
-    {{# Decorative topographic pattern anchored to the top corners. Tinted
-        via currentColor — text-parchment-400 gives the warm sand tone
-        shown in the design. #}}
-    <div class="pointer-events-none absolute inset-x-0 top-0 -z-10 text-parchment-400" aria-hidden="true">
-        {{ if header_variant == 'large' }}
-            {{ svg:top-left attr:class="absolute top-0 left-0 w-[320px] md:w-[400px] h-auto -translate-x-1/2 lg:translate-x-0" }}
-        {{ else }}
-            {{ svg:top-left attr:class="absolute top-0 left-0 w-[320px] md:w-[400px] h-auto -translate-x-1/2" }}
-        {{ /if }}
-        {{ svg:top-right attr:class="absolute top-0 right-0 w-[320px] md:w-[400px] h-auto" }}
-    </div>
-
     <div
         class="
             span-content flex flex-col
