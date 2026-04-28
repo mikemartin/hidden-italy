@@ -68,7 +68,7 @@ page_builder:
         id: mlrc9yr3
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: service-hours.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
   -

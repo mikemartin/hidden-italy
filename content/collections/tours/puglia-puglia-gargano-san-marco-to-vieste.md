@@ -71,7 +71,7 @@ page_builder:
         id: mn2o0oyw
         title: 'Relax, you are fully-supported'
         summary: 'Everything is organised: you are transfer to and from Alba; your bags moved each day; and you have 24-hour local support'
-        icon: service-hours.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
   -
