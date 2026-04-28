@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776828379
+updated_at: 1777353729
 grade: 3
 summary: 'Spend a week exploring the Portofino National Park and the stupendous Tigullio Gulf!'
 overview:
@@ -55,11 +55,11 @@ page_builder:
         id: mlooee34
         title: 'Enjoy challenging walks'
         summary: 'The tour includes coastal hikes; forest walks; and easy rambles along cobbled lanes through charming towns and villages.'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Stay in great hotels'
-        summary: 'Accommodation includes a family hotel off the main piazza in Portofino and a 4-star hotel overlooking the Bay of Silence'
+        summary: 'Accommodation includes a lovely family hotel in Portofino and a 4-star hotel on the Bay of Silence in Sestri Levante.'
         icon: housing-house.svg
       -
         id: mlooou12
@@ -71,6 +71,11 @@ page_builder:
         title: 'Discover the magical towns'
         summary: 'You will stay in some of the most celebrated coastal towns in Italy, including Camogli; Portofino; and Sestri Levante.'
         icon: geography-cartography-city.svg
+      -
+        id: EZCfyh48rsQBpzLCi8pLX
+        title: 'Go for a swim'
+        summary: 'You will have plenty of time along the way to enjoy swims in the blue Mediterranean, at sandy beaches and rocky coves.'
+        icon: water-sports-swimming.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
