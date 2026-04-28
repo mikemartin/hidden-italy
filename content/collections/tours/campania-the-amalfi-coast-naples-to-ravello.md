@@ -9,7 +9,7 @@ days: 13
 seasons: spring
 grade: 2
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776749832
+updated_at: 1777350031
 summary: 'Campania a stunningly beautiful area with all the exuberance and colour of southern Italy.'
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15
@@ -64,22 +64,32 @@ page_builder:
         id: mlombrtm
         title: 'Discover the secrets of Naples'
         summary: "Local guides will help you unlock the secrets of the fascinating and multilayered 'capital' of southern Italy."
-        icon: geography-cartography-city.svg
+        icon: 'tourism-tour guide.svg'
       -
         id: mlomhha0
         title: 'Climb to the top of Mount Vesuvius'
         summary: 'Enjoy the extraordinary views over the Gulf of Naples to the Isle of Capri from the top of this legendary mountain.'
-        icon: culture-pizza.svg
+        icon: nature-lake.svg
       -
         id: mlomkfe7
         title: 'Explore the Monti Picentini'
         summary: 'Spend four days exploring the charms and great natural beauty of this little-visited corner of the interior of Campania.'
-        icon: culture-pizza.svg
+        icon: culture-Vineyard.svg
       -
         id: mlompfm9
         title: 'Savour the flavours of Campania cuisine'
         summary: 'Campania is the home of some of the icons of Italian cuisine (pizza, pasta, mozzarella) but there is so much more!'
-        icon: housing-house.svg
+        icon: culture-pizza.svg
+      -
+        id: DKGeJCNnxa8_iD-nk4KP_
+        title: 'Go for a cruise up the coast'
+        summary: 'Enjoy a private cruise up the coast with plenty of opportunities for swimming, before a delicious seafood lunch in port.'
+        icon: transport-sailboat.svg
+      -
+        id: GLBV6yW5uTYV2rFpFGZs5
+        title: 'Discover the amalfi Coast'
+        summary: 'Discover the secrets of the Amalfi Coast when staying in a beautiful 4-star hotel in Ravello and walking down to Amalfi.'
+        icon: nature-lake.svg
   -
     id: mlomz5st
     title: 'Campania & The Amalfi Coast walking tour itinerary'
