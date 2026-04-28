@@ -1,6 +1,6 @@
 title: Tours
 icon: travel-map
-template: default
+template: tours/show
 layout: layout
 mount: home
 taxonomies:
