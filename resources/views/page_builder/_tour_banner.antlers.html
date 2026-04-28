@@ -1,69 +1,22 @@
 {{#
     @name Tour banner
-    @desc Full-bleed 700px banner with a single image, a small region label,
-          a large headline, a CTA and a map-pin location row at the bottom.
-          Designed to sit on a landing page (e.g. the homepage) below the
-          hero. No carousel, no scroll indicator.
+    @desc Page-builder wrapper for the tour banner component. Pulls the region,
+          heading, location and image from block data and renders the configured
+          buttons inside the CTA slot.
     @set page.page_builder.tour_banner
 #}}
 
 <!-- /page_builder/_tour_banner.antlers.html -->
-<section class="stack-space-collapse span-full relative isolate bg-neutral-900 text-white overflow-hidden h-[700px]">
-    {{ if block:image }}
-        {{
-            picture
-            :image="block:image"
-            class="absolute inset-0 w-full h-full object-cover opacity-70"
-            cover="true"
-            sizes="100vw"
-            loading="lazy"
-        }}
+{{ partial:components/tour_banner
+    :region="block:region"
+    :title="block:heading"
+    :location="block:location"
+    :image="block:image"
+}}
+    {{ if block:buttons }}
+        {{ block:buttons }}
+            {{ partial:components/button class="button--hero button--large" }}
+        {{ /block:buttons }}
     {{ /if }}
-
-    {{# Uniform dark wash for centred-content contrast. #}}
-    <div class="absolute inset-0 bg-black/30" aria-hidden="true"></div>
-
-    {{# Top + bottom dark gradients to anchor the header and the location row. #}}
-    <div
-        class="absolute inset-0"
-        aria-hidden="true"
-        style="background-image: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 22.7%), linear-gradient(180deg, rgba(0,0,0,0) 77.6%, rgba(0,0,0,0.3) 100%);"
-    ></div>
-
-    {{# Foreground content — region + headline + CTA, centred. #}}
-    <div class="relative z-10 h-full fluid-grid">
-        <div class="span-content flex flex-col items-center justify-center text-center gap-6 lg:gap-10 h-full">
-            <div class="flex flex-col items-center gap-4 lg:gap-6">
-                {{ if block:region }}
-                    <p class="font-medium uppercase tracking-[0.04em] text-white text-sm md:text-base">
-                        {{ block:region }}
-                    </p>
-                {{ /if }}
-                {{ partial:typography/h1_big_display :content="block:heading" class="!text-white max-w-3xl" }}
-            </div>
-
-            {{ if block:buttons }}
-                <div class="flex flex-wrap gap-4 justify-center">
-                    {{ block:buttons }}
-                        {{ partial:components/button class="button--hero button--large" }}
-                    {{ /block:buttons }}
-                </div>
-            {{ /if }}
-        </div>
-    </div>
-
-    {{# Bottom row — map-pin + location text. Centred on mobile, left on desktop. #}}
-    {{ if block:location }}
-        <div class="absolute inset-x-0 bottom-10 lg:bottom-12 z-10 px-6 lg:px-[120px]">
-            <div class="mx-auto flex w-full max-w-[1200px] items-center justify-center lg:justify-start">
-                <div class="flex items-center gap-2">
-                    <x-lucide-map-pin class="size-6 text-white" stroke-width="2" aria-hidden="true" />
-                    <p class="font-mono text-sm md:text-base text-white">
-                        {{ block:location }}
-                    </p>
-                </div>
-            </div>
-        </div>
-    {{ /if }}
-</section>
+{{ /partial:components/tour_banner }}
 <!-- End: /page_builder/_tour_banner.antlers.html -->

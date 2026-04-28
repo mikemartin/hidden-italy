@@ -1,0 +1,27 @@
+{{#
+    @name Tour show
+    @desc Single tour entry. The tour banner header sits at the top — region
+          label + tour name + a map-pin location row — followed by the entry's
+          page-builder blocks. The fixed site header overlays the banner when
+          the entry has `transparent_header` set (recommended).
+#}}
+
+<!-- /tours/show.antlers.html -->
+{{ partial:components/tour_banner
+    :region="region"
+    :title="name"
+    :location="region"
+    :image="image"
+    eager="true"
+}}
+    <a href="#book" class="button button--hero button--large">
+        <span>{{ trans:strings.request_booking ?? 'Request Booking' }}</span>
+    </a>
+{{ /partial:components/tour_banner }}
+
+<main class="page-builder" id="content">
+    {{ page_builder scope="block" }}
+        {{ partial src="page_builder/{type}" }}
+    {{ /page_builder }}
+</main>
+<!-- End: /tours/show.antlers.html -->
