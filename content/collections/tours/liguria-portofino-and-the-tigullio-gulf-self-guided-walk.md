@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Liguria
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777353729
+updated_at: 1777353898
 grade: 3
 summary: 'Spend a week exploring the Portofino National Park and the stupendous Tigullio Gulf!'
 overview:
@@ -70,7 +70,7 @@ page_builder:
         id: mlooun08
         title: 'Discover the magical towns'
         summary: 'You will stay in some of the most celebrated coastal towns in Italy, including Camogli; Portofino; and Sestri Levante.'
-        icon: geography-cartography-city.svg
+        icon: nature-beach.svg
       -
         id: EZCfyh48rsQBpzLCi8pLX
         title: 'Go for a swim'
