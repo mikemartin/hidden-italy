@@ -1,13 +1,13 @@
 {{#
     @name Home hero
-    @desc Full-bleed hero with a crossfading carousel. Each slide is built from
-          a tour entry — the tour's `image` becomes the slide image and that
-          image asset's `caption` is shown as the location label. On desktop a
-          gold progress ring fills as the slide ages, prev/next arrows sit on
-          the right and a bouncing chevron points to the next section. On
-          mobile the bottom row stacks centred with dot indicators (no arrows
-          or chevron) and the CTA becomes a solid white pill. Auto-advances
-          every 6 seconds.
+    @desc Full-bleed hero with a crossfading carousel. Each slide is built
+          from a tour entry — the tour's `image` becomes the slide image
+          and a `region / name` label (linked to the tour) is shown beneath.
+          On desktop a gold progress ring fills as the slide ages, prev/next
+          arrows sit on the right and a bouncing chevron points to the next
+          section. On mobile the bottom row stacks centred with dot
+          indicators (no arrows or chevron) and the CTA becomes a solid
+          white pill. Auto-advances every 6 seconds.
 #}}
 
 <!-- /home/_hero.antlers.html -->
@@ -90,15 +90,19 @@
                             :stroke-dashoffset="62.832 * (1 - progress)"
                         ></circle>
                     </svg>
-                    {{# Captions stacked in a single grid cell — they crossfade with the
-                        same 1200ms timing as the image so caption and photo move in sync.
-                        Each caption comes from the image asset's `caption` field. #}}
+                    {{# Tour names stacked in a single grid cell — they crossfade with
+                        the same 1200ms timing as the image so the label and photo move
+                        in sync. Pulls the linked tour entry's `name` (falling back to
+                        `title`). #}}
                     <div class="grid">
                         {{ tour_photos }}
-                            <p
-                                class="row-start-1 col-start-1 font-mono text-sm md:text-base text-white whitespace-nowrap transition-opacity duration-[1200ms] ease-in-out"
-                                :class="current === {{ index }} ? 'opacity-100' : 'opacity-0'"
-                            >{{ image }}{{ caption ?? '' }}{{ /image }}</p>
+                            <a
+                                href="{{ url }}"
+                                class="row-start-1 col-start-1 font-mono text-sm md:text-base text-white whitespace-nowrap transition-opacity duration-[1200ms] ease-in-out hover:underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                                :class="current === {{ index }} ? 'opacity-100' : 'opacity-0 pointer-events-none'"
+                                :aria-hidden="current !== {{ index }}"
+                                :tabindex="current === {{ index }} ? 0 : -1"
+                            >{{ region }} / {{ name }}</a>
                         {{ /tour_photos }}
                     </div>
                 </div>

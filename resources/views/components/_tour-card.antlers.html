@@ -19,7 +19,7 @@
         href="{{ url }}"
         class="absolute inset-0 z-10 rounded-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
     >
-        <span class="sr-only">View {{ name ?? title }}</span>
+        <span class="sr-only">View {{ name }}</span>
     </a>
 
     {{# "Now open" diagonal ribbon — draped over top-left.
@@ -78,7 +78,7 @@
                     {{ /if }}
                 </div>
 
-                {{ partial:typography/h4 :content="name ?? title" color="text-foreground" }}
+                {{ partial:typography/h4 :content="name" color="text-foreground" }}
 
                 {{ if summary }}
                     {{ partial:typography/p_small :content="summary" color="text-text" class="!mb-0" }}
