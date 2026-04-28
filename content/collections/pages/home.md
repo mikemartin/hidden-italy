@@ -2,6 +2,7 @@
 id: home
 blueprint: page
 title: Home
+template: home
 updated_by: 6e2cc1d1-1470-4391-963d-37aed038e27a
 updated_at: 1777127590
 seo_noindex: inherit
@@ -9,7 +10,6 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 1
-transparent_header: true
 page_builder:
   -
     id: home_hero

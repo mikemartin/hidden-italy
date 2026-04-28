@@ -71,14 +71,3 @@ tabs:
               generate: true
               listable: hidden
               display: Slug
-      -
-        display: Layout
-        fields:
-          -
-            handle: transparent_header
-            field:
-              type: toggle
-              localizable: true
-              display: 'Transparent header'
-              default: false
-              instructions: 'When enabled, the site header overlays the first page-builder block (typically a hero) with a transparent background and light text. Use on landing pages with a full-bleed hero.'
