@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Campania
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777347124
+updated_at: 1777349105
 grade: 3
 summary: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
 overview:
@@ -70,15 +70,15 @@ page_builder:
         summary: 'Sheer cliffs drop to rugged shoreline dotted with beaches, fishing villages, vineyards and lemon grove: simply stunning!'
         icon: nature-beach.svg
       -
-        id: mmbinilb
-        title: 'Relax and enjoy your holiday'
-        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: restaurant-glass-beverage-drink-restaurant-bar-dining.svg
-      -
         id: Y_o0Zoe7gdIqFYluomJOV
         title: 'Go for a swim'
         summary: 'There are plenty of chances to plunge into the blue waters of the Mediterranean or simply relax poolside at your hotel.'
         icon: water-sports-swimming.svg
+      -
+        id: mmbinilb
+        title: 'Relax and enjoy your holiday'
+        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        icon: restaurant-glass-beverage-drink-restaurant-bar-dining.svg
     type: highlights
     enabled: true
   -
