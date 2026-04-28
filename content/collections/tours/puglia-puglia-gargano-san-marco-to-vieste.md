@@ -61,7 +61,7 @@ page_builder:
         id: mlooou12
         title: 'Walk through ancient forests'
         summary: 'Follow ancient paths through the Foresta Umbra, a vast beech forest covers much of the Gargano Peninsula'
-        icon: agriculture-harvest.svg
+        icon: culture-pizza.svg
       -
         id: mlooun08
         title: 'Go for a private boat ride'

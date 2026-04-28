@@ -56,7 +56,7 @@ page_builder:
         id: mloqi0iy
         title: 'Explore the Gran Sasso National Park'
         summary: 'Explore the largest national park in central Italy, following well-marked trails and beautiful historic droving trails.'
-        icon: agriculture-harvest.svg
+        icon: culture-pizza.svg
       -
         id: mloqndod
         title: 'Be a guest in marvellous accommodation'

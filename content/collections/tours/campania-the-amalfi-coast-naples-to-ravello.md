@@ -69,12 +69,12 @@ page_builder:
         id: mlomhha0
         title: 'Climb to the top of Mount Vesuvius'
         summary: 'Enjoy the extraordinary views over the Gulf of Naples to the Isle of Capri from the top of this legendary mountain.'
-        icon: agriculture-harvest.svg
+        icon: culture-pizza.svg
       -
         id: mlomkfe7
         title: 'Explore the Monti Picentini'
         summary: 'Spend four days exploring the charms and great natural beauty of this little-visited corner of the interior of Campania.'
-        icon: agriculture-harvest.svg
+        icon: culture-pizza.svg
       -
         id: mlompfm9
         title: 'Savour the flavours of Campania cuisine'

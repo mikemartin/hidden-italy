@@ -69,7 +69,7 @@ page_builder:
         id: mlooou12
         title: 'Be entranced by the extraordinary scenery'
         summary: "Walk through the beautiful Val d'Orcia, UNESCO Heritage listed, with some of the most iconic scenery in all of Italy."
-        icon: agriculture-harvest.svg
+        icon: culture-pizza.svg
       -
         id: mlooun08
         title: 'Immerse yourself in gorgeous villages'

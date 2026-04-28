@@ -61,7 +61,7 @@ page_builder:
         id: mlrbvyrv
         title: 'Discover a hidden valley'
         summary: 'Far from the regular tourist trails, at the foot of Monte Rosa, this is one of the most beautiful valleys in the Alps.'
-        icon: agriculture-harvest.svg
+        icon: culture-pizza.svg
       -
         id: mlrbzbll
         title: 'Stay in fabulous accommodation'

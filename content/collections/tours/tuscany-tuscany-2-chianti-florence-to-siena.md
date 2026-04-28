@@ -66,7 +66,7 @@ page_builder:
         id: mlooou12
         title: 'Sample the local brew'
         summary: "Enjoy sampling the district's fine red wines, the most celebrated in Italy, accompanied by district's equally fine food."
-        icon: agriculture-harvest.svg
+        icon: culture-pizza.svg
       -
         id: mlooun08
         title: 'Staying in a charming agriturismo'

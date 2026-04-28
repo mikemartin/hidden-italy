@@ -65,7 +65,7 @@ page_builder:
         id: mlooou12
         title: 'Experience Ligurian cuisine'
         summary: 'Ligurian cuisine is the most delicious in Italy: simple, healthy food created from the freshest local ingredients.'
-        icon: agriculture-harvest.svg
+        icon: culture-pizza.svg
       -
         id: mlooun08
         title: 'Discover the magical towns'

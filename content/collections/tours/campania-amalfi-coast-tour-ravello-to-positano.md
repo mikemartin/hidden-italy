@@ -63,7 +63,7 @@ page_builder:
         id: mlooou12
         title: 'Relish the wonderful food'
         summary: 'Enjoy surprisingly simple specialities: vegetables grown in volcanic soil, fresh seafood, mozzarella, pasta and pizza!'
-        icon: agriculture-harvest.svg
+        icon: culture-pizza.svg
       -
         id: mlooun08
         title: 'Fabulous views'

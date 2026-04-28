@@ -69,7 +69,7 @@ page_builder:
         id: mlooou12
         title: 'Revel in a luxurious accommodation'
         summary: 'Your accommodation is in a family-run, 4-star hotel, a seductive combination of Austrian efficiency and Italian warmth.'
-        icon: agriculture-harvest.svg
+        icon: culture-pizza.svg
       -
         id: mlooun08
         title: 'Indulge your taste buds'

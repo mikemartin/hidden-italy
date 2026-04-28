@@ -57,7 +57,7 @@ page_builder:
         id: mlooou12
         title: 'Walk through stunning scenery'
         summary: 'The ancient walking trails take you through the most stunning scenery in Italy: mountains on the left, sea on the right!'
-        icon: agriculture-harvest.svg
+        icon: culture-pizza.svg
       -
         id: mlooun08
         title: 'Immerse yourself in gorgeous villages'

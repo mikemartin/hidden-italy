@@ -70,7 +70,7 @@ page_builder:
         id: mlooou12
         title: 'Admire the spectacular scenery'
         summary: 'The walk takes you south through the lush Nera Valley with breath-taking views over mountains, lakes and rolling plains.'
-        icon: agriculture-harvest.svg
+        icon: culture-pizza.svg
       -
         id: mlooun08
         title: 'Enjoy Umbrian home cooking'

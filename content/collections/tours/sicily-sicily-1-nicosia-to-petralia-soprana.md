@@ -61,7 +61,7 @@ page_builder:
         id: mlrbzbll
         title: 'Discover the Madonie Mountains'
         summary: 'Discover an area of dramatic natural beauty: rolling hills, craggy mountains, all with views as far as the eye can see!'
-        icon: agriculture-harvest.svg
+        icon: culture-pizza.svg
       -
         id: mlrc2l11
         title: 'Enjoy authentic Sicilian cooking'

@@ -60,7 +60,7 @@ page_builder:
         id: mlooou12
         title: 'Be wowed by the gorgeous scenery'
         summary: 'You will walk through rolling hills covered in vineyards, past cute towns with snowy peaks of the Alps in the distance.'
-        icon: agriculture-harvest.svg
+        icon: culture-pizza.svg
       -
         id: mlooun08
         title: 'Relax, you are fully-supported'
