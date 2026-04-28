@@ -747,6 +747,7 @@ tabs:
               taxonomies:
                 - seasons
               display: Season
+              max_items: 1
               create: false
               mode: select
           -
