@@ -7,7 +7,7 @@ tour_types: self-guided
 region: Campania
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776917998
+updated_at: 1777347124
 grade: 3
 summary: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
 overview:
@@ -53,12 +53,12 @@ page_builder:
         id: mlooee34
         title: "Walk the entire length of the 'Costiera'"
         summary: 'Walk the entire length of the Amalfi Coast (no buses!) following ancient trails with breath-taking views all the way!'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Stay in fabulous accommodation'
         summary: 'Stay in the best available accommodation in each town, always welcoming, always central and usually with sea views!'
-        icon: housing-house.svg
+        icon: ski-alpine-hotel.svg
       -
         id: mlooou12
         title: 'Relish the wonderful food'
@@ -66,14 +66,19 @@ page_builder:
         icon: culture-pizza.svg
       -
         id: mlooun08
-        title: 'Fabulous views'
+        title: 'Be astonished by the views'
         summary: 'Sheer cliffs drop to rugged shoreline dotted with beaches, fishing villages, vineyards and lemon grove: simply stunning!'
         icon: nature-beach.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: culture-champagne.svg
+        icon: restaurant-glass-beverage-drink-restaurant-bar-dining.svg
+      -
+        id: Y_o0Zoe7gdIqFYluomJOV
+        title: 'Go for a swim'
+        summary: 'There are plenty of chances to plunge into the blue waters of the Mediterranean or simply relax poolside at your hotel.'
+        icon: water-sports-swimming.svg
     type: highlights
     enabled: true
   -
