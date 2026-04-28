@@ -734,17 +734,6 @@ tabs:
               display: Likes
               allow_guest_likes: true
       -
-        display: Layout
-        fields:
-          -
-            handle: transparent_header
-            field:
-              type: toggle
-              localizable: true
-              display: 'Transparent header'
-              default: true
-              instructions: 'When enabled, the site header overlays the tour banner with a transparent background and fades to the brand colour past 20px of scroll. Leave on for the standard tour show layout.'
-      -
         display: Taxonomy
         fields:
           -
