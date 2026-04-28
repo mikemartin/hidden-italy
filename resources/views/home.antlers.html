@@ -4,19 +4,30 @@ transparent_header: true
 {{#
     @name Homepage
     @desc Renders the homepage hero (top-level fields) followed by its
-          page-builder blocks. `transparent_header` is set in the front matter
-          so the fixed site header overlays the hero and fades to the brand
-          colour past 20px of scroll.
+          page-builder blocks. The page-builder content sits on the
+          parchment surface with the topographic decoration anchored to
+          where the hero ends. `transparent_header` is set in the front
+          matter so the fixed site header overlays the hero and fades to
+          the brand colour past 20px of scroll.
 #}}
 
 <!-- /home.antlers.html -->
 <main id="content">
     {{ partial:home/hero }}
 
-    <div class="page-builder">
-        {{ page_builder scope="block" }}
-            {{ partial src="page_builder/{type}" }}
-        {{ /page_builder }}
+    <div class="relative isolate overflow-hidden bg-parchment-100">
+        {{# Topographic decoration — top-left tucks in by 1/4 of its width
+            on lg+ so it peeks past the centred section content. #}}
+        <div class="pointer-events-none absolute inset-x-0 top-0 -z-10 text-parchment-400" aria-hidden="true">
+            {{ svg:top-left attr:class="absolute top-0 left-0 w-[320px] md:w-[400px] h-auto -translate-x-1/2 lg:-translate-x-1/4" }}
+            {{ svg:top-right attr:class="absolute top-0 right-0 w-[320px] md:w-[400px] h-auto" }}
+        </div>
+
+        <div class="page-builder">
+            {{ page_builder scope="block" }}
+                {{ partial src="page_builder/{type}" }}
+            {{ /page_builder }}
+        </div>
     </div>
 </main>
 <!-- End: /home.antlers.html -->

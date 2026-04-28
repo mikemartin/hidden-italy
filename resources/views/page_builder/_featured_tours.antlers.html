@@ -1,9 +1,11 @@
 {{#
     @name Featured tours
-    @desc Horizontally-scrolling carousel of tour cards. Mobile shows one card
-          at a time with dot pagination; desktop shows three with prev/next
-          arrows. Up to 6 tours can live in the track; CSS scroll-snap powers
-          the swipe + arrow nav (Alpine just toggles the scroll position).
+    @desc Horizontally-scrolling carousel of tour cards. Mobile shows one
+          card at a time with dot pagination; desktop shows three with
+          prev/next arrow buttons in the header (replacing the old
+          "View all" link). Up to 6 tours can live in the track; CSS
+          scroll-snap powers swipe + arrow nav (Alpine just toggles the
+          scroll position).
           Each card has a parchment surface, inset 16:9 image with a warm wash,
           location + tour-type chip header, summary, and an amber info row.
           Whole card is clickable via a stretched link; the favourite heart
@@ -12,28 +14,43 @@
 #}}
 
 <!-- /page_builder/_featured_tours.antlers.html -->
-{{ partial:page_builder/block class="gap-y-10 md:gap-y-16" }}
-    <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-        {{ partial:typography/h2 :content="block:heading" class="!mb-0 uppercase md:normal-case" color="text-foreground" }}
+{{ if block:tours }}
+    <section
+        class="fluid-grid gap-y-10 md:gap-y-16"
+        x-data="tours_carousel({ count: {{ block:tours | count }} })"
+    >
+        <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            {{ partial:typography/h2 :content="block:heading" class="!mb-0 uppercase md:normal-case" color="text-foreground" }}
 
-        {{ block:link_entry }}
-            <a href="{{ url }}" class="hidden md:inline-flex items-center gap-3 group transition-all hover:gap-4 self-start md:self-auto">
-                <span class="text-text text-lg tracking-[0.02em] underline group-hover:text-foreground transition-colors">{{ block:link_text ?? 'View all' }}</span>
-                <x-lucide-arrow-right class="size-6 text-gold transition-transform group-hover:translate-x-1" stroke-width="2" aria-hidden="true" />
-            </a>
-        {{ /block:link_entry }}
-    </header>
+            {{# Desktop prev/next arrows — only when there's something to scroll to. #}}
+            {{ if block:tours | count > 3 }}
+                <div class="hidden md:flex items-center gap-4 self-start md:self-auto">
+                    <button
+                        type="button"
+                        @click="prev()"
+                        aria-label="Previous tour"
+                        class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                    >
+                        <x-lucide-arrow-left class="size-5" stroke-width="2" aria-hidden="true" />
+                    </button>
+                    <button
+                        type="button"
+                        @click="next()"
+                        aria-label="Next tour"
+                        class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                    >
+                        <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />
+                    </button>
+                </div>
+            {{ /if }}
+        </header>
 
-    {{ if block:tours }}
-        <div
-            class="span-content relative"
-            x-data="tours_carousel({ count: {{ block:tours | count }} })"
-        >
-            {{# Scroll-snap track. Each cell is full-width on mobile, 1/3 on desktop. #}}
+        {{# Scroll-snap track. Each cell is full-width on mobile, 1/3 on desktop. #}}
+        <div class="span-content relative">
             <ul
                 x-ref="track"
                 @scroll.debounce.100ms="syncFromScroll()"
-                class="flex overflow-x-auto snap-x snap-mandatory scroll-smooth no-scrollbar items-stretch -mx-3 md:-mx-[18px]"
+                class="flex overflow-x-auto snap-x snap-mandatory scroll-smooth no-scrollbar items-stretch -mx-3 md:-mx-[18px] py-3"
             >
                 {{ block:tours }}
                     <li class="snap-start shrink-0 basis-full md:basis-1/3 px-3 md:px-[18px]">
@@ -41,26 +58,6 @@
                     </li>
                 {{ /block:tours }}
             </ul>
-
-            {{# Prev / next arrows — desktop only, only when there's something to scroll to. #}}
-            {{ if block:tours | count > 3 }}
-                <button
-                    type="button"
-                    @click="prev()"
-                    aria-label="Previous tour"
-                    class="hidden md:flex absolute -left-4 lg:-left-12 top-1/3 -translate-y-1/2 z-10 size-11 items-center justify-center rounded-full bg-card border border-parchment-200 text-foreground shadow-md hover:bg-parchment-200 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-                >
-                    <x-lucide-arrow-left class="size-5" stroke-width="2" aria-hidden="true" />
-                </button>
-                <button
-                    type="button"
-                    @click="next()"
-                    aria-label="Next tour"
-                    class="hidden md:flex absolute -right-4 lg:-right-12 top-1/3 -translate-y-1/2 z-10 size-11 items-center justify-center rounded-full bg-card border border-parchment-200 text-foreground shadow-md hover:bg-parchment-200 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-                >
-                    <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />
-                </button>
-            {{ /if }}
 
             {{# Dot pagination — mobile only. #}}
             {{ if block:tours | count > 1 }}
@@ -83,6 +80,6 @@
                 </div>
             {{ /if }}
         </div>
-    {{ /if }}
-{{ /partial:page_builder/block }}
+    </section>
+{{ /if }}
 <!-- End: /page_builder/_featured_tours.antlers.html -->
