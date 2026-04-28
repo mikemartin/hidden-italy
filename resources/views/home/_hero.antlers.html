@@ -129,14 +129,20 @@
                     </div>
 
                     {{# Mobile dot indicators. #}}
-                    <div class="order-2 flex lg:hidden items-center gap-3">
+                    <div
+                        role="tablist"
+                        aria-label="Choose slide"
+                        class="order-2 flex lg:hidden items-center justify-center gap-2"
+                    >
                         {{ tour_photos }}
                             <button
                                 type="button"
-                                @click="goTo({{ index }})"
+                                role="tab"
+                                :aria-selected="current === {{ index }}"
                                 aria-label="Go to slide {{ index | add:1 }}"
-                                class="size-3 rounded-full transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-                                :class="current === {{ index }} ? 'bg-white' : 'bg-neutral-900'"
+                                @click="goTo({{ index }})"
+                                class="h-2 rounded-full transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                                :class="current === {{ index }} ? 'w-6 bg-white' : 'w-2 bg-white/30 hover:bg-white/60'"
                             ></button>
                         {{ /tour_photos }}
                     </div>
