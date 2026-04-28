@@ -9,6 +9,7 @@ taxonomies:
   - locations
 revisions: false
 title_format: '{region} - {name}'
+route: '/tours/{slug}'
 sort_dir: asc
 date_behavior:
   past: null
