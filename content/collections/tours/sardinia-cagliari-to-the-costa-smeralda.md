@@ -8,7 +8,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777357105
+updated_at: 1777357785
 grade: 3
 summary: 'Sardinia is a magical island, a few hours by ferry, a world away from continental Italy.'
 tour_size: 15
@@ -68,13 +68,8 @@ page_builder:
       -
         id: mlpxk1gl
         title: 'Discover magical Cagliari'
-        summary: 'Cagliari is a wonderful place, a vibrant port city. Discover its secrets with your tour guide, a born and bred local!'
+        summary: 'Stay in a 4-star hotel in the city centre, and discover the secrets of fascinating Cagliari with your local tour guide.'
         icon: 'tourism-tour guide.svg'
-      -
-        id: mlpxsikg
-        title: 'Relish the delicious food (and wine)'
-        summary: "Sardinia's cuisine revolves around the freshest ingredients: spring vegetables; handmade pasta; seafood; suckling pig!"
-        icon: gastronomy-spaghetti.svg
       -
         id: mlpxzpka
         title: 'Embrace the nature'
@@ -85,6 +80,11 @@ page_builder:
         title: "Stay in the island's finest hotel!"
         summary: "Spend 4 nights being spoilt in Sardinia's finest hotel, a 4-star, family-run hotel in the island's mountainous interior."
         icon: housing-house.svg
+      -
+        id: mlpxsikg
+        title: 'Relish the delicious food (and wine)'
+        summary: "Sardinia's cuisine revolves around the freshest ingredients: spring vegetables; handmade pasta; seafood; suckling pig!"
+        icon: gastronomy-spaghetti.svg
       -
         id: mlpyf1mv
         title: 'Get spoilt on the Costa Smeralda'
