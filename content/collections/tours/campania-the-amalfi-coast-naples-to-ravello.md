@@ -79,7 +79,7 @@ page_builder:
         id: mlompfm9
         title: 'Savour the flavours of Campania cuisine'
         summary: 'Campania is the home of some of the icons of Italian cuisine (pizza, pasta, mozzarella) but there is so much more!'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
   -
     id: mlomz5st
     title: 'Campania & The Amalfi Coast walking tour itinerary'

@@ -58,7 +58,7 @@ page_builder:
         id: mlrbzbll
         title: 'Relish the authentic food'
         summary: "Enjoy the area's fine food based on garden vegetables and fresh seafood all with North African twists, such as couscous."
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlrc2l11
         title: 'Go island hopping'

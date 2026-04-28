@@ -56,7 +56,7 @@ page_builder:
         id: mloog7vk
         title: 'Enjoy the marvellous food'
         summary: 'With dinners included, you can enjoy the bounty of northern Pugliese cuisine each day, both country-style and coastal'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Walk through ancient forests'

@@ -60,7 +60,7 @@ page_builder:
         id: mloog7vk
         title: 'Stay in fabulous accommodation'
         summary: 'A feature of this Classic tour is the fabulous accommodation: fab 4-star hotels in the historical centre of each town'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Soak up the atmosphere'
@@ -75,7 +75,7 @@ page_builder:
         id: mmbinilb
         title: 'Enjoy Umbrian home cooking'
         summary: 'Sit down and enjoy the wholesome home-cooking: cold cuts, cheeses, pastas, soups, roast meats, fresh garden vegetables.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: yzrNBaT-_rmmrnPeEEdB9
         title: 'Relax and enjoy your holiday'

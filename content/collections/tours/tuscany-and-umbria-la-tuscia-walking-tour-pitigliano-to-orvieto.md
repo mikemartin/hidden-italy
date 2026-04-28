@@ -55,7 +55,7 @@ page_builder:
         id: mloog7vk
         title: 'Be astonished by ancient villages'
         summary: 'Be astonished by these forgotten villages that are perched in impossible places overlooking spectacular scenery.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Be immersed in history and traditions'

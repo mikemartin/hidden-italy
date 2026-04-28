@@ -89,7 +89,7 @@ page_builder:
         id: mjflgcks
         title: 'Celebrate with a farewell dinner'
         summary: 'Mark the end of your alpine adventure with a festive group meal in a charming mountain village near the Swiss border.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
     type: highlights
     enabled: true
   -

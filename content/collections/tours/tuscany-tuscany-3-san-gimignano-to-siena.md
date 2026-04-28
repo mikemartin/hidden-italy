@@ -64,7 +64,7 @@ page_builder:
         id: mloog7vk
         title: 'Immerse yourself in daily Tuscan life'
         summary: 'Immerse yourself in the traditions, history and daily life of four classic Tuscan towns.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Soak up the beguiling landscapes'

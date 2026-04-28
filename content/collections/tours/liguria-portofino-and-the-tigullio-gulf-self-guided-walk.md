@@ -60,7 +60,7 @@ page_builder:
         id: mloog7vk
         title: 'Stay in great hotels'
         summary: 'Accommodation includes a family hotel off the main piazza in Portofino and a 4-star hotel overlooking the Bay of Silence'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Experience Ligurian cuisine'

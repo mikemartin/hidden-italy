@@ -66,7 +66,7 @@ page_builder:
         id: mlrc2l11
         title: 'Enjoy authentic Sicilian cooking'
         summary: 'Far from the Michelin-starred restaurants on the coast, you will experience authentic home-cooking, prepared with love.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlrc4uq2
         title: 'Explore the fascinating villages'

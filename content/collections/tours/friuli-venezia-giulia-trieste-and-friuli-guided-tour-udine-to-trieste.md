@@ -70,7 +70,7 @@ page_builder:
         id: mm4fpvo1
         title: 'Enjoy sophisticated cuisine'
         summary: "A combination of Italian, Austrian and Slovenian traditions and top quality produce, yields some of Italy's finest food."
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
     type: highlights
     enabled: true
   -

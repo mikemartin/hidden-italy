@@ -57,12 +57,12 @@ page_builder:
         id: mloog7vk
         title: 'Swim in the blue Mediterranean'
         summary: "You will rocky coves and some of northern Italy's best beaches, with plenty of opportunities to plunge into the sea."
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooun08
         title: "Sample Liguria's celebrated cuisine"
         summary: "Liguria's simple and healthy cuisine is a masterful combination of the freshest local produce with the freshest seafood!"
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'

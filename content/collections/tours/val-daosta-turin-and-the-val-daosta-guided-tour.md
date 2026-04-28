@@ -76,7 +76,7 @@ page_builder:
         id: mm4fpvo1
         title: 'Enjoy wholesome mountain cuisine'
         summary: "The valley's cuisine is a mix of traditional mountain food and sophisticated French cuisine, all based on local produce."
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
     type: highlights
     enabled: true
   -

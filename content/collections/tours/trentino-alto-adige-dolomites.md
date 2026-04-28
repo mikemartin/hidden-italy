@@ -78,7 +78,7 @@ page_builder:
         id: mlq7aw9b
         title: 'Delight in the cuisine (and wines)'
         summary: 'Enjoy excellent local food, a delicious combination of traditional mountain cooking and sophisticated Austrian cuisine.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlrar05e
         title: "Discover Cortina d'Ampezzo"

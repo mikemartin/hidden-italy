@@ -64,7 +64,7 @@ page_builder:
         id: mloog7vk
         title: 'Enjoy magnificent walking'
         summary: 'Enjoy a variety of extraordinary walks following well-marked trails with breath-taking views everywhere you turn.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Revel in a luxurious accommodation'
@@ -74,7 +74,7 @@ page_builder:
         id: mlooun08
         title: 'Indulge your taste buds'
         summary: 'Indulge your senses with very generous breakfasts and 3-course, alla carte dinners, included for each day of the tour.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'

@@ -64,7 +64,7 @@ page_builder:
         id: mloog7vk
         title: 'Get lost in gorgeous towns'
         summary: 'Stay in heart of some of the most beautiful and interesting towns in central Italy, heart of the Renaissance.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Be entranced by the extraordinary scenery'

@@ -52,7 +52,7 @@ page_builder:
         id: mloog7vk
         title: 'Savour the famous food and wines'
         summary: 'Ligurian cuisine is the delicious result of fresh produce from gardens and sea being combined with generations of skill.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Walk through stunning scenery'

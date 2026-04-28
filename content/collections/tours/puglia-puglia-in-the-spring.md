@@ -66,7 +66,7 @@ page_builder:
         id: mloqrnhn
         title: "Indulge yourself in Italy's finest food"
         summary: "Puglia has Italy's finest food:  the freshest fruit and veggies; the fab meats of Itria Valley and spectacular seafood."
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
     type: highlights
     enabled: true
   -

@@ -61,7 +61,7 @@ page_builder:
         id: mloog7vk
         title: 'Immerse yourself in the daily life'
         summary: 'You will have plenty of time each day to immerse yourself in the daily life of a series of buzzy market towns.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Sample the local brew'

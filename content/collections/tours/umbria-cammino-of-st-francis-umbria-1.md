@@ -57,7 +57,7 @@ page_builder:
         id: mloog7vk
         title: 'Savour the famous food and wines'
         summary: "Enjoy the region's hearty cuisine: pasta served with garden fresh vegetables, cheeses and meats, teamed with fine wines."
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: "Lose yourself in the region's fine art"

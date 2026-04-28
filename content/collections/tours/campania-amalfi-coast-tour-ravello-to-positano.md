@@ -58,7 +58,7 @@ page_builder:
         id: mloog7vk
         title: 'Stay in fabulous accommodation'
         summary: 'Stay in the best available accommodation in each town, always welcoming, always central and usually with sea views!'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Relish the wonderful food'

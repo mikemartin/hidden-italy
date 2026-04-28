@@ -49,7 +49,7 @@ page_builder:
         id: mloog7vk
         title: 'Enjoy the accommodation'
         summary: 'Stay in a 3-star hotel in Rieti; an agriturismo; a 4-star hotel in outer Rome; a lovely 3-star hotel near the Vatican.'
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Discover a little-known corner of Italy'

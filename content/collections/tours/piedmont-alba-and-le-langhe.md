@@ -55,7 +55,7 @@ page_builder:
         id: mloog7vk
         title: 'Savour the famous food and wines'
         summary: "Relish Alba's famous cuisine (truffles, mushrooms, cheeses and game) and its famous wines (Barolo Barbaresco and Arneis)"
-        icon: restaurant-chef-hat-cooking-kitchen-culinary-restaurant-cook-toque.svg
+        icon: housing-house.svg
       -
         id: mlooou12
         title: 'Be wowed by the gorgeous scenery'
