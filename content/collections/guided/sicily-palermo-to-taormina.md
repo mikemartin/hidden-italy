@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777433323
+updated_at: 1777433388
 days: 14
 image: tours/sicily-palermo-to-taormina/804728531-13.jpg
 grade: 4
@@ -80,15 +80,15 @@ page_builder:
         summary: 'The accommodation includes 4-star hotels in Palermo, the islands and Taormina, and a boutique hotel in the mountains.'
         icon: ski-alpine-Chalet.svg
       -
-        id: d3oIvR78iTmdORtYuOoEK
-        title: 'Experience the food'
-        summary: "One of the highlights of the tour is discovering the island's  wonderous cuisine (some would say the finest in Italy!)"
-        icon: gastronomy-spaghetti.svg
-      -
         id: Nq5hG3HzgmtEUg-VMunXK
         title: 'EWnjoy a variety of walks'
         summary: 'Enjoy a fabulous variety of walks following trails across farmlands, around mountains, and along the spectacular coast.'
         icon: trekking-trekking.svg
+      -
+        id: d3oIvR78iTmdORtYuOoEK
+        title: 'Experience the food'
+        summary: "One of the highlights of the tour is discovering the island's  wonderous cuisine (some would say the finest in Italy!)"
+        icon: gastronomy-spaghetti.svg
       -
         id: dANQOWIjeF8xx0YKt2kLG
         title: 'Experience the marvellous Aeolian islands'
