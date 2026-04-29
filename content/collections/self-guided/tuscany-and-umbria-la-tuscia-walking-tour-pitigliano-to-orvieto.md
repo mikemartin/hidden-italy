@@ -6,7 +6,7 @@ name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776927132
+updated_at: 1777446384
 grade: 3
 summary: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
 overview:
@@ -48,22 +48,32 @@ page_builder:
       -
         id: mlooee34
         title: 'Enjoy seven days way off the beaten track!'
-        summary: 'Enjoy a continuous walk following country lanes, Etruscan paths and Medieval pilgrim trails through peaceful countryside'
-        icon: trekking-boots.svg
+        summary: 'Enjoy a continuous walk following country lanes, Etruscan paths and Medieval pilgrim trails through rolling countryside.'
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Be astonished by ancient villages'
-        summary: 'Be astonished by these forgotten villages that are perched in impossible places overlooking spectacular scenery.'
-        icon: housing-house.svg
+        summary: 'Be astonished by these forgotten villages that are perched in the most impossible places overlooking spectacular scenery'
+        icon: medieval-castle-wall.svg
+      -
+        id: u_kEWLZctzE9YVhckTb-M
+        title: "Walk Italy's oldest roads"
+        summary: "Walk the ancient 'via cava', deeply cut roads that the Etruscans carved from living rock 3000 yrs ago to link the towns."
+        icon: geography-cartography-hills.svg
       -
         id: mlooou12
         title: 'Be immersed in history and traditions'
-        summary: 'Immerse yourself in the fascinating history and traditions of this peaceful corner of central Italy'
-        icon: culture-pizza.svg
+        summary: 'Immerse yourself in the fascinating history and ancient traditions of this very peaceful corner of central Italy.'
+        icon: culture-guitar.svg
+      -
+        id: PELODUzVD0CDXCukWKeaY
+        title: 'Be pampered lakeside'
+        summary: 'Enjoy a night in a 4-star hotel on the shores of Lake Bolsena with its excellent restaurant and its lakeside promenade.'
+        icon: nature-lake.svg
       -
         id: mlooun08
         title: 'Relax, you are fully-supported'
-        summary: 'Everything is organised: you are transfer to and from Alba; your bags moved each day; and you have 24-hour local support'
+        summary: 'Everything is organised: your transfer from Rome on Day 1; bags moved daily; maps and an app; plus 24-hour local support'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -270,8 +280,11 @@ gallery:
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/sorano-1-a.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1050010.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020009-a.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/img_6947.jpeg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano-2.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-8.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/img_6947.jpeg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/walking.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/martinophuc-boats-7100032.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-1.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-8.jpg
+now_open: false
 ---
