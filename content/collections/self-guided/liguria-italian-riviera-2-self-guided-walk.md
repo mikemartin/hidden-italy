@@ -6,7 +6,7 @@ name: 'Italian Riviera 2'
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777353378
+updated_at: 1777442872
 grade: 4
 summary: "Walk Italy's most celebrated coastline from romantic Sestri Levante to the Cinque Terre!"
 overview:
@@ -60,12 +60,12 @@ page_builder:
       -
         id: mloog7vk
         title: 'Swim in the blue Mediterranean'
-        summary: "You will rocky coves and some of northern Italy's best beaches, with plenty of opportunities to plunge into the sea."
+        summary: "You will pass rocky coves and some of Italy's best beaches with plenty of opportunities to plunge into the deep blue sea"
         icon: water-sports-swimming.svg
       -
         id: VvRv3xIve8BoWdW7xq8cI
-        title: 'Walk on coastal paths that time has forgotten'
-        summary: "The first two walks take you along a stretch of spectacular coastline where you won't see another hiker."
+        title: 'Soak up the tranquility'
+        summary: "The first two walks take you along a stretch of spectacular forested, coastline where you won't pass another hiker."
         icon: nature-lake.svg
       -
         id: mlooun08
@@ -350,4 +350,5 @@ gallery:
   - tours/alto-adige-dolomites-1-self-guided-walk-1-1/wine-bottle.jpg
 start_location: 'Sestri Levante'
 finish_location: Portovenere
+now_open: false
 ---
