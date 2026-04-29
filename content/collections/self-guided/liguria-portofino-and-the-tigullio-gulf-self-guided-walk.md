@@ -6,7 +6,7 @@ name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777353898
+updated_at: 1777442979
 grade: 3
 summary: 'Spend a week exploring the Portofino National Park and the stupendous Tigullio Gulf!'
 overview:
@@ -58,22 +58,22 @@ page_builder:
       -
         id: mloog7vk
         title: 'Stay in great hotels'
-        summary: 'Accommodation includes a lovely family hotel in Portofino and a 4-star hotel on the Bay of Silence in Sestri Levante.'
+        summary: "Accommodation includes a lovely family hotel in Portofino and a 4-star hotel on the 'Bay of Silence' in Sestri Levante."
         icon: housing-house.svg
       -
         id: mlooou12
         title: 'Experience Ligurian cuisine'
         summary: 'Ligurian cuisine is the most delicious in Italy: simple, healthy food created from the freshest local ingredients.'
-        icon: culture-pizza.svg
+        icon: gastronomy-spaghetti.svg
       -
         id: mlooun08
         title: 'Discover the magical towns'
-        summary: 'You will stay in some of the most celebrated coastal towns in Italy, including Camogli; Portofino; and Sestri Levante.'
+        summary: 'You will stay in some of the most celebrated coastal towns in Italy, including Camogli, Portofino, and Sestri Levante.'
         icon: nature-beach.svg
       -
         id: EZCfyh48rsQBpzLCi8pLX
         title: 'Go for a swim'
-        summary: 'You will have plenty of time along the way to enjoy swims in the blue Mediterranean, at sandy beaches and rocky coves.'
+        summary: 'You will have plenty of time along the way to enjoy swims in the blue Mediterranean, off sandy beaches and rocky coves.'
         icon: water-sports-swimming.svg
       -
         id: mmbinilb
@@ -276,4 +276,5 @@ gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour/nathan-prost-ivrymcq9jae-unsplash.jpg
 start_location: Camogli
 finish_location: 'Sestri Levante'
+now_open: false
 ---
