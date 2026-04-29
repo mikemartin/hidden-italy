@@ -6,7 +6,7 @@ name: 'Amalfi Coast tour'
 region: Campania
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777434316
+updated_at: 1777443422
 grade: 3
 summary: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
 overview:
