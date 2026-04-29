@@ -6,7 +6,7 @@ name: 'Tuscany 3'
 region: Tuscany
 days: 5
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776926730
+updated_at: 1777445218
 grade: 2
 summary: 'A classic walk takes you through celebrated landscapes and iconic towns to glorious Siena.'
 overview:
@@ -58,27 +58,32 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 5-day walk'
         summary: 'Enjoy a continuous walk from town to town for four days following pilgrim trails through magnificent Tuscan countryside!'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Immerse yourself in daily Tuscan life'
         summary: 'Immerse yourself in the traditions, history and daily life of four classic Tuscan towns.'
-        icon: housing-house.svg
+        icon: culture-violin.svg
       -
         id: mlooou12
         title: 'Soak up the beguiling landscapes'
         summary: 'Easy walking allows you to relax and soak up the beautiful landscapes you are passing through, classic Tuscany!'
-        icon: culture-pizza.svg
+        icon: geography-cartography-rural.svg
       -
         id: mlooun08
         title: 'Indulge in the food and wine'
         summary: 'Enjoy the food and wine that have made this region famous: fresh authentic flavors, simple dishes with exceptional wine.'
-        icon: culture-wine.svg
+        icon: 'wine-wine bottle.svg'
       -
         id: mmx1061d
         title: 'Relax and enjoy for holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
         icon: culture-champagne.svg
+      -
+        id: WnHtbv6LQHbEKu3kGTNc-
+        title: 'Stay in fabulous accommodation'
+        summary: 'Each night, you sleep in lovely 3-star hotel in the heart of the historic centre of these gorgeous, Renaissance towns.'
+        icon: medieval-castle-wall.svg
     type: highlights
     enabled: true
   -
@@ -274,4 +279,5 @@ gallery:
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/achim-ruhnau-a3fwnq1inoi-unsplash(1).jpg
 start_location: 'San Gimignano'
 finish_location: Siena
+now_open: false
 ---
