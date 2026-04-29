@@ -1,12 +1,12 @@
 ---
 id: 3d10a0a0-5538-48e1-a7ad-e8e84b633ed9
 blueprint: tour
-title: 'Puglia - Puglia'
-name: Puglia
+title: 'Puglia - Puglia: the Gargano Peninsula'
+name: 'Puglia: the Gargano Peninsula'
 region: Puglia
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777355663
+updated_at: 1777443372
 grade: 4
 summary: 'Ramble the length of Gargano Peninsula through farmlands and forest to the sparkling sea!'
 overview:
@@ -52,15 +52,15 @@ page_builder:
         summary: 'Enjoy a continuous walk following Medieval pilgrim trails through peaceful countryside, spectacular forest to the coast!'
         icon: trekking-trekking.svg
       -
-        id: mloog7vk
-        title: 'Enjoy the marvellous food'
-        summary: 'With dinners included, you can enjoy the bounty of northern Pugliese cuisine each day, both country-style and coastal.'
-        icon: gastronomy-spaghetti.svg
-      -
         id: BL0BCFZ3eqANalVYMQ_CC
         title: 'Stay in a variety of accommodation'
         summary: 'Stay in a variety of accommodation, from modern 4-star hotels with pools to family-run agrituismos in the countryside.'
         icon: geography-cartography-hills.svg
+      -
+        id: mloog7vk
+        title: 'Enjoy the marvellous food'
+        summary: 'With dinners included, you can enjoy the bounty of northern Pugliese cuisine each day, both country-style and coastal.'
+        icon: gastronomy-spaghetti.svg
       -
         id: mlooou12
         title: 'Enjoy the solitude of ancient forests'
@@ -74,7 +74,7 @@ page_builder:
       -
         id: mn2o0oyw
         title: 'Relax, you are fully-supported'
-        summary: 'Everything is organised: you are transfer to and from Alba; your bags moved each day; and you have 24-hour local support'
+        summary: 'Everything is organised: transfers from Foggia and back again;  bags moved each day; an App; and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -293,4 +293,5 @@ gallery:
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/17.5.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_2836.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_3610.jpg
+now_open: false
 ---
