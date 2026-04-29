@@ -16,6 +16,8 @@ preferences:
       view: list
     questions:
       view: list
+    self-guided:
+      view: list
   assets:
     icons:
       mode: grid
