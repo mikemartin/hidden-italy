@@ -6,7 +6,7 @@ name: 'Dolomites 1'
 region: 'Trentino-Alto Adige'
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776053957
+updated_at: 1777444493
 grade: 4
 summary: "Enjoy some of Italy's finest walking through some of Europe's most breath-taking scenery!"
 overview:
@@ -58,26 +58,26 @@ page_builder:
         id: mlooee34
         title: 'Explore the most beautiful mountains in the world!'
         summary: 'Take your time to enjoy five days exploring a gorgeous valley in the heart of the most beautiful mountains in the world.'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Enjoy magnificent walking'
         summary: 'Enjoy a variety of extraordinary walks following well-marked trails with breath-taking views everywhere you turn.'
-        icon: housing-house.svg
+        icon: switzerland-mountain.svg
       -
         id: mlooou12
         title: 'Revel in a luxurious accommodation'
         summary: 'Your accommodation is in a family-run, 4-star hotel, a seductive combination of Austrian efficiency and Italian warmth.'
-        icon: culture-pizza.svg
+        icon: ski-alpine-hotel.svg
       -
         id: mlooun08
         title: 'Indulge your taste buds'
         summary: 'Indulge your senses with very generous breakfasts and 3-course, alla carte dinners, included for each day of the tour.'
-        icon: housing-house.svg
+        icon: 'wine-wine bottle.svg'
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
-        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        summary: 'Everything organised: you are transferred from and back to Bolzano; you have maps and an App; and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -277,4 +277,5 @@ gallery:
   - tours/alto-adige-dolomites-1-self-guided-walk/35-1773020227.jpg
 start_location: Bolzano
 finish_location: 'Val Gardena'
+now_open: false
 ---
