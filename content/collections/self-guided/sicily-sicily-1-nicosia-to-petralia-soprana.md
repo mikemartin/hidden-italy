@@ -6,7 +6,7 @@ name: 'Sicily 1'
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777358244
+updated_at: 1777444146
 grade: 4
 summary: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
 overview:
@@ -79,7 +79,7 @@ page_builder:
       -
         id: mlrc9yr3
         title: 'Relax and enjoy your holiday'
-        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        summary: 'Everything organised. You are transfer to and from Palermo. You have your bags moved; an App; and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -297,4 +297,5 @@ gallery:
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_0270.jpg
 start_location: Nicosia
 finish_location: 'Petralia Soprana'
+now_open: false
 ---
