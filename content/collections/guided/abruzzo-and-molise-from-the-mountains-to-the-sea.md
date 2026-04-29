@@ -6,7 +6,7 @@ name: 'From the mountains to the sea'
 region: 'Abruzzo and Molise'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777344973
+updated_at: 1777432777
 grade: 2
 summary: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
 overview:
@@ -49,13 +49,13 @@ page_builder:
       -
         id: mloqdoo9
         title: "Get an insider's view of Rome"
-        summary: "Stay in a historic hotel behind the Pantheon, explore Rome with a local and have dinner at the city's oldest restaurant."
+        summary: 'Stay in a historic hotel behind the Pantheon, explore Rome with a local. and have dinner at a traditional restaurant.'
         icon: culture-Pantheon.svg
       -
         id: mloqi0iy
         title: 'Explore the Gran Sasso National Park'
         summary: 'Explore the largest national park in central Italy, following well-marked trails and beautiful historic droving trails.'
-        icon: culture-pizza.svg
+        icon: trekking-trekking.svg
       -
         id: mloqndod
         title: 'Be a guest in marvellous accommodation'
@@ -67,19 +67,15 @@ page_builder:
         summary: "Discover the rolling hills, vineyards, walking trails, coastline, islands food, traditions of Italy's least-known region"
         icon: geography-cartography-hills.svg
       -
-        id: mmbkfbin
-        title: 'Go boating around the Tremiti Islands'
-        summary: 'After exploring the mountains, finish with a day on a private boat exploring the Tremiti Islands and swimming in the Med'
-        icon: transport-sailboat.svg
-      -
         id: D-ua9KFUPgLdq60ujrO0x
         title: 'Enjoy the delicious food!'
         summary: 'Traditional food combining seasonal produce and fresh ingredients with age-old methods for healthy memorable meals. Yum!'
         icon: gastronomy-spaghetti.svg
       -
-        id: TrieuOs2JtM9fSHDW88UQ
-        title: 'Go for a swim'
-        summary: 'Go for a swim in the crystal clear waters of the Mediterranean!'
+        id: mmbkfbin
+        title: 'Go boating around the Tremiti Islands'
+        summary: 'After exploring the mountains, finish with a day on a private boat exploring the Tremiti Islands and swimming in the Med'
+        icon: transport-sailboat.svg
     type: highlights
     enabled: true
   -
@@ -320,4 +316,5 @@ gallery:
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/14-termoli.jpg
 start_location: Rome
 finish_location: Termoli
+now_open: false
 ---
