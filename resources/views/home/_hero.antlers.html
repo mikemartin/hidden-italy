@@ -1,52 +1,78 @@
 {{#
     @name Home hero
-    @desc Full-bleed hero with a crossfading carousel. Each slide is built
-          from a tour entry — the tour's `image` becomes the slide image
-          and a `region / name` label (linked to the tour) is shown beneath.
-          On desktop a gold progress ring fills as the slide ages, prev/next
-          arrows sit on the right and a bouncing chevron points to the next
-          section. On mobile the bottom row stacks centred with dot
-          indicators (no arrows or chevron) and the CTA becomes a solid
-          white pill. Auto-advances every 6 seconds.
+    @desc Full-bleed hero with a Splide-powered fade carousel. Each slide is
+          built from a tour entry — the tour's `image` becomes the slide
+          image and a `region / name` label (linked to the tour) is shown
+          beneath. On desktop a gold progress ring fills as the slide ages
+          (driven by Splide's `autoplay:playing` rate), prev/next arrows sit
+          on the right and a bouncing chevron points to the next section.
+          On mobile the bottom row stacks centred with dot indicators (no
+          arrows or chevron) and the CTA becomes a solid white pill.
+          Auto-advances every 6 seconds with a 1200ms crossfade.
 #}}
 
 <!-- /home/_hero.antlers.html -->
 <section
     class="stack-space-collapse span-full relative isolate bg-neutral-900 text-white overflow-hidden h-svh min-h-[600px] lg:min-h-[760px] max-h-[820px]"
-    x-data="hero_carousel({ count: {{ tour_photos | count }}, interval: 6000 })"
+    x-data="{
+        current: 0,
+        progress: 0,
+        splide: null,
+        init() {
+            this.splide = new Splide(this.$refs.splide, {
+                type: 'fade',
+                rewind: true,
+                autoplay: {{ tour_photos | count }} > 1,
+                interval: 6000,
+                speed: 1200,
+                arrows: false,
+                pagination: false,
+            });
+            this.splide.on('move', (newIndex) => { this.current = newIndex });
+            this.splide.on('autoplay:playing', (rate) => { this.progress = rate });
+            this.splide.mount();
+        },
+        next() { this.splide?.go('+') },
+        prev() { this.splide?.go('-') },
+        goTo(i) { this.splide?.go(i) },
+        destroy() { this.splide?.destroy() },
+    }"
     aria-roledescription="carousel"
     aria-label="{{ headline | strip_tags | entities }}"
 >
-    {{# Slides — each layered absolutely, crossfading via opacity. #}}
-    {{ tour_photos }}
-        <div
-            class="absolute inset-0 transition-opacity duration-[1200ms] ease-in-out"
-            :class="current === {{ index }} ? 'opacity-100 z-0' : 'opacity-0 -z-10'"
-            :aria-hidden="current !== {{ index }}"
-        >
-            {{ if image }}
-                {{
-                    picture
-                    :image="image"
-                    class="absolute inset-0 w-full h-full object-cover"
-                    cover="true"
-                    sizes="100vw"
-                    fetchpriority="{{ index == 1 ? 'high' : 'auto' }}"
-                    loading="{{ index == 1 ? 'eager' : 'lazy' }}"
-                }}
-            {{ /if }}
+    {{# Splide-managed slides (background images). Each slide layers the
+        tour image, a flat dark wash for contrast, and top/bottom gradients
+        to anchor the header and bottom row. Splide handles the crossfade. #}}
+    <section x-ref="splide" class="splide hero-splide absolute inset-0" aria-hidden="true">
+        <div class="splide__track">
+            <ul class="splide__list">
+                {{ tour_photos }}
+                    <li class="splide__slide">
+                        {{ if image }}
+                            {{
+                                picture
+                                :image="image"
+                                class="absolute inset-0 w-full h-full object-cover"
+                                cover="true"
+                                sizes="100vw"
+                                fetchpriority="{{ index == 1 ? 'high' : 'auto' }}"
+                                loading="{{ index == 1 ? 'eager' : 'lazy' }}"
+                            }}
+                        {{ /if }}
 
-            {{# Uniform dark wash for centred-content contrast. #}}
-            <div class="absolute inset-0 bg-black/30" aria-hidden="true"></div>
+                        {{# Uniform dark wash for centred-content contrast. #}}
+                        <div class="absolute inset-0 bg-black/30"></div>
 
-            {{# Top + bottom dark gradients to anchor the header and the bottom row. #}}
-            <div
-                class="absolute inset-0"
-                aria-hidden="true"
-                style="background-image: linear-gradient(180deg, rgba(0,0,0,0.55) 8%, rgba(0,0,0,0) 28%), linear-gradient(180deg, rgba(0,0,0,0) 70%, rgba(0,0,0,0.5) 100%);"
-            ></div>
+                        {{# Top + bottom dark gradients to anchor the header and the bottom row. #}}
+                        <div
+                            class="absolute inset-0"
+                            style="background-image: linear-gradient(180deg, rgba(0,0,0,0.55) 8%, rgba(0,0,0,0) 28%), linear-gradient(180deg, rgba(0,0,0,0) 70%, rgba(0,0,0,0.5) 100%);"
+                        ></div>
+                    </li>
+                {{ /tour_photos }}
+            </ul>
         </div>
-    {{ /tour_photos }}
+    </section>
 
     {{# Foreground content — headline + CTA, centred. #}}
     <div class="relative z-10 h-full fluid-grid pointer-events-none">
@@ -90,10 +116,9 @@
                             :stroke-dashoffset="62.832 * (1 - progress)"
                         ></circle>
                     </svg>
-                    {{# Tour names stacked in a single grid cell — they crossfade with
-                        the same 1200ms timing as the image so the label and photo move
-                        in sync. Pulls the linked tour entry's `name` (falling back to
-                        `title`). #}}
+                    {{# Tour names stacked in a single grid cell — they crossfade in sync
+                        with Splide's slide transition (matched to the 1200ms speed).
+                        Pulls the linked tour entry's `name` (falling back to `title`). #}}
                     <div class="grid">
                         {{ tour_photos }}
                             <a

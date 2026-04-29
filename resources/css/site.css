@@ -106,6 +106,16 @@
     padding-block: 0.75rem;
 }
 
+/* Home hero Splide carousel — full-bleed fade carousel that fills its
+   absolutely-positioned container. Slide content (image + overlays) is
+   absolutely positioned, so the slide itself needs an explicit height. */
+.hero-splide,
+.hero-splide .splide__track,
+.hero-splide .splide__list,
+.hero-splide .splide__slide {
+    height: 100%;
+}
+
 /* Footer decorative wordmark — uses the SVG as a CSS mask so the colour
    comes from the surrounding `text-*` utility. The SVG itself ships with
    white-filled paths; the mask drops the original colour entirely. */
