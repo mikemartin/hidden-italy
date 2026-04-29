@@ -79,7 +79,7 @@ page_builder:
         id: mjflft3i
         title: 'Explore the spectacular scenery'
         summary: 'This hikes takes you through some of the most spectacular scenery in Europe: mountains and forests; lakes and glaciers.'
-        icon: nature-lake.svg
+        icon: switzerland-mountain.svg
       -
         id: mjflfz9u
         title: 'Enjoy mountain hospitality'
@@ -340,7 +340,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777350805
+updated_at: 1777433077
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
@@ -358,4 +358,5 @@ image: tours/italian-alps-trails-to-freedom/94.jpg
 simple_likes: 0
 start_location: Biella
 finish_location: Macugnaga
+now_open: false
 ---
