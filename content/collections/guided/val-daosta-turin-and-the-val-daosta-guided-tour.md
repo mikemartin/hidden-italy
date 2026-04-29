@@ -6,7 +6,7 @@ name: "Turin and the Val d'Aosta"
 region: "Val d'Aosta"
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777261491
+updated_at: 1777434189
 grade: 4
 summary: "Two weeks exploring the Val d'Aosta, Italy's smallest, but most spectacular, region!"
 overview:
@@ -55,27 +55,32 @@ page_builder:
         id: mloqdoo9
         title: 'Discover the elegance of Turin'
         summary: "Turin is one of Italy's hidden gems: an elegant city with kilometres of arcades, historic cafes and excellent museums."
-        icon: geography-cartography-city.svg
+        icon: culture-cappuccino.svg
       -
         id: mloqi0iy
         title: 'Stay in fabulous accommodation'
         summary: 'This tour is 4-star all the way: an historic hotel in Turin and then a series of lovely family-run mountain hotels.'
         icon: housing-house.svg
       -
+        id: mloqrnhn
+        title: "Walk some of Europe's finest trails"
+        summary: 'With local guides out front, walk well-maintained mountain trails each day, surrounded by incomparable natural beauty.'
+        icon: trekking-trekking.svg
+      -
         id: mloqndod
         title: "Explore Italy's most spectacular region"
         summary: "Every corner of the Val d'Aosta has breathtaking views: spectacular mountains, glaciers, high pastures and cute villages"
-        icon: culture-pizza.svg
-      -
-        id: mloqrnhn
-        title: "Walk some of Europe's finest trails"
-        summary: 'Walk well-maintained and well-marked mountain trails each day, surrounded on every side by incomparable natural beauty.'
-        icon: trekking-boots.svg
+        icon: nature-lake.svg
       -
         id: mm4fpvo1
         title: 'Enjoy wholesome mountain cuisine'
         summary: "The valley's cuisine is a mix of traditional mountain food and sophisticated French cuisine, all based on local produce."
-        icon: housing-house.svg
+        icon: culture-cheese.svg
+      -
+        id: _LKc1hGcnRObeRzOmqJRJ
+        title: 'Go to the top of Mont Blanc'
+        summary: 'As the finale, we take the Skyways lift to the top of Mont Blanc, the roof of Europe and the highest peak in the Alps!'
+        icon: switzerland-mountain.svg
     type: highlights
     enabled: true
   -
@@ -323,4 +328,5 @@ gallery:
   - tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_8817.jpg
   - tours/val-daosta-turin-and-the-val-daosta-guided-tour/val-ferret.jpg
   - tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_5240.jpg
+now_open: false
 ---
