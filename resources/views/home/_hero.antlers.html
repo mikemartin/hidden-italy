@@ -26,7 +26,7 @@
                 interval: 6000,
                 speed: 1200,
                 arrows: false,
-                pagination: false,
+                pagination: true,
             });
             this.splide.on('move', (newIndex) => { this.current = newIndex });
             this.splide.on('autoplay:playing', (rate) => { this.progress = rate });
@@ -34,7 +34,6 @@
         },
         next() { this.splide?.go('+') },
         prev() { this.splide?.go('-') },
-        goTo(i) { this.splide?.go(i) },
         destroy() { this.splide?.destroy() },
     }"
     aria-roledescription="carousel"
@@ -43,7 +42,7 @@
     {{# Splide-managed slides (background images). Each slide layers the
         tour image, a flat dark wash for contrast, and top/bottom gradients
         to anchor the header and bottom row. Splide handles the crossfade. #}}
-    <section x-ref="splide" class="splide hero-splide absolute inset-0" aria-hidden="true">
+    <div x-ref="splide" class="splide hero-splide absolute inset-0">
         <div class="splide__track">
             <ul class="splide__list">
                 {{ tour_photos }}
@@ -72,7 +71,7 @@
                 {{ /tour_photos }}
             </ul>
         </div>
-    </section>
+    </div>
 
     {{# Foreground content — headline + CTA, centred. #}}
     <div class="relative z-10 h-full fluid-grid pointer-events-none">
@@ -132,8 +131,10 @@
                     </div>
                 </div>
 
+                {{# Desktop prev/next arrows. (Mobile uses Splide's pagination
+                    dots, rendered inside the .splide container and styled by
+                    the `.hero-splide .splide__pagination*` rules in site.css.) #}}
                 {{ if tour_photos | count > 1 }}
-                    {{# Desktop arrows. #}}
                     <div class="hidden lg:flex items-center gap-4">
                         <button
                             type="button"
@@ -151,25 +152,6 @@
                         >
                             <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />
                         </button>
-                    </div>
-
-                    {{# Mobile dot indicators. #}}
-                    <div
-                        role="tablist"
-                        aria-label="Choose slide"
-                        class="order-2 flex lg:hidden items-center justify-center gap-2"
-                    >
-                        {{ tour_photos }}
-                            <button
-                                type="button"
-                                role="tab"
-                                :aria-selected="current === {{ index }}"
-                                aria-label="Go to slide {{ index | add:1 }}"
-                                @click="goTo({{ index }})"
-                                class="h-2 rounded-full transition-[width] duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-                                :class="current === {{ index }} ? 'w-6 bg-gold' : 'w-2 bg-white/30 hover:bg-white/60'"
-                            ></button>
-                        {{ /tour_photos }}
                     </div>
                 {{ /if }}
             </div>

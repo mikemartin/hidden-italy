@@ -116,6 +116,44 @@
     height: 100%;
 }
 
+/* Mobile-only pagination dots — Splide renders `.splide__pagination > li >
+   .splide__pagination__page`. Position absolute at the bottom of the hero,
+   matching the previous custom indicators (gold pill when active, faint
+   white pill otherwise). Hidden on desktop where the prev/next arrows live. */
+.hero-splide .splide__pagination {
+    position: absolute;
+    inset-inline: 0;
+    bottom: 1rem;
+    z-index: 10;
+    gap: 0.5rem;
+    padding: 0;
+}
+
+@media (min-width: 1024px) {
+    .hero-splide .splide__pagination {
+        display: none;
+    }
+}
+
+.hero-splide .splide__pagination__page {
+    height: 0.5rem;
+    width: 0.5rem;
+    border: 0;
+    border-radius: 9999px;
+    background-color: rgb(255 255 255 / 0.3);
+    transition: width 150ms ease, background-color 150ms ease;
+    cursor: pointer;
+}
+
+.hero-splide .splide__pagination__page:hover {
+    background-color: rgb(255 255 255 / 0.6);
+}
+
+.hero-splide .splide__pagination__page.is-active {
+    width: 1.5rem;
+    background-color: var(--color-gold);
+}
+
 /* Footer decorative wordmark — uses the SVG as a CSS mask so the colour
    comes from the surrounding `text-*` utility. The SVG itself ships with
    white-filled paths; the mask drops the original colour entirely. */
