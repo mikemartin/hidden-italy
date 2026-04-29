@@ -6,7 +6,7 @@ name: 'Trieste and Friuli'
 region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777350607
+updated_at: 1777432945
 grade: 4
 summary: 'A special tour to a fascinating region: 3 borders, 4 national parks; and five languages.'
 overview:
@@ -56,15 +56,15 @@ page_builder:
         summary: 'Including a 4-star hotel in Udine; a family-run hotel from the 14th century; and an historic, 4-star hotel in Trieste.'
         icon: housing-house.svg
       -
-        id: mloqndod
-        title: "Explore Italy's most diverse region"
-        summary: 'With 5 official languages, 3 international borders, soaring mountains and endless coasts, Friuli is a captivating place.'
-        icon: culture-italy.svg
-      -
         id: mloqrnhn
         title: 'Walk incomparable trails'
         summary: 'Led by local guides enjoy a variety of beautiful walks: through mountain and valleys, and along along beautiful coasts.'
         icon: trekking-trekking.svg
+      -
+        id: mloqndod
+        title: "Explore Italy's most diverse region"
+        summary: 'With 5 official languages, 3 international borders, soaring mountains and endless coasts, Friuli is a captivating place.'
+        icon: culture-italy.svg
       -
         id: mm4fpvo1
         title: 'Enjoy sophisticated cuisine'
@@ -337,4 +337,5 @@ gallery:
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/88.7.jpg
 start_location: Udine
 finish_location: Trieste
+now_open: false
 ---
