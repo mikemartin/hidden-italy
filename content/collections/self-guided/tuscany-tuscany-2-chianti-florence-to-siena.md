@@ -6,7 +6,7 @@ name: 'Tuscany 2'
 region: Tuscany
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776926265
+updated_at: 1777444904
 grade: 2
 summary: 'Enjoy a seven-day walk through the rolling vineyards, forest and market towns of Chianti.'
 overview:
@@ -55,31 +55,31 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 7-day walk'
         summary: 'Enjoy a continuous walk from village to village for five days following well-marked trails through beautiful countryside'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Immerse yourself in the daily life'
         summary: 'You will have plenty of time each day to immerse yourself in the daily life of a series of buzzy market towns.'
-        icon: housing-house.svg
+        icon: medieval-castle-wall.svg
       -
         id: mlooou12
         title: 'Sample the local brew'
         summary: "Enjoy sampling the district's fine red wines, the most celebrated in Italy, accompanied by district's equally fine food."
-        icon: culture-pizza.svg
+        icon: 'wine-wine bottle.svg'
       -
         id: mlooun08
         title: 'Staying in a charming agriturismo'
         summary: 'Relax in a charming agriturismo in Chianti hills, with a swimming pool, beautiful grounds, and an excellent restaurant.'
-        icon: housing-house.svg
+        icon: water-sports-swimming.svg
       -
         id: mmbinilb
         title: 'Soak up Siena'
         summary: "Stay in a lovely hotel near the Piazza del Campo, in the heart of Siena, Europe's most perfectly preserved Medieval city"
-        icon: geography-cartography-city.svg
+        icon: culture-vatican.svg
       -
         id: mmx1061d
         title: 'Relax and enjoy for holiday'
-        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        summary: 'Everything has been looked after: transfer from Florence; rooms; daily luggage transfers; maps and app; 24-hour support!'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -296,4 +296,5 @@ gallery:
   - tours/tuscany-tuscany-2-chianti-florence-to-siena/mario-la-pergola-vopuqdtcnja-unsplash.jpg
 start_location: Florence
 finish_location: Siena
+now_open: false
 ---
