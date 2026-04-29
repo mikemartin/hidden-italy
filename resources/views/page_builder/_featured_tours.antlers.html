@@ -15,7 +15,30 @@
 {{ if block:tours }}
     <section
         class="fluid-grid gap-y-10 md:gap-y-16"
-        x-data="tours_carousel({ count: {{ block:tours | count }} })"
+        x-data="{
+            progress: 0,
+            splide: null,
+            init() {
+                this.splide = new Splide(this.$refs.splide, {
+                    perPage: 3,
+                    perMove: 1,
+                    gap: '2.25rem',
+                    pagination: false,
+                    arrows: false,
+                    breakpoints: {
+                        768: { perPage: 1, gap: '1.5rem' },
+                    },
+                });
+                this.splide.on('mounted move', () => {
+                    const end = this.splide.Components.Controller.getEnd() + 1;
+                    this.progress = Math.min((this.splide.index + 1) / end, 1) * 100;
+                });
+                this.splide.mount();
+            },
+            next() { this.splide?.go('+') },
+            prev() { this.splide?.go('-') },
+            destroy() { this.splide?.destroy() },
+        }"
     >
         <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             {{ partial:typography/h2 :content="block:heading" class="!mb-0 uppercase md:normal-case" color="text-foreground" }}
