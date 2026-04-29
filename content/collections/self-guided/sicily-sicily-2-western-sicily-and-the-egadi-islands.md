@@ -6,7 +6,7 @@ name: 'Sicily 2 (Western Sicily and the Egadi Islands)'
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777359188
+updated_at: 1777444248
 grade: 4
 summary: 'Coastal walks, island hoping and fabulous food, this tour is southern Italy at its best!'
 overview:
@@ -61,7 +61,7 @@ page_builder:
       -
         id: mlrc2l11
         title: 'Go island hopping'
-        summary: 'The ferry tickets are included so you can experience the pleasure of island hopping around the Mediterranean Sea.'
+        summary: 'The ferry tickets are included in the tour cost so you can experience the pleasure of island hopping around the Egadi.'
         icon: transport-ship.svg
       -
         id: mlrbzbll
@@ -299,4 +299,5 @@ gallery:
 seasons: autumn
 start_location: Favignana
 finish_location: Scopello
+now_open: false
 ---
