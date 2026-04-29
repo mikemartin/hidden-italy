@@ -6,7 +6,7 @@ name: 'Amalfi Coast tour'
 region: Campania
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777349105
+updated_at: 1777434316
 grade: 3
 summary: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
 overview:
@@ -77,7 +77,7 @@ page_builder:
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: restaurant-glass-beverage-drink-restaurant-bar-dining.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
   -
@@ -283,4 +283,6 @@ gallery:
 image: tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
 start_location: Ravello
 finish_location: Positano
+now_open: false
+seasons: spring
 ---
