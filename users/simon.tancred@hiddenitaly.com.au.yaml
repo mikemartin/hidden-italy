@@ -18,6 +18,8 @@ preferences:
       view: list
     self-guided:
       view: list
+    guided:
+      view: list
   assets:
     icons:
       mode: grid
