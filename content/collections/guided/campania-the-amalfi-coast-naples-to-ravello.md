@@ -8,7 +8,7 @@ days: 13
 seasons: spring
 grade: 2
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777350031
+updated_at: 1777432860
 summary: 'Campania a stunningly beautiful area with all the exuberance and colour of southern Italy.'
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15
@@ -73,7 +73,7 @@ page_builder:
         id: mlomkfe7
         title: 'Explore the Monti Picentini'
         summary: 'Spend four days exploring the charms and great natural beauty of this little-visited corner of the interior of Campania.'
-        icon: culture-Vineyard.svg
+        icon: geography-cartography-rural.svg
       -
         id: mlompfm9
         title: 'Savour the flavours of Campania cuisine'
@@ -337,4 +337,5 @@ simple_likes: 0
 locations: southern-italy
 start_location: Naples
 finish_location: Ravello
+now_open: false
 ---
