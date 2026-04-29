@@ -6,7 +6,7 @@ name: 'Alba and Le Langhe'
 region: Piedmont
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777354828
+updated_at: 1777443207
 grade: 3
 summary: 'An 8-day tour that takes you through the seductive rolling hills of southern Piedmont.'
 overview:
@@ -48,7 +48,7 @@ page_builder:
       -
         id: mlooee34
         title: 'Enjoy a continuous 8-day walk'
-        summary: 'Enjoy a continuous walk from village to village for seven days, (no buses to get to and from the walks each day)'
+        summary: 'Enjoy a continuous walk through vineyards and forest, following well-marked trails from village to village for seven days'
         icon: trekking-trekking.svg
       -
         id: mloog7vk
@@ -58,7 +58,7 @@ page_builder:
       -
         id: mlooou12
         title: 'Be wowed by the gorgeous scenery'
-        summary: 'You will walk through rolling hills covered in vineyards, past cute towns with snowy peaks of the Alps in the distance.'
+        summary: 'You walk through rolling hills covered in vineyards, past cute towns with the snowy peaks of the Alps in the distance.'
         icon: geography-cartography-hills.svg
       -
         id: 0cFvFwfWzMeuNllxlpi-e
@@ -73,7 +73,7 @@ page_builder:
       -
         id: mlooun08
         title: 'Relax, you are fully-supported'
-        summary: 'Everything is organised: you are transfer to and from Alba; your bags moved each day; and you have 24-hour local support'
+        summary: 'Everything is organised: you are transfer to and from Alba; your bags moved each day; an App; and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -296,4 +296,5 @@ gallery:
   - tours/piedmont-alba-and-le-langhe/img_5838.jpg
 start_location: Turin
 finish_location: Alba
+now_open: false
 ---
