@@ -6,7 +6,7 @@ name: 'Italian Riviera 1'
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777352751
+updated_at: 1777442695
 grade: 4
 summary: 'Follow ancient paths through fishing villages and forests on the beautiful Italian Riviera'
 overview:
@@ -68,20 +68,20 @@ page_builder:
         summary: "Starting in bustling Genova and finishing in enchanted Sestri Levante, you will explore Italy's most romantic coastline."
         icon: nature-beach.svg
       -
-        id: mloog7vk
-        title: 'Stay in fabulous Portofino'
-        summary: "Stay in a family-run hotel off the main piazza and schmooze in one of Italy's most picturesque seaside villages!"
-        icon: nature-beach.svg
+        id: 6ie2Lj2ewJn2NIpV3_xII
+        title: 'enjoy continuous walking along this beautiful coastline'
+        summary: 'Enjoy following historical trails, exploring this fascinating coast passing villages, olive groves, forests and beaches.'
+        icon: trekking-trekking.svg
       -
         id: mlooun08
         title: "Sample Liguria's celebrated cuisine"
         summary: "Liguria's simple and healthy cuisine is a masterful combination of the freshest local produce with the freshest seafood!"
         icon: gastronomy-spaghetti.svg
       -
-        id: 6ie2Lj2ewJn2NIpV3_xII
-        title: 'enjoy continuous walking along this beautiful coastline'
-        summary: 'Enjoy following well-marked trails the length of the coast, from urban Genova through fishing villages and rolling hills'
-        icon: trekking-trekking.svg
+        id: mloog7vk
+        title: 'Stay in fabulous Portofino'
+        summary: "Stay in a family-run hotel off the main piazza and schmooze in one of Italy's most picturesque seaside villages!"
+        icon: restaurant-glass-beverage-drink-restaurant-bar-dining.svg
       -
         id: kmbm05nSUD7URhPWwOiKU
         title: 'Go for swims!'
@@ -315,4 +315,5 @@ gallery:
   - tours/liguria-italian-riviera-1-self-guided-walk/27-a.jpg
 start_location: Genova
 finish_location: 'Sestri Levante'
+now_open: false
 ---
