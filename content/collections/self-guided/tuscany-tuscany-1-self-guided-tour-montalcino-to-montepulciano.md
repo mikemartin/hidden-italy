@@ -6,7 +6,7 @@ name: 'Tuscany 1'
 region: Tuscany
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776926034
+updated_at: 1777444728
 grade: 2
 summary: 'Pure Tuscany: rolling hills, cypress pines, Renaissance towns, fine food, relaxed walking.'
 overview:
@@ -58,7 +58,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 5-day walk'
         summary: 'Enjoy a continuous walk from village to village for five days following well-marked trails through beautiful countryside'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Get lost in gorgeous towns'
@@ -68,21 +68,21 @@ page_builder:
         id: mlooou12
         title: 'Be entranced by the extraordinary scenery'
         summary: "Walk through the beautiful Val d'Orcia, UNESCO Heritage listed, with some of the most iconic scenery in all of Italy."
-        icon: culture-pizza.svg
+        icon: trekking-river.svg
       -
         id: mlooun08
         title: 'Immerse yourself in gorgeous villages'
-        summary: "You will have all the time in the world to immerse yourself in the life of six of Italy's most beautiful villages."
-        icon: geography-cartography-city.svg
+        summary: "You will have all the time in the world to immerse yourself in the daily life of six of Italy's most beautiful villages."
+        icon: agriculture-sunflower.svg
       -
         id: mmbinilb
         title: 'Indulge in fine food and wines'
         summary: "Val d'Orcia is celebrated for its food (wholesome homecooking) but more so for its fine wines (the best in the country?)"
-        icon: culture-wine.svg
+        icon: 'wine-wine bottle.svg'
       -
         id: mmx1061d
         title: 'Relax and enjoy for holiday'
-        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        summary: 'Everything has been looked after: transfers at the beginning and end; luggage moved daily; maps and app; 24-hour support'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -275,4 +275,5 @@ gallery:
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5142.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5117.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5149.jpg
+now_open: false
 ---
