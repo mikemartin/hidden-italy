@@ -6,7 +6,7 @@ name: 'Dolomites in Autumn'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776925479
+updated_at: 1777433832
 locations: northern-italy
 grade: 3
 image: tours/trentino-alto-adige-dolomites/804729994-100.jpg
@@ -62,12 +62,12 @@ page_builder:
         id: mlq6xexm
         title: 'Be seduced by Verona'
         summary: "Stay a classic 4-star hotel in the heart of old town and explore Italy's most romantic town with our own local guide."
-        icon: geography-cartography-city.svg
+        icon: culture-Colosseum.svg
       -
         id: mlq71o6y
         title: 'Immerse yourself in the Dolomites'
         summary: 'Immerse yourself in the most beautiful mountains in the world, following well-marked trials accompanied by local guides.'
-        icon: culture-pizza.svg
+        icon: trekking-trekking.svg
       -
         id: mlq77jb0
         title: 'Enjoy world-class accommodation'
@@ -77,12 +77,17 @@ page_builder:
         id: mlq7aw9b
         title: 'Delight in the cuisine (and wines)'
         summary: 'Enjoy excellent local food, a delicious combination of traditional mountain cooking and sophisticated Austrian cuisine.'
-        icon: housing-house.svg
+        icon: 'wine-wine bottle.svg'
+      -
+        id: zlwFoh1UQw1W_TCwaaL2l
+        title: 'Explore beautiful Bolzano'
+        summary: 'Explore gorgeous Bolzano and visit its fab archaeological museum to meet its most celebrated inhabitant: Otzi the Iceman'
+        icon: culture-Pantheon.svg
       -
         id: mlrar05e
         title: "Discover Cortina d'Ampezzo"
-        summary: "Discover Cortina ('Pearl of the Dolomites') staying in a classic hotel and visiting the iconic Tre Cime di Lavaredo"
-        icon: culture-pizza.svg
+        summary: 'Discover Cortina (Pearl of the Dolomites), staying in a classic hotel and doing a lap of the iconic Tre Cime di Lavaredo'
+        icon: switzerland-mountain.svg
     type: highlights
     enabled: true
   -
@@ -324,4 +329,5 @@ page_builder:
     type: testimonials
     enabled: true
 seasons: autumn
+now_open: false
 ---
