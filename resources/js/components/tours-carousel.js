@@ -1,32 +1,47 @@
+import Splide from '@splidejs/splide';
+
 export default function toursCarousel({ count = 0 } = {}) {
     return {
         count,
-        current: 0,        // index of the leftmost visible card
-        _syncing: false,
+        progress: 0,
+        splide: null,
 
-        goTo(i) {
-            const target = (i + this.count) % this.count;
-            this._syncing = true;
-            const track = this.$refs.track;
-            const card = track?.children[target];
-            if (card) {
-                track.scrollTo({ left: card.offsetLeft, behavior: 'smooth' });
-            }
-            this.current = target;
-            setTimeout(() => (this._syncing = false), 500);
+        init() {
+            if (this.count === 0) return;
+
+            this.splide = new Splide(this.$refs.splide, {
+                perPage: 3,
+                perMove: 1,
+                gap: '2.25rem',
+                pagination: false,
+                arrows: false,
+                breakpoints: {
+                    768: {
+                        perPage: 1,
+                        gap: '1.5rem',
+                    },
+                },
+            });
+
+            this.splide.on('mounted move', () => {
+                const end = this.splide.Components.Controller.getEnd() + 1;
+                this.progress = Math.min((this.splide.index + 1) / end, 1) * 100;
+            });
+
+            this.splide.mount();
         },
-        next() { this.goTo(this.current + 1); },
-        prev() { this.goTo(this.current - 1); },
 
-        syncFromScroll() {
-            if (this._syncing) return;
-            const track = this.$refs.track;
-            const first = track?.children[0];
-            if (!track || !first) return;
-            const i = Math.round(track.scrollLeft / first.offsetWidth);
-            if (i !== this.current && i >= 0 && i < this.count) {
-                this.current = i;
-            }
+        next() {
+            this.splide?.go('+');
+        },
+
+        prev() {
+            this.splide?.go('-');
+        },
+
+        destroy() {
+            this.splide?.destroy();
+            this.splide = null;
         },
     };
 }

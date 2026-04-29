@@ -1,11 +1,9 @@
 {{#
     @name Featured tours
-    @desc Horizontally-scrolling carousel of tour cards. Mobile shows one
-          card at a time with dot pagination; desktop shows three with
-          prev/next arrow buttons in the header (replacing the old
-          "View all" link). Up to 6 tours can live in the track; CSS
-          scroll-snap powers swipe + arrow nav (Alpine just toggles the
-          scroll position).
+    @desc Splide-powered carousel of tour cards. Mobile shows one card at a
+          time; desktop shows three. Custom prev/next buttons live in the
+          header (replacing the old "View all" link) and a thin progress
+          bar below the track tracks position through the set.
           Each card has a parchment surface, inset 16:9 image with a warm wash,
           location + tour-type chip header, summary, and an amber info row.
           Whole card is clickable via a stretched link; the favourite heart
@@ -45,38 +43,33 @@
             {{ /if }}
         </header>
 
-        {{# Scroll-snap track. Each cell is full-width on mobile, 1/3 on desktop. #}}
         <div class="span-content relative">
-            <ul
-                x-ref="track"
-                @scroll.debounce.100ms="syncFromScroll()"
-                class="flex overflow-x-auto snap-x snap-mandatory scroll-smooth no-scrollbar items-stretch -mx-3 md:-mx-[18px] py-3"
-            >
-                {{ block:tours }}
-                    <li class="snap-start shrink-0 basis-full md:basis-1/3 px-3 md:px-[18px]">
-                        {{ partial:components/tour-card }}
-                    </li>
-                {{ /block:tours }}
-            </ul>
+            <section x-ref="splide" class="splide tours-splide" aria-label="Featured tours">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        {{ block:tours }}
+                            <li class="splide__slide">
+                                {{ partial:components/tour-card }}
+                            </li>
+                        {{ /block:tours }}
+                    </ul>
+                </div>
+            </section>
 
-            {{# Dot pagination — mobile only. #}}
+            {{# Carousel progress bar — shown whenever there's more than one slide. #}}
             {{ if block:tours | count > 1 }}
                 <div
-                    role="tablist"
-                    aria-label="Choose tour"
-                    class="md:hidden flex justify-center gap-2 mt-6"
+                    class="mt-6 h-1 w-full bg-parchment-200 rounded-full overflow-hidden"
+                    role="progressbar"
+                    aria-label="Carousel progress"
+                    :aria-valuenow="Math.round(progress)"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
                 >
-                    <template x-for="i in count" :key="i">
-                        <button
-                            type="button"
-                            role="tab"
-                            :aria-selected="current === (i - 1)"
-                            :aria-label="'Go to tour ' + i"
-                            @click="goTo(i - 1)"
-                            class="h-2 rounded-full transition-[width] duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-                            :class="current === (i - 1) ? 'w-6 bg-gold' : 'w-2 bg-text hover:bg-text/80'"
-                        ></button>
-                    </template>
+                    <div
+                        class="h-full bg-gold transition-[width] duration-400 ease-out"
+                        :style="`width: ${progress}%`"
+                    ></div>
                 </div>
             {{ /if }}
         </div>
