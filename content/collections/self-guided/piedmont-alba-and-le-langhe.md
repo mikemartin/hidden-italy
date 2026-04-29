@@ -6,7 +6,7 @@ name: 'Alba and Le Langhe'
 region: Piedmont
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777443207
+updated_at: 1777443887
 grade: 3
 summary: 'An 8-day tour that takes you through the seductive rolling hills of southern Piedmont.'
 overview:
@@ -48,7 +48,7 @@ page_builder:
       -
         id: mlooee34
         title: 'Enjoy a continuous 8-day walk'
-        summary: 'Enjoy a continuous walk through vineyards and forest, following well-marked trails from village to village for seven days'
+        summary: 'Enjoy a continuous walk through vineyards and forest following well-marked trails from village to village for seven days'
         icon: trekking-trekking.svg
       -
         id: mloog7vk
@@ -68,7 +68,7 @@ page_builder:
       -
         id: wwcrR53eEZZnhGZMcBplA
         title: 'Explore Alba'
-        summary: 'Beautiful Alba is one of the most interesting and pretty towns in Piedmont and you will have lots of time to explore it.'
+        summary: 'Enjoy beautiful Alba, one of the most interesting towns in Piedmont - you will have plenty of opportunity to explore it.'
         icon: culture-Pantheon.svg
       -
         id: mlooun08
