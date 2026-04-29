@@ -6,7 +6,7 @@ name: 'Cammino of St Francis:  Lazio'
 region: Lazio
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777351207
+updated_at: 1777443541
 grade: 3
 summary: 'From the quiet green hills of central Italy to the steps of St Peters in the heart of Rome'
 overview:
@@ -67,7 +67,7 @@ page_builder:
       -
         id: mlooun08
         title: 'Relax, you are fully-supported'
-        summary: 'Everything is organised: you are transfer to and from Alba; your bags moved each day; and you have 24-hour local support'
+        summary: 'Everything is organised so you can relax. Your bags are moved each day; you have maps, an App and 24-hour local support.'
         icon: restaurant-glass-beverage-drink-restaurant-bar-dining.svg
     type: highlights
     enabled: true
@@ -283,4 +283,5 @@ duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 image: tours/piedmont-alba-and-le-langhe-1/rome-1.jpg
 start_location: Rieti
 finish_location: Rome
+now_open: false
 ---
