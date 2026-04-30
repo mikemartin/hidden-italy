@@ -6,7 +6,7 @@ name: 'Umbria Classic'
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777261127
+updated_at: 1777515811
 grade: 3
 summary: 'Enjoy the best of Umbria has to offer: superior accommodation, great art, amazing walks!'
 overview:
@@ -54,7 +54,7 @@ page_builder:
         id: mlooee34
         title: 'Walk through magical landscapes'
         summary: "Follow well-marked trails through the 'green heart of Italy': rolling hills, vineyards, olive groves and charming towns."
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Stay in fabulous accommodation'
@@ -64,17 +64,17 @@ page_builder:
         id: mlooou12
         title: 'Soak up the atmosphere'
         summary: 'Spend time soaking up the atmosphere of some of the most charming towns in central Italy, each so different to the other'
-        icon: culture-pizza.svg
+        icon: medieval-castle-wall.svg
       -
         id: mlooun08
         title: 'Admire the art'
         summary: 'Admire fabulous works by some of the important artists of the Italian Renaissance: Cimabue, Giotto, Perugino and Raphael'
-        icon: culture-violin.svg
+        icon: festa-fireworks.svg
       -
         id: mmbinilb
         title: 'Enjoy Umbrian home cooking'
         summary: 'Sit down and enjoy the wholesome home-cooking: cold cuts, cheeses, pastas, soups, roast meats, fresh garden vegetables.'
-        icon: housing-house.svg
+        icon: gastronomy-spaghetti.svg
       -
         id: yzrNBaT-_rmmrnPeEEdB9
         title: 'Relax and enjoy your holiday'
@@ -291,4 +291,5 @@ gallery:
   - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020012.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020022.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2-1/f1030001.jpg
+now_open: false
 ---
