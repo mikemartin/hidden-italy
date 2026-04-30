@@ -1,0 +1,82 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Grade 1'
+        fields:
+          -
+            handle: grade_1_self_guided
+            field:
+              type: textarea
+              localizable: true
+              display: 'Self-guided description'
+              width: 50
+          -
+            handle: grade_1_guided
+            field:
+              type: textarea
+              localizable: true
+              display: 'Guided description'
+              width: 50
+      -
+        display: 'Grade 2'
+        fields:
+          -
+            handle: grade_2_self_guided
+            field:
+              type: textarea
+              localizable: true
+              display: 'Self-guided description'
+              width: 50
+          -
+            handle: grade_2_guided
+            field:
+              type: textarea
+              localizable: true
+              display: 'Guided description'
+              width: 50
+      -
+        display: 'Grade 3'
+        fields:
+          -
+            handle: grade_3_self_guided
+            field:
+              type: textarea
+              localizable: true
+              display: 'Self-guided description'
+              width: 50
+          -
+            handle: grade_3_guided
+            field:
+              type: textarea
+              localizable: true
+              display: 'Guided description'
+              width: 50
+      -
+        display: 'Grade 4'
+        fields:
+          -
+            handle: grade_4_self_guided
+            field:
+              type: textarea
+              localizable: true
+              display: 'Self-guided description'
+              width: 50
+          -
+            handle: grade_4_guided
+            field:
+              type: textarea
+              localizable: true
+              display: 'Guided description'
+              width: 50
+      -
+        display: 'Grade 5'
+        instructions: 'Grade 5 walks are guided-only.'
+        fields:
+          -
+            handle: grade_5_guided
+            field:
+              type: textarea
+              localizable: true
+              display: 'Guided description'
