@@ -6,8 +6,8 @@ name: 'Sicily 1'
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777444146
-grade: 4
+updated_at: 1777517031
+grade: 3
 summary: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
 overview:
   -
@@ -298,4 +298,5 @@ gallery:
 start_location: Nicosia
 finish_location: 'Petralia Soprana'
 now_open: false
+seasons: spring
 ---
