@@ -1,4 +1,4 @@
-enabled: true
+enabled: false
 dismissible: true
 text: 'Guided tours now available to book for 2027'
 button:
@@ -6,7 +6,7 @@ button:
     id: ab_btn_01
     label: 'View guided tours'
     link_type: url
-    url: '/tours'
+    url: /tours
     target_blank: false
     button_type: inline
     type: button

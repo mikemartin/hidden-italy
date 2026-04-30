@@ -8,10 +8,10 @@
 
         /* Large variant */
         &.button--large {
-            @apply py-4 px-6;
+            @apply md:py-4 md:px-6;
 
             span {
-                @apply text-lg font-bold;
+                @apply md:text-lg md:font-bold;
             }
         }
 

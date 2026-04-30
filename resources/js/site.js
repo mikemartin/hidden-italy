@@ -1,7 +1,7 @@
+import Splide from '@splidejs/splide';
 import simpleLikes from './components/simple-likes.js';
-import heroCarousel from './components/hero-carousel.js';
-import toursCarousel from './components/tours-carousel.js';
 
+window.Splide = Splide;
 window.simpleLikes = simpleLikes;
 
 document.addEventListener('alpine:init', () => {
@@ -30,8 +30,6 @@ document.addEventListener('alpine:init', () => {
     });
 
     window.Alpine.data('simpleLikes', simpleLikes);
-    window.Alpine.data('hero_carousel', heroCarousel);
-    window.Alpine.data('tours_carousel', toursCarousel);
 });
 
 document.addEventListener('alpine:initialized', () => {

@@ -296,7 +296,8 @@ gallery:
   - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/favignana-3.jpg
   - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/f.jpg
   - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/p1010686.jpg
-seasons: spring
+seasons:
+  - spring
 start_location: Favignana
 finish_location: Scopello
 now_open: false

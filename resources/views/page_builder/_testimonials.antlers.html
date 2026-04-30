@@ -1,54 +1,88 @@
 {{#
     @name Testimonials
-    @desc Three testimonial entries shown as a side-by-side grid. Each card shows a 5-star row, the quote, and the traveller's name + linked tour.
+    @desc Three testimonial entries shown as a side-by-side grid on desktop
+          and a Splide-powered swipeable carousel below `md`. Each card shows a
+          5-star row, the quote, and the traveller's name + linked tour.
+          Splide is destroyed at `md` and up so the original 3-col grid layout
+          renders without JS.
     @set page.page_builder.testimonials
 #}}
 
 <!-- /page_builder/_testimonials.antlers.html -->
-{{ partial:page_builder/block class="gap-y-10" }}
-    {{ if block:heading }}
-        <header class="span-content text-center">
-            {{ partial:typography/h2 :content="block:heading" }}
-        </header>
-    {{ /if }}
+{{ if block:testimonials }}
+    <section
+        class="fluid-grid gap-y-10"
+        x-data="{
+            splide: null,
+            init() {
+                this.splide = new Splide(this.$refs.splide, {
+                    perPage: 1,
+                    gap: '1.5rem',
+                    pagination: true,
+                    arrows: false,
+                    autoplay: true,
+                    interval: 5000,
+                    speed: 600,
+                    pauseOnHover: true,
+                    pauseOnFocus: true,
+                    mediaQuery: 'min',
+                    breakpoints: {
+                        768: { destroy: true },
+                    },
+                });
+                this.splide.mount();
+            },
+            destroy() { this.splide?.destroy() },
+        }"
+    >
+        {{ if block:heading }}
+            <header class="span-content text-center">
+                {{ partial:typography/h2 :content="block:heading" }}
+            </header>
+        {{ /if }}
 
-    {{ if block:testimonials }}
-        <ul class="span-content grid grid-cols-1 md:grid-cols-3 gap-fluid-grid-gap">
-            {{ block:testimonials }}
-                <li>
-                    <figure class="h-full flex flex-col gap-4 p-6 bg-white rounded-lg shadow-sm">
-                        <div class="flex items-center gap-0.5 text-primary" aria-label="5 out of 5 stars">
-                            <x-lucide-star class="w-4 h-4 fill-current" aria-hidden="true" />
-                            <x-lucide-star class="w-4 h-4 fill-current" aria-hidden="true" />
-                            <x-lucide-star class="w-4 h-4 fill-current" aria-hidden="true" />
-                            <x-lucide-star class="w-4 h-4 fill-current" aria-hidden="true" />
-                            <x-lucide-star class="w-4 h-4 fill-current" aria-hidden="true" />
-                        </div>
+        <div x-ref="splide" class="span-content splide testimonials-splide">
+            <div class="splide__track">
+                {{# `md:grid` overrides Splide's `.splide__list { display: flex }`
+                    once Splide is destroyed at `md`, restoring the 3-col grid. #}}
+                <ul class="splide__list md:grid md:grid-cols-3 md:gap-fluid-grid-gap">
+                    {{ block:testimonials }}
+                        <li class="splide__slide">
+                            <figure class="h-full flex flex-col gap-4 p-6 bg-white rounded-lg shadow-sm">
+                                <div class="flex items-center gap-0.5 text-primary" aria-label="5 out of 5 stars">
+                                    <x-lucide-star class="w-4 h-4 fill-current" aria-hidden="true" />
+                                    <x-lucide-star class="w-4 h-4 fill-current" aria-hidden="true" />
+                                    <x-lucide-star class="w-4 h-4 fill-current" aria-hidden="true" />
+                                    <x-lucide-star class="w-4 h-4 fill-current" aria-hidden="true" />
+                                    <x-lucide-star class="w-4 h-4 fill-current" aria-hidden="true" />
+                                </div>
 
-                        {{ if title }}
-                            {{ partial:typography/h5 :content="title" }}
-                        {{ /if }}
+                                {{ if title }}
+                                    {{ partial:typography/h5 :content="title" }}
+                                {{ /if }}
 
-                        {{ if quote }}
-                            <blockquote class="text-neutral-700 leading-relaxed">
-                                <p>{{ quote }}</p>
-                            </blockquote>
-                        {{ /if }}
+                                {{ if quote }}
+                                    <blockquote class="text-neutral-700 leading-relaxed">
+                                        <p>{{ quote }}</p>
+                                    </blockquote>
+                                {{ /if }}
 
-                        <figcaption class="mt-auto pt-4 border-t border-stone-200 text-sm">
-                            {{ if name }}
-                                <div class="font-semibold text-neutral-900">{{ name }}</div>
-                            {{ /if }}
-                            {{ tour | first }}
-                                <a href="{{ url }}" class="text-neutral-500 hover:underline underline-offset-4">
-                                    {{ name ?? title }}
-                                </a>
-                            {{ /tour }}
-                        </figcaption>
-                    </figure>
-                </li>
-            {{ /block:testimonials }}
-        </ul>
-    {{ /if }}
-{{ /partial:page_builder/block }}
+                                <figcaption class="mt-auto pt-4 border-t border-stone-200 text-sm">
+                                    {{ if name }}
+                                        <div class="font-semibold text-neutral-900">{{ name }}</div>
+                                    {{ /if }}
+                                    {{ tour | first }}
+                                        <a href="{{ url }}" class="text-neutral-500 hover:underline underline-offset-4">
+                                            {{ name ?? title }}
+                                        </a>
+                                    {{ /tour }}
+                                </figcaption>
+                            </figure>
+                        </li>
+                    {{ /block:testimonials }}
+                </ul>
+            </div>
+        </div>
+    </section>
+{{ /if }}
 <!-- End: /page_builder/_testimonials.antlers.html -->

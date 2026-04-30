@@ -284,5 +284,6 @@ image: tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
 start_location: Ravello
 finish_location: Positano
 now_open: false
-seasons: spring
+seasons:
+  - spring
 ---

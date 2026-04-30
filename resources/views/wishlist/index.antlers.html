@@ -64,7 +64,8 @@
                                         {{ days }}
                                     </div>
                                 </div>
-                                {{ if seasons }}
+                                {{# Season row only renders for guided tours — self-guided spans multiple. #}}
+                                {{ if collection:handle == 'guided' && seasons }}
                                 <div class="flex items-center mb-2">
                                     <div class="mr-2">
                                         {{ if seasons|raw == 'spring' }}

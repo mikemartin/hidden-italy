@@ -92,7 +92,9 @@
                     </span>
                 {{ /if }}
 
-                {{ if seasons }}
+                {{# Season chip only renders on guided tours — self-guided tours
+                    span multiple seasons and aren't surfaced here. #}}
+                {{ if collection:handle == 'guided' && seasons }}
                     <span class="inline-flex items-center gap-2">
                         {{ if {seasons:slug} == 'spring' }}
                             <x-lucide-flower class="size-5 text-accent-2 shrink-0" stroke-width="1.5" aria-hidden="true" />
