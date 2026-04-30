@@ -13,7 +13,7 @@
 
 <!-- /home/_hero.antlers.html -->
 <section
-    class="stack-space-collapse span-full relative isolate bg-neutral-900 text-white overflow-hidden h-svh min-h-[600px] lg:min-h-[760px] max-h-[820px]"
+    class="stack-space-collapse span-full relative isolate bg-neutral-900 text-white overflow-hidden h-[525px] md:h-svh md:min-h-[760px] md:max-h-[820px]"
     x-data="{
         current: 0,
         progress: 0,
@@ -77,7 +77,7 @@
 
     {{# Foreground content — headline + CTA, centred. #}}
     <div class="relative z-10 h-full fluid-grid pointer-events-none">
-        <div class="span-content flex flex-col items-center justify-center text-center gap-6 lg:gap-10 h-full">
+        <div class="span-content flex flex-col items-center justify-center text-center gap-6 md:gap-10 h-full">
             {{ partial:typography/h1_big_display :content="headline" class="!text-white max-w-3xl" }}
 
             {{ if buttons }}
@@ -93,15 +93,15 @@
     {{# Bottom row — desktop: location (left) + prev/next arrows (right).
         Mobile: location stacked centred above dot indicators, arrows hidden. #}}
     {{ if tour_photos | count > 0 }}
-        <div class="absolute inset-x-0 bottom-10 lg:bottom-12 z-10 fluid-grid">
-            <div class="span-content flex flex-col items-center gap-5 lg:flex-row lg:items-center lg:justify-between lg:gap-6">
+        <div class="absolute inset-x-0 bottom-10 md:bottom-12 z-10 fluid-grid">
+            <div class="span-content flex flex-col items-center gap-5 md:flex-row md:items-center md:justify-between md:gap-6">
                 {{# Location text — render every tour's region, only the current is visible.
                     The ring next to it shows progress toward the next auto-advance and is
                     hidden on mobile. #}}
-                <div class="order-1 lg:order-none flex items-center gap-3 min-h-[24px]">
+                <div class="order-1 md:order-none flex items-center gap-3 min-h-[24px]">
                     <svg
                         viewBox="0 0 24 24"
-                        class="hidden lg:block size-6 -rotate-90 text-gold"
+                        class="hidden md:block size-6 -rotate-90 text-gold"
                         fill="none"
                         aria-hidden="true"
                     >
@@ -137,7 +137,7 @@
                     dots, rendered inside the .splide container and styled by
                     the `.hero-splide .splide__pagination*` rules in site.css.) #}}
                 {{ if tour_photos | count > 1 }}
-                    <div class="hidden lg:flex items-center gap-4">
+                    <div class="hidden md:flex items-center gap-4">
                         <button
                             type="button"
                             @click="prev()"
@@ -163,7 +163,7 @@
     {{# Scroll indicator — bouncing chevron at bottom-centre. Desktop only. #}}
     <a
         href="#content-below-hero"
-        class="absolute bottom-0 left-1/2 -translate-x-1/2 z-10 hidden lg:block p-6 text-white/90 hover:text-white transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+        class="absolute bottom-0 left-1/2 -translate-x-1/2 z-10 hidden md:block p-6 text-white/90 hover:text-white transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
         aria-label="Scroll to next section"
     >
         <x-lucide-chevron-down class="size-12 animate-bounce" stroke-width="1" aria-hidden="true" />

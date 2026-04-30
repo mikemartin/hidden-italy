@@ -17,6 +17,8 @@
         class="fluid-grid gap-y-10 md:gap-y-16"
         x-data="{
             progress: 0,
+            atStart: true,
+            atEnd: false,
             splide: null,
             init() {
                 this.splide = new Splide(this.$refs.splide, {
@@ -25,13 +27,18 @@
                     gap: '2.25rem',
                     pagination: false,
                     arrows: false,
+                    drag: 'free',
+                    snap: true,
                     breakpoints: {
                         768: { perPage: 1, gap: '1.5rem' },
                     },
                 });
-                this.splide.on('mounted move', () => {
-                    const end = this.splide.Components.Controller.getEnd() + 1;
+                this.splide.on('mounted move scrolled', () => {
+                    const controller = this.splide.Components.Controller;
+                    const end = controller.getEnd() + 1;
                     this.progress = Math.min((this.splide.index + 1) / end, 1) * 100;
+                    this.atStart = controller.getPrev() === -1;
+                    this.atEnd = controller.getNext() === -1;
                 });
                 this.splide.mount();
             },
@@ -41,7 +48,7 @@
         }"
     >
         <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-            {{ partial:typography/h2 :content="block:heading" class="!mb-0 uppercase md:normal-case" color="text-foreground" }}
+            {{ partial:typography/h2 :content="block:heading" class="!mb-0" color="text-foreground" }}
 
             {{# Desktop prev/next arrows — only when there's something to scroll to. #}}
             {{ if block:tours | count > 3 }}
@@ -49,16 +56,18 @@
                     <button
                         type="button"
                         @click="prev()"
+                        :disabled="atStart"
                         aria-label="Previous tour"
-                        class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                        class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-parchment-200"
                     >
                         <x-lucide-arrow-left class="size-5" stroke-width="2" aria-hidden="true" />
                     </button>
                     <button
                         type="button"
                         @click="next()"
+                        :disabled="atEnd"
                         aria-label="Next tour"
-                        class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                        class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-parchment-200"
                     >
                         <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />
                     </button>
