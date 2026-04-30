@@ -1,0 +1,135 @@
+{{#
+    @name Tour overview gallery
+    @desc Mosaic gallery for the tour overview block. Eight slots arranged
+          across three rows, using only the four supported aspect ratios:
+            row 1 — 3/4 portrait + 4/3 landscape
+            row 2 — 16/9 landscape + 1/1 square
+            row 3 — three 1/1 squares
+          Each row's column proportions are tuned so adjacent tiles share a
+          height. The last visible tile becomes a "+N" overflow indicator
+          when the gallery contains more than eight photos.
+    @param gallery The asset collection from the tour entry's `gallery` field.
+#}}
+
+<!-- /components/_tour_overview_gallery.antlers.html -->
+{{ gallery_count = gallery | count }}
+
+<div class="flex flex-col gap-2 lg:gap-4">
+
+    {{# Row 1 — 3/4 portrait + 4/3 landscape (matched height). #}}
+    {{ if gallery_count > 0 }}
+        <div class="grid grid-cols-[36fr_64fr] gap-2 lg:gap-4">
+            {{ gallery limit="1" offset="0" }}
+                <div class="aspect-[3/4] rounded-md lg:rounded-xl overflow-hidden bg-parchment-200">
+                    {{ picture:id
+                        aspect_ratio="3/4"
+                        cover="true"
+                        class="w-full h-full"
+                        sizes="(min-width: 1024px) 21vw, 36vw"
+                        loading="lazy"
+                    }}
+                </div>
+            {{ /gallery }}
+            {{ gallery limit="1" offset="1" }}
+                <div class="aspect-[4/3] rounded-md lg:rounded-xl overflow-hidden bg-parchment-200">
+                    {{ picture:id
+                        aspect_ratio="4/3"
+                        cover="true"
+                        class="w-full h-full"
+                        sizes="(min-width: 1024px) 38vw, 64vw"
+                        loading="lazy"
+                    }}
+                </div>
+            {{ /gallery }}
+        </div>
+    {{ /if }}
+
+    {{# Row 2 — 16/9 landscape + 1/1 square (matched height). #}}
+    {{ if gallery_count > 2 }}
+        <div class="grid grid-cols-[64fr_36fr] gap-2 lg:gap-4">
+            {{ gallery limit="1" offset="2" }}
+                <div class="aspect-[16/9] rounded-md lg:rounded-xl overflow-hidden bg-parchment-200">
+                    {{ picture:id
+                        aspect_ratio="16/9"
+                        cover="true"
+                        class="w-full h-full"
+                        sizes="(min-width: 1024px) 38vw, 64vw"
+                        loading="lazy"
+                    }}
+                </div>
+            {{ /gallery }}
+            {{ gallery limit="1" offset="3" }}
+                <div class="aspect-square rounded-md lg:rounded-xl overflow-hidden bg-parchment-200">
+                    {{ picture:id
+                        aspect_ratio="1/1"
+                        cover="true"
+                        class="w-full h-full"
+                        sizes="(min-width: 1024px) 21vw, 36vw"
+                        loading="lazy"
+                    }}
+                </div>
+            {{ /gallery }}
+        </div>
+    {{ /if }}
+
+    {{# Row 3 — three 1/1 squares. The eighth slot becomes a "+N" overflow
+        indicator when the gallery has more than eight photos. #}}
+    {{ if gallery_count > 4 }}
+        <div class="grid grid-cols-3 gap-2 lg:gap-4">
+            {{ gallery limit="1" offset="4" }}
+                <div class="aspect-square rounded-md lg:rounded-xl overflow-hidden bg-parchment-200">
+                    {{ picture:id
+                        aspect_ratio="1/1"
+                        cover="true"
+                        class="w-full h-full"
+                        sizes="(min-width: 1024px) 13vw, 30vw"
+                        loading="lazy"
+                    }}
+                </div>
+            {{ /gallery }}
+            {{ gallery limit="1" offset="5" }}
+                <div class="aspect-square rounded-md lg:rounded-xl overflow-hidden bg-parchment-200">
+                    {{ picture:id
+                        aspect_ratio="1/1"
+                        cover="true"
+                        class="w-full h-full"
+                        sizes="(min-width: 1024px) 13vw, 30vw"
+                        loading="lazy"
+                    }}
+                </div>
+            {{ /gallery }}
+            {{ gallery limit="1" offset="6" }}
+                <div class="aspect-square rounded-md lg:rounded-xl overflow-hidden bg-parchment-200">
+                    {{ picture:id
+                        aspect_ratio="1/1"
+                        cover="true"
+                        class="w-full h-full"
+                        sizes="(min-width: 1024px) 13vw, 30vw"
+                        loading="lazy"
+                    }}
+                </div>
+            {{ /gallery }}
+            {{ if gallery_count > 7 }}
+                {{ gallery limit="1" offset="7" }}
+                    <div class="aspect-square relative rounded-md lg:rounded-xl overflow-hidden bg-parchment-200">
+                        {{ picture:id
+                            aspect_ratio="1/1"
+                            cover="true"
+                            class="w-full h-full"
+                            sizes="(min-width: 1024px) 13vw, 30vw"
+                            loading="lazy"
+                        }}
+                        {{ if gallery_count > 8 }}
+                            <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+                                <span class="font-display font-semibold text-white text-xl lg:text-3xl tracking-[0.01em] uppercase" style="font-feature-settings: 'ss01';">
+                                    +{{ gallery_count - 8 }}
+                                </span>
+                            </div>
+                        {{ /if }}
+                    </div>
+                {{ /gallery }}
+            {{ /if }}
+        </div>
+    {{ /if }}
+</div>
+<!-- End: /components/_tour_overview_gallery.antlers.html -->

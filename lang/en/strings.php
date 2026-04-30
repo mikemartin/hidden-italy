@@ -71,4 +71,19 @@ return [
 
     // Request booking
     'request_booking' => 'Request booking',
+
+    // Tour overview
+    'tours' => 'Tours',
+    'next_available' => 'Next available',
+    'duration' => 'Duration',
+    'season' => 'Season',
+    'tour_size' => 'Tour size',
+    'tour_leader' => 'Tour Leader',
+    'walking_grade' => 'Walking grade',
+    'walking_grade_help' => 'Higher grades indicate longer days, steeper ascents, and more challenging terrain.',
+    'grade' => 'Grade',
+    'guests' => 'guests',
+    'whats_included' => "What's included",
+    'share' => 'Share',
+    'save' => 'Save',
 ];
