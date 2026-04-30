@@ -6,7 +6,7 @@ name: 'Dolomites 1'
 region: 'Trentino-Alto Adige'
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777444493
+updated_at: 1777517105
 grade: 4
 summary: "Enjoy some of Italy's finest walking through some of Europe's most breath-taking scenery!"
 overview:
@@ -278,4 +278,5 @@ gallery:
 start_location: Bolzano
 finish_location: 'Val Gardena'
 now_open: false
+seasons: summer
 ---
