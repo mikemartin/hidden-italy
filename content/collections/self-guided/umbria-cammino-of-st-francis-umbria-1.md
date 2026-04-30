@@ -6,7 +6,7 @@ name: 'Cammino of St Francis:  Umbria 1'
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777515269
+updated_at: 1777517259
 grade: 3
 summary: "Walk well-marked trails thru Italy's most beautiful region, in the footsteps of St Francis"
 overview:
@@ -280,4 +280,5 @@ gallery:
   - tours/umbria-cammino-of-st-francis-umbria-1/umbria-3686911_1280.jpg
   - tours/umbria-cammino-of-st-francis-umbria-1/16.jpg
 now_open: false
+seasons: spring
 ---
