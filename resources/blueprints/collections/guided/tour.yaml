@@ -41,9 +41,6 @@ tabs:
               max_files: 1
               type: assets
               display: Image
-      -
-        display: Overview
-        fields:
           -
             handle: start_location
             field:
@@ -58,6 +55,24 @@ tabs:
               display: 'Finish Location'
               width: 50
               instructions: 'Where the tour finishes (e.g. "Termoli").'
+          -
+            handle: date
+            field:
+              type: date
+              display: Date
+              width: 50
+          -
+            handle: now_open
+            field:
+              type: toggle
+              display: 'Now open'
+              instructions: 'Show a "Now open" badge on the tour card to flag that bookings are currently being taken.'
+              width: 50
+      -
+        display: Overview
+        collapsible: true
+        collapsed: true
+        fields:
           -
             handle: days
             field:
@@ -95,20 +110,6 @@ tabs:
               display: 'Tour Size'
               validate:
                 - integer
-              width: 50
-          -
-            handle: date
-            field:
-              type: date
-              display: Date
-              width: 50
-          -
-            handle: now_open
-            field:
-              type: toggle
-              display: 'Now open'
-              default: false
-              instructions: 'Show a "Now open" badge on the tour card to flag that bookings are currently being taken.'
               width: 50
           -
             handle: leader
@@ -161,6 +162,7 @@ tabs:
               type: replicator
               display: 'Page Builder'
               button_label: 'Add Section'
+              collapse: accordion
               sets:
                 tour:
                   display: Tour
