@@ -8,7 +8,7 @@ taxonomies:
   - locations
 revisions: false
 title_format: '{region} - {name}'
-route: '/tours/self-guided/{slug}'
+route: '/self-guided/{slug}'
 sort_dir: asc
 date_behavior:
   past: null

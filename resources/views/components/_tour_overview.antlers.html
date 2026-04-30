@@ -10,49 +10,34 @@
 #}}
 
 <!-- /components/_tour_overview.antlers.html -->
-{{ if {collection:handle} == 'guided' }}
-    {{ collection_label = "Guided" }}
-    {{ collection_url = "/tours/guided" }}
-{{ elseif {collection:handle} == 'self-guided' }}
-    {{ collection_label = "Self-guided" }}
-    {{ collection_url = "/tours/self-guided" }}
-{{ else }}
-    {{ collection_label = "" }}
-    {{ collection_url = "" }}
-{{ /if }}
-
 <section class="fluid-grid bg-parchment-100 py-10 lg:py-15">
     <div class="span-content flex flex-col lg:grid lg:grid-cols-12 lg:gap-x-[69px] gap-y-10">
 
         {{# ── Left column ──────────────────────────────────────────── #}}
-        <div class="lg:col-span-5 flex flex-col gap-6">
+        <div class="lg:col-span-5 flex flex-col items-start gap-6">
 
-            {{# Breadcrumb chip — Tours › collection label. #}}
-            <nav aria-label="Breadcrumb" class="self-start">
-                <ol class="flex items-center gap-1 bg-parchment-200 text-accent-2 px-4 py-2 rounded-full">
-                    <li>
-                        <a href="/tours" class="text-sm md:text-[14px] font-medium leading-[1.6] hover:underline">
-                            {{ trans:strings.tours ?? 'Tours' }}
-                        </a>
-                    </li>
-                    <li aria-hidden="true" class="flex items-center">
-                        <x-lucide-chevron-right class="size-[18px]" stroke-width="1.5" />
-                    </li>
-                    <li class="text-sm md:text-[14px] font-medium leading-[1.6]">
-                        {{ if collection_url }}
-                            <a href="{{ collection_url }}" class="hover:underline" aria-current="page">{{ collection_label }}</a>
-                        {{ else }}
-                            {{ collection_label }}
-                        {{ /if }}
-                    </li>
+            <nav aria-label="Breadcrumb">
+                <ol class="bg-parchment-200 flex items-center gap-1 h-8 px-4 py-2 rounded-full">
+                    {{ nav:breadcrumbs include_home="false" }}
+                        {{ unless first }}
+                            <li class="flex items-center" aria-hidden="true">
+                                <x-lucide-chevron-right class="size-[18px] text-amber" stroke-width="1.5" />
+                            </li>
+                        {{ /unless }}
+                        <li>
+                            {{ if is_current }}
+                                <span class="font-sans font-medium text-sm leading-[1.6] text-amber" aria-current="page">{{ region }}</span>
+                            {{ else }}
+                                <a href="{{ url }}" class="font-sans font-medium text-sm leading-[1.6] text-amber hover:underline">{{ title }}</a>
+                            {{ /if }}
+                        </li>
+                    {{ /nav:breadcrumbs }}
                 </ol>
             </nav>
 
             {{# Headline + next-available line. #}}
             <header class="flex flex-col gap-2">
-                <h1 class="font-display font-semibold text-2xl md:text-[40px] leading-[1.25] tracking-[0.01em] md:tracking-[-0.01em] uppercase md:normal-case text-neutral-900 md:text-foreground" style="font-feature-settings: 'ss01';">
-                    {{ name }}
-                </h1>
+                {{ partial:typography/h2 :content="name" }}
                 {{ if date }}
                     <p class="font-sans text-lg leading-[1.5] md:leading-[1.6] text-neutral-900 md:text-text">
                         {{ trans:strings.next_available ?? 'Next available' }} {{ date | format:'j F Y' }}

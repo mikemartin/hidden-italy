@@ -30,7 +30,7 @@
                     }}
                 </div>
             {{ /gallery }}
-            {{ gallery limit="1" offset="1" }}
+            {{ gallery limit="2" offset="1" }}
                 <div class="aspect-[4/3] rounded-md lg:rounded-xl overflow-hidden bg-parchment-200">
                     {{ picture:id
                         aspect_ratio="4/3"
@@ -47,7 +47,7 @@
     {{# Row 2 — 16/9 landscape + 1/1 square (matched height). #}}
     {{ if gallery_count > 2 }}
         <div class="grid grid-cols-[64fr_36fr] gap-2 lg:gap-4">
-            {{ gallery limit="1" offset="2" }}
+            {{ gallery limit="3" offset="2" }}
                 <div class="aspect-[16/9] rounded-md lg:rounded-xl overflow-hidden bg-parchment-200">
                     {{ picture:id
                         aspect_ratio="16/9"
@@ -58,7 +58,7 @@
                     }}
                 </div>
             {{ /gallery }}
-            {{ gallery limit="1" offset="3" }}
+            {{ gallery limit="4" offset="3" }}
                 <div class="aspect-square rounded-md lg:rounded-xl overflow-hidden bg-parchment-200">
                     {{ picture:id
                         aspect_ratio="1/1"
@@ -76,7 +76,7 @@
         indicator when the gallery has more than eight photos. #}}
     {{ if gallery_count > 4 }}
         <div class="grid grid-cols-3 gap-2 lg:gap-4">
-            {{ gallery limit="1" offset="4" }}
+            {{ gallery limit="5" offset="4" }}
                 <div class="aspect-square rounded-md lg:rounded-xl overflow-hidden bg-parchment-200">
                     {{ picture:id
                         aspect_ratio="1/1"
@@ -87,7 +87,7 @@
                     }}
                 </div>
             {{ /gallery }}
-            {{ gallery limit="1" offset="5" }}
+            {{ gallery limit="6" offset="5" }}
                 <div class="aspect-square rounded-md lg:rounded-xl overflow-hidden bg-parchment-200">
                     {{ picture:id
                         aspect_ratio="1/1"
@@ -98,19 +98,8 @@
                     }}
                 </div>
             {{ /gallery }}
-            {{ gallery limit="1" offset="6" }}
-                <div class="aspect-square rounded-md lg:rounded-xl overflow-hidden bg-parchment-200">
-                    {{ picture:id
-                        aspect_ratio="1/1"
-                        cover="true"
-                        class="w-full h-full"
-                        sizes="(min-width: 1024px) 13vw, 30vw"
-                        loading="lazy"
-                    }}
-                </div>
-            {{ /gallery }}
-            {{ if gallery_count > 7 }}
-                {{ gallery limit="1" offset="7" }}
+            {{ if gallery_count > 6 }}
+                {{ gallery limit="7" offset="6" }}
                     <div class="aspect-square relative rounded-md lg:rounded-xl overflow-hidden bg-parchment-200">
                         {{ picture:id
                             aspect_ratio="1/1"
@@ -119,10 +108,10 @@
                             sizes="(min-width: 1024px) 13vw, 30vw"
                             loading="lazy"
                         }}
-                        {{ if gallery_count > 8 }}
+                        {{ if gallery_count > 7 }}
                             <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
                                 <span class="font-display font-semibold text-white text-xl lg:text-3xl tracking-[0.01em] uppercase" style="font-feature-settings: 'ss01';">
-                                    +{{ gallery_count - 8 }}
+                                    +{{ gallery_count - 7 }}
                                 </span>
                             </div>
                         {{ /if }}
