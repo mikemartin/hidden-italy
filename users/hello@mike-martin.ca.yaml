@@ -19,6 +19,10 @@ preferences:
       view: list
     pages:
       view: tree
+    guided:
+      view: list
+    self-guided:
+      view: list
   assets:
     icons:
       mode: grid

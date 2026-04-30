@@ -57,13 +57,19 @@ return [
     'widgets' => [
         [ 
             'type' => 'collection',
-            'collection' => 'pages',
+            'collection' => 'guided',
             'limit' => 10,
             'width' => '50',
         ], 
         [ 
             'type' => 'collection',
-            'collection' => 'tours',
+            'collection' => 'self-guided',
+            'limit' => 10,
+            'width' => '50',
+        ], 
+        [ 
+            'type' => 'collection',
+            'collection' => 'pages',
             'limit' => 10,
             'width' => '50',
         ], 
