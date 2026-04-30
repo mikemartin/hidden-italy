@@ -6,7 +6,7 @@ name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777442979
+updated_at: 1777516934
 grade: 3
 summary: 'Spend a week exploring the Portofino National Park and the stupendous Tigullio Gulf!'
 overview:
@@ -277,4 +277,5 @@ gallery:
 start_location: Camogli
 finish_location: 'Sestri Levante'
 now_open: false
+seasons: autumn
 ---
