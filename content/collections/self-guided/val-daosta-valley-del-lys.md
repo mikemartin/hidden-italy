@@ -6,8 +6,8 @@ name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777516259
-grade: 0
+updated_at: 1777517362
+grade: 4
 summary: 'A 7-day hike along historic trails through one of Italy’s most beautiful mountain valleys!'
 overview:
   -
@@ -372,4 +372,5 @@ gallery:
   - tours/val-daosta-valley-del-lys/img_7055.jpg
   - tours/val-daosta-valley-del-lys/16.jpg
 now_open: false
+seasons: summer
 ---
