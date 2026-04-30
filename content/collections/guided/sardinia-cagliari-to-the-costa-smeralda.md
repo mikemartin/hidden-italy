@@ -7,7 +7,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777357785
+updated_at: 1777517503
 grade: 3
 summary: 'Sardinia is a magical island, a few hours by ferry, a world away from continental Italy.'
 tour_size: 15
@@ -335,4 +335,5 @@ simple_likes: 0
 locations: southern-italy
 start_location: Cagliari
 finish_location: 'the Costa Smeralda'
+now_open: false
 ---
