@@ -6,8 +6,8 @@ name: 'Puglia in the Spring'
 region: Puglia
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777356636
-grade: 3
+updated_at: 1777517490
+grade: 2
 summary: 'Puglia is pure southern Italy: vibrant towns, endless trails and coastline; fabulous food!'
 overview:
   -
@@ -328,4 +328,5 @@ gallery:
   - tours/puglia-puglia-in-the-spring/tower-1.jpeg
 start_location: Lecce
 finish_location: Bari
+now_open: false
 ---
