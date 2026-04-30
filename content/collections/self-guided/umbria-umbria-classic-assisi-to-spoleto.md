@@ -6,7 +6,7 @@ name: 'Umbria Classic'
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777515811
+updated_at: 1777517384
 grade: 3
 summary: 'Enjoy the best of Umbria has to offer: superior accommodation, great art, amazing walks!'
 overview:
@@ -292,4 +292,5 @@ gallery:
   - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020022.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2-1/f1030001.jpg
 now_open: false
+seasons: spring
 ---
