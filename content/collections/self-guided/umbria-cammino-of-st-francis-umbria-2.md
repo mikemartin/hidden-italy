@@ -6,7 +6,7 @@ name: 'Cammino of St Francis:  Umbria 2'
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777515700
+updated_at: 1777517340
 grade: 3
 summary: "A week-long walk along well-marked trails through the charming 'green heart of Italy'."
 overview:
@@ -58,7 +58,7 @@ page_builder:
       -
         id: mlooee34
         title: 'Get off the beaten track'
-        summary: "Enjoy a relaxed week following well-marked trails through some of central Italy's most beautiful countryside."
+        summary: "Enjoy a week following well-marked trails through some of central Italy's less visited, but most beautiful, countryside."
         icon: trekking-trekking.svg
       -
         id: mloog7vk
@@ -303,4 +303,5 @@ gallery:
 start_location: Spoleto
 finish_location: Rieti
 now_open: false
+seasons: spring
 ---
