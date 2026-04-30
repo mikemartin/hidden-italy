@@ -3,11 +3,10 @@ tree:
     entry: home
   -
     entry: 2d1f3903-3248-4037-8e09-e76e8d62781c
-    children:
-      -
-        entry: 46b6b124-89cf-4efb-b06a-cdb4d28312ba
-      -
-        entry: fff5d1d0-e05d-4088-9a54-1f2e7f630c28
+  -
+    entry: 46b6b124-89cf-4efb-b06a-cdb4d28312ba
+  -
+    entry: fff5d1d0-e05d-4088-9a54-1f2e7f630c28
   -
     entry: c81f1652-4d1d-49fb-bd9b-cad19ed89159
   -
@@ -36,3 +35,5 @@ tree:
     entry: dc6ac6a2-373e-40b5-9706-d37d93bac8c9
   -
     entry: 59f8f333-4dc9-4507-9cf3-5a531286c2f2
+  -
+    entry: f18186be-6e76-4cdf-80e9-41b5d5102a40

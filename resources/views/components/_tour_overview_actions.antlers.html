@@ -1,0 +1,43 @@
+{{#
+    @name Tour overview actions
+    @desc Share + Save buttons used in the tour overview block. Save piggy-
+          backs on the Simple Likes fieldtype on the entry; Share triggers
+          the native share sheet (with a clipboard fallback) via the
+          adjacent `data-share` Alpine snippet.
+#}}
+
+<!-- /components/_tour_overview_actions.antlers.html -->
+<div
+    class="flex items-center gap-4 lg:justify-end"
+    x-data="{
+        async share() {
+            const data = { title: document.title, url: window.location.href };
+            if (navigator.share) {
+                try { await navigator.share(data); } catch (_) {}
+            } else if (navigator.clipboard) {
+                await navigator.clipboard.writeText(data.url);
+            }
+        },
+    }"
+>
+    <button
+        type="button"
+        @click="share"
+        class="inline-flex items-center gap-2 lg:w-24 lg:justify-center focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+    >
+        <x-lucide-share class="size-3 lg:size-5 text-text" stroke-width="1.5" aria-hidden="true" />
+        <span class="font-sans font-semibold text-[8.43px] lg:text-[15px] tracking-[0.02em] uppercase underline text-foreground leading-none">
+            {{ trans:strings.share ?? 'Share' }}
+        </span>
+    </button>
+
+    {{# Save reuses the entry's Simple Likes button so the saved-state syncs
+        with the wishlist drawer. The fieldtype renders its own heart icon. #}}
+    <div class="inline-flex items-center gap-2 lg:w-24 lg:justify-center">
+        {{ simple_like }}
+        <span class="font-sans font-semibold text-[8.43px] lg:text-[15px] tracking-[0.02em] uppercase underline text-foreground leading-none">
+            {{ trans:strings.save ?? 'Save' }}
+        </span>
+    </div>
+</div>
+<!-- End: /components/_tour_overview_actions.antlers.html -->
