@@ -147,8 +147,23 @@
                     {{ /if }}
                 </div>
 
-                {{# Walking grade — desktop only; the design hides this on mobile. #}}
+                {{# Walking grade — desktop only; the design hides this on mobile.
+                    Description copy lives on the Walking Grades global with
+                    separate fields for guided vs self-guided tours, surfaced via
+                    a Tippy tooltip on the info icon. #}}
                 {{ if grade }}
+                    {{ if {collection:handle} == 'self-guided' }}
+                        {{ if grade == 1 }}{{ grade_description = walking_grades:grade_1_self_guided }}{{ /if }}
+                        {{ if grade == 2 }}{{ grade_description = walking_grades:grade_2_self_guided }}{{ /if }}
+                        {{ if grade == 3 }}{{ grade_description = walking_grades:grade_3_self_guided }}{{ /if }}
+                        {{ if grade == 4 }}{{ grade_description = walking_grades:grade_4_self_guided }}{{ /if }}
+                    {{ else }}
+                        {{ if grade == 1 }}{{ grade_description = walking_grades:grade_1_guided }}{{ /if }}
+                        {{ if grade == 2 }}{{ grade_description = walking_grades:grade_2_guided }}{{ /if }}
+                        {{ if grade == 3 }}{{ grade_description = walking_grades:grade_3_guided }}{{ /if }}
+                        {{ if grade == 4 }}{{ grade_description = walking_grades:grade_4_guided }}{{ /if }}
+                        {{ if grade == 5 }}{{ grade_description = walking_grades:grade_5_guided }}{{ /if }}
+                    {{ /if }}
                     <div class="hidden lg:block">
                         <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">
                             {{ trans:strings.walking_grade ?? 'Walking grade' }}
@@ -158,13 +173,18 @@
                             <span class="font-display font-medium text-lg leading-[1.5] text-foreground">
                                 {{ trans:strings.grade ?? 'Grade' }} {{ grade }} / 5
                             </span>
-                            <span
-                                class="text-text"
-                                title="{{ trans:strings.walking_grade_help ?? 'Higher grades indicate longer days, steeper ascents, and more challenging terrain.' }}"
-                                aria-label="{{ trans:strings.walking_grade_help ?? 'Higher grades indicate longer days, steeper ascents, and more challenging terrain.' }}"
-                            >
-                                <x-lucide-info class="size-4" stroke-width="1.5" aria-hidden="true" />
-                            </span>
+                            {{ if grade_description }}
+                                <button
+                                    type="button"
+                                    x-data
+                                    x-tooltip
+                                    data-tooltip="{{ grade_description }}"
+                                    class="text-text inline-flex items-center justify-center rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                                    aria-label="{{ trans:strings.walking_grade ?? 'Walking grade' }} {{ grade }}: {{ grade_description }}"
+                                >
+                                    <x-lucide-info class="size-4" stroke-width="1.5" aria-hidden="true" />
+                                </button>
+                            {{ /if }}
                         </dd>
                     </div>
                 {{ /if }}
