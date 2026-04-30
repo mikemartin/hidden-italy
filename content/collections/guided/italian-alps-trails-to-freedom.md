@@ -6,7 +6,7 @@ name: 'Trails to Freedom'
 region: 'Italian Alps'
 summary: 'Ten-day hike blending stunning scenery, alpine towns, and a WWII escape story.'
 days: 10
-grade: 0
+grade: 5
 tour_size: 12
 date: '2026-04-11 14:00'
 overview:
@@ -340,7 +340,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777433077
+updated_at: 1777517457
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg

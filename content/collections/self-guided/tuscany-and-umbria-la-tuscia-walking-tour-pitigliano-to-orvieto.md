@@ -6,7 +6,7 @@ name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777446384
+updated_at: 1777517239
 grade: 3
 summary: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
 overview:
@@ -282,9 +282,10 @@ gallery:
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020009-a.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano-2.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/img_6947.jpeg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/walking.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/martinophuc-boats-7100032.jpg
+  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/walking.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-1.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-8.jpg
 now_open: false
+seasons: spring
 ---

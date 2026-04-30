@@ -6,7 +6,7 @@ name: 'Tuscany 1'
 region: Tuscany
 days: 6
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777444728
+updated_at: 1777517143
 grade: 2
 summary: 'Pure Tuscany: rolling hills, cypress pines, Renaissance towns, fine food, relaxed walking.'
 overview:
@@ -276,4 +276,5 @@ gallery:
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5117.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5149.jpg
 now_open: false
+seasons: spring
 ---

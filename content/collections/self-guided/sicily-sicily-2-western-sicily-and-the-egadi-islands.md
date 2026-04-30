@@ -6,8 +6,8 @@ name: 'Sicily 2 (Western Sicily and the Egadi Islands)'
 region: Sicily
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777444248
-grade: 4
+updated_at: 1777517083
+grade: 3
 summary: 'Coastal walks, island hoping and fabulous food, this tour is southern Italy at its best!'
 overview:
   -
@@ -297,7 +297,7 @@ gallery:
   - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/f.jpg
   - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/p1010686.jpg
 seasons:
-  - autumn
+  - spring
 start_location: Favignana
 finish_location: Scopello
 now_open: false

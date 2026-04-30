@@ -6,8 +6,8 @@ name: 'Tuscany 2'
 region: Tuscany
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777444904
-grade: 2
+updated_at: 1777517205
+grade: 4
 summary: 'Enjoy a seven-day walk through the rolling vineyards, forest and market towns of Chianti.'
 overview:
   -
@@ -297,4 +297,5 @@ gallery:
 start_location: Florence
 finish_location: Siena
 now_open: false
+seasons: autumn
 ---

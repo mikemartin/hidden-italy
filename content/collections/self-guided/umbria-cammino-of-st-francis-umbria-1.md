@@ -6,7 +6,7 @@ name: 'Cammino of St Francis:  Umbria 1'
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777260498
+updated_at: 1777517259
 grade: 3
 summary: "Walk well-marked trails thru Italy's most beautiful region, in the footsteps of St Francis"
 overview:
@@ -51,17 +51,22 @@ page_builder:
         id: mlooee34
         title: "Five days walking through the 'green heart' of Italy"
         summary: 'Enjoy a continuous walk through hilltop villages and an unspoilt region of rolling green hills, woods and valleys.'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
+      -
+        id: DzKpDjGG1gjZ79CTeRS9N
+        title: "Discover Umbria's treasures"
+        summary: "You'll have plenty of time to explore Assisi and Spoleto two of the most enchanting and beautiful towns in central Italy"
+        icon: medieval-castle-tower.svg
       -
         id: mloog7vk
         title: 'Savour the famous food and wines'
         summary: "Enjoy the region's hearty cuisine: pasta served with garden fresh vegetables, cheeses and meats, teamed with fine wines."
-        icon: housing-house.svg
+        icon: culture-cheese.svg
       -
         id: mlooou12
         title: "Lose yourself in the region's fine art"
         summary: "Lose yourself in small villages and towns holding some of Italy's finest art: Giotto, Pinturicchio and Fra Lippo Lippi."
-        icon: culture-pizza.svg
+        icon: medieval-castle-wall.svg
       -
         id: mlooun08
         title: 'Soak up the vibe'
@@ -274,4 +279,6 @@ gallery:
   - tours/umbria-cammino-of-st-francis-umbria-1/14.jpg
   - tours/umbria-cammino-of-st-francis-umbria-1/umbria-3686911_1280.jpg
   - tours/umbria-cammino-of-st-francis-umbria-1/16.jpg
+now_open: false
+seasons: spring
 ---

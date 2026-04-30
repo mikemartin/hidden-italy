@@ -6,8 +6,8 @@ name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776054731
-grade: 0
+updated_at: 1777517362
+grade: 4
 summary: 'A 7-day hike along historic trails through one of Italy’s most beautiful mountain valleys!'
 overview:
   -
@@ -60,27 +60,32 @@ page_builder:
         id: mlrbvyrv
         title: 'Discover a hidden valley'
         summary: 'Far from the regular tourist trails, at the foot of Monte Rosa, this is one of the most beautiful valleys in the Alps.'
-        icon: culture-pizza.svg
+        icon: switzerland-mountain.svg
       -
         id: mlrbzbll
         title: 'Stay in fabulous accommodation'
         summary: "Stay in a combination of beautiful boutique hotels and 'rifugi' set in hostoric residences, one from the 16th century."
-        icon: housing-house.svg
+        icon: ski-alpine-hotel.svg
       -
         id: mlrc2l11
         title: 'Walk spectacular trails'
         summary: 'Follow spectacular and well-marked trails that have been used by traders, farmers and travelers since the Middle Ages.'
-        icon: trekking-boots.svg
+        icon: trekking-trekking.svg
       -
         id: mlrc4uq2
         title: 'Enjoy genuine mountain hospitality'
-        summary: 'Enjoy the hospitality of welcoming people, staying in family-run accommodation.  A delicious dinner included each night!'
-        icon: housing-house.svg
+        summary: 'Enjoy the hospitality of these welcoming people.  A delicious dinner included each night, heart-warming mountain cuisine'
+        icon: bakery-bread.svg
       -
         id: mlrc9yr3
-        title: 'Be intrigued by the history'
+        title: 'Be intriguedd by the history'
         summary: 'The valley was settled a German-speaking people in 13th century.  Their traditions and stories are still alive and well!'
         icon: culture-Colosseum.svg
+      -
+        id: X33IRRSnl32_xPcqIGs-d
+        title: 'Relax and enjoy your holiday!'
+        summary: 'Everything is organised: pickup and dropoff at start and finish; luggage transfers; maps and App; 24-hour local support.'
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
   -
@@ -366,4 +371,6 @@ gallery:
   - tours/val-daosta-valley-del-lys/6.jpg
   - tours/val-daosta-valley-del-lys/img_7055.jpg
   - tours/val-daosta-valley-del-lys/16.jpg
+now_open: false
+seasons: summer
 ---

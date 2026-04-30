@@ -6,7 +6,7 @@ name: 'Italian Riviera 1'
 region: Liguria
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777442695
+updated_at: 1777516873
 grade: 4
 summary: 'Follow ancient paths through fishing villages and forests on the beautiful Italian Riviera'
 overview:
@@ -316,4 +316,5 @@ gallery:
 start_location: Genova
 finish_location: 'Sestri Levante'
 now_open: false
+seasons: autumn
 ---

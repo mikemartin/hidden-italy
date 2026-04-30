@@ -6,7 +6,7 @@ name: 'Dolomites in Autumn'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777433832
+updated_at: 1777517532
 locations: northern-italy
 grade: 3
 image: tours/trentino-alto-adige-dolomites/804729994-100.jpg

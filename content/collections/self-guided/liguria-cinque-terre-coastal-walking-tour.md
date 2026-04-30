@@ -6,7 +6,7 @@ name: 'Cinque Terre Coastal'
 region: Liguria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777351795
+updated_at: 1777516851
 grade: 3
 summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
 overview:
@@ -278,4 +278,6 @@ gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour/siret-jaksic-yats80aqvmm-unsplash.jpg
 start_location: Levanto
 finish_location: Portovenere
+now_open: false
+seasons: spring
 ---

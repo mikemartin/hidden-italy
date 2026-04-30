@@ -6,7 +6,7 @@ name: 'Puglia: the Gargano Peninsula'
 region: Puglia
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777443372
+updated_at: 1777516969
 grade: 4
 summary: 'Ramble the length of Gargano Peninsula through farmlands and forest to the sparkling sea!'
 overview:
@@ -294,4 +294,5 @@ gallery:
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_2836.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_3610.jpg
 now_open: false
+seasons: spring
 ---

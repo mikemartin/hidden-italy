@@ -6,9 +6,9 @@ name: 'Campania and the Amalfi Coast'
 region: 'Campania and Basilicata'
 days: 13
 seasons: spring
-grade: 2
+grade: 3
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777432860
+updated_at: 1777517423
 summary: 'Campania a stunningly beautiful area with all the exuberance and colour of southern Italy.'
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15

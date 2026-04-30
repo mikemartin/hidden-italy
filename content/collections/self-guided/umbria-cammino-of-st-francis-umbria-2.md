@@ -6,7 +6,7 @@ name: 'Cammino of St Francis:  Umbria 2'
 region: Umbria
 days: 7
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777260783
+updated_at: 1777517340
 grade: 3
 summary: "A week-long walk along well-marked trails through the charming 'green heart of Italy'."
 overview:
@@ -58,23 +58,28 @@ page_builder:
       -
         id: mlooee34
         title: 'Get off the beaten track'
-        summary: "Enjoy a relaxed week following well-marked trails through some of central Italy's most beautiful countryside."
-        icon: trekking-boots.svg
+        summary: "Enjoy a week following well-marked trails through some of central Italy's less visited, but most beautiful, countryside."
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Explore the towns'
         summary: "Staying in welcoming, family-run accommodation, you'll have plenty of time to explore the gorgeous little-visited towns."
-        icon: housing-house.svg
+        icon: houses-townhouse-urban-row-multi-story-city-attached-simple-residential.svg
       -
         id: mlooou12
         title: 'Admire the spectacular scenery'
         summary: 'The walk takes you south through the lush Nera Valley with breath-taking views over mountains, lakes and rolling plains.'
-        icon: culture-pizza.svg
+        icon: geography-cartography-rural.svg
       -
         id: mlooun08
         title: 'Enjoy Umbrian home cooking'
         summary: 'Sit down and enjoy the wholesome home-cooking: cold cuts, cheeses, pastas, soups, roast meats, fresh garden vegetables.'
-        icon: housing-house.svg
+        icon: culture-cheese.svg
+      -
+        id: kU--cz46e_GZQ1Qu5BR6a
+        title: 'Stay lakeside'
+        summary: 'Overnight in a tranquil lakefront hotel with an outdoor pool and lush gardens, watching the sunset over the mountains.'
+        icon: nature-lake.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
@@ -297,4 +302,6 @@ gallery:
   - tours/umbria-cammino-of-st-francis-umbria-2/img_5409.jpg
 start_location: Spoleto
 finish_location: Rieti
+now_open: false
+seasons: spring
 ---

@@ -6,7 +6,7 @@ name: 'Alba and Le Langhe'
 region: Piedmont
 days: 8
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777443887
+updated_at: 1777516951
 grade: 3
 summary: 'An 8-day tour that takes you through the seductive rolling hills of southern Piedmont.'
 overview:
@@ -297,4 +297,5 @@ gallery:
 start_location: Turin
 finish_location: Alba
 now_open: false
+seasons: autumn
 ---
