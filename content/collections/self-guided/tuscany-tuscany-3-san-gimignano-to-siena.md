@@ -6,7 +6,7 @@ name: 'Tuscany 3'
 region: Tuscany
 days: 5
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777445218
+updated_at: 1777517220
 grade: 2
 summary: 'A classic walk takes you through celebrated landscapes and iconic towns to glorious Siena.'
 overview:
@@ -280,4 +280,5 @@ gallery:
 start_location: 'San Gimignano'
 finish_location: Siena
 now_open: false
+seasons: spring
 ---
