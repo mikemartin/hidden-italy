@@ -1,0 +1,117 @@
+{{#
+    @name Request booking modal
+    @desc Authentication gate that intercepts the "Request Booking" button
+          when the visitor is logged out. Asks for an email and either
+          redirects to /login (which runs the email-first 2-step flow and
+          falls through to /register for unknown emails) or sends the
+          user straight to /booking with a `guest=1` flag.
+
+          The modal is rendered into a single Alpine x-data store at the
+          bottom of the tour show page; the "Request Booking" button
+          dispatches `open-booking-modal` with the tour slug to show it.
+          When the visitor is already authenticated the button bypasses
+          the modal entirely and links directly to /booking.
+#}}
+
+<!-- /components/_request_booking_modal.antlers.html -->
+{{ if logged_in }}
+    {{# No-op when authenticated — the button links straight to /booking. #}}
+{{ else }}
+    <div
+        x-data="{
+            open: false,
+            tour: '',
+            email: '',
+            init() {
+                window.addEventListener('open-booking-modal', (event) => {
+                    this.tour = event.detail?.tour ?? '';
+                    this.open = true;
+                    this.$nextTick(() => this.$refs.email?.focus());
+                });
+            },
+            close() {
+                this.open = false;
+                this.email = '';
+            },
+            redirectParam() {
+                return this.tour
+                    ? '/booking?tour=' + encodeURIComponent(this.tour)
+                    : '/booking';
+            },
+            continueAsUser() {
+                const params = new URLSearchParams();
+                if (this.email) params.set('email', this.email);
+                params.set('redirect', this.redirectParam());
+                window.location.href = '/login?' + params.toString();
+            },
+            continueAsGuest() {
+                const params = new URLSearchParams();
+                if (this.tour) params.set('tour', this.tour);
+                params.set('guest', '1');
+                window.location.href = '/booking?' + params.toString();
+            },
+        }"
+        x-show="open"
+        x-cloak
+        x-transition.opacity
+        @keydown.escape.window="close()"
+        class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-foreground/40"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="booking-modal-title"
+    >
+        <div
+            @click.outside="close()"
+            class="relative w-full max-w-md bg-background rounded-3xl shadow-xl p-8 md:p-10"
+        >
+            <button
+                type="button"
+                @click="close()"
+                class="absolute right-5 top-5 inline-flex items-center justify-center text-foreground hover:text-foreground/70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold rounded-full"
+                aria-label="{{ trans:strings.close ?? 'Close' }}"
+            >
+                <x-lucide-x class="size-5" stroke-width="2" />
+            </button>
+
+            <h2
+                id="booking-modal-title"
+                class="font-display font-bold text-xl md:text-2xl leading-[1.25] md:leading-[1.5] text-foreground text-center"
+            >
+                {{ trans:strings.booking_modal_title }}
+            </h2>
+
+            <form @submit.prevent="continueAsUser()" class="mt-8 flex flex-col gap-3">
+                <label for="booking-modal-email" class="block text-base font-semibold text-foreground">{{ trans:strings.email_address }}</label>
+                <input
+                    x-ref="email"
+                    x-model="email"
+                    type="email"
+                    id="booking-modal-email"
+                    required
+                    placeholder="{{ trans:strings.email_placeholder }}"
+                    autocomplete="email"
+                    class="block w-full rounded-full bg-card px-5 py-3 text-base text-foreground border border-text/20 placeholder:text-text/40 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent transition"
+                />
+
+                <button type="submit" class="button button--accent button--large w-full mt-3">
+                    <span>{{ trans:strings.continue_action }}</span>
+                </button>
+            </form>
+
+            <div class="my-6 flex items-center gap-4 text-sm text-text">
+                <span class="flex-1 h-px bg-foreground/10"></span>
+                <span class="uppercase tracking-[0.04em]">{{ trans:strings.or }}</span>
+                <span class="flex-1 h-px bg-foreground/10"></span>
+            </div>
+
+            <button
+                type="button"
+                @click="continueAsGuest()"
+                class="button button--large w-full bg-parchment-200 text-foreground hover:bg-parchment-300"
+            >
+                <span>{{ trans:strings.continue_as_guest }}</span>
+            </button>
+        </div>
+    </div>
+{{ /if }}
+<!-- End: /components/_request_booking_modal.antlers.html -->

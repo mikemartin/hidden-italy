@@ -11,8 +11,8 @@
                 <s:partial src="components/topographic" />
 
                 <div class="relative w-full max-w-sm space-y-10">
-                    <div class="flex justify-center text-foreground">
-                        <s:partial src="components/logo" class="h-10" />
+                    <div class="flex justify-center">
+                        <s:partial src="components/logo" class="h-10 text-foreground" />
                     </div>
 
                     {{ $slot }}

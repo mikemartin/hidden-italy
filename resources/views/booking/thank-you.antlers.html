@@ -1,0 +1,24 @@
+{{#
+    @name Booking enquiry — Thank you
+    @desc Confirmation page shown after a booking enquiry form is
+          submitted. Sits inside the standard site layout (header +
+          footer); content is centred on the cream surface.
+#}}
+
+<!-- /booking/thank-you.antlers.html -->
+<main id="content" class="fluid-grid py-16 md:py-24 lg:py-32">
+    <section class="span-content flex flex-col items-center text-center gap-6">
+        {{ partial:typography/h2 :content="trans:strings.thank_you_heading" color="text-foreground" }}
+
+        {{ partial:typography/p_large
+            :content="trans:strings.thank_you_message"
+            color="text-text"
+            class="!mb-0 max-w-xl"
+        }}
+
+        <a href="/" class="button button--accent button--large mt-4" wire:navigate>
+            <span>{{ trans:strings.go_back_home }}</span>
+        </a>
+    </section>
+</main>
+<!-- End: /booking/thank-you.antlers.html -->

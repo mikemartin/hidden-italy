@@ -8,8 +8,8 @@
             <s:partial src="components/topographic" />
 
             <div class="relative flex w-full max-w-sm flex-col gap-6">
-                <div class="flex justify-center text-foreground">
-                    <s:partial src="components/logo" class="h-10" />
+                <div class="flex justify-center">
+                    <s:partial src="components/logo" class="h-10 text-foreground" />
                 </div>
 
                 {{ $slot }}

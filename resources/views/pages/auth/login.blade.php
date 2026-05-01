@@ -19,6 +19,39 @@ class extends Component
     public function mount(): void
     {
         $this->email = (string) request()->query('email', '');
+
+        // Honour `?redirect=` so flows like the booking modal can land
+        // back on the originating page after auth. Only same-origin paths
+        // are accepted to avoid open-redirects.
+        $redirect = (string) request()->query('redirect', '');
+
+        if ($redirect !== '' && str_starts_with($redirect, '/') && ! str_starts_with($redirect, '//')) {
+            session()->put('url.intended', url($redirect));
+        }
+
+        // When an email comes in pre-filled (e.g. from the booking modal),
+        // mirror what `continue()` would do so the visitor doesn't have
+        // to click Continue again: jump to the password step for known
+        // users, bounce unknowns straight to register with the email and
+        // any redirect carried through.
+        if ($this->email !== '' && filter_var($this->email, FILTER_VALIDATE_EMAIL)) {
+            $user = User::where('email', $this->email)->first();
+
+            if (! $user) {
+                $params = ['email' => $this->email];
+
+                if ($redirect !== '') {
+                    $params['redirect'] = $redirect;
+                }
+
+                $this->redirect(route('register', $params), navigate: true);
+
+                return;
+            }
+
+            $this->foundUser = $user;
+            $this->confirming = true;
+        }
     }
 
     public function continue(): void

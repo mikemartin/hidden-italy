@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a85e1b926beca750cb2a65eae2d172eb",
+    "content-hash": "9485f028fd8cc822ef758a6a8ceb6b92",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -68,6 +68,75 @@
                 "source": "https://github.com/ajthinking/archetype/tree/v2.0.0"
             },
             "time": "2024-05-11T08:05:58+00:00"
+        },
+        {
+            "name": "aryehraber/statamic-captcha",
+            "version": "v1.17.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aryehraber/statamic-captcha.git",
+                "reference": "b0aaec618973555579744697aa9b37787fd4b072"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aryehraber/statamic-captcha/zipball/b0aaec618973555579744697aa9b37787fd4b072",
+                "reference": "b0aaec618973555579744697aa9b37787fd4b072",
+                "shasum": ""
+            },
+            "require": {
+                "statamic/cms": "^3.0 || ^4.0 || ^5.0 || ^6.0"
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "AryehRaber\\Captcha\\CaptchaServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Captcha",
+                    "slug": "captcha",
+                    "version": "1.10.0",
+                    "description": "Protect your Statamic forms using a Captcha service"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "AryehRaber\\Captcha\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aryeh Raber",
+                    "email": "aryeh.raber@gmail.com",
+                    "homepage": "https://aryeh.dev",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Protect your Statamic forms using a Captcha service",
+            "homepage": "https://github.com/aryehraber/statamic-captcha",
+            "keywords": [
+                "Forms",
+                "captcha",
+                "hcaptcha",
+                "recaptcha",
+                "statamic"
+            ],
+            "support": {
+                "issues": "https://github.com/aryehraber/statamic-captcha/issues",
+                "source": "https://github.com/aryehraber/statamic-captcha/tree/v1.17.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/aryehraber",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-03-14T10:52:23+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",

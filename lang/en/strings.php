@@ -63,14 +63,40 @@ return [
     'home' => 'Homepage',
     'no_results' => 'There are currently no posts.',
     'no_script' => 'This website requires Javascript for some parts to function properly. Your experience may vary.',
+    'or' => 'Or',
 
     // Pagination
     'next' => 'next',
     'of' => 'of',
     'previous' => 'previous',
 
-    // Request booking
+    // Booking flow
     'request_booking' => 'Request booking',
+    'booking_modal_title' => 'Log in or create an account to request booking',
+    'continue_action' => 'Continue',
+    'continue_as_guest' => 'Continue as a guest',
+    'booking_enquiry' => 'Booking enquiry',
+    'booking_enquiry_subtitle' => 'Make an enquiry about your selected tour',
+    'select_a_tour' => 'Select a tour',
+    'guided_tours' => 'Guided tours',
+    'self_guided_tours' => 'Self-guided tours',
+    'send_enquiry' => 'Send enquiry',
+    'have_an_account' => 'Have an account?',
+    'log_in' => 'Log in',
+    'thank_you_heading' => 'Thank you for your enquiry',
+    'thank_you_message' => 'We have received your booking enquiry and will get back to you shortly with more information.',
+    'go_back_home' => 'Go back home',
+
+    // Form fields
+    'name' => 'Name',
+    'full_name' => 'Full name',
+    'email_address' => 'Email address',
+    'email_placeholder' => 'email@example.com',
+    'phone_number' => 'Phone number',
+    'phone_placeholder' => '+61 412 345 678',
+    'tour' => 'Tour',
+    'message' => 'Message',
+    'message_placeholder' => 'Enter your message…',
 
     // Tour overview
     'tours' => 'Tours',

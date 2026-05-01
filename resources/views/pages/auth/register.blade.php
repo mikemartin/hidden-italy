@@ -1,3 +1,14 @@
+@php
+    // Honour `?redirect=` so flows like the booking modal can land back on
+    // the originating page after registration. Only same-origin paths are
+    // accepted to avoid open-redirects.
+    $redirect = (string) request()->query('redirect', '');
+
+    if ($redirect !== '' && str_starts_with($redirect, '/') && ! str_starts_with($redirect, '//')) {
+        session()->put('url.intended', url($redirect));
+    }
+@endphp
+
 <x-layouts::auth.split :title="__('Register')">
     <div class="flex flex-col gap-6">
         <x-auth-header :title="__('Create an account')" :description="__('Enter your details below to create your account')" />

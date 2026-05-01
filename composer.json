@@ -20,6 +20,7 @@
     ],
     "require": {
         "php": "^8.2",
+        "aryehraber/statamic-captcha": "^1.17",
         "laravel/fortify": "^1.36",
         "laravel/framework": "^13.0",
         "laravel/tinker": "^3.0",

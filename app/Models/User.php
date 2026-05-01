@@ -71,4 +71,16 @@ class User extends Authenticatable
             ->map(fn ($word) => Str::substr($word, 0, 1))
             ->implode('');
     }
+
+    /**
+     * Return the user's primary key as a string. Mirrors the
+     * `Statamic\Contracts\Auth\User::id()` contract so frontend code that
+     * was written against Statamic users (mikomagni/simple-likes,
+     * SyncGuestLikes listener, etc.) keeps working now that auth uses an
+     * Eloquent provider directly.
+     */
+    public function id(): string
+    {
+        return (string) $this->getKey();
+    }
 }
