@@ -1,0 +1,11 @@
+title: 'Tips'
+template: article/show
+layout: layout
+mount: c81f1652-4d1d-49fb-bd9b-cad19ed89159
+revisions: false
+route: '/tips/{slug}'
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

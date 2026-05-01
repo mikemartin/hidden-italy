@@ -1,10 +1,9 @@
 {{#
     @name Testimonials
     @desc Three testimonial entries shown as a side-by-side grid on desktop
-          and a Splide-powered swipeable carousel below `md`. Each card shows a
-          5-star row, the quote, and the traveller's name + linked tour.
-          Splide is destroyed at `md` and up so the original 3-col grid layout
-          renders without JS.
+          and a Splide-powered swipeable carousel below `md`. Each card uses
+          the shared `components/_testimonial-card` partial so the homepage
+          and the cards reference page render the same markup.
     @set page.page_builder.testimonials
 #}}
 
@@ -37,7 +36,7 @@
     >
         {{ if block:heading }}
             <header class="span-content text-center">
-                {{ partial:typography/h2 :content="block:heading" }}
+                {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
             </header>
         {{ /if }}
 
@@ -48,36 +47,7 @@
                 <ul class="splide__list md:grid md:grid-cols-3 md:gap-fluid-grid-gap">
                     {{ block:testimonials }}
                         <li class="splide__slide">
-                            <figure class="h-full flex flex-col gap-4 p-6 bg-white rounded-lg shadow-sm">
-                                <div class="flex items-center gap-0.5 text-primary" aria-label="5 out of 5 stars">
-                                    <x-lucide-star class="w-4 h-4 fill-current" aria-hidden="true" />
-                                    <x-lucide-star class="w-4 h-4 fill-current" aria-hidden="true" />
-                                    <x-lucide-star class="w-4 h-4 fill-current" aria-hidden="true" />
-                                    <x-lucide-star class="w-4 h-4 fill-current" aria-hidden="true" />
-                                    <x-lucide-star class="w-4 h-4 fill-current" aria-hidden="true" />
-                                </div>
-
-                                {{ if title }}
-                                    {{ partial:typography/h5 :content="title" }}
-                                {{ /if }}
-
-                                {{ if quote }}
-                                    <blockquote class="text-neutral-700 leading-relaxed">
-                                        <p>{{ quote }}</p>
-                                    </blockquote>
-                                {{ /if }}
-
-                                <figcaption class="mt-auto pt-4 border-t border-stone-200 text-sm">
-                                    {{ if name }}
-                                        <div class="font-semibold text-neutral-900">{{ name }}</div>
-                                    {{ /if }}
-                                    {{ tour | first }}
-                                        <a href="{{ url }}" class="text-neutral-500 hover:underline underline-offset-4">
-                                            {{ name ?? title }}
-                                        </a>
-                                    {{ /tour }}
-                                </figcaption>
-                            </figure>
+                            {{ partial:components/testimonial-card }}
                         </li>
                     {{ /block:testimonials }}
                 </ul>

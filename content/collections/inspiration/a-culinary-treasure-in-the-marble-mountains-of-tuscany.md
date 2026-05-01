@@ -1,0 +1,6 @@
+---
+id: 6f8a2c47-3b91-4e58-a672-9d4e0f1c5b83
+blueprint: inspiration
+title: 'A culinary treasure in the marble mountains of Tuscany'
+lead: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat, ipsum ac auctor ornare, nunc ligula scelerisque eros.'
+---

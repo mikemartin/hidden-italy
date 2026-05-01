@@ -1,0 +1,72 @@
+title: Product
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              display: Title
+              required: true
+              validate:
+                - required
+          -
+            handle: image
+            field:
+              container: assets
+              folder: shop
+              restrict: true
+              mode: grid
+              max_files: 1
+              type: assets
+              display: Image
+              instructions: 'Cover or thumbnail. Restricted to the `shop/` folder.'
+          -
+            handle: type
+            field:
+              type: select
+              display: Type
+              options:
+                book: Book
+                gift_card: 'Gift Card'
+              default: book
+              clearable: false
+              instructions: 'Shown as the chip at the top of the product card.'
+              width: 50
+          -
+            handle: price
+            field:
+              type: text
+              display: Price
+              instructions: 'Free-form, e.g. "$10 AUD".'
+              width: 50
+          -
+            handle: show_from
+            field:
+              type: toggle
+              display: 'Show "From" prefix'
+              instructions: 'Prefixes the price with "From " when the product has variants or starting prices.'
+              default: false
+              width: 50
+          -
+            handle: buy_link
+            field:
+              type: text
+              display: 'Buy Link'
+              instructions: 'External URL the card links to.'
+              input_type: url
+              width: 50
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'

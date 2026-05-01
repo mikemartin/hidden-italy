@@ -23,7 +23,7 @@
             a.remove();
             URL.revokeObjectURL(url);
         "
-        class="relative w-full flex flex-col items-center gap-3 p-6 border rounded-lg transition-colors cursor-pointer {{ if in_use }}border-primary bg-primary/5 hover:bg-primary/10{{ else }}border-neutral/10 hover:border-primary hover:bg-neutral-50{{ /if }}"
+        class="relative w-full flex flex-col items-center gap-3 p-6 border rounded-lg transition-colors cursor-pointer {{ if in_use }}border-primary bg-primary/5 hover:bg-primary/10{{ else }}border-neutral/10 hover:border-primary hover:bg-parchment-200{{ /if }}"
         aria-label="Download {{ name }}.svg{{ if in_use }} (in use){{ /if }}"
     >
         {{ if in_use }}

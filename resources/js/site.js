@@ -1,12 +1,15 @@
 import Splide from '@splidejs/splide';
 import tippy from 'tippy.js';
 import 'tippy.js/dist/tippy.css';
+import collapse from '@alpinejs/collapse';
 import simpleLikes from './components/simple-likes.js';
 
 window.Splide = Splide;
 window.simpleLikes = simpleLikes;
 
 document.addEventListener('alpine:init', () => {
+    window.Alpine.plugin(collapse);
+
     window.Alpine.store('wishlist', {
         count: 0,
         popping: false,

@@ -9,7 +9,7 @@
         <div class="span-content stack-16">
 
             {{# Page header #}}
-            <div class="bg-neutral-50 p-8 md:p-12 rounded-lg">
+            <div class="bg-parchment-200 p-8 md:p-12 rounded-lg">
                 {{ partial:typography/h1
                     content="Brand Colors"
                     class="mb-4 md:text-7xl tracking-[-0.03em]"
@@ -29,50 +29,32 @@
                     {{ partial:typography/p content="Raw brand colors. Named after the Figma variable groups." class="!mb-0 text-neutral/70" }}
                 </header>
 
-                {{# Blues — Chathams Blue family #}}
+                {{# Blues — Chathams Blue family. Full 14-step Figma scale: L-50
+                    (lightest) → L-600 → D-600 → D-50 (darkest). Light shades
+                    sit above the divider, dark shades below. #}}
                 <div class="stack-4">
                     {{ partial:typography/h3 content="Blues &mdash; Chathams Blue" }}
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-fluid-grid-gap">
-                        {{ partial:brand-colors/swatch
-                            name="Blue / 500"
-                            hex="#376d86"
-                            token="--color-blue-500"
-                            utility="bg-blue-500"
-                            role="Lighter blue &mdash; accents, chips"
-                            on_dark="true"
-                        }}
-                        {{ partial:brand-colors/swatch
-                            name="Blue / 700"
-                            hex="#27556b"
-                            token="--color-blue-700"
-                            utility="bg-blue-700"
-                            role="Primary blue &mdash; header, hero overlay"
-                            on_dark="true"
-                        }}
-                        {{ partial:brand-colors/swatch
-                            name="Blue / 800"
-                            hex="#2c5971"
-                            token="--color-blue-800"
-                            utility="bg-blue-800"
-                            role="Body text on light surfaces"
-                            on_dark="true"
-                        }}
-                        {{ partial:brand-colors/swatch
-                            name="Blue / 900"
-                            hex="#1f3b4d"
-                            token="--color-blue-900"
-                            utility="bg-blue-900"
-                            role="Deep blue &mdash; foreground, dark type"
-                            on_dark="true"
-                        }}
-                        {{ partial:brand-colors/swatch
-                            name="Blue / 950"
-                            hex="#0a3241"
-                            token="--color-blue-950"
-                            utility="bg-blue-950"
-                            role="Darkest blue &mdash; rare emphasis"
-                            on_dark="true"
-                        }}
+
+                    {{# Light half — L-50 → L-600 #}}
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-7 gap-fluid-grid-gap">
+                        {{ partial:brand-colors/swatch name="Blue / L-50"  hex="#f4fbfe" token="--color-blue-l-50"  utility="bg-blue-l-50" }}
+                        {{ partial:brand-colors/swatch name="Blue / L-100" hex="#e9f5fc" token="--color-blue-l-100" utility="bg-blue-l-100" }}
+                        {{ partial:brand-colors/swatch name="Blue / L-200" hex="#dceffa" token="--color-blue-l-200" utility="bg-blue-l-200" }}
+                        {{ partial:brand-colors/swatch name="Blue / L-300" hex="#c7e3f3" token="--color-blue-l-300" utility="bg-blue-l-300" }}
+                        {{ partial:brand-colors/swatch name="Blue / L-400" hex="#afd4e9" token="--color-blue-l-400" utility="bg-blue-l-400" }}
+                        {{ partial:brand-colors/swatch name="Blue / L-500" hex="#94c0d9" token="--color-blue-l-500" utility="bg-blue-l-500" }}
+                        {{ partial:brand-colors/swatch name="Blue / L-600" hex="#7faec8" token="--color-blue-l-600" utility="bg-blue-l-600" }}
+                    </div>
+
+                    {{# Dark half — D-600 → D-50 #}}
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-7 gap-fluid-grid-gap">
+                        {{ partial:brand-colors/swatch name="Blue / D-600" hex="#709eb9" token="--color-blue-d-600" utility="bg-blue-d-600" on_dark="true" }}
+                        {{ partial:brand-colors/swatch name="Blue / D-500" hex="#5d89a3" token="--color-blue-d-500" utility="bg-blue-d-500" role="Dark: accent-2" on_dark="true" }}
+                        {{ partial:brand-colors/swatch name="Blue / D-400" hex="#456e86" token="--color-blue-d-400" utility="bg-blue-d-400" role="Dark: accent-light" on_dark="true" }}
+                        {{ partial:brand-colors/swatch name="Blue / D-300" hex="#31566b" token="--color-blue-d-300" utility="bg-blue-d-300" role="Light: text, Dark: background" on_dark="true" }}
+                        {{ partial:brand-colors/swatch name="Blue / D-200" hex="#1E4053" token="--color-blue-d-200" utility="bg-blue-d-200" role="Light: foreground, Dark: card" on_dark="true" }}
+                        {{ partial:brand-colors/swatch name="Blue / D-100" hex="#113141" token="--color-blue-d-100" utility="bg-blue-d-100" on_dark="true" }}
+                        {{ partial:brand-colors/swatch name="Blue / D-50"  hex="#001928" token="--color-blue-d-50"  utility="bg-blue-d-50"  on_dark="true" }}
                     </div>
                 </div>
 
@@ -111,28 +93,6 @@
                     </div>
                 </div>
 
-                {{# Mustard #}}
-                <div class="stack-4">
-                    {{ partial:typography/h3 content="Mustard &mdash; Dijon Mustard" }}
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-fluid-grid-gap">
-                        {{ partial:brand-colors/swatch
-                            name="Mustard / 50"
-                            hex="#fcfaf4"
-                            token="--color-mustard-50"
-                            utility="bg-mustard-50"
-                            role="Softest tint (near-white warm)"
-                        }}
-                        {{ partial:brand-colors/swatch
-                            name="Mustard / 500"
-                            hex="#beac50"
-                            token="--color-mustard-500"
-                            utility="bg-mustard-500"
-                            role="Secondary accent &mdash; olive notes"
-                            on_dark="true"
-                        }}
-                    </div>
-                </div>
-
                 {{# Warm accents #}}
                 <div class="stack-4">
                     {{ partial:typography/h3 content="Warm accents" }}
@@ -146,44 +106,21 @@
                         }}
                         {{ partial:brand-colors/swatch
                             name="Terracotta"
-                            hex="#d56844"
+                            hex="#bb4d00"
                             token="--color-terracotta"
                             utility="bg-terracotta"
-                            role="Benefit icons, secondary CTAs, error state"
-                            on_dark="true"
-                        }}
-                        {{ partial:brand-colors/swatch
-                            name="Amber"
-                            hex="#bb4d00"
-                            token="--color-amber"
-                            utility="bg-amber"
                             role="Deep warm accent &mdash; badges, emphasis"
                             on_dark="true"
                         }}
                     </div>
                 </div>
 
-                {{# Neutrals #}}
+                {{# Neutrals — only the slate-aliased mid range remains.
+                    The 50 and 900 endpoints have been retired; reach for
+                    `parchment-200` and `foreground` instead. #}}
                 <div class="stack-4">
-                    {{ partial:typography/h3 content="Neutrals &mdash; White Heat" }}
-                    {{ partial:typography/p content="Only the endpoints (50 and 900) come from Figma's White Heat. The mid-range 100&ndash;800 falls back to Tailwind slate." class="text-sm text-neutral/60 !mb-0" }}
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-fluid-grid-gap">
-                        {{ partial:brand-colors/swatch
-                            name="Neutral / 50"
-                            hex="#faf9f8"
-                            token="--color-neutral-50"
-                            utility="bg-neutral-50"
-                            role="Page background, subtle fills"
-                        }}
-                        {{ partial:brand-colors/swatch
-                            name="Neutral / 900"
-                            hex="#312e29"
-                            token="--color-neutral-900"
-                            utility="bg-neutral-900"
-                            role="Deepest neutral &mdash; dark surfaces"
-                            on_dark="true"
-                        }}
-                    </div>
+                    {{ partial:typography/h3 content="Neutrals &mdash; slate aliases" }}
+                    {{ partial:typography/p content="`neutral-100` through `neutral-800` are aliased to Tailwind slate for incidental greys (borders, dividers). The 50 and 900 endpoints were retired in favour of `parchment-200` and `foreground`." class="text-sm text-neutral/60 !mb-0" }}
                 </div>
             </section>
 
@@ -193,71 +130,133 @@
             <section class="stack-10">
                 <header class="stack-2">
                     {{ partial:typography/h2 content="Semantic tokens" }}
-                    {{ partial:typography/p content="Role-based aliases. Prefer these in templates &mdash; they point at the palette, so changing a skin later only touches this layer." class="!mb-0 text-neutral/70" }}
+                    {{ partial:typography/p content="Role-based aliases. Templates use these so the `.dark` scope can flip the palette in one place. The Dark column shows what each token resolves to inside a `.dark` ancestor." class="!mb-0 text-neutral/70" }}
                 </header>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-fluid-grid-gap">
-                    {{ partial:brand-colors/swatch
-                        name="Background"
-                        hex="#27556b"
-                        token="--color-background"
-                        utility="bg-background"
-                        alias="var(--color-blue-700)"
-                        role="Primary brand surface &mdash; header, hero"
-                        on_dark="true"
-                    }}
-                    {{ partial:brand-colors/swatch
-                        name="Foreground"
-                        hex="#1f3b4d"
-                        token="--color-foreground"
-                        utility="bg-foreground"
-                        alias="var(--color-blue-900)"
-                        role="Strong text or dark fill on light surfaces"
-                        on_dark="true"
-                    }}
-                    {{ partial:brand-colors/swatch
-                        name="Text"
-                        hex="#2c5971"
-                        token="--color-text"
-                        utility="text-text"
-                        alias="var(--color-blue-800)"
-                        role="Body copy &mdash; default text color"
-                        on_dark="true"
-                    }}
-                    {{ partial:brand-colors/swatch
-                        name="Accent"
-                        hex="#e2ae4d"
-                        token="--color-accent"
-                        utility="bg-accent"
-                        alias="var(--color-gold)"
-                        role="Primary warm accent &mdash; highlights"
-                    }}
-                    {{ partial:brand-colors/swatch
-                        name="Accent 2"
-                        hex="#bb4d00"
-                        token="--color-accent-2"
-                        utility="bg-accent-2"
-                        alias="var(--color-amber)"
-                        role="Deep warm accent &mdash; emphasis"
-                        on_dark="true"
-                    }}
-                    {{ partial:brand-colors/swatch
-                        name="Accent Light"
-                        hex="#376d86"
-                        token="--color-accent-light"
-                        utility="bg-accent-light"
-                        alias="var(--color-blue-500)"
-                        role="Lighter-blue accent &mdash; hover, chips"
-                        on_dark="true"
-                    }}
-                    {{ partial:brand-colors/swatch
-                        name="Card"
-                        hex="#fefcf7"
-                        token="--color-card"
-                        utility="bg-card"
-                        alias="var(--color-parchment-50)"
-                        role="Card surface on top of photography"
-                    }}
+                {{# Light surface (default) #}}
+                <div class="stack-4">
+                    {{ partial:typography/h3 content="Light surface (default)" }}
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-fluid-grid-gap">
+                        {{ partial:brand-colors/swatch
+                            name="Background"
+                            hex="#fdf9f0"
+                            token="--color-background"
+                            utility="bg-background"
+                            alias="var(--color-parchment-100)"
+                            role="Page surface on light sections"
+                        }}
+                        {{ partial:brand-colors/swatch
+                            name="Foreground"
+                            hex="#1E4053"
+                            token="--color-foreground"
+                            utility="bg-foreground"
+                            alias="var(--color-blue-d-200)"
+                            role="Strong headings on light surfaces"
+                            on_dark="true"
+                        }}
+                        {{ partial:brand-colors/swatch
+                            name="Text"
+                            hex="#31566b"
+                            token="--color-text"
+                            utility="text-text"
+                            alias="var(--color-blue-d-300)"
+                            role="Body copy &mdash; default text colour"
+                            on_dark="true"
+                        }}
+                        {{ partial:brand-colors/swatch
+                            name="Accent"
+                            hex="#e2ae4d"
+                            token="--color-accent"
+                            utility="bg-accent"
+                            alias="var(--color-gold)"
+                            role="Primary warm accent &mdash; highlights"
+                        }}
+                        {{ partial:brand-colors/swatch
+                            name="Accent 2"
+                            hex="#bb4d00"
+                            token="--color-accent-2"
+                            utility="bg-accent-2"
+                            alias="var(--color-terracotta)"
+                            role="Deep warm accent &mdash; icons, emphasis"
+                            on_dark="true"
+                        }}
+                        {{ partial:brand-colors/swatch
+                            name="Accent Light"
+                            hex="#faf3e0"
+                            token="--color-accent-light"
+                            utility="bg-accent-light"
+                            alias="var(--color-parchment-200)"
+                            role="Soft surface tint &mdash; chips, sub-bg"
+                        }}
+                        {{ partial:brand-colors/swatch
+                            name="Card"
+                            hex="#fefcf7"
+                            token="--color-card"
+                            utility="bg-card"
+                            alias="var(--color-parchment-50)"
+                            role="Elevated card surface"
+                        }}
+                    </div>
+                </div>
+
+                {{# Dark surface — wrap in `.dark` so the swatches' `bg-background`
+                    etc. utilities resolve to the dark palette and read true. #}}
+                <div class="stack-4 dark bg-background p-6 md:p-8 rounded-lg">
+                    {{ partial:typography/h3 content="Dark surface (.dark)" color="text-foreground" }}
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-fluid-grid-gap">
+                        {{ partial:brand-colors/swatch
+                            name="Background"
+                            hex="#31566b"
+                            token="--color-background"
+                            utility="bg-background"
+                            alias="var(--color-blue-d-300)"
+                            role="Dark surface base"
+                            on_dark="true"
+                        }}
+                        {{ partial:brand-colors/swatch
+                            name="Foreground"
+                            hex="#fdf9f0"
+                            token="--color-foreground"
+                            utility="bg-foreground"
+                            alias="var(--color-parchment-100)"
+                            role="Strong headings on dark surfaces"
+                        }}
+                        {{ partial:brand-colors/swatch
+                            name="Text"
+                            hex="#faf3e0"
+                            token="--color-text"
+                            utility="text-text"
+                            alias="var(--color-parchment-200)"
+                            role="Body copy on dark surfaces"
+                        }}
+                        {{ partial:brand-colors/swatch
+                            name="Accent 2"
+                            hex="#5d89a3"
+                            token="--color-accent-2"
+                            utility="bg-accent-2"
+                            alias="var(--color-blue-d-500)"
+                            role="Lighter blue accent &mdash; icons"
+                            on_dark="true"
+                        }}
+                        {{ partial:brand-colors/swatch
+                            name="Accent Light"
+                            hex="#456e86"
+                            token="--color-accent-light"
+                            utility="bg-accent-light"
+                            alias="var(--color-blue-d-400)"
+                            role="Sub-surface tint &mdash; inputs, chips"
+                            on_dark="true"
+                        }}
+                        {{ partial:brand-colors/swatch
+                            name="Card"
+                            hex="#1E4053"
+                            token="--color-card"
+                            utility="bg-card"
+                            alias="var(--color-blue-d-200)"
+                            role="Elevated card surface on dark"
+                            on_dark="true"
+                        }}
+                    </div>
                 </div>
             </section>
 

@@ -1,15 +1,147 @@
 {{#
-    @name Experience (stub)
-    @desc Placeholder partial for the tour `experience` block. Replace with a
-          real implementation. Exists so missing-partial errors don't surface
-          while the design is still in flight.
+    @name Experience
+    @desc Tabbed look at the on-the-ground experience: walk, accommodation,
+          and food. Tab triggers sit centred under the heading; the active
+          tab fills with the brand background colour. Each panel is a left
+          text column + right image. The walk panel surfaces the trail
+          stats (distance / elevation / grade) above its body copy.
     @set page.page_builder.experience
 #}}
 
 <!-- /page_builder/_experience.antlers.html -->
-{{ partial:page_builder/block }}
-    <div class="span-content py-12 text-center text-sm text-neutral-400">
-        <p class="font-mono">[experience{{ if block:title }} — {{ block:title }}{{ /if }}] stub</p>
-    </div>
-{{ /partial:page_builder/block }}
+{{ if block:tabs }}
+    {{ partial:page_builder/block class="stack-space-collapse py-12 md:py-16 lg:py-24 gap-y-10 md:gap-y-14" }}
+        {{ if block:title }}
+            <header class="span-content text-center">
+                {{ partial:typography/h2 :content="block:title" color="text-foreground" }}
+            </header>
+        {{ /if }}
+
+        <div
+            class="span-content flex flex-col gap-10 md:gap-12"
+            x-data="{ active: null }"
+            x-init="active = $el.querySelector('[role=tab]')?.dataset.tab ?? null"
+        >
+            {{# Tab triggers — centred segmented control. #}}
+            <div role="tablist" aria-label="Experience" class="self-center inline-flex flex-wrap rounded-full border border-parchment-200 bg-card p-1">
+                {{ block:tabs }}
+                    <button
+                        type="button"
+                        role="tab"
+                        data-tab="{{ type }}"
+                        id="tab-{{ type }}"
+                        :aria-selected="active === '{{ type }}'"
+                        aria-controls="panel-{{ type }}"
+                        :tabindex="active === '{{ type }}' ? 0 : -1"
+                        @click="active = '{{ type }}'"
+                        :class="active === '{{ type }}' ? 'bg-background text-white' : 'bg-transparent text-text hover:text-foreground'"
+                        class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-sans font-medium text-sm md:text-base transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                    >
+                        {{ if type == 'walk' }}
+                            <x-lucide-footprints class="size-4" stroke-width="2" aria-hidden="true" />
+                        {{ elseif type == 'accommodation' }}
+                            <x-lucide-bed class="size-4" stroke-width="2" aria-hidden="true" />
+                        {{ elseif type == 'food' }}
+                            <x-lucide-utensils class="size-4" stroke-width="2" aria-hidden="true" />
+                        {{ /if }}
+                        <span class="capitalize">{{ type }}</span>
+                    </button>
+                {{ /block:tabs }}
+            </div>
+
+            {{# Tab panels. #}}
+            {{ block:tabs }}
+                <div
+                    role="tabpanel"
+                    :id="`panel-{{ type }}`"
+                    :aria-labelledby="`tab-{{ type }}`"
+                    x-show="active === '{{ type }}'"
+                    x-cloak
+                    class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start"
+                >
+                    {{# Left — copy. #}}
+                    <div class="lg:col-span-6 flex flex-col gap-6">
+                        {{ if title }}
+                            {{ partial:typography/h3 :content="title" color="text-foreground" }}
+                        {{ /if }}
+
+                        {{ if type == 'walk' }}
+                            {{ if total_distance || total_elevation || grade }}
+                                <ul class="flex flex-wrap items-center gap-x-6 gap-y-3 text-foreground">
+                                    {{ if total_distance }}
+                                        <li class="inline-flex items-center gap-2">
+                                            <x-lucide-footprints class="size-5 text-accent-2 shrink-0" stroke-width="1.75" aria-hidden="true" />
+                                            <span class="font-display font-medium text-base md:text-lg">{{ total_distance }} km</span>
+                                        </li>
+                                    {{ /if }}
+                                    {{ if total_elevation }}
+                                        <li class="inline-flex items-center gap-2">
+                                            <x-lucide-mountain class="size-5 text-accent-2 shrink-0" stroke-width="1.75" aria-hidden="true" />
+                                            <span class="font-display font-medium text-base md:text-lg">{{ total_elevation }} m</span>
+                                        </li>
+                                    {{ /if }}
+                                    {{ if grade }}
+                                        <li class="inline-flex items-center gap-2">
+                                            <x-lucide-gauge class="size-5 text-accent-2 shrink-0" stroke-width="1.75" aria-hidden="true" />
+                                            <span class="font-display font-medium text-base md:text-lg">{{ trans:strings.grade ?? 'Grade' }} {{ grade }} / 5</span>
+                                        </li>
+                                    {{ /if }}
+                                </ul>
+                            {{ /if }}
+                        {{ /if }}
+
+                        {{ if description }}
+                            <div class="font-sans text-base md:text-lg leading-[1.6] text-text [&_p]:mb-4 [&_p:last-child]:mb-0 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-4">
+                                {{ description }}
+                            </div>
+                        {{ /if }}
+                    </div>
+
+                    {{# Right — image (single for walk, gallery for others). #}}
+                    <div class="lg:col-span-6">
+                        {{ if type == 'walk' && image }}
+                            <div class="relative aspect-[4/3] lg:aspect-[5/4] rounded-xl overflow-hidden bg-parchment-200">
+                                {{ picture
+                                    :image="image"
+                                    class="absolute inset-0 w-full h-full object-cover"
+                                    cover="true"
+                                    sizes="(min-width: 1024px) 50vw, 100vw"
+                                    loading="lazy"
+                                }}
+                            </div>
+                        {{ elseif images }}
+                            {{ if images | count == 1 }}
+                                <div class="relative aspect-[4/3] lg:aspect-[5/4] rounded-xl overflow-hidden bg-parchment-200">
+                                    {{ images | first }}
+                                        {{ picture
+                                            :image="url"
+                                            class="absolute inset-0 w-full h-full object-cover"
+                                            cover="true"
+                                            sizes="(min-width: 1024px) 50vw, 100vw"
+                                            loading="lazy"
+                                        }}
+                                    {{ /images }}
+                                </div>
+                            {{ else }}
+                                <ul class="grid grid-cols-2 gap-3 md:gap-4">
+                                    {{ images limit="4" }}
+                                        <li class="relative aspect-square rounded-xl overflow-hidden bg-parchment-200">
+                                            {{ picture
+                                                :image="url"
+                                                class="absolute inset-0 w-full h-full object-cover"
+                                                cover="true"
+                                                sizes="(min-width: 1024px) 25vw, 50vw"
+                                                loading="lazy"
+                                            }}
+                                        </li>
+                                    {{ /images }}
+                                </ul>
+                            {{ /if }}
+                        {{ /if }}
+                    </div>
+                </div>
+            {{ /block:tabs }}
+        </div>
+    {{ /partial:page_builder/block }}
+{{ /if }}
 <!-- End: /page_builder/_experience.antlers.html -->

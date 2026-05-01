@@ -1,0 +1,34 @@
+title: Inspiration
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              display: Title
+              required: true
+              validate:
+                - required
+          -
+            handle: image
+            field:
+              container: assets
+              folder: tips
+              restrict: true
+              mode: grid
+              max_files: 1
+              type: assets
+              display: Image
+          -
+            handle: lead
+            field:
+              type: textarea
+              display: Lead
+              instructions: 'A 1&ndash;2 sentence dek shown under the headline on article cards and on the article page itself.'
+          -
+            handle: article
+            import: article

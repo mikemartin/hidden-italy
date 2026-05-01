@@ -1,0 +1,33 @@
+{{#
+    @name Tips Index
+    @desc Listing template for the Tips collection. Page header followed
+          by a 3-up grid of article cards. Same structure as the Inspiration
+          listing — the article-card component handles the visual
+          difference via the `collection:title` chip.
+#}}
+
+<!-- /tips/index.antlers.html -->
+<main id="content" class="relative isolate overflow-hidden bg-parchment-100">
+    {{ partial:components/topographic }}
+
+    {{ if headline }}
+        {{ partial:components/page_header }}
+    {{ /if }}
+
+    <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
+        <ul class="span-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-fluid-grid-gap">
+            {{ collection:tips sort="title" }}
+                {{ if no_results }}
+                    <li class="md:col-span-2 lg:col-span-3">
+                        {{ partial:typography/p content="{trans:strings.no_results ?? 'There are currently no posts.'}" color="text-text" }}
+                    </li>
+                {{ else }}
+                    <li>
+                        {{ partial:components/article-card }}
+                    </li>
+                {{ /if }}
+            {{ /collection:tips }}
+        </ul>
+    </section>
+</main>
+<!-- End: /tips/index.antlers.html -->

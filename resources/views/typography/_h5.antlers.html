@@ -3,10 +3,19 @@
     @desc The typography h5 partial to render an h5 with `class`, `as`, `color` and `content` attributes.
     @param* content The h5 content.
     @param as The wrapping element. Defaults to `h5`.
+    @param small Boolean. Locks to the smaller `text-xs` / `tracking-[0.08em]` variant at every breakpoint — use for tight uppercase eyebrows on cards (Day 1, Travel Tips, region labels) where the md+ scale-up would dominate the card.
     @param color Set a custom text color utility. Falls back to `text-neutral`.
     @param class Add custom CSS classes.
 #}}
 
 <!-- /typography/_h5.antlers.html -->
-<{{ as or 'h5' }} class="font-display font-bold text-xs md:text-base leading-[1.5] tracking-[0.08em] md:tracking-[0.05em] uppercase {{ color or 'text-neutral' }} {{ class }}">{{ content | nl2br }}</{{ as or 'h5' }}>
+<{{ as or 'h5' }} class="
+    font-display font-bold leading-[1.5] uppercase
+    {{ switch(
+        (small) => 'text-xs tracking-[0.08em]',
+        () => 'text-xs md:text-base tracking-[0.08em] md:tracking-[0.05em]'
+    ) }}
+    {{ color or 'text-neutral' }}
+    {{ class }}
+">{{ content | nl2br }}</{{ as or 'h5' }}>
 <!-- End: /typography/_h5.antlers.html -->

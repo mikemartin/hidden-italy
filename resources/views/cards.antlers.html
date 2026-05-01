@@ -1,0 +1,184 @@
+{{#
+    @name Cards
+    @desc Side-by-side reference of every card type in the system: Tour, Day,
+          Article, Testimonial, and Profile. Helps spot inconsistencies in
+          surface treatment, padding, type scale, and metadata layout.
+
+          Tour pulls a real entry so it renders the production component.
+          Day mirrors the current `_itinerary` partial's markup verbatim
+          (lifted, not extracted) so it can be compared against a future
+          extracted component without drift. Article and Profile are
+          fresh designs from the latest review pass — they don't have
+          backing collections yet, so the markup is sample-data inline.
+          Testimonial shows the proposed new design (stars, large lead +
+          smaller body, name, country) — the existing page-builder block
+          still uses the older title/quote shape.
+#}}
+
+<!-- /cards.antlers.html -->
+<main id="content" class="py-12 md:py-16 lg:py-24">
+    <section class="fluid-grid">
+        <div class="span-content stack-16">
+
+            {{# Page header #}}
+            <div class="bg-parchment-200 p-8 md:p-12 rounded-lg">
+                {{ partial:typography/h1
+                    content="Cards"
+                    class="mb-4 md:text-7xl tracking-[-0.03em]"
+                }}
+                {{ partial:typography/p
+                    content="Five card types side by side. Use this view to keep surface treatment, padding, type scale, and metadata layout consistent as the designs evolve."
+                    class="!mb-0"
+                }}
+            </div>
+
+            {{# ====================================================
+                TOUR CARD — production component, real entry
+                ==================================================== #}}
+            <section class="stack-6">
+                <header class="stack-1">
+                    {{ partial:typography/h2 content="Tour" }}
+                    {{ partial:typography/p_small content="Component &mdash; `components/_tour-card.antlers.html`. Renders inside any context that exposes tour-entry fields." color="text-muted" class="!mb-0" }}
+                </header>
+                <div class="max-w-[400px]">
+                    {{ collection:guided sort="title" limit="1" }}
+                        {{ partial:components/tour-card }}
+                    {{ /collection:guided }}
+                </div>
+            </section>
+
+            {{# ====================================================
+                DAY CARD — current implementation, kept inline so
+                we can compare it against future revisions
+                ==================================================== #}}
+            <section class="stack-6">
+                <header class="stack-1">
+                    {{ partial:typography/h2 content="Day" }}
+                    {{ partial:typography/p_small content="Currently inline in `page_builder/_itinerary.antlers.html`. Markup mirrored here verbatim with sample data so a future extracted component can be diffed against it." color="text-muted" class="!mb-0" }}
+                </header>
+                <div class="max-w-[400px]">
+                    <article class="h-full flex flex-col bg-card border border-parchment-200 rounded-xl overflow-hidden shadow-sm">
+                        <div class="relative p-1">
+                            <div class="relative w-full aspect-[16/10] rounded-lg overflow-hidden bg-parchment-200">
+                                <img
+                                    src="https://images.unsplash.com/photo-1628065341049-9051640f7309?w=900&q=80"
+                                    alt=""
+                                    class="absolute inset-0 w-full h-full object-cover"
+                                    loading="lazy"
+                                >
+                            </div>
+                        </div>
+                        <div class="flex-1 flex flex-col gap-3 p-5 md:p-6">
+                            <div class="flex flex-col items-start gap-2">
+                                <span class="bg-parchment-200 px-2 py-0.5 rounded-full text-[13px] text-accent-2 leading-tight">
+                                    Day 1
+                                </span>
+                                {{ partial:typography/h4 content="Arrival in Biella" color="text-foreground" }}
+                            </div>
+                            {{ partial:typography/p_small
+                                content="Your first night is in Biella, a pleasant town north of Turin with a rail link. Located where the Po River plain meets the foothills of the Alps, Biella has long been a trade and commercial centre. The Oropa Valley has connected Italy to Switzerland and France since Roman times. We'll have dinner at an innovative local restaurant."
+                                color="text-text"
+                                class="line-clamp-5 !mb-0"
+                            }}
+                            <div class="mt-auto pt-3 inline-flex items-center gap-2 text-sm text-text">
+                                <x-lucide-utensils-crossed class="size-4 text-accent-2 shrink-0" stroke-width="1.75" aria-hidden="true" />
+                                <span>Breakfast<span class="text-muted"> / </span>Dinner</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            {{# ====================================================
+                ARTICLE CARD — fresh design, no backing collection
+                ==================================================== #}}
+            <section class="stack-6">
+                <header class="stack-1">
+                    {{ partial:typography/h2 content="Article" }}
+                    {{ partial:typography/p_small content="Proposed design for travel-tip and editorial entries. No collection exists yet &mdash; sample data inline. Surface treatment matches the day &amp; tour cards (parchment card, soft shadow, inset image)." color="text-muted" class="!mb-0" }}
+                </header>
+                <div class="max-w-[400px]">
+                    {{ get_content from="7d2a4c91-3e85-4f17-91b3-8c1e0f5a7d62" }}
+                        {{ partial:components/article-card }}
+                    {{ /get_content }}
+                </div>
+            </section>
+
+            {{# ====================================================
+                TESTIMONIAL CARD — new design, lead + body
+                ==================================================== #}}
+            <section class="stack-6">
+                <header class="stack-1">
+                    {{ partial:typography/h2 content="Testimonial" }}
+                    {{ partial:typography/p_small content="Proposed redesign: 5-star row, large lead sentence, smaller body, name + country. The current production block (`page_builder/_testimonials`) still uses the older title/quote pairing &mdash; this is the target." color="text-muted" class="!mb-0" }}
+                </header>
+                <div class="max-w-[400px]">
+                    {{ get_content from="c4dad366-cfdd-443a-8db6-c29df33df79a" }}
+                        {{ partial:components/testimonial-card }}
+                    {{ /get_content }}
+                </div>
+            </section>
+
+            {{# ====================================================
+                PROFILE CARD — fresh design, real People entry.
+                Sized for 4-column grids — narrower than the other
+                cards. Don't render in 2 or 3-up layouts.
+                ==================================================== #}}
+            <section class="stack-6">
+                <header class="stack-1">
+                    {{ partial:typography/h2 content="Profile" }}
+                    {{ partial:typography/p_small content="For tour leaders and team members from the People collection. Image / name / role / read-bio link. Sized for 4-column layouts &mdash; do not render in wider grids." color="text-muted" class="!mb-0" }}
+                </header>
+                <div class="max-w-[290px]">
+                    {{ get_content from="8e21b5fb-a972-4a2e-a81c-2e6f8425841f" }}
+                        <article class="group relative isolate h-full flex flex-col bg-card border border-parchment-200 rounded-xl shadow-sm overflow-hidden">
+                            <a href="{{ url }}" class="absolute inset-0 z-10 rounded-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold">
+                                <span class="sr-only">Read {{ title }}'s bio</span>
+                            </a>
+                            {{ if image }}
+                                <div class="relative p-1">
+                                    <div class="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-parchment-200">
+                                        {{ picture
+                                            :image="image"
+                                            class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                                            cover="true"
+                                            sizes="(min-width: 768px) 400px, 100vw"
+                                            loading="lazy"
+                                        }}
+                                    </div>
+                                </div>
+                            {{ /if }}
+                            <div class="flex-1 flex flex-col px-5 py-6">
+                                {{ partial:typography/h6 small="true" :content="title" color="text-foreground" }}
+                                {{ if subtitle }}
+                                    {{ partial:typography/p_small :content="subtitle" color="text-muted" class="!mb-0" }}
+                                {{ /if }}
+                                <span class="relative z-20 mt-3 inline-flex items-center gap-1.5 font-display font-semibold text-base text-foreground underline underline-offset-4 decoration-gold group-hover:decoration-foreground">
+                                    Read bio
+                                    <x-lucide-arrow-right class="size-4 text-accent-2" stroke-width="2" aria-hidden="true" />
+                                </span>
+                            </div>
+                        </article>
+                    {{ /get_content }}
+                </div>
+            </section>
+
+            {{# ====================================================
+                PRODUCT CARD — fresh design, real Product entry
+                ==================================================== #}}
+            <section class="stack-6">
+                <header class="stack-1">
+                    {{ partial:typography/h2 content="Product" }}
+                    {{ partial:typography/p_small content="For books, gift cards, and other shop items from the Products collection. Type chip, title, and price &mdash; with an optional &lsquo;From&rsquo; prefix for items with starting prices. Whole card is a stretched link to the external buy URL." color="text-muted" class="!mb-0" }}
+                </header>
+                <div class="max-w-[400px]">
+                    {{ get_content from="c7f4e2a1-8b3d-4e9f-9a52-1f0d6e3b8c45" }}
+                        {{ partial:components/product-card }}
+                    {{ /get_content }}
+                </div>
+            </section>
+
+        </div>
+    </section>
+</main>
+<!-- End: /cards.antlers.html -->

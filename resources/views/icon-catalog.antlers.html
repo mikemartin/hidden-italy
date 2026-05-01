@@ -9,7 +9,7 @@
         <div class="span-content stack-16">
 
             {{# Page header #}}
-            <div class="bg-neutral-50 p-8 md:p-12 rounded-lg">
+            <div class="bg-parchment-200 p-8 md:p-12 rounded-lg">
                 {{ partial:typography/h1
                     content="Icons"
                     class="mb-4 md:text-7xl tracking-[-0.03em]"
@@ -37,7 +37,7 @@
                             <a
                                 href="/icons/{{ basename }}"
                                 download="{{ basename }}"
-                                class="relative flex flex-col items-center gap-3 p-6 rounded-lg border transition-colors {{ if in_use }}border-primary bg-primary/5 hover:bg-primary/10{{ else }}border-neutral/10 hover:border-primary hover:bg-neutral-50{{ /if }}"
+                                class="relative flex flex-col items-center gap-3 p-6 rounded-lg border transition-colors {{ if in_use }}border-primary bg-primary/5 hover:bg-primary/10{{ else }}border-neutral/10 hover:border-primary hover:bg-parchment-200{{ /if }}"
                                 aria-label="Download {{ basename }}{{ if in_use }} (in use){{ /if }}"
                             >
                                 {{ if in_use }}

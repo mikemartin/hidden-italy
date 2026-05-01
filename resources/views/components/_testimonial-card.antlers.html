@@ -1,0 +1,48 @@
+{{#
+    @name Testimonial card
+    @desc Reusable testimonial card. Renders inside any context that exposes
+          testimonial-entry fields directly. Five-star row, the entry's
+          `title` as the lead excerpt, the longer `quote` as the body, and
+          the traveller's `name` plus the linked `tour` (used as the
+          country/source line until a dedicated `country` field is added).
+#}}
+
+<!-- /components/_testimonial-card.antlers.html -->
+<figure class="h-full flex flex-col gap-5 p-6 md:p-7 bg-card border border-parchment-200 rounded-xl shadow-sm">
+    <div class="flex items-center gap-1 text-gold" aria-label="5 out of 5 stars">
+        <x-lucide-star class="size-5 fill-current" aria-hidden="true" />
+        <x-lucide-star class="size-5 fill-current" aria-hidden="true" />
+        <x-lucide-star class="size-5 fill-current" aria-hidden="true" />
+        <x-lucide-star class="size-5 fill-current" aria-hidden="true" />
+        <x-lucide-star class="size-5 fill-current" aria-hidden="true" />
+    </div>
+
+    <blockquote class="flex flex-col gap-4">
+        {{ if title }}
+            {{ partial:typography/h4
+                small="true"
+                :content="title"
+                as="p"
+                color="text-foreground"
+            }}
+        {{ /if }}
+
+        {{ if quote }}
+            {{ partial:typography/p_small
+                :content="quote"
+                color="text-text"
+                class="!mb-0"
+            }}
+        {{ /if }}
+    </blockquote>
+
+    <figcaption class="mt-auto flex flex-col">
+        {{ if name }}
+            {{ partial:typography/h6 small="true" :content="name" as="span" color="text-foreground" }}
+        {{ /if }}
+        {{ tour | first }}
+            {{ partial:typography/p_small :content="title" as="span" color="text-muted" class="!mb-0" }}
+        {{ /tour }}
+    </figcaption>
+</figure>
+<!-- End: /components/_testimonial-card.antlers.html -->

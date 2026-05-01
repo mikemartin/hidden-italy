@@ -9,6 +9,8 @@ tabs:
             handle: title
             field:
               type: text
+              display: Title
+              instructions: 'A short excerpt or the first line of the testimonial. Used as the headline above the quote on testimonial cards.'
               required: true
               validate:
                 - required

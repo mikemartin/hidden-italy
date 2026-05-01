@@ -40,6 +40,14 @@
         {{ /if }}
 
         {{ template_content }}
+
+        {{# Universal CTA banner — pulled from the `cta_banner` global.
+            Skipped on tour listing templates (`tours/index`) since those
+            pages have their own CTAs and don't need a duplicate. #}}
+        {{ unless template == 'tours/index' }}
+            {{ partial:layout/cta_banner }}
+        {{ /unless }}
+
         {{ partial:layout/footer }}
     </body>
 </html>

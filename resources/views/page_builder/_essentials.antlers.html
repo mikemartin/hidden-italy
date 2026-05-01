@@ -1,15 +1,56 @@
 {{#
-    @name Essentials (stub)
-    @desc Placeholder partial for the tour `essentials` block. Replace with a
-          real implementation. Exists so missing-partial errors don't surface
-          while the design is still in flight.
+    @name Essentials
+    @desc Practical info section. Eyebrow + headline followed by labelled
+          rows — a left-side heading plus right-side body and optional link.
+          Each row is divided by a horizontal rule. Sections come from a
+          replicator with named sets (equipment, travel_insurance,
+          booking_cancellation) plus a free-form `general` set.
     @set page.page_builder.essentials
 #}}
 
 <!-- /page_builder/_essentials.antlers.html -->
-{{ partial:page_builder/block }}
-    <div class="span-content py-12 text-center text-sm text-neutral-400">
-        <p class="font-mono">[essentials{{ if block:title }} — {{ block:title }}{{ /if }}] stub</p>
-    </div>
-{{ /partial:page_builder/block }}
+{{ if block:sections }}
+    {{ partial:page_builder/block class="gap-y-10 md:gap-y-14" }}
+        <header class="span-content flex flex-col gap-3">
+            {{ partial:typography/label :content="trans:strings.essentials ?? 'Essentials'" small="true" class="!text-accent-2 uppercase tracking-[0.12em] font-semibold" }}
+            {{ partial:typography/h2 :content="block:title ?? 'What you should know'" color="text-foreground" }}
+        </header>
+
+        <div class="span-content flex flex-col">
+            {{ block:sections }}
+                {{# Resolve the row label from the set type — `general` uses its own heading field. #}}
+                {{ if type == 'equipment' }}{{ row_heading = trans:strings.equipment_needed ?? 'Equipment needed' }}{{ /if }}
+                {{ if type == 'travel_insurance' }}{{ row_heading = trans:strings.travel_insurance ?? 'Travel insurance conditions' }}{{ /if }}
+                {{ if type == 'booking_cancellation' }}{{ row_heading = trans:strings.booking_cancellation ?? 'Booking and cancellation conditions' }}{{ /if }}
+                {{ if type == 'general' }}{{ row_heading = heading }}{{ /if }}
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-12 py-8 md:py-10 first:pt-0 last:pb-0 border-t border-parchment-200 first:border-t-0">
+                    {{ if row_heading }}
+                        <h3 class="lg:col-span-4 font-display font-semibold text-lg md:text-xl text-foreground">
+                            {{ row_heading }}
+                        </h3>
+                    {{ /if }}
+
+                    <div class="lg:col-span-8 flex flex-col gap-4">
+                        {{ if body }}
+                            <div class="font-sans text-base md:text-lg leading-[1.6] text-text [&_p]:mb-4 [&_p:last-child]:mb-0 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-4 [&_ol]:list-decimal [&_ol]:ml-5 [&_ol]:mb-4">
+                                {{ body }}
+                            </div>
+                        {{ /if }}
+
+                        {{ if link_text }}
+                            <a
+                                href="{{ link_url ?? '#' }}"
+                                class="self-start inline-flex items-center gap-1.5 font-display font-medium text-base md:text-lg text-foreground underline underline-offset-4 decoration-gold hover:decoration-foreground"
+                            >
+                                <span>{{ link_text }}</span>
+                                <x-lucide-arrow-up-right class="size-4" stroke-width="1.75" aria-hidden="true" />
+                            </a>
+                        {{ /if }}
+                    </div>
+                </div>
+            {{ /block:sections }}
+        </div>
+    {{ /partial:page_builder/block }}
+{{ /if }}
 <!-- End: /page_builder/_essentials.antlers.html -->
