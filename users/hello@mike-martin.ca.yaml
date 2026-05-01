@@ -23,8 +23,15 @@ preferences:
       view: list
     self-guided:
       view: list
+    tips:
+      view: list
+    inspiration:
+      view: list
+    links:
+      view: list
   assets:
     icons:
       mode: grid
     assets:
       mode: grid
+    browser_thumbnail_size: 160

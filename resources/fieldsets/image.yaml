@@ -4,6 +4,7 @@ fields:
     handle: image
     field: common.image
     config:
+      container: assets
       width: 50
   -
     handle: size
@@ -13,8 +14,6 @@ fields:
   -
     handle: caption
     field:
-      input_type: text
       type: text
       localizable: true
-      listable: hidden
       display: Caption

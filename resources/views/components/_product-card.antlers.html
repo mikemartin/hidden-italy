@@ -36,13 +36,13 @@
     {{ /if }}
 
     <div class="flex-1 flex flex-col items-start gap-3 p-5 md:p-6">
-        {{ if type }}
-            <span class="bg-parchment-200 px-2 py-0.5 rounded-full text-[13px] text-accent-2 leading-tight">
-                {{ if type == 'gift_card' }}Gift Card{{ else }}Book{{ /if }}
-            </span>
-        {{ /if }}
+        <div class="flex flex-col gap-2">
+            {{ if type }}
+                {{ partial:typography/h5 small="true" :content="type == 'gift_card' ? 'Gift Card' : 'Book'" as="span" color="text-accent-2" }}
+            {{ /if }}
 
-        {{ partial:typography/h4 :content="title" color="text-foreground" }}
+            {{ partial:typography/h4 :content="title" color="text-foreground" }}
+        </div>
 
         {{ if price }}
             {{ if show_from }}

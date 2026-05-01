@@ -4,7 +4,6 @@ fields:
     handle: article
     field:
       buttons:
-        - h1
         - h2
         - h3
         - bold
@@ -82,3 +81,10 @@ fields:
               fields:
                 -
                   import: video
+            books:
+              display: Books
+              icon: book-next-page
+              image: books.png
+              fields:
+                -
+                  import: books

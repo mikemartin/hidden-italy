@@ -71,10 +71,10 @@ fields:
     handle: size
     field:
       options:
-        md: Normal
-        lg: LG
+        md: MD
+        lg: Normal
         xl: XL
       type: button_group
       localizable: true
-      default: md
+      default: lg
       display: Size

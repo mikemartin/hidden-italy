@@ -41,11 +41,11 @@
     {{# Content — eyebrow chip + headline + lead, items-start so the chip
         stays content-width. #}}
     <div class="flex-1 flex flex-col items-start gap-3 px-5 py-6">
-        <span class="bg-parchment-200 px-2 py-0.5 rounded-full text-[13px] text-accent-2 leading-tight">
-            {{ collection:title }}
-        </span>
+        <div class="flex flex-col gap-2">
+            {{ partial:typography/h5 small="true" content="{collection:title}" as="span" color="text-accent-2" }}
 
-        {{ partial:typography/h4 :content="title" color="text-foreground" }}
+            {{ partial:typography/h4 :content="title" color="text-foreground" }}
+        </div>
 
         {{ if lead }}
             {{ partial:typography/p_small :content="lead" color="text-muted" class="!mb-0" }}

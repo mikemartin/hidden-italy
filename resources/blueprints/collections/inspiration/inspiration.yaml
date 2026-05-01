@@ -9,8 +9,8 @@ tabs:
             handle: title
             field:
               type: text
-              display: Title
               required: true
+              display: Title
               validate:
                 - required
           -
@@ -18,7 +18,6 @@ tabs:
             field:
               container: assets
               folder: tips
-              restrict: true
               mode: grid
               max_files: 1
               type: assets
@@ -30,5 +29,15 @@ tabs:
               display: Lead
               instructions: 'A 1&ndash;2 sentence dek shown under the headline on article cards and on the article page itself.'
           -
-            handle: article
             import: article
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'

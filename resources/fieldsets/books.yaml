@@ -1,0 +1,9 @@
+title: Books
+fields:
+  -
+    handle: book_links
+    field:
+      collections:
+        - links
+      type: entries
+      display: 'Book Links'

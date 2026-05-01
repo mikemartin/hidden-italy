@@ -1,6 +1,271 @@
 ---
 id: 7d2a4c91-3e85-4f17-91b3-8c1e0f5a7d62
 blueprint: tip
-title: 'Read before you go'
-lead: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat, ipsum ac auctor ornare, nunc ligula scelerisque eros.'
+title: 'Reading suggestions before you go'
+lead: 'Having some background knowledge about Italy and its heritage before you arrive will enhance your enjoyment of the visit. Below are some books that would be a useful start.'
+image: tips/pexels-imagenesclau-36842551.jpg
+article:
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: History
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'For general reading on Italy you might like to try the following.  The standard history of modern Italy is written by Paul Ginsborg, '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'A History of Contemporary Italy, 1943 – 1988'
+      -
+        type: text
+        text: ' and '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Italy and Its Discontents, 1980 - 2000'
+      -
+        type: text
+        text: ', while '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Italy: A Short History'
+      -
+        type: text
+        text: ' by Harry Hearder is probably the best single volume survey of Italian history.  David Gilmour’s recent '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'In Pursuit of Italy'
+      -
+        type: text
+        text: ' is a very readable personal interpretation of Italian history.'
+  -
+    type: set
+    attrs:
+      id: rl7cb6dP3SkPD8mguvQsW
+      values:
+        type: books
+        book_links:
+          - 587c1596-6d47-421b-aeb9-b48b61af182c
+          - 49f69ab6-ab4d-4feb-8eaa-62d961c1f6f3
+          - 803f9387-4704-4bfd-89ff-c91055573b80
+          - 12d073e5-42f7-404d-a03d-2715211f176c
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: Culture
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Luigi Barzini’s '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'The Italians'
+      -
+        type: text
+        text: ' is the best-known portrait of the Italian people although the recently published '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Bella Figura, a field guide to the Italian mind'
+      -
+        type: text
+        text: ', a very amusing ironic look at contemporary Italy written by a Milanese journalist Beppe Severgnini, has also had great success.'
+  -
+    type: set
+    attrs:
+      id: RwTqYM4DqJMC8l44GfU03
+      values:
+        type: books
+        book_links:
+          - ca28bb34-de6e-46bd-a02c-265334bec832
+          - ad416ccc-bcb8-4057-aadf-0ac3a73894e5
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: 'Food and Wine'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The classic book on Italian cooking is Elizabeth David’s '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Italian Food'
+      -
+        type: text
+        text: ', first published in 1954 but there have been many more since then, including several by Marcella Hazan, which tend to have a northern Italian emphasis.  For wine, Hugh Johnson’s '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Wine Companion'
+      -
+        type: text
+        text: ' and Burton Anderson’s '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Wine Atlas of Italy'
+      -
+        type: text
+        text: ' are the two standards.  Anderson also produced a very good small guide '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'The Mitchell Beazley Pocket Guide to Italian Wines'
+      -
+        type: text
+        text: .
+  -
+    type: set
+    attrs:
+      id: EGDc_6JiPWYKc9Btfoqjr
+      values:
+        type: books
+        book_links:
+          - da89e01c-2db4-4050-b4f2-f66b60b99a9d
+          - f2d544da-fad2-4bce-b8a1-eafbb39800b8
+          - aeadce34-501f-496d-9a49-8faae8dad562
+          - 2e9b94bc-c5bb-47a8-aa22-8b99ba488560
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: "Courmayeur and the Valle d'Aosta"
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'For something more general on the region of Val d’Aosta try:  '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Rough Guide to Piemonte and the Valle d’Aosta'
+      -
+        type: text
+        text: ' (I find the Rough Guide series a good combination of practical advice and cultura/historical background) or National Geographic '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Piedmont and North-west Italy'
+      -
+        type: text
+        text: '; Tim Jepson.  '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Blue Guide, Northern Italy: From the Alps'
+      -
+        type: text
+        text: ' to the Adriatic by Paul Blanchard is an excellent guide that gives a thorough overview of the art, architecture and history of northern Italy.'
+  -
+    type: set
+    attrs:
+      id: 7anFQqyGhuSYO4q87DTTy
+      values:
+        type: books
+        book_links:
+          - 6720f352-71a5-4610-a770-39937c3c6019
+          - e2a51641-7884-4121-9a74-2eef45091b1e
+          - d3c00ce4-129f-4c9e-bf4c-185c46fdc06d
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'For something more lighthearted, Antonio Manzini’s character Rocco Schiavone is a widowed police chief deputy who has recently been transferred from Rome to his hometown in Aosta for disciplinary reasons. While he hates his new reality, Schiavone continues his work investigating crimes that disrupt the peaceful Aosta Valley, though often resorting to methods bordering on legality.  There are five books in the series.'
+  -
+    type: set
+    attrs:
+      id: Aj4ZDxm-R-SkCprN-uV2X
+      values:
+        type: books
+        book_links:
+          - 311c20c3-7aca-4c9f-aa36-1739b7b11640
+          - 01591a51-a2a4-4f49-9ebb-cd84b5acd145
+          - 32349403-b545-4f9c-8bb0-da6e267bbb99
+          - b8f7eec4-3091-49ed-9352-809c87b8e51c
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Killing of Dragons'
+      -
+        type: text
+        text: ' by Fergus Fleming is a history of the exploration of the Alps, while '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: Scrambles
+      -
+        type: text
+        text: ' among the Alps (1860 to 1889) by Edward Whymper and '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Untrodden Peaks and Unfrequented Valleys'
+      -
+        type: text
+        text: ' by Amelia Edwards (first published in 1873) are charming and engaging recollections by two pioneer explorers of the region.'
+updated_by: 6e2cc1d1-1470-4391-963d-37aed038e27a
+updated_at: 1777636629
 ---

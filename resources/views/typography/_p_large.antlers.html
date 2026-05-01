@@ -1,0 +1,14 @@
+{{#
+    @name Paragraph Large
+    @desc The typography large paragraph partial — used for article body
+          copy and stub-page leads. Renders 18px / 21px Mona Sans at
+          150% / 160% line height.
+    @param* content The p content.
+    @param as The wrapping element. Defaults to `p`.
+    @param color Set a custom text color utility. Falls back to `text-neutral`.
+    @param class Add custom CSS classes.
+#}}
+
+<!-- /typography/_p_large.antlers.html -->
+<{{ as or 'p' }} class="text-lg md:text-[21px] font-normal leading-[1.5] md:leading-[1.6] mt-0 mb-8 last:mb-0 {{ color or 'text-neutral' }} {{ class }}">{{ content | nl2br }}</{{ as or 'p' }}>
+<!-- End: /typography/_p_large.antlers.html -->

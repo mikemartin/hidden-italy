@@ -1,10 +1,8 @@
-title: Tips
+title: Links
 icon: collections
-template: articles/show
+template: default
 layout: layout
-mount: c81f1652-4d1d-49fb-bd9b-cad19ed89159
 revisions: false
-route: '/tips/{slug}'
 date: true
 sort_dir: desc
 preview_targets:

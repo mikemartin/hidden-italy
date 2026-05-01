@@ -1,9 +1,12 @@
-title: 'Inspiration'
-template: blog/show
+title: Inspiration
+icon: collections
+template: articles/show
 layout: layout
 mount: 6522c57c-2a9d-4ec7-a8eb-26035629e36a
 revisions: false
 route: '/inspiration/{slug}'
+date: true
+sort_dir: desc
 preview_targets:
   -
     label: Entry

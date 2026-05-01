@@ -126,6 +126,50 @@
         --color-card:           var(--color-blue-d-200);
     }
 }
+
+/* Map Tailwind Typography's prose color tokens onto our semantic palette
+   so headings pick up `--color-foreground`, body copy picks up
+   `--color-text`, and quote rules use the brand accent. */
+.prose {
+    --tw-prose-headings:      var(--color-foreground);
+    --tw-prose-body:          var(--color-text);
+    --tw-prose-lead:          var(--color-text);
+    --tw-prose-bold:          var(--color-foreground);
+    --tw-prose-counters:      var(--color-text);
+    --tw-prose-bullets:       var(--color-text);
+    --tw-prose-hr:            var(--color-text);
+    --tw-prose-quotes:        var(--color-foreground);
+    --tw-prose-quote-borders: var(--color-primary);
+    --tw-prose-captions:      var(--color-muted);
+    --tw-prose-th-borders:    var(--color-text);
+    --tw-prose-td-borders:    var(--color-text);
+}
+
+/* Lock h2 / h3 / p / li inside `.prose` to the project type scale (matches
+   `typography/_h2`, `_h3`, and `_p_large`). Lives in `@layer utilities`
+   — the same layer as Tailwind Typography's defaults — so the higher
+   specificity of `.prose h2` (0,1,1) wins over the plugin's
+   `.prose :where(h2)` (0,1,0). Putting these in an earlier layer would
+   lose regardless of specificity. The `:not(:where([class~=not-prose]…))`
+   guard mirrors the Tailwind Typography plugin so opting out via
+   `not-prose` (book grid, related-articles grid, etc.) escapes these
+   rules too. Color is left to the prose tokens above; we only set
+   typography here. */
+@layer utilities {
+    .prose h2:not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+        @apply font-display font-bold text-2xl md:text-4xl leading-[1.25] tracking-[0.01em] md:tracking-[-0.01em];
+    }
+
+    .prose h3:not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+        @apply font-display font-bold text-xl md:text-2xl leading-[1.25] md:leading-[1.5];
+    }
+
+    .prose p:not(:where([class~="not-prose"], [class~="not-prose"] *)),
+    .prose li:not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+        @apply text-lg md:text-[21px] font-normal leading-[1.5] md:leading-[1.6];
+    }
+}
+
 @import "./livewire-filters-theme.css";
 
 /* Hide scrollbar on horizontal scroll-snap tracks (hero & tours carousels). */

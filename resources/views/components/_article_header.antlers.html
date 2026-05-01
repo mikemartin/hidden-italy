@@ -1,0 +1,75 @@
+{{#
+    @name Article header
+    @desc Header for article entries (Tips, Inspiration). A row with the
+          collection badge on the left and the publish/last-modified date
+          on the right, then the headline and an optional lead. Width
+          matches the article body (`span-lg`). Background colour and
+          topographic decoration are the wrapping template's responsibility.
+    @param lead       Optional p.large lead below the headline.
+    @param image      Hero image displayed full-bleed (`span-xl`) below the lead.
+#}}
+
+<!-- /components/_article_header.antlers.html -->
+<header class="fluid-grid py-12 md:py-16 gap-y-10 md:gap-y-14">
+    <div class="span-xl flex flex-col items-start gap-6">
+        <div class="flex items-center gap-6">
+            <a
+                href="{{ parent:url }}"
+                class="bg-parchment-200 px-4 py-1.5 rounded-full font-sans font-medium text-sm leading-[1.6] text-terracotta hover:underline"
+            >
+                {{ parent:title }}
+            </a>
+
+            <time
+                class="text-sm md:text-base font-normal leading-[1.5] text-muted"
+                datetime="{{ date format='Y-m-d' }}"
+            >{{ date format='F j, Y' }}</time>
+        </div>
+
+        {{ partial:typography/h1 :content="title" color="text-foreground" }}
+
+        {{ if lead }}
+            {{ partial:typography/p_large :content="lead" color="text-text" class="!mb-0" }}
+        {{ /if }}
+
+        <button
+            type="button"
+            data-share-text="{{ lead }}"
+            x-data="{
+                async share() {
+                    const data = {
+                        title: document.title,
+                        text: $el.dataset.shareText,
+                        url: window.location.href,
+                    };
+                    if (navigator.share) {
+                        try { await navigator.share(data); } catch (_) {}
+                    } else if (navigator.clipboard) {
+                        await navigator.clipboard.writeText(data.url);
+                    }
+                },
+            }"
+            @click="share()"
+            class="inline-flex items-center gap-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+        >
+            <x-lucide-share class="size-5 text-text" stroke-width="1.5" aria-hidden="true" />
+            <span class="font-sans font-semibold text-[15px] tracking-[0.02em] uppercase underline text-foreground leading-none">
+                {{ trans:strings.share ?? 'Share' }}
+            </span>
+        </button>
+    </div>
+
+    {{ if image }}
+        <figure class="span-xl m-0">
+            {{
+                picture
+                :image="image"
+                class="w-full h-auto rounded-2xl"
+                cover="false"
+                sizes="(min-width: 1280px) 1150px, 90vw"
+                loading="eager"
+            }}
+        </figure>
+    {{ /if }}
+</header>
+<!-- End: /components/_article_header.antlers.html -->
