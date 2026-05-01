@@ -15,10 +15,10 @@
         "@alpinejs/morph": "^3.15.11",
         "@alpinejs/persist": "^3.15.11",
         "@popperjs/core": "^2.11.8",
-        "@splidejs/splide": "^4.1.4",
         "@statamic/cms": "file:./vendor/statamic/cms/resources/dist-package",
         "alpinejs": "^3.15.11",
         "laravel-precognition-alpine": "^2.0.0",
+        "swiper": "^12.1.4",
         "tippy.js": "^6.3.7"
     },
     "devDependencies": {

@@ -1,10 +1,10 @@
 {{#
     @name Testimonials
     @desc Three testimonial entries shown as a side-by-side grid on desktop
-          and a Splide-powered swipeable carousel below `md`. Each card shows a
+          and a Swiper-powered swipeable carousel below `md`. Each card shows a
           5-star row, the quote, and the traveller's name + linked tour.
-          Splide is destroyed at `md` and up so the original 3-col grid layout
-          renders without JS.
+          Swiper is destroyed at `md` and up so the original 3-col grid layout
+          renders without JS (the `swiper-wrapper` becomes a grid via Tailwind).
     @set page.page_builder.testimonials
 #}}
 
@@ -13,26 +13,39 @@
     <section
         class="fluid-grid gap-y-10"
         x-data="{
-            splide: null,
+            swiper: null,
+            mq: null,
             init() {
-                this.splide = new Splide(this.$refs.splide, {
-                    perPage: 1,
-                    gap: '1.5rem',
-                    pagination: true,
-                    arrows: false,
-                    autoplay: true,
-                    interval: 5000,
-                    speed: 600,
-                    pauseOnHover: true,
-                    pauseOnFocus: true,
-                    mediaQuery: 'min',
-                    breakpoints: {
-                        768: { destroy: true },
-                    },
-                });
-                this.splide.mount();
+                this.mq = window.matchMedia('(max-width: 767.98px)');
+                this.sync = () => {
+                    if (this.mq.matches && !this.swiper) {
+                        this.swiper = new window.Swiper(this.$refs.swiper, {
+                            modules: [window.SwiperModules.Autoplay, window.SwiperModules.Pagination],
+                            slidesPerView: 1,
+                            spaceBetween: 24,
+                            speed: 600,
+                            loop: true,
+                            autoplay: { delay: 5000, disableOnInteraction: false, pauseOnMouseEnter: true },
+                            pagination: {
+                                el: this.$refs.pagination,
+                                clickable: true,
+                                bulletClass: 'testimonials-dot',
+                                bulletActiveClass: 'testimonials-dot-active',
+                                renderBullet: (i, className) => `<button type='button' class='${className} relative size-2 rounded-full bg-black/20 transition-[width,background-color] duration-150 hover:bg-black/35 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold' aria-label='Go to slide ${i + 1}'><span class='testimonials-dot__fill absolute inset-y-0 left-0 w-2 rounded-full bg-gold'></span></button>`,
+                            },
+                        });
+                    } else if (!this.mq.matches && this.swiper) {
+                        this.swiper.destroy(true, true);
+                        this.swiper = null;
+                    }
+                };
+                this.sync();
+                this.mq.addEventListener('change', this.sync);
             },
-            destroy() { this.splide?.destroy() },
+            destroy() {
+                this.mq?.removeEventListener('change', this.sync);
+                this.swiper?.destroy(true, true);
+            },
         }"
     >
         {{ if block:heading }}
@@ -41,13 +54,13 @@
             </header>
         {{ /if }}
 
-        <div x-ref="splide" class="span-content splide testimonials-splide">
-            <div class="splide__track">
-                {{# `md:grid` overrides Splide's `.splide__list { display: flex }`
-                    once Splide is destroyed at `md`, restoring the 3-col grid. #}}
-                <ul class="splide__list md:grid md:grid-cols-3 md:gap-fluid-grid-gap">
+        <div class="span-content">
+            <div x-ref="swiper" class="swiper py-2">
+                {{# `md:grid` overrides Swiper's `.swiper-wrapper { display: flex }`
+                    once Swiper is destroyed at `md`, restoring the 3-col grid. #}}
+                <div class="swiper-wrapper md:!grid md:!grid-cols-3 md:gap-fluid-grid-gap md:!transform-none">
                     {{ block:testimonials }}
-                        <li class="splide__slide">
+                        <div class="swiper-slide !h-auto">
                             <figure class="h-full flex flex-col gap-4 p-6 bg-white rounded-lg shadow-sm">
                                 <div class="flex items-center gap-0.5 text-primary" aria-label="5 out of 5 stars">
                                     <x-lucide-star class="w-4 h-4 fill-current" aria-hidden="true" />
@@ -78,10 +91,18 @@
                                     {{ /tour }}
                                 </figcaption>
                             </figure>
-                        </li>
+                        </div>
                     {{ /block:testimonials }}
-                </ul>
+                </div>
             </div>
+
+            {{# Mobile-only pagination dots — Swiper writes its bullets into this
+                container. Hidden on desktop where Swiper is destroyed. #}}
+            <div
+                x-ref="pagination"
+                class="mt-6 flex justify-center gap-2 md:hidden"
+                aria-hidden="true"
+            ></div>
         </div>
     </section>
 {{ /if }}

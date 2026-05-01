@@ -1,9 +1,15 @@
-import Splide from '@splidejs/splide';
+import Swiper from 'swiper';
+import { Autoplay, EffectFade, FreeMode, Mousewheel, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
 import tippy from 'tippy.js';
 import 'tippy.js/dist/tippy.css';
 import simpleLikes from './components/simple-likes.js';
 
-window.Splide = Splide;
+window.Swiper = Swiper;
+window.SwiperModules = { Autoplay, EffectFade, FreeMode, Mousewheel, Pagination };
 window.simpleLikes = simpleLikes;
 
 document.addEventListener('alpine:init', () => {

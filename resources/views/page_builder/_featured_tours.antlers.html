@@ -1,9 +1,11 @@
 {{#
     @name Featured tours
-    @desc Splide-powered carousel of tour cards. Mobile shows one card at a
+    @desc Swiper-powered carousel of tour cards. Mobile shows one card at a
           time; desktop shows three. Custom prev/next buttons live in the
           header (replacing the old "View all" link) and a thin progress
-          bar below the track tracks position through the set.
+          bar below the track tracks position through the set. Free-mode
+          sticky drag plus horizontal mousewheel let users glide the row
+          with trackpad / shift-scroll.
           Each card has a parchment surface, inset 16:9 image with a warm wash,
           location + tour-type chip header, summary, and an amber info row.
           Whole card is clickable via a stretched link; the favourite heart
@@ -19,32 +21,33 @@
             progress: 0,
             atStart: true,
             atEnd: false,
-            splide: null,
+            swiper: null,
             init() {
-                this.splide = new Splide(this.$refs.splide, {
-                    perPage: 3,
-                    perMove: 1,
-                    gap: '2.25rem',
-                    pagination: false,
-                    arrows: false,
-                    drag: 'free',
-                    snap: true,
+                this.swiper = new window.Swiper(this.$refs.swiper, {
+                    modules: [window.SwiperModules.FreeMode, window.SwiperModules.Mousewheel],
+                    slidesPerView: 1,
+                    slidesPerGroup: 1,
+                    spaceBetween: 24,
+                    freeMode: { enabled: true, sticky: true, momentumBounce: false },
+                    mousewheel: { forceToAxis: true, releaseOnEdges: true, thresholdDelta: 6 },
                     breakpoints: {
-                        768: { perPage: 1, gap: '1.5rem' },
+                        768: { slidesPerView: 3, spaceBetween: 36 },
                     },
                 });
-                this.splide.on('mounted move scrolled', () => {
-                    const controller = this.splide.Components.Controller;
-                    const end = controller.getEnd() + 1;
-                    this.progress = Math.min((this.splide.index + 1) / end, 1) * 100;
-                    this.atStart = controller.getPrev() === -1;
-                    this.atEnd = controller.getNext() === -1;
-                });
-                this.splide.mount();
+                const update = (s) => {
+                    const perView = Math.floor(s.params.slidesPerView) || 1;
+                    const pages = Math.max(s.slides.length - perView + 1, 1);
+                    this.progress = Math.min(((s.activeIndex + 1) / pages) * 100, 100);
+                    this.atStart = s.isBeginning;
+                    this.atEnd = s.isEnd;
+                };
+                this.swiper.on('slideChange', update);
+                this.swiper.on('breakpoint', update);
+                update(this.swiper);
             },
-            next() { this.splide?.go('+') },
-            prev() { this.splide?.go('-') },
-            destroy() { this.splide?.destroy() },
+            next() { this.swiper?.slideNext() },
+            prev() { this.swiper?.slidePrev() },
+            destroy() { this.swiper?.destroy(true, true) },
         }"
     >
         <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
@@ -76,15 +79,15 @@
         </header>
 
         <div class="span-content relative">
-            <section x-ref="splide" class="splide tours-splide" aria-label="Featured tours">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        {{ block:tours }}
-                            <li class="splide__slide">
-                                {{ partial:components/tour-card }}
-                            </li>
-                        {{ /block:tours }}
-                    </ul>
+            {{# `py-3` gives the track vertical breathing room so tour-card
+                shadows aren't clipped by Swiper's `.swiper { overflow: hidden }`. #}}
+            <section x-ref="swiper" class="swiper py-3" aria-label="Featured tours">
+                <div class="swiper-wrapper">
+                    {{ block:tours }}
+                        <div class="swiper-slide !h-auto">
+                            {{ partial:components/tour-card }}
+                        </div>
+                    {{ /block:tours }}
                 </div>
             </section>
 
