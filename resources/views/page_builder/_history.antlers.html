@@ -1,15 +1,50 @@
 {{#
-    @name History (stub)
-    @desc Placeholder partial for the tour `history` block. Replace with a
-          real implementation. Exists so missing-partial errors don't surface
-          while the design is still in flight.
+    @name History
+    @desc Section telling the story behind the tour route. Eyebrow label +
+          headline sit above two columns of bard body copy. Below the text,
+          an optional 3-up photo strip. Sits on a parchment surface so it
+          alternates against the white-background sections that flank it.
     @set page.page_builder.history
 #}}
 
 <!-- /page_builder/_history.antlers.html -->
-{{ partial:page_builder/block }}
-    <div class="span-content py-12 text-center text-sm text-neutral-400">
-        <p class="font-mono">[history{{ if block:title }} — {{ block:title }}{{ /if }}] stub</p>
-    </div>
+{{ partial:page_builder/block class="stack-space-collapse bg-parchment-100 py-12 md:py-16 lg:py-24 gap-y-10 md:gap-y-14" }}
+    {{ if block:title }}
+        <header class="span-content flex flex-col gap-3">
+            {{ partial:typography/label :content="trans:strings.history ?? 'History'" small="true" class="!text-accent-2 uppercase tracking-[0.12em] font-semibold" }}
+            {{ partial:typography/h2 :content="block:title" color="text-foreground" class="max-w-2xl" }}
+        </header>
+    {{ /if }}
+
+    {{ if block:column_left || block:column_right }}
+        <div class="span-content grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
+            {{ if block:column_left }}
+                <div class="font-sans text-base md:text-lg leading-[1.6] text-text [&_p]:mb-4 [&_p:last-child]:mb-0">
+                    {{ block:column_left }}
+                </div>
+            {{ /if }}
+            {{ if block:column_right }}
+                <div class="font-sans text-base md:text-lg leading-[1.6] text-text [&_p]:mb-4 [&_p:last-child]:mb-0">
+                    {{ block:column_right }}
+                </div>
+            {{ /if }}
+        </div>
+    {{ /if }}
+
+    {{ if block:images }}
+        <ul class="span-content grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+            {{ block:images }}
+                <li class="relative aspect-[4/3] rounded-lg overflow-hidden bg-parchment-200">
+                    {{ picture
+                        :image="url"
+                        class="absolute inset-0 w-full h-full object-cover"
+                        cover="true"
+                        sizes="(min-width: 768px) 33vw, 100vw"
+                        loading="lazy"
+                    }}
+                </li>
+            {{ /block:images }}
+        </ul>
+    {{ /if }}
 {{ /partial:page_builder/block }}
 <!-- End: /page_builder/_history.antlers.html -->

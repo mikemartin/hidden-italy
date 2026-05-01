@@ -21,14 +21,14 @@
                     {{ nav:breadcrumbs include_home="false" }}
                         {{ unless first }}
                             <li class="flex items-center" aria-hidden="true">
-                                <x-lucide-chevron-right class="size-[18px] text-amber" stroke-width="1.5" />
+                                <x-lucide-chevron-right class="size-[18px] text-terracotta" stroke-width="1.5" />
                             </li>
                         {{ /unless }}
                         <li>
                             {{ if is_current }}
-                                <span class="font-sans font-medium text-sm leading-[1.6] text-amber" aria-current="page">{{ region }}</span>
+                                <span class="font-sans font-medium text-sm leading-[1.6] text-terracotta" aria-current="page">{{ region }}</span>
                             {{ else }}
-                                <a href="{{ url }}" class="font-sans font-medium text-sm leading-[1.6] text-amber hover:underline">{{ title }}</a>
+                                <a href="{{ url }}" class="font-sans font-medium text-sm leading-[1.6] text-terracotta hover:underline">{{ title }}</a>
                             {{ /if }}
                         </li>
                     {{ /nav:breadcrumbs }}
@@ -39,7 +39,7 @@
             <header class="flex flex-col gap-2">
                 {{ partial:typography/h2 :content="name" }}
                 {{ if date }}
-                    <p class="font-sans text-lg leading-[1.5] md:leading-[1.6] text-neutral-900 md:text-text">
+                    <p class="font-sans text-lg leading-[1.5] md:leading-[1.6] text-foreground md:text-text">
                         {{ trans:strings.next_available ?? 'Next available' }} {{ date | format:'j F Y' }}
                     </p>
                 {{ /if }}
@@ -55,7 +55,7 @@
                             </dt>
                             <dd class="mt-1 flex items-center gap-2">
                                 <x-lucide-clock class="hidden lg:block size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
-                                <span class="font-display font-medium text-lg leading-[1.25] lg:leading-[1.5] text-neutral-900 md:text-foreground">
+                                <span class="font-display font-medium text-lg leading-[1.25] lg:leading-[1.5] text-foreground md:text-foreground">
                                     {{ days }} {{ days == 1 ? 'day' : 'days' }}
                                 </span>
                             </dd>
@@ -77,7 +77,7 @@
                                 {{ else }}
                                     <x-lucide-sun class="hidden lg:block size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
                                 {{ /if }}
-                                <span class="font-display font-medium text-lg leading-[1.25] lg:leading-[1.5] text-neutral-900 md:text-foreground">
+                                <span class="font-display font-medium text-lg leading-[1.25] lg:leading-[1.5] text-foreground md:text-foreground">
                                     {{ seasons:title }}
                                 </span>
                             </dd>
@@ -93,7 +93,7 @@
                             </dt>
                             <dd class="mt-1 flex items-center gap-2">
                                 <x-lucide-users class="hidden lg:block size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
-                                <span class="font-display font-medium text-lg leading-[1.25] lg:leading-[1.5] text-neutral-900 md:text-foreground">
+                                <span class="font-display font-medium text-lg leading-[1.25] lg:leading-[1.5] text-foreground md:text-foreground">
                                     {{ tour_size }} {{ trans:strings.guests ?? 'guests' }}
                                 </span>
                             </dd>
@@ -121,7 +121,7 @@
                                         {{ trans:strings.tour_leader ?? 'Tour Leader' }}
                                     </dt>
                                     <dd class="mt-1 flex items-center gap-2">
-                                        <a href="{{ url }}" class="font-display font-medium text-lg leading-[1.25] lg:leading-[1.5] text-neutral-900 md:text-foreground md:underline hover:underline">
+                                        <a href="{{ url }}" class="font-display font-medium text-lg leading-[1.25] lg:leading-[1.5] text-foreground md:text-foreground md:underline hover:underline">
                                             {{ title }}
                                         </a>
                                         <x-lucide-arrow-up-right class="hidden md:block size-4 text-gold" stroke-width="1.5" aria-hidden="true" />
@@ -196,7 +196,7 @@
                         <ul class="flex flex-col gap-2 py-4">
                             {{ inclusions }}
                                 <li class="flex items-center gap-2.5">
-                                    <x-lucide-check class="size-5 text-accent-light shrink-0" stroke-width="2" aria-hidden="true" />
+                                    <x-lucide-check class="size-5 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
                                     <span class="font-sans text-[15px] md:text-base leading-[1.5] text-foreground">{{ value }}</span>
                                 </li>
                             {{ /inclusions }}

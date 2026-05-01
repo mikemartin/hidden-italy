@@ -1,15 +1,60 @@
 {{#
-    @name Tour leader (stub)
-    @desc Placeholder partial for the tour `leader` block. Replace with a
-          real implementation. Exists so missing-partial errors don't surface
-          while the design is still in flight.
+    @name Tour Leader
+    @desc Introduces the guide leading the tour. A side label on the left
+          (collapses above the card on mobile) and a parchment card on the
+          right with the leader's portrait, name, optional subtitle, and
+          short bio. Person data comes from the linked People collection
+          entry — the block exposes a `person` relation.
     @set page.page_builder.leader
 #}}
 
 <!-- /page_builder/_leader.antlers.html -->
-{{ partial:page_builder/block }}
-    <div class="span-content py-12 text-center text-sm text-neutral-400">
-        <p class="font-mono">[leader{{ if block:title }} — {{ block:title }}{{ /if }}] stub</p>
-    </div>
-{{ /partial:page_builder/block }}
+{{ if block:person }}
+    {{ partial:page_builder/block class="stack-space-collapse bg-parchment-100 py-12 md:py-16 lg:py-24 gap-y-8 md:gap-y-10" }}
+        <div class="span-content grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
+            <header class="lg:col-span-3">
+                {{ partial:typography/h3 :content="block:title ?? 'Tour Leader'" color="text-foreground" }}
+            </header>
+
+            {{ block:person }}
+                <article class="lg:col-span-9 bg-card border border-parchment-200 rounded-xl shadow-sm p-6 md:p-8 flex flex-col sm:flex-row gap-6 md:gap-8">
+                    {{ if image }}
+                        <div class="shrink-0 size-32 sm:size-36 md:size-40 rounded-xl overflow-hidden bg-parchment-200">
+                            {{ picture
+                                :image="image"
+                                class="w-full h-full object-cover"
+                                cover="true"
+                                sizes="160px"
+                                loading="lazy"
+                            }}
+                        </div>
+                    {{ /if }}
+
+                    <div class="flex-1 flex flex-col gap-3">
+                        <div class="flex flex-col gap-1">
+                            {{ partial:typography/h4 :content="title" color="text-foreground" }}
+                            {{ if subtitle }}
+                                <p class="font-sans text-sm md:text-base text-accent-2 font-medium">{{ subtitle }}</p>
+                            {{ /if }}
+                        </div>
+
+                        {{ if short_bio }}
+                            <p class="font-sans text-base md:text-[17px] leading-[1.6] text-text">
+                                {{ short_bio }}
+                            </p>
+                        {{ /if }}
+
+                        <a
+                            href="{{ url }}"
+                            class="inline-flex items-center gap-1.5 mt-2 font-display font-medium text-base text-foreground underline underline-offset-4 decoration-gold hover:decoration-foreground"
+                        >
+                            <span>{{ trans:strings.read_full_bio ?? "Read full bio" }}</span>
+                            <x-lucide-arrow-up-right class="size-4" stroke-width="1.75" aria-hidden="true" />
+                        </a>
+                    </div>
+                </article>
+            {{ /block:person }}
+        </div>
+    {{ /partial:page_builder/block }}
+{{ /if }}
 <!-- End: /page_builder/_leader.antlers.html -->

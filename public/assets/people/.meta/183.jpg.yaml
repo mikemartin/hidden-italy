@@ -1,7 +1,8 @@
-data: {  }
-size: 506328
-last_modified: 1774842309
-width: 3000
+data:
+  focus: 66-35-1.2
+size: 601277
+last_modified: 1777609071
+width: 2000
 height: 2000
 mime_type: image/jpeg
 duration: null

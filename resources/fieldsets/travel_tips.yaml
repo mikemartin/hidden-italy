@@ -33,8 +33,9 @@ fields:
       localizable: true
       display: Articles
       collections:
-        - pages
+        - tips
+        - inspiration
       max_items: 6
-      instructions: "Pick articles for the grid. Three is the intended count. Update the allowed collections once a dedicated blog collection exists."
+      instructions: 'Pick articles for the grid &mdash; three is the intended count. Mix of Tips and Inspiration entries.'
       validate:
         - required

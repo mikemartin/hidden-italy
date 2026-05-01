@@ -85,4 +85,15 @@ return [
     'whats_included' => "What's included",
     'share' => 'Share',
     'save' => 'Save',
+
+    // Tour page sections
+    'history' => 'History',
+    'day' => 'Day',
+    'days' => 'Days',
+    'from' => 'From',
+    'essentials' => 'Essentials',
+    'equipment_needed' => 'Equipment needed',
+    'travel_insurance' => 'Travel insurance conditions',
+    'booking_cancellation' => 'Booking and cancellation conditions',
+    'read_full_bio' => 'Read full bio',
 ];

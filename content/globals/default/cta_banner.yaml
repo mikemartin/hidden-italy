@@ -1,0 +1,12 @@
+heading: 'Ready to take the first step?'
+image: tours/trentino-alto-adige-dolomites/p9171981.jpg
+buttons:
+  -
+    id: cta_btn_01
+    label: 'Discover tours'
+    link_type: url
+    url: /tours
+    target_blank: false
+    button_type: button
+    type: button
+    enabled: true

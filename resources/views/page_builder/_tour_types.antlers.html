@@ -10,36 +10,45 @@
 #}}
 
 <!-- /page_builder/_tour_types.antlers.html -->
-{{ partial:page_builder/block class="stack-space-collapse py-10 lg:py-30 gap-y-10 lg:gap-y-14 bg-background relative overflow-hidden" }}
+{{ partial:page_builder/block class="dark stack-space-collapse py-10 lg:py-30 gap-y-10 lg:gap-y-14 bg-background relative overflow-hidden" }}
     <div class="pointer-events-none absolute inset-x-0 top-0 text-accent-light" aria-hidden="true">
         {{ svg:top-left attr:class="absolute top-0 left-0 w-[320px] md:w-[400px] h-auto -translate-x-1/2 lg:-translate-x-1/4" }}
         {{ svg:top-right attr:class="absolute top-0 right-0 w-[320px] md:w-[400px] h-auto" }}
     </div>
-    
+
     {{ if block:heading }}
         <header class="span-content text-center">
-            {{ partial:typography/h2 :content="block:heading" color="text-white" }}
+            {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
         </header>
     {{ /if }}
 
     {{ if block:tour_types }}
         <ul class="span-content flex flex-col lg:flex-row gap-10 lg:gap-9 items-stretch">
             {{ block:tour_types }}
-                <li class="group relative w-full lg:flex-1 aspect-video lg:aspect-square rounded-3xl overflow-hidden">
+                <li class="group relative w-full lg:flex-1 aspect-video lg:aspect-[2/3] rounded-3xl overflow-hidden bg-card">
 
-                    {{# Card image lives on the linked page entry. Multiply
-                        blend + 40% dark wash for legibility. #}}
+                    {{# Card image lives on the linked page entry. Same
+                        treatment as the tour banner: image at `opacity-70`,
+                        a uniform `bg-black/30` wash, plus top/bottom dark
+                        gradients to anchor the centred label + chip. #}}
                     {{ if card_image }}
                         {{
                             picture
                             :image="card_image"
-                            class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                            class="absolute inset-0 w-full h-full object-cover opacity-70 transition-transform duration-500 ease-out group-hover:scale-105"
                             cover="true"
                             sizes="(min-width: 1024px) 50vw, 100vw"
                             loading="lazy"
                         }}
                     {{ /if }}
-                    <div class="absolute inset-0 bg-neutral-900/40 pointer-events-none" aria-hidden="true"></div>
+
+                    <div class="absolute inset-0 bg-black/30 pointer-events-none" aria-hidden="true"></div>
+
+                    <div
+                        class="absolute inset-0 pointer-events-none"
+                        aria-hidden="true"
+                        style="background-image: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 22.7%), linear-gradient(180deg, rgba(0,0,0,0) 77.6%, rgba(0,0,0,0.3) 100%);"
+                    ></div>
 
                     {{# Centred label + tour-count chip. #}}
                     <div class="absolute inset-0 flex flex-col items-center justify-center gap-3 px-4 text-center">

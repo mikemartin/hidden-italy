@@ -1,0 +1,31 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'CTA banner'
+        instructions: 'Full-bleed CTA shown at the bottom of every page except the tour listing pages.'
+        fields:
+          -
+            handle: heading
+            field:
+              type: text
+              localizable: true
+              display: Heading
+              instructions: 'Marketing headline.'
+              validate:
+                - required
+          -
+            handle: image
+            field:
+              container: assets
+              max_files: 1
+              type: assets
+              display: 'Background image'
+              mode: grid
+          -
+            handle: buttons
+            field: buttons.buttons
+            config:
+              display: Buttons
+              instructions: 'One or two CTAs. Rendered as outline-gold buttons over the image wash.'

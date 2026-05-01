@@ -1,0 +1,51 @@
+{{#
+    @name Layout CTA banner
+    @desc Full-bleed CTA pulled from the `cta_banner` global. Same overlay
+          treatment as the tour banner and tour-type cards: image at
+          `opacity-70`, uniform `bg-black/30` wash, and top/bottom dark
+          gradients. Layout-level only — included before the footer on
+          every page except the tour listing template (`tours/index`).
+#}}
+
+<!-- /layout/_cta_banner.antlers.html -->
+{{ cta_banner }}
+    {{ if heading }}
+        <section class="span-full relative isolate bg-foreground text-white overflow-hidden">
+            <div class="relative min-h-[360px] md:min-h-[480px] flex items-center justify-center py-20 md:py-32">
+                {{ if image }}
+                    {{
+                        picture
+                        :image="image"
+                        class="absolute inset-0 w-full h-full object-cover opacity-70"
+                        cover="true"
+                        sizes="100vw"
+                        loading="lazy"
+                    }}
+                {{ /if }}
+
+                <div class="absolute inset-0 bg-black/30 pointer-events-none" aria-hidden="true"></div>
+
+                <div
+                    class="absolute inset-0 pointer-events-none"
+                    aria-hidden="true"
+                    style="background-image: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 22.7%), linear-gradient(180deg, rgba(0,0,0,0) 77.6%, rgba(0,0,0,0.3) 100%);"
+                ></div>
+
+                <div class="relative z-10 fluid-grid w-full">
+                    <div class="span-content flex flex-col items-center text-center gap-6">
+                        {{ partial:typography/h1_display :content="heading | widont" as="h2" class="!text-white max-w-3xl" }}
+
+                        {{ if buttons }}
+                            <div class="flex flex-wrap gap-4 justify-center">
+                                {{ buttons }}
+                                    {{ partial:components/button class="button--outline button--gold button--large" }}
+                                {{ /buttons }}
+                            </div>
+                        {{ /if }}
+                    </div>
+                </div>
+            </div>
+        </section>
+    {{ /if }}
+{{ /cta_banner }}
+<!-- End: /layout/_cta_banner.antlers.html -->

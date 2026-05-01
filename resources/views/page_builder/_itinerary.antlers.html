@@ -1,15 +1,174 @@
 {{#
-    @name Itinerary (stub)
-    @desc Placeholder partial for the tour `itinerary` block. Replace with a
-          real implementation. Exists so missing-partial errors don't surface
-          while the design is still in flight.
+    @name Itinerary
+    @desc Day-by-day itinerary as a Splide carousel. Centred heading + intro
+          summary, followed by a 3-up (1-up on mobile) carousel of day cards.
+          Each card has the day's photo, "Day N" eyebrow, title, an optional
+          stat row (hrs / km / elev), description, and a meals row.
+          Custom prev/next arrows + a "Days X–Y of N" counter live below the
+          track. Carousel disabled when there are 3 or fewer days.
     @set page.page_builder.itinerary
 #}}
 
 <!-- /page_builder/_itinerary.antlers.html -->
-{{ partial:page_builder/block }}
-    <div class="span-content py-12 text-center text-sm text-neutral-400">
-        <p class="font-mono">[itinerary{{ if block:title }} — {{ block:title }}{{ /if }}] stub</p>
-    </div>
-{{ /partial:page_builder/block }}
+{{ if block:days }}
+    <section
+        class="fluid-grid gap-y-10 md:gap-y-14"
+        x-data="{
+            splide: null,
+            atStart: true,
+            atEnd: false,
+            current: 0,
+            perPage: 3,
+            total: {{ block:days | count }},
+            init() {
+                this.splide = new Splide(this.$refs.splide, {
+                    perPage: 3,
+                    perMove: 1,
+                    gap: '1.5rem',
+                    pagination: false,
+                    arrows: false,
+                    drag: 'free',
+                    snap: true,
+                    breakpoints: {
+                        768: { perPage: 1, gap: '1rem' },
+                    },
+                });
+                this.splide.on('mounted move scrolled resized', () => {
+                    const controller = this.splide.Components.Controller;
+                    this.atStart = controller.getPrev() === -1;
+                    this.atEnd = controller.getNext() === -1;
+                    this.current = this.splide.index;
+                    this.perPage = this.splide.options.perPage;
+                });
+                this.splide.mount();
+            },
+            next() { this.splide?.go('+') },
+            prev() { this.splide?.go('-') },
+            destroy() { this.splide?.destroy() },
+        }"
+    >
+        {{ if block:title || block:summary }}
+            <header class="span-content flex flex-col items-center text-center gap-4 max-w-3xl mx-auto">
+                {{ if block:title }}
+                    {{ partial:typography/h2 :content="block:title" color="text-foreground" }}
+                {{ /if }}
+                {{ if block:summary }}
+                    <p class="font-sans text-base md:text-lg leading-[1.6] text-text text-pretty">
+                        {{ block:summary }}
+                    </p>
+                {{ /if }}
+            </header>
+        {{ /if }}
+
+        <div class="span-content">
+            <section x-ref="splide" class="splide itinerary-splide" aria-label="Tour itinerary">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        {{ block:days }}
+                            <li class="splide__slide h-auto">
+                                <article class="h-full flex flex-col bg-card border border-parchment-200 rounded-xl overflow-hidden shadow-sm">
+                                    {{ if photo }}
+                                        <div class="relative p-1">
+                                            <div class="relative w-full aspect-[16/10] rounded-lg overflow-hidden bg-parchment-200">
+                                                {{ picture
+                                                    :image="photo"
+                                                    class="absolute inset-0 w-full h-full object-cover"
+                                                    cover="true"
+                                                    sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                                                    loading="lazy"
+                                                }}
+                                            </div>
+                                        </div>
+                                    {{ /if }}
+
+                                    <div class="flex-1 flex flex-col gap-3 p-5 md:p-6">
+                                        <div class="flex flex-col items-start gap-2">
+                                            <span class="bg-parchment-200 px-2 py-0.5 rounded-full text-[13px] text-accent-2 leading-tight">
+                                                {{ trans:strings.day ?? 'Day' }} {{ index + 1 }}
+                                            </span>
+                                            {{ if title }}
+                                                {{ partial:typography/h4 :content="title" color="text-foreground" }}
+                                            {{ /if }}
+
+                                            {{ if duration || distance || elevation }}
+                                                <ul class="flex flex-wrap items-center gap-x-4 gap-y-1 mt-2 text-text">
+                                                    {{ if duration }}
+                                                        <li class="inline-flex items-center gap-1.5 text-sm">
+                                                            <x-lucide-clock class="size-4 text-accent-2 shrink-0" stroke-width="1.75" aria-hidden="true" />
+                                                            <span>{{ duration }} hr</span>
+                                                        </li>
+                                                    {{ /if }}
+                                                    {{ if distance }}
+                                                        <li class="inline-flex items-center gap-1.5 text-sm">
+                                                            <x-lucide-footprints class="size-4 text-accent-2 shrink-0" stroke-width="1.75" aria-hidden="true" />
+                                                            <span>{{ distance }} km</span>
+                                                        </li>
+                                                    {{ /if }}
+                                                    {{ if elevation }}
+                                                        <li class="inline-flex items-center gap-1.5 text-sm">
+                                                            <x-lucide-mountain class="size-4 text-accent-2 shrink-0" stroke-width="1.75" aria-hidden="true" />
+                                                            <span>{{ elevation }} m</span>
+                                                        </li>
+                                                    {{ /if }}
+                                                </ul>
+                                            {{ /if }}
+                                        </div>
+
+                                        {{ if description }}
+                                            {{ partial:typography/p_small
+                                                :content="description"
+                                                color="text-text"
+                                                class="line-clamp-5 !mb-0"
+                                            }}
+                                        {{ /if }}
+
+                                        {{ if meals_included }}
+                                            <div class="mt-auto pt-3 inline-flex items-center gap-2 text-sm text-text">
+                                                <x-lucide-utensils-crossed class="size-4 text-accent-2 shrink-0" stroke-width="1.75" aria-hidden="true" />
+                                                <span class="capitalize">
+                                                    {{ meals_included }}{{ value }}{{ unless last }}<span class="text-muted"> / </span>{{ /unless }}{{ /meals_included }}
+                                                </span>
+                                            </div>
+                                        {{ /if }}
+                                    </div>
+                                </article>
+                            </li>
+                        {{ /block:days }}
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        {{# Custom controls — only render when the carousel has something to scroll. #}}
+        {{ if block:days | count > 1 }}
+            <div class="span-content flex items-center justify-center gap-6">
+                <button
+                    type="button"
+                    @click="prev()"
+                    :disabled="atStart"
+                    aria-label="Previous day"
+                    class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-parchment-200"
+                >
+                    <x-lucide-arrow-left class="size-5" stroke-width="2" aria-hidden="true" />
+                </button>
+
+                <p class="font-sans text-sm text-text" aria-live="polite">
+                    {{ trans:strings.days ?? 'Days' }}
+                    <span x-text="current + 1"></span>&ndash;<span x-text="Math.min(current + perPage, total)"></span>
+                    {{ trans:strings.of ?? 'of' }} {{ block:days | count }}
+                </p>
+
+                <button
+                    type="button"
+                    @click="next()"
+                    :disabled="atEnd"
+                    aria-label="Next day"
+                    class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-parchment-200"
+                >
+                    <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />
+                </button>
+            </div>
+        {{ /if }}
+    </section>
+{{ /if }}
 <!-- End: /page_builder/_itinerary.antlers.html -->

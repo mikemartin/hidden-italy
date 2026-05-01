@@ -102,24 +102,7 @@ page_builder:
     heading: 'Travel tips and inspiration'
     link_text: 'View all'
     articles:
-      - 20f6a148-63b8-47a8-9b0e-d57095d78c21
-      - 20f6a148-63b8-47a8-9b0e-d57095d78c21
-      - 20f6a148-63b8-47a8-9b0e-d57095d78c21
-  -
-    id: home_cta_banner
-    type: cta_banner
-    enabled: true
-    heading: 'Ready to take the first step?'
-    image: tours/trentino-alto-adige-dolomites/p9171981.jpg
-    overlay: true
-    buttons:
-      -
-        id: home_cta_btn
-        label: 'Discover tours'
-        link_type: entry
-        entry: 2d1f3903-3248-4037-8e09-e76e8d62781c
-        target_blank: false
-        button_type: button
-        type: button
-        enabled: true
+      - 7d2a4c91-3e85-4f17-91b3-8c1e0f5a7d62
+      - 8a3b7d54-9e21-4f68-b193-5c4a0e6d2f87
+      - 1e4d7a93-8c52-4f16-b384-7a2e0d6f9c41
 ---

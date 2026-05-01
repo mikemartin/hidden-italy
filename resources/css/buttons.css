@@ -61,6 +61,6 @@
     /* Solid blue button — uses the lighter accent blue, deeper on hover.
        Designed to sit on the deep-blue background of the Tour Types section. */
     .button.button--accent-light {
-        @apply bg-accent-light text-white border-0 hover:bg-blue-700 focus:outline-gold;
+        @apply bg-accent-light text-white border-0 hover:bg-blue-d-300 focus:outline-gold;
     }
 }

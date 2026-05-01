@@ -1,15 +1,43 @@
 {{#
-    @name Highlights (stub)
-    @desc Placeholder partial for the tour `highlights` block. Replace with a
-          real implementation. Exists so missing-partial errors don't surface
-          while the design is still in flight.
+    @name Highlights
+    @desc Centred section heading followed by a 3-column grid (1 col on
+          mobile, 2 at sm) of activity cards. Each card is a round icon tile
+          + title + summary. Icons come from the `icons` asset container and
+          are rendered via Statamic's svg tag.
     @set page.page_builder.highlights
 #}}
 
 <!-- /page_builder/_highlights.antlers.html -->
-{{ partial:page_builder/block }}
-    <div class="span-content py-12 text-center text-sm text-neutral-400">
-        <p class="font-mono">[highlights{{ if block:title }} — {{ block:title }}{{ /if }}] stub</p>
-    </div>
-{{ /partial:page_builder/block }}
+{{ if block:activities }}
+    {{ partial:page_builder/block class="gap-y-10 md:gap-y-14" }}
+        {{ if block:title }}
+            <header class="span-content text-center">
+                {{ partial:typography/h2 :content="block:title" color="text-foreground" }}
+            </header>
+        {{ /if }}
+
+        <ul class="span-content grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-9 gap-y-10 md:gap-y-12">
+            {{ block:activities }}
+                <li class="flex flex-col gap-4">
+                    {{ if icon }}
+                        <div class="flex shrink-0 items-center justify-center size-20 rounded-full bg-parchment-200 text-accent-2">
+                            {{ svg
+                                src="icons/{icon}"
+                                attr:class="size-12 fill-current"
+                                attr:aria-hidden="true"
+                                attr:role="img"
+                            }}
+                        </div>
+                    {{ /if }}
+                    <div class="flex flex-col gap-2 max-w-prose">
+                        {{ partial:typography/h4 :content="title" color="text-foreground" }}
+                        {{ if summary }}
+                            {{ partial:typography/p_small :content="summary" color="text-text" class="text-pretty !mb-0" }}
+                        {{ /if }}
+                    </div>
+                </li>
+            {{ /block:activities }}
+        </ul>
+    {{ /partial:page_builder/block }}
+{{ /if }}
 <!-- End: /page_builder/_highlights.antlers.html -->

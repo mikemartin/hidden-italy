@@ -5,37 +5,51 @@
 @import "./peak.css";
 @import "./typography.css";
 
+/* Class-scoped dark variant — `.dark` (or any descendant) flips the semantic
+   tokens to the dark surface palette. Use Tailwind's `dark:` prefix for
+   one-off overrides. */
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
     /* ============================================================
        Palette — raw brand colors (mirrored from Figma variables)
        ============================================================ */
 
-    /* Blues — Chathams Blue family */
-    --color-blue-950: #0a3241; /* Chathams Blue / d-100 */
-    --color-blue-900: #1f3b4d; /* Foreground */
-    --color-blue-800: #2c5971; /* Text */
-    --color-blue-700: #27556b; /* Background */
-    --color-blue-500: #376d86; /* Accent Light */
+    /* Chathams Blue — full 14-step scale from Figma. The L-/D- naming is
+       preserved verbatim so the variables track the source of truth.
+       Only consumed by the semantic tokens below — templates rarely use
+       these directly. */
+    --color-blue-l-50:  #f4fbfe;
+    --color-blue-l-100: #e9f5fc;
+    --color-blue-l-200: #dceffa;
+    --color-blue-l-300: #c7e3f3;
+    --color-blue-l-400: #afd4e9;
+    --color-blue-l-500: #94c0d9;
+    --color-blue-l-600: #7faec8;
+    --color-blue-d-600: #709eb9;
+    --color-blue-d-500: #5d89a3; /* Dark: accent-2 */
+    --color-blue-d-400: #456e86; /* Dark: accent-light */
+    --color-blue-d-300: #31566b; /* Light: text, Dark: background */
+    --color-blue-d-200: #1E4053; /* Light: foreground, Dark: card */
+    --color-blue-d-100: #113141;
+    --color-blue-d-50:  #001928;
 
-    /* Parchment */
-    --color-parchment-50:  #fefcf7;
-    --color-parchment-100: #fdf9f0;
-    --color-parchment-200: #faf3e0;
+    /* Parchment — Light surface family */
+    --color-parchment-50:  #fefcf7; /* Light: card */
+    --color-parchment-100: #fdf9f0; /* Light: background, Dark: foreground */
+    --color-parchment-200: #faf3e0; /* Light: accent-light, Dark: text */
     --color-parchment-300: #f5e8c8;
     --color-parchment-400: #e8d4a0;
 
-    /* Mustard — Dijon Mustard / Secondary */
-    --color-mustard-50:  #fcfaf4;
-    --color-mustard-500: #beac50;
-
     /* Warm accents */
     --color-gold:       #e2ae4d; /* Accent */
-    --color-amber:      #bb4d00; /* Accent 2 / Amber 700 */
-    --color-terracotta: #d56844; /* Tumeric Red / Error 600 */
+    --color-terracotta: #bb4d00; /* Light: accent-2 */
 
-    /* Neutrals — White Heat endpoints override slate 50/900 only */
+    /* Neutrals — slate aliases for the mid-range. The 50 and 900 endpoints
+       used to be White Heat overrides; both have been retired in favour of
+       `parchment-200` and `foreground` respectively. The remaining slate
+       defaults stay available for incidental greys. */
     --color-neutral: var(--color-slate-800);
-    --color-neutral-50:  #faf9f8; /* White Heat / l-50 */
     --color-neutral-100: var(--color-slate-100);
     --color-neutral-200: var(--color-slate-200);
     --color-neutral-300: var(--color-slate-300);
@@ -44,24 +58,26 @@
     --color-neutral-600: var(--color-slate-600);
     --color-neutral-700: var(--color-slate-700);
     --color-neutral-800: var(--color-slate-800);
-    --color-neutral-900: #312e29; /* White Heat / d-100 */
     --color-neutral-950: var(--color-slate-950);
 
     /* ============================================================
-       Semantic tokens — role-based aliases. Templates should
-       prefer these over raw palette names so skins can swap.
+       Semantic tokens — Light surface (default).
+       Templates use these so the `.dark` scope can swap them.
        ============================================================ */
 
-    --color-background:     var(--color-blue-700);
-    --color-foreground:     var(--color-blue-900);
-    --color-text:           var(--color-blue-800);
+    --color-background:     var(--color-parchment-100);
+    --color-foreground:     var(--color-blue-d-200);
+    --color-text:           var(--color-blue-d-300);
+    --color-muted:          oklch(from var(--color-text) l c h / 0.7);
     --color-accent:         var(--color-gold);
-    --color-accent-2:       var(--color-amber);
-    --color-accent-light:   var(--color-blue-500);
+    --color-accent-2:       var(--color-terracotta);
+    --color-accent-light:   var(--color-parchment-200);
     --color-card:           var(--color-parchment-50);
 
-    /* Backwards-compat alias for existing `primary` references. */
-    --color-primary: var(--color-blue-700);
+    /* `--color-primary` stays a literal brand blue (not surface-scoped) for
+       legacy uses like `::selection` and the `text-primary` utility scattered
+       through the templates. New work should use the semantic tokens above. */
+    --color-primary: var(--color-blue-d-300);
 
     --font-display: 'Roma Neue', system-ui, sans-serif;
     --font-sans: 'Mona Sans VF', system-ui, sans-serif;
@@ -93,6 +109,22 @@
         background-color: var(--color-primary);
         color: var(--color-white);
    }
+
+    /* Dark surface override. Apply `class="dark"` to any region (header,
+       footer, full-bleed dark page-builder blocks) to flip the semantic
+       tokens. Children using `bg-background`, `text-foreground`, `text-text`,
+       `bg-card`, `text-accent-2`, `text-accent-light` automatically pick
+       up the dark palette without needing `dark:` prefixes. */
+    .dark {
+        color-scheme: dark;
+
+        --color-background:     var(--color-blue-d-300);
+        --color-foreground:     var(--color-parchment-100);
+        --color-text:           var(--color-parchment-200);
+        --color-accent-2:       var(--color-blue-d-500);
+        --color-accent-light:   var(--color-blue-d-400);
+        --color-card:           var(--color-blue-d-200);
+    }
 }
 @import "./livewire-filters-theme.css";
 

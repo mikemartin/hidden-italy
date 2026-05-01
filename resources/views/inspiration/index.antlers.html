@@ -1,0 +1,33 @@
+{{#
+    @name Inspiration Index
+    @desc Listing template for the Inspiration collection. Page header
+          followed by a 3-up grid of article cards. The whole page sits
+          on a parchment-100 surface so the cards (parchment-50) lift
+          off it slightly.
+#}}
+
+<!-- /inspiration/index.antlers.html -->
+<main id="content" class="relative isolate overflow-hidden bg-parchment-100">
+    {{ partial:components/topographic }}
+
+    {{ if headline }}
+        {{ partial:components/page_header }}
+    {{ /if }}
+
+    <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
+        <ul class="span-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-fluid-grid-gap">
+            {{ collection:inspiration sort="title" }}
+                {{ if no_results }}
+                    <li class="md:col-span-2 lg:col-span-3">
+                        {{ partial:typography/p content="{trans:strings.no_results ?? 'There are currently no posts.'}" color="text-text" }}
+                    </li>
+                {{ else }}
+                    <li>
+                        {{ partial:components/article-card }}
+                    </li>
+                {{ /if }}
+            {{ /collection:inspiration }}
+        </ul>
+    </section>
+</main>
+<!-- End: /inspiration/index.antlers.html -->

@@ -6,7 +6,7 @@
 #}}
 
 <!-- /layout/_footer.antlers.html -->
-<footer class="bg-background text-parchment-100 mt-auto">
+<footer class="dark bg-background text-text mt-auto">
     <div class="fluid-grid py-16 lg:py-24">
         <div class="span-content flex flex-col gap-12 lg:gap-16">
 
@@ -31,7 +31,7 @@
                                 type="email"
                                 required
                                 placeholder="Enter your email"
-                                class="flex-1 bg-transparent px-4 py-3 text-parchment-100 text-[18px] outline-none placeholder:text-parchment-100/80"
+                                class="flex-1 bg-transparent px-4 py-3 text-text text-[18px] outline-none placeholder:text-text/80"
                             >
                             <button
                                 type="submit"
@@ -80,7 +80,7 @@
                                         rel="noopener{{ type == 'mastodon' ?= ' me' }}"
                                         target="_blank"
                                         aria-label="{{ config:app:name }} {{ trans:strings.on }} {{ type | title }}"
-                                        class="text-parchment-100 hover:text-gold transition-colors"
+                                        class="text-text hover:text-gold transition-colors"
                                     >
                                         {{ svg :src="type" attr:class="size-6 fill-current" attr:alt="" attr:aria-hidden="true" }}
                                     </a>
@@ -99,7 +99,7 @@
             ></div>
 
             {{# ============ Bottom row: legal + copyright ============ #}}
-            <div class="flex flex-col-reverse md:flex-row md:items-center md:justify-between gap-4 text-[15px] text-parchment-100/90">
+            <div class="flex flex-col-reverse md:flex-row md:items-center md:justify-between gap-4 text-[15px] text-text/90">
                 <div class="flex flex-wrap gap-x-6 gap-y-2">
                     {{ nav:footer_legal }}
                         <a href="{{ url }}" class="hover:text-gold transition-colors">{{ title }}</a>
