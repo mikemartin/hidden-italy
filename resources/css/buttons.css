@@ -63,4 +63,15 @@
     .button.button--accent-light {
         @apply bg-accent-light text-white border-0 hover:bg-blue-d-300 focus:outline-gold;
     }
+
+    /* Solid gold accent button — primary CTA on cream/parchment surfaces
+       (auth pages, account settings forms). Uppercase dark-on-gold pill,
+       slight darken on hover, matches the wireframe. */
+    .button.button--accent {
+        @apply bg-accent text-foreground border-0 hover:bg-accent/90 focus:outline-foreground;
+
+        span {
+            @apply text-foreground;
+        }
+    }
 }

@@ -20,9 +20,9 @@
                 viewable
             />
 
-            <flux:button variant="primary" type="submit" class="w-full" data-test="confirm-password-button">
-                {{ __('Confirm') }}
-            </flux:button>
+            <button type="submit" class="button button--accent button--large w-full" data-test="confirm-password-button">
+                <span>{{ __('Confirm') }}</span>
+            </button>
         </form>
     </div>
 </x-layouts::auth>

@@ -1,7 +1,9 @@
 {{#
     @name Logo
-    @desc The logo component. Accepts a `class` for sizing (e.g. `h-7 lg:h-10
-          w-auto`) and falls back to a `width` attribute when no class is set.
+    @desc The Hidden Italy wordmark. Renders as a CSS-masked SVG so the
+          colour is inherited from the surrounding `text-*` utility.
+          Pass a `class` for sizing (e.g. `h-7 lg:h-12`); width follows
+          from the wordmark's intrinsic aspect ratio.
 #}}
 
 <!-- /components/_logo.antlers.html -->
@@ -10,12 +12,10 @@
     href="{{ site:url }}"
     wire:navigate
 >
-    <img
-        src="/visuals/hidden-italy-logo.svg"
-        class="select-none {{ class }}"
-        {{ unless class }}width="{{ width }}"{{ /unless }}
-        alt=""
+    <span
+        class="brand-wordmark inline-block select-none {{ class }}"
+        role="presentation"
         aria-hidden="true"
-    />
+    ></span>
 </a>
 <!-- End: /components/_logo.antlers.html -->

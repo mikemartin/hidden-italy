@@ -132,9 +132,9 @@ new #[Title('Postal address')] class extends Component {
             </div>
 
             <div class="flex items-center gap-4">
-                <flux:button variant="primary" type="submit" data-test="update-postal-address-button">
-                    {{ __('Save') }}
-                </flux:button>
+                <button type="submit" class="button button--accent button--large" data-test="update-postal-address-button">
+                    <span>{{ __('Save') }}</span>
+                </button>
             </div>
         </form>
     </x-pages::settings.layout>

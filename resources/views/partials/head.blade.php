@@ -14,4 +14,3 @@
 <link rel="preload" href="{{ Vite::asset('resources/fonts/RomaNeue-SemiBold.woff2') }}" as="font" type="font/woff2" crossorigin>
 
 @vite(['resources/css/site.css', 'resources/js/site.js'])
-@fluxAppearance

@@ -6,7 +6,7 @@ use Livewire\Attributes\Title;
 use Livewire\Component;
 
 new
-#[Layout('layouts.auth')]
+#[Layout('layouts.auth.split')]
 #[Title('Log in')]
 class extends Component
 {
@@ -73,14 +73,14 @@ class extends Component
             />
 
             <div class="flex items-center justify-end">
-                <flux:button variant="primary" type="submit" class="w-full" data-test="login-continue-button">
-                    {{ __('Continue') }}
-                </flux:button>
+                <button type="submit" class="button button--accent button--large w-full" data-test="login-continue-button">
+                    <span>{{ __('Continue') }}</span>
+                </button>
             </div>
         </form>
 
         @if (Route::has('register'))
-            <div class="space-x-1 text-sm text-center rtl:space-x-reverse text-zinc-600 dark:text-zinc-400">
+            <div class="space-x-1 text-sm text-center rtl:space-x-reverse text-zinc-600">
                 <span>{{ __('Don\'t have an account?') }}</span>
                 <flux:link :href="route('register')" wire:navigate>{{ __('Sign up') }}</flux:link>
             </div>
@@ -93,12 +93,12 @@ class extends Component
 
         <x-auth-session-status class="text-center" :status="session('status')" />
 
-        <div class="flex items-center justify-between gap-3 p-3 border rounded-lg border-zinc-200 dark:border-zinc-700">
+        <div class="flex items-center justify-between gap-3 p-3 border rounded-lg border-zinc-200">
             <div class="min-w-0">
-                <div class="text-sm font-medium truncate text-zinc-900 dark:text-zinc-100">
+                <div class="text-sm font-medium truncate text-zinc-900">
                     {{ $foundUser->name }}
                 </div>
-                <div class="text-xs truncate text-zinc-600 dark:text-zinc-400">
+                <div class="text-xs truncate text-zinc-600">
                     {{ $foundUser->email }}
                 </div>
             </div>
@@ -137,9 +137,9 @@ class extends Component
             <flux:checkbox name="remember" :label="__('Remember me')" />
 
             <div class="flex items-center justify-end">
-                <flux:button variant="primary" type="submit" class="w-full" data-test="login-button">
-                    {{ __('Log in') }}
-                </flux:button>
+                <button type="submit" class="button button--accent button--large w-full" data-test="login-button">
+                    <span>{{ __('Log in') }}</span>
+                </button>
             </div>
         </form>
     @endif
