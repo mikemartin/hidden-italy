@@ -34,7 +34,7 @@
 
         <button
             type="button"
-            data-share-text="{{ lead }}"
+            data-share-text="{{ if collection:handle == 'tips' }}Here's some travel advice from Hidden Italy to help you prepare for your walking tour in Italy.{{ elseif collection:handle == 'inspiration' }}Here's some inspiration from Hidden Italy for your next trip.{{ else }}{{ lead }}{{ /if }}"
             x-data="{
                 async share() {
                     const data = {
