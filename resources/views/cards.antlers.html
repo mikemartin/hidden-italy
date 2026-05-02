@@ -48,6 +48,21 @@
             </section>
 
             {{# ====================================================
+                TOUR CARD — horizontal variant, real entry
+                ==================================================== #}}
+            <section class="stack-6">
+                <header class="stack-1">
+                    {{ partial:typography/h2 content="Tour — horizontal" }}
+                    {{ partial:typography/p_small content="Component &mdash; `components/_tour-card-horizontal.antlers.html`. Square (1:1) image on the left with the same metadata stack as the vertical card on the right. Earmarked for the booking page selected-tour confirmation strip." color="text-muted" class="!mb-0" }}
+                </header>
+                <div class="max-w-[680px]">
+                    {{ collection:guided sort="title" limit="1" }}
+                        {{ partial:components/tour-card-horizontal }}
+                    {{ /collection:guided }}
+                </div>
+            </section>
+
+            {{# ====================================================
                 DAY CARD — current implementation, kept inline so
                 we can compare it against future revisions
                 ==================================================== #}}
