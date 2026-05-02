@@ -1,0 +1,85 @@
+{{#
+    @name Profile card
+    @desc For tour leaders and team members from the People collection.
+          Image / name / role / "Read bio" trigger that opens a
+          flux:modal flyout with the full bio. Sized for 4-column
+          layouts — do not render in wider grids.
+
+          The whole card is the click target via a stretched
+          flux:modal.trigger button, so the surface keeps the
+          single-action affordance the previous anchor pattern had.
+          Trigger and modal both render only when the entry has a
+          `short_bio`, so empty entries don't surface a dead-end
+          action.
+
+          Inherits the People entry scope: title, subtitle, short_bio,
+          image, slug.
+#}}
+
+<!-- /components/_profile-card.antlers.html -->
+<article class="group relative isolate h-full flex flex-col bg-card border border-parchment-200 rounded-xl shadow-sm overflow-hidden">
+    {{ if short_bio }}
+        <flux:modal.trigger name="profile-bio-{{ slug }}">
+            <button
+                type="button"
+                class="absolute inset-0 z-10 rounded-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+            >
+                <span class="sr-only">Read {{ title }}'s bio</span>
+            </button>
+        </flux:modal.trigger>
+    {{ /if }}
+
+    {{ if image }}
+        <div class="relative p-1">
+            <div class="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-parchment-200">
+                {{ picture
+                    :image="image"
+                    class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                    cover="true"
+                    sizes="(min-width: 768px) 400px, 100vw"
+                    loading="lazy"
+                }}
+            </div>
+        </div>
+    {{ /if }}
+
+    <div class="flex-1 flex flex-col px-5 py-6">
+        {{ partial:typography/h6 small="true" :content="title" color="text-foreground" }}
+        {{ if subtitle }}
+            {{ partial:typography/p_small :content="subtitle" color="text-muted" class="!mb-0" }}
+        {{ /if }}
+        {{ if short_bio }}
+            <span class="relative z-20 mt-3 inline-flex items-center gap-1.5 font-display font-semibold text-base text-foreground underline underline-offset-4 decoration-gold group-hover:decoration-foreground">
+                {{ trans:strings.read_bio }}
+                <x-lucide-arrow-right class="size-4 text-accent-2" stroke-width="2" aria-hidden="true" />
+            </span>
+        {{ /if }}
+    </div>
+</article>
+
+{{ if short_bio }}
+    <flux:modal name="profile-bio-{{ slug }}" variant="flyout" class="md:w-[34rem]">
+        <div class="space-y-6">
+            <div class="flex items-center gap-4">
+                {{ if image }}
+                    <div class="size-20 shrink-0 rounded-xl overflow-hidden bg-parchment-200">
+                        {{ picture :image="image" class="w-full h-full object-cover" cover="true" sizes="80px" loading="lazy" }}
+                    </div>
+                {{ /if }}
+                <div>
+                    <flux:heading size="lg">{{ title }}</flux:heading>
+                    {{ if subtitle }}
+                        <flux:text class="!mt-1 text-accent-2 font-medium">{{ subtitle }}</flux:text>
+                    {{ /if }}
+                </div>
+            </div>
+
+            <flux:separator />
+
+            <div class="font-sans text-base leading-[1.6] text-text">
+                <p>{{ short_bio }}</p>
+            </div>
+        </div>
+    </flux:modal>
+{{ /if }}
+<!-- End: /components/_profile-card.antlers.html -->
