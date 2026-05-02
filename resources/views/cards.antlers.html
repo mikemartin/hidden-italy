@@ -131,34 +131,7 @@
                 </header>
                 <div class="max-w-[290px]">
                     {{ get_content from="8e21b5fb-a972-4a2e-a81c-2e6f8425841f" }}
-                        <article class="group relative isolate h-full flex flex-col bg-card border border-parchment-200 rounded-xl shadow-sm overflow-hidden">
-                            <a href="{{ url }}" class="absolute inset-0 z-10 rounded-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold">
-                                <span class="sr-only">Read {{ title }}'s bio</span>
-                            </a>
-                            {{ if image }}
-                                <div class="relative p-1">
-                                    <div class="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-parchment-200">
-                                        {{ picture
-                                            :image="image"
-                                            class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
-                                            cover="true"
-                                            sizes="(min-width: 768px) 400px, 100vw"
-                                            loading="lazy"
-                                        }}
-                                    </div>
-                                </div>
-                            {{ /if }}
-                            <div class="flex-1 flex flex-col px-5 py-6">
-                                {{ partial:typography/h6 small="true" :content="title" color="text-foreground" }}
-                                {{ if subtitle }}
-                                    {{ partial:typography/p_small :content="subtitle" color="text-muted" class="!mb-0" }}
-                                {{ /if }}
-                                <span class="relative z-20 mt-3 inline-flex items-center gap-1.5 font-display font-semibold text-base text-foreground underline underline-offset-4 decoration-gold group-hover:decoration-foreground">
-                                    Read bio
-                                    <x-lucide-arrow-right class="size-4 text-accent-2" stroke-width="2" aria-hidden="true" />
-                                </span>
-                            </div>
-                        </article>
+                        {{ partial:components/profile-card }}
                     {{ /get_content }}
                 </div>
             </section>
