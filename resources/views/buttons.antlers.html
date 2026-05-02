@@ -1,0 +1,171 @@
+{{#
+    @name Buttons
+    @desc Side-by-side reference of every button variant defined in
+          `resources/css/buttons.css`. Each variant is rendered at all
+          three sizes on the surface it was designed for. The class
+          combination for each row sits in the caption so markup can
+          be copied directly into templates.
+
+          Variants and their target surfaces:
+          - `.button`                                    primary blue, light or neutral surfaces
+          - `.button.button--accent`                     gold solid CTA, cream/parchment surfaces
+          - `.button.button--outline.button--gold.button--on-light`  gold outline, light surfaces
+          - `.button.button--accent-light`               lighter blue solid, deep-blue surfaces
+          - `.button.button--outline.button--gold`       gold outline + white text, dark surfaces
+          - `.button-inline`                             inline link, both surfaces
+#}}
+
+<!-- /buttons.antlers.html -->
+<main id="content" class="py-12 md:py-16 lg:py-24">
+    <section class="fluid-grid">
+        <div class="span-content stack-16">
+
+            {{# Page header #}}
+            <div class="bg-parchment-200 p-8 md:p-12 rounded-lg">
+                {{ partial:typography/h1
+                    content="Buttons"
+                    class="mb-4 md:text-7xl tracking-[-0.03em]"
+                }}
+                {{ partial:typography/p
+                    content="Every button variant in the system, rendered on the surface it was designed for. Use this view to keep CTA treatment consistent across light and dark sections."
+                    class="!mb-0"
+                }}
+            </div>
+
+            {{# ====================================================
+                LIGHT SURFACE
+                ==================================================== #}}
+            <section class="stack-10">
+                <header class="stack-2">
+                    {{ partial:typography/h2 content="Light surface" }}
+                    {{ partial:typography/p content="Rendered on the default page background (`bg-background`, aliased to parchment-100). These variants assume light tokens — text is dark, accents are warm." class="!mb-0 text-neutral/70" }}
+                </header>
+
+                {{# Primary — default solid blue #}}
+                <div class="stack-6">
+                    <header class="stack-1">
+                        {{ partial:typography/h3 content="Primary" }}
+                        {{ partial:typography/p_small content="`.button` &mdash; solid blue with white label. Default CTA on neutral and parchment surfaces." color="text-muted" class="!mb-0" }}
+                    </header>
+                    <div class="flex flex-wrap items-center gap-4">
+                        <a class="button button--small" href="#"><span>Small</span></a>
+                        <a class="button" href="#"><span>Default</span></a>
+                        <a class="button button--large" href="#"><span>Large</span></a>
+                    </div>
+                </div>
+
+                {{# Accent — solid gold #}}
+                <div class="stack-6">
+                    <header class="stack-1">
+                        {{ partial:typography/h3 content="Accent (gold)" }}
+                        {{ partial:typography/p_small content="`.button.button--accent` &mdash; solid gold with foreground text. Primary CTA on cream surfaces (auth pages, account settings)." color="text-muted" class="!mb-0" }}
+                    </header>
+                    <div class="flex flex-wrap items-center gap-4">
+                        <a class="button button--accent button--small" href="#"><span>Small</span></a>
+                        <a class="button button--accent" href="#"><span>Default</span></a>
+                        <a class="button button--accent button--large" href="#"><span>Large</span></a>
+                    </div>
+                </div>
+
+                {{# Outline gold on light #}}
+                <div class="stack-6">
+                    <header class="stack-1">
+                        {{ partial:typography/h3 content="Outline gold (on light)" }}
+                        {{ partial:typography/p_small content="`.button.button--outline.button--gold.button--on-light` &mdash; gold border with foreground text. Secondary CTA on light surfaces; hover darkens the border to foreground." color="text-muted" class="!mb-0" }}
+                    </header>
+                    <div class="flex flex-wrap items-center gap-4">
+                        <a class="button button--outline button--gold button--on-light button--small" href="#"><span>Small</span></a>
+                        <a class="button button--outline button--gold button--on-light" href="#"><span>Default</span></a>
+                        <a class="button button--outline button--gold button--on-light button--large" href="#"><span>Large</span></a>
+                    </div>
+                </div>
+
+                {{# Inline #}}
+                <div class="stack-6">
+                    <header class="stack-1">
+                        {{ partial:typography/h3 content="Inline link" }}
+                        {{ partial:typography/p_small content="`.button-inline` &mdash; underlined link styled as a button. Use inside body copy when a full pill would be too heavy." color="text-muted" class="!mb-0" }}
+                    </header>
+                    <div class="flex flex-wrap items-center gap-4">
+                        <a class="button-inline" href="#"><span>Read more</span></a>
+                    </div>
+                </div>
+
+                {{# Disabled — applies to any variant, .button has disabled:opacity-50 #}}
+                <div class="stack-6">
+                    <header class="stack-1">
+                        {{ partial:typography/h3 content="Disabled" }}
+                        {{ partial:typography/p_small content="`disabled` attribute on a `<button>` &mdash; opacity drops to 50%, cursor becomes not-allowed. Applies to every `.button` variant." color="text-muted" class="!mb-0" }}
+                    </header>
+                    <div class="flex flex-wrap items-center gap-4">
+                        <button type="button" class="button" disabled><span>Primary</span></button>
+                        <button type="button" class="button button--accent" disabled><span>Accent</span></button>
+                        <button type="button" class="button button--outline button--gold button--on-light" disabled><span>Outline</span></button>
+                    </div>
+                </div>
+            </section>
+
+            {{# ====================================================
+                DARK SURFACE
+                ==================================================== #}}
+            <section class="stack-10 dark bg-background p-6 md:p-10 rounded-lg">
+                <header class="stack-2">
+                    {{ partial:typography/h2 content="Dark surface (.dark)" color="text-foreground" }}
+                    {{ partial:typography/p content="Wrapped in a `.dark` ancestor with `bg-background`, so the semantic tokens flip to the dark palette. These are the variants designed to sit on the deep-blue tour-types band, the site header, or any dark section." class="!mb-0 text-text" }}
+                </header>
+
+                {{# Primary on dark — same .button class, surface drives the contrast #}}
+                <div class="stack-6">
+                    <header class="stack-1">
+                        {{ partial:typography/h3 content="Primary" color="text-foreground" }}
+                        {{ partial:typography/p_small content="`.button` &mdash; solid blue with white label. Reads on dark surfaces but has lower contrast than the accent-light variant; prefer accent-light for the deep-blue band." color="text-text" class="!mb-0" }}
+                    </header>
+                    <div class="flex flex-wrap items-center gap-4">
+                        <a class="button button--small" href="#"><span>Small</span></a>
+                        <a class="button" href="#"><span>Default</span></a>
+                        <a class="button button--large" href="#"><span>Large</span></a>
+                    </div>
+                </div>
+
+                {{# Accent-light — solid lighter blue, designed for the tour-types band #}}
+                <div class="stack-6">
+                    <header class="stack-1">
+                        {{ partial:typography/h3 content="Accent-light (blue)" color="text-foreground" }}
+                        {{ partial:typography/p_small content="`.button.button--accent-light` &mdash; solid lighter accent blue with white label. Designed for the deep-blue tour-types band; hover darkens to blue-d-300." color="text-text" class="!mb-0" }}
+                    </header>
+                    <div class="flex flex-wrap items-center gap-4">
+                        <a class="button button--accent-light button--small" href="#"><span>Small</span></a>
+                        <a class="button button--accent-light" href="#"><span>Default</span></a>
+                        <a class="button button--accent-light button--large" href="#"><span>Large</span></a>
+                    </div>
+                </div>
+
+                {{# Outline gold on dark #}}
+                <div class="stack-6">
+                    <header class="stack-1">
+                        {{ partial:typography/h3 content="Outline gold (on dark)" color="text-foreground" }}
+                        {{ partial:typography/p_small content="`.button.button--outline.button--gold` &mdash; gold border with white label. Hover swaps the border to white. Used by the universal CTA banner and tour banner overlays." color="text-text" class="!mb-0" }}
+                    </header>
+                    <div class="flex flex-wrap items-center gap-4">
+                        <a class="button button--outline button--gold button--small" href="#"><span>Small</span></a>
+                        <a class="button button--outline button--gold" href="#"><span>Default</span></a>
+                        <a class="button button--outline button--gold button--large" href="#"><span>Large</span></a>
+                    </div>
+                </div>
+
+                {{# Inline on dark #}}
+                <div class="stack-6">
+                    <header class="stack-1">
+                        {{ partial:typography/h3 content="Inline link" color="text-foreground" }}
+                        {{ partial:typography/p_small content="`.button-inline` &mdash; the underlined link variant carries through to dark surfaces; the underline keeps a primary-blue decoration." color="text-text" class="!mb-0" }}
+                    </header>
+                    <div class="flex flex-wrap items-center gap-4">
+                        <a class="button-inline" href="#"><span>Read more</span></a>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </section>
+</main>
+<!-- End: /buttons.antlers.html -->
