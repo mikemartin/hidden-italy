@@ -24,14 +24,6 @@ tabs:
               character_limit: 600
               type: textarea
               display: 'Short Bio'
-              instructions: 'One paragraph teaser shown on the tour page leader card.'
-          -
-            handle: bio
-            field:
-              type: markdown
-              display: 'Full Bio'
-              instructions: 'Long-form biography shown in the "Read full bio" flyout. Leave empty to hide the trigger.'
-              localizable: true
           -
             handle: testimonial
             field:

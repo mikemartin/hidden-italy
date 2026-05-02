@@ -121,5 +121,5 @@ return [
     'equipment_needed' => 'Equipment needed',
     'travel_insurance' => 'Travel insurance conditions',
     'booking_cancellation' => 'Booking and cancellation conditions',
-    'read_full_bio' => 'Read full bio',
+    'read_bio' => 'Read bio',
 ];

@@ -1,30 +1,26 @@
 {{--
-    Leader bio flyout — "Read full bio" trigger plus a side flyout
-    rendering the linked person's portrait, name, subtitle and full
-    bio. Included from page_builder/_leader.antlers.html and inherits
-    the person scope.
+    Leader bio flyout — "Read bio" trigger plus a side flyout
+    rendering the linked person's portrait, name, subtitle and bio.
+    Included from page_builder/_leader.antlers.html and inherits the
+    person scope.
 
-    Renders nothing unless a `bio` (or, as a fallback, `short_bio`)
-    is available on the person, so authors who haven't filled in a
-    long-form bio yet don't surface a dead-end trigger.
+    Renders nothing when the person has no `short_bio`, so people
+    entries without a bio yet don't surface a dead-end action.
 
-    Available scope: $title, $subtitle, $short_bio, $bio (parsed
-    markdown HTML), $image, $slug.
+    Available scope: $title, $subtitle, $short_bio, $image, $slug.
 --}}
 @php
-    $bio = trim((string) ($bio ?? ''));
-    $shortBio = trim((string) ($short_bio ?? ''));
-    $hasBio = $bio !== '' || $shortBio !== '';
+    $bio = trim((string) ($short_bio ?? ''));
     $modalName = 'leader-bio-' . ($slug ?? 'leader');
 @endphp
 
-@if($hasBio)
+@if($bio !== '')
     <flux:modal.trigger name="{{ $modalName }}">
         <button
             type="button"
             class="inline-flex items-center gap-1.5 mt-2 font-display font-medium text-base text-foreground underline underline-offset-4 decoration-gold hover:decoration-foreground"
         >
-            <span>{{ __('strings.read_full_bio') }}</span>
+            <span>{{ __('strings.read_bio') }}</span>
             <x-lucide-arrow-up-right class="size-4" stroke-width="1.75" aria-hidden="true" />
         </button>
     </flux:modal.trigger>
@@ -47,12 +43,8 @@
 
             <flux:separator />
 
-            <div class="font-sans text-base leading-[1.6] text-text [&_p]:mb-4 [&_p:last-child]:mb-0 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-4 [&_a]:text-foreground [&_a]:underline [&_a]:decoration-gold">
-                @if($bio !== '')
-                    {!! $bio !!}
-                @else
-                    <p>{{ $shortBio }}</p>
-                @endif
+            <div class="font-sans text-base leading-[1.6] text-text">
+                <p>{{ $bio }}</p>
             </div>
         </div>
     </flux:modal>
