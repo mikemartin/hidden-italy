@@ -21,10 +21,12 @@
         x-data="{
             open: false,
             tour: '',
+            tourName: '',
             email: '',
             init() {
                 window.addEventListener('open-booking-modal', (event) => {
                     this.tour = event.detail?.tour ?? '';
+                    this.tourName = event.detail?.tourName ?? '';
                     this.open = true;
                     this.$nextTick(() => this.$refs.email?.focus());
                 });
@@ -80,7 +82,19 @@
                 {{ trans:strings.booking_modal_title }}
             </h2>
 
-            <form @submit.prevent="continueAsUser()" class="mt-8 flex flex-col gap-3">
+            <p
+                x-show="tourName"
+                x-cloak
+                class="mt-2 text-base md:text-lg text-accent-2 font-medium text-center"
+            >
+                <span x-text="tourName"></span>
+            </p>
+
+            <p class="mt-4 text-sm md:text-base text-text leading-[1.5] text-center">
+                {{ trans:strings.booking_modal_subtitle }}
+            </p>
+
+            <form @submit.prevent="continueAsUser()" class="mt-6 flex flex-col gap-3">
                 <label for="booking-modal-email" class="block text-base font-semibold text-foreground">{{ trans:strings.email_address }}</label>
                 <input
                     x-ref="email"

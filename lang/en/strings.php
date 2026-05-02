@@ -71,10 +71,11 @@ return [
     'previous' => 'previous',
 
     // Booking flow
-    'request_booking' => 'Request booking',
-    'booking_modal_title' => 'Log in or create an account to request booking',
+    'request_booking' => 'Make an enquiry',
+    'booking_modal_title' => 'Start planning your trip',
+    'booking_modal_subtitle' => 'Sign in to track your enquiry alongside your saved tours, or continue without an account.',
     'continue_action' => 'Continue',
-    'continue_as_guest' => 'Continue as a guest',
+    'continue_as_guest' => 'Continue without signing in',
     'booking_enquiry' => 'Booking enquiry',
     'booking_enquiry_subtitle' => 'Make an enquiry about your selected tour',
     'select_a_tour' => 'Select a tour',
@@ -95,8 +96,8 @@ return [
     'phone_number' => 'Phone number',
     'phone_placeholder' => '+61 412 345 678',
     'tour' => 'Tour',
-    'message' => 'Message',
-    'message_placeholder' => 'Enter your message…',
+    'message' => 'Travel plans',
+    'message_placeholder' => 'E.g. Number of travellers, duration, travel dates',
 
     // Tour overview
     'tours' => 'Tours',

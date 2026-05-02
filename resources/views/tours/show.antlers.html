@@ -26,16 +26,16 @@ transparent_header: true
 }}
     {{ if logged_in }}
         <a href="/booking?tour={{ slug }}" class="button button--outline button--gold button--large" wire:navigate>
-            <span>{{ trans:strings.request_booking ?? 'Request Booking' }}</span>
+            <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
         </a>
     {{ else }}
         <button
             type="button"
             x-data
-            @click="$dispatch('open-booking-modal', { tour: '{{ slug }}' })"
+            @click="$dispatch('open-booking-modal', { tour: '{{ slug }}', tourName: '{{ name | e }}' })"
             class="button button--outline button--gold button--large"
         >
-            <span>{{ trans:strings.request_booking ?? 'Request Booking' }}</span>
+            <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
         </button>
     {{ /if }}
 {{ /partial:components/tour_banner }}
