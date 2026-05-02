@@ -296,6 +296,18 @@
             <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
                 {{ partial src="_flux_modal_preview" id="preview" }}
             </div>
+
+            {{# Flyout variant — full bio for the Tour Leader block. #}}
+            <div class="stack-3 mt-6">
+                {{ partial:typography/h4 content="Flyout variant — profile bios" class="!mb-0" }}
+                {{ partial:typography/p
+                    content="<code>variant=&quot;flyout&quot;</code> slides the modal in from the side (default <code>position=&quot;right&quot;</code>; also <code>left</code> or <code>bottom</code>). Earmarked for the &ldquo;Read full bio&rdquo; affordance on <code>page_builder/_leader.antlers.html</code> so visitors stay on the tour page."
+                    class="!mb-0 max-w-3xl"
+                }}
+                <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                    {{ partial src="_flux_modal_flyout_preview" id="preview" }}
+                </div>
+            </div>
         </div>
 
         {{# Layouts &amp; shared #}}
