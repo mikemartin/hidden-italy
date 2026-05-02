@@ -73,7 +73,7 @@ return [
     // Booking flow
     'request_booking' => 'Make an enquiry',
     'booking_modal_title' => 'Start planning your trip',
-    'booking_modal_subtitle' => 'Sign in to track your enquiry alongside your saved tours, or continue without an account.',
+    'booking_modal_subtitle' => 'Sign in to track your enquiry and Wishlist, or continue without an account.',
     'continue_action' => 'Continue',
     'continue_as_guest' => 'Continue without signing in',
     'booking_enquiry' => 'Booking enquiry',

@@ -57,7 +57,7 @@ new #[Title('Your enquiries')] class extends Component {
                     'date' => $submission->date(),
                     'message' => (string) $submission->get('message_body'),
                     'tour_slug' => $slug,
-                    'tour_name' => (string) ($tour?->get('name') ?? $tour?->get('title') ?? $slug),
+                    'tour_name' => (string) ($tour?->get('name') ?? $slug),
                     'tour_url' => $tour?->absoluteUrl(),
                     'tour_region' => (string) ($tour?->get('region') ?? ''),
                     'tour_collection' => $tour?->collection()?->handle(),
