@@ -122,4 +122,5 @@ return [
     'travel_insurance' => 'Travel insurance conditions',
     'booking_cancellation' => 'Booking and cancellation conditions',
     'read_bio' => 'Read bio',
+    'change_tour' => 'Change tour',
 ];

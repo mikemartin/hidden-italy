@@ -48,16 +48,16 @@
             </section>
 
             {{# ====================================================
-                TOUR CARD — horizontal variant, real entry
+                TOUR DETAILS CARD — image-less summary, real entry
                 ==================================================== #}}
             <section class="stack-6">
                 <header class="stack-1">
-                    {{ partial:typography/h2 content="Tour — horizontal" }}
-                    {{ partial:typography/p_small content="Component &mdash; `components/_tour-card-horizontal.antlers.html`. Square (1:1) image on the left with the same metadata stack as the vertical card on the right. Earmarked for the booking page selected-tour confirmation strip." color="text-muted" class="!mb-0" }}
+                    {{ partial:typography/h2 content="Tour details" }}
+                    {{ partial:typography/p_small content="Component &mdash; `components/_tour-details-card.antlers.html`. Image-less tour summary for contexts where the tour image lives elsewhere on the page (booking-page confirmation strip, future related-tour rails inside an image gallery)." color="text-muted" class="!mb-0" }}
                 </header>
                 <div class="max-w-[680px]">
                     {{ collection:guided sort="title" limit="1" }}
-                        {{ partial:components/tour-card-horizontal }}
+                        {{ partial:components/tour-details-card }}
                     {{ /collection:guided }}
                 </div>
             </section>
