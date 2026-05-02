@@ -74,7 +74,6 @@ return [
     'request_booking' => 'Make an enquiry',
     'booking_modal_title' => 'Start planning your trip',
     'booking_modal_subtitle' => 'Sign in to track your enquiry, or continue without an account.',
-    'i_have_an_account' => 'I have an account',
     'continue_action' => 'Continue',
     'continue_as_guest' => 'Continue without signing in',
     'booking_enquiry' => 'Booking enquiry',

@@ -1,120 +1,25 @@
 {{#
     @name Request booking modal
-    @desc Authentication choice that intercepts "Make an enquiry" when
-          the visitor is logged out. Two paths:
-            - Sign in   → /login (with redirect carrying the tour back
-                          to /booking after auth)
-            - Continue  → /booking?guest=1 with the tour preserved
-          The email is collected on whichever destination the user
-          picks, not in the modal — that keeps /login as a plain
-          login page and removes the cross-page redirect chain that
-          previously bounced unknown emails through it.
+    @desc Auth gate for the "Make an enquiry" CTA on the tour show
+          page. The actual modal lives in
+          `resources/views/livewire/booking-modal.blade.php` — a
+          Livewire component that handles the email-existence check
+          and the password step inline so returning users sign in
+          without ever leaving the tour page.
 
-          The modal is rendered into a single Alpine x-data store at
-          the bottom of the tour show page; the "Make an enquiry"
-          button dispatches `open-booking-modal` with the tour slug
-          and name. Authenticated visitors bypass the modal entirely.
+          The only navigations the modal triggers are the ones that
+          need their own surface:
+            - /register   when the email is unknown (account creation)
+            - /booking    after a successful sign-in or guest choice
+
+          Authenticated visitors bypass the modal entirely — the
+          tour page CTA links straight to /booking for them.
 #}}
 
 <!-- /components/_request_booking_modal.antlers.html -->
 {{ if logged_in }}
-    {{# No-op when authenticated — the button links straight to /booking. #}}
+    {{# No-op when authenticated — the CTA links straight to /booking. #}}
 {{ else }}
-    <div
-        x-data="{
-            open: false,
-            tour: '',
-            tourName: '',
-            init() {
-                window.addEventListener('open-booking-modal', (event) => {
-                    this.tour = event.detail?.tour ?? '';
-                    this.tourName = event.detail?.tourName ?? '';
-                    this.open = true;
-                });
-            },
-            close() {
-                this.open = false;
-            },
-            redirectParam() {
-                return this.tour
-                    ? '/booking?tour=' + encodeURIComponent(this.tour)
-                    : '/booking';
-            },
-            continueAsUser() {
-                const params = new URLSearchParams();
-                params.set('redirect', this.redirectParam());
-                window.location.href = '/login?' + params.toString();
-            },
-            continueAsGuest() {
-                const params = new URLSearchParams();
-                if (this.tour) params.set('tour', this.tour);
-                params.set('guest', '1');
-                window.location.href = '/booking?' + params.toString();
-            },
-        }"
-        x-show="open"
-        x-cloak
-        x-transition.opacity
-        @keydown.escape.window="close()"
-        class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-foreground/40"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="booking-modal-title"
-    >
-        <div
-            @click.outside="close()"
-            class="relative w-full max-w-md bg-background rounded-3xl shadow-xl p-8 md:p-10"
-        >
-            <button
-                type="button"
-                @click="close()"
-                class="absolute right-5 top-5 inline-flex items-center justify-center text-foreground hover:text-foreground/70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold rounded-full"
-                aria-label="{{ trans:strings.close ?? 'Close' }}"
-            >
-                <x-lucide-x class="size-5" stroke-width="2" />
-            </button>
-
-            <h2
-                id="booking-modal-title"
-                class="font-display font-bold text-xl md:text-2xl leading-[1.25] md:leading-[1.5] text-foreground text-center"
-            >
-                {{ trans:strings.booking_modal_title }}
-            </h2>
-
-            <p
-                x-show="tourName"
-                x-cloak
-                class="mt-2 text-base md:text-lg text-accent-2 font-medium text-center"
-            >
-                <span x-text="tourName"></span>
-            </p>
-
-            <p class="mt-4 text-sm md:text-base text-text leading-[1.5] text-center">
-                {{ trans:strings.booking_modal_subtitle }}
-            </p>
-
-            <button
-                type="button"
-                @click="continueAsUser()"
-                class="button button--accent button--large w-full mt-6"
-            >
-                <span>{{ trans:strings.i_have_an_account }}</span>
-            </button>
-
-            <div class="my-6 flex items-center gap-4 text-sm text-text">
-                <span class="flex-1 h-px bg-foreground/10"></span>
-                <span class="uppercase tracking-[0.04em]">{{ trans:strings.or }}</span>
-                <span class="flex-1 h-px bg-foreground/10"></span>
-            </div>
-
-            <button
-                type="button"
-                @click="continueAsGuest()"
-                class="button button--large w-full bg-parchment-200 text-foreground hover:bg-parchment-300"
-            >
-                <span>{{ trans:strings.continue_as_guest }}</span>
-            </button>
-        </div>
-    </div>
+    <livewire:booking-modal />
 {{ /if }}
 <!-- End: /components/_request_booking_modal.antlers.html -->
