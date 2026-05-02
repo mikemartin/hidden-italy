@@ -34,7 +34,12 @@ Route::livewire('login', 'pages::auth.login')
     ->name('login');
 
 Route::middleware('auth')->group(function () {
-    Route::redirect('account', 'account/profile')->name('account');
+    // The account landing surfaces the user's activity (enquiries),
+    // not their settings — the booking-enquiry log is the headline
+    // reason to hold an account.
+    Route::redirect('account', 'account/enquiries')->name('account');
+
+    Route::livewire('account/enquiries', 'pages::settings.enquiries')->name('account.enquiries');
 
     Route::livewire('account/profile', 'pages::settings.profile')->name('account.profile');
     Route::livewire('account/password', 'pages::settings.password')->name('account.password');
