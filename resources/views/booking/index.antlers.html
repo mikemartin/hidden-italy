@@ -87,7 +87,7 @@
                         type="email"
                         id="booking-email"
                         name="email"
-                        value="{{ old:email }}"
+                        value="{{ old:email ?? get:email }}"
                         placeholder="{{ trans:strings.email_placeholder }}"
                         autocomplete="email"
                         required

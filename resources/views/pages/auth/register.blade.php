@@ -18,11 +18,13 @@
 
         <form method="POST" action="{{ route('register.store') }}" class="flex flex-col gap-6">
             @csrf
-            <!-- Name -->
+            <!-- Name — pre-filled when arriving via the post-thank-you
+                 account-creation prompt (`?name=`) so guests don't
+                 retype what they just submitted. -->
             <flux:input
                 name="name"
                 :label="__('Name')"
-                :value="old('name')"
+                :value="old('name', request()->query('name'))"
                 type="text"
                 required
                 autofocus
@@ -51,7 +53,9 @@
                 </flux:link>
             </div>
 
-            <!-- Password -->
+            <!-- Password — single field with Flux's viewable toggle so
+                 the user can verify what they typed without a second
+                 confirmation input. -->
             <flux:input
                 name="password"
                 :label="__('Password')"
@@ -59,17 +63,6 @@
                 required
                 autocomplete="new-password"
                 :placeholder="__('Password')"
-                viewable
-            />
-
-            <!-- Confirm Password -->
-            <flux:input
-                name="password_confirmation"
-                :label="__('Confirm password')"
-                type="password"
-                required
-                autocomplete="new-password"
-                :placeholder="__('Confirm password')"
                 viewable
             />
 

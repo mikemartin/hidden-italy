@@ -87,6 +87,9 @@ return [
     'thank_you_heading' => 'Thank you for your enquiry',
     'thank_you_message' => 'We have received your booking enquiry and will get back to you shortly with more information.',
     'go_back_home' => 'Go back home',
+    'create_account_prompt_title' => 'Track this enquiry in your account',
+    'create_account_prompt_body' => 'Create a free account to see this enquiry alongside any future ones in one place. We have already started filling in your details.',
+    'create_account_action' => 'Create my account',
 
     // Form fields
     'name' => 'Name',

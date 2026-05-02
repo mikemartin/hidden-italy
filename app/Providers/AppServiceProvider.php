@@ -5,9 +5,11 @@ namespace App\Providers;
 use App\Policies\CustomUserPolicy;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\ServiceProvider;
 use Livewire\Livewire;
+use Statamic\Events\SubmissionCreated;
 use Statamic\Facades\Form;
 use Statamic\Facades\Icon;
 use Statamic\Policies\UserPolicy;
@@ -49,6 +51,29 @@ class AppServiceProvider extends ServiceProvider
         $this->bootRoute();
 
         $this->bootFormConfig();
+
+        $this->bootBookingEnquiryFlash();
+    }
+
+    /**
+     * Flash the just-submitted booking enquiry's email and name to
+     * the session so the /booking/thank-you page can offer guest
+     * visitors one-click account creation pre-filled with their own
+     * details. Logged-in submissions are ignored — the prompt is
+     * guest-only.
+     */
+    private function bootBookingEnquiryFlash(): void
+    {
+        Event::listen(SubmissionCreated::class, function (SubmissionCreated $event) {
+            $submission = $event->submission;
+
+            if ($submission->form()?->handle() !== 'booking_enquiry') {
+                return;
+            }
+
+            session()->flash('booking_enquiry_email', (string) $submission->get('email'));
+            session()->flash('booking_enquiry_name', (string) $submission->get('name'));
+        });
     }
 
     public function bootRoute(): void

@@ -49,6 +49,7 @@
             continueAsGuest() {
                 const params = new URLSearchParams();
                 if (this.tour) params.set('tour', this.tour);
+                if (this.email) params.set('email', this.email);
                 params.set('guest', '1');
                 window.location.href = '/booking?' + params.toString();
             },

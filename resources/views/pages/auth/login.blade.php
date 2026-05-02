@@ -32,19 +32,12 @@ class extends Component
         // When an email comes in pre-filled (e.g. from the booking modal),
         // mirror what `continue()` would do so the visitor doesn't have
         // to click Continue again: jump to the password step for known
-        // users, bounce unknowns straight to register with the email and
-        // any redirect carried through.
+        // users, route unknowns based on context.
         if ($this->email !== '' && filter_var($this->email, FILTER_VALIDATE_EMAIL)) {
             $user = User::where('email', $this->email)->first();
 
             if (! $user) {
-                $params = ['email' => $this->email];
-
-                if ($redirect !== '') {
-                    $params['redirect'] = $redirect;
-                }
-
-                $this->redirect(route('register', $params), navigate: true);
+                $this->redirectUnknownEmail($redirect);
 
                 return;
             }
@@ -63,13 +56,44 @@ class extends Component
         $user = User::where('email', $this->email)->first();
 
         if (! $user) {
-            $this->redirect(route('register', ['email' => $this->email]), navigate: true);
+            // Pull the redirect off the request so the booking-flow
+            // shortcut also works when the visitor types a new email
+            // directly on /login (not just when arriving via the
+            // modal with `?email=` pre-filled).
+            $this->redirectUnknownEmail((string) request()->query('redirect', ''));
 
             return;
         }
 
         $this->foundUser = $user;
         $this->confirming = true;
+    }
+
+    /**
+     * Route an unknown email based on where the visitor was heading.
+     * Booking-flow visitors skip /register entirely and go straight
+     * to the guest booking form (account creation is offered after
+     * the thank-you page). Other contexts keep the existing
+     * register-then-redirect flow.
+     */
+    private function redirectUnknownEmail(string $redirect): void
+    {
+        if ($redirect !== '' && str_starts_with($redirect, '/booking')) {
+            $separator = str_contains($redirect, '?') ? '&' : '?';
+            $bookingUrl = $redirect.$separator.'guest=1&email='.urlencode($this->email);
+
+            $this->redirect($bookingUrl, navigate: true);
+
+            return;
+        }
+
+        $params = ['email' => $this->email];
+
+        if ($redirect !== '') {
+            $params['redirect'] = $redirect;
+        }
+
+        $this->redirect(route('register', $params), navigate: true);
     }
 
     public function changeEmail(): void
