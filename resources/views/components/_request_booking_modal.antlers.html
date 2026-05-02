@@ -1,16 +1,19 @@
 {{#
     @name Request booking modal
-    @desc Authentication gate that intercepts the "Request Booking" button
-          when the visitor is logged out. Asks for an email and either
-          redirects to /login (which runs the email-first 2-step flow and
-          falls through to /register for unknown emails) or sends the
-          user straight to /booking with a `guest=1` flag.
+    @desc Authentication choice that intercepts "Make an enquiry" when
+          the visitor is logged out. Two paths:
+            - Sign in   → /login (with redirect carrying the tour back
+                          to /booking after auth)
+            - Continue  → /booking?guest=1 with the tour preserved
+          The email is collected on whichever destination the user
+          picks, not in the modal — that keeps /login as a plain
+          login page and removes the cross-page redirect chain that
+          previously bounced unknown emails through it.
 
-          The modal is rendered into a single Alpine x-data store at the
-          bottom of the tour show page; the "Request Booking" button
-          dispatches `open-booking-modal` with the tour slug to show it.
-          When the visitor is already authenticated the button bypasses
-          the modal entirely and links directly to /booking.
+          The modal is rendered into a single Alpine x-data store at
+          the bottom of the tour show page; the "Make an enquiry"
+          button dispatches `open-booking-modal` with the tour slug
+          and name. Authenticated visitors bypass the modal entirely.
 #}}
 
 <!-- /components/_request_booking_modal.antlers.html -->
@@ -22,18 +25,15 @@
             open: false,
             tour: '',
             tourName: '',
-            email: '',
             init() {
                 window.addEventListener('open-booking-modal', (event) => {
                     this.tour = event.detail?.tour ?? '';
                     this.tourName = event.detail?.tourName ?? '';
                     this.open = true;
-                    this.$nextTick(() => this.$refs.email?.focus());
                 });
             },
             close() {
                 this.open = false;
-                this.email = '';
             },
             redirectParam() {
                 return this.tour
@@ -42,14 +42,12 @@
             },
             continueAsUser() {
                 const params = new URLSearchParams();
-                if (this.email) params.set('email', this.email);
                 params.set('redirect', this.redirectParam());
                 window.location.href = '/login?' + params.toString();
             },
             continueAsGuest() {
                 const params = new URLSearchParams();
                 if (this.tour) params.set('tour', this.tour);
-                if (this.email) params.set('email', this.email);
                 params.set('guest', '1');
                 window.location.href = '/booking?' + params.toString();
             },
@@ -95,23 +93,13 @@
                 {{ trans:strings.booking_modal_subtitle }}
             </p>
 
-            <form @submit.prevent="continueAsUser()" class="mt-6 flex flex-col gap-3">
-                <label for="booking-modal-email" class="block text-base font-semibold text-foreground">{{ trans:strings.email_address }}</label>
-                <input
-                    x-ref="email"
-                    x-model="email"
-                    type="email"
-                    id="booking-modal-email"
-                    required
-                    placeholder="{{ trans:strings.email_placeholder }}"
-                    autocomplete="email"
-                    class="block w-full rounded-full bg-card px-5 py-3 text-base text-foreground border border-text/20 placeholder:text-text/40 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent transition"
-                />
-
-                <button type="submit" class="button button--accent button--large w-full mt-3">
-                    <span>{{ trans:strings.continue_action }}</span>
-                </button>
-            </form>
+            <button
+                type="button"
+                @click="continueAsUser()"
+                class="button button--accent button--large w-full mt-6"
+            >
+                <span>{{ trans:strings.i_have_an_account }}</span>
+            </button>
 
             <div class="my-6 flex items-center gap-4 text-sm text-text">
                 <span class="flex-1 h-px bg-foreground/10"></span>
