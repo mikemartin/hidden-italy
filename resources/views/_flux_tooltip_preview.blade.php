@@ -18,7 +18,7 @@
     </flux:tooltip>
 
     <flux:tooltip toggleable>
-        <flux:button icon="information-circle" variant="ghost" size="sm" aria-label="More info" />
+        <flux:button icon="info" variant="ghost" size="sm" aria-label="More info" />
         <flux:tooltip.content class="max-w-[20rem]">
             <p>Toggleable tooltips are useful for touch devices &mdash; they open on tap rather than hover.</p>
         </flux:tooltip.content>

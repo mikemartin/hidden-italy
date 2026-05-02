@@ -264,7 +264,7 @@
         <div class="stack-4">
             {{ partial:typography/h2 content="Modal" class="!mb-0" }}
             {{ partial:typography/p
-                content="Preview of <code>flux:modal</code> for the booking enquiry auth gate (<code>components/_request_booking_modal.antlers.html</code>). Flux teleports the modal body to a top-level portal, so the open modal renders in the page&rsquo;s default surface mode &mdash; only the trigger button picks up the surrounding <code>.dark</code> wrapper."
+                content="Preview of <code>flux:modal</code> for the booking enquiry auth gate (<code>components/_request_booking_modal.antlers.html</code>)."
                 class="!mb-0 max-w-3xl"
             }}
 
@@ -293,18 +293,8 @@
                 </table>
             </div>
 
-            <div class="stack-3">
-                {{ partial:typography/h4 content="Light mode" class="!mb-0" }}
-                <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
-                    {{ partial src="_flux_modal_preview" id="light" }}
-                </div>
-            </div>
-
-            <div class="stack-3">
-                {{ partial:typography/h4 content="Dark mode" class="!mb-0" }}
-                <div class="dark rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
-                    {{ partial src="_flux_modal_preview" id="dark" }}
-                </div>
+            <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                {{ partial src="_flux_modal_preview" id="preview" }}
             </div>
         </div>
 
