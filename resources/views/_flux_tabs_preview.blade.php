@@ -11,9 +11,9 @@
 
 <flux:tab.group>
     <flux:tabs default="walk-{{ $id }}">
-        <flux:tab name="walk-{{ $id }}" icon="map">Walk</flux:tab>
-        <flux:tab name="accommodation-{{ $id }}" icon="home-modern">Accommodation</flux:tab>
-        <flux:tab name="food-{{ $id }}" icon="cake">Food</flux:tab>
+        <flux:tab name="walk-{{ $id }}" icon="footprints">Walk</flux:tab>
+        <flux:tab name="accommodation-{{ $id }}" icon="bed">Accommodation</flux:tab>
+        <flux:tab name="food-{{ $id }}" icon="utensils">Food</flux:tab>
     </flux:tabs>
 
     <flux:tab.panel name="walk-{{ $id }}">
