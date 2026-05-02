@@ -172,6 +172,142 @@
             </div>
         </div>
 
+        {{# Accordion — preview for the FAQs page-builder block #}}
+        <div class="stack-4">
+            {{ partial:typography/h2 content="Accordion" class="!mb-0" }}
+            {{ partial:typography/p
+                content="Preview of <code>flux:accordion</code> for the FAQ page-builder block (<code>page_builder/_faqs.antlers.html</code>). Shown below in light and dark surface modes."
+                class="!mb-0 max-w-3xl"
+            }}
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead class="border-b border-neutral/20">
+                        <tr>
+                            <th class="py-3 pr-4 font-bold text-sm uppercase tracking-wide">Component</th>
+                            <th class="py-3 font-bold text-sm uppercase tracking-wide">Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-neutral/10">
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:accordion</code></td>
+                            <td class="py-3 align-top text-sm">Wrapper. Optional <code>transition</code>, <code>exclusive</code> (one open at a time), <code>variant="reverse"</code>.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:accordion.item</code></td>
+                            <td class="py-3 align-top text-sm">Single section. Use <code>heading="…"</code> shorthand or nested <code>flux:accordion.heading</code> + <code>flux:accordion.content</code>. <code>expanded</code> opens by default.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="stack-3">
+                {{ partial:typography/h4 content="Light mode" class="!mb-0" }}
+                <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                    {{ partial src="_flux_accordion_preview" id="light" }}
+                </div>
+            </div>
+
+            <div class="stack-3">
+                {{ partial:typography/h4 content="Dark mode" class="!mb-0" }}
+                <div class="dark rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                    {{ partial src="_flux_accordion_preview" id="dark" }}
+                </div>
+            </div>
+        </div>
+
+        {{# Tooltip — preview for trail stat hints #}}
+        <div class="stack-4">
+            {{ partial:typography/h2 content="Tooltip" class="!mb-0" }}
+            {{ partial:typography/p
+                content="Preview of <code>flux:tooltip</code> for trail-stat hints in the Experience block (and similar contextual help)."
+                class="!mb-0 max-w-3xl"
+            }}
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead class="border-b border-neutral/20">
+                        <tr>
+                            <th class="py-3 pr-4 font-bold text-sm uppercase tracking-wide">Component</th>
+                            <th class="py-3 font-bold text-sm uppercase tracking-wide">Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-neutral/10">
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:tooltip</code></td>
+                            <td class="py-3 align-top text-sm">Wraps a trigger. <code>content</code> for plain text, <code>position</code> (top / right / bottom / left), <code>toggleable</code> for tap-to-open, <code>kbd</code> for shortcut hints.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:tooltip.content</code></td>
+                            <td class="py-3 align-top text-sm">Slot for rich tooltip content when <code>content="…"</code> isn&rsquo;t enough.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="stack-3">
+                {{ partial:typography/h4 content="Light mode" class="!mb-0" }}
+                <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                    {{ partial src="_flux_tooltip_preview" }}
+                </div>
+            </div>
+
+            <div class="stack-3">
+                {{ partial:typography/h4 content="Dark mode" class="!mb-0" }}
+                <div class="dark rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                    {{ partial src="_flux_tooltip_preview" }}
+                </div>
+            </div>
+        </div>
+
+        {{# Modal — preview for the booking enquiry auth gate #}}
+        <div class="stack-4">
+            {{ partial:typography/h2 content="Modal" class="!mb-0" }}
+            {{ partial:typography/p
+                content="Preview of <code>flux:modal</code> for the booking enquiry auth gate (<code>components/_request_booking_modal.antlers.html</code>). Flux teleports the modal body to a top-level portal, so the open modal renders in the page&rsquo;s default surface mode &mdash; only the trigger button picks up the surrounding <code>.dark</code> wrapper."
+                class="!mb-0 max-w-3xl"
+            }}
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead class="border-b border-neutral/20">
+                        <tr>
+                            <th class="py-3 pr-4 font-bold text-sm uppercase tracking-wide">Component</th>
+                            <th class="py-3 font-bold text-sm uppercase tracking-wide">Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-neutral/10">
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:modal</code></td>
+                            <td class="py-3 align-top text-sm">Modal body. <code>name</code> (required, unique per page), <code>variant</code> (default / flyout / bare), <code>position</code>, <code>:dismissible="false"</code>, <code>wire:model</code>, <code>@close</code> / <code>@cancel</code>.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:modal.trigger</code></td>
+                            <td class="py-3 align-top text-sm">Wraps the element that opens the modal. <code>name</code> matches the modal; optional <code>shortcut</code>.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:modal.close</code></td>
+                            <td class="py-3 align-top text-sm">Wraps any element that should close the modal when clicked.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="stack-3">
+                {{ partial:typography/h4 content="Light mode" class="!mb-0" }}
+                <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                    {{ partial src="_flux_modal_preview" id="light" }}
+                </div>
+            </div>
+
+            <div class="stack-3">
+                {{ partial:typography/h4 content="Dark mode" class="!mb-0" }}
+                <div class="dark rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                    {{ partial src="_flux_modal_preview" id="dark" }}
+                </div>
+            </div>
+        </div>
+
         {{# Layouts &amp; shared #}}
         <div class="stack-4">
             {{ partial:typography/h2 content="Layouts &amp; shared" class="!mb-0" }}
