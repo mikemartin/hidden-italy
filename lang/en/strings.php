@@ -123,4 +123,5 @@ return [
     'booking_cancellation' => 'Booking and cancellation conditions',
     'read_bio' => 'Read bio',
     'change_tour' => 'Change tour',
+    'pick_a_tour_to_enquire' => 'Pick a tour below to start your booking enquiry.',
 ];

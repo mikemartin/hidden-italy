@@ -38,7 +38,7 @@
             {{ /if }}
         {{ /collection }}
         <a
-            href="/booking{{ if as_guest && logged_out }}?guest=1{{ /if }}"
+            href="/tours?from=booking"
             wire:navigate
             class="self-end inline-flex items-center gap-1.5 text-sm font-medium text-text/70 hover:text-foreground"
         >
