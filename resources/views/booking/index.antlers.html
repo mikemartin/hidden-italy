@@ -1,7 +1,7 @@
 {{#
     @name Booking enquiry
     @desc Tour booking enquiry form. Logged-in users see a slim form
-          (tour + travel plans) with name / email / phone passed as
+          (travel plans only) with name / email / phone passed as
           hidden inputs from their account; guests see the full form
           with a "Have an account? Log in" link below the submit
           button. Both submit to the `booking_enquiry` Statamic form
@@ -11,7 +11,8 @@
           guided or self-guided collection; the tour-details card
           confirms the selection above the form. Visitors arriving at
           /booking with no `?tour=` are redirected to /tours via the
-          route-level middleware in routes/web.php.
+          route-level middleware in routes/web.php, so the page can
+          assume the slug is always present.
 #}}
 
 <!-- /booking/index.antlers.html -->
@@ -30,25 +31,15 @@
         </p>
     </div>
 
-    {{# Selected tour confirmation strip. Renders the tour-details
-        card (no image, no link) above the form so the user can see
-        which tour they're enquiring about. The "Change tour" link
-        clears `?tour=` so the form falls back to the picker. #}}
-    {{ if selected_tour_slug }}
-        {{ collection from="guided|self-guided" }}
-            {{ if slug == selected_tour_slug }}
-                {{ partial:components/tour-details-card linkless="true" }}
-            {{ /if }}
-        {{ /collection }}
-        <a
-            href="/tours?from=booking"
-            wire:navigate
-            class="self-end inline-flex items-center gap-1.5 text-sm font-medium text-text/70 hover:text-foreground"
-        >
-            <x-lucide-pen-line class="size-4" stroke-width="1.75" aria-hidden="true" />
-            {{ trans:strings.change_tour ?? 'Change tour' }}
-        </a>
-    {{ /if }}
+    {{# Selected tour confirmation strip. The route middleware in
+        routes/web.php guarantees `?tour=` is set by the time we
+        render, so the inner collection match is the only filter
+        we need. #}}
+    {{ collection from="guided|self-guided" }}
+        {{ if slug == selected_tour_slug }}
+            {{ partial:components/tour-details-card }}
+        {{ /if }}
+    {{ /collection }}
 
     {{ form:create handle="booking_enquiry" redirect="/booking/thank-you" error_redirect="/booking" class="flex flex-col gap-6" }}
         {{ if errors }}
@@ -113,40 +104,10 @@
             </div>
         {{ /if }}
 
-        {{# Tour input. When `?tour=` is set, the details card above
-            confirms the selection so the picker is replaced with a
-            hidden input. Otherwise we fall back to the grouped
-            <select> with Guided + Self-guided optgroups. #}}
-        {{ if selected_tour_slug }}
-            <input type="hidden" name="tour" value="{{ selected_tour_slug }}">
-        {{ else }}
-            <div class="flex flex-col gap-2">
-                <label for="booking-tour" class="block text-base font-semibold text-foreground">{{ trans:strings.tour }}</label>
-                <div class="relative">
-                    <select
-                        id="booking-tour"
-                        name="tour"
-                        required
-                        class="block w-full appearance-none rounded-full bg-card pl-5 pr-12 py-3 text-base text-foreground border border-text/20 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent transition"
-                    >
-                        <option value="" disabled selected>{{ trans:strings.select_a_tour }}</option>
-
-                        <optgroup label="{{ trans:strings.guided_tours }}">
-                            {{ collection:guided sort="name:asc" }}
-                                <option value="{{ slug }}">{{ name or title }}</option>
-                            {{ /collection:guided }}
-                        </optgroup>
-
-                        <optgroup label="{{ trans:strings.self_guided_tours }}">
-                            {{ collection:self-guided sort="name:asc" }}
-                                <option value="{{ slug }}">{{ name or title }}</option>
-                            {{ /collection:self-guided }}
-                        </optgroup>
-                    </select>
-                    <x-lucide-chevron-down class="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-text/60 pointer-events-none" />
-                </div>
-            </div>
-        {{ /if }}
+        {{# Tour slug is guaranteed by the route middleware so there's
+            no picker here — just a hidden input that mirrors the
+            confirmation card above. #}}
+        <input type="hidden" name="tour" value="{{ selected_tour_slug }}">
 
         <div class="flex flex-col gap-2">
             <label for="booking-message" class="block text-base font-semibold text-foreground">{{ trans:strings.message }}</label>

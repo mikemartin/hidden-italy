@@ -74,9 +74,6 @@ return [
     'request_booking' => 'Make an enquiry',
     'booking_enquiry' => 'Booking enquiry',
     'booking_enquiry_subtitle' => 'Make an enquiry about your selected tour',
-    'select_a_tour' => 'Select a tour',
-    'guided_tours' => 'Guided tours',
-    'self_guided_tours' => 'Self-guided tours',
     'send_enquiry' => 'Send enquiry',
     'have_an_account' => 'Have an account?',
     'log_in' => 'Log in',
@@ -119,6 +116,5 @@ return [
     'travel_insurance' => 'Travel insurance conditions',
     'booking_cancellation' => 'Booking and cancellation conditions',
     'read_bio' => 'Read bio',
-    'change_tour' => 'Change tour',
     'pick_a_tour_to_enquire' => 'Pick a tour below to start your booking enquiry.',
 ];

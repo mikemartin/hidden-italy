@@ -8,31 +8,18 @@
           shows the hero on the right; future related-tour rails
           inside an existing image gallery).
 
-          Inherits the tour entry scope: name, region, summary, days,
-          seasons, grade, date, url, slug, plus the collection
-          handle.
+          The card is intentionally non-interactive — no stretched
+          link to the tour page — because the only place that uses
+          it in production is the booking-page confirmation strip,
+          where clicking through would take the user away from the
+          form they're trying to submit.
 
-    @param linkless Pass `linkless="true"` to omit the stretched
-                    navigation link — useful when the card is used
-                    as a static confirmation strip (e.g. the
-                    selected tour above the booking form, where
-                    clicking through would defeat the point).
+          Inherits the tour entry scope: name, region, summary, days,
+          seasons, grade, date, slug, plus the collection handle.
 #}}
 
 <!-- /components/_tour-details-card.antlers.html -->
-<article class="group relative isolate bg-card border border-parchment-200 rounded-xl shadow-sm overflow-hidden">
-
-    {{# Stretched link — covers the whole card for navigation. Skipped
-        when the card is used as a static confirmation strip. #}}
-    {{ unless linkless }}
-        <a
-            href="{{ url }}"
-            class="absolute inset-0 z-10 rounded-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-        >
-            <span class="sr-only">View {{ name }}</span>
-        </a>
-    {{ /unless }}
-
+<article class="relative bg-card border border-parchment-200 rounded-xl shadow-sm overflow-hidden">
     <div class="flex flex-col gap-3 px-5 py-5 sm:px-6 sm:py-6">
         {{# Region label + Guided / Self-guided collection badge. #}}
         <div class="flex items-center justify-between gap-3">
