@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "@splidejs/splide/dist/css/splide-core.min.css" layer(components);
+@import "../../vendor/livewire/flux/dist/flux.css";
 
 @source "../../vendor/livewire/flux/stubs/**/*.blade.php";
 @import "./fonts.css";

@@ -6,7 +6,7 @@
 
 <div class="flex flex-wrap items-center gap-3">
     <flux:tooltip content="Total distance covered across the full itinerary.">
-        <flux:button icon="footprints" variant="subtle">62 km</flux:button>
+        <flux:button icon="route" variant="subtle">62 km</flux:button>
     </flux:tooltip>
 
     <flux:tooltip content="Total elevation gain over the trip." position="bottom">
@@ -14,7 +14,7 @@
     </flux:tooltip>
 
     <flux:tooltip content="Difficulty grading on our 1&ndash;5 scale, where 5 is the most demanding.">
-        <flux:button icon="gauge" variant="subtle">Grade 3 / 5</flux:button>
+        <flux:button icon="footprints" variant="subtle">Grade 3 / 5</flux:button>
     </flux:tooltip>
 
     <flux:tooltip toggleable>
