@@ -5,7 +5,7 @@ namespace App\Providers;
 use App\Fieldtypes\BookingStatus;
 use App\Policies\CustomUserPolicy;
 use Illuminate\Auth\Events\Login;
-use Illuminate\Auth\Events\Registered;
+use Illuminate\Auth\Events\Verified;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Event;
@@ -89,22 +89,25 @@ class AppServiceProvider extends ServiceProvider
     }
 
     /**
-     * When a user registers (or signs in), claim any booking_enquiry
-     * submissions filed earlier as a guest with the same email — set
-     * the new user_id so they appear on /account/enquiries.
+     * When a user verifies their email (or signs in), claim any
+     * booking_enquiry submissions filed earlier as a guest with the
+     * same email — set the new user_id so they appear on
+     * /account/enquiries.
      *
-     * Closes the loop on the post-thank-you "Create my account"
-     * prompt, which would otherwise hand the user a fresh-but-empty
-     * enquiries page despite having literally just submitted one.
-     * Also catches the rarer case of a returning user who has past
-     * guest submissions on file from before they had an account.
+     * Linking is gated on email ownership: it runs on `Verified`
+     * (not `Registered`) so a squatter who registers with someone
+     * else's email never inherits that person's submissions —
+     * they can't verify the inbox, so the link never happens.
+     * `Login` is kept for the case of a returning user who has
+     * past guest submissions on file from before they had an
+     * account; their email is already verified by then.
      *
      * Email comparison is case-insensitive; the operation is
      * idempotent so re-running on every login is safe.
      */
     private function bootGuestEnquiryLinking(): void
     {
-        $linkGuestEnquiries = function (Login|Registered $event): void {
+        $linkGuestEnquiries = function (Login|Verified $event): void {
             $user = $event->user;
 
             if (! $user || ! $user->email) {
@@ -129,7 +132,7 @@ class AppServiceProvider extends ServiceProvider
                 });
         };
 
-        Event::listen(Registered::class, $linkGuestEnquiries);
+        Event::listen(Verified::class, $linkGuestEnquiries);
         Event::listen(Login::class, $linkGuestEnquiries);
     }
 
