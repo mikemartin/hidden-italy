@@ -43,14 +43,6 @@
                                 {{ short_bio }}
                             </p>
                         {{ /if }}
-
-                        <a
-                            href="{{ url }}"
-                            class="inline-flex items-center gap-1.5 mt-2 font-display font-medium text-base text-foreground underline underline-offset-4 decoration-gold hover:decoration-foreground"
-                        >
-                            <span>{{ trans:strings.read_full_bio ?? "Read full bio" }}</span>
-                            <x-lucide-arrow-up-right class="size-4" stroke-width="1.75" aria-hidden="true" />
-                        </a>
                     </div>
                 </article>
             {{ /block:person }}

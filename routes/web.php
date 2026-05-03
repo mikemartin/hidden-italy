@@ -3,20 +3,33 @@
 use Illuminate\Support\Facades\Route;
 
 Route::statamic('wishlist', 'wishlist.index', [
-   'title' => 'Wishlist'
+    'title' => 'Wishlist',
 ]);
 
-Route::statamic('account', 'account.index', [
-   'title' => 'Account',
-   'layout' => 'account.layout'
+Route::statamic('booking', 'booking.index', [
+    'title' => 'Booking enquiry',
+    'layout' => 'booking.layout',
 ]);
 
-Route::statamic('login', 'account.login', [
-   'title' => 'Login',
-   'layout' => 'account.layout'
+Route::statamic('booking/thank-you', 'booking.thank-you', [
+    'title' => 'Thank you for your enquiry',
 ]);
 
-Route::statamic('register', 'account.register', [
-   'title' => 'Create account',
-   'layout' => 'account.layout'
+Route::statamic('flux-components', 'flux-components', [
+    'title' => 'Flux Components',
 ]);
+
+// Override Fortify's GET /login with a Volt-mounted route so the email-first
+// 2-step flow can use Livewire state. Fortify still owns POST /login (login.store).
+Route::livewire('login', 'pages::auth.login')
+    ->middleware('guest')
+    ->name('login');
+
+Route::middleware('auth')->group(function () {
+    Route::redirect('account', 'account/profile')->name('account');
+
+    Route::livewire('account/profile', 'pages::settings.profile')->name('account.profile');
+    Route::livewire('account/password', 'pages::settings.password')->name('account.password');
+    Route::livewire('account/emergency-contact', 'pages::settings.emergency-contact')->name('account.emergency-contact');
+    Route::livewire('account/postal-address', 'pages::settings.postal-address')->name('account.postal-address');
+});

@@ -1,0 +1,168 @@
+{{#
+    @name Booking enquiry
+    @desc Tour booking enquiry form. Logged-in users see a slim form
+          (tour + travel plans) with name / email / phone passed as
+          hidden inputs from their account; guests see the full form
+          with a "Have an account? Log in" link below the submit
+          button. Both submit to the `booking_enquiry` Statamic form
+          and land on /booking/thank-you.
+
+          Reads `tour` from the query string — a slug from either the
+          guided or self-guided collection — and pre-selects the
+          matching option in the grouped picker. Visitors who land
+          here without a tour set just pick from the dropdown. The
+          guest email field also pre-fills from `?email=` so the
+          tour-show modal can pass the visitor's typed email through.
+#}}
+
+<!-- /booking/index.antlers.html -->
+{{# Resolve the selected tour slug from `?tour=` (may be empty). #}}
+{{ selected_tour_slug = get:tour }}
+
+{{ as_guest = !logged_in }}
+
+<div class="flex flex-col gap-6">
+    <div class="flex w-full flex-col gap-3 text-center">
+        <h1 class="font-display font-bold text-xl md:text-2xl leading-[1.25] md:leading-[1.5] text-foreground">
+            {{ trans:strings.booking_enquiry }}
+        </h1>
+        <p class="text-sm md:text-base font-normal leading-[1.5] text-text">
+            {{ trans:strings.booking_enquiry_subtitle }}
+        </p>
+    </div>
+
+    {{ form:create handle="booking_enquiry" redirect="/booking/thank-you" error_redirect="/booking" class="flex flex-col gap-6" }}
+        {{ if errors }}
+            <div class="rounded-2xl border border-terracotta/30 bg-terracotta/5 p-4 text-sm text-terracotta">
+                {{ errors }}
+                    <p class="m-0">{{ value }}</p>
+                {{ /errors }}
+            </div>
+        {{ /if }}
+
+        {{ if !as_guest }}
+            {{# Hidden user fields piped through from the current user. #}}
+            {{ current_user }}
+                <input type="hidden" name="name"     value="{{ name }}">
+                <input type="hidden" name="email"    value="{{ email }}">
+                <input type="hidden" name="phone"    value="{{ phone_home or phone_italy }}">
+                <input type="hidden" name="user_id"  value="{{ id }}">
+            {{ /current_user }}
+        {{ else }}
+            {{# Guest fields. #}}
+            <div class="flex flex-col gap-2">
+                <label for="booking-name" class="block text-base font-semibold text-foreground">{{ trans:strings.name }}</label>
+                <input
+                    type="text"
+                    id="booking-name"
+                    name="name"
+                    value="{{ old:name }}"
+                    placeholder="{{ trans:strings.full_name }}"
+                    autocomplete="name"
+                    required
+                    class="block w-full rounded-full bg-card px-5 py-3 text-base text-foreground border border-text/20 placeholder:text-text/40 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent transition"
+                />
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div class="flex flex-col gap-2">
+                    <label for="booking-email" class="block text-base font-semibold text-foreground">{{ trans:strings.email_address }}</label>
+                    <input
+                        type="email"
+                        id="booking-email"
+                        name="email"
+                        value="{{ old:email ?? get:email }}"
+                        placeholder="{{ trans:strings.email_placeholder }}"
+                        autocomplete="email"
+                        required
+                        class="block w-full rounded-full bg-card px-5 py-3 text-base text-foreground border border-text/20 placeholder:text-text/40 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent transition"
+                    />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                    <label for="booking-phone" class="block text-base font-semibold text-foreground">{{ trans:strings.phone_number }}</label>
+                    <input
+                        type="tel"
+                        id="booking-phone"
+                        name="phone"
+                        value="{{ old:phone }}"
+                        placeholder="{{ trans:strings.phone_placeholder }}"
+                        autocomplete="tel"
+                        class="block w-full rounded-full bg-card px-5 py-3 text-base text-foreground border border-text/20 placeholder:text-text/40 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent transition"
+                    />
+                </div>
+            </div>
+        {{ /if }}
+
+        {{# Tour selector — single grouped <select> with Guided +
+            Self-guided optgroups. The current tour slug from `?tour=`
+            becomes the `selected` option so users arriving from a
+            tour page land with their tour pre-chosen. #}}
+        <div class="flex flex-col gap-2">
+            <label for="booking-tour" class="block text-base font-semibold text-foreground">{{ trans:strings.tour }}</label>
+            <div class="relative">
+                <select
+                    id="booking-tour"
+                    name="tour"
+                    required
+                    class="block w-full appearance-none rounded-full bg-card pl-5 pr-12 py-3 text-base text-foreground border border-text/20 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent transition"
+                >
+                    <option value="" disabled {{ if !selected_tour_slug }}selected{{ /if }}>{{ trans:strings.select_a_tour }}</option>
+
+                    <optgroup label="{{ trans:strings.guided_tours }}">
+                        {{ collection:guided sort="name:asc" }}
+                            <option
+                                value="{{ slug }}"
+                                {{ if slug == selected_tour_slug }}selected{{ /if }}
+                            >{{ name or title }}</option>
+                        {{ /collection:guided }}
+                    </optgroup>
+
+                    <optgroup label="{{ trans:strings.self_guided_tours }}">
+                        {{ collection:self-guided sort="name:asc" }}
+                            <option
+                                value="{{ slug }}"
+                                {{ if slug == selected_tour_slug }}selected{{ /if }}
+                            >{{ name or title }}</option>
+                        {{ /collection:self-guided }}
+                    </optgroup>
+                </select>
+                <x-lucide-chevron-down class="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-text/60 pointer-events-none" />
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-2">
+            <label for="booking-message" class="block text-base font-semibold text-foreground">{{ trans:strings.message }}</label>
+            <textarea
+                id="booking-message"
+                name="message_body"
+                rows="5"
+                placeholder="{{ trans:strings.message_placeholder }}"
+                required
+                class="block w-full rounded-2xl bg-card px-5 py-3 text-base text-foreground border border-text/20 placeholder:text-text/40 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent transition"
+            >{{ old:message_body }}</textarea>
+        </div>
+
+        {{ captcha }}
+
+        {{ if error:captcha }}
+            <p class="text-accent-2 text-xs font-medium">{{ error:captcha }}</p>
+        {{ /if }}
+
+        {{# Consent toggle is required by the form blueprint; auto-set true
+            here since the wireframe doesn't expose a checkbox. #}}
+        <input type="hidden" name="consent" value="1">
+
+        <button type="submit" class="button button--accent button--large w-full" data-test="booking-submit">
+            <span>{{ trans:strings.send_enquiry }}</span>
+        </button>
+
+        {{ if as_guest && logged_out }}
+            <p class="text-center text-sm text-text">
+                {{ trans:strings.have_an_account }}
+                <a href="/login?redirect=/booking{{ if selected_tour_slug }}?tour={{ selected_tour_slug }}{{ /if }}" wire:navigate class="font-semibold text-foreground underline decoration-accent hover:text-accent">{{ trans:strings.log_in }}</a>
+            </p>
+        {{ /if }}
+    {{ /form:create }}
+</div>
+<!-- End: /booking/index.antlers.html -->

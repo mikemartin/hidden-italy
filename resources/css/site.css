@@ -1,5 +1,8 @@
 @import "tailwindcss";
 @import "@splidejs/splide/dist/css/splide-core.min.css" layer(components);
+@import "../../vendor/livewire/flux/dist/flux.css";
+
+@source "../../vendor/livewire/flux/stubs/**/*.blade.php";
 @import "./fonts.css";
 @import "./buttons.css";
 @import "./peak.css";
@@ -314,10 +317,12 @@
     to { width: 100%; }
 }
 
-/* Footer decorative wordmark — uses the SVG as a CSS mask so the colour
-   comes from the surrounding `text-*` utility. The SVG itself ships with
-   white-filled paths; the mask drops the original colour entirely. */
-.footer-wordmark {
+/* Hidden Italy wordmark — uses the SVG as a CSS mask so the colour comes
+   from the surrounding `text-*` utility. The SVG itself ships with
+   white-filled paths; the mask drops the original colour entirely.
+   Pair with a height utility (`h-10`, `h-12`); width follows from
+   `aspect-ratio`. Used by the auth layouts and the footer wordmark. */
+.brand-wordmark {
     aspect-ratio: 329 / 71;
     background-color: currentColor;
     -webkit-mask: url('/visuals/hidden-italy-logo.svg') no-repeat center / contain;

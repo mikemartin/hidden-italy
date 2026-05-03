@@ -1,17 +1,64 @@
 {{ if logged_in }}
-    {{ current_user}}
-    <a href="/account" wire:navigate class="flex items-center hover:text-white/80">
-        <x-lucide-circle-user-round class="w-6 h-6 stroke-[1.5] xl:mr-2" />
-        <span class="hidden xl:inline font-medium text-sm leading-[1.6] whitespace-nowrap">
-            {{ name }}
-        </span>
-    </a>
-    {{ /current_user}}
+    {{ current_user }}
+        <div x-data="{ open: false }" @keydown.escape.window="open = false" class="relative">
+            <button
+                type="button"
+                @click="open = !open"
+                :aria-expanded="open"
+                aria-haspopup="menu"
+                class="flex items-center hover:text-white/80 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold rounded"
+            >
+                <x-lucide-circle-user-round class="w-6 h-6 stroke-[1.5] xl:mr-2" />
+                <span class="hidden xl:inline font-medium text-sm leading-[1.6] whitespace-nowrap">{{ name }}</span>
+            </button>
+
+            <div
+                x-show="open"
+                x-cloak
+                x-transition.opacity
+                @click.outside="open = false"
+                role="menu"
+                class="absolute right-0 mt-2 w-56 rounded-2xl bg-card text-text shadow-lg ring-1 ring-foreground/10 py-2 z-50"
+            >
+                <a
+                    href="/account/profile"
+                    wire:navigate
+                    role="menuitem"
+                    class="flex items-center gap-3 px-4 py-2 hover:bg-accent-light"
+                >
+                    <x-lucide-circle-user-round class="w-5 h-5 stroke-[1.5]" />
+                    Account settings
+                </a>
+
+                <a
+                    href="/wishlist"
+                    wire:navigate
+                    role="menuitem"
+                    class="flex items-center gap-3 px-4 py-2 hover:bg-accent-light"
+                >
+                    <x-lucide-heart class="w-5 h-5 stroke-[1.5]" />
+                    Wishlist
+                </a>
+
+                <hr class="my-2 border-foreground/10" />
+
+                <form method="POST" action="/logout">
+                    <input type="hidden" name="_token" value="{{ csrf_token }}">
+                    <button
+                        type="submit"
+                        role="menuitem"
+                        class="w-full text-left flex items-center gap-3 px-4 py-2 hover:bg-accent-light"
+                    >
+                        <x-lucide-log-out class="w-5 h-5 stroke-[1.5]" />
+                        Log out
+                    </button>
+                </form>
+            </div>
+        </div>
+    {{ /current_user }}
 {{ else }}
     <a href="/login" wire:navigate class="flex items-center hover:text-white/80">
         <x-lucide-circle-user-round class="w-6 h-6 stroke-[1.5] xl:mr-2" />
-        <span class="hidden xl:inline font-medium text-sm leading-[1.6] whitespace-nowrap">
-            Account
-        </span>
+        <span class="hidden xl:inline font-medium text-sm leading-[1.6] whitespace-nowrap">Account</span>
     </a>
 {{ /if }}

@@ -1,0 +1,255 @@
+{{#
+    @name Flux Components Reference
+    @desc Documentation page listing every Flux UI component used across
+          the auth, account/settings, and shared layout areas.
+#}}
+
+<!-- /flux-components.antlers.html -->
+<main id="content" class="fluid-grid py-12 md:py-16 lg:py-24">
+    <section class="span-content stack-16">
+
+        {{# Page header #}}
+        <div class="stack-4">
+            {{ partial:typography/h1 content="Flux Components" class="!mb-0" }}
+            {{ partial:typography/p_large
+                content="Reference for every Flux UI component currently used in the auth, account and shared layout areas. The booking enquiry flow uses no Flux components."
+                class="!mb-0 max-w-3xl"
+            }}
+        </div>
+
+        {{# Auth pages #}}
+        <div class="stack-4">
+            {{ partial:typography/h2 content="Auth pages" class="!mb-0" }}
+            {{ partial:typography/p
+                content="<code>resources/views/pages/auth/</code>"
+                class="!mb-0"
+            }}
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead class="border-b border-neutral/20">
+                        <tr>
+                            <th class="py-3 pr-4 font-bold text-sm uppercase tracking-wide">Component</th>
+                            <th class="py-3 pr-4 font-bold text-sm uppercase tracking-wide">Used in</th>
+                            <th class="py-3 font-bold text-sm uppercase tracking-wide">Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-neutral/10">
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:input</code></td>
+                            <td class="py-3 pr-4 align-top text-sm">login, register, forgot-password, reset-password, confirm-password</td>
+                            <td class="py-3 align-top text-sm">Text, email and password fields with built-in label and validation messaging.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:checkbox</code></td>
+                            <td class="py-3 pr-4 align-top text-sm">login</td>
+                            <td class="py-3 align-top text-sm">"Remember me" checkbox.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:link</code></td>
+                            <td class="py-3 pr-4 align-top text-sm">login, register, forgot-password</td>
+                            <td class="py-3 align-top text-sm">Inter-page navigation (Sign up / Log in / Forgot password) with <code>wire:navigate</code>.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:text</code></td>
+                            <td class="py-3 pr-4 align-top text-sm">verify-email</td>
+                            <td class="py-3 align-top text-sm">Body copy and the verification-link-sent success notice.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            {{ partial:typography/p_small
+                content="Submit buttons on these pages are <strong>not</strong> Flux — they use the site design system (<code>button button--accent button--large</code>)."
+                class="!mb-0 text-text/70"
+            }}
+        </div>
+
+        {{# Account / settings pages #}}
+        <div class="stack-4">
+            {{ partial:typography/h2 content="Account &amp; settings pages" class="!mb-0" }}
+            {{ partial:typography/p
+                content="<code>resources/views/pages/settings/</code>"
+                class="!mb-0"
+            }}
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead class="border-b border-neutral/20">
+                        <tr>
+                            <th class="py-3 pr-4 font-bold text-sm uppercase tracking-wide">Component</th>
+                            <th class="py-3 pr-4 font-bold text-sm uppercase tracking-wide">Used in</th>
+                            <th class="py-3 font-bold text-sm uppercase tracking-wide">Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-neutral/10">
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:input</code></td>
+                            <td class="py-3 pr-4 align-top text-sm">profile, password, postal-address, emergency-contact</td>
+                            <td class="py-3 align-top text-sm">All settings form fields.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:heading</code></td>
+                            <td class="py-3 pr-4 align-top text-sm">every settings form</td>
+                            <td class="py-3 align-top text-sm"><code>sr-only</code> form titles for assistive tech.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:select</code> + <code>flux:select.option</code></td>
+                            <td class="py-3 pr-4 align-top text-sm">postal-address</td>
+                            <td class="py-3 align-top text-sm">Country and state dropdowns.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:navlist</code> + <code>flux:navlist.item</code></td>
+                            <td class="py-3 pr-4 align-top text-sm">settings/layout</td>
+                            <td class="py-3 align-top text-sm">Sidebar navigation between settings sub-pages.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:separator</code></td>
+                            <td class="py-3 pr-4 align-top text-sm">settings/layout</td>
+                            <td class="py-3 align-top text-sm">Mobile divider between nav and content.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:link</code> + <code>flux:text</code></td>
+                            <td class="py-3 pr-4 align-top text-sm">profile</td>
+                            <td class="py-3 align-top text-sm">"Resend verification" link and email-unverified notice.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        {{# Tooltip — preview for trail stat hints #}}
+        <div class="stack-4">
+            {{ partial:typography/h2 content="Tooltip" class="!mb-0" }}
+            {{ partial:typography/p
+                content="Preview of <code>flux:tooltip</code> for trail-stat hints in the Experience block (and similar contextual help)."
+                class="!mb-0 max-w-3xl"
+            }}
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead class="border-b border-neutral/20">
+                        <tr>
+                            <th class="py-3 pr-4 font-bold text-sm uppercase tracking-wide">Component</th>
+                            <th class="py-3 font-bold text-sm uppercase tracking-wide">Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-neutral/10">
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:tooltip</code></td>
+                            <td class="py-3 align-top text-sm">Wraps a trigger. <code>content</code> for plain text, <code>position</code> (top / right / bottom / left), <code>toggleable</code> for tap-to-open, <code>kbd</code> for shortcut hints.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:tooltip.content</code></td>
+                            <td class="py-3 align-top text-sm">Slot for rich tooltip content when <code>content="…"</code> isn&rsquo;t enough.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="stack-3">
+                {{ partial:typography/h4 content="Light mode" class="!mb-0" }}
+                <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                    {{ partial src="_flux_tooltip_preview" }}
+                </div>
+            </div>
+
+            <div class="stack-3">
+                {{ partial:typography/h4 content="Dark mode" class="!mb-0" }}
+                <div class="dark rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                    {{ partial src="_flux_tooltip_preview" }}
+                </div>
+            </div>
+        </div>
+
+        {{# Modal — preview for the booking enquiry auth gate #}}
+        <div class="stack-4">
+            {{ partial:typography/h2 content="Modal" class="!mb-0" }}
+            {{ partial:typography/p
+                content="Preview of <code>flux:modal</code> for the booking enquiry auth gate on the tour show page (<code>tours/show.antlers.html</code>)."
+                class="!mb-0 max-w-3xl"
+            }}
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead class="border-b border-neutral/20">
+                        <tr>
+                            <th class="py-3 pr-4 font-bold text-sm uppercase tracking-wide">Component</th>
+                            <th class="py-3 font-bold text-sm uppercase tracking-wide">Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-neutral/10">
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:modal</code></td>
+                            <td class="py-3 align-top text-sm">Modal body. <code>name</code> (required, unique per page), <code>variant</code> (default / flyout / bare), <code>position</code>, <code>:dismissible="false"</code>, <code>wire:model</code>, <code>@close</code> / <code>@cancel</code>.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:modal.trigger</code></td>
+                            <td class="py-3 align-top text-sm">Wraps the element that opens the modal. <code>name</code> matches the modal; optional <code>shortcut</code>.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:modal.close</code></td>
+                            <td class="py-3 align-top text-sm">Wraps any element that should close the modal when clicked.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                {{ partial src="_flux_modal_preview" id="preview" }}
+            </div>
+
+            {{# Flyout variant — full bio for the Tour Leader block. #}}
+            <div class="stack-3 mt-6">
+                {{ partial:typography/h4 content="Flyout variant — profile bios" class="!mb-0" }}
+                {{ partial:typography/p
+                    content="<code>variant=&quot;flyout&quot;</code> slides the modal in from the side (default <code>position=&quot;right&quot;</code>; also <code>left</code> or <code>bottom</code>). Earmarked for the &ldquo;Read full bio&rdquo; affordance on <code>page_builder/_leader.antlers.html</code> so visitors stay on the tour page."
+                    class="!mb-0 max-w-3xl"
+                }}
+                <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                    {{ partial src="_flux_modal_flyout_preview" id="preview" }}
+                </div>
+            </div>
+        </div>
+
+        {{# Layouts &amp; shared #}}
+        <div class="stack-4">
+            {{ partial:typography/h2 content="Layouts &amp; shared" class="!mb-0" }}
+            {{ partial:typography/p
+                content="<code>resources/views/layouts/</code>, <code>resources/views/components/</code>"
+                class="!mb-0"
+            }}
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead class="border-b border-neutral/20">
+                        <tr>
+                            <th class="py-3 pr-4 font-bold text-sm uppercase tracking-wide">Component</th>
+                            <th class="py-3 pr-4 font-bold text-sm uppercase tracking-wide">Used in</th>
+                            <th class="py-3 font-bold text-sm uppercase tracking-wide">Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-neutral/10">
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:toast</code> + <code>flux:toast.group</code></td>
+                            <td class="py-3 pr-4 align-top text-sm">layouts/app, layouts/auth/{card, split, simple}</td>
+                            <td class="py-3 align-top text-sm">Flash-message host rendered in all four auth/app shells.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:brand</code></td>
+                            <td class="py-3 pr-4 align-top text-sm">components/app-logo</td>
+                            <td class="py-3 align-top text-sm">Default header brand mark.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top"><code>flux:sidebar.brand</code></td>
+                            <td class="py-3 pr-4 align-top text-sm">components/app-logo</td>
+                            <td class="py-3 align-top text-sm">Brand mark when used inside a Flux sidebar context.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </section>
+</main>
+<!-- End: /flux-components.antlers.html -->

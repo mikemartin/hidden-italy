@@ -3,7 +3,7 @@ fields:
   -
     handle: image
     field:
-      container: images
+      container: assets
       max_files: 1
       type: assets
       localizable: true

@@ -1,6 +1,4 @@
 import Splide from '@splidejs/splide';
-import tippy from 'tippy.js';
-import 'tippy.js/dist/tippy.css';
 import collapse from '@alpinejs/collapse';
 import simpleLikes from './components/simple-likes.js';
 
@@ -35,24 +33,6 @@ document.addEventListener('alpine:init', () => {
     });
 
     window.Alpine.data('simpleLikes', simpleLikes);
-
-    // Tippy.js — `x-tooltip` for hover/focus tooltips, `$tooltip` magic for
-    // imperative one-off messages. Pulls content from the directive value or
-    // expression; falls back to the host element's `data-tooltip` attribute.
-    window.Alpine.directive('tooltip', (el, { expression }) => {
-        const content = expression || el.getAttribute('data-tooltip') || '';
-        if (!content) return;
-        tippy(el, { content, allowHTML: false });
-    });
-
-    window.Alpine.magic('tooltip', el => message => {
-        const instance = tippy(el, { content: message, trigger: 'manual' });
-        instance.show();
-        setTimeout(() => {
-            instance.hide();
-            setTimeout(() => instance.destroy(), 150);
-        }, 2000);
-    });
 });
 
 document.addEventListener('alpine:initialized', () => {

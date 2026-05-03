@@ -15,7 +15,7 @@
 
     <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
         <ul class="span-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-fluid-grid-gap">
-            {{ collection:products sort="title" }}
+            {{ collection:products }}
                 {{ if no_results }}
                     <li class="md:col-span-2 lg:col-span-3">
                         {{ partial:typography/p content="{trans:strings.no_results ?? 'There are currently no products.'}" color="text-text" }}

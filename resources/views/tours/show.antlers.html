@@ -8,6 +8,12 @@ transparent_header: true
           page-builder blocks. `transparent_header` is set in the front matter
           so the fixed site header overlays the banner and fades to the brand
           colour past 20px of scroll.
+
+          The "Make an enquiry" CTA links straight to /booking?tour=<slug>
+          for authenticated visitors. Guests instead open a flux:modal that
+          collects an email and routes it to /login (which fans out to
+          /register if the email is new) or to /booking?guest=1 — pre-filling
+          the email in whichever destination the visitor picks.
 #}}
 
 <!-- /tours/show.antlers.html -->
@@ -19,10 +25,81 @@ transparent_header: true
     :image="image"
     eager="true"
 }}
-    <a href="#book" class="button button--outline button--gold button--large">
-        <span>{{ trans:strings.request_booking ?? 'Request Booking' }}</span>
-    </a>
+    {{ if logged_in }}
+        <a href="/booking?tour={{ slug }}" class="button button--outline button--gold button--large" wire:navigate>
+            <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
+        </a>
+    {{ else }}
+        <x-flux::modal.trigger name="booking-modal">
+            <button type="button" class="button button--outline button--gold button--large">
+                <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
+            </button>
+        </x-flux::modal.trigger>
+    {{ /if }}
 {{ /partial:components/tour_banner }}
+
+{{# Booking modal — guests only. Collects an email up front and
+    forwards to /login (sign in or register, depending on whether
+    the email is on file) or to /booking?guest=1 with the email
+    pre-filled so the destination form skips the retype. #}}
+{{ unless logged_in }}
+    <x-flux::modal name="booking-modal" class="md:w-[28rem]">
+        <div
+            x-data="{
+                email: '',
+                tour: '{{ slug }}',
+                signIn() {
+                    const params = new URLSearchParams();
+                    params.set('redirect', '/booking?tour=' + this.tour);
+                    if (this.email) params.set('email', this.email);
+                    window.location.href = '/login?' + params.toString();
+                },
+                continueAsGuest() {
+                    const params = new URLSearchParams();
+                    params.set('tour', this.tour);
+                    if (this.email) params.set('email', this.email);
+                    window.location.href = '/booking?' + params.toString();
+                },
+            }"
+            class="space-y-4"
+        >
+            <div class="text-center space-y-1">
+                {{ partial:typography/h3 content="{ trans:strings.booking_modal_title }" small="true" }}
+                {{ partial:typography/p_small content="{ trans:strings.booking_modal_subtitle }" color="text-muted" }}
+            </div>
+
+            <x-flux::input
+                x-model="email"
+                type="email"
+                label="{{ trans:strings.email_address }}"
+                placeholder="{{ trans:strings.email_placeholder }}"
+                autocomplete="email"
+            />
+
+            <button
+                type="button"
+                @click="signIn()"
+                class="button button--accent w-full"
+            >
+                <span>{{ trans:strings.continue }}</span>
+            </button>
+
+            <div class="flex items-center gap-4 text-sm text-text">
+                <span class="flex-1 h-px bg-parchment-300"></span>
+                <span class="uppercase tracking-[0.04em]">{{ trans:strings.or }}</span>
+                <span class="flex-1 h-px bg-parchment-300"></span>
+            </div>
+
+            <button
+                type="button"
+                @click="continueAsGuest()"
+                class="button w-full bg-parchment-200 text-foreground hover:bg-parchment-300"
+            >
+                <span>{{ trans:strings.continue_as_guest }}</span>
+            </button>
+        </div>
+    </x-flux::modal>
+{{ /unless }}
 
 {{ partial:components/tour_overview }}
 
