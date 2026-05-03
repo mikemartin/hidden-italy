@@ -4,6 +4,8 @@ namespace App\Providers;
 
 use App\Fieldtypes\BookingStatus;
 use App\Policies\CustomUserPolicy;
+use Illuminate\Auth\Events\Login;
+use Illuminate\Auth\Events\Registered;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Event;
@@ -61,6 +63,8 @@ class AppServiceProvider extends ServiceProvider
         $this->bootFormConfig();
 
         $this->bootBookingEnquiryFlash();
+
+        $this->bootGuestEnquiryLinking();
     }
 
     /**
@@ -82,6 +86,51 @@ class AppServiceProvider extends ServiceProvider
             session()->flash('booking_enquiry_email', (string) $submission->get('email'));
             session()->flash('booking_enquiry_name', (string) $submission->get('name'));
         });
+    }
+
+    /**
+     * When a user registers (or signs in), claim any booking_enquiry
+     * submissions filed earlier as a guest with the same email — set
+     * the new user_id so they appear on /account/enquiries.
+     *
+     * Closes the loop on the post-thank-you "Create my account"
+     * prompt, which would otherwise hand the user a fresh-but-empty
+     * enquiries page despite having literally just submitted one.
+     * Also catches the rarer case of a returning user who has past
+     * guest submissions on file from before they had an account.
+     *
+     * Email comparison is case-insensitive; the operation is
+     * idempotent so re-running on every login is safe.
+     */
+    private function bootGuestEnquiryLinking(): void
+    {
+        $linkGuestEnquiries = function (Login|Registered $event): void {
+            $user = $event->user;
+
+            if (! $user || ! $user->email) {
+                return;
+            }
+
+            $form = Form::find('booking_enquiry');
+
+            if (! $form) {
+                return;
+            }
+
+            $email = strtolower((string) $user->email);
+            $userId = (string) $user->id;
+
+            $form->submissions()
+                ->filter(fn ($submission) => empty($submission->get('user_id'))
+                    && strtolower((string) $submission->get('email')) === $email)
+                ->each(function ($submission) use ($userId): void {
+                    $submission->set('user_id', $userId);
+                    $submission->save();
+                });
+        };
+
+        Event::listen(Registered::class, $linkGuestEnquiries);
+        Event::listen(Login::class, $linkGuestEnquiries);
     }
 
     public function bootRoute(): void
