@@ -22,10 +22,14 @@
  * Statamic's CP build.
  */
 
+// Match Statamic's own CP status pills:
+//   Open   → grey   (in flight, like Draft)
+//   Booked → green  (positive outcome, like Published)
+//   Closed → red    (ended without a booking)
 const PALETTES = {
-    open:   { bg: '#eff6ff', text: '#1d4ed8', border: '#bfdbfe' }, // blue
-    booked: { bg: '#f0fdf4', text: '#15803d', border: '#bbf7d0' }, // green
-    closed: { bg: '#f9fafb', text: '#4b5563', border: '#e5e7eb' }, // gray
+    open:   { bg: '#f3f4f6', text: '#4b5563', border: '#e5e7eb' }, // gray-100 / gray-600 / gray-200
+    booked: { bg: '#dcfce7', text: '#15803d', border: '#86efac' }, // green-100 / green-700 / green-300
+    closed: { bg: '#fee2e2', text: '#b91c1c', border: '#fecaca' }, // red-100 / red-700 / red-200
 };
 
 const LABELS = {
