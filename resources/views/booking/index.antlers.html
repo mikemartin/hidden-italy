@@ -1,21 +1,24 @@
 {{#
     @name Booking enquiry
-    @desc Tour booking enquiry form. Logged-in users see a slim form (tour
-          + message) with name / email / phone passed as hidden inputs from
-          their account; guests see the full form. Both submit to the
-          `booking_enquiry` Statamic form and land on /booking/thank-you.
+    @desc Tour booking enquiry form. Logged-in users see a slim form
+          (tour + travel plans) with name / email / phone passed as
+          hidden inputs from their account; guests see the full form
+          with a "Have an account? Log in" link below the submit
+          button. Both submit to the `booking_enquiry` Statamic form
+          and land on /booking/thank-you.
 
-          Reads `tour` and `guest` from the query string. `tour` is a slug
-          from either the guided or self-guided collection; the matching
-          option is auto-selected. `guest=1` forces the guest layout even
-          if a user is logged in (used by the "Continue as a guest" path).
+          Reads `tour` from the query string — a slug from either the
+          guided or self-guided collection; the tour-details card
+          confirms the selection above the form. Visitors arriving at
+          /booking with no `?tour=` are redirected to /tours via the
+          route-level middleware in routes/web.php.
 #}}
 
 <!-- /booking/index.antlers.html -->
 {{# Resolve the selected tour slug + display title from `?tour=`. #}}
 {{ selected_tour_slug = get:tour }}
 
-{{ as_guest = (get:guest == '1') || !logged_in }}
+{{ as_guest = !logged_in }}
 
 <div class="flex flex-col gap-6">
     <div class="flex w-full flex-col gap-3 text-center">

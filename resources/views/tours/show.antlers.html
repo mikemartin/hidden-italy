@@ -9,10 +9,10 @@ transparent_header: true
           so the fixed site header overlays the banner and fades to the brand
           colour past 20px of scroll.
 
-          The "Request Booking" CTA goes straight to /booking when the user
-          is authenticated; otherwise it dispatches the `open-booking-modal`
-          event so the auth gate at the bottom of the page can prompt for
-          login or guest checkout.
+          The "Make an enquiry" CTA links straight to /booking?tour=<slug>
+          for everyone. /booking handles authenticated and guest cases on
+          its own — logged-in visitors see the slim pre-filled form, guests
+          see the full form with a "Have an account? Log in" link below.
 #}}
 
 <!-- /tours/show.antlers.html -->
@@ -24,20 +24,9 @@ transparent_header: true
     :image="image"
     eager="true"
 }}
-    {{ if logged_in }}
-        <a href="/booking?tour={{ slug }}" class="button button--outline button--gold button--large" wire:navigate>
-            <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
-        </a>
-    {{ else }}
-        <button
-            type="button"
-            x-data
-            @click="$dispatch('open-booking-modal', { tour: '{{ slug }}', tourName: '{{ name | e }}' })"
-            class="button button--outline button--gold button--large"
-        >
-            <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
-        </button>
-    {{ /if }}
+    <a href="/booking?tour={{ slug }}" class="button button--outline button--gold button--large" wire:navigate>
+        <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
+    </a>
 {{ /partial:components/tour_banner }}
 
 {{ partial:components/tour_overview }}
@@ -47,6 +36,4 @@ transparent_header: true
         {{ partial src="page_builder/{type}" }}
     {{ /page_builder }}
 </main>
-
-{{ partial:components/request_booking_modal }}
 <!-- End: /tours/show.antlers.html -->
