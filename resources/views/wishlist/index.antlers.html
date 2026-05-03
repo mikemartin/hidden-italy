@@ -55,11 +55,6 @@
                                     <span class="sr-only"> - </span>
                                     <div class="mt-1 font-bold">{{ name }}</div>
                                 </h2>
-
-                                {{# "Enquiry sent · X ago" pill — only renders for
-                                    logged-in users who have a matching submission. #}}
-                                {{ partial src="components/enquiry-pill" :slug="slug" }}
-
                                 <div class="flex items-center mb-2">
                                     <div class="mr-2">
                                         <x-lucide-clock class="w-6 h-6 stroke-[1.5]" />

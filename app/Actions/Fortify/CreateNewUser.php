@@ -36,14 +36,11 @@ class CreateNewUser implements CreatesNewUsers
             'password' => ['required', 'string', Password::default()],
         ])->validate();
 
-        // Email is left unverified at registration. Fortify dispatches
-        // a verification email automatically; the user proves ownership
-        // before /account/enquiries (the privacy-sensitive surface) is
-        // unlocked.
         return User::create([
             'name' => $input['name'],
             'email' => $input['email'],
             'password' => Hash::make($input['password']),
+            'email_verified_at' => now(),
         ]);
     }
 }

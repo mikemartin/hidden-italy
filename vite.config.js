@@ -21,7 +21,6 @@ export default defineConfig(({ command, mode }) => {
                 input: [
                     'resources/css/site.css',
                     'resources/js/site.js',
-                    'resources/js/cp.js',
                 ]
             })
         ],

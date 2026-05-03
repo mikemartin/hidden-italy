@@ -7,42 +7,18 @@
 
 <!-- /booking/thank-you.antlers.html -->
 <main id="content" class="fluid-grid py-16 md:py-24 lg:py-32">
-    <section class="span-content flex flex-col items-center text-center gap-8 md:gap-10">
-        <div class="flex flex-col items-center gap-6">
-            {{ partial:typography/h2 :content="trans:strings.thank_you_heading" color="text-foreground" }}
+    <section class="span-content flex flex-col items-center text-center gap-6">
+        {{ partial:typography/h2 :content="trans:strings.thank_you_heading" color="text-foreground" }}
 
-            {{ partial:typography/p_large
-                :content="trans:strings.thank_you_message"
-                color="text-text"
-                class="!mb-0 max-w-xl"
-            }}
+        {{ partial:typography/p_large
+            :content="trans:strings.thank_you_message"
+            color="text-text"
+            class="!mb-0 max-w-xl"
+        }}
 
-            <a href="/" class="button button--accent button--large mt-4" wire:navigate>
-                <span>{{ trans:strings.go_back_home }}</span>
-            </a>
-        </div>
-
-        {{# One-click account creation for guests. The session keys are
-            flashed by the SubmissionCreated listener in
-            AppServiceProvider, so the link to /register pre-fills
-            the email and name they just typed into the enquiry form. #}}
-        {{ if logged_out && {session:has key="booking_enquiry_email"} }}
-            <aside class="w-full max-w-xl rounded-2xl border border-gold/30 bg-gold/10 p-6 md:p-8 text-left">
-                {{ partial:typography/h4 :content="trans:strings.create_account_prompt_title" color="text-foreground" class="!mb-2" }}
-                {{ partial:typography/p
-                    :content="trans:strings.create_account_prompt_body"
-                    color="text-text"
-                    class="!mb-4"
-                }}
-                <a
-                    href="/register?email={{ session:booking_enquiry_email | url_encode }}&name={{ session:booking_enquiry_name | url_encode }}"
-                    wire:navigate
-                    class="button button--accent button--large"
-                >
-                    <span>{{ trans:strings.create_account_action }}</span>
-                </a>
-            </aside>
-        {{ /if }}
+        <a href="/" class="button button--accent button--large mt-4" wire:navigate>
+            <span>{{ trans:strings.go_back_home }}</span>
+        </a>
     </section>
 </main>
 <!-- End: /booking/thank-you.antlers.html -->

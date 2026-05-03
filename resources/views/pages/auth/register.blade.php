@@ -18,13 +18,11 @@
 
         <form method="POST" action="{{ route('register.store') }}" class="flex flex-col gap-6">
             @csrf
-            <!-- Name — pre-filled when arriving via the post-thank-you
-                 account-creation prompt (`?name=`) so guests don't
-                 retype what they just submitted. -->
+            <!-- Name -->
             <flux:input
                 name="name"
                 :label="__('Name')"
-                :value="old('name', request()->query('name'))"
+                :value="old('name')"
                 type="text"
                 required
                 autofocus

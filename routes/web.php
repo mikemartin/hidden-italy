@@ -34,19 +34,7 @@ Route::livewire('login', 'pages::auth.login')
     ->name('login');
 
 Route::middleware('auth')->group(function () {
-    // The account landing surfaces the user's activity (enquiries),
-    // not their settings — the booking-enquiry log is the headline
-    // reason to hold an account.
-    Route::redirect('account', 'account/enquiries')->name('account');
-
-    // /account/enquiries is the only verified-gated route in the
-    // account area — it surfaces other users' privacy-sensitive
-    // submissions if email ownership isn't proven, so we make sure
-    // it is. Profile, password, etc. stay accessible to unverified
-    // accounts so signup → "fix typo'd email" remains a one-step path.
-    Route::livewire('account/enquiries', 'pages::settings.enquiries')
-        ->middleware('verified')
-        ->name('account.enquiries');
+    Route::redirect('account', 'account/profile')->name('account');
 
     Route::livewire('account/profile', 'pages::settings.profile')->name('account.profile');
     Route::livewire('account/password', 'pages::settings.password')->name('account.password');

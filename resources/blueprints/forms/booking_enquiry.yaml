@@ -74,10 +74,3 @@ tabs:
               validate:
                 - accepted
               visibility: hidden
-          -
-            handle: status
-            field:
-              type: booking_status
-              display: 'Status'
-              instructions: 'Workflow status. Visible to the customer on /account/enquiries — keep it accurate. Defaults to "Open" on submission.'
-              listable: true
