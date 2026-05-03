@@ -10,7 +10,9 @@
           Reads `tour` from the query string — a slug from either the
           guided or self-guided collection — and pre-selects the
           matching option in the grouped picker. Visitors who land
-          here without a tour set just pick from the dropdown.
+          here without a tour set just pick from the dropdown. The
+          guest email field also pre-fills from `?email=` so the
+          tour-show modal can pass the visitor's typed email through.
 #}}
 
 <!-- /booking/index.antlers.html -->
@@ -69,7 +71,7 @@
                         type="email"
                         id="booking-email"
                         name="email"
-                        value="{{ old:email }}"
+                        value="{{ old:email ?? get:email }}"
                         placeholder="{{ trans:strings.email_placeholder }}"
                         autocomplete="email"
                         required

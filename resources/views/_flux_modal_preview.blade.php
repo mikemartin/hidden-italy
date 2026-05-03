@@ -1,7 +1,7 @@
 {{--
     Flux Modal preview — booking enquiry gate.
-    Used by /flux-components ahead of swapping the custom Alpine modal
-    in components/_request_booking_modal.antlers.html for flux:modal.
+    Used by /flux-components as a reference for the booking-enquiry
+    auth modal that lives inline in tours/show.antlers.html.
 
     Note: Flux modals teleport to a top-level portal, so the modal
     body always renders in the page's surface mode regardless of any
