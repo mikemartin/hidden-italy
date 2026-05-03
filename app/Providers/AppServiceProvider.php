@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Fieldtypes\BookingStatus;
 use App\Policies\CustomUserPolicy;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Http\Request;
@@ -13,6 +14,7 @@ use Statamic\Events\SubmissionCreated;
 use Statamic\Facades\Form;
 use Statamic\Facades\Icon;
 use Statamic\Policies\UserPolicy;
+use Statamic\Statamic;
 use Studio1902\PeakSeo\Handlers\ErrorPage;
 
 class AppServiceProvider extends ServiceProvider
@@ -39,8 +41,14 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        // Statamic::script('app', 'cp');
-        // Statamic::style('app', 'cp');
+        // Load resources/js/cp.js into the Statamic CP — registers
+        // custom Vue fieldtype components (see cp.js for the list).
+        // Resolved through Vite via the `resources/js/cp.js` input
+        // declared in vite.config.js.
+        Statamic::script('app', 'cp');
+
+        // Custom fieldtypes
+        BookingStatus::register();
 
         ErrorPage::handle404AsEntry();
 

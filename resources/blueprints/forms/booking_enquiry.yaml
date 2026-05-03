@@ -77,14 +77,7 @@ tabs:
           -
             handle: status
             field:
-              type: select
+              type: booking_status
               display: 'Status'
               instructions: 'Workflow status. Visible to the customer on /account/enquiries — keep it accurate. Defaults to "Open" on submission.'
-              options:
-                open: Open
-                booked: Booked
-                closed: Closed
-              default: open
-              clearable: false
-              cast_booleans: false
-              multiple: false
+              listable: true
