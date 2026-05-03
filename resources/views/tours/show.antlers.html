@@ -30,11 +30,11 @@ transparent_header: true
             <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
         </a>
     {{ else }}
-        <flux:modal.trigger name="booking-modal">
+        <x-flux::modal.trigger name="booking-modal">
             <button type="button" class="button button--outline button--gold button--large">
                 <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
             </button>
-        </flux:modal.trigger>
+        </x-flux::modal.trigger>
     {{ /if }}
 {{ /partial:components/tour_banner }}
 
@@ -43,7 +43,7 @@ transparent_header: true
     the email is on file) or to /booking?guest=1 with the email
     pre-filled so the destination form skips the retype. #}}
 {{ unless logged_in }}
-    <flux:modal name="booking-modal" class="md:w-[28rem]">
+    <x-flux::modal name="booking-modal" class="md:w-[28rem]">
         <div
             x-data="{
                 email: '',
@@ -61,16 +61,14 @@ transparent_header: true
                     window.location.href = '/booking?' + params.toString();
                 },
             }"
-            class="space-y-6"
+            class="space-y-4"
         >
-            <div class="text-center space-y-2">
-                <flux:heading size="lg">{{ trans:strings.booking_modal_title }}</flux:heading>
-                <p class="text-base text-accent-2 font-medium">{{ name }}</p>
+            <div class="text-center space-y-1">
+                {{ partial:typography/h3 content="{ trans:strings.booking_modal_title }" small="true" }}
+                {{ partial:typography/p_small content="{ trans:strings.booking_modal_subtitle }" color="text-muted" }}
             </div>
 
-            <flux:text class="text-center">{{ trans:strings.booking_modal_subtitle }}</flux:text>
-
-            <flux:input
+            <x-flux::input
                 x-model="email"
                 type="email"
                 label="{{ trans:strings.email_address }}"
@@ -78,24 +76,29 @@ transparent_header: true
                 autocomplete="email"
             />
 
-            <div class="flex flex-col gap-3">
-                <button
-                    type="button"
-                    @click="signIn()"
-                    class="button button--accent button--large w-full"
-                >
-                    <span>{{ trans:strings.sign_in_or_register }}</span>
-                </button>
-                <button
-                    type="button"
-                    @click="continueAsGuest()"
-                    class="button button--large w-full bg-parchment-200 text-foreground hover:bg-parchment-300"
-                >
-                    <span>{{ trans:strings.continue_as_guest }}</span>
-                </button>
+            <button
+                type="button"
+                @click="signIn()"
+                class="button button--accent w-full"
+            >
+                <span>{{ trans:strings.continue }}</span>
+            </button>
+
+            <div class="flex items-center gap-4 text-sm text-text">
+                <span class="flex-1 h-px bg-parchment-300"></span>
+                <span class="uppercase tracking-[0.04em]">{{ trans:strings.or }}</span>
+                <span class="flex-1 h-px bg-parchment-300"></span>
             </div>
+
+            <button
+                type="button"
+                @click="continueAsGuest()"
+                class="button w-full bg-parchment-200 text-foreground hover:bg-parchment-300"
+            >
+                <span>{{ trans:strings.continue_as_guest }}</span>
+            </button>
         </div>
-    </flux:modal>
+    </x-flux::modal>
 {{ /unless }}
 
 {{ partial:components/tour_overview }}

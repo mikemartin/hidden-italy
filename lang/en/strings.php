@@ -73,9 +73,9 @@ return [
     // Booking flow
     'request_booking' => 'Make an enquiry',
     'booking_modal_title' => 'Start planning your trip',
-    'booking_modal_subtitle' => 'Sign in to your account, or continue without one.',
-    'sign_in_or_register' => 'Sign in or create an account',
-    'continue_as_guest' => 'Continue without signing in',
+    'booking_modal_subtitle' => 'Log in or create an account to make an enquiry.',
+    'continue' => 'Continue',
+    'continue_as_guest' => 'Continue as guest',
     'booking_enquiry' => 'Booking enquiry',
     'booking_enquiry_subtitle' => 'Make an enquiry about your selected tour',
     'select_a_tour' => 'Select a tour',

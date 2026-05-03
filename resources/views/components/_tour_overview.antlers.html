@@ -159,16 +159,15 @@
                                 {{ trans:strings.grade ?? 'Grade' }} {{ grade }} / 5
                             </span>
                             {{ if grade_description }}
-                                <button
-                                    type="button"
-                                    x-data
-                                    x-tooltip
-                                    data-tooltip="{{ grade_description }}"
-                                    class="text-text inline-flex items-center justify-center rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-                                    aria-label="{{ trans:strings.walking_grade ?? 'Walking grade' }} {{ grade }}: {{ grade_description }}"
-                                >
-                                    <x-lucide-info class="size-4" stroke-width="1.5" aria-hidden="true" />
-                                </button>
+                                <x-flux::tooltip content="{{ grade_description }}">
+                                    <button
+                                        type="button"
+                                        class="text-text inline-flex items-center justify-center rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                                        aria-label="{{ trans:strings.walking_grade ?? 'Walking grade' }} {{ grade }}: {{ grade_description }}"
+                                    >
+                                        <x-lucide-info class="size-4" stroke-width="1.5" aria-hidden="true" />
+                                    </button>
+                                </x-flux::tooltip>
                             {{ /if }}
                         </dd>
                     </div>
