@@ -18,6 +18,7 @@ new #[Title('Your enquiries')] class extends Component {
      *     id: string,
      *     date: \Carbon\Carbon,
      *     message: string,
+     *     status: string,
      *     tour_slug: string,
      *     tour_name: string,
      *     tour_url: ?string,
@@ -52,10 +53,16 @@ new #[Title('Your enquiries')] class extends Component {
                         ->first()
                     : null;
 
+                // Status falls back to 'open' when the field isn't present
+                // — guards against legacy submissions filed before the
+                // field was added to the blueprint.
+                $status = (string) ($submission->get('status') ?: 'open');
+
                 return [
                     'id' => $submission->id(),
                     'date' => $submission->date(),
                     'message' => (string) $submission->get('message_body'),
+                    'status' => in_array($status, ['open', 'booked', 'closed'], true) ? $status : 'open',
                     'tour_slug' => $slug,
                     'tour_name' => (string) ($tour?->get('name') ?? $slug),
                     'tour_url' => $tour?->absoluteUrl(),
@@ -121,10 +128,28 @@ new #[Title('Your enquiries')] class extends Component {
                                 </span>
                             @endif
 
-                            {{-- Submitted date --}}
-                            <p class="text-sm text-muted m-0" title="{{ $enquiry['date']->format('j M Y, g:i a') }}">
-                                {{ __('Sent') }} {{ $enquiry['date']->diffForHumans() }}
-                            </p>
+                            {{-- Status + submitted date row. Status visual treatment:
+                                 Booked = celebratory gold, Closed = muted, Open = neutral. --}}
+                            <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+                                @php
+                                    $statusClasses = match ($enquiry['status']) {
+                                        'booked' => 'bg-gold/15 text-foreground',
+                                        'closed' => 'bg-foreground/8 text-text/70',
+                                        default => 'bg-parchment-200 text-accent-2',
+                                    };
+                                    $statusLabel = match ($enquiry['status']) {
+                                        'booked' => __('strings.enquiry_status_booked'),
+                                        'closed' => __('strings.enquiry_status_closed'),
+                                        default => __('strings.enquiry_status_open'),
+                                    };
+                                @endphp
+                                <span class="inline-flex items-center rounded-full px-2.5 py-1 text-[12px] font-medium {{ $statusClasses }}">
+                                    {{ $statusLabel }}
+                                </span>
+                                <p class="text-sm text-muted m-0" title="{{ $enquiry['date']->format('j M Y, g:i a') }}">
+                                    {{ __('Sent') }} {{ $enquiry['date']->diffForHumans() }}
+                                </p>
+                            </div>
 
                             {{-- Message excerpt --}}
                             @if ($enquiry['message'] !== '')
