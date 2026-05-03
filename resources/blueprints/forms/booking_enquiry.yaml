@@ -13,7 +13,7 @@ tabs:
                 - required
                 - 'min:2'
               localizable: true
-              width: 66
+              listable: true
           -
             handle: email
             field:
@@ -23,30 +23,30 @@ tabs:
                 - required
                 - email
               localizable: true
-              width: 33
+              width: 50
           -
             handle: phone
             field:
               display: 'Phone number'
               type: text
               validate:
-                - 'nullable'
-                - 'string'
+                - nullable
+                - string
                 - 'max:50'
               localizable: true
-              width: 33
+              width: 50
           -
             handle: tour
             field:
               display: Tour
               type: text
               validate:
-                - 'nullable'
-                - 'string'
+                - nullable
+                - string
                 - 'max:255'
               instructions: 'Title or slug of the tour the enquiry is about.'
               localizable: true
-              width: 100
+              listable: true
           -
             handle: message_body
             field:
@@ -64,7 +64,6 @@ tabs:
               type: text
               instructions: 'Linked Hidden Italy user (when the enquiry was submitted while logged in).'
               visibility: hidden
-              read_only: true
           -
             handle: consent
             field:

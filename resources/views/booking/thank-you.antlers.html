@@ -8,10 +8,10 @@
 <!-- /booking/thank-you.antlers.html -->
 <main id="content" class="fluid-grid py-16 md:py-24 lg:py-32">
     <section class="span-content flex flex-col items-center text-center gap-6">
-        {{ partial:typography/h2 :content="trans:strings.thank_you_heading" color="text-foreground" }}
+        {{ partial:typography/h1 content="{trans:strings.thank_you_heading}" color="text-foreground" }}
 
         {{ partial:typography/p_large
-            :content="trans:strings.thank_you_message"
+            content="{trans:strings.thank_you_message}"
             color="text-text"
             class="!mb-0 max-w-xl"
         }}
