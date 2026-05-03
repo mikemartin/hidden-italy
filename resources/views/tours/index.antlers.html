@@ -20,17 +20,6 @@
 
     <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
         <div id="livewire-collection" class="span-content stack-16">
-            {{# Booking-flow prompt — shown when /booking redirected here
-                because no tour was selected (`?from=booking`). #}}
-            {{ if {get:from} == 'booking' }}
-                <div class="flex items-start gap-3 rounded-xl border border-gold/40 bg-gold/10 p-4 md:p-5">
-                    <x-lucide-arrow-down class="size-5 text-accent-2 shrink-0 mt-0.5" stroke-width="1.75" aria-hidden="true" />
-                    <p class="text-sm md:text-base text-foreground font-medium m-0">
-                        {{ trans:strings.pick_a_tour_to_enquire ?? 'Pick a tour below to start your booking enquiry.' }}
-                    </p>
-                </div>
-            {{ /if }}
-
             {{ partial:components/tour-filters }}
 
             {{ livewire-collection :from="tour_collections" paginate="50" scrollTo="#livewire-collection" }}

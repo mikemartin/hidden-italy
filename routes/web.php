@@ -6,17 +6,9 @@ Route::statamic('wishlist', 'wishlist.index', [
     'title' => 'Wishlist',
 ]);
 
-// Booking enquiry requires a `?tour=` query param so the form has
-// something to enquire about. Visitors who land at /booking with no
-// tour are sent to the catalogue (with `?from=booking` so the page
-// can show a "Pick a tour to start your enquiry" banner).
 Route::statamic('booking', 'booking.index', [
     'title' => 'Booking enquiry',
     'layout' => 'booking.layout',
-])->middleware([
-    function (\Illuminate\Http\Request $request, \Closure $next) {
-        return $request->filled('tour') ? $next($request) : redirect('/tours?from=booking');
-    },
 ]);
 
 Route::statamic('booking/thank-you', 'booking.thank-you', [
