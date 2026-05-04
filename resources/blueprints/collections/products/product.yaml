@@ -23,7 +23,6 @@ tabs:
               max_files: 1
               type: assets
               display: Image
-              instructions: 'Cover or thumbnail. Restricted to the `shop/` folder.'
           -
             handle: buy_link
             field:
