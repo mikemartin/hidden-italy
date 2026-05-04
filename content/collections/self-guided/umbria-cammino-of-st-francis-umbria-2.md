@@ -5,8 +5,8 @@ title: 'Umbria - Cammino of St Francis:  Umbria 2'
 name: 'Cammino of St Francis:  Umbria 2'
 region: Umbria
 days: 7
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517340
+updated_by: 1
+updated_at: 1777906054
 grade: 3
 summary: "A week-long walk along well-marked trails through the charming 'green heart of Italy'."
 overview:
@@ -300,9 +300,40 @@ gallery:
   - tours/umbria-cammino-of-st-francis-umbria-2/14.8.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2/img_5360.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2/img_5409.jpg
-start_location: Spoleto
-finish_location: Rieti
+start_location:
+  label: 'Spoleto, Umbria, Italy'
+  lat: '42.7342971'
+  lon: '12.7382035'
+  postalCode: '06049'
+  locality: Spoleto
+  adminLevels:
+    1:
+      name: Umbria
+      code: null
+      level: 1
+    2:
+      name: Perugia
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Rieti, Lazio, Italy'
+  lat: '42.4025479'
+  lon: '12.8605297'
+  postalCode: '02100'
+  locality: Rieti
+  adminLevels:
+    1:
+      name: Lazio
+      code: null
+      level: 1
+    2:
+      name: Rieti
+      code: null
+      level: 2
+  country: Italy
 now_open: false
-seasons: spring
+seasons:
+  - spring
 headline: "7 days in Italy's green heart"
 ---

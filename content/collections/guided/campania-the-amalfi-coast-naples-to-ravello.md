@@ -7,8 +7,8 @@ region: 'Campania and Basilicata'
 days: 13
 seasons: spring
 grade: 3
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517423
+updated_by: 1
+updated_at: 1777904646
 summary: 'Campania a stunningly beautiful area with all the exuberance and colour of southern Italy.'
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15
@@ -335,8 +335,36 @@ page_builder:
     enabled: true
 simple_likes: 0
 locations: southern-italy
-start_location: Naples
-finish_location: Ravello
+start_location:
+  label: 'Naples, Campania, Italy'
+  lat: '40.8358846'
+  lon: '14.2487679'
+  locality: Naples
+  adminLevels:
+    1:
+      name: Campania
+      code: null
+      level: 1
+    2:
+      name: Naples
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Ravello, Campania, Italy'
+  lat: '40.663289'
+  lon: '14.6125597'
+  locality: Ravello
+  adminLevels:
+    1:
+      name: Campania
+      code: null
+      level: 1
+    2:
+      name: Salerno
+      code: null
+      level: 2
+  country: Italy
 now_open: false
 headline: '13 days exploring colourful southern Italy'
 ---

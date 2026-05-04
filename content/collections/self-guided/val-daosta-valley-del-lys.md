@@ -5,8 +5,8 @@ title: "Val d'Aosta - Valley del Lys"
 name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517362
+updated_by: 1
+updated_at: 1777906198
 grade: 4
 summary: 'A 7-day hike along historic trails through one of Italy’s most beautiful mountain valleys!'
 overview:
@@ -372,6 +372,30 @@ gallery:
   - tours/val-daosta-valley-del-lys/img_7055.jpg
   - tours/val-daosta-valley-del-lys/16.jpg
 now_open: false
-seasons: summer
+seasons:
+  - summer
 headline: '7 days hiking a stunning mountain valley'
+start_location:
+  label: 'Pont-Saint-Martin, Aosta Valley, Italy'
+  lat: '45.5994401'
+  lon: '7.7994375'
+  postalCode: '11026'
+  locality: Pont-Saint-Martin
+  adminLevels:
+    1:
+      name: 'Aosta Valley'
+      code: null
+      level: 1
+  country: Italy
+finish_location:
+  label: 'Gressoney-La-Trinité, Aosta Valley, Italy'
+  lat: '45.872849'
+  lon: '7.8250659'
+  locality: Gressoney-La-Trinité
+  adminLevels:
+    1:
+      name: 'Aosta Valley'
+      code: null
+      level: 1
+  country: Italy
 ---

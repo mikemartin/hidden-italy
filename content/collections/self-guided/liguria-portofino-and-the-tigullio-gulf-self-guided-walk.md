@@ -5,8 +5,8 @@ title: 'Liguria - Portofino and the Tigullio Gulf'
 name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777516934
+updated_by: 1
+updated_at: 1777905400
 grade: 3
 summary: 'Spend a week exploring the Portofino National Park and the stupendous Tigullio Gulf!'
 overview:
@@ -274,9 +274,39 @@ gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour/img_4819.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/georgiana-andreca-h-hkuehqrs0-unsplash-a.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/nathan-prost-ivrymcq9jae-unsplash.jpg
-start_location: Camogli
-finish_location: 'Sestri Levante'
+start_location:
+  label: 'Camogli, Liguria, Italy'
+  lat: '44.3511373'
+  lon: '9.1524917'
+  locality: Camogli
+  adminLevels:
+    1:
+      name: Liguria
+      code: null
+      level: 1
+    2:
+      name: Genoa
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Sestri Levante, Liguria, Italy'
+  lat: '44.2714526'
+  lon: '9.3958627'
+  postalCode: '16039'
+  locality: 'Sestri Levante'
+  adminLevels:
+    1:
+      name: Liguria
+      code: null
+      level: 1
+    2:
+      name: Genoa
+      code: null
+      level: 2
+  country: Italy
 now_open: false
-seasons: autumn
+seasons:
+  - autumn
 headline: '6 days exploring the Tigullio Gulf'
 ---

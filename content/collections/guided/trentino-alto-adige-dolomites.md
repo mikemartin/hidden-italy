@@ -5,8 +5,8 @@ title: 'Trentino-Alto Adige - Dolomites in Autumn'
 name: 'Dolomites in Autumn'
 region: 'Trentino-Alto Adige'
 days: 13
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517532
+updated_by: 1
+updated_at: 1777905087
 locations: northern-italy
 grade: 3
 image: tours/trentino-alto-adige-dolomites/804729994-100.jpg
@@ -331,4 +331,36 @@ page_builder:
 seasons: autumn
 now_open: false
 headline: '13 days walking the Dolomites in autumn'
+start_location:
+  label: 'Verona, Veneto, Italy'
+  lat: '45.4384958'
+  lon: '10.9924122'
+  postalCode: 37121-37142
+  locality: Verona
+  adminLevels:
+    1:
+      name: Veneto
+      code: null
+      level: 1
+    2:
+      name: Verona
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Bolzano, Trentino – Alto Adige/Südtirol, Italy'
+  lat: '46.4984781'
+  lon: '11.3547399'
+  postalCode: '39100'
+  locality: Bolzano
+  adminLevels:
+    1:
+      name: 'Trentino – Alto Adige/Südtirol'
+      code: null
+      level: 1
+    2:
+      name: 'South Tyrol'
+      code: null
+      level: 2
+  country: Italy
 ---

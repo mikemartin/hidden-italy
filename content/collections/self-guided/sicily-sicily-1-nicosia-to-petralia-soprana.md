@@ -5,8 +5,8 @@ title: 'Sicily - Sicily 1'
 name: 'Sicily 1'
 region: Sicily
 days: 7
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517031
+updated_by: 1
+updated_at: 1777905575
 grade: 3
 summary: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
 overview:
@@ -295,9 +295,40 @@ gallery:
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture1.jpg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6695.jpeg
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_0270.jpg
-start_location: Nicosia
-finish_location: 'Petralia Soprana'
+start_location:
+  label: 'Nicosia, Sicily, Italy'
+  lat: '37.7481225'
+  lon: '14.3982978'
+  postalCode: '94014'
+  locality: Nicosia
+  adminLevels:
+    1:
+      name: Sicily
+      code: null
+      level: 1
+    2:
+      name: Enna
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Petralia Soprana, Sicily, Italy'
+  lat: '37.7963398'
+  lon: '14.1084677'
+  postalCode: '90026'
+  locality: 'Petralia Soprana'
+  adminLevels:
+    1:
+      name: Sicily
+      code: null
+      level: 1
+    2:
+      name: Palermo
+      code: null
+      level: 2
+  country: Italy
 now_open: false
-seasons: spring
+seasons:
+  - spring
 headline: '7 days walking through central Sicily'
 ---

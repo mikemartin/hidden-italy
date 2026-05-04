@@ -5,8 +5,9 @@
           header and by the `tour_banner` page-builder block.
     @param region Small uppercase label above the headline.
     @param title Large headline.
-    @param start Start location shown next to the map-pin icon (with `finish`).
-    @param finish Finish location shown next to the map-pin icon (with `start`).
+    @param start Start location (`simple_address` array). Renders the
+                  locality (city/town) when present, falling back to `label`.
+    @param finish Finish location (`simple_address` array). Same fallback.
     @param image Background image (asset path or asset object).
     @param eager Pass `true` to load the image with high priority.
 #}}
@@ -55,13 +56,14 @@
         </div>
     </div>
 
-    {{# Bottom row — map-pin + start / finish. #}}
-    {{ if start && finish }}
+    {{# Bottom row — map-pin + start / finish. Renders the locality
+        (city) when present, falling back to the full address `label`. #}}
+    {{ if start:label && finish:label }}
         <div class="absolute inset-x-0 bottom-10 lg:bottom-12 z-10 px-6 lg:px-[120px]">
             <div class="mx-auto flex w-full max-w-[1200px] items-center justify-center">
                 <div class="flex items-center gap-2">
                     <x-lucide-map-pin class="size-6 text-white" stroke-width="2" aria-hidden="true" />
-                    <p class="font-mono text-sm md:text-base text-white">{{ start }} to {{ finish }}</p>
+                    <p class="font-mono text-sm md:text-base text-white">{{ start:locality ?? start:label }} to {{ finish:locality ?? finish:label }}</p>
                 </div>
             </div>
         </div>

@@ -5,8 +5,8 @@ title: 'Piedmont - Alba and Le Langhe'
 name: 'Alba and Le Langhe'
 region: Piedmont
 days: 8
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777516951
+updated_by: 1
+updated_at: 1777905465
 grade: 3
 summary: 'An 8-day tour that takes you through the seductive rolling hills of southern Piedmont.'
 overview:
@@ -294,9 +294,38 @@ gallery:
   - tours/piedmont-alba-and-le-langhe/monforte-18.jpg
   - tours/piedmont-alba-and-le-langhe/monforte-2.5.jpg
   - tours/piedmont-alba-and-le-langhe/img_5838.jpg
-start_location: Turin
-finish_location: Alba
+start_location:
+  label: 'Turin, Piedmont, Italy'
+  lat: '45.0677551'
+  lon: '7.6824892'
+  locality: Turin
+  adminLevels:
+    1:
+      name: Piedmont
+      code: null
+      level: 1
+    2:
+      name: Turin
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Alba, Piedmont, Italy'
+  lat: '44.7007236'
+  lon: '8.0357786'
+  locality: Alba
+  adminLevels:
+    1:
+      name: Piedmont
+      code: null
+      level: 1
+    2:
+      name: Cuneo
+      code: null
+      level: 2
+  country: Italy
 now_open: false
-seasons: autumn
+seasons:
+  - autumn
 headline: '8 days through southern Piedmont'
 ---

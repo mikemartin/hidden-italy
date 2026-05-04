@@ -5,8 +5,8 @@ title: 'Lombardy-Piedmont - Venice and the Italian Lakes'
 name: 'Venice and the Italian Lakes'
 region: Lombardy-Piedmont
 days: 13
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776829780
+updated_by: 1
+updated_at: 1777904800
 grade: 4
 summary: 'This wonderful tour gives new twists to some of the classic destinations of northern Italy'
 overview:
@@ -220,4 +220,36 @@ gallery:
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/17.5.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_8098.jpg
 headline: '13 days through Venice and the Italian Lakes'
+start_location:
+  label: 'Venice, Veneto, Italy'
+  lat: '45.4046171'
+  lon: '12.3105232'
+  postalCode: 30121-30176
+  locality: Venice
+  adminLevels:
+    1:
+      name: Veneto
+      code: null
+      level: 1
+    2:
+      name: Venezia
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Turin, Piedmont, Italy'
+  lat: '45.0677551'
+  lon: '7.6824892'
+  locality: Turin
+  adminLevels:
+    1:
+      name: Piedmont
+      code: null
+      level: 1
+    2:
+      name: Turin
+      code: null
+      level: 2
+  country: Italy
+now_open: false
 ---

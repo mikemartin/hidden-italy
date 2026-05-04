@@ -5,8 +5,8 @@ title: 'Abruzzo and Molise - From the mountains to the sea'
 name: 'From the mountains to the sea'
 region: 'Abruzzo and Molise'
 days: 13
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517408
+updated_by: 1
+updated_at: 1777904629
 grade: 3
 summary: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
 overview:
@@ -314,8 +314,37 @@ gallery:
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2920.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/15-termoli.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/14-termoli.jpg
-start_location: Rome
-finish_location: Termoli
+start_location:
+  label: 'Rome, Lazio, Italy'
+  lat: '41.8933203'
+  lon: '12.4829321'
+  locality: Rome
+  adminLevels:
+    1:
+      name: Lazio
+      code: null
+      level: 1
+    2:
+      name: 'Roma Capitale'
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Termoli, Molise, Italy'
+  lat: '41.9983273'
+  lon: '14.9939366'
+  postalCode: '86039'
+  locality: Termoli
+  adminLevels:
+    1:
+      name: Molise
+      code: null
+      level: 1
+    2:
+      name: Campobasso
+      code: null
+      level: 2
+  country: Italy
 now_open: false
 headline: '13 days from the mountains to the sea'
 ---

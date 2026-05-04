@@ -198,7 +198,7 @@ page_builder:
     tabs:
       -
         id: 4B51YZfmo3puQemzyeq0f
-        title: 'Piedmont’s High Trails'
+        title: 'Exceptional walking'
         total_distance: 96
         total_elevation: 5000
         grade: 5
@@ -220,7 +220,7 @@ page_builder:
         enabled: true
       -
         id: i4EDk_jCNw6hqyKsCeo0T
-        title: 'Magnificent monasteries'
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -234,7 +234,7 @@ page_builder:
         enabled: true
       -
         id: NWBlCLN3ip_O8OJVtsjT1
-        title: 'Slow Food movement'
+        title: 'Authentic food'
         description:
           -
             type: paragraph
@@ -332,7 +332,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 1
-updated_at: 1777890504
+updated_at: 1777900499
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
@@ -348,8 +348,38 @@ gallery:
   - tours/italian-alps-trails-to-freedom/p8270231.jpg
 image: tours/italian-alps-trails-to-freedom/94.jpg
 simple_likes: 0
-start_location: Biella
-finish_location: Macugnaga
+start_location:
+  label: 'Biella, Piedmont, Italy'
+  lat: '45.5664109'
+  lon: '8.0542758'
+  postalCode: '13900'
+  locality: Biella
+  adminLevels:
+    1:
+      name: Piedmont
+      code: null
+      level: 1
+    2:
+      name: Biella
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Macugnaga, Piedmont, Italy'
+  lat: '45.9683785'
+  lon: '7.9672651'
+  postalCode: '28876'
+  locality: Macugnaga
+  adminLevels:
+    1:
+      name: Piedmont
+      code: null
+      level: 1
+    2:
+      name: Verbano-Cusio-Ossola
+      code: null
+      level: 2
+  country: Italy
 now_open: true
 leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 headline: '10 days hiking in the Italian Alps'

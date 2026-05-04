@@ -6,8 +6,8 @@ name: 'Sicily in the Spring'
 region: Sicily
 seasons: spring
 locations: southern-italy
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517520
+updated_by: 1
+updated_at: 1777904903
 days: 14
 image: tours/sicily-palermo-to-taormina/804728531-13.jpg
 grade: 4
@@ -349,8 +349,37 @@ page_builder:
       - 83669b00-6af8-4b55-920f-3ab8b5f75784
     type: testimonials
     enabled: true
-start_location: Palermo
-finish_location: Taormina
+start_location:
+  label: 'Palermo, Sicily, Italy'
+  lat: '38.1112268'
+  lon: '13.3524434'
+  locality: Palermo
+  adminLevels:
+    1:
+      name: Sicily
+      code: null
+      level: 1
+    2:
+      name: Palermo
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Taormina, Sicily, Italy'
+  lat: '37.8512218'
+  lon: '15.2830191'
+  postalCode: '98039'
+  locality: Taormina
+  adminLevels:
+    1:
+      name: Sicily
+      code: null
+      level: 1
+    2:
+      name: Messina
+      code: null
+      level: 2
+  country: Italy
 now_open: false
 headline: '14 days walking spectacular Sicily'
 ---

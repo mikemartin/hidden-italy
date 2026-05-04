@@ -5,8 +5,8 @@ title: 'Puglia - Puglia in the Spring'
 name: 'Puglia in the Spring'
 region: Puglia
 days: 13
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517490
+updated_by: 1
+updated_at: 1777904817
 grade: 2
 summary: 'Puglia is pure southern Italy: vibrant towns, endless trails and coastline; fabulous food!'
 overview:
@@ -326,8 +326,37 @@ gallery:
   - tours/puglia-puglia-in-the-spring/matera-14.jpg
   - tours/puglia-puglia-in-the-spring/ruvo-9.jpg
   - tours/puglia-puglia-in-the-spring/tower-1.jpeg
-start_location: Lecce
-finish_location: Bari
+start_location:
+  label: 'Lecce, Apulia, Italy'
+  lat: '40.3570373'
+  lon: '18.1718482'
+  postalCode: '73100'
+  locality: Lecce
+  adminLevels:
+    1:
+      name: Apulia
+      code: null
+      level: 1
+    2:
+      name: Lecce
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Bari, Apulia, Italy'
+  lat: '41.1257843'
+  lon: '16.8620293'
+  locality: Bari
+  adminLevels:
+    1:
+      name: Apulia
+      code: null
+      level: 1
+    2:
+      name: Bari
+      code: null
+      level: 2
+  country: Italy
 now_open: false
 headline: '13 days walking the trails of Puglia'
 ---

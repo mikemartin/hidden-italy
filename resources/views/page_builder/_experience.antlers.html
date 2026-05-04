@@ -125,89 +125,26 @@
                             eyebrow (icon + tab label) sits above the title to
                             re-signal the section identity now that the tablist
                             is hidden on small viewports. #}}
-                        <div class="flex flex-col gap-3">
-                            {{# Mobile section badge — same chip pattern as the
-                                tour-overview breadcrumb (h-8 pill, gap-1,
-                                px-4/py-2, sans medium-14) but coloured for
-                                the dark surface: `bg-accent-light` with
-                                `text-text` carrying both the icon and label. #}}
-                            <div class="md:hidden self-start inline-flex items-center gap-2 h-8 px-4 py-2 rounded-full bg-accent-light text-white">
-                                {{ if type == 'walk' }}
-                                    <x-lucide-footprints class="size-[18px] shrink-0" stroke-width="1.5" aria-hidden="true" />
-                                {{ elseif type == 'accommodation' }}
-                                    <x-lucide-bed class="size-[18px] shrink-0" stroke-width="1.5" aria-hidden="true" />
-                                {{ elseif type == 'food' }}
-                                    <x-lucide-utensils class="size-[18px] shrink-0" stroke-width="1.5" aria-hidden="true" />
-                                {{ /if }}
-                                <span class="font-sans font-medium text-sm leading-[1.6]">{{ type | ucfirst }}</span>
+                        {{# Heading row — replicates the Essentials icon-heading
+                            on mobile (40px circular tile + h3 next to it). The
+                            tile is `md:hidden`, so desktop just shows the h3
+                            since the tablist already carries the section icon
+                            up top. `max-md:mt-1.5` nudges the heading down so
+                            its first line visually centres against the tile. #}}
+                        {{ if title }}
+                            <div class="flex items-start gap-4">
+                                <span class="md:hidden shrink-0 inline-flex items-center justify-center size-10 rounded-full bg-accent-light text-white">
+                                    {{ if type == 'walk' }}
+                                        <x-lucide-footprints class="size-5" stroke-width="1.75" aria-hidden="true" />
+                                    {{ elseif type == 'accommodation' }}
+                                        <x-lucide-bed class="size-5" stroke-width="1.75" aria-hidden="true" />
+                                    {{ elseif type == 'food' }}
+                                        <x-lucide-utensils class="size-5" stroke-width="1.75" aria-hidden="true" />
+                                    {{ /if }}
+                                </span>
+                                {{ partial:typography/h3 :content="title" color="text-foreground" class="max-md:mt-2" }}
                             </div>
-
-                            {{ if title }}
-                                {{ partial:typography/h3 :content="title" color="text-foreground" }}
-                            {{ /if }}
-
-                            {{# Stats row mirrors the tour-card stats (icon size, colour
-                                and gap) so the visual language carries through. The
-                                label uses a <p> with `mb-0` to drop the default
-                                paragraph margin while keeping it block-level. #}}
-                            {{ if type == 'walk' }}
-                                {{ if total_distance || total_elevation || grade }}
-                                    <div class="flex flex-wrap items-center gap-x-3 md:gap-x-4 gap-y-2 text-foreground">
-                                        {{ if total_distance }}
-                                            <div class="inline-flex items-center gap-2">
-                                                <x-lucide-route class="size-5 text-accent shrink-0" stroke-width="1.5" aria-hidden="true" />
-                                                <p class="text-sm md:text-base mb-0">{{ total_distance }} km</p>
-                                            </div>
-                                        {{ /if }}
-                                        {{ if total_elevation }}
-                                            <div class="inline-flex items-center gap-2">
-                                                <x-lucide-mountain class="size-5 text-accent shrink-0" stroke-width="1.5" aria-hidden="true" />
-                                                <p class="text-sm md:text-base mb-0">{{ total_elevation }} m</p>
-                                            </div>
-                                        {{ /if }}
-                                        {{# Walk-specific grade description namespaced as
-                                            `walk_grade_description` so it doesn't collide
-                                            with the tour overview's `grade_description`,
-                                            which scopes the tour's overall grade. The
-                                            walk's `grade` is a per-tab field on the
-                                            experience block. #}}
-                                        {{ if grade }}
-                                            {{ if {collection:handle} == 'self-guided' }}
-                                                {{ if grade == 1 }}{{ walk_grade_description = walking_grades:grade_1_self_guided }}{{ /if }}
-                                                {{ if grade == 2 }}{{ walk_grade_description = walking_grades:grade_2_self_guided }}{{ /if }}
-                                                {{ if grade == 3 }}{{ walk_grade_description = walking_grades:grade_3_self_guided }}{{ /if }}
-                                                {{ if grade == 4 }}{{ walk_grade_description = walking_grades:grade_4_self_guided }}{{ /if }}
-                                            {{ else }}
-                                                {{ if grade == 1 }}{{ walk_grade_description = walking_grades:grade_1_guided }}{{ /if }}
-                                                {{ if grade == 2 }}{{ walk_grade_description = walking_grades:grade_2_guided }}{{ /if }}
-                                                {{ if grade == 3 }}{{ walk_grade_description = walking_grades:grade_3_guided }}{{ /if }}
-                                                {{ if grade == 4 }}{{ walk_grade_description = walking_grades:grade_4_guided }}{{ /if }}
-                                                {{ if grade == 5 }}{{ walk_grade_description = walking_grades:grade_5_guided }}{{ /if }}
-                                            {{ /if }}
-                                            <div class="inline-flex items-center gap-2">
-                                                <x-lucide-footprints class="size-5 text-accent shrink-0" stroke-width="1.5" aria-hidden="true" />
-                                                <p class="text-sm md:text-base mb-0">{{ trans:strings.grade ?? 'Grade' }} {{ grade }} / 5</p>
-                                                {{# Tooltip is desktop-only — hover-based affordances
-                                                    don't translate well to touch, and the dense walking
-                                                    description sits inside the body copy on mobile. #}}
-                                                {{ if walk_grade_description }}
-                                                    <button
-                                                        type="button"
-                                                        x-data
-                                                        x-tooltip
-                                                        data-tooltip="{{ walk_grade_description }}"
-                                                        class="text-foreground hidden md:inline-flex items-center justify-center p-1 rounded-full hover:bg-blue-d-100/40 motion-safe:transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-                                                        aria-label="{{ trans:strings.walking_grade ?? 'Walking grade' }} {{ grade }}: {{ walk_grade_description }}"
-                                                    >
-                                                        <x-lucide-info class="size-4" stroke-width="2" aria-hidden="true" />
-                                                    </button>
-                                                {{ /if }}
-                                            </div>
-                                        {{ /if }}
-                                    </div>
-                                {{ /if }}
-                            {{ /if }}
-                        </div>
+                        {{ /if }}
 
                         {{# Description is a Bard field with multiple paragraphs
                             and lists. The wrapper mirrors the
@@ -271,26 +208,148 @@
                         cards: a transparent `p-1` wrapper around a
                         `rounded-lg` photo so the surrounding card colour
                         shows through as a 4px frame. #}}
-                    <div class="lg:col-start-7 lg:col-span-6 flex flex-col gap-5">
-                        {{ if type == 'walk' && image }}
-                            <div class="relative p-1">
-                                <div class="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-card">
-                                    {{ picture
-                                        :image="image"
-                                        aspect_ratio="1/1"
-                                        cover="true"
-                                        class="w-full h-full"
-                                        sizes="(min-width: 1024px) 50vw, 100vw"
-                                        loading="lazy"
-                                    }}
-                                </div>
+                    <div class="lg:col-start-7 lg:col-span-6">
+                        {{# Walk view sits inside a single card (`bg-card`):
+                            the map (or fallback image) gets a 4px matted
+                            frame at the top, and the Start / Finish locations
+                            form the card body underneath. Non-walk tabs
+                            (accommodation, food) fall through to a plain
+                            matted media tile — no card chrome needed. #}}
+                        {{# Walk view: map at the top of a card, all 5 stats
+                            (Start, Finish, Duration, Elevation, Walking
+                            grade) tiled across the card body underneath.
+                            Stats use a 2-up grid on mobile + sm/md, stepping
+                            up to 3-up at lg so the row reads as a single
+                            band rather than a vertical stack.
+
+                            Walk-specific grade description is namespaced as
+                            `walk_grade_description` so it doesn't collide
+                            with the tour overview's tooltip. #}}
+                        {{ if type == 'walk' }}
+                            {{ if grade }}
+                                {{ if {collection:handle} == 'self-guided' }}
+                                    {{ if grade == 1 }}{{ walk_grade_description = walking_grades:grade_1_self_guided }}{{ /if }}
+                                    {{ if grade == 2 }}{{ walk_grade_description = walking_grades:grade_2_self_guided }}{{ /if }}
+                                    {{ if grade == 3 }}{{ walk_grade_description = walking_grades:grade_3_self_guided }}{{ /if }}
+                                    {{ if grade == 4 }}{{ walk_grade_description = walking_grades:grade_4_self_guided }}{{ /if }}
+                                {{ else }}
+                                    {{ if grade == 1 }}{{ walk_grade_description = walking_grades:grade_1_guided }}{{ /if }}
+                                    {{ if grade == 2 }}{{ walk_grade_description = walking_grades:grade_2_guided }}{{ /if }}
+                                    {{ if grade == 3 }}{{ walk_grade_description = walking_grades:grade_3_guided }}{{ /if }}
+                                    {{ if grade == 4 }}{{ walk_grade_description = walking_grades:grade_4_guided }}{{ /if }}
+                                    {{ if grade == 5 }}{{ walk_grade_description = walking_grades:grade_5_guided }}{{ /if }}
+                                {{ /if }}
+                            {{ /if }}
+                            <div class="bg-card rounded-xl shadow-sm overflow-hidden">
+                                {{# Map at top with 4px matted frame. Fallback
+                                    to the static `image` when locations
+                                    haven't been geocoded yet. #}}
+                                {{ if start_location:lat && finish_location:lat }}
+                                    <div
+                                        class="p-1"
+                                        x-data="tourMap"
+                                        data-start='[{{ start_location:lon }}, {{ start_location:lat }}]'
+                                        data-end='[{{ finish_location:lon }}, {{ finish_location:lat }}]'
+                                        data-region="{{ start_location:adminLevels:1:name }}"
+                                    >
+                                        <div
+                                            x-ref="canvas"
+                                            class="w-full aspect-[4/3] rounded-lg overflow-hidden"
+                                            aria-label="{{ name ?? 'Tour' }} route map"
+                                        ></div>
+                                    </div>
+                                {{ elseif image }}
+                                    <div class="p-1">
+                                        <div class="w-full aspect-[4/3] rounded-lg overflow-hidden">
+                                            {{ picture
+                                                :image="image"
+                                                aspect_ratio="1/1"
+                                                cover="true"
+                                                class="w-full h-full"
+                                                sizes="(min-width: 1024px) 50vw, 100vw"
+                                                loading="lazy"
+                                            }}
+                                        </div>
+                                    </div>
+                                {{ /if }}
+
+                                {{# Locations row — Start / Finish under the
+                                    map, dots colour-matched to the markers.
+                                    Two equal columns. #}}
+                                {{ if start_location:label || finish_location:label }}
+                                    <dl class="grid grid-cols-2 gap-x-6 gap-y-5 px-5 pt-4 pb-5 md:px-6 md:pt-5 md:pb-6">
+                                        {{ if start_location:label }}
+                                            <div>
+                                                <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">{{ trans:strings.start ?? 'Start' }}</dt>
+                                                <dd class="mt-1 flex items-center gap-2">
+                                                    <x-lucide-circle-dot class="size-5 lg:size-6 text-[#6D998C] shrink-0" stroke-width="2" aria-hidden="true" />
+                                                    <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ start_location:locality ?? start_location:label }}</span>
+                                                </dd>
+                                            </div>
+                                        {{ /if }}
+                                        {{ if finish_location:label }}
+                                            <div>
+                                                <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">{{ trans:strings.finish ?? 'Finish' }}</dt>
+                                                <dd class="mt-1 flex items-center gap-2">
+                                                    <x-lucide-circle-dot class="size-5 lg:size-6 text-[#D4704E] shrink-0" stroke-width="2" aria-hidden="true" />
+                                                    <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ finish_location:locality ?? finish_location:label }}</span>
+                                                </dd>
+                                            </div>
+                                        {{ /if }}
+                                    </dl>
+                                {{ /if }}
+
+                                {{# Physical stats — 3-up grid (Distance,
+                                    Elevation, Walking grade) below the
+                                    locations, separated by a thin `border-t`
+                                    divider. #}}
+                                {{ if total_distance || total_elevation || grade }}
+                                    <dl class="grid grid-cols-3 gap-x-6 gap-y-5 px-5 py-5 md:px-6 md:py-6 border-t border-blue-d-100">
+                                        {{ if total_distance }}
+                                            <div>
+                                                <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">{{ trans:strings.distance ?? 'Distance' }}</dt>
+                                                <dd class="mt-1 flex items-center gap-2">
+                                                    <x-lucide-route class="size-5 lg:size-6 text-accent shrink-0" stroke-width="2" aria-hidden="true" />
+                                                    <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ total_distance }} km</span>
+                                                </dd>
+                                            </div>
+                                        {{ /if }}
+                                        {{ if total_elevation }}
+                                            <div>
+                                                <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">{{ trans:strings.elevation ?? 'Elevation' }}</dt>
+                                                <dd class="mt-1 flex items-center gap-2">
+                                                    <x-lucide-mountain class="size-5 lg:size-6 text-accent shrink-0" stroke-width="2" aria-hidden="true" />
+                                                    <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ total_elevation }} m</span>
+                                                </dd>
+                                            </div>
+                                        {{ /if }}
+                                        {{ if grade }}
+                                            <div>
+                                                <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">{{ trans:strings.walking_grade ?? 'Walking grade' }}</dt>
+                                                <dd class="mt-1 flex items-center gap-2">
+                                                    <x-lucide-footprints class="size-5 lg:size-6 text-accent shrink-0" stroke-width="2" aria-hidden="true" />
+                                                    <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ trans:strings.grade ?? 'Grade' }} {{ grade }} / 5</span>
+                                                    {{# Tooltip is desktop-only — hover affordances don't translate to touch. #}}
+                                                    {{ if walk_grade_description }}
+                                                        <button
+                                                            type="button"
+                                                            x-data
+                                                            x-tooltip
+                                                            data-tooltip="{{ walk_grade_description }}"
+                                                            data-tooltip-theme="light"
+                                                            class="text-text hidden md:inline-flex items-center justify-center p-1 rounded-full hover:bg-accent-light hover:text-white motion-safe:transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                                                            aria-label="{{ trans:strings.walking_grade ?? 'Walking grade' }} {{ grade }}: {{ walk_grade_description }}"
+                                                        >
+                                                            <x-lucide-info class="size-4" stroke-width="2" aria-hidden="true" />
+                                                        </button>
+                                                    {{ /if }}
+                                                </dd>
+                                            </div>
+                                        {{ /if }}
+                                    </dl>
+                                {{ /if }}
                             </div>
-                        {{# `media` is what `images` used to be on the
-                            accommodation/food experience tabs. Renamed to
-                            avoid a Statamic OrderedQueryBuilder collision
-                            with the history block's `images` field, which
-                            was leaking its first asset into the experience
-                            lookup. #}}
+                        {{# Non-walk tabs (accommodation, food) — single matted media tile. #}}
                         {{ elseif media }}
                             {{ media }}
                                 {{ if first }}
@@ -308,36 +367,6 @@
                                     </div>
                                 {{ /if }}
                             {{ /media }}
-                        {{ /if }}
-
-                        {{# Start / Finish footer pulls from the parent tour entry.
-                            Two equal-width tiles, gold uppercase eyebrow + h4-sized
-                            value, with a 48px circular icon on `bg-accent-light`. #}}
-                        {{ if type == 'walk' && (start_location || finish_location) }}
-                            <dl class="grid grid-cols-2 gap-6 sm:gap-9 mt-2">
-                                {{ if start_location }}
-                                    <div class="flex items-start gap-6">
-                                        <span class="shrink-0 inline-flex items-center justify-center size-12 rounded-full bg-accent-light text-foreground">
-                                            <x-lucide-circle-play class="size-6" stroke-width="1.75" aria-hidden="true" />
-                                        </span>
-                                        <div class="flex flex-col">
-                                            <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-accent">{{ trans:strings.start ?? 'Start' }}</dt>
-                                            <dd class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ start_location }}</dd>
-                                        </div>
-                                    </div>
-                                {{ /if }}
-                                {{ if finish_location }}
-                                    <div class="flex items-start gap-6">
-                                        <span class="shrink-0 inline-flex items-center justify-center size-12 rounded-full bg-accent-light text-foreground">
-                                            <x-lucide-flag class="size-6" stroke-width="1.75" aria-hidden="true" />
-                                        </span>
-                                        <div class="flex flex-col">
-                                            <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-accent">{{ trans:strings.finish ?? 'Finish' }}</dt>
-                                            <dd class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ finish_location }}</dd>
-                                        </div>
-                                    </div>
-                                {{ /if }}
-                            </dl>
                         {{ /if }}
                     </div>
                 </section>

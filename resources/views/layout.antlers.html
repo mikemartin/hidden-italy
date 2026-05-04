@@ -16,6 +16,11 @@
         <link rel="preload" href="{{ vite:asset src='resources/fonts/RomaNeue-SemiBold.woff2' }}" as="font" type="font/woff2" crossorigin>
         <link rel="stylesheet" href="/vendor/simple-likes/css/simple-likes.css">
         {{ vite src="resources/css/site.css|resources/js/site.js" }}
+        {{# MapLibre GL JS — loaded straight from unpkg per the maintainers'
+            CDN docs. Lives in the layout `<head>` so the global
+            `window.maplibregl` is ready before any tour map mounts. #}}
+        <link href="https://unpkg.com/maplibre-gl@^5.24.0/dist/maplibre-gl.css" rel="stylesheet" />
+        <script src="https://unpkg.com/maplibre-gl@^5.24.0/dist/maplibre-gl.js" defer></script>
         {{ partial:statamic-peak-seo::snippets/seo }}
         {{ partial:statamic-peak-tools::snippets/browser_appearance }}
         {{ stack:head }}
@@ -26,7 +31,7 @@
         {{ partial:statamic-peak-tools::navigation/skip_links }}
         {{ partial:statamic-peak-tools::components/toolbar }}
 
-        {{ if {view:transparent_header} }}
+        {{ if transparent_header }}
             {{# Banner + header float over the first page-builder block and stay
                 fixed at the top of the viewport. The header transitions to the
                 brand colour past 20px of scroll (see /layout/_header). #}}

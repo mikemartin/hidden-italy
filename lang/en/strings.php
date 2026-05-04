@@ -108,6 +108,8 @@ return [
     'tour_leader' => 'Tour Leader',
     'walking_grade' => 'Walking grade',
     'grade' => 'Grade',
+    'elevation' => 'Elevation',
+    'distance' => 'Distance',
     'guests' => 'guests',
     'whats_included' => "What's included",
     'share' => 'Share',

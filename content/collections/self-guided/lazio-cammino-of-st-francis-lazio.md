@@ -5,8 +5,8 @@ title: 'Lazio - Cammino of St Francis:  Lazio'
 name: 'Cammino of St Francis:  Lazio'
 region: Lazio
 days: 8
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777516813
+updated_by: 1
+updated_at: 1777905262
 grade: 3
 summary: 'From the quiet green hills of central Italy to the steps of St Peters in the heart of Rome'
 overview:
@@ -281,9 +281,39 @@ gallery:
   - tours/piedmont-alba-and-le-langhe-1/rome-1.jpg
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 image: tours/piedmont-alba-and-le-langhe-1/rome-1.jpg
-start_location: Rieti
-finish_location: Rome
+start_location:
+  label: 'Rieti, Lazio, Italy'
+  lat: '42.4025479'
+  lon: '12.8605297'
+  postalCode: '02100'
+  locality: Rieti
+  adminLevels:
+    1:
+      name: Lazio
+      code: null
+      level: 1
+    2:
+      name: Rieti
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Rome, Lazio, Italy'
+  lat: '41.8933203'
+  lon: '12.4829321'
+  locality: Rome
+  adminLevels:
+    1:
+      name: Lazio
+      code: null
+      level: 1
+    2:
+      name: 'Roma Capitale'
+      code: null
+      level: 2
+  country: Italy
 now_open: false
-seasons: autumn
+seasons:
+  - autumn
 headline: '8 days from the green hills to Rome'
 ---

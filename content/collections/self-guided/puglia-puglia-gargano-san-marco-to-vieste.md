@@ -5,8 +5,8 @@ title: 'Puglia - Puglia: the Gargano Peninsula'
 name: 'Puglia: the Gargano Peninsula'
 region: Puglia
 days: 8
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777516969
+updated_by: 1
+updated_at: 1777905557
 grade: 4
 summary: 'Ramble the length of Gargano Peninsula through farmlands and forest to the sparkling sea!'
 overview:
@@ -294,6 +294,39 @@ gallery:
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_2836.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_3610.jpg
 now_open: false
-seasons: spring
+seasons:
+  - spring
 headline: '8 days rambling across the Gargano'
+start_location:
+  label: 'San Marco, Campania, Italy'
+  lat: '40.2679127'
+  lon: '14.9388058'
+  postalCode: '84071'
+  locality: 'San Marco'
+  adminLevels:
+    1:
+      name: Campania
+      code: null
+      level: 1
+    2:
+      name: Salerno
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Vieste, Apulia, Italy'
+  lat: '41.8827595'
+  lon: '16.1791791'
+  postalCode: '71019'
+  locality: Vieste
+  adminLevels:
+    1:
+      name: Apulia
+      code: null
+      level: 1
+    2:
+      name: Foggia
+      code: null
+      level: 2
+  country: Italy
 ---

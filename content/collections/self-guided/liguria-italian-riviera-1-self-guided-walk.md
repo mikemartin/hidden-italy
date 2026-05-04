@@ -5,8 +5,8 @@ title: 'Liguria - Italian Riviera 1'
 name: 'Italian Riviera 1'
 region: Liguria
 days: 8
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777516873
+updated_by: 1
+updated_at: 1777905321
 grade: 4
 summary: 'Follow ancient paths through fishing villages and forests on the beautiful Italian Riviera'
 overview:
@@ -313,9 +313,39 @@ gallery:
   - tours/liguria-italian-riviera-1-self-guided-walk/18.jpg
   - tours/liguria-italian-riviera-1-self-guided-walk/img_4828-a.jpg
   - tours/liguria-italian-riviera-1-self-guided-walk/27-a.jpg
-start_location: Genova
-finish_location: 'Sestri Levante'
+start_location:
+  label: 'Genoa, Liguria, Italy'
+  lat: '44.40726'
+  lon: '8.9338624'
+  locality: Genoa
+  adminLevels:
+    1:
+      name: Liguria
+      code: null
+      level: 1
+    2:
+      name: Genoa
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Sestri Levante, Liguria, Italy'
+  lat: '44.2714526'
+  lon: '9.3958627'
+  postalCode: '16039'
+  locality: 'Sestri Levante'
+  adminLevels:
+    1:
+      name: Liguria
+      code: null
+      level: 1
+    2:
+      name: Genoa
+      code: null
+      level: 2
+  country: Italy
 now_open: false
-seasons: autumn
+seasons:
+  - autumn
 headline: '8 days hiking the Italian Riviera'
 ---

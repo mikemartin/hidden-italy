@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "@splidejs/splide/dist/css/splide-core.min.css" layer(components);
 @import "tippy.js/dist/tippy.css";
+@import "tippy.js/themes/light.css";
 @import "../../vendor/livewire/flux/dist/flux.css";
 
 @source "../../vendor/livewire/flux/stubs/**/*.blade.php";
@@ -337,25 +338,11 @@
     mask: url('../svg/hidden-italy-logo.svg') no-repeat center / contain;
 }
 
-/* Transparent header overlay — applied when an entry sets `transparent_header`
-   in the page blueprint. The site header floats over the first page-builder
-   block (typically a hero) with light text and a subtle bottom border. */
-@layer components {
-    .has-overlay-header header {
-        background-color: transparent;
-        color: white;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    }
-
-    .has-overlay-header header a,
-    .has-overlay-header header button {
-        color: white;
-    }
-
-    .has-overlay-header header svg {
-        color: currentColor;
-    }
-}
+/* Transparent header overlay was previously redefined here, but the site
+   header partial already handles `bg-transparent`, `text-white`, and
+   `border-b border-white/20` via Tailwind. The unscoped `.has-overlay-header
+   header` selector was leaking those styles onto every nested `<header>` on
+   transparent-header pages (e.g. the experience section's own title). */
 
 /* Tippy.js — override the default theme so every tooltip on the site picks
    up our dark surface tokens. Switch to a `data-theme` variant if a second

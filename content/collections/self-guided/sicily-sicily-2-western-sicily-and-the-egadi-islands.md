@@ -5,8 +5,8 @@ title: 'Sicily - Sicily 2 (Western Sicily and the Egadi Islands)'
 name: 'Sicily 2 (Western Sicily and the Egadi Islands)'
 region: Sicily
 days: 7
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517083
+updated_by: 1
+updated_at: 1777905595
 grade: 3
 summary: 'Coastal walks, island hoping and fabulous food, this tour is southern Italy at its best!'
 overview:
@@ -298,8 +298,38 @@ gallery:
   - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/p1010686.jpg
 seasons:
   - spring
-start_location: Favignana
-finish_location: Scopello
+start_location:
+  label: 'Favignana, Sicily, Italy'
+  lat: '37.9314018'
+  lon: '12.3274291'
+  postalCode: '91023'
+  locality: Favignana
+  adminLevels:
+    1:
+      name: Sicily
+      code: null
+      level: 1
+    2:
+      name: Trapani
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Scopello, Piedmont, Italy'
+  lat: '45.757984'
+  lon: '8.1127615'
+  postalCode: '13028'
+  locality: Scopello
+  adminLevels:
+    1:
+      name: Piedmont
+      code: null
+      level: 1
+    2:
+      name: Vercelli
+      code: null
+      level: 2
+  country: Italy
 now_open: false
 headline: '7 days walking the Egadi Islands'
 ---

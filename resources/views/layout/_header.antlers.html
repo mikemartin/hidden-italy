@@ -10,7 +10,7 @@
 
 <!-- /layout/_header.antlers.html -->
 <header
-    {{ if {view:transparent_header} }}
+    {{ if transparent_header }}
         x-data="{ scrolled: false }"
         x-init="scrolled = window.scrollY > 20"
         @scroll.window.passive="scrolled = window.scrollY > 20"

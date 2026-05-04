@@ -5,8 +5,8 @@ title: 'Campania - Amalfi Coast tour'
 name: 'Amalfi Coast tour'
 region: Campania
 days: 6
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777516759
+updated_by: 1
+updated_at: 1777905243
 grade: 3
 summary: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
 overview:
@@ -281,8 +281,37 @@ gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour-1/positano-pan-1.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
 image: tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
-start_location: Ravello
-finish_location: Positano
+start_location:
+  label: 'Ravello, Campania, Italy'
+  lat: '40.663289'
+  lon: '14.6125597'
+  locality: Ravello
+  adminLevels:
+    1:
+      name: Campania
+      code: null
+      level: 1
+    2:
+      name: Salerno
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Positano, Campania, Italy'
+  lat: '40.6286581'
+  lon: '14.4854955'
+  postalCode: '84017'
+  locality: Positano
+  adminLevels:
+    1:
+      name: Campania
+      code: null
+      level: 1
+    2:
+      name: Salerno
+      code: null
+      level: 2
+  country: Italy
 headline: '6 days along the breathtaking Amalfi Coast'
 now_open: false
 seasons:

@@ -1,6 +1,8 @@
----
-transparent_header: true
----
+{{# `transparent_header` set inline rather than via YAML front matter
+    because collection-loaded templates don't always propagate front
+    matter to the layout's view scope. Inline assignment guarantees
+    `{{ if transparent_header }}` resolves true on every tour page. #}}
+{{ transparent_header = true }}
 {{#
     @name Tour show
     @desc Single tour entry. The tour banner header sits at the top — region

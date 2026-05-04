@@ -5,8 +5,8 @@ title: 'Trentino-Alto Adige - Dolomites 1'
 name: 'Dolomites 1'
 region: 'Trentino-Alto Adige'
 days: 6
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517105
+updated_by: 1
+updated_at: 1777905841
 grade: 4
 summary: "Enjoy some of Italy's finest walking through some of Europe's most breath-taking scenery!"
 overview:
@@ -275,9 +275,26 @@ gallery:
   - tours/alto-adige-dolomites-1-self-guided-walk/img_8778-1773019782.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/img_3481-1773020206.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/35-1773020227.jpg
-start_location: Bolzano
-finish_location: 'Val Gardena'
+start_location:
+  label: Bolzano
 now_open: false
-seasons: summer
+seasons:
+  - summer
 headline: '6 days walking through the Dolomites'
+finish_location:
+  label: 'Sëlva - Wolkenstein - Selva di Val Gardena, Trentino – Alto Adige/Südtirol, Italy'
+  lat: '46.5551877'
+  lon: '11.7600992'
+  postalCode: '39048'
+  locality: 'Sëlva - Wolkenstein - Selva di Val Gardena'
+  adminLevels:
+    1:
+      name: 'Trentino – Alto Adige/Südtirol'
+      code: null
+      level: 1
+    2:
+      name: 'South Tyrol'
+      code: null
+      level: 2
+  country: Italy
 ---

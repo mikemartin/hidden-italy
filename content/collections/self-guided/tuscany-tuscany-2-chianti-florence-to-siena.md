@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 2'
 name: 'Tuscany 2'
 region: Tuscany
 days: 7
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517205
+updated_by: 1
+updated_at: 1777905920
 grade: 4
 summary: 'Enjoy a seven-day walk through the rolling vineyards, forest and market towns of Chianti.'
 overview:
@@ -294,9 +294,39 @@ gallery:
   - tours/tuscany-tuscany-2-chianti-florence-to-siena/016.jpg
   - tours/tuscany-tuscany-2-chianti-florence-to-siena/alessandro-rossi-ju_bgza3zhe-unsplash.jpg
   - tours/tuscany-tuscany-2-chianti-florence-to-siena/mario-la-pergola-vopuqdtcnja-unsplash.jpg
-start_location: Florence
-finish_location: Siena
+start_location:
+  label: 'Florence, Tuscany, Italy'
+  lat: '43.7697955'
+  lon: '11.2556404'
+  locality: Florence
+  adminLevels:
+    1:
+      name: Tuscany
+      code: null
+      level: 1
+    2:
+      name: Florence
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Siena, Tuscany, Italy'
+  lat: '43.3185536'
+  lon: '11.3316533'
+  postalCode: '53100'
+  locality: Siena
+  adminLevels:
+    1:
+      name: Tuscany
+      code: null
+      level: 1
+    2:
+      name: Siena
+      code: null
+      level: 2
+  country: Italy
 now_open: false
-seasons: autumn
+seasons:
+  - autumn
 headline: '7 days walking the Chianti vineyards'
 ---

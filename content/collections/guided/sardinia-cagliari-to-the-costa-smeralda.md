@@ -6,8 +6,8 @@ name: 'Sardinia in the Spring'
 region: Sardinia
 days: 13
 seasons: spring
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517503
+updated_by: 1
+updated_at: 1777904882
 grade: 3
 summary: 'Sardinia is a magical island, a few hours by ferry, a world away from continental Italy.'
 tour_size: 15
@@ -333,8 +333,38 @@ page_builder:
     enabled: true
 simple_likes: 0
 locations: southern-italy
-start_location: Cagliari
-finish_location: 'the Costa Smeralda'
+start_location:
+  label: 'Cagliari, Sardinia, Italy'
+  lat: '39.2171994'
+  lon: '9.113311'
+  locality: Cagliari
+  adminLevels:
+    1:
+      name: Sardinia
+      code: null
+      level: 1
+    2:
+      name: Casteddu/Cagliari
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Via Costa Smeralda, Ragusa, Sicily, Italy'
+  lat: '36.7843016'
+  lon: '14.5479082'
+  streetName: 'Via Costa Smeralda'
+  postalCode: '97100'
+  locality: Ragusa
+  adminLevels:
+    1:
+      name: Sicily
+      code: null
+      level: 1
+    2:
+      name: Ragusa
+      code: null
+      level: 2
+  country: Italy
 now_open: false
 headline: '13 days exploring magical Sardinia'
 ---

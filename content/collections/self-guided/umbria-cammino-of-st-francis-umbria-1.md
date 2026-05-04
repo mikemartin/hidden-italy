@@ -5,8 +5,8 @@ title: 'Umbria - Cammino of St Francis:  Umbria 1'
 name: 'Cammino of St Francis:  Umbria 1'
 region: Umbria
 days: 7
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517259
+updated_by: 1
+updated_at: 1777906024
 grade: 3
 summary: "Walk well-marked trails thru Italy's most beautiful region, in the footsteps of St Francis"
 overview:
@@ -280,6 +280,39 @@ gallery:
   - tours/umbria-cammino-of-st-francis-umbria-1/umbria-3686911_1280.jpg
   - tours/umbria-cammino-of-st-francis-umbria-1/16.jpg
 now_open: false
-seasons: spring
+seasons:
+  - spring
 headline: '7 days walking with St Francis'
+start_location:
+  label: 'Assisi, Umbria, Italy'
+  lat: '43.0711952'
+  lon: '12.6146669'
+  postalCode: '06081'
+  locality: Assisi
+  adminLevels:
+    1:
+      name: Umbria
+      code: null
+      level: 1
+    2:
+      name: Perugia
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Spoleto, Umbria, Italy'
+  lat: '42.7342971'
+  lon: '12.7382035'
+  postalCode: '06049'
+  locality: Spoleto
+  adminLevels:
+    1:
+      name: Umbria
+      code: null
+      level: 1
+    2:
+      name: Perugia
+      code: null
+      level: 2
+  country: Italy
 ---

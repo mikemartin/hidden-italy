@@ -5,8 +5,8 @@ title: 'Umbria - Umbria Classic'
 name: 'Umbria Classic'
 region: Umbria
 days: 7
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517384
+updated_by: 1
+updated_at: 1777906100
 grade: 3
 summary: 'Enjoy the best of Umbria has to offer: superior accommodation, great art, amazing walks!'
 overview:
@@ -292,6 +292,39 @@ gallery:
   - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020022.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2-1/f1030001.jpg
 now_open: false
-seasons: spring
+seasons:
+  - spring
 headline: '7 days walking the best of Umbria'
+start_location:
+  label: 'Spoleto, Umbria, Italy'
+  lat: '42.7342971'
+  lon: '12.7382035'
+  postalCode: '06049'
+  locality: Spoleto
+  adminLevels:
+    1:
+      name: Umbria
+      code: null
+      level: 1
+    2:
+      name: Perugia
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Spoleto, Umbria, Italy'
+  lat: '42.7342971'
+  lon: '12.7382035'
+  postalCode: '06049'
+  locality: Spoleto
+  adminLevels:
+    1:
+      name: Umbria
+      code: null
+      level: 1
+    2:
+      name: Perugia
+      code: null
+      level: 2
+  country: Italy
 ---

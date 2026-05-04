@@ -5,8 +5,8 @@ title: 'Liguria - Italian Riviera 2'
 name: 'Italian Riviera 2'
 region: Liguria
 days: 8
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777516917
+updated_by: 1
+updated_at: 1777905357
 grade: 4
 summary: "Walk Italy's most celebrated coastline from romantic Sestri Levante to the Cinque Terre!"
 overview:
@@ -348,9 +348,40 @@ gallery:
   - tours/alto-adige-dolomites-1-self-guided-walk-1-1/shutterstock_1172539480-a.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1-1/view-from-window-at-paradiso.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk-1-1/wine-bottle.jpg
-start_location: 'Sestri Levante'
-finish_location: Portovenere
+start_location:
+  label: 'Sestri Levante, Liguria, Italy'
+  lat: '44.2714526'
+  lon: '9.3958627'
+  postalCode: '16039'
+  locality: 'Sestri Levante'
+  adminLevels:
+    1:
+      name: Liguria
+      code: null
+      level: 1
+    2:
+      name: Genoa
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Portovenere, Liguria, Italy'
+  lat: '44.0506605'
+  lon: '9.8344585'
+  postalCode: '19025'
+  locality: Portovenere
+  adminLevels:
+    1:
+      name: Liguria
+      code: null
+      level: 1
+    2:
+      name: 'La Spezia'
+      code: null
+      level: 2
+  country: Italy
 now_open: false
-seasons: autumn
+seasons:
+  - autumn
 headline: '8 days walking to the Cinque Terre'
 ---

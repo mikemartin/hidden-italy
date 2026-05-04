@@ -5,8 +5,8 @@ title: 'Friuli Venezia Giulia - Trieste and Friuli'
 name: 'Trieste and Friuli'
 region: 'Friuli Venezia Giulia'
 days: 13
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517434
+updated_by: 1
+updated_at: 1777904703
 grade: 4
 summary: 'A special tour to a fascinating region: 3 borders, 4 national parks; and five languages.'
 overview:
@@ -335,8 +335,32 @@ gallery:
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/68a-2.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/87.5.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/88.7.jpg
-start_location: Udine
-finish_location: Trieste
+start_location:
+  label: 'Friuli – Venezia Giulia, Italy'
+  lat: '46.151042'
+  lon: '13.055904'
+  adminLevels:
+    1:
+      name: 'Friuli – Venezia Giulia'
+      code: null
+      level: 1
+  country: Italy
+finish_location:
+  label: 'Trieste, Friuli – Venezia Giulia, Italy'
+  lat: '45.6496485'
+  lon: '13.7772781'
+  postalCode: 34121-34151
+  locality: Trieste
+  adminLevels:
+    1:
+      name: 'Friuli – Venezia Giulia'
+      code: null
+      level: 1
+    2:
+      name: Trieste
+      code: null
+      level: 2
+  country: Italy
 now_open: false
 headline: '13 days across 3 borders, 4 national parks'
 ---

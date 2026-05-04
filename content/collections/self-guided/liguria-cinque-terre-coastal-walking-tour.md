@@ -5,8 +5,8 @@ title: 'Liguria - Cinque Terre Coastal'
 name: 'Cinque Terre Coastal'
 region: Liguria
 days: 7
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777516851
+updated_by: 1
+updated_at: 1777905302
 grade: 3
 summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
 overview:
@@ -276,9 +276,40 @@ gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour/44.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/portovenere-town-1.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/siret-jaksic-yats80aqvmm-unsplash.jpg
-start_location: Levanto
-finish_location: Portovenere
+start_location:
+  label: 'Levanto, Liguria, Italy'
+  lat: '44.1699056'
+  lon: '9.6120397'
+  postalCode: '19015'
+  locality: Levanto
+  adminLevels:
+    1:
+      name: Liguria
+      code: null
+      level: 1
+    2:
+      name: 'La Spezia'
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Portovenere, Liguria, Italy'
+  lat: '44.0506605'
+  lon: '9.8344585'
+  postalCode: '19025'
+  locality: Portovenere
+  adminLevels:
+    1:
+      name: Liguria
+      code: null
+      level: 1
+    2:
+      name: 'La Spezia'
+      code: null
+      level: 2
+  country: Italy
 now_open: false
-seasons: spring
+seasons:
+  - spring
 headline: "7 days along Italy's finest coast"
 ---

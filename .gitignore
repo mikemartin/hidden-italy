@@ -5,6 +5,7 @@
 /public/storage
 /public/vendor/statamic
 /public/vendor/statamic-peak-tools
+/public/vendor/statamic-simple-address
 /public/img/
 /public/static/
 /storage/*.key

@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 1'
 name: 'Tuscany 1'
 region: Tuscany
 days: 6
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517143
+updated_by: 1
+updated_at: 1777905904
 grade: 2
 summary: 'Pure Tuscany: rolling hills, cypress pines, Renaissance towns, fine food, relaxed walking.'
 overview:
@@ -276,6 +276,38 @@ gallery:
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5117.jpg
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5149.jpg
 now_open: false
-seasons: spring
+seasons:
+  - spring
 headline: '6 days walking the Tuscan hills'
+start_location:
+  label: 'Montalcino, Tuscany, Italy'
+  lat: '43.0575578'
+  lon: '11.4902818'
+  locality: Montalcino
+  adminLevels:
+    1:
+      name: Tuscany
+      code: null
+      level: 1
+    2:
+      name: Siena
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Montepulciano, Tuscany, Italy'
+  lat: '43.0945279'
+  lon: '11.7826795'
+  postalCode: '53045'
+  locality: Montepulciano
+  adminLevels:
+    1:
+      name: Tuscany
+      code: null
+      level: 1
+    2:
+      name: Siena
+      code: null
+      level: 2
+  country: Italy
 ---

@@ -5,8 +5,8 @@ title: 'Tuscany and Umbria - La Tuscia'
 name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 8
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517239
+updated_by: 1
+updated_at: 1777905985
 grade: 3
 summary: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
 overview:
@@ -282,11 +282,42 @@ gallery:
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020009-a.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano-2.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/img_6947.jpeg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/martinophuc-boats-7100032.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/walking.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-1.jpg
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-8.jpg
 now_open: false
-seasons: spring
+seasons:
+  - spring
 headline: '8 days walking through hidden Tuscia'
+start_location:
+  label: 'Pitigliano, Tuscany, Italy'
+  lat: '42.634827'
+  lon: '11.673549'
+  postalCode: '58017'
+  locality: Pitigliano
+  adminLevels:
+    1:
+      name: Tuscany
+      code: null
+      level: 1
+    2:
+      name: Grosseto
+      code: null
+      level: 2
+  country: Italy
+finish_location:
+  label: 'Orvieto, Umbria, Italy'
+  lat: '42.7186152'
+  lon: '12.1087907'
+  postalCode: '05018'
+  locality: Orvieto
+  adminLevels:
+    1:
+      name: Umbria
+      code: null
+      level: 1
+    2:
+      name: Terni
+      code: null
+      level: 2
+  country: Italy
 ---

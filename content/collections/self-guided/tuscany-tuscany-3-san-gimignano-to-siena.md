@@ -277,8 +277,10 @@ gallery:
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/kristof-van-rentergem-lpywtwptwbs-unsplash.jpg
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/p1010314.jpg
   - tours/tuscany-tuscany-3-san-gimignano-to-siena/achim-ruhnau-a3fwnq1inoi-unsplash(1).jpg
-start_location: 'San Gimignano'
-finish_location: Siena
+start_location:
+  label: 'San Gimignano'
+finish_location:
+  label: 'Siena'
 now_open: false
 seasons: spring
 headline: '5 days from San Gimignano to Siena'
