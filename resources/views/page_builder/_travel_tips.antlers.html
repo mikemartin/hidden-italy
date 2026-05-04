@@ -1,33 +1,119 @@
 {{#
     @name Travel tips
-    @desc Three-up grid of article cards pulled from the Tips and Inspiration
-          collections. Heading on the left, optional "view all" link on the
-          right. Each tile is the shared `components/_article-card` partial
-          so this layout stays in lockstep with the cards reference page.
+    @desc Splide-powered carousel of article cards pulled from the Tips and
+          Inspiration collections. Mobile shows one card at a time; desktop
+          shows three. Heading sits on the left of the header, with custom
+          prev/next arrows (md+, when there's something to scroll to) and the
+          optional "view all" link grouped on the right. A thin progress bar
+          below the track tracks position through the set. Each tile is the
+          shared `components/_article-card` partial so this layout stays in
+          lockstep with the cards reference page.
     @set page.page_builder.travel_tips
 #}}
 
 <!-- /page_builder/_travel_tips.antlers.html -->
-{{ partial:page_builder/block class="gap-y-10" }}
-    <header class="span-content flex flex-wrap items-end justify-between gap-4">
-        {{ partial:typography/h2 :content="block:heading" color="text-foreground" class="!mb-0" }}
+{{ if block:articles }}
+    <section
+        class="fluid-grid gap-y-10"
+        x-data="{
+            progress: 0,
+            atStart: true,
+            atEnd: false,
+            splide: null,
+            init() {
+                this.splide = new Splide(this.$refs.splide, {
+                    perPage: 3,
+                    perMove: 1,
+                    gap: '2.25rem',
+                    pagination: false,
+                    arrows: false,
+                    drag: 'free',
+                    snap: true,
+                    breakpoints: {
+                        768: { perPage: 1, gap: '1.5rem' },
+                    },
+                });
+                this.splide.on('mounted move scrolled', () => {
+                    const controller = this.splide.Components.Controller;
+                    const end = controller.getEnd() + 1;
+                    this.progress = Math.min((this.splide.index + 1) / end, 1) * 100;
+                    this.atStart = controller.getPrev() === -1;
+                    this.atEnd = controller.getNext() === -1;
+                });
+                this.splide.mount();
+            },
+            next() { this.splide?.go('+') },
+            prev() { this.splide?.go('-') },
+            destroy() { this.splide?.destroy() },
+        }"
+    >
+        <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            {{ partial:typography/h2 :content="block:heading" class="!mb-0" color="text-foreground" }}
 
-        {{ block:link_entry }}
-            <a href="{{ url }}" class="button-inline group inline-flex items-center gap-1">
-                <span>{{ block:link_text ?? 'View all' }}</span>
-                <x-lucide-arrow-right class="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
-            </a>
-        {{ /block:link_entry }}
-    </header>
+            <div class="flex flex-wrap items-center gap-x-6 gap-y-3 self-start md:self-auto">
+                {{# Desktop prev/next arrows — only when there's something to scroll to. #}}
+                {{ if block:articles | count > 3 }}
+                    <div class="hidden md:flex items-center gap-4">
+                        <button
+                            type="button"
+                            @click="prev()"
+                            :disabled="atStart"
+                            aria-label="Previous article"
+                            class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-parchment-200"
+                        >
+                            <x-lucide-arrow-left class="size-5" stroke-width="2" aria-hidden="true" />
+                        </button>
+                        <button
+                            type="button"
+                            @click="next()"
+                            :disabled="atEnd"
+                            aria-label="Next article"
+                            class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-parchment-200"
+                        >
+                            <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />
+                        </button>
+                    </div>
+                {{ /if }}
 
-    {{ if block:articles }}
-        <ul class="span-content grid grid-cols-1 md:grid-cols-3 gap-fluid-grid-gap">
-            {{ block:articles }}
-                <li>
-                    {{ partial:components/article-card }}
-                </li>
-            {{ /block:articles }}
-        </ul>
-    {{ /if }}
-{{ /partial:page_builder/block }}
+                {{ block:link_entry }}
+                    <a href="{{ url }}" class="button-inline group inline-flex items-center gap-1">
+                        <span>{{ block:link_text ?? 'View all' }}</span>
+                        <x-lucide-arrow-right class="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
+                    </a>
+                {{ /block:link_entry }}
+            </div>
+        </header>
+
+        <div class="span-content relative">
+            <section x-ref="splide" class="splide articles-splide" aria-label="Travel tips">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        {{ block:articles }}
+                            <li class="splide__slide">
+                                {{ partial:components/article-card }}
+                            </li>
+                        {{ /block:articles }}
+                    </ul>
+                </div>
+            </section>
+
+            {{# Carousel progress bar — shown whenever there's more than one slide. #}}
+            {{ if block:articles | count > 1 }}
+                <div
+                    class="mt-6 h-1 w-full bg-parchment-200 rounded-full overflow-hidden"
+                    role="progressbar"
+                    aria-label="Carousel progress"
+                    :aria-valuenow="Math.round(progress)"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                >
+                    <div
+                        class="h-full bg-gold transition-[width] duration-400 ease-out"
+                        :style="`width: ${progress}%`"
+                    ></div>
+                </div>
+            {{ /if }}
+        </div>
+    </section>
+{{ /if }}
 <!-- End: /page_builder/_travel_tips.antlers.html -->

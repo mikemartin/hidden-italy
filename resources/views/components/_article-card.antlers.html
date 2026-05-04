@@ -4,7 +4,8 @@
           article-entry fields directly (Tips, Inspiration). Card surface
           mirrors the tour card: parchment shell, inset 16:10 image, eyebrow
           chip carrying the collection title (Tips / Inspiration), then
-          headline and lead. Whole card is clickable via a stretched link.
+          headline and a published-date `<time>`. Whole card is clickable via
+          a stretched link.
 #}}
 
 <!-- /components/_article-card.antlers.html -->
@@ -47,8 +48,11 @@
             {{ partial:typography/h4 :content="title" color="text-foreground" }}
         </div>
 
-        {{ if lead }}
-            {{ partial:typography/p_small :content="lead" color="text-muted" class="!mb-0" }}
+        {{ if date }}
+            <time
+                class="font-sans text-sm leading-[1.6] text-muted"
+                datetime="{{ date format='Y-m-d' }}"
+            >{{ date format='F j, Y' }}</time>
         {{ /if }}
     </div>
 </article>

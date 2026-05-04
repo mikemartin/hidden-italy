@@ -8,7 +8,7 @@
 
 <!-- /page_builder/_intro.antlers.html -->
 {{ partial:page_builder/block class="gap-y-10 md:gap-y-16" }}
-    <header class="span-content flex flex-col items-start md:items-center text-left md:text-center gap-6">
+    <header class="span-content flex flex-col items-center text-center gap-6">
         {{ if block:eyebrow }}
             {{ partial:typography/label :content="block:eyebrow" class="text-accent-2" }}
         {{ /if }}
@@ -25,22 +25,22 @@
     {{ if block:benefits }}
         <ul class="span-content flex flex-col md:grid md:grid-cols-3 gap-10 md:gap-9">
             {{ block:benefits }}
-                <li class="flex md:flex-col gap-4 md:gap-6 md:items-center text-left md:text-center">
+                <li class="flex flex-col items-center text-center gap-4 md:gap-6">
                     {{ icon }}
-                        <div class="flex shrink-0 items-center justify-center size-16 md:size-24 rounded-full bg-parchment-200 text-accent-2">
+                        <div class="flex shrink-0 items-center justify-center size-20 md:size-24 rounded-full bg-parchment-200 text-accent-2">
                             {{ svg
                                 src="icons/{path}"
-                                attr:class="size-10 md:size-16 fill-current"
+                                attr:class="size-12 md:size-16 fill-current"
                                 attr:aria-hidden="true"
                                 attr:role="img"
                             }}
                         </div>
                     {{ /icon }}
 
-                    <div class="flex flex-col gap-2 md:gap-4 flex-1 md:flex-none md:max-w-prose">
+                    <div class="flex flex-col gap-2 md:gap-4 max-w-prose">
                         {{ partial:typography/h4 :content="title" color="text-foreground" }}
                         {{ if description }}
-                            {{ partial:typography/p_small :content="description" color="text-text" class="text-pretty !mb-0" }}
+                            {{ partial:typography/p :content="description" color="text-text" class="text-pretty !mb-0" }}
                         {{ /if }}
                     </div>
                 </li>

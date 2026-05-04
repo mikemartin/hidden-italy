@@ -194,7 +194,7 @@ return [
 
     'navigate' => [
         'show_progress_bar' => true,
-        'progress_bar_color' => 'oklch(53.24% 0.301 290.86)',
+        'progress_bar_color' => '#e2ae4d',
     ],
 
     /*

@@ -8,8 +8,8 @@
                 aria-haspopup="menu"
                 class="flex items-center hover:text-white/80 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold rounded"
             >
-                <x-lucide-circle-user-round class="w-6 h-6 stroke-[1.5] xl:mr-2" />
-                <span class="hidden xl:inline font-medium text-sm leading-[1.6] whitespace-nowrap">{{ name }}</span>
+                <x-lucide-circle-user-round class="w-6 h-6 stroke-[1.5] {{ show_label ? 'mr-2' : 'xl:mr-2' }}" />
+                <span class="font-medium text-sm leading-[1.6] whitespace-nowrap {{ show_label ? '' : 'hidden xl:inline' }}">{{ name }}</span>
             </button>
 
             <div
@@ -58,7 +58,7 @@
     {{ /current_user }}
 {{ else }}
     <a href="/login" wire:navigate class="flex items-center hover:text-white/80">
-        <x-lucide-circle-user-round class="w-6 h-6 stroke-[1.5] xl:mr-2" />
-        <span class="hidden xl:inline font-medium text-sm leading-[1.6] whitespace-nowrap">Account</span>
+        <x-lucide-circle-user-round class="w-6 h-6 stroke-[1.5] {{ show_label ? 'mr-2' : 'xl:mr-2' }}" />
+        <span class="font-medium text-base lg:text-sm leading-[1.6] whitespace-nowrap {{ show_label ? '' : 'hidden xl:inline' }}">Account</span>
     </a>
 {{ /if }}

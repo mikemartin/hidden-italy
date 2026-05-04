@@ -1,5 +1,6 @@
 import Splide from '@splidejs/splide';
 import collapse from '@alpinejs/collapse';
+import focus from '@alpinejs/focus';
 import simpleLikes from './components/simple-likes.js';
 
 window.Splide = Splide;
@@ -7,6 +8,7 @@ window.simpleLikes = simpleLikes;
 
 document.addEventListener('alpine:init', () => {
     window.Alpine.plugin(collapse);
+    window.Alpine.plugin(focus);
 
     window.Alpine.store('wishlist', {
         count: 0,

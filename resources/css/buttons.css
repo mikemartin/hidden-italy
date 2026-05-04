@@ -74,4 +74,20 @@
             @apply text-foreground;
         }
     }
+
+    /* Ghost variant — transparent fill with no border. Picks up a subtle
+       tint on hover (mirrors Flux's `ghost` variant). Tertiary actions in
+       dense menus or alongside outline/solid buttons. Inside a `.dark`
+       section, the text and hover tint flip to a light treatment. */
+    .button.button--ghost {
+        @apply bg-transparent border-0 text-foreground hover:bg-foreground/5 focus:outline-foreground;
+
+        span {
+            @apply text-current;
+        }
+
+        .dark & {
+            @apply text-white hover:bg-white/10 focus:outline-white;
+        }
+    }
 }

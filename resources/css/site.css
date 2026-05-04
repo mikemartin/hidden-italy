@@ -180,9 +180,13 @@
 .no-scrollbar { scrollbar-width: none; }
 
 /* Featured tours Splide carousel — give the track vertical breathing room so
-   tour-card shadows aren't clipped by `.splide__track`'s `overflow: hidden`. */
-.tours-splide .splide__track {
+   tour-card shadows aren't clipped by `.splide__track`'s `overflow: hidden`,
+   then pull it up by the same amount so the visual gap to the heading above
+   matches the section's row gap. */
+.tours-splide .splide__track,
+.articles-splide .splide__track {
     padding-block: 0.75rem;
+    margin-top: -0.75rem;
 }
 
 /* Testimonials Splide carousel — small vertical padding so the cards' subtle
@@ -325,8 +329,8 @@
 .brand-wordmark {
     aspect-ratio: 329 / 71;
     background-color: currentColor;
-    -webkit-mask: url('/visuals/hidden-italy-logo.svg') no-repeat center / contain;
-    mask: url('/visuals/hidden-italy-logo.svg') no-repeat center / contain;
+    -webkit-mask: url('../svg/hidden-italy-logo.svg') no-repeat center / contain;
+    mask: url('../svg/hidden-italy-logo.svg') no-repeat center / contain;
 }
 
 /* Transparent header overlay — applied when an entry sets `transparent_header`

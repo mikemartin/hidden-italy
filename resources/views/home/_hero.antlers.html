@@ -124,7 +124,7 @@
                         {{ tour_photos }}
                             <a
                                 href="{{ url }}"
-                                class="row-start-1 col-start-1 font-mono text-sm md:text-base text-white whitespace-nowrap transition-opacity duration-[1200ms] ease-in-out hover:underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                                class="row-start-1 col-start-1 font-mono text-sm md:text-base text-center md:text-left text-white whitespace-nowrap transition-opacity duration-[1200ms] ease-in-out hover:underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
                                 :class="current === {{ index }} ? 'opacity-100' : 'opacity-0 pointer-events-none'"
                                 :aria-hidden="current !== {{ index }}"
                                 :tabindex="current === {{ index }} ? 0 : -1"

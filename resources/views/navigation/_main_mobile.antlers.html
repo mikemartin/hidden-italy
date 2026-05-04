@@ -1,10 +1,15 @@
 {{#
     @name Main mobile navigation
-    @desc The sites main mobile navigation rendered on each page. It's 2 levels deep by default and uses AlpineJS for interactivity.
+    @desc Full-bleed mobile drawer that slides in from the top-right (where
+          the menu button lives). Renders on the dark surface with the Hidden
+          Italy wordmark in the top-left, the close button in the top-right,
+          h3-sized main nav links, and labelled Wishlist + Account links
+          pinned to the bottom. 2 levels deep by default.
 #}}
 
 <!-- /navigation/_main_mobile.antlers.html -->
 <nav
+    x-data
     class="lg:hidden"
     aria-label="{{ trans:strings.main_navigation_mobile }}"
     x-trap.inert.noscroll.noautofocus="$store.nav.mobileOpen"
@@ -12,20 +17,29 @@
     x-cloak
 >
     <div
-        class="fixed inset-0 z-40 pt-8 px-8 pb-12 flex flex-col justify-end bg-white"
+        class="dark fixed inset-x-0 top-0 z-40 flex flex-col gap-8 px-6 sm:px-10 pt-4 pb-10 bg-background text-white overflow-hidden"
         x-show="$store.nav.mobileOpen"
-        x-transition.origin.bottom.right
+        x-collapse
     >
-        <button
-            type="button"
-            @click="$store.nav.close()"
-            aria-label="{{ trans:strings.nav_close }}"
-            class="absolute top-4 right-4 inline-flex items-center justify-center w-11 h-11 rounded-full text-neutral hover:bg-neutral-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-        >
-            <x-lucide-x class="size-6" stroke-width="1.75" aria-hidden="true" />
-        </button>
+        {{# Decorative topographic lines anchored to the top-right corner. #}}
+        <div class="pointer-events-none absolute inset-x-0 top-0 -z-10 text-white/10" aria-hidden="true">
+            {{ svg:top-right attr:class="absolute top-0 right-0 w-[320px] md:w-[400px] h-auto" }}
+        </div>
 
-        <ul class="flex flex-col py-2 gap-y-4 overflow-auto">
+        <header class="flex items-center justify-between gap-4">
+            {{ partial:components/logo class="h-8 w-auto text-white" }}
+
+            <button
+                type="button"
+                @click="$store.nav.close()"
+                aria-label="{{ trans:strings.nav_close }}"
+                class="-my-1 -mr-1 inline-flex items-center justify-center w-11 h-11 rounded-full text-white hover:bg-white/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+            >
+                <x-lucide-x class="size-6" stroke-width="1.75" aria-hidden="true" />
+            </button>
+        </header>
+
+        <ul class="flex flex-col gap-y-2 overflow-auto">
             {{ nav:main max_depth="2" include_home="true" select="title|url" }}
                 {{ unless no_results }}
                     <li
@@ -37,8 +51,8 @@
                     >
                         <a
                             class="
-                                w-full py-2 flex items-center gap-x-1 font-medium text-sm leading-[1.6] hover:text-primary
-                                {{ is_current || is_parent ? 'text-primary' : 'text-neutral' }}
+                                w-full py-2 flex items-center gap-x-2 hover:text-white/80
+                                {{ is_current || is_parent ? 'text-white underline underline-offset-4 decoration-gold' : 'text-white' }}
                             "
                             {{ if children }}
                                 href="#"
@@ -49,14 +63,15 @@
                             {{ else }}
                                 href="{{ url }}"
                                 wire:navigate
+                                @click="$store.nav.close()"
                             {{ /if }}
                             {{ is_current ?= 'aria-current="page"' }}
                         >
-                            <span>{{ title }}</span>
+                            {{ partial:typography/h3 :content="title" as="span" color="text-current" }}
 
                             {{ if children }}
                                 <div :class="{ 'scale-y-[-1]': subnavOpen }" class="motion-safe:transition-transform">
-                                    {{ svg:chevron_down attr:class="w-2 ml-1 overflow-visible stroke-current text-neutral" attr:aria-hidden="true" }}
+                                    {{ svg:chevron_down attr:class="w-3 ml-1 overflow-visible stroke-current text-white" attr:aria-hidden="true" }}
                                 </div>
                             {{ /if }}
                         </a>
@@ -65,21 +80,22 @@
                             <ul
                                 x-show="subnavOpen"
                                 x-ref="subnav"
-                                class="flex flex-col items-stretch gap-y-2"
+                                class="flex flex-col items-stretch gap-y-1 pl-2"
                                 x-collapse
                             >
                                 {{ children }}
                                     <li class="{{ first ?= 'mt-2' }}">
                                         <a
                                             class="
-                                                block py-2 whitespace-nowrap font-medium text-xs leading-[1.6] hover:text-primary
-                                                {{ is_current || is_parent ? 'text-primary' : 'text-neutral' }}
+                                                block py-2 whitespace-nowrap hover:text-white
+                                                {{ is_current || is_parent ? 'text-white underline underline-offset-4 decoration-gold' : 'text-white/80' }}
                                             "
                                             href="{{ url }}"
                                             wire:navigate
+                                            @click="$store.nav.close()"
                                             {{ is_current ?= 'aria-current="page"' }}
                                         >
-                                            {{ title }}
+                                            {{ partial:typography/p_small :content="title" as="span" color="text-current" class="!mb-0" }}
                                         </a>
                                     </li>
                                 {{ /children }}
@@ -89,9 +105,10 @@
                 {{ /unless }}
             {{ /nav:main }}
         </ul>
-        <div class="flex flex-col gap-4 mt-8 pt-6 border-t border-neutral/10">
-            {{ partial:components/nav-wishlist }}
-            {{ partial:components/nav-account }}
+
+        <div class="flex flex-col gap-5 pt-6 border-t border-white/10">
+            {{ partial:components/nav-wishlist show_label="true" }}
+            {{ partial:components/nav-account show_label="true" }}
         </div>
     </div>
 </nav>

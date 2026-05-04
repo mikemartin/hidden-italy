@@ -144,8 +144,8 @@
         --spacing-fluid-grid-gap: var(--col-gap); /* redefining this here as CSS doesn't inherit CSS variables */
         --content-max-width: var(--breakpoint-xl);
         --col-width: calc((min(calc(100% - var(--padding-left) - var(--padding-right) - 2 * var(--col-gap)), var(--content-max-width)) - 11 * var(--col-gap)) / 12);
-        --padding-left: clamp(calc(env(safe-area-inset-left, 0rem) + 1rem), 2vw, calc(env(safe-area-inset-left, 0rem) + 2rem));
-        --padding-right: clamp(calc(env(safe-area-inset-right, 0rem) + 1rem), 2vw, calc(env(safe-area-inset-right, 0rem) + 2rem));
+        --padding-left: clamp(calc(env(safe-area-inset-left, 0rem) + 0.5rem), 2vw, calc(env(safe-area-inset-left, 0rem) + 2rem));
+        --padding-right: clamp(calc(env(safe-area-inset-right, 0rem) + 0.5rem), 2vw, calc(env(safe-area-inset-right, 0rem) + 2rem));
         --side-width: minmax(0, 1fr);
         display: grid;
         column-gap: var(--col-gap);
