@@ -26,9 +26,26 @@
 
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-12 py-8 md:py-10 first:pt-0 last:pb-0 border-t border-parchment-200 first:border-t-0">
                     {{ if row_heading }}
-                        <h3 class="lg:col-span-4 font-display font-semibold text-lg md:text-xl text-foreground">
-                            {{ row_heading }}
-                        </h3>
+                        {{# Heading column lays the icon tile beside the heading,
+                            top-aligned so the icon sits flush with the first
+                            line of the type even when the heading wraps.
+                            Icon glyph is conditioned on the set type. #}}
+                        <div class="lg:col-span-4 flex items-start gap-4">
+                            <span class="shrink-0 inline-flex items-center justify-center size-10 rounded-full bg-parchment-200 text-accent-2">
+                                {{ if type == 'equipment' }}
+                                    <x-lucide-backpack class="size-5" stroke-width="1.75" aria-hidden="true" />
+                                {{ elseif type == 'travel_insurance' }}
+                                    <x-lucide-shield-check class="size-5" stroke-width="1.75" aria-hidden="true" />
+                                {{ elseif type == 'booking_cancellation' }}
+                                    <x-lucide-calendar class="size-5" stroke-width="1.75" aria-hidden="true" />
+                                {{ else }}
+                                    <x-lucide-info class="size-5" stroke-width="1.75" aria-hidden="true" />
+                                {{ /if }}
+                            </span>
+                            <h3 class="mt-1.5 font-display font-semibold text-lg md:text-xl text-foreground">
+                                {{ row_heading }}
+                            </h3>
+                        </div>
                     {{ /if }}
 
                     <div class="lg:col-span-8 flex flex-col gap-4">
