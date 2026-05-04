@@ -29,7 +29,7 @@ tabs:
             field:
               type: text
               display: 'Buy Link'
-              instructions: 'Paste a Shopify cart permalink for this product to send customers straight to checkout. [How to create a cart permalink](https://help.shopify.com/en/manual/checkout-settings/cart-permalink#product-page).'
+              instructions: 'Add a Shopify cart permalink for this product to send customers straight to checkout. [How to create a cart permalink](https://help.shopify.com/en/manual/checkout-settings/cart-permalink#product-page).'
               input_type: url
               placeholder: 'https://hiddenitaly.myshopify.com/cart/VARIANT_ID:1'
           -
