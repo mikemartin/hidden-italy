@@ -338,4 +338,5 @@ gallery:
 start_location: Udine
 finish_location: Trieste
 now_open: false
+headline: '13 days across 3 borders, 4 national parks'
 ---

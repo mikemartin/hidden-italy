@@ -295,4 +295,5 @@ gallery:
   - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_3610.jpg
 now_open: false
 seasons: spring
+headline: '8 days rambling across the Gargano'
 ---

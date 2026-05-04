@@ -11,131 +11,106 @@
 
 <!-- /components/_tour_overview.antlers.html -->
 <section class="fluid-grid bg-parchment-100 py-10 lg:py-15">
-    <div class="span-content flex flex-col lg:grid lg:grid-cols-12 lg:gap-x-[69px] gap-y-10">
+    <div class="span-content flex flex-col lg:grid lg:grid-cols-12 lg:gap-x-16 gap-y-10">
 
         {{# ── Left column ──────────────────────────────────────────── #}}
-        <div class="lg:col-span-5 flex flex-col items-start gap-6">
+        <div class="lg:col-span-6 flex flex-col items-start gap-6">
 
-            <nav aria-label="Breadcrumb">
-                <ol class="bg-parchment-200 flex items-center gap-1 h-8 px-4 py-2 rounded-full">
-                    {{ nav:breadcrumbs include_home="false" }}
-                        {{ unless first }}
-                            <li class="flex items-center" aria-hidden="true">
-                                <x-lucide-chevron-right class="size-[18px] text-terracotta" stroke-width="1.5" />
-                            </li>
-                        {{ /unless }}
-                        <li>
-                            {{ if is_current }}
-                                <span class="font-sans font-medium text-sm leading-[1.6] text-terracotta" aria-current="page">{{ region }}</span>
-                            {{ else }}
-                                <a href="{{ url }}" class="font-sans font-medium text-sm leading-[1.6] text-terracotta hover:underline">{{ title }}</a>
-                            {{ /if }}
-                        </li>
-                    {{ /nav:breadcrumbs }}
-                </ol>
-            </nav>
+            {{# Breadcrumb chip on the left; mobile-only Share/Save on the
+                right. Desktop renders the actions next to the gallery in
+                the right column instead, so this row collapses to just
+                the breadcrumb at lg+. #}}
+            <div class="w-full flex items-center justify-between gap-3">
+                <nav aria-label="Breadcrumb">
+                    <ol class="bg-parchment-200 flex items-center gap-1 h-8 px-4 py-2 rounded-full">
+                        {{ nav:breadcrumbs include_home="false" }}
+                            {{ unless is_current }}
+                                {{ unless first }}
+                                    <li class="flex items-center" aria-hidden="true">
+                                        <x-lucide-chevron-right class="size-[18px] text-terracotta" stroke-width="1.5" />
+                                    </li>
+                                {{ /unless }}
+                                <li>
+                                    <a href="{{ url }}" class="font-sans font-medium text-sm leading-[1.6] text-terracotta hover:underline">{{ title }}</a>
+                                </li>
+                            {{ /unless }}
+                        {{ /nav:breadcrumbs }}
+                    </ol>
+                </nav>
+
+                <div class="lg:hidden">
+                    {{ partial:components/tour_overview_actions_compact }}
+                </div>
+            </div>
 
             {{# Headline + next-available line. #}}
             <header class="flex flex-col gap-2">
-                {{ partial:typography/h2 :content="name" }}
+                {{ partial:typography/h2 :content="headline ?? name" }}
                 {{ if date }}
-                    <p class="font-sans text-lg leading-[1.5] md:leading-[1.6] text-foreground md:text-text">
-                        {{ trans:strings.next_available ?? 'Next available' }} {{ date | format:'j F Y' }}
+                    <p class="font-sans text-base lg:text-lg leading-[1.5] md:leading-[1.6] text-foreground md:text-text flex items-center gap-2">
+                        <span class="inline-block size-2 rounded-full bg-gold ring-4 ring-parchment-200 shrink-0" aria-hidden="true"></span>
+                        <span>{{ trans:strings.next_available ?? 'Next available' }} {{ date | format:'j F Y' }}</span>
                     </p>
                 {{ /if }}
             </header>
 
-            {{# Stats grid — two-up on mobile, flex row on desktop. #}}
-            <dl class="flex flex-col gap-6">
-                <div class="grid grid-cols-2 gap-x-9 gap-y-6 lg:flex lg:gap-x-6">
-                    {{ if days }}
-                        <div class="flex-1 lg:flex-initial">
-                            <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-neutral-600 md:text-text">
-                                {{ trans:strings.duration ?? 'Duration' }}
-                            </dt>
-                            <dd class="mt-1 flex items-center gap-2">
-                                <x-lucide-clock class="hidden lg:block size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
-                                <span class="font-display font-medium text-lg leading-[1.25] lg:leading-[1.5] text-foreground md:text-foreground">
-                                    {{ days }} {{ days == 1 ? 'day' : 'days' }}
-                                </span>
-                            </dd>
-                        </div>
-                    {{ /if }}
+            {{# Stats grid — two-up on mobile, three-up on desktop. #}}
+            <dl class="grid grid-cols-2 gap-6 lg:grid-cols-3">
+                {{ if days }}
+                    <div class="flex-1 lg:flex-initial">
+                        <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">
+                            {{ trans:strings.duration ?? 'Duration' }}
+                        </dt>
+                        <dd class="mt-1 flex items-center gap-2">
+                            <x-lucide-clock class="size-5 lg:size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
+                            <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">
+                                {{ days }} {{ days == 1 ? 'day' : 'days' }}
+                            </span>
+                        </dd>
+                    </div>
+                {{ /if }}
 
-                    {{ if seasons }}
-                        <div class="flex-1 lg:flex-initial">
-                            <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-neutral-600 md:text-text">
-                                {{ trans:strings.season ?? 'Season' }}
-                            </dt>
-                            <dd class="mt-1 flex items-center gap-2">
-                                {{ if {seasons:slug} == 'spring' }}
-                                    <x-lucide-flower class="hidden lg:block size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
-                                {{ elseif {seasons:slug} == 'autumn' || {seasons:slug} == 'fall' }}
-                                    <x-lucide-leaf class="hidden lg:block size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
-                                {{ elseif {seasons:slug} == 'winter' }}
-                                    <x-lucide-snowflake class="hidden lg:block size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
-                                {{ else }}
-                                    <x-lucide-sun class="hidden lg:block size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
-                                {{ /if }}
-                                <span class="font-display font-medium text-lg leading-[1.25] lg:leading-[1.5] text-foreground md:text-foreground">
-                                    {{ seasons:title }}
-                                </span>
-                            </dd>
-                        </div>
-                    {{ /if }}
-                </div>
+                {{ if seasons && {collection:handle} == 'guided' }}
+                    <div class="flex-1 lg:flex-initial">
+                        <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">
+                            {{ trans:strings.season ?? 'Season' }}
+                        </dt>
+                        <dd class="mt-1 flex items-center gap-2">
+                            {{ if {seasons:slug} == 'spring' }}
+                                <x-lucide-flower class="size-5 lg:size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
+                            {{ elseif {seasons:slug} == 'autumn' || {seasons:slug} == 'fall' }}
+                                <x-lucide-leaf class="size-5 lg:size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
+                            {{ elseif {seasons:slug} == 'winter' }}
+                                <x-lucide-snowflake class="size-5 lg:size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
+                            {{ else }}
+                                <x-lucide-sun class="size-5 lg:size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
+                            {{ /if }}
+                            <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground md:text-foreground">
+                                {{ seasons:title }}
+                            </span>
+                        </dd>
+                    </div>
+                {{ /if }}
 
-                <div class="grid grid-cols-2 gap-x-9 gap-y-6 lg:flex lg:gap-x-6">
-                    {{ if tour_size }}
-                        <div class="flex-1 lg:flex-initial">
-                            <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-neutral-600 md:text-text">
-                                {{ trans:strings.tour_size ?? 'Tour size' }}
-                            </dt>
-                            <dd class="mt-1 flex items-center gap-2">
-                                <x-lucide-users class="hidden lg:block size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
-                                <span class="font-display font-medium text-lg leading-[1.25] lg:leading-[1.5] text-foreground md:text-foreground">
-                                    {{ tour_size }} {{ trans:strings.guests ?? 'guests' }}
-                                </span>
-                            </dd>
-                        </div>
-                    {{ /if }}
+                {{ if tour_size }}
+                    <div class="flex-1 lg:flex-initial">
+                        <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">
+                            {{ trans:strings.tour_size ?? 'Tour size' }}
+                        </dt>
+                        <dd class="mt-1 flex items-center gap-2">
+                            <x-lucide-users class="size-5 lg:size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
+                            <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground md:text-foreground">
+                                {{ tour_size }} {{ trans:strings.guests ?? 'guests' }}
+                            </span>
+                        </dd>
+                    </div>
+                {{ /if }}
 
-                    {{# Tour leader — collapses to second-column on mobile, full row on desktop. #}}
-                    {{ if leader }}
-                        {{ leader }}
-                            <div class="flex-1 lg:flex-initial flex items-start gap-4">
-                                {{ if image }}
-                                    <a href="{{ url }}" class="hidden lg:block shrink-0 size-12 rounded-full overflow-hidden bg-parchment-200">
-                                        {{
-                                            picture
-                                            :image="image"
-                                            class="w-full h-full object-cover"
-                                            cover="true"
-                                            sizes="48px"
-                                            loading="lazy"
-                                        }}
-                                    </a>
-                                {{ /if }}
-                                <div>
-                                    <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-neutral-600 md:text-text">
-                                        {{ trans:strings.tour_leader ?? 'Tour Leader' }}
-                                    </dt>
-                                    <dd class="mt-1 flex items-center gap-2">
-                                        <a href="{{ url }}" class="font-display font-medium text-lg leading-[1.25] lg:leading-[1.5] text-foreground md:text-foreground md:underline hover:underline">
-                                            {{ title }}
-                                        </a>
-                                        <x-lucide-arrow-up-right class="hidden md:block size-4 text-gold" stroke-width="1.5" aria-hidden="true" />
-                                    </dd>
-                                </div>
-                            </div>
-                        {{ /leader }}
-                    {{ /if }}
-                </div>
-
+            
                 {{# Walking grade — desktop only; the design hides this on mobile.
-                    Description copy lives on the Walking Grades global with
-                    separate fields for guided vs self-guided tours, surfaced via
-                    a Tippy tooltip on the info icon. #}}
+                Description copy lives on the Walking Grades global with
+                separate fields for guided vs self-guided tours, surfaced via
+                a Tippy tooltip on the info icon. #}}
                 {{ if grade }}
                     {{ if {collection:handle} == 'self-guided' }}
                         {{ if grade == 1 }}{{ grade_description = walking_grades:grade_1_self_guided }}{{ /if }}
@@ -149,38 +124,101 @@
                         {{ if grade == 4 }}{{ grade_description = walking_grades:grade_4_guided }}{{ /if }}
                         {{ if grade == 5 }}{{ grade_description = walking_grades:grade_5_guided }}{{ /if }}
                     {{ /if }}
-                    <div class="hidden lg:block">
+                    <div>
                         <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">
                             {{ trans:strings.walking_grade ?? 'Walking grade' }}
                         </dt>
                         <dd class="mt-1 flex items-center gap-2">
-                            <x-lucide-footprints class="size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
-                            <span class="font-display font-medium text-lg leading-[1.5] text-foreground">
+                            <x-lucide-footprints class="size-5 lg:size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
+                            <span class="font-display font-medium text-base lg:text-lg leading-[1.5] text-foreground">
                                 {{ trans:strings.grade ?? 'Grade' }} {{ grade }} / 5
                             </span>
                             {{ if grade_description }}
-                                <x-flux::tooltip content="{{ grade_description }}">
-                                    <button
-                                        type="button"
-                                        class="text-text inline-flex items-center justify-center rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-                                        aria-label="{{ trans:strings.walking_grade ?? 'Walking grade' }} {{ grade }}: {{ grade_description }}"
-                                    >
-                                        <x-lucide-info class="size-4" stroke-width="1.5" aria-hidden="true" />
-                                    </button>
-                                </x-flux::tooltip>
+                                <button
+                                    type="button"
+                                    x-data
+                                    x-tooltip
+                                    data-tooltip="{{ grade_description }}"
+                                    class="text-text inline-flex items-center justify-center p-1 rounded-full hover:bg-parchment-400/25 motion-safe:transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                                    aria-label="{{ trans:strings.walking_grade ?? 'Walking grade' }} {{ grade }}: {{ grade_description }}"
+                                >
+                                    <x-lucide-info class="size-4 lg:size-5" stroke-width="2" aria-hidden="true" />
+                                </button>
                             {{ /if }}
                         </dd>
                     </div>
+                {{ /if }}
+
+                {{# Tour leader — collapses to second-column on mobile, full row on desktop. #}}
+                {{ if leader }}
+                    {{ leader }}
+                        <div class="flex-1 lg:flex-initial flex items-start gap-2 lg:gap-4">
+                            {{ if image }}
+                                <x-flux::modal.trigger name="tour-leader-bio-{{ slug }}">
+                                    <button type="button" class="shrink-0 size-10 lg:size-12 rounded-full overflow-hidden bg-parchment-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold">
+                                        <span class="sr-only">{{ trans:strings.read_bio ?? 'Read bio' }}</span>
+                                        {{
+                                            picture
+                                            :image="image"
+                                            class="w-full h-full object-cover"
+                                            cover="true"
+                                            sizes="48px"
+                                            loading="lazy"
+                                        }}
+                                    </button>
+                                </x-flux::modal.trigger>
+                            {{ /if }}
+                            <div>
+                                <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">
+                                    {{ trans:strings.tour_leader ?? 'Tour Leader' }}
+                                </dt>
+                                <dd class="mt-1">
+                                    <x-flux::modal.trigger name="tour-leader-bio-{{ slug }}">
+                                        <button type="button" class="group flex space-x-1.5 items-center focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold rounded-sm">
+                                            <span class="font-display font-medium text-base lg:text-lg leading-[1.5] text-foreground underline underline-offset-2">{{ title }}</span>
+                                            <x-lucide-arrow-up-right class="size-4 lg:size-5" stroke-width="1.5" aria-hidden="true" />
+                                        </button>
+                                    </x-flux::modal.trigger>
+                                </dd>
+                            </div>
+                        </div>
+
+                        <x-flux::modal name="tour-leader-bio-{{ slug }}" variant="flyout" class="md:w-[34rem]">
+                            <div class="space-y-6">
+                                <div class="flex items-center gap-4">
+                                    {{ if image }}
+                                        <div class="size-20 shrink-0 rounded-xl overflow-hidden bg-parchment-200">
+                                            {{ picture :image="image" class="w-full h-full object-cover" cover="true" sizes="80px" loading="lazy" }}
+                                        </div>
+                                    {{ /if }}
+                                    <div>
+                                        <x-flux::heading size="lg">{{ title }}</x-flux::heading>
+                                        {{ if subtitle }}
+                                            <x-flux::text class="!mt-1 text-accent-2 font-medium">{{ subtitle }}</x-flux::text>
+                                        {{ /if }}
+                                    </div>
+                                </div>
+
+                                {{ if short_bio }}
+                                    <x-flux::separator />
+
+                                    <div class="font-sans text-base leading-[1.6] text-text">
+                                        <p>{{ short_bio }}</p>
+                                    </div>
+                                {{ /if }}
+                            </div>
+                        </x-flux::modal>
+                    {{ /leader }}
                 {{ /if }}
             </dl>
 
             {{# Summary copy. #}}
             {{ if overview }}
-                <div class="font-sans text-[15px] md:text-lg leading-[1.5] md:leading-[1.6] text-neutral-600 md:text-text [&_p]:mb-4 [&_p:last-child]:mb-0">
+                <div class="font-sans text-[15px] md:text-lg leading-[1.5] md:leading-[1.6] text-text [&_p]:mb-4 [&_p:last-child]:mb-0">
                     {{ overview }}
                 </div>
             {{ elseif summary }}
-                <p class="font-sans text-[15px] md:text-lg leading-[1.5] md:leading-[1.6] text-neutral-600 md:text-text">
+                <p class="font-sans text-[15px] md:text-lg leading-[1.5] md:leading-[1.6] text-text">
                     {{ summary }}
                 </p>
             {{ /if }}
@@ -203,16 +241,11 @@
                     </div>
                 </div>
             {{ /if }}
-
-            {{# Mobile-only action buttons sit below the inclusions card. #}}
-            <div class="lg:hidden">
-                {{ partial:components/tour_overview_actions }}
-            </div>
         </div>
 
         {{# ── Right column — actions + gallery ─────────────────────── #}}
-        <div class="lg:col-span-7 flex flex-col gap-4 lg:gap-8">
-            <div class="hidden lg:block lg:pt-[92px]">
+        <div class="lg:col-span-6 flex flex-col gap-4 lg:gap-8">
+            <div class="hidden lg:block">
                 {{ partial:components/tour_overview_actions }}
             </div>
 

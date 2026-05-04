@@ -38,7 +38,7 @@
             <section class="stack-10">
                 <header class="stack-2">
                     {{ partial:typography/h2 content="Light surface" }}
-                    {{ partial:typography/p content="Rendered on the default page background (`bg-background`, aliased to parchment-100). These variants assume light tokens — text is dark, accents are warm." class="!mb-0 text-neutral/70" }}
+                    {{ partial:typography/p content="Rendered on the default page background (`bg-background`, aliased to parchment-100). These variants assume light tokens — text is dark, accents are warm." class="!mb-0 text-foreground/70" }}
                 </header>
 
                 {{# Primary — default solid blue #}}
@@ -88,6 +88,75 @@
                     </header>
                     <div class="flex flex-wrap items-center gap-4">
                         <a class="button-inline" href="#"><span>Read more</span></a>
+                    </div>
+                </div>
+
+                {{# Text buttons — `.button-inline` extended with optional
+                    leading or trailing icons. Two colour variants: default
+                    (primary blue underline) and gold. Trailing arrows nudge
+                    right on hover via the base CSS. Use these for Share,
+                    Save, View all tours, Read bio and similar inline
+                    affordances so the treatment stays consistent. #}}
+                <div class="stack-6">
+                    <header class="stack-1">
+                        {{ partial:typography/h3 content="Text buttons" }}
+                        {{ partial:typography/p_small content="`.button-inline` with an optional leading or trailing icon. The trailing-icon variant nudges right on hover. Pair with `.button-inline--gold` to switch the underline to gold for callouts on parchment surfaces." color="text-muted" class="!mb-0" }}
+                    </header>
+
+                    {{# Default — icon-left. Used for utility actions (Share, Save). #}}
+                    <div class="flex flex-col gap-2">
+                        {{ partial:typography/p_small content="**Default · icon-left** &mdash; utility actions like Share and Save." color="text-muted" class="!mb-0" }}
+                        <div class="flex flex-wrap items-center gap-6">
+                            <button type="button" class="button-inline">
+                                <x-lucide-share aria-hidden="true" />
+                                <span>Share</span>
+                            </button>
+                            <button type="button" class="button-inline">
+                                <x-lucide-heart aria-hidden="true" />
+                                <span>Save</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    {{# Default — icon-right. Used for forward-progressing links (View all tours). #}}
+                    <div class="flex flex-col gap-2">
+                        {{ partial:typography/p_small content="**Default · icon-right** &mdash; forward-progressing links like View all tours. Trailing arrow nudges on hover." color="text-muted" class="!mb-0" }}
+                        <div class="flex flex-wrap items-center gap-6">
+                            <a href="#" class="button-inline">
+                                <span>View all tours</span>
+                                <x-lucide-arrow-right aria-hidden="true" />
+                            </a>
+                            <a href="#" class="button-inline">
+                                <span>Read more</span>
+                                <x-lucide-arrow-right aria-hidden="true" />
+                            </a>
+                        </div>
+                    </div>
+
+                    {{# Gold variant — icon-right. Card-level affordance (Read bio). #}}
+                    <div class="flex flex-col gap-2">
+                        {{ partial:typography/p_small content="**Gold · icon-right** &mdash; card-level affordances like Read bio. Gold underline that flips to foreground on hover." color="text-muted" class="!mb-0" }}
+                        <div class="flex flex-wrap items-center gap-6">
+                            <a href="#" class="button-inline button-inline--gold">
+                                <span>Read bio</span>
+                                <x-lucide-arrow-right aria-hidden="true" />
+                            </a>
+                            <a href="#" class="button-inline button-inline--gold">
+                                <span>Explore tour</span>
+                                <x-lucide-arrow-up-right aria-hidden="true" />
+                            </a>
+                        </div>
+                    </div>
+
+                    {{# Gold variant — icon-left. Available for parity. #}}
+                    <div class="flex flex-col gap-2">
+                        {{ partial:typography/p_small content="**Gold · icon-left** &mdash; same gold treatment with the icon leading the label." color="text-muted" class="!mb-0" }}
+                        <div class="flex flex-wrap items-center gap-6">
+                            <button type="button" class="button-inline button-inline--gold">
+                                <x-lucide-bookmark aria-hidden="true" />
+                                <span>Add to itinerary</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
 

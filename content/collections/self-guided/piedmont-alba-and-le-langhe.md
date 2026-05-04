@@ -298,4 +298,5 @@ start_location: Turin
 finish_location: Alba
 now_open: false
 seasons: autumn
+headline: '8 days through southern Piedmont'
 ---

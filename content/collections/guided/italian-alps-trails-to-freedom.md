@@ -16,18 +16,6 @@ overview:
       -
         type: text
         text: 'This extraordinary ten-day hike combines breath-taking scenery, enchanting towns, challenging walks and delicious food with the fascinating story of four young men who crossed the Italian Alps to freedom in the Second World War.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_On the 3rd of October 1943, four young Australian soldiers crossed from Italy to Switzerland at the border on Monte Moro Pass, thus ending a three-week odyssey that had started in a Fascist prison camp on the Po Plain near Biella in Piedmont (north of Turin).\_ The route they took followed a network of medieval paths that had been re-opened by the partisans and came to be known as the ‘sentieri della liberta’ or the trails to freedom."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_Based on several years’ research, this magnificent hike follows the same route, starting in Biella and finishing on Mt Moro on the Swiss border. \_It passes through some of the most spectacular scenery in the European Alps, staying in a mixture of hotels, pilgrim monasteries and mountain huts along the way.\_ Although we will walk through uncontaminated mountain landscapes, this is an ancient land: traders, pilgrims and graziers have been passing through here for millennia, in fact, since before the Bronze Age."
 inclusions:
   - '9 nights in comfortable accommodation'
   - 'Breakfast, lunch, and dinner daily (with wine)'
@@ -46,14 +34,14 @@ page_builder:
         content:
           -
             type: text
-            text: 'On 3 October 1943, four young Australian soldiers crossed the Italian border at the Monte Moro Pass into Switzerland, ending a three-week journey that began in a Fascist prison camp near Biella in Piedmont. They hiked nearly 100 kilometres across the Italian Alps, crossed five mountain passes, climbed over 5,000 metres, and skirted Mt Rosa, the second-highest mountain in the Alps. Their route followed medieval paths reopened by partisans, known locally as the ‘sentieri della liberta’ or trails to freedom.'
+            text: 'On the 3rd of October 1943, four young Australian soldiers crossed from Italy to Switzerland at the border on Monte Moro Pass, thus ending a three-week odyssey that had started in a Fascist prison camp on the Po Plain near Biella in Piedmont (north of Turin).  The route they took followed a network of medieval paths that had been re-opened by the partisans and came to be known as the ‘sentieri della liberta’ or the trails to freedom.'
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Based on years of research, this hike retraces that route, starting in Biella and ending on Mt Moro at the Swiss border. It passes through spectacular Alpine scenery, staying in a mix of hotels, pilgrim monasteries, and mountain huts. It also includes a cable car side trip to the base of Mt Rosa (3,600 m) for panoramic views and a hearty mountain lunch.'
+            text: 'Based on several years’ research, this magnificent hike follows the same route, starting in Biella and finishing on Mt Moro on the Swiss border.  It passes through some of the most spectacular scenery in the European Alps, staying in a mixture of hotels, pilgrim monasteries and mountain huts along the way.  Although we will walk through uncontaminated mountain landscapes, this is an ancient land: traders, pilgrims and graziers have been passing through here for millennia, in fact, since before the Bronze Age.'
     type: history
     enabled: true
   -
@@ -339,8 +327,8 @@ page_builder:
     enabled: true
 seasons: summer
 locations: northern-italy
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517457
+updated_by: 1
+updated_at: 1777873288
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
@@ -358,5 +346,7 @@ image: tours/italian-alps-trails-to-freedom/94.jpg
 simple_likes: 0
 start_location: Biella
 finish_location: Macugnaga
-now_open: false
+now_open: true
+leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
+headline: '10 days hiking in the Italian Alps'
 ---

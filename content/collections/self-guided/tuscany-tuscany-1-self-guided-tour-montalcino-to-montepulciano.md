@@ -277,4 +277,5 @@ gallery:
   - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5149.jpg
 now_open: false
 seasons: spring
+headline: '6 days walking the Tuscan hills'
 ---

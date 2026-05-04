@@ -31,10 +31,39 @@
     }
 
     .button-inline {
-        @apply inline-flex items-center gap-1 text-neutral hover:text-primary motion-safe:transition;
+        @apply inline-flex items-center gap-1.5 text-neutral hover:text-primary motion-safe:transition;
+
+        /* Label matches `typography/label` (large variant): Mona Sans
+           medium, 16px, 160% leading. Keep this in sync if the label
+           partial's treatment changes. */
+        span {
+            @apply min-w-fit font-medium text-base leading-[1.6] text-current underline underline-offset-4 decoration-primary focus:outline-primary;
+        }
+
+        svg {
+            @apply size-4 shrink-0 motion-safe:transition;
+        }
+
+        /* Trailing arrow nudges right on hover. Only applies when an arrow
+           sits as the last child of the button — direction-aware navigation
+           cue used by "View all tours" and "Read bio". */
+        &:hover svg:last-child {
+            @apply translate-x-0.5;
+        }
+    }
+
+    /* Gold underline variant — pairs with `.button-inline` for callouts
+       on parchment surfaces (e.g. profile cards). Default decoration
+       flips to gold; hover darkens it to the foreground colour. */
+    .button-inline.button-inline--gold {
+        @apply text-foreground hover:text-foreground;
 
         span {
-            @apply min-w-fit font-bold text-current underline decoration-primary focus:outline-primary;
+            @apply decoration-gold focus:outline-gold;
+        }
+
+        &:hover span {
+            @apply decoration-foreground;
         }
     }
 

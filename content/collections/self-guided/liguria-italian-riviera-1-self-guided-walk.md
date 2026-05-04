@@ -317,4 +317,5 @@ start_location: Genova
 finish_location: 'Sestri Levante'
 now_open: false
 seasons: autumn
+headline: '8 days hiking the Italian Riviera'
 ---

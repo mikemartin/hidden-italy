@@ -32,7 +32,7 @@
                 type="text"
                 placeholder="{{ input_placeholder }}"
                 class="
-                    form-input w-full rounded-sm font-normal text-neutral border-neutral focus:border-primary
+                    form-input w-full rounded-sm font-normal text-foreground border-neutral focus:border-primary
                     {{ switch(
                         (input_large) => 'text-lg leading-[1.31]',
                         (input_small) => 'text-sm leading-[1.28]',
@@ -44,9 +44,9 @@
     {{ elseif partial_path }}
         {{ partial :src="partial_path" :content="content" :class="class" :large="large" :small="small" }}
     {{ else }}
-        <div class="text-neutral {{ class }}">{{ content }}</div>
+        <div class="text-foreground {{ class }}">{{ content }}</div>
     {{ /if }}
-    <div class="flex flex-wrap gap-x-6 gap-y-1 text-sm text-neutral/70">
+    <div class="flex flex-wrap gap-x-6 gap-y-1 text-sm text-foreground/70">
         <span><span class="font-bold">Element:</span> {{ label }}</span>
         <span><span class="font-bold">Typeface:</span> {{ typeface }}</span>
         <span><span class="font-bold">Size:</span> {{ size }}</span>

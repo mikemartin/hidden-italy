@@ -4,7 +4,7 @@
     @param* content The h3 content.
     @param as The wrapping element. Defaults to `h3`.
     @param small Boolean. Locks to the smaller `text-lg` variant at every breakpoint — use for in-card pull quotes and similar where the md+ scale-up would dominate the surrounding copy.
-    @param color Set a custom text color utility. Falls back to `text-neutral`.
+    @param color Set a custom text color utility. Falls back to `text-foreground`.
     @param class Add custom CSS classes.
 #}}
 
@@ -15,7 +15,7 @@
         (small) => 'text-xl',
         () => 'text-xl md:text-2xl md:leading-[1.5]'
     ) }}
-    {{ color or 'text-neutral' }} 
+    {{ color or 'text-foreground' }} 
     {{ class }}
 ">{{ content | nl2br }}</{{ as or 'h3' }}>
 <!-- End: /typography/_h3.antlers.html -->

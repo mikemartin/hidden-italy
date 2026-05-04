@@ -1,0 +1,40 @@
+{{#
+    @name Save button
+    @desc `.button-inline` styled wishlist toggle. Mounted via the
+          `{{ simple_like template_from="components._save_button" }}`
+          tag so it inherits the entry id, like count, and auth/lock
+          context from the Simple Likes addon. Heart icon flips to a
+          terracotta fill when the entry is liked, in step with the
+          wishlist drawer that subscribes to the same store.
+#}}
+
+<!-- /components/_save_button.antlers.html -->
+<div
+    x-data="{
+        ...simpleLikes({
+            entryId: '{{ entry_id }}',
+            count: {{ likes_count }},
+            canInteract: {{ can_interact ? 'true' : 'false' }},
+            isLocked: {{ is_locked ? 'true' : 'false' }},
+            isAuthenticated: {{ is_authenticated ? 'true' : 'false' }},
+            allowGuestLikes: {{ allow_guest_likes ? 'true' : 'false' }}
+        })
+    }"
+>
+    <button
+        type="button"
+        class="button-inline"
+        x-bind:disabled="loading || !canInteract || isLocked"
+        x-bind:aria-pressed="liked"
+        @click="toggleLike()"
+    >
+        <x-lucide-heart
+            class="size-4 shrink-0 motion-safe:transition"
+            x-bind:class="liked ? 'fill-terracotta text-terracotta' : ''"
+            stroke-width="1.5"
+            aria-hidden="true"
+        />
+        <span>{{ trans:strings.save ?? 'Save' }}</span>
+    </button>
+</div>
+<!-- End: /components/_save_button.antlers.html -->

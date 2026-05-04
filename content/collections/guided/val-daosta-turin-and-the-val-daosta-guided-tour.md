@@ -329,4 +329,5 @@ gallery:
   - tours/val-daosta-turin-and-the-val-daosta-guided-tour/val-ferret.jpg
   - tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_5240.jpg
 now_open: false
+headline: "13 days in Italy's most spectacular region"
 ---

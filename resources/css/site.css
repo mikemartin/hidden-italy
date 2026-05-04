@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "@splidejs/splide/dist/css/splide-core.min.css" layer(components);
+@import "tippy.js/dist/tippy.css";
 @import "../../vendor/livewire/flux/dist/flux.css";
 
 @source "../../vendor/livewire/flux/stubs/**/*.blade.php";
@@ -351,4 +352,16 @@
     .has-overlay-header header svg {
         color: currentColor;
     }
+}
+
+/* Tippy.js — override the default theme so every tooltip on the site picks
+   up our dark surface tokens. Switch to a `data-theme` variant if a second
+   look is ever needed. */
+.tippy-box {
+    background-color: var(--color-blue-d-200);
+    color: var(--color-parchment-100);
+}
+
+.tippy-arrow {
+    color: var(--color-blue-d-200);
 }

@@ -1,9 +1,14 @@
 {{#
     @name Tour overview actions
-    @desc Share + Save buttons used in the tour overview block. Save piggy-
-          backs on the Simple Likes fieldtype on the entry; Share triggers
-          the native share sheet (with a clipboard fallback) via the
-          adjacent `data-share` Alpine snippet.
+    @desc Share + Save buttons used in the tour overview block (desktop
+          variant). Save piggy-backs on the Simple Likes fieldtype on the
+          entry; Share triggers the native share sheet (with a clipboard
+          fallback) via the adjacent `data-share` Alpine snippet.
+
+          For the mobile breadcrumb row, see
+          `_tour_overview_actions_compact.antlers.html` — same actions,
+          rendered as round icon-only buttons matching the drawer's
+          Menu/Close affordance.
 #}}
 
 <!-- /components/_tour_overview_actions.antlers.html -->
@@ -20,24 +25,13 @@
         },
     }"
 >
-    <button
-        type="button"
-        @click="share"
-        class="inline-flex items-center gap-2 lg:w-24 lg:justify-center focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-    >
-        <x-lucide-share class="size-3 lg:size-5 text-text" stroke-width="1.5" aria-hidden="true" />
-        <span class="font-sans font-semibold text-[8.43px] lg:text-[15px] tracking-[0.02em] uppercase underline text-foreground leading-none">
-            {{ trans:strings.share ?? 'Share' }}
-        </span>
+    <button type="button" @click="share" class="button-inline">
+        <x-lucide-share aria-hidden="true" />
+        <span>{{ trans:strings.share ?? 'Share' }}</span>
     </button>
 
-    {{# Save reuses the entry's Simple Likes button so the saved-state syncs
-        with the wishlist drawer. The fieldtype renders its own heart icon. #}}
-    <div class="inline-flex items-center gap-2 lg:w-24 lg:justify-center">
-        {{ simple_like }}
-        <span class="font-sans font-semibold text-[8.43px] lg:text-[15px] tracking-[0.02em] uppercase underline text-foreground leading-none">
-            {{ trans:strings.save ?? 'Save' }}
-        </span>
-    </div>
+    {{# Save piggy-backs on Simple Likes via a custom template so saved
+        state syncs with the wishlist drawer through the addon's store. #}}
+    {{ simple_like template_from="components._save_button" }}
 </div>
 <!-- End: /components/_tour_overview_actions.antlers.html -->

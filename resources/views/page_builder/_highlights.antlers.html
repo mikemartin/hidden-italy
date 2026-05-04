@@ -18,18 +18,20 @@
 
         <ul class="span-content grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-9 gap-y-10 md:gap-y-12">
             {{ block:activities }}
-                <li class="flex flex-col gap-4">
+                <li class="flex flex-col items-center text-center gap-4">
                     {{ if icon }}
-                        <div class="flex shrink-0 items-center justify-center size-20 rounded-full bg-parchment-200 text-accent-2">
-                            {{ svg
-                                src="icons/{icon}"
-                                attr:class="size-12 fill-current"
-                                attr:aria-hidden="true"
-                                attr:role="img"
-                            }}
-                        </div>
+                        {{ icon }}
+                            <div class="flex shrink-0 items-center justify-center size-20 md:size-24 rounded-full bg-parchment-200 text-accent-2">
+                                {{ svg
+                                    src="icons/{path}"
+                                    attr:class="size-12 md:size-16 fill-current"
+                                    attr:aria-hidden="true"
+                                    attr:role="img"
+                                }}
+                            </div>
+                        {{ /icon }}
                     {{ /if }}
-                    <div class="flex flex-col gap-2 max-w-prose">
+                    <div class="flex flex-col items-center gap-2 max-w-prose">
                         {{ partial:typography/h4 :content="title" color="text-foreground" }}
                         {{ if summary }}
                             {{ partial:typography/p_small :content="summary" color="text-text" class="text-pretty !mb-0" }}

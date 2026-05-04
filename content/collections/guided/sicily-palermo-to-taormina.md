@@ -352,4 +352,5 @@ page_builder:
 start_location: Palermo
 finish_location: Taormina
 now_open: false
+headline: '14 days walking spectacular Sicily'
 ---

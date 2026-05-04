@@ -330,4 +330,5 @@ page_builder:
     enabled: true
 seasons: autumn
 now_open: false
+headline: '13 days walking the Dolomites in autumn'
 ---

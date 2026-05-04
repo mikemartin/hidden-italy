@@ -301,4 +301,5 @@ seasons:
 start_location: Favignana
 finish_location: Scopello
 now_open: false
+headline: '7 days walking the Egadi Islands'
 ---

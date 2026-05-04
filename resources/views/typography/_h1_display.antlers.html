@@ -3,10 +3,10 @@
     @desc The typography h1 display partial for all-caps headings intended for overlaying text over photos.
     @param* content The h1 content.
     @param as The wrapping element. Defaults to `h1`.
-    @param color Set a custom text color utility. Falls back to `text-neutral`.
+    @param color Set a custom text color utility. Falls back to `text-foreground`.
     @param class Add custom CSS classes.
 #}}
 
 <!-- /typography/_h1_display.antlers.html -->
-<{{ as or 'h1' }} class="font-display font-bold text-3xl md:text-5xl leading-[1.25] md:leading-[1.1] tracking-[0.01em] md:tracking-[-0.02em] uppercase {{ color or 'text-neutral' }} {{ class }}">{{ content | nl2br }}</{{ as or 'h1' }}>
+<{{ as or 'h1' }} class="font-display font-bold text-3xl md:text-5xl leading-[1.25] md:leading-[1.1] tracking-[0.01em] md:tracking-[-0.02em] uppercase {{ color or 'text-foreground' }} {{ class }}">{{ content | nl2br }}</{{ as or 'h1' }}>
 <!-- End: /typography/_h1_display.antlers.html -->

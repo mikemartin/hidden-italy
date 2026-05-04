@@ -16,9 +16,7 @@
         {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
 
         {{ if block:intro }}
-            <div class="font-sans text-base md:text-xl leading-[1.6] text-text md:max-w-4xl text-pretty">
-                {{ block:intro }}
-            </div>
+            {{ partial:typography/p_large as="div" :content="block:intro" class="md:max-w-4xl text-pretty" }}
         {{ /if }}
     </header>
 

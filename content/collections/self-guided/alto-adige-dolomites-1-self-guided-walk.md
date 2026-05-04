@@ -279,4 +279,5 @@ start_location: Bolzano
 finish_location: 'Val Gardena'
 now_open: false
 seasons: summer
+headline: '6 days walking through the Dolomites'
 ---

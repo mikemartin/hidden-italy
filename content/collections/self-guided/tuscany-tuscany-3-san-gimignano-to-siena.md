@@ -281,4 +281,5 @@ start_location: 'San Gimignano'
 finish_location: Siena
 now_open: false
 seasons: spring
+headline: '5 days from San Gimignano to Siena'
 ---

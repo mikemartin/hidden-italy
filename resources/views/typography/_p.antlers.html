@@ -3,10 +3,10 @@
     @desc The typography paragraph partial to render a paragraph with `class`, `as`, `color` and `content` attributes.
     @param* content The p content.
     @param as The wrapping element. Defaults to `p`.
-    @param color Set a custom text color utility. Falls back to `text-neutral`.
+    @param color Set a custom text color utility. Falls back to `text-foreground`.
     @param class Add custom CSS classes.
 #}}
 
 <!-- /typography/_p.antlers.html -->
-<{{ as or 'p' }} class="text-base md:text-lg font-normal leading-[1.5] md:leading-[1.6] mt-0 mb-8 last:mb-0 {{ color or 'text-neutral' }} {{ class }}">{{ content | nl2br }}</{{ as or 'p' }}>
+<{{ as or 'p' }} class="text-base lg:text-lg font-normal leading-[1.5] md:leading-[1.6] mt-0 mb-8 last:mb-0 {{ color or 'text-foreground' }} {{ class }}">{{ content | nl2br }}</{{ as or 'p' }}>
 <!-- End: /typography/_p.antlers.html -->

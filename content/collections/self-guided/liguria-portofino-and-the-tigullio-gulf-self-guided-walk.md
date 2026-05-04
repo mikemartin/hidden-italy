@@ -278,4 +278,5 @@ start_location: Camogli
 finish_location: 'Sestri Levante'
 now_open: false
 seasons: autumn
+headline: '6 days exploring the Tigullio Gulf'
 ---

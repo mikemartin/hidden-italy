@@ -329,4 +329,5 @@ gallery:
 start_location: Lecce
 finish_location: Bari
 now_open: false
+headline: '13 days walking the trails of Puglia'
 ---

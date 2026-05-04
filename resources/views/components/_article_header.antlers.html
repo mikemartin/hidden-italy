@@ -50,12 +50,10 @@
                 },
             }"
             @click="share()"
-            class="inline-flex items-center gap-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+            class="button-inline"
         >
-            <x-lucide-share class="size-5 text-text" stroke-width="1.5" aria-hidden="true" />
-            <span class="font-sans font-semibold text-[15px] tracking-[0.02em] uppercase underline text-foreground leading-none">
-                {{ trans:strings.share ?? 'Share' }}
-            </span>
+            <x-lucide-share aria-hidden="true" />
+            <span>{{ trans:strings.share ?? 'Share' }}</span>
         </button>
     </div>
 

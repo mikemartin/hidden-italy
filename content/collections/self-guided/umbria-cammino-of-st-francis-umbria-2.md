@@ -304,4 +304,5 @@ start_location: Spoleto
 finish_location: Rieti
 now_open: false
 seasons: spring
+headline: "7 days in Italy's green heart"
 ---

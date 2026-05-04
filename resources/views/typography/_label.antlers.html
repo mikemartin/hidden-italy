@@ -5,7 +5,7 @@
     @param as The wrapping element. Defaults to `label`.
     @param large Boolean. Renders the large variant (16px).
     @param small Boolean. Renders the small variant (12px).
-    @param color Set a custom text color utility. Falls back to `text-neutral`.
+    @param color Set a custom text color utility. Falls back to `text-foreground`.
     @param class Add custom CSS classes.
 #}}
 
@@ -17,7 +17,7 @@
         (small) => 'text-xs',
         () => 'text-sm'
     ) }}
-    {{ color or 'text-neutral' }}
+    {{ color or 'text-foreground' }}
     {{ class }}
 ">{{ content | nl2br }}</{{ as or 'label' }}>
 <!-- End: /typography/_label.antlers.html -->

@@ -1,0 +1,41 @@
+{{#
+    @name Save button (compact)
+    @desc Round icon-only wishlist toggle matching the drawer's
+          Menu/Close affordance. Mounted via
+          `{{ simple_like template_from="components._save_button_compact" }}`
+          so it inherits entry id, like count, and auth/lock context from
+          the Simple Likes addon. Heart fills terracotta when liked, in
+          step with the wishlist drawer that subscribes to the same
+          store.
+#}}
+
+<!-- /components/_save_button_compact.antlers.html -->
+<div
+    x-data="{
+        ...simpleLikes({
+            entryId: '{{ entry_id }}',
+            count: {{ likes_count }},
+            canInteract: {{ can_interact ? 'true' : 'false' }},
+            isLocked: {{ is_locked ? 'true' : 'false' }},
+            isAuthenticated: {{ is_authenticated ? 'true' : 'false' }},
+            allowGuestLikes: {{ allow_guest_likes ? 'true' : 'false' }}
+        })
+    }"
+>
+    <button
+        type="button"
+        x-bind:disabled="loading || !canInteract || isLocked"
+        x-bind:aria-pressed="liked"
+        x-bind:aria-label="liked ? '{{ trans:strings.saved ?? 'Saved' }}' : '{{ trans:strings.save ?? 'Save' }}'"
+        @click="toggleLike()"
+        class="-my-1 -mr-1 inline-flex items-center justify-center w-11 h-11 rounded-full text-foreground hover:bg-parchment-400/25 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-50 disabled:cursor-not-allowed"
+    >
+        <x-lucide-heart
+            class="size-6 motion-safe:transition"
+            x-bind:class="liked ? 'fill-terracotta text-terracotta' : ''"
+            stroke-width="1.75"
+            aria-hidden="true"
+        />
+    </button>
+</div>
+<!-- End: /components/_save_button_compact.antlers.html -->

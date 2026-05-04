@@ -1,0 +1,12 @@
+{{ count = gallery | count }}
+COUNT={{ count }}
+---MOBILE---
+{{ if count > 0 }}
+M1: {{ gallery limit="1" offset="0" }}{{ filename }}{{ /gallery }}
+M2: {{ gallery limit="2" offset="1" }}{{ filename }}{{ /gallery }}
+{{ /if }}
+---DESKTOP---
+{{ if count > 0 }}
+D1: {{ gallery limit="1" offset="0" }}{{ filename }}{{ /gallery }}
+D2: {{ gallery limit="2" offset="1" }}{{ filename }}{{ /gallery }}
+{{ /if }}

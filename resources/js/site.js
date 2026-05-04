@@ -1,6 +1,7 @@
 import Splide from '@splidejs/splide';
 import collapse from '@alpinejs/collapse';
 import focus from '@alpinejs/focus';
+import tippy from 'tippy.js';
 import simpleLikes from './components/simple-likes.js';
 
 window.Splide = Splide;
@@ -35,6 +36,21 @@ document.addEventListener('alpine:init', () => {
     });
 
     window.Alpine.data('simpleLikes', simpleLikes);
+
+    window.Alpine.directive('tooltip', (el, { expression }) => {
+        const content = expression || el.getAttribute('data-tooltip') || '';
+        if (!content) return;
+        tippy(el, { content, allowHTML: false });
+    });
+
+    window.Alpine.magic('tooltip', el => message => {
+        const instance = tippy(el, { content: message, trigger: 'manual' });
+        instance.show();
+        setTimeout(() => {
+            instance.hide();
+            setTimeout(() => instance.destroy(), 150);
+        }, 2000);
+    });
 });
 
 document.addEventListener('alpine:initialized', () => {

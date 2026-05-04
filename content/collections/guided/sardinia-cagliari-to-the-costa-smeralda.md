@@ -336,4 +336,5 @@ locations: southern-italy
 start_location: Cagliari
 finish_location: 'the Costa Smeralda'
 now_open: false
+headline: '13 days exploring magical Sardinia'
 ---

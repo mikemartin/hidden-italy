@@ -74,6 +74,11 @@ tabs:
         collapsed: true
         fields:
           -
+            handle: headline
+            field:
+              type: text
+              display: Headline
+          -
             handle: days
             field:
               type: integer

@@ -293,4 +293,5 @@ gallery:
   - tours/umbria-cammino-of-st-francis-umbria-2-1/f1030001.jpg
 now_open: false
 seasons: spring
+headline: '7 days walking the best of Umbria'
 ---

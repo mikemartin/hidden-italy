@@ -373,4 +373,5 @@ gallery:
   - tours/val-daosta-valley-del-lys/16.jpg
 now_open: false
 seasons: summer
+headline: '7 days hiking a stunning mountain valley'
 ---

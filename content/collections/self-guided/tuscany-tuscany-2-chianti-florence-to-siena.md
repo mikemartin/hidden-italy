@@ -298,4 +298,5 @@ start_location: Florence
 finish_location: Siena
 now_open: false
 seasons: autumn
+headline: '7 days walking the Chianti vineyards'
 ---

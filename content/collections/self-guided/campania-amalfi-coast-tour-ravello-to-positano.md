@@ -283,6 +283,7 @@ gallery:
 image: tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
 start_location: Ravello
 finish_location: Positano
+headline: '6 days along the breathtaking Amalfi Coast'
 now_open: false
 seasons:
   - spring

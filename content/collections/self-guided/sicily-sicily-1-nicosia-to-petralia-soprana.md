@@ -299,4 +299,5 @@ start_location: Nicosia
 finish_location: 'Petralia Soprana'
 now_open: false
 seasons: spring
+headline: '7 days walking through central Sicily'
 ---

@@ -281,4 +281,5 @@ gallery:
   - tours/umbria-cammino-of-st-francis-umbria-1/16.jpg
 now_open: false
 seasons: spring
+headline: '7 days walking with St Francis'
 ---

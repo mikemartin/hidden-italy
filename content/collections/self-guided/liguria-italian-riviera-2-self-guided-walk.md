@@ -352,4 +352,5 @@ start_location: 'Sestri Levante'
 finish_location: Portovenere
 now_open: false
 seasons: autumn
+headline: '8 days walking to the Cinque Terre'
 ---

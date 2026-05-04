@@ -280,4 +280,5 @@ start_location: Levanto
 finish_location: Portovenere
 now_open: false
 seasons: spring
+headline: "7 days along Italy's finest coast"
 ---
