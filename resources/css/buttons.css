@@ -43,13 +43,6 @@
         svg {
             @apply size-4 shrink-0 motion-safe:transition;
         }
-
-        /* Trailing arrow nudges right on hover. Only applies when an arrow
-           sits as the last child of the button — direction-aware navigation
-           cue used by "View all tours" and "Read bio". */
-        &:hover svg:last-child {
-            @apply translate-x-0.5;
-        }
     }
 
     /* Gold underline variant — pairs with `.button-inline` for callouts

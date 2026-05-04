@@ -1,14 +1,21 @@
 {{#
     @name Experience
-    @desc Dark-blue tabbed look at the on-the-ground experience: walk,
-          accommodation, and food. Centred heading + pill tablist on a
-          `.dark`-scoped surface so semantic tokens flip — `bg-background`
-          gives the deep blue, `text-foreground` becomes parchment, and the
-          topographic decoration sits behind in a darker tone. Each panel
-          is a left text column + right image (single for walk, gallery
-          for others). The walk panel surfaces trail stats above the body
-          and shows a Start / Finish footer beneath the image. Every panel
-          except the last gets a "Next: <tab>" link that advances the tabs.
+    @desc Dark-blue look at the on-the-ground experience: walk,
+          accommodation, and food. Two layouts so each viewport gets the
+          interaction model that fits it best:
+            mobile  — all three sections render as a vertical stack; the
+                      tablist and "Next" links hide because users just
+                      scroll between them.
+            md+     — pill tablist toggles between the three panels on a
+                      `.dark`-scoped surface so semantic tokens flip —
+                      `bg-background` gives the deep blue, `text-foreground`
+                      becomes parchment, and the topographic decoration sits
+                      behind in a darker tone. Each panel is a left text
+                      column + right image. The walk panel surfaces trail
+                      stats above the body and shows a Start / Finish
+                      footer beneath the image. Every panel except the
+                      last gets a "Next: <tab>" link that advances the
+                      tablist.
     @set page.page_builder.experience
 #}}
 
@@ -37,7 +44,7 @@
             {{ svg:top-right attr:class="absolute top-0 right-0 w-[320px] md:w-[400px] h-auto" }}
         </div>
 
-        {{ partial:page_builder/block class="stack-space-collapse py-12 md:py-16 lg:py-24 gap-y-10 md:gap-y-14" }}
+        {{ partial:page_builder/block class="stack-space-collapse py-12 md:py-16 lg:py-24 gap-y-12 md:gap-y-14" }}
             {{ if block:title }}
                 <header class="span-content text-center">
                     {{ partial:typography/h2 :content="block:title" color="text-foreground" }}
@@ -47,6 +54,9 @@
             {{# Tab triggers — centred pill control. Container is the lighter
                 accent surface; the active pill drops onto `bg-accent-2` with
                 a soft shadow to lift it. #}}
+            {{# Tablist hides on mobile because all panels render in sequence
+                below — there's nothing to toggle. Returns at md+ where the
+                tabbed view earns its keep on a wider canvas. #}}
             <ul
                 x-ref="tablist"
                 role="tablist"
@@ -55,7 +65,7 @@
                 @keydown.left.prevent.stop="$focus.wrap().prev()"
                 @keydown.home.prevent.stop="$focus.first()"
                 @keydown.end.prevent.stop="$focus.last()"
-                class="span-content justify-self-center inline-flex flex-wrap items-center gap-0.5 rounded-full bg-accent-light p-1 list-none"
+                class="span-content justify-self-center hidden md:inline-flex flex-wrap items-center gap-0.5 rounded-full bg-accent-light p-1 list-none"
             >
                 {{ block:tabs }}
                     <li>
@@ -93,23 +103,45 @@
             {{# Tab panels. The wrapper uses `display:contents` so each panel
                 stays a direct grid item of the surrounding fluid-grid (via
                 `span-content`), while still being the panel's DOM parent —
-                that's what `whichChild($el, $el.parentElement)` walks. #}}
+                that's what `whichChild($el, $el.parentElement)` walks.
+
+                On mobile every panel is rendered (no `x-show`/`x-cloak`) —
+                users just scroll. At md+ the inactive panels are hidden via
+                a reactive `md:hidden` class so the tablist drives toggling. #}}
             <div x-ref="tabpanels" class="contents">
                 {{ block:tabs }}
                 <section
                     role="tabpanel"
                     :aria-labelledby="$id('tab', whichChild($el, $el.parentElement))"
-                    x-show="isSelected($id('tab', whichChild($el, $el.parentElement)))"
-                    x-cloak
+                    :class="!isSelected($id('tab', whichChild($el, $el.parentElement))) && 'md:hidden'"
                     data-tab-label="{{ type | ucfirst }}"
                     class="span-content grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-y-12 items-start"
                 >
                     {{# Left — copy. #}}
-                    <div class="lg:col-span-6 flex flex-col gap-6">
+                    <div class="lg:col-span-5 flex flex-col gap-6">
                         {{# Title + stats sit in a tight sub-group so the stats
                             read as a subhead under the heading, separated from
-                            the body copy by the parent gap. #}}
+                            the body copy by the parent gap. A mobile-only
+                            eyebrow (icon + tab label) sits above the title to
+                            re-signal the section identity now that the tablist
+                            is hidden on small viewports. #}}
                         <div class="flex flex-col gap-3">
+                            {{# Mobile section badge — same chip pattern as the
+                                tour-overview breadcrumb (h-8 pill, gap-1,
+                                px-4/py-2, sans medium-14) but coloured for
+                                the dark surface: `bg-accent-light` with
+                                `text-text` carrying both the icon and label. #}}
+                            <div class="md:hidden self-start inline-flex items-center gap-2 h-8 px-4 py-2 rounded-full bg-accent-light text-white">
+                                {{ if type == 'walk' }}
+                                    <x-lucide-footprints class="size-[18px] shrink-0" stroke-width="1.5" aria-hidden="true" />
+                                {{ elseif type == 'accommodation' }}
+                                    <x-lucide-bed class="size-[18px] shrink-0" stroke-width="1.5" aria-hidden="true" />
+                                {{ elseif type == 'food' }}
+                                    <x-lucide-utensils class="size-[18px] shrink-0" stroke-width="1.5" aria-hidden="true" />
+                                {{ /if }}
+                                <span class="font-sans font-medium text-sm leading-[1.6]">{{ type | ucfirst }}</span>
+                            </div>
+
                             {{ if title }}
                                 {{ partial:typography/h3 :content="title" color="text-foreground" }}
                             {{ /if }}
@@ -155,13 +187,16 @@
                                             <div class="inline-flex items-center gap-2">
                                                 <x-lucide-footprints class="size-5 text-accent shrink-0" stroke-width="1.5" aria-hidden="true" />
                                                 <p class="text-sm md:text-base mb-0">{{ trans:strings.grade ?? 'Grade' }} {{ grade }} / 5</p>
+                                                {{# Tooltip is desktop-only — hover-based affordances
+                                                    don't translate well to touch, and the dense walking
+                                                    description sits inside the body copy on mobile. #}}
                                                 {{ if walk_grade_description }}
                                                     <button
                                                         type="button"
                                                         x-data
                                                         x-tooltip
                                                         data-tooltip="{{ walk_grade_description }}"
-                                                        class="text-foreground inline-flex items-center justify-center p-1 rounded-full hover:bg-blue-d-100/40 motion-safe:transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                                                        class="text-foreground hidden md:inline-flex items-center justify-center p-1 rounded-full hover:bg-blue-d-100/40 motion-safe:transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
                                                         aria-label="{{ trans:strings.walking_grade ?? 'Walking grade' }} {{ grade }}: {{ walk_grade_description }}"
                                                     >
                                                         <x-lucide-info class="size-4" stroke-width="2" aria-hidden="true" />
@@ -174,23 +209,51 @@
                             {{ /if }}
                         </div>
 
+                        {{# Description is a Bard field with multiple paragraphs
+                            and lists. The wrapper mirrors the
+                            `typography/_p` scale so the type matches body
+                            copy elsewhere. On mobile we apply `line-clamp-4`
+                            to clip the visible text at ~4 lines regardless
+                            of paragraph count, then "Read more" expands.
+                            line-clamp needs to live on the same element as
+                            the text, so we render Bard inline here rather
+                            than via the partial — `-webkit-box` doesn't
+                            propagate through nested wrappers. #}}
                         {{ if description }}
-                            <div class="font-sans text-[18px] leading-[1.6] text-foreground [&_p]:mb-4 [&_p:last-child]:mb-0 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-4">
-                                {{ description }}
+                            <div x-data="{ expanded: false }" class="flex flex-col gap-3">
+                                <div
+                                    class="font-sans text-base lg:text-lg font-normal leading-[1.5] md:leading-[1.6] text-foreground [&_p]:mb-4 [&_p:last-child]:mb-0 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-4"
+                                    :class="!expanded && 'max-md:line-clamp-4'"
+                                >
+                                    {{ description }}
+                                </div>
+                                <button
+                                    type="button"
+                                    @click="expanded = !expanded"
+                                    :aria-expanded="expanded"
+                                    class="button-inline button-inline--gold self-start md:hidden"
+                                >
+                                    <span x-text="expanded ? 'Read less' : 'Read more'"></span>
+                                    <span
+                                        class="inline-flex transition-transform"
+                                        :class="expanded && 'rotate-180'"
+                                        aria-hidden="true"
+                                    >
+                                        <x-lucide-chevron-down />
+                                    </span>
+                                </button>
                             </div>
                         {{ /if }}
 
-                        {{# "Next: <tab>" inline button — hidden on the last tab.
-                            Uses DOM traversal (`closest`/`nextElementSibling`)
-                            to find the next panel and pull its title out of
-                            `data-tab-title`, then advances `selectedId` via
-                            the shared `$id`/`whichChild` helpers. #}}
+                        {{# "Next: <tab>" inline button — md+ only, since on
+                            mobile the next panel is already on screen. Hidden
+                            on the last tab via DOM lookup. #}}
                         <button
                             type="button"
                             x-show="$el.closest('[role=tabpanel]').nextElementSibling"
                             x-cloak
                             @click="select($id('tab', whichChild($el.closest('[role=tabpanel]'), $refs.tabpanels) + 1))"
-                            class="button-inline button-inline--gold self-start"
+                            class="button-inline button-inline--gold self-start hidden md:inline-flex"
                         >
                             <span>{{ trans:strings.next_tab ?? 'Next' }}: <span x-text="$el.closest('[role=tabpanel]').nextElementSibling?.dataset?.tabLabel"></span></span>
                             <x-lucide-arrow-right aria-hidden="true" />
@@ -199,21 +262,28 @@
 
                     {{# Right — single photo for every tab. Walk pulls from the
                         singular `image` field; accommodation and food index
-                        into `images` (`images.0`) directly inline because
-                        capturing it via a variable was getting cross-scope
-                        leaks from sibling blocks. Start / Finish footer
-                        follows on the Walk tab only. #}}
-                    <div class="lg:col-span-6 flex flex-col gap-5">
+                        into `media` (`media.0`) inline because capturing it
+                        via a variable was getting cross-scope leaks from
+                        sibling blocks. Start / Finish footer follows on the
+                        Walk tab only.
+
+                        Image gets the same matted treatment as the tour
+                        cards: a transparent `p-1` wrapper around a
+                        `rounded-lg` photo so the surrounding card colour
+                        shows through as a 4px frame. #}}
+                    <div class="lg:col-start-7 lg:col-span-6 flex flex-col gap-5">
                         {{ if type == 'walk' && image }}
-                            <div class="aspect-[4/3] rounded-xl overflow-hidden bg-card">
-                                {{ picture
-                                    :image="image"
-                                    aspect_ratio="1/1"
-                                    cover="true"
-                                    class="w-full h-full"
-                                    sizes="(min-width: 1024px) 50vw, 100vw"
-                                    loading="lazy"
-                                }}
+                            <div class="relative p-1">
+                                <div class="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-card">
+                                    {{ picture
+                                        :image="image"
+                                        aspect_ratio="1/1"
+                                        cover="true"
+                                        class="w-full h-full"
+                                        sizes="(min-width: 1024px) 50vw, 100vw"
+                                        loading="lazy"
+                                    }}
+                                </div>
                             </div>
                         {{# `media` is what `images` used to be on the
                             accommodation/food experience tabs. Renamed to
@@ -224,15 +294,17 @@
                         {{ elseif media }}
                             {{ media }}
                                 {{ if first }}
-                                    <div class="aspect-[4/3] rounded-xl overflow-hidden bg-card">
-                                        {{ picture
-                                            :image="url"
-                                            aspect_ratio="1/1"
-                                            cover="true"
-                                            class="w-full h-full"
-                                            sizes="(min-width: 1024px) 50vw, 100vw"
-                                            loading="lazy"
-                                        }}
+                                    <div class="relative p-1">
+                                        <div class="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-card">
+                                            {{ picture
+                                                :image="url"
+                                                aspect_ratio="1/1"
+                                                cover="true"
+                                                class="w-full h-full"
+                                                sizes="(min-width: 1024px) 50vw, 100vw"
+                                                loading="lazy"
+                                            }}
+                                        </div>
                                     </div>
                                 {{ /if }}
                             {{ /media }}
@@ -242,7 +314,7 @@
                             Two equal-width tiles, gold uppercase eyebrow + h4-sized
                             value, with a 48px circular icon on `bg-accent-light`. #}}
                         {{ if type == 'walk' && (start_location || finish_location) }}
-                            <dl class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-9 mt-2">
+                            <dl class="grid grid-cols-2 gap-6 sm:gap-9 mt-2">
                                 {{ if start_location }}
                                     <div class="flex items-start gap-6">
                                         <span class="shrink-0 inline-flex items-center justify-center size-12 rounded-full bg-accent-light text-foreground">
