@@ -6,5 +6,6 @@ image: shop/trails-to-freedom.jpg
 type: book
 price: '$10 AUD'
 show_from: true
-buy_link: 'https://example.com/trails-to-freedom'
+updated_by: 1
+updated_at: 1777876539
 ---
