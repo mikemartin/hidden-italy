@@ -192,7 +192,7 @@ page_builder:
               -
                 type: text
                 text: "In the spirit of the long-distance pilgrimage, we have sought to keep the costs down.\_ The accommodation in between is the best available in each places including a 4-star hotel, asimple family-run agriturismo, a private apartment and modern lake-side hotel.\_ All the accommodation is clean, comfortable and welcoming and each room has an en suite bathroom."
-        images:
+        media:
           - tours/miralago-1.jpg
         type: accommodation
         enabled: true
@@ -215,7 +215,7 @@ page_builder:
                   -
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
-        images:
+        media:
           - tours/7.6.jpg
         type: food
         enabled: true

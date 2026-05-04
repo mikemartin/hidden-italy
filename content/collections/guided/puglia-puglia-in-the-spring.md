@@ -245,7 +245,7 @@ page_builder:
               -
                 type: text
                 text: ".\_ Finally, we stay in a comfortable hotel in the centre of Bari."
-        images:
+        media:
           - tours/palmento-19.jpg
         type: accommodation
         enabled: true
@@ -259,7 +259,7 @@ page_builder:
               -
                 type: text
                 text: "In springtime the market gardens and kitchen gardens of Puglia are bursting with fresh produce (tomatoes, zucchini, eggplants, artichokes, asparagus, fava beans) which provides the basis for all the region’s cooking.\_ Pugliese cuisine is simple, rustic and cheerful, based on the abundance of its fertile plains and coastline. As Italy's wheat belt, pasta and a variety of excellent breads are pillars of Pugliese diet, as is olive oil (Puglia has over 50 million olive trees, some over 2000 years old).\_ Puglia is bounded by two seas, the Adriatic and Ionian, and has an abundance of seafood, while the butchers of the Itria Valley are famous throughout Italy."
-        images:
+        media:
           - tours/bari-12.jpg
         type: food
         enabled: true

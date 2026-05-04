@@ -182,7 +182,7 @@ page_builder:
               -
                 type: text
                 text: "Accommodation is in ‘superior’ rooms with en-suite bathrooms in a very well located 4-star hotel, an excellent family run hotel on the sunny side of the valley with a ‘wellness’ centre, pool and surrounded by lawns.\_ It is in prettiest town in the valley.\_\_"
-        images:
+        media:
           - tours/2.jpg
         type: accommodation
         enabled: true
@@ -202,7 +202,7 @@ page_builder:
                   -
                     type: italic
                 text: "Generous breakfasts and 3-course dinners are included each day.\_"
-        images:
+        media:
           - tours/img_1570.jpg
         type: food
         enabled: true

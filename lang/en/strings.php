@@ -112,6 +112,7 @@ return [
     'whats_included' => "What's included",
     'share' => 'Share',
     'save' => 'Save',
+    'saved' => 'Saved',
 
     // Tour page sections
     'history' => 'History',
@@ -123,4 +124,13 @@ return [
     'travel_insurance' => 'Travel insurance conditions',
     'booking_cancellation' => 'Booking and cancellation conditions',
     'read_bio' => 'Read bio',
+
+    // Experience tab
+    'start' => 'Start',
+    'finish' => 'Finish',
+    'next_tab' => 'Next',
+
+    // Announcement banner
+    'announcement' => 'Announcement',
+    'dismiss' => 'Dismiss announcement',
 ];

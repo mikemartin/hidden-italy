@@ -187,7 +187,7 @@ page_builder:
               -
                 type: text
                 text: "You will stay in a variety of accommodation, themselves often part of the area's history, which are always comfortable and welcoming: two family-run 'agriturismos' (one of which was once a baronial residence); a private apartment; a small, family-run hotel; a 15th century convent (hosted by nuns) and finishing in a restored noble residence in the heart of an ancient village.\_"
-        images:
+        media:
           - tours/img_2547.jpg
         type: accommodation
         enabled: true

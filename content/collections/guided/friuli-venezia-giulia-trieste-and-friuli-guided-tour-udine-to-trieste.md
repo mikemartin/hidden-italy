@@ -245,7 +245,7 @@ page_builder:
               -
                 type: text
                 text: "The tour starts with two nights in a classic four-star hotel in the centre of Udine and finishes in one of the grand hotels of Italy: set in an elegant\_palazzo dating from 1727\_overlooking the Piazza Unita d'Italia, the heart of Trieste.\_ In between, we stay in a beautiful small hotel in the mountains for four nights and\_another\_four nights in a family-run hotel in the heart of a lovely town on the Natisone River that was founded by Julius Caesar"
-        images:
+        media:
           - tours/3.5.jpg
         type: accommodation
         enabled: true
@@ -259,7 +259,7 @@ page_builder:
               -
                 type: text
                 text: "With its long coastline, fertile plains, unspoilt mountains and ancient traditions, the food of Friuli is as diverse as the region itself.\_ Friuli also produces some of Italy's finest ingredients, including Collio wines, San Daniele ham and Montasio cheese.\_ You will have plenty of opportunity to experience these along the way, including dining at stylish city restaurants; simple home-cooked fare in the mountains; a long lunch at a Michelin-starred trattoria in the country; finishing with a delicious seafood lunch overlooking the Gulf of Trieste.\_ Wine is included with the meals."
-        images:
+        media:
           - tours/img_3936.jpeg
         type: food
         enabled: true

@@ -206,7 +206,7 @@ page_builder:
               -
                 type: text
                 text: "You will stay in a variety of accommodation: fancy 4-star hotels, comfortable 3-star hotels and a lovely family run ‘agriturismo’, which has its own restaurant.\_ Hidden Italy uses the best available in each place: it is comfortable and welcoming, with seaview, when possible.\_ Several of the hotels have their own swimming pools but there are also plenty of beautiful beaches along the way."
-        images:
+        media:
           - tours/agriturismo-la-pale-1.jpg
         type: accommodation
         enabled: true
@@ -231,7 +231,7 @@ page_builder:
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
           -
             type: paragraph
-        images:
+        media:
           - tours/30.jpg
         type: food
         enabled: true

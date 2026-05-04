@@ -234,7 +234,7 @@ page_builder:
               -
                 type: text
                 text: "The accommodation is one of the highlights of the tour.\_ It includes stays in a historic hotel in the centre of Rome; a marvellous ‘albergo diffuso’, staying in meticulously restored apartments in a medieval village; a beautiful, family-run ‘agriturismo’ in the middle of vineyards with a swimming pool and gardens; and another ‘albergo diffuso’ , staying in very comfortable sea-view apartments in the historic centre of Termoli."
-        images:
+        media:
           - tours/muro-torto.jpg
         type: accommodation
         enabled: true
@@ -248,7 +248,7 @@ page_builder:
               -
                 type: text
                 text: "Food in these agricultural regions centres on local, seasonal produce and the tradition of ‘cucina povera,’ combining fresh ingredients with age-old methods for healthy, memorable meals. This delicious mountain cuisine is based on vegetables, bread, cheese, and wine. Notable dishes include pasta alla chitarra, legume soups, cheese-rich polenta, scrippelle in broth, lamb arrosticini, and deep-fried pastries like cicerchiatta, pan dell’orso, and calgionetti. Coastal areas feature fresh seafood, such as brodetto di Termoli (an amazing fish soup). Abruzzo and Molise also offer quality wines, including Montepulciano d’Abruzzo, Tintilia, Trebbiano, and Bombino.\_ Wine is included with all meals."
-        images:
+        media:
           - tours/img_8219.jpg
         type: food
         enabled: true

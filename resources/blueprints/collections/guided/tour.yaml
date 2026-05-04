@@ -345,6 +345,7 @@ tabs:
                           field:
                             container: assets
                             folder: tours
+                            dynamic: slug
                             restrict: true
                             mode: grid
                             max_files: 3
@@ -420,6 +421,7 @@ tabs:
                                         field:
                                           container: assets
                                           folder: tours
+                                          dynamic: slug
                                           restrict: true
                                           max_files: 1
                                           type: assets
@@ -444,14 +446,16 @@ tabs:
                                           type: bard
                                           display: Description
                                       -
-                                        handle: images
+                                        handle: media
                                         field:
                                           container: assets
+                                          dynamic: slug
                                           folder: tours
                                           restrict: true
                                           max_files: 4
                                           type: assets
                                           display: Images
+                                          instructions: 'Renamed from `images` to dodge a Statamic OrderedQueryBuilder leak with the history block''s `images` field.'
                                   food:
                                     display: Food
                                     icon: food
@@ -472,14 +476,16 @@ tabs:
                                           type: bard
                                           display: Description
                                       -
-                                        handle: images
+                                        handle: media
                                         field:
                                           container: assets
+                                          dynamic: slug
                                           folder: tours
                                           restrict: true
                                           max_files: 4
                                           type: assets
                                           display: Images
+                                          instructions: 'Renamed from `images` to dodge a Statamic OrderedQueryBuilder leak with the history block''s `images` field.'
                     leader:
                       display: 'Tour Leader'
                       instructions: 'Introduce the guide leading this tour.'

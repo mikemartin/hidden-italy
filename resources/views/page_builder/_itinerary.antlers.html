@@ -1,44 +1,45 @@
 {{#
     @name Itinerary
-    @desc Day-by-day itinerary as a Splide carousel. Centred heading + intro
-          summary, followed by a 3-up (1-up on mobile) carousel of day cards.
-          Each card has the day's photo, "Day N" eyebrow, title, an optional
-          stat row (hrs / km / elev), description, and a meals row.
-          Custom prev/next arrows + a "Days X–Y of N" counter live below the
-          track. Carousel disabled when there are 3 or fewer days.
+    @desc Day-by-day itinerary as a Splide carousel — modelled on the
+          featured-tours block. Title (and optional summary) sit on the
+          left; prev/next arrows sit on the right of the same header. A
+          gold progress bar below the track tracks position through the
+          set. Mobile shows one card at a time, desktop shows three.
+          Each card has the day's photo, "Day N" eyebrow, title, an
+          optional stat row (hrs / km / elev), description, and a meals
+          row. Arrows hidden when there's nothing to scroll to (≤3 days);
+          progress bar hidden when there's only one slide.
     @set page.page_builder.itinerary
 #}}
 
 <!-- /page_builder/_itinerary.antlers.html -->
 {{ if block:days }}
     <section
-        class="fluid-grid gap-y-10 md:gap-y-14"
+        class="fluid-grid gap-y-10 md:gap-y-16"
         x-data="{
-            splide: null,
+            progress: 0,
             atStart: true,
             atEnd: false,
-            current: 0,
-            perPage: 3,
-            total: {{ block:days | count }},
+            splide: null,
             init() {
                 this.splide = new Splide(this.$refs.splide, {
                     perPage: 3,
                     perMove: 1,
-                    gap: '1.5rem',
+                    gap: '2.25rem',
                     pagination: false,
                     arrows: false,
                     drag: 'free',
                     snap: true,
                     breakpoints: {
-                        768: { perPage: 1, gap: '1rem' },
+                        768: { perPage: 1, gap: '1.5rem' },
                     },
                 });
-                this.splide.on('mounted move scrolled resized', () => {
+                this.splide.on('mounted move scrolled', () => {
                     const controller = this.splide.Components.Controller;
+                    const end = controller.getEnd() + 1;
+                    this.progress = Math.min((this.splide.index + 1) / end, 1) * 100;
                     this.atStart = controller.getPrev() === -1;
                     this.atEnd = controller.getNext() === -1;
-                    this.current = this.splide.index;
-                    this.perPage = this.splide.options.perPage;
                 });
                 this.splide.mount();
             },
@@ -47,20 +48,35 @@
             destroy() { this.splide?.destroy() },
         }"
     >
-        {{ if block:title || block:summary }}
-            <header class="span-content flex flex-col items-center text-center gap-4 max-w-3xl mx-auto">
-                {{ if block:title }}
-                    {{ partial:typography/h2 :content="block:title" color="text-foreground" }}
-                {{ /if }}
-                {{ if block:summary }}
-                    <p class="font-sans text-base md:text-lg leading-[1.6] text-text text-pretty">
-                        {{ block:summary }}
-                    </p>
-                {{ /if }}
-            </header>
-        {{ /if }}
+        <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            {{ partial:typography/h2 :content="block:title" class="!mb-0" color="text-foreground" }}
 
-        <div class="span-content">
+            {{# Desktop prev/next arrows — only when there's something to scroll to. #}}
+            {{ if block:days | count > 3 }}
+                <div class="hidden md:flex items-center gap-4 self-start md:self-auto">
+                    <button
+                        type="button"
+                        @click="prev()"
+                        :disabled="atStart"
+                        aria-label="Previous day"
+                        class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-parchment-200"
+                    >
+                        <x-lucide-arrow-left class="size-5" stroke-width="2" aria-hidden="true" />
+                    </button>
+                    <button
+                        type="button"
+                        @click="next()"
+                        :disabled="atEnd"
+                        aria-label="Next day"
+                        class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-parchment-200"
+                    >
+                        <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />
+                    </button>
+                </div>
+            {{ /if }}
+        </header>
+
+        <div class="span-content relative">
             <section x-ref="splide" class="splide itinerary-splide" aria-label="Tour itinerary">
                 <div class="splide__track">
                     <ul class="splide__list">
@@ -69,7 +85,7 @@
                                 <article class="h-full flex flex-col bg-card border border-parchment-200 rounded-xl overflow-hidden shadow-sm">
                                     {{ if photo }}
                                         <div class="relative p-1">
-                                            <div class="relative w-full aspect-[16/10] rounded-lg overflow-hidden bg-parchment-200">
+                                            <div class="relative w-full aspect-[2/1] rounded-lg overflow-hidden bg-parchment-200">
                                                 {{ picture
                                                     :image="photo"
                                                     class="absolute inset-0 w-full h-full object-cover"
@@ -118,7 +134,7 @@
                                             {{ partial:typography/p_small
                                                 :content="description"
                                                 color="text-text"
-                                                class="line-clamp-5 !mb-0"
+                                                class="!mb-0"
                                             }}
                                         {{ /if }}
 
@@ -137,38 +153,24 @@
                     </ul>
                 </div>
             </section>
+
+            {{# Carousel progress bar — shown whenever there's more than one slide. #}}
+            {{ if block:days | count > 1 }}
+                <div
+                    class="mt-6 h-1 w-full bg-parchment-200 rounded-full overflow-hidden"
+                    role="progressbar"
+                    aria-label="Itinerary progress"
+                    :aria-valuenow="Math.round(progress)"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                >
+                    <div
+                        class="h-full bg-gold transition-[width] duration-400 ease-out"
+                        :style="`width: ${progress}%`"
+                    ></div>
+                </div>
+            {{ /if }}
         </div>
-
-        {{# Custom controls — only render when the carousel has something to scroll. #}}
-        {{ if block:days | count > 1 }}
-            <div class="span-content flex items-center justify-center gap-6">
-                <button
-                    type="button"
-                    @click="prev()"
-                    :disabled="atStart"
-                    aria-label="Previous day"
-                    class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-parchment-200"
-                >
-                    <x-lucide-arrow-left class="size-5" stroke-width="2" aria-hidden="true" />
-                </button>
-
-                <p class="font-sans text-sm text-text" aria-live="polite">
-                    {{ trans:strings.days ?? 'Days' }}
-                    <span x-text="current + 1"></span>&ndash;<span x-text="Math.min(current + perPage, total)"></span>
-                    {{ trans:strings.of ?? 'of' }} {{ block:days | count }}
-                </p>
-
-                <button
-                    type="button"
-                    @click="next()"
-                    :disabled="atEnd"
-                    aria-label="Next day"
-                    class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-parchment-200"
-                >
-                    <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />
-                </button>
-            </div>
-        {{ /if }}
     </section>
 {{ /if }}
 <!-- End: /page_builder/_itinerary.antlers.html -->

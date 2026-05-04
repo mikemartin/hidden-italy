@@ -243,7 +243,7 @@ page_builder:
               -
                 type: text
                 text: "Hidden Italy uses the best accommodation available.\_ On this walk this means very comfortable, centrally located, family-run hotels, a mix of 4-star hotels, 3-star hotels and a simple, family-run ‘pensione’.\_ All the rooms have en suite bathrooms and air-conditioning.\_ Please bear in mind that the places you are visiting are essentially small fishing villages and don't have a range of accommodation options.\_ Some of the hotels have their own swimming pools and their is always the opportunity to swim at beaches along the way."
-        images:
+        media:
           - tours/view-from-window-at-paradiso.jpg
         type: accommodation
         enabled: true
@@ -266,7 +266,7 @@ page_builder:
                   -
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
-        images:
+        media:
           - tours/img_7590.jpg
         type: food
         enabled: true

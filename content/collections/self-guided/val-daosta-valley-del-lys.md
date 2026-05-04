@@ -299,7 +299,7 @@ page_builder:
               -
                 type: text
                 text: .
-        images:
+        media:
           - tours/8.jpg
         type: food
         enabled: true

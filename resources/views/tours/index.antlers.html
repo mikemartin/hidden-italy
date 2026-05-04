@@ -26,4 +26,18 @@
         </div>
     </section>
 </main>
+
+{{# Brand reassurance panel — sits outside <main> and ahead of the global
+    CTA banner injected by the layout. Scoped to the single-collection
+    listings (/guided and /self-guided); the combined /tours page skips it
+    since neither global is a clean fit. #}}
+{{ if tour_collections == 'guided' }}
+    {{ guided_walking_benefits }}
+        {{ partial:components/walking_benefits :heading="heading" :intro="intro" :benefits="benefits" }}
+    {{ /guided_walking_benefits }}
+{{ elseif tour_collections == 'self-guided' }}
+    {{ self_guided_walking_benefits }}
+        {{ partial:components/walking_benefits :heading="heading" :intro="intro" :benefits="benefits" }}
+    {{ /self_guided_walking_benefits }}
+{{ /if }}
 <!-- End: /tours/index.antlers.html -->

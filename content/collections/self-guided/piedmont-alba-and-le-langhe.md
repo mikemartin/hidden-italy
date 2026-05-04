@@ -184,7 +184,7 @@ page_builder:
               -
                 type: text
                 text: "Alba and the Langhe have a long history of hospitality and offer a range of very comfortable and welcoming accommodation. \_During the walk you will stay in a variety of accommodation including 4-star hotels (in Alba on Days 1 and 7 and on Day 5); an ex-castle/vineyard which once belonged to the king of Italy (Day 2); a lovely small hotel in the heart of the prettiest village in the district (Day 6) and an agriturismo outside a small hilltop village, which has a pool and an excellent restaurant\_ (Day 4).\_ All the accommodation has ensuite services."
-        images:
+        media:
           - tours/benevello-6.jpg
         type: accommodation
         enabled: true
@@ -213,7 +213,7 @@ page_builder:
                   -
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
-        images:
+        media:
           - tours/9.jpg
         type: food
         enabled: true

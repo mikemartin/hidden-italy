@@ -1,0 +1,36 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Why use our self-guided walking tours'
+        instructions: 'Brand benefits panel rendered at the bottom of every self-guided tour page. Side title + intro on the left, benefit entries with icons on the right.'
+        fields:
+          -
+            handle: heading
+            field:
+              type: text
+              localizable: true
+              display: Heading
+              default: 'Why use our self-guided walking tours?'
+              validate:
+                - required
+          -
+            handle: intro
+            field:
+              type: textarea
+              localizable: true
+              display: Intro
+              instructions: 'One short paragraph under the heading.'
+          -
+            handle: benefits
+            field:
+              type: entries
+              localizable: true
+              display: Benefits
+              collections:
+                - benefits
+              max_items: 6
+              instructions: 'Pick benefits from the Benefits collection. Three is the intended count.'
+              validate:
+                - required

@@ -257,7 +257,7 @@ page_builder:
               -
                 type: text
                 text: "The accommodation is in excellent boutique hotels: two nights in a classic 4-star hotel in the centre of Cagliari; three nights down in the south-west corner of Sardinia, staying in a gorgeous\_family-run hotel in the historic centre of a small car-free town, a short walk from the port; four nights in a luxurious, family-run 4-star 'country house' in the mountains, which is itself part of the island's history; and. finally, three nights in a 4-star resort staying in\_deluxe rooms each of which has sea views over the Costa Smeralda!"
-        images:
+        media:
           - tours/hotel-1.jpg
         type: accommodation
         enabled: true
@@ -271,7 +271,7 @@ page_builder:
               -
                 type: text
                 text: "Sardinian cooking is deeply rooted in its past, full of flavours nearly forgotten elsewhere.\_ The essence of Sardinian cooking is unmistakeably biased towards traditional country dishes: fresh seasonal vegetabels; suckling pig and wild boar; rustic stews with wild vegetables and beans; fresh pastas; mountain cheeses; and boggling array of breads, including the famous carta da musica... and, of course, plenty of fresh seafood on the coast.\_ We will eat in a variety of settings including elegant dining in Cagliari and on the Costa Smeralda; seaside osterias, country trattorias, and picnics with the shepherds in the mountains."
-        images:
+        media:
           - tours/84.jpg
         type: food
         enabled: true

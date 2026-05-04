@@ -106,11 +106,6 @@
                     </div>
                 {{ /if }}
 
-            
-                {{# Walking grade — desktop only; the design hides this on mobile.
-                Description copy lives on the Walking Grades global with
-                separate fields for guided vs self-guided tours, surfaced via
-                a Tippy tooltip on the info icon. #}}
                 {{ if grade }}
                     {{ if {collection:handle} == 'self-guided' }}
                         {{ if grade == 1 }}{{ grade_description = walking_grades:grade_1_self_guided }}{{ /if }}

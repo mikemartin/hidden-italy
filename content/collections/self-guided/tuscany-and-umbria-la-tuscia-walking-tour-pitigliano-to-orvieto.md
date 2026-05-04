@@ -181,7 +181,7 @@ page_builder:
               -
                 type: text
                 text: "The accommodation is one of the special features of this tour.\_ As usual, Hidden Italy uses the best accommodation available.\_ All the hotels are in historical buildings in the centre of the small villages and towns including a 4-star resort built on Etruscan foundations; a hotel built in a restored Medici fortress; a family-run hotel in the shadow of the Orvieto cathedral and, my favourite, a 3rd generation country hotel in a tiny rural village. All rooms have an en suite bathroom and air conditioning."
-        images:
+        media:
           - tours/hotel-della-fortezza.jpg
         type: accommodation
         enabled: true
@@ -204,7 +204,7 @@ page_builder:
                   -
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
-        images:
+        media:
           - tours/f1020009-a.jpg
         type: food
         enabled: true

@@ -254,7 +254,7 @@ page_builder:
               -
                 type: text
                 text: "The accommodation is in lovely 4-star hotels all the way.\_ In Verona we stay in a classic hotel in the centre of town (Maria Calls used to stay here when she was preforming at the Arena).\_ In the valleys we stay in two spacious Tyrolean-style, family-run hotels, both of which have wellness centres and swimming pools.\_ In Cortina d'Ampezzo we stay in another classic 4-star hotel, a short walk from the centre of town."
-        images:
+        media:
           - tours/2-1775543819.jpg
         type: accommodation
         enabled: true
@@ -268,7 +268,7 @@ page_builder:
               -
                 type: text
                 text: "Food, of course, is one of the highlights of the trip. The people of the Dolomites are\_extremely proud of the produce of their beautiful territory (fruit, vegetables, cheeses, hams and a wide variety of breads etc) and the local cuisine is a fascinating combination Italian and Austrian cooking. The Alto Adige/Sud Tirol is particularly famous for its high altitude white wines.\_ Wine is included with each meal."
-        images:
+        media:
           - tours/7.8.jpg
         type: food
         enabled: true

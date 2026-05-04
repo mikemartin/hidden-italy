@@ -176,7 +176,7 @@ page_builder:
               -
                 type: text
                 text: "Hidden Italy tours use the best available accommodation.\_ On the Amalfi Coast walking tour this means staying each night in very good, centrally located, hotels (most with swimming pools) with whom we've been working for years.\_ The Standard option uses 3-star hotels while the Superior option uses 4-star hotels. \_ We request rooms with sea views. \_All rooms have en suite bathrooms."
-        images:
+        media:
           - tours/hotel-positano.jpg
         type: accommodation
         enabled: true
@@ -199,7 +199,7 @@ page_builder:
                   -
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
-        images:
+        media:
           - tours/c.jpg
         type: food
         enabled: true

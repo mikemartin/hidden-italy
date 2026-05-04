@@ -247,7 +247,7 @@ page_builder:
               -
                 type: text
                 text: "We stay in the best accommodation in the region: a mix of 4-star and 5-star hotels.\_ The first in Turin is a well-established hotel in the pedestrian centre of the city.\_ The second is a lovely alpine hotel with views up to the peak of Mt Rosa.\_ The third hotel, an elegant mountain lodge, has been in the same family since opening in 1925 and drips with history.\_ The last hotel is a charming 5-star hotel above Courmayeur with breathtaking views of Mt Blanc.\_ All the hotels have wellness centres and spas, and three have swimming pools."
-        images:
+        media:
           - tours/img_5043.jpg
         type: accommodation
         enabled: true
@@ -261,7 +261,7 @@ page_builder:
               -
                 type: text
                 text: "The cuisine of the Val d’Aosta is simple and substantial, as befits a mountain region.\_ It shows the influence of nearby France and Switzerland: robust soups, polenta, risotto, wholesome rye breads, tasty sausages and smoked meats, fine handmade cheeses (fontina and toma are the best known) and game from the surrounding mountains and valleys. The Val d’Aosta has some of the oldest vineyards in Europe and produces some very fine wines. Wine is included with all meals."
-        images:
+        media:
           - tours/bar-a-fromage-1.jpg
         type: food
         enabled: true

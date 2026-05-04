@@ -174,7 +174,7 @@ page_builder:
               -
                 type: text
                 text: "In the spirit of the long-distance pilgrimage, we have sought to keep the costs down.\_ The accommodation is in centrally-located, historic, family-run 3-star hotels.\_ They are comfortable and welcoming.\_ All rooms have en suite bathrooms."
-        images:
+        media:
           - tours/05.jpg
         type: accommodation
         enabled: true
@@ -197,7 +197,7 @@ page_builder:
                   -
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
-        images:
+        media:
           - tours/12.jpg
         type: food
         enabled: true

@@ -1,147 +1,277 @@
 {{#
     @name Experience
-    @desc Tabbed look at the on-the-ground experience: walk, accommodation,
-          and food. Tab triggers sit centred under the heading; the active
-          tab fills with the brand background colour. Each panel is a left
-          text column + right image. The walk panel surfaces the trail
-          stats (distance / elevation / grade) above its body copy.
+    @desc Dark-blue tabbed look at the on-the-ground experience: walk,
+          accommodation, and food. Centred heading + pill tablist on a
+          `.dark`-scoped surface so semantic tokens flip — `bg-background`
+          gives the deep blue, `text-foreground` becomes parchment, and the
+          topographic decoration sits behind in a darker tone. Each panel
+          is a left text column + right image (single for walk, gallery
+          for others). The walk panel surfaces trail stats above the body
+          and shows a Start / Finish footer beneath the image. Every panel
+          except the last gets a "Next: <tab>" link that advances the tabs.
     @set page.page_builder.experience
 #}}
 
 <!-- /page_builder/_experience.antlers.html -->
 {{ if block:tabs }}
-    {{ partial:page_builder/block class="stack-space-collapse py-12 md:py-16 lg:py-24 gap-y-10 md:gap-y-14" }}
-        {{ if block:title }}
-            <header class="span-content text-center">
-                {{ partial:typography/h2 :content="block:title" color="text-foreground" }}
-            </header>
-        {{ /if }}
+    {{# Alpine state is intentionally lean — `selectedId` tracks the active
+        tab via Alpine's `$id('tab', N)` helper, and `whichChild` derives
+        the index from each element's DOM position. No JSON serialization
+        of the tab list, no manual id strings — every tab button and panel
+        builds its own id from its position. #}}
+    <section
+        class="dark relative isolate overflow-hidden bg-background"
+        x-data="{
+            selectedId: null,
+            init() { this.$nextTick(() => this.select(this.$id('tab', 1))); },
+            select(id) { this.selectedId = id; },
+            isSelected(id) { return this.selectedId === id; },
+            whichChild(el, parent) { return Array.from(parent.children).indexOf(el) + 1; },
+        }"
+        x-id="['tab']"
+    >
+        {{# Topographic decoration tinted darker so it sits behind the
+            content without competing for attention. #}}
+        <div class="pointer-events-none absolute inset-x-0 top-0 -z-10 text-blue-d-100" aria-hidden="true">
+            {{ svg:top-left attr:class="absolute top-0 left-0 w-[320px] md:w-[400px] h-auto -translate-x-1/2" }}
+            {{ svg:top-right attr:class="absolute top-0 right-0 w-[320px] md:w-[400px] h-auto" }}
+        </div>
 
-        <div
-            class="span-content flex flex-col gap-10 md:gap-12"
-            x-data="{ active: null }"
-            x-init="active = $el.querySelector('[role=tab]')?.dataset.tab ?? null"
-        >
-            {{# Tab triggers — centred segmented control. #}}
-            <div role="tablist" aria-label="Experience" class="self-center inline-flex flex-wrap rounded-full border border-parchment-200 bg-card p-1">
+        {{ partial:page_builder/block class="stack-space-collapse py-12 md:py-16 lg:py-24 gap-y-10 md:gap-y-14" }}
+            {{ if block:title }}
+                <header class="span-content text-center">
+                    {{ partial:typography/h2 :content="block:title" color="text-foreground" }}
+                </header>
+            {{ /if }}
+
+            {{# Tab triggers — centred pill control. Container is the lighter
+                accent surface; the active pill drops onto `bg-accent-2` with
+                a soft shadow to lift it. #}}
+            <ul
+                x-ref="tablist"
+                role="tablist"
+                aria-label="Experience"
+                @keydown.right.prevent.stop="$focus.wrap().next()"
+                @keydown.left.prevent.stop="$focus.wrap().prev()"
+                @keydown.home.prevent.stop="$focus.first()"
+                @keydown.end.prevent.stop="$focus.last()"
+                class="span-content justify-self-center inline-flex flex-wrap items-center gap-0.5 rounded-full bg-accent-light p-1 list-none"
+            >
                 {{ block:tabs }}
-                    <button
-                        type="button"
-                        role="tab"
-                        data-tab="{{ type }}"
-                        id="tab-{{ type }}"
-                        :aria-selected="active === '{{ type }}'"
-                        aria-controls="panel-{{ type }}"
-                        :tabindex="active === '{{ type }}' ? 0 : -1"
-                        @click="active = '{{ type }}'"
-                        :class="active === '{{ type }}' ? 'bg-background text-white' : 'bg-transparent text-text hover:text-foreground'"
-                        class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-sans font-medium text-sm md:text-base transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-                    >
-                        {{ if type == 'walk' }}
-                            <x-lucide-footprints class="size-4" stroke-width="2" aria-hidden="true" />
-                        {{ elseif type == 'accommodation' }}
-                            <x-lucide-bed class="size-4" stroke-width="2" aria-hidden="true" />
-                        {{ elseif type == 'food' }}
-                            <x-lucide-utensils class="size-4" stroke-width="2" aria-hidden="true" />
-                        {{ /if }}
-                        <span class="capitalize">{{ type }}</span>
-                    </button>
+                    <li>
+                        {{# Mobile drops to icon-only pills (square, no padding
+                            for the missing label) — the label stays in the
+                            DOM via `sr-only` so screen readers still announce
+                            the tab name and `aria-selected` keeps state. The
+                            label re-appears at `md+` alongside the larger
+                            pill from the design. #}}
+                        <button
+                            :id="$id('tab', whichChild($el.parentElement, $refs.tablist))"
+                            @click="select($el.id)"
+                            @mousedown.prevent
+                            @focus="select($el.id)"
+                            type="button"
+                            role="tab"
+                            :tabindex="isSelected($el.id) ? 0 : -1"
+                            :aria-selected="isSelected($el.id)"
+                            :class="isSelected($el.id) ? 'bg-accent-2 shadow-sm text-foreground' : 'bg-transparent text-white/70 hover:text-white'"
+                            class="inline-flex items-center justify-center p-2.5 md:gap-2.5 md:px-6 md:py-4 rounded-full font-sans font-semibold md:text-[15px] leading-none tracking-[0.02em] uppercase transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                        >
+                            {{ if type == 'walk' }}
+                                <x-lucide-footprints class="size-5" stroke-width="1.75" aria-hidden="true" />
+                            {{ elseif type == 'accommodation' }}
+                                <x-lucide-bed class="size-5" stroke-width="1.75" aria-hidden="true" />
+                            {{ elseif type == 'food' }}
+                                <x-lucide-utensils class="size-5" stroke-width="1.75" aria-hidden="true" />
+                            {{ /if }}
+                            <span class="sr-only md:not-sr-only">{{ type }}</span>
+                        </button>
+                    </li>
                 {{ /block:tabs }}
-            </div>
+            </ul>
 
-            {{# Tab panels. #}}
-            {{ block:tabs }}
-                <div
+            {{# Tab panels. The wrapper uses `display:contents` so each panel
+                stays a direct grid item of the surrounding fluid-grid (via
+                `span-content`), while still being the panel's DOM parent —
+                that's what `whichChild($el, $el.parentElement)` walks. #}}
+            <div x-ref="tabpanels" class="contents">
+                {{ block:tabs }}
+                <section
                     role="tabpanel"
-                    :id="`panel-{{ type }}`"
-                    :aria-labelledby="`tab-{{ type }}`"
-                    x-show="active === '{{ type }}'"
+                    :aria-labelledby="$id('tab', whichChild($el, $el.parentElement))"
+                    x-show="isSelected($id('tab', whichChild($el, $el.parentElement)))"
                     x-cloak
-                    class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start"
+                    data-tab-label="{{ type | ucfirst }}"
+                    class="span-content grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-y-12 items-start"
                 >
                     {{# Left — copy. #}}
                     <div class="lg:col-span-6 flex flex-col gap-6">
-                        {{ if title }}
-                            {{ partial:typography/h3 :content="title" color="text-foreground" }}
-                        {{ /if }}
-
-                        {{ if type == 'walk' }}
-                            {{ if total_distance || total_elevation || grade }}
-                                <ul class="flex flex-wrap items-center gap-x-6 gap-y-3 text-foreground">
-                                    {{ if total_distance }}
-                                        <li class="inline-flex items-center gap-2">
-                                            <x-lucide-footprints class="size-5 text-accent-2 shrink-0" stroke-width="1.75" aria-hidden="true" />
-                                            <span class="font-display font-medium text-base md:text-lg">{{ total_distance }} km</span>
-                                        </li>
-                                    {{ /if }}
-                                    {{ if total_elevation }}
-                                        <li class="inline-flex items-center gap-2">
-                                            <x-lucide-mountain class="size-5 text-accent-2 shrink-0" stroke-width="1.75" aria-hidden="true" />
-                                            <span class="font-display font-medium text-base md:text-lg">{{ total_elevation }} m</span>
-                                        </li>
-                                    {{ /if }}
-                                    {{ if grade }}
-                                        <li class="inline-flex items-center gap-2">
-                                            <x-lucide-gauge class="size-5 text-accent-2 shrink-0" stroke-width="1.75" aria-hidden="true" />
-                                            <span class="font-display font-medium text-base md:text-lg">{{ trans:strings.grade ?? 'Grade' }} {{ grade }} / 5</span>
-                                        </li>
-                                    {{ /if }}
-                                </ul>
+                        {{# Title + stats sit in a tight sub-group so the stats
+                            read as a subhead under the heading, separated from
+                            the body copy by the parent gap. #}}
+                        <div class="flex flex-col gap-3">
+                            {{ if title }}
+                                {{ partial:typography/h3 :content="title" color="text-foreground" }}
                             {{ /if }}
-                        {{ /if }}
+
+                            {{# Stats row mirrors the tour-card stats (icon size, colour
+                                and gap) so the visual language carries through. The
+                                label uses a <p> with `mb-0` to drop the default
+                                paragraph margin while keeping it block-level. #}}
+                            {{ if type == 'walk' }}
+                                {{ if total_distance || total_elevation || grade }}
+                                    <div class="flex flex-wrap items-center gap-x-3 md:gap-x-4 gap-y-2 text-foreground">
+                                        {{ if total_distance }}
+                                            <div class="inline-flex items-center gap-2">
+                                                <x-lucide-route class="size-5 text-accent shrink-0" stroke-width="1.5" aria-hidden="true" />
+                                                <p class="text-sm md:text-base mb-0">{{ total_distance }} km</p>
+                                            </div>
+                                        {{ /if }}
+                                        {{ if total_elevation }}
+                                            <div class="inline-flex items-center gap-2">
+                                                <x-lucide-mountain class="size-5 text-accent shrink-0" stroke-width="1.5" aria-hidden="true" />
+                                                <p class="text-sm md:text-base mb-0">{{ total_elevation }} m</p>
+                                            </div>
+                                        {{ /if }}
+                                        {{# Walk-specific grade description namespaced as
+                                            `walk_grade_description` so it doesn't collide
+                                            with the tour overview's `grade_description`,
+                                            which scopes the tour's overall grade. The
+                                            walk's `grade` is a per-tab field on the
+                                            experience block. #}}
+                                        {{ if grade }}
+                                            {{ if {collection:handle} == 'self-guided' }}
+                                                {{ if grade == 1 }}{{ walk_grade_description = walking_grades:grade_1_self_guided }}{{ /if }}
+                                                {{ if grade == 2 }}{{ walk_grade_description = walking_grades:grade_2_self_guided }}{{ /if }}
+                                                {{ if grade == 3 }}{{ walk_grade_description = walking_grades:grade_3_self_guided }}{{ /if }}
+                                                {{ if grade == 4 }}{{ walk_grade_description = walking_grades:grade_4_self_guided }}{{ /if }}
+                                            {{ else }}
+                                                {{ if grade == 1 }}{{ walk_grade_description = walking_grades:grade_1_guided }}{{ /if }}
+                                                {{ if grade == 2 }}{{ walk_grade_description = walking_grades:grade_2_guided }}{{ /if }}
+                                                {{ if grade == 3 }}{{ walk_grade_description = walking_grades:grade_3_guided }}{{ /if }}
+                                                {{ if grade == 4 }}{{ walk_grade_description = walking_grades:grade_4_guided }}{{ /if }}
+                                                {{ if grade == 5 }}{{ walk_grade_description = walking_grades:grade_5_guided }}{{ /if }}
+                                            {{ /if }}
+                                            <div class="inline-flex items-center gap-2">
+                                                <x-lucide-footprints class="size-5 text-accent shrink-0" stroke-width="1.5" aria-hidden="true" />
+                                                <p class="text-sm md:text-base mb-0">{{ trans:strings.grade ?? 'Grade' }} {{ grade }} / 5</p>
+                                                {{ if walk_grade_description }}
+                                                    <button
+                                                        type="button"
+                                                        x-data
+                                                        x-tooltip
+                                                        data-tooltip="{{ walk_grade_description }}"
+                                                        class="text-foreground inline-flex items-center justify-center p-1 rounded-full hover:bg-blue-d-100/40 motion-safe:transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                                                        aria-label="{{ trans:strings.walking_grade ?? 'Walking grade' }} {{ grade }}: {{ walk_grade_description }}"
+                                                    >
+                                                        <x-lucide-info class="size-4" stroke-width="2" aria-hidden="true" />
+                                                    </button>
+                                                {{ /if }}
+                                            </div>
+                                        {{ /if }}
+                                    </div>
+                                {{ /if }}
+                            {{ /if }}
+                        </div>
 
                         {{ if description }}
-                            <div class="font-sans text-base md:text-lg leading-[1.6] text-text [&_p]:mb-4 [&_p:last-child]:mb-0 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-4">
+                            <div class="font-sans text-[18px] leading-[1.6] text-foreground [&_p]:mb-4 [&_p:last-child]:mb-0 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-4">
                                 {{ description }}
                             </div>
                         {{ /if }}
+
+                        {{# "Next: <tab>" inline button — hidden on the last tab.
+                            Uses DOM traversal (`closest`/`nextElementSibling`)
+                            to find the next panel and pull its title out of
+                            `data-tab-title`, then advances `selectedId` via
+                            the shared `$id`/`whichChild` helpers. #}}
+                        <button
+                            type="button"
+                            x-show="$el.closest('[role=tabpanel]').nextElementSibling"
+                            x-cloak
+                            @click="select($id('tab', whichChild($el.closest('[role=tabpanel]'), $refs.tabpanels) + 1))"
+                            class="button-inline button-inline--gold self-start"
+                        >
+                            <span>{{ trans:strings.next_tab ?? 'Next' }}: <span x-text="$el.closest('[role=tabpanel]').nextElementSibling?.dataset?.tabLabel"></span></span>
+                            <x-lucide-arrow-right aria-hidden="true" />
+                        </button>
                     </div>
 
-                    {{# Right — image (single for walk, gallery for others). #}}
-                    <div class="lg:col-span-6">
+                    {{# Right — single photo for every tab. Walk pulls from the
+                        singular `image` field; accommodation and food index
+                        into `images` (`images.0`) directly inline because
+                        capturing it via a variable was getting cross-scope
+                        leaks from sibling blocks. Start / Finish footer
+                        follows on the Walk tab only. #}}
+                    <div class="lg:col-span-6 flex flex-col gap-5">
                         {{ if type == 'walk' && image }}
-                            <div class="relative aspect-[4/3] lg:aspect-[5/4] rounded-xl overflow-hidden bg-parchment-200">
+                            <div class="aspect-[4/3] rounded-xl overflow-hidden bg-card">
                                 {{ picture
                                     :image="image"
-                                    class="absolute inset-0 w-full h-full object-cover"
+                                    aspect_ratio="1/1"
                                     cover="true"
+                                    class="w-full h-full"
                                     sizes="(min-width: 1024px) 50vw, 100vw"
                                     loading="lazy"
                                 }}
                             </div>
-                        {{ elseif images }}
-                            {{ if images | count == 1 }}
-                                <div class="relative aspect-[4/3] lg:aspect-[5/4] rounded-xl overflow-hidden bg-parchment-200">
-                                    {{ images | first }}
+                        {{# `media` is what `images` used to be on the
+                            accommodation/food experience tabs. Renamed to
+                            avoid a Statamic OrderedQueryBuilder collision
+                            with the history block's `images` field, which
+                            was leaking its first asset into the experience
+                            lookup. #}}
+                        {{ elseif media }}
+                            {{ media }}
+                                {{ if first }}
+                                    <div class="aspect-[4/3] rounded-xl overflow-hidden bg-card">
                                         {{ picture
                                             :image="url"
-                                            class="absolute inset-0 w-full h-full object-cover"
+                                            aspect_ratio="1/1"
                                             cover="true"
+                                            class="w-full h-full"
                                             sizes="(min-width: 1024px) 50vw, 100vw"
                                             loading="lazy"
                                         }}
-                                    {{ /images }}
-                                </div>
-                            {{ else }}
-                                <ul class="grid grid-cols-2 gap-3 md:gap-4">
-                                    {{ images limit="4" }}
-                                        <li class="relative aspect-square rounded-xl overflow-hidden bg-parchment-200">
-                                            {{ picture
-                                                :image="url"
-                                                class="absolute inset-0 w-full h-full object-cover"
-                                                cover="true"
-                                                sizes="(min-width: 1024px) 25vw, 50vw"
-                                                loading="lazy"
-                                            }}
-                                        </li>
-                                    {{ /images }}
-                                </ul>
-                            {{ /if }}
+                                    </div>
+                                {{ /if }}
+                            {{ /media }}
+                        {{ /if }}
+
+                        {{# Start / Finish footer pulls from the parent tour entry.
+                            Two equal-width tiles, gold uppercase eyebrow + h4-sized
+                            value, with a 48px circular icon on `bg-accent-light`. #}}
+                        {{ if type == 'walk' && (start_location || finish_location) }}
+                            <dl class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-9 mt-2">
+                                {{ if start_location }}
+                                    <div class="flex items-start gap-6">
+                                        <span class="shrink-0 inline-flex items-center justify-center size-12 rounded-full bg-accent-light text-foreground">
+                                            <x-lucide-circle-play class="size-6" stroke-width="1.75" aria-hidden="true" />
+                                        </span>
+                                        <div class="flex flex-col">
+                                            <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-accent">{{ trans:strings.start ?? 'Start' }}</dt>
+                                            <dd class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ start_location }}</dd>
+                                        </div>
+                                    </div>
+                                {{ /if }}
+                                {{ if finish_location }}
+                                    <div class="flex items-start gap-6">
+                                        <span class="shrink-0 inline-flex items-center justify-center size-12 rounded-full bg-accent-light text-foreground">
+                                            <x-lucide-flag class="size-6" stroke-width="1.75" aria-hidden="true" />
+                                        </span>
+                                        <div class="flex flex-col">
+                                            <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-accent">{{ trans:strings.finish ?? 'Finish' }}</dt>
+                                            <dd class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ finish_location }}</dd>
+                                        </div>
+                                    </div>
+                                {{ /if }}
+                            </dl>
                         {{ /if }}
                     </div>
-                </div>
-            {{ /block:tabs }}
-        </div>
-    {{ /partial:page_builder/block }}
+                </section>
+                {{ /block:tabs }}
+            </div>
+        {{ /partial:page_builder/block }}
+    </section>
 {{ /if }}
 <!-- End: /page_builder/_experience.antlers.html -->

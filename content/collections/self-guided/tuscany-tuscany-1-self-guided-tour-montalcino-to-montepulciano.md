@@ -181,7 +181,7 @@ page_builder:
               -
                 type: text
                 text: "Hidden Italy uses the best accommodation available.\_ On this tour all the accommodation is in\_ family-run, three star hotels which are based in centrally located, restored heritage buildings which themselves are part of the the local history.\_ The exception is\_Day 2 when you'll stay in a private serviced apartment in the centre of a tiny\_medieval village (there are no hotels here)."
-        images:
+        media:
           - tours/hotel-view-montalcino.jpg
         type: accommodation
         enabled: true

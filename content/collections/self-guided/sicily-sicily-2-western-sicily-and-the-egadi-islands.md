@@ -187,7 +187,7 @@ page_builder:
               -
                 type: text
                 text: "The accommodation is in very comfortable, family-run 3-star hotels. \_The superior rooms have en suite bathrooms, terraces and ample breakfasts are included.  The first hotel is in the centre of the main town of the Egadi Islands, only 50 metres from the seaside and a short walk from the port. \_It is in an historical building that has been recently restored. \_You'll spend four nights here. \_The second hotel is in the centre of a small fortified hamlet a short walk from the seashore. \_You'll spend two nights here. \_Both hotel's have excellent restaurants."
-        images:
+        media:
           - tours/tavernetta-1.jpg
         type: accommodation
         enabled: true

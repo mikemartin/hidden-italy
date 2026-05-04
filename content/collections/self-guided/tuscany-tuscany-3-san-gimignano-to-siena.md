@@ -172,7 +172,7 @@ page_builder:
               -
                 type: text
                 text: "Hidden Italy uses the best accommodation available and the accommodation on this walk is one of the highlights.\_\_You'll be staying in the best hotels in each place,all\_in\_restored historical palazzi in the heart of each town and village, some dating from the Middle Ages and all steeped in the wonderful history of Tuscany. \_All rooms have ensuite bathrooms."
-        images:
+        media:
           - tours/palazzo-ravizza-siena-pic-33.jpeg
         type: accommodation
         enabled: true
@@ -195,7 +195,7 @@ page_builder:
                   -
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
-        images:
+        media:
           - tours/img_5061.jpg
         type: food
         enabled: true

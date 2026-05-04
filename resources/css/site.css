@@ -125,6 +125,8 @@
         --color-background:     var(--color-blue-d-300);
         --color-foreground:     var(--color-parchment-100);
         --color-text:           var(--color-parchment-200);
+        --color-muted:          oklch(from var(--color-text) l c h / 0.7);
+        --color-accent:         var(--color-gold);
         --color-accent-2:       var(--color-blue-d-500);
         --color-accent-light:   var(--color-blue-d-400);
         --color-card:           var(--color-blue-d-200);
@@ -185,7 +187,8 @@
    then pull it up by the same amount so the visual gap to the heading above
    matches the section's row gap. */
 .tours-splide .splide__track,
-.articles-splide .splide__track {
+.articles-splide .splide__track,
+.itinerary-splide .splide__track {
     padding-block: 0.75rem;
     margin-top: -0.75rem;
 }

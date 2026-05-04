@@ -1,40 +1,42 @@
 {{#
     @name FAQs
     @desc Tour-specific questions followed by a set of "common" questions
-          drawn from the Questions collection. Renders a single accordion
-          list — only one panel is open at a time. Tour questions come from
-          a grid field on the block; common questions are entries with bard
-          answers.
+          drawn from the Questions collection. Side-title layout: section
+          heading sits in a left column, questions stack as separate
+          accordion cards on the right. Only one card is open at a time;
+          the active card raises and the chevron rotates.
     @set page.page_builder.faqs
 #}}
 
 <!-- /page_builder/_faqs.antlers.html -->
 {{ if block:tour_questions || block:common_questions }}
-    {{ partial:page_builder/block class="stack-space-collapse bg-parchment-100 py-12 md:py-16 lg:py-24 gap-y-10 md:gap-y-14" }}
-        <header class="span-content text-center">
-            {{ partial:typography/h2 :content="block:heading ?? 'Frequently Asked Questions'" color="text-foreground" }}
-        </header>
+    {{ partial:page_builder/block class="py-12 md:py-16 lg:py-24" }}
+        <div class="span-content grid grid-cols-1 lg:grid-cols-12 gap-y-10 lg:gap-x-12" x-data="{ open: 0 }">
+            <header class="lg:col-span-4">
+                {{ partial:typography/h2 :content="block:heading ?? 'Frequently asked questions'" color="text-foreground" class="max-w-xs" }}
+            </header>
 
-        <div class="span-content max-w-3xl mx-auto w-full" x-data="{ open: 0 }">
-            <ul class="flex flex-col divide-y divide-parchment-200 border-y border-parchment-200">
+            <ul class="lg:col-span-8 flex flex-col gap-3 md:gap-4">
                 {{ counter = 0 }}
 
                 {{ if block:tour_questions }}
                     {{ block:tour_questions }}
                         {{ idx = counter }}
-                        <li>
+                        <li class="bg-card border border-parchment-200 rounded-lg overflow-hidden transition" :class="open === {{ idx }} ? 'shadow-md' : 'shadow-sm'">
                             <button
                                 type="button"
                                 @click="open = (open === {{ idx }} ? null : {{ idx }})"
                                 :aria-expanded="open === {{ idx }}"
                                 aria-controls="faq-panel-{{ idx }}"
-                                class="w-full flex items-center justify-between gap-4 py-5 text-left font-display font-semibold text-base md:text-lg text-foreground hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                                class="w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 text-left font-display font-semibold text-base md:text-lg text-foreground hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold focus-visible:-outline-offset-2"
                             >
                                 <span>{{ question }}</span>
-                                <span class="shrink-0 inline-flex items-center justify-center size-8 rounded-full bg-parchment-200 text-foreground transition" :class="open === {{ idx }} ? 'bg-gold/15 text-accent-2' : ''">
-                                    <x-lucide-plus class="size-4" stroke-width="2" x-show="open !== {{ idx }}" aria-hidden="true" />
-                                    <x-lucide-minus class="size-4" stroke-width="2" x-show="open === {{ idx }}" x-cloak aria-hidden="true" />
-                                </span>
+                                <x-lucide-chevron-right
+                                    class="size-5 shrink-0 text-accent-2 transition-transform"
+                                    stroke-width="2"
+                                    aria-hidden="true"
+                                    ::class="open === {{ idx }} ? 'rotate-90' : ''"
+                                />
                             </button>
                             <div
                                 id="faq-panel-{{ idx }}"
@@ -42,7 +44,7 @@
                                 x-collapse
                                 x-cloak
                             >
-                                <div class="pb-5 pr-12 font-sans text-base leading-[1.6] text-text [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:underline [&_a]:underline-offset-4 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-3">
+                                <div class="px-5 md:px-6 pb-5 md:pb-6 font-sans text-base leading-[1.6] text-text [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:underline [&_a]:underline-offset-4 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-3">
                                     {{ answer }}
                                 </div>
                             </div>
@@ -54,19 +56,21 @@
                 {{ if block:common_questions }}
                     {{ block:common_questions }}
                         {{ idx = counter }}
-                        <li>
+                        <li class="bg-card border border-parchment-200 rounded-lg overflow-hidden transition" :class="open === {{ idx }} ? 'shadow-md' : 'shadow-sm'">
                             <button
                                 type="button"
                                 @click="open = (open === {{ idx }} ? null : {{ idx }})"
                                 :aria-expanded="open === {{ idx }}"
                                 aria-controls="faq-panel-{{ idx }}"
-                                class="w-full flex items-center justify-between gap-4 py-5 text-left font-display font-semibold text-base md:text-lg text-foreground hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                                class="w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 text-left font-display font-semibold text-base md:text-lg text-foreground hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold focus-visible:-outline-offset-2"
                             >
                                 <span>{{ title }}</span>
-                                <span class="shrink-0 inline-flex items-center justify-center size-8 rounded-full bg-parchment-200 text-foreground transition" :class="open === {{ idx }} ? 'bg-gold/15 text-accent-2' : ''">
-                                    <x-lucide-plus class="size-4" stroke-width="2" x-show="open !== {{ idx }}" aria-hidden="true" />
-                                    <x-lucide-minus class="size-4" stroke-width="2" x-show="open === {{ idx }}" x-cloak aria-hidden="true" />
-                                </span>
+                                <x-lucide-chevron-right
+                                    class="size-5 shrink-0 text-accent-2 transition-transform"
+                                    stroke-width="2"
+                                    aria-hidden="true"
+                                    ::class="open === {{ idx }} ? 'rotate-90' : ''"
+                                />
                             </button>
                             <div
                                 id="faq-panel-{{ idx }}"
@@ -74,7 +78,7 @@
                                 x-collapse
                                 x-cloak
                             >
-                                <div class="pb-5 pr-12 font-sans text-base leading-[1.6] text-text [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:underline [&_a]:underline-offset-4 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-3">
+                                <div class="px-5 md:px-6 pb-5 md:pb-6 font-sans text-base leading-[1.6] text-text [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:underline [&_a]:underline-offset-4 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-3">
                                     {{ answer }}
                                 </div>
                             </div>

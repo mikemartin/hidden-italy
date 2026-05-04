@@ -189,7 +189,7 @@ page_builder:
               -
                 type: text
                 text: "The Hidden Italy use the best accommodation available.\_ This includes a combination of family-run 3-star hotels, 4-star hotels in restored historical buildings and lovely country ‘agriturismo’s with swimming pools and fine local cooking.\_ All rooms have, private ensuite bathrooms.\_ Guaranteed!"
-        images:
+        media:
           - tours/flo-p-puor_oqheg4-unsplash.jpg
         type: accommodation
         enabled: true
@@ -212,7 +212,7 @@ page_builder:
                   -
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
-        images:
+        media:
           - tours/img_5083.jpg
         type: food
         enabled: true

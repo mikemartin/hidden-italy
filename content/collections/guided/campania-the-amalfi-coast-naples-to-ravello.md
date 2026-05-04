@@ -260,7 +260,7 @@ page_builder:
               -
                 type: text
                 text: 'The tour finishes in marvellous Ravello, perched high above the Amalfi Coast. Our accommodation is another 4-star hotel, also with gardens, a swimming pool and great views, a short walk from the mian piazza and from Villa Cimbrone.'
-        images:
+        media:
           - tours/maratea-1.jpg
         type: accommodation
         enabled: true
@@ -274,7 +274,7 @@ page_builder:
               -
                 type: text
                 text: "At one time the capital of a kingdom, Naples, and the surrounding region of Campania, is a land of contrasts, and this is reflected in region's cuisine. The poorest and most authentic cooking is intermingled with that of the nobility, which draws heavily from French traditions. With pizza, spaghetti, mozzarella and expresso coffee, Campania created dishes that are not only part of the national cuisine but also part of international gastronomy. \_Campanian cooking is often simple, the chefs respecting the freshness and integrity of their excellent ingredients: vegetables and fruit grown in volcanic soils as well as the abundant fresh fish.\_ We’ll have plenty of opportunity to sample this in all its variety as we move from the city to the mountains and then the coast.\_ Campania's excellent wines also have a very long history, dating back to Greek and Roman times.\_\_Wine is included with each meal."
-        images:
+        media:
           - tours/22.5.jpg
         type: food
         enabled: true

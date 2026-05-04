@@ -44,6 +44,10 @@ page_builder:
             text: 'Based on several years’ research, this magnificent hike follows the same route, starting in Biella and finishing on Mt Moro on the Swiss border.  It passes through some of the most spectacular scenery in the European Alps, staying in a mixture of hotels, pilgrim monasteries and mountain huts along the way.  Although we will walk through uncontaminated mountain landscapes, this is an ancient land: traders, pilgrims and graziers have been passing through here for millennia, in fact, since before the Bronze Age.'
     type: history
     enabled: true
+    images:
+      - tours/italian-alps-trails-to-freedom/dscf0276.jpg
+      - tours/italian-alps-trails-to-freedom/dscf1836.jpg
+      - tours/italian-alps-trails-to-freedom/10.jpg
   -
     id: mjfler2v
     title: 'Trails to Freedom highlights'
@@ -194,7 +198,7 @@ page_builder:
     tabs:
       -
         id: 4B51YZfmo3puQemzyeq0f
-        title: Walks
+        title: 'Piedmont’s High Trails'
         total_distance: 96
         total_elevation: 5000
         grade: 5
@@ -216,7 +220,7 @@ page_builder:
         enabled: true
       -
         id: i4EDk_jCNw6hqyKsCeo0T
-        title: Accommodation
+        title: 'Magnificent monasteries'
         description:
           -
             type: paragraph
@@ -224,13 +228,13 @@ page_builder:
               -
                 type: text
                 text: "The accommodation is one of the highlights of the tour.\_ We will start with the first night in a 4-star hotel in Biella in Piedmont.\_ For the next two night we will stay in a very comfortable pilgrim accommodation in magnificent monasteries that date from the Middle Ages.\_ The next night is in a ‘rifugio’, or mountain hut, where we will sleep overnight in shared rooms (with shared bathrooms).\_ The following two nights are in a lovely 3-star hotel in a town at the head of the Sesia Valley.\_ The next night is in a gorgeous rifugio at the foot of Mont Rosa, with shared rooms (with shared bathrooms)..\_ The last two nights we spend in a family-run 3-star hotel in a village below the Mt Moro Pass and the Swiss border"
-        images:
+        media:
           - tours/b96f4a2a-dec1-40ff-b7cb-9c99a23a7e4f.jpg
         type: accommodation
         enabled: true
       -
         id: NWBlCLN3ip_O8OJVtsjT1
-        title: Food
+        title: 'Slow Food movement'
         description:
           -
             type: paragraph
@@ -250,7 +254,7 @@ page_builder:
               -
                 type: text
                 text: 'Lunches on the track will be a mixture of picnic lunches and cut lunches prepared by our accommodation.'
-        images:
+        media:
           - tours/44.jpg
         type: food
         enabled: true
@@ -328,7 +332,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 1
-updated_at: 1777873288
+updated_at: 1777890504
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg

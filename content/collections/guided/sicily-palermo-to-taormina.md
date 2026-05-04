@@ -277,7 +277,7 @@ page_builder:
               -
                 type: text
                 text: "Accommodation is in very good, centrally located boutique hotels: a grand 4-star hotel in the heart of Palermo; a recently restored patrician palazzo in the heart of our sleepy village in the mountains; a 4-star hotel with generous gardens and a large swimming pool in Lipari and another 4-star hotel above Taormina, with a beautiful swimming pool and fabulous views across the sea.\_ All rooms have en suite bathrooms and air conditioning."
-        images:
+        media:
           - tours/taormina-2.jpg
         type: accommodation
         enabled: true
@@ -291,7 +291,7 @@ page_builder:
               -
                 type: text
                 text: "One of the highlights of the tour is the exploration of the island's diverse and wonderous cuisine (some would say the finest in Italy): the rich ‘cucina povera' of Palermo; the fine country cooking of the interior; the excellent seafood of the Aeolian Islands and Taormina - all the ingredients rigorously seasonal and local.\_ We'll eat in fine restaurants, small trattoria's, enjoy picnic lunches, all exalting the best of Sicilian cooking.\_ Wine is included with all meals."
-        images:
+        media:
           - tours/taormina-7.jpg
         type: food
         enabled: true

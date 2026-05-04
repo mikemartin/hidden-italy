@@ -169,7 +169,7 @@ page_builder:
               -
                 type: text
                 text: "You'll be staying in a mix excellent, centrally located, family-run 3 and 4-star hotels that have been operating since the early 1900s.\_ They have comfortable rooms with\_generous breakfasts, en suite bathrooms and sea views."
-        images:
+        media:
           - tours/erinsummer-beautiful-5284440_1920-a.jpg
         type: accommodation
         enabled: true
@@ -192,7 +192,7 @@ page_builder:
                   -
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village"
-        images:
+        media:
           - tours/chaewon-you-vrngfwxd0nm-unsplash.jpg
         type: food
         enabled: true

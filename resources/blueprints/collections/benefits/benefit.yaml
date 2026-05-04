@@ -19,7 +19,8 @@ tabs:
             field:
               type: textarea
               display: Description
-              instructions: 'One or two sentences explaining the benefit.'
+              character_limit: 140
+              instructions: 'One or two sentences explaining the benefit. 140 character maximum.'
   sidebar:
     display: Sidebar
     sections:
