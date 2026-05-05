@@ -4,15 +4,33 @@ tabs:
     display: Main
     sections:
       -
+        display: Header
+        instructions: 'Shared header layout used on every product page — breadcrumb, title, optional subtitle and lead, hero image, buy CTA and price.'
         fields:
           -
             handle: title
             field:
               type: text
               required: true
+              localizable: true
               display: Title
+              instructions: 'The product name (e.g. "Trails to Freedom").'
               validate:
                 - required
+          -
+            handle: subtitle
+            field:
+              type: text
+              localizable: true
+              display: Subtitle
+              instructions: 'Optional descriptive line shown beneath the title (e.g. the book''s extended title).'
+          -
+            handle: lead
+            field:
+              type: textarea
+              localizable: true
+              display: Lead
+              instructions: 'Short intro paragraph shown below the subtitle, above the buy button.'
           -
             handle: image
             field:
@@ -22,17 +40,28 @@ tabs:
               mode: grid
               max_files: 1
               type: assets
-              display: Image
+              display: 'Hero image'
+              instructions: 'Cover or product photograph shown beside the title.'
           -
             handle: buy_link
             field:
               type: text
-              display: 'Buy Link'
+              display: 'Buy link'
               instructions: |-
-                Add a Shopify cart permalink for this product to send customers straight to checkout. Leave blank to hide the buy button. 
+                Add a Shopify cart permalink for this product to send customers straight to checkout. Leave blank to hide the buy button.
                 [How to create a cart permalink](https://help.shopify.com/en/manual/checkout-settings/cart-permalink#product-page).
               input_type: url
               placeholder: 'https://hiddenitaly.myshopify.com/cart/VARIANT_ID:1'
+              width: 50
+          -
+            handle: buy_label
+            field:
+              type: text
+              localizable: true
+              display: 'Buy button label'
+              default: 'Buy now'
+              instructions: 'Label for the buy CTA. Leave blank to hide the button.'
+              width: 50
           -
             handle: price
             field:
@@ -47,6 +76,66 @@ tabs:
               display: 'Show "From" prefix'
               instructions: 'Prefixes the price with "From " when the product has variants or starting prices.'
               width: 50
+      -
+        display: 'Featured on'
+        instructions: 'Optional logo strip rendered below the product header (e.g. press logos that have featured the product).'
+        fields:
+          -
+            handle: featured_heading
+            field:
+              type: text
+              localizable: true
+              display: Heading
+              default: 'Featured on'
+              instructions: 'Small label above the logo strip.'
+          -
+            handle: featured_logos
+            field:
+              container: assets
+              folder: shop/featured
+              max_files: 8
+              mode: grid
+              type: assets
+              display: Logos
+              instructions: 'Add up to 8 logos. SVG preferred — they''ll be rendered in greyscale at a fixed height so file format and dimensions are forgiving.'
+      -
+        display: 'Page builder'
+        fields:
+          -
+            import: page_builder
+  seo:
+    display: SEO
+    sections:
+      -
+        display: Basic
+        instructions: 'Basic SEO settings.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_basic'
+      -
+        display: Advanced
+        instructions: 'Advanced SEO settings.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_advanced'
+      -
+        display: 'Open Graph'
+        instructions: 'Open Graph meta tags for social sharing.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_open_graph'
+      -
+        display: Sitemap
+        instructions: 'Sitemap configuration.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_sitemap'
+      -
+        display: 'JSON-ld Schema'
+        instructions: 'Custom JSON-ld schema objects.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_jsonld'
   sidebar:
     display: Sidebar
     sections:
@@ -58,6 +147,7 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
+              show_regenerate: true
           -
             handle: type
             field:

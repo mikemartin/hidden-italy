@@ -1,0 +1,28 @@
+title: 'People grid'
+fields:
+  -
+    handle: heading
+    field:
+      type: text
+      localizable: true
+      display: Heading
+      default: 'Our people'
+  -
+    handle: intro
+    field:
+      type: text
+      localizable: true
+      display: Intro
+      instructions: 'Optional supporting line under the heading.'
+  -
+    handle: people
+    field:
+      type: entries
+      localizable: true
+      display: People
+      collections:
+        - people
+      max_items: 24
+      instructions: 'Pick the team members to feature. Lay out as a 4-column grid on desktop.'
+      validate:
+        - required

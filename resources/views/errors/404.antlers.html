@@ -1,13 +1,50 @@
 {{#
     @name Error: 404
-    @desc The 404 error template.
+    @desc Page-not-found screen. Peak's `ErrorPage::handle404AsEntry()`
+          composer hydrates this view with the entry referenced under
+          Globals → Configuration → `error_404_entry`, so its fields
+          (`headline`, `description`, `title`, …) are available as
+          top-level variables. Buttons are hardcoded — "Go back" steps
+          the browser history, "Back to home" returns to `/`.
 #}}
 
 {{# Redirect if current_url is in the Redirects global. #}}
 {{ partial:statamic-peak-seo::errors/redirects }}
 
 <!-- /errors/404.antlers.html -->
-<main class="page-builder" id="content">
-    {{ partial:statamic-peak-seo::errors/entry_content }}
+<main id="content">
+    <div class="bg-card flex flex-col items-center justify-center px-6 py-16 md:px-12 md:py-24 lg:py-32">
+        <div class="flex flex-col items-center text-center gap-6 max-w-xl">
+            <div class="flex shrink-0 items-center justify-center size-20 md:size-24 rounded-full bg-parchment-200 text-accent-2">
+                {{ svg
+                    src="icons/trekking-compass"
+                    attr:class="size-12 md:size-16 fill-current"
+                    attr:aria-hidden="true"
+                    attr:role="img"
+                }}
+            </div>
+
+            {{ partial:typography/h2
+                content="{headline or title}"
+                color="text-foreground"
+                class="!m-0 text-center"
+            }}
+
+            {{ if description }}
+                <p class="text-base lg:text-lg font-normal leading-[1.6] text-text mt-0 mb-0">
+                    {{ description | nl2br }}
+                </p>
+            {{ /if }}
+
+            <div class="mt-4 flex flex-wrap items-center justify-center gap-4 sm:gap-6">
+                <button type="button" onclick="history.back()" class="button button--accent button--large">
+                    <span>Go back</span>
+                </button>
+                <a href="/" class="button button--cream button--large" wire:navigate>
+                    <span>Back to home</span>
+                </a>
+            </div>
+        </div>
+    </div>
 </main>
 <!-- End: /errors/404.antlers.html -->

@@ -110,6 +110,17 @@
         }
     }
 
+    /* Quiet cream pill — pairs with `button--accent` as the secondary CTA on
+       parchment/card surfaces (404, empty states). Dark text on parchment-200
+       fill, deepens to parchment-300 on hover. */
+    .button.button--cream {
+        @apply bg-parchment-200 text-foreground border-0 hover:bg-parchment-300 focus:outline-foreground;
+
+        span {
+            @apply text-foreground;
+        }
+    }
+
     /* Ghost variant — transparent fill with no border. Picks up a subtle
        tint on hover (mirrors Flux's `ghost` variant). Tertiary actions in
        dense menus or alongside outline/solid buttons. Inside a `.dark`

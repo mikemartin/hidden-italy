@@ -1,15 +1,20 @@
 {{#
     @name FAQs
-    @desc Tour-specific questions followed by a set of "common" questions
+    @desc Page-specific questions followed by a set of "common" questions
           drawn from the Questions collection. Side-title layout: section
           heading sits in a left column, questions stack as separate
           accordion cards on the right. Only one card is open at a time;
           the active card raises and the chevron rotates.
+
+          The block reads from `block:questions` (the generic FAQs
+          fieldset) and falls back to `block:tour_questions` for the
+          tour-specific FAQ block defined inline on the tour blueprint.
     @set page.page_builder.faqs
 #}}
 
 <!-- /page_builder/_faqs.antlers.html -->
-{{ if block:tour_questions || block:common_questions }}
+{{ page_questions = block:questions ?? block:tour_questions }}
+{{ if page_questions || block:common_questions }}
     {{ partial:page_builder/block class="py-12 md:py-16 lg:py-24" }}
         <div class="span-content grid grid-cols-1 lg:grid-cols-12 gap-y-10 lg:gap-x-12" x-data="{ open: 0 }">
             <header class="lg:col-span-4">
@@ -19,8 +24,8 @@
             <ul class="lg:col-span-8 flex flex-col gap-3 md:gap-4">
                 {{ counter = 0 }}
 
-                {{ if block:tour_questions }}
-                    {{ block:tour_questions }}
+                {{ if page_questions }}
+                    {{ page_questions }}
                         {{ idx = counter }}
                         <li class="bg-card border border-parchment-200 rounded-lg overflow-hidden transition" :class="open === {{ idx }} ? 'shadow-md' : 'shadow-sm'">
                             <button

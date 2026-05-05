@@ -369,3 +369,14 @@
 .tippy-box[data-theme~='light'] .tippy-arrow {
     color: var(--color-parchment-100);
 }
+
+/* Profile bio flyout — hide Flux's built-in X close button so the custom
+   one in `_profile-card.antlers.html` (mobile-menu styled) is the only
+   close affordance in the corner. The inner control is wrapped in a
+   `<div class="absolute top-0 end-0 mt-4 me-4">` by the Flux modal stub
+   when `closable` is truthy; passing `closable="false"` from Antlers
+   doesn't cast cleanly through the Blade bridge, so the override lives
+   here instead of as a prop. */
+dialog.profile-bio-modal > div.absolute[class*="end-0"] {
+    display: none;
+}
