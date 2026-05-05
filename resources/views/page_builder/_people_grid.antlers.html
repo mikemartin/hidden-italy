@@ -1,0 +1,38 @@
+{{#
+    @name People grid
+    @desc Centred section heading and an optional intro line above a 4-column
+          grid of profile cards. Each card is the shared
+          `components/profile-card` partial — image, name, role and a
+          “Read bio” trigger that opens the existing flux flyout. Picks any
+          number of People entries; the grid wraps cleanly because every
+          card has the same structure.
+    @set page.page_builder.people_grid
+#}}
+
+<!-- /page_builder/_people_grid.antlers.html -->
+{{ if block:people }}
+    {{ partial:page_builder/block class="gap-y-10 md:gap-y-14 py-12 md:py-16 lg:py-20" }}
+        <header class="span-content flex flex-col items-center text-center gap-4 md:gap-6">
+            {{ if block:heading }}
+                {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
+            {{ /if }}
+            {{ if block:intro }}
+                {{ partial:typography/p_large :content="block:intro" color="text-text" class="md:max-w-3xl text-pretty !mb-0" }}
+            {{ /if }}
+        </header>
+
+        {{# Mobile (< md) renders one full-width card per row so the photo
+            can lead the eye without competing for space. md+ steps up to a
+            2-up grid; lg+ to the four-up arrangement from the design. The
+            li stretches to the full grid cell so the card inside fills its
+            track regardless of breakpoint. #}}
+        <ul class="span-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-fluid-grid-gap gap-y-6 md:gap-y-8">
+            {{ block:people }}
+                <li>
+                    {{ partial:components/profile-card }}
+                </li>
+            {{ /block:people }}
+        </ul>
+    {{ /partial:page_builder/block }}
+{{ /if }}
+<!-- End: /page_builder/_people_grid.antlers.html -->

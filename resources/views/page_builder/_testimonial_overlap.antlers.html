@@ -1,0 +1,74 @@
+{{#
+    @name Testimonial — image overlap
+    @desc Founder / director-style pull quote. A wide portrait sits on the
+          left and a parchment card overlaps it on the right, vertically
+          centred, with a stylised gold opening quote mark anchored to the
+          card's top-left edge. Mobile collapses to a stacked layout —
+          image above, card below — so the overlap reads cleanly at every
+          width.
+
+          The section sits on a deep-blue surface so the parchment card
+          reads as a lifted insert. We hard-code `bg-blue-d-300` rather
+          than scoping in `.dark` because that variant flips every
+          semantic token (foreground / text / card) — which would drag
+          the inner card and its body copy into the dark palette too.
+          Skipping `.dark` keeps the card's `bg-card` parchment surface
+          and `text-foreground` body intact while only the surrounding
+          band turns dark.
+    @set page.page_builder.testimonial_overlap
+#}}
+
+<!-- /page_builder/_testimonial_overlap.antlers.html -->
+{{ if block:quote }}
+    {{ partial:page_builder/block class="bg-blue-d-300 py-12 md:py-20 lg:py-24" }}
+        <figure class="span-content relative grid grid-cols-1 lg:grid-cols-12 gap-y-6 items-stretch">
+            {{# Image — fills its column on desktop so the card can overlap
+                its lower / right portion. Both image and blockquote are
+                pinned to row 1 explicitly so CSS Grid can overlap them
+                rather than auto-flowing the image to a second row. #}}
+            {{ if block:image }}
+                <div class="lg:row-start-1 lg:col-start-1 lg:col-span-7 relative rounded-[20px] overflow-hidden bg-parchment-200 ring-1 ring-inset ring-black/5 aspect-[4/3] lg:aspect-auto lg:min-h-[520px]">
+                    {{ picture
+                        :image="block:image"
+                        class="absolute inset-0 w-full h-full object-cover"
+                        cover="true"
+                        sizes="(min-width: 1024px) 60vw, 100vw"
+                        loading="lazy"
+                    }}
+                </div>
+            {{ /if }}
+
+            {{# Quote card — desktop overlaps the right side of the image
+                and centres vertically; mobile stacks below it. The opening
+                quote glyph sits in a gold serif and is hidden from screen
+                readers (the blockquote already conveys the quote semantics). #}}
+            <blockquote
+                class="
+                    relative bg-card border border-parchment-100 shadow-sm rounded-[20px]
+                    p-8 sm:p-10 lg:p-14 flex flex-col gap-6
+                    lg:row-start-1 lg:col-start-6 lg:col-span-7
+                    lg:self-center lg:max-w-[520px] lg:justify-self-end
+                "
+            >
+                <span
+                    class="absolute -top-4 left-8 lg:left-10 font-display font-medium text-[64px] leading-none text-accent-2 select-none pointer-events-none"
+                    aria-hidden="true"
+                >&ldquo;</span>
+
+                <p class="font-display font-medium text-xl md:text-2xl leading-[1.5] text-foreground text-pretty">
+                    {{ block:quote }}
+                </p>
+
+                <figcaption class="flex flex-col">
+                    {{ if block:name }}
+                        <span class="font-sans text-lg md:text-[21px] leading-[1.6] text-foreground">{{ block:name }}</span>
+                    {{ /if }}
+                    {{ if block:role }}
+                        <span class="font-sans text-sm md:text-base leading-[1.5] text-text">{{ block:role }}</span>
+                    {{ /if }}
+                </figcaption>
+            </blockquote>
+        </figure>
+    {{ /partial:page_builder/block }}
+{{ /if }}
+<!-- End: /page_builder/_testimonial_overlap.antlers.html -->
