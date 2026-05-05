@@ -2,11 +2,11 @@
     @name Overlay opacity control (TEMPORARY)
     @desc Floating client-preview widget for tweaking the dark hero-overlay
           opacity. The slider rewrites a `--hero-overlay-opacity` CSS variable
-          on `:root`; the rule below overrides every `bg-black/30` and
-          `bg-black/40` overlay (the uniform wash on the home hero, tour
-          banner, page-builder CTA, layout CTA, and tour-types cards). The
-          chosen value is persisted in `localStorage` so the client can
-          navigate the site without re-setting it.
+          on `:root`; the rule below overrides every `bg-black/40` overlay
+          (the uniform wash on the home hero, tour banner, page-builder CTA,
+          layout CTA, and tour-types cards). The chosen value is persisted in
+          `localStorage` so the client can navigate the site without
+          re-setting it.
 
           The widget can be COLLAPSED to a small pill, but never dismissed —
           the client should always be able to see and adjust the overlay
@@ -23,9 +23,8 @@
 
 {{# Override the uniform dark wash used on every hero-style overlay. The
     `!important` is intentional — it has to win over Tailwind's
-    `bg-black/30` / `bg-black/40` utilities regardless of source order. #}}
+    `bg-black/40` utility regardless of source order. #}}
 <style>
-    .bg-black\/30,
     .bg-black\/40 {
         background-color: rgba(0, 0, 0, var(--hero-overlay-opacity, 0.4)) !important;
     }
