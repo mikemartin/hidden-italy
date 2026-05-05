@@ -1,0 +1,44 @@
+title: FAQs
+fields:
+  -
+    handle: heading
+    field:
+      type: text
+      localizable: true
+      display: Heading
+      default: 'Frequently asked questions'
+  -
+    handle: questions
+    field:
+      type: grid
+      mode: stacked
+      add_row: 'Add question'
+      localizable: true
+      display: Questions
+      instructions: 'Questions specific to this page. Each renders as an accordion item.'
+      fields:
+        -
+          handle: question
+          field:
+            type: text
+            display: Question
+            instructions: 'Write the question as a reader would ask it.'
+        -
+          handle: answer
+          field:
+            buttons:
+              - bold
+              - italic
+              - unorderedlist
+              - anchor
+            type: bard
+            display: Answer
+  -
+    handle: common_questions
+    field:
+      type: entries
+      collections:
+        - questions
+      localizable: true
+      display: 'Common questions'
+      instructions: 'Optional. Pick shared questions from the Questions collection. They''re appended after the page-specific questions.'

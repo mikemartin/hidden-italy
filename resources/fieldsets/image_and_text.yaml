@@ -1,0 +1,48 @@
+title: 'Image and text'
+fields:
+  -
+    handle: heading
+    field:
+      type: text
+      localizable: true
+      display: Heading
+      validate:
+        - required
+  -
+    handle: body
+    field:
+      buttons:
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - anchor
+      type: bard
+      localizable: true
+      display: Body
+      remove_empty_nodes: true
+      smart_typography: true
+      instructions: 'Body copy shown beside the image.'
+  -
+    handle: image
+    field:
+      container: assets
+      max_files: 1
+      type: assets
+      mode: grid
+      localizable: true
+      display: Image
+      validate:
+        - required
+  -
+    handle: image_position
+    field:
+      type: button_group
+      default: left
+      localizable: true
+      display: 'Image position'
+      instructions: 'Which side of the row the image sits on (desktop only — image stacks above the text on mobile).'
+      options:
+        left: Left
+        right: Right
+      width: 50

@@ -1,0 +1,30 @@
+{{#
+    @name Product show
+    @desc Single product entry. The shared product header sits at the top —
+          breadcrumb, title, optional subtitle and lead, hero image, buy
+          CTA and price, plus an optional "Featured on" logo strip — and is
+          followed by the entry's page-builder blocks. The same header runs
+          on every product so the template stays simple; everything below
+          it is editor-controlled.
+
+          The header background and topographic decoration come from this
+          template (mirroring the articles/show treatment), so the product
+          page reads as a parchment surface from header through to the
+          last block before the global CTA banner.
+#}}
+
+<!-- /products/show.antlers.html -->
+<main id="content" class="relative isolate overflow-hidden bg-parchment-100">
+    {{ partial:components/topographic }}
+
+    {{ partial:components/product_header }}
+
+    {{ if page_builder }}
+        <div class="page-builder pb-12 md:pb-16 lg:pb-24">
+            {{ page_builder scope="block" }}
+                {{ partial src="page_builder/{type}" }}
+            {{ /page_builder }}
+        </div>
+    {{ /if }}
+</main>
+<!-- End: /products/show.antlers.html -->
