@@ -55,6 +55,9 @@ return [
     |
     */
 
-    'hot_reload_contents' => true,
+    // Hot reload morphs the iframe DOM in place, which clobbers Livewire's
+    // wire:id/wire:snapshot state and breaks the tour filter components.
+    // Full iframe reload keeps Livewire usable inside Live Preview.
+    'hot_reload_contents' => false,
 
 ];
