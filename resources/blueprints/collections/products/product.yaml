@@ -23,7 +23,7 @@ tabs:
               type: text
               localizable: true
               display: Subtitle
-              instructions: 'Optional descriptive line shown beneath the title (e.g. the book''s extended title).'
+              instructions: "Optional descriptive line shown beneath the title (e.g. the book's extended title)."
           -
             handle: lead
             field:
@@ -52,7 +52,6 @@ tabs:
                 [How to create a cart permalink](https://help.shopify.com/en/manual/checkout-settings/cart-permalink#product-page).
               input_type: url
               placeholder: 'https://hiddenitaly.myshopify.com/cart/VARIANT_ID:1'
-              width: 50
           -
             handle: buy_label
             field:
@@ -75,7 +74,6 @@ tabs:
               type: toggle
               display: 'Show "From" prefix'
               instructions: 'Prefixes the price with "From " when the product has variants or starting prices.'
-              width: 50
       -
         display: 'Featured on'
         instructions: 'Optional logo strip rendered below the product header (e.g. press logos that have featured the product).'
@@ -97,7 +95,7 @@ tabs:
               mode: grid
               type: assets
               display: Logos
-              instructions: 'Add up to 8 logos. SVG preferred — they''ll be rendered in greyscale at a fixed height so file format and dimensions are forgiving.'
+              instructions: "Add up to 8 logos. SVG preferred — they'll be rendered in greyscale at a fixed height so file format and dimensions are forgiving."
       -
         display: 'Page builder'
         fields:
