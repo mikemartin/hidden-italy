@@ -12,7 +12,7 @@ price: '$10 AUD'
 show_from: true
 featured_heading: 'Featured on'
 updated_by: 1
-updated_at: 1777980768
+updated_at: 1777980846
 page_builder:
   -
     id: 1LdcYtZnlky9RkjXJpgWM
@@ -25,7 +25,7 @@ page_builder:
             type: text
             text: "In October 1943, four Australian soldiers left Biella in the foothills of the Alps in northern Turin, fleeing Italy's Nazi–Fascist regime. They spoke no Italian, and they had scant clothing and no food.  With the help of local partisans, who offered support at great risk to themselves and their families, the soldiers crossed into neutral Switzerland eight days later. They were four of more than 500 Anzac POWs who followed the sentieri della libertá - the trails to freedom."
     image: tours/italian-alps-trails-to-freedom/dscf1836.jpg
-    image_position: right
+    image_position: left
     type: image_and_text
     enabled: true
   -
@@ -44,7 +44,7 @@ page_builder:
             type: text
             text: 'This is a fascinating story that brings to life the extraordinary, largely unknown history of this ardurous route to freedom'
     image: tours/italian-alps-trails-to-freedom/94.jpg
-    image_position: left
+    image_position: right
     type: image_and_text
     enabled: true
   -
@@ -58,7 +58,7 @@ page_builder:
             type: text
             text: "Simon Tancred is the director and founder of Hidden Italy, which has been organising guided and self-guided hiking tours in Italy since 1993.  During this time, Simon estimates he has walked over 15,000 kilometres up and down Italy and has worn out seven pairs of hiking boots.  He speaks fluent Italian, and has lived and worked in both Milan (for five years) and Florence (for two years), where he wasemployed by Monash University.\L\LSimon now lives with his family in Surry Hills and spends half the year in Italy. His travel writing has been published in numerous Australian newspapers and travel magazines, including The Age, The Sydney Morning Herald, The Financial Review and Weekend Australian."
     image: people/434666225_440666958320787_3022049181184737557_n.jpg
-    image_position: right
+    image_position: left
     type: image_and_text
     enabled: true
   -
