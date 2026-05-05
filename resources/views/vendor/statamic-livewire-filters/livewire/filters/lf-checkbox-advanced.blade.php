@@ -72,10 +72,10 @@
         >
             <span class="w-full text-lf leading-6 text-start overflow-hidden text-ellipsis whitespace-nowrap" x-text="setLabelText()"></span>
             <div class="flex gap-x-2 items-center">
-                <svg x-cloak x-on:click.stop="selectedOptions = []; resetSearch();" x-show="selectedOptions.length > 0" xmlns="http://www.w3.org/2000/svg" fill="none" class="size-5 cursor-pointer" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-label="{{ __('statamic-livewire-filters::ui.clear') }}">
+                <svg x-cloak x-on:click.stop="selectedOptions = []; resetSearch();" x-show="selectedOptions.length > 0" xmlns="http://www.w3.org/2000/svg" fill="none" class="size-5 cursor-pointer text-muted hover:text-text motion-safe:transition-colors" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-label="{{ __('statamic-livewire-filters::ui.clear') }}">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
                 </svg>                
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5" x-bind:class="isOpen || openedWithKeyboard ? 'rotate-180' : ''"> 
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 text-gold motion-safe:transition-transform" x-bind:class="isOpen || openedWithKeyboard ? 'rotate-180' : ''">
                     <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/>
                 </svg>
             </div>

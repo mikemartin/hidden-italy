@@ -344,9 +344,14 @@
    header` selector was leaking those styles onto every nested `<header>` on
    transparent-header pages (e.g. the experience section's own title). */
 
-/* Tippy.js — override the default theme so every tooltip on the site picks
-   up our dark surface tokens. Switch to a `data-theme` variant if a second
-   look is ever needed. */
+/* Tippy.js — two themes that mirror the surface they're shown against:
+
+   Default (no `data-theme`): dark surface + light text. Use on light page
+   surfaces (parchment, cards) for maximum contrast.
+
+   `light`: parchment surface + foreground text. Use on dark page surfaces
+   (`.dark` sections, deep-blue panels) so the tooltip pops against the
+   surrounding chrome. */
 .tippy-box {
     background-color: var(--color-blue-d-200);
     color: var(--color-parchment-100);
@@ -354,6 +359,15 @@
 
 .tippy-arrow {
     color: var(--color-blue-d-200);
+}
+
+.tippy-box[data-theme~='light'] {
+    background-color: var(--color-parchment-100);
+    color: var(--color-foreground);
+}
+
+.tippy-box[data-theme~='light'] .tippy-arrow {
+    color: var(--color-parchment-100);
 }
 
 /* Profile bio flyout — hide Flux's built-in X close button so the custom

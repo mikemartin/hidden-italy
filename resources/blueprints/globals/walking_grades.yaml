@@ -3,6 +3,16 @@ tabs:
     display: Main
     sections:
       -
+        display: Overview
+        instructions: 'Short tagline shown alongside the walking grades filter and any place we summarise the grade scale.'
+        fields:
+          -
+            handle: overview
+            field:
+              type: text
+              localizable: true
+              display: Overview
+      -
         display: 'Grade 1'
         fields:
           -

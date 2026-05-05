@@ -2,8 +2,8 @@
 
 namespace App\Livewire;
 
-use Reach\StatamicLivewireFilters\Http\Livewire\LfCheckboxFilter;
 use Livewire\Attributes\Computed;
+use Reach\StatamicLivewireFilters\Http\Livewire\LfCheckboxFilter;
 
 class SeasonsCheckboxFilter extends LfCheckboxFilter
 {

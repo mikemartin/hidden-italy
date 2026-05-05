@@ -110,6 +110,8 @@ return [
     'grade' => 'Grade',
     'elevation' => 'Elevation',
     'distance' => 'Distance',
+    'filters' => 'Filters',
+    'clear_filters' => 'Clear filters',
     'guests' => 'guests',
     'whats_included' => "What's included",
     'share' => 'Share',
