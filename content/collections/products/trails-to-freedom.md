@@ -12,7 +12,7 @@ price: '$10 AUD'
 show_from: true
 featured_heading: 'Featured on'
 updated_by: 1
-updated_at: 1777980126
+updated_at: 1777980768
 page_builder:
   -
     id: 1LdcYtZnlky9RkjXJpgWM
@@ -30,7 +30,7 @@ page_builder:
     enabled: true
   -
     id: WrX_BUlXRxzpd0qzz0Oc8
-    heading: 'Genisis of the story'
+    heading: 'Genesis of the story'
     body:
       -
         type: paragraph
