@@ -74,7 +74,8 @@
         <figure class="m-0 md:order-2">
             {{ if image }}
                 {{ picture
-                    :image="image.0"
+                    :image="image"
+                    aspect_ratio="4/5"
                     class="w-full h-auto rounded-2xl aspect-[4/5] object-cover bg-parchment-200"
                     cover="true"
                     sizes="(min-width: 1280px) 580px, (min-width: 768px) 50vw, 100vw"

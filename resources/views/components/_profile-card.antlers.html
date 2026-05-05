@@ -31,9 +31,10 @@
 
     {{ if image }}
         <div class="relative p-1">
-            <div class="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-parchment-200">
+            <div class="relative w-full aspect-square rounded-lg overflow-hidden bg-parchment-200">
                 {{ picture
                     :image="image"
+                    aspect_ratio="1/1"
                     class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                     cover="true"
                     sizes="(min-width: 768px) 400px, 100vw"
@@ -91,6 +92,7 @@
                     <div class="relative w-full aspect-[16/9] rounded-lg overflow-hidden bg-parchment-200">
                         {{ picture
                             :image="image"
+                            aspect_ratio="16/9"
                             class="absolute inset-0 w-full h-full object-cover"
                             cover="true"
                             sizes="(min-width: 768px) 34rem, 100vw"

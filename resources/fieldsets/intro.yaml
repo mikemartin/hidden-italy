@@ -30,6 +30,18 @@ fields:
       remove_empty_nodes: true
       smart_typography: true
   -
+    handle: columns
+    field:
+      type: button_group
+      localizable: true
+      display: Columns
+      instructions: 'Number of benefit columns on desktop.'
+      default: '3'
+      options:
+        '3': '3 columns'
+        '4': '4 columns'
+      width: 50
+  -
     handle: benefits
     field:
       type: entries
@@ -37,8 +49,8 @@ fields:
       display: Benefits
       collections:
         - benefits
-      max_items: 6
-      instructions: 'Pick benefits from the Benefits collection. Three is the intended count.'
+      max_items: 8
+      instructions: 'Pick benefits from the Benefits collection. Use a multiple of the column count (3 or 4) for a clean grid.'
       validate:
         - required
   -

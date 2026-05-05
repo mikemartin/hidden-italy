@@ -380,3 +380,10 @@
 dialog.profile-bio-modal > div.absolute[class*="end-0"] {
     display: none;
 }
+
+/* Modal/flyout backdrop — Flux ships rgba(0,0,0,0.10) which reads almost
+   transparent over the parchment background. Bump it globally so dialogs
+   sit clearly forward of the page. */
+[data-flux-modal] > dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.4);
+}

@@ -3,9 +3,11 @@
     @desc The user's wishlist of saved tours. Two states:
 
           - Populated → mirrors the tour-listing layout: parchment surface
-            with the topographic decoration anchored top-corners, a page
-            header (back link, h1, guest-account prompt), then the same
-            tour-card grid the /tours page uses.
+            with the topographic decoration anchored top-corners, a header
+            section sized to match /tours (h1 + optional guest-account
+            prompt), then the shared tour-card grid. No breadcrumb pill —
+            /wishlist is a top-level page with no parent, so there's
+            nothing meaningful to render.
           - Empty → centred 404-style card directing the visitor to
             `/tours`.
 
@@ -21,15 +23,11 @@
     <main id="content" class="relative isolate overflow-hidden bg-parchment-100">
         {{ partial:components/topographic }}
 
-        {{# Page header — same shape as components/_page_header but with
-            the original wishlist content (back link instead of a
-            breadcrumb, plus the guest-account prompt). #}}
+        {{# Page header — same fluid-grid + h1 type as /tours, minus the
+            breadcrumb pill (no parent page). Guest-account prompt sits
+            below the h1. #}}
         <section class="fluid-grid py-12 md:py-16">
             <div class="span-content flex flex-col items-start gap-4">
-                <a href="/" wire:navigate class="inline-flex items-center text-sm font-medium text-foreground/70 hover:text-primary">
-                    <x-lucide-arrow-left class="w-4 h-4 stroke-[1.5] mr-1" />
-                    Back
-                </a>
                 <h1 class="font-display font-semibold text-foreground text-3xl md:text-[40px] leading-[1.25] tracking-[-0.01em]">
                     Wishlist
                 </h1>

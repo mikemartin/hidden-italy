@@ -1,8 +1,10 @@
 {{#
     @name Intro with benefits
-    @desc Centred heading + bard intro on a parchment surface, three Benefit
-          entries shown as round icon tiles, and an optional outline-gold CTA
-          tuned for the light background.
+    @desc Centred heading + bard intro on a parchment surface, a row of
+          Benefit entries shown as round icon tiles, and an optional
+          outline-gold CTA tuned for the light background. The benefit
+          grid switches between 3 and 4 desktop columns based on the
+          block's `columns` field.
     @set page.page_builder.intro
 #}}
 
@@ -21,7 +23,7 @@
     </header>
 
     {{ if block:benefits }}
-        <ul class="span-content flex flex-col md:grid md:grid-cols-3 gap-10 md:gap-9">
+        <ul class="span-content flex flex-col gap-10 md:gap-9 {{ if block:columns == '4' }}md:grid md:grid-cols-2 lg:grid-cols-4{{ else }}md:grid md:grid-cols-3{{ /if }}">
             {{ block:benefits }}
                 <li class="flex flex-col items-center text-center gap-4 md:gap-6">
                     {{ icon }}

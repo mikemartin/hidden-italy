@@ -12,7 +12,7 @@ page_builder:
     enabled: true
     heading: 'It started with a walk'
     image_position: right
-    image: tours/tuscany-tuscany-2-chianti-florence-to-siena/rich-martello-yqcvybdd4y-unsplash.jpg
+    image: tours/tuscany-tuscany-2-chianti-florence-to-siena/rich-martello-yqcvybdd4y-unsplash-1774331143.jpg
     body:
       -
         type: paragraph
@@ -59,28 +59,28 @@ page_builder:
         enabled: true
         value: '30+'
         label: 'Years walking Italy'
-        icon: dates.svg
+        icon: dates
       -
         id: stat_tours
         type: stat
         enabled: true
         value: '32'
         label: 'Walking tours'
-        icon: route.svg
+        icon: route
       -
         id: stat_guests
         type: stat
         enabled: true
         value: '10K+'
         label: 'Travellers guided'
-        icon: backpack.svg
+        icon: backpack
       -
         id: stat_km
         type: stat
         enabled: true
         value: '500K+'
         label: 'km walked together'
-        icon: footsteps.svg
+        icon: walking
   -
     id: about_founder_quote
     type: testimonial_overlap
@@ -94,6 +94,7 @@ page_builder:
     type: intro
     enabled: true
     heading: 'Why tour with us?'
+    columns: '4'
     intro:
       -
         type: paragraph

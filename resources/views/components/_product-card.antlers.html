@@ -5,21 +5,17 @@
           mirrors the article and tour cards: parchment shell, optional
           inset 4:3 image, type chip, title, and price (with optional
           "From" prefix when `show_from` is on). Whole card is a
-          stretched link to the external `buy_link`.
+          stretched link to the entry's detail page.
 #}}
 
 <!-- /components/_product-card.antlers.html -->
 <article class="group relative isolate h-full flex flex-col bg-card border border-parchment-200 rounded-xl shadow-sm overflow-hidden">
-    {{ if buy_link }}
-        <a
-            href="{{ buy_link }}"
-            target="_blank"
-            rel="noopener"
-            class="absolute inset-0 z-10 rounded-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-        >
-            <span class="sr-only">Buy {{ title }}</span>
-        </a>
-    {{ /if }}
+    <a
+        href="{{ url }}"
+        class="absolute inset-0 z-10 rounded-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+    >
+        <span class="sr-only">{{ title }}</span>
+    </a>
 
     {{ if image }}
         <div class="relative p-1">
