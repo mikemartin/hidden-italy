@@ -12,5 +12,10 @@ price: '$10 AUD'
 show_from: true
 featured_heading: 'Featured on'
 updated_by: 1
-updated_at: 1777876539
+updated_at: 1777979435
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---
