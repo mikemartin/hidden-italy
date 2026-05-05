@@ -3,22 +3,59 @@
     @desc Tours grid for /tours, rendered by reach/statamic-livewire-filters.
           Each entry uses the shared `components/tour-card` partial so the
           /tours grid and the homepage featured-tours carousel stay visually
-          consistent.
+          consistent. When the active filters return zero entries the grid
+          is replaced by an inline empty state — "Reset filters" calls the
+          LivewireCollection's `clearAll` method, which fires
+          `clear-all-filters` to every filter component on the page.
 #}}
 
 <div class="@container">
-    <div
-        class="grid grid-cols-1 @2xl:grid-cols-2 @5xl:grid-cols-3 gap-x-9 gap-y-14 transition-opacity duration-700"
-        wire:loading.class="opacity-40"
-    >
-        {{ entries }}
-            <div wire:key="{{ id }}" class="h-full">
-                {{ partial:components/tour-card }}
-            </div>
-        {{ /entries }}
-    </div>
+    {{ if entries }}
+        <div
+            class="grid grid-cols-1 @2xl:grid-cols-2 @5xl:grid-cols-3 gap-x-9 gap-y-14 transition-opacity duration-700"
+            wire:loading.class="opacity-40"
+        >
+            {{ entries }}
+                <div wire:key="{{ id }}" class="h-full">
+                    {{ partial:components/tour-card }}
+                </div>
+            {{ /entries }}
+        </div>
 
-    <div class="mt-12 flex justify-center">
-        {{ links }}
-    </div>
+        <div class="mt-12 flex justify-center">
+            {{ links }}
+        </div>
+    {{ else }}
+        <div class="bg-card flex flex-col items-center justify-center px-6 py-16 md:px-12 md:py-24 rounded-lg">
+            <div class="flex flex-col items-center text-center gap-6 max-w-xl">
+                <div class="flex shrink-0 items-center justify-center size-20 md:size-24 rounded-full bg-parchment-200 text-accent-2">
+                    {{ svg
+                        src="icons/trekking-compass"
+                        attr:class="size-12 md:size-16 fill-current"
+                        attr:aria-hidden="true"
+                        attr:role="img"
+                    }}
+                </div>
+
+                {{ partial:typography/h2
+                    content="No tours match those filters"
+                    color="text-foreground"
+                    class="!m-0 text-center"
+                }}
+
+                <p class="text-base lg:text-lg font-normal leading-[1.6] text-text mt-0 mb-0">
+                    Try loosening your selection — clear a filter or two and your matching tours will reappear.
+                </p>
+
+                <div class="mt-4 flex flex-wrap items-center justify-center gap-4 sm:gap-6">
+                    <button type="button" wire:click="clearAll" class="button button--accent button--large">
+                        <span>Reset filters</span>
+                    </button>
+                    <a href="/tours" class="button button--cream button--large" wire:navigate>
+                        <span>View all tours</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    {{ /if }}
 </div>
