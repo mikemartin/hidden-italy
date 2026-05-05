@@ -45,6 +45,19 @@
         }
     }
 
+    /* Small variant — drops the label to 14px and the optional icon to
+       match. Use when the inline button sits in dense UI alongside body
+       copy in the 13–15px range (e.g. filter card meta row). */
+    .button-inline.button-inline--small {
+        span {
+            @apply text-sm;
+        }
+
+        svg {
+            @apply size-3.5;
+        }
+    }
+
     /* Gold underline variant — pairs with `.button-inline` for callouts
        on parchment surfaces (e.g. profile cards). Default decoration
        flips to gold; hover darkens it to the foreground colour. */

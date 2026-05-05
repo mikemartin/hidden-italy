@@ -14,7 +14,7 @@ return [
     'enable_term_routes' => false,
 
     // The addon will calculate the number of entries for each filter value (can be slow for a large number of entries)
-    'enable_filter_values_count' => true,
+    'enable_filter_values_count' => false,
 
     // Enable custom query string
     'custom_query_string' => false,
