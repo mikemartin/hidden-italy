@@ -38,7 +38,7 @@
                 {{ partial:typography/h1 :content="title" class="!mb-0" }}
 
                 {{ if subtitle }}
-                    {{ partial:typography/h3 small="true" :content="subtitle" color="text-text" class="!mb-0 font-display font-semibold" }}
+                    {{ partial:typography/h3 :content="subtitle" color="text-foreground" class="!mb-0 font-display font-semibold" }}
                 {{ /if }}
             </div>
 
@@ -53,7 +53,7 @@
                             href="{{ buy_link }}"
                             target="_blank"
                             rel="noopener"
-                            class="button button--accent"
+                            class="button button--large button--accent"
                         >
                             <span>{{ buy_label }}</span>
                         </a>
@@ -72,26 +72,21 @@
         </div>
 
         <figure class="m-0 md:order-2">
-            {{ if image }}
-                {{ picture
-                    :image="image"
-                    aspect_ratio="4/5"
-                    class="w-full h-auto rounded-2xl aspect-[4/5] object-cover bg-parchment-200"
-                    cover="true"
-                    sizes="(min-width: 1280px) 580px, (min-width: 768px) 50vw, 100vw"
-                    loading="eager"
-                }}
-            {{ else }}
-                <div class="w-full aspect-[4/5] rounded-2xl bg-parchment-200" aria-hidden="true"></div>
-            {{ /if }}
+            {{ picture
+                :image="image"
+                aspect_ratio="4/3"
+                class="w-full h-auto rounded-2xl aspect-[4/3] object-cover bg-parchment-200"
+                cover="true"
+                sizes="(min-width: 1280px) 580px, (min-width: 768px) 50vw, 100vw"
+                loading="eager"
+            }}
         </figure>
     </div>
 
     {{ if featured_logos }}
-        <div class="span-content flex flex-col items-center gap-6 md:gap-8 pt-6 md:pt-10 border-t border-parchment-200">
-            {{ partial:typography/label
+        <div class="span-content flex flex-col items-center gap-6 md:gap-8 pt-6 md:pt-10 border-t border-parchment-300">
+            {{ partial:typography/h5
                 :content="featured_heading or 'Featured on'"
-                small="true"
                 color="text-muted"
                 class="uppercase tracking-[0.12em]"
             }}

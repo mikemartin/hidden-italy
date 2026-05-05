@@ -75,4 +75,9 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+featured_logos:
+  - logos/abc.svg
+  - logos/theaustralian.svg
+  - logos/herald.svg
+  - logos/2gb.svg
 ---

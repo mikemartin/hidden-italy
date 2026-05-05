@@ -18,3 +18,5 @@ fields:
       instructions: 'Pick testimonials from the Testimonials collection. Three is the intended count for the homepage grid.'
       validate:
         - required
+      collections:
+        - testimonials

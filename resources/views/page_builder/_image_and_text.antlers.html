@@ -8,7 +8,7 @@
 #}}
 
 <!-- /page_builder/_image_and_text.antlers.html -->
-{{ partial:page_builder/block class="py-12 md:py-16 lg:py-24" }}
+{{ partial:page_builder/block }}
     <div
         class="
             span-content grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center
@@ -20,7 +20,7 @@
         <figure class="m-0">
             {{ if block:image }}
                 {{ picture
-                    :image="block:image.0"
+                    :image="block:image"
                     class="w-full h-auto rounded-2xl aspect-[4/3] object-cover bg-parchment-200"
                     cover="true"
                     sizes="(min-width: 768px) 50vw, 100vw"
