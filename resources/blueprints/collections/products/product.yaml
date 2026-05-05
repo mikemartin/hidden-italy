@@ -32,17 +32,6 @@ tabs:
               display: Lead
               instructions: 'Short intro paragraph shown below the subtitle, above the buy button.'
           -
-            handle: image
-            field:
-              container: assets
-              folder: shop
-              restrict: true
-              mode: grid
-              max_files: 1
-              type: assets
-              display: 'Hero image'
-              instructions: 'Cover or product photograph shown beside the title.'
-          -
             handle: buy_link
             field:
               type: text
@@ -156,3 +145,14 @@ tabs:
                 gift_card: 'Gift Card'
               default: book
               instructions: 'Shown as the chip at the top of the product card.'
+          -
+            handle: image
+            field:
+              container: assets
+              folder: shop
+              restrict: true
+              mode: grid
+              max_files: 1
+              type: assets
+              display: 'Hero image'
+              instructions: 'Cover or product photograph shown beside the title.'
