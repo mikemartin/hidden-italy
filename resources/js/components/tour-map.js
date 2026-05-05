@@ -100,6 +100,11 @@ export default function tourMap() {
                 zoom: 7,
                 attributionControl: { compact: true },
                 interactive: true,
+                // Page scroll passes through unless the user holds Ctrl/Cmd,
+                // and touch pan requires two fingers — stops the map from
+                // hijacking vertical scroll on long tour pages. MapLibre
+                // renders its own hint overlay on accidental gestures.
+                cooperativeGestures: true,
             });
 
             // Basic zoom in / zoom out buttons (top-right). Compass dropped —

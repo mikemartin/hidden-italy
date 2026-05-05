@@ -194,6 +194,14 @@
     margin-top: -0.75rem;
 }
 
+/* Bleed a fluid-grid child from the content column's left edge out to the
+   right viewport edge. Combined with Splide's `padding.right`, the carousel
+   track extends past the page padding so the next card peeks off-screen —
+   a stronger "more to scroll to" affordance than a fully contained track. */
+.splide-bleed-right {
+    grid-column: content-start / full-end;
+}
+
 /* Testimonials Splide carousel — small vertical padding so the cards' subtle
    shadow isn't clipped while the carousel is active below the `md` breakpoint. */
 .testimonials-splide .splide__track {

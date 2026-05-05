@@ -25,12 +25,13 @@
                     perPage: 3,
                     perMove: 1,
                     gap: '2.25rem',
+                    padding: { right: '6rem' },
                     pagination: false,
                     arrows: false,
                     drag: 'free',
                     snap: true,
                     breakpoints: {
-                        768: { perPage: 1, gap: '1.5rem' },
+                        768: { perPage: 1, gap: '1.5rem', padding: { right: '4rem' } },
                     },
                 });
                 this.splide.on('mounted move scrolled', () => {
@@ -84,7 +85,7 @@
             </div>
         </header>
 
-        <div class="span-content relative">
+        <div class="splide-bleed-right">
             <section x-ref="splide" class="splide articles-splide" aria-label="Travel tips">
                 <div class="splide__track">
                     <ul class="splide__list">
@@ -96,24 +97,26 @@
                     </ul>
                 </div>
             </section>
-
-            {{# Carousel progress bar — shown whenever there's more than one slide. #}}
-            {{ if block:articles | count > 1 }}
-                <div
-                    class="mt-6 h-1 w-full bg-parchment-200 rounded-full overflow-hidden"
-                    role="progressbar"
-                    aria-label="Carousel progress"
-                    :aria-valuenow="Math.round(progress)"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                >
-                    <div
-                        class="h-full bg-gold transition-[width] duration-400 ease-out"
-                        :style="`width: ${progress}%`"
-                    ></div>
-                </div>
-            {{ /if }}
         </div>
+
+        {{# Carousel progress bar — shown whenever there's more than one slide.
+            Negative top margin pulls it close to the bleeding splide above
+            without shrinking the section's heading→splide row gap. #}}
+        {{ if block:articles | count > 1 }}
+            <div
+                class="span-content -mt-2 md:-mt-6 h-1 w-full bg-parchment-300 rounded-full overflow-hidden"
+                role="progressbar"
+                aria-label="Carousel progress"
+                :aria-valuenow="Math.round(progress)"
+                aria-valuemin="0"
+                aria-valuemax="100"
+            >
+                <div
+                    class="h-full bg-gold transition-[width] duration-400 ease-out"
+                    :style="`width: ${progress}%`"
+                ></div>
+            </div>
+        {{ /if }}
     </section>
 {{ /if }}
 <!-- End: /page_builder/_travel_tips.antlers.html -->

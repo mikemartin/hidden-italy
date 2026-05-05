@@ -27,7 +27,7 @@
         of the tab list, no manual id strings — every tab button and panel
         builds its own id from its position. #}}
     <section
-        class="dark relative isolate overflow-hidden bg-background"
+        class="dark relative isolate overflow-hidden bg-background stack-space-collapse"
         x-data="{
             selectedId: null,
             init() { this.$nextTick(() => this.select(this.$id('tab', 1))); },
