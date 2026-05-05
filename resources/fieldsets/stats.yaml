@@ -55,5 +55,6 @@ fields:
                   field:
                     type: icon
                     display: Icon
+                    set: lucide
                     validate:
                       - required

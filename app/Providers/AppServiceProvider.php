@@ -43,7 +43,7 @@ class AppServiceProvider extends ServiceProvider
         ErrorPage::handle404AsEntry();
 
         Icon::register('wencory', base_path('public/icons'));
-        Icon::register('lucide', resource_path('svg/lucide'));
+        Icon::register('lucide', base_path('resources/svg/lucide'));
 
         Livewire::forceAssetInjection();
 
