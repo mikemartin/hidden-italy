@@ -1,0 +1,124 @@
+{{#
+    @name Overlay opacity control (TEMPORARY)
+    @desc Floating client-preview widget for tweaking the dark hero-overlay
+          opacity. The slider rewrites a `--hero-overlay-opacity` CSS variable
+          on `:root`; the rule below overrides every `bg-black/40` overlay
+          (the uniform wash on the home hero, tour banner, page-builder CTA,
+          layout CTA, and tour-types cards). The chosen value is persisted in
+          `localStorage` so the client can navigate the site without
+          re-setting it.
+
+          The widget can be COLLAPSED to a small pill, but never dismissed —
+          the client should always be able to see and adjust the overlay
+          while reviewing the site.
+
+          DISPOSABLE: this entire feature lives in this single file plus one
+          `{{ partial:layout/overlay_control }}` line in `layout.antlers.html`.
+          When the client picks a value, hard-code it back into `bg-black/<n>`
+          on the hero templates, then delete this partial and the include
+          line. No other edits required.
+#}}
+
+<!-- /layout/_overlay_control.antlers.html (TEMPORARY — see header) -->
+
+{{# Override the uniform dark wash used on every hero-style overlay. The
+    `!important` is intentional — it has to win over Tailwind's
+    `bg-black/40` utility regardless of source order. #}}
+<style>
+    .bg-black\/40 {
+        background-color: rgba(0, 0, 0, var(--hero-overlay-opacity, 0.4)) !important;
+    }
+</style>
+
+<div
+    x-data="heroOverlayControl()"
+    x-cloak
+    class="fixed z-50 bottom-4 right-4 left-4 sm:left-auto sm:bottom-6 sm:right-6 sm:max-w-xs print:hidden"
+    aria-label="Hero overlay opacity control"
+>
+    {{# Collapsed pill — single tap to expand. Always visible (no dismiss). #}}
+    <button
+        type="button"
+        x-show="!open"
+        @click="open = true"
+        class="ml-auto flex items-center gap-2 rounded-full bg-neutral-900/85 text-white px-4 py-2.5 text-sm font-medium shadow-lg backdrop-blur hover:bg-neutral-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+    >
+        <svg viewBox="0 0 24 24" class="size-4" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="9"></circle>
+            <path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"></path>
+        </svg>
+        <span>Overlay <span x-text="percent + '%'"></span></span>
+    </button>
+
+    {{# Expanded panel — slider + reset. No dismiss button. #}}
+    <div
+        x-show="open"
+        class="rounded-2xl bg-neutral-900/90 text-white p-4 shadow-2xl backdrop-blur"
+    >
+        <div class="flex items-center justify-between gap-3 mb-3">
+            <p class="font-mono text-xs uppercase tracking-[0.08em] text-white/70">Hero overlay</p>
+            <button
+                type="button"
+                @click="open = false"
+                class="size-8 -mr-1 -mt-1 flex items-center justify-center rounded-full text-white/70 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                aria-label="Collapse overlay control"
+            >
+                <svg viewBox="0 0 24 24" class="size-4" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M6 9l6 6 6-6"></path>
+                </svg>
+            </button>
+        </div>
+
+        <div class="flex items-center gap-3">
+            <input
+                type="range"
+                min="0"
+                max="100"
+                step="1"
+                x-model.number="percent"
+                @input="apply()"
+                class="flex-1 h-6 accent-gold cursor-pointer"
+                aria-label="Overlay opacity percentage"
+            >
+            <span class="font-mono text-sm tabular-nums w-10 text-right" x-text="percent + '%'"></span>
+        </div>
+
+        <div class="mt-3 flex justify-end">
+            <button
+                type="button"
+                @click="reset()"
+                class="font-mono text-xs uppercase tracking-[0.08em] text-white/70 hover:text-white underline-offset-4 hover:underline"
+            >Reset to 40%</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    (function () {
+        const STORAGE_VALUE = 'hero-overlay-opacity';
+        const DEFAULT_PERCENT = 40;
+
+        // Apply any saved opacity ASAP so the override is in place before
+        // the heroes paint.
+        const saved = parseInt(localStorage.getItem(STORAGE_VALUE), 10);
+        if (!Number.isNaN(saved)) {
+            document.documentElement.style.setProperty('--hero-overlay-opacity', (saved / 100).toFixed(2));
+        }
+
+        window.heroOverlayControl = function () {
+            return {
+                open: false,
+                percent: Number.isNaN(saved) ? DEFAULT_PERCENT : saved,
+                apply() {
+                    document.documentElement.style.setProperty('--hero-overlay-opacity', (this.percent / 100).toFixed(2));
+                    localStorage.setItem(STORAGE_VALUE, String(this.percent));
+                },
+                reset() {
+                    this.percent = DEFAULT_PERCENT;
+                    this.apply();
+                },
+            };
+        };
+    })();
+</script>
+<!-- End: /layout/_overlay_control.antlers.html -->
