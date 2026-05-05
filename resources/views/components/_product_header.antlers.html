@@ -1,0 +1,113 @@
+{{#
+    @name Product header
+    @desc Shared header used on every product page. Two-column layout —
+          breadcrumb pill, title, optional subtitle and lead, buy CTA + price
+          on the left; hero image on the right. An optional "Featured on"
+          logo strip can be rendered below the columns.
+
+          Designed to live directly under the global header at the top of
+          the product show template — not a page-builder block, since the
+          spec is "the header is the same for all products".
+    @param featured_heading  Label for the logo strip. Defaults to "Featured on".
+#}}
+
+<!-- /components/_product_header.antlers.html -->
+<section class="fluid-grid pt-12 md:pt-16 pb-10 md:pb-14 gap-y-12">
+    <div class="span-content grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 lg:gap-16 items-center">
+        <div class="flex flex-col items-start gap-6">
+            <nav aria-label="Breadcrumb">
+                <ol class="bg-parchment-200 flex items-center gap-1 h-8 px-4 py-2 rounded-full">
+                    {{ nav:breadcrumbs include_home="false" }}
+                        {{ unless first }}
+                            <li class="flex items-center" aria-hidden="true">
+                                <x-lucide-chevron-right class="size-[18px] text-terracotta" stroke-width="1.5" />
+                            </li>
+                        {{ /unless }}
+                        <li>
+                            {{ if is_current }}
+                                <span class="font-sans font-medium text-sm leading-[1.6] text-terracotta" aria-current="page">{{ title }}</span>
+                            {{ else }}
+                                <a href="{{ url }}" class="font-sans font-medium text-sm leading-[1.6] text-terracotta hover:underline">{{ title }}</a>
+                            {{ /if }}
+                        </li>
+                    {{ /nav:breadcrumbs }}
+                </ol>
+            </nav>
+
+            <div class="flex flex-col gap-3 md:gap-4">
+                {{ partial:typography/h1 :content="title" class="!mb-0" }}
+
+                {{ if subtitle }}
+                    {{ partial:typography/h3 small="true" :content="subtitle" color="text-text" class="!mb-0 font-display font-semibold" }}
+                {{ /if }}
+            </div>
+
+            {{ if lead }}
+                {{ partial:typography/p_large :content="lead" color="text-text" class="!mb-0 max-w-prose" }}
+            {{ /if }}
+
+            {{ if buy_link && buy_label || price }}
+                <div class="flex items-center gap-6 mt-2">
+                    {{ if buy_link && buy_label }}
+                        <a
+                            href="{{ buy_link }}"
+                            target="_blank"
+                            rel="noopener"
+                            class="button button--accent"
+                        >
+                            <span>{{ buy_label }}</span>
+                        </a>
+                    {{ /if }}
+
+                    {{ if price }}
+                        <div class="flex flex-col leading-tight">
+                            {{ if show_from }}
+                                {{ partial:typography/p_small content="{trans:strings.from or 'From'}" color="text-muted" class="!mb-0 !text-sm" }}
+                            {{ /if }}
+                            <span class="font-display font-semibold text-2xl text-foreground">{{ price }}</span>
+                        </div>
+                    {{ /if }}
+                </div>
+            {{ /if }}
+        </div>
+
+        <figure class="m-0 md:order-2">
+            {{ if image }}
+                {{ picture
+                    :image="image.0"
+                    class="w-full h-auto rounded-2xl aspect-[4/5] object-cover bg-parchment-200"
+                    cover="true"
+                    sizes="(min-width: 1280px) 580px, (min-width: 768px) 50vw, 100vw"
+                    loading="eager"
+                }}
+            {{ else }}
+                <div class="w-full aspect-[4/5] rounded-2xl bg-parchment-200" aria-hidden="true"></div>
+            {{ /if }}
+        </figure>
+    </div>
+
+    {{ if featured_logos }}
+        <div class="span-content flex flex-col items-center gap-6 md:gap-8 pt-6 md:pt-10 border-t border-parchment-200">
+            {{ partial:typography/label
+                :content="featured_heading or 'Featured on'"
+                small="true"
+                color="text-muted"
+                class="uppercase tracking-[0.12em]"
+            }}
+
+            <ul class="flex flex-wrap items-center justify-center gap-x-10 gap-y-6 md:gap-x-16">
+                {{ featured_logos }}
+                    <li class="flex items-center">
+                        <img
+                            src="{{ url }}"
+                            alt="{{ alt or title }}"
+                            loading="lazy"
+                            class="h-6 md:h-8 w-auto object-contain opacity-70 grayscale"
+                        >
+                    </li>
+                {{ /featured_logos }}
+            </ul>
+        </div>
+    {{ /if }}
+</section>
+<!-- End: /components/_product_header.antlers.html -->

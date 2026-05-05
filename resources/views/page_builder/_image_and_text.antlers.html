@@ -1,0 +1,45 @@
+{{#
+    @name Image and text
+    @desc Two-column section with a heading + body copy beside a media tile.
+          Image side is configurable per block so a stack of these can
+          alternate (image-left, image-right, image-left). On mobile the
+          row collapses to image-above-text.
+    @set page.page_builder.image_and_text
+#}}
+
+<!-- /page_builder/_image_and_text.antlers.html -->
+{{ partial:page_builder/block class="py-12 md:py-16 lg:py-24" }}
+    <div
+        class="
+            span-content grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center
+            {{ if block:image_position == 'right' }}
+                md:[&>figure]:order-2
+            {{ /if }}
+        "
+    >
+        <figure class="m-0">
+            {{ if block:image }}
+                {{ picture
+                    :image="block:image.0"
+                    class="w-full h-auto rounded-2xl aspect-[4/3] object-cover bg-parchment-200"
+                    cover="true"
+                    sizes="(min-width: 768px) 50vw, 100vw"
+                    loading="lazy"
+                }}
+            {{ else }}
+                <div class="w-full aspect-[4/3] rounded-2xl bg-parchment-200" aria-hidden="true"></div>
+            {{ /if }}
+        </figure>
+
+        <div class="flex flex-col gap-4 md:gap-6">
+            {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
+
+            {{ if block:body }}
+                {{ partial:typography/prose as="div" }}
+                    {{ block:body }}
+                {{ /partial:typography/prose }}
+            {{ /if }}
+        </div>
+    </div>
+{{ /partial:page_builder/block }}
+<!-- End: /page_builder/_image_and_text.antlers.html -->

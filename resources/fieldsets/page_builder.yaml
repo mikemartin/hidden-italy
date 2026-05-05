@@ -38,6 +38,13 @@ fields:
               fields:
                 -
                   import: testimonial_overlap
+            image_and_text:
+              display: 'Image and text'
+              instructions: 'Heading and body copy beside an image. Image side is configurable so the rows can alternate.'
+              icon: text-formatting-image-bottom
+              fields:
+                -
+                  import: image_and_text
         interactive:
           display: Interactive
           instructions: 'Interactive blocks.'
@@ -127,3 +134,10 @@ fields:
               fields:
                 -
                   import: cta_banner
+            faqs:
+              display: FAQs
+              instructions: 'Side-title accordion of frequently asked questions, with optional shared questions from the Questions collection.'
+              icon: question
+              fields:
+                -
+                  import: faqs
