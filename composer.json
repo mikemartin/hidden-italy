@@ -20,6 +20,7 @@
     ],
     "require": {
         "php": "^8.2",
+        "aerni/social-links": "^4.1",
         "aryehraber/statamic-captcha": "^1.17",
         "el-schneider/statamic-simple-address": "^2.1",
         "laravel/fortify": "^1.36",

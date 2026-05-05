@@ -60,7 +60,12 @@
             client has picked a value. #}}
         {{ partial:layout/overlay_control }}
 
+        <x-flux::toast.group position="bottom center">
+            <x-flux::toast />
+        </x-flux::toast.group>
+
         {{ partial:layout/flux_scripts }}
+        {{ stack:scripts }}
     </body>
 </html>
 <!-- End: /layout.antlers.html -->

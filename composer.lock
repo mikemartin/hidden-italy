@@ -4,8 +4,73 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "937da13fe8a32efea7b2b40dae2cc68f",
+    "content-hash": "d4a5eed8c9fb4d797a568643bdedd3f7",
     "packages": [
+        {
+            "name": "aerni/social-links",
+            "version": "v4.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aerni/statamic-social-links.git",
+                "reference": "b5b4d3828c9b6557372c3a5aeb6aed19b159cade"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aerni/statamic-social-links/zipball/b5b4d3828c9b6557372c3a5aeb6aed19b159cade",
+                "reference": "b5b4d3828c9b6557372c3a5aeb6aed19b159cade",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^12.0 || ^13.0",
+                "php": "^8.3",
+                "statamic/cms": "^6.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^10.0 || ^11.0",
+                "pestphp/pest": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Aerni\\SocialLinks\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "SocialLinks",
+                    "description": "Easily generate Social Sharing Links"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Aerni\\SocialLinks\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Aerni",
+                    "email": "hello@michaelaerni.ch",
+                    "homepage": "https://www.michaelaerni.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easily generate Social Sharing Links",
+            "homepage": "https://github.com/aerni/statamic-social-links",
+            "keywords": [
+                "social media",
+                "social sharing links",
+                "statamic"
+            ],
+            "support": {
+                "issues": "https://github.com/aerni/statamic-social-links/issues",
+                "source": "https://github.com/aerni/statamic-social-links/tree/v4.1.1"
+            },
+            "time": "2026-03-26T11:06:24+00:00"
+        },
         {
             "name": "ajthinking/archetype",
             "version": "v2.0.0",

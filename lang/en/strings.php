@@ -115,6 +115,11 @@ return [
     'guests' => 'guests',
     'whats_included' => "What's included",
     'share' => 'Share',
+    'share_via_email' => 'Email',
+    'share_via_facebook' => 'Facebook',
+    'share_via_linkedin' => 'LinkedIn',
+    'copy_link' => 'Copy link',
+    'copied' => 'Copied!',
     'save' => 'Save',
     'saved' => 'Saved',
 

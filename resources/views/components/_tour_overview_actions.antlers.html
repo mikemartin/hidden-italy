@@ -2,8 +2,9 @@
     @name Tour overview actions
     @desc Share + Save buttons used in the tour overview block (desktop
           variant). Save piggy-backs on the Simple Likes fieldtype on the
-          entry; Share triggers the native share sheet (with a clipboard
-          fallback) via the adjacent `data-share` Alpine snippet.
+          entry; Share opens a Flux dropdown rendered by the
+          `components/_share_menu` partial (Web Share API was dropped because
+          Firefox on desktop has no support).
 
           For the mobile breadcrumb row, see
           `_tour_overview_actions_compact.antlers.html` — same actions,
@@ -12,23 +13,8 @@
 #}}
 
 <!-- /components/_tour_overview_actions.antlers.html -->
-<div
-    class="flex items-center gap-4 lg:justify-end"
-    x-data="{
-        async share() {
-            const data = { title: document.title, url: window.location.href };
-            if (navigator.share) {
-                try { await navigator.share(data); } catch (_) {}
-            } else if (navigator.clipboard) {
-                await navigator.clipboard.writeText(data.url);
-            }
-        },
-    }"
->
-    <button type="button" @click="share" class="button-inline">
-        <x-lucide-share aria-hidden="true" />
-        <span>{{ trans:strings.share ?? 'Share' }}</span>
-    </button>
+<div class="flex items-center gap-4 lg:justify-end">
+    {{ partial:components/share_menu }}
 
     {{# Save piggy-backs on Simple Likes via a custom template so saved
         state syncs with the wishlist drawer through the addon's store. #}}

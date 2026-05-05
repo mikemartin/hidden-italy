@@ -32,29 +32,7 @@
             {{ partial:typography/p_large :content="lead" color="text-text" class="!mb-0" }}
         {{ /if }}
 
-        <button
-            type="button"
-            data-share-text="{{ lead }}"
-            x-data="{
-                async share() {
-                    const data = {
-                        title: document.title,
-                        text: $el.dataset.shareText,
-                        url: window.location.href,
-                    };
-                    if (navigator.share) {
-                        try { await navigator.share(data); } catch (_) {}
-                    } else if (navigator.clipboard) {
-                        await navigator.clipboard.writeText(data.url);
-                    }
-                },
-            }"
-            @click="share()"
-            class="button-inline"
-        >
-            <x-lucide-share aria-hidden="true" />
-            <span>{{ trans:strings.share ?? 'Share' }}</span>
-        </button>
+        {{ partial:components/share_menu :text="lead" }}
     </div>
 
     {{ if image }}
