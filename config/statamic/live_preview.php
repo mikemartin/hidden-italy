@@ -55,6 +55,10 @@ return [
     |
     */
 
-    'hot_reload_contents' => true,
+    // Hot reload morphs the iframe DOM, which corrupts the Splide carousels
+    // (and any other Alpine component that mutates its own DOM at mount —
+    // noUiSlider, Flatpickr, MapLibre, etc.). Full iframe reload is the only
+    // reliable way to keep these working inside Live Preview.
+    'hot_reload_contents' => false,
 
 ];
