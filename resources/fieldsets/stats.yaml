@@ -1,0 +1,59 @@
+title: Stats
+fields:
+  -
+    handle: heading
+    field:
+      type: text
+      localizable: true
+      display: Heading
+      instructions: 'Optional left-side heading.'
+  -
+    handle: top_border
+    field:
+      type: toggle
+      localizable: true
+      display: 'Top divider'
+      instructions: 'Show a thin parchment-200 line above the stats. Use it as a divider when this block sits below another panel on the same card surface.'
+      default: false
+  -
+    handle: stats
+    field:
+      type: replicator
+      localizable: true
+      display: Stats
+      instructions: 'Two to four stat tiles work best — they lay out in a 2-column grid on desktop.'
+      max_sets: 6
+      validate:
+        - required
+      sets:
+        main:
+          display: Stats
+          sets:
+            stat:
+              display: Stat
+              fields:
+                -
+                  handle: value
+                  field:
+                    type: text
+                    localizable: true
+                    display: Value
+                    instructions: "Headline number, e.g. ‘30+’, ‘10K+’, ‘500K+’."
+                    validate:
+                      - required
+                -
+                  handle: label
+                  field:
+                    type: text
+                    localizable: true
+                    display: Label
+                    instructions: "Short caption, e.g. ‘Years walking Italy’."
+                    validate:
+                      - required
+                -
+                  handle: icon
+                  field:
+                    type: icon
+                    display: Icon
+                    validate:
+                      - required

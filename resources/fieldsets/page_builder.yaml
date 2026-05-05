@@ -24,6 +24,20 @@ fields:
               fields:
                 -
                   import: article
+            content_with_image:
+              display: 'Content with image'
+              instructions: 'Side-by-side text and image — heading, body copy and a single supporting photo. Used for letter / story panels like “It started with a walk”.'
+              icon: text-formatting-image-right
+              fields:
+                -
+                  import: content_with_image
+            testimonial_overlap:
+              display: 'Testimonial — image overlap'
+              instructions: 'Single quote on a parchment card overlapping a portrait image. Used for founder / director quotes.'
+              icon: favorite
+              fields:
+                -
+                  import: testimonial_overlap
             image_and_text:
               display: 'Image and text'
               instructions: 'Heading and body copy beside an image. Image side is configurable so the rows can alternate.'
@@ -71,6 +85,20 @@ fields:
               fields:
                 -
                   import: intro
+            stats:
+              display: Stats
+              instructions: 'Side title plus a 2-column grid of headline number + label tiles. Used for the About-page “covered some ground” panel.'
+              icon: graph-bar-line-chart
+              fields:
+                -
+                  import: stats
+            people_grid:
+              display: 'People grid'
+              instructions: 'Centred heading and a 4-column grid of profile cards from the People collection. Each card opens a flyout bio.'
+              icon: user-multiple
+              fields:
+                -
+                  import: people_grid
             tour_types:
               display: 'Tour types'
               instructions: 'Two linkable cards for the main tour types (e.g. Guided / Self-guided).'

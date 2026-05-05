@@ -1,0 +1,50 @@
+title: 'Content with image'
+fields:
+  -
+    handle: heading
+    field:
+      type: text
+      localizable: true
+      display: Heading
+      validate:
+        - required
+  -
+    handle: body
+    field:
+      buttons:
+        - bold
+        - italic
+        - anchor
+        - unorderedlist
+        - orderedlist
+      type: bard
+      localizable: true
+      display: Body
+      instructions: 'Story or letter copy. The signature, if any, should be set as plain paragraphs at the end.'
+      remove_empty_nodes: true
+      smart_typography: true
+      validate:
+        - required
+  -
+    handle: image
+    field:
+      container: assets
+      max_files: 1
+      type: assets
+      localizable: true
+      display: Image
+      instructions: 'Right-hand image (~4:5 portrait works best on desktop).'
+      mode: grid
+      validate:
+        - required
+  -
+    handle: image_position
+    field:
+      type: button_group
+      default: right
+      localizable: true
+      display: 'Image position'
+      instructions: 'Which side the image sits on at desktop. Mobile always stacks image above text.'
+      options:
+        right: Right
+        left: Left

@@ -1,0 +1,73 @@
+{{#
+    @name Stats
+    @desc Larger variant of the inline stats tile used on tour pages: a side
+          heading on the left, then a 1- or 2-column grid of headline-number
+          tiles on the right. Each tile pairs a parchment circle with the
+          value (Roma Neue, ~40px) and a Mona Sans label. Numbers wrap before
+          the icon collapses, so very long values stay readable.
+
+          Two-up layout kicks in at lg+ once at least 2 stats are present;
+          three or four stats keep the same 2-col grid so they read as a
+          balanced 2×2 (or 2×1 + 1) block, not a long single column.
+    @set page.page_builder.stats
+#}}
+
+<!-- /page_builder/_stats.antlers.html -->
+{{# `no-space-y` collapses the page-builder's stack gap on both sides so
+    the bg-card stats panel butts up against the panels above and below
+    it (forming a continuous card surface with the prior block, or
+    sitting flush against a contrasting band that follows). The optional
+    `top_border` toggle renders a thin parchment-200 hairline as the
+    first row of the fluid-grid, scoped to `span-content` so the line
+    only spans the centred content column rather than going edge-to-edge.
+    Vertical padding moves to the inner content div so the divider sits
+    cleanly at the section's top edge instead of inside the padding. #}}
+{{ if block:stats }}
+    {{ partial:page_builder/block class="no-space-y bg-card" }}
+        {{ if block:top_border }}
+            <div class="span-content border-t border-parchment-200" aria-hidden="true"></div>
+        {{ /if }}
+
+        <div class="span-content py-12 md:py-16 lg:py-20 grid grid-cols-1 lg:grid-cols-12 gap-y-10 lg:gap-x-16 items-start">
+            {{ if block:heading }}
+                <header class="lg:col-span-5 self-center">
+                    {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
+                </header>
+            {{ /if }}
+
+            <ul class="lg:col-span-6 lg:col-start-7 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-10">
+                {{ block:stats }}
+                    <li class="flex items-start gap-5 md:gap-6">
+                        {{ if icon }}
+                            {{ icon }}
+                                <div class="shrink-0 inline-flex items-center justify-center size-12 rounded-full bg-parchment-200 text-accent-2">
+                                    {{ svg
+                                        src="icons/{path}"
+                                        attr:class="size-6 fill-current"
+                                        attr:aria-hidden="true"
+                                        attr:role="img"
+                                    }}
+                                </div>
+                            {{ /icon }}
+                        {{ /if }}
+
+                        <div class="flex flex-col">
+                            {{ if value }}
+                                <p class="font-display font-medium text-[40px] md:text-[44px] leading-[1.1] tracking-[-0.01em] text-foreground">
+                                    {{ value }}
+                                </p>
+                            {{ /if }}
+                            {{ if label }}
+                                <p class="font-sans text-base md:text-lg leading-[1.6] text-text">
+                                    {{ label }}
+                                </p>
+                            {{ /if }}
+                        </div>
+                    </li>
+                {{ /block:stats }}
+            </ul>
+        </div>
+    {{ /partial:page_builder/block }}
+{{ /if }}
+<!-- End: /page_builder/_stats.antlers.html -->
+

@@ -1,0 +1,49 @@
+{{#
+    @name Content with image
+    @desc Two-column letter / story panel: heading and bard body on one side,
+          a single photo on the other. Mobile stacks image-then-copy; desktop
+          honours the `image_position` toggle. The image fills the column
+          height with a subtle inner shadow ring so it sits naturally on the
+          parchment surface.
+    @set page.page_builder.content_with_image
+#}}
+
+<!-- /page_builder/_content_with_image.antlers.html -->
+{{# `no-space-t` opts out of the parent `.page-builder`'s top padding when
+    this block is the first child (see Peak's collapse rule in peak.css).
+    Without it the bg-card surface starts ~192px below the page header at
+    lg — page_header `pb-24` + page-builder `pt-24` + section `pt-24`
+    stacking. With it the visible gap to the section's top edge becomes
+    just the page header's own `pb-24` (~96px), letting the bg-card panel
+    sit close enough to read as the "next chapter" of the page. #}}
+{{ partial:page_builder/block class="no-space-t bg-card border-t border-parchment-200 gap-y-10 md:gap-y-0 py-12 md:py-20 lg:py-24" }}
+    <div
+        class="
+            span-content grid grid-cols-1 lg:grid-cols-12 gap-y-10 lg:gap-x-16 items-stretch
+            {{ if block:image_position == 'left' }}lg:[&>:first-child]:order-2{{ /if }}
+        "
+    >
+        <header class="lg:col-span-5 flex flex-col gap-6 self-center">
+            {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
+
+            {{ if block:body }}
+                <div class="font-sans text-base md:text-lg leading-[1.6] text-text [&_p]:mb-6 [&_p:last-child]:mb-0 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-6 [&_ol]:list-decimal [&_ol]:ml-5 [&_ol]:mb-6">
+                    {{ block:body }}
+                </div>
+            {{ /if }}
+        </header>
+
+        {{ if block:image }}
+            <div class="lg:col-span-6 lg:col-start-7 relative rounded-xl overflow-hidden aspect-[4/3] lg:aspect-auto lg:min-h-[480px] bg-parchment-200 ring-1 ring-inset ring-black/5">
+                {{ picture
+                    :image="block:image"
+                    class="absolute inset-0 w-full h-full object-cover"
+                    cover="true"
+                    sizes="(min-width: 1024px) 50vw, 100vw"
+                    loading="lazy"
+                }}
+            </div>
+        {{ /if }}
+    </div>
+{{ /partial:page_builder/block }}
+<!-- End: /page_builder/_content_with_image.antlers.html -->
