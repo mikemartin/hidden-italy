@@ -3,16 +3,14 @@ id: home
 blueprint: home
 title: Home
 template: home
-updated_by: 6e2cc1d1-1470-4391-963d-37aed038e27a
-updated_at: 1777127590
+updated_by: 1
+updated_at: 1777964329
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 1
-headline: |-
-  Explore Italy,
-  one step at a time
+headline: 'Explore Italy, one step at a time'
 buttons:
   -
     id: home_hero_btn
@@ -54,6 +52,7 @@ page_builder:
         button_type: button
         type: button
         enabled: true
+    columns: '3'
   -
     id: home_tour_types
     type: tour_types
