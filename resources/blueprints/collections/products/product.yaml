@@ -154,5 +154,5 @@ tabs:
               mode: grid
               max_files: 1
               type: assets
-              display: 'Hero image'
+              display: Image
               instructions: 'Cover or product photograph shown beside the title.'
