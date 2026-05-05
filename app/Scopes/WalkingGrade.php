@@ -37,8 +37,8 @@ class WalkingGrade extends Filter
                 'type' => 'radio',
                 'options' => [
                     'moderate' => 'Moderate (0-2)',
-                    'intermediate' => 'Intermediate (2-3)',
-                    'challenging' => 'Challenging (3-5)',
+                    'intermediate' => 'Intermediate (3-4)',
+                    'challenging' => 'Challenging (5)',
                 ],
             ],
         ];
@@ -81,10 +81,10 @@ class WalkingGrade extends Filter
                         $q->$method('grade', [0, 2]);
                         break;
                     case 'intermediate':
-                        $q->$method('grade', [2, 3]);
+                        $q->$method('grade', [3, 4]);
                         break;
                     case 'challenging':
-                        $q->$method('grade', [3, 5]);
+                        $q->$method('grade', [5, 5]);
                         break;
                 }
             }
@@ -101,8 +101,8 @@ class WalkingGrade extends Filter
     {
         return match ($values['walking_grade'] ?? '') {
             'moderate' => 'Moderate (0-2)',
-            'intermediate' => 'Intermediate (2-3)',
-            'challenging' => 'Challenging (3-5)',
+            'intermediate' => 'Intermediate (3-4)',
+            'challenging' => 'Challenging (5)',
             default => '',
         };
     }
