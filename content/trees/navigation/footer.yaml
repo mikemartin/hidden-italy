@@ -1,0 +1,38 @@
+tree:
+  -
+    id: 9b8a2f10-1d4e-4c2f-9a1d-2c5e7b0e1a01
+    title: Tours
+    children:
+      -
+        id: 21332016-d4e6-46ff-bb27-df4025906ba7
+        entry: 2d1f3903-3248-4037-8e09-e76e8d62781c
+        title: 'All Tours'
+      -
+        id: 68a2ab91-eb17-45df-9c3b-2c7277255c5a
+        entry: 46b6b124-89cf-4efb-b06a-cdb4d28312ba
+      -
+        id: 1a1c8a86-7ba4-434a-9946-a912a533b08f
+        entry: fff5d1d0-e05d-4088-9a54-1f2e7f630c28
+      -
+        id: de622da1-55d4-4d37-81cf-37fd5a421059
+        title: Wishlist
+        url: /wishlist
+  -
+    id: 9b8a2f10-1d4e-4c2f-9a1d-2c5e7b0e1a02
+    title: Explore
+    children:
+      -
+        id: 5aeb47d9-e621-4491-b951-30b358fbf0f1
+        entry: 60f29dc3-3636-4ae8-95a4-e508c713936a
+      -
+        id: 1a06fd5d-945a-4723-af98-1ac80e1140f9
+        entry: 6522c57c-2a9d-4ec7-a8eb-26035629e36a
+      -
+        id: bbb0ab9d-2530-4930-99ab-287e97c632a5
+        entry: c81f1652-4d1d-49fb-bd9b-cad19ed89159
+      -
+        id: 3ac1fd22-e498-4180-8b64-b6e60d8c1d86
+        entry: f2528c71-fdd2-4e78-af1d-c37c56594a04
+      -
+        id: 1e3c295e-f623-4faa-bcda-d49b73f8eb1b
+        entry: 6a16b095-2c9c-42e2-8593-41525210f300

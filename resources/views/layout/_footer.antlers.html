@@ -50,15 +50,19 @@
                     </form>
                 </div>
 
-                {{# Nav columns #}}
+                {{# Nav columns — top-level items in the `footer` nav are column headings. #}}
                 <div class="lg:col-span-8 xl:col-start-6 xl:col-span-7">
                     <div class="grid grid-cols-2 sm:grid-cols-12 gap-4 lg:gap-9 lg:flex-1">
-                        <div class="sm:col-span-3">
-                            {{ partial:layout/footer_nav handle="footer_tours" heading="Tours" }}
-                        </div>
-                        <div class="sm:col-span-3">
-                            {{ partial:layout/footer_nav handle="footer_explore" heading="Explore" }}
-                        </div>
+                        {{ nav:footer }}
+                            <nav class="sm:col-span-3 flex flex-col gap-2" aria-label="{{ title }}">
+                                <p class="font-display font-semibold uppercase text-xs tracking-[0.08em] text-gold leading-[1.5] h-8">{{ title }}</p>
+                                {{ children }}
+                                    <a href="{{ url }}" class="text-[15px] leading-[1.5] hover:text-white transition-colors">
+                                        {{ title }}
+                                    </a>
+                                {{ /children }}
+                            </nav>
+                        {{ /nav:footer }}
 
                         {{# "Get in touch" — built from the `contact` global rather than a nav. #}}
                         <div class="flex flex-col gap-2 col-span-2 sm:col-span-6">
@@ -73,8 +77,8 @@
                             {{ if contact:phones }}
                                 {{ contact:phones }}
                                 <a href="tel:{{ number }}" class="text-[15px] leading-[1.5] hover:text-white transition-colors">
-                                    {{ label }}
-                                    <br class="lg:hidden"/>
+                                    <span class="text-muted">{{ label }}</span>
+                                    <br/>
                                     {{ number }}
                                 </a>
                                 {{ /contact:phones }}
