@@ -4,13 +4,15 @@ blueprint: home
 title: Home
 template: home
 updated_by: 1
-updated_at: 1777964329
+updated_at: 1778209327
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 1
-headline: 'Explore Italy, one step at a time'
+headline: |-
+  Explore Italy, 
+  one step at a time
 buttons:
   -
     id: home_hero_btn

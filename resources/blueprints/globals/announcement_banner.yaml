@@ -12,7 +12,6 @@ tabs:
               type: toggle
               localizable: true
               display: Enabled
-              default: false
               instructions: 'Show the banner on every page.'
               width: 50
           -
@@ -34,9 +33,12 @@ tabs:
               validate:
                 - 'required_if:enabled,true'
           -
-            handle: button
-            field: buttons.buttons
-            config:
+            handle: link
+            field:
+              collections:
+                - pages
+                - guided
+                - self-guided
+              type: entries
               display: 'Optional link'
-              instructions: 'If set, the whole banner will link through.'
-              max_sets: 1
+              max_items: 1

@@ -32,15 +32,17 @@
         {{ partial:statamic-peak-tools::components/toolbar }}
 
         {{ if transparent_header }}
-            {{# Banner + header float over the first page-builder block and stay
-                fixed at the top of the viewport. The header transitions to the
-                brand colour past 20px of scroll (see /layout/_header). #}}
-            <div class="fixed inset-x-0 top-0 z-30">
-                {{ partial:layout/announcement_banner }}
+            {{# Banner + header float over the first page-builder block. By
+                default they're `fixed` so the header stays put and transitions
+                to the brand colour past 20px of scroll. When the page sets
+                `static_overlay_header = true` (e.g. tour show pages with a
+                sticky in-page sub-nav) the wrapper is `absolute` instead —
+                the header still overlays the banner but scrolls away with
+                the content, leaving the sub-nav as the persistent nav. #}}
+            <div class="{{ if static_overlay_header }}absolute{{ else }}fixed{{ /if }} inset-x-0 top-0 z-30">
                 {{ partial:layout/header }}
             </div>
         {{ else }}
-            {{ partial:layout/announcement_banner }}
             {{ partial:layout/header }}
         {{ /if }}
 

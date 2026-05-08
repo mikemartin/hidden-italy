@@ -101,6 +101,8 @@
     --font-weight-bold: 700;
     /* --font-weight-extrabold: 800; */
     /* --font-weight-black: 900; */
+
+    --text-5xl: 2.5rem;
 }
 
 @layer base {
@@ -179,6 +181,20 @@
 
 @import "./livewire-filters-theme.css";
 
+/* Sticky tour sub-nav height — `--sticky-nav-h` is consumed by
+   `scroll-padding-top` on `html` so anchor jumps land below the nav.
+   Single-row layout at every breakpoint (the booking CTA is dropped
+   from the nav on mobile and lives in the banner instead), so one
+   value covers all viewports. */
+:root {
+    --sticky-nav-h: 5rem;
+}
+
+html {
+    scroll-padding-top: var(--sticky-nav-h);
+}
+
+
 /* Hide scrollbar on horizontal scroll-snap tracks (hero & tours carousels). */
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { scrollbar-width: none; }
@@ -201,6 +217,7 @@
 .splide-bleed-right {
     grid-column: content-start / full-end;
 }
+
 
 /* Testimonials Splide carousel — small vertical padding so the cards' subtle
    shadow isn't clipped while the carousel is active below the `md` breakpoint. */

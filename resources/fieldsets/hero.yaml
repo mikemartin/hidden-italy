@@ -3,12 +3,9 @@ fields:
   -
     handle: headline
     field:
-      type: text
-      localizable: true
+      type: textarea
       display: Headline
       instructions: 'Main headline overlaid on the hero image.'
-      validate:
-        - required
   -
     handle: buttons
     field: buttons.buttons

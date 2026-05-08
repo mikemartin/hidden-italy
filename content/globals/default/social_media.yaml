@@ -1,7 +1,13 @@
 social_media:
   -
-    id: trJdEAn4
-    handle: studio1902
-    prefix: 'https://www.github.com/'
-    type: github
+    id: fTR-AGsbuuZhF4SAdIKD7
+    handle: hidden.italy.walking.tours
+    prefix: 'https://www.facebook.com/'
+    type: facebook
+    enabled: true
+  -
+    id: 9DJZzo7qsjpzQcxEnUA3j
+    handle: hiddenitalywalkingtours
+    prefix: 'https://www.instagram.com/'
+    type: instagram
     enabled: true

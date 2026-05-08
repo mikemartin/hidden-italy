@@ -1,9 +1,7 @@
 tree:
   -
-    id: 49ffd6e4-e1ae-4b02-9932-469dbb05ebf2
-    title: 'Privacy Policy'
-    url: /privacy
+    id: ff7c255b-eecf-453e-8624-1951cd02c8f1
+    entry: 06eda9dc-c4c5-40c3-a3d0-da1f3f9007b4
   -
-    id: 2f350040-15a3-4255-9f97-dad1990eae59
-    title: 'Terms & Conditions'
-    url: /terms
+    id: ddcfe79c-d1f4-43f6-b681-3603b84d6589
+    entry: a44b160b-fc70-43cb-a3dc-e06f89007174

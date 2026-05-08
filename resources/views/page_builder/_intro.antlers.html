@@ -37,10 +37,10 @@
                         </div>
                     {{ /icon }}
 
-                    <div class="flex flex-col gap-2 md:gap-4 max-w-prose">
+                    <div class="flex flex-col gap-2 max-w-prose">
                         {{ partial:typography/h4 :content="title" color="text-foreground" }}
                         {{ if description }}
-                            {{ partial:typography/p :content="description" color="text-text" class="text-pretty !mb-0" }}
+                            {{ partial:typography/p_small :content="description" color="text-text" class="text-pretty !mb-0" }}
                         {{ /if }}
                     </div>
                 </li>

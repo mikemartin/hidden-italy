@@ -38,11 +38,13 @@
 
     <figcaption class="mt-auto flex flex-col">
         {{ if name }}
-            {{ partial:typography/h6 small="true" :content="name" as="span" color="text-foreground" }}
+            {{ partial:typography/p_small :content="name" as="span" color="text-foreground" class="!mb-0" }}
         {{ /if }}
-        {{ tour | first }}
-            {{ partial:typography/p_small :content="title" as="span" color="text-muted" class="!mb-0" }}
-        {{ /tour }}
+        {{ if tour }}
+            {{ tour }}
+                {{ partial:typography/p_small small="true" :content="name" as="span" color="text-muted" class="!mb-0" }}
+            {{ /tour }}
+        {{ /if }}
     </figcaption>
 </figure>
 <!-- End: /components/_testimonial-card.antlers.html -->

@@ -15,7 +15,8 @@
 <!-- /page_builder/_itinerary.antlers.html -->
 {{ if block:days }}
     <section
-        class="fluid-grid gap-y-10 md:gap-y-16 bg-background py-12 md:py-16 lg:py-24 stack-space-collapse"
+        id="itinerary"
+        class="fluid-grid relative gap-y-10 md:gap-y-16 bg-background py-12 md:py-16 lg:py-24 stack-space-collapse"
         x-data="{
             progress: 0,
             atStart: true,
@@ -49,6 +50,15 @@
             destroy() { this.splide?.destroy() },
         }"
     >
+        {{# Tour-subnav sentinel — absolute at content-top after the outer
+            `py-12 md:py-16 lg:py-24` padding so the active state changes
+            when the heading actually arrives near the sticky nav. #}}
+        <div
+            aria-hidden="true"
+            x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('itinerary')"
+            class="absolute inset-x-0 top-12 md:top-16 lg:top-24 h-px pointer-events-none"
+        ></div>
+
         <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             {{ partial:typography/h2 :content="block:title" class="!mb-0" color="text-foreground" }}
 

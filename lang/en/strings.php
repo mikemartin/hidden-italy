@@ -134,6 +134,17 @@ return [
     'booking_cancellation' => 'Booking and cancellation conditions',
     'read_bio' => 'Read bio',
 
+    // Tour sub-nav (sticky in-page navigation)
+    'tour_sections' => 'Tour sections',
+    'overview' => 'Overview',
+    'highlights' => 'Highlights',
+    'itinerary' => 'Itinerary',
+    'experience' => 'Experience',
+    'leader' => 'Leader',
+    'faq' => 'FAQ',
+    'reviews' => 'Reviews',
+    'related_tours' => 'Related tours',
+
     // Experience tab
     'start' => 'Start',
     'finish' => 'Finish',
@@ -142,4 +153,7 @@ return [
     // Announcement banner
     'announcement' => 'Announcement',
     'dismiss' => 'Dismiss announcement',
+
+    // Contact
+    'appointment_only' => '(by appointment only)',
 ];

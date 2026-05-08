@@ -76,11 +76,11 @@
 
                             {{ if contact:phones }}
                                 {{ contact:phones }}
-                                <a href="tel:{{ number }}" class="text-[15px] leading-[1.5] hover:text-white transition-colors">
+                                <p class="text-[15px] leading-[1.5]">
                                     <span class="text-muted">{{ label }}</span>
                                     <br/>
-                                    {{ number }}
-                                </a>
+                                     <a href="tel:{{ number }}" class="hover:text-white transition-colors">{{ number }}</a>
+                                </p>
                                 {{ /contact:phones }}
                             {{ /if }}
 

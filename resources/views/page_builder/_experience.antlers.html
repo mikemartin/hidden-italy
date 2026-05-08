@@ -27,7 +27,8 @@
         of the tab list, no manual id strings — every tab button and panel
         builds its own id from its position. #}}
     <section
-        class="dark relative isolate overflow-hidden bg-background stack-space-collapse"
+        id="experience"
+        class="dark relative isolate overflow-hidden bg-background stack-space-collapse py-12 md:py-16 lg:py-24"
         x-data="{
             selectedId: null,
             init() { this.$nextTick(() => this.select(this.$id('tab', 1))); },
@@ -44,7 +45,17 @@
             {{ svg:top-right attr:class="absolute top-0 right-0 w-[320px] md:w-[400px] h-auto" }}
         </div>
 
-        {{ partial:page_builder/block class="stack-space-collapse py-12 md:py-16 lg:py-24 gap-y-12 md:gap-y-14" }}
+        {{# Tour-subnav sentinel — sits at the section's content-top (after the
+            outer padding) so `intersect:enter` fires when the heading actually
+            arrives near the sticky nav. Outer is not a grid, so a flow child
+            is the simplest way to land at the right position. #}}
+        <div
+            aria-hidden="true"
+            x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('experience')"
+            class="h-px"
+        ></div>
+
+        {{ partial:page_builder/block class="stack-space-collapse gap-y-12 md:gap-y-14" }}
             {{ if block:title }}
                 <header class="span-content text-center">
                     {{ partial:typography/h2 :content="block:title" color="text-foreground" }}

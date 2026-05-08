@@ -1,13 +1,4 @@
-enabled: false
+enabled: true
 dismissible: true
 text: 'Guided tours now available to book for 2027'
-button:
-  -
-    id: ab_btn_01
-    label: 'View guided tours'
-    link_type: url
-    url: /tours
-    target_blank: false
-    button_type: inline
-    type: button
-    enabled: true
+link: 46b6b124-89cf-4efb-b06a-cdb4d28312ba

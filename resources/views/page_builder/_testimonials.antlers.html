@@ -10,7 +10,8 @@
 <!-- /page_builder/_testimonials.antlers.html -->
 {{ if block:testimonials }}
     <section
-        class="fluid-grid gap-y-10"
+        id="reviews"
+        class="fluid-grid relative gap-y-12"
         x-data="{
             splide: null,
             init() {
@@ -34,8 +35,17 @@
             destroy() { this.splide?.destroy() },
         }"
     >
+        {{# Tour-subnav sentinel — absolute at content-top after the outer
+            `py-12 md:py-16 lg:py-24` padding so the active state changes
+            when the heading actually arrives near the sticky nav. #}}
+        <div
+            aria-hidden="true"
+            x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('reviews')"
+            class="absolute inset-x-0 top-12 md:top-16 lg:top-24 h-px pointer-events-none"
+        ></div>
+
         {{ if block:heading }}
-            <header class="span-content text-center">
+            <header class="span-content">
                 {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
             </header>
         {{ /if }}
