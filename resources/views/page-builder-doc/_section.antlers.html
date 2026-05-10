@@ -1,0 +1,47 @@
+{{#
+    @name Page builder section card
+    @desc A documentation card for a single page builder section.
+    @param* handle Set handle (mono).
+    @param* display Set display name.
+    @param* fieldset Path to the fieldset YAML, or a hint string for inline definitions.
+    @param* view Path to the partial that renders the set.
+    @param* fields One-line summary of the field shape, separated with ‘ · ’.
+    @param* renders One- or two-sentence description of what the partial outputs.
+    @param used_on Comma-separated list of blueprints / collections this set is available on.
+    @param flag Optional one-line note that highlights a known issue (overlap, duplication, drift). Renders as a primary-coloured callout if set.
+#}}
+
+<!-- /page-builder-doc/_section.antlers.html -->
+<article class="bg-parchment-100 border border-neutral/10 rounded-lg p-6 md:p-8 stack-4">
+    <header class="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+        <h3 class="text-xl font-semibold text-foreground">{{ display }}</h3>
+        <code class="font-mono text-xs text-foreground/70 bg-parchment-200 px-2 py-1 rounded">{{ handle }}</code>
+    </header>
+
+    <dl class="grid grid-cols-1 md:grid-cols-[max-content_1fr] gap-x-6 gap-y-2 text-sm">
+        <dt class="font-medium text-foreground/60">Fieldset</dt>
+        <dd class="font-mono text-xs text-foreground/80 break-all">{{ fieldset }}</dd>
+
+        <dt class="font-medium text-foreground/60">View</dt>
+        <dd class="font-mono text-xs text-foreground/80 break-all">{{ view }}</dd>
+
+        <dt class="font-medium text-foreground/60">Fields</dt>
+        <dd class="text-foreground/80 leading-[1.6]">{{ fields }}</dd>
+
+        <dt class="font-medium text-foreground/60">Renders</dt>
+        <dd class="text-foreground/80 leading-[1.6]">{{ renders }}</dd>
+
+        {{ if used_on }}
+            <dt class="font-medium text-foreground/60">Used on</dt>
+            <dd class="text-foreground/80 leading-[1.6]">{{ used_on }}</dd>
+        {{ /if }}
+    </dl>
+
+    {{ if flag }}
+        <div class="flex gap-2 items-start text-xs text-primary bg-primary/5 border border-primary/20 rounded px-3 py-2">
+            <span class="font-semibold uppercase tracking-wide">Audit</span>
+            <span>{{ flag }}</span>
+        </div>
+    {{ /if }}
+</article>
+<!-- End: /page-builder-doc/_section.antlers.html -->
