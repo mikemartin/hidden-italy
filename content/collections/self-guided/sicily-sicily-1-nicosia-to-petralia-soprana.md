@@ -5,8 +5,8 @@ title: 'Sicily - Sicily 1'
 name: 'Sicily 1'
 region: Sicily
 days: 7
-updated_by: 1
-updated_at: 1777905575
+updated_by: 2
+updated_at: 1778498920
 grade: 3
 summary: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
 overview:
@@ -333,4 +333,5 @@ now_open: false
 seasons:
   - spring
 headline: '7 days walking through central Sicily'
+image: tours/sicily-sicily-1-nicosia-to-petralia-soprana/08.jpg
 ---
