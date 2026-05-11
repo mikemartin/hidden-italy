@@ -5,8 +5,8 @@ title: "Val d'Aosta - Turin and the Val d'Aosta"
 name: "Turin and the Val d'Aosta"
 region: "Val d'Aosta"
 days: 13
-updated_by: 1
-updated_at: 1777905197
+updated_by: 2
+updated_at: 1778498626
 grade: 4
 summary: "Two weeks exploring the Val d'Aosta, Italy's smallest, but most spectacular, region!"
 overview:
@@ -356,4 +356,5 @@ finish_location:
       code: null
       level: 1
   country: Italy
+image: tours/val-daosta-turin-and-the-val-daosta-guided-tour/-valle-del-lys.jpeg
 ---
