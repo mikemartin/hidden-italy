@@ -321,8 +321,8 @@ tabs:
                                   type: checkboxes
                                   display: 'Meals Included'
                                   instructions: 'Select the meals provided on this day.'
-                    tour_overview:
-                      display: 'Tour Overview'
+                    overview:
+                      display: Overview
                       instructions: 'Tell the story behind the tour route.'
                       icon: Info
                       image: history.png

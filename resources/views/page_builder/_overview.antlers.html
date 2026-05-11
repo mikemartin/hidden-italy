@@ -1,16 +1,16 @@
 {{#
-    @name Tour Overview
+    @name Overview
     @desc Dark-blue "story" section: gold eyebrow + headline above two
           columns of bard body copy, with an optional 3-up photo strip
           beneath. Wrapped in `.dark` so semantic tokens flip — `bg-background`
           becomes the deep blue surface, `text-foreground` becomes parchment,
           and the topographic decoration tints itself accordingly.
-    @set page.page_builder.tour_overview
+    @set page.page_builder.overview
 #}}
 
-<!-- /page_builder/_tour_overview.antlers.html -->
+<!-- /page_builder/_overview.antlers.html -->
 {{ partial:page_builder/block
-    id="tour-overview"
+    block_id="overview"
     sentinel_top="top-12 md:top-16 lg:top-24"
     class="dark isolate overflow-hidden bg-background stack-space-collapse py-12 md:py-16 lg:py-24 gap-y-10 md:gap-y-14"
 }}
@@ -23,7 +23,7 @@
 
     {{ if block:title }}
         <header class="span-content flex flex-col gap-3">
-            {{ partial:typography/label :content="trans:strings.tour_overview ?? 'Overview'" small="true" class="!text-gold uppercase tracking-[0.12em] font-semibold" }}
+            {{ partial:typography/label content="Overview" small="true" class="!text-gold uppercase tracking-[0.12em] font-semibold" }}
             {{ partial:typography/h2 :content="block:title" color="text-foreground" class="max-w-2xl" }}
         </header>
     {{ /if }}
@@ -142,4 +142,4 @@
         </div>
     {{ /if }}
 {{ /partial:page_builder/block }}
-<!-- End: /page_builder/_tour_overview.antlers.html -->
+<!-- End: /page_builder/_overview.antlers.html -->

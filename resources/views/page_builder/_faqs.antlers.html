@@ -15,7 +15,7 @@
 <!-- /page_builder/_faqs.antlers.html -->
 {{ page_questions = block:questions ?? block:tour_questions }}
 {{ if page_questions || block:common_questions }}
-    {{ partial:page_builder/block id="faqs" sentinel_top="top-12 md:top-16 lg:top-24" class="py-12 md:py-16 lg:py-24" }}
+    {{ partial:page_builder/block block_id="faqs" sentinel_top="top-12 md:top-16 lg:top-24" class="py-12 md:py-16 lg:py-24" }}
         <div class="span-content grid grid-cols-1 lg:grid-cols-12 gap-y-10 lg:gap-x-12" x-data="{ open: 0 }">
             <header class="lg:col-span-4">
                 {{ partial:typography/h2 :content="block:heading ?? 'Frequently asked questions'" color="text-foreground" class="max-w-xs" }}

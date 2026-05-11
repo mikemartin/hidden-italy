@@ -1,5 +1,5 @@
 {{#
-    @name Tour overview actions
+    @name Tour summary actions
     @desc Share + Save buttons used in the tour overview block (desktop
           variant). Save piggy-backs on the Simple Likes fieldtype on the
           entry; Share opens a Flux dropdown rendered by the
@@ -7,12 +7,12 @@
           Firefox on desktop has no support).
 
           For the mobile breadcrumb row, see
-          `_tour_overview_actions_compact.antlers.html` — same actions,
+          `_tour_summary_actions_compact.antlers.html` — same actions,
           rendered as round icon-only buttons matching the drawer's
           Menu/Close affordance.
 #}}
 
-<!-- /components/_tour_overview_actions.antlers.html -->
+<!-- /components/_tour_summary_actions.antlers.html -->
 <div class="flex items-center gap-4 lg:justify-end">
     {{ partial:components/share_menu }}
 
@@ -20,4 +20,4 @@
         state syncs with the wishlist drawer through the addon's store. #}}
     {{ simple_like template_from="components._save_button" }}
 </div>
-<!-- End: /components/_tour_overview_actions.antlers.html -->
+<!-- End: /components/_tour_summary_actions.antlers.html -->

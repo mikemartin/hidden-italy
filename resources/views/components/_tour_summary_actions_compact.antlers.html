@@ -1,5 +1,5 @@
 {{#
-    @name Tour overview actions (compact)
+    @name Tour summary actions (compact)
     @desc Round icon-only Share + Save buttons used in the mobile
           breadcrumb row, where space is tight and a labelled
           `.button-inline` would crowd the chip. Style mirrors the
@@ -7,10 +7,10 @@
           with a parchment hover halo) so the surface vocabulary stays
           consistent. Share itself is rendered by the
           `components/_share_menu` partial in `compact` mode. Desktop renders
-          the labelled variant — see `_tour_overview_actions.antlers.html`.
+          the labelled variant — see `_tour_summary_actions.antlers.html`.
 #}}
 
-<!-- /components/_tour_overview_actions_compact.antlers.html -->
+<!-- /components/_tour_summary_actions_compact.antlers.html -->
 <div class="flex items-center gap-1">
     {{ partial:components/share_menu compact="true" }}
 
@@ -18,4 +18,4 @@
         state syncs with the wishlist drawer through the addon's store. #}}
     {{ simple_like template_from="components._save_button_compact" }}
 </div>
-<!-- End: /components/_tour_overview_actions_compact.antlers.html -->
+<!-- End: /components/_tour_summary_actions_compact.antlers.html -->

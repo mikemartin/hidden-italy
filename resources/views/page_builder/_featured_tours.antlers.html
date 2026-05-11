@@ -14,8 +14,7 @@
 <!-- /page_builder/_featured_tours.antlers.html -->
 {{ if block:tours }}
     <section
-        id="related-tours"
-        class="fluid-grid relative gap-y-12"
+        class="fluid-grid gap-y-12"
         x-data="{
             progress: 0,
             atStart: true,
@@ -49,14 +48,6 @@
             destroy() { this.splide?.destroy() },
         }"
     >
-        {{# Tour-subnav sentinel — section has no top padding, so the
-            sentinel sits at the section border (= content top). #}}
-        <div
-            aria-hidden="true"
-            x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('related-tours')"
-            class="absolute inset-x-0 top-0 h-px pointer-events-none"
-        ></div>
-
         <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             {{ partial:typography/h2 :content="block:heading" class="!mb-0" color="text-foreground" }}
 

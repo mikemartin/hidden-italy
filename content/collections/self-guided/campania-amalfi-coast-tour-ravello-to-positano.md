@@ -53,7 +53,7 @@ page_builder:
       - tours/liguria-cinque-terre-coastal-walking-tour-1/img_2216.jpg
       - tours/liguria-cinque-terre-coastal-walking-tour-1/positano-pan-1.jpg
       - tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
-    type: tour_overview
+    type: overview
     enabled: true
   -
     id: mloocwbk

@@ -125,25 +125,25 @@ return [
     'saved' => 'Saved',
 
     // Tour page sections
-    'tour_overview' => 'Overview',
     'day' => 'Day',
     'days' => 'Days',
     'from' => 'From',
-    'essentials' => 'Essentials',
     'equipment_needed' => 'Equipment needed',
     'travel_insurance' => 'Travel insurance conditions',
     'booking_cancellation' => 'Booking and cancellation conditions',
     'read_bio' => 'Read bio',
 
-    // Tour sub-nav (sticky in-page navigation)
+    // Tour sub-nav (sticky in-page navigation). Keys mirror page_builder block
+    // types; the lone exception is `testimonials` whose anchor is `reviews`.
     'tour_sections' => 'Tour sections',
+    'overview' => 'Overview',
     'highlights' => 'Highlights',
     'itinerary' => 'Itinerary',
     'experience' => 'Experience',
     'leader' => 'Leader',
-    'faq' => 'FAQ',
-    'reviews' => 'Reviews',
-    'related_tours' => 'Related tours',
+    'essentials' => 'Essentials',
+    'faqs' => 'FAQ',
+    'testimonials' => 'Reviews',
 
     // Experience tab
     'start' => 'Start',

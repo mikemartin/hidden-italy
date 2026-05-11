@@ -14,51 +14,46 @@
 
 <!-- /page_builder/_itinerary.antlers.html -->
 {{ if block:days }}
-    <section
-        id="itinerary"
-        class="fluid-grid relative gap-y-10 md:gap-y-16 bg-background py-12 md:py-16 lg:py-24 stack-space-collapse"
-        x-data="{
-            progress: 0,
-            atStart: true,
-            atEnd: false,
-            splide: null,
-            init() {
-                this.splide = new Splide(this.$refs.splide, {
-                    perPage: 3,
-                    perMove: 1,
-                    gap: '2.25rem',
-                    padding: { right: '6rem' },
-                    pagination: false,
-                    arrows: false,
-                    drag: 'free',
-                    snap: true,
-                    breakpoints: {
-                        768: { perPage: 1, gap: '1.5rem', padding: { right: '4rem' } },
-                    },
-                });
-                this.splide.on('mounted move scrolled', () => {
-                    const controller = this.splide.Components.Controller;
-                    const end = controller.getEnd() + 1;
-                    this.progress = Math.min((this.splide.index + 1) / end, 1) * 100;
-                    this.atStart = controller.getPrev() === -1;
-                    this.atEnd = controller.getNext() === -1;
-                });
-                this.splide.mount();
-            },
-            next() { this.splide?.go('+') },
-            prev() { this.splide?.go('-') },
-            destroy() { this.splide?.destroy() },
-        }"
-    >
-        {{# Tour-subnav sentinel — absolute at content-top after the outer
-            `py-12 md:py-16 lg:py-24` padding so the active state changes
-            when the heading actually arrives near the sticky nav. #}}
+    {{ partial:page_builder/block
+        block_id="itinerary"
+        sentinel_top="top-12 md:top-16 lg:top-24"
+        class="stack-space-collapse gap-y-10 md:gap-y-16 bg-background py-12 md:py-16 lg:py-24"
+    }}
         <div
-            aria-hidden="true"
-            x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('itinerary')"
-            class="absolute inset-x-0 top-12 md:top-16 lg:top-24 h-px pointer-events-none"
-        ></div>
-
+            class="contents"
+            x-data="{
+                progress: 0,
+                atStart: true,
+                atEnd: false,
+                splide: null,
+                init() {
+                    this.splide = new Splide(this.$refs.splide, {
+                        perPage: 3,
+                        perMove: 1,
+                        gap: '2.25rem',
+                        padding: { right: '6rem' },
+                        pagination: false,
+                        arrows: false,
+                        drag: 'free',
+                        snap: true,
+                        breakpoints: {
+                            768: { perPage: 1, gap: '1.5rem', padding: { right: '4rem' } },
+                        },
+                    });
+                    this.splide.on('mounted move scrolled', () => {
+                        const controller = this.splide.Components.Controller;
+                        const end = controller.getEnd() + 1;
+                        this.progress = Math.min((this.splide.index + 1) / end, 1) * 100;
+                        this.atStart = controller.getPrev() === -1;
+                        this.atEnd = controller.getNext() === -1;
+                    });
+                    this.splide.mount();
+                },
+                next() { this.splide?.go('+') },
+                prev() { this.splide?.go('-') },
+                destroy() { this.splide?.destroy() },
+            }"
+        >
         <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             {{ partial:typography/h2 :content="block:title" class="!mb-0" color="text-foreground" }}
 
@@ -184,6 +179,7 @@
                 ></div>
             </div>
         {{ /if }}
-    </section>
+        </div>
+    {{ /partial:page_builder/block }}
 {{ /if }}
 <!-- End: /page_builder/_itinerary.antlers.html -->

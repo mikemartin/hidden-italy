@@ -10,9 +10,9 @@
 
 <!-- /page_builder/_essentials.antlers.html -->
 {{ if block:sections }}
-    {{ partial:page_builder/block id="essentials" class="gap-y-10 md:gap-y-14" }}
+    {{ partial:page_builder/block block_id="essentials" class="gap-y-10 md:gap-y-14" }}
         <header class="span-content flex flex-col gap-3">
-            {{ partial:typography/label :content="trans:strings.essentials ?? 'Essentials'" small="true" class="!text-accent-2 uppercase tracking-[0.12em] font-semibold" }}
+            {{ partial:typography/label content="Essentials" small="true" class="!text-accent-2 uppercase tracking-[0.12em] font-semibold" }}
             {{ partial:typography/h2 :content="block:title ?? 'What you should know'" color="text-foreground" }}
         </header>
 

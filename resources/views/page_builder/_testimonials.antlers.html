@@ -9,60 +9,52 @@
 
 <!-- /page_builder/_testimonials.antlers.html -->
 {{ if block:testimonials }}
-    <section
-        id="reviews"
-        class="fluid-grid relative gap-y-12"
-        x-data="{
-            splide: null,
-            init() {
-                this.splide = new Splide(this.$refs.splide, {
-                    perPage: 1,
-                    gap: '1.5rem',
-                    pagination: true,
-                    arrows: false,
-                    autoplay: true,
-                    interval: 5000,
-                    speed: 600,
-                    pauseOnHover: true,
-                    pauseOnFocus: true,
-                    mediaQuery: 'min',
-                    breakpoints: {
-                        768: { destroy: true },
-                    },
-                });
-                this.splide.mount();
-            },
-            destroy() { this.splide?.destroy() },
-        }"
-    >
-        {{# Tour-subnav sentinel — absolute at content-top after the outer
-            `py-12 md:py-16 lg:py-24` padding so the active state changes
-            when the heading actually arrives near the sticky nav. #}}
+    {{ partial:page_builder/block block_id="reviews" class="gap-y-12" }}
         <div
-            aria-hidden="true"
-            x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('reviews')"
-            class="absolute inset-x-0 top-12 md:top-16 lg:top-24 h-px pointer-events-none"
-        ></div>
+            class="contents"
+            x-data="{
+                splide: null,
+                init() {
+                    this.splide = new Splide(this.$refs.splide, {
+                        perPage: 1,
+                        gap: '1.5rem',
+                        pagination: true,
+                        arrows: false,
+                        autoplay: true,
+                        interval: 5000,
+                        speed: 600,
+                        pauseOnHover: true,
+                        pauseOnFocus: true,
+                        mediaQuery: 'min',
+                        breakpoints: {
+                            768: { destroy: true },
+                        },
+                    });
+                    this.splide.mount();
+                },
+                destroy() { this.splide?.destroy() },
+            }"
+        >
+            {{ if block:title }}
+                <header class="span-content">
+                    {{ partial:typography/h2 :content="block:title" color="text-foreground" }}
+                </header>
+            {{ /if }}
 
-        {{ if block:title }}
-            <header class="span-content">
-                {{ partial:typography/h2 :content="block:title" color="text-foreground" }}
-            </header>
-        {{ /if }}
-
-        <div x-ref="splide" class="span-content splide testimonials-splide">
-            <div class="splide__track">
-                {{# `md:grid` overrides Splide's `.splide__list { display: flex }`
-                    once Splide is destroyed at `md`, restoring the 3-col grid. #}}
-                <ul class="splide__list md:grid md:grid-cols-3 md:gap-fluid-grid-gap">
-                    {{ block:testimonials }}
-                        <li class="splide__slide">
-                            {{ partial:components/testimonial-card color="bg-background" }}
-                        </li>
-                    {{ /block:testimonials }}
-                </ul>
+            <div x-ref="splide" class="span-content splide testimonials-splide">
+                <div class="splide__track">
+                    {{# `md:grid` overrides Splide's `.splide__list { display: flex }`
+                        once Splide is destroyed at `md`, restoring the 3-col grid. #}}
+                    <ul class="splide__list md:grid md:grid-cols-3 md:gap-fluid-grid-gap">
+                        {{ block:testimonials }}
+                            <li class="splide__slide">
+                                {{ partial:components/testimonial-card color="bg-background" }}
+                            </li>
+                        {{ /block:testimonials }}
+                    </ul>
+                </div>
             </div>
         </div>
-    </section>
+    {{ /partial:page_builder/block }}
 {{ /if }}
 <!-- End: /page_builder/_testimonials.antlers.html -->
