@@ -48,22 +48,36 @@
 
     /* Warm accents */
     --color-gold:       #e2ae4d; /* Accent */
-    --color-terracotta: #bb4d00; /* Light: accent-2 */
+    --color-gold-dark:  #9A6D19; /* Accent content (gold text) */
+    --color-terracotta: #bb4d00; /* Light: accent-2, error */
+    --color-sage:       #6d998c; /* Success */
 
     /* Neutrals — slate aliases for the mid-range. The 50 and 900 endpoints
        used to be White Heat overrides; both have been retired in favour of
        `parchment-200` and `foreground` respectively. The remaining slate
        defaults stay available for incidental greys. */
-    --color-neutral: var(--color-slate-800);
-    --color-neutral-100: var(--color-slate-100);
-    --color-neutral-200: var(--color-slate-200);
-    --color-neutral-300: var(--color-slate-300);
-    --color-neutral-400: var(--color-slate-400);
-    --color-neutral-500: var(--color-slate-500);
-    --color-neutral-600: var(--color-slate-600);
-    --color-neutral-700: var(--color-slate-700);
-    --color-neutral-800: var(--color-slate-800);
-    --color-neutral-950: var(--color-slate-950);
+    --color-neutral: var(--color-stone-800);
+    --color-neutral-100: var(--color-stone-100);
+    --color-neutral-200: var(--color-stone-200);
+    --color-neutral-300: var(--color-stone-300);
+    --color-neutral-400: var(--color-stone-400);
+    --color-neutral-500: var(--color-stone-500);
+    --color-neutral-600: var(--color-stone-600);
+    --color-neutral-700: var(--color-stone-700);
+    --color-neutral-800: var(--color-stone-800);
+    --color-neutral-950: var(--color-stone-950);
+
+    --color-zinc-50:  var(--color-stone-50);
+    --color-zinc-100: var(--color-stone-100);
+    --color-zinc-200: var(--color-stone-200);
+    --color-zinc-300: var(--color-stone-300);
+    --color-zinc-400: var(--color-stone-400);
+    --color-zinc-500: var(--color-stone-500);
+    --color-zinc-600: var(--color-stone-600);
+    --color-zinc-700: var(--color-stone-700);
+    --color-zinc-800: var(--color-stone-800);
+    --color-zinc-900: var(--color-stone-900);
+    --color-zinc-950: var(--color-stone-950);
 
     /* ============================================================
        Semantic tokens — Light surface (default).
@@ -75,9 +89,15 @@
     --color-text:           var(--color-blue-d-300);
     --color-muted:          oklch(from var(--color-text) l c h / 0.7);
     --color-accent:         var(--color-gold);
+    --color-accent-content: var(--color-gold-dark);
     --color-accent-2:       var(--color-terracotta);
     --color-accent-light:   var(--color-parchment-200);
+    --color-accent-foreground:  var(--color-foreground);
     --color-card:           var(--color-parchment-50);
+
+    /* Status — used by form validation messaging, toasts, inline notices. */
+    --color-success:        var(--color-sage);
+    --color-error:          var(--color-terracotta);
 
     /* `--color-primary` stays a literal brand blue (not surface-scoped) for
        legacy uses like `::selection` and the `text-primary` utility scattered
@@ -104,6 +124,7 @@
 
     --text-5xl: 2.5rem;
 }
+
 
 @layer base {
     html {

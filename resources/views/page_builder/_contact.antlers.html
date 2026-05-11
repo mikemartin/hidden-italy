@@ -14,63 +14,70 @@
 #}}
 
 <!-- /page_builder/_contact.antlers.html -->
-{{ partial:page_builder/block }}
-    <div class="span-content grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12 pb-12 md:pb-20">
+{{ partial:page_builder/block class="no-space-t" }}
+    <div class="span-content grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12">
 
         {{# ============ Left column: contact details + map ============ #}}
         {{# `order-*` swap puts the form above the contact details on mobile,
             then restores info-left / form-right at md+. #}}
         <div class="order-2 md:order-1 md:col-span-5 md:col-start-1 flex flex-col gap-8">
 
-            {{# Phones #}}
-            {{ if contact:phones }}
-                <section class="flex flex-col gap-3">
-                    <h2 class="font-display font-semibold uppercase text-xs tracking-[0.08em] text-terracotta leading-[1.5]">Phone</h2>
-                    <ul class="flex flex-col gap-2">
-                        {{ contact:phones }}
-                            <li class="flex items-start gap-3 text-base leading-[1.6] text-foreground">
-                                <span class="shrink-0 w-5 flex items-center justify-center pt-1">
-                                    {{ if first }}
-                                        <x-lucide-phone class="size-5 text-terracotta" stroke-width="1.5" aria-hidden="true" />
-                                    {{ /if }}
-                                </span>
-                                <div class="flex-1 flex flex-col md:flex-row md:items-baseline md:justify-between md:gap-3">
-                                    <span>{{ label }}</span>
-                                    <a href="tel:{{ number }}" class="font-medium text-foreground hover:text-terracotta transition-colors">{{ number }}</a>
-                                </div>
-                            </li>
-                        {{ /contact:phones }}
-                    </ul>
-                </section>
-            {{ /if }}
-
             {{# Email #}}
             {{ if contact:email }}
                 <section class="flex flex-col gap-3">
-                    <h2 class="font-display font-semibold uppercase text-xs tracking-[0.08em] text-terracotta leading-[1.5]">Email</h2>
-                    <p class="flex items-baseline gap-3 text-base leading-[1.6] text-foreground">
-                        <span class="shrink-0 w-5 flex items-center justify-center self-center">
-                            <x-lucide-mail class="size-5 text-terracotta" stroke-width="1.5" aria-hidden="true" />
+                    <h3 class="flex items-center gap-2">
+                        <x-lucide-mail class="size-5 lg:size-6 text-terracotta shrink-0" stroke-width="1.5" aria-hidden="true" />
+                        <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">
+                            Email
                         </span>
-                        <a href="mailto:{{ contact:email }}" class="font-medium text-foreground hover:text-terracotta transition-colors">{{ contact:email }}</a>
-                    </p>
+                    </h3>
+
+                    <div class="text-base leading-[1.6] text-foreground">
+                        <a href="mailto:{{ contact:email }}" class="underline underline-offset-2 font-medium text-foreground hover:text-terracotta transition-colors">{{ contact:email }}</a>
+                    </div>
+                </section>
+            {{ /if }}
+
+            {{# Phones #}}
+            {{ if contact:phones }}
+                <section class="flex flex-col gap-3">
+                    <h3 class="flex items-center gap-2">
+                        <x-lucide-phone class="size-5 lg:size-6 text-terracotta shrink-0" stroke-width="1.5" aria-hidden="true" />
+                        <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">
+                            Phone
+                        </span>
+                    </h3>
+
+                    {{ if contact:phones }}
+                        <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+                            {{ contact:phones }}
+                            <li class="text-base leading-[1.6] text-foreground">
+                                <span>{{ label }}</span>
+                                <br/>
+                                    <a href="tel:{{ number }}" class="font-medium hover:text-terracotta transition-colors">{{ number }}</a>
+                            </li>
+                            {{ /contact:phones }}
+                        </ul>
+                    {{ /if }}
+                    
                 </section>
             {{ /if }}
 
             {{# Office address #}}
             {{ if contact:address }}
                 <section class="flex flex-col gap-3">
-                    <h2 class="font-display font-semibold uppercase text-xs tracking-[0.08em] text-terracotta leading-[1.5]">{{ contact:office_label or 'Office' }}</h2>
-                    <div class="flex items-baseline gap-3 text-base leading-[1.6] text-foreground">
-                        <span class="shrink-0 w-5 flex items-start justify-center pt-1">
-                            <x-lucide-map-pin class="size-5 text-terracotta" stroke-width="1.5" aria-hidden="true" />
+                    <h3 class="flex items-center gap-2">
+                        <x-lucide-map-pin class="size-5 lg:size-6 text-terracotta shrink-0" stroke-width="1.5" aria-hidden="true" />
+                        <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">
+                            {{ contact:office_label or 'Office' }}
                         </span>
-                        <div class="flex-1 flex flex-col">
-                            <p class="font-medium">{{ contact:address | nl2br }}</p>
-                            {{ if contact:office_appointment_only }}
-                                <p class="text-sm text-text/70 mt-1">{{ contact:office_appointment_only }}</p>
-                            {{ /if }}
-                        </div>
+                    </h3>
+
+                    <div class="text-base leading-[1.6] text-foreground">
+                        <p class="font-medium">{{ contact:address | nl2br }}</p>
+                        {{ if contact:office_appointment_only }}
+                            <p class="text-sm text-text/70 mt-1">{{ contact:office_appointment_only }}</p>
+                        {{ /if }}
                     </div>
                 </section>
             {{ /if }}
@@ -82,7 +89,7 @@
                     data-coords="[{{ contact:office_lng }}, {{ contact:office_lat }}]"
                     class="rounded-lg overflow-hidden border border-parchment-300 shadow-sm"
                 >
-                    <div x-ref="canvas" class="w-full aspect-[4/3] bg-parchment-200" aria-label="Map showing the {{ contact:office_label or 'office' }}"></div>
+                    <div x-ref="canvas" class="w-full aspect-[16/9] bg-parchment-200" aria-label="Map showing the {{ contact:office_label or 'office' }}"></div>
                 </div>
             {{ /if }}
         </div>
@@ -96,11 +103,11 @@
                         <template x-if="form.hasErrors && submitted">
                             {{ partial:components/notification type="error" }}
                                 {{ slot:attributes }}id="summary" role="group"{{ /slot:attributes }}
-                                <h3 class="mb-2 leading-5 font-bold text-red-700">{{ trans:strings.form_error }}</h3>
-                                <ul class="list-disc list-inside marker:text-red-700">
+                                <h3 class="mb-2 leading-5 font-bold text-error">{{ trans:strings.form_error }}</h3>
+                                <ul class="list-disc list-inside marker:text-error">
                                     <template x-for="(error, index) in form.errors">
                                         <li>
-                                            <a :href="`#${index}`" @click.prevent="$focus.focus(document.querySelector(`#${index}`))" x-text="error" class="underline text-red-700 focus:outline-red-700"></a>
+                                            <a :href="`#${index}`" @click.prevent="$focus.focus(document.querySelector(`#${index}`))" x-text="error" class="underline text-error focus:outline-error"></a>
                                         </li>
                                     </template>
                                 </ul>
@@ -126,31 +133,49 @@
 
                         {{# Honeypot spam protection. #}}
                         <div class="hidden">
-                            <label class="font-bold" for="{{ honeypot }}">{{ trans:strings.form_honeypot }} <sup class="text-red-700">*</sup></label>
+                            <label class="font-bold" for="{{ honeypot }}">{{ trans:strings.form_honeypot }} <sup class="text-error">*</sup></label>
                             <input class="form-input w-full" id="{{ honeypot }}" type="text" name="{{ honeypot }}" x-model="form.{{ honeypot }}" tabindex="-1" autocomplete="off"/>
                         </div>
 
-                        {{# Render fields. Toggles drop the outer label so the inline
+                        {{# Render fields in a 12-col grid so the blueprint's
+                            per-field `width` (25/33/50/66/75) maps to a
+                            col-span and same-row fields sit side-by-side.
+                            Toggles drop the outer label so the inline
                             checkbox label (e.g. "Sign me up for email newsletter",
                             "I agree that…") reads as the only label — every other
-                            field gets the standard label + input pair. #}}
+                            field gets the standard label + input pair.
+                            `input_type == 'hidden'` text fields (used by
+                            the conditional-fields feature) render with the
+                            `hidden` class on the wrapper so they're in the
+                            DOM but invisible. #}}
                         {{ sections }}
-                            <fieldset class="flex flex-col gap-5">
+                            <fieldset class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
                                 {{ %form:fields scope="field" }}
                                     <template x-if="{{ show_field }}">
-                                        <div class="flex flex-col gap-2 {{ input_type == 'hidden' ?= 'hidden' }}">
+                                        <div class="
+                                            flex flex-col gap-2
+                                            {{ input_type == 'hidden' ?= 'hidden' }}
+                                            {{ switch(
+                                                (width == '25') => 'md:col-span-3',
+                                                (width == '33') => 'md:col-span-4',
+                                                (width == '50') => 'md:col-span-6',
+                                                (width == '66') => 'md:col-span-8',
+                                                (width == '75') => 'md:col-span-9',
+                                                () => 'md:col-span-12'
+                                            )}}
+                                        ">
                                             {{ if type == 'toggle' }}
                                                 {{ field:field }}
 
                                                 <template x-if="form.invalid('{{ handle }}')">
-                                                    <span class="text-red-700 text-sm font-bold" x-text="form.errors.{{ handle }}"></span>
+                                                    <span class="text-error text-sm font-bold" x-text="form.errors.{{ handle }}"></span>
                                                 </template>
                                             {{ else }}
                                                 {{ unless type == 'spacer' }}
-                                                    <label class="block text-base font-semibold text-foreground" for="{{ handle }}">
+                                                    <label class="block text-base font-medium leading-[1.6] text-foreground" for="{{ handle }}">
                                                         {{ trans :key="field:display" }}
                                                         {{ if validate | contains('required') || validate | contains('accepted') }}
-                                                            <sup aria-label="{{ trans:strings.form_required }}" class="text-red-700">*</sup>
+                                                            <sup aria-label="{{ trans:strings.form_required }}" class="text-error">*</sup>
                                                         {{ /if }}
                                                     </label>
 
@@ -165,7 +190,7 @@
                                                     {{ field:field }}
 
                                                     <template x-if="form.invalid('{{ handle }}')">
-                                                        <span class="text-red-700 text-sm font-bold" x-text="form.errors.{{ handle }}"></span>
+                                                        <span class="text-error text-sm font-bold" x-text="form.errors.{{ handle }}"></span>
                                                     </template>
 
                                                     {{ if field:instructions && instructions_position === 'below' }}

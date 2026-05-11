@@ -1,16 +1,14 @@
 @theme {
     --color-lf-accent: var(--color-gold); /* Main accent color — gold for focus + chevron */
-    --color-lf-subtle:  color-mix(in oklab, var(--color-gray-900) 5%, transparent); /* Lighter color */
-    --color-lf-text: var(--color-gray-900); /* Main text color */
-    --color-lf-muted: var(--color-gray-500); /* Muted/secondary text color */
-    --color-lf-input-bg: var(--color-gray-50); /* Background of input elements */
+    --color-lf-subtle:  var(--color-parchment-50); /* Lighter color */
+    --color-lf-text: var(--color-text); /* Main text color */
+    --color-lf-muted: var(--color-muted); /* Muted/secondary text color */
+    --color-lf-input-bg: var(--color-white); /* Background of input elements */
 
-
-    --color-lf-border: var(--color-parchment-300); /* Border color */
+    --color-lf-border: oklch(from var(--color-text) l c h / 0.2);; /* Border color */
     --lf-border-width: 1px; /* Main border width */
     --radius-lf: var(--radius-xl); /* Border radius */
     --radius-lf-sm: var(--radius-sm); /* Border radius for checkboxes and smaller items */
-
 
     --text-lf: var(--text-base); /* Main text size — matches label.large */
 

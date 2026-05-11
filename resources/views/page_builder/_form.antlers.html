@@ -19,11 +19,11 @@
                     <template x-if="form.hasErrors && submitted">
                         {{ partial:components/notification type="error" }}
                             {{ slot:attributes }}id="summary" role="group"{{ /slot:attributes }}
-                            <h3 class="mb-2 leading-5 font-bold text-red-700">{{ trans:strings.form_error }}</h3>
-                            <ul class="list-disc list-inside marker:text-red-700">
+                            <h3 class="mb-2 leading-5 font-bold text-error">{{ trans:strings.form_error }}</h3>
+                            <ul class="list-disc list-inside marker:text-error">
                                 <template x-for="(error, index) in form.errors">
                                     <li>
-                                        <a :href="`#${index}`" @click.prevent="$focus.focus(document.querySelector(`#${index}`))" x-text="error" class="underline text-red-700 focus:outline-red-700"></a>
+                                        <a :href="`#${index}`" @click.prevent="$focus.focus(document.querySelector(`#${index}`))" x-text="error" class="underline text-error focus:outline-error"></a>
                                     </li>
                                 </template>
                             </ul>
@@ -49,7 +49,7 @@
 
                     {{# Honeypot spam protection. #}}
                     <div class="hidden">
-                        <label class="font-bold" for="{{ honeypot }}">{{ trans:strings.form_honeypot }} <sup class="text-red-700">*</sup></label>
+                        <label class="font-bold" for="{{ honeypot }}">{{ trans:strings.form_honeypot }} <sup class="text-error">*</sup></label>
                         <input class="form-input w-full" id="{{ honeypot }}" type="text" name="{{ honeypot }}" x-model="form.{{ honeypot }}" tabindex="-1" autocomplete="off"/>
                     </div>
 
@@ -82,7 +82,7 @@
                                             <label class="font-bold" for="{{ handle }}">
                                                 {{ trans :key="field:display" }}
                                                 {{ if validate | contains('required') || validate | contains('accepted') }}
-                                                    <sup aria-label="{{ trans:strings.form_required }}" class="text-red-700">*</sup>
+                                                    <sup aria-label="{{ trans:strings.form_required }}" class="text-error">*</sup>
                                                 {{ /if }}
                                             </label>
 
@@ -98,7 +98,7 @@
 
                                             {{# Inline error. #}}
                                             <template x-if="form.invalid('{{ handle }}')">
-                                                <span class="mt-1 text-red-700 text-sm font-bold" x-text="form.errors.{{ handle }}"></span>
+                                                <span class="mt-1 text-error text-sm font-bold" x-text="form.errors.{{ handle }}"></span>
                                             </template>
 
                                             {{ if field:instructions && instructions_position === 'below' }}
