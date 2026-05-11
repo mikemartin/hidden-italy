@@ -45,6 +45,8 @@ inclusions:
   - '24 hour back-up from local operations manager'
   - 'City taxes are not included in the cost of the tour'
 locations: northern-italy
+landscapes:
+  - coastal
 page_builder:
   -
     id: mloocwbk

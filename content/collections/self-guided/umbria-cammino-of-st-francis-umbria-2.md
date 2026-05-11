@@ -50,6 +50,9 @@ inclusions:
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: central-italy
+landscapes:
+  - countryside
+  - lakes
 page_builder:
   -
     id: mloocwbk

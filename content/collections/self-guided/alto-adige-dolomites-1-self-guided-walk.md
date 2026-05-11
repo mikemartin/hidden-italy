@@ -49,6 +49,8 @@ inclusions:
   - 'Transfers to the beginning of the walks on Day 2 and Day 4'
   - 'City taxes are not included in the cost of the tour'
 locations: northern-italy
+landscapes:
+  - mountains
 page_builder:
   -
     id: mloocwbk

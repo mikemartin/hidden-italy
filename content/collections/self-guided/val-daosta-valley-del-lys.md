@@ -357,6 +357,8 @@ page_builder:
     type: essentials
     enabled: true
 locations: northern-italy
+landscapes:
+  - mountains
 image: tours/val-daosta-valley-del-lys/7.jpg
 gallery:
   - tours/val-daosta-valley-del-lys/1.jpg

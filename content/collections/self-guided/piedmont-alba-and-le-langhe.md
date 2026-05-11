@@ -40,6 +40,8 @@ inclusions:
   - '24 hour backup from our operations manager'
   - 'City taxes are not included in t'
 locations: northern-italy
+landscapes:
+  - countryside
 page_builder:
   -
     id: mloocwbk

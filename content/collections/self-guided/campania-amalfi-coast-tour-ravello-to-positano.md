@@ -43,6 +43,8 @@ inclusions:
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: southern-italy
+landscapes:
+  - coastal
 page_builder:
   -
     id: mloocwbk

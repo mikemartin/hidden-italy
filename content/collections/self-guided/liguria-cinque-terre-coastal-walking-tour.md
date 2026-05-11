@@ -37,6 +37,8 @@ inclusions:
   - 'City taxes are not included in the cost of the tour'
   - 'A curated list of restaurants for each town you visit'
 locations: northern-italy
+landscapes:
+  - coastal
 page_builder:
   -
     id: mloocwbk

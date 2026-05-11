@@ -281,6 +281,8 @@ page_builder:
     type: testimonials
     enabled: true
 locations: southern-italy
+landscapes:
+  - mountains
 duplicated_from: 7397f93f-96a7-4030-b13c-2315e28fe22c
 gallery:
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/saints-day-out.jpg

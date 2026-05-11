@@ -281,6 +281,8 @@ page_builder:
     type: testimonials
     enabled: true
 locations: southern-italy
+landscapes:
+  - coastal
 duplicated_from: 9b40b14d-a9c5-43b5-ae27-eeb883bc2c34
 image: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/a.jpeg
 gallery:
