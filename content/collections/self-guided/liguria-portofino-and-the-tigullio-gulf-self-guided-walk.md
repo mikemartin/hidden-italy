@@ -5,8 +5,8 @@ title: 'Liguria - Portofino and the Tigullio Gulf'
 name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6
-updated_by: 1
-updated_at: 1777905400
+updated_by: 2
+updated_at: 1778499007
 grade: 3
 summary: 'Spend a week exploring the Portofino National Park and the stupendous Tigullio Gulf!'
 overview:
@@ -262,7 +262,7 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-image: tours/liguria-cinque-terre-coastal-walking-tour/georgiana-andreca-h-hkuehqrs0-unsplash-a.jpg
+image: tours/liguria-cinque-terre-coastal-walking-tour/primaselezione-portofino-7504460_1920-a.jpg
 gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour/moira-nazzari-cbtepzflvtu-unsplash.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/linfer3-santa-margherita-2784154_1920.jpg
