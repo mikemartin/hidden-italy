@@ -44,9 +44,9 @@
             class="absolute inset-x-0 top-12 md:top-16 lg:top-24 h-px pointer-events-none"
         ></div>
 
-        {{ if block:heading }}
+        {{ if block:title }}
             <header class="span-content">
-                {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
+                {{ partial:typography/h2 :content="block:title" color="text-foreground" }}
             </header>
         {{ /if }}
 
@@ -57,7 +57,7 @@
                 <ul class="splide__list md:grid md:grid-cols-3 md:gap-fluid-grid-gap">
                     {{ block:testimonials }}
                         <li class="splide__slide">
-                            {{ partial:components/testimonial-card }}
+                            {{ partial:components/testimonial-card color="bg-background" }}
                         </li>
                     {{ /block:testimonials }}
                 </ul>

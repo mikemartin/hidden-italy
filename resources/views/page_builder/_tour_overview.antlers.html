@@ -9,11 +9,11 @@
 #}}
 
 <!-- /page_builder/_tour_overview.antlers.html -->
-<section
+{{ partial:page_builder/block
     id="tour-overview"
-    class="dark relative isolate overflow-hidden bg-background stack-space-collapse py-12 md:py-16 lg:py-24"
-    x-data
->
+    sentinel_top="top-12 md:top-16 lg:top-24"
+    class="dark isolate overflow-hidden bg-background stack-space-collapse py-12 md:py-16 lg:py-24 gap-y-10 md:gap-y-14"
+}}
     {{# Topographic decoration tinted darker so it sits behind the copy
         without competing for attention. Uses currentColor on the wrapper. #}}
     <div class="pointer-events-none absolute inset-x-0 top-0 -z-10 text-blue-d-100" aria-hidden="true">
@@ -21,138 +21,125 @@
         {{ svg:top-right attr:class="absolute top-0 right-0 w-[320px] md:w-[400px] h-auto" }}
     </div>
 
-    {{# Tour-subnav sentinel — sits at the section's content-top (after the
-        outer padding) so `intersect:enter` fires when the heading actually
-        arrives near the sticky nav, not when the section's border merely
-        crosses the viewport edge. Outer is not a grid, so a flow child is
-        the simplest way to land at the right position. #}}
-    <div
-        aria-hidden="true"
-        x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('tour-overview')"
-        class="h-px"
-    ></div>
+    {{ if block:title }}
+        <header class="span-content flex flex-col gap-3">
+            {{ partial:typography/label :content="trans:strings.tour_overview ?? 'Overview'" small="true" class="!text-gold uppercase tracking-[0.12em] font-semibold" }}
+            {{ partial:typography/h2 :content="block:title" color="text-foreground" class="max-w-2xl" }}
+        </header>
+    {{ /if }}
 
-    {{ partial:page_builder/block class="stack-space-collapse gap-y-10 md:gap-y-14" }}
-        {{ if block:title }}
-            <header class="span-content flex flex-col gap-3">
-                {{ partial:typography/label :content="trans:strings.tour_overview ?? 'Overview'" small="true" class="!text-gold uppercase tracking-[0.12em] font-semibold" }}
-                {{ partial:typography/h2 :content="block:title" color="text-foreground" class="max-w-2xl" }}
-            </header>
-        {{ /if }}
+    {{ if block:column_left || block:column_right }}
+        <div class="span-content grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
+            {{ if block:column_left }}
+                <div class="font-sans text-base md:text-lg leading-[1.6] text-text [&_p]:mb-4 [&_p:last-child]:mb-0">
+                    {{ block:column_left }}
+                </div>
+            {{ /if }}
+            {{ if block:column_right }}
+                <div class="font-sans text-base md:text-lg leading-[1.6] text-text [&_p]:mb-4 [&_p:last-child]:mb-0">
+                    {{ block:column_right }}
+                </div>
+            {{ /if }}
+        </div>
+    {{ /if }}
 
-        {{ if block:column_left || block:column_right }}
-            <div class="span-content grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
-                {{ if block:column_left }}
-                    <div class="font-sans text-base md:text-lg leading-[1.6] text-text [&_p]:mb-4 [&_p:last-child]:mb-0">
-                        {{ block:column_left }}
-                    </div>
-                {{ /if }}
-                {{ if block:column_right }}
-                    <div class="font-sans text-base md:text-lg leading-[1.6] text-text [&_p]:mb-4 [&_p:last-child]:mb-0">
-                        {{ block:column_right }}
-                    </div>
-                {{ /if }}
-            </div>
-        {{ /if }}
+    {{# Asymmetric 3-up gallery: wide landscape, then portrait, then
+        square. Mobile lays it out as two rows — 16/9 across the top,
+        2/3 + 1/1 sharing the bottom; md+ flips to a single matched-
+        height row. Column fractions on the desktop grid (16fr 6fr 9fr)
+        and the mobile bottom row (2fr 3fr) are picked to match the
+        aspect-ratio widths exactly, so every tile lines up at the same
+        height without forcing one with a fixed pixel value.
 
-        {{# Asymmetric 3-up gallery: wide landscape, then portrait, then
-            square. Mobile lays it out as two rows — 16/9 across the top,
-            2/3 + 1/1 sharing the bottom; md+ flips to a single matched-
-            height row. Column fractions on the desktop grid (16fr 6fr 9fr)
-            and the mobile bottom row (2fr 3fr) are picked to match the
-            aspect-ratio widths exactly, so every tile lines up at the same
-            height without forcing one with a fixed pixel value.
+        Photos are addressed with index access (`images.N`) instead of
+        `{{ block:images limit }}` because Statamic's shared
+        OrderedQueryBuilder mis-handles repeated identical limit calls
+        on the same field, which a parallel mobile/desktop tree needs. #}}
+    {{ if block:images }}
+        {{ images = block:images }}
+        {{ images_count = images | count }}
 
-            Photos are addressed with index access (`images.N`) instead of
-            `{{ block:images limit }}` because Statamic's shared
-            OrderedQueryBuilder mis-handles repeated identical limit calls
-            on the same field, which a parallel mobile/desktop tree needs. #}}
-        {{ if block:images }}
-            {{ images = block:images }}
-            {{ images_count = images | count }}
-
-            {{# Mobile gallery — 2 rows. #}}
-            <div class="span-content md:hidden flex flex-col gap-4">
-                {{ if images_count > 0 }}
-                    <div class="aspect-[16/9] rounded-lg overflow-hidden bg-card">
-                        {{ picture
-                            :image="images.0"
-                            aspect_ratio="16/9"
-                            cover="true"
-                            class="w-full h-full"
-                            sizes="100vw"
-                            loading="lazy"
-                        }}
-                    </div>
-                {{ /if }}
-                {{ if images_count > 1 }}
-                    <div class="grid grid-cols-[2fr_3fr] gap-4">
-                        <div class="aspect-[2/3] rounded-lg overflow-hidden bg-card">
-                            {{ picture
-                                :image="images.1"
-                                aspect_ratio="2/3"
-                                cover="true"
-                                class="w-full h-full"
-                                sizes="40vw"
-                                loading="lazy"
-                            }}
-                        </div>
-                        {{ if images_count > 2 }}
-                            <div class="aspect-square rounded-lg overflow-hidden bg-card">
-                                {{ picture
-                                    :image="images.2"
-                                    aspect_ratio="1/1"
-                                    cover="true"
-                                    class="w-full h-full"
-                                    sizes="60vw"
-                                    loading="lazy"
-                                }}
-                            </div>
-                        {{ /if }}
-                    </div>
-                {{ /if }}
-            </div>
-
-            {{# Desktop gallery — single matched-height row. #}}
-            <div class="span-content hidden md:grid grid-cols-[16fr_6fr_9fr] gap-6">
-                {{ if images_count > 0 }}
-                    <div class="aspect-[16/9] rounded-lg overflow-hidden bg-card">
-                        {{ picture
-                            :image="images.0"
-                            aspect_ratio="16/9"
-                            cover="true"
-                            class="w-full h-full"
-                            sizes="(min-width: 1024px) 51vw, 64vw"
-                            loading="lazy"
-                        }}
-                    </div>
-                {{ /if }}
-                {{ if images_count > 1 }}
+        {{# Mobile gallery — 2 rows. #}}
+        <div class="span-content md:hidden flex flex-col gap-4">
+            {{ if images_count > 0 }}
+                <div class="aspect-[16/9] rounded-lg overflow-hidden bg-card">
+                    {{ picture
+                        :image="images.0"
+                        aspect_ratio="16/9"
+                        cover="true"
+                        class="w-full h-full"
+                        sizes="100vw"
+                        loading="lazy"
+                    }}
+                </div>
+            {{ /if }}
+            {{ if images_count > 1 }}
+                <div class="grid grid-cols-[2fr_3fr] gap-4">
                     <div class="aspect-[2/3] rounded-lg overflow-hidden bg-card">
                         {{ picture
                             :image="images.1"
                             aspect_ratio="2/3"
                             cover="true"
                             class="w-full h-full"
-                            sizes="(min-width: 1024px) 19vw, 24vw"
+                            sizes="40vw"
                             loading="lazy"
                         }}
                     </div>
-                {{ /if }}
-                {{ if images_count > 2 }}
-                    <div class="aspect-square rounded-lg overflow-hidden bg-card">
-                        {{ picture
-                            :image="images.2"
-                            aspect_ratio="1/1"
-                            cover="true"
-                            class="w-full h-full"
-                            sizes="(min-width: 1024px) 29vw, 36vw"
-                            loading="lazy"
-                        }}
-                    </div>
-                {{ /if }}
-            </div>
-        {{ /if }}
-    {{ /partial:page_builder/block }}
-</section>
+                    {{ if images_count > 2 }}
+                        <div class="aspect-square rounded-lg overflow-hidden bg-card">
+                            {{ picture
+                                :image="images.2"
+                                aspect_ratio="1/1"
+                                cover="true"
+                                class="w-full h-full"
+                                sizes="60vw"
+                                loading="lazy"
+                            }}
+                        </div>
+                    {{ /if }}
+                </div>
+            {{ /if }}
+        </div>
+
+        {{# Desktop gallery — single matched-height row. #}}
+        <div class="span-content hidden md:grid grid-cols-[16fr_6fr_9fr] gap-6">
+            {{ if images_count > 0 }}
+                <div class="aspect-[16/9] rounded-lg overflow-hidden bg-card">
+                    {{ picture
+                        :image="images.0"
+                        aspect_ratio="16/9"
+                        cover="true"
+                        class="w-full h-full"
+                        sizes="(min-width: 1024px) 51vw, 64vw"
+                        loading="lazy"
+                    }}
+                </div>
+            {{ /if }}
+            {{ if images_count > 1 }}
+                <div class="aspect-[2/3] rounded-lg overflow-hidden bg-card">
+                    {{ picture
+                        :image="images.1"
+                        aspect_ratio="2/3"
+                        cover="true"
+                        class="w-full h-full"
+                        sizes="(min-width: 1024px) 19vw, 24vw"
+                        loading="lazy"
+                    }}
+                </div>
+            {{ /if }}
+            {{ if images_count > 2 }}
+                <div class="aspect-square rounded-lg overflow-hidden bg-card">
+                    {{ picture
+                        :image="images.2"
+                        aspect_ratio="1/1"
+                        cover="true"
+                        class="w-full h-full"
+                        sizes="(min-width: 1024px) 29vw, 36vw"
+                        loading="lazy"
+                    }}
+                </div>
+            {{ /if }}
+        </div>
+    {{ /if }}
+{{ /partial:page_builder/block }}
 <!-- End: /page_builder/_tour_overview.antlers.html -->

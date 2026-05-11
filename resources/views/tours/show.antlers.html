@@ -122,19 +122,6 @@
     pinned, providing a clean visual separation from the content scrolling
     underneath. #}}
 {{ if page_builder | count }}
-    {{ subnav_ids = 'overview' }}
-    {{ page_builder scope="block" }}
-        {{ if type == 'tour_overview' }}{{ subnav_ids = "{subnav_ids},tour-overview" }}{{ /if }}
-        {{ if type == 'itinerary' }}{{ subnav_ids = "{subnav_ids},itinerary" }}{{ /if }}
-        {{ if type == 'experience' }}{{ subnav_ids = "{subnav_ids},experience" }}{{ /if }}
-        {{ if type == 'highlights' }}{{ subnav_ids = "{subnav_ids},highlights" }}{{ /if }}
-        {{ if type == 'essentials' }}{{ subnav_ids = "{subnav_ids},essentials" }}{{ /if }}
-        {{ if type == 'faqs' }}{{ subnav_ids = "{subnav_ids},faqs" }}{{ /if }}
-        {{ if type == 'testimonials' }}{{ subnav_ids = "{subnav_ids},reviews" }}{{ /if }}
-        {{ if type == 'leader' }}{{ subnav_ids = "{subnav_ids},leader" }}{{ /if }}
-        {{ if type == 'featured_tours' }}{{ subnav_ids = "{subnav_ids},related-tours" }}{{ /if }}
-    {{ /page_builder }}
-
     {{# Sentinel sits in flow directly above the sticky nav. While it's in
         view, the nav hasn't pinned yet → no shadow. Once the user scrolls
         past it, `intersect:leave` writes `stuck = true` into the shared
