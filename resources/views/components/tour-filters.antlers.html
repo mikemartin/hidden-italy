@@ -1,6 +1,7 @@
 {{#
     @name Tour filters
-    @desc Filter card above the tours grid. Locations / Seasons / Grade.
+    @desc Filter card above the tours grid. Locations / Seasons / Grade, plus
+          Landscapes on /self-guided only.
 
           Layout:
             - md+: card sits inline above the listing with title + live count
@@ -169,46 +170,27 @@
 
             Seasons uses the `seasons-checkbox-filter` subclass so labels
             get appended with month ranges (e.g. "Spring (Mar – May)"). #}}
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+        <div class="grid grid-cols-1 gap-4 md:gap-6 {{ if tour_collections == 'self-guided' }}md:grid-cols-2 lg:grid-cols-4{{ else }}md:grid-cols-3{{ /if }}">
             <div>
                 {{ partial:typography/label as="div" large="true" color="text-text" content="Locations" class="!mb-2" }}
-                <div class="md:hidden">
-                    {{ livewire:lf-checkbox-filter
-                        blueprint="guided.tour"
-                        field="locations"
-                        condition="taxonomy"
-                        view="lf-checkbox"
-                    }}
-                </div>
-                <div class="hidden md:block">
-                    {{ livewire:lf-checkbox-filter
-                        blueprint="guided.tour"
-                        field="locations"
-                        condition="taxonomy"
-                        view="lf-checkbox-advanced"
-                        placeholder="Please select"
-                    }}
-                </div>
+                {{ livewire:lf-checkbox-filter
+                    blueprint="guided.tour"
+                    field="locations"
+                    condition="taxonomy"
+                    view="lf-checkbox-advanced"
+                    placeholder="All locations"
+                }}
             </div>
             <div>
                 {{ partial:typography/label as="div" large="true" color="text-text" content="Season (months)" class="!mb-2" }}
-                <div class="md:hidden">
-                    {{ livewire:seasons-checkbox-filter
-                        blueprint="guided.tour"
-                        field="seasons"
-                        condition="taxonomy"
-                        view="lf-checkbox"
-                    }}
-                </div>
-                <div class="hidden md:block">
-                    {{ livewire:seasons-checkbox-filter
-                        blueprint="guided.tour"
-                        field="seasons"
-                        condition="taxonomy"
-                        view="lf-checkbox-advanced"
-                        placeholder="Please select"
-                    }}
-                </div>
+
+                {{ livewire:seasons-checkbox-filter
+                    blueprint="guided.tour"
+                    field="seasons"
+                    condition="taxonomy"
+                    view="lf-checkbox-advanced"
+                    placeholder="All seasons"
+                }}
             </div>
             <div>
                 <div class="flex items-baseline gap-1 mb-2">
@@ -224,26 +206,27 @@
                         <x-lucide-info class="size-4" stroke-width="2" aria-hidden="true" />
                     </button>
                 </div>
-                <div class="md:hidden">
-                    {{ livewire:lf-checkbox-filter
-                        blueprint="guided.tour"
-                        field="filter_grade"
-                        condition="query_scope"
-                        modifier="walking_grade"
-                        view="lf-checkbox"
-                    }}
-                </div>
-                <div class="hidden md:block">
-                    {{ livewire:lf-checkbox-filter
-                        blueprint="guided.tour"
-                        field="filter_grade"
-                        condition="query_scope"
-                        modifier="walking_grade"
-                        view="lf-checkbox-advanced"
-                        placeholder="Please select"
-                    }}
-                </div>
+                {{ livewire:lf-checkbox-filter
+                    blueprint="guided.tour"
+                    field="filter_grade"
+                    condition="query_scope"
+                    modifier="walking_grade"
+                    view="lf-checkbox-advanced"
+                    placeholder="All walking grades"
+                }}
             </div>
+            {{ if tour_collections == 'self-guided' }}
+                <div>
+                    {{ partial:typography/label as="div" large="true" color="text-text" content="Landscapes" class="!mb-2" }}
+                    {{ livewire:lf-checkbox-filter
+                        blueprint="self-guided.tour"
+                        field="landscapes"
+                        condition="taxonomy"
+                        view="lf-checkbox-advanced"
+                        placeholder="All landscapes"
+                    }}
+                </div>
+            {{ /if }}
         </div>
 
         {{# Mobile-only "Show results" footer — closes the drawer. The

@@ -733,3 +733,12 @@ tabs:
               max_items: 1
               create: false
               mode: select
+          -
+            handle: landscapes
+            field:
+              type: terms
+              taxonomies:
+                - landscapes
+              display: Landscapes
+              create: false
+              mode: select

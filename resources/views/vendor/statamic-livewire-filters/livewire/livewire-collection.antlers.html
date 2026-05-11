@@ -26,34 +26,31 @@
             {{ links }}
         </div>
     {{ else }}
-        <div class="bg-card flex flex-col items-center justify-center px-6 py-16 md:px-12 md:py-24 rounded-lg">
-            <div class="flex flex-col items-center text-center gap-6 max-w-xl">
-                <div class="flex shrink-0 items-center justify-center size-20 md:size-24 rounded-full bg-parchment-200 text-accent-2">
+        <div class="flex flex-col items-center justify-center px-6 py-12 md:py-16 rounded-lg">
+            <div class="flex flex-col items-center text-center gap-4 max-w-xl">
+                <div class="flex shrink-0 items-center justify-center size-20 rounded-full bg-parchment-200 text-accent-2">
                     {{ svg
-                        src="icons/trekking-compass"
-                        attr:class="size-12 md:size-16 fill-current"
+                        src="icons/trekking-binoculars"
+                        attr:class="size-12 fill-current"
                         attr:aria-hidden="true"
                         attr:role="img"
                     }}
                 </div>
 
-                {{ partial:typography/h2
+                {{ partial:typography/h3
                     content="No tours match those filters"
                     color="text-foreground"
                     class="!m-0 text-center"
                 }}
 
                 <p class="text-base lg:text-lg font-normal leading-[1.6] text-text mt-0 mb-0">
-                    Try loosening your selection — clear a filter or two and your matching tours will reappear.
+                    Try changing or removing some of your filters.
                 </p>
 
                 <div class="mt-4 flex flex-wrap items-center justify-center gap-4 sm:gap-6">
-                    <button type="button" wire:click="clearAll" class="button button--accent button--large">
-                        <span>Reset filters</span>
+                    <button type="button" wire:click="clearAll" class="button button--accent">
+                        <span>Clear filters</span>
                     </button>
-                    <a href="/tours" class="button button--cream button--large" wire:navigate>
-                        <span>View all tours</span>
-                    </a>
                 </div>
             </div>
         </div>
