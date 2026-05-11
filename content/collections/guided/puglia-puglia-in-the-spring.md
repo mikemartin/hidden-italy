@@ -41,6 +41,7 @@ locations: southern-italy
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 tour_size: 15
 date: '2026-05-16 14:00'
+leader: 1230cc0a-4e65-42f4-8ae8-b9b7c8d2efd2
 page_builder:
   -
     id: mloqd78x

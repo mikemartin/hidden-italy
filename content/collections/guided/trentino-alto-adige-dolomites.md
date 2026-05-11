@@ -53,6 +53,7 @@ gallery:
   - tours/trentino-alto-adige-dolomites/p9192166.jpg
   - tours/trentino-alto-adige-dolomites/61.jpg
 simple_likes: 0
+leader: 95f3ac32-6597-497b-a522-9514694a6d0f
 page_builder:
   -
     id: mlq6wt91

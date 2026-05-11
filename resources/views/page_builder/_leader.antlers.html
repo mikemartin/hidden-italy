@@ -9,26 +9,30 @@
 #}}
 
 <!-- /page_builder/_leader.antlers.html -->
-{{ if block:person }}
+{{ if leader }}
     {{ partial:page_builder/block subnav_id="leader" sentinel_top="top-12 md:top-16 lg:top-24" class="stack-space-collapse bg-parchment-100 py-12 md:py-16 lg:py-24 gap-y-8 md:gap-y-10" }}
         <div class="span-content grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
-            <header class="lg:col-span-3">
-                {{ partial:typography/h3 :content="block:title ?? 'Tour Leader'" color="text-foreground" }}
+            <header class="lg:col-span-4">
+                {{ partial:typography/h2 :content="block:title ?? 'Tour Leader'" color="text-foreground" }}
             </header>
 
-            {{ block:person }}
-                <article class="lg:col-span-9 bg-card border border-parchment-200 rounded-xl shadow-sm p-6 md:p-8 flex flex-col sm:flex-row gap-6 md:gap-8">
-                    {{ if image }}
-                        <div class="shrink-0 size-32 sm:size-36 md:size-40 rounded-xl overflow-hidden bg-parchment-200">
+            {{ leader }}
+                <article class="lg:col-span-8 bg-card border border-parchment-200 rounded-xl shadow-sm p-6 md:p-8 flex flex-col sm:flex-row gap-6 md:gap-8">
+                    <div class="relative self-start shrink-0 w-32 sm:w-36 md:w-40 aspect-[3/4] rounded-xl overflow-hidden bg-parchment-200">
+                        {{ if image }}
                             {{ picture
                                 :image="image"
-                                class="w-full h-full object-cover"
+                                class="absolute inset-0 w-full h-full object-cover"
                                 cover="true"
                                 sizes="160px"
                                 loading="lazy"
                             }}
-                        </div>
-                    {{ /if }}
+                        {{ else }}
+                            <div class="absolute inset-0 flex items-center justify-center text-terracotta">
+                                {{ svg src="lucide/leader" attr:class="size-12" attr:aria-hidden="true" }}
+                            </div>
+                        {{ /if }}
+                    </div>
 
                     <div class="flex-1 flex flex-col gap-3">
                         <div class="flex flex-col gap-1">
@@ -45,7 +49,7 @@
                         {{ /if }}
                     </div>
                 </article>
-            {{ /block:person }}
+            {{ /leader }}
         </div>
     {{ /partial:page_builder/block }}
 {{ /if }}

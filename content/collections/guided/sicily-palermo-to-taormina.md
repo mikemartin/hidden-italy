@@ -64,6 +64,7 @@ gallery:
   - tours/sicily-palermo-to-taormina/63.jpg
   - tours/sicily-palermo-to-taormina/65.jpg
 simple_likes: 0
+leader: d5906250-c5b7-4c0d-8643-d9308740b425
 page_builder:
   -
     id: S-GxLPbJ4K3UJXaWyild9

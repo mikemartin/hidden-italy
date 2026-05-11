@@ -40,6 +40,7 @@ locations: northern-italy
 duplicated_from: bf401969-bac2-4370-8ffd-d7c62b8f4ade
 tour_size: 15
 date: '2027-05-27 14:00'
+leader: 9a02b1a9-0133-4c3d-83cc-2b0cbfb4a215
 page_builder:
   -
     id: mloqd78x

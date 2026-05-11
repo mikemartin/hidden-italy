@@ -59,6 +59,7 @@ gallery:
   - tours/sardinia-cagliari-to-the-costa-smeralda/img_5840.jpg
   - tours/sardinia-cagliari-to-the-costa-smeralda/img_5769-(2).jpg
   - tours/sardinia-cagliari-to-the-costa-smeralda/78.jpg
+leader: 9a1428c1-852b-434f-9547-2feb06269b99
 page_builder:
   -
     id: mlpxjjup

@@ -52,6 +52,7 @@ gallery:
   - tours/campania-the-amalfi-coast-naples-to-ravello/img_8037.jpg
   - tours/campania-the-amalfi-coast-naples-to-ravello/maratea-5.jpg
   - tours/campania-the-amalfi-coast-naples-to-ravello/img_2509-v2.jpg
+leader: b08df9d3-3d2e-4ee5-a911-dfc4c430c7e4
 page_builder:
   -
     id: mlj10cx3

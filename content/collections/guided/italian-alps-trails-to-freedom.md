@@ -381,6 +381,6 @@ finish_location:
       level: 2
   country: Italy
 now_open: true
-leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
+leader: 7a758c7b-1287-4bd4-8522-707974d0d9c7
 headline: '10 days hiking in the Italian Alps'
 ---

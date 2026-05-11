@@ -469,7 +469,7 @@ tabs:
                                           instructions: "Renamed from `images` to dodge a Statamic OrderedQueryBuilder leak with the history block's `images` field."
                     leader:
                       display: 'Tour Leader'
-                      instructions: 'Introduce the guide leading this tour.'
+                      instructions: 'Introduce the guide leading this tour. Shows leader from Overview tab.'
                       icon: leader
                       image: leader.png
                       fields:
@@ -479,15 +479,6 @@ tabs:
                             type: text
                             display: Title
                             default: 'Tour Leader'
-                        -
-                          handle: person
-                          field:
-                            type: entries
-                            collections:
-                              - people
-                            display: Person
-                            instructions: "Links to the person's bio in the People collection."
-                            max_items: 1
                     essentials:
                       display: Essentials
                       instructions: 'Practical info travellers need to book.'

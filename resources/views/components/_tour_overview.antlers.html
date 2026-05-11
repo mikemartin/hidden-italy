@@ -157,65 +157,50 @@
                     </div>
                 {{ /if }}
 
-                {{# Tour leader — collapses to second-column on mobile, full row on desktop. #}}
+                {{# Tour leader — collapses to second-column on mobile, full row on desktop.
+                    The portrait and name are both anchors to the page_builder `#leader`
+                    section, which carries the full bio. Smooth-scroll mirrors the tour
+                    subnav's `goTo` behaviour; if the leader block isn't on the page the
+                    handler no-ops (and the native href stays inert). #}}
                 {{ if leader }}
                     {{ leader }}
                         <div class="flex-1 lg:flex-initial flex items-start gap-2 lg:gap-4">
-                            {{ if image }}
-                                <x-flux::modal.trigger name="tour-leader-bio-{{ slug }}">
-                                    <button type="button" class="shrink-0 size-10 lg:size-12 rounded-full overflow-hidden bg-parchment-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold">
-                                        <span class="sr-only">{{ trans:strings.read_bio ?? 'Read bio' }}</span>
-                                        {{
-                                            picture
-                                            :image="image"
-                                            class="w-full h-full object-cover"
-                                            cover="true"
-                                            sizes="48px"
-                                            loading="lazy"
-                                        }}
-                                    </button>
-                                </x-flux::modal.trigger>
-                            {{ /if }}
+                            <a
+                                href="#leader"
+                                x-data
+                                @click.prevent="document.getElementById('leader')?.scrollIntoView({ behavior: 'smooth', block: 'start' })"
+                                class="relative shrink-0 size-10 lg:size-12 rounded-full overflow-hidden bg-parchment-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                            >
+                                <span class="sr-only">{{ trans:strings.read_bio ?? 'Read bio' }}</span>
+                                {{ if image }}
+                                    {{
+                                        picture
+                                        :image="image"
+                                        class="absolute inset-0 w-full h-full object-cover"
+                                        cover="true"
+                                        sizes="48px"
+                                        loading="lazy"
+                                    }}
+                                {{ else }}
+                                    <div class="absolute inset-0 flex items-center justify-center text-terracotta">
+                                        {{ svg src="lucide/leader" attr:class="size-5 lg:size-6" attr:aria-hidden="true" }}
+                                    </div>
+                                {{ /if }}
+                            </a>
                             <div>
                                 <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">
                                     {{ trans:strings.tour_leader ?? 'Tour Leader' }}
                                 </dt>
                                 <dd class="mt-1">
-                                    <x-flux::modal.trigger name="tour-leader-bio-{{ slug }}">
-                                        <button type="button" class="group flex space-x-1.5 items-center focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold rounded-sm">
-                                            <span class="font-display font-medium text-base lg:text-lg leading-[1.5] text-foreground underline underline-offset-2">{{ title }}</span>
-                                            <x-lucide-arrow-up-right class="size-4 lg:size-5" stroke-width="1.5" aria-hidden="true" />
-                                        </button>
-                                    </x-flux::modal.trigger>
+                                    <a
+                                        href="#leader"
+                                        x-data
+                                        @click.prevent="document.getElementById('leader')?.scrollIntoView({ behavior: 'smooth', block: 'start' })"
+                                        class="font-display font-medium text-base lg:text-lg leading-[1.5] text-foreground underline underline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold rounded-sm"
+                                    >{{ title }}</a>
                                 </dd>
                             </div>
                         </div>
-
-                        <x-flux::modal name="tour-leader-bio-{{ slug }}" variant="flyout" class="md:w-[34rem]">
-                            <div class="space-y-6">
-                                <div class="flex items-center gap-4">
-                                    {{ if image }}
-                                        <div class="size-20 shrink-0 rounded-xl overflow-hidden bg-parchment-200">
-                                            {{ picture :image="image" class="w-full h-full object-cover" cover="true" sizes="80px" loading="lazy" }}
-                                        </div>
-                                    {{ /if }}
-                                    <div>
-                                        <x-flux::heading size="lg">{{ title }}</x-flux::heading>
-                                        {{ if subtitle }}
-                                            <x-flux::text class="!mt-1 text-accent-2 font-medium">{{ subtitle }}</x-flux::text>
-                                        {{ /if }}
-                                    </div>
-                                </div>
-
-                                {{ if short_bio }}
-                                    <x-flux::separator />
-
-                                    <div class="font-sans text-base leading-[1.6] text-text">
-                                        <p>{{ short_bio }}</p>
-                                    </div>
-                                {{ /if }}
-                            </div>
-                        </x-flux::modal>
                     {{ /leader }}
                 {{ /if }}
             </dl>
