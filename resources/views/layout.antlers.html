@@ -49,9 +49,10 @@
         {{ template_content }}
 
         {{# Universal CTA banner — pulled from the `cta_banner` global.
-            Skipped on tour listing templates (`tours/index`) since those
-            pages have their own CTAs and don't need a duplicate. #}}
-        {{ unless template == 'tours/index' }}
+            Skipped on the tour listing (`tours/index`, which has its own
+            CTAs) and on tour show pages (`tours/show`, which render their
+            own tour-specific CTA via `tours/cta_banner`). #}}
+        {{ unless current_template == 'tours/index' || current_template == 'tours/show' }}
             {{ partial:layout/cta_banner }}
         {{ /unless }}
 
