@@ -25,19 +25,26 @@
             {{ livewire-collection :from="tour_collections" paginate="50" scrollTo="#livewire-collection" }}
         </div>
     </section>
+
+
+{{# 
+    {{ if questions }}
+        <section class="fluid-grid py-12 md:py-16 lg:py-24">
+            {{ partial:components/faq_section
+                :questions="questions"
+                :heading="questions_heading"
+                :tour_collection="tour_collections"
+            }}
+        </section>
+    {{ /if }}
+
+
+    {{ if walking_benefits_heading && walking_benefits }}
+        {{ partial:components/walking_benefits :heading="walking_benefits_heading" :intro="walking_benefits_intro" :benefits="walking_benefits" }}
+    {{ /if }}
+ #}}
+
 </main>
 
-{{# Brand reassurance panel — sits outside <main> and ahead of the global
-    CTA banner injected by the layout. Scoped to the single-collection
-    listings (/guided and /self-guided); the combined /tours page skips it
-    since neither global is a clean fit. #}}
-{{ if tour_collections == 'guided' }}
-    {{ guided_walking_benefits }}
-        {{ partial:components/walking_benefits :heading="heading" :intro="intro" :benefits="benefits" }}
-    {{ /guided_walking_benefits }}
-{{ elseif tour_collections == 'self-guided' }}
-    {{ self_guided_walking_benefits }}
-        {{ partial:components/walking_benefits :heading="heading" :intro="intro" :benefits="benefits" }}
-    {{ /self_guided_walking_benefits }}
-{{ /if }}
+
 <!-- End: /tours/index.antlers.html -->

@@ -1,0 +1,68 @@
+{{#
+    @name FAQ section
+    @desc Side title on the left, a single shadow card on the right
+          holding the question accordion with parchment dividers between
+          items. Each question's bard `answer` is iterated as a tag pair
+          so set nodes (e.g. the walking-grades table) render via their
+          own partials.
+
+          The partial outputs just the content (a `span-content` grid
+          with header + accordion). The caller is responsible for the
+          surrounding `<section>` — `tours/index.antlers.html` wraps it
+          in a plain section.
+    @param* questions       Iterable of question entries (must expose `title` and `answer`).
+    @param  heading         Optional section heading. Defaults to "Frequently asked questions".
+    @param  tour_collection Forwarded to set partials so the walking-grades table can pick the right column.
+#}}
+
+<!-- /components/_faq_section.antlers.html -->
+{{ if questions }}
+    <div class="span-content grid grid-cols-1 lg:grid-cols-12 gap-y-10 lg:gap-x-12" x-data="{ open: null }">
+        <header class="lg:col-span-4">
+            {{ partial:typography/h2 :content="heading ?? 'Frequently asked questions'" color="text-foreground" class="max-w-xs" }}
+        </header>
+
+        <ul class="lg:col-span-8 bg-card border border-parchment-200 rounded-lg overflow-hidden shadow-sm divide-y divide-parchment-200">
+            {{ questions }}
+                <li>
+                    <button
+                        type="button"
+                        @click="open = (open === '{{ id }}' ? null : '{{ id }}')"
+                        :aria-expanded="open === '{{ id }}'"
+                        aria-controls="faq-panel-{{ id }}"
+                        class="w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 text-left font-display font-semibold text-base md:text-lg text-foreground hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold focus-visible:-outline-offset-2"
+                    >
+                        <span>{{ title }}</span>
+                        <x-lucide-chevron-right
+                            class="size-5 shrink-0 text-accent-2 transition-transform"
+                            stroke-width="2"
+                            aria-hidden="true"
+                            x-bind:class="open === '{{ id }}' ? 'rotate-90' : ''"
+                        />
+                    </button>
+                    <div
+                        id="faq-panel-{{ id }}"
+                        x-show="open === '{{ id }}'"
+                        x-collapse
+                        x-cloak
+                    >
+                        <div class="px-5 md:px-6 pb-5 md:pb-6 font-sans text-base leading-[1.6] text-text [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:underline [&_a]:underline-offset-4 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-3">
+                            {{# Tag-pair iteration so bard sets render their own
+                                partials (e.g. the walking-grades table). Text
+                                chunks come through pre-rendered as HTML; anything
+                                else is a set named after its handle. #}}
+                            {{ answer }}
+                                {{ if type == 'text' }}
+                                    {{ text }}
+                                {{ else }}
+                                    {{ partial src="sets/{type}" :tour_collection="tour_collection" }}
+                                {{ /if }}
+                            {{ /answer }}
+                        </div>
+                    </div>
+                </li>
+            {{ /questions }}
+        </ul>
+    </div>
+{{ /if }}
+<!-- End: /components/_faq_section.antlers.html -->

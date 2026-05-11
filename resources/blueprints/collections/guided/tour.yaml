@@ -660,10 +660,10 @@ tabs:
                       image: testimonials.png
                       fields:
                         -
-                          handle: title
+                          handle: heading
                           field:
                             type: text
-                            display: Title
+                            display: Heading
                             default: 'What our travellers are saying'
                         -
                           handle: testimonials
@@ -685,10 +685,10 @@ tabs:
                             display: 'Section Heading'
                             default: 'Frequently Asked Questions'
                         -
-                          handle: tour_questions
+                          handle: questions
                           field:
                             type: grid
-                            display: 'Tour Questions'
+                            display: Questions
                             mode: stacked
                             add_row: 'Add Question'
                             instructions: 'Questions specific to this tour.'
@@ -710,13 +710,12 @@ tabs:
                                   type: bard
                                   display: Answer
                         -
-                          handle: common_questions
+                          handle: show_common_questions
                           field:
-                            type: entries
-                            collections:
-                              - questions
-                            display: 'Common Questions'
-                            instructions: 'Select shared questions from the Questions collection. These are appended after tour-specific questions.'
+                            type: toggle
+                            default: true
+                            display: 'Show common questions?'
+                            instructions: 'Automatically show common questions for the tour type.'
   sidebar:
     display: Sidebar
     sections:

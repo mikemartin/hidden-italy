@@ -261,6 +261,10 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+  -
+    type: faqs
+    enabled: true
+    show_common_questions: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 image: tours/alto-adige-dolomites-1-self-guided-walk/img_8778-1773019621.jpg

@@ -64,7 +64,7 @@ gallery:
   - tours/sicily-palermo-to-taormina/63.jpg
   - tours/sicily-palermo-to-taormina/65.jpg
 simple_likes: 0
-leader: d5906250-c5b7-4c0d-8643-d9308740b425
+leader: 699bd6c8-377d-46a8-bd97-234a3720b9f1
 page_builder:
   -
     id: S-GxLPbJ4K3UJXaWyild9
@@ -299,7 +299,7 @@ page_builder:
   -
     id: 6W62AaoW5NTjMgyRKeBS_
     title: 'Tour Leader'
-    person: d5906250-c5b7-4c0d-8643-d9308740b425
+    person: 699bd6c8-377d-46a8-bd97-234a3720b9f1
     type: leader
     enabled: true
   -
@@ -342,8 +342,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: 9nrvzu_HzHfgnrIsEXjwJ
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - 90017a97-94dc-4aa6-9aff-9ee29900ba5f
       - 708c9249-1670-4243-ad71-56d7525ad061

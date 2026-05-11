@@ -356,6 +356,10 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+  -
+    type: faqs
+    enabled: true
+    show_common_questions: true
 locations: northern-italy
 landscapes:
   - mountains

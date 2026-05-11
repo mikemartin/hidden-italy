@@ -53,7 +53,7 @@ gallery:
   - tours/trentino-alto-adige-dolomites/p9192166.jpg
   - tours/trentino-alto-adige-dolomites/61.jpg
 simple_likes: 0
-leader: 95f3ac32-6597-497b-a522-9514694a6d0f
+leader: 656b56c6-ff12-45de-86a3-c6c480d7c141
 page_builder:
   -
     id: mlq6wt91
@@ -280,7 +280,7 @@ page_builder:
     title: 'Tour Leader'
     type: leader
     enabled: true
-    person: 95f3ac32-6597-497b-a522-9514694a6d0f
+    person: 656b56c6-ff12-45de-86a3-c6c480d7c141
   -
     id: MqjKRTdGj_huvWXIOGgOs
     title: 'What you should know'
@@ -321,8 +321,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: eDfHEu200IcSeuS_-cgIx
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - 26c474bc-d63b-4e5d-a803-336c91cae9f9
       - 81605165-ce12-4be2-bc03-d266121acaed

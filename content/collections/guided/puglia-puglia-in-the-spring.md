@@ -41,7 +41,7 @@ locations: southern-italy
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 tour_size: 15
 date: '2026-05-16 14:00'
-leader: 1230cc0a-4e65-42f4-8ae8-b9b7c8d2efd2
+leader: fa3be588-b0dd-4d37-9213-bafbd1992434
 page_builder:
   -
     id: mloqd78x
@@ -269,7 +269,7 @@ page_builder:
   -
     id: iOkmFU6ExNE08DptpipsO
     title: 'Tour Leader'
-    person: 1230cc0a-4e65-42f4-8ae8-b9b7c8d2efd2
+    person: fa3be588-b0dd-4d37-9213-bafbd1992434
     type: leader
     enabled: true
   -
@@ -311,6 +311,10 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+  -
+    type: faqs
+    enabled: true
+    show_common_questions: true
 simple_likes: 0
 seasons: spring
 image: tours/puglia-puglia-in-the-spring/19.7.jpg

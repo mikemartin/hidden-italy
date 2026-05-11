@@ -1,10 +1,12 @@
 {{#
     @name Walking benefits
-    @desc Brand reassurance panel rendered at the bottom of tour show pages.
-          Side title + intro on the left, benefit entries with icons on the
-          right. Heading/intro/benefits come in as params from the caller —
-          guided tours pull from the `guided_walking_benefits` global,
-          self-guided from `self_guided_walking_benefits`.
+    @desc Brand reassurance panel rendered at the bottom of tour-listing
+          and tour show pages. Side title + intro on the left, benefit
+          entries with icons on the right. Heading/intro/benefits come
+          in as params from the caller — both listings read these
+          straight from their page entry's `walking_benefits_*` fields;
+          tour show templates pull them from the matching listing page
+          via `get_content`.
     @param* heading Side title.
     @param intro Optional short paragraph under the heading.
     @param* benefits Entries collection iterable (Benefit collection).

@@ -263,7 +263,7 @@ page_builder:
   -
     id: J5i0VWMfEbXL5ACtZxLBv
     title: 'Tour Leader'
-    person: 7a758c7b-1287-4bd4-8522-707974d0d9c7
+    person: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
     type: leader
     enabled: true
   -
@@ -321,8 +321,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: v-Y1X2gPDJm6PxI5fCblV
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - c4dad366-cfdd-443a-8db6-c29df33df79a
       - 5e20d0e8-847b-4371-95a7-a7c859735fee
@@ -381,6 +385,6 @@ finish_location:
       level: 2
   country: Italy
 now_open: true
-leader: 7a758c7b-1287-4bd4-8522-707974d0d9c7
+leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 headline: '10 days hiking in the Italian Alps'
 ---

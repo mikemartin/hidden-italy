@@ -298,6 +298,10 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+  -
+    type: faqs
+    enabled: true
+    show_common_questions: true
 simple_likes: 0
 seasons: spring
 image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2869.jpg

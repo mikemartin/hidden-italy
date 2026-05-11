@@ -40,7 +40,7 @@ locations: northern-italy
 duplicated_from: bf401969-bac2-4370-8ffd-d7c62b8f4ade
 tour_size: 15
 date: '2027-05-27 14:00'
-leader: 9a02b1a9-0133-4c3d-83cc-2b0cbfb4a215
+leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 page_builder:
   -
     id: mloqd78x
@@ -269,7 +269,7 @@ page_builder:
   -
     id: YEFY7hZMnIxanwuc-b1Gz
     title: 'Tour Leader'
-    person: 9a02b1a9-0133-4c3d-83cc-2b0cbfb4a215
+    person: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
     type: leader
     enabled: true
   -
@@ -312,8 +312,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: pwTJTyBaY13aVVi7tQ2RT
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - 5a57b163-6002-43db-bc81-daa72c0b3b8e
       - 63163d04-ec03-49e2-bd47-3a7b990834c8

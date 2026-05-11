@@ -52,7 +52,7 @@ gallery:
   - tours/campania-the-amalfi-coast-naples-to-ravello/img_8037.jpg
   - tours/campania-the-amalfi-coast-naples-to-ravello/maratea-5.jpg
   - tours/campania-the-amalfi-coast-naples-to-ravello/img_2509-v2.jpg
-leader: b08df9d3-3d2e-4ee5-a911-dfc4c430c7e4
+leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 page_builder:
   -
     id: mlj10cx3
@@ -286,7 +286,7 @@ page_builder:
     title: 'Tour Leader'
     type: leader
     enabled: true
-    person: b08df9d3-3d2e-4ee5-a911-dfc4c430c7e4
+    person: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
   -
     id: Wbn93LssKpNECI5qeXTCy
     title: 'What you should know'
@@ -327,8 +327,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: DTIS5wOA0I16LznMjkaNB
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - 70aaf54b-388a-4901-a321-6688ac483bbf
       - 645d9e38-4f9a-4590-b2f5-27761417d043

@@ -1,0 +1,26 @@
+title: 'Walking benefits'
+fields:
+  -
+    handle: walking_benefits_heading
+    field:
+      type: text
+      localizable: true
+      display: Heading
+      instructions: 'Leave blank to hide the panel.'
+  -
+    handle: walking_benefits_intro
+    field:
+      type: textarea
+      localizable: true
+      display: Intro
+      instructions: 'One short paragraph under the heading.'
+  -
+    handle: walking_benefits
+    field:
+      type: entries
+      localizable: true
+      display: Benefits
+      collections:
+        - benefits
+      max_items: 6
+      instructions: 'Pick benefits from the Benefits collection. Three is the intended count.'

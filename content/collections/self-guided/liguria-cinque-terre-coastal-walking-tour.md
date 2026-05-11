@@ -254,8 +254,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: e0MVbbIGrAUhO79dXb94n
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - a3519272-9f93-46df-90cf-8c28d7a03683
       - 67398d4d-4c1a-4103-a4fd-4ec816867e63

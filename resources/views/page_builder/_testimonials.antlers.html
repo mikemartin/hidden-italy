@@ -35,9 +35,9 @@
                 destroy() { this.splide?.destroy() },
             }"
         >
-            {{ if block:title }}
+            {{ if block:heading }}
                 <header class="span-content">
-                    {{ partial:typography/h2 :content="block:title" color="text-foreground" }}
+                    {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
                 </header>
             {{ /if }}
 

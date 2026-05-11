@@ -195,8 +195,12 @@ page_builder:
     type: itinerary
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: hqjZfm096AlKce4Tz15li
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - 877f5193-444f-4490-b938-85dda15ade4e
       - 6715e193-829f-4c07-96e8-410f9bade787

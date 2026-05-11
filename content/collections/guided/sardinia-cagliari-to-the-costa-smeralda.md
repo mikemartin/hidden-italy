@@ -59,7 +59,7 @@ gallery:
   - tours/sardinia-cagliari-to-the-costa-smeralda/img_5840.jpg
   - tours/sardinia-cagliari-to-the-costa-smeralda/img_5769-(2).jpg
   - tours/sardinia-cagliari-to-the-costa-smeralda/78.jpg
-leader: 9a1428c1-852b-434f-9547-2feb06269b99
+leader: 436787ff-89d4-438e-bf50-81c3672256cc
 page_builder:
   -
     id: mlpxjjup
@@ -281,7 +281,7 @@ page_builder:
   -
     id: usUm--pyAOLbxEXIGOs3A
     title: 'Tour Leader'
-    person: 9a1428c1-852b-434f-9547-2feb06269b99
+    person: 436787ff-89d4-438e-bf50-81c3672256cc
     type: leader
     enabled: true
   -
@@ -324,8 +324,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: epecYpX1z3Uko099RuFZ4
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - e6acc32d-2bf4-455c-b7f6-34de730a1f75
       - a728fa11-3eff-47a6-b290-99a3edab23ef
