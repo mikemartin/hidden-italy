@@ -5,9 +5,9 @@
     :aria-invalid="form.invalid('{{ handle }}')"
     :class="{
         'border-error focus:border-error focus:ring-error/20': form.invalid('{{ handle }}'),
-        'border-text/20 focus:border-accent focus:ring-accent': !form.invalid('{{ handle }}')
+        'border-neutral-300 focus:border-accent focus:ring-accent': !form.invalid('{{ handle }}')
     }"
-    class="block w-full rounded-2xl bg-card px-5 py-3 text-base lg:text-lg text-foreground border placeholder:text-text/40 focus:outline-none focus:ring-2 transition field-sizing-content"
+    class="block w-full rounded-2xl bg-card px-5 py-3 text-base lg:text-lg text-foreground border placeholder:text-neutral-400 focus:outline-none focus:ring-2 transition field-sizing-content"
     id="{{ handle }}"
     name="{{ handle }}"
     rows="5"

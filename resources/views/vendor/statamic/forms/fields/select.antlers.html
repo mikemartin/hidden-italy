@@ -6,7 +6,7 @@
         :aria-invalid="form.invalid('{{ handle }}')"
         :class="{
             'border-error focus:border-error focus:ring-error/20': form.invalid('{{ handle }}'),
-            'border-text/20 focus:border-accent focus:ring-accent': !form.invalid('{{ handle }}')
+            'border-neutral-300 focus:border-accent focus:ring-accent': !form.invalid('{{ handle }}')
         }"
         class="block w-full appearance-none rounded-full bg-card pl-5 pr-12 py-3 text-base lg:text-lg text-foreground border focus:outline-none focus:ring-2 transition"
         id="{{ handle }}"
