@@ -44,11 +44,14 @@
     {{ /if }}
 {{ /partial:components/tour_banner }}
 
-{{# Sticky sub-nav — sits between the banner and the overview, jumping the
-    visitor to each section. Items are derived from the actual page_builder
-    blocks on the entry: only known section types render nav buttons (others
-    stay silent). Active state is driven by the `tourSubnav` Alpine store,
-    populated by `x-intersect` directives on each section. Smooth scroll
+{{ partial:components/tour_overview }}
+
+{{# Sticky sub-nav — sits between the gallery/stats overview and the
+    page_builder blocks, jumping the visitor to each section. Items are
+    derived from the actual page_builder blocks on the entry: only known
+    section types render nav buttons (others stay silent). Active state is
+    driven by the `tourSubnav` Alpine store, populated by `x-intersect`
+    directives on each section. Smooth scroll
     uses native `scrollIntoView`, which honours each section's `scroll-mt-*`
     utility. The wrapper carries a `stuck` flag — a sentinel above the nav
     flips it via `x-intersect` so the nav picks up a shadow only once
@@ -57,7 +60,7 @@
 {{ if page_builder | count }}
     {{ subnav_ids = 'overview' }}
     {{ page_builder scope="block" }}
-        {{ if type == 'history' }}{{ subnav_ids = "{subnav_ids},history" }}{{ /if }}
+        {{ if type == 'tour_overview' }}{{ subnav_ids = "{subnav_ids},tour-overview" }}{{ /if }}
         {{ if type == 'itinerary' }}{{ subnav_ids = "{subnav_ids},itinerary" }}{{ /if }}
         {{ if type == 'experience' }}{{ subnav_ids = "{subnav_ids},experience" }}{{ /if }}
         {{ if type == 'highlights' }}{{ subnav_ids = "{subnav_ids},highlights" }}{{ /if }}
@@ -85,7 +88,7 @@
     <nav
         x-data="tourSubnav"
         :class="$store.tourSubnav.stuck && 'shadow-md'"
-        class="sticky top-0 z-20 bg-parchment-100 motion-safe:transition-shadow"
+        class="sticky top-0 z-20 bg-card border-y border-parchment-200 motion-safe:transition-shadow"
         aria-label="{{ trans:strings.tour_sections ?? 'Tour sections' }}"
     >
             <div class="fluid-grid">
@@ -106,15 +109,7 @@
                         Setting min-width to 0 caps the `<ul>` at its
                         parent's width so the tabs can scroll. #}}
                     <div class="relative flex-1 flex items-stretch min-w-0">
-                        <ul class="flex items-stretch overflow-x-auto no-scrollbar flex-1 min-w-0 gap-x-6">
-                            <li class="flex">
-                                <button
-                                    type="button"
-                                    @click="goTo('overview')"
-                                    :class="$store.tourSubnav.active === 'overview' ? 'border-gold' : 'border-transparent'"
-                                    class="flex items-center text-base font-medium leading-[1.6] text-foreground whitespace-nowrap border-b-[3px] motion-safe:transition-colors hover:text-foreground/70 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-gold"
-                                >{{ trans:strings.overview ?? 'Overview' }}</button>
-                            </li>
+                        <ul class="flex items-stretch overflow-x-auto no-scrollbar flex-1 min-w-0">
                             {{# Loop-local variables are named `nav_btn_id` / `nav_btn_label`
                                 rather than `subnav_id` / `subnav_label` because Antlers
                                 assignments inside a tag-pair loop persist into the outer
@@ -124,7 +119,7 @@
                                 section that doesn't pass its own to inherit the last loop
                                 value (e.g. `reviews`) and emit a duplicate target. #}}
                             {{ page_builder scope="block" }}
-                                {{ if type == 'history' }}{{ nav_btn_id = 'history' }}{{ nav_btn_label = trans:strings.history ?? 'History' }}
+                                {{ if type == 'tour_overview' }}{{ nav_btn_id = 'tour-overview' }}{{ nav_btn_label = trans:strings.tour_overview ?? 'Overview' }}
                                 {{ elseif type == 'highlights' }}{{ nav_btn_id = 'highlights' }}{{ nav_btn_label = trans:strings.highlights ?? 'Highlights' }}
                                 {{ elseif type == 'itinerary' }}{{ nav_btn_id = 'itinerary' }}{{ nav_btn_label = trans:strings.itinerary ?? 'Itinerary' }}
                                 {{ elseif type == 'experience' }}{{ nav_btn_id = 'experience' }}{{ nav_btn_label = trans:strings.experience ?? 'Experience' }}
@@ -142,7 +137,7 @@
                                             type="button"
                                             @click="goTo('{{ nav_btn_id }}')"
                                             :class="$store.tourSubnav.active === '{{ nav_btn_id }}' ? 'border-gold' : 'border-transparent'"
-                                            class="flex items-center text-base font-medium leading-[1.6] text-foreground whitespace-nowrap border-b-[3px] motion-safe:transition-colors hover:text-foreground/70 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-gold"
+                                            class="flex items-center px-4 text-base font-medium leading-[1.6] text-foreground whitespace-nowrap border-b-[3px] motion-safe:transition-colors hover:text-foreground/70 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-gold"
                                         >{{ nav_btn_label }}</button>
                                     </li>
                                 {{ /if }}
@@ -150,7 +145,7 @@
                         </ul>
                         <div
                             aria-hidden="true"
-                            class="pointer-events-none absolute inset-y-0 right-0 w-6 bg-gradient-to-l from-parchment-100 to-transparent md:hidden"
+                            class="pointer-events-none absolute inset-y-0 right-0 w-6 bg-gradient-to-l from-card to-transparent md:hidden"
                         ></div>
                     </div>
 
@@ -235,8 +230,6 @@
         </div>
     </x-flux::modal>
 {{ /unless }}
-
-{{ partial:components/tour_overview }}
 
 <main class="page-builder" id="content">
     {{ page_builder scope="block" }}

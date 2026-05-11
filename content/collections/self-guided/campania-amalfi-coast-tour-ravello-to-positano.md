@@ -15,21 +15,7 @@ overview:
     content:
       -
         type: text
-        text: "This fabulous continuous walk along the length of the breathtaking Amalfi Coast starts with a private transfer from Naples to Ravello and then finishes with a private transfer from Positano back to Naples at the end. \_In between you get to experience the 'costiera' in all its colour and glory."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The Amalfi Coast is surely one of the most spectacular parts of the Mediterranean, with steep mountains rising almost 1500 metres above the limpid aquamarine sea and whitewashed villages that seem to have tumbled down the slopes to the water's edge.  It is an area of a vibrant colours, lush vegetation and warm, boisterous people.  And then there is the food (the finest in the south?)!"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This is a tour of two worlds: the winding trails take you high above the coast during the day, following stone paths that have been used for centuries, passing through shaded forests, remote farming communities and ancient terraces and not meeting anyone along the way; and then there are the buzzy, picturesque villages on the coast, where you'll spend each, staying in charming, family-run hotels and eating in excellent restaurants and trattorias!  "
-  -
-    type: paragraph
+        text: "This fabulous continuous walk along the length of the breathtaking Amalfi Coast starts with a private transfer from Naples to Ravello and then finishes with a private transfer from Positano back to Naples at the end. In between you get to experience the 'costiera' in all its colour and glory."
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
   - 'Private transfer from Positano to Naples on Day 6'
@@ -46,6 +32,29 @@ locations: southern-italy
 landscapes:
   - coastal
 page_builder:
+  -
+    id: amlfiovrvw01
+    title: "One of the most spectacular parts of the Mediterranean"
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The Amalfi Coast is surely one of the most spectacular parts of the Mediterranean, with steep mountains rising almost 1500 metres above the limpid aquamarine sea and whitewashed villages that seem to have tumbled down the slopes to the water's edge. It is an area of vibrant colours, lush vegetation and warm, boisterous people. And then there is the food (the finest in the south?)!"
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "This is a tour of two worlds: the winding trails take you high above the coast during the day, following stone paths that have been used for centuries, passing through shaded forests, remote farming communities and ancient terraces and not meeting anyone along the way. And then there are the buzzy, picturesque villages on the coast, where you'll spend each night staying in charming, family-run hotels and eating in excellent restaurants and trattorias!"
+    images:
+      - tours/liguria-cinque-terre-coastal-walking-tour-1/img_2216.jpg
+      - tours/liguria-cinque-terre-coastal-walking-tour-1/positano-pan-1.jpg
+      - tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
+    type: tour_overview
+    enabled: true
   -
     id: mloocwbk
     title: 'Highlights of the Amalfi Coast tour'

@@ -42,7 +42,7 @@ page_builder:
           -
             type: text
             text: 'Based on several years’ research, this magnificent hike follows the same route, starting in Biella and finishing on Mt Moro on the Swiss border.  It passes through some of the most spectacular scenery in the European Alps, staying in a mixture of hotels, pilgrim monasteries and mountain huts along the way.  Although we will walk through uncontaminated mountain landscapes, this is an ancient land: traders, pilgrims and graziers have been passing through here for millennia, in fact, since before the Bronze Age.'
-    type: history
+    type: tour_overview
     enabled: true
     images:
       - tours/italian-alps-trails-to-freedom/dscf0276.jpg

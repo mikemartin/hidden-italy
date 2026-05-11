@@ -208,12 +208,8 @@
             {{# Summary copy. #}}
             {{ if overview }}
                 <div class="font-sans text-[15px] md:text-lg leading-[1.5] md:leading-[1.6] text-text [&_p]:mb-4 [&_p:last-child]:mb-0">
-                    {{ overview }}
+                    {{ overview|widont }}
                 </div>
-            {{ elseif summary }}
-                <p class="font-sans text-[15px] md:text-lg leading-[1.5] md:leading-[1.6] text-text">
-                    {{ summary }}
-                </p>
             {{ /if }}
 
             {{# What's included card. #}}

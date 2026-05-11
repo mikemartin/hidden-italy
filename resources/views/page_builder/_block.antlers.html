@@ -18,7 +18,7 @@
     The parameter is `subnav_id` — NOT `id` — because Statamic's
     page_builder iteration auto-exposes each block's UUID as `id` in
     scope. Naming this `id` would inherit that UUID into partials that
-    *don't* explicitly pass one (e.g. _history, _experience), which
+    *don't* explicitly pass one (e.g. _tour_overview, _experience), which
     causes the inner block to overwrite `$store.tourSubnav.active`
     with the UUID and break active-state matching. #}}
 <section

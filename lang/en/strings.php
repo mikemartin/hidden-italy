@@ -125,7 +125,7 @@ return [
     'saved' => 'Saved',
 
     // Tour page sections
-    'history' => 'History',
+    'tour_overview' => 'Overview',
     'day' => 'Day',
     'days' => 'Days',
     'from' => 'From',
@@ -137,7 +137,6 @@ return [
 
     // Tour sub-nav (sticky in-page navigation)
     'tour_sections' => 'Tour sections',
-    'overview' => 'Overview',
     'highlights' => 'Highlights',
     'itinerary' => 'Itinerary',
     'experience' => 'Experience',
