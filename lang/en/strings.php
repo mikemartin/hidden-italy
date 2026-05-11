@@ -93,6 +93,7 @@ return [
     'full_name' => 'Full name',
     'email_address' => 'Email address',
     'email_placeholder' => 'email@example.com',
+    'phone' => 'Phone',
     'phone_number' => 'Phone number',
     'phone_placeholder' => '+61 412 345 678',
     'tour' => 'Tour',

@@ -1,0 +1,12 @@
+title: 'Contact details + form'
+fields:
+  -
+    handle: form
+    field:
+      max_items: 1
+      type: form
+      listable: hidden
+      display: Form
+      instructions: 'Statamic form rendered in the right column.'
+      validate:
+        - required

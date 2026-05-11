@@ -68,7 +68,12 @@
                         {{ /if }}
 
                         {{ if contact:address }}
-                            <p class="text-[15px] leading-[1.5]">{{ contact:address | nl2br }}</p>
+                            <p class="text-[15px] leading-[1.5]">
+                                {{ contact:address | nl2br }}
+                                {{ if contact:office_appointment_only }}
+                                    <br>({{ contact:office_appointment_only | lower }})
+                                {{ /if }}
+                            </p>
                         {{ /if }}
 
                         {{# Social icons — from the existing social_media global. #}}

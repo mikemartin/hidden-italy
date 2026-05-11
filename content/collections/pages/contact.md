@@ -4,4 +4,10 @@ blueprint: page
 title: Contact
 headline: 'We''re here to help'
 description: 'Tell us a bit about your plans and we''ll get back to you as soon as we can.'
+page_builder:
+  -
+    id: contact_block
+    form: contact
+    type: contact
+    enabled: true
 ---

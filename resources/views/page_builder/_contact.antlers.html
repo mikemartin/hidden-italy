@@ -1,0 +1,201 @@
+{{#
+    @name Contact details + form
+    @desc Two-column contact block. Left column shows phone numbers,
+          email and the Sydney office address (with a MapLibre map
+          pinned to the office coordinates) — all pulled from the
+          `contact` global. Right column renders the Statamic form
+          chosen on the block, with the same Alpine + Precognition
+          pattern used by `_form.antlers.html`.
+
+          The page header (breadcrumb / headline / description) is
+          rendered by `default.antlers.html` above this block when
+          the entry has a `headline` set.
+    @set page.page_builder.contact
+#}}
+
+<!-- /page_builder/_contact.antlers.html -->
+{{ partial:page_builder/block }}
+    <div class="span-content grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12 pb-12 md:pb-20">
+
+        {{# ============ Left column: contact details + map ============ #}}
+        {{# `order-*` swap puts the form above the contact details on mobile,
+            then restores info-left / form-right at md+. #}}
+        <div class="order-2 md:order-1 md:col-span-5 md:col-start-1 flex flex-col gap-8">
+
+            {{# Phones #}}
+            {{ if contact:phones }}
+                <section class="flex flex-col gap-3">
+                    <h2 class="font-display font-semibold uppercase text-xs tracking-[0.08em] text-terracotta leading-[1.5]">Phone</h2>
+                    <ul class="flex flex-col gap-2">
+                        {{ contact:phones }}
+                            <li class="flex items-start gap-3 text-base leading-[1.6] text-foreground">
+                                <span class="shrink-0 w-5 flex items-center justify-center pt-1">
+                                    {{ if first }}
+                                        <x-lucide-phone class="size-5 text-terracotta" stroke-width="1.5" aria-hidden="true" />
+                                    {{ /if }}
+                                </span>
+                                <div class="flex-1 flex flex-col md:flex-row md:items-baseline md:justify-between md:gap-3">
+                                    <span>{{ label }}</span>
+                                    <a href="tel:{{ number }}" class="font-medium text-foreground hover:text-terracotta transition-colors">{{ number }}</a>
+                                </div>
+                            </li>
+                        {{ /contact:phones }}
+                    </ul>
+                </section>
+            {{ /if }}
+
+            {{# Email #}}
+            {{ if contact:email }}
+                <section class="flex flex-col gap-3">
+                    <h2 class="font-display font-semibold uppercase text-xs tracking-[0.08em] text-terracotta leading-[1.5]">Email</h2>
+                    <p class="flex items-baseline gap-3 text-base leading-[1.6] text-foreground">
+                        <span class="shrink-0 w-5 flex items-center justify-center self-center">
+                            <x-lucide-mail class="size-5 text-terracotta" stroke-width="1.5" aria-hidden="true" />
+                        </span>
+                        <a href="mailto:{{ contact:email }}" class="font-medium text-foreground hover:text-terracotta transition-colors">{{ contact:email }}</a>
+                    </p>
+                </section>
+            {{ /if }}
+
+            {{# Office address #}}
+            {{ if contact:address }}
+                <section class="flex flex-col gap-3">
+                    <h2 class="font-display font-semibold uppercase text-xs tracking-[0.08em] text-terracotta leading-[1.5]">{{ contact:office_label or 'Office' }}</h2>
+                    <div class="flex items-baseline gap-3 text-base leading-[1.6] text-foreground">
+                        <span class="shrink-0 w-5 flex items-start justify-center pt-1">
+                            <x-lucide-map-pin class="size-5 text-terracotta" stroke-width="1.5" aria-hidden="true" />
+                        </span>
+                        <div class="flex-1 flex flex-col">
+                            <p class="font-medium">{{ contact:address | nl2br }}</p>
+                            {{ if contact:office_appointment_only }}
+                                <p class="text-sm text-text/70 mt-1">{{ contact:office_appointment_only }}</p>
+                            {{ /if }}
+                        </div>
+                    </div>
+                </section>
+            {{ /if }}
+
+            {{# Office map — only mounts when both lat/lng are configured. #}}
+            {{ if contact:office_lat && contact:office_lng }}
+                <div
+                    x-data="officeMap"
+                    data-coords="[{{ contact:office_lng }}, {{ contact:office_lat }}]"
+                    class="rounded-lg overflow-hidden border border-parchment-300 shadow-sm"
+                >
+                    <div x-ref="canvas" class="w-full aspect-[4/3] bg-parchment-200" aria-label="Map showing the {{ contact:office_label or 'office' }}"></div>
+                </div>
+            {{ /if }}
+        </div>
+
+        {{# ============ Right column: form ============ #}}
+        <div class="order-1 md:order-2 md:col-span-7 md:col-start-7">
+            {{ if block:form }}
+                {{ form:create :in="block:form" js="alpine:form" attr:x-ref="form" }}
+                    <div x-data="formHandler()" class="flex flex-col gap-6" x-cloak>
+                        {{# Error notifications. #}}
+                        <template x-if="form.hasErrors && submitted">
+                            {{ partial:components/notification type="error" }}
+                                {{ slot:attributes }}id="summary" role="group"{{ /slot:attributes }}
+                                <h3 class="mb-2 leading-5 font-bold text-red-700">{{ trans:strings.form_error }}</h3>
+                                <ul class="list-disc list-inside marker:text-red-700">
+                                    <template x-for="(error, index) in form.errors">
+                                        <li>
+                                            <a :href="`#${index}`" @click.prevent="$focus.focus(document.querySelector(`#${index}`))" x-text="error" class="underline text-red-700 focus:outline-red-700"></a>
+                                        </li>
+                                    </template>
+                                </ul>
+                            {{ /partial:components/notification }}
+                        </template>
+
+                        <template x-if="success">
+                            {{ partial:components/notification type="success" content="{trans:strings.form_success}" }}
+                        </template>
+
+                        {{# Polite live notifications for screen readers only. #}}
+                        <ul aria-live="polite" class="sr-only">
+                            <template x-if="success">
+                                <li>{{ trans:strings.form_success }}</li>
+                            </template>
+
+                            <template x-if="form.errors && !submitted">
+                                <template x-for="error in form.errors">
+                                    <li x-text="error"></li>
+                                </template>
+                            </template>
+                        </ul>
+
+                        {{# Honeypot spam protection. #}}
+                        <div class="hidden">
+                            <label class="font-bold" for="{{ honeypot }}">{{ trans:strings.form_honeypot }} <sup class="text-red-700">*</sup></label>
+                            <input class="form-input w-full" id="{{ honeypot }}" type="text" name="{{ honeypot }}" x-model="form.{{ honeypot }}" tabindex="-1" autocomplete="off"/>
+                        </div>
+
+                        {{# Render fields. Toggles drop the outer label so the inline
+                            checkbox label (e.g. "Sign me up for email newsletter",
+                            "I agree that…") reads as the only label — every other
+                            field gets the standard label + input pair. #}}
+                        {{ sections }}
+                            <fieldset class="flex flex-col gap-5">
+                                {{ %form:fields scope="field" }}
+                                    <template x-if="{{ show_field }}">
+                                        <div class="flex flex-col gap-2 {{ input_type == 'hidden' ?= 'hidden' }}">
+                                            {{ if type == 'toggle' }}
+                                                {{ field:field }}
+
+                                                <template x-if="form.invalid('{{ handle }}')">
+                                                    <span class="text-red-700 text-sm font-bold" x-text="form.errors.{{ handle }}"></span>
+                                                </template>
+                                            {{ else }}
+                                                {{ unless type == 'spacer' }}
+                                                    <label class="block text-base font-semibold text-foreground" for="{{ handle }}">
+                                                        {{ trans :key="field:display" }}
+                                                        {{ if validate | contains('required') || validate | contains('accepted') }}
+                                                            <sup aria-label="{{ trans:strings.form_required }}" class="text-red-700">*</sup>
+                                                        {{ /if }}
+                                                    </label>
+
+                                                    {{ if field:instructions && instructions_position != 'below' }}
+                                                        <span id="{{ field:handle }}-instructions" class="text-sm text-text">
+                                                            {{ trans :key="field:instructions" }}
+                                                        </span>
+                                                    {{ /if }}
+                                                {{ /unless }}
+
+                                                <div class="flex flex-col gap-1">
+                                                    {{ field:field }}
+
+                                                    <template x-if="form.invalid('{{ handle }}')">
+                                                        <span class="text-red-700 text-sm font-bold" x-text="form.errors.{{ handle }}"></span>
+                                                    </template>
+
+                                                    {{ if field:instructions && instructions_position === 'below' }}
+                                                        <span id="{{ field:handle }}-instructions" class="text-sm text-text">
+                                                            {{ trans :key="field:instructions" }}
+                                                        </span>
+                                                    {{ /if }}
+                                                </div>
+                                            {{ /if }}
+                                        </div>
+                                    </template>
+                                {{ /%form:fields }}
+                            </fieldset>
+                        {{ /sections }}
+
+                        {{# Submit button — gold pill, left-aligned to match the design. #}}
+                        <div class="flex">
+                            {{ partial:components/button as="button" button_type="button" label="{ trans:strings.form_send }" class="button--accent" }}
+                                {{ slot:attributes }}
+                                    @click.prevent="submit" :disabled="form.processing" :class="{ 'opacity-25 cursor-default': form.processing }"
+                                {{ /slot:attributes }}
+                            {{ /partial:components/button }}
+                        </div>
+                    </div>
+                {{ /form:create }}
+
+                {{# Call in the Peak Tools Alpine Based Precognition Form Handler. #}}
+                {{ partial:statamic-peak-tools::snippets/form_handler }}
+            {{ /if }}
+        </div>
+    </div>
+{{ /partial:page_builder/block }}
+<!-- End: /page_builder/_contact.antlers.html -->

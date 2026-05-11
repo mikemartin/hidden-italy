@@ -37,6 +37,13 @@ fields:
               fields:
                 -
                   import: form
+            contact:
+              display: 'Contact details + form'
+              instructions: 'Two-column block: address, phone, email, office map on the left and a Statamic form on the right.'
+              icon: mail-chat-bubble-text
+              fields:
+                -
+                  import: contact
             cards:
               display: Cards
               instructions: 'Show linkable cards with text.'
