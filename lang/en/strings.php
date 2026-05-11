@@ -118,7 +118,7 @@ return [
     'share' => 'Share',
     'share_via_email' => 'Email',
     'share_via_facebook' => 'Facebook',
-    'share_via_linkedin' => 'LinkedIn',
+    'share_via_whatsapp' => 'WhatsApp',
     'copy_link' => 'Copy link',
     'copied' => 'Copied!',
     'save' => 'Save',
