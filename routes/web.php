@@ -19,6 +19,10 @@ Route::statamic('flux-components', 'flux-components', [
     'title' => 'Flux Components',
 ]);
 
+Route::statamic('form-inputs', 'form-inputs', [
+    'title' => 'Form Inputs',
+]);
+
 // Override Fortify's GET /login with a Volt-mounted route so the email-first
 // 2-step flow can use Livewire state. Fortify still owns POST /login (login.store).
 Route::livewire('login', 'pages::auth.login')

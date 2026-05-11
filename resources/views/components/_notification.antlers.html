@@ -13,7 +13,7 @@
         {{ switch(
             (type == 'success') => 'bg-green-50 border-green-700',
             (type == 'notice') => 'bg-yellow-50 border-yellow-700',
-            (type == 'error') => 'bg-red-50 border-red-700',
+            (type == 'error') => 'bg-error/10 border-error',
             () => 'bg-gray-50 border-gray-700'
         )}}
         {{ class }}
@@ -31,7 +31,7 @@
                     { switch(
                         (type == 'success') => 'text-green-700',
                         (type == 'notice') => 'text-yellow-700',
-                        (type == 'error') => 'text-red-700',
+                        (type == 'error') => 'text-error',
                         () => 'text-gray-700'
                     )}
                 "
@@ -45,7 +45,7 @@
                         {{ switch(
                             (type == 'success') => 'text-green-800',
                             (type == 'notice') => 'text-yellow-800',
-                            (type == 'error') => 'text-red-800',
+                            (type == 'error') => 'text-error',
                             () => 'text-gray-800'
                         )}}
                     "
