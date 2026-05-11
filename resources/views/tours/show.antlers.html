@@ -7,6 +7,7 @@
     the sticky sub-nav below the summary becomes the persistent nav. #}}
 {{ transparent_header = true }}
 {{ static_overlay_header = true }}
+
 {{#
     @name Tour show
     @desc Single tour entry. The tour banner header sits at the top — region
@@ -210,15 +211,19 @@
     {{ /page_builder }}
 </main>
 
-{{# Brand reassurance panel. Sits outside <main> and ahead of the global
-    CTA banner injected by the layout. The heading, intro and benefits
-    live on the collection's mounted listing page, so we follow
-    `mount_url` and pull the fields through `get_content`. The listing
-    page's own template reads these fields straight from its entry
-    scope. #}}
+{{# Brand reassurance panel. Sits outside <main> and ahead of the tour
+    CTA banner. The heading, intro and benefits live on the collection's
+    mounted listing page, so we follow `mount_url` and pull the fields
+    through `get_content`. The listing page's own template reads these
+    fields straight from its entry scope. #}}
 {{ get_content from="{ mount_url handle="{collection:handle}" }" }}
     {{ if walking_benefits_heading && walking_benefits }}
         {{ partial:components/walking_benefits :heading="walking_benefits_heading" :intro="walking_benefits_intro" :benefits="walking_benefits" }}
     {{ /if }}
 {{ /get_content }}
+
+{{# Tour-specific CTA banner — replaces the global layout CTA on tour
+    show pages. Reuses the tour's hero image and the booking-modal /
+    direct-link "Make an enquiry" action from the tour banner. #}}
+{{ partial:tours/cta_banner }}
 <!-- End: /tours/show.antlers.html -->
