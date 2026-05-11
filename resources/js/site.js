@@ -6,6 +6,8 @@ import tippy from 'tippy.js';
 import simpleLikes from './components/simple-likes.js';
 import tourMap from './components/tour-map.js';
 import tourSubnav from './components/tour-subnav.js';
+import precognition from 'laravel-precognition-alpine';
+import officeMap from './components/office-map.js';
 
 window.Splide = Splide;
 window.simpleLikes = simpleLikes;
@@ -46,6 +48,7 @@ document.addEventListener('alpine:init', () => {
             this.active = id;
         },
     });
+    window.Alpine.plugin(precognition);
 
     window.Alpine.store('wishlist', {
         count: 0,
@@ -74,6 +77,7 @@ document.addEventListener('alpine:init', () => {
     window.Alpine.data('simpleLikes', simpleLikes);
     window.Alpine.data('tourMap', tourMap);
     window.Alpine.data('tourSubnav', tourSubnav);
+    window.Alpine.data('officeMap', officeMap);
 
     window.Alpine.directive('tooltip', (el, { expression }) => {
         const content = expression || el.getAttribute('data-tooltip') || '';

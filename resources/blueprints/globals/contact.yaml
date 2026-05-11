@@ -59,6 +59,42 @@ tabs:
                             validate:
                               - required
       -
+        display: Office
+        instructions: 'Address details and map coordinates for the Contact page.'
+        fields:
+          -
+            handle: office_label
+            field:
+              type: text
+              localizable: true
+              display: 'Office label'
+              instructions: 'Section header above the address on the Contact page (e.g. "Sydney Office").'
+              default: 'Sydney Office'
+              width: 50
+          -
+            handle: office_appointment_only
+            field:
+              type: text
+              localizable: true
+              display: 'Appointment-only note'
+              instructions: 'Small note shown under the address on the Contact page.'
+              default: 'By appointment only'
+              width: 50
+          -
+            handle: office_lat
+            field:
+              type: float
+              display: 'Office latitude'
+              instructions: 'Decimal latitude of the office, used for the contact page map (e.g. -33.8893).'
+              width: 50
+          -
+            handle: office_lng
+            field:
+              type: float
+              display: 'Office longitude'
+              instructions: 'Decimal longitude of the office, used for the contact page map (e.g. 151.1985).'
+              width: 50
+      -
         display: Newsletter
         instructions: 'Copy shown above the newsletter sign-up in the footer.'
         fields:
