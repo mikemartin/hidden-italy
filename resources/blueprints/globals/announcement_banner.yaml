@@ -13,16 +13,6 @@ tabs:
               localizable: true
               display: Enabled
               instructions: 'Show the banner on every page.'
-              width: 50
-          -
-            handle: dismissible
-            field:
-              type: toggle
-              localizable: true
-              display: Dismissible
-              default: true
-              instructions: 'Show a close button and remember the dismissal in the browser.'
-              width: 50
           -
             handle: text
             field:
