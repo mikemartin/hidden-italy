@@ -123,7 +123,7 @@ page_builder:
         photo: tours/liguria-cinque-terre-coastal-walking-tour-1/img_4282.jpeg
       -
         id: mlop3c5r
-        title: 'Climbiing high'
+        title: 'Climbing high'
         description: 'Today you have a choice of two trails.  The first, more demanding trail, starts with a steep climb through hamlets to a busy village.  It then contours around the mountains before entering a green valley and descending to your accommodation, a lovely family-run hotel with views across the gulf to Positano.  The second, less demanding, trail follows a lower route along a path above the sea which has spectacular views.  After crossing a fjord, you climb up to your accommodation.  (3 hrs; 7 kms)'
         duration: 4
         distance: 11
