@@ -2,11 +2,12 @@
     @name Travel tips
     @desc Splide-powered carousel of article cards pulled from the Tips and
           Inspiration collections. Mobile shows one card at a time; desktop
-          shows three. Heading sits on the left of the header, with custom
-          prev/next arrows (md+, when there's something to scroll to) and the
-          optional "view all" link grouped on the right. Each tile is the
-          shared `components/_article-card` partial so this layout stays in
-          lockstep with the cards reference page.
+          shows three. Heading sits on the left of the header; the right
+          slot holds an optional "View all" link (when the block sets
+          `link_text` + `link_entry`) or, as a fallback, custom prev/next
+          arrows when there are more cards than fit on screen. Each tile
+          is the shared `components/_article-card` partial so this layout
+          stays in lockstep with the cards reference page.
     @set page.page_builder.travel_tips
 #}}
 
@@ -47,14 +48,24 @@
         <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             {{ partial:typography/h2 :content="block:heading" class="!mb-0" color="text-foreground" }}
 
-            {{# Desktop prev/next arrows — only when there's something to scroll to. #}}
-            {{ if block:articles | count > 3 }}
+            {{# Header slot — "View all" link when both label + target are
+                configured; falls back to prev/next arrows when there's
+                something to scroll to. Each block picks one or the other,
+                not both, so the header line stays uncluttered. #}}
+            {{ if block:link_text && block:link_entry }}
+                {{ link_entry }}
+                    <a href="{{ url }}" class="button-inline self-start md:self-auto">
+                        <span>{{ block:link_text }}</span>
+                        <x-lucide-arrow-right aria-hidden="true" />
+                    </a>
+                {{ /link_entry }}
+            {{ elseif block:articles | count > 3 }}
                 <div class="hidden md:flex items-center gap-4 self-start md:self-auto">
                     <button
                         type="button"
                         @click="prev()"
                         :disabled="atStart"
-                        aria-label="Previous tour"
+                        aria-label="Previous article"
                         class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-parchment-200"
                     >
                         <x-lucide-arrow-left class="size-5" stroke-width="2" aria-hidden="true" />
@@ -63,7 +74,7 @@
                         type="button"
                         @click="next()"
                         :disabled="atEnd"
-                        aria-label="Next tour"
+                        aria-label="Next article"
                         class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-parchment-200"
                     >
                         <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />

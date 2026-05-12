@@ -1,12 +1,15 @@
 {{#
     @name Featured tours
     @desc Splide-powered carousel of tour cards. Mobile shows one card at a
-          time; desktop shows three. Custom prev/next buttons live in the
-          header (replacing the old "View all" link). Each card has a
-          parchment surface, inset 16:9 image with a warm wash, location +
-          tour-type chip header, summary, and a terracotta info row. Whole
-          card is clickable via a stretched link; the favourite heart sits
-          above and remains independently interactive.
+          time; desktop shows three. The header reserves a slot on the
+          right for either an optional "View all" link (when the block
+          sets `link_text` + `link_entry`) or, as a fallback, custom
+          prev/next arrows when there are more cards than fit on screen.
+          Each card has a parchment surface, inset 16:9 image with a warm
+          wash, location + tour-type chip header, summary, and a terracotta
+          info row. Whole card is clickable via a stretched link; the
+          favourite heart sits above and remains independently
+          interactive.
     @set page.page_builder.featured_tours
 #}}
 
@@ -47,8 +50,18 @@
         <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             {{ partial:typography/h2 :content="block:heading" class="!mb-0" color="text-foreground" }}
 
-            {{# Desktop prev/next arrows — only when there's something to scroll to. #}}
-            {{ if block:tours | count > 3 }}
+            {{# Header slot — "View all" link when both label + target are
+                configured; falls back to prev/next arrows when there's
+                something to scroll to. Each block picks one or the other,
+                not both, so the header line stays uncluttered. #}}
+            {{ if block:link_text && block:link_entry }}
+                {{ link_entry }}
+                    <a href="{{ url }}" class="button-inline self-start md:self-auto">
+                        <span>{{ block:link_text }}</span>
+                        <x-lucide-arrow-right aria-hidden="true" />
+                    </a>
+                {{ /link_entry }}
+            {{ elseif block:tours | count > 3 }}
                 <div class="hidden md:flex items-center gap-4 self-start md:self-auto">
                     <button
                         type="button"
