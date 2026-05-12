@@ -57,7 +57,7 @@ page_builder:
         id: stat_years
         type: stat
         enabled: true
-        value: '30+'
+        value: 30+
         label: 'Years walking Italy'
         icon: dates
       -
@@ -71,14 +71,14 @@ page_builder:
         id: stat_guests
         type: stat
         enabled: true
-        value: '10K+'
+        value: 10K+
         label: 'Travellers guided'
         icon: backpack
       -
         id: stat_km
         type: stat
         enabled: true
-        value: '500K+'
+        value: 500K+
         label: 'km walked together'
         icon: walking
   -
@@ -101,7 +101,7 @@ page_builder:
         content:
           -
             type: text
-            text: "Three decades of walking Italy boils down to a few things we never compromise on — the people who lead our walks, the places we choose to stop, and the small details that make a tour feel like a long stay rather than a passing visit."
+            text: 'Three decades of walking Italy boils down to a few things we never compromise on — the people who lead our walks, the places we choose to stop, and the small details that make a tour feel like a long stay rather than a passing visit.'
     benefits:
       - d98e45f6-28fa-4018-ab67-51d82701a881
       - 987b0947-3003-41c1-86f6-c3456e1429da
@@ -132,6 +132,8 @@ page_builder:
       - 1fc8edc9-9407-4a73-ada9-1f6095316fe8
       - fa3be588-b0dd-4d37-9213-bafbd1992434
       - 08fb0b17-66db-4cfb-8da9-fd9f1ca6508d
+      - 7113227c-a5b4-4030-89e8-7f203c525c13
+      - 63fec771-0f91-4c4d-a4c1-9106f35c0670
   -
     id: about_testimonials
     type: testimonials
@@ -141,4 +143,11 @@ page_builder:
       - 4b9f09e0-3e14-4627-8f2f-837ca961174e
       - 8284a88d-7074-4ab1-bc4c-426bee31e9b8
       - 3d93c507-0ca0-48d8-907e-2d9a99010872
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
+updated_by: 1
+updated_at: 1778557905
 ---
