@@ -208,7 +208,7 @@
 
                         {{# Submit button — gold pill, left-aligned to match the design. #}}
                         <div class="flex">
-                            {{ partial:components/button as="button" button_type="button" label="{ trans:strings.form_send }" class="button--accent" }}
+                            {{ partial:components/button as="button" button_type="button" label="{ trans:strings.form_send }" class="button--large button--accent" }}
                                 {{ slot:attributes }}
                                     @click.prevent="submit" :disabled="form.processing" :class="{ 'opacity-25 cursor-default': form.processing }"
                                 {{ /slot:attributes }}
