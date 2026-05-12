@@ -4,8 +4,12 @@ address: |
   Chippendale, Sydney NSW, 2008
 office_label: 'Sydney Office'
 office_appointment_only: 'By appointment only'
-office_lat: -33.8838
-office_lng: 151.1991
+office_location:
+  label: '20 Meagher Street, Chippendale NSW 2008, Australia'
+  lat: '-33.8838'
+  lon: '151.1991'
+  locality: Chippendale
+  postalCode: '2008'
 phones:
   -
     id: phone_guided

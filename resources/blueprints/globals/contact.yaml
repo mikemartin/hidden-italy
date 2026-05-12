@@ -81,19 +81,18 @@ tabs:
               default: 'By appointment only'
               width: 50
           -
-            handle: office_lat
+            handle: office_location
             field:
-              type: float
-              display: 'Office latitude'
-              instructions: 'Decimal latitude of the office, used for the contact page map (e.g. -33.8893).'
-              width: 50
-          -
-            handle: office_lng
-            field:
-              type: float
-              display: 'Office longitude'
-              instructions: 'Decimal longitude of the office, used for the contact page map (e.g. 151.1985).'
-              width: 50
+              type: simple_address
+              display: 'Office location'
+              instructions: 'Search the office address to pin the map on the Contact page. Geocodes via OpenStreetMap and stores lat/lon alongside the typed label.'
+              placeholder: 'Search a street or suburb…'
+              countries:
+                - au
+              exclude_fields:
+                - providedBy
+                - countryCode
+                - bounds
       -
         display: Newsletter
         instructions: 'Copy shown above the newsletter sign-up in the footer.'
