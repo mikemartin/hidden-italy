@@ -32,7 +32,7 @@
                             :aria-expanded="subnavOpen"
                         {{ else }}
                             href="{{ url }}"
-                            {{ if url != '/booking' && url != '/contact' }}
+                            {{ if url != '/contact' }}
                                 wire:navigate
                             {{ /if }}
                         {{ /if }}
@@ -64,7 +64,7 @@
                                                 : 'text-foreground' }}
                                         "
                                         href="{{ url }}"
-                                        {{ if url != '/booking' && url != '/contact' }}
+                                        {{ if url != '/contact' }}
                                             wire:navigate
                                         {{ /if }}
                                         {{ is_current ?= 'aria-current="page"' }}
