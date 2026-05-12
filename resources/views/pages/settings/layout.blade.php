@@ -16,6 +16,16 @@
                     {{ $item['label'] }}
                 </flux:navlist.item>
             @endforeach
+
+            <form method="POST" action="{{ route('logout') }}" class="w-full">
+                @csrf
+                <flux:navlist.item as="button" type="submit" class="w-full">
+                    <x-slot name="icon">
+                        <x-lucide-log-out class="size-5" stroke-width="1.75" />
+                    </x-slot>
+                    {{ __('Log out') }}
+                </flux:navlist.item>
+            </form>
         </flux:navlist>
     </div>
 
