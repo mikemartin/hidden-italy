@@ -10,10 +10,8 @@
           stays in lockstep with the cards reference page.
 
           When the block has no hand-picked articles, the slider falls
-          back to the six most recently updated entries across Tips +
-          Inspiration. `last_modified` is used as the sort key because
-          Tips no longer has `date: true` set on its collection config,
-          so `date:desc` would only order the Inspiration half of the mix.
+          back to the six newest entries across Tips + Inspiration, sorted
+          by entry date.
     @set page.page_builder.travel_tips
 #}}
 
@@ -109,7 +107,7 @@
                             </li>
                         {{ /block:articles }}
                     {{ else }}
-                        {{ collection from="tips|inspiration" sort="last_modified:desc" limit="6" }}
+                        {{ collection from="tips|inspiration" sort="date:desc" limit="6" }}
                             <li class="splide__slide">
                                 {{ partial:components/article-card }}
                             </li>
