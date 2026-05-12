@@ -1,0 +1,36 @@
+{{#
+    @name Legal page TOC — desktop
+    @desc Sticky sidebar version of the table of contents. Sits in
+          column 1 / span 3 of the inner 12-col grid from `lg`, sticks
+          24px from the viewport top on scroll, and is hidden below
+          `lg` (the mobile counterpart at `legal/toc_mobile` takes over
+          there). Items are derived from every level-2 heading in the
+          `article` Bard field — the Bard mutator slugifies the same
+          text into the rendered `<h2>`'s `id`, so each TOC anchor
+          lines up with its section.
+#}}
+
+<!-- /legal/_toc_desktop.antlers.html -->
+<aside
+    class="hidden lg:block lg:col-span-3 self-start lg:sticky md:top-6 bg-card border border-parchment-200 rounded-xl shadow p-6"
+    aria-label="On this page"
+>
+    {{ partial:typography/h6 :content="title" as="span" small="true" color="text-foreground" }}
+
+
+    <ul class="flex flex-col gap-2 py-4">
+        {{# Iterates the `toc` variable assigned in `legal/show` — each
+            entry is a level-2 heading node from the Bard `article`
+            field. The visible text is slugified for the anchor so
+            each link lines up with the `id` the Bard mutator injects
+            on render. #}}
+        {{ toc }}
+            <li>
+                <a href="#{{ content | bard_text | slugify }}" class="block text-[15px] leading-[1.5] text-text hover:text-blue-d-400">
+                    {{ content | bard_html }}
+                </a>
+            </li>
+        {{ /toc }}
+    </ul>
+</aside>
+<!-- End: /legal/_toc_desktop.antlers.html -->

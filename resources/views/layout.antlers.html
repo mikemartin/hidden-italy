@@ -5,7 +5,10 @@
 
 <!-- /layout.antlers.html -->
 <!doctype html>
-<html lang="{{ site:short_locale }}" class="antialiased scroll-smooth scroll-pt-4">
+{{# `scroll-pt-*` is the offset for anchor jumps. `tours/show` carries
+    a sticky sub-nav (~5rem tall) so anchor targets need to land below
+    it — every other template uses a small `scroll-pt-4` cushion. #}}
+<html lang="{{ site:short_locale }}" class="antialiased scroll-smooth {{ current_template == 'tours/show' ? 'scroll-pt-20' : 'scroll-pt-6' }}">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">

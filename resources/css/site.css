@@ -194,6 +194,10 @@
         @apply font-display font-bold text-xl md:text-2xl leading-[1.25] md:leading-[1.5];
     }
 
+    .prose h4:not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+        @apply font-display font-bold text-lg md:text-xl leading-[1.25] md:leading-[1.5];
+    }
+
     .prose p:not(:where([class~="not-prose"], [class~="not-prose"] *)),
     .prose li:not(:where([class~="not-prose"], [class~="not-prose"] *)) {
         @apply text-lg md:text-[21px] font-normal leading-[1.5] md:leading-[1.6];
@@ -201,20 +205,6 @@
 }
 
 @import "./livewire-filters-theme.css";
-
-/* Sticky tour sub-nav height — `--sticky-nav-h` is consumed by
-   `scroll-padding-top` on `html` so anchor jumps land below the nav.
-   Single-row layout at every breakpoint (the booking CTA is dropped
-   from the nav on mobile and lives in the banner instead), so one
-   value covers all viewports. */
-:root {
-    --sticky-nav-h: 5rem;
-}
-
-html {
-    scroll-padding-top: var(--sticky-nav-h);
-}
-
 
 /* Hide scrollbar on horizontal scroll-snap tracks (hero & tours carousels). */
 .no-scrollbar::-webkit-scrollbar { display: none; }

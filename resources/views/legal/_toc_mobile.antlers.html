@@ -1,0 +1,60 @@
+{{#
+    @name Legal page TOC — mobile
+    @desc Inline accordion version of the table of contents that sits
+          inside the article column between the "Last updated" date
+          and the lead on small viewports. Collapsed by default — the
+          "On this page" eyebrow becomes a button that reveals the
+          link list. Mirrors the FAQ accordion pattern from
+          `components/_faq_section`: Alpine `x-data` state, `x-show` +
+          `x-collapse` panel, chevron that rotates 90° when open.
+          Items are derived from every level-2 heading in the `article`
+          Bard field (same query as the desktop partial).
+          Visible only below `lg`; the desktop sticky sidebar at
+          `legal/toc_desktop` takes over from `lg+`.
+#}}
+
+<!-- /legal/_toc_mobile.antlers.html -->
+<aside
+    x-data="{ open: false }"
+    class="lg:hidden self-stretch bg-card border border-parchment-200 rounded-xl shadow py-4 px-5"
+    aria-label="On this page"
+>
+    <button
+        type="button"
+        @click="open = !open"
+        :aria-expanded="open"
+        aria-controls="toc-mobile-panel"
+        class="w-full flex items-center justify-between gap-4 text-left text-foreground hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold focus-visible:-outline-offset-2"
+    >
+        {{# Heading rendered via the typography/h4 partial with `small`
+            so it locks to the `text-lg` variant. `color="text-inherit"`
+            lets the button's `hover:text-text` cascade through. #}}
+        {{ partial:typography/h4 content="On this page" as="span" small="true" color="text-foreground" }}
+        <x-lucide-chevron-right
+            class="size-5 shrink-0 text-accent-2 transition-transform"
+            stroke-width="2"
+            aria-hidden="true"
+            x-bind:class="open ? 'rotate-90' : ''"
+        />
+    </button>
+
+    <div
+        id="toc-mobile-panel"
+        x-show="open"
+        x-collapse
+        x-cloak
+    >
+        <ul class="flex flex-col gap-2 py-4">
+            {{# Iterates the `toc` variable assigned in `legal/show` —
+                same level-2 heading list the desktop partial uses. #}}
+            {{ toc }}
+                <li>
+                    <a href="#{{ content | bard_text | slugify }}" class="block text-[15px] leading-[1.5] text-text hover:text-blue-d-400">
+                        {{ content | bard_html }}
+                    </a>
+                </li>
+            {{ /toc }}
+        </ul>
+    </div>
+</aside>
+<!-- End: /legal/_toc_mobile.antlers.html -->
