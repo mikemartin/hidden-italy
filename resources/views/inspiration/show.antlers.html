@@ -1,18 +1,46 @@
 {{#
     @name Inspiration show
-    @desc Single-entry template for the Inspiration collection.
-          Pass-through into the shared `_article_show` partial — header,
-          prose body and related-articles rail. Lives in its own template
-          directory so Inspiration-specific surfaces (a "More newsletters"
-          block under newsletter entries, a category chip in the header,
-          etc.) can be added here later without retro-fitting conditionals
-          on the shared partial.
+    @desc Single-entry template for the Inspiration collection. Article
+          header, prose-wrapped Bard body, and a related-articles rail
+          pulling three other inspiration entries. Sits on the
+          parchment-100 surface with the topographic decoration spanning
+          the whole page.
 #}}
 
 <!-- /inspiration/show.antlers.html -->
 <main id="content" class="relative isolate overflow-hidden bg-parchment-100">
     {{ partial:components/topographic }}
 
-    {{ partial:components/article_show }}
+    <article>
+        {{ partial:components/article_header }}
+
+        <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
+            {{ partial:typography/prose as="div" class="contents stack-8" }}
+                {{ article }}
+                    {{ partial src="components/{type}" }}
+                {{ /article }}
+            {{ /partial:typography/prose }}
+        </section>
+    </article>
+
+    {{# Related inspiration — three other entries, excluding the current
+        one. Static grid (no scroll). #}}
+    {{ collection from="inspiration" not_id="{id}" limit="3" as="related" }}
+        {{ if related }}
+            <section class="fluid-grid py-12 md:py-16 lg:py-24 gap-y-10 border-t border-parchment-200">
+                <header class="span-content">
+                    {{ partial:typography/h2 content="Related articles" color="text-foreground" class="!mb-0" }}
+                </header>
+
+                <ul class="span-content grid grid-cols-1 md:grid-cols-3 gap-fluid-grid-gap">
+                    {{ related }}
+                        <li>
+                            {{ partial:components/article-card }}
+                        </li>
+                    {{ /related }}
+                </ul>
+            </section>
+        {{ /if }}
+    {{ /collection }}
 </main>
 <!-- End: /inspiration/show.antlers.html -->

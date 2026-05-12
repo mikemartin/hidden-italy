@@ -1,12 +1,8 @@
 {{#
     @name Travel Tips index
-    @desc Listing template for the Tips collection. Page header followed by
-          a 3-up grid of article cards. Renders the shared `_article_index`
-          partial inside the standard parchment-100 surface. Lives in its
-          own template directory (rather than the previous shared
-          `articles/index`) so Tips-specific surfaces can be layered in
-          here without conditionals — see the Inspiration sibling for the
-          pattern.
+    @desc Listing template for the Tips collection. Page header followed
+          by a 3-up grid of article cards, on a parchment-100 surface so
+          the cards lift off it slightly.
 #}}
 
 <!-- /travel-tips/index.antlers.html -->
@@ -17,6 +13,20 @@
         {{ partial:components/page_header }}
     {{ /if }}
 
-    {{ partial:components/article_index }}
+    <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
+        <ul class="span-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-fluid-grid-gap">
+            {{ collection :from="mount" }}
+                {{ if no_results }}
+                    <li class="md:col-span-2 lg:col-span-3">
+                        {{ partial:typography/p content="{trans:strings.no_results ?? 'There are currently no posts.'}" color="text-text" }}
+                    </li>
+                {{ else }}
+                    <li>
+                        {{ partial:components/article-card }}
+                    </li>
+                {{ /if }}
+            {{ /collection }}
+        </ul>
+    </section>
 </main>
 <!-- End: /travel-tips/index.antlers.html -->

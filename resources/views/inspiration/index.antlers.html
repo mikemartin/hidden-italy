@@ -1,21 +1,15 @@
 {{#
     @name Inspiration index
-    @desc Listing template for the Inspiration collection. Lives in its
-          own template directory rather than sharing the previous
-          `articles/index` because the layout above the main grid
-          diverges from Tips: a Splide carousel of the three most recent
-          newsletter entries sits between the page header and the
-          article grid. The carousel only renders when the collection
-          has at least one entry tagged `categories: newsletter`.
+    @desc Listing template for the Inspiration collection. Three-most-
+          recent newsletters appear in a Splide carousel above the main
+          article grid; entries tagged `categories: newsletter` are
+          dropped from the grid below so each newsletter only appears
+          once on the page. The carousel section only renders when the
+          collection has at least one entry tagged `newsletter`.
 
-          The main grid below is the shared `_article_index` partial,
-          passed `exclude_category="newsletter"` so newsletter entries
-          appear in the carousel above but not again in the grid.
-
-          Splide config + prev/next markup mirrors
-          `page_builder/_travel_tips.antlers.html` so behaviour is
-          identical to the other article carousels — perPage 3 desktop /
-          1 mobile, free drag with snap, no autoplay.
+          Splide config mirrors `page_builder/_travel_tips.antlers.html`
+          for behavioural parity with the other article carousels —
+          perPage 3 desktop / 1 mobile, free drag with snap, no autoplay.
 #}}
 
 <!-- /inspiration/index.antlers.html -->
@@ -26,8 +20,8 @@
         {{ partial:components/page_header }}
     {{ /if }}
 
-    {{# Three-most-recent-newsletters carousel. Pull first into a
-        local variable so the section only renders when there's at
+    {{# Three-most-recent-newsletters carousel. Pulled into a local
+        variable first so the section only renders when there's at
         least one tagged newsletter — avoids an empty header on sites
         whose Inspiration content hasn't picked up the tag yet. #}}
     {{ collection:inspiration
@@ -117,6 +111,20 @@
         {{ /if }}
     {{ /collection:inspiration }}
 
-    {{ partial:components/article_index exclude_category="newsletter" }}
+    <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
+        <ul class="span-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-fluid-grid-gap">
+            {{ collection :from="mount" taxonomy:categories:not="newsletter" }}
+                {{ if no_results }}
+                    <li class="md:col-span-2 lg:col-span-3">
+                        {{ partial:typography/p content="{trans:strings.no_results ?? 'There are currently no posts.'}" color="text-text" }}
+                    </li>
+                {{ else }}
+                    <li>
+                        {{ partial:components/article-card }}
+                    </li>
+                {{ /if }}
+            {{ /collection }}
+        </ul>
+    </section>
 </main>
 <!-- End: /inspiration/index.antlers.html -->
