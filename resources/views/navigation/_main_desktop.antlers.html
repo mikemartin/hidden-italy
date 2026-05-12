@@ -32,7 +32,6 @@
                             :aria-expanded="subnavOpen"
                         {{ else }}
                             href="{{ url }}"
-                            wire:navigate
                         {{ /if }}
                         {{ is_current ?= 'aria-current="page"' }}
                     >
@@ -62,7 +61,6 @@
                                                 : 'text-foreground' }}
                                         "
                                         href="{{ url }}"
-                                        wire:navigate
                                         {{ is_current ?= 'aria-current="page"' }}
                                     >
                                         {{ title }}

@@ -9,7 +9,7 @@
     <div class="me-10 w-full pb-4 md:w-[220px]">
         <flux:navlist aria-label="{{ __('Settings') }}">
             @foreach ($accountNav as $item)
-                <flux:navlist.item :href="route($item['route'])" wire:navigate>
+                <flux:navlist.item :href="route($item['route'])">
                     <x-slot name="icon">
                         <x-dynamic-component :component="'lucide-' . $item['icon']" class="size-5" stroke-width="1.75" />
                     </x-slot>

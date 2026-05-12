@@ -62,7 +62,6 @@
                                 :aria-expanded="subnavOpen"
                             {{ else }}
                                 href="{{ url }}"
-                                wire:navigate
                                 @click="$store.nav.close()"
                             {{ /if }}
                             {{ is_current ?= 'aria-current="page"' }}
@@ -91,7 +90,6 @@
                                                 {{ is_current || is_parent ? 'text-white underline underline-offset-4 decoration-gold' : 'text-white/80' }}
                                             "
                                             href="{{ url }}"
-                                            wire:navigate
                                             @click="$store.nav.close()"
                                             {{ is_current ?= 'aria-current="page"' }}
                                         >

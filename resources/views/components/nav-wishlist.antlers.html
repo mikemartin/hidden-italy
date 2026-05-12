@@ -1,4 +1,4 @@
-<a x-data href="/wishlist" wire:navigate class="flex items-center hover:text-white/80">
+<a x-data href="/wishlist" class="flex items-center hover:text-white/80">
     <span class="relative inline-flex items-center {{ show_label ? 'mr-2' : 'xl:mr-2' }}">
         <div :style="{ transition: 'transform 0.15s ease-out', transform: Alpine.store('wishlist').popping ? 'scale(1.2)' : 'scale(1)' }">
             <x-lucide-heart class="w-6 h-6 stroke-[1.5]" />

@@ -22,7 +22,6 @@
             >
                 <a
                     href="/account/profile"
-                    wire:navigate
                     role="menuitem"
                     class="flex items-center gap-3 px-4 py-2 hover:bg-accent-light"
                 >
@@ -32,7 +31,6 @@
 
                 <a
                     href="/wishlist"
-                    wire:navigate
                     role="menuitem"
                     class="flex items-center gap-3 px-4 py-2 hover:bg-accent-light"
                 >
@@ -57,7 +55,7 @@
         </div>
     {{ /current_user }}
 {{ else }}
-    <a href="/login" wire:navigate class="flex items-center hover:text-white/80">
+    <a href="/login" class="flex items-center hover:text-white/80">
         <x-lucide-circle-user-round class="w-6 h-6 stroke-[1.5] {{ show_label ? 'mr-2' : 'xl:mr-2' }}" />
         <span class="font-medium text-base lg:text-sm leading-[1.6] whitespace-nowrap {{ show_label ? '' : 'hidden xl:inline' }}">Account</span>
     </a>
