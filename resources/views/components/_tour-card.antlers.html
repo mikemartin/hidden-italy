@@ -124,8 +124,8 @@
             because the listed value is a starting per-person price; guided
             tours list the all-inclusive group price as-is. #}}
         {{ if price }}
-            <p class="text-sm md:text-base text-foreground font-medium mt-2">
-                {{ if {collection:handle} == 'self-guided' }}{{ trans:strings.from ?? 'From' }} {{ /if }}{{ price }}
+            <p class="text-sm md:text-base text-text">
+                {{ if show_from }}{{ trans:strings.from ?? 'From' }} {{ /if }}{{ price }}
             </p>
         {{ /if }}
     </div>

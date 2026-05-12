@@ -131,13 +131,6 @@ tabs:
                 - integer
               width: 50
           -
-            handle: price
-            field:
-              type: text
-              display: Price
-              instructions: 'Free-form, e.g. "$4,950 AUD".'
-              width: 50
-          -
             handle: leader
             field:
               type: entries
@@ -738,6 +731,18 @@ tabs:
               localizable: true
               validate: 'max:200'
               show_regenerate: true
+          -
+            handle: price
+            field:
+              type: text
+              display: Price
+              instructions: 'Free-form, e.g. "$4,950 AUD".'
+          -
+            handle: show_from
+            field:
+              type: toggle
+              display: 'Show "From" prefix'
+              instructions: 'Prefixes the price with "From " when the tour has variants or starting prices.'
           -
             handle: simple_likes
             field:

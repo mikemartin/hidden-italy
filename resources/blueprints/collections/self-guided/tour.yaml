@@ -112,13 +112,6 @@ tabs:
               visibility: hidden
               listable: false
           -
-            handle: price
-            field:
-              type: text
-              display: 'Price (from)'
-              instructions: 'Free-form starting price, e.g. "$2,450 AUD". Self-guided tours display this with a "From" prefix.'
-              width: 50
-          -
             handle: overview
             field:
               buttons:
@@ -702,6 +695,20 @@ tabs:
               localizable: true
               validate: 'max:200'
               show_regenerate: true
+          -
+            handle: price
+            field:
+              type: text
+              display: Price
+              instructions: 'Free-form, e.g. "$4,950 AUD".'
+          -
+            handle: show_from
+            field:
+              type: toggle
+              display: 'Show "From" prefix'
+              default: true
+              instructions: 'Prefixes the price with "From " when the tour has variants or starting prices.'
+          
           -
             handle: simple_likes
             field:

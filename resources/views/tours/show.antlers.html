@@ -193,11 +193,13 @@
                         starting price per person. #}}
                     <div class="hidden md:flex items-center gap-5 shrink-0">
                         {{ if price }}
-                            <div class="flex flex-col items-end leading-tight">
+                            <div class="flex flex-col items-end leading-tight gap-1">
+                                {{ if show_from }}
                                 <span class="font-display font-semibold text-xs uppercase tracking-[1px] text-text">
-                                    {{ if {collection:handle} == 'self-guided' }}{{ trans:strings.from ?? 'From' }}{{ else }}{{ trans:strings.price ?? 'Price' }}{{ /if }}
+                                    {{ trans:strings.from ?? 'From' }}
                                 </span>
-                                <span class="font-display font-semibold text-lg text-foreground">{{ price }}</span>
+                                {{ /if }}
+                                <span class="font-display font-semibold text-lg text-foreground leading-none">{{ price }}</span>
                             </div>
                         {{ /if }}
                         {{ if logged_in }}
