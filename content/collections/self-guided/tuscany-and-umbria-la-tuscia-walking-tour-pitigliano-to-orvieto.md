@@ -5,8 +5,8 @@ title: 'Tuscany and Umbria - La Tuscia'
 name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 8
-updated_by: 1
-updated_at: 1777905985
+updated_by: 2
+updated_at: 1778551955
 grade: 3
 summary: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
 overview:
@@ -110,6 +110,7 @@ page_builder:
         elevation: 115
         meals_included:
           - breakfast
+        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano-2.jpg
       -
         id: mlop159i
         title: 'Day 3:  Sleep in a castle'
@@ -276,9 +277,11 @@ page_builder:
     type: essentials
     enabled: true
   -
+    id: w1fijO4y
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently Asked Questions'
   -
     id: dRHaVU1FqtQ83NQaQEBy3
     heading: 'What our travellers are saying'
