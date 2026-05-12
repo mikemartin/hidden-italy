@@ -6,7 +6,7 @@ name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 8
 updated_by: 2
-updated_at: 1778552099
+updated_at: 1778552224
 grade: 3
 summary: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
 overview:
@@ -210,7 +210,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "You are walking through one of the more celebrated food and wine regions of Italy - famous for its Sagrantino red wine; 'norcineria' (sausages and cold cuts); lentils; truffles and.... chocolate.\_ Umbrian cuisine is dominated by olive oil, which features in everything from roast pork to its luxurious truffle dishes, the pride of the region.\_ Local dishes, as a result, are simple and tasty, putting the accent on the excellent quality of the raw materials.\_ You only need three things to make good Umbrian food: a fire or oven, local produce and plenty of time."
+                text: "The traditional dishes of Tuscany are Italy's most influential cuisine.\_ The ingredients and techniques of the region have made their mark not just on the menus of the rest of Italy but also abroad, even in France.\_ The produce is of the highest quality, with its mushrooms, truffles and prosciutto especially prized.\_ Wine has always been central to Tuscany's economy and way of life, familiar names like Chianti and Brunello are just a portion of their enormous output.\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Umbria, Italy's only landlocked region, may not be accorded quite the same degree of reverence but it has its own specialities, including pasta, pulses, polenta, pork and game, as well as some fine wines such as white Orvieto, and the Sagrantino and Torgiano reds."
           -
             type: paragraph
             content:
