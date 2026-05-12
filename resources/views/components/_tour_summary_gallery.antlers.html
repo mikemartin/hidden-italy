@@ -33,14 +33,20 @@
 {{ gallery_count = gallery | count }}
 
 <div class="contents" data-tour-gallery>
-    {{# `subHtml` is lightGallery's caption slot — rendered under the slide
-        as HTML. Pull from each asset's plain-text `caption` field (declared
-        on the images blueprint, kept separate from `alt` so screen-reader
-        copy and the visible caption can diverge). `sanitize` runs the value
-        through htmlspecialchars so any literal `<` / `&` in a caption stays
-        intact when lightGallery drops the string into the DOM, and `to_json`
-        handles quoting/escaping for the JSON payload. #}}
-    <script type="application/json" data-tour-gallery-images>[{{ gallery }}{"src":"{{ url }}","subHtml":{{ caption | sanitize | to_json }}}{{ unless last }},{{ /unless }}{{ /gallery }}]</script>
+    {{# lightGallery dynamic-mode item shape:
+          - `src`     image source
+          - `alt`     alt attribute on the slide's `<img>`, falls back to the
+                      caption when the asset has no alt set, so screen-reader
+                      users still hear something useful for captioned photos
+          - `subHtml` the visible caption strip rendered under the slide as
+                      HTML — sourced from the asset's plain-text `caption`
+                      field (kept separate from `alt` so screen-reader copy
+                      and the visible caption can diverge).
+        `sanitize` runs each plain-text value through htmlspecialchars so
+        literal `&` / `<` punctuation survives lightGallery dropping the
+        string into the DOM, and `to_json` handles quoting/escaping for
+        the JSON payload. #}}
+    <script type="application/json" data-tour-gallery-images>[{{ gallery }}{{ lightbox_alt = alt ?? caption }}{"src":"{{ url }}","alt":{{ lightbox_alt | sanitize | to_json }},"subHtml":{{ caption | sanitize | to_json }}}{{ unless last }},{{ /unless }}{{ /gallery }}]</script>
 
     {{# ── Mobile gallery — 2 rows, up to 5 photos. ───────────────────── #}}
     <div class="flex lg:hidden flex-col gap-2">
