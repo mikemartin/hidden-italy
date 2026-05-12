@@ -90,12 +90,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Rieti'
+        title: 'Arrive in Rieti'
         description: 'Arrival in Rieti, which is well-connected by rail to Rome.  Pre-dating Rome, this small city was a long-time rival of the capital most famously remembered when the founders of Rome kidnapped its women, the ‘Sabines’, to help populate the new city.  Under Roman rule it was known as Umbilicus Italiae (the belly-button of Italy) because it is the geographical centre of the peninsula.  It has an interesting historical centre and is ringed by the Velino River.'
         photo: tours/lazio-cammino-of-st-francis-lazio/1.5.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Walk into the Apennines'
+        title: 'Walk into the Apennines'
         description: 'A mostly flat and easy stage that takes you along creeks and through fields and forests, crossing a 4th century Roman bridge, before climbing up to a small farming town, whose ancient walls are over 2000 years old.  You stay in a lovely ‘agriturismo’ on the edge of the town.  (5.5 hrs; 21 kms; min: 388 mts, max: 644 mts)'
         duration: 5
         distance: 21
@@ -105,7 +105,7 @@ page_builder:
         photo: tours/lazio-cammino-of-st-francis-lazio/7.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Ramble through countryside'
+        title: 'Ramble through countryside'
         description: 'Today’s route takes you south along unsealed country lanes with spectacular mountain scenery and very pleasant walks through orchards, fields and farms, passing an historic village, two lovely Romanesque churches before arriving at an attractive farming village.  (4 hrs; 12 kms; min: 336 mts, max: 550 mts)'
         duration: 4
         distance: 12
@@ -115,7 +115,7 @@ page_builder:
         photo: tours/lazio-cammino-of-st-francis-lazio/12.7.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  Farmland and orchards'
+        title: 'Farmland and orchards'
         description: 'Leading down from the mountains onto the Tiber Valley plain, this long and undulating itinerary on unsealed country roads stretches passes through rich farmlands and orchards to finish at a lovely hilltop town.  You will be picked up from here and driven back to your Day 3 accommodation, where you will spend a second night.  (4 hrs; 15 kms; min: 216 mts, max: 545 mts)'
         duration: 4
         distance: 15
@@ -125,7 +125,7 @@ page_builder:
         photo: tours/lazio-cammino-of-st-francis-lazio/12.2.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Passieggiata and an Orsini palace'
+        title: 'Passieggiata and an Orsini palace'
         description: 'This morning you will be driven back to the hilltop town to continue your walk.  Passing through a number of pretty towns, todays walk takes you down onto the plains, passing through a nature reserve, following gravel and asphalt roads before finishing in a buzzy hill-town, famous for its passeggiata and an 18th century Orsini palace. With notice, it is possible to break this leg of the walk into two, staying in a small village along the way.  (8 kms then 18 kms).'
         duration: 6
         distance: 26
@@ -135,7 +135,7 @@ page_builder:
         photo: tours/lazio-cammino-of-st-francis-lazio/13.4.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  First contact with Rome'
+        title: 'First contact with Rome'
         description: 'The first half of the day is a very pleasant walk through farmland and another nature reserve, while the second half transitions into the busy outer suburbs of Rome finishing at lovely 4-star hotel in the fashionable Monte Sacro district.  (4.5 hrs; 18 kms; min: 32 mts, max: 164 mts).'
         duration: 5
         distance: 18
@@ -145,7 +145,7 @@ page_builder:
         photo: tours/lazio-cammino-of-st-francis-lazio/p4300817.jpg
       -
         id: mlop8uiy
-        title: 'Day 7:  Arrive at the Vatican'
+        title: 'Arrive at the Vatican'
         description: 'While there is a nearby station that can take you directly to the Vatican, today’s walk is well worth the effort, following a cycle path/greenway that winds along beside the Aniene River before crossing the famous Milvio Bridge then following the Tiber River past eight more bridges to the Castel Sant’Angelo and St Peter’s Square.  (4 hrs;15 kms; min: 9 mts, max 67 mts)'
         duration: 4
         distance: 15
@@ -155,7 +155,7 @@ page_builder:
         photo: tours/lazio-cammino-of-st-francis-lazio/rome-1.jpg
       -
         id: mlop9wks
-        title: 'Day 8:  Depart Rome'
+        title: 'Depart Rome'
         description: 'After breakfast, you are fee to continue your holiday.'
         meals_included:
           - breakfast

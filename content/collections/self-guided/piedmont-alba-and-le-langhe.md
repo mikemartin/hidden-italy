@@ -97,12 +97,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Transfer from Turin to Alba'
+        title: 'Transfer from Turin to Alba'
         description: 'You will be taken by private transfer from Turin to beautiful Alba, 95 kilometres south.  The plan of the historic centre of Alba reflects its Roman origins (an orderly grid tucked behind defensive walls) while its narrow streets are decidedly medieval, complete with a five brick tower-houses that date from the 13th century.'
         photo: tours/piedmont-alba-and-le-langhe/alba-2.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Walk along the Tanaro River'
+        title: 'Walk along the Tanaro River'
         description: 'You leave Alba heading south-west, passing the Ferrero chocolate factory (home of Nutella) and then follow an easy path along the left bank of the Tanaro River, before turning south and climbing up to a small hilltop village that is famous for its.  The second half of the walk takes you through vineyards to another lovely hilltop town, with a ruined castle from where you have a breathtaking view south over all the Langhe hills.'
         duration: 4
         distance: 15
@@ -112,7 +112,7 @@ page_builder:
         photo: tours/piedmont-alba-and-le-langhe/monforte-2.5.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk through vineyards'
+        title: 'Walk through vineyards'
         description: 'Today’s walk takes you through the heart of Barolo country following lanes that cut through the middle of the some of the finest and most famous vineyards in Italy such as ‘Cannubi’ and ‘Sori’, passing through the town of Barolo itself (where you can have lunch and visit one of the cantine and/or its Oenological Museum).  After passing through more vineyards, you arrive at another charming hilltop town.'
         duration: 4
         distance: 13
@@ -122,7 +122,7 @@ page_builder:
         photo: tours/piedmont-alba-and-le-langhe/monforte-17.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk through chestnut forests'
+        title: 'Walk through chestnut forests'
         description: 'Today’s walk takes you out of the wine growing area and into the Alta Langhe, the slightly ‘wilder’ (relatively!) part of the district which is characterised by steeper hills, hazelnut and fruit orchards and tracts of chestnut forests. Although there are a couple of hills, today’s walk is quite short which will leave you time to explore the interesting places you are pass, including the very interesting castle with time for a light lunch as well.'
         duration: 3
         distance: 8
@@ -132,7 +132,7 @@ page_builder:
         photo: tours/piedmont-alba-and-le-langhe/4-v2.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Walk along a ridge'
+        title: 'Walk along a ridge'
         description: 'The walk today takes heads north following a ridge above the Belbo River, passing though long tracts of forest and orchards with extensive views south over the Alta Langhe.  It passes through a number of small villages where you can break for lunch. With notice, this walk can be shortened.'
         duration: 5
         distance: 17
@@ -142,7 +142,7 @@ page_builder:
         photo: tours/piedmont-alba-and-le-langhe/10-v2.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Walk to the pretty village in the area'
+        title: 'Walk to the pretty village in the area'
         description: 'Leaving your accommodation the trail further along the ridge through forests and orchards, passing close to Santo Stefano Belbo, the home of one of the Langhe’s favourite sons: Cesare Pavese (1908 to 1950), poet, novelist, critic and translator.  The second part of today’s walk takes you back into the sweet rolling hills of the wine country, through vineyards dedicated to Barbaresco, a light version of Barolo, to one of the prettiest and best preserved villages in the area.'
         duration: 5
         distance: 17
@@ -152,7 +152,7 @@ page_builder:
         photo: tours/piedmont-alba-and-le-langhe/img_5836.jpeg
       -
         id: mlop8uiy
-        title: 'Day 7:  Head back to Alba'
+        title: 'Head back to Alba'
         description: 'The last walk of your visit takes you back to Alba.  It loops around through more vineyards, passing a number of settlements, including the town of Barbaresco itself, before entering forest and following the banks of the Tanaro River along a trail that is dedicated to Beppe Fenoglio (1922 to 1963), another beloved local writer who fought the German occupation during World War II.  Your last night is spent in Alba.'
         duration: 4
         distance: 13
@@ -162,7 +162,7 @@ page_builder:
         photo: tours/piedmont-alba-and-le-langhe/alba-view-2.jpg
       -
         id: mlop9wks
-        title: 'Day 8:  Transfer back to Turin'
+        title: 'Transfer back to Turin'
         description: 'After breakfast, you will be taken by private vehicle back to Turin, 95 kilometres to the north.'
         meals_included:
           - breakfast

@@ -1,0 +1,46 @@
+{{#
+    @name Newsletter CTA
+    @desc Standalone callout card for the newsletter sign-up — round paper-
+          plane icon, heading, supporting line, and email + Subscribe form.
+          Pulls heading/text from the `contact` global so copy stays in sync
+          with the footer sign-up.
+#}}
+
+<!-- /components/_newsletter_cta.antlers.html -->
+<aside class="bg-card border border-parchment-300 rounded-xl shadow-sm px-6 py-10 md:px-10 md:py-12">
+    <div class="flex flex-col items-center text-center gap-9">
+
+        {{# Round icon — paper plane in a parchment circle. #}}
+        <div class="flex shrink-0 items-center justify-center size-20 md:size-24 rounded-full bg-parchment-200 text-accent-2">
+            {{ svg
+                src="icons/post-office-paper-plane"
+                attr:class="size-12 md:size-16 fill-current"
+                attr:aria-hidden="true"
+                attr:role="img"
+            }}
+        </div>
+
+        <div class="flex flex-col items-center gap-2 max-w-2xl">
+            {{ partial:typography/h2 :content="contact:newsletter_heading ?? 'Subscribe to our Newsletter'" class="!mb-0" }}
+            {{ partial:typography/p :content="contact:newsletter_text ?? 'Sign up to get travel tips and inspiration delivered right to your inbox'" color="text-text" class="!mb-0" }}
+        </div>
+
+        {{# Sign-up form — mirrors the footer markup so the Mailchimp wiring
+            can target both with the same form handle. #}}
+        <form action="#" method="post" class="w-full max-w-md flex flex-col sm:flex-row gap-2 items-stretch">
+            <label class="sr-only" for="inspiration-newsletter-email">Email address</label>
+            <input
+                id="inspiration-newsletter-email"
+                name="email"
+                type="email"
+                required
+                placeholder="your@email.com"
+                class="flex-1 bg-white border border-neutral-300 rounded-full px-4 py-3 text-base text-foreground outline-none placeholder:text-muted focus-visible:border-gold focus-visible:ring-2 focus-visible:ring-gold/40"
+            >
+            <button type="submit" class="button button--accent button--large">
+                <span>Subscribe</span>
+            </button>
+        </form>
+    </div>
+</aside>
+<!-- End: /components/_newsletter_cta.antlers.html -->

@@ -2,114 +2,121 @@
     @name Travel tips
     @desc Splide-powered carousel of article cards pulled from the Tips and
           Inspiration collections. Mobile shows one card at a time; desktop
-          shows three. Heading sits on the left of the header, with custom
-          prev/next arrows (md+, when there's something to scroll to) and the
-          optional "view all" link grouped on the right. A thin progress bar
-          below the track tracks position through the set. Each tile is the
-          shared `components/_article-card` partial so this layout stays in
-          lockstep with the cards reference page.
+          shows three. Heading sits on the left of the header; the right
+          slot holds an optional "View all" link (when the block sets
+          `link_text` + `link_entry`) or, as a fallback, custom prev/next
+          arrows when there are more cards than fit on screen. Each tile
+          is the shared `components/_article-card` partial so this layout
+          stays in lockstep with the cards reference page.
+
+          When the block has no hand-picked articles, the slider falls
+          back to the six newest entries across Tips + Inspiration, sorted
+          by entry date.
     @set page.page_builder.travel_tips
 #}}
 
 <!-- /page_builder/_travel_tips.antlers.html -->
+{{# Use the block's hand-picked articles when present; otherwise fall
+    through to the auto fallback. Arrows show when the source has more
+    cards than the carousel page size (three) — the fallback always has
+    six, so arrows show whenever it's in use. #}}
 {{ if block:articles }}
-    <section
-        class="fluid-grid gap-y-12"
-        x-data="{
-            progress: 0,
-            atStart: true,
-            atEnd: false,
-            splide: null,
-            init() {
-                this.splide = new Splide(this.$refs.splide, {
-                    perPage: 3,
-                    perMove: 1,
-                    gap: '2.25rem',
-                    padding: { right: '6rem' },
-                    pagination: false,
-                    arrows: false,
-                    drag: 'free',
-                    snap: true,
-                    breakpoints: {
-                        768: { perPage: 1, gap: '1.5rem', padding: { right: '4rem' } },
-                    },
-                });
-                this.splide.on('mounted move scrolled', () => {
-                    const controller = this.splide.Components.Controller;
-                    const end = controller.getEnd() + 1;
-                    this.progress = Math.min((this.splide.index + 1) / end, 1) * 100;
-                    this.atStart = controller.getPrev() === -1;
-                    this.atEnd = controller.getNext() === -1;
-                });
-                this.splide.mount();
-            },
-            next() { this.splide?.go('+') },
-            prev() { this.splide?.go('-') },
-            destroy() { this.splide?.destroy() },
-        }"
-    >
-        <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-            {{ partial:typography/h2 :content="block:heading" class="!mb-0" color="text-foreground" }}
+    {{ show_arrows = block:articles | count > 3 }}
+{{ else }}
+    {{ show_arrows = true }}
+{{ /if }}
 
-            {{# Desktop prev/next arrows — only when there's something to scroll to. #}}
-            {{ if block:articles | count > 3 }}
-                <div class="hidden md:flex items-center gap-4 self-start md:self-auto">
-                    <button
-                        type="button"
-                        @click="prev()"
-                        :disabled="atStart"
-                        aria-label="Previous tour"
-                        class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-parchment-200"
-                    >
-                        <x-lucide-arrow-left class="size-5" stroke-width="2" aria-hidden="true" />
-                    </button>
-                    <button
-                        type="button"
-                        @click="next()"
-                        :disabled="atEnd"
-                        aria-label="Next tour"
-                        class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-parchment-200"
-                    >
-                        <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />
-                    </button>
-                </div>
-            {{ /if }}
-        </header>
+<section
+    class="fluid-grid gap-y-12"
+    x-data="{
+        atStart: true,
+        atEnd: false,
+        splide: null,
+        init() {
+            this.splide = new Splide(this.$refs.splide, {
+                perPage: 3,
+                perMove: 1,
+                gap: '2.25rem',
+                padding: { right: '6rem' },
+                pagination: false,
+                arrows: false,
+                drag: 'free',
+                snap: true,
+                breakpoints: {
+                    768: { perPage: 1, gap: '1.5rem', padding: { right: '4rem' } },
+                },
+            });
+            this.splide.on('mounted move scrolled', () => {
+                const controller = this.splide.Components.Controller;
+                this.atStart = controller.getPrev() === -1;
+                this.atEnd = controller.getNext() === -1;
+            });
+            this.splide.mount();
+        },
+        next() { this.splide?.go('+') },
+        prev() { this.splide?.go('-') },
+        destroy() { this.splide?.destroy() },
+    }"
+>
+    <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+        {{ partial:typography/h2 :content="block:heading" class="!mb-0" color="text-foreground" }}
 
+        {{# Header slot — "View all" link when both label + target are
+            configured; falls back to prev/next arrows when there's
+            something to scroll to. Each block picks one or the other,
+            not both, so the header line stays uncluttered. #}}
+        {{ if block:link_text && block:link_entry }}
+            {{ link_entry }}
+                <a href="{{ url }}" class="button-inline self-start md:self-auto">
+                    <span>{{ block:link_text }}</span>
+                    <x-lucide-arrow-right aria-hidden="true" />
+                </a>
+            {{ /link_entry }}
+        {{ elseif show_arrows }}
+            <div class="hidden md:flex items-center gap-4 self-start md:self-auto">
+                <button
+                    type="button"
+                    @click="prev()"
+                    :disabled="atStart"
+                    aria-label="Previous article"
+                    class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-parchment-200"
+                >
+                    <x-lucide-arrow-left class="size-5" stroke-width="2" aria-hidden="true" />
+                </button>
+                <button
+                    type="button"
+                    @click="next()"
+                    :disabled="atEnd"
+                    aria-label="Next article"
+                    class="size-11 flex items-center justify-center rounded-full bg-parchment-200 text-gold hover:bg-parchment-300 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-parchment-200"
+                >
+                    <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />
+                </button>
+            </div>
+        {{ /if }}
+    </header>
 
-
-        <div class="splide-bleed-right">
-            <section x-ref="splide" class="splide articles-splide" aria-label="Travel tips">
-                <div class="splide__track">
-                    <ul class="splide__list">
+    <div class="splide-bleed-right">
+        <section x-ref="splide" class="splide articles-splide" aria-label="Travel tips">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    {{ if block:articles }}
                         {{ block:articles }}
                             <li class="splide__slide">
                                 {{ partial:components/article-card }}
                             </li>
                         {{ /block:articles }}
-                    </ul>
-                </div>
-            </section>
-        </div>
-
-        {{# Carousel progress bar — shown whenever there's more than three slides.
-            Negative top margin pulls it close to the bleeding splide above
-            without shrinking the section's heading→splide row gap. #}}
-        {{ if block:articles | count > 3 }}
-            <div
-                class="span-content h-1 w-full bg-parchment-300 rounded-full overflow-hidden"
-                role="progressbar"
-                aria-label="Carousel progress"
-                :aria-valuenow="Math.round(progress)"
-                aria-valuemin="0"
-                aria-valuemax="100"
-            >
-                <div
-                    class="h-full bg-gold transition-[width] duration-400 ease-out"
-                    :style="`width: ${progress}%`"
-                ></div>
+                    {{ else }}
+                        {{ collection from="tips|inspiration" sort="date:desc" limit="6" }}
+                            <li class="splide__slide">
+                                {{ partial:components/article-card }}
+                            </li>
+                        {{ /collection }}
+                    {{ /if }}
+                </ul>
             </div>
-        {{ /if }}
-    </section>
-{{ /if }}
+        </section>
+    </div>
+
+</section>
 <!-- End: /page_builder/_travel_tips.antlers.html -->

@@ -1,11 +1,7 @@
 email: info@hiddenitaly.com.au
-address: |
+address: |-
   20 – 40 Meagher Street,
   Chippendale, Sydney NSW, 2008
-office_label: 'Sydney Office'
-office_appointment_only: 'By appointment only'
-office_lat: -33.8893
-office_lng: 151.1985
 phones:
   -
     id: phone_guided
@@ -19,5 +15,21 @@ phones:
     enabled: true
     label: 'Self-guided Tours'
     number: '+61 420 981 435'
+office_label: 'Sydney Office'
+office_appointment_only: 'By appointment only'
+office_location:
+  label: 'Meagher Street, Sydney, New South Wales, Australia'
+  lat: '-33.8873729'
+  lon: '151.2000491'
+  streetName: 'Meagher Street'
+  postalCode: '2008'
+  locality: Sydney
+  subLocality: Chippendale
+  adminLevels:
+    1:
+      name: 'New South Wales'
+      code: null
+      level: 1
+  country: Australia
 newsletter_heading: 'Subscribe to our Newsletter'
-newsletter_text: "Sign up to get travel tips and inspiration delivered right to your inbox."
+newsletter_text: 'Sign up to get travel tips and inspiration delivered right to your inbox.'

@@ -321,9 +321,11 @@ page_builder:
     type: essentials
     enabled: true
   -
+    id: riG2kDbX
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently Asked Questions'
   -
     id: v-Y1X2gPDJm6PxI5fCblV
     heading: 'What our travellers are saying'
@@ -336,7 +338,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 1
-updated_at: 1777900499
+updated_at: 1778587403
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
@@ -387,4 +389,6 @@ finish_location:
 now_open: true
 leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 headline: '10 days hiking in the Italian Alps'
+price: '$5,650 AUD'
+show_from: true
 ---

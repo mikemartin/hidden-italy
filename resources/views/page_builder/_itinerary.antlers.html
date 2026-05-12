@@ -2,13 +2,11 @@
     @name Itinerary
     @desc Day-by-day itinerary as a Splide carousel — modelled on the
           featured-tours block. Title (and optional summary) sit on the
-          left; prev/next arrows sit on the right of the same header. A
-          gold progress bar below the track tracks position through the
-          set. Mobile shows one card at a time, desktop shows three.
-          Each card has the day's photo, "Day N" eyebrow, title, an
-          optional stat row (hrs / km / elev), description, and a meals
-          row. Arrows hidden when there's nothing to scroll to (≤3 days);
-          progress bar hidden when there's only one slide.
+          left; prev/next arrows sit on the right of the same header.
+          Mobile shows one card at a time, desktop shows three. Each
+          card has the day's photo, "Day N" eyebrow, title, an optional
+          stat row (hrs / km / elev), description, and a meals row.
+          Arrows hidden when there's nothing to scroll to (≤3 days).
     @set page.page_builder.itinerary
 #}}
 
@@ -22,7 +20,6 @@
         <div
             class="contents"
             x-data="{
-                progress: 0,
                 atStart: true,
                 atEnd: false,
                 splide: null,
@@ -42,8 +39,6 @@
                     });
                     this.splide.on('mounted move scrolled', () => {
                         const controller = this.splide.Components.Controller;
-                        const end = controller.getEnd() + 1;
-                        this.progress = Math.min((this.splide.index + 1) / end, 1) * 100;
                         this.atStart = controller.getPrev() === -1;
                         this.atEnd = controller.getNext() === -1;
                     });
@@ -161,24 +156,6 @@
             </section>
         </div>
 
-        {{# Carousel progress bar — shown whenever there's more than one slide.
-            Negative top margin pulls it close to the bleeding splide above
-            without shrinking the section's heading→splide row gap. #}}
-        {{ if block:days | count > 1 }}
-            <div
-                class="span-content -mt-2 md:-mt-6 h-1 w-full bg-parchment-300 rounded-full overflow-hidden"
-                role="progressbar"
-                aria-label="Itinerary progress"
-                :aria-valuenow="Math.round(progress)"
-                aria-valuemin="0"
-                aria-valuemax="100"
-            >
-                <div
-                    class="h-full bg-gold transition-[width] duration-400 ease-out"
-                    :style="`width: ${progress}%`"
-                ></div>
-            </div>
-        {{ /if }}
         </div>
     {{ /partial:page_builder/block }}
 {{ /if }}

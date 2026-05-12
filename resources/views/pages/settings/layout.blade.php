@@ -1,9 +1,7 @@
 @php
     $accountNav = [
-        ['route' => 'account.profile',           'label' => __('Profile'),           'icon' => 'circle-user-round'],
-        ['route' => 'account.password',          'label' => __('Password'),          'icon' => 'key-round'],
-        ['route' => 'account.emergency-contact', 'label' => __('Emergency Contact'), 'icon' => 'ambulance'],
-        ['route' => 'account.postal-address',    'label' => __('Postal Address'),    'icon' => 'mailbox'],
+        ['route' => 'account.profile',  'label' => __('Profile'),  'icon' => 'circle-user-round'],
+        ['route' => 'account.password', 'label' => __('Password'), 'icon' => 'key-round'],
     ];
 @endphp
 

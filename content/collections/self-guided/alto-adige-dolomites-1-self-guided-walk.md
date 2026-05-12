@@ -101,14 +101,14 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in the Dolomites'
+        title: 'Arrive in the Dolomites'
         description: 'You will be picked up in Bolzano and taken north, following the Adige Valley towards Austria, before turning left into one of the most beautiful valleys in the Dolomites (a fascinating one-hour drive away).'
         meals_included:
           - dinner
         photo: tours/alto-adige-dolomites-1-self-guided-walk/2.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Walk the north side of the valley'
+        title: 'Walk the north side of the valley'
         description: 'Your first walk is a spectacular introduction to the Dolomites.  To get to the start, you will be driven to the western end of the valley.  You then take a cable car to the top of the northern side, where you have breath-taking views over the whole range, stretching from Austria in the north to Veneto in the south.   You then take an undulating path across alpine pastures, through pine forests and back down to your village, with the option of stopping for lunch in a mountain hut along the way.'
         duration: 4
         distance: 10
@@ -119,7 +119,7 @@ page_builder:
         photo: tours/alto-adige-dolomites-1-self-guided-walk/img_1568.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk to Ortisei'
+        title: 'Walk to Ortisei'
         description: |-
           This morning is an easy day, following a gentle river-side path that takes you the length of the valley past farmhouses and through villages to the largest town in the valley  (2.5 hrs; 9 kms; max: 1563 mts, min: 1221 mts)
 
@@ -133,7 +133,7 @@ page_builder:
         photo: tours/alto-adige-dolomites-1-self-guided-walk/p9171957-(2)-1773019785.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk Walk the south side of the valley'
+        title: 'Walk Walk the south side of the valley'
         description: |-
           The walk today starts with a transfer back to the eastern end of the valley and another cable car ride, this time up the southern side of the valley (to 2,000 metres) from where you walk across the largest high altitude alpine meadows in Europe, a vast undulating amphitheatre of green fields surrounded by some of the most spectacular ranges in the area. 
 
@@ -147,7 +147,7 @@ page_builder:
         photo: tours/alto-adige-dolomites-1-self-guided-walk/36.jpg
       -
         id: mlop5205
-        title: 'Day 5:  The grand finale'
+        title: 'The grand finale'
         description: 'As the grand finale to your visit, you have a circuit walk around one of the most famous formations in the Dolomites.  To get to the start, you take a cable car directly up from the town.  From here, you follow a trail that contours around this extraordinary massif, with cliffs soaring up above you (3000 mts). There are regular mountain huts along the way for refreshments.  This trail is not suitable for suffers of vertigo so we have included a shorter, lower and less challenging alternative.'
         duration: 6
         distance: 19
@@ -158,7 +158,7 @@ page_builder:
         photo: tours/alto-adige-dolomites-1-self-guided-walk/p9192176-1773019628.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Transfer to Bolzano'
+        title: 'Transfer to Bolzano'
         description: 'You’ll be taken back to Bolzano by a private transfer, which has regular national and international rail connections.'
         duration: 2
         distance: 6

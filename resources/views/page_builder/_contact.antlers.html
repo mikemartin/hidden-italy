@@ -82,11 +82,12 @@
                 </section>
             {{ /if }}
 
-            {{# Office map — only mounts when both lat/lng are configured. #}}
-            {{ if contact:office_lat && contact:office_lng }}
+            {{# Office map — only mounts when the office_location simple_address
+                has been geocoded. Note the field stores `lon`, not `lng`. #}}
+            {{ if contact:office_location:lat && contact:office_location:lon }}
                 <div
                     x-data="officeMap"
-                    data-coords="[{{ contact:office_lng }}, {{ contact:office_lat }}]"
+                    data-coords="[{{ contact:office_location:lon }}, {{ contact:office_location:lat }}]"
                     class="rounded-lg overflow-hidden border border-parchment-300 shadow-sm"
                 >
                     <div x-ref="canvas" class="w-full aspect-[16/9] bg-parchment-200" aria-label="Map showing the {{ contact:office_label or 'office' }}"></div>

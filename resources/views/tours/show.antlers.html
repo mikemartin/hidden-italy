@@ -187,8 +187,21 @@
                         ></div>
                     </div>
 
-                    {{# Desktop-only CTA — pinned to the right of the section nav. #}}
-                    <div class="hidden md:flex items-center shrink-0">
+                    {{# Desktop-only CTA — pinned to the right of the section nav.
+                        Price block sits beside the CTA; self-guided tours
+                        prefix with "From" because the listed value is the
+                        starting price per person. #}}
+                    <div class="hidden md:flex items-center gap-5 shrink-0">
+                        {{ if price }}
+                            <div class="flex flex-col items-end leading-tight gap-1">
+                                {{ if show_from }}
+                                <span class="font-display font-semibold text-xs uppercase tracking-[1px] text-text">
+                                    {{ trans:strings.from ?? 'From' }}
+                                </span>
+                                {{ /if }}
+                                <span class="font-display font-semibold text-lg text-foreground leading-none">{{ price }}</span>
+                            </div>
+                        {{ /if }}
                         {{ if logged_in }}
                             <a href="/booking?tour={{ slug }}" class="button button--accent" wire:navigate>
                                 <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>

@@ -120,14 +120,14 @@ page_builder:
     days:
       -
         id: Oq_aVZ8gM2mizpzgstXmK
-        title: 'Day 1:  arrive in Palermo'
+        title: 'arrive in Palermo'
         description: "Our Sicily tour starts in Palermo, the capital of Sicily, which is pressed between the mountains and the sea, a striking setting for what must be one of the most exotic cities in Europe. Its architecture and culture reflect the extraordinarily rich fabric of its past. Our accommodation for the first two nights is in an elegant 4-star hotel in the lively commercial centre of Palermo. We'll meet in the hotel foyer at 19.00 and have a light dinner in a neighbouring restaurant."
         meals_included:
           - dinner
         photo: tours/sicily-palermo-to-taormina/04.2.jpg
       -
         id: YLkYj4_LvvpA8FQtJRa-C
-        title: 'Day 2: explore Palermo'
+        title: 'explore Palermo'
         description: "This morning we will be taken on a guided walking tour of the hidden treasures in the centre of Palermo before exploring the winding lanes of Palermo's celebrated markets and visiting the famous Norman Palace and its spectacular mosaics. After lunch, the rest of the afternoon and the evening is free."
         meals_included:
           - breakfast
@@ -135,7 +135,7 @@ page_builder:
         photo: tours/sicily-palermo-to-taormina/2.jpg
       -
         id: ysEtAW5lQJTqXlSE064rQ
-        title: 'Day 3: transfer to the mountains'
+        title: 'transfer to the mountains'
         description: "From the bustle and intensity of Sicily's largest city, we drive into the mountainous interior to the green tranquillity of the island's second largest national park. On the way we will visit the dazzling medieval cathedral of Monreale, perched high above Palermo, and then stop at Cefalu, a lovely seaside resort for lunch.  Our base for the next four nights will be in a traditional and wonderfully restored historical property with all the comforts.  We'll have dinner in a nearby restaurant."
         meals_included:
           - breakfast
@@ -144,7 +144,7 @@ page_builder:
         photo: tours/sicily-palermo-to-taormina/7.jpg
       -
         id: GZDLxY0mZk-PQrOwEsWlO
-        title: 'Day 4:  walk in the mountains'
+        title: 'walk in the mountains'
         description: "The first walk of the tour takes us into the heart of the Madonie National Natural Park. It is a beautiful high mountain walk finishing in a small fortified town, perched on the edge of the park, that was the original seat of the area's feudal lords. After a light lunch, we'll explore this beautifully situated town before returning to our base."
         duration: 4
         distance: 13
@@ -156,7 +156,7 @@ page_builder:
         photo: tours/sicily-palermo-to-taormina/24.5.jpg
       -
         id: EymXPLYKFOpoqp-arNVIS
-        title: 'Day 5:  visit a Roman villa'
+        title: 'visit a Roman villa'
         description: "This morning we head south to visit Piazza Armerina, the extraordinary villa at Casale, the most important relic of the Roman era in Sicily, unique for both the size and the richness of the polychrome floor mosaics.  Before the visit, we'll stop for a delicious light lunch.  After the visit, we’ll drive back to our base, where the rest of the afternoon and evening are free."
         meals_included:
           - breakfast
@@ -164,7 +164,7 @@ page_builder:
         photo: tours/sicily-palermo-to-taormina/27.5.jpg
       -
         id: aR55SmJ_TrUEhTa-OcU7g
-        title: 'Day 6:  another fabulous walk'
+        title: 'another fabulous walk'
         description: |-
           Today we walk through rolling green hills covered with wildflowers and dotted with farmhouses and hamlets, up to a tiny hilltop village, dominated by an awesome medieval Norman castle, where we'll have a packed lunch before visiting the castle (14 kms, 4 hrs, 459 mts ascent, 528 mts descent).
 
@@ -179,7 +179,7 @@ page_builder:
         photo: tours/sicily-palermo-to-taormina/25-a.jpg
       -
         id: FemEj-8GNCdYUNm9nMHXz
-        title: 'Day 7: transfer to the Aeolian Islands'
+        title: 'transfer to the Aeolian Islands'
         description: "After breakfast, we drive through the Nebrodie Mountains to the coast. Here we take a hydrofoil one hour north to the Aeolian Islands, and specifically to the island of Lipari, where we'll stay for the next four nights in a lovely hotel near the port which has beautiful gardens and a large swimming pool.  In the afternoon, you'll be taken on a guided visit of Lipari's small but fascinating archaeological museum.  In the evening we have dinner at an excellent local osteria."
         meals_included:
           - breakfast
@@ -187,7 +187,7 @@ page_builder:
         photo: tours/sicily-palermo-to-taormina/48.5.jpg
       -
         id: mv17ZUEjrm5We0s3WpSXb
-        title: 'Day 8:  walk across the island'
+        title: 'walk across the island'
         description: |-
           This morning we go for a walk, starting at the furthest tip of the Lipari, where, with views over neighbouring islands, we take an ancient path that dips down to follow cliffs along the coast before climbing up to thermal springs scattered with Roman and Greek ruins, then continue along a paved stretch of Roman road to lunch.  
           Afterwards, the willing can continue the walk down to Lipari town (4 kms, 1 hr), while the others can take a taxi back to town. The rest of the afternoon and evening are free.
@@ -200,7 +200,7 @@ page_builder:
         photo: tours/sicily-palermo-to-taormina/50-v2.jpg
       -
         id: KzzRjFO9tlWGf2-Wii1Pd
-        title: 'Day 9:  a day island-hopping'
+        title: 'a day island-hopping'
         description: 'This morning we will be taken by private boat (a very comfortable converted fishing boat) to explore the smallest and most picturesque island of the archipelago. We go for a walk to visit a spectacularly positioned pre-historic site before returning to the port for lunch.  After lunch we get back on the boat and continue our exploration of the island, having a swim in the blue Mediterranean sea before returning to Lipari. The evening is free'
         duration: 2
         distance: 5
@@ -211,7 +211,7 @@ page_builder:
         photo: tours/sicily-palermo-to-taormina/48.5.jpg
       -
         id: siQvsdgOurix_sZEIwh0X
-        title: 'Day 10:  climb a volcano'
+        title: 'climb a volcano'
         description: "Today we will again take a private boat for a visit to another neighbouring island a short boat ride from Lipari, for the one hour climb up to the smoking crater of one the Mediterranean's most famous seismic phenomena, believed by the ancients to be the gates to hell (conditions permitting).  On the way back to Lipari we'll explore the coast before having a light lunch. In the evening we have dinner at an elegant restaurant which specialises in seafood and local cuisine"
         duration: 2
         distance: 5
@@ -223,7 +223,7 @@ page_builder:
         photo: tours/sicily-palermo-to-taormina/vulcano-3.jpg
       -
         id: jvC4EyD_4eCaTbq_WjKBg
-        title: 'Day 11: transfer to Taormina'
+        title: 'transfer to Taormina'
         description: 'In the morning, we take the hydrofoil back to the mainland and drive around the north-eastern tip of Sicily to an enchanting village perched above the picturesque town of Taormina.  Our 4-star hotel has wonderful views over Taormina to Mt Etna. You will be free to unpack and relax around the swimming pool.  Later in the afternoon, we will walk down to Taormina for a guided visit of the famous Greek theatre, which dates from the 3rd century BC.    We will return to the hotel for dinner.'
         duration: 1
         distance: 4
@@ -233,7 +233,7 @@ page_builder:
         photo: tours/sicily-palermo-to-taormina/taormina-4.5.jpg
       -
         id: O0emPib_FcRIp-1IWMCpC
-        title: 'Day 12:  walk in the forests of Mt Etna'
+        title: 'walk in the forests of Mt Etna'
         description: 'Today we drive around the northern side of Mt Etna and then up into the Etna National Park, taking a beautiful walk through forests of oak, beech and birch trees, crossing countryside modelled by centuries of lava flows with the peak of snow-capped Mount Etna looming above.  We then drive down the mountain for a wine tasting and lunch at a small family-run vineyard.  After a stroll around the vineyard, we’ll drive back to our hotel where the evening is free.'
         duration: 4
         distance: 11
@@ -244,7 +244,7 @@ page_builder:
         photo: tours/sicily-palermo-to-taormina/etna-22.jpg
       -
         id: inM18Qylk6zVJhIaWY7Mu
-        title: 'Day 13: relax in Taormina'
+        title: 'relax in Taormina'
         description: 'Today is a free day.  You’ll have the chance to relax and enjoy the romance of Taormina spending the morning shopping and exploring the town.  Otherwise, day trips are available to take you up the southern side of Mt Etna to the active crater at the top of the mountain.  Alternately, you may choose to do a day trip south to Syracuse. Additional costs apply for these excursions.  In the evening we’ll regroup in Taormina to have our farewell dinner at a fabulous family-run restaurant.'
         meals_included:
           - breakfast
@@ -252,7 +252,7 @@ page_builder:
         photo: tours/sicily-palermo-to-taormina/taormina-teatro-1.jpg
       -
         id: EtPXnMrh4_7D4BidgyAzQ
-        title: 'Day 14: transfer to Catania'
+        title: 'transfer to Catania'
         description: 'After breakfast, we leave our hotel at 8.00am and transfer to Catania, which has an international airport and rail connections to the mainland (the train is ferried across the Straits of Messina) and to the rest of Europe. If required, we can also organise transfers back to Palermo.'
         meals_included:
           - breakfast

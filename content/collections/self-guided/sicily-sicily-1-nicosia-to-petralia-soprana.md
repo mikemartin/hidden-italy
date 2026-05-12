@@ -101,14 +101,14 @@ page_builder:
     days:
       -
         id: mlrcdegn
-        title: 'Day 1:  Arrive in Nicosia'
+        title: 'Arrive in Nicosia'
         description: 'Your tour starts with a private transfer from either Palermo or Catania to Nicosia in central Sicily, an hour and a half away.  A strategic point on the mountain road that linked eastern Sicily with Palermo, Nicosia grew up around a 7th century Byzantine castle and flourished under Norman rule in the 12th century.  Today it is a bustling agricultural centre – pure Sicily!'
         meals_included:
           - dinner
         photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/saints-day-out.jpg
       -
         id: mlrce7n9
-        title: 'Day 2:  Walk into the mountains'
+        title: 'Walk into the mountains'
         description: 'Your first walk is an easy hike across the valley to a tiny village that grew up around a rock outcrop riddled with prehistoric cave dwellings.  Mt Etna, 100 kms to the east, is visible from the village’s impregnable castle.  The village’s dialect still has traces of the French invaders who were garrisoned here in the 13th century.'
         duration: 3
         distance: 13
@@ -119,7 +119,7 @@ page_builder:
         photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/45.5.jpg
       -
         id: mlrchqfo
-        title: 'Day 3:  A ramble through the valleys'
+        title: 'A ramble through the valleys'
         description: 'Today you have a long but gentle walk through rolling valleys with vast views of the mountains and farmlands around you.  At the end of the walk, you will be met and driven to your accommodation for the night, at the foot of one of the most fascinating villages in the district.'
         duration: 4
         distance: 14
@@ -130,7 +130,7 @@ page_builder:
         photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/42.jpg
       -
         id: mlrcpsyv
-        title: 'Day 4:  Stay in a family-run agriturismo'
+        title: 'Stay in a family-run agriturismo'
         description: "An easy day, today you climb up to a nearby town,  a jumble of houses and lanes that tumble down the side of a spherical hill.  Your accommodation is a family-run agriturismo in the valley below the town which was once a baronial residence. You will have the option in the afternoon of doing a loop walk up to visit the neighbouring town, which was judged Italy's Most Beautiful Village in 2014 (2 hrs, 6 kms, 440 mts)"
         duration: 2
         distance: 7
@@ -141,7 +141,7 @@ page_builder:
         photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/08.jpg
       -
         id: mlrcryci
-        title: 'Day 5:  Walk to the Madonie Park'
+        title: 'Walk to the Madonie Park'
         description: "The walk today takes you through the valley and then up to a small town that was founded by the ancient Greeks and was the seat of the medieval counts who ruled central Sicily from here in the 14th and 15th centuries.  The town is also the gateway to the Madonie National Park.  Your accommodation tonight is in a beautifully restored historic building in the centre of town, close to the town's central piazza."
         duration: 4
         distance: 12
@@ -152,7 +152,7 @@ page_builder:
         photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/121.jpg
       -
         id: mlrczqmb
-        title: 'Day 6:  Walk to Petralia Soprana'
+        title: 'Walk to Petralia Soprana'
         description: "Today’s walk takes you sharply up from the town to a wide path that contours around side of a mountain, taking you through pines forests and pastures with spectacular views back east across the valleys and mountains.  On a clear day, you will have Mt Etna as a backdrop.  You descend down a fire-trail to your final destination, an extraordinary town that was founded by the Romans and was classified as Italy's Most Beautiful Village in 2018."
         duration: 4
         distance: 12
@@ -163,7 +163,7 @@ page_builder:
         photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/25-2.jpg
       -
         id: mlrd7giq
-        title: 'Day 7:  Transfer to Palermo or Catania'
+        title: 'Transfer to Palermo or Catania'
         description: 'After breakfast, you will be transferred to either Palermo or Catania, a one and a half hour drive away.'
         meals_included:
           - breakfast

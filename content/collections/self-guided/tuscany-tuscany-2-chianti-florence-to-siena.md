@@ -103,12 +103,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Impruneta'
+        title: 'Arrive in Impruneta'
         description: 'The tour starts with a private transfer from Florence to Impruneta, a pleasant town twenty kilometres Florence. Your family hotel has views of the town’s famous basilica in the central piazza, dating from the 11th century, which contains a miraculous image of the Madonna, fragments of the True Cross and masterpieces by Luca della Robbia and Michelozzi.'
         photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/kristina-c-qwaolhfrx3i-unsplash.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Stroll through farmlands'
+        title: 'Stroll through farmlands'
         description: "Today's is a gentle walk, taking you along well-marked trails over the undulating hills of northern Tuscany to a small market town, where you spend the night.  Along the way, you pass through undulating farmlands, wheat fields and patches of forests."
         duration: 3
         distance: 9
@@ -118,7 +118,7 @@ page_builder:
         photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/jonathan-skule-hvhpyxztqmc-unsplash(1).jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk through vineyards'
+        title: 'Walk through vineyards'
         description: 'The walk today takes you through the heartland of the Chianti wine district, following a well-marked trail through rolling hills covered in vineyards, to a small town that is one the centres of viticulture in Tuscany.  Along the walk, you will have the opportunity  to visit one of the oldest and wealthiest abbeys in the region, and have lunch at their excellent restaurant (there is a simpler bistrot nearby, if you prefer).  It is possible to shorten this walk.'
         duration: 5
         distance: 17
@@ -128,7 +128,7 @@ page_builder:
         photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/016.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  Cross the Chianti hills'
+        title: 'Cross the Chianti hills'
         description: 'Today’s walk starts with a long climb up to the ridge of the highest range hills in the Chianti district.  On the way, you pass a medieval castle and several hamlets.  From the top of the range you are rewarded with spectacular views over the Greve River valley.  The walk continues along the ridge, passing through oak and chestnut forests on the way to your accommodation, a lovely ‘agriturismo’ with a swimming pool and an excellent restaurant.  Your dinner is included tonight.'
         duration: 5
         distance: 15
@@ -139,7 +139,7 @@ page_builder:
         photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Walk to  through forests'
+        title: 'Walk to  through forests'
         description: 'Today you continue your walk along the ridge before descending through pine and oak forests, to a magnificent wine estate situated in a converted medieval abbey (where you can have lunch and sample some of their produce).  Your goal, another small town devoted to wine industry, is an hour’s descent through more oak forest and farmlands.  Along the way you pass from the Florentine territory into the Sienese territory.'
         duration: 4
         distance: 16
@@ -149,7 +149,7 @@ page_builder:
         photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/img_0738-2.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Transfer to Siena'
+        title: 'Transfer to Siena'
         description: 'This morning you have a short walk, passing through classic Chianti countryside passing more vineyards, farm houses with panoramic views and a beautiful castle along the way.  You will be picked up by private transfer at a small hamlet at 12.00 and driven to Siena, ten kilometres south, which will leave you plenty of time to explore this extraordinary city in the afternoon and evening.'
         meals_included:
           - breakfast
@@ -159,7 +159,7 @@ page_builder:
         photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/alessandro-rossi-ju_bgza3zhe-unsplash.jpg
       -
         id: mmzs9nie
-        title: 'Day 7:  Depart Siena'
+        title: 'Depart Siena'
         description: "This morning, after breakfast, you'll be able to continue your holiday.  Siena is connected to Florence and Rome by regular buses and trains."
         meals_included:
           - breakfast

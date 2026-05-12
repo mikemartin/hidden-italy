@@ -116,8 +116,8 @@ tabs:
               display: 'Walking Grade Filter'
               options:
                 moderate: 'Moderate (0-2)'
-                intermediate: 'Intermediate (2-3)'
-                challenging: 'Challenging (3-5)'
+                intermediate: 'Intermediate (3-4)'
+                challenging: 'Challenging (5)'
               instructions: 'Used only for filtering; not part of entry data.'
               width: 50
               visibility: hidden
@@ -731,6 +731,18 @@ tabs:
               localizable: true
               validate: 'max:200'
               show_regenerate: true
+          -
+            handle: price
+            field:
+              type: text
+              display: Price
+              instructions: 'Free-form, e.g. "$4,950 AUD".'
+          -
+            handle: show_from
+            field:
+              type: toggle
+              display: 'Show "From" prefix'
+              instructions: 'Prefixes the price with "From " when the tour has variants or starting prices.'
           -
             handle: simple_likes
             field:

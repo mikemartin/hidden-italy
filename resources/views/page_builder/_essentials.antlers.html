@@ -55,6 +55,15 @@
                             </div>
                         {{ /if }}
 
+                        {{# Default the booking-cancellation row to the public
+                            Terms & Conditions page when the editor hasn't set
+                            an explicit link, so the section always exposes a
+                            direct path to the full cancellation policy. #}}
+                        {{ if type == 'booking_cancellation' && !link_text && !link_url }}
+                            {{ link_text = trans:strings.read_cancellation_terms ?? 'Read full cancellation terms' }}
+                            {{ link_url = '/terms#cancellation' }}
+                        {{ /if }}
+
                         {{ if link_text }}
                             <a
                                 href="{{ link_url ?? '#' }}"

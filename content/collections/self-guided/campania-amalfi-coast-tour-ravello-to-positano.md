@@ -98,12 +98,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Ravello'
+        title: 'Arrive in Ravello'
         description: 'You are picked up by a private vehicle at a time and place that suits you and driven from Naples to Ravello, a beautiful village perched 350 metres above the port of Amalfi, celebrated for Wagner, its gardens and superb views over the Gulf of Salerno.'
         photo: tours/liguria-cinque-terre-coastal-walking-tour-1/1.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Walk the Valle delle Ferriere'
+        title: 'Walk the Valle delle Ferriere'
         description: 'Today you have two options.  The first winds down stone paths to the coast and then wraps around to the town of Amalfi, leaving plenty of time to explore this fascinating town that once ruled the Mediterranean Sea. The second option is a more challenging, longer walk into the the extraordinary Valle delle Ferriere, which wraps through a national park, passing towering cliffs, chestnut forests, and waterfalls, with breathtaking views over the coast. (4 hrs; 13.5 kms; max: - 610 mts)'
         duration: 2
         distance: 3
@@ -113,7 +113,7 @@ page_builder:
         photo: tours/liguria-cinque-terre-coastal-walking-tour-1/amalfi.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk above the coast'
+        title: 'Walk above the coast'
         description: "Today's walk follows an ancient path that has linked the villages between for centuries, passing an ancient monastery before dropping down to a little hamlet sitting above the sea, where you'll stay the night. B elow your hotel is a beautiful hidden port, with coloured fishing boats, a small shingle beach and a very pleasant bar. In the afternoon, you will also have time to visit the famous nearby Grotta Smeralda."
         duration: 2
         distance: 6
@@ -123,7 +123,7 @@ page_builder:
         photo: tours/liguria-cinque-terre-coastal-walking-tour-1/img_4282.jpeg
       -
         id: mlop3c5r
-        title: 'Day 4:  Climbiing high'
+        title: 'Climbing high'
         description: 'Today you have a choice of two trails.  The first, more demanding trail, starts with a steep climb through hamlets to a busy village.  It then contours around the mountains before entering a green valley and descending to your accommodation, a lovely family-run hotel with views across the gulf to Positano.  The second, less demanding, trail follows a lower route along a path above the sea which has spectacular views.  After crossing a fjord, you climb up to your accommodation.  (3 hrs; 7 kms)'
         duration: 4
         distance: 11
@@ -133,7 +133,7 @@ page_builder:
         photo: tours/liguria-cinque-terre-coastal-walking-tour-1/b.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Walk the Path of the Gods'
+        title: 'Walk the Path of the Gods'
         description: 'It is not by chance that the locals have baptised this walk with the rather extravagant name of Via degli Dei, the Path of the God’s.  Despite the tourist hyperbole that has made this one of the most famous walks in the area, the views and the hike are extraordinary.  It is a big climb up to the start of the path but it is worth it, and from there it is all down hill to arrive in magical Positano!'
         duration: 4
         distance: 11
@@ -143,7 +143,7 @@ page_builder:
         photo: tours/liguria-cinque-terre-coastal-walking-tour-1/view-to-positano.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Transfer to Naples'
+        title: 'Transfer to Naples'
         description: 'After breakfast in your hotel, at a time that suits you, you will be taken by private vehicle back to the Naples, an hour or so north.'
         duration: 2
         distance: 6

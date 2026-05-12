@@ -98,12 +98,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Transfer from Rome to Pitigliano'
+        title: 'Transfer from Rome to Pitigliano'
         description: 'You will be picked up in Rome and transferred to Pitigliano. This spectacularly sited town is bounded by two ravines and is over three thousand years old.  The historic centre of the town is a tangle of lanes and car-free streets, a fascinating place to spend some time exploring.'
         photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano_-tuscany-s-hilltop-beauty.png
       -
         id: mloozlek
-        title: 'Day 2:  Walk ancient trails'
+        title: 'Walk ancient trails'
         description: "In the morning you will be transferred to nearby Pitigliano, where you'll have time to explore this spectacular town before doing the extraordinary walk that links Pitigliano to Sovana.  The trail follows an Etruscan path carved out of living rock two and a half thousand years ago.  You will have time in the afternoon to walk down to the valleys surrounding Sovana to explore the Etruscan sites."
         duration: 2
         distance: 8
@@ -113,7 +113,7 @@ page_builder:
         photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano-2.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Sleep in a castle'
+        title: 'Sleep in a castle'
         description: "The next leg of the walk is to another extraordinary neighbouring town, founded at the same time as Pitigliano and with an equally extraordinary location, perched on volcanic cliffs above a river, staying in a hotel situated in the town's medieval fortress."
         duration: 3
         distance: 11
@@ -123,7 +123,7 @@ page_builder:
         photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/sorano-1-a.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  Discover an abandoned city'
+        title: 'Discover an abandoned city'
         description: 'After a morning exploring town, the next walk is to a charming farming town following a shaded stream and a route that originally joined landlocked Orvieto with the coast, visiting on the way the ruins of a very interesting abandoned medieval town, swallowed up by forests centuries ago.  Dinner in your lovely agriturismo is included tonight.'
         duration: 3
         distance: 7
@@ -134,7 +134,7 @@ page_builder:
         photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/walking.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Sleep lakeside'
+        title: 'Sleep lakeside'
         description: "Today you walk to Lake Bolsena via a sleepy country town, leaving Tuscany and crossing into Lazio, from the Grand Duchy into the Papal State. The walk finishes on the shores of the lake at a tiny trattoria shaded by willows were you'll be able to have lunch. You will be picked up from here by our driver and taken around the lake to your accommodation in a 4-star hotel on the lakeshore."
         duration: 5
         distance: 18
@@ -144,7 +144,7 @@ page_builder:
         photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/bolsena-1.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Walk to Orvieto'
+        title: 'Walk to Orvieto'
         description: "Walk from Lake Bolsena to the marvellous town of Orvieto following for much of the way the original route of a branch of the medieval Via Francigena. On the way you will pass through forest (past an Etruscan excavation and a rock that was miraculously split to allow a medieval procession carrying a relic of Christ's blood to reach Orvieto) before, picking up a dead straight paved section of original Roman road which will take you into Orvieto.  (18 kms, 5 hrs; min: 188 mts, max: 626 mts)"
         duration: 5
         distance: 17
@@ -154,7 +154,7 @@ page_builder:
         photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-1.jpg
       -
         id: mlop8uiy
-        title: 'Day 7:  Depart Orvieto'
+        title: 'Depart Orvieto'
         description: 'Breakfast in your hotel. Orvieto station is on the main Rome/Florence line and you will be able to continue your holiday from there.'
         meals_included:
           - breakfast
