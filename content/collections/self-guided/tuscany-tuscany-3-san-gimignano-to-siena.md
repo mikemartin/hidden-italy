@@ -106,7 +106,7 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Arrive in San Gimgnano'
+        title: 'Arrive in San Gimignano'
         description: "A private transfer will take you from Florence to your hotel in San Gimignano, a walled medieval town famous for its towers, which was on the Via Francigena, the most important route to Rome in the Middle Ages. In the afternoon there is a short loop walk through the celebrated Vernaccia vineyards with wonderful views over San Gimignano's famous skyline before returning to your base."
         duration: 2
         distance: 9
