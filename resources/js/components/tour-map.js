@@ -160,7 +160,10 @@ export default function tourMap() {
                 },
             });
 
-            // Start (green) and end (terracotta) point markers.
+            // Start (green) and end (terracotta) point markers. Each
+            // marker is a coloured disc with a white halo and a small
+            // white pip on top, so the pin reads as a traditional
+            // concentric map marker rather than a flat coloured dot.
             for (const [id, coords, color] of [
                 ['start', start, '#6D998C'], // sage green
                 ['end', end, '#bb4d00'], // terracotta
@@ -181,6 +184,15 @@ export default function tourMap() {
                         'circle-color': color,
                         'circle-stroke-color': '#ffffff',
                         'circle-stroke-width': 3,
+                    },
+                });
+                this.map.addLayer({
+                    id: `${id}-circle-inner`,
+                    type: 'circle',
+                    source: `${id}-point`,
+                    paint: {
+                        'circle-radius': 3,
+                        'circle-color': '#ffffff',
                     },
                 });
             }
