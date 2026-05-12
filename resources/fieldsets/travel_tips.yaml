@@ -36,6 +36,4 @@ fields:
         - tips
         - inspiration
       max_items: 6
-      instructions: 'Pick articles for the grid &mdash; three is the intended count. Mix of Tips and Inspiration entries.'
-      validate:
-        - required
+      instructions: 'Pick articles for the grid &mdash; three is the intended count. Mix of Tips and Inspiration entries. Leave blank to fall back to the six most recently updated articles.'
