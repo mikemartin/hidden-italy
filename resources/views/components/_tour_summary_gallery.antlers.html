@@ -33,7 +33,12 @@
 {{ gallery_count = gallery | count }}
 
 <div class="contents" data-tour-gallery>
-    <script type="application/json" data-tour-gallery-images>[{{ gallery }}{"src":"{{ url }}"}{{ unless last }},{{ /unless }}{{ /gallery }}]</script>
+    {{# `subHtml` is lightGallery's caption slot — rendered under the slide.
+        Pull from each asset's `caption` field (declared on the images
+        blueprint, kept separate from `alt` so screen-reader copy and the
+        visible caption can diverge). `to_json` handles quoting/escaping
+        for the JSON payload. #}}
+    <script type="application/json" data-tour-gallery-images>[{{ gallery }}{"src":"{{ url }}","subHtml":{{ caption | to_json }}}{{ unless last }},{{ /unless }}{{ /gallery }}]</script>
 
     {{# ── Mobile gallery — 2 rows, up to 5 photos. ───────────────────── #}}
     <div class="flex lg:hidden flex-col gap-2">
