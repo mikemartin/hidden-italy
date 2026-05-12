@@ -78,13 +78,31 @@ tabs:
           -
             handle: featured_logos
             field:
-              container: assets
-              folder: shop/featured
-              max_files: 8
-              mode: grid
-              type: assets
+              type: grid
               display: Logos
-              instructions: "Add up to 8 logos. SVG preferred — they'll be rendered in greyscale at a fixed height so file format and dimensions are forgiving."
+              mode: stacked
+              add_row: 'Add Logo'
+              max_rows: 8
+              instructions: "Add up to 8 logos. SVG preferred — they'll be rendered in greyscale at a fixed height so file format and dimensions are forgiving. Add a URL to make the logo a link."
+              fields:
+                -
+                  handle: logo
+                  field:
+                    container: assets
+                    folder: shop/featured
+                    max_files: 1
+                    mode: grid
+                    type: assets
+                    display: Logo
+                    width: 50
+                -
+                  handle: url
+                  field:
+                    type: text
+                    display: URL
+                    input_type: url
+                    width: 50
+                    instructions: 'Optional. External link the logo opens in a new tab.'
       -
         display: 'Page builder'
         fields:

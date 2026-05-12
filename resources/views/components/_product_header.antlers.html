@@ -93,14 +93,27 @@
 
             <ul class="flex flex-wrap items-center justify-center gap-x-10 gap-y-6 md:gap-x-16">
                 {{ featured_logos }}
-                    <li class="flex items-center">
-                        <img
-                            src="{{ url }}"
-                            alt="{{ alt or title }}"
-                            loading="lazy"
-                            class="h-6 md:h-8 w-auto object-contain opacity-70 grayscale"
-                        >
-                    </li>
+                    {{ logo }}
+                        <li class="flex items-center">
+                            {{ if url }}
+                                <a href="{{ url }}" target="_blank" rel="noopener" class="block motion-safe:transition hover:opacity-100 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold">
+                                    <img
+                                        src="{{ permalink }}"
+                                        alt="{{ alt or title }}"
+                                        loading="lazy"
+                                        class="h-6 md:h-8 w-auto object-contain opacity-70 grayscale motion-safe:transition hover:opacity-100"
+                                    >
+                                </a>
+                            {{ else }}
+                                <img
+                                    src="{{ permalink }}"
+                                    alt="{{ alt or title }}"
+                                    loading="lazy"
+                                    class="h-6 md:h-8 w-auto object-contain opacity-70 grayscale"
+                                >
+                            {{ /if }}
+                        </li>
+                    {{ /logo }}
                 {{ /featured_logos }}
             </ul>
         </div>
