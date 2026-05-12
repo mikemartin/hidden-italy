@@ -95,8 +95,8 @@
                 {{ featured_logos }}
                     {{ logo }}
                         <li class="flex items-center">
-                            {{ if url }}
-                                <a href="{{ url }}" target="_blank" rel="noopener" class="block motion-safe:transition hover:opacity-100 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold">
+                            {{ if link_url }}
+                                <a href="{{ link_url }}" target="_blank" rel="noopener" class="block motion-safe:transition hover:opacity-100 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold">
                                     <img
                                         src="{{ permalink }}"
                                         alt="{{ alt or title }}"
