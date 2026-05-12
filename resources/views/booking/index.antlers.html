@@ -210,7 +210,7 @@
             {{ if as_guest && logged_out }}
                 <p class="text-center text-sm text-text">
                     {{ trans:strings.have_an_account }}
-                    <a href="/login?redirect=/booking{{ if selected_tour_slug }}?tour={{ selected_tour_slug }}{{ /if }}" class="font-semibold text-foreground underline decoration-accent hover:text-accent">{{ trans:strings.log_in }}</a>
+                    <a href="/login?redirect=/booking{{ if selected_tour_slug }}?tour={{ selected_tour_slug }}{{ /if }}" wire:navigate class="font-semibold text-foreground underline decoration-accent hover:text-accent">{{ trans:strings.log_in }}</a>
                 </p>
             {{ /if }}
         </div>

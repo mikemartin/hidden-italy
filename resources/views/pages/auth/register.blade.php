@@ -45,6 +45,7 @@
                 <flux:link
                     class="absolute top-0 text-sm end-0"
                     :href="route('login', ['email' => old('email', request()->query('email'))])"
+                    wire:navigate
                 >
                     {{ __('Change') }}
                 </flux:link>
@@ -72,7 +73,7 @@
 
         <div class="space-x-1 rtl:space-x-reverse text-center text-sm text-zinc-600">
             <span>{{ __('Already have an account?') }}</span>
-            <flux:link :href="route('login')">{{ __('Log in') }}</flux:link>
+            <flux:link :href="route('login')" wire:navigate>{{ __('Log in') }}</flux:link>
         </div>
     </div>
 </x-layouts::auth.split>

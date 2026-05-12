@@ -32,6 +32,9 @@
                             :aria-expanded="subnavOpen"
                         {{ else }}
                             href="{{ url }}"
+                            {{ if url != '/booking' && url != '/contact' }}
+                                wire:navigate
+                            {{ /if }}
                         {{ /if }}
                         {{ is_current ?= 'aria-current="page"' }}
                     >
@@ -61,6 +64,9 @@
                                                 : 'text-foreground' }}
                                         "
                                         href="{{ url }}"
+                                        {{ if url != '/booking' && url != '/contact' }}
+                                            wire:navigate
+                                        {{ /if }}
                                         {{ is_current ?= 'aria-current="page"' }}
                                     >
                                         {{ title }}
