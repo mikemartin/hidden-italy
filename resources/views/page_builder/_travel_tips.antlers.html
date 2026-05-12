@@ -4,8 +4,7 @@
           Inspiration collections. Mobile shows one card at a time; desktop
           shows three. Heading sits on the left of the header, with custom
           prev/next arrows (md+, when there's something to scroll to) and the
-          optional "view all" link grouped on the right. A thin progress bar
-          below the track tracks position through the set. Each tile is the
+          optional "view all" link grouped on the right. Each tile is the
           shared `components/_article-card` partial so this layout stays in
           lockstep with the cards reference page.
     @set page.page_builder.travel_tips
@@ -16,7 +15,6 @@
     <section
         class="fluid-grid gap-y-12"
         x-data="{
-            progress: 0,
             atStart: true,
             atEnd: false,
             splide: null,
@@ -36,8 +34,6 @@
                 });
                 this.splide.on('mounted move scrolled', () => {
                     const controller = this.splide.Components.Controller;
-                    const end = controller.getEnd() + 1;
-                    this.progress = Math.min((this.splide.index + 1) / end, 1) * 100;
                     this.atStart = controller.getPrev() === -1;
                     this.atEnd = controller.getNext() === -1;
                 });
@@ -92,24 +88,6 @@
             </section>
         </div>
 
-        {{# Carousel progress bar — shown whenever there's more than three slides.
-            Negative top margin pulls it close to the bleeding splide above
-            without shrinking the section's heading→splide row gap. #}}
-        {{ if block:articles | count > 3 }}
-            <div
-                class="span-content h-1 w-full bg-parchment-300 rounded-full overflow-hidden"
-                role="progressbar"
-                aria-label="Carousel progress"
-                :aria-valuenow="Math.round(progress)"
-                aria-valuemin="0"
-                aria-valuemax="100"
-            >
-                <div
-                    class="h-full bg-gold transition-[width] duration-400 ease-out"
-                    :style="`width: ${progress}%`"
-                ></div>
-            </div>
-        {{ /if }}
     </section>
 {{ /if }}
 <!-- End: /page_builder/_travel_tips.antlers.html -->
