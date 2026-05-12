@@ -78,8 +78,6 @@ page_builder:
     type: featured_tours
     enabled: true
     heading: 'Featured walking tours'
-    link_text: 'View all'
-    link_entry: 2d1f3903-3248-4037-8e09-e76e8d62781c
     tours:
       - 0d717011-26fe-4d13-89f4-a0739f966e3d
       - fe7d8f05-4262-4ff2-9fa6-af18f7825ec2
@@ -101,7 +99,6 @@ page_builder:
     type: travel_tips
     enabled: true
     heading: 'Travel tips and inspiration'
-    link_text: 'View all'
     articles:
       - 7d2a4c91-3e85-4f17-91b3-8c1e0f5a7d62
       - 8a3b7d54-9e21-4f68-b193-5c4a0e6d2f87
