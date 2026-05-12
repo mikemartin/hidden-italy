@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 1
-updated_at: 1778209327
+updated_at: 1778550412
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -94,8 +94,8 @@ page_builder:
     heading: 'What our travellers are saying'
     testimonials:
       - c4dad366-cfdd-443a-8db6-c29df33df79a
-      - abed777c-bcf3-4f03-a324-027c876335ee
-      - a3519272-9f93-46df-90cf-8c28d7a03683
+      - 966a5684-0228-4341-8790-8ef4f90f52dc
+      - 5e20d0e8-847b-4371-95a7-a7c859735fee
   -
     id: home_travel_tips
     type: travel_tips
