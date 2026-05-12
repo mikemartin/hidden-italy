@@ -64,10 +64,10 @@ export default function officeMap() {
                     type: 'circle',
                     source: 'office-point',
                     paint: {
-                        'circle-radius': 9,
+                        'circle-radius': 12,
                         'circle-color': '#bb4d00',
                         'circle-stroke-color': '#ffffff',
-                        'circle-stroke-width': 3,
+                        'circle-stroke-width': 2,
                     },
                 });
                 // … and a small white pip on top, so the marker reads as a
@@ -77,7 +77,7 @@ export default function officeMap() {
                     type: 'circle',
                     source: 'office-point',
                     paint: {
-                        'circle-radius': 3,
+                        'circle-radius': 4,
                         'circle-color': '#ffffff',
                     },
                 });

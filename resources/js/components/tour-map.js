@@ -180,10 +180,10 @@ export default function tourMap() {
                     type: 'circle',
                     source: `${id}-point`,
                     paint: {
-                        'circle-radius': 8,
+                        'circle-radius': 12,
                         'circle-color': color,
                         'circle-stroke-color': '#ffffff',
-                        'circle-stroke-width': 3,
+                        'circle-stroke-width': 2,
                     },
                 });
                 this.map.addLayer({
@@ -191,7 +191,7 @@ export default function tourMap() {
                     type: 'circle',
                     source: `${id}-point`,
                     paint: {
-                        'circle-radius': 3,
+                        'circle-radius': 4,
                         'circle-color': '#ffffff',
                     },
                 });
