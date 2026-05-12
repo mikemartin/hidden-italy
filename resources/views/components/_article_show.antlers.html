@@ -1,0 +1,45 @@
+{{#
+    @name Article show body
+    @desc Shared single-entry body for the Tips and Inspiration collections.
+          Renders the article header (badge, headline, lead, hero image,
+          share menu), the prose-wrapped Bard body, and a related-articles
+          rail pulling three other entries from the same collection.
+          Per-collection wrappers (`travel-tips/show.antlers.html`,
+          `inspiration/show.antlers.html`) own the outer `<main>` shell
+          plus any collection-specific surfaces they choose to add around
+          this partial.
+#}}
+
+<!-- /components/_article_show.antlers.html -->
+<article>
+    {{ partial:components/article_header }}
+
+    <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
+        {{ partial:typography/prose as="div" class="contents stack-8" }}
+            {{ article }}
+                {{ partial src="components/{type}" }}
+            {{ /article }}
+        {{ /partial:typography/prose }}
+    </section>
+</article>
+
+{{# Related articles — three other entries from the same collection,
+    excluding the current one. Static grid (no scroll). #}}
+{{ collection from="{collection:handle}" not_id="{id}" limit="3" as="related" }}
+    {{ if related }}
+        <section class="fluid-grid py-12 md:py-16 lg:py-24 gap-y-10 border-t border-parchment-200">
+            <header class="span-content">
+                {{ partial:typography/h2 content="Related articles" color="text-foreground" class="!mb-0" }}
+            </header>
+
+            <ul class="span-content grid grid-cols-1 md:grid-cols-3 gap-fluid-grid-gap">
+                {{ related }}
+                    <li>
+                        {{ partial:components/article-card }}
+                    </li>
+                {{ /related }}
+            </ul>
+        </section>
+    {{ /if }}
+{{ /collection }}
+<!-- End: /components/_article_show.antlers.html -->

@@ -1,0 +1,22 @@
+{{#
+    @name Travel Tips index
+    @desc Listing template for the Tips collection. Page header followed by
+          a 3-up grid of article cards. Renders the shared `_article_index`
+          partial inside the standard parchment-100 surface. Lives in its
+          own template directory (rather than the previous shared
+          `articles/index`) so Tips-specific surfaces can be layered in
+          here without conditionals — see the Inspiration sibling for the
+          pattern.
+#}}
+
+<!-- /travel-tips/index.antlers.html -->
+<main id="content" class="relative isolate overflow-hidden bg-parchment-100">
+    {{ partial:components/topographic }}
+
+    {{ if headline }}
+        {{ partial:components/page_header }}
+    {{ /if }}
+
+    {{ partial:components/article_index }}
+</main>
+<!-- End: /travel-tips/index.antlers.html -->

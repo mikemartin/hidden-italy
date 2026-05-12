@@ -1,0 +1,17 @@
+{{#
+    @name Travel Tips show
+    @desc Single-entry template for the Tips collection. Pass-through into
+          the shared `_article_show` partial — header, prose body and
+          related-articles rail. Lives in its own template directory so
+          Tips-specific surfaces (a "Read other tips" rail, a packing
+          checklist callout, etc.) can be added here later without
+          retro-fitting conditionals on the shared partial.
+#}}
+
+<!-- /travel-tips/show.antlers.html -->
+<main id="content" class="relative isolate overflow-hidden bg-parchment-100">
+    {{ partial:components/topographic }}
+
+    {{ partial:components/article_show }}
+</main>
+<!-- End: /travel-tips/show.antlers.html -->
