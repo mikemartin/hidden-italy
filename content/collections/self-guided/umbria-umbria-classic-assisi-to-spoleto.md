@@ -127,7 +127,7 @@ page_builder:
         photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020015.jpg
       -
         id: mlop3c5r
-        title: ''
+        title: 'Pass through vineyards'
         description: "Today you walk up rolling hills to one of the viticulture centres of the region, which has beautiful views over the valley.  On the way, you pass through the vineyards that have made the town famous. The town also has a rich artistic heritage out of all proportion to its size, including a beautiful fresco cycle of St Francis' life by the influential Florentine artist Gozzoli."
         duration: 2
         distance: 7

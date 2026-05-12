@@ -137,7 +137,7 @@ page_builder:
         photo: tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_9838.jpeg
       -
         id: mlor10w3
-        title: ''
+        title: 'Historic Grand Walser Trail'
         description: 'Today we will immerse ourselves in the local Walser culture.  This morning’s walk again starts from the hotel but this time we head south, following the historic Grand Walser Trail, walking through stone hamlets and high pastures that have remained unchanged for centuries, stopping for lunch along the way.  After, we take the path down to a neighbouring village where we will be taken on a guided visit of an enchanting castle, once the summer residence of Margherita, the first queen of Italy.'
         meals_included:
           - breakfast

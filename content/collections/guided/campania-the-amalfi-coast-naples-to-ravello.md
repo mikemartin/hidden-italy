@@ -154,7 +154,7 @@ page_builder:
         photo: tours/campania-the-amalfi-coast-naples-to-ravello/13.5.jpg
       -
         id: mlonlca0
-        title: ''
+        title: 'Fine wines and cuisine'
         description: "Today we explore the fine wines and cuisine of the district.  After a late start, we will visit one of the region’s finest producers, where we’ll visit their wonderful vineyard and cellars, have a degustation of the wines and a light lunch, before returning to our base for a bit of R&R.  After the siesta, we'll have dinner in our town."
         meals_included:
           - lunch
