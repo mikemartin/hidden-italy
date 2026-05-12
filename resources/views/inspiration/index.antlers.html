@@ -20,6 +20,25 @@
         {{ partial:components/page_header }}
     {{ /if }}
 
+    {{# Featured article — the most recent non-newsletter entry, rendered
+        large above the grid. Excluded from the grid below via `offset="1"`. #}}
+    {{ collection
+        from="inspiration"
+        taxonomy:categories:not="newsletter"
+        limit="1"
+        as="featured_entries"
+    }}
+        {{ if featured_entries }}
+            <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
+                <div class="span-content">
+                    {{ featured_entries }}
+                        {{ partial:components/featured_article }}
+                    {{ /featured_entries }}
+                </div>
+            </section>
+        {{ /if }}
+    {{ /collection }}
+
     {{# Three-most-recent-newsletters carousel. Pulled into a local
         variable first so the section only renders when there's at
         least one tagged newsletter — avoids an empty header on sites
@@ -27,7 +46,6 @@
     {{ collection:inspiration
         taxonomy:categories:any="newsletter"
         sort="date:desc"
-        limit="3"
         as="newsletters"
     }}
         {{ if newsletters }}
@@ -64,7 +82,7 @@
                 }"
             >
                 <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                    {{ partial:typography/h2 content="Recent newsletters" class="!mb-0" color="text-foreground" }}
+                    {{ partial:typography/h2 content="Monthly newsletter" class="!mb-0" color="text-foreground" }}
 
                     {{# Prev/next arrows — only when there's more than the
                         carousel page size to scroll through. The fetch is
@@ -100,7 +118,7 @@
                             <ul class="splide__list">
                                 {{ newsletters }}
                                     <li class="splide__slide">
-                                        {{ partial:components/article-card }}
+                                        {{ partial:components/article-card show_category="true" }}
                                     </li>
                                 {{ /newsletters }}
                             </ul>
@@ -111,20 +129,35 @@
         {{ /if }}
     {{ /collection:inspiration }}
 
+    <section class="fluid-grid gap-y-12 pb-12 md:pb-16 lg:pb-24">
+        <header class="span-content">
+            {{ partial:typography/h2 content="More inspiration" class="!mb-0" color="text-foreground" }}
+        </header>
+        <div class="span-content">
+            <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-fluid-grid-gap">
+                {{# Skip the first entry — it's rendered as the featured article
+                    above. #}}
+                {{ collection :from="mount" taxonomy:categories:not="newsletter" offset="1" }}
+                    {{ if no_results }}
+                        <li class="md:col-span-2 lg:col-span-3">
+                            {{ partial:typography/p content="{trans:strings.no_results ?? 'There are currently no posts.'}" color="text-text" }}
+                        </li>
+                    {{ else }}
+                        <li>
+                            {{ partial:components/article-card }}
+                        </li>
+                    {{ /if }}
+                {{ /collection }}
+            </ul>
+        </div>
+    </section>
+
+    {{# Newsletter sign-up callout. Heading/text fall back to the contact
+        global so the wording matches the footer sign-up. #}}
     <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
-        <ul class="span-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-fluid-grid-gap">
-            {{ collection :from="mount" taxonomy:categories:not="newsletter" }}
-                {{ if no_results }}
-                    <li class="md:col-span-2 lg:col-span-3">
-                        {{ partial:typography/p content="{trans:strings.no_results ?? 'There are currently no posts.'}" color="text-text" }}
-                    </li>
-                {{ else }}
-                    <li>
-                        {{ partial:components/article-card }}
-                    </li>
-                {{ /if }}
-            {{ /collection }}
-        </ul>
+        <div class="span-content">
+            {{ partial:components/newsletter_cta }}
+        </div>
     </section>
 </main>
 <!-- End: /inspiration/index.antlers.html -->
