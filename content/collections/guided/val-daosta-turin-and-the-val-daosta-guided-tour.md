@@ -224,7 +224,7 @@ page_builder:
     tabs:
       -
         id: IwjLNiPN_iaXgY5EUBAYS
-        title: Walks
+        title: Exceptional walkings
         total_distance: 51
         total_elevation: 2086
         grade: 0
@@ -240,7 +240,7 @@ page_builder:
         enabled: true
       -
         id: uQgZqNv-w0t4ZuiPkBzZ1
-        title: Accommodation
+        title: Boutique accommodation
         description:
           -
             type: paragraph
@@ -254,7 +254,7 @@ page_builder:
         enabled: true
       -
         id: 9ZaFHFFBq188KwkceYmqF
-        title: Food
+        title: Authentic food
         description:
           -
             type: paragraph

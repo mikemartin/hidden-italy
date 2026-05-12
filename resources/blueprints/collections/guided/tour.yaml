@@ -398,6 +398,7 @@ tabs:
                                         field:
                                           type: text
                                           display: Title
+                                          default: 'Exceptional walking'
                                       -
                                         handle: total_distance
                                         field:
@@ -449,6 +450,7 @@ tabs:
                                         field:
                                           type: text
                                           display: Title
+                                          default: 'Boutique accommodation'
                                       -
                                         handle: description
                                         field:
@@ -479,6 +481,7 @@ tabs:
                                         field:
                                           type: text
                                           display: Title
+                                          default: 'Authentic food'
                                       -
                                         handle: description
                                         field:

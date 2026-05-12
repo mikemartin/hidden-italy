@@ -180,7 +180,7 @@ page_builder:
     tabs:
       -
         id: V8mGS9Amnm2UfF6XBni8f
-        title: Walks
+        title: Exceptional walkings
         grade: 4
         description:
           -
@@ -200,7 +200,7 @@ page_builder:
         enabled: true
       -
         id: mGIVHCFT4hpsr0F544-zy
-        title: Accommodation
+        title: Boutique accommodation
         description:
           -
             type: paragraph
@@ -214,7 +214,7 @@ page_builder:
         enabled: true
       -
         id: fBUv90eacQ9WzHofLU2E2
-        title: Food
+        title: Authentic food
         description:
           -
             type: paragraph
