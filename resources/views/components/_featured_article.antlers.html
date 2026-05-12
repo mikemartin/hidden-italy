@@ -8,7 +8,7 @@
 #}}
 
 <!-- /components/_featured_article.antlers.html -->
-<article class="group relative isolate flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-20 xl:gap-[120px]">
+<article class="group relative isolate h-full flex flex-col lg:flex-row bg-card border border-parchment-200 rounded-xl shadow-sm overflow-hidden">
 
     {{# Stretched link covers the whole surface. #}}
     <a
@@ -18,16 +18,17 @@
         <span class="sr-only">Read {{ title }}</span>
     </a>
 
-    {{# Image — 4:3 with a soft drop shadow, sits to the left on desktop. #}}
-    <div class="w-full lg:w-[43%] lg:shrink-0">
-        <div class="relative aspect-[4/3] rounded-xl overflow-hidden bg-parchment-200 shadow-[0_6px_20px_-4px_rgba(0,0,0,0.1)]">
+    {{# Image — inset 16:10 on mobile (matches the smaller article cards); on
+        desktop, it fills the available height of the card on the left. #}}
+    <div class="relative p-1 lg:w-[45%] lg:shrink-0">
+        <div class="relative w-full aspect-[16/10] lg:aspect-auto lg:h-full rounded-lg overflow-hidden bg-parchment-200">
             {{ if image }}
                 {{
                     picture
                     :image="image"
                     class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                     cover="true"
-                    sizes="(min-width: 1024px) 43vw, 100vw"
+                    sizes="(min-width: 1024px) 45vw, 100vw"
                     loading="lazy"
                 }}
             {{ else }}
@@ -38,8 +39,8 @@
         </div>
     </div>
 
-    {{# Content — title, date, lead, faux CTA. #}}
-    <div class="flex-1 flex flex-col items-start gap-5 lg:gap-8">
+    {{# Content — stacked on mobile, vertically centered on desktop. #}}
+    <div class="flex-1 flex flex-col items-start gap-5 lg:gap-6 px-5 py-6 lg:px-10 lg:py-16 lg:justify-center">
         <div class="flex flex-col gap-2">
             {{ if show_category }}
                 {{ partial:typography/h5 small="true" content="{categories:0:title}" as="span" color="text-accent-2"  }}

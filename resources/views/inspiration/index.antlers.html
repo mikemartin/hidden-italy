@@ -32,7 +32,7 @@
             <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
                 <div class="span-content">
                     {{ featured_entries }}
-                        {{ partial:components/featured_article }}
+                        {{ partial:components/featured_article show_category="true" }}
                     {{ /featured_entries }}
                 </div>
             </section>
@@ -131,7 +131,7 @@
 
     <section class="fluid-grid gap-y-12 pb-12 md:pb-16 lg:pb-24">
         <header class="span-content">
-            {{ partial:typography/h2 content="More inspiration" class="!mb-0" color="text-foreground" }}
+            {{ partial:typography/h2 content="Recent articles" class="!mb-0" color="text-foreground" }}
         </header>
         <div class="span-content">
             <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-fluid-grid-gap">
@@ -144,7 +144,7 @@
                         </li>
                     {{ else }}
                         <li>
-                            {{ partial:components/article-card }}
+                            {{ partial:components/article-card show_category="true" }}
                         </li>
                     {{ /if }}
                 {{ /collection }}
