@@ -16,36 +16,6 @@ overview:
       -
         type: text
         text: 'This 8-day walk takes you along the Italian Riviera following an arc of coastline dotted with fishing towns and glam resorts.  It starts in the port city of Genova, the capital of the region of Liguria, and finishes six days later in enchanting Sestri Levante.  '
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Along the way you follow seaside paths; '
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'creuze de ma '
-      -
-        type: text
-        text: "(traditional country lanes lined with dry-stone walls); and forest trails, passing through vineyards and olive groves, constantly accompanied by spectacular views up into the mountains and out over the sea.  Liguria is a region steeped in maritime history (seafaring, shipbuilding and fishing) and the buzzy towns you'll stay in still proudly retain their traditions and vestiges of their colourful pasts.   "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "To make your adventure complete, along the way you will have the chance to sample one of Italy's finest cuisines, characterised by simple recipes based on the freshest produce, such as pasta al pesto genovese, gnocchi with walnut sauce and crunchy focaccia bread, as well as the freshest seafood including swordfish, mussels, scampi, octopus and anchovies, all accompanied some very fine white wines and olive oils."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'Please note, that the Italian Riviera 1 walk is the only first section of the complete 15 day Italian Riviera walk, which takes you the whole length of the whole eastern Italian Riviera, from Genoa to Portofino, passing through the Cinque Terre along the way.  '
 inclusions:
   - 'Seven nights accommodation'
   - 'All breakfasts included'
@@ -60,6 +30,47 @@ locations: northern-italy
 landscapes:
   - coastal
 page_builder:
+  -
+    id: 6be6f526a409c6b0
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Along the way you follow seaside paths; '
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'creuze de ma '
+          -
+            type: text
+            text: "(traditional country lanes lined with dry-stone walls); and forest trails, passing through vineyards and olive groves, constantly accompanied by spectacular views up into the mountains and out over the sea.  Liguria is a region steeped in maritime history (seafaring, shipbuilding and fishing) and the buzzy towns you'll stay in still proudly retain their traditions and vestiges of their colourful pasts.   "
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "To make your adventure complete, along the way you will have the chance to sample one of Italy's finest cuisines, characterised by simple recipes based on the freshest produce, such as pasta al pesto genovese, gnocchi with walnut sauce and crunchy focaccia bread, as well as the freshest seafood including swordfish, mussels, scampi, octopus and anchovies, all accompanied some very fine white wines and olive oils."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'Please note, that the Italian Riviera 1 walk is the only first section of the complete 15 day Italian Riviera walk, which takes you the whole length of the whole eastern Italian Riviera, from Genoa to Portofino, passing through the Cinque Terre along the way.  '
+    title: 'Seaside paths, country lanes and forest trails'
+    images:
+      - tours/liguria-italian-riviera-1-self-guided-walk/nastasia-yakoub-4nreelf-_6c-unsplash-a.jpg
+      - tours/liguria-italian-riviera-1-self-guided-walk/chiavari-26.jpg
+      - tours/liguria-italian-riviera-1-self-guided-walk/18.jpg
   -
     id: mloocwbk
     title: 'Highlights of the Italian Riviera 1 tour'
@@ -180,7 +191,7 @@ page_builder:
     tabs:
       -
         id: V8mGS9Amnm2UfF6XBni8f
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         grade: 4
         description:
           -
@@ -200,7 +211,7 @@ page_builder:
         enabled: true
       -
         id: mGIVHCFT4hpsr0F544-zy
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -214,7 +225,7 @@ page_builder:
         enabled: true
       -
         id: fBUv90eacQ9WzHofLU2E2
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

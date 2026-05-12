@@ -16,18 +16,6 @@ overview:
       -
         type: text
         text: 'A bridge between Italy and the East, Puglia is pure southern Italy: layers of history, vibrant cities and towns, ancient traditions celebrated in colourful festivals; a timeless interior edged by an endless coastline; gracious hospitality and fabulous food.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_Visiting Puglia is an adventure.\_ It is a delightfully different world to the fashionable streets of Florence, Milan and Venice: little English is spoken; time is flexible; it has been little touched by tourism and surprises lurk around every corner. \_A trip to Puglia is a fascinating and rewarding experience, particularly in the spring."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_The highlights of the Hidden Italy Puglia tour include walking along country lanes lined with ancient dry-stone walls, olive groves and fields filled with wildflowers; exploring the mysteries of Matera; sleeping in a restored 18th century Masseria, surrounded by ancient olive trees; sailing on the Adriatic Sea; a cooking day in a 15th century tower in the heart of the 'Salento' district; coastal walks along both the Adriatic and Ionian Seas; visiting Frederick's extraordinary castle of Castel del Monte; wandering the medieval lanes and allies of Bari Vecchia (old Bari); the fabulous Pugliese cooking; and last, but not least, the warm southern hospitality."
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -43,6 +31,29 @@ tour_size: 15
 date: '2026-05-16 14:00'
 leader: fa3be588-b0dd-4d37-9213-bafbd1992434
 page_builder:
+  -
+    id: 16a417d2a3867e80
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "\_Visiting Puglia is an adventure.\_ It is a delightfully different world to the fashionable streets of Florence, Milan and Venice: little English is spoken; time is flexible; it has been little touched by tourism and surprises lurk around every corner. \_A trip to Puglia is a fascinating and rewarding experience, particularly in the spring."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "\_The highlights of the Hidden Italy Puglia tour include walking along country lanes lined with ancient dry-stone walls, olive groves and fields filled with wildflowers; exploring the mysteries of Matera; sleeping in a restored 18th century Masseria, surrounded by ancient olive trees; sailing on the Adriatic Sea; a cooking day in a 15th century tower in the heart of the 'Salento' district; coastal walks along both the Adriatic and Ionian Seas; visiting Frederick's extraordinary castle of Castel del Monte; wandering the medieval lanes and allies of Bari Vecchia (old Bari); the fabulous Pugliese cooking; and last, but not least, the warm southern hospitality."
+    title: 'A delightfully different world'
+    images:
+      - tours/puglia-puglia-in-the-spring/castel-1.jpg
+      - tours/puglia-puglia-in-the-spring/lecce-28.jpg
+      - tours/puglia-puglia-in-the-spring/matera-14.jpg
   -
     id: mloqd78x
     title: 'Puglia tour highlights'
@@ -216,7 +227,7 @@ page_builder:
     tabs:
       -
         id: el5KqFwyNhPFhoJk-ErQN
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         grade: 0
         description:
           -
@@ -229,7 +240,7 @@ page_builder:
         enabled: true
       -
         id: o7lp5poRyWNtY2tZYQg8V
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -252,7 +263,7 @@ page_builder:
         enabled: true
       -
         id: 4Gsvug0XWxDg_eHfMDeCy
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

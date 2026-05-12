@@ -16,24 +16,6 @@ overview:
       -
         type: text
         text: "The Italian Lakes are a little slice of paradise: deep, slender fjords gouged by glaciers, edged by dramatic forested slopes and shores lined with ancient villages and flower-bedecked villas.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This wonderful tour starts in magical Venice and finishes in elegant Turin. In between you stay on two of the most beautiful of all Italian lake: Lago di Como and Lago Maggiore.\_ Along the way you also visit the smaller lakes of Lugano and Orta."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_Strung along the foot of the Alps, for millennia the Italian Lakes have been a gateway to the colour and life of the Mediterranean world.\_ The walks on the tour follow these same ancient stone paths winding high above the lakes passing through forests and isolated hamlets, with spectacular views across to soaring mountains, deep valleys and historic villas."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'We start in a 4-star hotel on the canals of Venice and finish in a 4-star hotel in the Baroque arcades of Turin. In between, we spend four nights based in a 4-star hotel on the shores of Lake Como, before crossing the Swiss border into the Italian-speaking canton of Ticino, and spending four nights in a 400-year-old hotel in the lush valleys above the northern reaches of Lake Maggiore.'
 inclusions:
   - '12 nights accommodation in 4-star boutique hotels (see itinerary for details)'
   - 'All breakfasts, and all lunches and dinners (with wine) listed in the itinerary.'
@@ -47,6 +29,35 @@ duplicated_from: bf401969-bac2-4370-8ffd-d7c62b8f4ade
 tour_size: 15
 date: '2027-05-27 14:00'
 page_builder:
+  -
+    id: 24949e0c92c55f84
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "This wonderful tour starts in magical Venice and finishes in elegant Turin. In between you stay on two of the most beautiful of all Italian lake: Lago di Como and Lago Maggiore.\_ Along the way you also visit the smaller lakes of Lugano and Orta."
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "\_Strung along the foot of the Alps, for millennia the Italian Lakes have been a gateway to the colour and life of the Mediterranean world.\_ The walks on the tour follow these same ancient stone paths winding high above the lakes passing through forests and isolated hamlets, with spectacular views across to soaring mountains, deep valleys and historic villas."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'We start in a 4-star hotel on the canals of Venice and finish in a 4-star hotel in the Baroque arcades of Turin. In between, we spend four nights based in a 4-star hotel on the shores of Lake Como, before crossing the Swiss border into the Italian-speaking canton of Ticino, and spending four nights in a 400-year-old hotel in the lush valleys above the northern reaches of Lake Maggiore.'
+    title: 'From magical Venice to elegant Turin'
+    images:
+      - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/menaggio-cheese.jpg
+      - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/58.jpg
+      - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/varenna-3.jpg
   -
     id: mloqd78x
     title: 'Venice and the Italian Lakes'

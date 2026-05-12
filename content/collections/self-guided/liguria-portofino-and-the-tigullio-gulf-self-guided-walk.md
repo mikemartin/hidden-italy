@@ -16,24 +16,6 @@ overview:
       -
         type: text
         text: 'Portofino is the star turn of the Italian Riviera, a beautifully preserved fishing village tucked into a perfect bay, but it is only one of the highlights of this fascinating stretch of coastline that sits between Genoa and the Cinque Terre.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The tour starts in Camogli on the\_west side of the Portofino promontory, a former fishing village (known in medieval times as the 'city of a thousand sails') which was described by Charles Dickens as ‘the feistiest, roughest, most piratical little place I’ve visited’.\_ It’s a little more couth these days but has lost none of its nautical charm.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'The first walk of the tour takes you through the national park that separates Camogli and Portofino following a series of well-marked trails through pine and oak forests above spectacular coastline with some of the most beautiful views in northern Italy.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Leaving the Portofino peninsula on Day 3 you pick up the ancient pilgrim trails that connected France wth Rome, passing through the hills that wrap around behind the Gulf of Tugullio, dropping down to the lively coastal towns each evening.\_ The tour finishes at the end of the gulf at the 'Bay of Silence' in Sestri Levante, a delightful summer resort on the Isola Peninsula."
 inclusions:
   - 'Five nights’ accommodation'
   - 'All breakfasts included'
@@ -48,6 +30,35 @@ locations: northern-italy
 landscapes:
   - coastal
 page_builder:
+  -
+    id: f9ea4fc3e2cfc853
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The tour starts in Camogli on the\_west side of the Portofino promontory, a former fishing village (known in medieval times as the 'city of a thousand sails') which was described by Charles Dickens as ‘the feistiest, roughest, most piratical little place I’ve visited’.\_ It’s a little more couth these days but has lost none of its nautical charm.\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'The first walk of the tour takes you through the national park that separates Camogli and Portofino following a series of well-marked trails through pine and oak forests above spectacular coastline with some of the most beautiful views in northern Italy.'
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Leaving the Portofino peninsula on Day 3 you pick up the ancient pilgrim trails that connected France wth Rome, passing through the hills that wrap around behind the Gulf of Tugullio, dropping down to the lively coastal towns each evening.\_ The tour finishes at the end of the gulf at the 'Bay of Silence' in Sestri Levante, a delightful summer resort on the Isola Peninsula."
+    title: 'The city of a thousand sails'
+    images:
+      - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-9-a.jpg
+      - tours/liguria-cinque-terre-coastal-walking-tour/gabriel-tovar-yzqxu8nrlow-unsplash-a.jpg
+      - tours/liguria-cinque-terre-coastal-walking-tour/img_4819.jpg
   -
     id: mloocwbk
     title: 'Portofino and the Tigullio Gulf self-guided walk'
@@ -149,7 +160,7 @@ page_builder:
     tabs:
       -
         id: FMil8DyuNemeDMw9RLcKI
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         grade: 1
         description:
           -
@@ -163,7 +174,7 @@ page_builder:
         enabled: true
       -
         id: Y7RPKWLkf_yg7gMHhBjcg
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -177,7 +188,7 @@ page_builder:
         enabled: true
       -
         id: lEvvsDoQd-h6vNFmRTwBM
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

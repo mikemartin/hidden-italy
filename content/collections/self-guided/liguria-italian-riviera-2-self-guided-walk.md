@@ -16,21 +16,6 @@ overview:
       -
         type: text
         text: "This is a walk of two parts: the first three days take you through some of least visited parts of the Ligurian Coast, following well-marked mountain trails through unspoilt forests and staying in laid-back coastal towns quite untouched by tourism.\_ The remaining days take you along the trails of the Cinque Terre, one of the most celebrated and spectacular stretches of coastline in the Mediterranean, following stone paths that have linked the fishing villages for centuries."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The highlights of the tour include:\_ strolling around Sestri Levante’s Bay of Silence; the tranquillity of the trails that take you through oak and pine forests on the first two walks; the breath-taking sea views from the ruined tower on Punte Baffe; the lanes of old Levanto;\_ swimming at the Mediterranean beaches; your first views of Vernazza; dinner al fresco on the top of a tower overlooking the port; walking through the vineyards high above the sea; a crisp glass of local Cinque Terre white wine in Riomaggiore; coming down above the cliffs to Portovenere; a moonlight walk to San Pietro at the tip of Portovenere; the boat ride across the gulf for your last walk."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'Please note, that the Italian Riviera 2 walk is the second section of the complete 15 day Italian Riviera walk, which takes you the whole length of the whole eastern Italian Riviera, from Genoa to Portofino, passing through the Cinque Terre along the way.  '
 inclusions:
   - 'Eight nights accommodation'
   - 'All breakfasts included'
@@ -46,6 +31,32 @@ landscapes:
   - coastal
   - lakes
 page_builder:
+  -
+    id: efff12fdf0e81c24
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The highlights of the tour include:\_ strolling around Sestri Levante’s Bay of Silence; the tranquillity of the trails that take you through oak and pine forests on the first two walks; the breath-taking sea views from the ruined tower on Punte Baffe; the lanes of old Levanto;\_ swimming at the Mediterranean beaches; your first views of Vernazza; dinner al fresco on the top of a tower overlooking the port; walking through the vineyards high above the sea; a crisp glass of local Cinque Terre white wine in Riomaggiore; coming down above the cliffs to Portovenere; a moonlight walk to San Pietro at the tip of Portovenere; the boat ride across the gulf for your last walk."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'Please note, that the Italian Riviera 2 walk is the second section of the complete 15 day Italian Riviera walk, which takes you the whole length of the whole eastern Italian Riviera, from Genoa to Portofino, passing through the Cinque Terre along the way.  '
+    title: 'From the Bay of Silence to Portovenere'
+    images:
+      - tours/alto-adige-dolomites-1-self-guided-walk-1-1/25.jpg
+      - tours/alto-adige-dolomites-1-self-guided-walk-1-1/italy-autmun-2013-048.jpg
+      - tours/alto-adige-dolomites-1-self-guided-walk-1-1/shutterstock_1172539480-a.jpg
   -
     id: mloocwbk
     title: 'Highlights of the Italian Riviera 2 tour'
@@ -215,7 +226,7 @@ page_builder:
     tabs:
       -
         id: ljsZcf26MaePy5eVgM-9n
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         grade: 3
         description:
           -
@@ -238,7 +249,7 @@ page_builder:
         enabled: true
       -
         id: BXlnSomvhAchT4BY2uOR3
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -252,7 +263,7 @@ page_builder:
         enabled: true
       -
         id: D9HYmr-1eACWxctvCrZo_
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

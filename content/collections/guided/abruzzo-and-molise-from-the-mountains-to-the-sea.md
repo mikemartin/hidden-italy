@@ -16,18 +16,6 @@ overview:
       -
         type: text
         text: 'Starting with two nights in Rome, this exclusive 7-person tour explores Abruzzo and Molise, two of Italy’s least-visited regions, nestled in the Apennines, the mountainous spine of Italy but also bound by the endless beaches of the Adriatic Coast.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Abruzzo and Molise are renowned for their natural beauty: soaring mountains; vast national parks; rolling pastures scattered with villages and isolated monasteries; and long sandy beaches; but they also have fascinating histories and ancient traditions.\_ The real bonus, though, of visiting this part of the world is that you are so far from the usual tourist trails!\_ \_A holiday in Abruzzo and Molise is full of surprises, charm and authentic hospitality."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The tour starts with two nights in the heart of Rome, around the corner from the Pantheon. \_We then drive one hundred kilometres east to a beautifully restored medieval village on the edge of the Gran Sasso National Park, our base for the next four nights’. \_From here we drive south into Molise, where our base for four nights is a lovely, family-run 'agriturismo'.\_ We finish the tour with two nights on the sea, staying in the historic centre of Termoli, a charming coastal town close to the Puglia border."
 inclusions:
   - '•12 nights accommodation (see the itinerary for details) in hotels and private apartments'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -42,6 +30,29 @@ duplicated_from: 96805144-50d8-471e-9208-b397627a3a1c
 tour_size: 7
 date: '2027-05-27 14:00'
 page_builder:
+  -
+    id: 0450d451adcf794b
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Abruzzo and Molise are renowned for their natural beauty: soaring mountains; vast national parks; rolling pastures scattered with villages and isolated monasteries; and long sandy beaches; but they also have fascinating histories and ancient traditions.\_ The real bonus, though, of visiting this part of the world is that you are so far from the usual tourist trails!\_ \_A holiday in Abruzzo and Molise is full of surprises, charm and authentic hospitality."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The tour starts with two nights in the heart of Rome, around the corner from the Pantheon. \_We then drive one hundred kilometres east to a beautifully restored medieval village on the edge of the Gran Sasso National Park, our base for the next four nights’. \_From here we drive south into Molise, where our base for four nights is a lovely, family-run 'agriturismo'.\_ We finish the tour with two nights on the sea, staying in the historic centre of Termoli, a charming coastal town close to the Puglia border."
+    title: 'Far from the usual tourist trails'
+    images:
+      - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_3344.jpg
+      - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_8356-v2.jpg
+      - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2920.jpg
   -
     id: mloqd78x
     title: 'Abruzzo and Molise guided tour'
@@ -210,7 +221,7 @@ page_builder:
     tabs:
       -
         id: se4QkDqZh0I8FJcN9EucR
-        title: Exceptional walking
+        title: 'Exceptional walking'
         total_distance: 40
         total_elevation: 1690
         grade: 2
@@ -226,7 +237,7 @@ page_builder:
         enabled: true
       -
         id: z4jOmJRexBi9FHSlXkZoZ
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -240,7 +251,7 @@ page_builder:
         enabled: true
       -
         id: cT-vMnfVFOfDgf2AXOBUJ
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

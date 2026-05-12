@@ -16,18 +16,6 @@ overview:
       -
         type: text
         text: "This 7-day exploration starts with a private transfer from Rome to Pitigliano, where the walk begins.\_ Known as La Tuscia since Roman times, this fascinating \_district is on the\_borders where southern Tuscany overlaps with the lakes of northern Lazio and the mountains of the south-west corner of Umbria."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "It is dramatically beautiful area, characterised by rolling downs of black soil, deep basalt canyons, mountain ranges and crater lakes.\_ It has been inhabited since prehistoric times and is one of the cradles of Italian civilisation: six centuries BC it was the heart of the Etruscan Federation and then, in the Renaissance, it was the stronghold of two of the great papal dynasties.\_ The villages and countryside of La Tuscia retain many of the glories of their rich past. If you are looking for a truly off-the-beaten-track walk, this is the one for you!"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The tour starts by first visiting the 'three lost villages of Tuscany' then progresses to Lake Bolsena and finishes in the spectacular Umbrian town of Orvieto.\_ On the way you follow country lanes, sections of ancient Etruscan roads and stretches of the Via Francigena, the Medieval road that carried pilgrims, merchants and crusader armies from Papal Rome to northern Italy and the rest of Europe.   You stay in very comfortable accommodation in quiet farming villages that are more than two thousand old.\_ It's one of my favourite hikes and the food and wine is pretty good as well!"
 inclusions:
   - 'Pick-up from Rome and transfer to Pitigliano on Day 1'
   - '6 nights accommodation'
@@ -44,6 +32,29 @@ landscapes:
   - countryside
   - lakes
 page_builder:
+  -
+    id: 6bb337dd80c75b5a
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "It is dramatically beautiful area, characterised by rolling downs of black soil, deep basalt canyons, mountain ranges and crater lakes.\_ It has been inhabited since prehistoric times and is one of the cradles of Italian civilisation: six centuries BC it was the heart of the Etruscan Federation and then, in the Renaissance, it was the stronghold of two of the great papal dynasties.\_ The villages and countryside of La Tuscia retain many of the glories of their rich past. If you are looking for a truly off-the-beaten-track walk, this is the one for you!"
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The tour starts by first visiting the 'three lost villages of Tuscany' then progresses to Lake Bolsena and finishes in the spectacular Umbrian town of Orvieto.\_ On the way you follow country lanes, sections of ancient Etruscan roads and stretches of the Via Francigena, the Medieval road that carried pilgrims, merchants and crusader armies from Papal Rome to northern Italy and the rest of Europe.   You stay in very comfortable accommodation in quiet farming villages that are more than two thousand old.\_ It's one of my favourite hikes and the food and wine is pretty good as well!"
+    title: 'One of the cradles of Italian civilisation'
+    images:
+      - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/img_6947.jpeg
+      - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/walking.jpg
+      - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-8.jpg
   -
     id: mloocwbk
     title: 'Highlights of the La Tuscia tour'
@@ -154,7 +165,7 @@ page_builder:
     tabs:
       -
         id: hm_KqkbxxKsWJItLexN2s
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         total_distance: 63
         total_elevation: 1179
         grade: 3
@@ -176,7 +187,7 @@ page_builder:
         enabled: true
       -
         id: Vik88iabOwsDlufN41UEO
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -190,7 +201,7 @@ page_builder:
         enabled: true
       -
         id: e6_jNucqtFakwrEiDp0XN
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

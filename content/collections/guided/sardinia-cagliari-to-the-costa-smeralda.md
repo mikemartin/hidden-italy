@@ -19,24 +19,6 @@ overview:
       -
         type: text
         text: "Sardinia is the second largest island in the Mediterranean, suspended off the Italian coast between Corsica and Sicily. \_It is an island of contrasts, with buzzy cities like Cagliari, its capital, a beautiful port with ancient origins; spectacular coastline; and rugged, brooding mountains, where the 'real' Sardinians live."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_Apart from its stunning landscapes, Sardinia also has a long and interesting history, most of which has been under the domination of foreign powers from the Phoenicians to the Spanish, all of whom have left their mark on this fascinating region, not least on the island's marvellous cuisine."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_Lead by a very qualified and pasionate local guide, this marvellous tour really does uncover some of the secrets of Sardinia, taking you from the bustle of Cagliari to the hidden delights on the south-west; and then from there into the mountains (the heart of the island); finishing with three days on the celebrated Costa Smeralda.\_ What more could you want??"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -61,6 +43,35 @@ gallery:
   - tours/sardinia-cagliari-to-the-costa-smeralda/78.jpg
 leader: 436787ff-89d4-438e-bf50-81c3672256cc
 page_builder:
+  -
+    id: 3ac59855e292802f
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "\_Apart from its stunning landscapes, Sardinia also has a long and interesting history, most of which has been under the domination of foreign powers from the Phoenicians to the Spanish, all of whom have left their mark on this fascinating region, not least on the island's marvellous cuisine."
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "\_Lead by a very qualified and pasionate local guide, this marvellous tour really does uncover some of the secrets of Sardinia, taking you from the bustle of Cagliari to the hidden delights on the south-west; and then from there into the mountains (the heart of the island); finishing with three days on the celebrated Costa Smeralda.\_ What more could you want??"
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "\_"
+    title: 'Stunning landscapes and a fascinating past'
+    images:
+      - tours/sardinia-cagliari-to-the-costa-smeralda/img_5939.jpg
+      - tours/sardinia-cagliari-to-the-costa-smeralda/hotel-1.jpg
+      - tours/sardinia-cagliari-to-the-costa-smeralda/img_5840.jpg
   -
     id: mlpxjjup
     title: 'Sardinia guided tour highlights'
@@ -236,7 +247,7 @@ page_builder:
     tabs:
       -
         id: fNQh20jsh9lDQRHXc18jv
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         grade: 0
         description:
           -
@@ -250,7 +261,7 @@ page_builder:
         enabled: true
       -
         id: LsCRaTktpYGsHVKdMgo7_
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -264,7 +275,7 @@ page_builder:
         enabled: true
       -
         id: xA6dCRsHzUQa5Rl8P-LAa
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

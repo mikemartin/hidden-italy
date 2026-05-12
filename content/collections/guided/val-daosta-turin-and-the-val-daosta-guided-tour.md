@@ -16,24 +16,6 @@ overview:
       -
         type: text
         text: "The Val d’Aosta may be Italy’s smallest region, but it is also one of its most spectacular, a wedge of mountains and valleys in the north-west corner of the country.\_ The region shares borders with Switzerland and France and contains Europe’s four highest peaks: Mt Blanc, the Matterhorn, Monte Rosa and Gran Paradiso."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'The Val d’Aosta offers some of Europe’s finest walking, following a network of clearly marked and well-maintained trails. These paths traverse small valleys, linking historic villages to high pastures and mountain passes, passing waterfalls and glaciers along the way.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "With its strategic position, the Val d’Aosta has a rich history, which is reflected in its cherished traditions. Italian and French are both official languages.\_ This cultural diversity is reflected in the local cuisine, simple, hearty mountain fare.\_ The region also produces some excellent cold-climate wines."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This tour highlights the Val d’Aosta's natural beauty and cultural heritage.\_ It begins with two days in elegant Turin; followed by three days in the Gressoney Valley at the foot of Mt Rosa; four days are in Cogne exploring Gran Paradiso National Park, Italy’s oldest national park; and finally, three days in glamorous Courmayeur at the foot of Mt Blanc. Travelling in early September means we avoid crowds and enjoy pleasant autumn weather.\_"
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -48,6 +30,35 @@ tour_size: 15
 date: '2027-05-27 14:00'
 leader: 08f576cb-78e7-49f2-b63a-6dddd1ce4683
 page_builder:
+  -
+    id: 6329b759380caf67
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'The Val d’Aosta offers some of Europe’s finest walking, following a network of clearly marked and well-maintained trails. These paths traverse small valleys, linking historic villages to high pastures and mountain passes, passing waterfalls and glaciers along the way.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "With its strategic position, the Val d’Aosta has a rich history, which is reflected in its cherished traditions. Italian and French are both official languages.\_ This cultural diversity is reflected in the local cuisine, simple, hearty mountain fare.\_ The region also produces some excellent cold-climate wines."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "This tour highlights the Val d’Aosta's natural beauty and cultural heritage.\_ It begins with two days in elegant Turin; followed by three days in the Gressoney Valley at the foot of Mt Rosa; four days are in Cogne exploring Gran Paradiso National Park, Italy’s oldest national park; and finally, three days in glamorous Courmayeur at the foot of Mt Blanc. Travelling in early September means we avoid crowds and enjoy pleasant autumn weather.\_"
+    title: 'Some of Europe’s finest walking'
+    images:
+      - tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_5043.jpg
+      - tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_7875.jpg
+      - tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_8817.jpg
   -
     id: mloqd78x
     title: "Turin and Val d'Aosta guided tour"
@@ -224,7 +235,7 @@ page_builder:
     tabs:
       -
         id: IwjLNiPN_iaXgY5EUBAYS
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         total_distance: 51
         total_elevation: 2086
         grade: 0
@@ -240,7 +251,7 @@ page_builder:
         enabled: true
       -
         id: uQgZqNv-w0t4ZuiPkBzZ1
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -254,7 +265,7 @@ page_builder:
         enabled: true
       -
         id: 9ZaFHFFBq188KwkceYmqF
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

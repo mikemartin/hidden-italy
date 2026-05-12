@@ -16,29 +16,6 @@ overview:
       -
         type: text
         text: 'This wonderful six day self-guided walk introduces you to some ot the most spectacular mountains in the world and some of the finest walking in Europe.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: "“The Dolomites National Park protects a series of highly distinctive mountain landscapes that are of exceptional natural beauty, extraordinary in a global context, and amongst the most beautiful in the world……..”\_\_ UNESCO World Heritage Listing, June 2009."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Celebrated as a skiing destination, the Dolomites also offer unrivalled walking in the summer.\_ You will use cable cars to get to the start of most walks and then follow well-marked trails as they wind your way back to your base, with the option at one of the charming mountains huts (rifugio) for a break or lunch along the way."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "On Day 1 you’ll be met in charming Bolzano, the capital of the South Tyrol and an important stop on the main Verona/Innsbruck train line, and driven to the spectacular valley an hour away.\_ This valley is one of the prettiest in the ‘Ladino’ heartland of the Dolomite mountains and you will be your base for the next five nights.  You will be driven back to Bolzano on Day 6."
-  -
-    type: paragraph
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
   - 'Five nights accommodation'
@@ -52,6 +29,40 @@ locations: northern-italy
 landscapes:
   - mountains
 page_builder:
+  -
+    id: 571e9603c9c2265e
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: "“The Dolomites National Park protects a series of highly distinctive mountain landscapes that are of exceptional natural beauty, extraordinary in a global context, and amongst the most beautiful in the world……..”\_\_ UNESCO World Heritage Listing, June 2009."
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Celebrated as a skiing destination, the Dolomites also offer unrivalled walking in the summer.\_ You will use cable cars to get to the start of most walks and then follow well-marked trails as they wind your way back to your base, with the option at one of the charming mountains huts (rifugio) for a break or lunch along the way."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "On Day 1 you’ll be met in charming Bolzano, the capital of the South Tyrol and an important stop on the main Verona/Innsbruck train line, and driven to the spectacular valley an hour away.\_ This valley is one of the prettiest in the ‘Ladino’ heartland of the Dolomite mountains and you will be your base for the next five nights.  You will be driven back to Bolzano on Day 6."
+      -
+        type: paragraph
+    title: 'Amongst the most beautiful in the world'
+    images:
+      - tours/alto-adige-dolomites-1-self-guided-walk/sassolungo-with-horse-1773020028.jpg
+      - tours/alto-adige-dolomites-1-self-guided-walk/img_1570-1773020174.jpg
+      - tours/alto-adige-dolomites-1-self-guided-walk/img_8778-1773019782.jpg
   -
     id: mloocwbk
     title: 'Highlights of the Dolomites 1 walking tour'
@@ -163,7 +174,7 @@ page_builder:
     tabs:
       -
         id: AOPi3gsbq397Xcy1m50Yr
-        title: Exceptional walking
+        title: 'Exceptional walking'
         grade: 3
         description:
           -
@@ -176,7 +187,7 @@ page_builder:
         enabled: true
       -
         id: P1I3feuFEatAXmUf0m3b2
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -190,7 +201,7 @@ page_builder:
         enabled: true
       -
         id: BbO6EYQ6rGn_q8Sjutz6D
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

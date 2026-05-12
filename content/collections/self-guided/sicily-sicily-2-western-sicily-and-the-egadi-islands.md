@@ -16,18 +16,6 @@ overview:
       -
         type: text
         text: "The west of Sicily is a land apart.\_ The cubic whitewashed houses, palm trees, active fishing harbours and sunburned lowlands seem more akin to Africa than Europe, and historically, the west of the island has always looked south: the Carthaginians were entrenched here; the Muslims first occupied Sicily here; the Saracens raided the area regularly; and the towns have more than a little North African atmosphere to them.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "It is a place of dramatic beauty: long rocky bays, soaring mountains and volcanic islands.\_ Once a neglected region renowned more for its Mafia strongholds than its tourist destinations, western Sicily has been reborn over the last 10 years and has much to offer, including its history, natural beauty, national parks and its food and wines."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Starting with a private transfer from Palermo, this tour takes you to the Egadi islands off the western tip of Sicily.\_ You’ll spend the next four days island hopping, exploring this fascinating and beautiful archipelago.\_ From here you’ll be taken to Sicily’s first national park for the last two nights, a spectacular piece of coastline stretching along the Castellamare Gulf, which you’ll walk on the last day."
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
   - 'Private transfer from Trapani to Lo Zingaro Regional Park on Day 5'
@@ -44,6 +32,29 @@ inclusions:
   - 'City taxes are not included in the cost of the tour'
 simple_likes: 0
 page_builder:
+  -
+    id: bfabacf57457fe16
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "It is a place of dramatic beauty: long rocky bays, soaring mountains and volcanic islands.\_ Once a neglected region renowned more for its Mafia strongholds than its tourist destinations, western Sicily has been reborn over the last 10 years and has much to offer, including its history, natural beauty, national parks and its food and wines."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Starting with a private transfer from Palermo, this tour takes you to the Egadi islands off the western tip of Sicily.\_ You’ll spend the next four days island hopping, exploring this fascinating and beautiful archipelago.\_ From here you’ll be taken to Sicily’s first national park for the last two nights, a spectacular piece of coastline stretching along the Castellamare Gulf, which you’ll walk on the last day."
+    title: 'A place of dramatic beauty'
+    images:
+      - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/favignana-6.jpg
+      - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/sicilie-egadische-eilanden-marettimo-3.jpg
+      - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/favignana-3.jpg
   -
     id: mlrbu308
     title: 'Sicily 2 highlights'
@@ -156,7 +167,7 @@ page_builder:
     tabs:
       -
         id: DKYtX-J9tTIHSu4eitcRQ
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         grade: 0
         description:
           -
@@ -179,7 +190,7 @@ page_builder:
         enabled: true
       -
         id: QaJxSxOiTE3WiCwZ3MDqx
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -193,7 +204,7 @@ page_builder:
         enabled: true
       -
         id: 25bUHtF7F8SXCJx_j0TIM
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

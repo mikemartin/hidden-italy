@@ -16,18 +16,6 @@ overview:
       -
         type: text
         text: "With its mountains, plains and seashores all less than an hour's drive apart, Italian writer Ippolito Nievo fondly described the region Friuli Venezia Giulia (FVG) as a \"little compendium of the universe\".\_ This Hidden Italy special sets about exploring that universe."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Bordering Austria to the north and Slovenia to the east, FVG has long been contested by rival powers wanting to access the rich plains of northern Italy.\_ Today, German, Slavic and Italian populations all call it home.\_ The region’s landscapes are equally varied, a beguiling combination of soaring Alps, limestone plateaux, deep green valleys, rolling plains and a long stretch of Adriatic coastline."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This marvellous tour starts with two days in Udine, an elegant provincial capital.\_ We then head north-east into the mountains, staying in a beautifully preserved village in the heart of the Carnian Alps, our base for the next four days.\_ From here we drive east across the plains to ‘Venetian Slovenia’, a wedge of forested hills that forms the frontier between Italy and Slovenia.\_ Our base is a family-run hotel in the centre of beautiful frontier town that was founded by Julius Caesar.\_ Our last two nights are in the grand port city of Trieste, for four centuries the Mediterranean port for the Austro-Hungarian Empire.\_ Trieste has fast train connections to the rest of Italy."
 inclusions:
   - '12 night’s accommodation (see the itinerary for details) in excellent boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -42,6 +30,29 @@ tour_size: 15
 date: '2027-05-27 14:00'
 leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 page_builder:
+  -
+    id: f283973a7502079d
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Bordering Austria to the north and Slovenia to the east, FVG has long been contested by rival powers wanting to access the rich plains of northern Italy.\_ Today, German, Slavic and Italian populations all call it home.\_ The region’s landscapes are equally varied, a beguiling combination of soaring Alps, limestone plateaux, deep green valleys, rolling plains and a long stretch of Adriatic coastline."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "This marvellous tour starts with two days in Udine, an elegant provincial capital.\_ We then head north-east into the mountains, staying in a beautifully preserved village in the heart of the Carnian Alps, our base for the next four days.\_ From here we drive east across the plains to ‘Venetian Slovenia’, a wedge of forested hills that forms the frontier between Italy and Slovenia.\_ Our base is a family-run hotel in the centre of beautiful frontier town that was founded by Julius Caesar.\_ Our last two nights are in the grand port city of Trieste, for four centuries the Mediterranean port for the Austro-Hungarian Empire.\_ Trieste has fast train connections to the rest of Italy."
+    title: 'A beguiling combination of mountains, plains and sea'
+    images:
+      - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/16.5.jpg
+      - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/sauris-2.jpg
+      - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/68a-2.jpg
   -
     id: mloqd78x
     title: 'Trieste and Friuli guided tour'
@@ -224,7 +235,7 @@ page_builder:
     tabs:
       -
         id: Uc-1uEYyywlP03OD_0Vbp
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         grade: 3
         description:
           -
@@ -238,7 +249,7 @@ page_builder:
         enabled: true
       -
         id: m3JEmFcFMlSJsJDXjvTXC
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -252,7 +263,7 @@ page_builder:
         enabled: true
       -
         id: DmGhPijoLKwyK7wVV3wDo
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

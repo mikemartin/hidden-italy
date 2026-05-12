@@ -16,21 +16,6 @@ overview:
       -
         type: text
         text: 'This six-day walk is the first section of the Cammino of St Francis. It follows the official pilgrim route, a regularly marked trail that weaves through the hills and farmlands of Central Italy, from Assisi, home of St Francis, to Spoleto through some of the most beautiful country in the region.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This first section starts in the beautiful town of Assisi.\_ The trail contours along the foothills of the Appennine Mountains with spectacular views over the Vale of Umbria, winding through classic Umbria countryside of farmlands and olives groves.  The trail finishes\_ in the remarkable town of Spoleto.  Along the way, you visit some of the best-preserved hilltop towns in the region, several that date from Roman times You're accommodation along the way is in welcoming, family-run, 3-star hotel.\_ "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: "Umbria 1 walk is the first section of the Cammino of St Francis, a marvellous 258 km walk that starts in Assisi and finishes in Rome, following in the footsteps of Italy's most beloved saint.  The whole three-week walk can be broken up into three one-week sections: Umbria 1, Umbria 2 and Lazio."
 inclusions:
   - 'Five nights accommodation'
   - 'All breakfasts + 1 dinner included'
@@ -45,6 +30,32 @@ locations: central-italy
 landscapes:
   - countryside
 page_builder:
+  -
+    id: 937814bc35a90252
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "This first section starts in the beautiful town of Assisi.\_ The trail contours along the foothills of the Appennine Mountains with spectacular views over the Vale of Umbria, winding through classic Umbria countryside of farmlands and olives groves.  The trail finishes\_ in the remarkable town of Spoleto.  Along the way, you visit some of the best-preserved hilltop towns in the region, several that date from Roman times You're accommodation along the way is in welcoming, family-run, 3-star hotel.\_ "
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: "Umbria 1 walk is the first section of the Cammino of St Francis, a marvellous 258 km walk that starts in Assisi and finishes in Rome, following in the footsteps of Italy's most beloved saint.  The whole three-week walk can be broken up into three one-week sections: Umbria 1, Umbria 2 and Lazio."
+    title: 'From Assisi, across the Vale of Umbria'
+    images:
+      - tours/umbria-cammino-of-st-francis-umbria-1/11.jpg
+      - tours/umbria-cammino-of-st-francis-umbria-1/arriving-in-spello.jpg
+      - tours/umbria-cammino-of-st-francis-umbria-1/14.jpg
   -
     id: mloocwbk
     title: 'Highlights of the Umbria 1 walk'
@@ -146,7 +157,7 @@ page_builder:
     tabs:
       -
         id: FR3faXfk73iAF3NKH5tOt
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         total_distance: 62
         total_elevation: 1220
         grade: 3
@@ -168,7 +179,7 @@ page_builder:
         enabled: true
       -
         id: uU03Tr3W0iXR-X5j6f0H4
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -182,7 +193,7 @@ page_builder:
         enabled: true
       -
         id: iqbWEo8jA5o7JtcsgUxpO
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

@@ -16,12 +16,6 @@ overview:
       -
         type: text
         text: "This marvellous 8-day walk starts in the quiet streets of Rieti, a lovely town in the north of Lazio, before climbing into the hills of the central Apennines, through an district known as Sabina, which is dotted with small, proud towns, each with its own history traced back to the Romans and beyond.\_ The hills gradually give way to the undulating farmlands of the Tiber River plain.  The trail then winds through two nature reserves before reaching the outer suburbs of Rome. \_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "From here, the final walk takes along a dedicated 'greenway' from the Monte Sacro district in northern Rome along the banks the Aniene River and  the Tiber rivers to Castel Sant'Angelo.  From here you walk up the Via della Conciliazione to embracing arms Piazza San Pietro and the stairs of St Peter’s Basilica, one of the most spectacular buildings in the world, a memorable finale to a memorable walk."
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
   - 'Seven nights accommodation'
@@ -37,6 +31,22 @@ locations: central-italy
 landscapes:
   - countryside
 page_builder:
+  -
+    id: 3d04760d6808a841
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "From here, the final walk takes along a dedicated 'greenway' from the Monte Sacro district in northern Rome along the banks the Aniene River and  the Tiber rivers to Castel Sant'Angelo.  From here you walk up the Via della Conciliazione to embracing arms Piazza San Pietro and the stairs of St Peter’s Basilica, one of the most spectacular buildings in the world, a memorable finale to a memorable walk."
+    title: 'A memorable finale at St Peter’s Basilica'
+    images:
+      - tours/piedmont-alba-and-le-langhe-1/p6051915.jpg
+      - tours/piedmont-alba-and-le-langhe-1/12.9.jpg
+      - tours/piedmont-alba-and-le-langhe-1/14.jpg
   -
     id: mloocwbk
     title: 'Highlights of the Lazio tour'
@@ -158,7 +168,7 @@ page_builder:
     tabs:
       -
         id: zxktSz2B6F5A-gtT8KePT
-        title: Exceptional walking
+        title: 'Exceptional walking'
         grade: 4
         description:
           -
@@ -172,7 +182,7 @@ page_builder:
         enabled: true
       -
         id: 3hNY7PB8TsiGICLpeht9g
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -184,7 +194,7 @@ page_builder:
         enabled: true
       -
         id: W8rMzD2R7Q1wbO80cJWG6
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

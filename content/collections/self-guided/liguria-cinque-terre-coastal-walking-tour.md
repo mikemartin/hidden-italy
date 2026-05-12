@@ -16,14 +16,6 @@ overview:
       -
         type: text
         text: 'Following an extraordinary trail, this continuous walk (no trains!) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere six days later, leaving you plenty of time to explore the charming villages you stay in each day.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This continous walk along the Cinque Terre follows stone paths that have linked the villages for centuries, starting in Levanto at the eastern end of the National Park and finishing in glorious Portovenere at the western end of the park. They twist and wind along the rugged coast passing through pine forests and terraced vineyards, with breath-taking views out over the Mediterranean, including the less walked routes from Riomaggiore to Portovenere and around the little island off Portovenere.\_ At the end of the walk, you'll be dropped off at La Spezia railway station (on the Rome/Genoa line)."
-  -
-    type: paragraph
 inclusions:
   - 'Six nights accommodation'
   - 'All breakfasts included'
@@ -40,6 +32,25 @@ locations: northern-italy
 landscapes:
   - coastal
 page_builder:
+  -
+    id: 3f075a03e0307a8c
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "This continous walk along the Cinque Terre follows stone paths that have linked the villages for centuries, starting in Levanto at the eastern end of the National Park and finishing in glorious Portovenere at the western end of the park. They twist and wind along the rugged coast passing through pine forests and terraced vineyards, with breath-taking views out over the Mediterranean, including the less walked routes from Riomaggiore to Portovenere and around the little island off Portovenere.\_ At the end of the walk, you'll be dropped off at La Spezia railway station (on the Rome/Genoa line)."
+    column_right:
+      -
+        type: paragraph
+    title: 'Stone paths linking the villages for centuries'
+    images:
+      - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-6.jpg
+      - tours/liguria-cinque-terre-coastal-walking-tour/manarola-1-a.jpg
+      - tours/liguria-cinque-terre-coastal-walking-tour/44.jpg
   -
     id: mloocwbk
     title: 'Highlights of the Cinque Terre Coastal walk'
@@ -151,7 +162,7 @@ page_builder:
     tabs:
       -
         id: VPMYlzlYJW_a-h4wvNqkO
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         grade: 3
         description:
           -
@@ -165,7 +176,7 @@ page_builder:
         enabled: true
       -
         id: uhLUaATLOCO40xXP-F75V
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -179,7 +190,7 @@ page_builder:
         enabled: true
       -
         id: '-1bLf_gGa2RXKSAioqeIB'
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

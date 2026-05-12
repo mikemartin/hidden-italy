@@ -19,18 +19,6 @@ overview:
       -
         type: text
         text: 'The Romans called the region around Naples ‘Campania Felix’ or the ‘happy lands’. With its rich history, spectacular coastline and fertile interior, Campania has much to be happy about: a stunningly beautiful area with endless surprises and all the exuberance and colour of southern Italy.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_Campania is a region of great variety: the excitement of Naples; active volcanoes; dis-entombed ancient cities; dramatic coastline; and bustling fishing islands contrast with the majesty and grace of its little-visited interior: forgotten palaces and monasteries; rolling hills draped in vineyards; soaring mountains covered in beech and chestnut forests; sleepy medieval villages where you won’t see another tourist for days.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "We begin with three nights in Naples, exploring its vibrant streets, art, museums, and food. Next, we drive to the Apennine foothills for four nights at a family-run hotel in an ancient town near Monti Picentini National Park, where we'll walk and enjoy southern cuisine.\_ Then we head to the Tyrrhenian Coast for three nights at a 4-star hotel overlooking Policastro Gulf, featuring a ridge walk and a private boat trip along the coast. \_Finally, we stay two nights in Ravello on the Amalfi Coast, ending our journey with a forest walk down to Amalfi.\_ This tour is a Hidden Italy special!"
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in excellent boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -54,6 +42,29 @@ gallery:
   - tours/campania-the-amalfi-coast-naples-to-ravello/img_2509-v2.jpg
 leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 page_builder:
+  -
+    id: 06097f0698eecc32
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "\_Campania is a region of great variety: the excitement of Naples; active volcanoes; dis-entombed ancient cities; dramatic coastline; and bustling fishing islands contrast with the majesty and grace of its little-visited interior: forgotten palaces and monasteries; rolling hills draped in vineyards; soaring mountains covered in beech and chestnut forests; sleepy medieval villages where you won’t see another tourist for days.\_"
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "We begin with three nights in Naples, exploring its vibrant streets, art, museums, and food. Next, we drive to the Apennine foothills for four nights at a family-run hotel in an ancient town near Monti Picentini National Park, where we'll walk and enjoy southern cuisine.\_ Then we head to the Tyrrhenian Coast for three nights at a 4-star hotel overlooking Policastro Gulf, featuring a ridge walk and a private boat trip along the coast. \_Finally, we stay two nights in Ravello on the Amalfi Coast, ending our journey with a forest walk down to Amalfi.\_ This tour is a Hidden Italy special!"
+    title: 'A region of great variety'
+    images:
+      - tours/campania-the-amalfi-coast-naples-to-ravello/img_3120-v2.jpg
+      - tours/campania-the-amalfi-coast-naples-to-ravello/maratea-1.jpg
+      - tours/campania-the-amalfi-coast-naples-to-ravello/img_8037.jpg
   -
     id: mlj10cx3
     type: highlights
@@ -227,7 +238,7 @@ page_builder:
     tabs:
       -
         id: fYIXmjYPBmHhUcM3k3JuE
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         grade: 0
         description:
           -
@@ -241,7 +252,7 @@ page_builder:
         enabled: true
       -
         id: RNgVDy8HXrH-vhRmxQIoy
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -267,7 +278,7 @@ page_builder:
         enabled: true
       -
         id: Tdo-BVjfyAiIML-632W0V
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

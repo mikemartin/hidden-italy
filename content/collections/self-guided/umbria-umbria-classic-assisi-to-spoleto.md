@@ -16,24 +16,6 @@ overview:
       -
         type: text
         text: "Often referred to as 'the green heart of Italy', Umbria is a beautiful, largely unspoilt, region of rolling hills, woods, streams and valleys.\_ Within its borders are a dozen or so classic hill-towns, each resolutely individual and crammed with artistic and architectural treasures that frequently rival bigger and more famous cities."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Starting in Assisi and finishing in Spoleto, this wonderful walk will take through the most alluring part of the region: the Valle Umbra (the Umbra Valley).  Following well-marked trails, you walk through a beguiling landscape of rolling hills dotted with olive groves and draped with grape vines, with mountains above you and valleys below.  Staying in superior accommodation in historic palazzi, you will also have plenty of time explore some of the region's most charming towns and admire some of the best art in central Italy, including works by Giotto, Perugino, Pinturicchio and Raphael. "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Of course, we mustn't forget the food!  You'll also have plenty of opportunities to sample the region's celebrated cuisine, which tends to be simple and seasonal home-cooking.\_ Umbria is best known for its vegetables (including lentils from Castellucio and beans from Trasimeno); its game (pigeon; pheasant and wild boar); and its truffles (both black and white); but the crowning glory is its porchetta (whole suckling pig, pit roasted)!\_ Umbria is also well-known for its wines, including the red Sagrantino and the white Grechetto."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'What more could you ask for?'
 inclusions:
   - 'Six nights accommodation'
   - 'Generous breakfasts included'
@@ -48,6 +30,35 @@ locations: central-italy
 landscapes:
   - countryside
 page_builder:
+  -
+    id: e4d3271a36f498d1
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Starting in Assisi and finishing in Spoleto, this wonderful walk will take through the most alluring part of the region: the Valle Umbra (the Umbra Valley).  Following well-marked trails, you walk through a beguiling landscape of rolling hills dotted with olive groves and draped with grape vines, with mountains above you and valleys below.  Staying in superior accommodation in historic palazzi, you will also have plenty of time explore some of the region's most charming towns and admire some of the best art in central Italy, including works by Giotto, Perugino, Pinturicchio and Raphael. "
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Of course, we mustn't forget the food!  You'll also have plenty of opportunities to sample the region's celebrated cuisine, which tends to be simple and seasonal home-cooking.\_ Umbria is best known for its vegetables (including lentils from Castellucio and beans from Trasimeno); its game (pigeon; pheasant and wild boar); and its truffles (both black and white); but the crowning glory is its porchetta (whole suckling pig, pit roasted)!\_ Umbria is also well-known for its wines, including the red Sagrantino and the white Grechetto."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'What more could you ask for?'
+    title: 'Through the alluring Valle Umbra'
+    images:
+      - tours/umbria-cammino-of-st-francis-umbria-2-1/borgo-della-marmotta-1.jpg
+      - tours/umbria-cammino-of-st-francis-umbria-2-1/clitumno-2089647_1920.jpg
+      - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020012.jpg
   -
     id: mloocwbk
     title: 'Highlights of the Umbria Classic'
@@ -160,7 +171,7 @@ page_builder:
     tabs:
       -
         id: _mDmVfayfhOdoqr-fftAm
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         total_distance: 73
         total_elevation: 1312
         grade: 0
@@ -182,7 +193,7 @@ page_builder:
         enabled: true
       -
         id: nkXvBhjxld4s_M-3z-F3V
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -194,7 +205,7 @@ page_builder:
         enabled: true
       -
         id: 1grdU8mk7fgoQdVPvS6M6
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

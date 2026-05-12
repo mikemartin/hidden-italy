@@ -16,24 +16,6 @@ overview:
       -
         type: text
         text: "This wonderful tour takes you through the heart of Sicily, an area untouched by tourism, where the traditions, daily life, and hospitality of the island are alive and well.\_ Following mostly unsealed country lanes you’ll pass through some of the most spectacular countryside on Sicily: rolling farmlands covered in wheat fields overlooked by jagged mountains, with the forested peaks of the Madonie National Park in the distance.\_ "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "On a clear day, the conical form of Mt Etna, Europe’s largest and most-active volcano, smokes on the horizon, one hundred kilometres away.\_ Along the way, you visit some of Italy’s most unspoilt villages, two of which have been winners of ‘Italy’s Most Beautiful Village’, one in 2014 (Day 4) and other in 2018 (Day 6)."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "You start the tour with a private transfer from either Palermo or Catania and then taken to Nicosia, a bussling farming centre, where you spend the first night.\_ For the next four nights, you will stay in a series very attractive and interesting villages, until Day 6, when you arrive at Petralia Soprana at the foot of the Madonie Mountains, where the tour finishes.\_ From here you will be driven by private transfer back to either Palermo or Catania.\_ "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'The Sicily 1 walk is a wonderful opportunity to get local, experience the famous Sicilian hospitality, its delicious seasonal cuisine as well as enjoying some long country rambles.'
 inclusions:
   - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
   - 'Private transfer from Petralia Soprana to either Palermo or Catania on Day 7'
@@ -47,6 +29,35 @@ inclusions:
   - 'City taxes are not included in the cost of the tour'
 simple_likes: 0
 page_builder:
+  -
+    id: f971e1fa5cfc88ca
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "On a clear day, the conical form of Mt Etna, Europe’s largest and most-active volcano, smokes on the horizon, one hundred kilometres away.\_ Along the way, you visit some of Italy’s most unspoilt villages, two of which have been winners of ‘Italy’s Most Beautiful Village’, one in 2014 (Day 4) and other in 2018 (Day 6)."
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "You start the tour with a private transfer from either Palermo or Catania and then taken to Nicosia, a bussling farming centre, where you spend the first night.\_ For the next four nights, you will stay in a series very attractive and interesting villages, until Day 6, when you arrive at Petralia Soprana at the foot of the Madonie Mountains, where the tour finishes.\_ From here you will be driven by private transfer back to either Palermo or Catania.\_ "
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'The Sicily 1 walk is a wonderful opportunity to get local, experience the famous Sicilian hospitality, its delicious seasonal cuisine as well as enjoying some long country rambles.'
+    title: 'In the shadow of Mt Etna'
+    images:
+      - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6635.jpeg
+      - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/22.jpg
+      - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture1.jpg
   -
     id: mlrbu308
     title: 'Sicily 1 highlights'
@@ -165,7 +176,7 @@ page_builder:
     tabs:
       -
         id: fpHvrxAdfZnl5Y7tvG0om
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         grade: 0
         description:
           -
@@ -179,7 +190,7 @@ page_builder:
         enabled: true
       -
         id: AVioUleD96C6NlpNZLZzf
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -193,7 +204,7 @@ page_builder:
         enabled: true
       -
         id: Xt_mVIeOY3x9zfGzWJVla
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

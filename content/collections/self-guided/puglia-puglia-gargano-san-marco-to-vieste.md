@@ -16,18 +16,6 @@ overview:
       -
         type: text
         text: "The Gargano is in the north of Puglia.  The ‘spur’ on the boot of Italy, it is an expansive promontory covered by one of Italy’s oldest national parks, surrounded by sparkling waters, white limestone cliffs and pretty fishing villages.\_ Gargano has a rich history.\_ It has been inhabited since Neolithic times and has towns that were founded by the ancient Greeks and Romans, but its glory days were during the Crusades when the sanctuary of Monte San Michele became one of the most important pilgrim destinations in the Middle Ages."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The tour starts with a private transfer from the nearby town of Foggia to a small town perched on the western end of the Gargano peninsula.\_ You then follow pilgrim trails through farmlands and the Foresta Umbra, an ancient beech forest, before a spectacular descent down to the sea, finishing at the dramatically located town of Vieste, where you’ll spend the final two days, which includes a morning tour in a private boat exploring some of the most beautiful coastline in southern Italy.  You'll be transferred back to Foggia on the last day.  Breakfast and dinners are included each day."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This is a marvellous walker's walk, a very satisfying exploration of an area that few foreigners visit!"
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
   - 'Private transfer from Vieste to Foggia on Day 8'
@@ -44,6 +32,29 @@ locations: southern-italy
 landscapes:
   - coastal
 page_builder:
+  -
+    id: 6320b6f334df26c7
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The tour starts with a private transfer from the nearby town of Foggia to a small town perched on the western end of the Gargano peninsula.\_ You then follow pilgrim trails through farmlands and the Foresta Umbra, an ancient beech forest, before a spectacular descent down to the sea, finishing at the dramatically located town of Vieste, where you’ll spend the final two days, which includes a morning tour in a private boat exploring some of the most beautiful coastline in southern Italy.  You'll be transferred back to Foggia on the last day.  Breakfast and dinners are included each day."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "This is a marvellous walker's walk, a very satisfying exploration of an area that few foreigners visit!"
+    title: 'Pilgrim trails to the sea'
+    images:
+      - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_2799.jpg
+      - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/15.jpg
+      - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/17.5.jpg
   -
     id: mloocwbk
     title: 'Highlights of the Gargano tour'
@@ -172,7 +183,7 @@ page_builder:
     tabs:
       -
         id: f5vcwKvlzUwoGllEJW7e5
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         grade: 0
         description:
           -
@@ -186,7 +197,7 @@ page_builder:
         enabled: true
       -
         id: dr6L27r4IqxKrLm7TRyFE
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -198,7 +209,7 @@ page_builder:
         enabled: true
       -
         id: oiR8LxKXnykM3ecfvR-ug
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

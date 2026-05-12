@@ -16,27 +16,6 @@ overview:
       -
         type: text
         text: "Walking the Via Francigena from San Gimignano to Siena is a unique experience.\_\_ It starts in San Gimignano, a gorgeous town with a stunning hilltop skyline of towers.\_ From here you follow in the footsteps of medieval pilgrims all the way to the glorious the walled city of Siena, 'the most perfectly preserved medieval city in Europe'.\_ In between, you stay in a town that made its wealth in the wool trade in the Middle Ages and a fortified village that was Siena's stronghold again Florence."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The well-marked trails take you through rolling countryside covered in vineyards, olive groves and forest, with long, open stretches of farmlands and fields dotted the occasional farmhouse or cluster of cypress.\_ Each day you pass through small villages and rural hamlets, where you can pause for a coffee, a drink of water or a snack.\_\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The accommodation is a highlight of the tour.\_ You stay in very comfortable, three-star hotels in historic buildings in the heart of each town.\_ Another highlight, of course, is the food.\_ Tuscan cooking, with its emphasis on simple dishes using fresh, quality, local ingredients, has had an enormous influence on Italian cuisine.\_ As well as this, you are also walking through the Chianti district, which produces some of the country's finest wines."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: "What more could you want for a week's walking?"
 inclusions:
   - 'Private transfer from Florence to San Gimignano on Day 1'
   - 'Four nights accommodation'
@@ -52,6 +31,38 @@ locations: central-italy
 landscapes:
   - countryside
 page_builder:
+  -
+    id: 23593d43b3d95888
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The well-marked trails take you through rolling countryside covered in vineyards, olive groves and forest, with long, open stretches of farmlands and fields dotted the occasional farmhouse or cluster of cypress.\_ Each day you pass through small villages and rural hamlets, where you can pause for a coffee, a drink of water or a snack.\_\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The accommodation is a highlight of the tour.\_ You stay in very comfortable, three-star hotels in historic buildings in the heart of each town.\_ Another highlight, of course, is the food.\_ Tuscan cooking, with its emphasis on simple dishes using fresh, quality, local ingredients, has had an enormous influence on Italian cuisine.\_ As well as this, you are also walking through the Chianti district, which produces some of the country's finest wines."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: "What more could you want for a week's walking?"
+    title: 'Vineyards, olive groves and rolling countryside'
+    images:
+      - tours/tuscany-tuscany-3-san-gimignano-to-siena/palmik-siena-2658932.jpg
+      - tours/tuscany-tuscany-3-san-gimignano-to-siena/justsomedutchdude-old-2121643.jpg
+      - tours/tuscany-tuscany-3-san-gimignano-to-siena/kristof-van-rentergem-lpywtwptwbs-unsplash.jpg
   -
     id: mloocwbk
     title: 'Highlights of Tuscany 3'
@@ -146,7 +157,7 @@ page_builder:
     tabs:
       -
         id: uoQNOk3xz3I0So87biTFG
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         grade: 0
         description:
           -
@@ -166,7 +177,7 @@ page_builder:
         enabled: true
       -
         id: y35_xIxVn7IletDwp4YZK
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -180,7 +191,7 @@ page_builder:
         enabled: true
       -
         id: Ijoj0uFYMCP1AJUz9z1x8
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph
@@ -286,7 +297,7 @@ gallery:
 start_location:
   label: 'San Gimignano'
 finish_location:
-  label: 'Siena'
+  label: Siena
 now_open: false
 seasons: spring
 headline: '5 days from San Gimignano to Siena'

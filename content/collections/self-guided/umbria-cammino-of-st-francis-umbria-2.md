@@ -16,29 +16,6 @@ overview:
       -
         type: text
         text: "The second section of the Cammino of St Francis, this lovey, week-long walk takes you through 'the green heart of Italy'.  Leaving Spoleto via the 13th century Ponte delle Torri bridge, you finish a week later, staying in a lovely 3-star hotel in the centre of the ancient town of Rieti.\_ "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Along the way, you will visit some extraordinary places including one of central Italy’s finest abbeys (founded in the 8th century); one of Europe’s highest waterfalls (created by the Romans in the 3rd century BC); some gorgeous hilltop villages that date from the Dark Ages; a dreamy lake that is home to the Italian rowing team and a thousand year old tree believed to have been blessed by St Francis himself.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The most memorable feature of this itinerary, though, is the peaceful, unspoilt nature you walk through: the evergreen forests of the Monteluco National Park, the meadows along the banks of the Nera River, the lake shores and the woods overlooking Rieti.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: "Umbria 2 walk is the first section of the Cammino of St Francis, a marvellous 258 km walk that starts in Assisi and finishes in Rome, following in the footsteps of Italy's most beloved saint.  The whole three-week walk can be broken up into three one-week sections: Umbria 1, Umbria 2 and Lazio."
-  -
-    type: paragraph
 inclusions:
   - 'Six nights accommodation'
   - 'All breakfasts included'
@@ -54,6 +31,40 @@ landscapes:
   - countryside
   - lakes
 page_builder:
+  -
+    id: 911c677e90822600
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Along the way, you will visit some extraordinary places including one of central Italy’s finest abbeys (founded in the 8th century); one of Europe’s highest waterfalls (created by the Romans in the 3rd century BC); some gorgeous hilltop villages that date from the Dark Ages; a dreamy lake that is home to the Italian rowing team and a thousand year old tree believed to have been blessed by St Francis himself.\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The most memorable feature of this itinerary, though, is the peaceful, unspoilt nature you walk through: the evergreen forests of the Monteluco National Park, the meadows along the banks of the Nera River, the lake shores and the woods overlooking Rieti.\_"
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: "Umbria 2 walk is the first section of the Cammino of St Francis, a marvellous 258 km walk that starts in Assisi and finishes in Rome, following in the footsteps of Italy's most beloved saint.  The whole three-week walk can be broken up into three one-week sections: Umbria 1, Umbria 2 and Lazio."
+      -
+        type: paragraph
+    title: 'Abbeys, waterfalls and hilltop villages'
+    images:
+      - tours/umbria-cammino-of-st-francis-umbria-2/f1020015.jpg
+      - tours/umbria-cammino-of-st-francis-umbria-2/img_5356.jpg
+      - tours/umbria-cammino-of-st-francis-umbria-2/14.8.jpg
   -
     id: mloocwbk
     title: 'Highlights of the Umbria 2 tour'
@@ -165,7 +176,7 @@ page_builder:
     tabs:
       -
         id: mHb4rqFxO0jDx8CKjPTWK
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         total_distance: 91
         total_elevation: 1982
         grade: 4
@@ -187,7 +198,7 @@ page_builder:
         enabled: true
       -
         id: dJqX1COMa8d7m_txezz-P
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -201,7 +212,7 @@ page_builder:
         enabled: true
       -
         id: 2vX4JZSJLTgzqr7rufXnX
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph

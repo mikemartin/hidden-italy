@@ -18,18 +18,6 @@ overview:
       -
         type: text
         text: "Starting in Verona, this exciting small-group tour in the Dolomites takes you through the most beautiful mountains in the world. \_Its well-marked trails, charming villages and mountain huts provide some of the finest walking in Europe. \_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Autumn is the perfect time to explore this fascinating area, a unique range of mountains with towering limestone pinnacles and spires rising dramatically above deep green valleys of pine forests that flow into rolling meadows scattered with centuries-old villages, Gothic churches and isolated timber farmhouses.\_ Along the way, you will be introduced to the history and traditions of the area, a beguiling blend of German, Italian and Ladino cultures."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The tour starts with a bang, two nights in a lovely 4-star hotel in the centre of romantic Verona, before driving north into the heart of the Dolomites, spending the next 4 nights in another gorgeous 4-star in a valley near Bolzano. \_We then head east being based for another four nights in a quiet valley off the Val Badia. Finally, we finish with another bang, with two nights in 4-star hotel in Cortina d'Ampezzo, a beautiful town known as the 'pearl of the Dolomites' that is still glowing from hosting the 2026 Winter Olympics!"
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -55,6 +43,29 @@ gallery:
 simple_likes: 0
 leader: 656b56c6-ff12-45de-86a3-c6c480d7c141
 page_builder:
+  -
+    id: c96bec259b9cca9c
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Autumn is the perfect time to explore this fascinating area, a unique range of mountains with towering limestone pinnacles and spires rising dramatically above deep green valleys of pine forests that flow into rolling meadows scattered with centuries-old villages, Gothic churches and isolated timber farmhouses.\_ Along the way, you will be introduced to the history and traditions of the area, a beguiling blend of German, Italian and Ladino cultures."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The tour starts with a bang, two nights in a lovely 4-star hotel in the centre of romantic Verona, before driving north into the heart of the Dolomites, spending the next 4 nights in another gorgeous 4-star in a valley near Bolzano. \_We then head east being based for another four nights in a quiet valley off the Val Badia. Finally, we finish with another bang, with two nights in 4-star hotel in Cortina d'Ampezzo, a beautiful town known as the 'pearl of the Dolomites' that is still glowing from hosting the 2026 Winter Olympics!"
+    title: 'Towering pinnacles above deep green valleys'
+    images:
+      - tours/trentino-alto-adige-dolomites/3.9.jpg
+      - tours/trentino-alto-adige-dolomites/143.jpg
+      - tours/trentino-alto-adige-dolomites/4.jpg
   -
     id: mlq6wt91
     title: 'Highlights Trentino-Alto Adige'
@@ -233,7 +244,7 @@ page_builder:
     tabs:
       -
         id: d0AHPD8QyyUAhyiGlXN5t
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         grade: 0
         description:
           -
@@ -247,7 +258,7 @@ page_builder:
         enabled: true
       -
         id: NnQtzJAgOBLTWBzts_kLQ
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -261,7 +272,7 @@ page_builder:
         enabled: true
       -
         id: ZcxKqMdy48Fh9Ma1jmx2H
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph
