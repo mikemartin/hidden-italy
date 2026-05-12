@@ -32,6 +32,7 @@
         "mallardduck/blade-lucide-icons": "^1.24",
         "mikomagni/simple-likes": "^2.0",
         "reachweb/statamic-livewire-filters": "4.3.2",
+        "statamic-rad-pack/mailchimp": "^4.0",
         "statamic/cms": "^6.0",
         "studio1902/statamic-peak-seo": "^11.0",
         "studio1902/statamic-peak-tools": "^9.0"

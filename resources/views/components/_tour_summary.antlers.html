@@ -157,6 +157,23 @@
                     </div>
                 {{ /if }}
 
+                {{# Price — self-guided tours always show with a "From" prefix
+                    (they start at a variable price per person); guided tours
+                    list the all-inclusive group price as-is. #}}
+                {{ if price }}
+                    <div>
+                        <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">
+                            {{ trans:strings.price ?? 'Price' }}
+                        </dt>
+                        <dd class="mt-1 flex items-center gap-2">
+                            <x-lucide-tag class="size-5 lg:size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
+                            <span class="font-display font-medium text-base lg:text-lg leading-[1.5] text-foreground">
+                                {{ if {collection:handle} == 'self-guided' }}{{ trans:strings.from ?? 'From' }} {{ /if }}{{ price }}
+                            </span>
+                        </dd>
+                    </div>
+                {{ /if }}
+
                 {{# Tour leader — collapses to second-column on mobile, full row on desktop.
                     The portrait and name are both anchors to the page_builder `#leader`
                     section, which carries the full bio. Smooth-scroll mirrors the tour

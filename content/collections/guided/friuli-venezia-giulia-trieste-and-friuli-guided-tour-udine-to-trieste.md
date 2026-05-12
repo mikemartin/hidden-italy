@@ -96,14 +96,14 @@ page_builder:
     days:
       -
         id: mloqwjgq
-        title: 'Day 1:  Arrive in Udine'
+        title: 'Arrive in Udine'
         description: 'Prosperous Udine sits on a fertile plain in the middle of Friuli Venezia Giulia (FVG).  With its elegant architecture and refined way of life, Udine has retained much of its past as part of the Venetian Empire.  The first two nights of our tour are in a classic 4-star hotel in the centre of the city.  After an aperitivo in our hotel, we’ll have dinner in an elegant restaurant near the hotel.'
         meals_included:
           - dinner
         photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/1.jpg
       -
         id: mloqxcnx
-        title: 'Day 2:  Explore Udine'
+        title: 'Explore Udine'
         description: 'This morning we take a guided walk through the fascinating historic centre of the city, including a visit to the Tiepolo Gallery (the great Venetian artist lived and worked for many years in Udine).  We will have lunch together, and then the evening is free..'
         meals_included:
           - breakfast
@@ -111,7 +111,7 @@ page_builder:
         photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/img_3969.jpeg
       -
         id: mloqy5ed
-        title: 'Day 3:  Transfer to the mountains'
+        title: 'Transfer to the mountains'
         description: 'This morning, we leave Udine, driving north across the plains and up into the Carnia Alps, stopping for a lovely forest walk and then lunch in a mountain lodge on the way.  Our base for the next four days is a small, beautifully preserved mountain village surrounded by forests and soaring peaks, twenty kilometres from the Austrian border.'
         meals_included:
           - breakfast
@@ -123,7 +123,7 @@ page_builder:
         photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/3.jpg
       -
         id: mloqzruj
-        title: 'Day 4:  A walk in the valley'
+        title: 'A walk in the valley'
         description: 'This morning, we walk through the surrounding forests, contouring around the mountains with beautiful views over the lake before winding down to a neighbouring village where we’ll have lunch.   After lunch there is the option of following another trail back to the hotel (6 kms, 2 hrs, 333 mts ascent) or catching the local bus back.  The rest of the afternoon is free before regrouping for dinner.'
         duration: 4
         distance: 11
@@ -135,7 +135,7 @@ page_builder:
         photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/2.7-a.jpg
       -
         id: mlor10w3
-        title: 'Day 5: Explore the heritage of the valley'
+        title: 'Explore the heritage of the valley'
         description: 'Our village and its twin neighbour form a German-speaking enclave in the heart of the Friulian Alps; its population descended from Austrian deserters who took refuge here in the 13th century.  Today we explore their rich heritage walking from one village to another, including a visit to the excellent community museum and the gorgeous church of San Osvaldo.'
         meals_included:
           - breakfast
@@ -147,7 +147,7 @@ page_builder:
         photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/2.jpg
       -
         id: mlor23s2
-        title: 'Day 6:  Walk in the mountains'
+        title: 'Walk in the mountains'
         description: 'Today we do a loop walk down to the neighbouring village.  After a reviving coffee, we climb up through pine forest to a ridge with spectacular views down across the valley to the lake and to the beginning of the Dolomites on the western horizon.  We have lunch at a mountain lodge along the way.  After some downtime back at base, we regroup for dinner in the evening.'
         meals_included:
           - breakfast
@@ -159,7 +159,7 @@ page_builder:
         photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/sauris-2.jpg
       -
         id: mlor3ri3
-        title: 'Day 7:  Transfer to the Natisone Valley'
+        title: 'Transfer to the Natisone Valley'
         description: 'Today we drive east heading to the beautiful hills and mountains that form the border between Italy and Slovenia. After lunch we will visit a museum dedicated to World War I and in particular to a battle fought there which was Italy’s most famous military defeat. Our base is a pretty town founded by Julius Cesare.  After settling into our historic hotel, the evening is free.'
         meals_included:
           - breakfast
@@ -171,7 +171,7 @@ page_builder:
         photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/59a.jpg
       -
         id: mlor6aar
-        title: 'Day 8:  A very special hike'
+        title: 'A very special hike'
         description: 'Today we go on one of the most extraordinary walks in the Hidden Italy repertoire: a spectacular itinerary along the ridges that form the border between Italy and Slovenia, the border between West and East.  It was one of the most bitterly contested fronts in WWI and was also part of the ‘Iron Curtain’. A local guide will accompany us, revealing its fascinating history.  After lunch the afternoon is free.  We regroup for dinner at an osteria that has been operating since the 14th century.'
         meals_included:
           - breakfast
@@ -183,7 +183,7 @@ page_builder:
         photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/13.jpg
       -
         id: mlor867w
-        title: 'Day 9:  A day of relax'
+        title: 'A day of relax'
         description: 'You will have a morning free to sleep in and explore our base. After lunch, we will take a guided tour around the town, which was founded by Julius Caesar; became an important Lombard capital in the 6th century); was the seat of the powerful Patriarch of Aquileia in the 8th century; and is now a buzzy market town.  It was declared a UNESCO World Heritage site in 2007.  In the evening, we will go to a family-run vineyard just outside the town where we will enjoy a wine tasting and a light dinner.'
         meals_included:
           - breakfast
@@ -192,7 +192,7 @@ page_builder:
         photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/100.jpg
       -
         id: mlora14b
-        title: 'Day 10:  Vineyards and a Michelin-starred lunch'
+        title: 'Vineyards and a Michelin-starred lunch'
         description: 'This morning, we will drive a town at the centre of the Collio wine district, one of the premier wine producing regions of northern Italy.  From here we go for a lovely walk along country lanes through the rolling hills and vineyards and olive groves before arriving at a family-run Michelin-starred restaurant where we will have a long lunch with a tasting menu.  After lunch we’ll continue the walk back to town and then return to base where the evening is free.'
         meals_included:
           - breakfast
@@ -203,7 +203,7 @@ page_builder:
         photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/54a.jpg
       -
         id: mlorbjxg
-        title: 'Day 11:  Transfer to Trieste'
+        title: 'Transfer to Trieste'
         description: 'Today we transfer to Trieste, the capital of Friuli Venezia Giulia. For 2 centuries the main port of the Austro-Hungarian Empire, Trieste is still a busy commercial centre with many vestiges of its rich history and intellectual traditions.  On the way, we visit an important archaeological site with spectacular early Christian mosaics and then visit a castle on the coast close to Trieste.   Our hotel is an elegant 4-star hotel in the city’s famous Piazza Unita d’Italia.  The evening is free.'
         meals_included:
           - breakfast
@@ -214,7 +214,7 @@ page_builder:
         photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/88.7.jpg
       -
         id: mlore9l3
-        title: 'Day 12:  Explore Trieste'
+        title: 'Explore Trieste'
         description: 'This morning we will have the chance to sleep in and enjoy the hotel’s wonderful breakfast. Late in the morning we will take the ferry across the gulf to a beautiful little port where we will have lunch.  Once back in the city, we will be taken on a guided tour of the fascinating city’s centre, starting in Piazza Unita d’Italia then winding our way through the old town up to the castle with its huge views of the gulf before finishing in the ‘new’ town, laid out by Empress Maria Teresa of Austria.   The evening is free.'
         meals_included:
           - breakfast
@@ -222,7 +222,7 @@ page_builder:
         photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/1a.jpg
       -
         id: mlorf281
-        title: 'Day 13:  Depart Trieste'
+        title: 'Depart Trieste'
         description: 'After breakfast you are free to continue your holiday.  Trieste railway station is a short taxi ride or walk from the hotel and has direct connections to Venice, Milan, Florence and the rest of Italy.'
         meals_included:
           - breakfast

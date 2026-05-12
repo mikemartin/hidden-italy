@@ -34,6 +34,4 @@ Route::middleware('auth')->group(function () {
 
     Route::livewire('account/profile', 'pages::settings.profile')->name('account.profile');
     Route::livewire('account/password', 'pages::settings.password')->name('account.password');
-    Route::livewire('account/emergency-contact', 'pages::settings.emergency-contact')->name('account.emergency-contact');
-    Route::livewire('account/postal-address', 'pages::settings.postal-address')->name('account.postal-address');
 });

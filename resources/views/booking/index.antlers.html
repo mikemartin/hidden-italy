@@ -84,10 +84,10 @@
                     input's `value` (Precognition submits the Alpine state,
                     not the raw DOM, so plain hidden inputs aren't enough). #}}
                 {{ current_user }}
-                    <input type="hidden" name="name"    value="{{ name }}"                       x-init="form.name = $el.value">
-                    <input type="hidden" name="email"   value="{{ email }}"                      x-init="form.email = $el.value">
-                    <input type="hidden" name="phone"   value="{{ phone_home or phone_italy }}"  x-init="form.phone = $el.value">
-                    <input type="hidden" name="user_id" value="{{ id }}"                         x-init="form.user_id = $el.value">
+                    <input type="hidden" name="name"    value="{{ name }}"         x-init="form.name = $el.value">
+                    <input type="hidden" name="email"   value="{{ email }}"        x-init="form.email = $el.value">
+                    <input type="hidden" name="phone"   value="{{ phone_mobile }}" x-init="form.phone = $el.value">
+                    <input type="hidden" name="user_id" value="{{ id }}"           x-init="form.user_id = $el.value">
                 {{ /current_user }}
             {{ /if }}
 

@@ -102,12 +102,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Spoleto'
+        title: 'Arrive in Spoleto'
         description: 'Even without St Francis Assisi would be irresistible, a charming medieval town nestled under the forested peak of Monte Subasio. However, the monuments that have been dedicated to the saint make Assisi a highlight of any visit to Umbria. The Basilica dedicated to Saint Francis contains some of the masterpieces of Western art, including seminal works by Cimabue, Giotto, Simone Martini and the Lorenzetti brothers.'
         photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020011.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Walk under Monte Subasio'
+        title: 'Walk under Monte Subasio'
         description: "This itinerary starts with a steep climb up to a beautiful hermitage surrounded by forests that was a place of retreat for St Francis.  From here the path contours around the side of Mt Subasio with wide views across the valley before descending to a beautiful hill-town founded by the Romans. You'll have time to visit the 13th century church with Pinturicchio's dazzling fresco cycle.  Please note a shorter version, with less climbing, is included in the notes (4 hrs; 11.5 kms; 220 mts)."
         duration: 5
         distance: 15
@@ -117,7 +117,7 @@ page_builder:
         photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020014.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk across the valley'
+        title: 'Walk across the valley'
         description: "A gentle walk following country roads across the valley floor, leaving via a magnificent Roman gate and passing through wheat fields to a small town on the plain, one of the hidden treasures of the region. This sleepy town has two of Umbria's finest Romanesque churches as well as impressive Roman mosaics and a delightful little 19th century theatre."
         duration: 4
         distance: 14
@@ -127,7 +127,7 @@ page_builder:
         photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020015.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:'
+        title: ''
         description: "Today you walk up rolling hills to one of the viticulture centres of the region, which has beautiful views over the valley.  On the way, you pass through the vineyards that have made the town famous. The town also has a rich artistic heritage out of all proportion to its size, including a beautiful fresco cycle of St Francis' life by the influential Florentine artist Gozzoli."
         duration: 2
         distance: 7
@@ -137,7 +137,7 @@ page_builder:
         photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020018.jpg
       -
         id: mlop5205
-        title: "Day 5:  Stay in a 'borgo'"
+        title: "Stay in a 'borgo'"
         description: 'Descending from the hills, you cross the valley floor again, following a medieval path through wheat fields, past quiet farming villages and springs from a river source sacred to the Romans which inspired poets from Virgil to Byron, before climbing up to your accommodation.  Dinner is included tonight.  Please note that this walk can be shortened with an night in an excellent 4-star hotel along the way (7kms + 14 kms).'
         duration: 5
         distance: 21
@@ -148,7 +148,7 @@ page_builder:
         photo: tours/umbria-umbria-classic-assisi-to-spoleto/eggi-view.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Walk to Spoleto'
+        title: 'Walk to Spoleto'
         description: "The last walk picks up the 'Sentiero degli Ulivi', the Trail of the Olives, winding through olive groves, around the side of the hills past a string of villages before arriving in Spoleto.  You enter this gorgeous city through the lower medieval walls and climb up to the cathedral square (there is an escalator as well!)."
         duration: 4
         distance: 15
@@ -158,7 +158,7 @@ page_builder:
         photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1030001.jpg
       -
         id: mlop8uiy
-        title: 'Day 7:  Depart Spoleto'
+        title: 'Depart Spoleto'
         description: "After breakfast, you'll be free to continue your holiday.   Spoleto is well connected by regular train to Florence, Rome and the rest of Italy."
         meals_included:
           - breakfast

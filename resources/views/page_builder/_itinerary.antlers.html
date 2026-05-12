@@ -161,10 +161,11 @@
             </section>
         </div>
 
-        {{# Carousel progress bar — shown whenever there's more than one slide.
-            Negative top margin pulls it close to the bleeding splide above
-            without shrinking the section's heading→splide row gap. #}}
-        {{ if block:days | count > 1 }}
+        {{# Carousel progress bar — only renders when there's actually
+            something to scroll to. The carousel shows up to three cards
+            per page on desktop and one on mobile, so a track with
+            ≤3 days fits without scrolling and the bar isn't useful. #}}
+        {{ if block:days | count > 3 }}
             <div
                 class="span-content -mt-2 md:-mt-6 h-1 w-full bg-parchment-300 rounded-full overflow-hidden"
                 role="progressbar"

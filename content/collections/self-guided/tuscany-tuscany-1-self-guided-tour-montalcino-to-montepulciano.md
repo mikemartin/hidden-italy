@@ -106,12 +106,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Montalcino'
+        title: 'Arrive in Montalcino'
         description: "You will be picked up at either Siena or Chiusi and taken to Montalcino, a perfectly preserved walled hilltop town, famous for both its views and its red wine, Brunello di Montalcino. Included in your notes is a short walk around the outside of the town's walls."
         photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/f1000012-a.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Stay in a Medieval village'
+        title: 'Stay in a Medieval village'
         description: 'The first walk takes you down through forests to a Romanesque abbey isolated in fields of wheat and vineyards, which is one of the most beautiful in Tuscany. Your accommodation for the night is in the small village that overlooks the abbey.'
         duration: 3
         distance: 12
@@ -121,7 +121,7 @@ page_builder:
         photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5057.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk through vineyards'
+        title: 'Walk through vineyards'
         description: 'Today you climb up through vineyards and olive groves, to a beautifully restored medieval pilgrim town, a key point on the road to Rome, which is now a peaceful agricultural town and one of the most charming in the area. Despite its pedestrian centre, two beautiful Romansque churches and several beautiful gardens, which still remains relatively unvisited.'
         duration: 4
         distance: 14
@@ -131,7 +131,7 @@ page_builder:
         photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5098.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk a Renaissance gem'
+        title: 'Walk a Renaissance gem'
         description: "Today you follow parts of the medieval road down into the bare, rolling hills of the Val d'Orcia, with sweeping views across the valley to the forests and peaks of Mount Amiata before a short climb up to your base for the evening.  This enchanting little town was the birth place of one of the more important 15th century popes, who  had the modest village razed and then rebuilt in his honour, creating one of the gems of southern Tuscany, a fine example early Renaissance architecture."
         duration: 3
         distance: 10
@@ -141,7 +141,7 @@ page_builder:
         photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5149.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Walk to Montepulciano'
+        title: 'Walk to Montepulciano'
         description: 'The last walk takes you through forests to Montepulciano. On the way you pass a tiny fortified village, perfect for lunch. Perched on a hill between the Orcia and Chianina valleys, Montepulciano was an ally of Florence in their relentless war against Siena, and was amply rewarded and has an extraordinary architectural heritage from this period.  (4 hrs; 13.5 kms; min: 331 mts, max: 539 mts).'
         duration: 4
         distance: 14
@@ -151,7 +151,7 @@ page_builder:
         photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/shutterstock_574301368.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Transfer to Chiusi station'
+        title: 'Transfer to Chiusi station'
         description: "After breakfast at 9.00 you'll be transfered to nearby Chiusi on the main Rome/Florence railway line."
         meals_included:
           - breakfast

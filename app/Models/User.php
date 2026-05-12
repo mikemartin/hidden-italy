@@ -22,16 +22,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'phone_home',
-        'phone_italy',
-        'emergency_contact_name',
-        'emergency_contact_email',
-        'emergency_contact_phone',
-        'postal_country',
-        'postal_street',
-        'postal_city',
-        'postal_state',
-        'postcode',
+        'phone_mobile',
     ];
 
     /**

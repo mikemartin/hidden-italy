@@ -98,14 +98,14 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Transfer from Foggia to San Marco'
+        title: 'Transfer from Foggia to San Marco'
         description: 'Foggia is the main city in northern Puglia, a three-hour train ride from Rome.  You will be transferred from here to a small town on the western end of the Gargano Peninsula (a 40-minute drive) where you will spend the first night.'
         meals_included:
           - dinner
         photo: tours/puglia-puglia-gargano-san-marco-to-vieste/13.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Walk to San Giovanni Rotondo'
+        title: 'Walk to San Giovanni Rotondo'
         description: 'The first walk takes you along a marked medieval pilgrim path through rolling farmlands with spectacular views south across the plains to the northern coast of the Adriatic and the town where you will stay the night.  This town has become a modern pilgrim site, being the home and resting place of Padre Pio, the most beloved of modern Italian saints.  It also is famous for its giant modern church designed Renzo Piano to accommodate the faithful.'
         duration: 4
         distance: 12
@@ -116,7 +116,7 @@ page_builder:
         photo: tours/puglia-puglia-gargano-san-marco-to-vieste/1.3.jpg
       -
         id: mlop159i
-        title: "Day 3: Walk to Monte Sant'Angelo"
+        title: "Walk to Monte Sant'Angelo"
         description: |-
           Today you pick up the Lombard pilgrim trail again and continue along the peninsula, passing through beautiful farmlands to one of the most important medieval sanctuaries in southern Italy.  Although dating from the 5th century, it was the Normans, on their way to Jerusalem in the 11th century, who placed the site on the map.   Along the way you have more spectacular views south over the coast.  
           With notice, this walk can be shortened by 8 kms (approximately 2 hours walking).
@@ -128,7 +128,7 @@ page_builder:
         photo: tours/puglia-puglia-gargano-san-marco-to-vieste/2.6.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  Stay on a family-run agriturismo'
+        title: 'Stay on a family-run agriturismo'
         description: |-
           The walk today picks up another pilgrim route (dedicated to St Michael) which you through the Foresta Umbra (an ancient beech forest which was recently listed with UNESCO) to a beautiful ‘agriturismo’ that sits under Monte Sacro, the ‘sacred mountain’. 
           The walk follows mostly unsealed country lanes to your accommodation.  The agriturismo is family-run, serves fine food and has a swimming pool.  Another long but rewarding day.
@@ -141,7 +141,7 @@ page_builder:
         photo: tours/puglia-puglia-gargano-san-marco-to-vieste/2.jpg
       -
         id: mlop5205
-        title: "Day 5:  Stay at a family-run 'masseria'"
+        title: "Stay at a family-run 'masseria'"
         description: 'Today, the path follows unsealed country lanes through the Foresta Umbra to another charming, family-run agriturismo, an ancient ‘masseria’ which has been in the same family for four generations.  If you have time, a visit to the nearby top of Monte Sacro to the ruins of a Benedictine monastery founded by the Byzantines in the 7th century is well worth the effort. (1 hr; 2 kms; 251 mts)'
         duration: 5
         distance: 17
@@ -152,7 +152,7 @@ page_builder:
         photo: tours/puglia-puglia-gargano-san-marco-to-vieste/img_2799.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Walk to the coast'
+        title: 'Walk to the coast'
         description: 'You leave your accommodation, you walk down a wide path through olive groves and forest with views over the coast, before descending to the sea.  The last stretch is a walk along a long sand beach to Vieste, a very attractive town with a long history that sits on a promontory wedged between two extended beaches. (3.5 hrs, 12.5 kms; max: 388 mts, min: 0 mts)'
         duration: 4
         distance: 13
@@ -163,14 +163,14 @@ page_builder:
         photo: tours/puglia-puglia-gargano-san-marco-to-vieste/15.jpg
       -
         id: mlop8uiy
-        title: 'Day 7:  Morning boat ride'
+        title: 'Morning boat ride'
         description: 'Free day in Vieste.  We have booked a private boat to take you for a morning tour along the spectacular rocky shoreline to explore the grottoes and bays of one of southern Italy’s most spectacular coasts (subject to the weather conditions).  You’ll have the chance to have a swim before heading back to town.  The afternoon is free.  No dinner is included tonight.'
         meals_included:
           - breakfast
         photo: tours/puglia-puglia-gargano-san-marco-to-vieste/14-1775022186.jpg
       -
         id: mlop9wks
-        title: 'Day 8:  Transfer back to Foggia'
+        title: 'Transfer back to Foggia'
         description: 'This morning, you will have a private transfer from Vieste to Foggia railway station (1 hour), from where you can take trains west to Rome or south to Bari.'
         meals_included:
           - breakfast

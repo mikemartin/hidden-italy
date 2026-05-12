@@ -51,7 +51,7 @@ tabs:
             handle: message_body
             field:
               display: 'Travel plans'
-              instructions: 'Number of travellers, duration, travel dates — anything that helps us plan a response.'
+              instructions: 'Number of travellers, preferred bedding, duration, travel dates — anything that helps us plan a response.'
               type: textarea
               validate:
                 - required

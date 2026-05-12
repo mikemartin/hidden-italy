@@ -105,12 +105,19 @@ tabs:
               display: 'Walking Grade Filter'
               options:
                 moderate: 'Moderate (0-2)'
-                intermediate: 'Intermediate (2-3)'
-                challenging: 'Challenging (3-5)'
+                intermediate: 'Intermediate (3-4)'
+                challenging: 'Challenging (5)'
               instructions: 'Used only for filtering; not part of entry data.'
               width: 50
               visibility: hidden
               listable: false
+          -
+            handle: price
+            field:
+              type: text
+              display: 'Price (from)'
+              instructions: 'Free-form starting price, e.g. "$2,450 AUD". Self-guided tours display this with a "From" prefix.'
+              width: 50
           -
             handle: overview
             field:

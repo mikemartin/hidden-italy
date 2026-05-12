@@ -106,7 +106,7 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in San Gimgnano'
+        title: 'Arrive in San Gimgnano'
         description: "A private transfer will take you from Florence to your hotel in San Gimignano, a walled medieval town famous for its towers, which was on the Via Francigena, the most important route to Rome in the Middle Ages. In the afternoon there is a short loop walk through the celebrated Vernaccia vineyards with wonderful views over San Gimignano's famous skyline before returning to your base."
         duration: 2
         distance: 9
@@ -114,7 +114,7 @@ page_builder:
         photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/aver007-san-gimignano-4720522.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Walk through vineyards'
+        title: 'Walk through vineyards'
         description: "Today's walk takes you to another well-preserved medieval town that prospered trading in the Middle Ages. The walk leaves San Gimignano along the Via Francigena.  It passes vineyards and olive groves before following a narrow, forested valley, taking you through a landscape that has changed little since the Middle Ages."
         duration: 3
         distance: 12
@@ -124,7 +124,7 @@ page_builder:
         photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/deepak-sharma-0y0ap85o7cy-unsplash.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Stay in a medieval fortress'
+        title: 'Stay in a medieval fortress'
         description: 'The walk this morning again picks up the Via Francigena, and takes you across undulating farmlands, passing hamlets, castles and a fine Romanesque abbey before arriving at a tiny walled medieval village, a little gem with a ring of high walls that enclose a precious collection of restored houses, gardens and palazzi.  (18 kms; 4.5 hrs; min: 172 mts, max: 285 mts)'
         duration: 5
         distance: 18
@@ -134,7 +134,7 @@ page_builder:
         photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/img_0736.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  Arrive in Siena'
+        title: 'Arrive in Siena'
         description: "The walk today takes you to Siena, the dynamic capital of southern Tuscany.  It passes through forests and the range of hills that once protected Siena's northern frontier from their enemies in Florence.  A city rich in art and history, Siena is a wonderful place to explore or simply while away time, sipping an aperitivo and watching the colourful life pass by.   It is a long day but the walk can be shortened by taking a bus on the outskirts of Siena."
         duration: 5
         distance: 20
@@ -144,7 +144,7 @@ page_builder:
         photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/p1010314.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Depart Siena'
+        title: 'Depart Siena'
         description: 'After breakfast in your hotel, you are free to continue your holiday.  Siena is connected to Florence and Rome by rail and bus.'
         meals_included:
           - breakfast

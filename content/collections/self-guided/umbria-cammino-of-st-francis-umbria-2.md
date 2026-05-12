@@ -108,12 +108,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Spoleto'
+        title: 'Arrive in Spoleto'
         description: 'Arrival in Spoleto, well-connected to Florence and Rome.  This charming city has a long and fascinating history: besieged by Hannibal and his elephants, it was the seat of a Lombard duchy and had the 19 year old Lucrezia Borgia as it’s governor.  These days it is best known for its summer festival, the Festival dei Due Mondi, Italy’s largest international arts event.'
         photo: tours/umbria-cammino-of-st-francis-umbria-2/1.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Walk to the Nera Valley'
+        title: 'Walk to the Nera Valley'
         description: 'After a steep climb to the Franciscan convent of Monteluco (built around a cave in which St Francis lived), this walk crosses forests, along paths that traverse mountain-sides with breath-taking views of the Tiber and Nera valleys.  After a steep downhill path, you arrive at a hamlet and then follow the Nera River to a gorgeous, small hilltop town.'
         duration: 5
         distance: 21
@@ -123,7 +123,7 @@ page_builder:
         photo: tours/umbria-cammino-of-st-francis-umbria-2/img_5409.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk down the Nera River'
+        title: 'Walk down the Nera River'
         description: 'Today’s walk takes you along a flat trail that passes through a national park beside the Nera River to a pretty medieval village sitting on a rocky pinnacle above the river.  Along the way, you will be able to detour to visit a spectacularly sited abbey founded in the 8th century considered one of the most beautiful in central Italy, where you can have lunch and enjoy the views. (5 hrs; 18 kms; min: 228 mts, max: 314 mts)'
         duration: 5
         distance: 18
@@ -133,7 +133,7 @@ page_builder:
         photo: tours/umbria-cammino-of-st-francis-umbria-2/7.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk to a lake'
+        title: 'Walk to a lake'
         description: 'A spectacular waterfall created when the Romans drained the marshlands of Rieti in 267 BC and a serene lake are the highlights of today’s walk.  The undulating trail follows the Nera River along quiet country roads and marked pathways to the lake, home of the Italian national rowing team, where you’ll stay in a hotel on the lake shores.  (4 hrs; 14 kms; min: 213 mts, max: 391 mts).'
         duration: 4
         distance: 14
@@ -143,7 +143,7 @@ page_builder:
         photo: tours/umbria-cammino-of-st-francis-umbria-2/sofia-msnxoysxjsq-unsplash.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Discover the Rieti valley'
+        title: 'Discover the Rieti valley'
         description: 'The day’s walk is probably the most demanding of the week, but is also one of the most spectacular.  It starts by crossing the border from Umbria into the region of Lazio, climbing to an ancient village perched high above the lake.  It continues to a remote  forest and an ancient tree that is believed to have sheltered St Francis during a storm.  The long downhill walk is rewarded with an overnight in a medieval village which has beautiful views across the Rieti valley.'
         duration: 5
         distance: 20
@@ -153,7 +153,7 @@ page_builder:
         photo: tours/umbria-cammino-of-st-francis-umbria-2/img_5356.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Walk to Rieti'
+        title: 'Walk to Rieti'
         description: 'Today takes on a lovely walk through forests, fields and farms to another charming town, followed by a visit to a 13th century sanctuary where St Francis took refuge in the later stages of his life.  It finishes in the buzzy centre of Rieti, with shops, restaurants, a rich history and a beautiful cathedral.  (4.5 hrs; 18 kms; min: 390 mts, max: 716 mts)'
         duration: 5
         distance: 18
@@ -163,7 +163,7 @@ page_builder:
         photo: tours/umbria-cammino-of-st-francis-umbria-2/p4280723-a.jpg
       -
         id: mlop8uiy
-        title: 'Day 7:  Depart Rieti'
+        title: 'Depart Rieti'
         description: "After breakfast, you'll be free to continue your holiday.   Rieti is well connected by regular train to Rome and the rest of Italy."
         meals_included:
           - breakfast

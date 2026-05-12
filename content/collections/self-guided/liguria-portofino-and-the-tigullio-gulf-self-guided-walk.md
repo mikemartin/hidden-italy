@@ -102,12 +102,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Camogli'
+        title: 'Arrive in Camogli'
         description: "You start the tour in Camogli, which is on the main La Spezia/Genoa railway line, where you’ll spend your first night in a lovely hotel set in the centre of the town overlooking the sea.  Dickens described Camogli as 'the saltiest, roughest, most piratical little place'.  The rough edges have long gone but it remains one of the most attractive resorts on the coast."
         photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/moira-nazzari-cbtepzflvtu-unsplash.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Walk through the Portofino National Park'
+        title: 'Walk through the Portofino National Park'
         description: 'Today you leave Camogli by walking above the coastline on the western edge of the Portofino National Park with its vast views across the Gulf of Genoa before climbing up into forest.  You then wind your way down through forest and olive groves to the stunning little village of Portofino, one of the most celebrated spots on the Italian coast. Your accommodation is in a beautiful hotel on the main square of this celebrated village, a short walk from the port.'
         duration: 3
         distance: 9
@@ -117,7 +117,7 @@ page_builder:
         photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/primaselezione-portofino-7504460_1920.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk around the Gulf of Tigullio'
+        title: 'Walk around the Gulf of Tigullio'
         description: 'This morning you head out of Portofino following a lovely path that winds above the coast, passing through olive groves with views over bays and hidden villas to arrive at the elegant resort town of Santa Margherita Ligure.  From here, you follow a well-marked path to a busy neighbouring port, entering the town your staying in over a Roman bridge that Hannibal himself is said to have crossed.'
         duration: 3
         distance: 8
@@ -127,7 +127,7 @@ page_builder:
         photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/linfer3-santa-margherita-2784154_1920.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  A high forest walk'
+        title: 'A high forest walk'
         description: 'Today’s gorgeous walk starts with a 15-minute funicular ride from the port up to one of the holiest religious sanctuaries in the area, founded in the 16th century.  From here, you follow an ancient and well-marked trail that takes you from the sanctuary along a descending ridge line through beautiful oak and chestnut forests before descending to a bustling port whose origins predates the Romans and which is the birthplace of Italian hero Giuseppe Garibaldi.'
         duration: 3
         distance: 10
@@ -137,7 +137,7 @@ page_builder:
         photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/img_4819.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Walk to Sestri Levante'
+        title: 'Walk to Sestri Levante'
         description: "Today's trail takes you along the sea front to a neighbouring town before picking up the pilgrim trail once again.  The trail then climbs up into the hills, following an old paved trail to a ruined church with breath-taking views and down over the Gulf of Tigullio and the Bay of Silence, before descending to enchanting Sestri Levante."
         duration: 3
         distance: 11
@@ -147,7 +147,7 @@ page_builder:
         photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/brendan-greenway-soufafk9-kq-unsplash.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Departure from Sestri Levante'
+        title: 'Departure from Sestri Levante'
         description: "After breakfast, you'll be able to continue your holidays.  Sestri Levante is on the Genoa/La Spezia line well serviced by regular trains in either direction (including to the Cinque Terre, three stops away to the east."
         meals_included:
           - breakfast

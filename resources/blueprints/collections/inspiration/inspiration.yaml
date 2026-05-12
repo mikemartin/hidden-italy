@@ -41,3 +41,16 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
+      -
+        display: Taxonomy
+        fields:
+          -
+            handle: categories
+            field:
+              type: terms
+              taxonomies:
+                - categories
+              display: Categories
+              mode: select
+              create: true
+

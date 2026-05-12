@@ -109,14 +109,14 @@ page_builder:
     days:
       -
         id: mlrazs21
-        title: 'Day 1:  Arrive in Verona'
+        title: 'Arrive in Verona'
         description: "The tour starts in Verona, one of the most beautiful and romantic towns in Italy. After meeting in our hotel foyer at 19.00, we'll have a traditional dinner in one of the town's finest osterias."
         meals_included:
           - dinner
         photo: tours/trentino-alto-adige-dolomites/7.jpg
       -
         id: mlrb0u64
-        title: 'Day 2:  Explore Verona'
+        title: 'Explore Verona'
         description: "This morning we'll be taken on a guided walk around this fascinating city, which has been an important military stronghold guarding the access to the Alps since Roman times and was one of the great Renaissance cities in northern Italy. We'll finish with a light lunch, and then the rest of the day and evening are free."
         meals_included:
           - breakfast
@@ -124,7 +124,7 @@ page_builder:
         photo: tours/trentino-alto-adige-dolomites/105.jpg
       -
         id: mlrb41ej
-        title: 'Day 3:  Head into the mountains'
+        title: 'Head into the mountains'
         description: "Today we drive north, into the heart of the Dolomites, following the 'wine road’ beside the banks of the Adige River.  We will stop at a spectacular 14th century castle for a light lunch in the courtyard and a visit to its museum (dedicated to mountaineering).  We then continue into the Dolomites. Our base for the next four nights is a lovely family-run hotel on the edge of a small town at the far end of a spectacular valley. Dinner will be at our hotel."
         meals_included:
           - breakfast
@@ -133,7 +133,7 @@ page_builder:
         photo: tours/trentino-alto-adige-dolomites/1.9.jpg
       -
         id: mlrb55m6
-        title: 'Day 4:  Meet the Dolomites'
+        title: 'Meet the Dolomites'
         description: 'Our first walk in the mountains is a spectacular introduction to the Dolomites.  We take a cable car to the top of the northern side of the valley (2,500 metres) from where you have breathtaking 360 degree views over the whole mountain range, stretching to the horizon on all sides.  From here we take a good path across and down through alpine pastures to a mountain lodge for lunch.  After lunch we continue downhill back to our base.'
         duration: 4
         distance: 10
@@ -145,7 +145,7 @@ page_builder:
         photo: tours/trentino-alto-adige-dolomites/p9171981.jpg
       -
         id: mlrb71ly
-        title: 'Day 5:  Explore Bolzano'
+        title: 'Explore Bolzano'
         description: "Today we drive to Bolzano, the capital of the Alto Adige, a pretty town on a river with a long history and strong Austrian feel.  We stop in the hills above Bolzano for a short walk down hill through lovely forests (6 kms, 1.5 hrs) to a cable car which we’ll take down to Bolzano.  After lunch, we will visit one of the highlights of the region: the excellent museum dedicated to Otzi, the 5000-year-old 'Iceman’ found in 1991, before returning to our valley.  Dinner is at our hotel"
         duration: 2
         distance: 6
@@ -155,7 +155,7 @@ page_builder:
         photo: tours/trentino-alto-adige-dolomites/4.jpg
       -
         id: mlrb874i
-        title: 'Day 6:  Walk the high plains'
+        title: 'Walk the high plains'
         description: 'The walk today starts with another cable car ride, this time up the southern side of the valley (2,000 metres) from where we walk across the beautiful rolling pastures, across a vast undulating amphitheatre of alpine meadows surrounded by some of the most spectacular ranges in the area.  After a packed lunch, we continue under soaring cliffs back to the hotel.'
         duration: 4
         distance: 14
@@ -167,7 +167,7 @@ page_builder:
         photo: tours/trentino-alto-adige-dolomites/3.9.jpg
       -
         id: mlrba04p
-        title: 'Day 7:  Transfer to the Val Badia'
+        title: 'Transfer to the Val Badia'
         description: 'Today we leave the valley, driving north to visit one of the prettiest towns in the region.  From here we drive into the mountains, stopping for lunch along the way.  Our base for the next four nights is a pretty village in a Ladino speaking valley, one of the more secluded and spectacular in the Dolomites.  Our family-run hotel overlooks the village, surrounded by pastures filled with lowing cows and frolicking donkeys.  Dinner is at our hotel.'
         meals_included:
           - breakfast
@@ -176,7 +176,7 @@ page_builder:
         photo: tours/trentino-alto-adige-dolomites/39.jpg
       -
         id: mlrbbbr6
-        title: 'Day 8:  Another walk in the mountains'
+        title: 'Another walk in the mountains'
         description: "Today we get a lift up to the southern side of the valley, walking along a trail that takes us through pine forests, into the neighbouring valley, stopping for a packed lunch on the way.  On the way down, we pass  clusters of ancient timber farmhouses and barns that have survived from another era.  After well-earned refreshments at the local village, we'll be driven back to our base, stopping to visit a recently restored 14th century castle with a fine ethnographic museum.  Dinner back at base."
         duration: 3
         distance: 9
@@ -188,7 +188,7 @@ page_builder:
         photo: tours/trentino-alto-adige-dolomites/7.3.jpg
       -
         id: mlrbfnmc
-        title: 'Day 9:  Discover Braies Lake'
+        title: 'Discover Braies Lake'
         description: 'After a leisurely morning, we drive to the beautiful mountain lake of Braies situated in the Alta Pusteria valley.  You will have free time to walk around the lake (3.5kms, 1 hr) or hire a rowing boat or just sit on the shore of the lake and enjoy the amazing scenery.  Afternoon visit to the folklore museum in nearby Bruneck which recounts the everyday life of the rural population of earlier times, including an open-air site with original farmhouses and craft workshops.  Dinner is at our hotel.'
         duration: 4
         distance: 1
@@ -199,7 +199,7 @@ page_builder:
         photo: tours/trentino-alto-adige-dolomites/367.jpg
       -
         id: mlrbilht
-        title: 'Day 10:  Visit the most magical place in the Dolomites'
+        title: 'Visit the most magical place in the Dolomites'
         description: "This morning we drive to the head of our valley then up a steep winding road into the rugged beauty in the heart of the National Park, to a mountain lodge perched on a plateau surrounded by soaring mountains.  We'll spend the day exploring this area, including a morning walk, followed by lunch and a stroll to the 'green' lake to see the 'parliament of marmots', a colony of furry mountain critters, famous Ladino legends, before driving back down to our base.  Dinner is at our hotel."
         duration: 2
         distance: 6
@@ -211,7 +211,7 @@ page_builder:
         photo: tours/trentino-alto-adige-dolomites/505.jpg
       -
         id: mlrblkbg
-        title: "Day 11:  Transfer to Cortina d'Ampezzo"
+        title: "Transfer to Cortina d'Ampezzo"
         description: "Today we leave the valley, along one of the most beautiful roads in the Alps.  On the way we pass under the highest peaks in the Dolomites, where we'll stop for lunch, before descending to the town Cortina d'Ampezzo, the 'Queen of the Dolomites', host of the 2026 Winter Olympics.  Cortina has a lot of charm and a wonderful setting in a sunny upland basin, with magnificent views of the mountains on all sides.  We stay in a 4-star hotel on the edge of town. The evening is free."
         meals_included:
           - breakfast
@@ -219,7 +219,7 @@ page_builder:
         photo: tours/trentino-alto-adige-dolomites/jerryming-town-6875859.jpg
       -
         id: mlrbor6n
-        title: 'Day 12:  Loop the Tre Cime di Lavaredo'
+        title: 'Loop the Tre Cime di Lavaredo'
         description: 'The final walk is one of the most famous and spectacular in the Alps - a circular walk around the Tre Cime di Lavaredo, a 40 minute drive from Cortina. The walking route follows a mountain path that loops around the base of this extraordinary formation, three jagged peaks rising over 3000 metres - a fitting grand-finale to the tour. There is the option to shorten this walk).  After a packed lunch, we return to Cortina.  Our farewell dinner will be in a lovely restaurant in the centre of town.'
         duration: 4
         distance: 10
@@ -231,7 +231,7 @@ page_builder:
         photo: tours/trentino-alto-adige-dolomites/51.7.jpg
       -
         id: mlrbqrqr
-        title: 'Day 13:  Transfer to Venice'
+        title: 'Transfer to Venice'
         description: 'After an early breakfast, we will be transferred at 8.00am to Venice/Mestre, 1.5 hours away, with a first stop at Venice airport (which has water taxis and vaporettos directly into Venice) and then on to Mestre station (which has national and international rail connections).'
         meals_included:
           - breakfast

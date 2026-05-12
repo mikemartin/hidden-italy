@@ -106,6 +106,7 @@ return [
     'duration' => 'Duration',
     'season' => 'Season',
     'tour_size' => 'Tour size',
+    'price' => 'Price',
     'tour_leader' => 'Tour Leader',
     'walking_grade' => 'Walking grade',
     'grade' => 'Grade',

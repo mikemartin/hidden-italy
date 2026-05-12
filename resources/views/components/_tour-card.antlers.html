@@ -120,10 +120,12 @@
             </div>
         </div>
 
-        {{# Bottom info — next departure for guided tours, otherwise nothing. #}}
-        {{ if date }}
-            <p class="text-sm md:text-base text-muted mt-2">
-                Next departure: {{ date | format:'j M Y' }}
+        {{# Bottom info — price. Self-guided tours show with a "From" prefix
+            because the listed value is a starting per-person price; guided
+            tours list the all-inclusive group price as-is. #}}
+        {{ if price }}
+            <p class="text-sm md:text-base text-foreground font-medium mt-2">
+                {{ if {collection:handle} == 'self-guided' }}{{ trans:strings.from ?? 'From' }} {{ /if }}{{ price }}
             </p>
         {{ /if }}
     </div>

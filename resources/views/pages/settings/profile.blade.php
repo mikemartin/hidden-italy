@@ -15,9 +15,7 @@ new #[Title('Profile settings')] class extends Component {
 
     public string $email = '';
 
-    public string $phone_home = '';
-
-    public string $phone_italy = '';
+    public string $phone_mobile = '';
 
     /**
      * Mount the component.
@@ -28,8 +26,7 @@ new #[Title('Profile settings')] class extends Component {
 
         $this->name = $user->name;
         $this->email = $user->email;
-        $this->phone_home = (string) ($user->phone_home ?? '');
-        $this->phone_italy = (string) ($user->phone_italy ?? '');
+        $this->phone_mobile = (string) ($user->phone_mobile ?? '');
     }
 
     /**
@@ -40,8 +37,7 @@ new #[Title('Profile settings')] class extends Component {
         $user = Auth::user();
 
         $rules = array_merge($this->profileRules($user->id), [
-            'phone_home' => ['nullable', 'string', 'max:50'],
-            'phone_italy' => ['nullable', 'string', 'max:50'],
+            'phone_mobile' => ['nullable', 'string', 'max:50'],
         ]);
 
         $validated = $this->validate($rules);
@@ -87,7 +83,7 @@ new #[Title('Profile settings')] class extends Component {
 
     <flux:heading class="sr-only">{{ __('Profile settings') }}</flux:heading>
 
-    <x-pages::settings.layout :heading="__('Profile')" :subheading="__('Update your name, email address, and phone numbers')">
+    <x-pages::settings.layout :heading="__('Profile')" :subheading="__('Update your name, email address, and mobile number')">
         <form wire:submit="updateProfileInformation" class="my-6 w-full space-y-6">
             <flux:input wire:model="name" :label="__('Name')" type="text" required autofocus autocomplete="name" />
 
@@ -108,18 +104,11 @@ new #[Title('Profile settings')] class extends Component {
             </div>
 
             <flux:input
-                wire:model="phone_home"
-                :label="__('Home phone number')"
+                wire:model="phone_mobile"
+                :label="__('Mobile number')"
                 type="tel"
                 autocomplete="tel"
                 placeholder="+61 412 345 678"
-            />
-
-            <flux:input
-                wire:model="phone_italy"
-                :label="__('Italy phone number')"
-                type="tel"
-                placeholder="+39 347 555 6789"
             />
 
             <div class="flex items-center gap-4">
