@@ -6,7 +6,7 @@ name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 8
 updated_by: 2
-updated_at: 1778551955
+updated_at: 1778552099
 grade: 3
 summary: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
 overview:
@@ -151,6 +151,7 @@ page_builder:
         elevation: 442
         meals_included:
           - breakfast
+        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-1.jpg
       -
         id: mlop8uiy
         title: 'Day 7:  Depart Orvieto'
