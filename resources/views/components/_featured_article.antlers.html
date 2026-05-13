@@ -1,0 +1,75 @@
+{{#
+    @name Featured article
+    @desc Large, two-column featured article. Image on the left, title +
+          date + lead + Read more CTA on the right. Renders inside a context
+          that exposes article-entry fields directly (Tips, Inspiration).
+          Mirrors the stretched-link pattern from `_article-card` so the
+          entire surface is clickable while the heading stays a real `<h2>`.
+#}}
+
+<!-- /components/_featured_article.antlers.html -->
+<article class="group relative isolate h-full flex flex-col lg:flex-row bg-card border border-parchment-200 rounded-xl shadow-sm overflow-hidden">
+
+    {{# Stretched link covers the whole surface. #}}
+    <a
+        href="{{ url }}"
+        class="absolute inset-0 z-10 rounded-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+    >
+        <span class="sr-only">Read {{ title }}</span>
+    </a>
+
+    {{# Image — inset 16:10 on mobile (matches the smaller article cards); on
+        desktop, it fills the available height of the card on the left. #}}
+    <div class="relative p-1 lg:w-[45%] lg:shrink-0">
+        <div class="relative w-full aspect-[16/10] lg:aspect-auto lg:h-full rounded-lg overflow-hidden bg-parchment-200">
+            {{ if image }}
+                {{
+                    picture
+                    :image="image"
+                    class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                    cover="true"
+                    sizes="(min-width: 1024px) 45vw, 100vw"
+                    loading="lazy"
+                }}
+            {{ else }}
+                <div class="absolute inset-0 flex items-center justify-center text-text/40">
+                    <x-lucide-image class="size-12" aria-hidden="true" />
+                </div>
+            {{ /if }}
+        </div>
+    </div>
+
+    {{# Content — stacked on mobile, vertically centered on desktop. #}}
+    <div class="flex-1 flex flex-col items-start gap-5 lg:gap-6 px-5 py-6 lg:px-10 lg:py-16 lg:justify-center">
+        <div class="flex flex-col gap-2">
+            {{ if show_category }}
+                {{ partial:typography/h5 small="true" content="{categories:0:title}" as="span" color="text-accent-2"  }}
+            {{ else }}
+                {{ partial:typography/h5 small="true" content="{collection:title}" as="span" color="text-accent-2" }}
+            {{ /if }}
+
+            {{ partial:typography/h2 :content="title" class="text-foreground !mb-0" }}
+
+            {{ if date }}
+                <time
+                    class="font-sans text-base leading-[1.5] text-text"
+                    datetime="{{ date format='Y-m-d' }}"
+                >{{ date format='F j, Y' }}</time>
+            {{ /if }}
+        </div>
+
+        {{ if lead }}
+            {{ partial:typography/p :content="lead" color="text-text" class="!mb-0" }}
+        {{ /if }}
+
+        {{# Faux button — the stretched link above is what's actually
+            clickable; the span is purely a visual CTA cue. #}}
+        <span
+            class="button button--cream button--large pointer-events-none"
+            aria-hidden="true"
+        >
+            <span>Read more</span>
+        </span>
+    </div>
+</article>
+<!-- End: /components/_featured_article.antlers.html -->

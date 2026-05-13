@@ -16,36 +16,6 @@ overview:
       -
         type: text
         text: 'This 8-day walk takes you along the Italian Riviera following an arc of coastline dotted with fishing towns and glam resorts.  It starts in the port city of Genova, the capital of the region of Liguria, and finishes six days later in enchanting Sestri Levante.  '
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Along the way you follow seaside paths; '
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'creuze de ma '
-      -
-        type: text
-        text: "(traditional country lanes lined with dry-stone walls); and forest trails, passing through vineyards and olive groves, constantly accompanied by spectacular views up into the mountains and out over the sea.  Liguria is a region steeped in maritime history (seafaring, shipbuilding and fishing) and the buzzy towns you'll stay in still proudly retain their traditions and vestiges of their colourful pasts.   "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "To make your adventure complete, along the way you will have the chance to sample one of Italy's finest cuisines, characterised by simple recipes based on the freshest produce, such as pasta al pesto genovese, gnocchi with walnut sauce and crunchy focaccia bread, as well as the freshest seafood including swordfish, mussels, scampi, octopus and anchovies, all accompanied some very fine white wines and olive oils."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'Please note, that the Italian Riviera 1 walk is the only first section of the complete 15 day Italian Riviera walk, which takes you the whole length of the whole eastern Italian Riviera, from Genoa to Portofino, passing through the Cinque Terre along the way.  '
 inclusions:
   - 'Seven nights accommodation'
   - 'All breakfasts included'
@@ -57,7 +27,50 @@ inclusions:
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: northern-italy
+landscapes:
+  - coastal
 page_builder:
+  -
+    id: 6be6f526a409c6b0
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Along the way you follow seaside paths; '
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'creuze de ma '
+          -
+            type: text
+            text: "(traditional country lanes lined with dry-stone walls); and forest trails, passing through vineyards and olive groves, constantly accompanied by spectacular views up into the mountains and out over the sea.  Liguria is a region steeped in maritime history (seafaring, shipbuilding and fishing) and the buzzy towns you'll stay in still proudly retain their traditions and vestiges of their colourful pasts.   "
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "To make your adventure complete, along the way you will have the chance to sample one of Italy's finest cuisines, characterised by simple recipes based on the freshest produce, such as pasta al pesto genovese, gnocchi with walnut sauce and crunchy focaccia bread, as well as the freshest seafood including swordfish, mussels, scampi, octopus and anchovies, all accompanied some very fine white wines and olive oils."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'Please note, that the Italian Riviera 1 walk is the only first section of the complete 15 day Italian Riviera walk, which takes you the whole length of the whole eastern Italian Riviera, from Genoa to Portofino, passing through the Cinque Terre along the way.  '
+    title: 'Seaside paths, country lanes and forest trails'
+    images:
+      - tours/liguria-italian-riviera-1-self-guided-walk/nastasia-yakoub-4nreelf-_6c-unsplash-a.jpg
+      - tours/liguria-italian-riviera-1-self-guided-walk/chiavari-26.jpg
+      - tours/liguria-italian-riviera-1-self-guided-walk/18.jpg
   -
     id: mloocwbk
     title: 'Highlights of the Italian Riviera 1 tour'
@@ -100,12 +113,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Genova'
+        title: 'Arrive in Genova'
         description: 'Staying in a comfortable hotel in the medieval centre of Genoa, your first day is an opportunity to explore the treasures of a city that once ruled the Mediterranean and was known for centuries as La Superba (the Proud).  Genoa preserves many relics of its ancient and honourable history, including numerous palaces and magnificent art collections of its maritime families, as well as its colourful old port.'
         photo: tours/liguria-italian-riviera-1-self-guided-walk/img_9103-a.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Walk along the coast'
+        title: 'Walk along the coast'
         description: 'The first section of today’s walk starts from Genoa’s historic port, an ‘urban walk’ through the lane and alleys to a coastal promenade that takes you to a seaside resort.  Here you have the option of shortening the walk by taking the train. The second section follows stone trails that you will walk for much of the tour.  You climb into the foothills with views to the promontory of Portofino, before descending to a picturesque fishing village.'
         duration: 4
         distance: 14
@@ -115,7 +128,7 @@ page_builder:
         photo: tours/liguria-italian-riviera-1-self-guided-walk/6.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk to Camogli'
+        title: 'Walk to Camogli'
         description: 'This first section of the walk follows creuze de ma again up through hamlets to the ridge of Monte Croce.  It continues along the ridge before descending to another cute fishing village.  Here you can shortening the walk by taking the train. The second leg is straight forward, following lanes and marked trails but it also involves two steep climb with the effort is rewarded by wide views over the Portofino Peninsula and arrive in the busy little port of Camogli.'
         duration: 5
         distance: 15
@@ -125,7 +138,7 @@ page_builder:
         photo: tours/liguria-italian-riviera-1-self-guided-walk/18.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk to Portofino'
+        title: 'Walk to Portofino'
         description: 'Today you leave Camogli by walking above the coastline on the western edge of the Portofino National Park with its vast views across the Gulf of Genoa before climbing up into forest.  You then wind your way down through forest and olive groves to the stunning little village of Portofino, one of the most celebrated spots on the Italian coast.'
         duration: 3
         distance: 10
@@ -135,7 +148,7 @@ page_builder:
         photo: tours/liguria-italian-riviera-1-self-guided-walk/porto.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Walk through the Portofino park'
+        title: 'Walk through the Portofino park'
         description: 'This morning you head out of Portofino along a lovely path that winds above the coast passing through olive groves with views over bays and hidden villas to the elegant resort town of Santa Margherita Ligure.  From here you follow a well-marked path through a busy neighbouring port, entering the the final town over a Roman bridge that Hannibal himself crossed, or so the legend goes.'
         duration: 3
         distance: 8
@@ -145,7 +158,7 @@ page_builder:
         photo: tours/liguria-italian-riviera-1-self-guided-walk/nastasia-yakoub-4nreelf-_6c-unsplash-a.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Walk along the Tigullio Gulf'
+        title: 'Walk along the Tigullio Gulf'
         description: 'Today’s gorgeous walk starts with a 15-minute funicular ride from the port up to one of the holiest religious sanctuaries in the area, founded in the 16th century.  From here, you follow an ancient and well-marked walk that takes you from the sanctuary along a descending ridge line through beautiful oak and chestnut forests to Giuseppe Garibaldi’s bustling hometown, whose origins predates the Romans.'
         duration: 3
         distance: 10
@@ -155,7 +168,7 @@ page_builder:
         photo: tours/liguria-italian-riviera-1-self-guided-walk/21.2.jpg
       -
         id: mmin3e1a
-        title: 'Day 7:  Walk to Sestri Levante'
+        title: 'Walk to Sestri Levante'
         description: 'Today, the trail takes you along the sea front to a neighbouring town before picking up the pilgrim trail again, climbing up into the hills along an old paved trail to a ruined church with breath-taking views and down over Sestri Levante and the Bay of Silences.'
         duration: 3
         distance: 11
@@ -165,7 +178,7 @@ page_builder:
         photo: tours/liguria-italian-riviera-1-self-guided-walk/27-a.jpg
       -
         id: mmin5pe3
-        title: 'Day 8:  Depart Sestri Levante'
+        title: 'Depart Sestri Levante'
         description: 'Sestri Levante is on the Genoa/La Spezia line well serviced by regular trains in either direction (including to the Cinque Terre, three stops away to the east).'
         meals_included:
           - breakfast
@@ -178,7 +191,7 @@ page_builder:
     tabs:
       -
         id: V8mGS9Amnm2UfF6XBni8f
-        title: Walks
+        title: 'Exceptional walkings'
         grade: 4
         description:
           -
@@ -198,7 +211,7 @@ page_builder:
         enabled: true
       -
         id: mGIVHCFT4hpsr0F544-zy
-        title: Accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -212,7 +225,7 @@ page_builder:
         enabled: true
       -
         id: fBUv90eacQ9WzHofLU2E2
-        title: Food
+        title: 'Authentic food'
         description:
           -
             type: paragraph
@@ -289,8 +302,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: UPVpERyOQrTSBZrnBJD0s
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - c9401d75-f304-40b9-8def-48c31fbb7d07
       - 6c70b0e8-764e-4d1a-b4a7-11a908b68de4

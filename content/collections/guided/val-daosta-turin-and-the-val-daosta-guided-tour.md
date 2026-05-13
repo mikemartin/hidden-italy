@@ -5,8 +5,8 @@ title: "Val d'Aosta - Turin and the Val d'Aosta"
 name: "Turin and the Val d'Aosta"
 region: "Val d'Aosta"
 days: 13
-updated_by: 1
-updated_at: 1777905197
+updated_by: 2
+updated_at: 1778498865
 grade: 4
 summary: "Two weeks exploring the Val d'Aosta, Italy's smallest, but most spectacular, region!"
 overview:
@@ -16,24 +16,6 @@ overview:
       -
         type: text
         text: "The Val d’Aosta may be Italy’s smallest region, but it is also one of its most spectacular, a wedge of mountains and valleys in the north-west corner of the country.\_ The region shares borders with Switzerland and France and contains Europe’s four highest peaks: Mt Blanc, the Matterhorn, Monte Rosa and Gran Paradiso."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'The Val d’Aosta offers some of Europe’s finest walking, following a network of clearly marked and well-maintained trails. These paths traverse small valleys, linking historic villages to high pastures and mountain passes, passing waterfalls and glaciers along the way.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "With its strategic position, the Val d’Aosta has a rich history, which is reflected in its cherished traditions. Italian and French are both official languages.\_ This cultural diversity is reflected in the local cuisine, simple, hearty mountain fare.\_ The region also produces some excellent cold-climate wines."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This tour highlights the Val d’Aosta's natural beauty and cultural heritage.\_ It begins with two days in elegant Turin; followed by three days in the Gressoney Valley at the foot of Mt Rosa; four days are in Cogne exploring Gran Paradiso National Park, Italy’s oldest national park; and finally, three days in glamorous Courmayeur at the foot of Mt Blanc. Travelling in early September means we avoid crowds and enjoy pleasant autumn weather.\_"
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -46,7 +28,37 @@ locations: northern-italy
 duplicated_from: 43c82038-3f21-4148-8641-024253f68420
 tour_size: 15
 date: '2027-05-27 14:00'
+leader: 08f576cb-78e7-49f2-b63a-6dddd1ce4683
 page_builder:
+  -
+    id: 6329b759380caf67
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'The Val d’Aosta offers some of Europe’s finest walking, following a network of clearly marked and well-maintained trails. These paths traverse small valleys, linking historic villages to high pastures and mountain passes, passing waterfalls and glaciers along the way.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "With its strategic position, the Val d’Aosta has a rich history, which is reflected in its cherished traditions. Italian and French are both official languages.\_ This cultural diversity is reflected in the local cuisine, simple, hearty mountain fare.\_ The region also produces some excellent cold-climate wines."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "This tour highlights the Val d’Aosta's natural beauty and cultural heritage.\_ It begins with two days in elegant Turin; followed by three days in the Gressoney Valley at the foot of Mt Rosa; four days are in Cogne exploring Gran Paradiso National Park, Italy’s oldest national park; and finally, three days in glamorous Courmayeur at the foot of Mt Blanc. Travelling in early September means we avoid crowds and enjoy pleasant autumn weather.\_"
+    title: 'Some of Europe’s finest walking'
+    images:
+      - tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_5043.jpg
+      - tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_7875.jpg
+      - tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_8817.jpg
   -
     id: mloqd78x
     title: "Turin and Val d'Aosta guided tour"
@@ -90,14 +102,14 @@ page_builder:
     days:
       -
         id: mloqwjgq
-        title: 'Day 1:  Arrive in Turin'
+        title: 'Arrive in Turin'
         description: 'Arrival in Turin, my favourite Italian city: miles of arcades with bookshops, chocolate shops, excellent museums and historic cafes.  We will spend the first two nights in an elegant 4-star hotel in the pedestrian centre of the city.  We’ll meet in the hotel foyer at 19.00 and then have dinner in a very nice restaurant a short walk from the hotel.'
         meals_included:
           - dinner
         photo: tours/val-daosta-turin-and-the-val-daosta-guided-tour/1.jpg
       -
         id: mloqxcnx
-        title: 'Day 2:  Explore Turin'
+        title: 'Explore Turin'
         description: "This morning you will be taken on a guided walk through Turin's centre visiting some of the city's Baroque splendour, the legacy of the Savoy kings who ruled from here for nearly six centuries.  After lunch, the afternoon and evening are free."
         meals_included:
           - breakfast
@@ -105,7 +117,7 @@ page_builder:
         photo: tours/val-daosta-turin-and-the-val-daosta-guided-tour/k.jpg
       -
         id: mloqy5ed
-        title: 'Day 3:  Transfer to Gressoney'
+        title: 'Transfer to Gressoney'
         description: 'Today we head north, following the course of the Dora River from Turin.  We will stop to visit Fort Bard, an historic fortification that guards the entrance into the Val d’Aosta. Our base for the next three days is in a beautiful village at the head of one of a valley dominated by a glacier and Monte Rosa (the second highest peak in the Alps).  Our accommodation is in a charming family-run, 4-star hotel.  The alla carte dinners for the next 3 nights will be in the hotel’s excellent restaurant.'
         meals_included:
           - breakfast
@@ -114,7 +126,7 @@ page_builder:
         photo: tours/val-daosta-turin-and-the-val-daosta-guided-tour/5a.jpg
       -
         id: mloqzruj
-        title: 'Day 4:  Meet the glacier'
+        title: 'Meet the glacier'
         description: 'The first walk follows a trail that is one of the most popular among hikers visiting the valley.  We leave directly from our hotel and head north following the Lys river, climbing up through larch forests towards the glacial source of the river.  It is relatively short and allows you to quickly reach the border between the ‘normal’ mountain and the ‘glacial’ mountain in a quite spectacular location.  We follow the river back to our base.'
         duration: 3
         distance: 8
@@ -125,7 +137,7 @@ page_builder:
         photo: tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_9838.jpeg
       -
         id: mlor10w3
-        title: 'Day 5:'
+        title: 'Historic Grand Walser Trail'
         description: 'Today we will immerse ourselves in the local Walser culture.  This morning’s walk again starts from the hotel but this time we head south, following the historic Grand Walser Trail, walking through stone hamlets and high pastures that have remained unchanged for centuries, stopping for lunch along the way.  After, we take the path down to a neighbouring village where we will be taken on a guided visit of an enchanting castle, once the summer residence of Margherita, the first queen of Italy.'
         meals_included:
           - breakfast
@@ -137,7 +149,7 @@ page_builder:
         photo: tours/val-daosta-turin-and-the-val-daosta-guided-tour/-valle-del-lys.jpeg
       -
         id: mlor23s2
-        title: 'Day 6:  Vineyards and the Gran Paradiso Park'
+        title: 'Vineyards and the Gran Paradiso Park'
         description: 'Today we head west o our next base, which is tucked away in another valley on the edge of the Gran Paradiso National Park, Italy’s oldest.  On the way, we’ll visit one of the best vineyards in the region for a comprehensive tasting of their very fine wines.  We will then have a delicious lunch.  From here it is a short drive to our next base, where we will stay in a beautiful 4-star hotel, a family-run 4-star mountain hideaway that dates from the 1920’s.  After settling in, the evening is free.'
         meals_included:
           - breakfast
@@ -145,7 +157,7 @@ page_builder:
         photo: tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_5043.jpg
       -
         id: mlor3ri3
-        title: 'Day 7:  Walk to waterfalls'
+        title: 'Walk to waterfalls'
         description: 'Today we leave our hotel and walk up through pine forest to the end of the valley to visit a series of spectacular waterfalls. After a picnic lunch, we follow the river back to our accommodation, where the afternoon is free.  We will regroup for an aperitivo in the evening and then dinner in our hotel’s excellent restaurant.'
         meals_included:
           - breakfast
@@ -157,7 +169,7 @@ page_builder:
         photo: tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_0108-a.jpeg
       -
         id: mlor6aar
-        title: 'Day 8:  Visit Aosta town'
+        title: 'Visit Aosta town'
         description: "Today we will be taken on a guided visit the regional capital, Aosta city, a very interesting town surrounded by snow-capped mountains, a thirty minute drive away.  Once an important Roman town, character of the city now is more southern French than Italian, thanks to the Aosta's historic allegiance to the house of Challant and its vicinity to France.  The locals speak 'patois', a French dialect.  After lunch we will head back to our base, where the evening is free."
         meals_included:
           - breakfast
@@ -165,7 +177,7 @@ page_builder:
         photo: tours/val-daosta-turin-and-the-val-daosta-guided-tour/19a.jpg
       -
         id: mlor867w
-        title: 'Day 9:  Climb into the mountains'
+        title: 'Climb into the mountains'
         description: 'Today we get a short lift up the side of the valley to a pretty village. From here we follow a trail into a spectacular neighbouring valley, to a small stone hamlet, which is summer accommodation for the ‘pastori’ who still walk their sheep up here to graze on the meadows. We’ll have a cut lunch, then retrace our way back to the village, where we can have a cold drink before getting a lift back down to base.  Dinner tonight will be in a charming traditional restaurant.'
         meals_included:
           - breakfast
@@ -177,7 +189,7 @@ page_builder:
         photo: tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_8817.jpg
       -
         id: mlora14b
-        title: 'Day 10:  Discover Courmayeur'
+        title: 'Discover Courmayeur'
         description: "This morning we head to Courmayeur at the foot of Mt Blanc, which, at 4810 mts asl, is Europe's highest mountain.  Flush against the French border, Courmayeur was once a Roman outpost but is now a very upmarket ski and outdoor sports resort.  On the way, we will enjoy a guided visit of a Roman aqueduct and then a recently restored castle/noble residence before having lunch.  After checking into our 5-star, family-run hotel (the best in the region) the rest of the afternoon and evening is free."
         meals_included:
           - breakfast
@@ -185,7 +197,7 @@ page_builder:
         photo: tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_7022.jpg
       -
         id: mlorbjxg
-        title: 'Day 11:  A spectacular mountain hike'
+        title: 'A spectacular mountain hike'
         description: 'This morning we drive into the neighbouring Val Ferret and enjoy a beautiful panoramic walk at the foot of Mont Blanc, one of my all-time favourite walks. We start by walking beside the river before a long, gentle climb up to the ridge. From here we walk back down the valley with extraordinary views up to the mountains. We will stop for lunch in a ‘rifugio’ and then head down to the river, where we will be picked up and driven back to our hotel.  The evening is free.'
         meals_included:
           - breakfast
@@ -196,7 +208,7 @@ page_builder:
         photo: tours/val-daosta-turin-and-the-val-daosta-guided-tour/val-ferret.jpg
       -
         id: mlore9l3
-        title: 'Day 12:  Fly to the top of Europe'
+        title: 'Fly to the top of Europe'
         description: 'This morning we catch the famous Mont Blanc Skyway (a spectacular cable car inaugurated in 2015) up to Punta Helbronner, the highest point on the Italian side of the mountain.  After enjoying the spectacular views, you will have the option of taking another, smaller cable car across glaciers to the French side of Mont Blanc.  After lunch we head back down, visiting a high altitude botanical gardens on the way.  In the evening, our farewell dinner will be at our hotel’s excellent restaurant.'
         meals_included:
           - breakfast
@@ -204,7 +216,7 @@ page_builder:
         photo: tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_5240.jpg
       -
         id: mlorf281
-        title: 'Day 13:  Return to Turin'
+        title: 'Return to Turin'
         description: 'This morning, we leave to 08.00 and head back to Turin (approximately 2 hours away) which has excellent national and international rail and air connections.'
         meals_included:
           - breakfast
@@ -214,7 +226,7 @@ page_builder:
   -
     id: BbB2CsYNZxXDD1VFZThvw
     title: 'Tour Leader'
-    person: 6f660f25-b4d0-4bc9-b097-b8d3742f1c11
+    person: 08f576cb-78e7-49f2-b63a-6dddd1ce4683
     type: leader
     enabled: true
   -
@@ -223,7 +235,7 @@ page_builder:
     tabs:
       -
         id: IwjLNiPN_iaXgY5EUBAYS
-        title: Walks
+        title: 'Exceptional walkings'
         total_distance: 51
         total_elevation: 2086
         grade: 0
@@ -239,7 +251,7 @@ page_builder:
         enabled: true
       -
         id: uQgZqNv-w0t4ZuiPkBzZ1
-        title: Accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -253,7 +265,7 @@ page_builder:
         enabled: true
       -
         id: 9ZaFHFFBq188KwkceYmqF
-        title: Food
+        title: 'Authentic food'
         description:
           -
             type: paragraph
@@ -307,8 +319,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: YOURaWQLZ636mGVIO_688
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - a64ee694-6861-49e0-b244-ed6c4b239593
     type: testimonials
@@ -355,4 +371,5 @@ finish_location:
       code: null
       level: 1
   country: Italy
+image: tours/val-daosta-turin-and-the-val-daosta-guided-tour/val-ferret.jpg
 ---

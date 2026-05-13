@@ -15,21 +15,7 @@ overview:
     content:
       -
         type: text
-        text: "This fabulous continuous walk along the length of the breathtaking Amalfi Coast starts with a private transfer from Naples to Ravello and then finishes with a private transfer from Positano back to Naples at the end. \_In between you get to experience the 'costiera' in all its colour and glory."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The Amalfi Coast is surely one of the most spectacular parts of the Mediterranean, with steep mountains rising almost 1500 metres above the limpid aquamarine sea and whitewashed villages that seem to have tumbled down the slopes to the water's edge.  It is an area of a vibrant colours, lush vegetation and warm, boisterous people.  And then there is the food (the finest in the south?)!"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This is a tour of two worlds: the winding trails take you high above the coast during the day, following stone paths that have been used for centuries, passing through shaded forests, remote farming communities and ancient terraces and not meeting anyone along the way; and then there are the buzzy, picturesque villages on the coast, where you'll spend each, staying in charming, family-run hotels and eating in excellent restaurants and trattorias!  "
-  -
-    type: paragraph
+        text: "This fabulous continuous walk along the length of the breathtaking Amalfi Coast starts with a private transfer from Naples to Ravello and then finishes with a private transfer from Positano back to Naples at the end. In between you get to experience the 'costiera' in all its colour and glory."
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
   - 'Private transfer from Positano to Naples on Day 6'
@@ -43,7 +29,32 @@ inclusions:
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: southern-italy
+landscapes:
+  - coastal
 page_builder:
+  -
+    id: amlfiovrvw01
+    title: "One of the most spectacular parts of the Mediterranean"
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The Amalfi Coast is surely one of the most spectacular parts of the Mediterranean, with steep mountains rising almost 1500 metres above the limpid aquamarine sea and whitewashed villages that seem to have tumbled down the slopes to the water's edge. It is an area of vibrant colours, lush vegetation and warm, boisterous people. And then there is the food (the finest in the south?)!"
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "This is a tour of two worlds: the winding trails take you high above the coast during the day, following stone paths that have been used for centuries, passing through shaded forests, remote farming communities and ancient terraces and not meeting anyone along the way. And then there are the buzzy, picturesque villages on the coast, where you'll spend each night staying in charming, family-run hotels and eating in excellent restaurants and trattorias!"
+    images:
+      - tours/liguria-cinque-terre-coastal-walking-tour-1/img_2216.jpg
+      - tours/liguria-cinque-terre-coastal-walking-tour-1/positano-pan-1.jpg
+      - tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
+    type: overview
+    enabled: true
   -
     id: mloocwbk
     title: 'Highlights of the Amalfi Coast tour'
@@ -87,12 +98,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Ravello'
+        title: 'Arrive in Ravello'
         description: 'You are picked up by a private vehicle at a time and place that suits you and driven from Naples to Ravello, a beautiful village perched 350 metres above the port of Amalfi, celebrated for Wagner, its gardens and superb views over the Gulf of Salerno.'
         photo: tours/liguria-cinque-terre-coastal-walking-tour-1/1.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Walk the Valle delle Ferriere'
+        title: 'Walk the Valle delle Ferriere'
         description: 'Today you have two options.  The first winds down stone paths to the coast and then wraps around to the town of Amalfi, leaving plenty of time to explore this fascinating town that once ruled the Mediterranean Sea. The second option is a more challenging, longer walk into the the extraordinary Valle delle Ferriere, which wraps through a national park, passing towering cliffs, chestnut forests, and waterfalls, with breathtaking views over the coast. (4 hrs; 13.5 kms; max: - 610 mts)'
         duration: 2
         distance: 3
@@ -102,7 +113,7 @@ page_builder:
         photo: tours/liguria-cinque-terre-coastal-walking-tour-1/amalfi.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk above the coast'
+        title: 'Walk above the coast'
         description: "Today's walk follows an ancient path that has linked the villages between for centuries, passing an ancient monastery before dropping down to a little hamlet sitting above the sea, where you'll stay the night. B elow your hotel is a beautiful hidden port, with coloured fishing boats, a small shingle beach and a very pleasant bar. In the afternoon, you will also have time to visit the famous nearby Grotta Smeralda."
         duration: 2
         distance: 6
@@ -112,7 +123,7 @@ page_builder:
         photo: tours/liguria-cinque-terre-coastal-walking-tour-1/img_4282.jpeg
       -
         id: mlop3c5r
-        title: 'Day 4:  Climbiing high'
+        title: 'Climbing high'
         description: 'Today you have a choice of two trails.  The first, more demanding trail, starts with a steep climb through hamlets to a busy village.  It then contours around the mountains before entering a green valley and descending to your accommodation, a lovely family-run hotel with views across the gulf to Positano.  The second, less demanding, trail follows a lower route along a path above the sea which has spectacular views.  After crossing a fjord, you climb up to your accommodation.  (3 hrs; 7 kms)'
         duration: 4
         distance: 11
@@ -122,7 +133,7 @@ page_builder:
         photo: tours/liguria-cinque-terre-coastal-walking-tour-1/b.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Walk the Path of the Gods'
+        title: 'Walk the Path of the Gods'
         description: 'It is not by chance that the locals have baptised this walk with the rather extravagant name of Via degli Dei, the Path of the God’s.  Despite the tourist hyperbole that has made this one of the most famous walks in the area, the views and the hike are extraordinary.  It is a big climb up to the start of the path but it is worth it, and from there it is all down hill to arrive in magical Positano!'
         duration: 4
         distance: 11
@@ -132,7 +143,7 @@ page_builder:
         photo: tours/liguria-cinque-terre-coastal-walking-tour-1/view-to-positano.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Transfer to Naples'
+        title: 'Transfer to Naples'
         description: 'After breakfast in your hotel, at a time that suits you, you will be taken by private vehicle back to the Naples, an hour or so north.'
         duration: 2
         distance: 6
@@ -148,7 +159,7 @@ page_builder:
     tabs:
       -
         id: UWuoa3i6XJocQEfsXVRkm
-        title: Walks
+        title: Exceptional walkings
         grade: 0
         description:
           -
@@ -168,7 +179,7 @@ page_builder:
         enabled: true
       -
         id: Xw8j3JVBxDHhDIwMMwxU1
-        title: Accommodation
+        title: Boutique accommodation
         description:
           -
             type: paragraph
@@ -182,7 +193,7 @@ page_builder:
         enabled: true
       -
         id: AaYAvgyA02X1tONQIc3pZ
-        title: Food
+        title: Authentic food
         description:
           -
             type: paragraph
@@ -257,8 +268,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: Z4Eo1v9GS-MOK7Yj_nhsF
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - abed777c-bcf3-4f03-a324-027c876335ee
       - d8789430-b786-4f4f-a392-12794da0f312

@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 1
-updated_at: 1778209327
+updated_at: 1778550412
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -78,8 +78,6 @@ page_builder:
     type: featured_tours
     enabled: true
     heading: 'Featured walking tours'
-    link_text: 'View all'
-    link_entry: 2d1f3903-3248-4037-8e09-e76e8d62781c
     tours:
       - 0d717011-26fe-4d13-89f4-a0739f966e3d
       - fe7d8f05-4262-4ff2-9fa6-af18f7825ec2
@@ -94,14 +92,13 @@ page_builder:
     heading: 'What our travellers are saying'
     testimonials:
       - c4dad366-cfdd-443a-8db6-c29df33df79a
-      - abed777c-bcf3-4f03-a324-027c876335ee
-      - a3519272-9f93-46df-90cf-8c28d7a03683
+      - 966a5684-0228-4341-8790-8ef4f90f52dc
+      - 5e20d0e8-847b-4371-95a7-a7c859735fee
   -
     id: home_travel_tips
     type: travel_tips
     enabled: true
     heading: 'Travel tips and inspiration'
-    link_text: 'View all'
     articles:
       - 7d2a4c91-3e85-4f17-91b3-8c1e0f5a7d62
       - 8a3b7d54-9e21-4f68-b193-5c4a0e6d2f87

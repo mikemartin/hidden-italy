@@ -42,7 +42,7 @@ page_builder:
           -
             type: text
             text: 'Based on several years’ research, this magnificent hike follows the same route, starting in Biella and finishing on Mt Moro on the Swiss border.  It passes through some of the most spectacular scenery in the European Alps, staying in a mixture of hotels, pilgrim monasteries and mountain huts along the way.  Although we will walk through uncontaminated mountain landscapes, this is an ancient land: traders, pilgrims and graziers have been passing through here for millennia, in fact, since before the Bronze Age.'
-    type: history
+    type: overview
     enabled: true
     images:
       - tours/italian-alps-trails-to-freedom/dscf0276.jpg
@@ -263,7 +263,7 @@ page_builder:
   -
     id: J5i0VWMfEbXL5ACtZxLBv
     title: 'Tour Leader'
-    person: 7a758c7b-1287-4bd4-8522-707974d0d9c7
+    person: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
     type: leader
     enabled: true
   -
@@ -321,8 +321,14 @@ page_builder:
     type: essentials
     enabled: true
   -
+    id: riG2kDbX
+    type: faqs
+    enabled: true
+    show_common_questions: true
+    heading: 'Frequently Asked Questions'
+  -
     id: v-Y1X2gPDJm6PxI5fCblV
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - c4dad366-cfdd-443a-8db6-c29df33df79a
       - 5e20d0e8-847b-4371-95a7-a7c859735fee
@@ -332,7 +338,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 1
-updated_at: 1777900499
+updated_at: 1778587403
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
@@ -383,4 +389,6 @@ finish_location:
 now_open: true
 leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 headline: '10 days hiking in the Italian Alps'
+price: '$5,650 AUD'
+show_from: true
 ---

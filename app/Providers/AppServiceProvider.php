@@ -12,6 +12,8 @@ use Statamic\Facades\Form;
 use Statamic\Facades\Icon;
 use Statamic\Policies\UserPolicy;
 use Studio1902\PeakSeo\Handlers\ErrorPage;
+use Illuminate\Support\Str;
+use JackSleight\StatamicBardMutator\Facades\Mutator;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -46,6 +48,13 @@ class AppServiceProvider extends ServiceProvider
         Icon::register('lucide', base_path('resources/svg/lucide'));
 
         Livewire::forceAssetInjection();
+ 
+        Mutator::html('heading', function ($value, $item) {
+            if ($item->attrs->level === 2) {
+                $value[1]['id'] = Str::slug(collect($item->content)->implode('text', ''));
+            }
+            return $value;
+        });
 
         $this->bootRoute();
 

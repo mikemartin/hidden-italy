@@ -16,27 +16,6 @@ overview:
       -
         type: text
         text: "Walking the Via Francigena from San Gimignano to Siena is a unique experience.\_\_ It starts in San Gimignano, a gorgeous town with a stunning hilltop skyline of towers.\_ From here you follow in the footsteps of medieval pilgrims all the way to the glorious the walled city of Siena, 'the most perfectly preserved medieval city in Europe'.\_ In between, you stay in a town that made its wealth in the wool trade in the Middle Ages and a fortified village that was Siena's stronghold again Florence."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The well-marked trails take you through rolling countryside covered in vineyards, olive groves and forest, with long, open stretches of farmlands and fields dotted the occasional farmhouse or cluster of cypress.\_ Each day you pass through small villages and rural hamlets, where you can pause for a coffee, a drink of water or a snack.\_\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The accommodation is a highlight of the tour.\_ You stay in very comfortable, three-star hotels in historic buildings in the heart of each town.\_ Another highlight, of course, is the food.\_ Tuscan cooking, with its emphasis on simple dishes using fresh, quality, local ingredients, has had an enormous influence on Italian cuisine.\_ As well as this, you are also walking through the Chianti district, which produces some of the country's finest wines."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: "What more could you want for a week's walking?"
 inclusions:
   - 'Private transfer from Florence to San Gimignano on Day 1'
   - 'Four nights accommodation'
@@ -49,7 +28,41 @@ inclusions:
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: central-italy
+landscapes:
+  - countryside
 page_builder:
+  -
+    id: 23593d43b3d95888
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The well-marked trails take you through rolling countryside covered in vineyards, olive groves and forest, with long, open stretches of farmlands and fields dotted the occasional farmhouse or cluster of cypress.\_ Each day you pass through small villages and rural hamlets, where you can pause for a coffee, a drink of water or a snack.\_\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The accommodation is a highlight of the tour.\_ You stay in very comfortable, three-star hotels in historic buildings in the heart of each town.\_ Another highlight, of course, is the food.\_ Tuscan cooking, with its emphasis on simple dishes using fresh, quality, local ingredients, has had an enormous influence on Italian cuisine.\_ As well as this, you are also walking through the Chianti district, which produces some of the country's finest wines."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: "What more could you want for a week's walking?"
+    title: 'Vineyards, olive groves and rolling countryside'
+    images:
+      - tours/tuscany-tuscany-3-san-gimignano-to-siena/palmik-siena-2658932.jpg
+      - tours/tuscany-tuscany-3-san-gimignano-to-siena/justsomedutchdude-old-2121643.jpg
+      - tours/tuscany-tuscany-3-san-gimignano-to-siena/kristof-van-rentergem-lpywtwptwbs-unsplash.jpg
   -
     id: mloocwbk
     title: 'Highlights of Tuscany 3'
@@ -93,7 +106,7 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in San Gimgnano'
+        title: 'Arrive in San Gimignano'
         description: "A private transfer will take you from Florence to your hotel in San Gimignano, a walled medieval town famous for its towers, which was on the Via Francigena, the most important route to Rome in the Middle Ages. In the afternoon there is a short loop walk through the celebrated Vernaccia vineyards with wonderful views over San Gimignano's famous skyline before returning to your base."
         duration: 2
         distance: 9
@@ -101,7 +114,7 @@ page_builder:
         photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/aver007-san-gimignano-4720522.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Walk through vineyards'
+        title: 'Walk through vineyards'
         description: "Today's walk takes you to another well-preserved medieval town that prospered trading in the Middle Ages. The walk leaves San Gimignano along the Via Francigena.  It passes vineyards and olive groves before following a narrow, forested valley, taking you through a landscape that has changed little since the Middle Ages."
         duration: 3
         distance: 12
@@ -111,7 +124,7 @@ page_builder:
         photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/deepak-sharma-0y0ap85o7cy-unsplash.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Stay in a medieval fortress'
+        title: 'Stay in a medieval fortress'
         description: 'The walk this morning again picks up the Via Francigena, and takes you across undulating farmlands, passing hamlets, castles and a fine Romanesque abbey before arriving at a tiny walled medieval village, a little gem with a ring of high walls that enclose a precious collection of restored houses, gardens and palazzi.  (18 kms; 4.5 hrs; min: 172 mts, max: 285 mts)'
         duration: 5
         distance: 18
@@ -121,7 +134,7 @@ page_builder:
         photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/img_0736.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  Arrive in Siena'
+        title: 'Arrive in Siena'
         description: "The walk today takes you to Siena, the dynamic capital of southern Tuscany.  It passes through forests and the range of hills that once protected Siena's northern frontier from their enemies in Florence.  A city rich in art and history, Siena is a wonderful place to explore or simply while away time, sipping an aperitivo and watching the colourful life pass by.   It is a long day but the walk can be shortened by taking a bus on the outskirts of Siena."
         duration: 5
         distance: 20
@@ -131,7 +144,7 @@ page_builder:
         photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/p1010314.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Depart Siena'
+        title: 'Depart Siena'
         description: 'After breakfast in your hotel, you are free to continue your holiday.  Siena is connected to Florence and Rome by rail and bus.'
         meals_included:
           - breakfast
@@ -144,7 +157,7 @@ page_builder:
     tabs:
       -
         id: uoQNOk3xz3I0So87biTFG
-        title: Walks
+        title: 'Exceptional walkings'
         grade: 0
         description:
           -
@@ -164,7 +177,7 @@ page_builder:
         enabled: true
       -
         id: y35_xIxVn7IletDwp4YZK
-        title: Accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -178,7 +191,7 @@ page_builder:
         enabled: true
       -
         id: Ijoj0uFYMCP1AJUz9z1x8
-        title: Food
+        title: 'Authentic food'
         description:
           -
             type: paragraph
@@ -253,8 +266,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: NAR2a98AM3ZVjqmMMR-pL
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - 7c06f541-b134-4c98-b1c9-b6156041a2e3
       - 4ca81b70-a1ca-4cbb-b1e7-25c15db27c51
@@ -280,7 +297,7 @@ gallery:
 start_location:
   label: 'San Gimignano'
 finish_location:
-  label: 'Siena'
+  label: Siena
 now_open: false
 seasons: spring
 headline: '5 days from San Gimignano to Siena'

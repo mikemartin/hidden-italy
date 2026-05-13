@@ -16,24 +16,6 @@ overview:
       -
         type: text
         text: 'This magnificent walk passes through the Chianti, some of the most celebrated countryside in Europe, a unique landscape of rolling hills, vineyards, olive groves,  thick oak forests, isolated farmhouses, medieval market towns and ancient villages, all shaped by over three millennia of settlement.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "But Chianti is not only a place of exceptional natural beauty, it also has a very rich in history.\_Its most formative years were during the Middle Ages, when the district became a battleground, caught between the implacable ambitions of Florence and Siena.\_ The fortified towns, magnificent monasteries and famous castles that you encounter during the walk bear testament to this legacy.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Chianti is famous for its wholesome home-cooking, pastas and soups, roast meats and garden vegetables, but it is, of course, best know its eponymous red wine, which, some say, is amongst the best produced in Italy.\_ You will have plenty of chances to sample these treats along the way and make your own decision!"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The tour starts with a private transfer from Florence to Impruneta.\_ From here well-marked trails take you through undulating farmlands, over the forest-covered hills of the Colline di Chianti, and then south towards Siena.\_ You stay in comfortable accommodation in the centre of a series buzzy market towns, as well as a charming agriturismo in the hills.\_ At the end of the last walk, you will be transferred to Siena, where you spend the last night in a very nice hotel in an historic palazzo in the heart of the city, close to the famous Piazza del Campo (an appropriate finale to your tour!)."
 inclusions:
   - 'Private transfer from Florence on Day 1; private transfer to Siena on Day 6'
   - 'Six nights accommodation'
@@ -46,7 +28,38 @@ inclusions:
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: central-italy
+landscapes:
+  - countryside
 page_builder:
+  -
+    id: 4eed94c65680973d
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "But Chianti is not only a place of exceptional natural beauty, it also has a very rich in history.\_Its most formative years were during the Middle Ages, when the district became a battleground, caught between the implacable ambitions of Florence and Siena.\_ The fortified towns, magnificent monasteries and famous castles that you encounter during the walk bear testament to this legacy.\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Chianti is famous for its wholesome home-cooking, pastas and soups, roast meats and garden vegetables, but it is, of course, best know its eponymous red wine, which, some say, is amongst the best produced in Italy.\_ You will have plenty of chances to sample these treats along the way and make your own decision!"
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The tour starts with a private transfer from Florence to Impruneta.\_ From here well-marked trails take you through undulating farmlands, over the forest-covered hills of the Colline di Chianti, and then south towards Siena.\_ You stay in comfortable accommodation in the centre of a series buzzy market towns, as well as a charming agriturismo in the hills.\_ At the end of the last walk, you will be transferred to Siena, where you spend the last night in a very nice hotel in an historic palazzo in the heart of the city, close to the famous Piazza del Campo (an appropriate finale to your tour!)."
+    title: 'Caught between Florence and Siena'
+    images:
+      - tours/tuscany-tuscany-2-chianti-florence-to-siena/kristina-c-qwaolhfrx3i-unsplash.jpg
+      - tours/tuscany-tuscany-2-chianti-florence-to-siena/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
+      - tours/tuscany-tuscany-2-chianti-florence-to-siena/016.jpg
   -
     id: mloocwbk
     title: 'Highlights of Tuscany 2'
@@ -90,12 +103,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Impruneta'
+        title: 'Arrive in Impruneta'
         description: 'The tour starts with a private transfer from Florence to Impruneta, a pleasant town twenty kilometres Florence. Your family hotel has views of the town’s famous basilica in the central piazza, dating from the 11th century, which contains a miraculous image of the Madonna, fragments of the True Cross and masterpieces by Luca della Robbia and Michelozzi.'
         photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/kristina-c-qwaolhfrx3i-unsplash.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Stroll through farmlands'
+        title: 'Stroll through farmlands'
         description: "Today's is a gentle walk, taking you along well-marked trails over the undulating hills of northern Tuscany to a small market town, where you spend the night.  Along the way, you pass through undulating farmlands, wheat fields and patches of forests."
         duration: 3
         distance: 9
@@ -105,7 +118,7 @@ page_builder:
         photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/jonathan-skule-hvhpyxztqmc-unsplash(1).jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk through vineyards'
+        title: 'Walk through vineyards'
         description: 'The walk today takes you through the heartland of the Chianti wine district, following a well-marked trail through rolling hills covered in vineyards, to a small town that is one the centres of viticulture in Tuscany.  Along the walk, you will have the opportunity  to visit one of the oldest and wealthiest abbeys in the region, and have lunch at their excellent restaurant (there is a simpler bistrot nearby, if you prefer).  It is possible to shorten this walk.'
         duration: 5
         distance: 17
@@ -115,7 +128,7 @@ page_builder:
         photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/016.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  Cross the Chianti hills'
+        title: 'Cross the Chianti hills'
         description: 'Today’s walk starts with a long climb up to the ridge of the highest range hills in the Chianti district.  On the way, you pass a medieval castle and several hamlets.  From the top of the range you are rewarded with spectacular views over the Greve River valley.  The walk continues along the ridge, passing through oak and chestnut forests on the way to your accommodation, a lovely ‘agriturismo’ with a swimming pool and an excellent restaurant.  Your dinner is included tonight.'
         duration: 5
         distance: 15
@@ -126,7 +139,7 @@ page_builder:
         photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Walk to  through forests'
+        title: 'Walk to  through forests'
         description: 'Today you continue your walk along the ridge before descending through pine and oak forests, to a magnificent wine estate situated in a converted medieval abbey (where you can have lunch and sample some of their produce).  Your goal, another small town devoted to wine industry, is an hour’s descent through more oak forest and farmlands.  Along the way you pass from the Florentine territory into the Sienese territory.'
         duration: 4
         distance: 16
@@ -136,7 +149,7 @@ page_builder:
         photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/img_0738-2.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Transfer to Siena'
+        title: 'Transfer to Siena'
         description: 'This morning you have a short walk, passing through classic Chianti countryside passing more vineyards, farm houses with panoramic views and a beautiful castle along the way.  You will be picked up by private transfer at a small hamlet at 12.00 and driven to Siena, ten kilometres south, which will leave you plenty of time to explore this extraordinary city in the afternoon and evening.'
         meals_included:
           - breakfast
@@ -146,7 +159,7 @@ page_builder:
         photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/alessandro-rossi-ju_bgza3zhe-unsplash.jpg
       -
         id: mmzs9nie
-        title: 'Day 7:  Depart Siena'
+        title: 'Depart Siena'
         description: "This morning, after breakfast, you'll be able to continue your holiday.  Siena is connected to Florence and Rome by regular buses and trains."
         meals_included:
           - breakfast
@@ -159,7 +172,7 @@ page_builder:
     tabs:
       -
         id: OP85htJdF8NKhc6jXS1-9
-        title: Walks
+        title: 'Exceptional walkings'
         total_distance: 64
         total_elevation: 707
         grade: 0
@@ -181,7 +194,7 @@ page_builder:
         enabled: true
       -
         id: IZI927G7rn9HrPxQcNqJk
-        title: Accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -195,7 +208,7 @@ page_builder:
         enabled: true
       -
         id: GC3YI0hZaj86e40Kl_u0p
-        title: Food
+        title: 'Authentic food'
         description:
           -
             type: paragraph
@@ -270,8 +283,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: 8rK-u0cF5zvkZTo3_aDO3
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - c4128db6-cf05-4a80-a42a-a42ba87791be
       - bd250726-3b76-4c28-876d-e79621907672

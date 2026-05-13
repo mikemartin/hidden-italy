@@ -1,0 +1,644 @@
+{{#
+    @name Form Inputs
+    @desc Reference for the styled Statamic Peak vendor field partials in
+          `resources/views/vendor/statamic/forms/fields/` — the canonical
+          form-field implementation used by the booking and contact forms.
+
+          Each section shows a visual preview matching the partial's
+          rendered output, plus the blueprint snippet you'd write to
+          produce it. Field type and partial source are cross-linked.
+
+          Two other input systems live elsewhere in the project and are
+          summarised at the bottom for context: Flux (auth + account
+          pages) and Statamic Livewire Filters (collection filtering on
+          the tours listing).
+#}}
+
+<!-- /form-inputs.antlers.html -->
+<main id="content" class="fluid-grid py-12 md:py-16 lg:py-24">
+    <section class="span-content stack-16">
+
+        {{# Page header #}}
+        <div class="bg-parchment-200 p-8 md:p-12 rounded-lg">
+            {{ partial:typography/h1
+                content="Form Inputs"
+                class="mb-4 md:text-7xl tracking-[-0.03em]"
+            }}
+            {{ partial:typography/p
+                content="Reference for the styled form-field partials used across the booking and contact forms. Each field type renders via a Statamic Peak vendor partial in <code>vendor/statamic/forms/fields/</code>, wired into Peak's Alpine + Precognition form pattern."
+                class="!mb-0 max-w-3xl"
+            }}
+        </div>
+
+        {{# ====================================================
+            AT A GLANCE
+            ==================================================== #}}
+        <div class="stack-4">
+            {{ partial:typography/h2 content="At a glance" }}
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead class="border-b border-neutral/20">
+                        <tr>
+                            <th class="py-3 pr-4 font-bold text-sm uppercase tracking-wide">System</th>
+                            <th class="py-3 pr-4 font-bold text-sm uppercase tracking-wide">Used in</th>
+                            <th class="py-3 font-bold text-sm uppercase tracking-wide">Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-neutral/10">
+                        <tr>
+                            <td class="py-3 pr-4 align-top font-semibold">Peak vendor partials</td>
+                            <td class="py-3 pr-4 align-top text-sm">Booking enquiry, page-builder Contact / Form blocks</td>
+                            <td class="py-3 align-top text-sm">The canonical form-field stack. Blueprint-driven via <code>%form:fields</code>; live validation through Laravel Precognition.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top font-semibold">Flux</td>
+                            <td class="py-3 pr-4 align-top text-sm">Auth pages, account / settings</td>
+                            <td class="py-3 align-top text-sm">Volt / Livewire context only. See the <a class="underline decoration-accent hover:text-accent" href="/flux-components">Flux components</a> reference.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 pr-4 align-top font-semibold">Livewire Filters</td>
+                            <td class="py-3 pr-4 align-top text-sm">Tours listing (filter card)</td>
+                            <td class="py-3 align-top text-sm">Reactive collection filtering — not form input. Themed via <code>--lf-*</code> tokens.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        {{# ====================================================
+            TEXT INPUT (default partial — text / email / tel)
+            ==================================================== #}}
+        <section class="stack-6">
+            <header class="stack-2">
+                {{ partial:typography/h2 content="Text input" }}
+                {{ partial:typography/p_small
+                    content="<code>vendor/statamic/forms/fields/default.antlers.html</code> — used by every <code>type: text</code> field including email and tel (the HTML <code>type</code> attribute is set via blueprint <code>input_type</code>). Pill shape, parchment surface, accent ring on focus."
+                    color="text-muted"
+                    class="!mb-0"
+                }}
+            </header>
+
+            <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                <div class="max-w-md flex flex-col gap-2">
+                    <label class="block text-base font-medium leading-[1.6] text-foreground" for="demo-name">
+                        Name
+                        <sup aria-label="required" class="text-error">*</sup>
+                    </label>
+                    <input
+                        type="text"
+                        id="demo-name"
+                        name="name"
+                        placeholder="Your full name"
+                        autocomplete="name"
+                        class="block w-full rounded-full bg-card px-5 py-3 text-base lg:text-lg text-foreground border border-text/20 placeholder:text-text/40 focus:outline-none focus:ring-2 focus:border-accent focus:ring-accent transition"
+                    />
+                </div>
+            </div>
+
+            <div class="stack-2">
+                {{ partial:typography/h4 content="Blueprint" class="!mb-0" }}
+                <pre class="overflow-x-auto rounded-lg bg-parchment-200 text-foreground border border-neutral/15 p-4 text-xs leading-relaxed"><code>- handle: name
+  field:
+    display: Name
+    type: text
+    placeholder: 'Your full name'
+    autocomplete: name
+    validate:
+      - required
+      - 'min:2'</code></pre>
+            </div>
+        </section>
+
+        {{# ====================================================
+            TEXTAREA
+            ==================================================== #}}
+        <section class="stack-6">
+            <header class="stack-2">
+                {{ partial:typography/h2 content="Textarea" }}
+                {{ partial:typography/p_small
+                    content="<code>vendor/statamic/forms/fields/textarea.antlers.html</code> — same surface as the text input but softer corners (<code>rounded-2xl</code>) and <code>field-sizing-content</code> so the box grows with content."
+                    color="text-muted"
+                    class="!mb-0"
+                }}
+            </header>
+
+            <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                <div class="flex flex-col gap-2">
+                    <label class="block text-base font-medium leading-[1.6] text-foreground" for="demo-message">
+                        Travel plans
+                        <sup aria-label="required" class="text-error">*</sup>
+                    </label>
+                    <textarea
+                        id="demo-message"
+                        name="message"
+                        rows="5"
+                        placeholder="Number of travellers, duration, travel dates…"
+                        class="block w-full rounded-2xl bg-card px-5 py-3 text-base lg:text-lg text-foreground border border-text/20 placeholder:text-text/40 focus:outline-none focus:ring-2 focus:border-accent focus:ring-accent transition field-sizing-content"
+                    ></textarea>
+                </div>
+            </div>
+
+            <div class="stack-2">
+                {{ partial:typography/h4 content="Blueprint" class="!mb-0" }}
+                <pre class="overflow-x-auto rounded-lg bg-parchment-200 text-foreground border border-neutral/15 p-4 text-xs leading-relaxed"><code>- handle: message_body
+  field:
+    display: 'Travel plans'
+    type: textarea
+    placeholder: 'Number of travellers, duration, travel dates…'
+    validate:
+      - required
+      - 'min:5'</code></pre>
+            </div>
+        </section>
+
+        {{# ====================================================
+            SELECT
+            ==================================================== #}}
+        <section class="stack-6">
+            <header class="stack-2">
+                {{ partial:typography/h2 content="Select" }}
+                {{ partial:typography/p_small
+                    content="<code>vendor/statamic/forms/fields/select.antlers.html</code> — same pill shape as the text input. Native menu styling stripped (<code>appearance-none</code>) and a positioned Lucide chevron stands in. Use this when the option list is static and CMS-editable."
+                    color="text-muted"
+                    class="!mb-0"
+                }}
+            </header>
+
+            <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                <div class="max-w-md flex flex-col gap-2">
+                    <label class="block text-base font-medium leading-[1.6] text-foreground" for="demo-select">
+                        Travel plans
+                    </label>
+                    <div class="relative">
+                        <select
+                            id="demo-select"
+                            name="travel_plans"
+                            class="block w-full appearance-none rounded-full bg-card pl-5 pr-12 py-3 text-base lg:text-lg text-foreground border border-text/20 focus:outline-none focus:ring-2 focus:border-accent focus:ring-accent transition"
+                        >
+                            <option value="">Please select…</option>
+                            <option value="researching">Researching options</option>
+                            <option value="dates-set">Dates already set</option>
+                            <option value="booked-flights">Flights already booked</option>
+                        </select>
+                        <x-lucide-chevron-down class="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-accent pointer-events-none" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="stack-2">
+                {{ partial:typography/h4 content="Blueprint" class="!mb-0" }}
+                <pre class="overflow-x-auto rounded-lg bg-parchment-200 text-foreground border border-neutral/15 p-4 text-xs leading-relaxed"><code>- handle: travel_plans
+  field:
+    display: 'Travel plans'
+    type: select
+    options:
+      researching: 'Researching options'
+      dates-set: 'Dates already set'
+      booked-flights: 'Flights already booked'</code></pre>
+            </div>
+        </section>
+
+        {{# ====================================================
+            BESPOKE SELECT — OPTGROUPS
+            ==================================================== #}}
+        <section class="stack-6">
+            <header class="stack-2">
+                {{ partial:typography/h2 content="Bespoke select (optgroups)" }}
+                {{ partial:typography/p_small
+                    content="When you need grouped options driven by Statamic collections — like the booking form's tour picker — the standard Peak select can't produce <code>&lt;optgroup&gt;</code>s. Hand-roll a select directly in the template using the same class soup, then wire it into the Alpine form state via <code>x-model</code>. Lives at <code>booking/index.antlers.html</code> today."
+                    color="text-muted"
+                    class="!mb-0"
+                }}
+            </header>
+
+            <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                <div class="max-w-md flex flex-col gap-2">
+                    <label class="block text-base font-medium leading-[1.6] text-foreground" for="demo-tour">
+                        Tour
+                    </label>
+                    <div class="relative">
+                        <select
+                            id="demo-tour"
+                            name="tour"
+                            class="block w-full appearance-none rounded-full bg-card pl-5 pr-12 py-3 text-base lg:text-lg text-foreground border border-text/20 focus:outline-none focus:ring-2 focus:border-accent focus:ring-accent transition"
+                        >
+                            <option value="" disabled selected>Select a tour</option>
+                            <optgroup label="Guided tours">
+                                <option value="amalfi">Amalfi Coast Walking</option>
+                                <option value="dolomites">Dolomites High Route</option>
+                                <option value="tuscany">Tuscany Hill Towns</option>
+                            </optgroup>
+                            <optgroup label="Self-guided tours">
+                                <option value="cinque-terre">Cinque Terre</option>
+                                <option value="puglia">Puglia &amp; the Trulli</option>
+                            </optgroup>
+                        </select>
+                        <x-lucide-chevron-down class="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-accent pointer-events-none" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="stack-2">
+                {{ partial:typography/h4 content="Antlers" class="!mb-0" }}
+                <pre class="overflow-x-auto rounded-lg bg-parchment-200 text-foreground border border-neutral/15 p-4 text-xs leading-relaxed"><code>&lt;div class="relative"&gt;
+    &lt;select
+        id="tour"
+        name="tour"
+        x-model="form.tour"
+        @change="form.validate('tour')"
+        :class="{
+            'border-error focus:border-error focus:ring-error/20': form.invalid('tour'),
+            'border-text/20 focus:border-accent focus:ring-accent': !form.invalid('tour')
+        }"
+        class="block w-full appearance-none rounded-full bg-card pl-5 pr-12 py-3 text-base lg:text-lg text-foreground border focus:outline-none focus:ring-2 transition"
+    &gt;
+        &lt;option value=""&gt;Select a tour&lt;/option&gt;
+        &lt;optgroup label="Guided tours"&gt;
+            {{ collection:guided sort="name:asc" }}
+                &lt;option value="{{ slug }}"&gt;{{ name or title }}&lt;/option&gt;
+            {{ /collection:guided }}
+        &lt;/optgroup&gt;
+    &lt;/select&gt;
+    &lt;x-lucide-chevron-down class="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-accent pointer-events-none" /&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+        </section>
+
+        {{# ====================================================
+            SELECT vs LIVEWIRE COMBOBOX
+            ==================================================== #}}
+        <section class="stack-6">
+            <header class="stack-2">
+                {{ partial:typography/h2 content="Select vs Livewire combobox" }}
+                {{ partial:typography/p_small
+                    content="Both surface a dropdown affordance, but they aren't interchangeable. The Peak select is for <strong>form data capture</strong> — a single value, validated by Precognition, submitted with the form. The Livewire combobox (<code>lf-checkbox-advanced</code>) is the md+ variant on the tours filter card: <strong>multi-select with search</strong>, bound to URL state, drives a reactive collection query rather than a form submission."
+                    color="text-muted"
+                    class="!mb-0"
+                }}
+            </header>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                {{# Peak select #}}
+                <div class="stack-3">
+                    {{ partial:typography/h4 content="Peak select" class="!mb-0" }}
+                    <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                        <div class="flex flex-col gap-2">
+                            <label class="block text-base font-medium leading-[1.6] text-foreground" for="demo-compare-select">
+                                Travel plans
+                            </label>
+                            <div class="relative">
+                                <select
+                                    id="demo-compare-select"
+                                    class="block w-full appearance-none rounded-full bg-card pl-5 pr-12 py-3 text-base lg:text-lg text-foreground border border-text/20 focus:outline-none focus:ring-2 focus:border-accent focus:ring-accent transition"
+                                >
+                                    <option value="">Please select…</option>
+                                    <option>Researching options</option>
+                                    <option>Dates already set</option>
+                                </select>
+                                <x-lucide-chevron-down class="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-accent pointer-events-none" />
+                            </div>
+                        </div>
+                    </div>
+                    {{ partial:typography/p_small
+                        content="Single value · form-submitted · Precognition-validated · blueprint-defined options · pill shape, parchment surface."
+                        color="text-muted"
+                        class="!mb-0"
+                    }}
+                </div>
+
+                {{# Livewire combobox (lf-checkbox-advanced) #}}
+                <div class="stack-3">
+                    {{ partial:typography/h4 content="Livewire combobox" class="!mb-0" }}
+                    <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                        <div class="flex flex-col gap-2">
+                            <label class="block text-base font-medium leading-[1.6] text-foreground">
+                                Locations
+                            </label>
+                            <button
+                                type="button"
+                                role="combobox"
+                                aria-expanded="false"
+                                aria-haspopup="listbox"
+                                class="inline-flex w-full items-center justify-between whitespace-nowrap bg-lf-input-bg border-(length:--lf-border-width) border-lf-border text-lf-text text-lf rounded-lf p-lf hover:bg-lf-subtle transition-colors duration-150"
+                            >
+                                <span class="w-full text-lf leading-6 text-start overflow-hidden text-ellipsis whitespace-nowrap">Please select</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 text-accent" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    {{ partial:typography/p_small
+                        content="Multi-select with search · URL-bound state · taxonomy or query-scope filter · <code>--lf-*</code> tokens (slate-50 surface, parchment border, xl radius) · live in <code>components/tour-filters.antlers.html</code>."
+                        color="text-muted"
+                        class="!mb-0"
+                    }}
+                </div>
+            </div>
+
+            {{ partial:typography/p_small
+                content="<strong>Rule of thumb:</strong> if the value lives in a form blueprint and gets submitted, reach for the Peak select. If it filters a Statamic collection on a listing page, reach for the Livewire combobox."
+                class="!mb-0"
+            }}
+        </section>
+
+        {{# ====================================================
+            CHECKBOXES
+            ==================================================== #}}
+        <section class="stack-6">
+            <header class="stack-2">
+                {{ partial:typography/h2 content="Checkboxes" }}
+                {{ partial:typography/p_small
+                    content="<code>vendor/statamic/forms/fields/checkboxes.antlers.html</code> — multi-select group. Each option is a 20px rounded box that fills gold (<code>text-accent</code>) when checked, with a white checkmark from <code>@tailwindcss/forms</code>. Add <code>inline: true</code> to the blueprint for a wrapping inline layout."
+                    color="text-muted"
+                    class="!mb-0"
+                }}
+            </header>
+
+            <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                <div class="flex flex-col gap-2">
+                    <label class="block text-base font-medium leading-[1.6] text-foreground">
+                        Interests
+                    </label>
+
+                </div>
+            </div>
+
+            <div class="stack-2">
+                {{ partial:typography/h4 content="Blueprint" class="!mb-0" }}
+                <pre class="overflow-x-auto rounded-lg bg-parchment-200 text-foreground border border-neutral/15 p-4 text-xs leading-relaxed"><code>- handle: interests
+  field:
+    display: Interests
+    type: checkboxes
+    options:
+      coastal: 'Coastal walking'
+      mountain: 'Mountain treks'
+      food: 'Food &amp; wine'</code></pre>
+            </div>
+        </section>
+
+        {{# ====================================================
+            CHECKBOXES vs LIVEWIRE
+            ==================================================== #}}
+        <section class="stack-6">
+            <header class="stack-2">
+                {{ partial:typography/h2 content="Checkboxes vs Livewire" }}
+                {{ partial:typography/p_small
+                    content="Same multi-select shape, two different jobs. The Peak partial captures form input (submitted, validated). The Livewire <code>lf-checkbox</code> view is the mobile-stacked variant on the tours filter card — live filter binding, no form submission. Notice the styling diverges: the Livewire boxes use the addon's <code>--lf-*</code> token set (slate surface, parchment border, 16px box) while the Peak ones use project tokens (parchment-50 surface, deep-blue border, 20px box)."
+                    color="text-muted"
+                    class="!mb-0"
+                }}
+            </header>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                {{# Peak checkboxes #}}
+                <div class="stack-3">
+                    {{ partial:typography/h4 content="Peak checkboxes" class="!mb-0" }}
+                    <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                        <div class="flex flex-col gap-2">
+                            <label class="block text-base font-medium leading-[1.6] text-foreground">
+                                Interests
+                            </label>
+                            <div class="flex flex-col gap-3">
+                                <label class="inline-flex items-start gap-3 cursor-pointer group">
+                                    <input type="checkbox" checked class="form-checkbox mt-0.5 size-5 shrink-0 rounded bg-card text-accent border border-text/20 group-hover:border-text/40 focus:ring-accent focus:ring-2 focus:ring-offset-0 transition" />
+                                    <span class="text-base leading-[1.6] text-foreground">Coastal walking</span>
+                                </label>
+                                <label class="inline-flex items-start gap-3 cursor-pointer group">
+                                    <input type="checkbox" class="form-checkbox mt-0.5 size-5 shrink-0 rounded bg-card text-accent border border-text/20 group-hover:border-text/40 focus:ring-accent focus:ring-2 focus:ring-offset-0 transition" />
+                                    <span class="text-base leading-[1.6] text-foreground">Mountain treks</span>
+                                </label>
+                                <label class="inline-flex items-start gap-3 cursor-pointer group">
+                                    <input type="checkbox" checked class="form-checkbox mt-0.5 size-5 shrink-0 rounded bg-card text-accent border border-text/20 group-hover:border-text/40 focus:ring-accent focus:ring-2 focus:ring-offset-0 transition" />
+                                    <span class="text-base leading-[1.6] text-foreground">Food &amp; wine</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    {{ partial:typography/p_small
+                        content="Project tokens · 20px box · form-submitted · validated via blueprint <code>validate</code> rules."
+                        color="text-muted"
+                        class="!mb-0"
+                    }}
+                </div>
+
+                {{# Livewire lf-checkbox #}}
+                <div class="stack-3">
+                    {{ partial:typography/h4 content="Livewire (lf-checkbox)" class="!mb-0" }}
+                    <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                        <div class="flex flex-col gap-2">
+                            <label class="block text-base font-medium leading-[1.6] text-foreground">
+                                Locations
+                            </label>
+                            <div class="grid grid-cols-1 gap-y-4">
+                                <div class="flex items-center">
+                                    <input type="checkbox" checked class="form-checkbox size-4 text-lf-accent bg-lf-input-bg border-lf-border rounded-lf-sm focus:ring-lf-accent focus:ring-1" id="locations-tuscany" name="locations[]" value="tuscany" />
+                                    <label for="locations-tuscany" class="ml-2 text-lf-text">Tuscany <span class="text-lf-muted ml-1">(12)</span></label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="checkbox" class="form-checkbox size-4 text-lf-accent bg-lf-input-bg border-lf-border rounded-lf-sm focus:ring-lf-accent focus:ring-1" id="locations-amalfi-coast" name="locations[]" value="amalfi-coast" />
+                                    <label for="locations-amalfi-coast" class="ml-2 text-lf-text">Amalfi Coast <span class="text-lf-muted ml-1">(7)</span></label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="checkbox" class="form-checkbox size-4 text-lf-accent bg-lf-input-bg border-lf-border rounded-lf-sm focus:ring-lf-accent focus:ring-1" id="locations-dolomites" name="locations[]" value="dolomites" />
+                                    <label for="locations-dolomites" class="ml-2 text-lf-text">Dolomites <span class="text-lf-muted ml-1">(5)</span></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{ partial:typography/p_small
+                        content="<code>--lf-*</code> tokens · 16px box · URL-bound filter state · live in <code>vendor/reachweb/statamic-livewire-filters/.../lf-checkbox.blade.php</code>."
+                        color="text-muted"
+                        class="!mb-0"
+                    }}
+                </div>
+            </div>
+
+            {{ partial:typography/p_small
+                content="<strong>Worth a follow-up:</strong> the two visual treatments could be brought closer together. The Livewire view is a Blade partial we already override in <code>resources/views/vendor/statamic-livewire-filters/</code> — if we want filter checkboxes to match the form checkboxes (same 20px box, same project tokens), retheming <code>lf-checkbox.blade.php</code> would do it."
+                class="!mb-0"
+            }}
+        </section>
+
+        {{# ====================================================
+            TOGGLE
+            ==================================================== #}}
+        <section class="stack-6">
+            <header class="stack-2">
+                {{ partial:typography/h2 content="Toggle" }}
+                {{ partial:typography/p_small
+                    content="<code>vendor/statamic/forms/fields/toggle.antlers.html</code> — visually identical to a single checkbox, semantically a boolean. Drops the outer field label in favour of the blueprint <code>inline_label</code> sitting beside the box. Includes a hidden <code>value=&quot;0&quot;</code> companion so an unchecked toggle still submits a value."
+                    color="text-muted"
+                    class="!mb-0"
+                }}
+            </header>
+
+            <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                <div class="flex flex-col gap-4">
+                    <label class="inline-flex items-start gap-3 cursor-pointer group">
+                        <input type="checkbox" checked class="form-checkbox mt-0.5 size-5 shrink-0 rounded bg-card text-accent border border-text/20 group-hover:border-text/40 focus:ring-accent focus:ring-2 focus:ring-offset-0 transition" />
+                        <span class="text-base font-medium leading-[1.6] text-foreground">
+                            Sign me up for the email newsletter
+                        </span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="stack-2">
+                {{ partial:typography/h4 content="Blueprint" class="!mb-0" }}
+                <pre class="overflow-x-auto rounded-lg bg-parchment-200 text-foreground border border-neutral/15 p-4 text-xs leading-relaxed"><code>- handle: newsletter
+  field:
+    display: Newsletter
+    type: toggle
+    inline_label: 'Sign me up for the email newsletter'</code></pre>
+            </div>
+        </section>
+
+        {{# ====================================================
+            HIDDEN
+            ==================================================== #}}
+        <section class="stack-6">
+            <header class="stack-2">
+                {{ partial:typography/h2 content="Hidden" }}
+                {{ partial:typography/p_small
+                    content="Two patterns. <strong>Static value:</strong> use Statamic's <code>type: hidden</code> with a blueprint <code>default</code> — the partial auto-renders <code>&lt;input type=&quot;hidden&quot;&gt;</code>. <strong>Dynamic per-request value</strong> (e.g. <code>user_id</code> from <code>current_user</code>): emit the hidden input manually in the template and seed the Alpine state via <code>x-init=&quot;form.handle = $el.value&quot;</code> so Precognition picks it up. Don't fabricate values just to satisfy a validator — drop the field instead."
+                    color="text-muted"
+                    class="!mb-0"
+                }}
+            </header>
+
+            <div class="stack-2">
+                {{ partial:typography/h4 content="Blueprint — static" class="!mb-0" }}
+                <pre class="overflow-x-auto rounded-lg bg-parchment-200 text-foreground border border-neutral/15 p-4 text-xs leading-relaxed"><code>- handle: source
+  field:
+    display: Source
+    type: hidden
+    default: 'booking-form'</code></pre>
+
+                {{ partial:typography/h4 content="Antlers — dynamic" class="!mb-0 mt-4" }}
+                <pre class="overflow-x-auto rounded-lg bg-parchment-200 text-foreground border border-neutral/15 p-4 text-xs leading-relaxed"><code>{{ current_user }}
+    &lt;input type="hidden" name="user_id" value="{{ id }}" x-init="form.user_id = $el.value"&gt;
+{{ /current_user }}</code></pre>
+            </div>
+        </section>
+
+        {{# ====================================================
+            FIELD WIDTHS
+            ==================================================== #}}
+        <section class="stack-6">
+            <header class="stack-2">
+                {{ partial:typography/h2 content="Field widths" }}
+                {{ partial:typography/p_small
+                    content="Both forms render fields inside <code>grid grid-cols-1 md:grid-cols-12</code>. The blueprint's <code>width</code> property maps to a col-span: <code>25 → md:col-span-3</code>, <code>33 → md:col-span-4</code>, <code>50 → md:col-span-6</code>, <code>66 → md:col-span-8</code>, <code>75 → md:col-span-9</code>, omitted → full width. Below: two fields at <code>width: 50</code> sit side-by-side at md+."
+                    color="text-muted"
+                    class="!mb-0"
+                }}
+            </header>
+
+            <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
+                    <div class="md:col-span-6 flex flex-col gap-2">
+                        <label class="block text-base font-medium leading-[1.6] text-foreground" for="demo-width-email">Email address</label>
+                        <input type="email" id="demo-width-email" placeholder="your@email.com" class="block w-full rounded-full bg-card px-5 py-3 text-base lg:text-lg text-foreground border border-text/20 placeholder:text-text/40 focus:outline-none focus:ring-2 focus:border-accent focus:ring-accent transition" />
+                    </div>
+                    <div class="md:col-span-6 flex flex-col gap-2">
+                        <label class="block text-base font-medium leading-[1.6] text-foreground" for="demo-width-phone">Phone number</label>
+                        <input type="tel" id="demo-width-phone" placeholder="+61 412 345 678" class="block w-full rounded-full bg-card px-5 py-3 text-base lg:text-lg text-foreground border border-text/20 placeholder:text-text/40 focus:outline-none focus:ring-2 focus:border-accent focus:ring-accent transition" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="stack-2">
+                {{ partial:typography/h4 content="Blueprint" class="!mb-0" }}
+                <pre class="overflow-x-auto rounded-lg bg-parchment-200 text-foreground border border-neutral/15 p-4 text-xs leading-relaxed"><code>- handle: email
+  field:
+    display: 'Email address'
+    type: text
+    input_type: email
+    width: 50
+- handle: phone
+  field:
+    display: 'Phone number'
+    type: text
+    input_type: tel
+    width: 50</code></pre>
+            </div>
+        </section>
+
+        {{# ====================================================
+            VALIDATION STATES
+            ==================================================== #}}
+        <section class="stack-6">
+            <header class="stack-2">
+                {{ partial:typography/h2 content="States" }}
+                {{ partial:typography/p_small
+                    content="Inputs swap to terracotta (<code>border-error</code>, <code>focus:ring-error/20</code>) when Precognition reports an invalid value, with an inline error message below from <code>form.errors.{handle}</code>. Required fields signal with a terracotta asterisk in the label."
+                    color="text-muted"
+                    class="!mb-0"
+                }}
+            </header>
+
+            <div class="rounded-xl border border-neutral/15 bg-background p-6 md:p-8">
+                <div class="max-w-md flex flex-col gap-2">
+                    <label class="block text-base font-medium leading-[1.6] text-foreground" for="demo-invalid">
+                        Email address
+                        <sup aria-label="required" class="text-error">*</sup>
+                    </label>
+                    <input
+                        type="email"
+                        id="demo-invalid"
+                        value="not-an-email"
+                        aria-invalid="true"
+                        class="block w-full rounded-full bg-card px-5 py-3 text-base lg:text-lg text-foreground border border-error focus:border-error focus:ring-error/20 placeholder:text-text/40 focus:outline-none focus:ring-2 transition"
+                    />
+                    <span class="text-error text-sm font-bold">The email address must be a valid email address.</span>
+                </div>
+            </div>
+        </section>
+
+        {{# ====================================================
+            OTHER CONTEXTS — Flux + Livewire Filters
+            ==================================================== #}}
+        <section class="stack-6">
+            <header class="stack-2">
+                {{ partial:typography/h2 content="Other contexts" }}
+                {{ partial:typography/p_small
+                    content="Two other input systems live in the project — separate stacks, different concerns. They're listed here so you know when to reach for what."
+                    color="text-muted"
+                    class="!mb-0"
+                }}
+            </header>
+
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="rounded-lg border border-neutral/15 p-6 stack-2">
+                    {{ partial:typography/h4 content="Flux" class="!mb-0" }}
+                    {{ partial:typography/p_small
+                        content="Used on auth pages (<code>pages/auth/</code>) and account / settings (<code>pages/settings/</code>) — Volt / Livewire pages with <code>wire:model</code> binding. Includes <code>flux:input</code>, <code>flux:select</code>, <code>flux:checkbox</code> et al."
+                        color="text-text"
+                        class="!mb-0"
+                    }}
+                    <p class="!mb-0">
+                        <a href="/flux-components" class="button-inline button-inline--gold">
+                            <span>Flux components reference</span>
+                            <x-lucide-arrow-right aria-hidden="true" />
+                        </a>
+                    </p>
+                </div>
+
+                <div class="rounded-lg border border-neutral/15 p-6 stack-2">
+                    {{ partial:typography/h4 content="Livewire Filters" class="!mb-0" }}
+                    {{ partial:typography/p_small
+                        content="Powers the filter card on the tours listing — drop-in reactive filters bound to URL state. Two select views (<code>lf-select</code> basic, <code>lf-select-advanced</code> searchable combobox); themed via <code>--lf-*</code> CSS variables in <code>resources/css/livewire-filters-theme.css</code>. Not interchangeable with form inputs — scoped to collection filtering."
+                        color="text-text"
+                        class="!mb-0"
+                    }}
+                    <p class="!mb-0 text-sm text-text/70">
+                        See <code>components/tour-filters.antlers.html</code> for live usage.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </section>
+</main>
+<!-- End: /form-inputs.antlers.html -->

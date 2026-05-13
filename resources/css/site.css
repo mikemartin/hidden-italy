@@ -48,22 +48,36 @@
 
     /* Warm accents */
     --color-gold:       #e2ae4d; /* Accent */
-    --color-terracotta: #bb4d00; /* Light: accent-2 */
+    --color-gold-dark:  #9A6D19; /* Accent content (gold text) */
+    --color-terracotta: #bb4d00; /* Light: accent-2, error */
+    --color-sage:       #6d998c; /* Success */
 
     /* Neutrals — slate aliases for the mid-range. The 50 and 900 endpoints
        used to be White Heat overrides; both have been retired in favour of
        `parchment-200` and `foreground` respectively. The remaining slate
        defaults stay available for incidental greys. */
-    --color-neutral: var(--color-slate-800);
-    --color-neutral-100: var(--color-slate-100);
-    --color-neutral-200: var(--color-slate-200);
-    --color-neutral-300: var(--color-slate-300);
-    --color-neutral-400: var(--color-slate-400);
-    --color-neutral-500: var(--color-slate-500);
-    --color-neutral-600: var(--color-slate-600);
-    --color-neutral-700: var(--color-slate-700);
-    --color-neutral-800: var(--color-slate-800);
-    --color-neutral-950: var(--color-slate-950);
+    --color-neutral: var(--color-stone-800);
+    --color-neutral-100: var(--color-stone-100);
+    --color-neutral-200: var(--color-stone-200);
+    --color-neutral-300: var(--color-stone-300);
+    --color-neutral-400: var(--color-stone-400);
+    --color-neutral-500: var(--color-stone-500);
+    --color-neutral-600: var(--color-stone-600);
+    --color-neutral-700: var(--color-stone-700);
+    --color-neutral-800: var(--color-stone-800);
+    --color-neutral-950: var(--color-stone-950);
+
+    --color-zinc-50:  var(--color-stone-50);
+    --color-zinc-100: var(--color-stone-100);
+    --color-zinc-200: var(--color-stone-200);
+    --color-zinc-300: var(--color-stone-300);
+    --color-zinc-400: var(--color-stone-400);
+    --color-zinc-500: var(--color-stone-500);
+    --color-zinc-600: var(--color-stone-600);
+    --color-zinc-700: var(--color-stone-700);
+    --color-zinc-800: var(--color-stone-800);
+    --color-zinc-900: var(--color-stone-900);
+    --color-zinc-950: var(--color-stone-950);
 
     /* ============================================================
        Semantic tokens — Light surface (default).
@@ -75,9 +89,15 @@
     --color-text:           var(--color-blue-d-300);
     --color-muted:          oklch(from var(--color-text) l c h / 0.7);
     --color-accent:         var(--color-gold);
+    --color-accent-content: var(--color-terracotta);
     --color-accent-2:       var(--color-terracotta);
     --color-accent-light:   var(--color-parchment-200);
+    --color-accent-foreground:  var(--color-foreground);
     --color-card:           var(--color-parchment-50);
+
+    /* Status — used by form validation messaging, toasts, inline notices. */
+    --color-success:        var(--color-sage);
+    --color-error:          var(--color-terracotta);
 
     /* `--color-primary` stays a literal brand blue (not surface-scoped) for
        legacy uses like `::selection` and the `text-primary` utility scattered
@@ -103,7 +123,54 @@
     /* --font-weight-black: 900; */
 
     --text-5xl: 2.5rem;
+
+    /* ============================================================
+       Motion design tokens — brand motion identity.
+
+       Personality: Premium archetype — elegant, minimal, sophisticated.
+       0% overshoot anywhere. Entrance pattern is translateY + opacity
+       across the whole site.
+
+       Signature easing
+       ----------------
+       `--ease-standard` is used for 80%+ of motion work — the Premium
+       archetype's standard curve. `--ease-emphasis` is reserved for
+       single dramatic moments (the home-hero curtain rise); its stronger
+       ease-out tail reads as theatrical and shouldn't be applied to
+       small UI motion.
+
+       Duration palette
+       ----------------
+       All within Premium's 350-600ms range, plus a separate dramatic
+       band for hero reveals.
+
+         --duration-quick      380ms   small elements (chip, button)
+         --duration-standard   520ms   default reveal (h1, body, default)
+         --duration-slow       600ms   page-defining moments (hero-h1)
+         --duration-dramatic   1100ms  single hero moments (curtain)
+
+       `reveal.js` defines an additional 440ms "card" timing that sits
+       between quick and standard — used for card grid items so the
+       50ms stagger cascade feels crisp. Kept literal in JS rather than
+       in this palette to keep the public token set to three.
+
+       Sync requirement
+       ----------------
+       `reveal.js` hardcodes the same easing array `[0.4, 0, 0.2, 1]`
+       and duration numbers — keep both files in sync when retuning.
+       Ambient loops (Ken Burns 7000ms, chevron drift 2400ms) and
+       continuous transitions (Splide crossfade 1200ms, pause-icon fade
+       200ms) live outside this palette by design — they're not entrance
+       reveals.
+       ============================================================ */
+    --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+    --ease-emphasis: cubic-bezier(0.22, 1, 0.36, 1);
+    --duration-quick: 380ms;
+    --duration-standard: 520ms;
+    --duration-slow: 600ms;
+    --duration-dramatic: 1100ms;
 }
+
 
 @layer base {
     html {
@@ -173,6 +240,10 @@
         @apply font-display font-bold text-xl md:text-2xl leading-[1.25] md:leading-[1.5];
     }
 
+    .prose h4:not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+        @apply font-display font-bold text-lg md:text-xl leading-[1.25] md:leading-[1.5];
+    }
+
     .prose p:not(:where([class~="not-prose"], [class~="not-prose"] *)),
     .prose li:not(:where([class~="not-prose"], [class~="not-prose"] *)) {
         @apply text-lg md:text-[21px] font-normal leading-[1.5] md:leading-[1.6];
@@ -181,19 +252,100 @@
 
 @import "./livewire-filters-theme.css";
 
-/* Sticky tour sub-nav height — `--sticky-nav-h` is consumed by
-   `scroll-padding-top` on `html` so anchor jumps land below the nav.
-   Single-row layout at every breakpoint (the booking CTA is dropped
-   from the nav on mobile and lives in the banner instead), so one
-   value covers all viewports. */
-:root {
-    --sticky-nav-h: 5rem;
+/* Entrance-animation initial state — `data-reveal-item` elements live inside
+   an `x-reveal` container that runs them through a fade-and-slide-up on
+   first viewport intersection (see `components/reveal.js`). They start
+   hidden so there's no flash before the JS observer fires. The
+   `prefers-reduced-motion` override (and the `<noscript>` block in the
+   layout) reset them to visible for users who never see the animation. */
+[data-reveal-item] {
+    opacity: 0;
+    transform: translateY(16px);
+    will-change: transform, opacity;
 }
 
-html {
-    scroll-padding-top: var(--sticky-nav-h);
+@media (prefers-reduced-motion: reduce) {
+    [data-reveal-item] {
+        opacity: 1;
+        transform: none;
+        will-change: auto;
+    }
 }
 
+/* Ken Burns lite — slow scale on the home hero's active Splide slide image.
+   Runs once per slide activation (no loop, no alternate). The hero's
+   x-data toggles `.is-panning` on the active slide's `.ambient-pan` img,
+   and freezes the outgoing slide's transform inline before the class is
+   removed so it doesn't snap back during the crossfade. Duration matches
+   the Splide autoplay interval (7000ms) so the pan completes just as the
+   next slide starts fading in. Disabled under reduced motion. */
+@keyframes ambient-pan {
+    from { transform: scale(1); }
+    to   { transform: scale(1.06); }
+}
+
+.ambient-pan {
+    transform-origin: center;
+}
+
+.ambient-pan.is-panning {
+    /* Duration intentionally hardcoded to match the Splide autoplay
+       interval in `_hero.antlers.html` (interval: 7000). Update both
+       together. */
+    animation: ambient-pan 7000ms var(--ease-standard) forwards;
+    will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .ambient-pan.is-panning {
+        animation: none;
+        will-change: auto;
+    }
+}
+
+/* Initial-load curtain on the home hero. Applied to the first slide's
+   `bg-black/30` wash so it starts fully opaque (hiding the image even
+   though the image is painted underneath at full opacity — so LCP isn't
+   delayed) and fades down to its resting 30% as the page settles. Only
+   runs once at mount, not on slide rewinds. */
+@keyframes hero-curtain {
+    from { background-color: rgba(0, 0, 0, 1); }
+    to   { background-color: rgba(0, 0, 0, 0.3); }
+}
+
+.hero-curtain {
+    animation: hero-curtain var(--duration-dramatic) var(--ease-emphasis) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero-curtain {
+        animation: none;
+    }
+}
+
+/* Home hero scroll-down chevron — asymmetric "go down" cue for users who
+   may not know to scroll. Slow deliberate descent (0 → 8px), quick return
+   to rest, then a long pause before the next cycle. Reads as a repeated
+   downward gesture rather than a symmetric flutter. Starts after the
+   hero settles (1300ms) so it doesn't compete with the headline reveal —
+   motion that *appears* after the scene stabilises catches the eye more
+   reliably than always-on motion. Self-removes via natural page scroll. */
+@keyframes hero-chevron-cue {
+    0%   { transform: translateY(0); }
+    35%  { transform: translateY(8px); }
+    55%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}
+
+.hero-chevron {
+    animation: hero-chevron-cue 2400ms ease-in-out 1300ms infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero-chevron {
+        animation: none;
+    }
+}
 
 /* Hide scrollbar on horizontal scroll-snap tracks (hero & tours carousels). */
 .no-scrollbar::-webkit-scrollbar { display: none; }
@@ -351,16 +503,47 @@ html {
     to { width: 100%; }
 }
 
-/* Hidden Italy wordmark — uses the SVG as a CSS mask so the colour comes
-   from the surrounding `text-*` utility. The SVG itself ships with
-   white-filled paths; the mask drops the original colour entirely.
-   Pair with a height utility (`h-10`, `h-12`); width follows from
-   `aspect-ratio`. Used by the auth layouts and the footer wordmark. */
+/* Hidden Italy wordmark — used by the footer's giant decorative wordmark
+   only. Uses the SVG as a CSS mask so the colour comes from `text-*`.
+   The interactive nav/header logo uses the inline `_logo.antlers.html`
+   partial and its `.brand-logo` rules below. */
 .brand-wordmark {
     aspect-ratio: 329 / 71;
     background-color: currentColor;
     -webkit-mask: url('../svg/hidden-italy-logo.svg') no-repeat center / contain;
     mask: url('../svg/hidden-italy-logo.svg') no-repeat center / contain;
+}
+
+/* Interactive Hidden Italy logo — inline SVG with the hiker glyph (the
+   figure standing in place of the "i" in Hidden) carved out as its own
+   path. The wordmark stays static; the hiker takes a single subtle step
+   on hover/focus as a small brand-affirming delight. Reduced-motion
+   users get a static logo (no animation). */
+.brand-logo-svg {
+    aspect-ratio: 303 / 66;
+}
+
+.brand-logo-svg path {
+    fill: currentColor;
+}
+
+@keyframes brand-logo-step {
+    0%   { transform: translateY(0); }
+    35%  { transform: translateY(-2px); }
+    70%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}
+
+.brand-logo:hover .brand-logo-figure,
+.brand-logo:focus-visible .brand-logo-figure {
+    animation: brand-logo-step 500ms var(--ease-standard);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .brand-logo:hover .brand-logo-figure,
+    .brand-logo:focus-visible .brand-logo-figure {
+        animation: none;
+    }
 }
 
 /* Transparent header overlay was previously redefined here, but the site
@@ -411,4 +594,96 @@ dialog.profile-bio-modal > div.absolute[class*="end-0"] {
    sit clearly forward of the page. */
 [data-flux-modal] > dialog::backdrop {
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Flux navlist item — replace Flux's default zinc-tinted hover/active
+   backgrounds with our parchment surface. Active text colour comes from
+   `--color-accent-content` (terracotta in the @theme block) via Flux's
+   own `data-current:text-(--color-accent-content)` rule, so we only
+   need to override the background here. Scoped to the data attribute so
+   it doesn't bleed into other Flux components. */
+[data-flux-navlist-item]:hover,
+[data-flux-navlist-item][data-current] {
+    background-color: var(--color-parchment-200);
+}
+
+/* Mobile nav drawer content cascade — the three main sections (header,
+   nav list, footer cluster) fade up with a 100ms-stagger after the
+   drawer slides in. Drawer slide + backdrop fade are driven by Alpine
+   `x-transition` classes in `navigation/_main_mobile.antlers.html`;
+   these rules add the secondary motion layer the brand needs (per
+   `--ease-standard` and `--duration-quick`). Reduced motion users skip
+   the cascade entirely. */
+.mobile-nav-stagger {
+    opacity: 0;
+    transform: translateY(12px);
+    transition:
+        opacity var(--duration-quick) var(--ease-standard),
+        transform var(--duration-quick) var(--ease-standard);
+}
+
+.mobile-nav-drawer.is-open .mobile-nav-stagger {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.mobile-nav-drawer.is-open .mobile-nav-stagger-1 { transition-delay: 100ms; }
+.mobile-nav-drawer.is-open .mobile-nav-stagger-2 { transition-delay: 200ms; }
+.mobile-nav-drawer.is-open .mobile-nav-stagger-3 { transition-delay: 300ms; }
+
+@media (prefers-reduced-motion: reduce) {
+    .mobile-nav-stagger {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}
+
+/* Tour filter card — desktop renders the card inline; mobile turns it
+   into a bottom-sheet drawer. Always rendered (no display:none) so CSS
+   transitions can run when `.is-open` toggles. Default state on mobile
+   is off-screen below with pointer-events disabled; `.is-open` slides
+   it up with a brand-standard 520ms transition. Reduced-motion users
+   get instant show/hide. The backdrop fade is handled by Alpine
+   `x-transition` in the template (matches the mobile menu pattern). */
+@media (max-width: 47.99rem) {
+    .filter-card {
+        position: fixed;
+        left: 0.25rem;
+        right: 0.25rem;
+        bottom: 0.25rem;
+        z-index: 50;
+        max-height: 85vh;
+        overflow-y: auto;
+        /* Border-radius is set on the element via the `rounded-lg` class
+           so all four corners get the same treatment; closed-state
+           translate clears the 0.25rem bottom margin to keep the drawer
+           fully off-screen. */
+        transform: translateY(calc(100% + 0.25rem));
+        opacity: 0;
+        pointer-events: none;
+        transition:
+            transform var(--duration-standard) var(--ease-standard),
+            opacity var(--duration-quick) var(--ease-standard);
+    }
+
+    .filter-card.is-open {
+        /* `--drag-y` is set inline while the user is dragging the grab
+           handle; when dragging ends the inline style is cleared and the
+           CSS variable falls back to 0, so the snap-back rides the
+           regular transition above. */
+        transform: translateY(var(--drag-y, 0));
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .filter-card.is-dragging {
+        transition: none;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .filter-card {
+            transition: none;
+        }
+    }
 }

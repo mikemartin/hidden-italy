@@ -105,8 +105,8 @@ tabs:
               display: 'Walking Grade Filter'
               options:
                 moderate: 'Moderate (0-2)'
-                intermediate: 'Intermediate (2-3)'
-                challenging: 'Challenging (3-5)'
+                intermediate: 'Intermediate (3-4)'
+                challenging: 'Challenging (5)'
               instructions: 'Used only for filtering; not part of entry data.'
               width: 50
               visibility: hidden
@@ -292,8 +292,8 @@ tabs:
                                   type: checkboxes
                                   display: 'Meals Included'
                                   instructions: 'Select the meals provided on this day.'
-                    history:
-                      display: History
+                    overview:
+                      display: Overview
                       instructions: 'Tell the story behind the tour route.'
                       icon: Info
                       image: history.png
@@ -469,7 +469,7 @@ tabs:
                                           instructions: "Renamed from `images` to dodge a Statamic OrderedQueryBuilder leak with the history block's `images` field."
                     leader:
                       display: 'Tour Leader'
-                      instructions: 'Introduce the guide leading this tour.'
+                      instructions: 'Introduce the guide leading this tour. Shows leader from Overview tab.'
                       icon: leader
                       image: leader.png
                       fields:
@@ -479,15 +479,6 @@ tabs:
                             type: text
                             display: Title
                             default: 'Tour Leader'
-                        -
-                          handle: person
-                          field:
-                            type: entries
-                            collections:
-                              - people
-                            display: Person
-                            instructions: "Links to the person's bio in the People collection."
-                            max_items: 1
                     essentials:
                       display: Essentials
                       instructions: 'Practical info travellers need to book.'
@@ -636,10 +627,10 @@ tabs:
                       image: testimonials.png
                       fields:
                         -
-                          handle: title
+                          handle: heading
                           field:
                             type: text
-                            display: Title
+                            display: Heading
                             default: 'What our travellers are saying'
                         -
                           handle: testimonials
@@ -661,10 +652,10 @@ tabs:
                             display: 'Section Heading'
                             default: 'Frequently Asked Questions'
                         -
-                          handle: tour_questions
+                          handle: questions
                           field:
                             type: grid
-                            display: 'Tour Questions'
+                            display: Questions
                             mode: stacked
                             add_row: 'Add Question'
                             instructions: 'Questions specific to this tour.'
@@ -686,13 +677,12 @@ tabs:
                                   type: bard
                                   display: Answer
                         -
-                          handle: common_questions
+                          handle: show_common_questions
                           field:
-                            type: entries
-                            collections:
-                              - questions
-                            display: 'Common Questions'
-                            instructions: 'Select shared questions from the Questions collection. These are appended after tour-specific questions.'
+                            type: toggle
+                            default: true
+                            display: 'Show common questions?'
+                            instructions: 'Automatically show common questions for the tour type.'
   sidebar:
     display: Sidebar
     sections:
@@ -705,6 +695,20 @@ tabs:
               localizable: true
               validate: 'max:200'
               show_regenerate: true
+          -
+            handle: price
+            field:
+              type: text
+              display: Price
+              instructions: 'Free-form, e.g. "$4,950 AUD".'
+          -
+            handle: show_from
+            field:
+              type: toggle
+              display: 'Show "From" prefix'
+              default: true
+              instructions: 'Prefixes the price with "From " when the tour has variants or starting prices.'
+          
           -
             handle: simple_likes
             field:
@@ -731,5 +735,14 @@ tabs:
                 - locations
               display: Location
               max_items: 1
+              create: false
+              mode: select
+          -
+            handle: landscapes
+            field:
+              type: terms
+              taxonomies:
+                - landscapes
+              display: Landscapes
               create: false
               mode: select

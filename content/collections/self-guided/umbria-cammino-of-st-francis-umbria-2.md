@@ -16,29 +16,6 @@ overview:
       -
         type: text
         text: "The second section of the Cammino of St Francis, this lovey, week-long walk takes you through 'the green heart of Italy'.  Leaving Spoleto via the 13th century Ponte delle Torri bridge, you finish a week later, staying in a lovely 3-star hotel in the centre of the ancient town of Rieti.\_ "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Along the way, you will visit some extraordinary places including one of central Italy’s finest abbeys (founded in the 8th century); one of Europe’s highest waterfalls (created by the Romans in the 3rd century BC); some gorgeous hilltop villages that date from the Dark Ages; a dreamy lake that is home to the Italian rowing team and a thousand year old tree believed to have been blessed by St Francis himself.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The most memorable feature of this itinerary, though, is the peaceful, unspoilt nature you walk through: the evergreen forests of the Monteluco National Park, the meadows along the banks of the Nera River, the lake shores and the woods overlooking Rieti.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: "Umbria 2 walk is the first section of the Cammino of St Francis, a marvellous 258 km walk that starts in Assisi and finishes in Rome, following in the footsteps of Italy's most beloved saint.  The whole three-week walk can be broken up into three one-week sections: Umbria 1, Umbria 2 and Lazio."
-  -
-    type: paragraph
 inclusions:
   - 'Six nights accommodation'
   - 'All breakfasts included'
@@ -50,7 +27,44 @@ inclusions:
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: central-italy
+landscapes:
+  - countryside
+  - lakes
 page_builder:
+  -
+    id: 911c677e90822600
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Along the way, you will visit some extraordinary places including one of central Italy’s finest abbeys (founded in the 8th century); one of Europe’s highest waterfalls (created by the Romans in the 3rd century BC); some gorgeous hilltop villages that date from the Dark Ages; a dreamy lake that is home to the Italian rowing team and a thousand year old tree believed to have been blessed by St Francis himself.\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The most memorable feature of this itinerary, though, is the peaceful, unspoilt nature you walk through: the evergreen forests of the Monteluco National Park, the meadows along the banks of the Nera River, the lake shores and the woods overlooking Rieti.\_"
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: "Umbria 2 walk is the first section of the Cammino of St Francis, a marvellous 258 km walk that starts in Assisi and finishes in Rome, following in the footsteps of Italy's most beloved saint.  The whole three-week walk can be broken up into three one-week sections: Umbria 1, Umbria 2 and Lazio."
+      -
+        type: paragraph
+    title: 'Abbeys, waterfalls and hilltop villages'
+    images:
+      - tours/umbria-cammino-of-st-francis-umbria-2/f1020015.jpg
+      - tours/umbria-cammino-of-st-francis-umbria-2/img_5356.jpg
+      - tours/umbria-cammino-of-st-francis-umbria-2/14.8.jpg
   -
     id: mloocwbk
     title: 'Highlights of the Umbria 2 tour'
@@ -94,12 +108,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Spoleto'
+        title: 'Arrive in Spoleto'
         description: 'Arrival in Spoleto, well-connected to Florence and Rome.  This charming city has a long and fascinating history: besieged by Hannibal and his elephants, it was the seat of a Lombard duchy and had the 19 year old Lucrezia Borgia as it’s governor.  These days it is best known for its summer festival, the Festival dei Due Mondi, Italy’s largest international arts event.'
         photo: tours/umbria-cammino-of-st-francis-umbria-2/1.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Walk to the Nera Valley'
+        title: 'Walk to the Nera Valley'
         description: 'After a steep climb to the Franciscan convent of Monteluco (built around a cave in which St Francis lived), this walk crosses forests, along paths that traverse mountain-sides with breath-taking views of the Tiber and Nera valleys.  After a steep downhill path, you arrive at a hamlet and then follow the Nera River to a gorgeous, small hilltop town.'
         duration: 5
         distance: 21
@@ -109,7 +123,7 @@ page_builder:
         photo: tours/umbria-cammino-of-st-francis-umbria-2/img_5409.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk down the Nera River'
+        title: 'Walk down the Nera River'
         description: 'Today’s walk takes you along a flat trail that passes through a national park beside the Nera River to a pretty medieval village sitting on a rocky pinnacle above the river.  Along the way, you will be able to detour to visit a spectacularly sited abbey founded in the 8th century considered one of the most beautiful in central Italy, where you can have lunch and enjoy the views. (5 hrs; 18 kms; min: 228 mts, max: 314 mts)'
         duration: 5
         distance: 18
@@ -119,7 +133,7 @@ page_builder:
         photo: tours/umbria-cammino-of-st-francis-umbria-2/7.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk to a lake'
+        title: 'Walk to a lake'
         description: 'A spectacular waterfall created when the Romans drained the marshlands of Rieti in 267 BC and a serene lake are the highlights of today’s walk.  The undulating trail follows the Nera River along quiet country roads and marked pathways to the lake, home of the Italian national rowing team, where you’ll stay in a hotel on the lake shores.  (4 hrs; 14 kms; min: 213 mts, max: 391 mts).'
         duration: 4
         distance: 14
@@ -129,7 +143,7 @@ page_builder:
         photo: tours/umbria-cammino-of-st-francis-umbria-2/sofia-msnxoysxjsq-unsplash.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Discover the Rieti valley'
+        title: 'Discover the Rieti valley'
         description: 'The day’s walk is probably the most demanding of the week, but is also one of the most spectacular.  It starts by crossing the border from Umbria into the region of Lazio, climbing to an ancient village perched high above the lake.  It continues to a remote  forest and an ancient tree that is believed to have sheltered St Francis during a storm.  The long downhill walk is rewarded with an overnight in a medieval village which has beautiful views across the Rieti valley.'
         duration: 5
         distance: 20
@@ -139,7 +153,7 @@ page_builder:
         photo: tours/umbria-cammino-of-st-francis-umbria-2/img_5356.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Walk to Rieti'
+        title: 'Walk to Rieti'
         description: 'Today takes on a lovely walk through forests, fields and farms to another charming town, followed by a visit to a 13th century sanctuary where St Francis took refuge in the later stages of his life.  It finishes in the buzzy centre of Rieti, with shops, restaurants, a rich history and a beautiful cathedral.  (4.5 hrs; 18 kms; min: 390 mts, max: 716 mts)'
         duration: 5
         distance: 18
@@ -149,7 +163,7 @@ page_builder:
         photo: tours/umbria-cammino-of-st-francis-umbria-2/p4280723-a.jpg
       -
         id: mlop8uiy
-        title: 'Day 7:  Depart Rieti'
+        title: 'Depart Rieti'
         description: "After breakfast, you'll be free to continue your holiday.   Rieti is well connected by regular train to Rome and the rest of Italy."
         meals_included:
           - breakfast
@@ -162,7 +176,7 @@ page_builder:
     tabs:
       -
         id: mHb4rqFxO0jDx8CKjPTWK
-        title: Walks
+        title: 'Exceptional walkings'
         total_distance: 91
         total_elevation: 1982
         grade: 4
@@ -184,7 +198,7 @@ page_builder:
         enabled: true
       -
         id: dJqX1COMa8d7m_txezz-P
-        title: Accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -198,7 +212,7 @@ page_builder:
         enabled: true
       -
         id: 2vX4JZSJLTgzqr7rufXnX
-        title: Food
+        title: 'Authentic food'
         description:
           -
             type: paragraph
@@ -276,8 +290,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: h-IyYhsF6gtsu-fdDVHyk
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - 82ffcd37-2ac7-4803-b2f4-042a61d8aa6e
       - a332228f-c6ab-4251-b5b1-f1c2756165d6

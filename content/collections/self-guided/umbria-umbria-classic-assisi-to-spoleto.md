@@ -16,24 +16,6 @@ overview:
       -
         type: text
         text: "Often referred to as 'the green heart of Italy', Umbria is a beautiful, largely unspoilt, region of rolling hills, woods, streams and valleys.\_ Within its borders are a dozen or so classic hill-towns, each resolutely individual and crammed with artistic and architectural treasures that frequently rival bigger and more famous cities."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Starting in Assisi and finishing in Spoleto, this wonderful walk will take through the most alluring part of the region: the Valle Umbra (the Umbra Valley).  Following well-marked trails, you walk through a beguiling landscape of rolling hills dotted with olive groves and draped with grape vines, with mountains above you and valleys below.  Staying in superior accommodation in historic palazzi, you will also have plenty of time explore some of the region's most charming towns and admire some of the best art in central Italy, including works by Giotto, Perugino, Pinturicchio and Raphael. "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Of course, we mustn't forget the food!  You'll also have plenty of opportunities to sample the region's celebrated cuisine, which tends to be simple and seasonal home-cooking.\_ Umbria is best known for its vegetables (including lentils from Castellucio and beans from Trasimeno); its game (pigeon; pheasant and wild boar); and its truffles (both black and white); but the crowning glory is its porchetta (whole suckling pig, pit roasted)!\_ Umbria is also well-known for its wines, including the red Sagrantino and the white Grechetto."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'What more could you ask for?'
 inclusions:
   - 'Six nights accommodation'
   - 'Generous breakfasts included'
@@ -45,7 +27,38 @@ inclusions:
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: central-italy
+landscapes:
+  - countryside
 page_builder:
+  -
+    id: e4d3271a36f498d1
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Starting in Assisi and finishing in Spoleto, this wonderful walk will take through the most alluring part of the region: the Valle Umbra (the Umbra Valley).  Following well-marked trails, you walk through a beguiling landscape of rolling hills dotted with olive groves and draped with grape vines, with mountains above you and valleys below.  Staying in superior accommodation in historic palazzi, you will also have plenty of time explore some of the region's most charming towns and admire some of the best art in central Italy, including works by Giotto, Perugino, Pinturicchio and Raphael. "
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Of course, we mustn't forget the food!  You'll also have plenty of opportunities to sample the region's celebrated cuisine, which tends to be simple and seasonal home-cooking.\_ Umbria is best known for its vegetables (including lentils from Castellucio and beans from Trasimeno); its game (pigeon; pheasant and wild boar); and its truffles (both black and white); but the crowning glory is its porchetta (whole suckling pig, pit roasted)!\_ Umbria is also well-known for its wines, including the red Sagrantino and the white Grechetto."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'What more could you ask for?'
+    title: 'Through the alluring Valle Umbra'
+    images:
+      - tours/umbria-cammino-of-st-francis-umbria-2-1/borgo-della-marmotta-1.jpg
+      - tours/umbria-cammino-of-st-francis-umbria-2-1/clitumno-2089647_1920.jpg
+      - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020012.jpg
   -
     id: mloocwbk
     title: 'Highlights of the Umbria Classic'
@@ -89,12 +102,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Spoleto'
+        title: 'Arrive in Spoleto'
         description: 'Even without St Francis Assisi would be irresistible, a charming medieval town nestled under the forested peak of Monte Subasio. However, the monuments that have been dedicated to the saint make Assisi a highlight of any visit to Umbria. The Basilica dedicated to Saint Francis contains some of the masterpieces of Western art, including seminal works by Cimabue, Giotto, Simone Martini and the Lorenzetti brothers.'
         photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020011.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Walk under Monte Subasio'
+        title: 'Walk under Monte Subasio'
         description: "This itinerary starts with a steep climb up to a beautiful hermitage surrounded by forests that was a place of retreat for St Francis.  From here the path contours around the side of Mt Subasio with wide views across the valley before descending to a beautiful hill-town founded by the Romans. You'll have time to visit the 13th century church with Pinturicchio's dazzling fresco cycle.  Please note a shorter version, with less climbing, is included in the notes (4 hrs; 11.5 kms; 220 mts)."
         duration: 5
         distance: 15
@@ -104,7 +117,7 @@ page_builder:
         photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020014.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk across the valley'
+        title: 'Walk across the valley'
         description: "A gentle walk following country roads across the valley floor, leaving via a magnificent Roman gate and passing through wheat fields to a small town on the plain, one of the hidden treasures of the region. This sleepy town has two of Umbria's finest Romanesque churches as well as impressive Roman mosaics and a delightful little 19th century theatre."
         duration: 4
         distance: 14
@@ -114,7 +127,7 @@ page_builder:
         photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020015.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:'
+        title: 'Pass through vineyards'
         description: "Today you walk up rolling hills to one of the viticulture centres of the region, which has beautiful views over the valley.  On the way, you pass through the vineyards that have made the town famous. The town also has a rich artistic heritage out of all proportion to its size, including a beautiful fresco cycle of St Francis' life by the influential Florentine artist Gozzoli."
         duration: 2
         distance: 7
@@ -124,7 +137,7 @@ page_builder:
         photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020018.jpg
       -
         id: mlop5205
-        title: "Day 5:  Stay in a 'borgo'"
+        title: "Stay in a 'borgo'"
         description: 'Descending from the hills, you cross the valley floor again, following a medieval path through wheat fields, past quiet farming villages and springs from a river source sacred to the Romans which inspired poets from Virgil to Byron, before climbing up to your accommodation.  Dinner is included tonight.  Please note that this walk can be shortened with an night in an excellent 4-star hotel along the way (7kms + 14 kms).'
         duration: 5
         distance: 21
@@ -135,7 +148,7 @@ page_builder:
         photo: tours/umbria-umbria-classic-assisi-to-spoleto/eggi-view.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Walk to Spoleto'
+        title: 'Walk to Spoleto'
         description: "The last walk picks up the 'Sentiero degli Ulivi', the Trail of the Olives, winding through olive groves, around the side of the hills past a string of villages before arriving in Spoleto.  You enter this gorgeous city through the lower medieval walls and climb up to the cathedral square (there is an escalator as well!)."
         duration: 4
         distance: 15
@@ -145,7 +158,7 @@ page_builder:
         photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1030001.jpg
       -
         id: mlop8uiy
-        title: 'Day 7:  Depart Spoleto'
+        title: 'Depart Spoleto'
         description: "After breakfast, you'll be free to continue your holiday.   Spoleto is well connected by regular train to Florence, Rome and the rest of Italy."
         meals_included:
           - breakfast
@@ -158,7 +171,7 @@ page_builder:
     tabs:
       -
         id: _mDmVfayfhOdoqr-fftAm
-        title: Walks
+        title: 'Exceptional walkings'
         total_distance: 73
         total_elevation: 1312
         grade: 0
@@ -180,7 +193,7 @@ page_builder:
         enabled: true
       -
         id: nkXvBhjxld4s_M-3z-F3V
-        title: Accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -192,7 +205,7 @@ page_builder:
         enabled: true
       -
         id: 1grdU8mk7fgoQdVPvS6M6
-        title: Food
+        title: 'Authentic food'
         description:
           -
             type: paragraph
@@ -267,8 +280,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: QvH7NPEvhgUO4Xu3_g4aD
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - 8f7dbb98-902f-43ad-822e-d213ef44b785
       - 3fcc881c-469b-4226-aac6-9072fd6de343

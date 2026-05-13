@@ -57,8 +57,10 @@
 
         {{ partial:page_builder/block class="stack-space-collapse gap-y-12 md:gap-y-14" }}
             {{ if block:title }}
-                <header class="span-content text-center">
-                    {{ partial:typography/h2 :content="block:title" color="text-foreground" }}
+                <header class="span-content text-center" x-reveal>
+                    <div data-reveal-item data-reveal-preset="h1">
+                        {{ partial:typography/h2 :content="block:title" color="text-foreground" }}
+                    </div>
                 </header>
             {{ /if }}
 

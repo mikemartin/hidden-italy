@@ -19,24 +19,6 @@ overview:
       -
         type: text
         text: "Sardinia is the second largest island in the Mediterranean, suspended off the Italian coast between Corsica and Sicily. \_It is an island of contrasts, with buzzy cities like Cagliari, its capital, a beautiful port with ancient origins; spectacular coastline; and rugged, brooding mountains, where the 'real' Sardinians live."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_Apart from its stunning landscapes, Sardinia also has a long and interesting history, most of which has been under the domination of foreign powers from the Phoenicians to the Spanish, all of whom have left their mark on this fascinating region, not least on the island's marvellous cuisine."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_Lead by a very qualified and pasionate local guide, this marvellous tour really does uncover some of the secrets of Sardinia, taking you from the bustle of Cagliari to the hidden delights on the south-west; and then from there into the mountains (the heart of the island); finishing with three days on the celebrated Costa Smeralda.\_ What more could you want??"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -59,7 +41,37 @@ gallery:
   - tours/sardinia-cagliari-to-the-costa-smeralda/img_5840.jpg
   - tours/sardinia-cagliari-to-the-costa-smeralda/img_5769-(2).jpg
   - tours/sardinia-cagliari-to-the-costa-smeralda/78.jpg
+leader: 436787ff-89d4-438e-bf50-81c3672256cc
 page_builder:
+  -
+    id: 3ac59855e292802f
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "\_Apart from its stunning landscapes, Sardinia also has a long and interesting history, most of which has been under the domination of foreign powers from the Phoenicians to the Spanish, all of whom have left their mark on this fascinating region, not least on the island's marvellous cuisine."
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "\_Lead by a very qualified and pasionate local guide, this marvellous tour really does uncover some of the secrets of Sardinia, taking you from the bustle of Cagliari to the hidden delights on the south-west; and then from there into the mountains (the heart of the island); finishing with three days on the celebrated Costa Smeralda.\_ What more could you want??"
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "\_"
+    title: 'Stunning landscapes and a fascinating past'
+    images:
+      - tours/sardinia-cagliari-to-the-costa-smeralda/img_5939.jpg
+      - tours/sardinia-cagliari-to-the-costa-smeralda/hotel-1.jpg
+      - tours/sardinia-cagliari-to-the-costa-smeralda/img_5840.jpg
   -
     id: mlpxjjup
     title: 'Sardinia guided tour highlights'
@@ -103,14 +115,14 @@ page_builder:
     days:
       -
         id: mlpyl0hm
-        title: 'Day 1:  Arrive in Cagliari'
+        title: 'Arrive in Cagliari'
         description: 'Our exploration of Sardinia starts with two nights in the capital Cagliari, a buzzy but relaxed port that DH Lawrence linked to Jerusalem, “a strange and rather wonderful city”. We stay in a classic 4-star hotel on the edge of the old town, a short walk from the harbour and the medieval district. We will meet in the foyer of the hotel at 19.00 for introductions before walking to a lovely nearby restaurant for dinner.'
         meals_included:
           - dinner
         photo: tours/sardinia-cagliari-to-the-costa-smeralda/02.jpg
       -
         id: mlpym850
-        title: 'Day 2:  Explore Cagliari'
+        title: 'Explore Cagliari'
         description: 'We will be taken on a guided walk through the historical centre of Cagliari, including a visit to its extraordinary archaeological museum and finishing with a light lunch on the bastions with spectacular views over the city and the surrounding coast. The evening is free.'
         meals_included:
           - breakfast
@@ -118,7 +130,7 @@ page_builder:
         photo: tours/sardinia-cagliari-to-the-costa-smeralda/04.jpg
       -
         id: mlpynee9
-        title: 'Day 3:  Drive south'
+        title: 'Drive south'
         description: 'Today we drive south, past lagoons filled with pink flamingos, following some of the most pristine and beautiful coastline in Europe. On the way we will stop for a lovely walk along the coast, picking up a Roman road before finishing at a lovely beach.  After a picnic lunch, we drive to the southern tip of Sardinia, taking a ferry short hop to a very small island, our base for the next three nights. The evening is free to explore one of the most pleasant Italian towns.'
         duration: 2
         distance: 6
@@ -129,7 +141,7 @@ page_builder:
         photo: tours/sardinia-cagliari-to-the-costa-smeralda/14.jpg
       -
         id: mlpypuym
-        title: 'Day 4:  Walk to a Phoenician temple'
+        title: 'Walk to a Phoenician temple'
         description: 'This morning we take a ferry back to the mainland then a spectacular drive above the south-western cliffs of mainland Sardinia. We enjoy an undulating loop walk which takes us out through a forested valley and then back along a ridge, before descending to the well-preserved remains of a Phoenician/Roman temple, which stands isolated in a green valley.  After a picnic lunch, we’ll head back to our base, where the evening is free.'
         duration: 4
         distance: 13
@@ -140,7 +152,7 @@ page_builder:
         photo: tours/sardinia-cagliari-to-the-costa-smeralda/38.6.jpg
       -
         id: mlpyuve7
-        title: 'Day 5:  Explore the island'
+        title: 'Explore the island'
         description: "This morning we walk from the village across the northern tip of the island, following a winding trail that takes us down to a tiny bay.  On our way back to town, we visit the island's only winery, where we'll have a light lunch while tasting some of our hosts' fine wines. After lunch, you’ll have the option of getting a lift or continuing back to town on foot.  In the evening we will have an alfresco dinner at the town’s best restaurant."
         duration: 3
         distance: 9
@@ -152,7 +164,7 @@ page_builder:
         photo: tours/sardinia-cagliari-to-the-costa-smeralda/caprera-1.jpg
       -
         id: mlpyzzky
-        title: 'Day 6:  Drive into the mountains'
+        title: 'Drive into the mountains'
         description: "Today we leave the island, and drive across the plains to visit one of the most extraordinary Bronze Age sites in Sardinia.  From here we drive up through the spectacular Gennargentu Mountains, stopping for lunch at a lovely, family-owned vineyard, and then continue on to the Supramonte mountains.  Our accommodation for the next four days is in one of Sardinia’s most celebrated hotels, a family-run, 'country house' in the heart of the walking country.  Dinner is at our accommodation."
         meals_included:
           - breakfast
@@ -161,7 +173,7 @@ page_builder:
         photo: tours/sardinia-cagliari-to-the-costa-smeralda/hotel-1.jpg
       -
         id: mlpz8t18
-        title: 'Day 7:  Take in the views!'
+        title: 'Take in the views!'
         description: "Today we will be picked up from the hotel by two jeeps by local guide Fabrizio and his fabulous team, and driven up to the mountains above the town, the Supramonte, the north tip of the Gennargentu range.  We'll be taken on a walk with spectacular views over half of Sardinia. We’ll then have a picnic lunch before heading back to the base, where the rest of the afternoon is free.  Dinner is at our accommodation."
         duration: 3
         distance: 7
@@ -173,7 +185,7 @@ page_builder:
         photo: tours/sardinia-cagliari-to-the-costa-smeralda/56.jpg
       -
         id: mlpzcmyy
-        title: 'Day 8:  Explore the local traditions'
+        title: 'Explore the local traditions'
         description: 'Today we will be picked from our accommodation by Fabrizio and his team for a remarkable day exploring the heartland of Sardinia: its rugged mountains; its isolated villages and its ancient traditions.  This will include visits to the famous murals of Orgosolo (once a bandit stronghold) and the mask museum that celebrates the districts long history. We will have an outdoor lunch with some local shepherds.  Dinner is at our accommodation.'
         meals_included:
           - breakfast
@@ -182,7 +194,7 @@ page_builder:
         photo: tours/sardinia-cagliari-to-the-costa-smeralda/62.jpg
       -
         id: mlpze0ii
-        title: "Day 9:  Visit the island's most fascinating site"
+        title: "Visit the island's most fascinating site"
         description: 'This morning Fabrizio will take us on one of the area’s classic walks heading up a long valley behind our hotel, before climbing up to Mt Tiscali, a ridge where the remains of two prehistoric settlements are hidden in a huge limestone cavern – a completely stunning and unexpected sight.  After a barbeque lunch, we’ll head back to our hotel, allowing time for a swim in the pool and a relax before dinner.'
         duration: 3
         distance: 7
@@ -194,7 +206,7 @@ page_builder:
         photo: tours/sardinia-cagliari-to-the-costa-smeralda/img_5939.jpg
       -
         id: mlpzfc6o
-        title: 'Day 10:  Head for the Costa Smeralda'
+        title: 'Head for the Costa Smeralda'
         description: 'This morning we leave the mountains behind us and head north to one of the most celebrated bits of coastline in Europe, the Costa Smeralda, which has been a ‘jetset’ destination since it was developed by the Aga Khan in the 1960s, driving to our base for the next three days.   We will have lunch in an agriturismo nearby.  Our accommodation is in a charming 4-star hotel in the beautiful surrounds of Cannigione.'
         meals_included:
           - breakfast
@@ -202,7 +214,7 @@ page_builder:
         photo: tours/sardinia-cagliari-to-the-costa-smeralda/77.jpg
       -
         id: mlpzmp2f
-        title: 'Day 11:  Walk along the Costa Smeralda'
+        title: 'Walk along the Costa Smeralda'
         description: "Today we will be transferred to the northeastern tip of the Island where we'll take a loop walk that starts and finishes at Golfo Aranci, a lovely coastal town.  Our walk takes us along coastal and valley path with scenic views."
         duration: 3
         distance: 7
@@ -213,7 +225,7 @@ page_builder:
         photo: tours/sardinia-cagliari-to-the-costa-smeralda/img_5769-(2).jpg
       -
         id: mlpzo8or
-        title: 'Day 12:  the grande finale!'
+        title: 'the grande finale!'
         description: "As a finale, today we'll have a relaxing day out on a boat, crossing the bay to explore the archipelago of La Maddalena that makes up the northern tip of Sardinia. Apart from enjoying the truly beautiful scenery, this will include the option of a swim in the blue Mediterranean Sea. Lunch will be served on board.  In the evening, we will regroup for our farewell dinner."
         meals_included:
           - breakfast
@@ -222,7 +234,7 @@ page_builder:
         photo: tours/sardinia-cagliari-to-the-costa-smeralda/78.jpg
       -
         id: mlpzrq9k
-        title: 'Day 13:  Transfer to Olbia'
+        title: 'Transfer to Olbia'
         description: "After breakfast, we’ll transfer you to nearby Olbia an hour's drive away which has an airport (we will be arriving around 10:00) and a port with ferries back to mainland Italy: to Genoa, La Spezia, Livorno (Tuscany) and Civitavecchia (Rome)."
         photo: tours/sardinia-cagliari-to-the-costa-smeralda/75.jpg
         meals_included:
@@ -235,7 +247,7 @@ page_builder:
     tabs:
       -
         id: fNQh20jsh9lDQRHXc18jv
-        title: Walks
+        title: 'Exceptional walkings'
         grade: 0
         description:
           -
@@ -249,7 +261,7 @@ page_builder:
         enabled: true
       -
         id: LsCRaTktpYGsHVKdMgo7_
-        title: Accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -263,7 +275,7 @@ page_builder:
         enabled: true
       -
         id: xA6dCRsHzUQa5Rl8P-LAa
-        title: Food
+        title: 'Authentic food'
         description:
           -
             type: paragraph
@@ -280,7 +292,7 @@ page_builder:
   -
     id: usUm--pyAOLbxEXIGOs3A
     title: 'Tour Leader'
-    person: 9a1428c1-852b-434f-9547-2feb06269b99
+    person: 436787ff-89d4-438e-bf50-81c3672256cc
     type: leader
     enabled: true
   -
@@ -323,8 +335,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: epecYpX1z3Uko099RuFZ4
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - e6acc32d-2bf4-455c-b7f6-34de730a1f75
       - a728fa11-3eff-47a6-b290-99a3edab23ef

@@ -9,11 +9,11 @@
 <!-- /components/_notification.antlers.html -->
 <div
     class="
-        rounded border p-4
+        rounded-lg border p-4
         {{ switch(
             (type == 'success') => 'bg-green-50 border-green-700',
             (type == 'notice') => 'bg-yellow-50 border-yellow-700',
-            (type == 'error') => 'bg-red-50 border-red-700',
+            (type == 'error') => 'bg-error/10 border-error',
             () => 'bg-gray-50 border-gray-700'
         )}}
         {{ class }}
@@ -27,11 +27,11 @@
                 attr:alt=""
                 attr:aria-hidden="true"
                 attr:class="
-                    h-5 w-5 fill-current motion-safe:transition-colors
+                    h-5 w-5 fill-stroke motion-safe:transition-colors
                     { switch(
                         (type == 'success') => 'text-green-700',
                         (type == 'notice') => 'text-yellow-700',
-                        (type == 'error') => 'text-red-700',
+                        (type == 'error') => 'text-error',
                         () => 'text-gray-700'
                     )}
                 "
@@ -45,7 +45,7 @@
                         {{ switch(
                             (type == 'success') => 'text-green-800',
                             (type == 'notice') => 'text-yellow-800',
-                            (type == 'error') => 'text-red-800',
+                            (type == 'error') => 'text-error',
                             () => 'text-gray-800'
                         )}}
                     "

@@ -9,16 +9,18 @@
 
 <!-- /page_builder/_highlights.antlers.html -->
 {{ if block:activities }}
-    {{ partial:page_builder/block subnav_id="highlights" sentinel_top="top-12 md:top-16 lg:top-24" class="py-12 md:py-16 lg:py-24 gap-y-10 md:gap-y-14" }}
+    {{ partial:page_builder/block block_id="highlights" class="gap-y-10 md:gap-y-14" }}
         {{ if block:title }}
-            <header class="span-content text-center">
-                {{ partial:typography/h2 :content="block:title" color="text-foreground" }}
+            <header class="span-content text-center" x-data x-reveal>
+                <div data-reveal-item data-reveal-preset="h1">
+                    {{ partial:typography/h2 :content="block:title" color="text-foreground" }}
+                </div>
             </header>
         {{ /if }}
 
-        <ul class="span-content grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-9 gap-y-10 md:gap-y-12">
+        <ul class="span-content grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-9 gap-y-10 md:gap-y-12" x-data x-reveal data-reveal-stagger="50">
             {{ block:activities }}
-                <li class="flex flex-col items-center text-center gap-4">
+                <li class="flex flex-col items-center text-center gap-4" data-reveal-item data-reveal-preset="card">
                     {{ if icon }}
                         {{ icon }}
                             <div class="flex shrink-0 items-center justify-center size-20 md:size-24 rounded-full bg-parchment-200 text-accent-2">

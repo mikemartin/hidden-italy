@@ -1,9 +1,16 @@
 {{#
     @name Logo
-    @desc The Hidden Italy wordmark. Renders as a CSS-masked SVG so the
-          colour is inherited from the surrounding `text-*` utility.
-          Pass a `class` for sizing (e.g. `h-7 lg:h-12`); width follows
-          from the wordmark's intrinsic aspect ratio.
+    @desc The Hidden Italy wordmark, rendered inline so the hiker glyph (the
+          figure standing in place of the "i" in Hidden) can be animated
+          independently on hover.
+
+          Inlined paths fill from `currentColor`, so colour still comes from
+          the surrounding `text-*` utility. Pass a sizing class (e.g.
+          `h-8 xl:h-12`); width follows from the SVG's intrinsic 303:66 ratio.
+
+          The footer's giant decorative wordmark is a separate path — it uses
+          the older `.brand-wordmark` CSS-mask approach in `site.css` and the
+          partial isn't reused there.
 #}}
 
 <!-- /components/_logo.antlers.html -->
@@ -11,12 +18,8 @@
     aria-label="{{ trans:strings.home }}"
     href="{{ site:url }}"
     wire:navigate
-    class="inline-flex"
+    class="brand-logo inline-flex"
 >
-    <span
-        class="brand-wordmark inline-block select-none {{ class }}"
-        role="presentation"
-        aria-hidden="true"
-    ></span>
+    {{ svg src="hidden-italy-logo" attr:class="brand-logo-svg block {{ class }}" attr:role="presentation" attr:aria-hidden="true" }}
 </a>
 <!-- End: /components/_logo.antlers.html -->

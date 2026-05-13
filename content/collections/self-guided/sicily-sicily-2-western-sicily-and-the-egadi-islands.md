@@ -16,18 +16,6 @@ overview:
       -
         type: text
         text: "The west of Sicily is a land apart.\_ The cubic whitewashed houses, palm trees, active fishing harbours and sunburned lowlands seem more akin to Africa than Europe, and historically, the west of the island has always looked south: the Carthaginians were entrenched here; the Muslims first occupied Sicily here; the Saracens raided the area regularly; and the towns have more than a little North African atmosphere to them.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "It is a place of dramatic beauty: long rocky bays, soaring mountains and volcanic islands.\_ Once a neglected region renowned more for its Mafia strongholds than its tourist destinations, western Sicily has been reborn over the last 10 years and has much to offer, including its history, natural beauty, national parks and its food and wines."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Starting with a private transfer from Palermo, this tour takes you to the Egadi islands off the western tip of Sicily.\_ You’ll spend the next four days island hopping, exploring this fascinating and beautiful archipelago.\_ From here you’ll be taken to Sicily’s first national park for the last two nights, a spectacular piece of coastline stretching along the Castellamare Gulf, which you’ll walk on the last day."
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
   - 'Private transfer from Trapani to Lo Zingaro Regional Park on Day 5'
@@ -44,6 +32,29 @@ inclusions:
   - 'City taxes are not included in the cost of the tour'
 simple_likes: 0
 page_builder:
+  -
+    id: bfabacf57457fe16
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "It is a place of dramatic beauty: long rocky bays, soaring mountains and volcanic islands.\_ Once a neglected region renowned more for its Mafia strongholds than its tourist destinations, western Sicily has been reborn over the last 10 years and has much to offer, including its history, natural beauty, national parks and its food and wines."
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Starting with a private transfer from Palermo, this tour takes you to the Egadi islands off the western tip of Sicily.\_ You’ll spend the next four days island hopping, exploring this fascinating and beautiful archipelago.\_ From here you’ll be taken to Sicily’s first national park for the last two nights, a spectacular piece of coastline stretching along the Castellamare Gulf, which you’ll walk on the last day."
+    title: 'A place of dramatic beauty'
+    images:
+      - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/favignana-6.jpg
+      - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/sicilie-egadische-eilanden-marettimo-3.jpg
+      - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/favignana-3.jpg
   -
     id: mlrbu308
     title: 'Sicily 2 highlights'
@@ -87,14 +98,14 @@ page_builder:
     days:
       -
         id: mlrcdegn
-        title: 'Day 1:  Arrive in Favignana'
+        title: 'Arrive in Favignana'
         description: 'The tour starts with a private transfer from Palermo to Trapani (approximately 2 hrs).  From here you take a hydrofoil from Trapani to Favignana, the largest of the Egadi islands.  Accommodation is in an excellent, family-run 3-star hotel in the centre of town, a short walk from the port.'
         photo: 'tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/trapani,_sicily.jpg'
         meals_included:
           - dinner
       -
         id: mlrce7n9
-        title: 'Day 2:  Go island hopping'
+        title: 'Go island hopping'
         description: 'Today you take a ferry to explore the smallest and most remote of the three islands of the archipelago (which is 30 minutes away).  You follow a paved out of the port and then up to the top of the island before descending into a lovely valley with dense vegetation before returning along the coast to Marettimo. Here, you have plenty of time for lunch and a swim before taking the ferry back to Favignana.'
         duration: 4
         distance: 9
@@ -104,7 +115,7 @@ page_builder:
         photo: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/sicilie-egadische-eilanden-marettimo-3.jpg
       -
         id: mlrchqfo
-        title: 'Day 3:  Explore Favignana'
+        title: 'Explore Favignana'
         description: 'A day exploring your base.  The little medieval port had its heyday in the 19th century when the tuna fisheries off the islands thrived.  There is a very interesting local museum and the very unusual ‘underground gardens’, botanical gardens which have been established in the deep sandstone quarries and tunnels on the north of the island.  We have also included a walk that does a complete circuit of the island, passing a number of lovely beaches and lookout points (bikes are also available for hire).  (3.5 hrs; 14.5 kms; min: 2 mts, max: 35 mts)'
         duration: 4
         distance: 15
@@ -114,7 +125,7 @@ page_builder:
         photo: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/favignana-1.jpg
       -
         id: mlrcpsyv
-        title: 'Day 4:  Explore Levanzo'
+        title: 'Explore Levanzo'
         description: 'Today you take another ferry to the third of the archipelago’s islands, which holds the Egadis’ greatest treasure: a gallery of prehistoric frescos painted between 10,000 and 6000 BC, which were discovered in a grotto in 1949.  The walk today is a beautiful loop walk around the island via the grotto, which starts and finishes at the port. (2 hrs; 8 kms; min: 3 mts, max: 170 mts)'
         duration: 2
         distance: 8
@@ -125,14 +136,14 @@ page_builder:
         photo: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/levanzo-1.jpg
       -
         id: mlrcryci
-        title: 'Day 5:  Transfer to Lo Zingaro Regional Park'
+        title: 'Transfer to Lo Zingaro Regional Park'
         description: 'Today you take the hydrofoil back to Trapani, where you’ll be met and driven to Lo Zingaro Regional Park.  Along the way, you will visit the beautiful town of Erice, which sits on a hill high above Trapani.  You’ll be able to explore this remarkable town (with time for a light lunch) before being taken to a gorgeous hamlet on the edge of Sicily’s first national park, which stretches along the Gulf of Castellamare.'
         meals_included:
           - breakfast
         photo: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/scopello-tonnara-1.jpg
       -
         id: mlrczqmb
-        title: 'Day 6:  A long coastal walk'
+        title: 'A long coastal walk'
         description: 'As the finale to your visit, the last walk is a beautiful coastal walk following a well-marked trail under majestic limestone mountains and overlooking gorgeous turquoise-blue bays. There are plenty of opportunities for swims on the way back (it is possible to shorten this walk).  We have also added an alternative walk that takes you inland to and interesting archaeological site (3 hrs, 8 kms, 354 mts).'
         duration: 5
         distance: 15
@@ -143,7 +154,7 @@ page_builder:
         photo: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/a.jpeg
       -
         id: mlrd7giq
-        title: 'Day 7:  Transfer to Palermo'
+        title: 'Transfer to Palermo'
         description: 'After breakfast, you will be transferred to Palermo (airport or city).'
         meals_included:
           - breakfast
@@ -156,7 +167,7 @@ page_builder:
     tabs:
       -
         id: DKYtX-J9tTIHSu4eitcRQ
-        title: Walks
+        title: 'Exceptional walkings'
         grade: 0
         description:
           -
@@ -179,7 +190,7 @@ page_builder:
         enabled: true
       -
         id: QaJxSxOiTE3WiCwZ3MDqx
-        title: Accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -193,7 +204,7 @@ page_builder:
         enabled: true
       -
         id: 25bUHtF7F8SXCJx_j0TIM
-        title: Food
+        title: 'Authentic food'
         description:
           -
             type: paragraph
@@ -272,8 +283,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: AAGSASPL4-n2QwiDU8GoN
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - 7dc91f51-95db-43d9-937e-1a0f60631c6d
       - 8e8cd370-fbb2-4770-bf18-3debccf03031
@@ -281,6 +296,8 @@ page_builder:
     type: testimonials
     enabled: true
 locations: southern-italy
+landscapes:
+  - coastal
 duplicated_from: 9b40b14d-a9c5-43b5-ae27-eeb883bc2c34
 image: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/a.jpeg
 gallery:

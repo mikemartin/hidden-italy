@@ -5,8 +5,8 @@ title: 'Liguria - Portofino and the Tigullio Gulf'
 name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6
-updated_by: 1
-updated_at: 1777905400
+updated_by: 2
+updated_at: 1778499007
 grade: 3
 summary: 'Spend a week exploring the Portofino National Park and the stupendous Tigullio Gulf!'
 overview:
@@ -16,24 +16,6 @@ overview:
       -
         type: text
         text: 'Portofino is the star turn of the Italian Riviera, a beautifully preserved fishing village tucked into a perfect bay, but it is only one of the highlights of this fascinating stretch of coastline that sits between Genoa and the Cinque Terre.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The tour starts in Camogli on the\_west side of the Portofino promontory, a former fishing village (known in medieval times as the 'city of a thousand sails') which was described by Charles Dickens as ‘the feistiest, roughest, most piratical little place I’ve visited’.\_ It’s a little more couth these days but has lost none of its nautical charm.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'The first walk of the tour takes you through the national park that separates Camogli and Portofino following a series of well-marked trails through pine and oak forests above spectacular coastline with some of the most beautiful views in northern Italy.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Leaving the Portofino peninsula on Day 3 you pick up the ancient pilgrim trails that connected France wth Rome, passing through the hills that wrap around behind the Gulf of Tugullio, dropping down to the lively coastal towns each evening.\_ The tour finishes at the end of the gulf at the 'Bay of Silence' in Sestri Levante, a delightful summer resort on the Isola Peninsula."
 inclusions:
   - 'Five nights’ accommodation'
   - 'All breakfasts included'
@@ -45,7 +27,38 @@ inclusions:
   - '24 hour back-up from local operations manager'
   - 'City taxes are not included in the cost of the tour'
 locations: northern-italy
+landscapes:
+  - coastal
 page_builder:
+  -
+    id: f9ea4fc3e2cfc853
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The tour starts in Camogli on the\_west side of the Portofino promontory, a former fishing village (known in medieval times as the 'city of a thousand sails') which was described by Charles Dickens as ‘the feistiest, roughest, most piratical little place I’ve visited’.\_ It’s a little more couth these days but has lost none of its nautical charm.\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'The first walk of the tour takes you through the national park that separates Camogli and Portofino following a series of well-marked trails through pine and oak forests above spectacular coastline with some of the most beautiful views in northern Italy.'
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Leaving the Portofino peninsula on Day 3 you pick up the ancient pilgrim trails that connected France wth Rome, passing through the hills that wrap around behind the Gulf of Tugullio, dropping down to the lively coastal towns each evening.\_ The tour finishes at the end of the gulf at the 'Bay of Silence' in Sestri Levante, a delightful summer resort on the Isola Peninsula."
+    title: 'The city of a thousand sails'
+    images:
+      - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-9-a.jpg
+      - tours/liguria-cinque-terre-coastal-walking-tour/gabriel-tovar-yzqxu8nrlow-unsplash-a.jpg
+      - tours/liguria-cinque-terre-coastal-walking-tour/img_4819.jpg
   -
     id: mloocwbk
     title: 'Portofino and the Tigullio Gulf self-guided walk'
@@ -89,12 +102,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Camogli'
+        title: 'Arrive in Camogli'
         description: "You start the tour in Camogli, which is on the main La Spezia/Genoa railway line, where you’ll spend your first night in a lovely hotel set in the centre of the town overlooking the sea.  Dickens described Camogli as 'the saltiest, roughest, most piratical little place'.  The rough edges have long gone but it remains one of the most attractive resorts on the coast."
         photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/moira-nazzari-cbtepzflvtu-unsplash.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Walk through the Portofino National Park'
+        title: 'Walk through the Portofino National Park'
         description: 'Today you leave Camogli by walking above the coastline on the western edge of the Portofino National Park with its vast views across the Gulf of Genoa before climbing up into forest.  You then wind your way down through forest and olive groves to the stunning little village of Portofino, one of the most celebrated spots on the Italian coast. Your accommodation is in a beautiful hotel on the main square of this celebrated village, a short walk from the port.'
         duration: 3
         distance: 9
@@ -104,7 +117,7 @@ page_builder:
         photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/primaselezione-portofino-7504460_1920.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk around the Gulf of Tigullio'
+        title: 'Walk around the Gulf of Tigullio'
         description: 'This morning you head out of Portofino following a lovely path that winds above the coast, passing through olive groves with views over bays and hidden villas to arrive at the elegant resort town of Santa Margherita Ligure.  From here, you follow a well-marked path to a busy neighbouring port, entering the town your staying in over a Roman bridge that Hannibal himself is said to have crossed.'
         duration: 3
         distance: 8
@@ -114,7 +127,7 @@ page_builder:
         photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/linfer3-santa-margherita-2784154_1920.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  A high forest walk'
+        title: 'A high forest walk'
         description: 'Today’s gorgeous walk starts with a 15-minute funicular ride from the port up to one of the holiest religious sanctuaries in the area, founded in the 16th century.  From here, you follow an ancient and well-marked trail that takes you from the sanctuary along a descending ridge line through beautiful oak and chestnut forests before descending to a bustling port whose origins predates the Romans and which is the birthplace of Italian hero Giuseppe Garibaldi.'
         duration: 3
         distance: 10
@@ -124,7 +137,7 @@ page_builder:
         photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/img_4819.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Walk to Sestri Levante'
+        title: 'Walk to Sestri Levante'
         description: "Today's trail takes you along the sea front to a neighbouring town before picking up the pilgrim trail once again.  The trail then climbs up into the hills, following an old paved trail to a ruined church with breath-taking views and down over the Gulf of Tigullio and the Bay of Silence, before descending to enchanting Sestri Levante."
         duration: 3
         distance: 11
@@ -134,7 +147,7 @@ page_builder:
         photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/brendan-greenway-soufafk9-kq-unsplash.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Departure from Sestri Levante'
+        title: 'Departure from Sestri Levante'
         description: "After breakfast, you'll be able to continue your holidays.  Sestri Levante is on the Genoa/La Spezia line well serviced by regular trains in either direction (including to the Cinque Terre, three stops away to the east."
         meals_included:
           - breakfast
@@ -147,7 +160,7 @@ page_builder:
     tabs:
       -
         id: FMil8DyuNemeDMw9RLcKI
-        title: Walks
+        title: 'Exceptional walkings'
         grade: 1
         description:
           -
@@ -161,7 +174,7 @@ page_builder:
         enabled: true
       -
         id: Y7RPKWLkf_yg7gMHhBjcg
-        title: Accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -175,7 +188,7 @@ page_builder:
         enabled: true
       -
         id: lEvvsDoQd-h6vNFmRTwBM
-        title: Food
+        title: 'Authentic food'
         description:
           -
             type: paragraph
@@ -250,8 +263,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: A5HnLrxQ79OJlcfbcgrXD
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - 03f1b7dd-b611-4a33-b0a6-7d1acfd69cbf
       - da0838d5-2df9-4a26-9d05-7d039dcd9044
@@ -260,7 +277,7 @@ page_builder:
     enabled: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-image: tours/liguria-cinque-terre-coastal-walking-tour/georgiana-andreca-h-hkuehqrs0-unsplash-a.jpg
+image: tours/liguria-cinque-terre-coastal-walking-tour/primaselezione-portofino-7504460_1920-a.jpg
 gallery:
   - tours/liguria-cinque-terre-coastal-walking-tour/moira-nazzari-cbtepzflvtu-unsplash.jpg
   - tours/liguria-cinque-terre-coastal-walking-tour/linfer3-santa-margherita-2784154_1920.jpg

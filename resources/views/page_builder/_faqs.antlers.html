@@ -1,98 +1,128 @@
 {{#
     @name FAQs
-    @desc Page-specific questions followed by a set of "common" questions
-          drawn from the Questions collection. Side-title layout: section
-          heading sits in a left column, questions stack as separate
-          accordion cards on the right. Only one card is open at a time;
-          the active card raises and the chevron rotates.
+    @desc Page-specific questions followed by the tour-type FAQs pulled
+          from the collection's mounted listing page. Side-title layout:
+          section heading sits in a left column, questions stack as
+          separate accordion cards on the right. Only one card is open
+          at a time; the active card raises and the chevron rotates.
 
-          The block reads from `block:questions` (the generic FAQs
-          fieldset) and falls back to `block:tour_questions` for the
-          tour-specific FAQ block defined inline on the tour blueprint.
+          Manual questions come from `block:questions` (shared between
+          the generic FAQs fieldset and the tour-blueprint's inline FAQ
+          block). Tour-type questions are pulled from the `questions`
+          field on whichever page entry the tour's collection is
+          mounted to.
+
+          Each accordion uses the row's own `id` for Alpine state so
+          manual and tour-type items can coexist without index
+          collisions, and so the counter doesn't have to leak across
+          the `get_content` scope.
     @set page.page_builder.faqs
 #}}
 
 <!-- /page_builder/_faqs.antlers.html -->
-{{ page_questions = block:questions ?? block:tour_questions }}
-{{ if page_questions || block:common_questions }}
-    {{ partial:page_builder/block subnav_id="faqs" sentinel_top="top-12 md:top-16 lg:top-24" class="py-12 md:py-16 lg:py-24" }}
-        <div class="span-content grid grid-cols-1 lg:grid-cols-12 gap-y-10 lg:gap-x-12" x-data="{ open: 0 }">
-            <header class="lg:col-span-4">
+{{# Capture the tour's collection handle before entering `get_content`.
+    Inside that tag the scope shifts to the listing page and, deeper
+    still, to each question entry — so `{collection:handle}` would
+    resolve to `pages` / `questions` rather than `guided` /
+    `self-guided`. The captured value is forwarded only to set
+    partials in the appended-common-questions iteration, where the
+    walking-grades table can't infer the tour type from scope. #}}
+{{ tour_collection_handle = {collection:handle} }}
+
+{{ partial:page_builder/block block_id="faqs" sentinel_top="top-12 md:top-16 lg:top-24" class="bg-background py-12 md:py-16 lg:py-24" }}
+    <div class="span-content grid grid-cols-1 lg:grid-cols-12 gap-y-10 lg:gap-x-12" x-data="{ open: null }">
+        <header class="lg:col-span-4" x-reveal>
+            <div data-reveal-item data-reveal-preset="h1">
                 {{ partial:typography/h2 :content="block:heading ?? 'Frequently asked questions'" color="text-foreground" class="max-w-xs" }}
-            </header>
+            </div>
+        </header>
 
-            <ul class="lg:col-span-8 flex flex-col gap-3 md:gap-4">
-                {{ counter = 0 }}
+        <ul class="lg:col-span-8 bg-card border border-parchment-200 rounded-lg overflow-hidden shadow-sm divide-y divide-parchment-200">
 
-                {{ if page_questions }}
-                    {{ page_questions }}
-                        {{ idx = counter }}
-                        <li class="bg-card border border-parchment-200 rounded-lg overflow-hidden transition" :class="open === {{ idx }} ? 'shadow-md' : 'shadow-sm'">
-                            <button
-                                type="button"
-                                @click="open = (open === {{ idx }} ? null : {{ idx }})"
-                                :aria-expanded="open === {{ idx }}"
-                                aria-controls="faq-panel-{{ idx }}"
-                                class="w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 text-left font-display font-semibold text-base md:text-lg text-foreground hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold focus-visible:-outline-offset-2"
-                            >
-                                <span>{{ question }}</span>
-                                <x-lucide-chevron-right
-                                    class="size-5 shrink-0 text-accent-2 transition-transform"
-                                    stroke-width="2"
-                                    aria-hidden="true"
-                                    ::class="open === {{ idx }} ? 'rotate-90' : ''"
-                                />
-                            </button>
-                            <div
-                                id="faq-panel-{{ idx }}"
-                                x-show="open === {{ idx }}"
-                                x-collapse
-                                x-cloak
-                            >
-                                <div class="px-5 md:px-6 pb-5 md:pb-6 font-sans text-base leading-[1.6] text-text [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:underline [&_a]:underline-offset-4 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-3">
-                                    {{ answer }}
-                                </div>
+            {{# Manual inline FAQs first. #}}
+            {{ if block:questions }}
+                {{ block:questions }}
+                    <li>
+                        <button
+                            type="button"
+                            @click="open = (open === '{{ id }}' ? null : '{{ id }}')"
+                            :aria-expanded="open === '{{ id }}'"
+                            aria-controls="faq-panel-{{ id }}"
+                            class="w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 text-left font-display font-semibold text-base md:text-lg text-foreground hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold focus-visible:-outline-offset-2"
+                        >
+                            <span>{{ question }}</span>
+                            <x-lucide-chevron-right
+                                class="size-5 shrink-0 text-accent-2 transition-transform"
+                                stroke-width="2"
+                                aria-hidden="true"
+                                x-bind:class="open === '{{ id }}' ? 'rotate-90' : ''"
+                            />
+                        </button>
+                        <div
+                            id="faq-panel-{{ id }}"
+                            x-show="open === '{{ id }}'"
+                            x-collapse
+                            x-cloak
+                        >
+                            <div class="px-5 md:px-6 pb-5 md:pb-6 font-sans text-base leading-[1.6] text-text [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:underline [&_a]:underline-offset-4 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-3">
+                                {{ answer }}
+                                    {{ if type == 'text' }}
+                                        {{ text }}
+                                    {{ else }}
+                                        {{ partial src="sets/{type}" }}
+                                    {{ /if }}
+                                {{ /answer }}
                             </div>
-                        </li>
-                        {{ counter = counter + 1 }}
-                    {{ /page_questions }}
-                {{ /if }}
+                        </div>
+                    </li>
+                {{ /block:questions }}
+            {{ /if }}
 
-                {{ if block:common_questions }}
-                    {{ block:common_questions }}
-                        {{ idx = counter }}
-                        <li class="bg-card border border-parchment-200 rounded-lg overflow-hidden transition" :class="open === {{ idx }} ? 'shadow-md' : 'shadow-sm'">
-                            <button
-                                type="button"
-                                @click="open = (open === {{ idx }} ? null : {{ idx }})"
-                                :aria-expanded="open === {{ idx }}"
-                                aria-controls="faq-panel-{{ idx }}"
-                                class="w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 text-left font-display font-semibold text-base md:text-lg text-foreground hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold focus-visible:-outline-offset-2"
-                            >
-                                <span>{{ title }}</span>
-                                <x-lucide-chevron-right
-                                    class="size-5 shrink-0 text-accent-2 transition-transform"
-                                    stroke-width="2"
-                                    aria-hidden="true"
-                                    ::class="open === {{ idx }} ? 'rotate-90' : ''"
-                                />
-                            </button>
-                            <div
-                                id="faq-panel-{{ idx }}"
-                                x-show="open === {{ idx }}"
-                                x-collapse
-                                x-cloak
-                            >
-                                <div class="px-5 md:px-6 pb-5 md:pb-6 font-sans text-base leading-[1.6] text-text [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:underline [&_a]:underline-offset-4 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-3">
-                                    {{ answer }}
+            {{# Tour-type FAQs appended from the mounted listing page,
+                unless the editor disabled the toggle. #}}
+            {{ if {block:show_common_questions} }}
+                {{ get_content from="{ mount_url handle="{collection:handle}" }" }}
+                    {{ if questions }}
+                        {{ questions }}
+                            <li>
+                                <button
+                                    type="button"
+                                    @click="open = (open === '{{ id }}' ? null : '{{ id }}')"
+                                    :aria-expanded="open === '{{ id }}'"
+                                    aria-controls="faq-panel-{{ id }}"
+                                    class="w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 text-left font-display font-semibold text-base md:text-lg text-foreground hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold focus-visible:-outline-offset-2"
+                                >
+                                    <span>{{ title }}</span>
+                                    <x-lucide-chevron-right
+                                        class="size-5 shrink-0 text-accent-2 transition-transform"
+                                        stroke-width="2"
+                                        aria-hidden="true"
+                                        x-bind:class="open === '{{ id }}' ? 'rotate-90' : ''"
+                                    />
+                                </button>
+                                <div
+                                    id="faq-panel-{{ id }}"
+                                    x-show="open === '{{ id }}'"
+                                    x-collapse
+                                    x-cloak
+                                >
+                                    <div class="px-5 md:px-6 pb-5 md:pb-6 font-sans text-base leading-[1.6] text-text [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:underline [&_a]:underline-offset-4 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-3">
+                                        {{ answer }}
+                                            {{ if type == 'text' }}
+                                                {{ text }}
+                                            {{ else }}
+                                                {{ partial src="sets/{type}" :tour_collection="tour_collection_handle" }}
+                                            {{ /if }}
+                                        {{ /answer }}
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        {{ counter = counter + 1 }}
-                    {{ /block:common_questions }}
-                {{ /if }}
-            </ul>
-        </div>
-    {{ /partial:page_builder/block }}
-{{ /if }}
+                            </li>
+                        {{ /questions }}
+                    {{ /if }}
+                {{ /get_content }}
+            {{ /if }}
+
+        </ul>
+    </div>
+{{ /partial:page_builder/block }}
 <!-- End: /page_builder/_faqs.antlers.html -->

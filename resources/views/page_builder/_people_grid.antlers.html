@@ -11,13 +11,17 @@
 
 <!-- /page_builder/_people_grid.antlers.html -->
 {{ if block:people }}
-    {{ partial:page_builder/block class="gap-y-10 md:gap-y-14 py-12 md:py-16 lg:py-20" }}
-        <header class="span-content flex flex-col items-center text-center gap-4 md:gap-6">
+    {{ partial:page_builder/block class="gap-y-10 md:gap-y-14" }}
+        <header class="span-content flex flex-col items-center text-center gap-4 md:gap-6" x-data x-reveal>
             {{ if block:heading }}
-                {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
+                <div data-reveal-item data-reveal-preset="h1">
+                    {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
+                </div>
             {{ /if }}
             {{ if block:intro }}
-                {{ partial:typography/p_large :content="block:intro" color="text-text" class="md:max-w-3xl text-pretty !mb-0" }}
+                <div data-reveal-item>
+                    {{ partial:typography/p_large :content="block:intro" color="text-text" class="md:max-w-3xl text-pretty !mb-0" }}
+                </div>
             {{ /if }}
         </header>
 
@@ -26,9 +30,9 @@
             2-up grid; lg+ to the four-up arrangement from the design. The
             li stretches to the full grid cell so the card inside fills its
             track regardless of breakpoint. #}}
-        <ul class="span-content grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-y-8">
+        <ul class="span-content grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-y-8" x-data x-reveal data-reveal-row-stagger="80">
             {{ block:people }}
-                <li>
+                <li data-reveal-item data-reveal-preset="card">
                     {{ partial:components/profile-card }}
                 </li>
             {{ /block:people }}

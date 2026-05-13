@@ -3,7 +3,7 @@
 	@desc The page builder block wrapper
 #}}
 
-{{# When the block is given a `subnav_id` it doubles as a tour-subnav
+{{# When the block is given a `block_id` it doubles as a tour-subnav
     target. An absolutely positioned sentinel at the section's
     content-top owns the `x-intersect`, so active-state changes when
     the heading actually arrives near the sticky nav (rather than when
@@ -15,27 +15,24 @@
     the content-top after padding. Defaults to `top-0` for sections
     with no padding.
 
-    The parameter is `subnav_id` — NOT `id` — because Statamic's
-    page_builder iteration auto-exposes each block's UUID as `id` in
-    scope. Naming this `id` would inherit that UUID into partials that
-    *don't* explicitly pass one (e.g. _history, _experience), which
-    causes the inner block to overwrite `$store.tourSubnav.active`
-    with the UUID and break active-state matching. #}}
+    The parameter is `block_id` rather than `id` to avoid clashing with
+    the block UUID that Statamic's page_builder iteration auto-exposes
+    as `id` in scope. #}}
 <section
-    {{ if subnav_id }}
-        id="{{ subnav_id }}"
-        class="fluid-grid relative {{ class }}"
-        x-data
-    {{ else }}
-        class="fluid-grid {{ class }}"
-    {{ /if }}
+	{{ if block_id }}
+		id="{{ block_id }}"
+		class="fluid-grid relative {{ class }}"
+		x-data
+	{{ else }}
+		class="fluid-grid {{ class }}"
+	{{ /if }}
 >
-    {{ if subnav_id }}
-        <div
-            aria-hidden="true"
-            x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('{{ subnav_id }}')"
-            class="absolute inset-x-0 {{ sentinel_top ?? 'top-0' }} h-px pointer-events-none"
-        ></div>
-    {{ /if }}
-    {{ slot }}
+	{{ if block_id }}
+		<div
+			aria-hidden="true"
+			x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('{{ block_id }}')"
+			class="absolute inset-x-0 {{ sentinel_top ?? 'top-0' }} h-px pointer-events-none"
+		></div>
+	{{ /if }}
+	{{ slot }}
 </section>

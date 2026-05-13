@@ -9,36 +9,50 @@ tabs:
             field:
               display: Name
               type: text
+              autocomplete: name
               validate:
                 - required
                 - 'min:2'
               localizable: true
-              width: 66
           -
             handle: email
             field:
               display: 'Email address'
               type: text
+              input_type: email
+              placeholder: 'your@email.com'
+              autocomplete: email
               validate:
                 - required
                 - email
               localizable: true
-              width: 66
+          -
+            handle: phone
+            field:
+              display: 'Phone number'
+              type: text
+              input_type: tel
+              placeholder: '+61 412 345 678'
+              autocomplete: tel
+              validate:
+                - nullable
+                - string
+                - 'max:50'
+              localizable: true
           -
             handle: message_body
             field:
               display: Message
               type: textarea
+              placeholder: 'Enter your message...'
               validate:
                 - required
                 - 'min:5'
               localizable: true
           -
-            handle: consent
+            handle: newsletter
             field:
-              inline_label: 'I agree that my submitted data is being collected and stored.'
-              display: Consent
+              inline_label: 'Sign me up for email newsletter'
+              display: Newsletter
               type: toggle
-              validate:
-                - accepted
-              visibility: hidden
+              localizable: true

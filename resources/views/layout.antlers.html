@@ -5,7 +5,10 @@
 
 <!-- /layout.antlers.html -->
 <!doctype html>
-<html lang="{{ site:short_locale }}" class="antialiased scroll-smooth scroll-pt-4">
+{{# `scroll-pt-*` is the offset for anchor jumps. `tours/show` carries
+    a sticky sub-nav (~5rem tall) so anchor targets need to land below
+    it — every other template uses a small `scroll-pt-4` cushion. #}}
+<html lang="{{ site:short_locale }}" class="antialiased scroll-smooth {{ current_template == 'tours/show' ? 'scroll-pt-20' : 'scroll-pt-6' }}">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,6 +19,9 @@
         <link rel="preload" href="{{ vite:asset src='resources/fonts/RomaNeue-SemiBold.woff2' }}" as="font" type="font/woff2" crossorigin>
         <link rel="stylesheet" href="/vendor/simple-likes/css/simple-likes.css">
         {{ vite src="resources/css/site.css|resources/js/site.js" }}
+        {{# Users without JS never see the reveal animation fire, so reset the
+            initial hidden styles to keep the content visible. #}}
+        <noscript><style>[data-reveal-item]{opacity:1!important;transform:none!important;will-change:auto!important}</style></noscript>
         {{# MapLibre GL JS — loaded straight from unpkg per the maintainers'
             CDN docs. Lives in the layout `<head>` so the global
             `window.maplibregl` is ready before any tour map mounts. #}}
@@ -49,9 +55,10 @@
         {{ template_content }}
 
         {{# Universal CTA banner — pulled from the `cta_banner` global.
-            Skipped on tour listing templates (`tours/index`) since those
-            pages have their own CTAs and don't need a duplicate. #}}
-        {{ unless template == 'tours/index' }}
+            Skipped on the tour listing (`tours/index`, which has its own
+            CTAs) and on tour show pages (`tours/show`, which render their
+            own tour-specific CTA via `tours/cta_banner`). #}}
+        {{ unless current_template == 'tours/index' || current_template == 'tours/show' }}
             {{ partial:layout/cta_banner }}
         {{ /unless }}
 
@@ -60,7 +67,9 @@
         {{# TEMPORARY — client-preview overlay opacity control. Remove this
             line and delete `layout/_overlay_control.antlers.html` once the
             client has picked a value. #}}
-        {{ partial:layout/overlay_control }}
+        {{ if logged_in }}
+            {{ partial:layout/overlay_control }}
+        {{ /if }}
 
         <x-flux::toast.group position="bottom center">
             <x-flux::toast />

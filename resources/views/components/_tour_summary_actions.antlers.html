@@ -1,0 +1,23 @@
+{{#
+    @name Tour summary actions
+    @desc Share + Save buttons used in the tour overview block (desktop
+          variant). Save piggy-backs on the Simple Likes fieldtype on the
+          entry; Share opens a Flux dropdown rendered by the
+          `components/_share_menu` partial (Web Share API was dropped because
+          Firefox on desktop has no support).
+
+          For the mobile breadcrumb row, see
+          `_tour_summary_actions_compact.antlers.html` — same actions,
+          rendered as round icon-only buttons matching the drawer's
+          Menu/Close affordance.
+#}}
+
+<!-- /components/_tour_summary_actions.antlers.html -->
+<div class="flex items-center gap-4 lg:justify-end">
+    {{ partial:components/share_menu }}
+
+    {{# Save piggy-backs on Simple Likes via a custom template so saved
+        state syncs with the wishlist drawer through the addon's store. #}}
+    {{ simple_like template_from="components._save_button" }}
+</div>
+<!-- End: /components/_tour_summary_actions.antlers.html -->

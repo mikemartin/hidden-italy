@@ -16,18 +16,6 @@ overview:
       -
         type: text
         text: "This delightful 8-day circuit walk starts with a private transfer to beautiful Alba, 95 kilometres south of Turin.\_ A handsome town of Roman origin, Alba is the ‘capital’ of the Langhe, a close-knit range of hills and valleys which are crowded with impeccably tended rows of nebbiolo vines, the source of some of Italy’s finest wines, including Barolo and Barbaresco.\_ They form a unique and striking landscape which is dotted with attractive hill-towns, castles and wineries, so much so that the district was recently listed as a UNESCO World Heritage site."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Your well-marked walking trails will take through this exceptional area, passing undulating vineyards, pine forests, orchards and hazel nut farms.  Along the way, you will visit in some very attractive towns and villages and stay in welcoming accommodation, that is often part of the history of the towns themselves.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "You'll also have plenty of opportunity to sample some Le Langhe's very special treats.  The district is also one of Italy’s gastronomic capitals, the home of the Slow Food Association, famous for its cheeses, meats, chocolates, hazel nuts and white truffles, as well, of course, as its excellent wines.  There is much to see and do!"
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
   - 'Seven nights accommodation'
@@ -40,7 +28,32 @@ inclusions:
   - '24 hour backup from our operations manager'
   - 'City taxes are not included in t'
 locations: northern-italy
+landscapes:
+  - countryside
 page_builder:
+  -
+    id: 88c92d20ff387f2c
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Your well-marked walking trails will take through this exceptional area, passing undulating vineyards, pine forests, orchards and hazel nut farms.  Along the way, you will visit in some very attractive towns and villages and stay in welcoming accommodation, that is often part of the history of the towns themselves.'
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "You'll also have plenty of opportunity to sample some Le Langhe's very special treats.  The district is also one of Italy’s gastronomic capitals, the home of the Slow Food Association, famous for its cheeses, meats, chocolates, hazel nuts and white truffles, as well, of course, as its excellent wines.  There is much to see and do!"
+    title: 'Vineyards, pine forests and hazelnut farms'
+    images:
+      - tours/piedmont-alba-and-le-langhe/3.jpg
+      - tours/piedmont-alba-and-le-langhe/monforte-17.jpg
+      - tours/piedmont-alba-and-le-langhe/monforte-18.jpg
   -
     id: mloocwbk
     title: 'Highlights of the Alba and Le Langhe tour'
@@ -84,12 +97,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Transfer from Turin to Alba'
+        title: 'Transfer from Turin to Alba'
         description: 'You will be taken by private transfer from Turin to beautiful Alba, 95 kilometres south.  The plan of the historic centre of Alba reflects its Roman origins (an orderly grid tucked behind defensive walls) while its narrow streets are decidedly medieval, complete with a five brick tower-houses that date from the 13th century.'
         photo: tours/piedmont-alba-and-le-langhe/alba-2.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Walk along the Tanaro River'
+        title: 'Walk along the Tanaro River'
         description: 'You leave Alba heading south-west, passing the Ferrero chocolate factory (home of Nutella) and then follow an easy path along the left bank of the Tanaro River, before turning south and climbing up to a small hilltop village that is famous for its.  The second half of the walk takes you through vineyards to another lovely hilltop town, with a ruined castle from where you have a breathtaking view south over all the Langhe hills.'
         duration: 4
         distance: 15
@@ -99,7 +112,7 @@ page_builder:
         photo: tours/piedmont-alba-and-le-langhe/monforte-2.5.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk through vineyards'
+        title: 'Walk through vineyards'
         description: 'Today’s walk takes you through the heart of Barolo country following lanes that cut through the middle of the some of the finest and most famous vineyards in Italy such as ‘Cannubi’ and ‘Sori’, passing through the town of Barolo itself (where you can have lunch and visit one of the cantine and/or its Oenological Museum).  After passing through more vineyards, you arrive at another charming hilltop town.'
         duration: 4
         distance: 13
@@ -109,7 +122,7 @@ page_builder:
         photo: tours/piedmont-alba-and-le-langhe/monforte-17.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk through chestnut forests'
+        title: 'Walk through chestnut forests'
         description: 'Today’s walk takes you out of the wine growing area and into the Alta Langhe, the slightly ‘wilder’ (relatively!) part of the district which is characterised by steeper hills, hazelnut and fruit orchards and tracts of chestnut forests. Although there are a couple of hills, today’s walk is quite short which will leave you time to explore the interesting places you are pass, including the very interesting castle with time for a light lunch as well.'
         duration: 3
         distance: 8
@@ -119,7 +132,7 @@ page_builder:
         photo: tours/piedmont-alba-and-le-langhe/4-v2.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Walk along a ridge'
+        title: 'Walk along a ridge'
         description: 'The walk today takes heads north following a ridge above the Belbo River, passing though long tracts of forest and orchards with extensive views south over the Alta Langhe.  It passes through a number of small villages where you can break for lunch. With notice, this walk can be shortened.'
         duration: 5
         distance: 17
@@ -129,7 +142,7 @@ page_builder:
         photo: tours/piedmont-alba-and-le-langhe/10-v2.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Walk to the pretty village in the area'
+        title: 'Walk to the pretty village in the area'
         description: 'Leaving your accommodation the trail further along the ridge through forests and orchards, passing close to Santo Stefano Belbo, the home of one of the Langhe’s favourite sons: Cesare Pavese (1908 to 1950), poet, novelist, critic and translator.  The second part of today’s walk takes you back into the sweet rolling hills of the wine country, through vineyards dedicated to Barbaresco, a light version of Barolo, to one of the prettiest and best preserved villages in the area.'
         duration: 5
         distance: 17
@@ -139,7 +152,7 @@ page_builder:
         photo: tours/piedmont-alba-and-le-langhe/img_5836.jpeg
       -
         id: mlop8uiy
-        title: 'Day 7:  Head back to Alba'
+        title: 'Head back to Alba'
         description: 'The last walk of your visit takes you back to Alba.  It loops around through more vineyards, passing a number of settlements, including the town of Barbaresco itself, before entering forest and following the banks of the Tanaro River along a trail that is dedicated to Beppe Fenoglio (1922 to 1963), another beloved local writer who fought the German occupation during World War II.  Your last night is spent in Alba.'
         duration: 4
         distance: 13
@@ -149,7 +162,7 @@ page_builder:
         photo: tours/piedmont-alba-and-le-langhe/alba-view-2.jpg
       -
         id: mlop9wks
-        title: 'Day 8:  Transfer back to Turin'
+        title: 'Transfer back to Turin'
         description: 'After breakfast, you will be taken by private vehicle back to Turin, 95 kilometres to the north.'
         meals_included:
           - breakfast
@@ -162,7 +175,7 @@ page_builder:
     tabs:
       -
         id: AQLrEh44beSblC6yaQZgA
-        title: Walks
+        title: 'Exceptional walkings'
         grade: 3
         description:
           -
@@ -176,7 +189,7 @@ page_builder:
         enabled: true
       -
         id: RWbepClQNMoJHh8prXiV2
-        title: Accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -190,7 +203,7 @@ page_builder:
         enabled: true
       -
         id: 3tlodKMRpo2wJKn_syRpt
-        title: Food
+        title: 'Authentic food'
         description:
           -
             type: paragraph
@@ -271,8 +284,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: wJiPgTM98bfJql8xCh5Nc
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - 8bad08d1-c459-47ff-b947-f620f0cf5c4b
       - 55fd1566-07d2-4856-b001-0d47ea0ca332

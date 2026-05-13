@@ -10,38 +10,17 @@
         <aside
             role="region"
             aria-label="{{ trans:strings.announcement ?? 'Announcement' }}"
-            class="w-full dark bg-background text-text text-sm"
-            {{ if dismissible }}
-                x-data="{
-                    key: 'announcement_banner::{{ text | md5 }}',
-                    dismissed: false,
-                    init() { this.dismissed = localStorage.getItem(this.key) === '1'; },
-                    dismiss() { this.dismissed = true; localStorage.setItem(this.key, '1'); }
-                }"
-                x-show="!dismissed"
-                x-cloak
-            {{ /if }}
+            class="w-full dark bg-background text-text text-base font-medium leading-[1.6]"
         >
             <div class="fluid-grid">
-                <div class="span-content flex items-center justify-center gap-3 py-3 min-h-[48px] relative">
+                <div class="span-content flex items-center justify-center gap-3 py-3 min-h-[48px]">
                     {{ if link }}
                         <a href="{{ link:url }}" class="group inline-flex items-center gap-1.5 text-foreground hover:text-white">
                             <span>{{ text }}</span>
                             <x-lucide-arrow-right aria-hidden="true" class="size-4 text-accent" />
                         </a>
                     {{ else }}
-                        <span class="text-center font-medium">{{ text }}</span>
-                    {{ /if }}
-
-                    {{ if dismissible }}
-                        <button
-                            type="button"
-                            class="absolute right-4 p-1 text-text/80 hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2"
-                            aria-label="{{ trans:strings.dismiss ?? 'Dismiss announcement' }}"
-                            @click="dismiss()"
-                        >
-                            <x-lucide-x class="w-4 h-4" />
-                        </button>
+                        <span class="text-center">{{ text }}</span>
                     {{ /if }}
                 </div>
             </div>

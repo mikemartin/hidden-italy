@@ -51,7 +51,7 @@ tabs:
             handle: message_body
             field:
               display: 'Travel plans'
-              instructions: 'Number of travellers, duration, travel dates — anything that helps us plan a response.'
+              instructions: 'Number of travellers, preferred bedding, duration, travel dates — anything that helps us plan a response.'
               type: textarea
               validate:
                 - required
@@ -62,14 +62,6 @@ tabs:
             field:
               display: 'User ID'
               type: text
+              input_type: hidden
               instructions: 'Linked Hidden Italy user (when the enquiry was submitted while logged in).'
-              visibility: hidden
-          -
-            handle: consent
-            field:
-              inline_label: 'I agree that my submitted data is being collected and stored.'
-              display: Consent
-              type: toggle
-              validate:
-                - accepted
               visibility: hidden

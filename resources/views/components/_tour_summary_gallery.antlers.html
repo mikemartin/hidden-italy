@@ -1,0 +1,273 @@
+{{#
+    @name Tour summary gallery
+    @desc Mosaic gallery for the tour overview block. Two layouts so each
+          viewport gets a polished mosaic without shipping a stretched
+          version of the other:
+            mobile (2 rows, up to 5 photos)
+              row 1 — 16/9 landscape + 1/1 square
+              row 2 — three 1/1 squares
+            desktop (3 rows, up to 7 photos)
+              row 1 — 3/4 portrait + 4/3 landscape
+              row 2 — 16/9 landscape + 1/1 square
+              row 3 — three 1/1 squares
+          Both layouts start at the first asset. The last visible tile
+          becomes a "+N" overflow indicator when the gallery has more
+          photos than the layout shows.
+
+          Photos are addressed with index access (`gallery.N`) and passed
+          to the picture tag via `:image=`. We deliberately avoid the
+          `{{ gallery limit/offset }}` form because Statamic's shared
+          OrderedQueryBuilder mis-handles repeated identical limit/offset
+          calls, which a parallel mobile/desktop tree requires.
+
+          Each tile is wrapped in an `<a>` wired to lightGallery in
+          dynamic mode, so mobile and desktop triggers share the same
+          lightbox without registering as duplicate slides. The lightbox
+          carries every photo in the gallery — including ones hidden
+          behind the "+N" overflow tile — so swiping past the last
+          visible tile reveals the rest.
+    @param gallery The asset collection from the tour entry's `gallery` field.
+#}}
+
+<!-- /components/_tour_summary_gallery.antlers.html -->
+{{ gallery_count = gallery | count }}
+
+<div class="contents" data-tour-gallery>
+    {{# lightGallery dynamic-mode item shape:
+          - `src`     image source
+          - `alt`     alt attribute on the slide's `<img>`, falls back to the
+                      caption when the asset has no alt set, so screen-reader
+                      users still hear something useful for captioned photos
+          - `subHtml` the visible caption strip rendered under the slide as
+                      HTML — sourced from the asset's plain-text `caption`
+                      field (kept separate from `alt` so screen-reader copy
+                      and the visible caption can diverge).
+        `sanitize` runs each plain-text value through htmlspecialchars so
+        literal `&` / `<` punctuation survives lightGallery dropping the
+        string into the DOM, and `to_json` handles quoting/escaping for
+        the JSON payload. #}}
+    <script type="application/json" data-tour-gallery-images>[{{ gallery }}{{ lightbox_alt = alt ?? caption }}{"src":"{{ url }}","alt":{{ lightbox_alt | sanitize | to_json }},"subHtml":{{ caption | sanitize | to_json }}}{{ unless last }},{{ /unless }}{{ /gallery }}]</script>
+
+    {{# ── Mobile gallery — 2 rows, up to 5 photos. ───────────────────── #}}
+    <div class="flex lg:hidden flex-col gap-2">
+
+        {{# Row 1 — 16/9 landscape + 1/1 square (matched height). #}}
+        {{ if gallery_count > 0 }}
+            <div class="grid grid-cols-[64fr_36fr] gap-2">
+                <a href="{{ gallery.0:url }}" data-lg-index="0" aria-label="Open photo 1" class="block aspect-[16/9] rounded-md overflow-hidden bg-parchment-200 cursor-zoom-in">
+                    {{ picture
+                        :image="gallery.0"
+                        aspect_ratio="16/9"
+                        cover="true"
+                        class="w-full h-full"
+                        sizes="64vw"
+                        loading="lazy"
+                    }}
+                </a>
+                {{ if gallery_count > 1 }}
+                    <a href="{{ gallery.1:url }}" data-lg-index="1" aria-label="Open photo 2" class="block aspect-square rounded-md overflow-hidden bg-parchment-200 cursor-zoom-in">
+                        {{ picture
+                            :image="gallery.1"
+                            aspect_ratio="1/1"
+                            cover="true"
+                            class="w-full h-full"
+                            sizes="36vw"
+                            loading="lazy"
+                        }}
+                    </a>
+                {{ /if }}
+            </div>
+        {{ /if }}
+
+        {{# Row 2 — three 1/1 squares; last is "+N" overflow when count > 5. #}}
+        {{ if gallery_count > 2 }}
+            <div class="grid grid-cols-3 gap-2">
+                <a href="{{ gallery.2:url }}" data-lg-index="2" aria-label="Open photo 3" class="block aspect-square rounded-md overflow-hidden bg-parchment-200 cursor-zoom-in">
+                    {{ picture
+                        :image="gallery.2"
+                        aspect_ratio="1/1"
+                        cover="true"
+                        class="w-full h-full"
+                        sizes="30vw"
+                        loading="lazy"
+                    }}
+                </a>
+                {{ if gallery_count > 3 }}
+                    <a href="{{ gallery.3:url }}" data-lg-index="3" aria-label="Open photo 4" class="block aspect-square rounded-md overflow-hidden bg-parchment-200 cursor-zoom-in">
+                        {{ picture
+                            :image="gallery.3"
+                            aspect_ratio="1/1"
+                            cover="true"
+                            class="w-full h-full"
+                            sizes="30vw"
+                            loading="lazy"
+                        }}
+                    </a>
+                {{ /if }}
+                {{ if gallery_count > 4 }}
+                    <a href="{{ gallery.4:url }}" data-lg-index="4" aria-label="{{ if gallery_count > 5 }}Open gallery — {{ gallery_count - 5 }} more photos{{ else }}Open photo 5{{ /if }}" class="block aspect-square relative rounded-md overflow-hidden bg-parchment-200 cursor-zoom-in">
+                        {{ picture
+                            :image="gallery.4"
+                            aspect_ratio="1/1"
+                            cover="true"
+                            class="w-full h-full"
+                            sizes="30vw"
+                            loading="lazy"
+                        }}
+                        {{ if gallery_count > 5 }}
+                            <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+                                <span class="font-display font-semibold text-white text-xl tracking-[0.01em] uppercase" style="font-feature-settings: 'ss01';">
+                                    +{{ gallery_count - 5 }}
+                                </span>
+                            </div>
+                        {{ /if }}
+                    </a>
+                {{ /if }}
+            </div>
+        {{ /if }}
+    </div>
+
+    {{# ── Desktop gallery — 3 rows, up to 7 photos. ──────────────────── #}}
+    <div class="hidden lg:flex flex-col gap-4">
+
+        {{# Row 1 — 3/4 portrait + 4/3 landscape (matched height). #}}
+        {{ if gallery_count > 0 }}
+            <div class="grid grid-cols-[36fr_64fr] gap-4">
+                <a href="{{ gallery.0:url }}" data-lg-index="0" aria-label="Open photo 1" class="block aspect-[3/4] rounded-xl overflow-hidden bg-parchment-200 cursor-zoom-in">
+                    {{ picture
+                        :image="gallery.0"
+                        aspect_ratio="3/4"
+                        cover="true"
+                        class="w-full h-full"
+                        sizes="21vw"
+                        loading="lazy"
+                    }}
+                </a>
+                {{ if gallery_count > 1 }}
+                    <a href="{{ gallery.1:url }}" data-lg-index="1" aria-label="Open photo 2" class="block aspect-[4/3] rounded-xl overflow-hidden bg-parchment-200 cursor-zoom-in">
+                        {{ picture
+                            :image="gallery.1"
+                            aspect_ratio="4/3"
+                            cover="true"
+                            class="w-full h-full"
+                            sizes="38vw"
+                            loading="lazy"
+                        }}
+                    </a>
+                {{ /if }}
+            </div>
+        {{ /if }}
+
+        {{# Row 2 — 16/9 landscape + 1/1 square (matched height). #}}
+        {{ if gallery_count > 2 }}
+            <div class="grid grid-cols-[64fr_36fr] gap-4">
+                <a href="{{ gallery.2:url }}" data-lg-index="2" aria-label="Open photo 3" class="block aspect-[16/9] rounded-xl overflow-hidden bg-parchment-200 cursor-zoom-in">
+                    {{ picture
+                        :image="gallery.2"
+                        aspect_ratio="16/9"
+                        cover="true"
+                        class="w-full h-full"
+                        sizes="38vw"
+                        loading="lazy"
+                    }}
+                </a>
+                {{ if gallery_count > 3 }}
+                    <a href="{{ gallery.3:url }}" data-lg-index="3" aria-label="Open photo 4" class="block aspect-square rounded-xl overflow-hidden bg-parchment-200 cursor-zoom-in">
+                        {{ picture
+                            :image="gallery.3"
+                            aspect_ratio="1/1"
+                            cover="true"
+                            class="w-full h-full"
+                            sizes="21vw"
+                            loading="lazy"
+                        }}
+                    </a>
+                {{ /if }}
+            </div>
+        {{ /if }}
+
+        {{# Row 3 — three 1/1 squares; last is "+N" overflow when count > 7. #}}
+        {{ if gallery_count > 4 }}
+            <div class="grid grid-cols-3 gap-4">
+                <a href="{{ gallery.4:url }}" data-lg-index="4" aria-label="Open photo 5" class="block aspect-square rounded-xl overflow-hidden bg-parchment-200 cursor-zoom-in">
+                    {{ picture
+                        :image="gallery.4"
+                        aspect_ratio="1/1"
+                        cover="true"
+                        class="w-full h-full"
+                        sizes="13vw"
+                        loading="lazy"
+                    }}
+                </a>
+                {{ if gallery_count > 5 }}
+                    <a href="{{ gallery.5:url }}" data-lg-index="5" aria-label="Open photo 6" class="block aspect-square rounded-xl overflow-hidden bg-parchment-200 cursor-zoom-in">
+                        {{ picture
+                            :image="gallery.5"
+                            aspect_ratio="1/1"
+                            cover="true"
+                            class="w-full h-full"
+                            sizes="13vw"
+                            loading="lazy"
+                        }}
+                    </a>
+                {{ /if }}
+                {{ if gallery_count > 6 }}
+                    <a href="{{ gallery.6:url }}" data-lg-index="6" aria-label="{{ if gallery_count > 7 }}Open gallery — {{ gallery_count - 7 }} more photos{{ else }}Open photo 7{{ /if }}" class="block aspect-square relative rounded-xl overflow-hidden bg-parchment-200 cursor-zoom-in">
+                        {{ picture
+                            :image="gallery.6"
+                            aspect_ratio="1/1"
+                            cover="true"
+                            class="w-full h-full"
+                            sizes="13vw"
+                            loading="lazy"
+                        }}
+                        {{ if gallery_count > 7 }}
+                            <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+                                <span class="font-display font-semibold text-white text-3xl tracking-[0.01em] uppercase" style="font-feature-settings: 'ss01';">
+                                    +{{ gallery_count - 7 }}
+                                </span>
+                            </div>
+                        {{ /if }}
+                    </a>
+                {{ /if }}
+            </div>
+        {{ /if }}
+    </div>
+</div>
+
+{{ push:head }}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.8.3/css/lightgallery-bundle.min.css" integrity="sha512-fXavT4uA4L0uTUFHC275D7zd751ohbSuD6VUMc5JysWfmR+NxTI3w7etE7N9hjTETcoh0w0V+24Cel4xXnqvCg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+{{ /push:head }}
+{{ push:scripts }}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.8.3/lightgallery.min.js" integrity="sha512-n02TbYimj64qb98ed5WwkNiSw/i9Xlvv4Ehvhg0jLp3qMAMWCYUHbOMbppZ0vimtyiyw9NqNqxUZC4hq86f4aQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('[data-tour-gallery]').forEach((container) => {
+                const dataEl = container.querySelector('[data-tour-gallery-images]');
+                if (!dataEl) return;
+
+                let items;
+                try {
+                    items = JSON.parse(dataEl.textContent);
+                } catch (e) {
+                    return;
+                }
+
+                const lg = lightGallery(container, {
+                    dynamic: true,
+                    dynamicEl: items,
+                    speed: 400,
+                    download: false,
+                });
+
+                container.querySelectorAll('[data-lg-index]').forEach((trigger) => {
+                    trigger.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        lg.openGallery(parseInt(trigger.dataset.lgIndex, 10));
+                    });
+                });
+            });
+        });
+    </script>
+{{ /push:scripts }}
+<!-- End: /components/_tour_summary_gallery.antlers.html -->

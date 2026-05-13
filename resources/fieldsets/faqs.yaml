@@ -34,11 +34,9 @@ fields:
             type: bard
             display: Answer
   -
-    handle: common_questions
+    handle: show_common_questions
     field:
-      type: entries
-      collections:
-        - questions
-      localizable: true
-      display: 'Common questions'
-      instructions: 'Optional. Pick shared questions from the Questions collection. They''re appended after the page-specific questions.'
+      type: toggle
+      default: true
+      display: 'Show common questions?'
+      instructions: 'Automatically append common questions for the page''s collection (e.g. guided / self-guided).'

@@ -4,9 +4,10 @@
     `{{ if transparent_header }}` resolves true on every tour page.
     `static_overlay_header` makes the layout render the header
     `absolute` instead of `fixed` so it scrolls away with the banner —
-    the sticky sub-nav below the overview becomes the persistent nav. #}}
+    the sticky sub-nav below the summary becomes the persistent nav. #}}
 {{ transparent_header = true }}
 {{ static_overlay_header = true }}
+
 {{#
     @name Tour show
     @desc Single tour entry. The tour banner header sits at the top — region
@@ -32,7 +33,7 @@
     eager="true"
 }}
     {{ if logged_in }}
-        <a href="/booking?tour={{ slug }}" class="button button--outline button--gold button--large" wire:navigate>
+        <a href="/booking?tour={{ slug }}" class="button button--outline button--gold button--large">
             <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
         </a>
     {{ else }}
@@ -44,134 +45,7 @@
     {{ /if }}
 {{ /partial:components/tour_banner }}
 
-{{# Sticky sub-nav — sits between the banner and the overview, jumping the
-    visitor to each section. Items are derived from the actual page_builder
-    blocks on the entry: only known section types render nav buttons (others
-    stay silent). Active state is driven by the `tourSubnav` Alpine store,
-    populated by `x-intersect` directives on each section. Smooth scroll
-    uses native `scrollIntoView`, which honours each section's `scroll-mt-*`
-    utility. The wrapper carries a `stuck` flag — a sentinel above the nav
-    flips it via `x-intersect` so the nav picks up a shadow only once
-    pinned, providing a clean visual separation from the content scrolling
-    underneath. #}}
-{{ if page_builder | count }}
-    {{ subnav_ids = 'overview' }}
-    {{ page_builder scope="block" }}
-        {{ if type == 'history' }}{{ subnav_ids = "{subnav_ids},history" }}{{ /if }}
-        {{ if type == 'itinerary' }}{{ subnav_ids = "{subnav_ids},itinerary" }}{{ /if }}
-        {{ if type == 'experience' }}{{ subnav_ids = "{subnav_ids},experience" }}{{ /if }}
-        {{ if type == 'highlights' }}{{ subnav_ids = "{subnav_ids},highlights" }}{{ /if }}
-        {{ if type == 'essentials' }}{{ subnav_ids = "{subnav_ids},essentials" }}{{ /if }}
-        {{ if type == 'faqs' }}{{ subnav_ids = "{subnav_ids},faqs" }}{{ /if }}
-        {{ if type == 'testimonials' }}{{ subnav_ids = "{subnav_ids},reviews" }}{{ /if }}
-        {{ if type == 'leader' }}{{ subnav_ids = "{subnav_ids},leader" }}{{ /if }}
-        {{ if type == 'featured_tours' }}{{ subnav_ids = "{subnav_ids},related-tours" }}{{ /if }}
-    {{ /page_builder }}
-
-    {{# Sentinel sits in flow directly above the sticky nav. While it's in
-        view, the nav hasn't pinned yet → no shadow. Once the user scrolls
-        past it, `intersect:leave` writes `stuck = true` into the shared
-        `tourSubnav` store and the nav fades in a shadow. The sentinel and
-        the nav are siblings (no wrapper) so the nav's sticky containing
-        block stays the long page body, not a short wrapper that would
-        scroll the nav off-screen as soon as it left view. #}}
-    <div
-        aria-hidden="true"
-        x-data
-        x-intersect:enter="$store.tourSubnav.stuck = false"
-        x-intersect:leave="$store.tourSubnav.stuck = true"
-    ></div>
-
-    <nav
-        x-data="tourSubnav"
-        :class="$store.tourSubnav.stuck && 'shadow-md'"
-        class="sticky top-0 z-20 bg-parchment-100 motion-safe:transition-shadow"
-        aria-label="{{ trans:strings.tour_sections ?? 'Tour sections' }}"
-    >
-            <div class="fluid-grid">
-                <div class="span-content flex items-stretch gap-6 h-20 max-md:pr-3">
-
-                    {{# Section nav — horizontally scrollable on small
-                        viewports where the tabs don't all fit at once. The
-                        trailing gradient hints at off-screen items; hidden
-                        from md+ where the row typically fits. Each tab
-                        keeps a constant 3px bottom border so toggling the
-                        active state never shifts the baseline.
-
-                        `min-w-0` on both the wrapper and the `<ul>` is
-                        load-bearing: a flex item's default `min-width` is
-                        `auto` (= its content's intrinsic width), which
-                        would let the `<ul>` grow to fit all the tabs and
-                        leave `overflow-x-auto` with nothing to overflow.
-                        Setting min-width to 0 caps the `<ul>` at its
-                        parent's width so the tabs can scroll. #}}
-                    <div class="relative flex-1 flex items-stretch min-w-0">
-                        <ul class="flex items-stretch overflow-x-auto no-scrollbar flex-1 min-w-0 gap-x-6">
-                            <li class="flex">
-                                <button
-                                    type="button"
-                                    @click="goTo('overview')"
-                                    :class="$store.tourSubnav.active === 'overview' ? 'border-gold' : 'border-transparent'"
-                                    class="flex items-center text-base font-medium leading-[1.6] text-foreground whitespace-nowrap border-b-[3px] motion-safe:transition-colors hover:text-foreground/70 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-gold"
-                                >{{ trans:strings.overview ?? 'Overview' }}</button>
-                            </li>
-                            {{# Loop-local variables are named `nav_btn_id` / `nav_btn_label`
-                                rather than `subnav_id` / `subnav_label` because Antlers
-                                assignments inside a tag-pair loop persist into the outer
-                                scope after the loop ends. The block partial that renders
-                                each page_builder section accepts a `subnav_id` parameter,
-                                so leaking that exact name caused the inner block of every
-                                section that doesn't pass its own to inherit the last loop
-                                value (e.g. `reviews`) and emit a duplicate target. #}}
-                            {{ page_builder scope="block" }}
-                                {{ if type == 'history' }}{{ nav_btn_id = 'history' }}{{ nav_btn_label = trans:strings.history ?? 'History' }}
-                                {{ elseif type == 'highlights' }}{{ nav_btn_id = 'highlights' }}{{ nav_btn_label = trans:strings.highlights ?? 'Highlights' }}
-                                {{ elseif type == 'itinerary' }}{{ nav_btn_id = 'itinerary' }}{{ nav_btn_label = trans:strings.itinerary ?? 'Itinerary' }}
-                                {{ elseif type == 'experience' }}{{ nav_btn_id = 'experience' }}{{ nav_btn_label = trans:strings.experience ?? 'Experience' }}
-                                {{ elseif type == 'leader' }}{{ nav_btn_id = 'leader' }}{{ nav_btn_label = trans:strings.leader ?? 'Leader' }}
-                                {{ elseif type == 'essentials' }}{{ nav_btn_id = 'essentials' }}{{ nav_btn_label = trans:strings.essentials ?? 'Essentials' }}
-                                {{ elseif type == 'faqs' }}{{ nav_btn_id = 'faqs' }}{{ nav_btn_label = trans:strings.faq ?? 'FAQ' }}
-                                {{ elseif type == 'testimonials' }}{{ nav_btn_id = 'reviews' }}{{ nav_btn_label = trans:strings.reviews ?? 'Reviews' }}
-                                {{ elseif type == 'featured_tours' }}{{ nav_btn_id = 'related-tours' }}{{ nav_btn_label = trans:strings.related_tours ?? 'Related tours' }}
-                                {{ else }}{{ nav_btn_id = '' }}{{ nav_btn_label = '' }}
-                                {{ /if }}
-
-                                {{ if nav_btn_id }}
-                                    <li class="flex">
-                                        <button
-                                            type="button"
-                                            @click="goTo('{{ nav_btn_id }}')"
-                                            :class="$store.tourSubnav.active === '{{ nav_btn_id }}' ? 'border-gold' : 'border-transparent'"
-                                            class="flex items-center text-base font-medium leading-[1.6] text-foreground whitespace-nowrap border-b-[3px] motion-safe:transition-colors hover:text-foreground/70 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-gold"
-                                        >{{ nav_btn_label }}</button>
-                                    </li>
-                                {{ /if }}
-                            {{ /page_builder }}
-                        </ul>
-                        <div
-                            aria-hidden="true"
-                            class="pointer-events-none absolute inset-y-0 right-0 w-6 bg-gradient-to-l from-parchment-100 to-transparent md:hidden"
-                        ></div>
-                    </div>
-
-                    {{# Desktop-only CTA — pinned to the right of the section nav. #}}
-                    <div class="hidden md:flex items-center shrink-0">
-                        {{ if logged_in }}
-                            <a href="/booking?tour={{ slug }}" class="button button--accent" wire:navigate>
-                                <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
-                            </a>
-                        {{ else }}
-                            <x-flux::modal.trigger name="booking-modal">
-                                <button type="button" class="button button--accent">
-                                    <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
-                                </button>
-                            </x-flux::modal.trigger>
-                        {{ /if }}
-                    </div>
-                </div>
-            </div>
-    </nav>
-{{ /if }}
+{{ partial:components/tour_summary }}
 
 {{# Booking modal — guests only. Collects an email up front and
     forwards to /login (sign in or register, depending on whether
@@ -236,25 +110,133 @@
     </x-flux::modal>
 {{ /unless }}
 
-{{ partial:components/tour_overview }}
-
 <main class="page-builder" id="content">
+{{# Sticky sub-nav — sits between the gallery/stats overview and the
+    page_builder blocks, jumping the visitor to each section. Items are
+    derived from the actual page_builder blocks on the entry: only known
+    section types render nav buttons (others stay silent). Active state is
+    driven by the `tourSubnav` Alpine store, populated by `x-intersect`
+    directives on each section. Smooth scroll
+    uses native `scrollIntoView`, which honours each section's `scroll-mt-*`
+    utility. The wrapper carries a `stuck` flag — a sentinel above the nav
+    flips it via `x-intersect` so the nav picks up a shadow only once
+    pinned, providing a clean visual separation from the content scrolling
+    underneath. #}}
+{{ if page_builder | count }}
+    {{# Sentinel sits in flow directly above the sticky nav. While it's in
+        view, the nav hasn't pinned yet → no shadow. Once the user scrolls
+        past it, `intersect:leave` writes `stuck = true` into the shared
+        `tourSubnav` store and the nav fades in a shadow. The sentinel and
+        the nav are siblings (no wrapper) so the nav's sticky containing
+        block stays the long page body, not a short wrapper that would
+        scroll the nav off-screen as soon as it left view. #}}
+    <div
+        class="no-space-y"
+        aria-hidden="true"
+        x-data
+        x-intersect:enter="$store.tourSubnav.stuck = false"
+        x-intersect:leave="$store.tourSubnav.stuck = true"
+    ></div>
+
+    <nav
+        x-data="tourSubnav"
+        :class="$store.tourSubnav.stuck && 'shadow-md'"
+        class="no-space-y sticky top-0 z-20 bg-card border-y border-parchment-200 motion-safe:transition-shadow"
+        aria-label="{{ trans:strings.tour_sections ?? 'Tour sections' }}"
+    >
+            <div class="fluid-grid">
+                <div class="span-content flex items-stretch gap-6 h-20 max-md:pr-3">
+
+                    {{# Section nav — horizontally scrollable on small
+                        viewports where the tabs don't all fit at once. The
+                        trailing gradient hints at off-screen items; hidden
+                        from md+ where the row typically fits. Each tab
+                        keeps a constant 3px bottom border so toggling the
+                        active state never shifts the baseline.
+
+                        `min-w-0` on both the wrapper and the `<ul>` is
+                        load-bearing: a flex item's default `min-width` is
+                        `auto` (= its content's intrinsic width), which
+                        would let the `<ul>` grow to fit all the tabs and
+                        leave `overflow-x-auto` with nothing to overflow.
+                        Setting min-width to 0 caps the `<ul>` at its
+                        parent's width so the tabs can scroll. #}}
+                    <div class="relative flex-1 flex items-stretch min-w-0">
+                        <ul class="flex items-stretch overflow-x-auto no-scrollbar flex-1 min-w-0">
+                            {{# Only known section types render a button. Label comes from
+                                `strings.<type>` so the lang file is the single source of
+                                truth. `testimonials` is the one type whose anchor differs
+                                from its handle (`reviews`), so map it inline. #}}
+                            {{ page_builder scope="block" }}
+                                {{ if type == 'overview' || type == 'highlights' || type == 'itinerary' || type == 'experience' || type == 'leader' || type == 'essentials' || type == 'faqs' || type == 'testimonials' }}
+                                    {{ btn_id = type == 'testimonials' ? 'reviews' : type }}
+                                    <li class="flex">
+                                        <button
+                                            type="button"
+                                            @click="goTo('{{ btn_id }}')"
+                                            :class="$store.tourSubnav.active === '{{ btn_id }}' ? 'border-gold' : 'border-transparent'"
+                                            class="flex items-center px-4 text-base font-medium leading-[1.6] text-foreground whitespace-nowrap border-b-[3px] motion-safe:transition-colors hover:text-foreground/70 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-gold"
+                                        >{{ trans key="strings.{type}" }}</button>
+                                    </li>
+                                {{ /if }}
+                            {{ /page_builder }}
+                        </ul>
+                        <div
+                            aria-hidden="true"
+                            class="pointer-events-none absolute inset-y-0 right-0 w-6 bg-gradient-to-l from-card to-transparent md:hidden"
+                        ></div>
+                    </div>
+
+                    {{# Desktop-only CTA — pinned to the right of the section nav.
+                        Price block sits beside the CTA; self-guided tours
+                        prefix with "From" because the listed value is the
+                        starting price per person. #}}
+                    <div class="hidden md:flex items-center gap-5 shrink-0">
+                        {{ if price }}
+                            <div class="flex flex-col items-end leading-tight gap-1">
+                                {{ if show_from }}
+                                <span class="font-display font-semibold text-xs uppercase tracking-[1px] text-text">
+                                    {{ trans:strings.from ?? 'From' }}
+                                </span>
+                                {{ /if }}
+                                <span class="font-display font-semibold text-lg text-foreground leading-none">{{ price }}</span>
+                            </div>
+                        {{ /if }}
+                        {{ if logged_in }}
+                            <a href="/booking?tour={{ slug }}" class="button button--accent">
+                                <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
+                            </a>
+                        {{ else }}
+                            <x-flux::modal.trigger name="booking-modal">
+                                <button type="button" class="button button--accent">
+                                    <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
+                                </button>
+                            </x-flux::modal.trigger>
+                        {{ /if }}
+                    </div>
+                </div>
+            </div>
+    </nav>
+{{ /if }}
+
     {{ page_builder scope="block" }}
         {{ partial src="page_builder/{type}" }}
     {{ /page_builder }}
 </main>
 
-{{# Brand reassurance panel. Sits outside <main> and ahead of the global
-    CTA banner injected by the layout. Pulls from a per-collection global so
-    guided and self-guided tours each get their own heading, intro and
-    curated benefits — but share one set of markup. #}}
-{{ if {collection:handle} == 'guided' }}
-    {{ guided_walking_benefits }}
-        {{ partial:components/walking_benefits :heading="heading" :intro="intro" :benefits="benefits" }}
-    {{ /guided_walking_benefits }}
-{{ elseif {collection:handle} == 'self-guided' }}
-    {{ self_guided_walking_benefits }}
-        {{ partial:components/walking_benefits :heading="heading" :intro="intro" :benefits="benefits" }}
-    {{ /self_guided_walking_benefits }}
-{{ /if }}
+{{# Brand reassurance panel. Sits outside <main> and ahead of the tour
+    CTA banner. The heading, intro and benefits live on the collection's
+    mounted listing page, so we follow `mount_url` and pull the fields
+    through `get_content`. The listing page's own template reads these
+    fields straight from its entry scope. #}}
+{{ get_content from="{ mount_url handle="{collection:handle}" }" }}
+    {{ if walking_benefits_heading && walking_benefits }}
+        {{ partial:components/walking_benefits :heading="walking_benefits_heading" :intro="walking_benefits_intro" :benefits="walking_benefits" }}
+    {{ /if }}
+{{ /get_content }}
+
+{{# Tour-specific CTA banner — replaces the global layout CTA on tour
+    show pages. Reuses the tour's hero image and the booking-modal /
+    direct-link "Make an enquiry" action from the tour banner. #}}
+{{ partial:tours/cta_banner }}
 <!-- End: /tours/show.antlers.html -->

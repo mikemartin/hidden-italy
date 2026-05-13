@@ -5,14 +5,21 @@
           hidden inputs from their account; guests see the full form
           with a "Have an account? Log in" link below the submit
           button. Both submit to the `booking_enquiry` Statamic form
-          and land on /booking/thank-you.
+          via Peak's Alpine + Precognition handler and land on
+          /booking/thank-you.
+
+          Standard fields are rendered through Peak's `{{ %form:fields }}`
+          loop with the styled vendor partials in
+          `resources/views/vendor/statamic/forms/fields/`. The tour
+          picker stays bespoke because it needs collection-driven
+          optgroups (Guided + Self-guided) which Peak's `select`
+          partial can't do.
 
           Reads `tour` from the query string — a slug from either the
           guided or self-guided collection — and pre-selects the
-          matching option in the grouped picker. Visitors who land
-          here without a tour set just pick from the dropdown. The
-          guest email field also pre-fills from `?email=` so the
-          tour-show modal can pass the visitor's typed email through.
+          matching option in the grouped picker. The guest email field
+          also pre-fills from `?email=` so the tour-show modal can
+          pass the visitor's typed email through.
 #}}
 
 <!-- /booking/index.antlers.html -->
@@ -31,138 +38,185 @@
         </p>
     </div>
 
-    {{ form:create handle="booking_enquiry" redirect="/booking/thank-you" error_redirect="/booking" class="flex flex-col gap-6" }}
-        {{ if errors }}
-            <div class="rounded-2xl border border-terracotta/30 bg-terracotta/5 p-4 text-sm text-terracotta">
-                {{ errors }}
-                    <p class="m-0">{{ value }}</p>
-                {{ /errors }}
+    {{ form:create handle="booking_enquiry" js="alpine:form" attr:x-ref="form" redirect="/booking/thank-you" error_redirect="/booking" }}
+        <div x-data="formHandler()" class="flex flex-col gap-6" x-cloak>
+            {{# Error notifications — Precognition-driven. #}}
+            <template x-if="form.hasErrors && submitted">
+                {{ partial:components/notification type="error" }}
+                    {{ slot:attributes }}id="summary" role="group"{{ /slot:attributes }}
+                    <h3 class="mb-2 leading-5 font-bold text-error">{{ trans:strings.form_error }}</h3>
+                    <ul class="list-disc list-inside marker:text-error">
+                        <template x-for="(error, index) in form.errors">
+                            <li>
+                                <a :href="`#${index}`" @click.prevent="$focus.focus(document.querySelector(`#${index}`))" x-text="error" class="underline text-error focus:outline-error"></a>
+                            </li>
+                        </template>
+                    </ul>
+                {{ /partial:components/notification }}
+            </template>
+
+            <template x-if="success">
+                {{ partial:components/notification type="success" content="{trans:strings.form_success}" }}
+            </template>
+
+            {{# Polite live notifications for screen readers only. #}}
+            <ul aria-live="polite" class="sr-only">
+                <template x-if="success">
+                    <li>{{ trans:strings.form_success }}</li>
+                </template>
+
+                <template x-if="form.errors && !submitted">
+                    <template x-for="error in form.errors">
+                        <li x-text="error"></li>
+                    </template>
+                </template>
+            </ul>
+
+            {{# Honeypot spam protection. #}}
+            <div class="hidden">
+                <label class="font-bold" for="{{ honeypot }}">{{ trans:strings.form_honeypot }} <sup class="text-error">*</sup></label>
+                <input class="form-input w-full" id="{{ honeypot }}" type="text" name="{{ honeypot }}" x-model="form.{{ honeypot }}" tabindex="-1" autocomplete="off"/>
             </div>
-        {{ /if }}
 
-        {{ if !as_guest }}
-            {{# Hidden user fields piped through from the current user. #}}
-            {{ current_user }}
-                <input type="hidden" name="name"     value="{{ name }}">
-                <input type="hidden" name="email"    value="{{ email }}">
-                <input type="hidden" name="phone"    value="{{ phone_home or phone_italy }}">
-                <input type="hidden" name="user_id"  value="{{ id }}">
-            {{ /current_user }}
-        {{ else }}
-            {{# Guest fields. #}}
-            <div class="flex flex-col gap-2">
-                <label for="booking-name" class="block text-base font-semibold text-foreground">{{ trans:strings.name }}</label>
-                <input
-                    type="text"
-                    id="booking-name"
-                    name="name"
-                    value="{{ old:name }}"
-                    placeholder="{{ trans:strings.full_name }}"
-                    autocomplete="name"
-                    required
-                    class="block w-full rounded-full bg-card px-5 py-3 text-base text-foreground border border-text/20 placeholder:text-text/40 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent transition"
-                />
+            {{ if !as_guest }}
+                {{# Hidden user fields piped through from the current user.
+                    `x-init` seeds the Alpine `form.*` state from each
+                    input's `value` (Precognition submits the Alpine state,
+                    not the raw DOM, so plain hidden inputs aren't enough). #}}
+                {{ current_user }}
+                    <input type="hidden" name="name"    value="{{ name }}"         x-init="form.name = $el.value">
+                    <input type="hidden" name="email"   value="{{ email }}"        x-init="form.email = $el.value">
+                    <input type="hidden" name="phone"   value="{{ phone_mobile }}" x-init="form.phone = $el.value">
+                    <input type="hidden" name="user_id" value="{{ id }}"           x-init="form.user_id = $el.value">
+                {{ /current_user }}
+            {{ /if }}
+
+            {{# Render blueprint fields in a 12-col grid so email + phone
+                (width: 50 in the blueprint) sit side-by-side on md+.
+                Skip:
+                  - `tour` — replaced with the bespoke optgroup selector
+                    below (Peak's select partial can't do
+                    collection-driven optgroups).
+                  - `name`/`email`/`phone` for logged-in users — those
+                    values come from `current_user` via hidden inputs. #}}
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
+                {{ %form:fields scope="field" }}
+                    {{ if field:handle == 'tour' }}
+                        {{# Bespoke tour picker — single grouped <select>
+                            with Guided + Self-guided optgroups. Seeds
+                            `form.tour` from `?tour=` so users arriving
+                            from a tour page land with their tour
+                            pre-chosen. #}}
+                        <div class="md:col-span-12 flex flex-col gap-2">
+                            <label for="tour" class="block text-base font-medium leading-[1.6] text-foreground">
+                                {{ trans:strings.tour }}
+                            </label>
+                            <div class="relative">
+                                <select
+                                    id="tour"
+                                    name="tour"
+                                    x-model="form.tour"
+                                    x-init="if (! form.tour) form.tour = '{{ selected_tour_slug }}'"
+                                    @change="form.validate('tour')"
+                                    :aria-invalid="form.invalid('tour')"
+                                    :class="{
+                                        'border-error focus:border-error focus:ring-error/20': form.invalid('tour'),
+                                        'border-text/20 focus:border-accent focus:ring-accent': !form.invalid('tour')
+                                    }"
+                                    class="block w-full appearance-none rounded-full bg-card pl-5 pr-12 py-3 text-base lg:text-lg text-foreground border focus:outline-none focus:ring-2 transition"
+                                >
+                                    <option value="">{{ trans:strings.select_a_tour }}</option>
+
+                                    <optgroup label="{{ trans:strings.guided_tours }}">
+                                        {{ collection:guided sort="name:asc" }}
+                                            <option value="{{ slug }}">{{ name or title }}</option>
+                                        {{ /collection:guided }}
+                                    </optgroup>
+
+                                    <optgroup label="{{ trans:strings.self_guided_tours }}">
+                                        {{ collection:self-guided sort="name:asc" }}
+                                            <option value="{{ slug }}">{{ name or title }}</option>
+                                        {{ /collection:self-guided }}
+                                    </optgroup>
+                                </select>
+                                <x-lucide-chevron-down class="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-accent pointer-events-none" />
+                            </div>
+
+                            <template x-if="form.invalid('tour')">
+                                <span class="text-error text-sm font-bold" x-text="form.errors.tour"></span>
+                            </template>
+                        </div>
+                    {{ elseif !as_guest && (field:handle == 'name' || field:handle == 'email' || field:handle == 'phone') }}
+                        {{# Skipped — value supplied via hidden input above. #}}
+                    {{ else }}
+                        <template x-if="{{ show_field }}">
+                            <div class="
+                                flex flex-col gap-2
+                                {{ input_type == 'hidden' ?= 'hidden' }}
+                                {{ switch(
+                                    (width == '25') => 'md:col-span-3',
+                                    (width == '33') => 'md:col-span-4',
+                                    (width == '50') => 'md:col-span-6',
+                                    (width == '66') => 'md:col-span-8',
+                                    (width == '75') => 'md:col-span-9',
+                                    () => 'md:col-span-12'
+                                )}}
+                            ">
+                                {{ unless type == 'spacer' }}
+                                    <label class="block text-base font-medium leading-[1.6] text-foreground" for="{{ handle }}">
+                                        {{ trans :key="field:display" }}
+                                        {{ if validate | contains('required') || validate | contains('accepted') }}
+                                            <sup aria-label="{{ trans:strings.form_required }}" class="text-error">*</sup>
+                                        {{ /if }}
+                                    </label>
+
+                                    {{ if field:instructions && instructions_position != 'below' }}
+                                        <span id="{{ field:handle }}-instructions" class="text-sm text-text">
+                                            {{ trans :key="field:instructions" }}
+                                        </span>
+                                    {{ /if }}
+                                {{ /unless }}
+
+                                {{ field:field }}
+
+                                <template x-if="form.invalid('{{ handle }}')">
+                                    <span class="text-error text-sm font-bold" x-text="form.errors.{{ handle }}"></span>
+                                </template>
+
+                                {{ if field:instructions && instructions_position === 'below' }}
+                                    <span id="{{ field:handle }}-instructions" class="text-sm text-text">
+                                        {{ trans :key="field:instructions" }}
+                                    </span>
+                                {{ /if }}
+                            </div>
+                        </template>
+                    {{ /if }}
+                {{ /%form:fields }}
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div class="flex flex-col gap-2">
-                    <label for="booking-email" class="block text-base font-semibold text-foreground">{{ trans:strings.email_address }}</label>
-                    <input
-                        type="email"
-                        id="booking-email"
-                        name="email"
-                        value="{{ old:email ?? get:email }}"
-                        placeholder="{{ trans:strings.email_placeholder }}"
-                        autocomplete="email"
-                        required
-                        class="block w-full rounded-full bg-card px-5 py-3 text-base text-foreground border border-text/20 placeholder:text-text/40 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent transition"
-                    />
-                </div>
+            {{ captcha }}
 
-                <div class="flex flex-col gap-2">
-                    <label for="booking-phone" class="block text-base font-semibold text-foreground">{{ trans:strings.phone_number }}</label>
-                    <input
-                        type="tel"
-                        id="booking-phone"
-                        name="phone"
-                        value="{{ old:phone }}"
-                        placeholder="{{ trans:strings.phone_placeholder }}"
-                        autocomplete="tel"
-                        class="block w-full rounded-full bg-card px-5 py-3 text-base text-foreground border border-text/20 placeholder:text-text/40 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent transition"
-                    />
-                </div>
-            </div>
-        {{ /if }}
+            <button
+                type="button"
+                @click.prevent="submit"
+                :disabled="form.processing"
+                :class="{ 'opacity-25 cursor-default': form.processing }"
+                class="button button--accent button--large w-full"
+                data-test="booking-submit"
+            >
+                <span>{{ trans:strings.send_enquiry }}</span>
+            </button>
 
-        {{# Tour selector — single grouped <select> with Guided +
-            Self-guided optgroups. The current tour slug from `?tour=`
-            becomes the `selected` option so users arriving from a
-            tour page land with their tour pre-chosen. #}}
-        <div class="flex flex-col gap-2">
-            <label for="booking-tour" class="block text-base font-semibold text-foreground">{{ trans:strings.tour }}</label>
-            <div class="relative">
-                <select
-                    id="booking-tour"
-                    name="tour"
-                    required
-                    class="block w-full appearance-none rounded-full bg-card pl-5 pr-12 py-3 text-base text-foreground border border-text/20 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent transition"
-                >
-                    <option value="" disabled {{ if !selected_tour_slug }}selected{{ /if }}>{{ trans:strings.select_a_tour }}</option>
-
-                    <optgroup label="{{ trans:strings.guided_tours }}">
-                        {{ collection:guided sort="name:asc" }}
-                            <option
-                                value="{{ slug }}"
-                                {{ if slug == selected_tour_slug }}selected{{ /if }}
-                            >{{ name or title }}</option>
-                        {{ /collection:guided }}
-                    </optgroup>
-
-                    <optgroup label="{{ trans:strings.self_guided_tours }}">
-                        {{ collection:self-guided sort="name:asc" }}
-                            <option
-                                value="{{ slug }}"
-                                {{ if slug == selected_tour_slug }}selected{{ /if }}
-                            >{{ name or title }}</option>
-                        {{ /collection:self-guided }}
-                    </optgroup>
-                </select>
-                <x-lucide-chevron-down class="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-text/60 pointer-events-none" />
-            </div>
+            {{ if as_guest && logged_out }}
+                <p class="text-center text-sm text-text">
+                    {{ trans:strings.have_an_account }}
+                    <a href="/login?redirect=/booking{{ if selected_tour_slug }}?tour={{ selected_tour_slug }}{{ /if }}" wire:navigate class="font-semibold text-foreground underline decoration-accent hover:text-accent">{{ trans:strings.log_in }}</a>
+                </p>
+            {{ /if }}
         </div>
-
-        <div class="flex flex-col gap-2">
-            <label for="booking-message" class="block text-base font-semibold text-foreground">{{ trans:strings.message }}</label>
-            <textarea
-                id="booking-message"
-                name="message_body"
-                rows="5"
-                placeholder="{{ trans:strings.message_placeholder }}"
-                required
-                class="block w-full rounded-2xl bg-card px-5 py-3 text-base text-foreground border border-text/20 placeholder:text-text/40 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent transition"
-            >{{ old:message_body }}</textarea>
-        </div>
-
-        {{ captcha }}
-
-        {{ if error:captcha }}
-            <p class="text-accent-2 text-xs font-medium">{{ error:captcha }}</p>
-        {{ /if }}
-
-        {{# Consent toggle is required by the form blueprint; auto-set true
-            here since the wireframe doesn't expose a checkbox. #}}
-        <input type="hidden" name="consent" value="1">
-
-        <button type="submit" class="button button--accent button--large w-full" data-test="booking-submit">
-            <span>{{ trans:strings.send_enquiry }}</span>
-        </button>
-
-        {{ if as_guest && logged_out }}
-            <p class="text-center text-sm text-text">
-                {{ trans:strings.have_an_account }}
-                <a href="/login?redirect=/booking{{ if selected_tour_slug }}?tour={{ selected_tour_slug }}{{ /if }}" wire:navigate class="font-semibold text-foreground underline decoration-accent hover:text-accent">{{ trans:strings.log_in }}</a>
-            </p>
-        {{ /if }}
     {{ /form:create }}
+
+    {{# Call in the Peak Tools Alpine Based Precognition Form Handler. #}}
+    {{ partial:statamic-peak-tools::snippets/form_handler }}
 </div>
 <!-- End: /booking/index.antlers.html -->

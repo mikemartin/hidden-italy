@@ -1,9 +1,7 @@
 @php
     $accountNav = [
-        ['route' => 'account.profile',           'label' => __('Profile'),           'icon' => 'circle-user-round'],
-        ['route' => 'account.password',          'label' => __('Password'),          'icon' => 'key-round'],
-        ['route' => 'account.emergency-contact', 'label' => __('Emergency Contact'), 'icon' => 'ambulance'],
-        ['route' => 'account.postal-address',    'label' => __('Postal Address'),    'icon' => 'mailbox'],
+        ['route' => 'account.profile',  'label' => __('Profile'),  'icon' => 'circle-user-round'],
+        ['route' => 'account.password', 'label' => __('Password'), 'icon' => 'key-round'],
     ];
 @endphp
 
@@ -18,6 +16,16 @@
                     {{ $item['label'] }}
                 </flux:navlist.item>
             @endforeach
+
+            <form method="POST" action="{{ route('logout') }}" class="w-full">
+                @csrf
+                <flux:navlist.item as="button" type="submit" class="w-full">
+                    <x-slot name="icon">
+                        <x-lucide-log-out class="size-5" stroke-width="1.75" />
+                    </x-slot>
+                    {{ __('Log out') }}
+                </flux:navlist.item>
+            </form>
         </flux:navlist>
     </div>
 

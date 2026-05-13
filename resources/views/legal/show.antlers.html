@@ -1,0 +1,111 @@
+{{#
+    @name Legal page
+    @desc Long-form legal entries (privacy, terms, &c.). Same parchment
+          surface and topographic decoration as `articles/show`, but with
+          a simplified header — no collection breadcrumb, no share menu,
+          no hero image and no related-articles section. A "Last updated"
+          date sits above the headline; the body is rendered from the
+          shared `article` Bard field so the same component set
+          (pull_quote, table, image, video, &c.) is available.
+
+          Entries with one or more level-2 headings in their `article`
+          field get a sticky left-side table of contents (and a
+          collapsed mobile accordion) auto-built from those H2s.
+          Entries with no H2s fall back to the single-column layout.
+#}}
+
+<!-- /legal/show.antlers.html -->
+{{# `overflow-clip` (not `overflow-hidden`) keeps the topographic SVG
+    visually clipped without establishing a scroll container — that's
+    what allows the TOC's `position: sticky` to track the viewport
+    rather than a never-scrolling `<main>`. #}}
+<main id="content" class="relative isolate overflow-clip bg-parchment-100">
+    {{ partial:components/topographic }}
+
+    {{# Shared TOC query — every level-2 heading in the Bard `article`
+        field. Defined here so the desktop and mobile TOC partials
+        both read the same `toc` variable, and so we can branch on its
+        presence (entries with no H2s skip the TOC layout entirely).
+        Guarded with `{{ if article }}` because the `where (...)` query
+        operator blows up on `foreach(null)` when an entry has no
+        `article` value (e.g. a freshly-stubbed terms page). #}}
+    {{ if article }}
+        {{ toc = (article | raw | bard_items) where (x => x.attrs.level == 2) }}
+    {{ /if }}
+
+    {{ if toc }}
+        {{# Two-column layout — TOC (3 cols) on the left, article (9
+            cols) on the right. The outer `fluid-grid` places the
+            `span-content` wrapper at the site's content rhythm; inside
+            that wrapper we set up our own 12-col grid (matching the
+            fluid-grid column gap) so `md:col-span-3` / `md:col-span-9`
+            line up cleanly without dodging the fluid-grid side gutter.
+            On mobile both columns fall back to full width and stack. #}}
+
+        <article class="fluid-grid py-12 md:py-16 lg:py-24">
+            <div class="span-content grid lg:grid-cols-12 gap-y-10 md:gap-x-12">
+                {{# Desktop sidebar TOC — sticky, 3 cols. Hidden below
+                    `md`; the mobile counterpart inside the article
+                    column takes over there. #}}
+                {{ partial:legal/toc_desktop }}
+
+                <div class="lg:col-span-9 flex flex-col gap-10">
+                    <header class="flex flex-col items-start gap-6">
+                        {{ partial:typography/h1 :content="headline ?? title" color="text-foreground" }}
+
+                        {{ if last_modified }}
+                            <time
+                                class="text-sm md:text-base font-normal leading-[1.5] text-text"
+                                datetime="{{ last_modified format='Y-m-d' }}"
+                            >Last updated {{ last_modified format='j F, Y' }}</time>
+                        {{ /if }}
+
+                        {{# Mobile TOC — sits between the "Last updated"
+                            date and the lead so visitors see the page's
+                            shape before diving in. Hidden from `md`. #}}
+                        {{ partial:legal/toc_mobile }}
+
+                        {{ if lead }}
+                            {{ partial:typography/p_large :content="lead" color="text-text" class="!mb-0" }}
+                        {{ /if }}
+                    </header>
+
+                    {{ partial:typography/prose as="div" class="stack-8" }}
+                        {{ article }}
+                            {{ partial src="components/{type}" }}
+                        {{ /article }}
+                    {{ /partial:typography/prose }}
+                </div>
+            </div>
+        </article>
+    {{ else }}
+        <article>
+            <header class="fluid-grid py-12 md:py-16 gap-y-10 md:gap-y-14">
+                <div class="span-content flex flex-col items-start gap-6">
+
+                    {{ partial:typography/h1 :content="headline ?? title" color="text-foreground" }}
+
+                    {{ if last_modified }}
+                        <time
+                            class="text-sm md:text-base font-normal leading-[1.5] text-text"
+                            datetime="{{ last_modified format='Y-m-d' }}"
+                        >Last updated {{ last_modified format='j F, Y' }}</time>
+                    {{ /if }}
+
+                    {{ if lead }}
+                        {{ partial:typography/p_large :content="lead" color="text-text" class="!mb-0" }}
+                    {{ /if }}
+                </div>
+            </header>
+
+            <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
+                {{ partial:typography/prose as="div" class="contents stack-8" }}
+                    {{ article }}
+                        {{ partial src="components/{type}" }}
+                    {{ /article }}
+                {{ /partial:typography/prose }}
+            </section>
+        </article>
+    {{ /if }}
+</main>
+<!-- End: /legal/show.antlers.html -->

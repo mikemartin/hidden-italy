@@ -16,27 +16,6 @@ overview:
       -
         type: text
         text: "This wonderful tour starts with a private transfer from Siena (or Chiusi) to Montalcino, a gorgeous hill-town celebrated for its wines.  From here, the walk takes you through the Val d'Orcia, one of the most beautiful places in Italy (the world?).  You pass through classic Tuscan countryside, following sections of the Via Francigena, a medieval road that bisected the valley linking Papal Rome with northern Europe, carrying pilgrims, traders, Crusader armies, emperors and popes.  The valley is lined with castles, monasteries and villages that date from this period. "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Leaving the medieval walls of\_Montalcino, you'll following well-marked, undulating trails to finish four days later\_in Montepulciano, having passed through\_an area as famous for its rolling hills, wheat fields dotted with red brick farmhouses, stands of deep green cypress pines and endless views, as it is famous for its wines and food."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Along the way you stay in some of the most celebrated town in Tuscany, cultural treasures that include a beautifully restored pilgrim town; a magnificent papal town; and Montepulciano, 'pearl of the Renaissance'.  At the end of the tour you will have a private transfer to Chiusi, well-connected by train to Rome and Florence.  "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: "The Val d'Orcia is where Hidden Italy had its first tour over thirty years ago, and it is still one of my favourite areas in Italy!"
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
   - 'Five nights accommodation'
@@ -49,7 +28,41 @@ inclusions:
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: central-italy
+landscapes:
+  - countryside
 page_builder:
+  -
+    id: 6911b31192d81295
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Leaving the medieval walls of\_Montalcino, you'll following well-marked, undulating trails to finish four days later\_in Montepulciano, having passed through\_an area as famous for its rolling hills, wheat fields dotted with red brick farmhouses, stands of deep green cypress pines and endless views, as it is famous for its wines and food."
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Along the way you stay in some of the most celebrated town in Tuscany, cultural treasures that include a beautifully restored pilgrim town; a magnificent papal town; and Montepulciano, 'pearl of the Renaissance'.  At the end of the tour you will have a private transfer to Chiusi, well-connected by train to Rome and Florence.  "
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: "The Val d'Orcia is where Hidden Italy had its first tour over thirty years ago, and it is still one of my favourite areas in Italy!"
+    title: 'From medieval walls to rolling hills'
+    images:
+      - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5098.jpg
+      - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5057.jpg
+      - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5142.jpg
   -
     id: mloocwbk
     title: 'Highlights of Tuscany 1'
@@ -93,12 +106,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Montalcino'
+        title: 'Arrive in Montalcino'
         description: "You will be picked up at either Siena or Chiusi and taken to Montalcino, a perfectly preserved walled hilltop town, famous for both its views and its red wine, Brunello di Montalcino. Included in your notes is a short walk around the outside of the town's walls."
         photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/f1000012-a.jpg
       -
         id: mloozlek
-        title: 'Day 2:  Stay in a Medieval village'
+        title: 'Stay in a Medieval village'
         description: 'The first walk takes you down through forests to a Romanesque abbey isolated in fields of wheat and vineyards, which is one of the most beautiful in Tuscany. Your accommodation for the night is in the small village that overlooks the abbey.'
         duration: 3
         distance: 12
@@ -108,7 +121,7 @@ page_builder:
         photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5057.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk through vineyards'
+        title: 'Walk through vineyards'
         description: 'Today you climb up through vineyards and olive groves, to a beautifully restored medieval pilgrim town, a key point on the road to Rome, which is now a peaceful agricultural town and one of the most charming in the area. Despite its pedestrian centre, two beautiful Romansque churches and several beautiful gardens, which still remains relatively unvisited.'
         duration: 4
         distance: 14
@@ -118,7 +131,7 @@ page_builder:
         photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5098.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  Walk a Renaissance gem'
+        title: 'Walk a Renaissance gem'
         description: "Today you follow parts of the medieval road down into the bare, rolling hills of the Val d'Orcia, with sweeping views across the valley to the forests and peaks of Mount Amiata before a short climb up to your base for the evening.  This enchanting little town was the birth place of one of the more important 15th century popes, who  had the modest village razed and then rebuilt in his honour, creating one of the gems of southern Tuscany, a fine example early Renaissance architecture."
         duration: 3
         distance: 10
@@ -128,7 +141,7 @@ page_builder:
         photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5149.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Walk to Montepulciano'
+        title: 'Walk to Montepulciano'
         description: 'The last walk takes you through forests to Montepulciano. On the way you pass a tiny fortified village, perfect for lunch. Perched on a hill between the Orcia and Chianina valleys, Montepulciano was an ally of Florence in their relentless war against Siena, and was amply rewarded and has an extraordinary architectural heritage from this period.  (4 hrs; 13.5 kms; min: 331 mts, max: 539 mts).'
         duration: 4
         distance: 14
@@ -138,7 +151,7 @@ page_builder:
         photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/shutterstock_574301368.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Transfer to Chiusi station'
+        title: 'Transfer to Chiusi station'
         description: "After breakfast at 9.00 you'll be transfered to nearby Chiusi on the main Rome/Florence railway line."
         meals_included:
           - breakfast
@@ -151,7 +164,7 @@ page_builder:
     tabs:
       -
         id: JTeAttRp1U3VqiEkToA6K
-        title: Walks
+        title: 'Exceptional walkings'
         total_distance: 50
         total_elevation: 1203
         grade: 0
@@ -173,7 +186,7 @@ page_builder:
         enabled: true
       -
         id: oSOJpfCkYgaVjML8_AO8R
-        title: Accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -187,7 +200,7 @@ page_builder:
         enabled: true
       -
         id: Hot1lcixLVk2HiSrQUKO1
-        title: Food
+        title: 'Authentic food'
         description:
           -
             type: paragraph
@@ -251,8 +264,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: ROcyXirV_l_KWTeqChSYf
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - 88956cf4-d45c-40e9-85f5-4415bf4d73c8
       - 63d5b5d1-333f-446c-b812-83f68e2323c0

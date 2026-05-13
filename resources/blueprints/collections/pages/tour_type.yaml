@@ -1,0 +1,140 @@
+title: 'Tour type'
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: General
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              localizable: true
+              listable: true
+              display: Title
+              validate:
+                - required
+      -
+        display: 'Page header'
+        instructions: 'Optional header section with breadcrumb, headline and description. Rendered when “Headline” is set.'
+        fields:
+          -
+            handle: headline
+            field:
+              type: text
+              localizable: true
+              display: Headline
+              instructions: 'Marketing-friendly title shown in the page header. If empty, the page header is not rendered.'
+          -
+            handle: description
+            field:
+              type: textarea
+              localizable: true
+              display: Description
+              instructions: 'Short intro paragraph shown beneath the page-header headline.'
+          -
+            handle: header_variant
+            field:
+              type: button_group
+              default: standard
+              localizable: true
+              display: Variant
+              instructions: '“Large” centres the content, ramps up the type, and adds the parchment topographic background — used on the About page.'
+              options:
+                standard: Standard
+                large: Large
+      -
+        display: 'Page builder'
+        fields:
+          -
+            import: page_builder
+      -
+        display: 'Walking benefits'
+        collapsible: true
+        collapsed: true
+        instructions: 'Brand reassurance panel rendered at the foot of the page. Individual tour pages also pull these fields from this listing to render the same panel. Leave blank to hide.'
+        fields:
+          -
+            import: walking_benefits
+      -
+        display: Questions
+        collapsible: true
+        collapsed: true
+        instructions: 'Optional FAQ accordion rendered at the foot of the page. Pick questions from the Questions collection. Leave blank to hide.'
+        fields:
+          -
+            handle: questions_heading
+            field:
+              type: text
+              localizable: true
+              display: Heading
+              default: 'Frequently asked questions'
+          -
+            handle: questions
+            field:
+              type: entries
+              localizable: true
+              display: Questions
+              collections:
+                - questions
+              mode: stack
+              reorderable: true
+  seo:
+    display: SEO
+    sections:
+      -
+        display: Basic
+        instructions: 'Basic SEO settings.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_basic'
+      -
+        display: Advanced
+        instructions: 'Advanced SEO settings.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_advanced'
+      -
+        display: 'Open Graph'
+        instructions: 'Open Graph meta tags for social sharing.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_open_graph'
+      -
+        display: Sitemap
+        instructions: 'Sitemap configuration.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_sitemap'
+      -
+        display: 'JSON-ld Schema'
+        instructions: 'Custom JSON-ld schema objects.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_jsonld'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        display: Meta
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate:
+                - required
+              display: Slug
+          -
+            handle: card_image
+            field:
+              type: assets
+              container: assets
+              max_files: 1
+              localizable: true
+              display: 'Card image'
+              instructions: 'Background image used when this listing is referenced as a card (e.g. the homepage Tour types block).'
+              mode: grid

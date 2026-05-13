@@ -6,6 +6,7 @@ mount: fff5d1d0-e05d-4088-9a54-1f2e7f630c28
 taxonomies:
   - seasons
   - locations
+  - landscapes
 revisions: false
 title_format: '{region} - {name}'
 route: '/tours/self-guided/{slug}'

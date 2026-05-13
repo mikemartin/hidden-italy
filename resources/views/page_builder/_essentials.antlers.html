@@ -10,13 +10,17 @@
 
 <!-- /page_builder/_essentials.antlers.html -->
 {{ if block:sections }}
-    {{ partial:page_builder/block subnav_id="essentials" sentinel_top="top-12 md:top-16 lg:top-24" class="py-12 md:py-16 lg:py-24 gap-y-10 md:gap-y-14" }}
-        <header class="span-content flex flex-col gap-3">
-            {{ partial:typography/label :content="trans:strings.essentials ?? 'Essentials'" small="true" class="!text-accent-2 uppercase tracking-[0.12em] font-semibold" }}
-            {{ partial:typography/h2 :content="block:title ?? 'What you should know'" color="text-foreground" }}
+    {{ partial:page_builder/block block_id="essentials" class="gap-y-10 md:gap-y-14" }}
+        <header class="span-content flex flex-col gap-3" x-data x-reveal>
+            <div data-reveal-item data-reveal-preset="chip">
+                {{ partial:typography/label content="Essentials" small="true" class="!text-accent-2 uppercase tracking-[0.12em] font-semibold" }}
+            </div>
+            <div data-reveal-item data-reveal-preset="h1">
+                {{ partial:typography/h2 :content="block:title ?? 'What you should know'" color="text-foreground" }}
+            </div>
         </header>
 
-        <div class="span-content flex flex-col">
+        <div class="span-content flex flex-col" x-data x-reveal data-reveal-stagger="80">
             {{ block:sections }}
                 {{# Resolve the row label from the set type — `general` uses its own heading field. #}}
                 {{ if type == 'equipment' }}{{ row_heading = trans:strings.equipment_needed ?? 'Equipment needed' }}{{ /if }}
@@ -24,7 +28,7 @@
                 {{ if type == 'booking_cancellation' }}{{ row_heading = trans:strings.booking_cancellation ?? 'Booking and cancellation conditions' }}{{ /if }}
                 {{ if type == 'general' }}{{ row_heading = heading }}{{ /if }}
 
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-12 py-8 md:py-10 first:pt-0 last:pb-0 border-t border-parchment-200 first:border-t-0">
+                <div data-reveal-item class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-12 py-8 md:py-10 first:pt-0 last:pb-0 border-t border-parchment-200 first:border-t-0">
                     {{ if row_heading }}
                         {{# Heading column lays the icon tile beside the heading,
                             top-aligned so the icon sits flush with the first
@@ -53,6 +57,15 @@
                             <div class="font-sans text-base md:text-lg leading-[1.6] text-text [&_p]:mb-4 [&_p:last-child]:mb-0 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-4 [&_ol]:list-decimal [&_ol]:ml-5 [&_ol]:mb-4">
                                 {{ body }}
                             </div>
+                        {{ /if }}
+
+                        {{# Default the booking-cancellation row to the public
+                            Terms & Conditions page when the editor hasn't set
+                            an explicit link, so the section always exposes a
+                            direct path to the full cancellation policy. #}}
+                        {{ if type == 'booking_cancellation' && !link_text && !link_url }}
+                            {{ link_text = trans:strings.read_cancellation_terms ?? 'Read full cancellation terms' }}
+                            {{ link_url = '/terms#cancellation' }}
                         {{ /if }}
 
                         {{ if link_text }}

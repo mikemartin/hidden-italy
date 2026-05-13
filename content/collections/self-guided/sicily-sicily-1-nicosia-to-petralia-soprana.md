@@ -5,8 +5,8 @@ title: 'Sicily - Sicily 1'
 name: 'Sicily 1'
 region: Sicily
 days: 7
-updated_by: 1
-updated_at: 1777905575
+updated_by: 2
+updated_at: 1778498920
 grade: 3
 summary: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
 overview:
@@ -16,24 +16,6 @@ overview:
       -
         type: text
         text: "This wonderful tour takes you through the heart of Sicily, an area untouched by tourism, where the traditions, daily life, and hospitality of the island are alive and well.\_ Following mostly unsealed country lanes you’ll pass through some of the most spectacular countryside on Sicily: rolling farmlands covered in wheat fields overlooked by jagged mountains, with the forested peaks of the Madonie National Park in the distance.\_ "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "On a clear day, the conical form of Mt Etna, Europe’s largest and most-active volcano, smokes on the horizon, one hundred kilometres away.\_ Along the way, you visit some of Italy’s most unspoilt villages, two of which have been winners of ‘Italy’s Most Beautiful Village’, one in 2014 (Day 4) and other in 2018 (Day 6)."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "You start the tour with a private transfer from either Palermo or Catania and then taken to Nicosia, a bussling farming centre, where you spend the first night.\_ For the next four nights, you will stay in a series very attractive and interesting villages, until Day 6, when you arrive at Petralia Soprana at the foot of the Madonie Mountains, where the tour finishes.\_ From here you will be driven by private transfer back to either Palermo or Catania.\_ "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'The Sicily 1 walk is a wonderful opportunity to get local, experience the famous Sicilian hospitality, its delicious seasonal cuisine as well as enjoying some long country rambles.'
 inclusions:
   - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
   - 'Private transfer from Petralia Soprana to either Palermo or Catania on Day 7'
@@ -47,6 +29,35 @@ inclusions:
   - 'City taxes are not included in the cost of the tour'
 simple_likes: 0
 page_builder:
+  -
+    id: f971e1fa5cfc88ca
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "On a clear day, the conical form of Mt Etna, Europe’s largest and most-active volcano, smokes on the horizon, one hundred kilometres away.\_ Along the way, you visit some of Italy’s most unspoilt villages, two of which have been winners of ‘Italy’s Most Beautiful Village’, one in 2014 (Day 4) and other in 2018 (Day 6)."
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "You start the tour with a private transfer from either Palermo or Catania and then taken to Nicosia, a bussling farming centre, where you spend the first night.\_ For the next four nights, you will stay in a series very attractive and interesting villages, until Day 6, when you arrive at Petralia Soprana at the foot of the Madonie Mountains, where the tour finishes.\_ From here you will be driven by private transfer back to either Palermo or Catania.\_ "
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'The Sicily 1 walk is a wonderful opportunity to get local, experience the famous Sicilian hospitality, its delicious seasonal cuisine as well as enjoying some long country rambles.'
+    title: 'In the shadow of Mt Etna'
+    images:
+      - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6635.jpeg
+      - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/22.jpg
+      - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture1.jpg
   -
     id: mlrbu308
     title: 'Sicily 1 highlights'
@@ -90,14 +101,14 @@ page_builder:
     days:
       -
         id: mlrcdegn
-        title: 'Day 1:  Arrive in Nicosia'
+        title: 'Arrive in Nicosia'
         description: 'Your tour starts with a private transfer from either Palermo or Catania to Nicosia in central Sicily, an hour and a half away.  A strategic point on the mountain road that linked eastern Sicily with Palermo, Nicosia grew up around a 7th century Byzantine castle and flourished under Norman rule in the 12th century.  Today it is a bustling agricultural centre – pure Sicily!'
         meals_included:
           - dinner
         photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/saints-day-out.jpg
       -
         id: mlrce7n9
-        title: 'Day 2:  Walk into the mountains'
+        title: 'Walk into the mountains'
         description: 'Your first walk is an easy hike across the valley to a tiny village that grew up around a rock outcrop riddled with prehistoric cave dwellings.  Mt Etna, 100 kms to the east, is visible from the village’s impregnable castle.  The village’s dialect still has traces of the French invaders who were garrisoned here in the 13th century.'
         duration: 3
         distance: 13
@@ -108,7 +119,7 @@ page_builder:
         photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/45.5.jpg
       -
         id: mlrchqfo
-        title: 'Day 3:  A ramble through the valleys'
+        title: 'A ramble through the valleys'
         description: 'Today you have a long but gentle walk through rolling valleys with vast views of the mountains and farmlands around you.  At the end of the walk, you will be met and driven to your accommodation for the night, at the foot of one of the most fascinating villages in the district.'
         duration: 4
         distance: 14
@@ -119,7 +130,7 @@ page_builder:
         photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/42.jpg
       -
         id: mlrcpsyv
-        title: 'Day 4:  Stay in a family-run agriturismo'
+        title: 'Stay in a family-run agriturismo'
         description: "An easy day, today you climb up to a nearby town,  a jumble of houses and lanes that tumble down the side of a spherical hill.  Your accommodation is a family-run agriturismo in the valley below the town which was once a baronial residence. You will have the option in the afternoon of doing a loop walk up to visit the neighbouring town, which was judged Italy's Most Beautiful Village in 2014 (2 hrs, 6 kms, 440 mts)"
         duration: 2
         distance: 7
@@ -130,7 +141,7 @@ page_builder:
         photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/08.jpg
       -
         id: mlrcryci
-        title: 'Day 5:  Walk to the Madonie Park'
+        title: 'Walk to the Madonie Park'
         description: "The walk today takes you through the valley and then up to a small town that was founded by the ancient Greeks and was the seat of the medieval counts who ruled central Sicily from here in the 14th and 15th centuries.  The town is also the gateway to the Madonie National Park.  Your accommodation tonight is in a beautifully restored historic building in the centre of town, close to the town's central piazza."
         duration: 4
         distance: 12
@@ -141,7 +152,7 @@ page_builder:
         photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/121.jpg
       -
         id: mlrczqmb
-        title: 'Day 6:  Walk to Petralia Soprana'
+        title: 'Walk to Petralia Soprana'
         description: "Today’s walk takes you sharply up from the town to a wide path that contours around side of a mountain, taking you through pines forests and pastures with spectacular views back east across the valleys and mountains.  On a clear day, you will have Mt Etna as a backdrop.  You descend down a fire-trail to your final destination, an extraordinary town that was founded by the Romans and was classified as Italy's Most Beautiful Village in 2018."
         duration: 4
         distance: 12
@@ -152,7 +163,7 @@ page_builder:
         photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/25-2.jpg
       -
         id: mlrd7giq
-        title: 'Day 7:  Transfer to Palermo or Catania'
+        title: 'Transfer to Palermo or Catania'
         description: 'After breakfast, you will be transferred to either Palermo or Catania, a one and a half hour drive away.'
         meals_included:
           - breakfast
@@ -165,7 +176,7 @@ page_builder:
     tabs:
       -
         id: fpHvrxAdfZnl5Y7tvG0om
-        title: Walks
+        title: 'Exceptional walkings'
         grade: 0
         description:
           -
@@ -179,7 +190,7 @@ page_builder:
         enabled: true
       -
         id: AVioUleD96C6NlpNZLZzf
-        title: Accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -193,7 +204,7 @@ page_builder:
         enabled: true
       -
         id: Xt_mVIeOY3x9zfGzWJVla
-        title: Food
+        title: 'Authentic food'
         description:
           -
             type: paragraph
@@ -272,8 +283,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: fLinNhBxoepkNYWQhuS77
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - ac867e06-3f99-4094-a214-e23656243ab3
       - 691ee424-cfa3-44a1-bed4-b7c70d8a29c2
@@ -281,6 +296,8 @@ page_builder:
     type: testimonials
     enabled: true
 locations: southern-italy
+landscapes:
+  - mountains
 duplicated_from: 7397f93f-96a7-4030-b13c-2315e28fe22c
 gallery:
   - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/saints-day-out.jpg
@@ -331,4 +348,5 @@ now_open: false
 seasons:
   - spring
 headline: '7 days walking through central Sicily'
+image: tours/sicily-sicily-1-nicosia-to-petralia-soprana/08.jpg
 ---

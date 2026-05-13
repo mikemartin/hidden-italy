@@ -1,6 +1,7 @@
 {{#
     @name Tour filters
-    @desc Filter card above the tours grid. Locations / Seasons / Grade.
+    @desc Filter card above the tours grid. Locations / Seasons / Grade, plus
+          Landscapes on /self-guided only.
 
           Layout:
             - md+: card sits inline above the listing with title + live count
@@ -20,27 +21,34 @@
           collection scope matters; the filter widgets don't need a `from`.
 #}}
 
-{{# Page-context-aware copy: the title and count noun shift with the
-    listing scope so the card reads naturally on each route. #}}
+{{# Page-context-aware copy: the title shifts with the listing scope so the
+    card reads naturally on each route. The count noun stays "tour" / "tours"
+    in every context — using "self-guided tours" / "guided tours" inline in
+    a count phrase makes the mobile CTA wrap awkwardly (e.g. "Show 19
+    self-guided tours" overflows). The route + filter card heading already
+    establish the tour type. #}}
 {{ if tour_collections == 'guided' }}
     {{ filter_title = 'Find your guided tour' }}
-    {{ tour_label_singular = 'Guided tour' }}
-    {{ tour_label_plural = 'Guided tours' }}
 {{ elseif tour_collections == 'self-guided' }}
     {{ filter_title = 'Find your self-guided tour' }}
-    {{ tour_label_singular = 'Self-guided tour' }}
-    {{ tour_label_plural = 'Self-guided tours' }}
 {{ else }}
     {{ filter_title = 'Find your tour' }}
-    {{ tour_label_singular = 'Tour' }}
-    {{ tour_label_plural = 'Tours' }}
 {{ /if }}
+
+{{ tour_label_singular = 'tour' }}
+{{ tour_label_plural = 'tours' }}
 
 <div
     x-data="{
         open: false,
         count: null,
         loading: false,
+        dragStartY: null,
+        dragY: 0,
+        isDragging: false,
+        lastY: 0,
+        lastTime: 0,
+        velocity: 0,
         init() {
             // The addon's `filter-updated` / `sort-updated` events are
             // dispatched with `->to(LivewireCollection::class)`, so they
@@ -54,56 +62,130 @@
                 fail(() => this.loading = false);
             });
         },
-        toggle() {
-            this.open = !this.open;
-            document.body.style.overflow = this.open ? 'hidden' : '';
+        toggle() { this.open = !this.open; },
+        close() { this.open = false; },
+        /* Drag-to-dismiss from the grab handle. Touch events are scoped
+           to the handle div only so they don't interfere with the
+           drawer's internal scroll. Drag updates `dragY` live during
+           the gesture and tracks a smoothed velocity from per-frame
+           samples; on release, either a long enough drag (>100px) or
+           a sharp downward flick (>0.5 px/ms with at least 20px of
+           travel) triggers dismiss. Anything else snaps back. The CSS
+           reads `--drag-y` from inline style during drag and falls
+           back to 0 once `isDragging` flips false — so snap-back
+           rides the regular transition. */
+        onDragStart(e) {
+            if (e.touches.length !== 1) return;
+            this.dragStartY = e.touches[0].clientY;
+            this.lastY = this.dragStartY;
+            this.lastTime = e.timeStamp;
+            this.velocity = 0;
+            this.isDragging = true;
         },
-        close() {
-            this.open = false;
-            document.body.style.overflow = '';
+        onDragMove(e) {
+            if (this.dragStartY === null) return;
+            const y = e.touches[0].clientY;
+            const t = e.timeStamp;
+            const delta = y - this.dragStartY;
+            if (delta > 0) this.dragY = delta;
+
+            // Weighted blend (70% recent / 30% history) smooths out
+            // single-sample noise from irregular touchmove cadence
+            // without losing responsiveness to a real flick.
+            const dt = t - this.lastTime;
+            if (dt > 0) {
+                const instant = (y - this.lastY) / dt;
+                this.velocity = this.velocity * 0.3 + instant * 0.7;
+            }
+            this.lastY = y;
+            this.lastTime = t;
+        },
+        onDragEnd() {
+            if (this.dragStartY === null) return;
+            const overDistance = this.dragY > 100;
+            const flickedDown = this.velocity > 0.5 && this.dragY > 20;
+            const shouldClose = overDistance || flickedDown;
+            this.dragStartY = null;
+            this.isDragging = false;
+            this.dragY = 0;
+            this.velocity = 0;
+            if (shouldClose) this.close();
         },
     }"
+    x-trap.inert.noscroll.noautofocus="open"
     @entries-updated.window="count = $event.detail?.count ?? $event.detail?.[0]?.count ?? null; loading = false"
     @keydown.escape.window="close()"
     class="mb-4 xl:mb-8"
 >
-    {{# Mobile trigger — opens the drawer. Hidden on md+. #}}
-    <button
-        type="button"
-        @click="toggle()"
-        class="md:hidden inline-flex items-center justify-between gap-2 w-full h-12 px-4 rounded-full border border-parchment-300 bg-card text-foreground font-sans font-medium text-base"
-    >
-        <span class="inline-flex items-center gap-2">
-            <x-lucide-sliders-horizontal class="size-5 text-accent-2" stroke-width="1.5" aria-hidden="true" />
-            <span>{{ trans:strings.filters ?? 'Filters' }}</span>
+    {{# Mobile trigger — opens the drawer. Hidden on md+. Pairs the peak
+        cream pill (.button--cream) with the live count rendered alongside
+        it. Label echoes the drawer heading so the trigger reads as the
+        entry point to "Find your tour". Typography goes on the button
+        itself (no inner `<span>`) so peak's `.button span` rule — which
+        forces uppercase / semibold / tight tracking — never matches; the
+        button instead reads with an h6-mobile voice (Roma Neue, bold,
+        sentence case) and feels like a heading-style affordance rather
+        than a CTA. Icon picks up terracotta for warmth on cream. #}}
+    <div class="md:hidden flex items-center justify-between gap-4">
+        <button
+            type="button"
+            @click="toggle()"
+            class="button button--cream font-display font-bold text-base leading-[1.25]"
+        >
+            <x-lucide-funnel class="size-5 text-terracotta" stroke-width="1.5" aria-hidden="true" />
+            {{ trans:strings.find_your_tour ?? 'Find your tour' }}
+        </button>
+        <span
+            x-show="count !== 0"
+            x-cloak
+            :class="loading ? 'text-muted' : 'text-text'"
+            class="font-sans font-medium text-[15px] leading-[1.6] whitespace-nowrap motion-safe:transition-colors"
+        >
+            <span x-text="count !== null ? `${count} ${count === 1 ? '{{ tour_label_singular }}' : '{{ tour_label_plural }}'}` : 'Loading…'"></span>
         </span>
-        <span class="font-sans font-medium text-sm text-text" x-show="count !== null" x-cloak>
-            <span x-text="`${count} ${count === 1 ? '{{ tour_label_singular }}' : '{{ tour_label_plural }}'}`"></span>
-        </span>
-    </button>
+    </div>
 
-    {{# Backdrop for the mobile drawer. #}}
+    {{# Backdrop for the mobile drawer — brand-token fade. Matches the
+        mobile menu treatment (bg-black/30, 380ms quick easing). #}}
     <div
         x-show="open"
         x-cloak
-        x-transition.opacity
+        x-transition:enter="transition-opacity duration-[380ms] ease-standard motion-reduce:duration-0"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="transition-opacity duration-[380ms] ease-standard motion-reduce:duration-0"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
         @click="close()"
-        class="md:hidden fixed inset-0 z-40 bg-black/50"
+        class="md:hidden fixed inset-0 z-40 bg-black/30"
         aria-hidden="true"
     ></div>
 
-    {{# The filter card. On md+ it sits inline; on mobile it transforms
-        into a bottom-sheet drawer when `open` flips true. The Alpine
-        binding only adds the drawer classes on mobile (max-md prefix). #}}
+    {{# Filter card — desktop renders inline, mobile is a bottom-sheet
+        drawer. Single element either way; `.filter-card` CSS in
+        site.css handles the mobile slide+fade transition keyed off the
+        `is-open` class. (The Alpine x-bind:class swap + x-transition
+        approach used previously didn't actually animate because
+        x-transition needs x-show as its trigger, and we can't apply
+        x-show without breaking the always-visible desktop case.) #}}
     <div
-        x-bind:class="open
-            ? 'max-md:fixed max-md:inset-x-0 max-md:bottom-0 max-md:z-50 max-md:max-h-[85vh] max-md:overflow-y-auto max-md:rounded-t-2xl'
-            : 'max-md:hidden'"
-        x-transition:enter="motion-safe:transition-transform motion-safe:duration-200"
-        x-transition:enter-start="max-md:translate-y-full"
-        x-transition:enter-end="max-md:translate-y-0"
-        class="bg-card md:border md:border-parchment-200 md:rounded-lg md:shadow-sm p-5 max-md:pb-0 md:px-10 md:pt-5 md:pb-10"
+        :class="{ 'is-open': open, 'is-dragging': isDragging }"
+        :style="isDragging ? `--drag-y: ${dragY}px` : ''"
+        class="filter-card bg-card border border-parchment-200 rounded-2xl md:rounded-lg shadow-sm p-5 max-md:pb-0 md:px-10 md:pt-5 md:pb-10"
     >
+        {{# Native-style grab handle — mobile only. Drag down past 100px
+            to dismiss the drawer; release below threshold to snap back.
+            Touch events are scoped to this handle so the drawer's
+            internal scroll keeps working normally on the filter content. #}}
+        <div
+            class="md:hidden -mx-5 -mt-5 mb-2 flex justify-center pt-4 pb-3 touch-none"
+            @touchstart.passive="onDragStart($event)"
+            @touchmove.passive="onDragMove($event)"
+            @touchend="onDragEnd()"
+            @touchcancel="onDragEnd()"
+        >
+            <div class="h-1 w-10 rounded-full bg-parchment-300" aria-hidden="true"></div>
+        </div>
         {{# Header — title on the left, live count on the right (with a
             close button on mobile). The count listens to the
             `entries-updated` event the addon dispatches whenever the
@@ -169,46 +251,39 @@
 
             Seasons uses the `seasons-checkbox-filter` subclass so labels
             get appended with month ranges (e.g. "Spring (Mar – May)"). #}}
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+        <div class="grid grid-cols-1 gap-4 md:gap-6 pb-2 {{ if tour_collections == 'self-guided' || tour_collections == 'guided|self-guided' }}md:grid-cols-2 lg:grid-cols-4{{ else }}md:grid-cols-3{{ /if }}">
+            {{ if tour_collections == 'guided|self-guided' }}
+                <div>
+                    {{ partial:typography/label as="div" large="true" color="text-text" content="Type of Walk" class="!mb-2" }}
+                    {{ livewire:tour-type-filter
+                        field="filter_tour_type"
+                        condition="query_scope"
+                        modifier="tour_type"
+                        view="lf-checkbox-advanced"
+                        placeholder="All walks"
+                    }}
+                </div>
+            {{ /if }}
             <div>
                 {{ partial:typography/label as="div" large="true" color="text-text" content="Locations" class="!mb-2" }}
-                <div class="md:hidden">
-                    {{ livewire:lf-checkbox-filter
-                        blueprint="guided.tour"
-                        field="locations"
-                        condition="taxonomy"
-                        view="lf-checkbox"
-                    }}
-                </div>
-                <div class="hidden md:block">
-                    {{ livewire:lf-checkbox-filter
-                        blueprint="guided.tour"
-                        field="locations"
-                        condition="taxonomy"
-                        view="lf-checkbox-advanced"
-                        placeholder="Please select"
-                    }}
-                </div>
+                {{ livewire:lf-checkbox-filter
+                    blueprint="guided.tour"
+                    field="locations"
+                    condition="taxonomy"
+                    view="lf-checkbox-advanced"
+                    placeholder="All locations"
+                }}
             </div>
             <div>
                 {{ partial:typography/label as="div" large="true" color="text-text" content="Season (months)" class="!mb-2" }}
-                <div class="md:hidden">
-                    {{ livewire:seasons-checkbox-filter
-                        blueprint="guided.tour"
-                        field="seasons"
-                        condition="taxonomy"
-                        view="lf-checkbox"
-                    }}
-                </div>
-                <div class="hidden md:block">
-                    {{ livewire:seasons-checkbox-filter
-                        blueprint="guided.tour"
-                        field="seasons"
-                        condition="taxonomy"
-                        view="lf-checkbox-advanced"
-                        placeholder="Please select"
-                    }}
-                </div>
+
+                {{ livewire:seasons-checkbox-filter
+                    blueprint="guided.tour"
+                    field="seasons"
+                    condition="taxonomy"
+                    view="lf-checkbox-advanced"
+                    placeholder="All seasons"
+                }}
             </div>
             <div>
                 <div class="flex items-baseline gap-1 mb-2">
@@ -224,44 +299,65 @@
                         <x-lucide-info class="size-4" stroke-width="2" aria-hidden="true" />
                     </button>
                 </div>
-                <div class="md:hidden">
-                    {{ livewire:lf-checkbox-filter
-                        blueprint="guided.tour"
-                        field="filter_grade"
-                        condition="query_scope"
-                        modifier="walking_grade"
-                        view="lf-checkbox"
-                    }}
-                </div>
-                <div class="hidden md:block">
-                    {{ livewire:lf-checkbox-filter
-                        blueprint="guided.tour"
-                        field="filter_grade"
-                        condition="query_scope"
-                        modifier="walking_grade"
-                        view="lf-checkbox-advanced"
-                        placeholder="Please select"
-                    }}
-                </div>
+                {{ livewire:lf-checkbox-filter
+                    blueprint="guided.tour"
+                    field="filter_grade"
+                    condition="query_scope"
+                    modifier="walking_grade"
+                    view="lf-checkbox-advanced"
+                    placeholder="All walking grades"
+                }}
             </div>
+            {{ if tour_collections == 'self-guided' }}
+                <div>
+                    {{ partial:typography/label as="div" large="true" color="text-text" content="Landscapes" class="!mb-2" }}
+                    {{ livewire:lf-checkbox-filter
+                        blueprint="self-guided.tour"
+                        field="landscapes"
+                        condition="taxonomy"
+                        view="lf-checkbox-advanced"
+                        placeholder="All landscapes"
+                    }}
+                </div>
+            {{ /if }}
         </div>
 
         {{# Mobile-only "Show results" footer — closes the drawer. The
             actual filtering is reactive and happens as filters change,
             so this is just a confirmation/close affordance.
 
-            Sticks to the bottom of the scrolling drawer with `sticky
-            bottom-0`. Negative `-mx-5` cancels the card's horizontal
-            padding so the bg + top border span edge-to-edge; the card's
-            bottom padding is dropped on mobile so the footer sits flush
-            with the drawer's bottom edge. #}}
-        <div class="md:hidden sticky bottom-0 -mx-5 mt-6 px-5 py-4 bg-card border-t border-parchment-200">
+            Negative `-mx-5` cancels the card's horizontal padding so the
+            bg + top border span edge-to-edge; the card's bottom padding
+            is dropped on mobile so the footer sits flush with the
+            drawer's bottom edge. #}}
+        <div class="md:hidden -mx-5 mt-6 px-5 py-4 bg-card border-t border-parchment-200">
+            {{# Primary CTA — uses the .button / .button--accent / .button--large
+                classes directly (rather than the `components/button` partial)
+                because the label is Alpine-driven via x-text and the spinner
+                is conditionally shown, neither of which the partial covers.
+                Matches the partial's output structure (.button span wrapper). #}}
             <button
                 type="button"
-                @click="close()"
-                class="button button--accent w-full"
+                @click="count === 0 ? Livewire.dispatch('clear-all-filters') : close()"
+                :disabled="loading"
+                class="button button--accent button--large w-full min-h-14"
             >
-                <span x-text="count !== null ? `Show ${count} ${count === 1 ? '{{ tour_label_singular }}' : '{{ tour_label_plural }}'}` : 'Show results'"></span>
+                <svg
+                    x-show="loading"
+                    x-cloak
+                    class="size-5 shrink-0"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                >
+                    <path d="M21 12a9 9 0 1 1-6.219-8.56" class="animate-spin [transform-origin:12px_12px]" />
+                </svg>
+
+                <span x-text="count === null ? 'Show results' : count === 0 ? '{{ trans:strings.clear_filters ?? 'Clear filters' }}' : `Show ${count} ${count === 1 ? '{{ tour_label_singular }}' : '{{ tour_label_plural }}'}`"></span>
             </button>
         </div>
     </div>

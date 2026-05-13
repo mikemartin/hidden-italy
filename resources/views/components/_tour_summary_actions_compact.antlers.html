@@ -1,0 +1,21 @@
+{{#
+    @name Tour summary actions (compact)
+    @desc Round icon-only Share + Save buttons used in the mobile
+          breadcrumb row, where space is tight and a labelled
+          `.button-inline` would crowd the chip. Style mirrors the
+          Menu / Close affordances on the mobile nav drawer (44×44 pill
+          with a parchment hover halo) so the surface vocabulary stays
+          consistent. Share itself is rendered by the
+          `components/_share_menu` partial in `compact` mode. Desktop renders
+          the labelled variant — see `_tour_summary_actions.antlers.html`.
+#}}
+
+<!-- /components/_tour_summary_actions_compact.antlers.html -->
+<div class="flex items-center gap-1">
+    {{ partial:components/share_menu compact="true" }}
+
+    {{# Save piggy-backs on Simple Likes via a compact template so saved
+        state syncs with the wishlist drawer through the addon's store. #}}
+    {{ simple_like template_from="components._save_button_compact" }}
+</div>
+<!-- End: /components/_tour_summary_actions_compact.antlers.html -->

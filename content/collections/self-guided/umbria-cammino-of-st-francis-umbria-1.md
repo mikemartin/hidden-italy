@@ -16,21 +16,6 @@ overview:
       -
         type: text
         text: 'This six-day walk is the first section of the Cammino of St Francis. It follows the official pilgrim route, a regularly marked trail that weaves through the hills and farmlands of Central Italy, from Assisi, home of St Francis, to Spoleto through some of the most beautiful country in the region.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This first section starts in the beautiful town of Assisi.\_ The trail contours along the foothills of the Appennine Mountains with spectacular views over the Vale of Umbria, winding through classic Umbria countryside of farmlands and olives groves.  The trail finishes\_ in the remarkable town of Spoleto.  Along the way, you visit some of the best-preserved hilltop towns in the region, several that date from Roman times You're accommodation along the way is in welcoming, family-run, 3-star hotel.\_ "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: "Umbria 1 walk is the first section of the Cammino of St Francis, a marvellous 258 km walk that starts in Assisi and finishes in Rome, following in the footsteps of Italy's most beloved saint.  The whole three-week walk can be broken up into three one-week sections: Umbria 1, Umbria 2 and Lazio."
 inclusions:
   - 'Five nights accommodation'
   - 'All breakfasts + 1 dinner included'
@@ -42,7 +27,35 @@ inclusions:
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: central-italy
+landscapes:
+  - countryside
 page_builder:
+  -
+    id: 937814bc35a90252
+    type: overview
+    enabled: true
+    column_left:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "This first section starts in the beautiful town of Assisi.\_ The trail contours along the foothills of the Appennine Mountains with spectacular views over the Vale of Umbria, winding through classic Umbria countryside of farmlands and olives groves.  The trail finishes\_ in the remarkable town of Spoleto.  Along the way, you visit some of the best-preserved hilltop towns in the region, several that date from Roman times You're accommodation along the way is in welcoming, family-run, 3-star hotel.\_ "
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: "Umbria 1 walk is the first section of the Cammino of St Francis, a marvellous 258 km walk that starts in Assisi and finishes in Rome, following in the footsteps of Italy's most beloved saint.  The whole three-week walk can be broken up into three one-week sections: Umbria 1, Umbria 2 and Lazio."
+    title: 'From Assisi, across the Vale of Umbria'
+    images:
+      - tours/umbria-cammino-of-st-francis-umbria-1/11.jpg
+      - tours/umbria-cammino-of-st-francis-umbria-1/arriving-in-spello.jpg
+      - tours/umbria-cammino-of-st-francis-umbria-1/14.jpg
   -
     id: mloocwbk
     title: 'Highlights of the Umbria 1 walk'
@@ -86,12 +99,12 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Day 1: Arrive in Assisi'
+        title: 'Arrive in Assisi'
         description: 'Arrival in Assisi, one of the most beautiful towns in central Italy.  It is, of course, the home of St Francis (1182 – 1226).  It is dominated by the two-level Basilica of St Francis (consecrated in 1256) which contains some of the finest art in Western Europe, including works by Giotto, Cimabue and the Lorenzetti brothers.'
         photo: tours/umbria-cammino-of-st-francis-umbria-1/2.jpg
       -
         id: mloozlek
-        title: "Day 2:  Visit St Francis' retreat"
+        title: "Visit St Francis' retreat"
         description: 'This itinerary starts with a steep climb up to a beautiful hermitage surrounded by forests that was a place of retreat for St Francis.  From here the path contours around the side of Mt Subasio with wide views across the valley to Montefalco and the Martani Hills, before descending to a beautiful hill-town founded by the Romans.   Please note there is an alternative, which is lower and shorter.  (11.5 kms, 3.5 hrs; 220 mts)'
         duration: 5
         distance: 15
@@ -101,7 +114,7 @@ page_builder:
         photo: tours/umbria-cammino-of-st-francis-umbria-1/04.jpg
       -
         id: mlop159i
-        title: 'Day 3:  Walk the Olive Trail'
+        title: 'Walk the Olive Trail'
         description: 'The first half of today’s walk takes you down onto the valley floor passing through a string of towns including Foligno, before climbing up the side of the valley and picking paths that take you classic Umbria countryside dominated by centuries old olive groves finishing in one of the best-preserved and attractive hill-towns in the region  (19.5 kms; 6 hrs; min: 228 mts, max: 413 mts)'
         duration: 6
         distance: 19
@@ -111,7 +124,7 @@ page_builder:
         photo: tours/umbria-cammino-of-st-francis-umbria-1/arriving-in-spello.jpg
       -
         id: mlop3c5r
-        title: 'Day 4:  Enjoy the views'
+        title: 'Enjoy the views'
         description: 'The route continues to skirt along the side of the mountains with spectacular views across the valley and up to the Sibillini Mountains.  It largely follows unsealed country lanes through farmlands and olive groves passing sites of considerable historical interest, including a Franciscan hermitage and a sleepy medieval village.  (10 kms; 3 hrs; min: 324 mts, max: 552 mts)'
         duration: 3
         distance: 10
@@ -121,7 +134,7 @@ page_builder:
         photo: tours/umbria-cammino-of-st-francis-umbria-1/6.jpg
       -
         id: mlop5205
-        title: 'Day 5:  Walk to Spoleto'
+        title: 'Walk to Spoleto'
         description: "The last walk continues along the 'Sentiero degli Ulivi', winding through olive groves, around the side of the hills past a string of villages before arriving in Spoleto, entering this gorgeous city through the lower medieval walls and climbing up to the cathedral square.  (5 hrs; 18 kms; min: 299 mts, max: 556 mts)"
         duration: 5
         distance: 18
@@ -131,7 +144,7 @@ page_builder:
         photo: tours/umbria-cammino-of-st-francis-umbria-1/umbria-3686911_1280.jpg
       -
         id: mlop6avf
-        title: 'Day 6:  Depart Spoleto'
+        title: 'Depart Spoleto'
         description: "After breakfast, you'll be free to continue your holiday.  Spoleto station has direct connections to Rome and Florence."
         meals_included:
           - breakfast
@@ -144,7 +157,7 @@ page_builder:
     tabs:
       -
         id: FR3faXfk73iAF3NKH5tOt
-        title: Walks
+        title: 'Exceptional walkings'
         total_distance: 62
         total_elevation: 1220
         grade: 3
@@ -166,7 +179,7 @@ page_builder:
         enabled: true
       -
         id: uU03Tr3W0iXR-X5j6f0H4
-        title: Accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -180,7 +193,7 @@ page_builder:
         enabled: true
       -
         id: iqbWEo8jA5o7JtcsgUxpO
-        title: Food
+        title: 'Authentic food'
         description:
           -
             type: paragraph
@@ -255,8 +268,12 @@ page_builder:
     type: essentials
     enabled: true
   -
+    type: faqs
+    enabled: true
+    show_common_questions: true
+  -
     id: JqBSF7TDodubHM6CgzLXR
-    title: 'What our travellers are saying'
+    heading: 'What our travellers are saying'
     testimonials:
       - f8c2859d-942a-4c7a-ae65-d31d2c95bc5b
       - 012de9d3-89ab-40f0-8875-779791403729

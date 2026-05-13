@@ -1,0 +1,125 @@
+{{#
+    @name Walking grades table (Bard set)
+    @desc Renders the walking-grades descriptions from the `walking_grades`
+          global so editors maintain a single source of truth.
+
+          The set's `tour_type` field controls which column(s) to render:
+
+            - `self-guided` → force the self-guided column.
+            - `guided`      → force the guided column.
+            - `both`        → defer to context. The FAQ partial passes
+                              the parent entry's `tour_collection`
+                              handle, so on a guided / self-guided tour
+                              page only the matching column renders;
+                              everywhere else both columns render side
+                              by side.
+
+          Grade 5 only exists for guided walks, so its row is hidden
+          whenever the self-guided column is the only one being shown.
+#}}
+
+<!-- /sets/_walking_grades_table.antlers.html -->
+{{ tour_type = tour_type ?? 'both' }}
+{{ if tour_type == 'guided' }}
+    {{ show_guided = true }}
+    {{ show_self_guided = false }}
+{{ elseif tour_type == 'self-guided' }}
+    {{ show_guided = false }}
+    {{ show_self_guided = true }}
+{{ else }}
+    {{# `both` — defer to the tour context. `tour_collection` is
+        passed by the FAQ partial when the current scope can't expose
+        the tour entry's collection (e.g. when rendering inside a
+        common-question entry pulled via `get_content`). Otherwise we
+        fall back to the scope's `{collection:handle}`. #}}
+    {{ effective_collection = tour_collection ?? {collection:handle} }}
+    {{ show_guided = effective_collection != 'self-guided' }}
+    {{ show_self_guided = effective_collection != 'guided' }}
+{{ /if }}
+
+<div class="not-prose my-4">
+    <div class="space-y-8">
+    {{# When both columns are visible, render two separate lists, each
+        introduced by an h6 heading so the reader can see at a glance
+        which set of descriptions applies. When only one column is
+        visible (the tour context narrows it, or the editor forced it
+        via `tour_type`), drop the heading — the surrounding tour page
+        already establishes the context. #}}
+    {{ show_both = show_guided && show_self_guided }}
+
+    {{ if show_self_guided }}
+        <div>
+            {{ if show_both }}
+                {{ partial:typography/h5 content="Self-guided walking grades" small="true" class="text-terracotta !mb-3" }}
+            {{ /if  }}
+            <dl class="divide-y divide-neutral-200 border-t border-neutral-200">
+                {{ if walking_grades:grade_1_self_guided }}
+                    <div class="py-4 sm:grid sm:grid-cols-4 sm:gap-4">
+                        <dt class="font-display text-base font-medium text-foreground">Grade 1</dt>
+                        <dd class="mt-1 sm:col-span-3 sm:mt-0 text-base text-text">{{ walking_grades:grade_1_self_guided }}</dd>
+                    </div>
+                {{ /if }}
+                {{ if walking_grades:grade_2_self_guided }}
+                    <div class="py-4 sm:grid sm:grid-cols-4 sm:gap-4">
+                        <dt class="font-display text-base font-medium text-foreground">Grade 2</dt>
+                        <dd class="mt-1 sm:col-span-3 sm:mt-0 text-base text-text">{{ walking_grades:grade_2_self_guided }}</dd>
+                    </div>
+                {{ /if }}
+                {{ if walking_grades:grade_3_self_guided }}
+                    <div class="py-4 sm:grid sm:grid-cols-4 sm:gap-4">
+                        <dt class="font-display text-base font-medium text-foreground">Grade 3</dt>
+                        <dd class="mt-1 sm:col-span-3 sm:mt-0 text-base text-text">{{ walking_grades:grade_3_self_guided }}</dd>
+                    </div>
+                {{ /if }}
+                {{ if walking_grades:grade_4_self_guided }}
+                    <div class="py-4 sm:grid sm:grid-cols-4 sm:gap-4">
+                        <dt class="font-display text-base font-medium text-foreground">Grade 4</dt>
+                        <dd class="mt-1 sm:col-span-3 sm:mt-0 text-base text-text">{{ walking_grades:grade_4_self_guided }}</dd>
+                    </div>
+                {{ /if }}
+            </dl>
+        </div>
+    {{ /if }}
+
+    {{ if show_guided }}
+        <div>
+            {{ if show_both }}
+                {{ partial:typography/h5 content="Guided walking grades" small="true" class="text-terracotta !mb-3" }}
+            {{ /if }}
+            <dl class="divide-y divide-neutral-200 border-t border-neutral-200">
+                {{ if walking_grades:grade_1_guided }}
+                    <div class="py-4 sm:grid sm:grid-cols-4 sm:gap-4">
+                        <dt class="font-display text-base font-medium text-foreground">Grade 1</dt>
+                        <dd class="mt-1 sm:col-span-3 sm:mt-0 text-base text-text">{{ walking_grades:grade_1_guided }}</dd>
+                    </div>
+                {{ /if }}
+                {{ if walking_grades:grade_2_guided }}
+                    <div class="py-4 sm:grid sm:grid-cols-4 sm:gap-4">
+                        <dt class="font-display text-base font-medium text-foreground">Grade 2</dt>
+                        <dd class="mt-1 sm:col-span-3 sm:mt-0 text-base text-text">{{ walking_grades:grade_2_guided }}</dd>
+                    </div>
+                {{ /if }}
+                {{ if walking_grades:grade_3_guided }}
+                    <div class="py-4 sm:grid sm:grid-cols-4 sm:gap-4">
+                        <dt class="font-display text-base font-medium text-foreground">Grade 3</dt>
+                        <dd class="mt-1 sm:col-span-3 sm:mt-0 text-base text-text">{{ walking_grades:grade_3_guided }}</dd>
+                    </div>
+                {{ /if }}
+                {{ if walking_grades:grade_4_guided }}
+                    <div class="py-4 sm:grid sm:grid-cols-4 sm:gap-4">
+                        <dt class="font-display text-base font-medium text-foreground">Grade 4</dt>
+                        <dd class="mt-1 sm:col-span-3 sm:mt-0 text-base text-text">{{ walking_grades:grade_4_guided }}</dd>
+                    </div>
+                {{ /if }}
+                {{ if walking_grades:grade_5_guided }}
+                    <div class="py-4 sm:grid sm:grid-cols-4 sm:gap-4">
+                        <dt class="font-display text-base font-medium text-foreground">Grade 5</dt>
+                        <dd class="mt-1 sm:col-span-3 sm:mt-0 text-base text-text">{{ walking_grades:grade_5_guided }}</dd>
+                    </div>
+                {{ /if }}
+            </dl>
+        </div>
+    {{ /if }}
+    </div>
+</div>
+<!-- End: /sets/_walking_grades_table.antlers.html -->
