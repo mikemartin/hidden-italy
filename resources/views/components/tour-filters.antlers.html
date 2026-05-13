@@ -117,20 +117,33 @@
     @keydown.escape.window="close()"
     class="mb-4 xl:mb-8"
 >
-    {{# Mobile trigger — opens the drawer. Hidden on md+. #}}
-    <button
-        type="button"
-        @click="toggle()"
-        class="md:hidden inline-flex items-center justify-between gap-2 w-full h-12 px-4 rounded-full border border-parchment-300 bg-card text-foreground font-sans font-medium text-base"
-    >
-        <span class="inline-flex items-center gap-2">
-            <x-lucide-sliders-horizontal class="size-5 text-accent-2" stroke-width="1.5" aria-hidden="true" />
-            <span>{{ trans:strings.filters ?? 'Filters' }}</span>
+    {{# Mobile trigger — opens the drawer. Hidden on md+. Pairs the peak
+        cream pill (.button--cream) with the live count rendered alongside
+        it. Label echoes the drawer heading so the trigger reads as the
+        entry point to "Find your tour". Typography goes on the button
+        itself (no inner `<span>`) so peak's `.button span` rule — which
+        forces uppercase / semibold / tight tracking — never matches; the
+        button instead reads with an h6-mobile voice (Roma Neue, bold,
+        sentence case) and feels like a heading-style affordance rather
+        than a CTA. Icon picks up terracotta for warmth on cream. #}}
+    <div class="md:hidden flex items-center justify-between gap-4">
+        <button
+            type="button"
+            @click="toggle()"
+            class="button button--cream font-display font-bold text-base leading-[1.25]"
+        >
+            <x-lucide-list-filter class="size-5 text-terracotta" stroke-width="1.5" aria-hidden="true" />
+            {{ trans:strings.find_your_tour ?? 'Find your tour' }}
+        </button>
+        <span
+            x-show="count !== 0"
+            x-cloak
+            :class="loading ? 'text-muted' : 'text-text'"
+            class="font-sans font-medium text-[15px] leading-[1.6] whitespace-nowrap motion-safe:transition-colors"
+        >
+            <span x-text="count !== null ? `${count} ${count === 1 ? '{{ tour_label_singular }}' : '{{ tour_label_plural }}'}` : 'Loading…'"></span>
         </span>
-        <span class="font-sans font-medium text-sm text-text" x-show="count !== null" x-cloak>
-            <span x-text="`${count} ${count === 1 ? '{{ tour_label_singular }}' : '{{ tour_label_plural }}'}`"></span>
-        </span>
-    </button>
+    </div>
 
     {{# Backdrop for the mobile drawer — brand-token fade. Matches the
         mobile menu treatment (bg-black/30, 380ms quick easing). #}}
@@ -313,12 +326,11 @@
             actual filtering is reactive and happens as filters change,
             so this is just a confirmation/close affordance.
 
-            Sticks to the bottom of the scrolling drawer with `sticky
-            bottom-0`. Negative `-mx-5` cancels the card's horizontal
-            padding so the bg + top border span edge-to-edge; the card's
-            bottom padding is dropped on mobile so the footer sits flush
-            with the drawer's bottom edge. #}}
-        <div class="md:hidden sticky bottom-0 -mx-5 mt-6 px-5 py-4 bg-card border-t border-parchment-200">
+            Negative `-mx-5` cancels the card's horizontal padding so the
+            bg + top border span edge-to-edge; the card's bottom padding
+            is dropped on mobile so the footer sits flush with the
+            drawer's bottom edge. #}}
+        <div class="md:hidden -mx-5 mt-6 px-5 py-4 bg-card border-t border-parchment-200">
             {{# Primary CTA — uses the .button / .button--accent / .button--large
                 classes directly (rather than the `components/button` partial)
                 because the label is Alpine-driven via x-text and the spinner

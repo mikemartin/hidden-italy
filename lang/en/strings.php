@@ -113,6 +113,7 @@ return [
     'elevation' => 'Elevation',
     'distance' => 'Distance',
     'filters' => 'Filters',
+    'find_your_tour' => 'Find your tour',
     'clear_filters' => 'Clear filters',
     'guests' => 'guests',
     'whats_included' => "What's included",
