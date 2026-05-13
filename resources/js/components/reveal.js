@@ -2,9 +2,22 @@ import { animate } from 'motion/mini';
 
 /*
  * Alpine `x-reveal` directive — one-shot entrance animation for hero / banner
- * text. Animates direct/descendant `[data-reveal-item]` elements with a small
- * staggered fade-and-rise.
+ * text and page-builder sections.
  *
+ * Site-wide motion rule
+ * ---------------------
+ * Every page-builder section reveals on scroll-in once. The heading is one
+ * item; each repeating card / row / tile is another. 700ms duration, 80ms
+ * stagger, opacity 0→1 + 16px translateY rise, fired once per element.
+ *
+ * Skip the rule when a block:
+ *   - already animates (Splide carousels, accordions opening, tabs);
+ *   - is interactive and needs immediate use (forms, contact);
+ *   - is a single self-contained unit with no list to stagger
+ *     (single profile card, single quote card, two-up tour-types).
+ *
+ * Implementation
+ * --------------
  * `motion/mini` is a thin WAAPI wrapper — animations run on the compositor
  * thread off the main thread. We only animate `opacity` + `transform`, which
  * are GPU-composited (no layout, no paint), so the page never blocks the

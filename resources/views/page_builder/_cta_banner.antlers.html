@@ -8,7 +8,7 @@
 #}}
 
 <!-- /page_builder/_cta_banner.antlers.html -->
-<section class="span-full relative isolate bg-foreground text-white overflow-hidden">
+<section x-data x-reveal class="span-full relative isolate bg-foreground text-white overflow-hidden">
     <div class="relative min-h-[360px] md:min-h-[480px] flex items-center justify-center py-20 md:py-32">
         {{ if block:image }}
             {{
@@ -31,10 +31,12 @@
 
         <div class="relative z-10 fluid-grid w-full">
             <div class="span-content flex flex-col items-center text-center gap-6">
-                {{ partial:typography/h1_display :content="block:heading | widont" as="h2" class="!text-white max-w-3xl" }}
+                <div data-reveal-item>
+                    {{ partial:typography/h1_display :content="block:heading | widont" as="h2" class="!text-white max-w-3xl" }}
+                </div>
 
                 {{ if block:buttons }}
-                    <div class="flex flex-wrap gap-4 justify-center">
+                    <div data-reveal-item class="flex flex-wrap gap-4 justify-center">
                         {{ block:buttons }}
                             {{ partial:components/button class="button--outline button--gold button--large" }}
                         {{ /block:buttons }}

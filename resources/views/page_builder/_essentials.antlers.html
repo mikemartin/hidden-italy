@@ -11,12 +11,16 @@
 <!-- /page_builder/_essentials.antlers.html -->
 {{ if block:sections }}
     {{ partial:page_builder/block block_id="essentials" class="gap-y-10 md:gap-y-14" }}
-        <header class="span-content flex flex-col gap-3">
-            {{ partial:typography/label content="Essentials" small="true" class="!text-accent-2 uppercase tracking-[0.12em] font-semibold" }}
-            {{ partial:typography/h2 :content="block:title ?? 'What you should know'" color="text-foreground" }}
+        <header x-data x-reveal class="span-content flex flex-col gap-3">
+            <div data-reveal-item>
+                {{ partial:typography/label content="Essentials" small="true" class="!text-accent-2 uppercase tracking-[0.12em] font-semibold" }}
+            </div>
+            <div data-reveal-item>
+                {{ partial:typography/h2 :content="block:title ?? 'What you should know'" color="text-foreground" }}
+            </div>
         </header>
 
-        <div class="span-content flex flex-col">
+        <div x-data x-reveal class="span-content flex flex-col">
             {{ block:sections }}
                 {{# Resolve the row label from the set type — `general` uses its own heading field. #}}
                 {{ if type == 'equipment' }}{{ row_heading = trans:strings.equipment_needed ?? 'Equipment needed' }}{{ /if }}
@@ -24,7 +28,7 @@
                 {{ if type == 'booking_cancellation' }}{{ row_heading = trans:strings.booking_cancellation ?? 'Booking and cancellation conditions' }}{{ /if }}
                 {{ if type == 'general' }}{{ row_heading = heading }}{{ /if }}
 
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-12 py-8 md:py-10 first:pt-0 last:pb-0 border-t border-parchment-200 first:border-t-0">
+                <div data-reveal-item class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-12 py-8 md:py-10 first:pt-0 last:pb-0 border-t border-parchment-200 first:border-t-0">
                     {{ if row_heading }}
                         {{# Heading column lays the icon tile beside the heading,
                             top-aligned so the icon sits flush with the first
