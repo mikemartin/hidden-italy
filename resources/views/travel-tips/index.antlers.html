@@ -14,14 +14,14 @@
     {{ /if }}
 
     <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
-        <ul class="span-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-fluid-grid-gap">
+        <ul class="span-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-fluid-grid-gap" x-data x-reveal data-reveal-stagger="50">
             {{ collection :from="mount" }}
                 {{ if no_results }}
-                    <li class="md:col-span-2 lg:col-span-3">
+                    <li data-reveal-item class="md:col-span-2 lg:col-span-3">
                         {{ partial:typography/p content="{trans:strings.no_results ?? 'There are currently no posts.'}" color="text-text" }}
                     </li>
                 {{ else }}
-                    <li>
+                    <li data-reveal-item data-reveal-preset="card">
                         {{ partial:components/article-card }}
                     </li>
                 {{ /if }}

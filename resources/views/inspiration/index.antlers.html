@@ -30,10 +30,12 @@
     }}
         {{ if featured_entries }}
             <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
-                <div class="span-content">
-                    {{ featured_entries }}
-                        {{ partial:components/featured_article show_category="true" }}
-                    {{ /featured_entries }}
+                <div class="span-content" x-data x-reveal>
+                    <div data-reveal-item data-reveal-preset="card">
+                        {{ featured_entries }}
+                            {{ partial:components/featured_article show_category="true" }}
+                        {{ /featured_entries }}
+                    </div>
                 </div>
             </section>
         {{ /if }}
@@ -81,8 +83,10 @@
                     destroy() { this.splide?.destroy() },
                 }"
             >
-                <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                    {{ partial:typography/h2 content="Monthly newsletter" class="!mb-0" color="text-foreground" }}
+                <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4" x-reveal>
+                    <div data-reveal-item data-reveal-preset="h1">
+                        {{ partial:typography/h2 content="Monthly newsletter" class="!mb-0" color="text-foreground" }}
+                    </div>
 
                     {{# Prev/next arrows — only when there's more than the
                         carousel page size to scroll through. The fetch is
@@ -112,8 +116,8 @@
                     {{ /if }}
                 </header>
 
-                <div class="splide-bleed-right">
-                    <section x-ref="splide" class="splide articles-splide" aria-label="Recent newsletters">
+                <div class="splide-bleed-right" x-reveal>
+                    <section x-ref="splide" class="splide articles-splide" aria-label="Recent newsletters" data-reveal-item data-reveal-preset="card">
                         <div class="splide__track">
                             <ul class="splide__list">
                                 {{ newsletters }}
@@ -130,20 +134,22 @@
     {{ /collection:inspiration }}
 
     <section class="fluid-grid gap-y-12 pb-12 md:pb-16 lg:pb-24">
-        <header class="span-content">
-            {{ partial:typography/h2 content="Recent articles" class="!mb-0" color="text-foreground" }}
+        <header class="span-content" x-data x-reveal>
+            <div data-reveal-item data-reveal-preset="h1">
+                {{ partial:typography/h2 content="Recent articles" class="!mb-0" color="text-foreground" }}
+            </div>
         </header>
         <div class="span-content">
-            <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-fluid-grid-gap">
+            <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-fluid-grid-gap" x-data x-reveal data-reveal-stagger="50">
                 {{# Skip the first entry — it's rendered as the featured article
                     above. #}}
                 {{ collection :from="mount" taxonomy:categories:not="newsletter" offset="1" }}
                     {{ if no_results }}
-                        <li class="md:col-span-2 lg:col-span-3">
+                        <li data-reveal-item class="md:col-span-2 lg:col-span-3">
                             {{ partial:typography/p content="{trans:strings.no_results ?? 'There are currently no posts.'}" color="text-text" }}
                         </li>
                     {{ else }}
-                        <li>
+                        <li data-reveal-item data-reveal-preset="card">
                             {{ partial:components/article-card show_category="true" }}
                         </li>
                     {{ /if }}
