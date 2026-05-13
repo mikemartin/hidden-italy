@@ -14,25 +14,65 @@
 <!-- /home/_hero.antlers.html -->
 <section
     class="stack-space-collapse span-full relative isolate bg-foreground text-white overflow-hidden h-[525px] md:h-svh md:min-h-[760px] md:max-h-[820px]"
+    x-reveal
+    data-reveal-delay="400"
     x-data="{
         current: 0,
         progress: 0,
+        paused: false,
         splide: null,
         init() {
             this.splide = new Splide(this.$refs.splide, {
                 type: 'fade',
                 rewind: true,
                 autoplay: {{ tour_photos | count }} > 1,
-                interval: 6000,
+                interval: 7000,
                 speed: 1200,
                 pauseOnHover: false,
                 pauseOnFocus: false,
                 arrows: false,
                 pagination: true,
             });
-            this.splide.on('move', (newIndex) => { this.current = newIndex });
+            this.splide.on('mounted', () => { this.panTo(0, -1) });
+            this.splide.on('move', (newIndex, prevIndex) => {
+                this.current = newIndex;
+                this.panTo(newIndex, prevIndex);
+            });
             this.splide.on('autoplay:playing', (rate) => { this.progress = rate });
+            this.splide.on('autoplay:pause', () => { this.paused = true });
+            this.splide.on('autoplay:play', () => { this.paused = false });
             this.splide.mount();
+        },
+        /* Toggle autoplay from the progress-ring button. The `autoplay:play`
+           and `autoplay:pause` event listeners keep `this.paused` in sync,
+           so the icon swap and aria-label update happen automatically. */
+        toggleAutoplay() {
+            const autoplay = this.splide?.Components?.Autoplay;
+            if (!autoplay) return;
+            if (this.paused) {
+                autoplay.play();
+            } else {
+                autoplay.pause();
+            }
+        },
+        /* Drive the Ken Burns scale on the active slide. Freeze the outgoing
+           slide's current transform inline so it holds its scale during the
+           1200ms crossfade instead of snapping back to scale(1) when
+           `is-panning` is removed and the CSS animation stops applying. */
+        panTo(newIndex, prevIndex) {
+            const slides = this.$refs.splide.querySelectorAll('.splide__slide');
+            if (prevIndex >= 0) {
+                const prev = slides[prevIndex]?.querySelector('.ambient-pan');
+                if (prev) {
+                    prev.style.transform = getComputedStyle(prev).transform;
+                    prev.classList.remove('is-panning');
+                }
+            }
+            const next = slides[newIndex]?.querySelector('.ambient-pan');
+            if (!next) return;
+            next.style.transform = '';
+            void next.offsetWidth;
+            next.classList.add('is-panning');
         },
         next() { this.splide?.go('+') },
         prev() { this.splide?.go('-') },
@@ -53,7 +93,7 @@
                             {{
                                 picture
                                 :image="image"
-                                class="absolute inset-0 w-full h-full object-cover"
+                                class="ambient-pan absolute inset-0 w-full h-full object-cover"
                                 cover="true"
                                 sizes="100vw"
                                 fetchpriority="{{ index == 1 ? 'high' : 'auto' }}"
@@ -61,8 +101,11 @@
                             }}
                         {{ /if }}
 
-                        {{# Uniform dark wash for centred-content contrast. #}}
-                        <div class="absolute inset-0 bg-black/40"></div>
+                        {{# Uniform dark wash for centred-content contrast. On the first
+                            slide it doubles as an initial-load curtain — starts fully
+                            opaque and fades to its resting 30% on mount so the image
+                            emerges from dark without delaying LCP. #}}
+                        <div class="absolute inset-0 bg-black/30{{ if first }} hero-curtain{{ /if }}"></div>
 
                         {{# Top + bottom dark gradients to anchor the header and the bottom row. #}}
                         <div
@@ -78,7 +121,9 @@
     {{# Foreground content — headline + CTA, centred. #}}
     <div class="relative z-10 h-full fluid-grid pointer-events-none">
         <div class="span-content flex flex-col items-center justify-center text-center gap-6 md:gap-10 h-full">
-            {{ partial:typography/h1_big_display :content="headline" class="!text-white max-w-3xl" }}
+            <div data-reveal-item data-reveal-preset="hero-h1">
+                {{ partial:typography/h1_big_display :content="headline" class="!text-white max-w-3xl" }}
+            </div>
 
             {{ if buttons }}
                 <div class="flex flex-wrap gap-4 justify-center pointer-events-auto">
@@ -99,24 +144,48 @@
                     The ring next to it shows progress toward the next auto-advance and is
                     hidden on mobile. #}}
                 <div class="order-1 md:order-none flex items-center gap-3 min-h-[24px]">
-                    <svg
-                        viewBox="0 0 24 24"
-                        class="hidden md:block size-6 -rotate-90 text-gold"
-                        fill="none"
-                        aria-hidden="true"
+                    {{# Autoplay toggle — desktop only. Click pauses or resumes
+                        the slideshow; the pause bars inside the ring become
+                        visible when paused so the state is unmistakable. #}}
+                    <button
+                        type="button"
+                        @click="toggleAutoplay()"
+                        :aria-label="paused ? 'Resume slideshow' : 'Pause slideshow'"
+                        :aria-pressed="paused"
+                        class="group hidden md:block p-2 -m-2 cursor-pointer rounded-full text-gold transition-opacity hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
                     >
-                        {{# Track #}}
-                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-opacity="0.25" stroke-width="2"></circle>
-                        {{# Progress — circumference 2πr ≈ 62.832, dashoffset shrinks as `progress` grows. #}}
-                        <circle
-                            cx="12" cy="12" r="10"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-dasharray="62.832"
-                            :stroke-dashoffset="62.832 * (1 - progress)"
-                        ></circle>
-                    </svg>
+                        <svg
+                            viewBox="0 0 24 24"
+                            class="block size-6 -rotate-90"
+                            fill="none"
+                            aria-hidden="true"
+                        >
+                            {{# Track #}}
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-opacity="0.25" stroke-width="2"></circle>
+                            {{# Progress — circumference 2πr ≈ 62.832, dashoffset shrinks as `progress` grows. #}}
+                            <circle
+                                cx="12" cy="12" r="10"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-dasharray="62.832"
+                                :stroke-dashoffset="62.832 * (1 - progress)"
+                            ></circle>
+                            {{# Pause bars — shown when autoplay is paused (state
+                                indicator) OR while the button is hovered/focused
+                                (action hint, so the control isn't a hidden feature).
+                                Counter-rotated 90° to undo the SVG's -rotate-90 so
+                                the bars render vertical despite the rotated parent. #}}
+                            <g
+                                transform="rotate(90 12 12)"
+                                class="opacity-0 transition-opacity duration-200 group-hover:opacity-100 group-focus-visible:opacity-100"
+                                :class="{ 'opacity-100': paused }"
+                            >
+                                <rect x="9" y="9" width="2" height="6" rx="0.5" fill="currentColor"></rect>
+                                <rect x="13" y="9" width="2" height="6" rx="0.5" fill="currentColor"></rect>
+                            </g>
+                        </svg>
+                    </button>
                     {{# Tour names stacked in a single grid cell — they crossfade in sync
                         with Splide's slide transition (matched to the 1200ms speed).
                         Pulls the linked tour entry's `name` (falling back to `title`). #}}
@@ -142,7 +211,7 @@
                             type="button"
                             @click="prev()"
                             aria-label="Previous slide"
-                            class="flex size-11 items-center justify-center rounded-full border-[1.5px] border-white/80 text-white opacity-70 hover:opacity-100 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                            class="flex size-11 items-center justify-center rounded-full border-[1.5px] border-white/80 text-white opacity-90 hover:opacity-100 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
                         >
                             <x-lucide-arrow-left class="size-5" stroke-width="2" aria-hidden="true" />
                         </button>
@@ -150,7 +219,7 @@
                             type="button"
                             @click="next()"
                             aria-label="Next slide"
-                            class="flex size-11 items-center justify-center rounded-full border-[1.5px] border-white/80 text-white opacity-70 hover:opacity-100 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                            class="flex size-11 items-center justify-center rounded-full border-[1.5px] border-white/80 text-white opacity-90 hover:opacity-100 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
                         >
                             <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />
                         </button>
@@ -166,7 +235,7 @@
         class="absolute bottom-0 left-1/2 -translate-x-1/2 z-10 hidden md:block p-6 text-white/90 hover:text-white transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
         aria-label="Scroll to next section"
     >
-        <x-lucide-chevron-down class="size-12 animate-bounce" stroke-width="1" aria-hidden="true" />
+        <x-lucide-chevron-down class="size-12 hero-chevron" stroke-width="1" aria-hidden="true" />
     </a>
 </section>
 <!-- End: /home/_hero.antlers.html -->
