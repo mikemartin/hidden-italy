@@ -58,8 +58,10 @@
         destroy() { this.splide?.destroy() },
     }"
 >
-    <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-        {{ partial:typography/h2 :content="block:heading" class="!mb-0" color="text-foreground" }}
+    <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4" x-reveal>
+        <div data-reveal-item data-reveal-preset="h1">
+            {{ partial:typography/h2 :content="block:heading" class="!mb-0" color="text-foreground" }}
+        </div>
 
         {{# Header slot — "View all" link when both label + target are
             configured; falls back to prev/next arrows when there's
@@ -96,8 +98,8 @@
         {{ /if }}
     </header>
 
-    <div class="splide-bleed-right">
-        <section x-ref="splide" class="splide articles-splide" aria-label="Travel tips">
+    <div class="splide-bleed-right" x-reveal>
+        <section x-ref="splide" class="splide articles-splide" aria-label="Travel tips" data-reveal-item data-reveal-preset="card">
             <div class="splide__track">
                 <ul class="splide__list">
                     {{ if block:articles }}

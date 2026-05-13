@@ -1,7 +1,7 @@
 {{#
     @name Tour CTA banner
     @desc Full-bleed CTA at the bottom of a tour page. Mirrors the
-          `layout/cta_banner` treatment (opacity-70 image, bg-black/40
+          `layout/cta_banner` treatment (full-brightness image, bg-black/30
           wash, top/bottom dark gradients) but swaps in the tour's hero
           image and the "Make an enquiry" action used in the tour banner
           and sub-nav. Headline is read directly from the global
@@ -12,18 +12,18 @@
 
 <!-- /tours/_cta_banner.antlers.html -->
 {{ if image && cta_banner:heading }}
-    <section class="span-full relative isolate bg-foreground text-white overflow-hidden">
+    <section class="span-full relative isolate bg-foreground text-white overflow-hidden" x-data x-reveal>
         <div class="relative min-h-[360px] md:min-h-[480px] flex items-center justify-center py-20 md:py-32">
             {{
                 picture
                 :image="image"
-                class="absolute inset-0 w-full h-full object-cover opacity-70"
+                class="absolute inset-0 w-full h-full object-cover"
                 cover="true"
                 sizes="100vw"
                 loading="lazy"
             }}
 
-            <div class="absolute inset-0 bg-black/40 pointer-events-none" aria-hidden="true"></div>
+            <div class="absolute inset-0 bg-black/30 pointer-events-none" aria-hidden="true"></div>
 
             <div
                 class="absolute inset-0 pointer-events-none"
@@ -33,7 +33,9 @@
 
             <div class="relative z-10 fluid-grid w-full">
                 <div class="span-content flex flex-col items-center text-center gap-6">
-                    {{ partial:typography/h1_display :content="cta_banner:heading | widont" as="h2" class="!text-white max-w-xl" }}
+                    <div data-reveal-item data-reveal-preset="h1">
+                        {{ partial:typography/h1_display :content="cta_banner:heading | widont" as="h2" class="!text-white max-w-xl" }}
+                    </div>
 
                     <div class="flex flex-wrap gap-4 justify-center">
                         {{ if logged_in }}

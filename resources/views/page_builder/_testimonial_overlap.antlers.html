@@ -26,13 +26,13 @@
             {{ svg:top-left attr:class="absolute top-0 left-0 w-[320px] md:w-[400px] h-auto -translate-x-1/2 lg:-translate-x-1/4" }}
             {{ svg:top-right attr:class="absolute top-0 right-0 w-[320px] md:w-[400px] h-auto" }}
         </div>
-        <figure class="span-content relative grid grid-cols-1 lg:grid-cols-12 gap-y-6 items-stretch">
+        <figure class="span-content relative grid grid-cols-1 lg:grid-cols-12 gap-y-6 items-stretch" x-data x-reveal data-reveal-stagger="120">
             {{# Image — fills its column on desktop so the card can overlap
                 its lower / right portion. Both image and blockquote are
                 pinned to row 1 explicitly so CSS Grid can overlap them
                 rather than auto-flowing the image to a second row. #}}
             {{ if block:image }}
-                <div class="lg:row-start-1 lg:col-start-1 lg:col-span-6 relative rounded-[20px] overflow-hidden bg-parchment-200 ring-1 ring-inset ring-black/5 aspect-4/3 lg:aspect-square">
+                <div data-reveal-item class="lg:row-start-1 lg:col-start-1 lg:col-span-6 relative rounded-[20px] overflow-hidden bg-parchment-200 ring-1 ring-inset ring-black/5 aspect-4/3 lg:aspect-square">
                     {{ picture
                         :image="block:image"
                         class="absolute inset-0 w-full h-full object-cover"
@@ -48,6 +48,8 @@
                 quote glyph sits in a gold serif and is hidden from screen
                 readers (the blockquote already conveys the quote semantics). #}}
             <blockquote
+                data-reveal-item
+                data-reveal-preset="h1"
                 class="
                     relative bg-card border border-parchment-100 shadow-sm rounded-[20px]
                     p-6 lg:px-12 lg:py-16 xl:px-14 xl:py-20

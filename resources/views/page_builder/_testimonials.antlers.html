@@ -36,22 +36,26 @@
             }"
         >
             {{ if block:heading }}
-                <header class="span-content">
-                    {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
+                <header class="span-content" x-reveal>
+                    <div data-reveal-item data-reveal-preset="h1">
+                        {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
+                    </div>
                 </header>
             {{ /if }}
 
-            <div x-ref="splide" class="span-content splide testimonials-splide">
-                <div class="splide__track">
-                    {{# `md:grid` overrides Splide's `.splide__list { display: flex }`
-                        once Splide is destroyed at `md`, restoring the 3-col grid. #}}
-                    <ul class="splide__list md:grid md:grid-cols-3 md:gap-fluid-grid-gap">
-                        {{ block:testimonials }}
-                            <li class="splide__slide">
-                                {{ partial:components/testimonial-card color="bg-card" }}
-                            </li>
-                        {{ /block:testimonials }}
-                    </ul>
+            <div class="span-content" x-reveal>
+                <div x-ref="splide" class="splide testimonials-splide" data-reveal-item data-reveal-preset="card">
+                    <div class="splide__track">
+                        {{# `md:grid` overrides Splide's `.splide__list { display: flex }`
+                            once Splide is destroyed at `md`, restoring the 3-col grid. #}}
+                        <ul class="splide__list md:grid md:grid-cols-3 md:gap-fluid-grid-gap">
+                            {{ block:testimonials }}
+                                <li class="splide__slide">
+                                    {{ partial:components/testimonial-card color="bg-card" }}
+                                </li>
+                            {{ /block:testimonials }}
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

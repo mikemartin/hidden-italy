@@ -8,6 +8,7 @@ import tourMap from './components/tour-map.js';
 import tourSubnav from './components/tour-subnav.js';
 import precognition from 'laravel-precognition-alpine';
 import officeMap from './components/office-map.js';
+import registerReveal from './components/reveal.js';
 
 window.Splide = Splide;
 window.simpleLikes = simpleLikes;
@@ -16,6 +17,7 @@ document.addEventListener('alpine:init', () => {
     window.Alpine.plugin(collapse);
     window.Alpine.plugin(focus);
     window.Alpine.plugin(intersect);
+    registerReveal(window.Alpine);
 
     /* Sticky tour sub-nav state.
        `active`   — id of the currently-on section, read by the nav buttons

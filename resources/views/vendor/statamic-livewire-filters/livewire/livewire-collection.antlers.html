@@ -7,16 +7,53 @@
           is replaced by an inline empty state — "Reset filters" calls the
           LivewireCollection's `clearAll` method, which fires
           `clear-all-filters` to every filter component on the page.
+
+          Animation lives at this level rather than via `x-reveal` because
+          Livewire morphs the grid on every filter / sort change, and the
+          once-only reveal directive can't handle that. Instead we hook the
+          package's `filter-updated` / `sort-updated` / `entries-updated`
+          events: cards fade out together (delay 0) when filters change,
+          then fade back in with an index-based stagger when the new
+          entries land. `loading` starts true so the very first paint
+          also animates — initial load matches every filter change.
+
+          The per-card stagger caps at index 8 so the cascade stays within
+          the brand's <400ms standard-band budget (8 × 50ms = 400ms).
+          Cards beyond index 8 share the 400ms delay and arrive together
+          as a single batch behind the cascade — mostly below the fold on
+          typical viewports, so the visual impact is minimal.
+
+          Easing + duration mirror the `card` reveal preset (440ms /
+          `--ease-standard`) so motion identity is consistent with the
+          rest of the site's reveals.
+
+          Reduced-motion users keep `loading: false` throughout, so
+          the cards are always visible and filter changes happen instantly.
 #}}
 
-<div class="@container">
+<div
+    class="@container"
+    x-data="{
+        reduceMotion: window.matchMedia('(prefers-reduced-motion: reduce)').matches,
+        loading: !window.matchMedia('(prefers-reduced-motion: reduce)').matches,
+    }"
+    x-init="
+        if (loading) setTimeout(() => { loading = false; }, 50);
+        $wire.on('filter-updated', () => { if (!reduceMotion) loading = true; });
+        $wire.on('sort-updated', () => { if (!reduceMotion) loading = true; });
+        $wire.on('entries-updated', () => { setTimeout(() => { loading = false; }, 150); });
+    "
+>
     {{ if entries }}
-        <div
-            class="grid grid-cols-1 @2xl:grid-cols-2 @5xl:grid-cols-3 gap-x-9 gap-y-14 transition-opacity duration-700"
-            wire:loading.class="opacity-40"
-        >
+        <div class="grid grid-cols-1 @2xl:grid-cols-2 @5xl:grid-cols-3 gap-x-9 gap-y-14">
             {{ entries }}
-                <div wire:key="{{ id }}" class="h-full">
+                <div
+                    wire:key="{{ id }}"
+                    class="h-full transition-[opacity,transform] duration-[440ms] ease-standard"
+                    x-data="{ index: Math.min({{ index - 1 }}, 8) }"
+                    :style="`transition-delay: ${loading ? '0ms' : (index * 50) + 'ms'}`"
+                    :class="loading ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'"
+                >
                     {{ partial:components/tour-card }}
                 </div>
             {{ /entries }}
@@ -26,7 +63,10 @@
             {{ links }}
         </div>
     {{ else }}
-        <div class="flex flex-col items-center justify-center px-6 py-12 md:py-16 rounded-lg">
+        <div
+            class="flex flex-col items-center justify-center px-6 py-12 md:py-16 rounded-lg transition-[opacity,transform] duration-[440ms] ease-standard"
+            :class="loading ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'"
+        >
             <div class="flex flex-col items-center text-center gap-4 max-w-xl">
                 <div class="flex shrink-0 items-center justify-center size-20 rounded-full bg-parchment-200 text-accent-2">
                     {{ svg

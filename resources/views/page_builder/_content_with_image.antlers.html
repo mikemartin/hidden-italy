@@ -22,19 +22,24 @@
             span-content grid grid-cols-1 lg:grid-cols-12 gap-y-10 lg:gap-x-16 items-stretch
             {{ if block:image_position == 'left' }}lg:[&>:first-child]:order-2{{ /if }}
         "
+        x-data
+        x-reveal
+        data-reveal-stagger="120"
     >
         <header class="lg:col-span-5 flex flex-col gap-6 self-center">
-            {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
+            <div data-reveal-item data-reveal-preset="h1">
+                {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
+            </div>
 
             {{ if block:body }}
-                <div class="font-sans text-base md:text-lg leading-[1.6] text-text [&_p]:mb-6 [&_p:last-child]:mb-0 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-6 [&_ol]:list-decimal [&_ol]:ml-5 [&_ol]:mb-6">
+                <div data-reveal-item class="font-sans text-base md:text-lg leading-[1.6] text-text [&_p]:mb-6 [&_p:last-child]:mb-0 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-6 [&_ol]:list-decimal [&_ol]:ml-5 [&_ol]:mb-6">
                     {{ block:body }}
                 </div>
             {{ /if }}
         </header>
 
         {{ if block:image }}
-            <div class="lg:col-span-6 lg:col-start-7 relative rounded-xl overflow-hidden aspect-[4/3] lg:aspect-auto lg:min-h-[480px] bg-parchment-200 ring-1 ring-inset ring-black/5">
+            <div class="lg:col-span-6 lg:col-start-7 relative rounded-xl overflow-hidden aspect-[4/3] lg:aspect-auto lg:min-h-[480px] bg-parchment-200 ring-1 ring-inset ring-black/5" data-reveal-item>
                 {{ picture
                     :image="block:image"
                     class="absolute inset-0 w-full h-full object-cover"

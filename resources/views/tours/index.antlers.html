@@ -22,6 +22,9 @@
         <div id="livewire-collection" class="span-content stack-16">
             {{ partial:components/tour-filters }}
 
+            {{# The Livewire collection partial handles its own per-card
+                animation using the package's `filter-updated`/`sort-updated`/
+                `entries-updated` events — see the vendor view override. #}}
             {{ livewire-collection :from="tour_collections" paginate="50" scrollTo="#livewire-collection" }}
         </div>
     </section>
