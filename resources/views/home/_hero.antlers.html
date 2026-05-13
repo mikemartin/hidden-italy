@@ -14,6 +14,7 @@
 <!-- /home/_hero.antlers.html -->
 <section
     class="stack-space-collapse span-full relative isolate bg-foreground text-white overflow-hidden h-[525px] md:h-svh md:min-h-[760px] md:max-h-[820px]"
+    x-reveal
     x-data="{
         current: 0,
         progress: 0,
@@ -78,10 +79,12 @@
     {{# Foreground content — headline + CTA, centred. #}}
     <div class="relative z-10 h-full fluid-grid pointer-events-none">
         <div class="span-content flex flex-col items-center justify-center text-center gap-6 md:gap-10 h-full">
-            {{ partial:typography/h1_big_display :content="headline" class="!text-white max-w-3xl" }}
+            <div data-reveal-item>
+                {{ partial:typography/h1_big_display :content="headline" class="!text-white max-w-3xl" }}
+            </div>
 
             {{ if buttons }}
-                <div class="flex flex-wrap gap-4 justify-center pointer-events-auto">
+                <div data-reveal-item class="flex flex-wrap gap-4 justify-center pointer-events-auto">
                     {{ buttons }}
                         {{ partial:components/button class="button--outline button--gold button--large" }}
                     {{ /buttons }}
@@ -93,7 +96,7 @@
     {{# Bottom row — desktop: location (left) + prev/next arrows (right).
         Mobile: location stacked centred above dot indicators, arrows hidden. #}}
     {{ if tour_photos | count > 0 }}
-        <div class="absolute inset-x-0 bottom-10 md:bottom-12 z-10 fluid-grid">
+        <div data-reveal-item class="absolute inset-x-0 bottom-10 md:bottom-12 z-10 fluid-grid">
             <div class="span-content flex flex-col items-center gap-5 md:flex-row md:items-center md:justify-between md:gap-6">
                 {{# Location text — render every tour's region, only the current is visible.
                     The ring next to it shows progress toward the next auto-advance and is

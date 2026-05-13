@@ -8,6 +8,7 @@ import tourMap from './components/tour-map.js';
 import tourSubnav from './components/tour-subnav.js';
 import precognition from 'laravel-precognition-alpine';
 import officeMap from './components/office-map.js';
+import registerReveal from './components/reveal.js';
 
 window.Splide = Splide;
 window.simpleLikes = simpleLikes;
@@ -94,6 +95,8 @@ document.addEventListener('alpine:init', () => {
             setTimeout(() => instance.destroy(), 150);
         }, 2000);
     });
+
+    registerReveal(window.Alpine);
 });
 
 document.addEventListener('alpine:initialized', () => {

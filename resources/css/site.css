@@ -423,3 +423,23 @@ dialog.profile-bio-modal > div.absolute[class*="end-0"] {
 [data-flux-modal] > dialog::backdrop {
     background-color: rgba(0, 0, 0, 0.4);
 }
+
+/* Reveal entrance animation — initial state for elements inside an
+   `x-reveal` root. The directive (`resources/js/components/reveal.js`)
+   animates opacity + translateY via Motion, both composited on the GPU.
+   `will-change` is set up-front and stripped by JS once the animation
+   finishes to free the layer. Reduced-motion users skip the animation;
+   no-JS users see content immediately. */
+[data-reveal-item] {
+    opacity: 0;
+    transform: translateY(16px);
+    will-change: transform, opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    [data-reveal-item] {
+        opacity: 1;
+        transform: none;
+        will-change: auto;
+    }
+}
