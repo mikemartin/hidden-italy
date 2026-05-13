@@ -1,6 +1,11 @@
 {{#
     @name Page builder sections
-    @desc Reference page documenting every set in the Statamic page builder, plus the tour-specific sections defined inline in the guided/self-guided blueprints. Includes a consolidation audit at the bottom.
+    @desc Reference page documenting every set in the page builder. Two jobs:
+          (1) organise / consolidate similar sets, (2) stage the set-picker
+          screenshots so editors can see at a glance what each block looks like.
+          The screenshot status pill on each card tracks whether the YAML's
+          `image:` reference resolves to a file in public/page_builder/ or
+          public/assets/set-previews/.
 #}}
 
 <!-- /page-builder-sections.antlers.html -->
@@ -15,7 +20,7 @@
                     class="mb-4 md:text-7xl tracking-[-0.03em]"
                 }}
                 {{ partial:typography/p
-                    content="Every set available in the page builder, plus the tour-specific sections defined inline on the guided / self-guided tour blueprints. The audit at the bottom flags candidates for consolidation."
+                    content="Every set available in the page builder, plus the tour-specific sections defined inline on the guided / self-guided tour blueprints. Use this page to organise the picker, spot consolidation candidates, and stage set-picker screenshots."
                     class="!mb-0"
                 }}
             </div>
@@ -23,19 +28,19 @@
             {{# Summary tiles #}}
             <section class="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div class="bg-parchment-100 border border-neutral/10 rounded-lg p-6">
-                    <div class="text-3xl font-semibold text-foreground">16</div>
+                    <div class="text-3xl font-semibold text-foreground">17</div>
                     <div class="text-sm text-foreground/70 mt-1">Main page builder sets</div>
                 </div>
                 <div class="bg-parchment-100 border border-neutral/10 rounded-lg p-6">
                     <div class="text-3xl font-semibold text-foreground">8</div>
-                    <div class="text-sm text-foreground/70 mt-1">Tour-specific sections</div>
+                    <div class="text-sm text-foreground/70 mt-1">Tour-only inline sets</div>
                 </div>
                 <div class="bg-parchment-100 border border-neutral/10 rounded-lg p-6">
-                    <div class="text-3xl font-semibold text-foreground">24</div>
-                    <div class="text-sm text-foreground/70 mt-1">Total sections</div>
+                    <div class="text-3xl font-semibold text-foreground">11<span class="text-base text-foreground/50"> / 25</span></div>
+                    <div class="text-sm text-foreground/70 mt-1">Sets with a CP screenshot</div>
                 </div>
                 <div class="bg-parchment-100 border border-neutral/10 rounded-lg p-6">
-                    <div class="text-3xl font-semibold text-primary">6</div>
+                    <div class="text-3xl font-semibold text-primary">9</div>
                     <div class="text-sm text-foreground/70 mt-1">Consolidation candidates</div>
                 </div>
             </section>
@@ -46,11 +51,18 @@
                 <div class="bg-parchment-100 border border-neutral/10 rounded-lg p-6 md:p-8 stack-4">
                     <p class="text-sm leading-[1.6] text-foreground/80">
                         The main page builder is a single replicator field defined in <code class="font-mono text-xs">resources/fieldsets/page_builder.yaml</code>. It is imported into the
-                        <code class="font-mono text-xs">page</code>, <code class="font-mono text-xs">home</code> and <code class="font-mono text-xs">product</code> blueprints.
-                        Sets are organised into three groups: <strong>Image and text</strong>, <strong>Interactive</strong> and <strong>Marketing sections</strong>. Each set imports its own fieldset and renders through a partial in <code class="font-mono text-xs">resources/views/page_builder/</code>.
+                        <code class="font-mono text-xs">page</code>, <code class="font-mono text-xs">home</code>, <code class="font-mono text-xs">tour_type</code> and
+                        <code class="font-mono text-xs">product</code> blueprints. Sets are organised into three groups: <strong>Image and text</strong>, <strong>Interactive</strong>
+                        and <strong>Marketing sections</strong>. Each set imports its own fieldset and renders through a partial in
+                        <code class="font-mono text-xs">resources/views/page_builder/</code>.
                     </p>
                     <p class="text-sm leading-[1.6] text-foreground/80">
-                        Tour-specific sections live <em>inside</em> the <code class="font-mono text-xs">guided/tour.yaml</code> and <code class="font-mono text-xs">self-guided/tour.yaml</code> blueprints as inline replicator sets. They have view partials but no separate fieldsets, which is why their fields can drift between blueprint files.
+                        Tour-specific sections live <em>inside</em> the <code class="font-mono text-xs">guided/tour.yaml</code> and <code class="font-mono text-xs">self-guided/tour.yaml</code> blueprints as inline replicator sets. They have view partials but no shared fieldsets, which is why their fields can drift between blueprint files.
+                    </p>
+                    <p class="text-sm leading-[1.6] text-foreground/80">
+                        Set-picker screenshots are referenced from each set's <code class="font-mono text-xs">image:</code> key. Files for main-builder sets live in
+                        <code class="font-mono text-xs">public/page_builder/</code>; tour-only set previews live in <code class="font-mono text-xs">public/assets/set-previews/</code>.
+                        Status pills on each card below show whether the referenced image exists, is missing, or points at a stale filename.
                     </p>
                 </div>
             </section>
@@ -61,7 +73,7 @@
             <section class="stack-8">
                 {{ partial:typography/h2 content="Main page builder" }}
                 <p class="text-sm leading-[1.6] text-foreground/70">
-                    Imported into <code class="font-mono text-xs">page</code>, <code class="font-mono text-xs">home</code> and <code class="font-mono text-xs">product</code> blueprints.
+                    Imported into <code class="font-mono text-xs">page</code>, <code class="font-mono text-xs">home</code>, <code class="font-mono text-xs">tour_type</code> and <code class="font-mono text-xs">product</code> blueprints.
                 </p>
 
                 {{# --- Group: Image and text --- #}}
@@ -76,9 +88,11 @@
                         display="Article"
                         fieldset="resources/fieldsets/article.yaml"
                         view="resources/views/page_builder/_article.antlers.html"
-                        fields="article: bard (required) — rich text with H2/H3, lists, quotes, source view, reading time and embedded sets (buttons, pull_quotes, tables, images, videos, books)"
+                        image="public/page_builder/article.jpeg"
+                        image_status="present"
+                        fields="article: bard (required) — H2/H3/H4, lists, quotes, source view, reading time, embedded sets (buttons, pull_quotes, tables, images, videos, books)"
                         renders="Long-form prose wrapper. The Bard editor is the only field; embedded sets each have their own partial. Used for letter-style story panels, blog-style copy and any free-form content."
-                        used_on="page, product, home"
+                        used_on="page, home, tour_type, product"
                     }}
 
                     {{ partial:page-builder-doc/section
@@ -86,9 +100,10 @@
                         display="Content with image"
                         fieldset="resources/fieldsets/content_with_image.yaml"
                         view="resources/views/page_builder/_content_with_image.antlers.html"
+                        image_status="missing"
                         fields="heading: text (required) · body: bard (required) · image: assets, max 1 (required) · image_position: button_group (left|right, default right)"
-                        renders="Two-column layout on parchment card surface. Heading + body copy beside a single supporting photo. Mobile stacks image above text. Used for letter / story panels."
-                        used_on="page, product, home"
+                        renders="Two-column layout on parchment card surface. Heading + body copy beside a single supporting photo. Mobile stacks image above text."
+                        used_on="page, home, tour_type, product"
                         flag="Near-identical fields to image_and_text — see audit below."
                     }}
 
@@ -97,9 +112,10 @@
                         display="Testimonial — image overlap"
                         fieldset="resources/fieldsets/testimonial_overlap.yaml"
                         view="resources/views/page_builder/_testimonial_overlap.antlers.html"
+                        image_status="missing"
                         fields="image: assets, max 1 (required) · quote: textarea (required) · name: text (required) · role: text"
                         renders="Single quote on a parchment card overlapping a portrait image, on a deep-blue background. Gold stylised opening quote mark. Used for founder / director quotes."
-                        used_on="page, product, home"
+                        used_on="page, home, tour_type, product"
                     }}
 
                     {{ partial:page-builder-doc/section
@@ -107,9 +123,10 @@
                         display="Image and text"
                         fieldset="resources/fieldsets/image_and_text.yaml"
                         view="resources/views/page_builder/_image_and_text.antlers.html"
+                        image_status="missing"
                         fields="heading: text (required) · body: bard · image: assets, max 1 (required) · image_position: button_group (left|right, default left)"
                         renders="Heading and body copy beside a 4:3 image, configurable position so rows can alternate. Rounded corners with subtle ring. Mobile stacks image above text."
-                        used_on="page, product, home"
+                        used_on="page, home, tour_type, product"
                         flag="Near-identical fields to content_with_image — see audit below."
                     }}
                 </div>
@@ -118,7 +135,7 @@
                 <div class="stack-6">
                     <div class="flex items-center gap-3">
                         <span class="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium uppercase tracking-wide">Interactive</span>
-                        <span class="text-xs text-foreground/60">2 sets</span>
+                        <span class="text-xs text-foreground/60">3 sets</span>
                     </div>
 
                     {{ partial:page-builder-doc/section
@@ -126,9 +143,23 @@
                         display="Form"
                         fieldset="resources/fieldsets/form.yaml"
                         view="resources/views/page_builder/_form.antlers.html"
+                        image="public/page_builder/form.jpeg"
+                        image_status="present"
                         fields="heading: text · text: text_plain · form: form picker, max 1 (required)"
                         renders="Statamic form renderer with Precognition live validation, honeypot, error notifications and grid field layouts."
-                        used_on="page, product, home"
+                        used_on="page, home, tour_type, product"
+                    }}
+
+                    {{ partial:page-builder-doc/section
+                        handle="contact"
+                        display="Contact details + form"
+                        fieldset="resources/fieldsets/contact.yaml"
+                        view="resources/views/page_builder/_contact.antlers.html"
+                        image_status="missing"
+                        fields="form: form picker, max 1 (required) — contact details come from the `contact` global, not the set"
+                        renders="Two-column block: phone, email, office address with a MapLibre office-pin map on the left, Statamic form (live validation, honeypot) on the right. Mobile reorders form above details."
+                        used_on="page, home, tour_type, product"
+                        flag="Overlaps with form — the only block-level field is the form picker; everything else comes from the contact global. See audit."
                     }}
 
                     {{ partial:page-builder-doc/section
@@ -136,9 +167,11 @@
                         display="Cards"
                         fieldset="resources/fieldsets/cards.yaml"
                         view="resources/views/page_builder/_cards.antlers.html"
+                        image="public/page_builder/cards.jpeg"
+                        image_status="present"
                         fields="heading: text · cards: replicator of {heading: text (required), text: text_plain, button: buttons, max 1}"
                         renders="Optional centred heading above a 1/2/3-column grid of linkable cards. Border, shadow and hover effects."
-                        used_on="page, product, home"
+                        used_on="page, home, tour_type, product"
                     }}
                 </div>
 
@@ -154,10 +187,11 @@
                         display="Tour banner"
                         fieldset="resources/fieldsets/tour_banner.yaml"
                         view="resources/views/page_builder/_tour_banner.antlers.html"
+                        image_status="missing"
                         fields="region: text (required) · heading: text (required) · location: text (required) · image: assets, max 1 (required) · buttons: buttons, max 1 (required)"
                         renders="Full-bleed 700px banner with region label, all-caps headline, map-pin location row and a single CTA. Image is darkened with gradient anchors top/bottom."
-                        used_on="page, product, home"
-                        flag="Overlaps with cta_banner — both are full-bleed image + heading + CTA. See audit."
+                        used_on="In practice: tour-led pages only (despite living in the main page builder)"
+                        flag="Overlaps with cta_banner; only ever used on tour-related pages. See audit."
                     }}
 
                     {{ partial:page-builder-doc/section
@@ -165,9 +199,10 @@
                         display="Intro with benefits"
                         fieldset="resources/fieldsets/intro.yaml"
                         view="resources/views/page_builder/_intro.antlers.html"
+                        image_status="missing"
                         fields="eyebrow: text · heading: text (required) · intro: bard · columns: button_group (3|4) · benefits: entries from benefits collection, max 8 (required) · buttons: buttons, max 2"
                         renders="Centred heading with optional eyebrow and intro on parchment surface, above a 3- or 4-column grid of Benefit entry cards (icon tile + title + description). Optional CTA buttons."
-                        used_on="page, product, home"
+                        used_on="page, home, tour_type, product"
                     }}
 
                     {{ partial:page-builder-doc/section
@@ -175,9 +210,10 @@
                         display="Stats"
                         fieldset="resources/fieldsets/stats.yaml"
                         view="resources/views/page_builder/_stats.antlers.html"
+                        image_status="missing"
                         fields="heading: text · top_border: toggle · stats: replicator of {value: text (required), label: text (required), icon: icon lucide (required)}, max 6 (required)"
                         renders="Side-title layout: optional left heading, 2-column grid of stat tiles on the right. Each stat is icon circle + large number + label. Optional top divider rule."
-                        used_on="page, product, home"
+                        used_on="page, home, tour_type, product"
                     }}
 
                     {{ partial:page-builder-doc/section
@@ -185,9 +221,10 @@
                         display="People grid"
                         fieldset="resources/fieldsets/people_grid.yaml"
                         view="resources/views/page_builder/_people_grid.antlers.html"
+                        image_status="missing"
                         fields="heading: text · intro: text · people: entries from people collection, max 24 (required)"
                         renders="Centred heading + intro above a 4-column grid of profile cards (2 cols on tablet/mobile). Cards open a flyout bio."
-                        used_on="page, product, home"
+                        used_on="page, home, tour_type, product"
                     }}
 
                     {{ partial:page-builder-doc/section
@@ -195,9 +232,11 @@
                         display="Tour types"
                         fieldset="resources/fieldsets/tour_types.yaml"
                         view="resources/views/page_builder/_tour_types.antlers.html"
+                        image_status="missing"
                         fields="heading: text · tour_types: entries from pages collection, max 2 · buttons: buttons, max 1 (trailing)"
                         renders="Optional heading above two large image cards (dark background on lg+, white on mobile). Cards pull title, URL and card_image from the linked page entries. Topographic decoration."
-                        used_on="page, product, home"
+                        used_on="Home / landing pages only — never on tour pages, despite the name"
+                        flag="Name implies tours but it's a generic two-pillar-link grid. Candidate for renaming. See audit."
                     }}
 
                     {{ partial:page-builder-doc/section
@@ -205,10 +244,11 @@
                         display="Featured tours"
                         fieldset="resources/fieldsets/featured_tours.yaml"
                         view="resources/views/page_builder/_featured_tours.antlers.html"
+                        image_status="missing"
                         fields="heading: text · link_text: text · link_entry: entries from pages, max 1 · tours: entries from guided + self-guided collections, max 6 (required)"
-                        renders="Splide carousel: heading on left, prev/next + view-all link on right (md+, when more than 3 slides). 1 card mobile, 3 desktop. Tour cards with parchment surface, image, location/type chip, summary, stats row, progress bar."
-                        used_on="page, product, home"
-                        flag="Same shape as travel_tips — only the source collections differ. See audit."
+                        renders="Splide carousel: heading on left, optional prev/next + view-all link on right (md+, when more than 3 slides). 1 card mobile, 3 desktop. Tour cards with parchment surface, image, location/type chip, summary, stats row."
+                        used_on="In practice: home + tour-landing pages only (entries field is locked to guided + self-guided collections)"
+                        flag="Same shape as travel_tips — only the source collections differ. Tour-content locked. See audit."
                     }}
 
                     {{ partial:page-builder-doc/section
@@ -216,9 +256,10 @@
                         display="Testimonials"
                         fieldset="resources/fieldsets/testimonials.yaml"
                         view="resources/views/page_builder/_testimonials.antlers.html"
+                        image_status="missing"
                         fields="heading: text · testimonials: entries from testimonials collection, max 6 (required)"
                         renders="Optional heading above testimonial cards. Desktop: 3-column grid. Mobile: Splide carousel, 1 per slide, auto-play with dot pagination."
-                        used_on="page, product, home"
+                        used_on="page, home, tour_type, product"
                         flag="Tour blueprints redefine this inline rather than importing the fieldset. See audit."
                     }}
 
@@ -227,9 +268,10 @@
                         display="Travel tips"
                         fieldset="resources/fieldsets/travel_tips.yaml"
                         view="resources/views/page_builder/_travel_tips.antlers.html"
-                        fields="heading: text · link_text: text · link_entry: entries from pages, max 1 · articles: entries from tips + inspiration collections, max 6 (required)"
-                        renders="Splide carousel: heading on left, prev/next + view-all link on right (md+, when more than 3 slides). 1 card mobile, 3 desktop. Article cards from Tips or Inspiration. Progress bar."
-                        used_on="page, product, home"
+                        image_status="missing"
+                        fields="heading: text · link_text: text · link_entry: entries from pages, max 1 · articles: entries from tips + inspiration collections, max 6 (optional — falls back to the six most recently updated articles)"
+                        renders="Splide carousel: heading on left, optional prev/next + view-all link on right (md+, when more than 3 slides). 1 card mobile, 3 desktop. Article cards from Tips or Inspiration."
+                        used_on="page, home, tour_type, product"
                         flag="Same shape as featured_tours — only the source collections differ. See audit."
                     }}
 
@@ -238,10 +280,11 @@
                         display="CTA banner"
                         fieldset="resources/fieldsets/cta_banner.yaml"
                         view="resources/views/page_builder/_cta_banner.antlers.html"
+                        image_status="missing"
                         fields="heading: text (required) · image: assets, max 1 (required) · overlay: toggle (default on) · buttons: buttons, max 2 (required)"
                         renders="Full-bleed banner with centred headline over a background image. Image opacity-70 with black/40 wash and dark top/bottom gradients. Optional dark overlay. 1–2 CTA buttons."
-                        used_on="page, product, home"
-                        flag="Overlaps with tour_banner — both are full-bleed image + heading + CTA. See audit."
+                        used_on="page, home, tour_type, product"
+                        flag="Overlaps with tour_banner — see audit. (Note: tour pages skip this and render tours/_cta_banner.antlers.html, a hard-wired global, instead.)"
                     }}
 
                     {{ partial:page-builder-doc/section
@@ -249,9 +292,10 @@
                         display="FAQs"
                         fieldset="resources/fieldsets/faqs.yaml"
                         view="resources/views/page_builder/_faqs.antlers.html"
-                        fields="heading: text · questions: grid of {question: text, answer: bard} · common_questions: entries from questions collection"
+                        image_status="missing"
+                        fields="heading: text · questions: grid of {question: text, answer: bard} · show_common_questions: toggle (default on) — appends shared questions for the page's collection"
                         renders="Side-title layout: heading on left, accordion stack on right. Page-specific questions then optional shared questions from the Questions collection. One card open at a time."
-                        used_on="page, product, home"
+                        used_on="page, home, tour_type, product"
                         flag="Tour blueprints redefine this inline rather than importing the fieldset. See audit."
                     }}
                 </div>
@@ -261,7 +305,7 @@
             {{# TOUR-SPECIFIC SECTIONS                                       #}}
             {{# ============================================================ #}}
             <section class="stack-8">
-                {{ partial:typography/h2 content="Tour-specific sections" }}
+                {{ partial:typography/h2 content="Tour-only inline sets" }}
                 <p class="text-sm leading-[1.6] text-foreground/70">
                     Defined inline in <code class="font-mono text-xs">resources/blueprints/collections/guided/tour.yaml</code> and <code class="font-mono text-xs">resources/blueprints/collections/self-guided/tour.yaml</code>. These sets have view partials but no shared fieldsets, so their field definitions are duplicated across the two blueprints.
                 </p>
@@ -272,6 +316,8 @@
                         display="Highlights"
                         fieldset="(inline in tour blueprints)"
                         view="resources/views/page_builder/_highlights.antlers.html"
+                        image="public/assets/set-previews/highlights.png"
+                        image_status="present"
                         fields="title: text · activities: grid of {title, summary, icon}"
                         renders="Centred heading above a 3-column grid (2 sm, 1 mobile) of activity cards: icon circle + title + summary."
                         used_on="guided, self-guided"
@@ -282,19 +328,24 @@
                         display="Itinerary"
                         fieldset="(inline in tour blueprints)"
                         view="resources/views/page_builder/_itinerary.antlers.html"
+                        image="public/assets/set-previews/itinerary.png"
+                        image_status="present"
                         fields="title: text · summary: bard · days: grid of {title, description, duration_hr, distance_km, elevation_m, photo, meals_included[]}"
                         renders="Splide carousel of day-by-day cards. 1 mobile, 3 desktop. Each card: photo, ‘Day N’ eyebrow, title, optional stats row (hrs/km/elev), description, meals row."
                         used_on="guided, self-guided"
                     }}
 
                     {{ partial:page-builder-doc/section
-                        handle="history"
-                        display="History"
+                        handle="overview"
+                        display="Overview"
                         fieldset="(inline in tour blueprints)"
-                        view="resources/views/page_builder/_history.antlers.html"
+                        view="resources/views/page_builder/_overview.antlers.html"
+                        image="public/assets/set-previews/history.png"
+                        image_status="stale"
                         fields="title: text · column_left: bard · column_right: bard · images: assets, max 3"
                         renders="Dark-blue panel: gold eyebrow + headline, two columns of body copy, optional 3-up photo strip below. Topographic decoration."
                         used_on="guided, self-guided"
+                        flag="Renamed from `history` but the `image:` reference in the blueprint still points at history.png — rename the file (or add an overview.png) so the set picker keeps working past a future cleanup."
                     }}
 
                     {{ partial:page-builder-doc/section
@@ -302,6 +353,8 @@
                         display="Experience"
                         fieldset="(inline in tour blueprints)"
                         view="resources/views/page_builder/_experience.antlers.html"
+                        image="public/assets/set-previews/experience.png"
+                        image_status="present"
                         fields="title: text · tabs: replicator of named sets {walk: distance_km, elevation_m, grade range, description, image · accommodation: title, description, images max 4 · food: title, description, images max 4}"
                         renders="Tabbed section with Walk / Accommodation / Food panels. Walk shows stats + description + image; Accommodation and Food show description + up to 4 images."
                         used_on="guided, self-guided"
@@ -312,6 +365,8 @@
                         display="Tour Leader"
                         fieldset="(inline in tour blueprints)"
                         view="resources/views/page_builder/_leader.antlers.html"
+                        image="public/assets/set-previews/leader.png"
+                        image_status="present"
                         fields="title: text (default ‘Tour Leader’) · person: entry from people collection"
                         renders="Side label on the left and parchment card on the right with the linked person's portrait, name, subtitle and short bio. Parchment-100 background section."
                         used_on="guided, self-guided"
@@ -322,6 +377,8 @@
                         display="Essentials"
                         fieldset="(inline in tour blueprints)"
                         view="resources/views/page_builder/_essentials.antlers.html"
+                        image="public/assets/set-previews/essentials.png"
+                        image_status="present"
                         fields="title: text (default ‘What you should know’) · sections: replicator with named sets {equipment, travel_insurance, booking_cancellation, general — each with body: bard, optional link_text + link_url}"
                         renders="Eyebrow + heading above labelled rows. Each row: left icon + heading, right body + optional link. Rows divided by horizontal rules."
                         used_on="guided, self-guided"
@@ -332,10 +389,12 @@
                         display="Testimonials (tour)"
                         fieldset="(inline in tour blueprints — duplicates the testimonials fieldset)"
                         view="resources/views/page_builder/_testimonials.antlers.html"
-                        fields="title: text (default ‘What our travellers are saying’) · testimonials: entries from testimonials, max 3"
+                        image="public/assets/set-previews/testimonials.png"
+                        image_status="present"
+                        fields="heading: text (default ‘What our travellers are saying’) · testimonials: entries from testimonials, max 3"
                         renders="Renders through the same shared partial as the main page builder testimonials block."
                         used_on="guided, self-guided"
-                        flag="Duplicates the main testimonials fieldset inline. See audit."
+                        flag="Duplicates the main testimonials fieldset inline. Could be replaced with `import: testimonials`."
                     }}
 
                     {{ partial:page-builder-doc/section
@@ -343,10 +402,12 @@
                         display="FAQs (tour)"
                         fieldset="(inline in tour blueprints — duplicates the faqs fieldset)"
                         view="resources/views/page_builder/_faqs.antlers.html"
-                        fields="heading: text (default ‘Frequently Asked Questions’) · tour_questions: grid of {question, answer} · common_questions: entries from questions collection"
-                        renders="Renders through the same shared partial as the main page builder FAQs block, just with the grid handle renamed (tour_questions vs questions)."
+                        image="public/assets/set-previews/faq.png"
+                        image_status="present"
+                        fields="heading: text (default ‘Frequently Asked Questions’) · questions: grid of {question, answer} · show_common_questions: toggle (default on)"
+                        renders="Renders through the same shared partial as the main page builder FAQs block."
                         used_on="guided, self-guided"
-                        flag="Duplicates the main faqs fieldset inline; the only field-handle change is questions → tour_questions. See audit."
+                        flag="Duplicates the main faqs fieldset inline (the field shape now matches exactly — `show_common_questions` toggle and `questions` handle were aligned during the main-fieldset refactor). Could be replaced with `import: faqs`."
                     }}
                 </div>
             </section>
@@ -357,73 +418,146 @@
             <section class="stack-8">
                 {{ partial:typography/h2 content="Consolidation audit" }}
                 <p class="text-sm leading-[1.6] text-foreground/70">
-                    Six clusters of duplication that could be tightened up. Items are ranked by confidence — top of the list is the safest win.
+                    Nine items ranked by confidence — top of the list is the safest win.
                 </p>
 
                 {{ partial:page-builder-doc/audit
                     rank="1"
                     priority="High"
-                    title="Merge content_with_image into image_and_text"
-                    candidates="content_with_image, image_and_text"
-                    reason="Field shape is identical: heading (text, required) · body (bard) · image (assets, max 1, required) · image_position (button_group left|right). The only meaningful differences are (a) the default image position and (b) the default visual treatment — content_with_image is a parchment card surface, image_and_text is plain with a subtle ring."
-                    proposal="Keep one set called image_and_text. Add a variant button_group field (e.g. style: ‘card’ vs ‘plain’) so editors can pick the surface. Defaulting to ‘plain’ keeps the existing image_and_text behaviour; setting ‘card’ reproduces content_with_image. Delete the content_with_image fieldset, partial and set entry."
-                    impact="Removes 1 fieldset, 1 partial and 1 set. Editors get one block with explicit style options instead of two blocks named almost the same thing."
+                    title="Lift tour testimonials and FAQs onto the shared fieldsets"
+                    candidates="testimonials (tour), faqs (tour)"
+                    reason="Both tour blueprints inline-redefine fields that already exist in resources/fieldsets/testimonials.yaml and resources/fieldsets/faqs.yaml. The view partials are already shared. After the recent main-fieldset refactor, the FAQs fieldset handles (`questions`) and the new `show_common_questions` toggle now match the tour inline copies exactly — the inline copies are pure duplication."
+                    proposal="In guided/tour.yaml and self-guided/tour.yaml replace the inline set bodies with `fields: [{import: testimonials}]` and `fields: [{import: faqs}]`."
+                    impact="Removes ~120 lines of duplicated YAML across the two tour blueprints. Field changes (e.g. a new default heading) only need to be made once."
                 }}
 
                 {{ partial:page-builder-doc/audit
                     rank="2"
                     priority="High"
-                    title="Lift tour testimonials and FAQs onto the shared fieldsets"
-                    candidates="testimonials (tour), faqs (tour)"
-                    reason="Both tour blueprints inline-redefine fields that already exist in resources/fieldsets/testimonials.yaml and resources/fieldsets/faqs.yaml. The view partials are already shared. faqs (tour) renames questions → tour_questions, which forces the partial to handle two field names."
-                    proposal="In guided/tour.yaml and self-guided/tour.yaml replace the inline set bodies with `fields: [{import: testimonials}]` and `fields: [{import: faqs}]`. Rename tour_questions back to questions in the FAQs partial. The tour blueprint changes are isolated to the page-builder replicator block."
-                    impact="Removes ~120 lines of duplicated YAML across the two tour blueprints and removes a special-case branch in the FAQs partial. Field changes (e.g. adding a new heading default) only need to be made once."
+                    title="Merge content_with_image into image_and_text"
+                    candidates="content_with_image, image_and_text"
+                    reason="Field shape is identical: heading (text, required) · body (bard) · image (assets, max 1, required) · image_position (button_group left|right). The only meaningful differences are the default image position and the visual treatment — content_with_image is a parchment card surface, image_and_text is plain with a subtle ring."
+                    proposal="Keep one set called image_and_text. Add a variant button_group (e.g. style: ‘card’ vs ‘plain’) so editors can pick the surface. Defaulting to ‘plain’ keeps existing image_and_text behaviour; setting ‘card’ reproduces content_with_image. Delete the content_with_image fieldset, partial and set entry."
+                    impact="Removes 1 fieldset, 1 partial and 1 set. Editors get one block with explicit style options instead of two blocks named almost the same thing."
                 }}
 
                 {{ partial:page-builder-doc/audit
                     rank="3"
                     priority="Medium"
-                    title="Generalise featured_tours and travel_tips into one ‘entry carousel’ set"
-                    candidates="featured_tours, travel_tips"
-                    reason="Both have the same shape: heading + link_text + link_entry + entries (max 6). Both render the same Splide carousel layout. They differ only in which collections feed the entries field and which card partial each tour/article uses."
-                    proposal="Two viable paths. (a) Keep two sets but extract a shared partial that takes the entries collection as an arg — minimal-risk, removes the duplicated layout markup. (b) Replace both with one ‘Entry carousel’ set whose entries field allows guided + self-guided + tips + inspiration; the partial picks the card style based on the entry's collection. Option (a) is recommended unless the editorial team wants the freedom to mix tour and article cards in the same block."
-                    impact="Option (a) cuts the carousel template duplication in half with low risk. Option (b) collapses to a single fieldset and gives editors more flexibility but requires a card-picker in the partial."
+                    title="Fix the stale overview set image"
+                    candidates="overview"
+                    reason="The set was renamed from `history` to `overview` in the tour blueprints and the view partial, but the `image:` field still references history.png. Editors will see ‘history’ as the picker filename — minor today, but the breadcrumb will be lost the next time someone cleans up unused assets."
+                    proposal="Rename public/assets/set-previews/history.png → overview.png and update the `image:` reference in both tour blueprints. Or take a fresh screenshot of the renamed section first."
+                    impact="One file rename + two YAML edits. Removes the only ‘stale’ status on this page."
                 }}
 
                 {{ partial:page-builder-doc/audit
                     rank="4"
                     priority="Medium"
-                    title="Unify tour_banner and cta_banner"
-                    candidates="tour_banner, cta_banner"
-                    reason="Both are full-bleed image banners with a centred heading and a CTA. tour_banner adds a region label, a map-pin location row and forces exactly 1 button. cta_banner adds an overlay toggle and allows up to 2 buttons. The visual treatments are very close (opacity-70 image, dark gradient anchors)."
-                    proposal="Make a single ‘Banner’ set with optional region and location fields, an overlay toggle and 1–2 buttons. Editors use the optional fields to opt into the tour-banner variant. If the tour-specific styling diverges further in the future, split again — but right now they're cosmetic variants of the same component."
-                    impact="Removes 1 fieldset and 1 partial. Editors stop having to choose between two blocks with the same purpose."
+                    title="Decide whether contact and form should be one set"
+                    candidates="form, contact"
+                    reason="`contact` has only one block-level field — the form picker. Everything else (phone, email, address, map) comes from the `contact` global, so an editor placing the block isn't making any contact-specific choices. The visible difference is purely the partial's layout (form on its own vs form + sidebar)."
+                    proposal="Two options. (a) Keep both, and rename `contact` to make the layout choice explicit (e.g. `form_with_contact_panel`). (b) Add a `layout` button_group to the `form` fieldset (‘form only’ vs ‘with contact panel’) and let the partial branch. Option (b) collapses to one set."
+                    impact="Option (b) removes 1 fieldset and 1 partial; option (a) costs nothing but gives editors a clearer name."
                 }}
 
                 {{ partial:page-builder-doc/audit
                     rank="5"
-                    priority="Low"
-                    title="Promote tour-specific sections to fieldsets"
-                    candidates="highlights, itinerary, history, experience, leader, essentials"
-                    reason="None of these have fieldsets — their fields are defined inline in both guided/tour.yaml and self-guided/tour.yaml. Any field change has to be made in two places, and it's already common to see drift between guided and self-guided versions of the same set."
-                    proposal="Create resources/fieldsets/highlights.yaml, itinerary.yaml, history.yaml, experience.yaml, leader.yaml, essentials.yaml. Both tour blueprints then `import:` the fieldset for each set. No view changes needed."
-                    impact="Removes the guided/self-guided drift surface. Cuts roughly 500 lines of YAML from each tour blueprint. No editor-facing change."
+                    priority="Medium"
+                    title="Generalise featured_tours and travel_tips into one ‘entry carousel’ set"
+                    candidates="featured_tours, travel_tips"
+                    reason="Both have the same shape (heading + link_text + link_entry + entries, max 6) and render the same Splide carousel layout. They differ only in which collections feed the entries field and which card partial each tour/article uses."
+                    proposal="Two viable paths. (a) Keep two sets but extract a shared partial that takes the entries collection as an arg — low risk, removes the duplicated layout. (b) Replace both with one ‘Entry carousel’ set whose entries field allows guided + self-guided + tips + inspiration; the partial picks the card style based on each entry's collection. (a) is recommended unless editors want to mix tour and article cards in the same block."
+                    impact="Option (a) cuts the carousel template duplication in half with low risk. Option (b) collapses to a single fieldset and lets editors mix sources, at the cost of a card-picker in the partial."
                 }}
 
                 {{ partial:page-builder-doc/audit
                     rank="6"
-                    priority="Low"
-                    title="Extract a shared ‘entries section’ fieldset partial"
-                    candidates="featured_tours, travel_tips, people_grid, intro (benefits), tour_types, testimonials"
-                    reason="Six sets follow the same pattern: an optional heading, sometimes a link, then an entries field that picks from one or more collections. The repetition is in the fieldset YAML itself."
-                    proposal="Add a fieldset (e.g. resources/fieldsets/_entries_header.yaml) that exports heading + link_text + link_entry. Each section imports it instead of redeclaring those fields. This is a minor cleanup and only worth doing if the consolidations above are also done — otherwise it adds indirection without removing complexity."
-                    impact="Cosmetic. Skip until the bigger consolidations land."
+                    priority="Medium"
+                    title="Unify tour_banner and cta_banner"
+                    candidates="tour_banner, cta_banner"
+                    reason="Both are full-bleed image banners with a centred heading and CTA. tour_banner adds a region label, a map-pin location row and forces exactly 1 button. cta_banner adds an overlay toggle and allows up to 2 buttons. Visual treatment is otherwise the same."
+                    proposal="One ‘Banner’ set with optional region + location fields, an overlay toggle and 1–2 buttons. Editors opt into the tour variant via the optional fields."
+                    impact="Removes 1 fieldset and 1 partial. Editors stop choosing between two blocks with the same purpose."
                 }}
+
+                {{ partial:page-builder-doc/audit
+                    rank="7"
+                    priority="Low"
+                    title="Rename tour_types — it isn't tour-specific"
+                    candidates="tour_types"
+                    reason="The set is used on home / landing pages to point at two pillar pages (typically Guided + Self-guided). It is never used on individual tour pages and accepts any two `pages` entries — the name implies a tour-pages-only block but it's a generic two-card link grid."
+                    proposal="Rename to something descriptive: `pillar_links`, `two_card_links` or `category_cards`. The fieldset and partial paths follow the rename."
+                    impact="Editor-facing clarity. No structural change."
+                }}
+
+                {{ partial:page-builder-doc/audit
+                    rank="8"
+                    priority="Low"
+                    title="Promote tour-specific sections to fieldsets"
+                    candidates="highlights, itinerary, overview, experience, leader, essentials"
+                    reason="None of these have fieldsets — fields are defined inline in both guided/tour.yaml and self-guided/tour.yaml. Any field change has to be made in two places, and there's already a precedent of drift between the two."
+                    proposal="Create resources/fieldsets/highlights.yaml, itinerary.yaml, overview.yaml, experience.yaml, leader.yaml, essentials.yaml. Both tour blueprints then `import:` the fieldset for each set. No view changes needed."
+                    impact="Removes the guided / self-guided drift surface. Cuts roughly 500 lines of YAML per tour blueprint. No editor-facing change."
+                }}
+
+                {{ partial:page-builder-doc/audit
+                    rank="9"
+                    priority="Low"
+                    title="Backfill the missing CP set-picker screenshots"
+                    candidates="content_with_image, testimonial_overlap, image_and_text, contact, tour_banner, intro, stats, people_grid, tour_types, featured_tours, testimonials, travel_tips, cta_banner, faqs"
+                    reason="14 of the 17 main-builder sets have no `image:` reference, so the set picker shows the icon-only fallback. The 8 tour-only sets all have images. The asymmetry makes the main picker harder to scan."
+                    proposal="Capture a screenshot of each set rendered on a real page, drop it in public/page_builder/&lt;handle&gt;.jpeg, then add `image: &lt;handle&gt;.jpeg` to the set entry in page_builder.yaml. Sequence by frequency of use so the most common blocks get screenshots first."
+                    impact="Picker becomes scannable. Status pills on this page double as a worklist — once they all read ‘Screenshot present’, the job is done."
+                }}
+            </section>
+
+            {{# Outside the page builder #}}
+            <section class="stack-6">
+                {{ partial:typography/h2 content="Out of scope: fixed-position panels" }}
+                <p class="text-sm leading-[1.6] text-foreground/70">
+                    A few page panels are easy to mistake for page-builder sets but are actually fixed sections on specific blueprints — not part of the picker.
+                </p>
+                <div class="overflow-x-auto bg-parchment-100 border border-neutral/10 rounded-lg">
+                    <table class="w-full text-sm">
+                        <thead class="bg-parchment-200">
+                            <tr class="text-left">
+                                <th class="px-4 py-3 font-medium">Panel</th>
+                                <th class="px-4 py-3 font-medium">Lives on</th>
+                                <th class="px-4 py-3 font-medium">Defined in</th>
+                                <th class="px-4 py-3 font-medium">Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-neutral/10">
+                            <tr>
+                                <td class="px-4 py-2">Walking benefits</td>
+                                <td class="px-4 py-2">tour_type pages, tours</td>
+                                <td class="px-4 py-2 font-mono text-xs">walking_benefits.yaml</td>
+                                <td class="px-4 py-2 text-foreground/70">Brand reassurance panel at the foot of tour-type pages; individual tour pages pull from the parent tour_type listing.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-2">Foot questions</td>
+                                <td class="px-4 py-2">tour_type pages</td>
+                                <td class="px-4 py-2 text-foreground/60 italic">inline on tour_type blueprint</td>
+                                <td class="px-4 py-2 text-foreground/70">FAQ accordion at the foot of the page. Distinct from the page-builder `faqs` set.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-2">Tour CTA banner</td>
+                                <td class="px-4 py-2">guided / self-guided tour pages</td>
+                                <td class="px-4 py-2 font-mono text-xs">tours/_cta_banner.antlers.html</td>
+                                <td class="px-4 py-2 text-foreground/70">Hard-wired at the foot of every tour page; uses the tour's hero image and the global cta_banner heading. Tour pages skip the page-builder `cta_banner` set.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </section>
 
             {{# Quick reference table #}}
             <section class="stack-6">
-                {{ partial:typography/h2 content="Quick reference" }}
+                {{ partial:typography/h2 content="Quick reference (flat list)" }}
+                <p class="text-sm leading-[1.6] text-foreground/70">
+                    Every set in one ordered list — handy for picker-ordering decisions and screenshot triage.
+                </p>
                 <div class="overflow-x-auto bg-parchment-100 border border-neutral/10 rounded-lg">
                     <table class="w-full text-sm">
                         <thead class="bg-parchment-200">
@@ -431,34 +565,36 @@
                                 <th class="px-4 py-3 font-medium">Handle</th>
                                 <th class="px-4 py-3 font-medium">Group</th>
                                 <th class="px-4 py-3 font-medium">Fieldset</th>
+                                <th class="px-4 py-3 font-medium">Screenshot</th>
                                 <th class="px-4 py-3 font-medium">Notes</th>
                             </tr>
                         </thead>
                         <tbody class="divide-y divide-neutral/10">
-                            <tr><td class="px-4 py-2 font-mono text-xs">article</td><td class="px-4 py-2">Image and text</td><td class="px-4 py-2 font-mono text-xs">article.yaml</td><td class="px-4 py-2 text-foreground/70">Bard with embedded sets</td></tr>
-                            <tr><td class="px-4 py-2 font-mono text-xs">content_with_image</td><td class="px-4 py-2">Image and text</td><td class="px-4 py-2 font-mono text-xs">content_with_image.yaml</td><td class="px-4 py-2 text-primary">Merge with image_and_text</td></tr>
-                            <tr><td class="px-4 py-2 font-mono text-xs">testimonial_overlap</td><td class="px-4 py-2">Image and text</td><td class="px-4 py-2 font-mono text-xs">testimonial_overlap.yaml</td><td class="px-4 py-2 text-foreground/70">Single quote</td></tr>
-                            <tr><td class="px-4 py-2 font-mono text-xs">image_and_text</td><td class="px-4 py-2">Image and text</td><td class="px-4 py-2 font-mono text-xs">image_and_text.yaml</td><td class="px-4 py-2 text-primary">Absorb content_with_image</td></tr>
-                            <tr><td class="px-4 py-2 font-mono text-xs">form</td><td class="px-4 py-2">Interactive</td><td class="px-4 py-2 font-mono text-xs">form.yaml</td><td class="px-4 py-2 text-foreground/70">—</td></tr>
-                            <tr><td class="px-4 py-2 font-mono text-xs">cards</td><td class="px-4 py-2">Interactive</td><td class="px-4 py-2 font-mono text-xs">cards.yaml</td><td class="px-4 py-2 text-foreground/70">—</td></tr>
-                            <tr><td class="px-4 py-2 font-mono text-xs">tour_banner</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">tour_banner.yaml</td><td class="px-4 py-2 text-primary">Merge with cta_banner</td></tr>
-                            <tr><td class="px-4 py-2 font-mono text-xs">intro</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">intro.yaml</td><td class="px-4 py-2 text-foreground/70">Pulls Benefits entries</td></tr>
-                            <tr><td class="px-4 py-2 font-mono text-xs">stats</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">stats.yaml</td><td class="px-4 py-2 text-foreground/70">—</td></tr>
-                            <tr><td class="px-4 py-2 font-mono text-xs">people_grid</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">people_grid.yaml</td><td class="px-4 py-2 text-foreground/70">Pulls People entries</td></tr>
-                            <tr><td class="px-4 py-2 font-mono text-xs">tour_types</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">tour_types.yaml</td><td class="px-4 py-2 text-foreground/70">Two pages picker</td></tr>
-                            <tr><td class="px-4 py-2 font-mono text-xs">featured_tours</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">featured_tours.yaml</td><td class="px-4 py-2 text-primary">Share carousel partial with travel_tips</td></tr>
-                            <tr><td class="px-4 py-2 font-mono text-xs">testimonials</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">testimonials.yaml</td><td class="px-4 py-2 text-primary">Tour blueprints duplicate this inline</td></tr>
-                            <tr><td class="px-4 py-2 font-mono text-xs">travel_tips</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">travel_tips.yaml</td><td class="px-4 py-2 text-primary">Share carousel partial with featured_tours</td></tr>
-                            <tr><td class="px-4 py-2 font-mono text-xs">cta_banner</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">cta_banner.yaml</td><td class="px-4 py-2 text-primary">Merge with tour_banner</td></tr>
-                            <tr><td class="px-4 py-2 font-mono text-xs">faqs</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">faqs.yaml</td><td class="px-4 py-2 text-primary">Tour blueprints duplicate this inline</td></tr>
-                            <tr class="bg-parchment-200/40"><td class="px-4 py-2 font-mono text-xs">highlights</td><td class="px-4 py-2">Tour</td><td class="px-4 py-2 text-foreground/60 italic">inline</td><td class="px-4 py-2 text-foreground/70">Promote to fieldset</td></tr>
-                            <tr class="bg-parchment-200/40"><td class="px-4 py-2 font-mono text-xs">itinerary</td><td class="px-4 py-2">Tour</td><td class="px-4 py-2 text-foreground/60 italic">inline</td><td class="px-4 py-2 text-foreground/70">Promote to fieldset</td></tr>
-                            <tr class="bg-parchment-200/40"><td class="px-4 py-2 font-mono text-xs">history</td><td class="px-4 py-2">Tour</td><td class="px-4 py-2 text-foreground/60 italic">inline</td><td class="px-4 py-2 text-foreground/70">Promote to fieldset</td></tr>
-                            <tr class="bg-parchment-200/40"><td class="px-4 py-2 font-mono text-xs">experience</td><td class="px-4 py-2">Tour</td><td class="px-4 py-2 text-foreground/60 italic">inline</td><td class="px-4 py-2 text-foreground/70">Promote to fieldset</td></tr>
-                            <tr class="bg-parchment-200/40"><td class="px-4 py-2 font-mono text-xs">leader</td><td class="px-4 py-2">Tour</td><td class="px-4 py-2 text-foreground/60 italic">inline</td><td class="px-4 py-2 text-foreground/70">Promote to fieldset</td></tr>
-                            <tr class="bg-parchment-200/40"><td class="px-4 py-2 font-mono text-xs">essentials</td><td class="px-4 py-2">Tour</td><td class="px-4 py-2 text-foreground/60 italic">inline</td><td class="px-4 py-2 text-foreground/70">Promote to fieldset</td></tr>
-                            <tr class="bg-parchment-200/40"><td class="px-4 py-2 font-mono text-xs">testimonials (tour)</td><td class="px-4 py-2">Tour</td><td class="px-4 py-2 text-foreground/60 italic">inline</td><td class="px-4 py-2 text-primary">Import shared fieldset</td></tr>
-                            <tr class="bg-parchment-200/40"><td class="px-4 py-2 font-mono text-xs">faqs (tour)</td><td class="px-4 py-2">Tour</td><td class="px-4 py-2 text-foreground/60 italic">inline</td><td class="px-4 py-2 text-primary">Import shared fieldset</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">article</td><td class="px-4 py-2">Image and text</td><td class="px-4 py-2 font-mono text-xs">article.yaml</td><td class="px-4 py-2 text-green-700">Present</td><td class="px-4 py-2 text-foreground/70">Bard with embedded sets</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">content_with_image</td><td class="px-4 py-2">Image and text</td><td class="px-4 py-2 font-mono text-xs">content_with_image.yaml</td><td class="px-4 py-2 text-red-700">Missing</td><td class="px-4 py-2 text-primary">Merge with image_and_text</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">testimonial_overlap</td><td class="px-4 py-2">Image and text</td><td class="px-4 py-2 font-mono text-xs">testimonial_overlap.yaml</td><td class="px-4 py-2 text-red-700">Missing</td><td class="px-4 py-2 text-foreground/70">Single quote + portrait</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">image_and_text</td><td class="px-4 py-2">Image and text</td><td class="px-4 py-2 font-mono text-xs">image_and_text.yaml</td><td class="px-4 py-2 text-red-700">Missing</td><td class="px-4 py-2 text-primary">Absorb content_with_image</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">form</td><td class="px-4 py-2">Interactive</td><td class="px-4 py-2 font-mono text-xs">form.yaml</td><td class="px-4 py-2 text-green-700">Present</td><td class="px-4 py-2 text-foreground/70">—</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">contact</td><td class="px-4 py-2">Interactive</td><td class="px-4 py-2 font-mono text-xs">contact.yaml</td><td class="px-4 py-2 text-red-700">Missing</td><td class="px-4 py-2 text-primary">Possibly fold into form</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">cards</td><td class="px-4 py-2">Interactive</td><td class="px-4 py-2 font-mono text-xs">cards.yaml</td><td class="px-4 py-2 text-green-700">Present</td><td class="px-4 py-2 text-foreground/70">—</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">tour_banner</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">tour_banner.yaml</td><td class="px-4 py-2 text-red-700">Missing</td><td class="px-4 py-2 text-primary">Merge with cta_banner</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">intro</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">intro.yaml</td><td class="px-4 py-2 text-red-700">Missing</td><td class="px-4 py-2 text-foreground/70">Pulls Benefits entries</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">stats</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">stats.yaml</td><td class="px-4 py-2 text-red-700">Missing</td><td class="px-4 py-2 text-foreground/70">—</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">people_grid</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">people_grid.yaml</td><td class="px-4 py-2 text-red-700">Missing</td><td class="px-4 py-2 text-foreground/70">Pulls People entries</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">tour_types</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">tour_types.yaml</td><td class="px-4 py-2 text-red-700">Missing</td><td class="px-4 py-2 text-primary">Rename (not tour-specific)</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">featured_tours</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">featured_tours.yaml</td><td class="px-4 py-2 text-red-700">Missing</td><td class="px-4 py-2 text-primary">Share carousel partial with travel_tips</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">testimonials</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">testimonials.yaml</td><td class="px-4 py-2 text-red-700">Missing</td><td class="px-4 py-2 text-primary">Tour blueprints duplicate this inline</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">travel_tips</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">travel_tips.yaml</td><td class="px-4 py-2 text-red-700">Missing</td><td class="px-4 py-2 text-primary">Share carousel partial with featured_tours</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">cta_banner</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">cta_banner.yaml</td><td class="px-4 py-2 text-red-700">Missing</td><td class="px-4 py-2 text-primary">Merge with tour_banner</td></tr>
+                            <tr><td class="px-4 py-2 font-mono text-xs">faqs</td><td class="px-4 py-2">Marketing</td><td class="px-4 py-2 font-mono text-xs">faqs.yaml</td><td class="px-4 py-2 text-red-700">Missing</td><td class="px-4 py-2 text-primary">Tour blueprints duplicate this inline</td></tr>
+                            <tr class="bg-parchment-200/40"><td class="px-4 py-2 font-mono text-xs">highlights</td><td class="px-4 py-2">Tour</td><td class="px-4 py-2 text-foreground/60 italic">inline</td><td class="px-4 py-2 text-green-700">Present</td><td class="px-4 py-2 text-foreground/70">Promote to fieldset</td></tr>
+                            <tr class="bg-parchment-200/40"><td class="px-4 py-2 font-mono text-xs">itinerary</td><td class="px-4 py-2">Tour</td><td class="px-4 py-2 text-foreground/60 italic">inline</td><td class="px-4 py-2 text-green-700">Present</td><td class="px-4 py-2 text-foreground/70">Promote to fieldset</td></tr>
+                            <tr class="bg-parchment-200/40"><td class="px-4 py-2 font-mono text-xs">overview</td><td class="px-4 py-2">Tour</td><td class="px-4 py-2 text-foreground/60 italic">inline</td><td class="px-4 py-2 text-amber-700">Stale (history.png)</td><td class="px-4 py-2 text-primary">Promote to fieldset; rename image</td></tr>
+                            <tr class="bg-parchment-200/40"><td class="px-4 py-2 font-mono text-xs">experience</td><td class="px-4 py-2">Tour</td><td class="px-4 py-2 text-foreground/60 italic">inline</td><td class="px-4 py-2 text-green-700">Present</td><td class="px-4 py-2 text-foreground/70">Promote to fieldset</td></tr>
+                            <tr class="bg-parchment-200/40"><td class="px-4 py-2 font-mono text-xs">leader</td><td class="px-4 py-2">Tour</td><td class="px-4 py-2 text-foreground/60 italic">inline</td><td class="px-4 py-2 text-green-700">Present</td><td class="px-4 py-2 text-foreground/70">Promote to fieldset</td></tr>
+                            <tr class="bg-parchment-200/40"><td class="px-4 py-2 font-mono text-xs">essentials</td><td class="px-4 py-2">Tour</td><td class="px-4 py-2 text-foreground/60 italic">inline</td><td class="px-4 py-2 text-green-700">Present</td><td class="px-4 py-2 text-foreground/70">Promote to fieldset</td></tr>
+                            <tr class="bg-parchment-200/40"><td class="px-4 py-2 font-mono text-xs">testimonials (tour)</td><td class="px-4 py-2">Tour</td><td class="px-4 py-2 text-foreground/60 italic">inline</td><td class="px-4 py-2 text-green-700">Present</td><td class="px-4 py-2 text-primary">Import shared fieldset</td></tr>
+                            <tr class="bg-parchment-200/40"><td class="px-4 py-2 font-mono text-xs">faqs (tour)</td><td class="px-4 py-2">Tour</td><td class="px-4 py-2 text-foreground/60 italic">inline</td><td class="px-4 py-2 text-green-700">Present</td><td class="px-4 py-2 text-primary">Import shared fieldset</td></tr>
                         </tbody>
                     </table>
                 </div>
