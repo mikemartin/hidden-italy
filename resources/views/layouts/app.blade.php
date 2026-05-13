@@ -12,7 +12,9 @@
         <s:partial src="layout/announcement_banner" :logged_in="$loggedIn" :current_user="$currentUser" />
         <s:partial src="layout/header" :logged_in="$loggedIn" :current_user="$currentUser" />
 
-        <main class="flex-1 fluid-grid py-12 lg:py-16">
+        <main class="relative isolate overflow-hidden flex-1 fluid-grid py-12 lg:py-16">
+            <s:partial src="components/topographic" />
+
             <div class="span-xl">
                 {{ $slot }}
             </div>
