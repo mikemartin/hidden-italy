@@ -4,5 +4,5 @@ blueprint: testimonial
 title: 'Nuccio made our trip'
 quote: 'We loved the walks we did and all the places we stayed, people we met and abundance of food we ate. Nuccio made our trip - his warm, welcoming nature, love and knowledge of Sicily and willingness to share this and his time with us, and to jump in and ensure we were taken care of, was invaluable.'
 updated_by: 2
-updated_at: 1778648016
+updated_at: 1778648021
 ---
