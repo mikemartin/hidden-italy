@@ -14,9 +14,9 @@
 
 <!-- /components/_walking_benefits.antlers.html -->
 {{ if benefits }}
-    <section class="fluid-grid bg-parchment-100 py-16 md:py-20 lg:py-30">
+    <section x-data x-reveal class="fluid-grid bg-parchment-100 py-16 md:py-20 lg:py-30">
         <div class="span-content grid grid-cols-1 lg:grid-cols-12 gap-y-10">
-            <header class="lg:col-span-5 flex flex-col gap-6">
+            <header data-reveal-item class="lg:col-span-5 flex flex-col gap-6">
                 {{ if heading }}
                     {{ partial:typography/h2 :content="heading" color="text-foreground" }}
                 {{ /if }}
@@ -30,7 +30,7 @@
 
             <ul class="lg:col-start-7 lg:col-span-6 flex flex-col gap-10 md:gap-12">
                 {{ benefits }}
-                    <li class="flex items-start gap-6 md:gap-9">
+                    <li data-reveal-item class="flex items-start gap-6 md:gap-9">
                         {{ if icon }}
                             {{ icon }}
                                 <div class="shrink-0 flex items-center justify-center size-[65px] rounded-full bg-parchment-200 text-accent-2">
