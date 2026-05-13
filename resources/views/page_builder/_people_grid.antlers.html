@@ -12,7 +12,7 @@
 <!-- /page_builder/_people_grid.antlers.html -->
 {{ if block:people }}
     {{ partial:page_builder/block class="gap-y-10 md:gap-y-14" }}
-        <header x-data x-reveal class="span-content flex flex-col items-center text-center gap-4 md:gap-6">
+        <header class="span-content flex flex-col items-center text-center gap-4 md:gap-6">
             {{ if block:heading }}
                 <div data-reveal-item>
                     {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
@@ -30,7 +30,7 @@
             2-up grid; lg+ to the four-up arrangement from the design. The
             li stretches to the full grid cell so the card inside fills its
             track regardless of breakpoint. #}}
-        <ul x-data x-reveal class="span-content grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-y-8">
+        <ul class="span-content grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-y-8">
             {{ block:people }}
                 <li data-reveal-item>
                     {{ partial:components/profile-card }}

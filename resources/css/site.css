@@ -424,22 +424,30 @@ dialog.profile-bio-modal > div.absolute[class*="end-0"] {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* Reveal entrance animation — initial state for elements inside an
-   `x-reveal` root. The directive (`resources/js/components/reveal.js`)
-   animates opacity + translateY via Motion, both composited on the GPU.
-   `will-change` is set up-front and stripped by JS once the animation
-   finishes to free the layer. Reduced-motion users skip the animation;
-   no-JS users see content immediately. */
-[data-reveal-item] {
-    opacity: 0;
-    transform: translateY(16px);
-    will-change: transform, opacity;
+/* Reveal entrance animation — pure CSS, scroll-driven via
+   `animation-timeline: view()`. Modern browsers (Chrome/Edge 115+,
+   Safari 26+, Firefox 138+) opt into the animation via `@supports`;
+   older browsers and `prefers-reduced-motion` users see content
+   immediately (visible is the default). Within a single grid row the
+   `:nth-child` rules shift the entry range so siblings flow in rather
+   than firing in unison. */
+@media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) {
+        [data-reveal-item] {
+            animation: reveal-rise linear both;
+            animation-timeline: view();
+            animation-range: entry 0% entry 80%;
+        }
+
+        [data-reveal-item]:nth-child(2) { animation-range: entry 10% entry 90%; }
+        [data-reveal-item]:nth-child(3) { animation-range: entry 20% entry 100%; }
+        [data-reveal-item]:nth-child(4) { animation-range: entry 30% cover 10%; }
+        [data-reveal-item]:nth-child(5) { animation-range: entry 40% cover 20%; }
+        [data-reveal-item]:nth-child(6) { animation-range: entry 50% cover 30%; }
+    }
 }
 
-@media (prefers-reduced-motion: reduce) {
-    [data-reveal-item] {
-        opacity: 1;
-        transform: none;
-        will-change: auto;
-    }
+@keyframes reveal-rise {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: none; }
 }

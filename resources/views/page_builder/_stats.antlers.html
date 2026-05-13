@@ -30,14 +30,14 @@
 
         <div class="span-content py-12 md:py-16 lg:py-20 grid grid-cols-1 lg:grid-cols-12 gap-y-10 lg:gap-x-16 items-start">
             {{ if block:heading }}
-                <header x-data x-reveal class="lg:col-span-5">
+                <header class="lg:col-span-5">
                     <div data-reveal-item>
                         {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
                     </div>
                 </header>
             {{ /if }}
 
-            <ul x-data x-reveal class="lg:col-span-6 lg:col-start-7 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-10">
+            <ul class="lg:col-span-6 lg:col-start-7 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-10">
                 {{ block:stats }}
                     <li data-reveal-item class="flex items-start gap-5 md:gap-6">
                         {{ if icon }}

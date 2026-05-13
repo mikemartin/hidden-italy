@@ -11,7 +11,7 @@
 <!-- /page_builder/_essentials.antlers.html -->
 {{ if block:sections }}
     {{ partial:page_builder/block block_id="essentials" class="gap-y-10 md:gap-y-14" }}
-        <header x-data x-reveal class="span-content flex flex-col gap-3">
+        <header class="span-content flex flex-col gap-3">
             <div data-reveal-item>
                 {{ partial:typography/label content="Essentials" small="true" class="!text-accent-2 uppercase tracking-[0.12em] font-semibold" }}
             </div>
@@ -20,7 +20,7 @@
             </div>
         </header>
 
-        <div x-data x-reveal class="span-content flex flex-col">
+        <div class="span-content flex flex-col">
             {{ block:sections }}
                 {{# Resolve the row label from the set type — `general` uses its own heading field. #}}
                 {{ if type == 'equipment' }}{{ row_heading = trans:strings.equipment_needed ?? 'Equipment needed' }}{{ /if }}

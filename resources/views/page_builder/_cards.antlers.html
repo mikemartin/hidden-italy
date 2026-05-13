@@ -7,14 +7,14 @@
 <!-- /page_builder/_cards.antlers.html -->
 {{ partial:page_builder/block class="gap-y-8" }}
     {{ if block:heading }}
-        <header x-data x-reveal class="span-content grid md:grid-cols-12 gap-fluid-grid-gap">
+        <header class="span-content grid md:grid-cols-12 gap-fluid-grid-gap">
             <div data-reveal-item class="md:col-start-3 md:col-span-8">
                 {{ partial:typography/h2 :content="block:heading" class="text-center" }}
             </div>
         </header>
     {{ /if }}
 
-    <ul x-data x-reveal class="span-content grid md:grid-cols-12 gap-fluid-grid-gap">
+    <ul class="span-content grid md:grid-cols-12 gap-fluid-grid-gap">
         {{ block:cards }}
             <li
                 data-reveal-item
