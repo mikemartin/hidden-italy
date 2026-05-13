@@ -123,6 +123,52 @@
     /* --font-weight-black: 900; */
 
     --text-5xl: 2.5rem;
+
+    /* ============================================================
+       Motion design tokens — brand motion identity.
+
+       Personality: Premium archetype — elegant, minimal, sophisticated.
+       0% overshoot anywhere. Entrance pattern is translateY + opacity
+       across the whole site.
+
+       Signature easing
+       ----------------
+       `--ease-standard` is used for 80%+ of motion work — the Premium
+       archetype's standard curve. `--ease-emphasis` is reserved for
+       single dramatic moments (the home-hero curtain rise); its stronger
+       ease-out tail reads as theatrical and shouldn't be applied to
+       small UI motion.
+
+       Duration palette
+       ----------------
+       All within Premium's 350-600ms range, plus a separate dramatic
+       band for hero reveals.
+
+         --duration-quick      380ms   small elements (chip, button)
+         --duration-standard   520ms   default reveal (h1, body, default)
+         --duration-slow       600ms   page-defining moments (hero-h1)
+         --duration-dramatic   1100ms  single hero moments (curtain)
+
+       `reveal.js` defines an additional 440ms "card" timing that sits
+       between quick and standard — used for card grid items so the
+       50ms stagger cascade feels crisp. Kept literal in JS rather than
+       in this palette to keep the public token set to three.
+
+       Sync requirement
+       ----------------
+       `reveal.js` hardcodes the same easing array `[0.4, 0, 0.2, 1]`
+       and duration numbers — keep both files in sync when retuning.
+       Ambient loops (Ken Burns 7000ms, chevron drift 2400ms) and
+       continuous transitions (Splide crossfade 1200ms, pause-icon fade
+       200ms) live outside this palette by design — they're not entrance
+       reveals.
+       ============================================================ */
+    --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+    --ease-emphasis: cubic-bezier(0.22, 1, 0.36, 1);
+    --duration-quick: 380ms;
+    --duration-standard: 520ms;
+    --duration-slow: 600ms;
+    --duration-dramatic: 1100ms;
 }
 
 
@@ -205,6 +251,101 @@
 }
 
 @import "./livewire-filters-theme.css";
+
+/* Entrance-animation initial state — `data-reveal-item` elements live inside
+   an `x-reveal` container that runs them through a fade-and-slide-up on
+   first viewport intersection (see `components/reveal.js`). They start
+   hidden so there's no flash before the JS observer fires. The
+   `prefers-reduced-motion` override (and the `<noscript>` block in the
+   layout) reset them to visible for users who never see the animation. */
+[data-reveal-item] {
+    opacity: 0;
+    transform: translateY(16px);
+    will-change: transform, opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    [data-reveal-item] {
+        opacity: 1;
+        transform: none;
+        will-change: auto;
+    }
+}
+
+/* Ken Burns lite — slow scale on the home hero's active Splide slide image.
+   Runs once per slide activation (no loop, no alternate). The hero's
+   x-data toggles `.is-panning` on the active slide's `.ambient-pan` img,
+   and freezes the outgoing slide's transform inline before the class is
+   removed so it doesn't snap back during the crossfade. Duration matches
+   the Splide autoplay interval (7000ms) so the pan completes just as the
+   next slide starts fading in. Disabled under reduced motion. */
+@keyframes ambient-pan {
+    from { transform: scale(1); }
+    to   { transform: scale(1.06); }
+}
+
+.ambient-pan {
+    transform-origin: center;
+}
+
+.ambient-pan.is-panning {
+    /* Duration intentionally hardcoded to match the Splide autoplay
+       interval in `_hero.antlers.html` (interval: 7000). Update both
+       together. */
+    animation: ambient-pan 7000ms var(--ease-standard) forwards;
+    will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .ambient-pan.is-panning {
+        animation: none;
+        will-change: auto;
+    }
+}
+
+/* Initial-load curtain on the home hero. Applied to the first slide's
+   `bg-black/30` wash so it starts fully opaque (hiding the image even
+   though the image is painted underneath at full opacity — so LCP isn't
+   delayed) and fades down to its resting 30% as the page settles. Only
+   runs once at mount, not on slide rewinds. */
+@keyframes hero-curtain {
+    from { background-color: rgba(0, 0, 0, 1); }
+    to   { background-color: rgba(0, 0, 0, 0.3); }
+}
+
+.hero-curtain {
+    animation: hero-curtain var(--duration-dramatic) var(--ease-emphasis) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero-curtain {
+        animation: none;
+    }
+}
+
+/* Home hero scroll-down chevron — asymmetric "go down" cue for users who
+   may not know to scroll. Slow deliberate descent (0 → 8px), quick return
+   to rest, then a long pause before the next cycle. Reads as a repeated
+   downward gesture rather than a symmetric flutter. Starts after the
+   hero settles (1300ms) so it doesn't compete with the headline reveal —
+   motion that *appears* after the scene stabilises catches the eye more
+   reliably than always-on motion. Self-removes via natural page scroll. */
+@keyframes hero-chevron-cue {
+    0%   { transform: translateY(0); }
+    35%  { transform: translateY(8px); }
+    55%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}
+
+.hero-chevron {
+    animation: hero-chevron-cue 2400ms ease-in-out 1300ms infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero-chevron {
+        animation: none;
+    }
+}
 
 /* Hide scrollbar on horizontal scroll-snap tracks (hero & tours carousels). */
 .no-scrollbar::-webkit-scrollbar { display: none; }
@@ -362,16 +503,47 @@
     to { width: 100%; }
 }
 
-/* Hidden Italy wordmark — uses the SVG as a CSS mask so the colour comes
-   from the surrounding `text-*` utility. The SVG itself ships with
-   white-filled paths; the mask drops the original colour entirely.
-   Pair with a height utility (`h-10`, `h-12`); width follows from
-   `aspect-ratio`. Used by the auth layouts and the footer wordmark. */
+/* Hidden Italy wordmark — used by the footer's giant decorative wordmark
+   only. Uses the SVG as a CSS mask so the colour comes from `text-*`.
+   The interactive nav/header logo uses the inline `_logo.antlers.html`
+   partial and its `.brand-logo` rules below. */
 .brand-wordmark {
     aspect-ratio: 329 / 71;
     background-color: currentColor;
     -webkit-mask: url('../svg/hidden-italy-logo.svg') no-repeat center / contain;
     mask: url('../svg/hidden-italy-logo.svg') no-repeat center / contain;
+}
+
+/* Interactive Hidden Italy logo — inline SVG with the hiker glyph (the
+   figure standing in place of the "i" in Hidden) carved out as its own
+   path. The wordmark stays static; the hiker takes a single subtle step
+   on hover/focus as a small brand-affirming delight. Reduced-motion
+   users get a static logo (no animation). */
+.brand-logo-svg {
+    aspect-ratio: 303 / 66;
+}
+
+.brand-logo-svg path {
+    fill: currentColor;
+}
+
+@keyframes brand-logo-step {
+    0%   { transform: translateY(0); }
+    35%  { transform: translateY(-2px); }
+    70%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}
+
+.brand-logo:hover .brand-logo-figure,
+.brand-logo:focus-visible .brand-logo-figure {
+    animation: brand-logo-step 500ms var(--ease-standard);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .brand-logo:hover .brand-logo-figure,
+    .brand-logo:focus-visible .brand-logo-figure {
+        animation: none;
+    }
 }
 
 /* Transparent header overlay was previously redefined here, but the site
