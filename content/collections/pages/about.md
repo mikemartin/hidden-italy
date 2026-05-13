@@ -120,20 +120,20 @@ page_builder:
     people:
       - 8e21b5fb-a972-4a2e-a81c-2e6f8425841f
       - dba23280-7df4-45c8-abd2-aabb9dee3b06
-      - 699bd6c8-377d-46a8-bd97-234a3720b9f1
-      - 656b56c6-ff12-45de-86a3-c6c480d7c141
-      - 47c3aafd-0cf1-4122-8cfb-84953a8a3ece
       - 469290c8-2f8b-4d10-b639-574b4f4f1b8a
+      - 656b56c6-ff12-45de-86a3-c6c480d7c141
+      - 699bd6c8-377d-46a8-bd97-234a3720b9f1
+      - fa3be588-b0dd-4d37-9213-bafbd1992434
+      - 436787ff-89d4-438e-bf50-81c3672256cc
       - 08f576cb-78e7-49f2-b63a-6dddd1ce4683
+      - 47c3aafd-0cf1-4122-8cfb-84953a8a3ece
+      - 63fec771-0f91-4c4d-a4c1-9106f35c0670
       - 2e1d4ebf-08b8-4191-86bd-c52f27304023
       - 260ad302-3ace-4c95-9a32-37e12bf556a5
-      - 14b37a2e-5aa2-47eb-a5a2-842d365f4130
-      - 436787ff-89d4-438e-bf50-81c3672256cc
-      - 1fc8edc9-9407-4a73-ada9-1f6095316fe8
-      - fa3be588-b0dd-4d37-9213-bafbd1992434
       - 08fb0b17-66db-4cfb-8da9-fd9f1ca6508d
+      - 14b37a2e-5aa2-47eb-a5a2-842d365f4130
+      - 1fc8edc9-9407-4a73-ada9-1f6095316fe8
       - 7113227c-a5b4-4030-89e8-7f203c525c13
-      - 63fec771-0f91-4c4d-a4c1-9106f35c0670
   -
     id: about_testimonials
     type: testimonials
@@ -148,6 +148,6 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 1
-updated_at: 1778557905
+updated_by: 2
+updated_at: 1778641258
 ---
