@@ -49,8 +49,10 @@
                 destroy() { this.splide?.destroy() },
             }"
         >
-        <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-            {{ partial:typography/h2 :content="block:title" class="!mb-0" color="text-foreground" }}
+        <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4" x-reveal>
+            <div data-reveal-item data-reveal-preset="h1">
+                {{ partial:typography/h2 :content="block:title" class="!mb-0" color="text-foreground" }}
+            </div>
 
             {{# Desktop prev/next arrows — only when there's something to scroll to. #}}
             {{ if block:days | count > 3 }}
@@ -77,8 +79,8 @@
             {{ /if }}
         </header>
 
-        <div class="splide-bleed-right">
-            <section x-ref="splide" class="splide itinerary-splide" aria-label="Tour itinerary">
+        <div class="splide-bleed-right" x-reveal>
+            <section x-ref="splide" class="splide itinerary-splide" aria-label="Tour itinerary" data-reveal-item data-reveal-preset="card">
                 <div class="splide__track">
                     <ul class="splide__list">
                         {{ block:days }}

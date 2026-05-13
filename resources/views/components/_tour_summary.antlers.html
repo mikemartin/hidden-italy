@@ -27,7 +27,7 @@
     <div class="span-content flex flex-col lg:grid lg:grid-cols-12 lg:gap-x-16 gap-y-10">
 
         {{# ── Left column ──────────────────────────────────────────── #}}
-        <div class="lg:col-span-6 flex flex-col items-start gap-6">
+        <div class="lg:col-span-6 flex flex-col items-start gap-6" x-data x-reveal data-reveal-stagger="80">
 
             {{# Breadcrumb chip on the left; mobile-only Share/Save on the
                 right. Desktop renders the actions next to the gallery in
@@ -57,7 +57,7 @@
             </div>
 
             {{# Headline + next-available line. #}}
-            <header class="flex flex-col gap-2">
+            <header data-reveal-item data-reveal-preset="h1" class="flex flex-col gap-2">
                 {{ partial:typography/h2 :content="headline ?? name" }}
                 {{ if date }}
                     <p class="font-sans text-base lg:text-lg leading-[1.5] md:leading-[1.6] text-foreground md:text-text flex items-center gap-2">
@@ -68,7 +68,7 @@
             </header>
 
             {{# Stats grid — two-up on mobile, three-up on desktop. #}}
-            <dl class="grid grid-cols-2 gap-6 lg:grid-cols-3">
+            <dl data-reveal-item class="grid grid-cols-2 gap-6 lg:grid-cols-3">
                 {{ if days }}
                     <div class="flex-1 lg:flex-initial">
                         <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">
@@ -228,14 +228,14 @@
 
             {{# Summary copy. #}}
             {{ if overview }}
-                <div class="font-sans text-[15px] md:text-lg leading-[1.5] md:leading-[1.6] text-text [&_p]:mb-4 [&_p:last-child]:mb-0">
+                <div data-reveal-item class="font-sans text-[15px] md:text-lg leading-[1.5] md:leading-[1.6] text-text [&_p]:mb-4 [&_p:last-child]:mb-0">
                     {{ overview|widont }}
                 </div>
             {{ /if }}
 
             {{# What's included card. #}}
             {{ if inclusions }}
-                <div class="bg-card rounded-lg border border-parchment-200 shadow-sm">
+                <div data-reveal-item data-reveal-preset="card" class="bg-card rounded-lg border border-parchment-200 shadow-sm">
                     <div class="p-6">
                         <h2 class="font-display font-medium md:font-semibold text-lg md:text-[21px] leading-[1.25] md:tracking-[-0.01em] text-foreground">
                             {{ trans:strings.whats_included ?? "What's included" }}
@@ -254,13 +254,15 @@
         </div>
 
         {{# ── Right column — actions + gallery ─────────────────────── #}}
-        <div class="lg:col-span-6 flex flex-col gap-4 lg:gap-8">
+        <div class="lg:col-span-6 flex flex-col gap-4 lg:gap-8" x-data x-reveal>
             <div class="hidden lg:block">
                 {{ partial:components/tour_summary_actions }}
             </div>
 
             {{ if gallery }}
-                {{ partial:components/tour_summary_gallery :gallery="gallery" }}
+                <div data-reveal-item data-reveal-preset="card">
+                    {{ partial:components/tour_summary_gallery :gallery="gallery" }}
+                </div>
             {{ /if }}
         </div>
     </div>
