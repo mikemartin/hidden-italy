@@ -10,22 +10,28 @@
 
 <!-- /page_builder/_intro.antlers.html -->
 {{ partial:page_builder/block class="gap-y-10 md:gap-y-16" }}
-    <header class="span-content flex flex-col items-center text-center gap-6">
+    <header x-data x-reveal class="span-content flex flex-col items-center text-center gap-6">
         {{ if block:eyebrow }}
-            {{ partial:typography/label :content="block:eyebrow" class="text-accent-2" }}
+            <div data-reveal-item>
+                {{ partial:typography/label :content="block:eyebrow" class="text-accent-2" }}
+            </div>
         {{ /if }}
 
-        {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
+        <div data-reveal-item>
+            {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
+        </div>
 
         {{ if block:intro }}
-            {{ partial:typography/p_large as="div" :content="block:intro" class="md:max-w-4xl text-pretty" }}
+            <div data-reveal-item>
+                {{ partial:typography/p_large as="div" :content="block:intro" class="md:max-w-4xl text-pretty" }}
+            </div>
         {{ /if }}
     </header>
 
     {{ if block:benefits }}
-        <ul class="span-content flex flex-col gap-10 md:gap-9 {{ if block:columns == '4' }}md:grid md:grid-cols-2 lg:grid-cols-4{{ else }}md:grid md:grid-cols-3{{ /if }}">
+        <ul x-data x-reveal class="span-content flex flex-col gap-10 md:gap-9 {{ if block:columns == '4' }}md:grid md:grid-cols-2 lg:grid-cols-4{{ else }}md:grid md:grid-cols-3{{ /if }}">
             {{ block:benefits }}
-                <li class="flex flex-col items-center text-center gap-4 md:gap-6">
+                <li data-reveal-item class="flex flex-col items-center text-center gap-4 md:gap-6">
                     {{ icon }}
                         <div class="flex shrink-0 items-center justify-center size-20 md:size-24 rounded-full bg-parchment-200 text-accent-2">
                             {{ svg
