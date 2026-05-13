@@ -43,6 +43,12 @@
         open: false,
         count: null,
         loading: false,
+        dragStartY: null,
+        dragY: 0,
+        isDragging: false,
+        lastY: 0,
+        lastTime: 0,
+        velocity: 0,
         init() {
             // The addon's `filter-updated` / `sort-updated` events are
             // dispatched with `->to(LivewireCollection::class)`, so they
@@ -58,6 +64,53 @@
         },
         toggle() { this.open = !this.open; },
         close() { this.open = false; },
+        /* Drag-to-dismiss from the grab handle. Touch events are scoped
+           to the handle div only so they don't interfere with the
+           drawer's internal scroll. Drag updates `dragY` live during
+           the gesture and tracks a smoothed velocity from per-frame
+           samples; on release, either a long enough drag (>100px) or
+           a sharp downward flick (>0.5 px/ms with at least 20px of
+           travel) triggers dismiss. Anything else snaps back. The CSS
+           reads `--drag-y` from inline style during drag and falls
+           back to 0 once `isDragging` flips false — so snap-back
+           rides the regular transition. */
+        onDragStart(e) {
+            if (e.touches.length !== 1) return;
+            this.dragStartY = e.touches[0].clientY;
+            this.lastY = this.dragStartY;
+            this.lastTime = e.timeStamp;
+            this.velocity = 0;
+            this.isDragging = true;
+        },
+        onDragMove(e) {
+            if (this.dragStartY === null) return;
+            const y = e.touches[0].clientY;
+            const t = e.timeStamp;
+            const delta = y - this.dragStartY;
+            if (delta > 0) this.dragY = delta;
+
+            // Weighted blend (70% recent / 30% history) smooths out
+            // single-sample noise from irregular touchmove cadence
+            // without losing responsiveness to a real flick.
+            const dt = t - this.lastTime;
+            if (dt > 0) {
+                const instant = (y - this.lastY) / dt;
+                this.velocity = this.velocity * 0.3 + instant * 0.7;
+            }
+            this.lastY = y;
+            this.lastTime = t;
+        },
+        onDragEnd() {
+            if (this.dragStartY === null) return;
+            const overDistance = this.dragY > 100;
+            const flickedDown = this.velocity > 0.5 && this.dragY > 20;
+            const shouldClose = overDistance || flickedDown;
+            this.dragStartY = null;
+            this.isDragging = false;
+            this.dragY = 0;
+            this.velocity = 0;
+            if (shouldClose) this.close();
+        },
     }"
     x-trap.inert.noscroll.noautofocus="open"
     @entries-updated.window="count = $event.detail?.count ?? $event.detail?.[0]?.count ?? null; loading = false"
@@ -103,9 +156,23 @@
         x-transition needs x-show as its trigger, and we can't apply
         x-show without breaking the always-visible desktop case.) #}}
     <div
-        :class="{ 'is-open': open }"
+        :class="{ 'is-open': open, 'is-dragging': isDragging }"
+        :style="isDragging ? `--drag-y: ${dragY}px` : ''"
         class="filter-card bg-card border border-parchment-200 rounded-2xl md:rounded-lg shadow-sm p-5 max-md:pb-0 md:px-10 md:pt-5 md:pb-10"
     >
+        {{# Native-style grab handle — mobile only. Drag down past 100px
+            to dismiss the drawer; release below threshold to snap back.
+            Touch events are scoped to this handle so the drawer's
+            internal scroll keeps working normally on the filter content. #}}
+        <div
+            class="md:hidden -mx-5 -mt-5 mb-2 flex justify-center pt-4 pb-3 touch-none"
+            @touchstart.passive="onDragStart($event)"
+            @touchmove.passive="onDragMove($event)"
+            @touchend="onDragEnd()"
+            @touchcancel="onDragEnd()"
+        >
+            <div class="h-1 w-10 rounded-full bg-parchment-300" aria-hidden="true"></div>
+        </div>
         {{# Header — title on the left, live count on the right (with a
             close button on mobile). The count listens to the
             `entries-updated` event the addon dispatches whenever the

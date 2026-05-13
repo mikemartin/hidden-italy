@@ -668,9 +668,17 @@ dialog.profile-bio-modal > div.absolute[class*="end-0"] {
     }
 
     .filter-card.is-open {
-        transform: translateY(0);
+        /* `--drag-y` is set inline while the user is dragging the grab
+           handle; when dragging ends the inline style is cleared and the
+           CSS variable falls back to 0, so the snap-back rides the
+           regular transition above. */
+        transform: translateY(var(--drag-y, 0));
         opacity: 1;
         pointer-events: auto;
+    }
+
+    .filter-card.is-dragging {
+        transition: none;
     }
 
     @media (prefers-reduced-motion: reduce) {
