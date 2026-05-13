@@ -21,21 +21,22 @@
           collection scope matters; the filter widgets don't need a `from`.
 #}}
 
-{{# Page-context-aware copy: the title and count noun shift with the
-    listing scope so the card reads naturally on each route. #}}
+{{# Page-context-aware copy: the title shifts with the listing scope so the
+    card reads naturally on each route. The count noun stays "tour" / "tours"
+    in every context — using "self-guided tours" / "guided tours" inline in
+    a count phrase makes the mobile CTA wrap awkwardly (e.g. "Show 19
+    self-guided tours" overflows). The route + filter card heading already
+    establish the tour type. #}}
 {{ if tour_collections == 'guided' }}
     {{ filter_title = 'Find your guided tour' }}
-    {{ tour_label_singular = 'Guided tour' }}
-    {{ tour_label_plural = 'Guided tours' }}
 {{ elseif tour_collections == 'self-guided' }}
     {{ filter_title = 'Find your self-guided tour' }}
-    {{ tour_label_singular = 'Self-guided tour' }}
-    {{ tour_label_plural = 'Self-guided tours' }}
 {{ else }}
     {{ filter_title = 'Find your tour' }}
-    {{ tour_label_singular = 'Tour' }}
-    {{ tour_label_plural = 'Tours' }}
 {{ /if }}
+
+{{ tour_label_singular = 'tour' }}
+{{ tour_label_plural = 'tours' }}
 
 <div
     x-data="{
@@ -55,15 +56,10 @@
                 fail(() => this.loading = false);
             });
         },
-        toggle() {
-            this.open = !this.open;
-            document.body.style.overflow = this.open ? 'hidden' : '';
-        },
-        close() {
-            this.open = false;
-            document.body.style.overflow = '';
-        },
+        toggle() { this.open = !this.open; },
+        close() { this.open = false; },
     }"
+    x-trap.inert.noscroll.noautofocus="open"
     @entries-updated.window="count = $event.detail?.count ?? $event.detail?.[0]?.count ?? null; loading = false"
     @keydown.escape.window="close()"
     class="mb-4 xl:mb-8"
@@ -83,27 +79,32 @@
         </span>
     </button>
 
-    {{# Backdrop for the mobile drawer. #}}
+    {{# Backdrop for the mobile drawer — brand-token fade. Matches the
+        mobile menu treatment (bg-black/30, 380ms quick easing). #}}
     <div
         x-show="open"
         x-cloak
-        x-transition.opacity
+        x-transition:enter="transition-opacity duration-[380ms] ease-standard motion-reduce:duration-0"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="transition-opacity duration-[380ms] ease-standard motion-reduce:duration-0"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
         @click="close()"
-        class="md:hidden fixed inset-0 z-40 bg-black/50"
+        class="md:hidden fixed inset-0 z-40 bg-black/30"
         aria-hidden="true"
     ></div>
 
-    {{# The filter card. On md+ it sits inline; on mobile it transforms
-        into a bottom-sheet drawer when `open` flips true. The Alpine
-        binding only adds the drawer classes on mobile (max-md prefix). #}}
+    {{# Filter card — desktop renders inline, mobile is a bottom-sheet
+        drawer. Single element either way; `.filter-card` CSS in
+        site.css handles the mobile slide+fade transition keyed off the
+        `is-open` class. (The Alpine x-bind:class swap + x-transition
+        approach used previously didn't actually animate because
+        x-transition needs x-show as its trigger, and we can't apply
+        x-show without breaking the always-visible desktop case.) #}}
     <div
-        x-bind:class="open
-            ? 'max-md:fixed max-md:inset-x-0 max-md:bottom-0 max-md:z-50 max-md:max-h-[85vh] max-md:overflow-y-auto max-md:rounded-t-2xl'
-            : 'max-md:hidden'"
-        x-transition:enter="motion-safe:transition-transform motion-safe:duration-200"
-        x-transition:enter-start="max-md:translate-y-full"
-        x-transition:enter-end="max-md:translate-y-0"
-        class="bg-card md:border md:border-parchment-200 md:rounded-lg md:shadow-sm p-5 max-md:pb-0 md:px-10 md:pt-5 md:pb-10"
+        :class="{ 'is-open': open }"
+        class="filter-card bg-card border border-parchment-200 rounded-2xl md:rounded-lg shadow-sm p-5 max-md:pb-0 md:px-10 md:pt-5 md:pb-10"
     >
         {{# Header — title on the left, live count on the right (with a
             close button on mobile). The count listens to the
@@ -251,12 +252,33 @@
             bottom padding is dropped on mobile so the footer sits flush
             with the drawer's bottom edge. #}}
         <div class="md:hidden sticky bottom-0 -mx-5 mt-6 px-5 py-4 bg-card border-t border-parchment-200">
+            {{# Primary CTA — uses the .button / .button--accent / .button--large
+                classes directly (rather than the `components/button` partial)
+                because the label is Alpine-driven via x-text and the spinner
+                is conditionally shown, neither of which the partial covers.
+                Matches the partial's output structure (.button span wrapper). #}}
             <button
                 type="button"
-                @click="close()"
-                class="button button--accent w-full"
+                @click="count === 0 ? Livewire.dispatch('clear-all-filters') : close()"
+                :disabled="loading"
+                class="button button--accent button--large w-full min-h-14"
             >
-                <span x-text="count !== null ? `Show ${count} ${count === 1 ? '{{ tour_label_singular }}' : '{{ tour_label_plural }}'}` : 'Show results'"></span>
+                <svg
+                    x-show="loading"
+                    x-cloak
+                    class="size-5 shrink-0"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                >
+                    <path d="M21 12a9 9 0 1 1-6.219-8.56" class="animate-spin [transform-origin:12px_12px]" />
+                </svg>
+
+                <span x-text="count === null ? 'Show results' : count === 0 ? '{{ trans:strings.clear_filters ?? 'Clear filters' }}' : `Show ${count} ${count === 1 ? '{{ tour_label_singular }}' : '{{ tour_label_plural }}'}`"></span>
             </button>
         </div>
     </div>

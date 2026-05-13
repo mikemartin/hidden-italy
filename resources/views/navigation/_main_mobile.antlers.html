@@ -16,17 +16,42 @@
     @keyup.escape.stop.prevent="$store.nav.close()"
     x-cloak
 >
+    {{# Backdrop — fades in/out at 380ms, click-to-close. Sits below the
+        drawer (z-30) within the header partial's stacking context so it
+        dims the page content behind the drawer without obscuring it. #}}
     <div
-        class="dark fixed inset-x-0 top-0 z-40 flex flex-col gap-8 px-6 sm:px-10 pt-4 pb-10 bg-background text-white overflow-hidden"
         x-show="$store.nav.mobileOpen"
-        x-collapse
+        x-transition:enter="transition-opacity duration-[380ms] ease-standard motion-reduce:duration-0"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="transition-opacity duration-[380ms] ease-standard motion-reduce:duration-0"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
+        @click="$store.nav.close()"
+        class="fixed inset-0 z-30 bg-black/30"
+        aria-hidden="true"
+    ></div>
+
+    {{# Drawer — slides down from the top with opacity over 520ms (standard
+        duration). The `.is-open` class drives the content cascade inside;
+        see the `.mobile-nav-stagger-*` rules in site.css. #}}
+    <div
+        :class="{ 'is-open': $store.nav.mobileOpen }"
+        x-show="$store.nav.mobileOpen"
+        x-transition:enter="transition duration-[520ms] ease-standard motion-reduce:duration-0"
+        x-transition:enter-start="-translate-y-full opacity-0"
+        x-transition:enter-end="translate-y-0 opacity-100"
+        x-transition:leave="transition duration-[380ms] ease-standard motion-reduce:duration-0"
+        x-transition:leave-start="translate-y-0 opacity-100"
+        x-transition:leave-end="-translate-y-full opacity-0"
+        class="mobile-nav-drawer dark fixed inset-x-0 top-0 z-40 flex flex-col gap-8 px-6 sm:px-10 pt-4 pb-10 bg-background text-white overflow-hidden"
     >
         {{# Decorative topographic lines anchored to the top-right corner. #}}
         <div class="pointer-events-none absolute inset-x-0 top-0 -z-10 text-white/10" aria-hidden="true">
             {{ svg:top-right attr:class="absolute top-0 right-0 w-[320px] md:w-[400px] h-auto" }}
         </div>
 
-        <header class="flex items-center justify-between gap-4">
+        <header class="mobile-nav-stagger mobile-nav-stagger-1 flex items-center justify-between gap-4">
             {{ partial:components/logo class="h-8 w-auto text-white" }}
 
             <button
@@ -39,7 +64,7 @@
             </button>
         </header>
 
-        <ul class="flex flex-col gap-y-2 overflow-auto">
+        <ul class="mobile-nav-stagger mobile-nav-stagger-2 flex flex-col gap-y-2 overflow-auto">
             {{ nav:main max_depth="2" include_home="true" select="title|url" }}
                 {{ unless no_results }}
                     <li
@@ -110,7 +135,7 @@
             {{ /nav:main }}
         </ul>
 
-        <div class="flex flex-col gap-5 pt-6 border-t border-white/10">
+        <div class="mobile-nav-stagger mobile-nav-stagger-3 flex flex-col gap-5 pt-6 border-t border-white/10">
             {{ partial:components/nav-wishlist show_label="true" }}
             {{ partial:components/nav-account show_label="true" }}
         </div>
