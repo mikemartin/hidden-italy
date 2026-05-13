@@ -74,4 +74,23 @@ class User extends Authenticatable
     {
         return (string) $this->getKey();
     }
+
+    /**
+     * Eloquent's relation resolver treats any method on the model as a
+     * potential relationship (see `HasAttributes::isRelation()`), so reading
+     * the `id` attribute on an unsaved user would otherwise recurse:
+     * `getAttribute('id')` → `isRelation('id')` is true because `id()` exists
+     * → `getRelationshipFromMethod('id')` calls `$this->id()` → which calls
+     * `getKey()` → back to `getAttribute('id')`. That blew the stack on every
+     * new-user save path (CLI and Statamic CP). Excluding the primary-key
+     * column keeps the `id()` accessor while preventing the loop.
+     */
+    public function isRelation($key)
+    {
+        if ($key === $this->getKeyName()) {
+            return false;
+        }
+
+        return parent::isRelation($key);
+    }
 }
