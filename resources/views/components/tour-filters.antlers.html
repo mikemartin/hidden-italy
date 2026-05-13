@@ -238,7 +238,7 @@
 
             Seasons uses the `seasons-checkbox-filter` subclass so labels
             get appended with month ranges (e.g. "Spring (Mar – May)"). #}}
-        <div class="grid grid-cols-1 gap-4 md:gap-6 {{ if tour_collections == 'self-guided' || tour_collections == 'guided|self-guided' }}md:grid-cols-2 lg:grid-cols-4{{ else }}md:grid-cols-3{{ /if }}">
+        <div class="grid grid-cols-1 gap-4 md:gap-6 pb-2 {{ if tour_collections == 'self-guided' || tour_collections == 'guided|self-guided' }}md:grid-cols-2 lg:grid-cols-4{{ else }}md:grid-cols-3{{ /if }}">
             {{ if tour_collections == 'guided|self-guided' }}
                 <div>
                     {{ partial:typography/label as="div" large="true" color="text-text" content="Type of Walk" class="!mb-2" }}

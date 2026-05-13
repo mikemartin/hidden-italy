@@ -687,3 +687,13 @@ dialog.profile-bio-modal > div.absolute[class*="end-0"] {
         }
     }
 }
+
+/* Filter cells need to stack above the sticky "Show results" button —
+   without this, dropdowns opening from the bottom filters get clipped
+   behind the sticky button (both are z-auto, so the DOM-later button
+   wins). `position: relative` is required for z-index to take effect.
+   Applies at every breakpoint so the desktop card behaves the same. */
+.filter-card > .grid > div {
+    position: relative;
+    z-index: 1;
+}
