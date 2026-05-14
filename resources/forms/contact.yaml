@@ -27,6 +27,13 @@ content_sender:
           text: '{{ trans:strings.form_mail_from }}'
 content_owner:
   show_submitted_data: true
+mailchimp:
+  enabled: true
+  settings:
+    primary_email_field: email
+    audience_id: 1ab892c5de
+    disable_opt_in: false
+    check_consent: false
 title: Contact
 honeypot: fax
 email:
