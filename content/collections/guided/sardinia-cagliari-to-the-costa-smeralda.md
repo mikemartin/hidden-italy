@@ -47,6 +47,8 @@ page_builder:
     id: 3ac59855e292802f
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -74,7 +76,7 @@ page_builder:
       - tours/sardinia-cagliari-to-the-costa-smeralda/img_5840.jpg
   -
     id: mlpxjjup
-    title: 'Sardinia guided tour highlights'
+    heading: 'Sardinia guided tour highlights'
     activities:
       -
         id: mlpxk1gl
@@ -289,6 +291,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: usUm--pyAOLbxEXIGOs3A
     title: 'Tour Leader'

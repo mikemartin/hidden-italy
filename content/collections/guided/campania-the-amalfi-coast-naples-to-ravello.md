@@ -46,6 +46,8 @@ page_builder:
     id: 06097f0698eecc32
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -69,7 +71,7 @@ page_builder:
     id: mlj10cx3
     type: highlights
     enabled: true
-    title: 'Enjoy the vibrancy of southern Italy!'
+    heading: 'Enjoy the vibrancy of southern Italy!'
     activities:
       -
         id: mlombrtm
@@ -292,6 +294,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: FZPAH5g2-0cnT7cqJUPaV
     title: 'Tour Leader'

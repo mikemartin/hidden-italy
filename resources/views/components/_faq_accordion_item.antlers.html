@@ -26,7 +26,12 @@
         aria-controls="faq-panel-{{ id }}"
         class="w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 text-left font-display font-semibold text-base md:text-lg text-foreground hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold focus-visible:-outline-offset-2"
     >
-        <span>{{ title ?? question }}</span>
+        {{# Inline grid rows expose `question`; global question entries
+            expose `title`. Check `question` first because `title` falls
+            back through the iteration scope to the page entry's own
+            title — which would render the page title for every inline
+            row otherwise. #}}
+        <span>{{ question ?? title }}</span>
         <x-lucide-chevron-right
             class="size-5 shrink-0 text-accent-2 transition-transform"
             stroke-width="2"
@@ -41,6 +46,11 @@
         x-cloak
     >
         <div class="px-5 md:px-6 pb-5 md:pb-6 font-sans text-base leading-[1.6] text-text [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:underline [&_a]:underline-offset-4 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-3">
+            {{# Both inline grid rows and global question entries use
+                the shared `faq_answer.answer` Bard field, so the
+                augmented value is iterable in either context. Set
+                partials (e.g. `walking_grades_table`) receive
+                `tour_collection` for the right column. #}}
             {{ answer }}
                 {{ if type == 'text' }}
                     {{ text }}

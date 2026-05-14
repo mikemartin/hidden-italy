@@ -7,5 +7,48 @@
 #}}
 
 <!-- /page_builder/_icon_grid.antlers.html -->
-{{ partial src="page_builder/_highlights" }}
+{{ partial:page_builder/block :block_id="block_id" class="gap-y-10 md:gap-y-14" }}
+    {{ if block:heading }}
+        <header class="span-content text-center" x-data x-reveal>
+            <div data-reveal-item data-reveal-preset="h1">
+                {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
+            </div>
+        </header>
+    {{ /if }}
+
+    {{ if block:icons }}
+    <ul class="span-content {{ if block:columns == '4' }}md:grid md:grid-cols-2 lg:grid-cols-4{{ else }}md:grid md:grid-cols-3{{ /if }} gap-x-9 gap-y-10 md:gap-y-12" x-data x-reveal data-reveal-stagger="50">
+        {{ block:icons }}
+            <li class="flex flex-col items-center text-center gap-4" data-reveal-item data-reveal-preset="card">
+                {{ if icon }}
+                    {{ icon }}
+                        <div class="flex shrink-0 items-center justify-center size-20 md:size-24 rounded-full bg-parchment-200 text-accent-2">
+                            {{ svg
+                                src="icons/{path}"
+                                attr:class="size-12 md:size-16 fill-current"
+                                attr:aria-hidden="true"
+                                attr:role="img"
+                            }}
+                        </div>
+                    {{ /icon }}
+                {{ /if }}
+                <div class="flex flex-col items-center gap-2 max-w-prose">
+                    {{ partial:typography/h4 :content="title" color="text-foreground" }}
+                    {{ if summary }}
+                        {{ partial:typography/p_small :content="summary" color="text-text" class="text-pretty !mb-0" }}
+                    {{ /if }}
+                </div>
+            </li>
+        {{ /block:icons }}
+    </ul>
+    {{ /if }}
+
+    {{ if block:buttons }}
+        <div class="span-content flex flex-wrap gap-4 justify-center">
+            {{ block:buttons }}
+                {{ partial:components/button class="button--outline button--gold button--on-light" }}
+            {{ /block:buttons }}
+        </div>
+    {{ /if }}
+{{ /partial:page_builder/block }}
 <!-- End: /page_builder/_icon_grid.antlers.html -->

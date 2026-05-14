@@ -8,10 +8,12 @@ header_variant: large
 page_builder:
   -
     id: about_story
-    type: content_with_image
+    type: image_and_text
     enabled: true
     heading: 'It started with a walk'
     image_position: right
+    image_aspect: tall
+    section_background: light
     image: tours/tuscany-tuscany-2-chianti-florence-to-siena/rich-martello-yqcvybdd4y-unsplash-1774331143.jpg
     body:
       -
@@ -85,13 +87,15 @@ page_builder:
     id: about_founder_quote
     type: testimonial_overlap
     enabled: true
+    section_background: dark
+    show_topography: true
     image: people/434666225_440666958320787_3022049181184737557_n.jpg
     quote: "For me there are still few greater pleasures than entering the walls of an ancient Italian town after a good day's walk, with the prospect of a fine meal and a warm bed in front of me. That's what Hidden Italy was always about."
     name: 'Simon Tancred'
     role: 'Director, Hidden Italy'
   -
     id: about_why_tour
-    type: intro
+    type: benefits
     enabled: true
     heading: 'Why tour with us?'
     columns: '4'

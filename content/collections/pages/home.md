@@ -30,7 +30,7 @@ tour_photos:
 page_builder:
   -
     id: home_intro
-    type: intro
+    type: benefits
     enabled: true
     heading: 'Walking Italy since 1993'
     intro:
@@ -57,10 +57,10 @@ page_builder:
     columns: '3'
   -
     id: home_tour_types
-    type: tour_types
+    type: photo_cards
     enabled: true
     heading: 'Choose your adventure'
-    tour_types:
+    photo_cards:
       - 46b6b124-89cf-4efb-b06a-cdb4d28312ba
       - fff5d1d0-e05d-4088-9a54-1f2e7f630c28
     buttons:
@@ -103,4 +103,66 @@ page_builder:
       - 7d2a4c91-3e85-4f17-91b3-8c1e0f5a7d62
       - 8a3b7d54-9e21-4f68-b193-5c4a0e6d2f87
       - 1e4d7a93-8c52-4f16-b384-7a2e0d6f9c41
+  -
+    id: home_shop
+    type: cards
+    enabled: true
+    heading: 'Special Offers'
+    cards:
+      -
+        id: home_shop_book
+        type: card
+        enabled: true
+        image: shop/trails-to-freedom.jpg
+        heading: 'Trails to Freedom'
+        text: 'The true story of the medieval trails used by Anzac POWs to escape Italy in 1943–1944.'
+        button:
+          -
+            id: home_shop_book_btn
+            label: 'View book'
+            link_type: entry
+            entry:
+              - c7f4e2a1-8b3d-4e9f-9a52-1f0d6e3b8c45
+            target_blank: false
+            button_type: button
+            type: button
+            enabled: true
+            show_controls: true
+      -
+        id: home_shop_gift50
+        type: card
+        enabled: true
+        image: shop/gift-card.jpg
+        heading: 'Gift card — $50'
+        text: 'A Hidden Italy gift card to put towards any tour or product.'
+        button:
+          -
+            id: home_shop_gift50_btn
+            label: 'View gift card'
+            link_type: entry
+            entry:
+              - f3c5e9d4-7a82-4b16-9f58-2e6b8d4a5c19
+            target_blank: false
+            button_type: button
+            type: button
+            enabled: true
+            show_controls: true
+      -
+        id: home_shop_guided_2027
+        type: card
+        enabled: true
+        image: tours/sardinia-cagliari-to-the-costa-smeralda/img_5939.jpg
+        heading: 'Guided tours now available to book for 2027'
+        button:
+          -
+            id: home_shop_guided_2027_btn
+            label: 'Browse guided tours'
+            link_type: entry
+            entry:
+              - 46b6b124-89cf-4efb-b06a-cdb4d28312ba
+            target_blank: false
+            button_type: button
+            type: button
+            enabled: true
+            show_controls: true
 ---

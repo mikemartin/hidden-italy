@@ -10,3 +10,5 @@ fields:
       instructions: 'Statamic form rendered in the right column.'
       validate:
         - required
+  -
+    import: section_settings

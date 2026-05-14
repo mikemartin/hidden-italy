@@ -8,6 +8,9 @@ fields:
       display: Heading
       default: 'Frequently asked questions'
   -
+    handle: text
+    field: common.text_plain
+  -
     handle: questions
     field:
       type: grid
@@ -25,14 +28,7 @@ fields:
             instructions: 'Write the question as a reader would ask it.'
         -
           handle: answer
-          field:
-            buttons:
-              - bold
-              - italic
-              - unorderedlist
-              - anchor
-            type: bard
-            display: Answer
+          field: faq_answer.answer
   -
     handle: show_common_questions
     field:
@@ -40,3 +36,5 @@ fields:
       default: true
       display: 'Show common questions?'
       instructions: 'Automatically append common questions for the page''s collection (e.g. guided / self-guided).'
+  -
+    import: section_settings

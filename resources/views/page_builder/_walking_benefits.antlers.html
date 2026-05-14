@@ -17,19 +17,47 @@
 #}}
 
 <!-- /page_builder/_walking_benefits.antlers.html -->
-{{ if tour_collections == 'guided' || tour_collections == 'guided|self-guided' }}
-    {{ partial:components/walking_benefits
-        :heading="guided:walking_benefits_heading"
-        :intro="guided:walking_benefits_intro"
-        :benefits="guided:walking_benefits"
-    }}
+{{ tour_type = tour_type ?? 'auto' }}
+
+{{ if tour_type == 'guided' }}
+    {{ show_guided = true }}
+    {{ show_self_guided = false }}
+{{ elseif tour_type == 'self-guided' }}
+    {{ show_guided = false }}
+    {{ show_self_guided = true }}
+{{ else }}
+    {{# `both` — defer to the tour context. `tour_collection` is
+        passed by the FAQ partial when the current scope can't expose
+        the tour entry's collection (e.g. when rendering inside a
+        common-question entry pulled via `get_content`). Otherwise we
+        fall back to the scope's `{collection:handle}`. #}}
+    {{ effective_collection = tour_collection ?? {collection:handle} }}
+    {{ show_guided = effective_collection != 'self-guided' }}
+    {{ show_self_guided = effective_collection != 'guided' }}
 {{ /if }}
 
-{{ if tour_collections == 'self-guided' || tour_collections == 'guided|self-guided' }}
-    {{ partial:components/walking_benefits
-        :heading="self_guided:walking_benefits_heading"
-        :intro="self_guided:walking_benefits_intro"
-        :benefits="self_guided:walking_benefits"
-    }}
-{{ /if }}
+{{ partial:page_builder/block }}
+
+    {{ if show_guided }}
+        {{ partial:components/walking_benefits
+            :heading="guided:walking_benefits_heading"
+            :intro="guided:walking_benefits_intro"
+            :benefits="guided:walking_benefits"
+            :surface_class="surface_class"
+            :show_topo="show_topo"
+        }}
+    {{ /if }}
+
+    {{ if show_self_guided }}
+        {{ partial:components/walking_benefits
+            :heading="self_guided:walking_benefits_heading"
+            :intro="self_guided:walking_benefits_intro"
+            :benefits="self_guided:walking_benefits"
+            :surface_class="surface_class"
+            :show_topo="show_topo"
+        }}
+    {{ /if }}
+
+{{ /partial:page_builder/block }}
+
 <!-- End: /page_builder/_walking_benefits.antlers.html -->

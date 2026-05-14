@@ -40,6 +40,8 @@ page_builder:
     id: 60cb2f47dbf79c3c
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -79,7 +81,7 @@ page_builder:
       - tours/sicily-palermo-to-taormina/69.jpg
   -
     id: S-GxLPbJ4K3UJXaWyild9
-    title: 'Sicily in the Spring guided tour'
+    heading: 'Sicily in the Spring guided tour'
     activities:
       -
         id: gloWg_rvBS0ZTTj_kZRfD
@@ -263,6 +265,8 @@ page_builder:
     id: JElBjk_hp08VuSFkQtzh4
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
     title: 'Sicily in the Spring Experience'
     tabs:
       -

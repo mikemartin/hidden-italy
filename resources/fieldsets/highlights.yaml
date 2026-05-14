@@ -38,3 +38,5 @@ fields:
             type: assets
             display: Icon
             width: 25
+  -
+    import: section_settings

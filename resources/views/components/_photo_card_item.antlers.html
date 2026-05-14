@@ -1,0 +1,102 @@
+{{#
+    @name Photo card item
+    @desc Card body for the photo_cards page-builder set. Rendered
+          inside either a grid layout (1–2 cards) or a splide slide
+          (3+ cards) — the caller supplies the outer `<li>` so the
+          same body works in either context.
+
+          Inherits the Antlers iteration scope (the picked entry) plus
+          the parent partial's `card_bg` and `ring_class` variables.
+          `card_bg` defaults to `bg-card`; the parent partial switches
+          it to `bg-background` when the section's `section_background`
+          is `light` so the cards don't disappear into the same
+          parchment-50 panel they sit on.
+#}}
+
+{{ is_page = {collection:handle} == 'pages' }}
+
+<!-- /components/_photo_card_item.antlers.html -->
+<article class="{{ card_bg ?? 'bg-card' }} {{ ring_class }} group relative w-full h-full aspect-video lg:aspect-[3/2] rounded-xl lg:rounded-3xl overflow-hidden" data-reveal-item>
+
+    {{# Card image. Pages use `card_image`, tour entries fall through
+        to the tour hero `image`. Same overlay treatment as the tour
+        banner: uniform `bg-black/30` wash plus top/bottom dark
+        gradients so the centred white label + chip stay legible
+        across either source. #}}
+    {{ if is_page && card_image }}
+        {{
+            picture
+            :image="card_image"
+            class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+            cover="true"
+            sizes="(min-width: 1024px) 33vw, 100vw"
+            loading="lazy"
+        }}
+    {{ elseif image }}
+        {{
+            picture
+            :image="image"
+            class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+            cover="true"
+            sizes="(min-width: 1024px) 33vw, 100vw"
+            loading="lazy"
+        }}
+    {{ /if }}
+
+    <div class="absolute inset-0 bg-black/30 pointer-events-none" aria-hidden="true"></div>
+
+    <div
+        class="absolute inset-0 pointer-events-none"
+        aria-hidden="true"
+        style="background-image: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 22.7%), linear-gradient(180deg, rgba(0,0,0,0) 77.6%, rgba(0,0,0,0.3) 100%);"
+    ></div>
+
+    {{# Centred label + chip. #}}
+    <div class="absolute inset-0 flex flex-col items-center justify-center gap-3 px-6 text-center">
+        <span class="max-w-md font-display font-semibold uppercase text-2xl lg:text-5xl leading-none tracking-[0.01em] text-white">
+            {{ if is_page }}
+                {{ title remove_right=" Tours" }}
+            {{ else }}
+                {{ name ?? title }}
+            {{ /if }}
+        </span>
+
+        {{# Chip — mirrors the tour-banner chip (bg-black/30, white
+            label). Pages render mounted-collection count + noun;
+            guided / self-guided tours render their tour type; any
+            other collection falls back to the entry's region. #}}
+        {{ if is_page }}
+            {{ mount }}
+                {{ entries_name = switch(
+                    (handle == 'guided' || handle == 'self-guided') => 'Tours',
+                    (handle == 'tips' || handle == 'inspiration') => 'Articles',
+                    (handle == 'products') => 'Products',
+                    () => 'Entries'
+                ) }}
+                <p class="bg-black/30 inline-flex items-center h-8 px-4 py-2 rounded-full font-medium uppercase tracking-[0.04em] text-white text-sm md:text-base">
+                    {{ collection:count :in="handle" }} {{ entries_name }}
+                </p>
+            {{ /mount }}
+        {{ else }}
+            {{ tour_chip = switch(
+                ({collection:handle} == 'guided') => 'Guided',
+                ({collection:handle} == 'self-guided') => 'Self-guided',
+                () => region
+            ) }}
+            {{ if tour_chip }}
+                <p class="bg-black/30 inline-flex items-center h-8 px-4 py-2 rounded-full font-medium uppercase tracking-[0.04em] text-white text-sm md:text-base">
+                    {{ tour_chip }}
+                </p>
+            {{ /if }}
+        {{ /if }}
+    </div>
+
+    {{# Stretched link to the linked entry. #}}
+    <a
+        href="{{ url }}"
+        class="absolute inset-0 rounded-3xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+    >
+        <span class="sr-only">View {{ name ?? title }}</span>
+    </a>
+</article>
+<!-- End: /components/_photo_card_item.antlers.html -->

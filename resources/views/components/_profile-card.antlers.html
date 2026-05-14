@@ -17,7 +17,7 @@
 #}}
 
 <!-- /components/_profile-card.antlers.html -->
-<article class="group relative isolate h-full flex flex-col bg-card border border-parchment-200 rounded-xl shadow-sm overflow-hidden">
+<article class="group relative isolate h-full flex flex-col {{ card_bg ?? 'bg-card' }} border border-parchment-200 rounded-xl shadow-sm overflow-hidden">
     {{ if short_bio }}
         <x-flux::modal.trigger name="profile-bio-{{ slug }}">
             <button
@@ -56,9 +56,10 @@
         {{ if short_bio }}
             {{ partial:components/button
                 button_type="inline"
+                small="true"
                 faux="true"
                 as="span"
-                :label="trans:strings.read_bio"
+                label="{trans:strings.read_bio}"
                 class="relative z-20 mt-3 pointer-events-none"
             }}
         {{ /if }}

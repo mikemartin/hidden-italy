@@ -36,6 +36,8 @@ page_builder:
     id: 6bb337dd80c75b5a
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -57,7 +59,7 @@ page_builder:
       - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-8.jpg
   -
     id: mloocwbk
-    title: 'Highlights of the La Tuscia tour'
+    heading: 'Highlights of the La Tuscia tour'
     activities:
       -
         id: mlooee34
@@ -232,6 +234,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: B5PGkOu1CvOE1V8aMFmLM
     title: 'What you should know'

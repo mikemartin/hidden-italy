@@ -58,3 +58,5 @@ fields:
                     set: lucide
                     validate:
                       - required
+  -
+    import: section_settings

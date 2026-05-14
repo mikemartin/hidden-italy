@@ -9,11 +9,15 @@
 
 <!-- /components/_button.antlers.html -->
 {{ if label }}
+    {{# `--small` / `--large` modifiers route by button type — the
+        inline-link styles live under `.button-inline--small`, the
+        regular pill styles under `.button--small`. #}}
+    {{ size_prefix = button_type === 'inline' ? 'button-inline--' : 'button--' }}
     <{{ as or 'a' }}
         class="
             {{ button_type === 'inline' ? 'button-inline' : 'button' }}
-            {{ large ?= 'button--large' }}
-            {{ small ?= 'button--small' }}
+            {{ large ?= "{size_prefix}large" }}
+            {{ small ?= "{size_prefix}small" }}
             {{ class }}
         "
         {{ slot:attributes }}

@@ -26,36 +26,25 @@
         the index from each element's DOM position. No JSON serialization
         of the tab list, no manual id strings — every tab button and panel
         builds its own id from its position. #}}
-    <section
-        id="experience"
-        class="dark relative isolate overflow-hidden bg-background stack-space-collapse py-12 md:py-16 lg:py-24"
-        x-data="{
-            selectedId: null,
-            init() { this.$nextTick(() => this.select(this.$id('tab', 1))); },
-            select(id) { this.selectedId = id; },
-            isSelected(id) { return this.selectedId === id; },
-            whichChild(el, parent) { return Array.from(parent.children).indexOf(el) + 1; },
-        }"
-        x-id="['tab']"
-    >
-        {{# Topographic decoration tinted darker so it sits behind the
-            content without competing for attention. #}}
-        <div class="pointer-events-none absolute inset-x-0 top-0 -z-10 text-blue-d-100" aria-hidden="true">
-            {{ svg:top-left attr:class="absolute top-0 left-0 w-[320px] md:w-[400px] h-auto -translate-x-1/2" }}
-            {{ svg:top-right attr:class="absolute top-0 right-0 w-[320px] md:w-[400px] h-auto" }}
-        </div>
-
-        {{# Tour-subnav sentinel — sits at the section's content-top (after the
-            outer padding) so `intersect:enter` fires when the heading actually
-            arrives near the sticky nav. Outer is not a grid, so a flow child
-            is the simplest way to land at the right position. #}}
+    {{# Section panel + topographic decoration come from the shared
+        section_settings convention via `_block.antlers.html` — set
+        `section_background: dark` + `show_topography: true` on the
+        block to reproduce the classic experience design. Alpine
+        x-data is wrapped in a `display: contents` div so the
+        `_block`-rendered section stays the layout root and its
+        sentinel + topo still work. #}}
+    {{ partial:page_builder/block block_id="experience" class="gap-y-12 md:gap-y-14" }}
         <div
-            aria-hidden="true"
-            x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('experience')"
-            class="h-px"
-        ></div>
-
-        {{ partial:page_builder/block class="stack-space-collapse gap-y-12 md:gap-y-14" }}
+            class="contents"
+            x-data="{
+                selectedId: null,
+                init() { this.$nextTick(() => this.select(this.$id('tab', 1))); },
+                select(id) { this.selectedId = id; },
+                isSelected(id) { return this.selectedId === id; },
+                whichChild(el, parent) { return Array.from(parent.children).indexOf(el) + 1; },
+            }"
+            x-id="['tab']"
+        >
             {{ if block:title }}
                 <header class="span-content text-center" x-reveal>
                     <div data-reveal-item data-reveal-preset="h1">
@@ -385,7 +374,7 @@
                 </section>
                 {{ /block:tabs }}
             </div>
-        {{ /partial:page_builder/block }}
-    </section>
+        </div>
+    {{ /partial:page_builder/block }}
 {{ /if }}
 <!-- End: /page_builder/_experience.antlers.html -->

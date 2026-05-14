@@ -10,12 +10,29 @@
     @set page.page_builder.cards
 #}}
 
+{{# Light-panel inversion — cards inside a light-panel section flip
+    to `bg-background` (parchment-100) so they don't disappear into
+    the same parchment-50 panel they sit on. The block partial handles
+    the surface + topo decoration. #}}
+{{ card_bg = (block:section_background ?? 'none') == 'light' ? 'bg-background' : 'bg-card' }}
+
 <!-- /page_builder/_cards.antlers.html -->
 {{ partial:page_builder/block class="gap-y-8" }}
-    {{ if block:heading }}
+    {{ if block:heading || block:text }}
+        {{# Heading-only headers align left; heading + intro centre in an 8-col block. #}}
+        {{ header_layout = block:text ? 'md:col-start-3 md:col-span-8 text-center' : 'md:col-span-12 text-left' }}
         <header class="span-content grid md:grid-cols-12 gap-fluid-grid-gap" x-data x-reveal>
-            <div data-reveal-item data-reveal-preset="h1" class="md:col-start-3 md:col-span-8 text-center">
-                {{ partial:typography/h2 :content="block:heading" }}
+            <div class="flex flex-col gap-4 {{ header_layout }}">
+                {{ if block:heading }}
+                    <div data-reveal-item data-reveal-preset="h1">
+                        {{ partial:typography/h2 :content="block:heading" }}
+                    </div>
+                {{ /if }}
+                {{ if block:text }}
+                    <div data-reveal-item>
+                        {{ partial:typography/p :content="block:text" color="text-text" class="!mb-0" }}
+                    </div>
+                {{ /if }}
             </div>
         </header>
     {{ /if }}
@@ -26,7 +43,7 @@
                 data-reveal-item
                 data-reveal-preset="card"
                 class="
-                    group relative isolate h-full flex flex-col bg-card border border-parchment-200 rounded-xl shadow-sm overflow-hidden
+                    group relative isolate h-full flex flex-col {{ card_bg }} border border-parchment-200 rounded-xl shadow-sm overflow-hidden
                     {{ switch(
                         (total_results === 1) => 'md:col-span-8 md:col-start-3',
                         (total_results === 2) => 'md:col-span-6',
@@ -44,11 +61,11 @@
                     </a>
                 {{ /button }}
 
-                {{# Optional image — 16:9 with a 4px inset, matching the
-                    tour / day card pattern. #}}
+                {{# Optional image — 4:3 with a 4px inset, matching the
+                    product / tour card pattern. #}}
                 {{ if image }}
                     <div class="relative p-1">
-                        <div class="relative w-full aspect-[16/9] rounded-lg overflow-hidden bg-foreground/15">
+                        <div class="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-foreground/15">
                             {{
                                 picture
                                 :image="image"
@@ -63,10 +80,10 @@
 
                 {{# Content #}}
                 <div class="flex-1 flex flex-col gap-3 px-5 py-6 md:px-6">
-                    {{ partial:typography/h4 :content="heading" color="text-foreground group-hover:underline" }}
+                    {{ partial:typography/h4 :content="heading" color="text-foreground" }}
 
                     {{ if text }}
-                        {{ partial:typography/p_small :content="text" class="!mb-0" }}
+                        {{ partial:typography/p_small :content="text" color="text-text" class="!mb-0" }}
                     {{ /if }}
 
                     {{ button }}

@@ -36,6 +36,8 @@ page_builder:
     id: 6320b6f334df26c7
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -57,7 +59,7 @@ page_builder:
       - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/17.5.jpg
   -
     id: mloocwbk
-    title: 'Highlights of the Gargano tour'
+    heading: 'Highlights of the Gargano tour'
     activities:
       -
         id: mlooee34
@@ -230,6 +232,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: xjmZCSqu9_pPtudw4SNdu
     title: 'What you should know'

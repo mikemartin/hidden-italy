@@ -33,6 +33,8 @@ page_builder:
     id: f971e1fa5cfc88ca
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -60,7 +62,7 @@ page_builder:
       - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture1.jpg
   -
     id: mlrbu308
-    title: 'Sicily 1 highlights'
+    heading: 'Sicily 1 highlights'
     activities:
       -
         id: mlrbvyrv
@@ -231,6 +233,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: 1rWXh02Lfz-RO1U9UPY1K
     title: 'What you should know'

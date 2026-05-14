@@ -35,6 +35,8 @@ page_builder:
     id: 16a417d2a3867e80
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -56,7 +58,7 @@ page_builder:
       - tours/puglia-puglia-in-the-spring/matera-14.jpg
   -
     id: mloqd78x
-    title: 'Puglia tour highlights'
+    heading: 'Puglia tour highlights'
     activities:
       -
         id: mloqdoo9
@@ -277,6 +279,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: iOkmFU6ExNE08DptpipsO
     title: 'Tour Leader'

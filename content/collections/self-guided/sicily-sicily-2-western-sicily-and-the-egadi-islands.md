@@ -36,6 +36,8 @@ page_builder:
     id: bfabacf57457fe16
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -57,7 +59,7 @@ page_builder:
       - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/favignana-3.jpg
   -
     id: mlrbu308
-    title: 'Sicily 2 highlights'
+    heading: 'Sicily 2 highlights'
     activities:
       -
         id: mlrbvyrv
@@ -231,6 +233,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: wsO7vjspNn15rmXVSS-UA
     title: 'What you should know'

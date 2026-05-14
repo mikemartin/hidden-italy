@@ -33,6 +33,8 @@ page_builder:
     id: 571e9603c9c2265e
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -65,7 +67,7 @@ page_builder:
       - tours/alto-adige-dolomites-1-self-guided-walk/img_8778-1773019782.jpg
   -
     id: mloocwbk
-    title: 'Highlights of the Dolomites 1 walking tour'
+    heading: 'Highlights of the Dolomites 1 walking tour'
     activities:
       -
         id: mlooee34
@@ -221,6 +223,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: xr8H6kvK8khfInzpfumk-
     title: 'What you should know'

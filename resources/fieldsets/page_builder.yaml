@@ -13,40 +13,35 @@ fields:
       sets:
         image_and_text:
           display: 'Image and text'
-          instructions: 'Image and text based blocks.'
+          instructions: 'Two-column layouts pairing copy with a photo.'
           icon: hero-image-above-text
           sets:
-            content_with_image:
-              display: 'Content with image'
-              instructions: 'Side-by-side text and image — heading, body copy and a single supporting photo. Used for letter / story panels like “It started with a walk”.'
-              icon: text-formatting-image-right
-              fields:
-                -
-                  import: content_with_image
             testimonial_overlap:
               display: 'Testimonial — image overlap'
               instructions: 'Single quote on a parchment card overlapping a portrait image. Used for founder / director quotes.'
               icon: favorite
+              image: testimonial_overlap.png
               fields:
                 -
                   import: testimonial_overlap
             image_and_text:
               display: 'Image and text'
-              instructions: 'Heading and body copy beside an image. Image side is configurable so the rows can alternate.'
+              instructions: 'Heading and body copy beside an image. Image side, aspect (landscape / tall) and surface (plain / card) are configurable so the rows can alternate or read as a story panel.'
               icon: text-formatting-image-bottom
+              image: image_and_text.png
               fields:
                 -
                   import: image_and_text
         interactive:
           display: Interactive
-          instructions: 'Interactive blocks.'
+          instructions: 'Blocks that visitors interact with — forms, contact details and linkable cards.'
           icon: programming-script-code
           sets:
             form:
               display: Form
-              instructions: 'Select and render a form.'
+              instructions: 'Statamic form with live Precognition validation, honeypot and grid field layouts. Pick which form to render.'
               icon: mail-chat-bubble-text
-              image: form.jpeg
+              image: form.png
               fields:
                 -
                   import: form
@@ -54,47 +49,44 @@ fields:
               display: 'Contact details + form'
               instructions: 'Two-column block: address, phone, email, office map on the left and a Statamic form on the right.'
               icon: mail-chat-bubble-text
+              image: contact.png
               fields:
                 -
                   import: contact
             cards:
               display: Cards
-              instructions: 'Show linkable cards with text.'
+              instructions: 'Optional heading and intro above a 1–3-column grid of linkable cards (image, heading, text, inline link).'
               icon: link
-              image: cards.jpeg
+              image: cards.png
               fields:
                 -
                   import: cards
         home:
           display: 'Marketing sections'
-          instructions: 'Hero, intro, feature grids and CTA blocks used on the homepage and other landing pages.'
+          instructions: 'Intro, feature grids, photo cards, testimonials and CTA blocks used across landing pages.'
           icon: scenery
           sets:
-            tour_banner:
-              display: 'Tour banner'
-              instructions: 'Full-bleed 700px banner with region label, headline, CTA and a map-pin location row.'
-              icon: hero-image-above-text
-              fields:
-                -
-                  import: tour_banner
-            intro:
+            benefits:
               display: Benefits
               instructions: 'Heading, intro copy and a 3- or 4-column grid of benefit tiles pulled from the Benefits collection.'
               icon: text-formatting-image-bottom
+              image: benefits.png
               fields:
                 -
-                  import: intro
+                  import: benefits
             icon_grid:
               display: 'Icon grid'
               instructions: 'Heading and a 3-column grid of inline icon tiles (icon + title + summary). Same layout as Tour Highlights but for any page.'
               icon: scenery
+              image: icon_grid.png
               fields:
                 -
-                  import: highlights
+                  import: icon_grid
             stats:
               display: Stats
-              instructions: 'Side title plus a 2-column grid of headline number + label tiles. Used for the About-page “covered some ground” panel.'
+              instructions: 'Side title plus a 2-column grid of number + label tiles. Used for the About page "covered some ground" panel.'
               icon: graph-bar-line-chart
+              image: stats.png
               fields:
                 -
                   import: stats
@@ -102,53 +94,67 @@ fields:
               display: 'People grid'
               instructions: 'Centred heading and a 4-column grid of profile cards from the People collection. Each card opens a flyout bio.'
               icon: user-multiple
+              image: people.png
               fields:
                 -
                   import: people_grid
-            tour_types:
-              display: 'Tour types'
-              instructions: 'Two linkable cards for the main tour types (e.g. Guided / Self-guided).'
+            photo_cards:
+              display: 'Photo cards'
+              instructions: 'Up to three large image cards linking out to pages or specific tours. Pages show a tour-count chip; tours show their region.'
               icon: travel-map
+              image: photo_cards.png
               fields:
                 -
-                  import: tour_types
+                  import: photo_cards
             featured_tours:
               display: 'Featured tours'
-              instructions: 'Curated grid or slider of tour entries.'
+              instructions: 'Curated 3-column grid of tour entries, swipeable on mobile. Pick the tours you want to highlight.'
               icon: scenery
+              image: featured_tours.png
               fields:
                 -
                   import: featured_tours
             testimonials:
               display: Testimonials
-              instructions: 'Three testimonial entries side-by-side.'
+              instructions: 'Optional heading and intro above three testimonial cards; swipeable on mobile. Pulls entries from the Testimonials collection.'
               icon: favorite
+              image: testimonials.png
               fields:
                 -
                   import: testimonials
             travel_tips:
               display: 'Travel tips'
-              instructions: 'Three article cards linking to blog/inspiration entries.'
+              instructions: 'Three article cards linking to Inspiration entries.'
               icon: text-formatting-image-bottom
+              image: travel_tips.png
               fields:
                 -
                   import: travel_tips
-            cta_banner:
-              display: 'CTA banner'
-              instructions: 'Full-bleed image with a centred headline and CTA button.'
-              icon: link
-              fields:
-                -
-                  import: cta_banner
             faqs:
               display: FAQs
-              instructions: 'Side-title accordion of frequently asked questions, with optional shared questions from the Questions collection.'
+              instructions: 'Side-title heading and intro beside an accordion of frequently asked questions. Common questions are appended from the Guided / Self-guided globals when the toggle is on.'
               icon: question
+              image: faqs.png
               fields:
                 -
                   import: faqs
             walking_benefits:
               display: 'Walking benefits'
-              instructions: 'Marker block — the panel itself (heading, intro, benefit tiles) is edited in the Guided / Self-guided globals. Add this block where you want it to render. Variant is picked from this listing page''s `tour collections`.'
+              instructions: 'The panel content lives in the Guided / Self-guided globals. Drop it where you want the panel to render; the variant is picked from this listing page''s Tour collections field.'
               icon: scenery
-              fields: []
+              type: walking_benefits
+              image: walking_benefits.png
+              fields:
+                -
+                  handle: tour_type
+                  field:
+                    type: button_group
+                    display: 'Tour Type'
+                    default: auto
+                    options:
+                      self-guided: 'Self-guided'
+                      guided: Guided
+                      auto: Automatic
+                    instructions: 'Display benefits by Tour Type, or pick `Automatic` and we''ll show the right ones automatically.'
+                -
+                  import: section_settings

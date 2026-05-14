@@ -1,17 +1,23 @@
 {{#
     @name Image and text
     @desc Two-column section with a heading + body copy beside a media tile.
-          Image side is configurable per block so a stack of these can
-          alternate (image-left, image-right, image-left). On mobile the
-          row collapses to image-above-text.
+          Image side and aspect ratio are configurable per block.
+          Surface treatment now comes from the shared section_settings
+          convention via `_block.antlers.html`: set
+          `section_background: light` to wrap the section in a parchment
+          panel — used for letter / story panels like the About page's
+          "It started with a walk".
     @set page.page_builder.image_and_text
 #}}
 
 <!-- /page_builder/_image_and_text.antlers.html -->
+{{ is_tall = block:image_aspect == 'tall' }}
+{{ image_aspect_class = is_tall ? 'aspect-[4/3] lg:aspect-[5/6]' : 'aspect-[4/3]' }}
+
 {{ partial:page_builder/block }}
     <div
         class="
-            span-content grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center
+            span-content grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 lg:gap-x-24 items-center
             {{ if block:image_position == 'right' }}
                 md:[&>figure]:order-2
             {{ /if }}
@@ -21,17 +27,17 @@
         data-reveal-stagger="120"
     >
         <figure class="m-0" data-reveal-item>
-            {{ if block:image }}
-                {{ picture
-                    :image="block:image"
-                    class="w-full h-auto rounded-2xl aspect-[4/3] object-cover bg-parchment-200"
-                    cover="true"
-                    sizes="(min-width: 768px) 50vw, 100vw"
-                    loading="lazy"
-                }}
-            {{ else }}
-                <div class="w-full aspect-[4/3] rounded-2xl bg-parchment-200" aria-hidden="true"></div>
-            {{ /if }}
+            <div class="relative w-full overflow-hidden rounded-2xl bg-parchment-200 ring-1 ring-inset ring-black/5 {{ image_aspect_class }}">
+                {{ if block:image }}
+                    {{ picture
+                        :image="block:image"
+                        class="absolute inset-0 w-full h-full object-cover"
+                        cover="true"
+                        sizes="(min-width: 768px) 50vw, 100vw"
+                        loading="lazy"
+                    }}
+                {{ /if }}
+            </div>
         </figure>
 
         <div class="flex flex-col gap-4 md:gap-6">

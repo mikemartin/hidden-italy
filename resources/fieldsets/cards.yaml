@@ -7,6 +7,9 @@ fields:
       localizable: true
       display: Heading
   -
+    handle: text
+    field: common.text_plain
+  -
     handle: cards
     field:
       reorderable: true
@@ -54,3 +57,5 @@ fields:
                     display: Link
                     instructions: 'Renders as an inline link on the card.'
                     max_sets: 1
+  -
+    import: section_settings

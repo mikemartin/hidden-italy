@@ -8,6 +8,9 @@ fields:
       display: Heading
       default: 'What our travellers are saying'
   -
+    handle: text
+    field: common.text_plain
+  -
     handle: testimonials
     field:
       type: entries
@@ -20,3 +23,5 @@ fields:
         - required
       collections:
         - testimonials
+  -
+    import: section_settings

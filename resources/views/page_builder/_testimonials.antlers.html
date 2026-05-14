@@ -7,6 +7,11 @@
     @set page.page_builder.testimonials
 #}}
 
+{{# Light-panel inversion — testimonial cards accept a `color` param,
+    so we pass `bg-background` (parchment-100) inside a light panel
+    and `bg-card` otherwise. #}}
+{{ card_color = (block:section_background ?? 'none') == 'light' ? 'bg-background' : 'bg-card' }}
+
 <!-- /page_builder/_testimonials.antlers.html -->
 {{ if block:testimonials }}
     {{ partial:page_builder/block block_id="reviews" class="gap-y-12" }}
@@ -35,11 +40,18 @@
                 destroy() { this.splide?.destroy() },
             }"
         >
-            {{ if block:heading }}
-                <header class="span-content" x-reveal>
-                    <div data-reveal-item data-reveal-preset="h1">
-                        {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
-                    </div>
+            {{ if block:heading || block:text }}
+                <header class="span-content flex flex-col gap-4" x-reveal>
+                    {{ if block:heading }}
+                        <div data-reveal-item data-reveal-preset="h1">
+                            {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
+                        </div>
+                    {{ /if }}
+                    {{ if block:text }}
+                        <div data-reveal-item>
+                            {{ partial:typography/p :content="block:text" color="text-text" class="!mb-0" }}
+                        </div>
+                    {{ /if }}
                 </header>
             {{ /if }}
 
@@ -51,7 +63,7 @@
                         <ul class="splide__list md:grid md:grid-cols-3 md:gap-fluid-grid-gap">
                             {{ block:testimonials }}
                                 <li class="splide__slide">
-                                    {{ partial:components/testimonial-card color="bg-card" }}
+                                    {{ partial:components/testimonial-card :color="card_color" }}
                                 </li>
                             {{ /block:testimonials }}
                         </ul>

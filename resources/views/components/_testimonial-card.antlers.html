@@ -1,20 +1,28 @@
 {{#
     @name Testimonial card
     @desc Reusable testimonial card. Renders inside any context that exposes
-          testimonial-entry fields directly. Five-star row, the entry's
-          `title` as the lead excerpt, the longer `quote` as the body, and
-          the traveller's `name` plus the linked `tour` (used as the
-          country/source line until a dedicated `country` field is added).
+          testimonial-entry fields directly. Star row reflects the entry's
+          `rating` (defaults to 5), the `title` is the lead excerpt, `quote`
+          the longer body, and `name` + optional `source` label sit in the
+          footer. `source` maps to Google / Trip Advisor / Hidden Italy
+          direct so the page can credit external review sources.
 #}}
 
 <!-- /components/_testimonial-card.antlers.html -->
+{{ rating_value = rating ?? 5 }}
+{{ source_label = switch(
+    (source == 'google') => 'via Google',
+    (source == 'trip_advisor') => 'via Trip Advisor',
+    () => ''
+) }}
+
 <figure class="h-full flex flex-col gap-5 p-6 md:p-7 {{ color ?? 'bg-card' }} border border-parchment-200 rounded-xl shadow-sm">
-    <div class="flex items-center gap-1 text-gold" aria-label="5 out of 5 stars">
-        <x-lucide-star class="size-5 fill-current" aria-hidden="true" />
-        <x-lucide-star class="size-5 fill-current" aria-hidden="true" />
-        <x-lucide-star class="size-5 fill-current" aria-hidden="true" />
-        <x-lucide-star class="size-5 fill-current" aria-hidden="true" />
-        <x-lucide-star class="size-5 fill-current" aria-hidden="true" />
+    <div class="flex items-center gap-1 text-gold" aria-label="{{ rating_value }} out of 5 stars">
+        {{ if rating_value >= 1 }}<x-lucide-star class="size-5 fill-current" aria-hidden="true" />{{ else }}<x-lucide-star class="size-5 text-parchment-300" aria-hidden="true" />{{ /if }}
+        {{ if rating_value >= 2 }}<x-lucide-star class="size-5 fill-current" aria-hidden="true" />{{ else }}<x-lucide-star class="size-5 text-parchment-300" aria-hidden="true" />{{ /if }}
+        {{ if rating_value >= 3 }}<x-lucide-star class="size-5 fill-current" aria-hidden="true" />{{ else }}<x-lucide-star class="size-5 text-parchment-300" aria-hidden="true" />{{ /if }}
+        {{ if rating_value >= 4 }}<x-lucide-star class="size-5 fill-current" aria-hidden="true" />{{ else }}<x-lucide-star class="size-5 text-parchment-300" aria-hidden="true" />{{ /if }}
+        {{ if rating_value >= 5 }}<x-lucide-star class="size-5 fill-current" aria-hidden="true" />{{ else }}<x-lucide-star class="size-5 text-parchment-300" aria-hidden="true" />{{ /if }}
     </div>
 
     <blockquote class="flex flex-col gap-4">
@@ -40,10 +48,8 @@
         {{ if name }}
             {{ partial:typography/p_small :content="name" as="span" color="text-foreground" class="!mb-0" }}
         {{ /if }}
-        {{ if tour }}
-            {{ tour }}
-                {{ partial:typography/p_small small="true" :content="name" as="span" color="text-muted" class="!mb-0" }}
-            {{ /tour }}
+        {{ if source_label }}
+            {{ partial:typography/p_small small="true" :content="source_label" as="span" color="text-muted" class="!mb-0" }}
         {{ /if }}
     </figcaption>
 </figure>

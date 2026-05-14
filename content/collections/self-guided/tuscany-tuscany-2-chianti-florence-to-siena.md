@@ -35,6 +35,8 @@ page_builder:
     id: 4eed94c65680973d
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -62,7 +64,7 @@ page_builder:
       - tours/tuscany-tuscany-2-chianti-florence-to-siena/016.jpg
   -
     id: mloocwbk
-    title: 'Highlights of Tuscany 2'
+    heading: 'Highlights of Tuscany 2'
     activities:
       -
         id: mlooee34
@@ -231,6 +233,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: rghhMRzfeQqYDLSL0r0ef
     title: 'What you should know'

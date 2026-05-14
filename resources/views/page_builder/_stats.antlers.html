@@ -13,22 +13,16 @@
 #}}
 
 <!-- /page_builder/_stats.antlers.html -->
-{{# `no-space-y` collapses the page-builder's stack gap on both sides so
-    the bg-card stats panel butts up against the panels above and below
-    it (forming a continuous card surface with the prior block, or
-    sitting flush against a contrasting band that follows). The optional
-    `top_border` toggle renders a thin parchment-200 hairline as the
-    first row of the fluid-grid, scoped to `span-content` so the line
-    only spans the centred content column rather than going edge-to-edge.
-    Vertical padding moves to the inner content div so the divider sits
-    cleanly at the section's top edge instead of inside the padding. #}}
+{{# Section background + topography come from the shared
+    `section_settings` convention via `_block.antlers.html`. The
+    optional `top_border` toggle renders a thin parchment-200
+    hairline as the first row of the fluid-grid, scoped to
+    `span-content`. Vertical padding moves to the inner content div
+    so the divider sits cleanly at the section's top edge instead of
+    inside the padding. #}}
 {{ if block:stats }}
-    {{ partial:page_builder/block class="no-space-y bg-card" }}
-        {{ if block:top_border }}
-            <div class="span-content border-t border-parchment-200" aria-hidden="true"></div>
-        {{ /if }}
-
-        <div class="span-content py-12 md:py-16 lg:py-20 grid grid-cols-1 lg:grid-cols-12 gap-y-10 lg:gap-x-16 items-start">
+    {{ partial:page_builder/block }}
+        <div class="span-content grid grid-cols-1 lg:grid-cols-12 gap-y-10 lg:gap-x-16 items-start">
             {{ if block:heading }}
                 <header class="lg:col-span-5" x-data x-reveal>
                     <div data-reveal-item data-reveal-preset="h1">

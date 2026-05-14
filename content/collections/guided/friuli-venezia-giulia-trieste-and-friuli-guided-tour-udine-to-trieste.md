@@ -34,6 +34,8 @@ page_builder:
     id: f283973a7502079d
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -55,7 +57,7 @@ page_builder:
       - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/68a-2.jpg
   -
     id: mloqd78x
-    title: 'Trieste and Friuli guided tour'
+    heading: 'Trieste and Friuli guided tour'
     activities:
       -
         id: mloqdoo9
@@ -277,6 +279,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: YEFY7hZMnIxanwuc-b1Gz
     title: 'Tour Leader'

@@ -36,6 +36,8 @@ page_builder:
     id: 3f075a03e0307a8c
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -53,7 +55,7 @@ page_builder:
       - tours/liguria-cinque-terre-coastal-walking-tour/44.jpg
   -
     id: mloocwbk
-    title: 'Highlights of the Cinque Terre Coastal walk'
+    heading: 'Highlights of the Cinque Terre Coastal walk'
     activities:
       -
         id: mlooee34
@@ -213,6 +215,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: eh8PmKp4Cq_7wwiLYbnlP
     title: 'What you should know'

@@ -36,3 +36,5 @@ fields:
       localizable: true
       display: Role
       instructions: "e.g. ‘Director, Hidden Italy’."
+  -
+    import: section_settings_with_dark

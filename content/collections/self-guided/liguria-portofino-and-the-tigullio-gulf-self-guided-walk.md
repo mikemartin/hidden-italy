@@ -34,6 +34,8 @@ page_builder:
     id: f9ea4fc3e2cfc853
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -61,7 +63,7 @@ page_builder:
       - tours/liguria-cinque-terre-coastal-walking-tour/img_4819.jpg
   -
     id: mloocwbk
-    title: 'Portofino and the Tigullio Gulf self-guided walk'
+    heading: 'Portofino and the Tigullio Gulf self-guided walk'
     activities:
       -
         id: mlooee34
@@ -211,6 +213,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: B3WYPPy01qA_l3x-6nGIy
     title: 'What you should know'

@@ -1,0 +1,364 @@
+{{#
+    @name Sitemap audit
+    @desc Walks through each top-level page in the original sitemap (Home,
+          About, Tours index, Tour entry, Enquiry) and checks which scope
+          items are implemented today, partially in place, or missing.
+          Companion to /page-builder-sections, but scoped to features rather
+          than reusable blocks.
+#}}
+
+<!-- /sitemap-audit.antlers.html -->
+<main id="content" class="py-12 md:py-16 lg:py-24">
+    <section class="fluid-grid">
+        <div class="span-content stack-16">
+
+            {{# Page header #}}
+            <div class="bg-parchment-200 p-8 md:p-12 rounded-lg">
+                {{ partial:typography/h1
+                    content="Sitemap audit"
+                    class="mb-4 md:text-7xl tracking-[-0.03em]"
+                }}
+                {{ partial:typography/p
+                    content="Each top-level page from the original Hidden Italy sitemap, with every scope item marked as Included, Partial or Missed against what's actually built today. Use this alongside /page-builder-sections to see which sets are wired up and which features still need work."
+                    class="!mb-0"
+                }}
+            </div>
+
+            {{# Summary tiles — counts roll up from the per-page tables below. #}}
+            <section class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-parchment-100 border border-neutral/10 rounded-lg p-6">
+                    <div class="text-3xl font-semibold text-foreground">5</div>
+                    <div class="text-sm text-foreground/70 mt-1">Sitemap pages audited</div>
+                </div>
+                <div class="bg-parchment-100 border border-neutral/10 rounded-lg p-6">
+                    <div class="text-3xl font-semibold text-green-700">20</div>
+                    <div class="text-sm text-foreground/70 mt-1">Scope items included</div>
+                </div>
+                <div class="bg-parchment-100 border border-neutral/10 rounded-lg p-6">
+                    <div class="text-3xl font-semibold text-amber-700">6</div>
+                    <div class="text-sm text-foreground/70 mt-1">Partially in place</div>
+                </div>
+                <div class="bg-parchment-100 border border-neutral/10 rounded-lg p-6">
+                    <div class="text-3xl font-semibold text-red-700">4</div>
+                    <div class="text-sm text-foreground/70 mt-1">Missed</div>
+                </div>
+            </section>
+
+            {{# Legend #}}
+            <section class="stack-4">
+                {{ partial:typography/h2 content="How to read this page" }}
+                <div class="bg-parchment-100 border border-neutral/10 rounded-lg p-6 md:p-8 stack-4">
+                    <p class="text-sm leading-[1.6] text-foreground/80">
+                        Each page section lists the scope items from the original sitemap, with a status pill and a short note pointing at the file or set responsible for the implementation.
+                    </p>
+                    <ul class="flex flex-wrap gap-3 text-xs">
+                        <li class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-100 text-green-800 font-medium">
+                            <span class="w-2 h-2 rounded-full bg-green-600"></span> Included — built and reachable on the page
+                        </li>
+                        <li class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-100 text-amber-800 font-medium">
+                            <span class="w-2 h-2 rounded-full bg-amber-600"></span> Partial — block / feature exists but missing details
+                        </li>
+                        <li class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-100 text-red-800 font-medium">
+                            <span class="w-2 h-2 rounded-full bg-red-600"></span> Missed — no implementation yet
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            {{# ============================================================ #}}
+            {{# HOMEPAGE                                                     #}}
+            {{# ============================================================ #}}
+            <section class="stack-6">
+                {{ partial:typography/h2 content="Homepage" }}
+                <p class="text-sm leading-[1.6] text-foreground/70">
+                    Source: <code class="font-mono text-xs">content/collections/pages/home.md</code> · template <code class="font-mono text-xs">resources/views/home.antlers.html</code>.
+                </p>
+
+                <div class="overflow-x-auto bg-parchment-100 border border-neutral/10 rounded-lg">
+                    <table class="w-full text-sm">
+                        <thead class="bg-parchment-200 text-xs uppercase tracking-wide text-foreground/70">
+                            <tr>
+                                <th class="px-4 py-3 text-left">Original scope</th>
+                                <th class="px-4 py-3 text-left">Status</th>
+                                <th class="px-4 py-3 text-left">Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-neutral/10">
+                            <tr>
+                                <td class="px-4 py-3 align-top">Headline with hero video</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-amber-600"></span> Partial</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80">Hero exists (<code class="font-mono text-xs">home/_hero.antlers.html</code>) — rotating image carousel via Splide. No video field on the home blueprint.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Link to Explore All Tours</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80">Hero CTA + <code class="font-mono text-xs">photo_cards</code> block both link out to the tours index.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">3 reasons to tour with Hidden Italy</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80"><code class="font-mono text-xs">intro</code> (Benefits) set with 3-column layout, pulls 3 entries from the Benefits collection.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Testimonials with ratings (Google + our own)</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80"><code class="font-mono text-xs">testimonials</code> block renders the testimonial card with a per-entry star <code class="font-mono text-xs">rating</code> (1–5, defaults to 5) and a <code class="font-mono text-xs">source</code> select (Hidden Italy direct / Google / Trip Advisor). Source shows as "via …" beside the name.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Special offers with links to Tour Promotions and Shop</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-amber-600"></span> Partial</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80">"Special Offers" <code class="font-mono text-xs">cards</code> block surfaces two Product entries linking to <code class="font-mono text-xs">/shop/{slug}</code> plus a 2027-booking card linking to the Guided tours pillar page (mirroring the site-wide announcement banner).</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            {{# ============================================================ #}}
+            {{# ABOUT                                                        #}}
+            {{# ============================================================ #}}
+            <section class="stack-6">
+                {{ partial:typography/h2 content="About" }}
+                <p class="text-sm leading-[1.6] text-foreground/70">
+                    Source: <code class="font-mono text-xs">content/collections/pages/about.md</code> · default page-builder template.
+                </p>
+
+                <div class="overflow-x-auto bg-parchment-100 border border-neutral/10 rounded-lg">
+                    <table class="w-full text-sm">
+                        <thead class="bg-parchment-200 text-xs uppercase tracking-wide text-foreground/70">
+                            <tr>
+                                <th class="px-4 py-3 text-left">Original scope</th>
+                                <th class="px-4 py-3 text-left">Status</th>
+                                <th class="px-4 py-3 text-left">Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-neutral/10">
+                            <tr>
+                                <td class="px-4 py-3 align-top">Story of how we started</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80"><code class="font-mono text-xs">image_and_text</code> (card surface, tall image) — "It started with a walk".</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Metrics (active tours, years, guests, km, return business)</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-amber-600"></span> Partial</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80"><code class="font-mono text-xs">stats</code> block has 4 tiles: years walking, tours, guests, km. Return business metric is missing.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">8 reasons to tour with Hidden Italy</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80"><code class="font-mono text-xs">intro</code> (Benefits) set with 4-column layout, 8 entries from the Benefits collection.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Team / tour guides with a fun fact</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-amber-600"></span> Partial</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80"><code class="font-mono text-xs">people_grid</code> renders 16 profiles with flyout bios. No <code class="font-mono text-xs">fun_fact</code> field on the Person blueprint.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Testimonials about tour guides</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-amber-600"></span> Partial</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80"><code class="font-mono text-xs">testimonials</code> block exists. No guide-attribution field on the testimonial blueprint to filter on, so the set is curated manually.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            {{# ============================================================ #}}
+            {{# TOURS INDEX                                                  #}}
+            {{# ============================================================ #}}
+            <section class="stack-6">
+                {{ partial:typography/h2 content="Tours index" }}
+                <p class="text-sm leading-[1.6] text-foreground/70">
+                    Source: <code class="font-mono text-xs">content/collections/pages/guided.md</code>, <code class="font-mono text-xs">self-guided.md</code> · template <code class="font-mono text-xs">resources/views/tours/index.antlers.html</code>.
+                </p>
+
+                <div class="overflow-x-auto bg-parchment-100 border border-neutral/10 rounded-lg">
+                    <table class="w-full text-sm">
+                        <thead class="bg-parchment-200 text-xs uppercase tracking-wide text-foreground/70">
+                            <tr>
+                                <th class="px-4 py-3 text-left">Original scope</th>
+                                <th class="px-4 py-3 text-left">Status</th>
+                                <th class="px-4 py-3 text-left">Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-neutral/10">
+                            <tr>
+                                <td class="px-4 py-3 align-top">Destination overview with hero photo + view-tours link</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-red-100 text-red-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-red-600"></span> Missed</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80">Index opens with the filter card and tour grid — no destination-led hero or overview module.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Filters: where / when / how hard</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80"><code class="font-mono text-xs">components/tour-filters</code> drives Locations, Seasons, Grade (difficulty) and Landscapes via Statamic Livewire Filters.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Tour list: days, size, cost, date (guided only)</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80"><code class="font-mono text-xs">components/_tour-card</code> renders the chips. Dates display on guided tours; self-guided shows "From" pricing.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Testimonials with ratings (Trip Advisor + Google)</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-amber-600"></span> Partial</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80">Rating and source fields now exist on the testimonial blueprint, but no <code class="font-mono text-xs">testimonials</code> block is placed on the listing pages yet.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Why tour with us — 24/7 support, no hidden costs, central accommodation, baggage transfer, private transfers</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80"><code class="font-mono text-xs">walking_benefits</code> marker block renders the panel from the matching Guided / Self-guided global. Editors maintain the benefit list in the global.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            {{# ============================================================ #}}
+            {{# TOUR ENTRY                                                   #}}
+            {{# ============================================================ #}}
+            <section class="stack-6">
+                {{ partial:typography/h2 content="Tour entry" }}
+                <p class="text-sm leading-[1.6] text-foreground/70">
+                    Source: <code class="font-mono text-xs">content/collections/guided/*.md</code>, <code class="font-mono text-xs">self-guided/*.md</code> · template <code class="font-mono text-xs">resources/views/tours/show.antlers.html</code>.
+                </p>
+
+                <div class="overflow-x-auto bg-parchment-100 border border-neutral/10 rounded-lg">
+                    <table class="w-full text-sm">
+                        <thead class="bg-parchment-200 text-xs uppercase tracking-wide text-foreground/70">
+                            <tr>
+                                <th class="px-4 py-3 text-left">Original scope</th>
+                                <th class="px-4 py-3 text-left">Status</th>
+                                <th class="px-4 py-3 text-left">Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-neutral/10">
+                            <tr>
+                                <td class="px-4 py-3 align-top">Tour summary with photo gallery</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80"><code class="font-mono text-xs">components/tour_summary</code> + <code class="font-mono text-xs">gallery</code> field on the tour blueprint.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Wishlist save (login-gated)</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-amber-600"></span> Partial</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80">Wishlist heart exists on listing cards ({{ noparse }}<code class="font-mono text-xs">{{ simple_like }}</code>{{ /noparse }}) and <code class="font-mono text-xs">/wishlist</code> route is in the nav. No save action on the tour entry page itself.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Tour overview and inclusions (days, date, size, cost)</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80"><code class="font-mono text-xs">overview</code> page-builder set + tour_summary chips.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Location of the tour and finish-point map</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80">Rendered inside the <code class="font-mono text-xs">experience</code> set's Walk tab — MapLibre map driven by <code class="font-mono text-xs">start_location</code> / <code class="font-mono text-xs">finish_location</code>, with Start / Finish labels below.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Day-by-day itinerary</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80"><code class="font-mono text-xs">itinerary</code> page-builder set renders a Splide carousel of day cards (walk / accommodation / food rows).</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">About the tour guide</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80"><code class="font-mono text-xs">leader</code> page-builder set pulls the Person entry.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Testimonials about this tour</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80">Inline <code class="font-mono text-xs">testimonials</code> set on the tour blueprint. (Audit recommends importing the shared fieldset.)</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">4 reasons to tour with Hidden Italy</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80">Auto-rendered <code class="font-mono text-xs">walking_benefits</code> panel from the matching Guided / Self-guided global. Sits outside the editor's page builder so it's always present.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Links to Travel Tip articles</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-red-100 text-red-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-red-600"></span> Missed</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80"><code class="font-mono text-xs">travel_tips</code> set lives in the main page builder but isn't wired into the tour blueprint or the auto-rendered show template.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">Link to enquiry form (name, email, phone, comments)</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80">Make-an-enquiry CTA in the sticky section nav opens the booking modal (logged-out) or links to <code class="font-mono text-xs">/booking?tour=&lt;slug&gt;</code> (logged-in).</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">FAQs related to the tour</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Included</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80"><code class="font-mono text-xs">faqs</code> page-builder set + common questions appended from the Guided / Self-guided globals.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            {{# ============================================================ #}}
+            {{# ENQUIRY                                                      #}}
+            {{# ============================================================ #}}
+            <section class="stack-6">
+                {{ partial:typography/h2 content="Enquiry" }}
+                <p class="text-sm leading-[1.6] text-foreground/70">
+                    Source: <code class="font-mono text-xs">content/collections/pages/booking.md</code> · template <code class="font-mono text-xs">resources/views/booking/index.antlers.html</code> · form blueprint <code class="font-mono text-xs">resources/blueprints/forms/booking_enquiry.yaml</code>.
+                </p>
+
+                <div class="overflow-x-auto bg-parchment-100 border border-neutral/10 rounded-lg">
+                    <table class="w-full text-sm">
+                        <thead class="bg-parchment-200 text-xs uppercase tracking-wide text-foreground/70">
+                            <tr>
+                                <th class="px-4 py-3 text-left">Original scope</th>
+                                <th class="px-4 py-3 text-left">Status</th>
+                                <th class="px-4 py-3 text-left">Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-neutral/10">
+                            <tr>
+                                <td class="px-4 py-3 align-top">Booking enquiry form (location, tour type, name, email, message)</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-amber-600"></span> Partial</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80">Form has name, email, phone, tour (specific entry picker) and message_body. No separate Location or Tour-type fields — those are implied by the tour picker.</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 align-top">FAQs related to enquiries</td>
+                                <td class="px-4 py-3 align-top"><span class="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-red-100 text-red-800 text-xs font-medium"><span class="w-1.5 h-1.5 rounded-full bg-red-600"></span> Missed</span></td>
+                                <td class="px-4 py-3 align-top text-foreground/80">Booking page has no page-builder content. The <code class="font-mono text-xs">faqs</code> set would slot in once enquiry-specific questions are written.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            {{# ============================================================ #}}
+            {{# ROLL-UP                                                      #}}
+            {{# ============================================================ #}}
+            <section class="stack-6">
+                {{ partial:typography/h2 content="Top gaps" }}
+                <p class="text-sm leading-[1.6] text-foreground/70">
+                    Themes that surface across multiple pages and feel worth picking up next.
+                </p>
+
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <li class="bg-parchment-100 border border-neutral/10 rounded-lg p-6 stack-2">
+                        <div class="text-xs font-medium uppercase tracking-wide text-primary">Homepage</div>
+                        <h3 class="text-base font-semibold text-foreground">Tour Promotions</h3>
+                        <p class="text-sm text-foreground/80 leading-[1.6]">The "From the Shop" cards block now covers products, but the original sitemap also called for Tour Promotions. A Promotions collection (or a flag on tour entries) + a promo strip on the homepage would round this out.</p>
+                    </li>
+                    <li class="bg-parchment-100 border border-neutral/10 rounded-lg p-6 stack-2">
+                        <div class="text-xs font-medium uppercase tracking-wide text-primary">Tour entry</div>
+                        <h3 class="text-base font-semibold text-foreground">Wishlist on the entry page</h3>
+                        <p class="text-sm text-foreground/80 leading-[1.6]">The card-level <code class="font-mono text-xs">simple_like</code> heart isn't surfaced on the show template — drop it into the tour banner or summary so the entry matches the listing.</p>
+                    </li>
+                    <li class="bg-parchment-100 border border-neutral/10 rounded-lg p-6 stack-2">
+                        <div class="text-xs font-medium uppercase tracking-wide text-primary">About</div>
+                        <h3 class="text-base font-semibold text-foreground">Person fun fact</h3>
+                        <p class="text-sm text-foreground/80 leading-[1.6]">Add a <code class="font-mono text-xs">fun_fact</code> text field to the Person blueprint and surface it in the people grid flyout.</p>
+                    </li>
+                    <li class="bg-parchment-100 border border-neutral/10 rounded-lg p-6 stack-2">
+                        <div class="text-xs font-medium uppercase tracking-wide text-primary">Tours index</div>
+                        <h3 class="text-base font-semibold text-foreground">Destination overview block</h3>
+                        <p class="text-sm text-foreground/80 leading-[1.6]">A short hero / overview block at the top of the index (above the filter card), driven by the listing page's headline + intro fields.</p>
+                    </li>
+                </ul>
+            </section>
+
+        </div>
+    </section>
+</main>
+<!-- End: /sitemap-audit.antlers.html -->

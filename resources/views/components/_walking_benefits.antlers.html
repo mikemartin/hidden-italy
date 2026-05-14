@@ -14,53 +14,51 @@
 
 <!-- /components/_walking_benefits.antlers.html -->
 {{ if benefits }}
-    <section class="fluid-grid bg-parchment-100 py-16 md:py-20 lg:py-30">
-        <div class="span-content grid grid-cols-1 lg:grid-cols-12 gap-y-10">
-            <header class="lg:col-span-5 flex flex-col gap-6" x-data x-reveal>
-                {{ if heading }}
-                    <div data-reveal-item data-reveal-preset="h1">
-                        {{ partial:typography/h2 :content="heading" color="text-foreground" }}
-                    </div>
-                {{ /if }}
+    <div class="span-content grid grid-cols-1 lg:grid-cols-12 gap-y-10">
+        <header class="lg:col-span-5 flex flex-col gap-6" x-data x-reveal>
+            {{ if heading }}
+                <div data-reveal-item data-reveal-preset="h1">
+                    {{ partial:typography/h2 :content="heading" color="text-foreground" }}
+                </div>
+            {{ /if }}
 
-                {{ if intro }}
-                    <p data-reveal-item class="font-sans text-base md:text-lg leading-[1.6] text-text text-pretty">
-                        {{ intro | nl2br }}
-                    </p>
-                {{ /if }}
-            </header>
+            {{ if intro }}
+                <p data-reveal-item class="font-sans text-base md:text-lg leading-[1.6] text-text text-pretty">
+                    {{ intro | nl2br }}
+                </p>
+            {{ /if }}
+        </header>
 
-            <ul class="lg:col-start-7 lg:col-span-6 flex flex-col gap-10 md:gap-12" x-data x-reveal data-reveal-stagger="80">
-                {{ benefits }}
-                    <li class="flex items-start gap-6 md:gap-9" data-reveal-item data-reveal-preset="card">
-                        {{ if icon }}
-                            {{ icon }}
-                                <div class="shrink-0 flex items-center justify-center size-[65px] rounded-full bg-parchment-200 text-accent-2">
-                                    {{ svg
-                                        src="icons/{path}"
-                                        attr:class="size-10 fill-current"
-                                        attr:aria-hidden="true"
-                                        attr:role="img"
-                                    }}
-                                </div>
-                            {{ /icon }}
+        <ul class="lg:col-start-7 lg:col-span-6 flex flex-col gap-10 md:gap-12" x-data x-reveal data-reveal-stagger="80">
+            {{ benefits }}
+                <li class="flex items-start gap-6 md:gap-9" data-reveal-item data-reveal-preset="card">
+                    {{ if icon }}
+                        {{ icon }}
+                            <div class="shrink-0 flex items-center justify-center size-[65px] rounded-full bg-parchment-200 text-accent-2">
+                                {{ svg
+                                    src="icons/{path}"
+                                    attr:class="size-10 fill-current"
+                                    attr:aria-hidden="true"
+                                    attr:role="img"
+                                }}
+                            </div>
+                        {{ /icon }}
+                    {{ /if }}
+
+                    <div class="flex-1 flex flex-col gap-3">
+                        {{ if title }}
+                            {{ partial:typography/h4 :content="title" color="text-foreground" }}
                         {{ /if }}
 
-                        <div class="flex-1 flex flex-col gap-3">
-                            {{ if title }}
-                                {{ partial:typography/h4 :content="title" color="text-foreground" }}
-                            {{ /if }}
-
-                            {{ if description }}
-                                <p class="font-sans text-base leading-[1.5] text-text">
-                                    {{ description | nl2br }}
-                                </p>
-                            {{ /if }}
-                        </div>
-                    </li>
-                {{ /benefits }}
-            </ul>
-        </div>
-    </section>
+                        {{ if description }}
+                            <p class="font-sans text-base leading-[1.5] text-text">
+                                {{ description | nl2br }}
+                            </p>
+                        {{ /if }}
+                    </div>
+                </li>
+            {{ /benefits }}
+        </ul>
+    </div>
 {{ /if }}
 <!-- End: /components/_walking_benefits.antlers.html -->

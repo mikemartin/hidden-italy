@@ -34,6 +34,8 @@ page_builder:
     id: 6be6f526a409c6b0
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -73,7 +75,7 @@ page_builder:
       - tours/liguria-italian-riviera-1-self-guided-walk/18.jpg
   -
     id: mloocwbk
-    title: 'Highlights of the Italian Riviera 1 tour'
+    heading: 'Highlights of the Italian Riviera 1 tour'
     activities:
       -
         id: mlooee34
@@ -250,6 +252,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: '-fl9-vw6v0O0na9-d8v_W'
     title: 'What you should know'

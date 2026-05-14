@@ -26,3 +26,5 @@ fields:
       instructions: 'Pick the team members to feature. Lay out as a 4-column grid on desktop.'
       validate:
         - required
+  -
+    import: section_settings

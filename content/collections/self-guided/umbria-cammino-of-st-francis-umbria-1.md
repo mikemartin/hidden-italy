@@ -34,6 +34,8 @@ page_builder:
     id: 937814bc35a90252
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -58,7 +60,7 @@ page_builder:
       - tours/umbria-cammino-of-st-francis-umbria-1/14.jpg
   -
     id: mloocwbk
-    title: 'Highlights of the Umbria 1 walk'
+    heading: 'Highlights of the Umbria 1 walk'
     activities:
       -
         id: mlooee34
@@ -216,6 +218,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: LCdYovs0RVLjAVOSHR8sC
     title: 'What you should know'

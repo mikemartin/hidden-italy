@@ -34,6 +34,8 @@ page_builder:
     id: 0450d451adcf794b
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -55,7 +57,7 @@ page_builder:
       - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2920.jpg
   -
     id: mloqd78x
-    title: 'Abruzzo and Molise guided tour'
+    heading: 'Abruzzo and Molise guided tour'
     activities:
       -
         id: mloqdoo9
@@ -265,6 +267,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: aYXCAIktLPE-ML89McjqM
     title: 'Tour Leader'

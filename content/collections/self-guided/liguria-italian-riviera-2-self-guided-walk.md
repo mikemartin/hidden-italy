@@ -35,6 +35,8 @@ page_builder:
     id: efff12fdf0e81c24
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -59,7 +61,7 @@ page_builder:
       - tours/alto-adige-dolomites-1-self-guided-walk-1-1/shutterstock_1172539480-a.jpg
   -
     id: mloocwbk
-    title: 'Highlights of the Italian Riviera 2 tour'
+    heading: 'Highlights of the Italian Riviera 2 tour'
     activities:
       -
         id: mlooee34
@@ -286,6 +288,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: 3oo4TYIvgLhZtee48HxI_
     title: 'What you should know'

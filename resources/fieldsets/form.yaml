@@ -20,3 +20,5 @@ fields:
       display: Form
       validate:
         - required
+  -
+    import: section_settings

@@ -1,0 +1,55 @@
+title: Benefits
+fields:
+  -
+    handle: heading
+    field:
+      type: text
+      localizable: true
+      display: Heading
+      validate:
+        - required
+  -
+    handle: intro
+    field:
+      buttons:
+        - bold
+        - italic
+        - anchor
+      type: bard
+      localizable: true
+      display: Intro
+      instructions: 'Supporting paragraph below the heading.'
+      remove_empty_nodes: true
+      smart_typography: true
+  -
+    handle: columns
+    field:
+      type: button_group
+      localizable: true
+      display: Columns
+      instructions: 'Number of benefit columns on desktop.'
+      default: '3'
+      options:
+        '3': '3 columns'
+        '4': '4 columns'
+      width: 50
+  -
+    handle: benefits
+    field:
+      type: entries
+      localizable: true
+      display: Benefits
+      collections:
+        - benefits
+      max_items: 8
+      instructions: 'Pick benefits from the Benefits collection. Use a multiple of the column count (3 or 4) for a clean grid.'
+      validate:
+        - required
+  -
+    handle: buttons
+    field: buttons.buttons
+    config:
+      display: 'Call to action'
+      max_sets: 2
+  -
+    import: section_settings

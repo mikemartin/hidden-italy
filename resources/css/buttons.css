@@ -55,16 +55,14 @@
         @apply decoration-foreground;
     }
 
-    /* Small variant — drops the label to 14px and the optional icon to
-       match. Use when the inline button sits in dense UI alongside body
-       copy in the 13–15px range (e.g. filter card meta row). */
+    /* Small variant — matches the project's `p_small` typography tier
+       (text-sm on mobile, text-base on md+). Icon stays at `size-4` to
+       match the base inline link. Use when the inline button sits in
+       dense UI alongside body copy in the 14–16px range (e.g. profile-
+       card Read bio façade, filter card meta row). */
     .button-inline.button-inline--small {
         span {
-            @apply text-sm md:text-sm;
-        }
-
-        svg {
-            @apply size-3.5;
+            @apply text-sm md:text-base;
         }
     }
 

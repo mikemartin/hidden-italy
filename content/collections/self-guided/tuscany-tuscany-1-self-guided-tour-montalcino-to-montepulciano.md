@@ -35,6 +35,8 @@ page_builder:
     id: 6911b31192d81295
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -65,7 +67,7 @@ page_builder:
       - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5142.jpg
   -
     id: mloocwbk
-    title: 'Highlights of Tuscany 1'
+    heading: 'Highlights of Tuscany 1'
     activities:
       -
         id: mlooee34
@@ -212,6 +214,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: aQ2UMC7nildseGcN9glza
     title: 'What you should know'

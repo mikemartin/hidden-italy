@@ -35,6 +35,8 @@ page_builder:
     id: 3d04760d6808a841
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -49,7 +51,7 @@ page_builder:
       - tours/piedmont-alba-and-le-langhe-1/14.jpg
   -
     id: mloocwbk
-    title: 'Highlights of the Lazio tour'
+    heading: 'Highlights of the Lazio tour'
     activities:
       -
         id: mlooee34
@@ -217,6 +219,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: RtkRoZFEI8JOxPWYEyXEd
     title: 'What you should know'

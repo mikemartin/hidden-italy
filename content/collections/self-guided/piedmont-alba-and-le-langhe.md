@@ -35,6 +35,8 @@ page_builder:
     id: 88c92d20ff387f2c
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -56,7 +58,7 @@ page_builder:
       - tours/piedmont-alba-and-le-langhe/monforte-18.jpg
   -
     id: mloocwbk
-    title: 'Highlights of the Alba and Le Langhe tour'
+    heading: 'Highlights of the Alba and Le Langhe tour'
     activities:
       -
         id: mlooee34
@@ -232,6 +234,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: 0Yx1fxR_ygFXnR6uZPoAm
     title: 'What you should know'

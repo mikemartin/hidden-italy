@@ -25,6 +25,33 @@ tabs:
               type: text
               display: Name
           -
+            handle: rating
+            field:
+              type: button_group
+              display: Rating
+              default: 5
+              instructions: '1–5 stars. Defaults to 5.'
+              width: 50
+              options:
+                1: '1'
+                2: '2'
+                3: '3'
+                4: '4'
+                5: '5'
+          -
+            handle: source
+            field:
+              type: select
+              display: Source
+              default: direct
+              instructions: 'Where the review came from. Shown beside the name on testimonial cards.'
+              width: 50
+              clearable: false
+              options:
+                direct: Hidden Italy (direct)
+                google: Google
+                trip_advisor: 'Trip Advisor'
+          -
             handle: tour
             field:
               collections:

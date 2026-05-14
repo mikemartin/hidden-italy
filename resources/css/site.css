@@ -94,6 +94,10 @@
     --color-accent-light:   var(--color-parchment-200);
     --color-accent-foreground:  var(--color-foreground);
     --color-card:           var(--color-parchment-50);
+    /* Fixed dark-panel surface — does NOT swap with `.dark` scope, so
+       a "dark panel" wrapping a normal page-builder section is always
+       deep blue (use `bg-card-dark`). */
+    --color-card-dark:      var(--color-blue-d-300);
 
     /* Status — used by form validation messaging, toasts, inline notices. */
     --color-success:        var(--color-sage);
@@ -200,6 +204,54 @@
         --color-accent-2:       var(--color-blue-d-500);
         --color-accent-light:   var(--color-blue-d-400);
         --color-card:           var(--color-blue-d-200);
+    }
+
+    /* Light surface override — symmetric counterpart to `.dark`. Drop
+       `class="light"` on any subtree of a `.dark` ancestor to opt back
+       into the parchment palette: useful for cards-on-dark patterns
+       (the testimonial_overlap quote card, photo-cards inside a dark
+       photo_cards block, etc.) where the surrounding section is dark
+       but the card itself should stay parchment with dark text. Tokens
+       mirror the `@theme` defaults exactly. */
+    .light {
+        color-scheme: light;
+
+        --color-background:     var(--color-parchment-100);
+        --color-foreground:     var(--color-blue-d-200);
+        --color-text:           var(--color-blue-d-300);
+        --color-muted:          oklch(from var(--color-text) l c h / 0.7);
+        --color-accent:         var(--color-gold);
+        --color-accent-2:       var(--color-terracotta);
+        --color-accent-light:   var(--color-parchment-200);
+        --color-card:           var(--color-parchment-50);
+    }
+
+    /* Sibling-aware divider — when two surface panels sit next to each
+       other in the page-builder stack (collapsed flush via
+       `stack-space-collapse`), the second one renders a thin parchment-300
+       hairline at its top edge, spanning only the content column width.
+       Implemented as a `::before` pseudo-element so no markup change in
+       the section partials is needed. The `inset-inline: 0` + padding
+       + `background-clip: content-box` trick lets the line span the
+       fluid-grid content area without manually replicating its named-
+       line geometry. Same handling for like-on-like dark adjacency. */
+    section.fluid-grid.bg-card + section.fluid-grid.bg-card::before,
+    section.fluid-grid.bg-card-dark + section.fluid-grid.bg-card-dark::before {
+        content: '';
+        position: absolute;
+        inset-block-start: 0;
+        inset-inline: 0;
+        height: 1px;
+        background: var(--color-parchment-300);
+        padding-inline: calc(var(--padding-left) + var(--col-gap));
+        background-clip: content-box;
+        pointer-events: none;
+    }
+
+    /* On the dark panel, lift the divider to the lighter accent-light
+       tint so it reads against the deep-blue surface. */
+    section.fluid-grid.bg-card-dark + section.fluid-grid.bg-card-dark::before {
+        background-color: var(--color-blue-d-400);
     }
 }
 

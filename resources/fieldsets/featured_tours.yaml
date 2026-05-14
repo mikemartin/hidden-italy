@@ -40,3 +40,5 @@ fields:
       instructions: 'Hand-picked tours shown in the slider. Three is the intended count.'
       validate:
         - required
+  -
+    import: section_settings

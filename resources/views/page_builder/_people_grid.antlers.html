@@ -9,6 +9,11 @@
     @set page.page_builder.people_grid
 #}}
 
+{{# Light-panel inversion — profile cards inside a light-panel
+    section flip to `bg-background` via `card_bg`, which the card
+    partial reads from scope. #}}
+{{ card_bg = (block:section_background ?? 'none') == 'light' ? 'bg-background' : 'bg-card' }}
+
 <!-- /page_builder/_people_grid.antlers.html -->
 {{ if block:people }}
     {{ partial:page_builder/block class="gap-y-10 md:gap-y-14" }}

@@ -32,6 +32,8 @@ page_builder:
     id: 4c80b654616b432b
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -65,7 +67,7 @@ page_builder:
       - tours/val-daosta-valley-del-lys/6.jpg
   -
     id: mlrbu308
-    title: 'Valley del Lys highlights'
+    heading: 'Valley del Lys highlights'
     activities:
       -
         id: mlrbvyrv
@@ -316,6 +318,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: lFRRLlA_Fs2US-I5qahhu
     title: 'What you should know'

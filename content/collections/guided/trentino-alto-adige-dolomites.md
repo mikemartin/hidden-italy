@@ -47,6 +47,8 @@ page_builder:
     id: c96bec259b9cca9c
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -68,7 +70,7 @@ page_builder:
       - tours/trentino-alto-adige-dolomites/4.jpg
   -
     id: mlq6wt91
-    title: 'Highlights Trentino-Alto Adige'
+    heading: 'Highlights Trentino-Alto Adige'
     activities:
       -
         id: mlq6xexm
@@ -286,6 +288,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: Zhb9MH5PIPDlCMyH394IM
     title: 'Tour Leader'

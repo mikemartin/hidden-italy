@@ -285,6 +285,8 @@ tabs:
                                   type: checkboxes
                                   display: 'Meals Included'
                                   instructions: 'Select the meals provided on this day.'
+                        -
+                          import: section_settings
                     overview:
                       display: Overview
                       instructions: 'Tell the story behind the tour route.'
@@ -330,6 +332,8 @@ tabs:
                             type: assets
                             display: Images
                             instructions: 'Add up to 3 images for the photo strip below the text.'
+                        -
+                          import: section_settings_with_dark
                     experience:
                       display: Experience
                       instructions: 'Walk, accommodation and food details.'
@@ -467,6 +471,8 @@ tabs:
                                           type: assets
                                           display: Images
                                           instructions: "Renamed from `images` to dodge a Statamic OrderedQueryBuilder leak with the history block's `images` field."
+                        -
+                          import: section_settings_with_dark
                     leader:
                       display: 'Tour Leader'
                       instructions: 'Introduce the guide leading this tour. Shows leader from Overview tab.'
@@ -479,6 +485,8 @@ tabs:
                             type: text
                             display: Title
                             default: 'Tour Leader'
+                        -
+                          import: section_settings
                     essentials:
                       display: Essentials
                       instructions: 'Practical info travellers need to book.'
@@ -620,6 +628,8 @@ tabs:
                                           type: text
                                           display: 'Link URL'
                                           width: 50
+                        -
+                          import: section_settings
                     testimonials:
                       display: Testimonials
                       instructions: 'Add reviews from past travellers.'

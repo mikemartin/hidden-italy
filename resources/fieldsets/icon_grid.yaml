@@ -1,0 +1,71 @@
+title: Icon Grid
+fields:
+  -
+    handle: heading
+    field:
+      type: text
+      localizable: true
+      display: Heading
+      validate:
+        - required
+  -
+    handle: intro
+    field:
+      buttons:
+        - bold
+        - italic
+        - anchor
+      type: bard
+      localizable: true
+      display: Intro
+      remove_empty_nodes: true
+      smart_typography: true
+  -
+    handle: columns
+    field:
+      type: button_group
+      localizable: true
+      display: Columns
+      instructions: 'Number of benefit columns on desktop.'
+      default: '3'
+      options:
+        '3': '3 columns'
+        '4': '4 columns'
+      width: 50
+  -
+    handle: icons
+    field:
+      type: grid
+      display: Icons
+      add_row: 'Add Icon'
+      fields:
+        -
+          handle: title
+          field:
+            type: text
+            display: Title
+            width: 25
+        -
+          handle: summary
+          field:
+            character_limit: 120
+            type: textarea
+            display: Summary
+            width: 50
+        -
+          handle: icon
+          field:
+            container: icons
+            mode: grid
+            max_files: 1
+            type: assets
+            display: Icon
+            width: 25
+  -
+    handle: buttons
+    field: buttons.buttons
+    config:
+      display: 'Call to action'
+      max_sets: 2
+  -
+    import: section_settings

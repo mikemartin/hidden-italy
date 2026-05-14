@@ -33,6 +33,8 @@ page_builder:
     id: 24949e0c92c55f84
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -60,7 +62,7 @@ page_builder:
       - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/varenna-3.jpg
   -
     id: mloqd78x
-    title: 'Venice and the Italian Lakes'
+    heading: 'Venice and the Italian Lakes'
     activities:
       -
         id: mloqdoo9

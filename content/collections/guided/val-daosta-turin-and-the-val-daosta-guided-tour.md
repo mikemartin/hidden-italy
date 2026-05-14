@@ -34,6 +34,8 @@ page_builder:
     id: 6329b759380caf67
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -61,7 +63,7 @@ page_builder:
       - tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_8817.jpg
   -
     id: mloqd78x
-    title: "Turin and Val d'Aosta guided tour"
+    heading: "Turin and Val d'Aosta guided tour"
     activities:
       -
         id: mloqdoo9
@@ -279,6 +281,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: c1xGUV18RGbXrT8w3vBFf
     title: 'What you should know'

@@ -35,6 +35,8 @@ page_builder:
     id: 23593d43b3d95888
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
     column_left:
       -
         type: paragraph
@@ -65,7 +67,7 @@ page_builder:
       - tours/tuscany-tuscany-3-san-gimignano-to-siena/kristof-van-rentergem-lpywtwptwbs-unsplash.jpg
   -
     id: mloocwbk
-    title: 'Highlights of Tuscany 3'
+    heading: 'Highlights of Tuscany 3'
     activities:
       -
         id: mlooee34
@@ -214,6 +216,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: ntGfyixzpE7gtpdo6rpm6
     title: 'What you should know'

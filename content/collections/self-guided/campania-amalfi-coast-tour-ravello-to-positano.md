@@ -55,9 +55,11 @@ page_builder:
       - tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
     type: overview
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: mloocwbk
-    title: 'Highlights of the Amalfi Coast tour'
+    heading: 'Highlights of the Amalfi Coast tour'
     activities:
       -
         id: mlooee34
@@ -216,6 +218,8 @@ page_builder:
         enabled: true
     type: experience
     enabled: true
+    section_background: dark
+    show_topography: true
   -
     id: nM9adWkZwzsoqHX-oyWUI
     title: 'What you should know'

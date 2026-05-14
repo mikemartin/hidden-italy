@@ -26,8 +26,17 @@
     {{ show_arrows = true }}
 {{ /if }}
 
-<section
-    class="fluid-grid gap-y-12"
+{{# Light-panel inversion — article cards inside a light-panel
+    section flip to `bg-background` via `card_bg`, which the article-
+    card partial reads from scope. #}}
+{{ card_bg = (block:section_background ?? 'none') == 'light' ? 'bg-background' : 'bg-card' }}
+
+{{ partial:page_builder/block class="gap-y-12" }}
+{{# Alpine wrapper uses `display: contents` so the grid sees
+    `<header>` and the splide div as direct grid items, while
+    Alpine's scope still covers both. #}}
+<div
+    class="contents"
     x-data="{
         atStart: true,
         atEnd: false,
@@ -119,6 +128,6 @@
             </div>
         </section>
     </div>
-
-</section>
+</div>
+{{ /partial:page_builder/block }}
 <!-- End: /page_builder/_travel_tips.antlers.html -->

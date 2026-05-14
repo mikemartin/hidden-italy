@@ -19,13 +19,18 @@
 #}}
 
 <!-- /page_builder/_testimonial_overlap.antlers.html -->
+{{# Section background + topography come from the shared
+    `section_settings_with_dark` convention via `_block.antlers.html`.
+    The classic founder-quote design wants the deep-blue panel with
+    topography, so existing content should set `section_background:
+    dark` + `show_topography: true`. The inner parchment card +
+    headline below sit OUTSIDE the `.dark` token scope (their
+    classes use literal `bg-card`, `text-foreground` etc. without
+    semantic-token swapping), so the panel can be dark while the
+    quote stays parchment. #}}
 {{ if block:quote }}
 
-    {{ partial:page_builder/block class="stack-space-collapse bg-blue-d-300 py-12 md:py-20 lg:py-24 relative overflow-hidden" }}
-        <div class="dark pointer-events-none absolute inset-x-0 top-0 text-accent-light" aria-hidden="true">
-            {{ svg:top-left attr:class="absolute top-0 left-0 w-[320px] md:w-[400px] h-auto -translate-x-1/2 lg:-translate-x-1/4" }}
-            {{ svg:top-right attr:class="absolute top-0 right-0 w-[320px] md:w-[400px] h-auto" }}
-        </div>
+    {{ partial:page_builder/block }}
         <figure class="span-content relative grid grid-cols-1 lg:grid-cols-12 gap-y-6 items-stretch" x-data x-reveal data-reveal-stagger="120">
             {{# Image — fills its column on desktop so the card can overlap
                 its lower / right portion. Both image and blockquote are
@@ -47,11 +52,17 @@
                 and centres vertically; mobile stacks below it. The opening
                 quote glyph sits in a gold serif and is hidden from screen
                 readers (the blockquote already conveys the quote semantics). #}}
+            {{# `.light` opts the card back into the parchment palette
+                regardless of any surrounding `.dark` panel — `bg-card`
+                stays parchment-50, the body text stays foreground-dark.
+                The card surface is meant to feel like a lifted insert
+                against the dark band, so the inner tokens shouldn't
+                flip. #}}
             <blockquote
                 data-reveal-item
                 data-reveal-preset="h1"
                 class="
-                    relative bg-card border border-parchment-100 shadow-sm rounded-[20px]
+                    light relative {{ card_bg ?? 'bg-card' }} border border-parchment-100 shadow-sm rounded-[20px]
                     p-6 lg:px-12 lg:py-16 xl:px-14 xl:py-20
                     lg:row-start-1 lg:col-start-6 lg:col-span-7
                     lg:self-center lg:justify-self-end

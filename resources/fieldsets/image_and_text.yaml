@@ -46,3 +46,17 @@ fields:
         left: Left
         right: Right
       width: 50
+  -
+    handle: image_aspect
+    field:
+      type: button_group
+      default: landscape
+      localizable: true
+      display: 'Image aspect'
+      instructions: 'Landscape (4:3) suits scenery; tall (4:5) suits portrait or story panels.'
+      options:
+        landscape: Landscape
+        tall: Tall
+      width: 50
+  -
+    import: section_settings

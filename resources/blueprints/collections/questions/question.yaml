@@ -15,40 +15,7 @@ tabs:
               display: Question
           -
             handle: answer
-            field:
-              buttons:
-                - bold
-                - italic
-                - unorderedlist
-                - orderedlist
-                - removeformat
-                - quote
-                - anchor
-                - table
-              link_collections:
-                - pages
-                - guided
-                - self-guided
-              remove_empty_nodes: false
-              type: bard
-              display: Answer
-              sets:
-                walking_grades_table:
-                  display: 'Walking grades table'
-                  instructions: 'Inserts the walking-grades table from globals.'
-                  icon: list
-                  fields:
-                    -
-                      handle: tour_type
-                      field:
-                        type: button_group
-                        display: 'Tour Type'
-                        default: both
-                        options:
-                          self-guided: 'Self-guided'
-                          guided: Guided
-                          both: Automatic
-                        instructions: 'Display [walking grades](/cp/globals/walking_grades) by Tour Type, or pick `Automatic` and we''ll show the right ones automatically.'
+            field: faq_answer.answer
   sidebar:
     display: Sidebar
     sections:
