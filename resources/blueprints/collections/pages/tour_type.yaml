@@ -50,37 +50,6 @@ tabs:
         fields:
           -
             import: page_builder
-      -
-        display: 'Walking benefits'
-        collapsible: true
-        collapsed: true
-        instructions: 'Brand reassurance panel rendered at the foot of the page. Individual tour pages also pull these fields from this listing to render the same panel. Leave blank to hide.'
-        fields:
-          -
-            import: walking_benefits
-      -
-        display: Questions
-        collapsible: true
-        collapsed: true
-        instructions: 'Optional FAQ accordion rendered at the foot of the page. Pick questions from the Questions collection. Leave blank to hide.'
-        fields:
-          -
-            handle: questions_heading
-            field:
-              type: text
-              localizable: true
-              display: Heading
-              default: 'Frequently asked questions'
-          -
-            handle: questions
-            field:
-              type: entries
-              localizable: true
-              display: Questions
-              collections:
-                - questions
-              mode: stack
-              reorderable: true
   seo:
     display: SEO
     sections:

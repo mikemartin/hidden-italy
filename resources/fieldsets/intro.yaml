@@ -1,13 +1,5 @@
-title: 'Intro with benefits'
+title: Benefits
 fields:
-  -
-    handle: eyebrow
-    field:
-      type: text
-      localizable: true
-      display: Eyebrow
-      instructions: 'Small label above the heading. Optional.'
-      width: 50
   -
     handle: heading
     field:

@@ -69,12 +69,9 @@
                         {{ /if }}
 
                         {{ if link_text }}
-                            <a
-                                href="{{ link_url ?? '#' }}"
-                                class="self-start inline-flex items-center gap-1.5 font-display font-medium text-base md:text-lg text-foreground underline underline-offset-4 decoration-gold hover:decoration-foreground"
-                            >
+                            <a href="{{ link_url ?? '#' }}" class="button-inline self-start">
                                 <span>{{ link_text }}</span>
-                                <x-lucide-arrow-up-right class="size-4" stroke-width="1.75" aria-hidden="true" />
+                                <x-lucide-arrow-up-right stroke-width="1.75" aria-hidden="true" />
                             </a>
                         {{ /if }}
                     </div>

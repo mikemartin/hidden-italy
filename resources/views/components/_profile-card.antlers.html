@@ -49,11 +49,18 @@
         {{ if subtitle }}
             {{ partial:typography/p_small :content="subtitle" color="text-muted" class="!mb-0" }}
         {{ /if }}
+        {{# Façade — visually styled as the canonical inline link, but
+            non-interactive (pointer-events-none) so clicks delegate to
+            the stretched modal trigger covering the whole card.
+            Hover state propagates from the card's `.group:hover`. #}}
         {{ if short_bio }}
-            <span class="button-inline button-inline--gold relative z-20 mt-3">
-                <span>{{ trans:strings.read_bio }}</span>
-                <x-lucide-arrow-right aria-hidden="true" />
-            </span>
+            {{ partial:components/button
+                button_type="inline"
+                faux="true"
+                as="span"
+                :label="trans:strings.read_bio"
+                class="relative z-20 mt-3 pointer-events-none"
+            }}
         {{ /if }}
     </div>
 </article>

@@ -34,6 +34,6 @@ fields:
     field: buttons.buttons
     config:
       display: 'Call to action'
-      max_sets: 2
+      max_sets: 1
       validate:
         - required

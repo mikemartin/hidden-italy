@@ -1,0 +1,53 @@
+{{#
+    @name FAQ accordion item
+    @desc Single accordion `<li>` rendered inside the FAQs page-builder
+          block. Called by three iteration sites in
+          `page_builder/_faqs.antlers.html`:
+            1. The inline `block:questions` grid (fields: `id`,
+               `question`, `answer`).
+            2. The appended Guided global `questions` entries
+               (fields: `id`, `title`, `answer`).
+            3. The appended Self-guided global `questions` entries
+               (same fields as #2).
+          The heading reads `title ?? question` so a single partial
+          serves both shapes.
+    @param tour_collection_handle Collection handle (`guided` /
+                                  `self-guided`) forwarded to bard-set
+                                  partials so the walking-grades table
+                                  can pick the right column. Captured
+                                  in the parent before the iteration
+                                  shifts scope.
+#}}
+<li>
+    <button
+        type="button"
+        @click="open = (open === '{{ id }}' ? null : '{{ id }}')"
+        :aria-expanded="open === '{{ id }}'"
+        aria-controls="faq-panel-{{ id }}"
+        class="w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 text-left font-display font-semibold text-base md:text-lg text-foreground hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold focus-visible:-outline-offset-2"
+    >
+        <span>{{ title ?? question }}</span>
+        <x-lucide-chevron-right
+            class="size-5 shrink-0 text-accent-2 transition-transform"
+            stroke-width="2"
+            aria-hidden="true"
+            x-bind:class="open === '{{ id }}' ? 'rotate-90' : ''"
+        />
+    </button>
+    <div
+        id="faq-panel-{{ id }}"
+        x-show="open === '{{ id }}'"
+        x-collapse
+        x-cloak
+    >
+        <div class="px-5 md:px-6 pb-5 md:pb-6 font-sans text-base leading-[1.6] text-text [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:underline [&_a]:underline-offset-4 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-3">
+            {{ answer }}
+                {{ if type == 'text' }}
+                    {{ text }}
+                {{ else }}
+                    {{ partial src="sets/{type}" :tour_collection="tour_collection_handle" }}
+                {{ /if }}
+            {{ /answer }}
+        </div>
+    </div>
+</li>

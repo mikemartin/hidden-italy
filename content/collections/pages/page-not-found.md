@@ -4,25 +4,6 @@ blueprint: page
 title: 'Page not found'
 headline: 'Page not found'
 description: "The page you're looking for doesn't exist or has been moved. Let's get you back on track."
-page_builder:
-  -
-    article:
-      -
-        type: heading
-        attrs:
-          level: 1
-        content:
-          -
-            type: text
-            text: '404 Page not found'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'The page you requested is not available (anymore).'
-    type: article
-    enabled: true
 seo_noindex: noindex
 seo_nofollow: false
 seo_canonical_type: entry

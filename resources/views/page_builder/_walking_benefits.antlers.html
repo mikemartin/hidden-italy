@@ -1,0 +1,35 @@
+{{#
+    @name Walking benefits (page builder set)
+    @desc Brand reassurance panel rendered on tour listing pages. The block
+          itself has no editable fields — heading, intro and benefit tiles
+          are managed in the Guided and Self-guided globals, so editors
+          can add or remove the panel on a listing page without losing
+          the content (tour show pages keep auto-rendering from the
+          same globals).
+
+          The variant is picked from the listing page's `tour_collections`
+          field:
+            • `guided`           → Guided global only
+            • `self-guided`      → Self-guided global only
+            • `guided|self-guided` (the combined /tours index) → both,
+              stacked Guided-first.
+    @set page.page_builder.walking_benefits
+#}}
+
+<!-- /page_builder/_walking_benefits.antlers.html -->
+{{ if tour_collections == 'guided' || tour_collections == 'guided|self-guided' }}
+    {{ partial:components/walking_benefits
+        :heading="guided:walking_benefits_heading"
+        :intro="guided:walking_benefits_intro"
+        :benefits="guided:walking_benefits"
+    }}
+{{ /if }}
+
+{{ if tour_collections == 'self-guided' || tour_collections == 'guided|self-guided' }}
+    {{ partial:components/walking_benefits
+        :heading="self_guided:walking_benefits_heading"
+        :intro="self_guided:walking_benefits_intro"
+        :benefits="self_guided:walking_benefits"
+    }}
+{{ /if }}
+<!-- End: /page_builder/_walking_benefits.antlers.html -->

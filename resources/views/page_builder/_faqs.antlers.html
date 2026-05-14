@@ -20,14 +20,36 @@
 #}}
 
 <!-- /page_builder/_faqs.antlers.html -->
-{{# Capture the tour's collection handle before entering `get_content`.
-    Inside that tag the scope shifts to the listing page and, deeper
-    still, to each question entry — so `{collection:handle}` would
-    resolve to `pages` / `questions` rather than `guided` /
-    `self-guided`. The captured value is forwarded only to set
-    partials in the appended-common-questions iteration, where the
-    walking-grades table can't infer the tour type from scope. #}}
+{{# Capture the tour's collection handle and resolve which Guided /
+    Self-guided global(s) to pull common questions from. Two contexts
+    feed this set:
+      1. Tour show pages — `collection:handle` is the tour type, so
+         we read questions from the matching global.
+      2. Tour listing pages (entries in `pages` with `tour_collections`
+         set) — we fall back to `tour_collections`, which can be a
+         single value or the pipe-joined `guided|self-guided` for the
+         combined index.
+    Capturing up front because once the per-question iteration below
+    enters the entries scope, `{collection:handle}` would resolve to
+    `questions`. The captured value also flows to bard-set partials
+    (e.g. the walking-grades table). #}}
 {{ tour_collection_handle = {collection:handle} }}
+
+{{ show_guided_common = false }}
+{{ show_self_guided_common = false }}
+
+{{ if tour_collection_handle == 'guided' }}
+    {{ show_guided_common = true }}
+{{ elseif tour_collection_handle == 'self-guided' }}
+    {{ show_self_guided_common = true }}
+{{ elseif tour_collections }}
+    {{ if tour_collections == 'guided' || tour_collections == 'guided|self-guided' }}
+        {{ show_guided_common = true }}
+    {{ /if }}
+    {{ if tour_collections == 'self-guided' || tour_collections == 'guided|self-guided' }}
+        {{ show_self_guided_common = true }}
+    {{ /if }}
+{{ /if }}
 
 {{ partial:page_builder/block block_id="faqs" sentinel_top="top-12 md:top-16 lg:top-24" class="bg-background py-12 md:py-16 lg:py-24" }}
     <div class="span-content grid grid-cols-1 lg:grid-cols-12 gap-y-10 lg:gap-x-12" x-data="{ open: null }">
@@ -42,84 +64,22 @@
             {{# Manual inline FAQs first. #}}
             {{ if block:questions }}
                 {{ block:questions }}
-                    <li>
-                        <button
-                            type="button"
-                            @click="open = (open === '{{ id }}' ? null : '{{ id }}')"
-                            :aria-expanded="open === '{{ id }}'"
-                            aria-controls="faq-panel-{{ id }}"
-                            class="w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 text-left font-display font-semibold text-base md:text-lg text-foreground hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold focus-visible:-outline-offset-2"
-                        >
-                            <span>{{ question }}</span>
-                            <x-lucide-chevron-right
-                                class="size-5 shrink-0 text-accent-2 transition-transform"
-                                stroke-width="2"
-                                aria-hidden="true"
-                                x-bind:class="open === '{{ id }}' ? 'rotate-90' : ''"
-                            />
-                        </button>
-                        <div
-                            id="faq-panel-{{ id }}"
-                            x-show="open === '{{ id }}'"
-                            x-collapse
-                            x-cloak
-                        >
-                            <div class="px-5 md:px-6 pb-5 md:pb-6 font-sans text-base leading-[1.6] text-text [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:underline [&_a]:underline-offset-4 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-3">
-                                {{ answer }}
-                                    {{ if type == 'text' }}
-                                        {{ text }}
-                                    {{ else }}
-                                        {{ partial src="sets/{type}" }}
-                                    {{ /if }}
-                                {{ /answer }}
-                            </div>
-                        </div>
-                    </li>
+                    {{ partial:components/faq_accordion_item :tour_collection_handle="tour_collection_handle" }}
                 {{ /block:questions }}
             {{ /if }}
 
-            {{# Tour-type FAQs appended from the mounted listing page,
-                unless the editor disabled the toggle. #}}
-            {{ if {block:show_common_questions} }}
-                {{ get_content from="{ mount_url handle="{collection:handle}" }" }}
-                    {{ if questions }}
-                        {{ questions }}
-                            <li>
-                                <button
-                                    type="button"
-                                    @click="open = (open === '{{ id }}' ? null : '{{ id }}')"
-                                    :aria-expanded="open === '{{ id }}'"
-                                    aria-controls="faq-panel-{{ id }}"
-                                    class="w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 text-left font-display font-semibold text-base md:text-lg text-foreground hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold focus-visible:-outline-offset-2"
-                                >
-                                    <span>{{ title }}</span>
-                                    <x-lucide-chevron-right
-                                        class="size-5 shrink-0 text-accent-2 transition-transform"
-                                        stroke-width="2"
-                                        aria-hidden="true"
-                                        x-bind:class="open === '{{ id }}' ? 'rotate-90' : ''"
-                                    />
-                                </button>
-                                <div
-                                    id="faq-panel-{{ id }}"
-                                    x-show="open === '{{ id }}'"
-                                    x-collapse
-                                    x-cloak
-                                >
-                                    <div class="px-5 md:px-6 pb-5 md:pb-6 font-sans text-base leading-[1.6] text-text [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:underline [&_a]:underline-offset-4 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-3">
-                                        {{ answer }}
-                                            {{ if type == 'text' }}
-                                                {{ text }}
-                                            {{ else }}
-                                                {{ partial src="sets/{type}" :tour_collection="tour_collection_handle" }}
-                                            {{ /if }}
-                                        {{ /answer }}
-                                    </div>
-                                </div>
-                            </li>
-                        {{ /questions }}
-                    {{ /if }}
-                {{ /get_content }}
+            {{# Common Guided questions appended from the global. #}}
+            {{ if {block:show_common_questions} && show_guided_common && guided:questions }}
+                {{ guided:questions }}
+                    {{ partial:components/faq_accordion_item :tour_collection_handle="tour_collection_handle" }}
+                {{ /guided:questions }}
+            {{ /if }}
+
+            {{# Common Self-guided questions appended from the global. #}}
+            {{ if {block:show_common_questions} && show_self_guided_common && self_guided:questions }}
+                {{ self_guided:questions }}
+                    {{ partial:components/faq_accordion_item :tour_collection_handle="tour_collection_handle" }}
+                {{ /self_guided:questions }}
             {{ /if }}
 
         </ul>

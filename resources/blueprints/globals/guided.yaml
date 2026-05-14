@@ -1,0 +1,32 @@
+title: Guided
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Walking benefits'
+        instructions: 'Heading, intro and benefit tiles for the brand-reassurance panel. Rendered automatically at the foot of every guided tour show page, and on listing pages where the editor has added the `Walking benefits` page-builder block.'
+        fields:
+          -
+            import: walking_benefits
+      -
+        display: 'Common questions'
+        instructions: 'The FAQ accordion shown on the /guided listing page and appended to every guided tour show page when the FAQ block''s “Show common questions” toggle is on.'
+        fields:
+          -
+            handle: questions_heading
+            field:
+              type: text
+              localizable: true
+              display: Heading
+              default: 'Frequently asked questions'
+          -
+            handle: questions
+            field:
+              type: entries
+              localizable: true
+              display: Questions
+              collections:
+                - questions
+              mode: stack
+              reorderable: true

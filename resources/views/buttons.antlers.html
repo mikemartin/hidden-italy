@@ -100,12 +100,27 @@
                 <div class="stack-6">
                     <header class="stack-1">
                         {{ partial:typography/h3 content="Text buttons" }}
-                        {{ partial:typography/p_small content="`.button-inline` with an optional leading or trailing icon. The trailing-icon variant nudges right on hover. Pair with `.button-inline--gold` to switch the underline to gold for callouts on parchment surfaces." color="text-muted" class="!mb-0" }}
+                        {{ partial:typography/p_small content="`.button-inline` &mdash; the canonical inline link. Sora display, foreground text, gold underline that flips to foreground on hover. Pair with a trailing `arrow-up-right` for navigational affordances, or with a leading icon for utility actions (Share, Save). Façade variant uses Peak's `faux` + `as=span` + `pointer-events-none` so the link can sit inside a stretched-link card and inherit hover from `.group:hover`." color="text-muted" class="!mb-0" }}
                     </header>
 
-                    {{# Default — icon-left. Used for utility actions (Share, Save). #}}
+                    {{# Forward-progressing links — trailing arrow-up-right. #}}
                     <div class="flex flex-col gap-2">
-                        {{ partial:typography/p_small content="**Default · icon-left** &mdash; utility actions like Share and Save." color="text-muted" class="!mb-0" }}
+                        {{ partial:typography/p_small content="**Icon-right** &mdash; View all, Read bio, Explore tour. The trailing `arrow-up-right` is the default affordance for navigational inline links." color="text-muted" class="!mb-0" }}
+                        <div class="flex flex-wrap items-center gap-6">
+                            <a href="#" class="button-inline">
+                                <span>View all tours</span>
+                                <x-lucide-arrow-up-right stroke-width="1.75" aria-hidden="true" />
+                            </a>
+                            <a href="#" class="button-inline">
+                                <span>Read bio</span>
+                                <x-lucide-arrow-up-right stroke-width="1.75" aria-hidden="true" />
+                            </a>
+                        </div>
+                    </div>
+
+                    {{# Utility actions — leading icon, no arrow. #}}
+                    <div class="flex flex-col gap-2">
+                        {{ partial:typography/p_small content="**Icon-left** &mdash; utility actions like Share and Save. No trailing arrow because the action isn't navigational." color="text-muted" class="!mb-0" }}
                         <div class="flex flex-wrap items-center gap-6">
                             <button type="button" class="button-inline">
                                 <x-lucide-share aria-hidden="true" />
@@ -114,47 +129,6 @@
                             <button type="button" class="button-inline">
                                 <x-lucide-heart aria-hidden="true" />
                                 <span>Save</span>
-                            </button>
-                        </div>
-                    </div>
-
-                    {{# Default — icon-right. Used for forward-progressing links (View all tours). #}}
-                    <div class="flex flex-col gap-2">
-                        {{ partial:typography/p_small content="**Default · icon-right** &mdash; forward-progressing links like View all tours. Trailing arrow nudges on hover." color="text-muted" class="!mb-0" }}
-                        <div class="flex flex-wrap items-center gap-6">
-                            <a href="#" class="button-inline">
-                                <span>View all tours</span>
-                                <x-lucide-arrow-right aria-hidden="true" />
-                            </a>
-                            <a href="#" class="button-inline">
-                                <span>Read more</span>
-                                <x-lucide-arrow-right aria-hidden="true" />
-                            </a>
-                        </div>
-                    </div>
-
-                    {{# Gold variant — icon-right. Card-level affordance (Read bio). #}}
-                    <div class="flex flex-col gap-2">
-                        {{ partial:typography/p_small content="**Gold · icon-right** &mdash; card-level affordances like Read bio. Gold underline that flips to foreground on hover." color="text-muted" class="!mb-0" }}
-                        <div class="flex flex-wrap items-center gap-6">
-                            <a href="#" class="button-inline button-inline--gold">
-                                <span>Read bio</span>
-                                <x-lucide-arrow-right aria-hidden="true" />
-                            </a>
-                            <a href="#" class="button-inline button-inline--gold">
-                                <span>Explore tour</span>
-                                <x-lucide-arrow-up-right aria-hidden="true" />
-                            </a>
-                        </div>
-                    </div>
-
-                    {{# Gold variant — icon-left. Available for parity. #}}
-                    <div class="flex flex-col gap-2">
-                        {{ partial:typography/p_small content="**Gold · icon-left** &mdash; same gold treatment with the icon leading the label." color="text-muted" class="!mb-0" }}
-                        <div class="flex flex-wrap items-center gap-6">
-                            <button type="button" class="button-inline button-inline--gold">
-                                <x-lucide-bookmark aria-hidden="true" />
-                                <span>Add to itinerary</span>
                             </button>
                         </div>
                     </div>

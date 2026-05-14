@@ -27,6 +27,8 @@
         {{ if target_blank }}
             <span class="sr-only">{{ trans:strings.external_link }}</span>
             {{ svg:external attr:class="ml-1 w-3 h-3 fill-current" attr:aria-hidden="true" attr:alt="" }}
+        {{ elseif button_type === 'inline' }}
+            <x-lucide-arrow-up-right stroke-width="1.75" aria-hidden="true" />
         {{ /if }}
     </{{ as or 'a' }}>
 {{ /if }}

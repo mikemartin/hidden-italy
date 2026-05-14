@@ -1,20 +1,28 @@
 {{#
     @name Form
-    @desc The form page builder block.
+    @desc Stand-alone form block. Same Alpine + Precognition rendering
+          pattern, field markup, error / success notifications and
+          submit button as `_contact.antlers.html` — keep the two in
+          sync. Form-specific extras kept here: optional `block:heading`
+          and `block:text` rendered through typography partials, plus
+          per-section `display` / `instructions` headers.
     @set page.page_builder.form
 #}}
 
 <!-- /page_builder/_form.antlers.html -->
 {{ partial:page_builder/block }}
     <div class="span-content md:col-start-[col-3] md:col-span-8">
-        {{ block:heading ?= { partial:typography/h1 as="h2" class="mb-8" :content="block:heading" } }}
-        {{ block:text ?= { partial:typography/p :content="block:text" } }}
+        {{ if block:heading }}
+            {{ partial:typography/h2 class="mb-4" :content="block:heading" }}
+        {{ /if }}
+        {{ if block:text }}
+            {{ partial:typography/p class="mb-8" :content="block:text" }}
+        {{ /if }}
 
         {{# Render form and use Alpine based Statamic conditional logic. #}}
         {{ if form:handle }}
             {{ form:create :in="form:handle" js="alpine:form" attr:x-ref="form" }}
-                {{# Use Laravel Precognition for live validation and submission. #}}
-                <div x-data="formHandler()" class="flex flex-col gap-8" x-cloak>
+                <div x-data="formHandler()" class="flex flex-col gap-6" x-cloak>
                     {{# Error notifications. #}}
                     <template x-if="form.hasErrors && submitted">
                         {{ partial:components/notification type="error" }}
@@ -53,21 +61,33 @@
                         <input class="form-input w-full" id="{{ honeypot }}" type="text" name="{{ honeypot }}" x-model="form.{{ honeypot }}" tabindex="-1" autocomplete="off"/>
                     </div>
 
-                    {{# Render various form sections. #}}
+                    {{# Render fields in a 12-col grid so the blueprint's
+                        per-field `width` (25/33/50/66/75) maps to a
+                        col-span and same-row fields sit side-by-side.
+                        Toggles drop the outer label so the inline
+                        checkbox label reads as the only label — every
+                        other field gets the standard label + input pair.
+                        `input_type == 'hidden'` text fields (used by the
+                        conditional-fields feature) render with the
+                        `hidden` class on the wrapper so they're in the
+                        DOM but invisible. #}}
                     {{ sections }}
-                        <fieldset class="w-full grid md:grid-cols-12 gap-6">
+                        <fieldset class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
                             {{ if display || instructions }}
-                                <span class="md:col-span-12">
-                                    {{ display ?= { partial:typography/h2 class="mb-2" as="legend" content="{ trans :key="display" }" } }}
-                                    {{ instructions ?= { partial:typography/p content="{ trans :key="instructions" }" } }}
+                                <span class="md:col-span-12 flex flex-col gap-1 mb-2">
+                                    {{ if display }}
+                                        {{ partial:typography/h3 as="legend" content="{ trans :key="display" }" }}
+                                    {{ /if }}
+                                    {{ if instructions }}
+                                        {{ partial:typography/p content="{ trans :key="instructions" }" class="!mb-0" }}
+                                    {{ /if }}
                                 </span>
                             {{ /if }}
 
-                            {{# Render the default-styled fields. #}}
                             {{ %form:fields scope="field" }}
                                 <template x-if="{{ show_field }}">
                                     <div class="
-                                        flex flex-col stack-1
+                                        flex flex-col gap-2
                                         {{ input_type == 'hidden' ?= 'hidden' }}
                                         {{ switch(
                                             (width == '25') => 'md:col-span-3',
@@ -78,50 +98,55 @@
                                             () => 'md:col-span-12'
                                         )}}
                                     ">
-                                        {{ unless type == 'spacer' }}
-                                            <label class="font-bold" for="{{ handle }}">
-                                                {{ trans :key="field:display" }}
-                                                {{ if validate | contains('required') || validate | contains('accepted') }}
-                                                    <sup aria-label="{{ trans:strings.form_required }}" class="text-error">*</sup>
-                                                {{ /if }}
-                                            </label>
-
-                                            {{ if field:instructions && instructions_position != 'below' }}
-                                                <span id="{{ field:handle }}-instructions" class="text-sm">
-                                                    {{ trans :key="field:instructions" }}
-                                                </span>
-                                            {{ /if }}
-                                        {{ /unless }}
-
-                                        <div class="stack-space-2 flex flex-col stack-2">
+                                        {{ if type == 'toggle' }}
                                             {{ field:field }}
 
-                                            {{# Inline error. #}}
                                             <template x-if="form.invalid('{{ handle }}')">
-                                                <span class="mt-1 text-error text-sm font-bold" x-text="form.errors.{{ handle }}"></span>
+                                                <span class="text-error text-sm font-bold" x-text="form.errors.{{ handle }}"></span>
                                             </template>
+                                        {{ else }}
+                                            {{ unless type == 'spacer' }}
+                                                <label class="block text-base font-medium leading-[1.6] text-foreground" for="{{ handle }}">
+                                                    {{ trans :key="field:display" }}
+                                                    {{ if validate | contains('required') || validate | contains('accepted') }}
+                                                        <sup aria-label="{{ trans:strings.form_required }}" class="text-error">*</sup>
+                                                    {{ /if }}
+                                                </label>
 
-                                            {{ if field:instructions && instructions_position === 'below' }}
-                                                <span id="{{ field:handle }}-instructions" class="text-sm">
-                                                    {{ trans :key="field:instructions" }}
-                                                </span>
-                                            {{ /if }}
-                                        </div>
+                                                {{ if field:instructions && instructions_position != 'below' }}
+                                                    <span id="{{ field:handle }}-instructions" class="text-sm text-text">
+                                                        {{ trans :key="field:instructions" }}
+                                                    </span>
+                                                {{ /if }}
+                                            {{ /unless }}
+
+                                            <div class="flex flex-col gap-1">
+                                                {{ field:field }}
+
+                                                <template x-if="form.invalid('{{ handle }}')">
+                                                    <span class="text-error text-sm font-bold" x-text="form.errors.{{ handle }}"></span>
+                                                </template>
+
+                                                {{ if field:instructions && instructions_position === 'below' }}
+                                                    <span id="{{ field:handle }}-instructions" class="text-sm text-text">
+                                                        {{ trans :key="field:instructions" }}
+                                                    </span>
+                                                {{ /if }}
+                                            </div>
+                                        {{ /if }}
                                     </div>
                                 </template>
                             {{ /%form:fields }}
                         </fieldset>
                     {{ /sections }}
 
-                    {{# Submit button, disabled on processing. #}}
-                    <div class="w-full flex justify-end">
-                        <div class="md:col-span-12 flex justify-end">
-                            {{ partial:components/button as="button" button_type="button" label="{ trans:strings.form_send }" }}
-                                {{ slot:attributes }}
-                                    @click.prevent="submit" :disabled="form.processing" :class="{ 'opacity-25 cursor-default': form.processing }"
-                                {{ /slot:attributes }}
-                            {{ /partial:components/button }}
-                        </div>
+                    {{# Submit button — gold pill, left-aligned to match the contact form. #}}
+                    <div class="flex">
+                        {{ partial:components/button as="button" button_type="button" label="{ trans:strings.form_send }" class="button--large button--accent" }}
+                            {{ slot:attributes }}
+                                @click.prevent="submit" :disabled="form.processing" :class="{ 'opacity-25 cursor-default': form.processing }"
+                            {{ /slot:attributes }}
+                        {{ /partial:components/button }}
                     </div>
                 </div>
             {{ /form:create }}

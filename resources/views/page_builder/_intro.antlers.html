@@ -1,5 +1,5 @@
 {{#
-    @name Intro with benefits
+    @name Benefits
     @desc Centred heading + bard intro on a parchment surface, a row of
           Benefit entries shown as round icon tiles, and an optional
           outline-gold CTA tuned for the light background. The benefit
@@ -11,12 +11,6 @@
 <!-- /page_builder/_intro.antlers.html -->
 {{ partial:page_builder/block class="gap-y-10 md:gap-y-16" }}
     <header class="span-content flex flex-col items-center text-center gap-6" x-data x-reveal>
-        {{ if block:eyebrow }}
-            <div data-reveal-item data-reveal-preset="chip">
-                {{ partial:typography/label :content="block:eyebrow" class="text-accent-2" }}
-            </div>
-        {{ /if }}
-
         <div data-reveal-item data-reveal-preset="h1">
             {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
         </div>

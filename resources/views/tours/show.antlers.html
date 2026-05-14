@@ -225,15 +225,24 @@
 </main>
 
 {{# Brand reassurance panel. Sits outside <main> and ahead of the tour
-    CTA banner. The heading, intro and benefits live on the collection's
-    mounted listing page, so we follow `mount_url` and pull the fields
-    through `get_content`. The listing page's own template reads these
-    fields straight from its entry scope. #}}
-{{ get_content from="{ mount_url handle="{collection:handle}" }" }}
-    {{ if walking_benefits_heading && walking_benefits }}
-        {{ partial:components/walking_benefits :heading="walking_benefits_heading" :intro="walking_benefits_intro" :benefits="walking_benefits" }}
-    {{ /if }}
-{{ /get_content }}
+    CTA banner. Heading, intro and benefit tiles live in the Guided /
+    Self-guided globals; we pick the variant from this tour's collection
+    handle (`guided` or `self-guided`) and render the shared component.
+    Auto-included on every tour show page so it survives editors
+    re-arranging or removing the matching block on a listing page. #}}
+{{ if collection:handle == 'guided' }}
+    {{ partial:components/walking_benefits
+        :heading="guided:walking_benefits_heading"
+        :intro="guided:walking_benefits_intro"
+        :benefits="guided:walking_benefits"
+    }}
+{{ elseif collection:handle == 'self-guided' }}
+    {{ partial:components/walking_benefits
+        :heading="self_guided:walking_benefits_heading"
+        :intro="self_guided:walking_benefits_intro"
+        :benefits="self_guided:walking_benefits"
+    }}
+{{ /if }}
 
 {{# Tour-specific CTA banner — replaces the global layout CTA on tour
     show pages. Reuses the tour's hero image and the booking-modal /

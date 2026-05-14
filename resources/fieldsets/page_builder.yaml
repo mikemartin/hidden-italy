@@ -16,14 +16,6 @@ fields:
           instructions: 'Image and text based blocks.'
           icon: hero-image-above-text
           sets:
-            article:
-              display: Article
-              instructions: 'Long form content, can be expanded with media like figures, video, quotes or tables.'
-              icon: text-formatting-image-bottom
-              image: article.jpeg
-              fields:
-                -
-                  import: article
             content_with_image:
               display: 'Content with image'
               instructions: 'Side-by-side text and image — heading, body copy and a single supporting photo. Used for letter / story panels like “It started with a walk”.'
@@ -86,12 +78,19 @@ fields:
                 -
                   import: tour_banner
             intro:
-              display: 'Intro with benefits'
-              instructions: 'Heading, intro copy and three benefit tiles pulled from the Benefits collection.'
+              display: Benefits
+              instructions: 'Heading, intro copy and a 3- or 4-column grid of benefit tiles pulled from the Benefits collection.'
               icon: text-formatting-image-bottom
               fields:
                 -
                   import: intro
+            icon_grid:
+              display: 'Icon grid'
+              instructions: 'Heading and a 3-column grid of inline icon tiles (icon + title + summary). Same layout as Tour Highlights but for any page.'
+              icon: scenery
+              fields:
+                -
+                  import: highlights
             stats:
               display: Stats
               instructions: 'Side title plus a 2-column grid of headline number + label tiles. Used for the About-page “covered some ground” panel.'
@@ -148,3 +147,8 @@ fields:
               fields:
                 -
                   import: faqs
+            walking_benefits:
+              display: 'Walking benefits'
+              instructions: 'Marker block — the panel itself (heading, intro, benefit tiles) is edited in the Guided / Self-guided globals. Add this block where you want it to render. Variant is picked from this listing page''s `tour collections`.'
+              icon: scenery
+              fields: []

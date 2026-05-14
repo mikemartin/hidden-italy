@@ -165,43 +165,7 @@ tabs:
                       image: highlights.png
                       fields:
                         -
-                          handle: title
-                          field:
-                            type: text
-                            display: Title
-                            instructions: 'eg. Trails to Freedom Highlights'
-                        -
-                          handle: activities
-                          field:
-                            type: grid
-                            display: Activities
-                            instructions: 'Start with a warm welcome and end with a strong finale. Keep the itinerary clear and concise.'
-                            add_row: 'Add Activity'
-                            fields:
-                              -
-                                handle: title
-                                field:
-                                  type: text
-                                  display: Title
-                                  instructions: 'Explain the activity in 2 to 4 words. Always start with a verb.'
-                                  width: 25
-                              -
-                                handle: summary
-                                field:
-                                  character_limit: 120
-                                  type: textarea
-                                  display: Summary
-                                  instructions: 'Expand on the title in a sentence. What can travellers expect to do at this point of the tour.'
-                                  width: 50
-                              -
-                                handle: icon
-                                field:
-                                  container: icons
-                                  mode: grid
-                                  max_files: 1
-                                  type: assets
-                                  display: Icon
-                                  width: 25
+                          import: highlights
                     itinerary:
                       display: Itinerary
                       instructions: 'Create a day by day itinerary'
@@ -627,18 +591,7 @@ tabs:
                       image: testimonials.png
                       fields:
                         -
-                          handle: heading
-                          field:
-                            type: text
-                            display: Heading
-                            default: 'What our travellers are saying'
-                        -
-                          handle: testimonials
-                          field:
-                            type: entries
-                            collection: testimonials
-                            display: Testimonials
-                            max_items: 3
+                          import: testimonials
                     faqs:
                       display: FAQs
                       instructions: 'Tour-specific and common FAQs.'
@@ -646,43 +599,7 @@ tabs:
                       image: faq.png
                       fields:
                         -
-                          handle: heading
-                          field:
-                            type: text
-                            display: 'Section Heading'
-                            default: 'Frequently Asked Questions'
-                        -
-                          handle: questions
-                          field:
-                            type: grid
-                            display: Questions
-                            mode: stacked
-                            add_row: 'Add Question'
-                            instructions: 'Questions specific to this tour.'
-                            fields:
-                              -
-                                handle: question
-                                field:
-                                  type: text
-                                  display: Question
-                                  instructions: 'Write the question as a traveller would ask it.'
-                              -
-                                handle: answer
-                                field:
-                                  buttons:
-                                    - bold
-                                    - italic
-                                    - unorderedlist
-                                    - anchor
-                                  type: bard
-                                  display: Answer
-                        -
-                          handle: show_common_questions
-                          field:
-                            type: toggle
-                            default: true
-                            display: 'Show common questions?'
-                            instructions: 'Automatically show common questions for the tour type.'
+                          import: faqs
   sidebar:
     display: Sidebar
     sections:

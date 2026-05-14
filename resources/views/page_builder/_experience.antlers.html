@@ -181,7 +181,7 @@
                                     type="button"
                                     @click="expanded = !expanded"
                                     :aria-expanded="expanded"
-                                    class="button-inline button-inline--gold self-start md:hidden"
+                                    class="button-inline self-start md:hidden"
                                 >
                                     <span x-text="expanded ? 'Read less' : 'Read more'"></span>
                                     <span
@@ -203,10 +203,10 @@
                             x-show="$el.closest('[role=tabpanel]').nextElementSibling"
                             x-cloak
                             @click="select($id('tab', whichChild($el.closest('[role=tabpanel]'), $refs.tabpanels) + 1))"
-                            class="button-inline button-inline--gold self-start hidden md:inline-flex"
+                            class="button-inline self-start hidden md:inline-flex"
                         >
                             <span>{{ trans:strings.next_tab ?? 'Next' }}: <span x-text="$el.closest('[role=tabpanel]').nextElementSibling?.dataset?.tabLabel"></span></span>
-                            <x-lucide-arrow-right aria-hidden="true" />
+                            <x-lucide-arrow-up-right stroke-width="1.75" aria-hidden="true" />
                         </button>
                     </div>
 

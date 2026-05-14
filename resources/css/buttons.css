@@ -30,14 +30,19 @@
         } */
     }
 
-    .button-inline {
-        @apply inline-flex items-center gap-1.5 text-neutral hover:text-primary motion-safe:transition;
+    /* Inline link — the canonical "link" treatment used across the site:
+       Sora display, foreground colour, gold underline that flips to
+       foreground on hover. Typically paired with a trailing
+       `arrow-up-right` icon (and `--small` for dense rows).
 
-        /* Label matches `typography/label` (large variant): Mona Sans
-           medium, 16px, 160% leading. Keep this in sync if the label
-           partial's treatment changes. */
+       The hover state also fires from a parent `.group:hover`, so the
+       Peak `faux` button pattern (faux + as=span, pointer-events-none)
+       still animates when wrapped in a stretched-link card. */
+    .button-inline {
+        @apply inline-flex items-center gap-1.5 text-foreground motion-safe:transition;
+
         span {
-            @apply min-w-fit font-medium text-base leading-[1.6] text-current underline underline-offset-4 decoration-primary focus:outline-primary;
+            @apply min-w-fit font-display font-medium text-base md:text-lg leading-[1.6] text-current underline underline-offset-4 decoration-gold focus:outline-gold;
         }
 
         svg {
@@ -45,12 +50,17 @@
         }
     }
 
+    .button-inline:hover span,
+    .group:hover .button-inline span {
+        @apply decoration-foreground;
+    }
+
     /* Small variant — drops the label to 14px and the optional icon to
        match. Use when the inline button sits in dense UI alongside body
        copy in the 13–15px range (e.g. filter card meta row). */
     .button-inline.button-inline--small {
         span {
-            @apply text-sm;
+            @apply text-sm md:text-sm;
         }
 
         svg {
@@ -58,19 +68,11 @@
         }
     }
 
-    /* Gold underline variant — pairs with `.button-inline` for callouts
-       on parchment surfaces (e.g. profile cards). Default decoration
-       flips to gold; hover darkens it to the foreground colour. */
+    /* Deprecated alias — `--gold` is now the default look. Kept so
+       existing templates don't break; safe to remove once all call
+       sites drop the modifier. */
     .button-inline.button-inline--gold {
-        @apply text-foreground hover:text-foreground;
-
-        span {
-            @apply decoration-gold focus:outline-gold;
-        }
-
-        &:hover span {
-            @apply decoration-foreground;
-        }
+        /* intentionally empty */
     }
 
     /* Outline variant — transparent fill with a coloured border. Pair with a

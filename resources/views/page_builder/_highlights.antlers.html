@@ -9,7 +9,8 @@
 
 <!-- /page_builder/_highlights.antlers.html -->
 {{ if block:activities }}
-    {{ partial:page_builder/block block_id="highlights" class="gap-y-10 md:gap-y-14" }}
+    {{ section_anchor = (type == 'highlights') ? 'highlights' : '' }}
+    {{ partial:page_builder/block :block_id="section_anchor" class="gap-y-10 md:gap-y-14" }}
         {{ if block:title }}
             <header class="span-content text-center" x-data x-reveal>
                 <div data-reveal-item data-reveal-preset="h1">

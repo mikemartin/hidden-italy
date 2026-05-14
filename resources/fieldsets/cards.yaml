@@ -26,6 +26,16 @@ fields:
               image: null
               fields:
                 -
+                  handle: image
+                  field:
+                    container: assets
+                    max_files: 1
+                    type: assets
+                    mode: grid
+                    localizable: true
+                    display: Image
+                    instructions: 'Optional landscape image displayed at the top of the card with a 4px inset.'
+                -
                   handle: heading
                   field:
                     type: text
@@ -41,5 +51,6 @@ fields:
                   handle: button
                   field: buttons.buttons
                   config:
-                    display: Button
+                    display: Link
+                    instructions: 'Renders as an inline link on the card.'
                     max_sets: 1
