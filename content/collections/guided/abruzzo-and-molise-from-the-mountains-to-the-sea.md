@@ -8,14 +8,6 @@ days: 13
 updated_by: 1
 updated_at: 1777904629
 grade: 3
-summary: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Starting with two nights in Rome, this exclusive 7-person tour explores Abruzzo and Molise, two of Italy’s least-visited regions, nestled in the Apennines, the mountainous spine of Italy but also bound by the endless beaches of the Adriatic Coast.'
 inclusions:
   - '•12 nights accommodation (see the itinerary for details) in hotels and private apartments'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -210,7 +202,7 @@ page_builder:
         photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/14-termoli.jpg
       -
         id: mlorf281
-        title: 'Departure'
+        title: Departure
         description: 'Termoli is connect by rail to Pescara and Bologna to the north and Bari and Lecce to the south. For those interested, we will have a transfer 50 minutes south to Foggia which has fast train connections to Naples and Rome.'
         meals_included:
           - breakfast
@@ -317,6 +309,13 @@ page_builder:
     type: faqs
     enabled: true
     show_common_questions: true
+  -
+    id: wb_EJpcUXVATPKqDV4m
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 seasons: spring
 image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2869.jpg
@@ -366,4 +365,12 @@ finish_location:
   country: Italy
 now_open: false
 headline: '13 days from the mountains to the sea'
+teaser: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Starting with two nights in Rome, this exclusive 7-person tour explores Abruzzo and Molise, two of Italy’s least-visited regions, nestled in the Apennines, the mountainous spine of Italy but also bound by the endless beaches of the Adriatic Coast.'
 ---

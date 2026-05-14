@@ -9,16 +9,8 @@ seasons: spring
 updated_by: 1
 updated_at: 1777904882
 grade: 3
-summary: 'Sardinia is a magical island, a few hours by ferry, a world away from continental Italy.'
 tour_size: 15
 date: '2026-05-07 14:00'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Sardinia is the second largest island in the Mediterranean, suspended off the Italian coast between Corsica and Sicily. \_It is an island of contrasts, with buzzy cities like Cagliari, its capital, a beautiful port with ancient origins; spectacular coastline; and rugged, brooding mountains, where the 'real' Sardinians live."
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -351,6 +343,13 @@ page_builder:
       - 73c23f34-3218-46ea-8eee-940f2520a984
     type: testimonials
     enabled: true
+  -
+    id: wb_EoJ5RkwLPs4CWrTY
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 locations: southern-italy
 start_location:
@@ -387,4 +386,12 @@ finish_location:
   country: Italy
 now_open: false
 headline: '13 days exploring magical Sardinia'
+teaser: 'Sardinia is a magical island, a few hours by ferry, a world away from continental Italy.'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Sardinia is the second largest island in the Mediterranean, suspended off the Italian coast between Corsica and Sicily. \_It is an island of contrasts, with buzzy cities like Cagliari, its capital, a beautiful port with ancient origins; spectacular coastline; and rugged, brooding mountains, where the 'real' Sardinians live."
 ---

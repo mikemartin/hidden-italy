@@ -8,14 +8,6 @@ days: 13
 updated_by: 2
 updated_at: 1778498865
 grade: 4
-summary: "Two weeks exploring the Val d'Aosta, Italy's smallest, but most spectacular, region!"
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The Val d’Aosta may be Italy’s smallest region, but it is also one of its most spectacular, a wedge of mountains and valleys in the north-west corner of the country.\_ The region shares borders with Switzerland and France and contains Europe’s four highest peaks: Mt Blanc, the Matterhorn, Monte Rosa and Gran Paradiso."
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -333,6 +325,13 @@ page_builder:
       - a64ee694-6861-49e0-b244-ed6c4b239593
     type: testimonials
     enabled: true
+  -
+    id: wb_0E0qKHIpMJ7BK6BK
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 seasons: autumn
 gallery:
@@ -376,4 +375,12 @@ finish_location:
       level: 1
   country: Italy
 image: tours/val-daosta-turin-and-the-val-daosta-guided-tour/val-ferret.jpg
+teaser: "Two weeks exploring the Val d'Aosta, Italy's smallest, but most spectacular, region!"
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "The Val d’Aosta may be Italy’s smallest region, but it is also one of its most spectacular, a wedge of mountains and valleys in the north-west corner of the country.\_ The region shares borders with Switzerland and France and contains Europe’s four highest peaks: Mt Blanc, the Matterhorn, Monte Rosa and Gran Paradiso."
 ---

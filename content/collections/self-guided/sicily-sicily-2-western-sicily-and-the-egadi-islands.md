@@ -8,14 +8,6 @@ days: 7
 updated_by: 1
 updated_at: 1777905595
 grade: 3
-summary: 'Coastal walks, island hoping and fabulous food, this tour is southern Italy at its best!'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The west of Sicily is a land apart.\_ The cubic whitewashed houses, palm trees, active fishing harbours and sunburned lowlands seem more akin to Africa than Europe, and historically, the west of the island has always looked south: the Carthaginians were entrenched here; the Muslims first occupied Sicily here; the Saracens raided the area regularly; and the towns have more than a little North African atmosphere to them.\_"
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
   - 'Private transfer from Trapani to Lo Zingaro Regional Park on Day 5'
@@ -299,6 +291,13 @@ page_builder:
       - 1fbd53c4-6126-4511-aaa4-70f1c2253d25
     type: testimonials
     enabled: true
+  -
+    id: wb_2zQ3Wf59rdtDgvsL
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 locations: southern-italy
 landscapes:
   - coastal
@@ -353,4 +352,12 @@ finish_location:
   country: Italy
 now_open: false
 headline: '7 days walking the Egadi Islands'
+teaser: 'Coastal walks, island hoping and fabulous food, this tour is southern Italy at its best!'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "The west of Sicily is a land apart.\_ The cubic whitewashed houses, palm trees, active fishing harbours and sunburned lowlands seem more akin to Africa than Europe, and historically, the west of the island has always looked south: the Carthaginians were entrenched here; the Muslims first occupied Sicily here; the Saracens raided the area regularly; and the towns have more than a little North African atmosphere to them.\_"
 ---

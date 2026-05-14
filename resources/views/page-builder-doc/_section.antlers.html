@@ -8,10 +8,19 @@
     @param* fields One-line summary of the field shape, separated with ‘ · ’.
     @param* renders One- or two-sentence description of what the partial outputs.
     @param used_on Where this set is actually used (collections / page types).
-    @param image Path to the set-picker image referenced by the YAML, or empty if not set.
-    @param image_status "present" | "missing" | "stale". Drives the status pill.
+    @param image Path to the set-picker screenshot referenced by the YAML, or empty if not set. Resolved against base_path() to drive the auto-detected status pill below.
+    @param image_status Optional manual override — "present" | "missing" | "stale" | "shared". When omitted, status is auto-detected from `image` via the file_exists modifier (present if the file is on disk, missing otherwise). Use "stale" when the reference exists on disk but points at an outdated filename, or "shared" for tour-only sets that inherit a main-builder screenshot.
     @param flag Optional one-line note that highlights a known issue (overlap, duplication, drift). Renders as a primary-coloured callout if set.
 #}}
+
+{{# Auto-detect screenshot status from the `image` filesystem path so
+    editors don't have to keep hardcoded image_status flags in sync
+    with what's actually in public/. Manual `image_status` still wins
+    when set (e.g. "stale" for a reference pointing at the wrong
+    filename, or "shared" for tour sets that reuse a main-builder
+    screenshot via fieldset import). #}}
+{{ image_exists = image ? (image | file_exists) : false }}
+{{ resolved_status = image_status ?? (image_exists ? 'present' : 'missing') }}
 
 <!-- /page-builder-doc/_section.antlers.html -->
 <article class="bg-parchment-100 border border-neutral/10 rounded-lg p-6 md:p-8 stack-4">
@@ -19,17 +28,22 @@
         <h3 class="text-xl font-semibold text-foreground">{{ display }}</h3>
         <code class="font-mono text-xs text-foreground/70 bg-parchment-200 px-2 py-1 rounded">{{ handle }}</code>
 
-        {{ if image_status == "present" }}
+        {{ if resolved_status == "present" }}
             <span class="ml-auto inline-flex items-center gap-1.5 text-xs font-medium text-green-700 bg-green-50 border border-green-200 px-2 py-1 rounded">
                 <span class="size-1.5 rounded-full bg-green-600"></span>
                 Screenshot present
             </span>
-        {{ elseif image_status == "stale" }}
+        {{ elseif resolved_status == "shared" }}
+            <span class="ml-auto inline-flex items-center gap-1.5 text-xs font-medium text-green-700 bg-green-50 border border-green-200 px-2 py-1 rounded">
+                <span class="size-1.5 rounded-full bg-green-600"></span>
+                Screenshot shared
+            </span>
+        {{ elseif resolved_status == "stale" }}
             <span class="ml-auto inline-flex items-center gap-1.5 text-xs font-medium text-amber-700 bg-amber-50 border border-amber-200 px-2 py-1 rounded">
                 <span class="size-1.5 rounded-full bg-amber-600"></span>
                 Screenshot stale
             </span>
-        {{ elseif image_status == "missing" }}
+        {{ elseif resolved_status == "missing" }}
             <span class="ml-auto inline-flex items-center gap-1.5 text-xs font-medium text-red-700 bg-red-50 border border-red-200 px-2 py-1 rounded">
                 <span class="size-1.5 rounded-full bg-red-600"></span>
                 Screenshot missing

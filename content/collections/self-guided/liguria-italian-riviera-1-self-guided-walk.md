@@ -8,14 +8,6 @@ days: 8
 updated_by: 1
 updated_at: 1777905321
 grade: 4
-summary: 'Follow ancient paths through fishing villages and forests on the beautiful Italian Riviera'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'This 8-day walk takes you along the Italian Riviera following an arc of coastline dotted with fishing towns and glam resorts.  It starts in the port city of Genova, the capital of the region of Liguria, and finishes six days later in enchanting Sestri Levante.  '
 inclusions:
   - 'Seven nights accommodation'
   - 'All breakfasts included'
@@ -318,6 +310,13 @@ page_builder:
       - a3bc8fd1-1a62-46ce-a32b-16b725b7897f
     type: testimonials
     enabled: true
+  -
+    id: wb_jjJjs3Ydep47oC8t
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 duplicated_from: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
 image: tours/liguria-italian-riviera-1-self-guided-walk/18.jpg
@@ -369,4 +368,12 @@ now_open: false
 seasons:
   - autumn
 headline: '8 days hiking the Italian Riviera'
+teaser: 'Follow ancient paths through fishing villages and forests on the beautiful Italian Riviera'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'This 8-day walk takes you along the Italian Riviera following an arc of coastline dotted with fishing towns and glam resorts.  It starts in the port city of Genova, the capital of the region of Liguria, and finishes six days later in enchanting Sestri Levante.  '
 ---

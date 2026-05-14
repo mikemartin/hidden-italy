@@ -11,15 +11,7 @@ updated_at: 1777904903
 days: 14
 image: tours/sicily-palermo-to-taormina/804728531-13.jpg
 grade: 4
-summary: 'Sicily is a spectacular island with exceptional walks, fascinating history and great food!'
 tour_size: 15
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The largest island in the Mediterranean, Sicily is squeezed between Europe and Africa, between Christendom and Islam. It's a spectacular region with exceptional walks following country lanes, mountain trails and coastal paths. Sicily also boasts one of the finest, and surely the most diverse, cuisine in Italy based on their exceptional produce.\_ Truly, the perfect destination for an off-the-beaten track adventure."
 gallery:
   - tours/sicily-palermo-to-taormina/01.jpg
   - tours/sicily-palermo-to-taormina/3.jpg
@@ -369,6 +361,13 @@ page_builder:
       - 83669b00-6af8-4b55-920f-3ab8b5f75784
     type: testimonials
     enabled: true
+  -
+    id: wb_JHHJeGnKbfUclixm
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 start_location:
   label: 'Palermo, Sicily, Italy'
   lat: '38.1112268'
@@ -402,4 +401,12 @@ finish_location:
   country: Italy
 now_open: false
 headline: '14 days walking spectacular Sicily'
+teaser: 'Sicily is a spectacular island with exceptional walks, fascinating history and great food!'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "The largest island in the Mediterranean, Sicily is squeezed between Europe and Africa, between Christendom and Islam. It's a spectacular region with exceptional walks following country lanes, mountain trails and coastal paths. Sicily also boasts one of the finest, and surely the most diverse, cuisine in Italy based on their exceptional produce.\_ Truly, the perfect destination for an off-the-beaten track adventure."
 ---

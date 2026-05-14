@@ -8,14 +8,6 @@ days: 7
 updated_by: 1
 updated_at: 1777905920
 grade: 4
-summary: 'Enjoy a seven-day walk through the rolling vineyards, forest and market towns of Chianti.'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'This magnificent walk passes through the Chianti, some of the most celebrated countryside in Europe, a unique landscape of rolling hills, vineyards, olive groves,  thick oak forests, isolated farmhouses, medieval market towns and ancient villages, all shaped by over three millennia of settlement.'
 inclusions:
   - 'Private transfer from Florence on Day 1; private transfer to Siena on Day 6'
   - 'Six nights accommodation'
@@ -299,6 +291,13 @@ page_builder:
       - 4224a279-fcb7-464f-9535-50193349cd6a
     type: testimonials
     enabled: true
+  -
+    id: wb_swHrlPAAsVhdIad2
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
 image: tours/tuscany-tuscany-2-chianti-florence-to-siena/rich-martello-yqcvybdd4y-unsplash-1774331143.jpg
@@ -350,4 +349,12 @@ now_open: false
 seasons:
   - autumn
 headline: '7 days walking the Chianti vineyards'
+teaser: 'Enjoy a seven-day walk through the rolling vineyards, forest and market towns of Chianti.'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'This magnificent walk passes through the Chianti, some of the most celebrated countryside in Europe, a unique landscape of rolling hills, vineyards, olive groves,  thick oak forests, isolated farmhouses, medieval market towns and ancient villages, all shaped by over three millennia of settlement.'
 ---

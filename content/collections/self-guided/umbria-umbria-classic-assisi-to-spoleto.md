@@ -8,14 +8,6 @@ days: 7
 updated_by: 1
 updated_at: 1777906100
 grade: 3
-summary: 'Enjoy the best of Umbria has to offer: superior accommodation, great art, amazing walks!'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Often referred to as 'the green heart of Italy', Umbria is a beautiful, largely unspoilt, region of rolling hills, woods, streams and valleys.\_ Within its borders are a dozen or so classic hill-towns, each resolutely individual and crammed with artistic and architectural treasures that frequently rival bigger and more famous cities."
 inclusions:
   - 'Six nights accommodation'
   - 'Generous breakfasts included'
@@ -296,6 +288,13 @@ page_builder:
       - f468044d-04e7-42a9-8bb9-2cbfcc128f13
     type: testimonials
     enabled: true
+  -
+    id: wb_bbJXLn8aTeR0y0MY
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 duplicated_from: 2c566c23-3738-482e-b78a-a2ac67ccf9cf
 image: tours/umbria-cammino-of-st-francis-umbria-2-1/f1020015.jpg
@@ -348,4 +347,12 @@ finish_location:
       code: null
       level: 2
   country: Italy
+teaser: 'Enjoy the best of Umbria has to offer: superior accommodation, great art, amazing walks!'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Often referred to as 'the green heart of Italy', Umbria is a beautiful, largely unspoilt, region of rolling hills, woods, streams and valleys.\_ Within its borders are a dozen or so classic hill-towns, each resolutely individual and crammed with artistic and architectural treasures that frequently rival bigger and more famous cities."
 ---

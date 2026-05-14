@@ -8,14 +8,6 @@ days: 6
 updated_by: 2
 updated_at: 1778499007
 grade: 3
-summary: 'Spend a week exploring the Portofino National Park and the stupendous Tigullio Gulf!'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Portofino is the star turn of the Italian Riviera, a beautifully preserved fishing village tucked into a perfect bay, but it is only one of the highlights of this fascinating stretch of coastline that sits between Genoa and the Cinque Terre.'
 inclusions:
   - 'Five nights’ accommodation'
   - 'All breakfasts included'
@@ -279,6 +271,13 @@ page_builder:
       - 143ea3d7-e24c-4354-952a-b9d17bdaebba
     type: testimonials
     enabled: true
+  -
+    id: wb_cio0CXJ6M3zVVkak
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 image: tours/liguria-cinque-terre-coastal-walking-tour/primaselezione-portofino-7504460_1920-a.jpg
@@ -330,4 +329,12 @@ now_open: false
 seasons:
   - autumn
 headline: '6 days exploring the Tigullio Gulf'
+teaser: 'Spend a week exploring the Portofino National Park and the stupendous Tigullio Gulf!'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Portofino is the star turn of the Italian Riviera, a beautifully preserved fishing village tucked into a perfect bay, but it is only one of the highlights of this fascinating stretch of coastline that sits between Genoa and the Cinque Terre.'
 ---

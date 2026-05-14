@@ -8,14 +8,6 @@ days: 6
 updated_by: 1
 updated_at: 1777905243
 grade: 3
-summary: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This fabulous continuous walk along the length of the breathtaking Amalfi Coast starts with a private transfer from Naples to Ravello and then finishes with a private transfer from Positano back to Naples at the end. In between you get to experience the 'costiera' in all its colour and glory."
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
   - 'Private transfer from Positano to Naples on Day 6'
@@ -34,7 +26,7 @@ landscapes:
 page_builder:
   -
     id: amlfiovrvw01
-    title: "One of the most spectacular parts of the Mediterranean"
+    title: 'One of the most spectacular parts of the Mediterranean'
     column_left:
       -
         type: paragraph
@@ -161,7 +153,7 @@ page_builder:
     tabs:
       -
         id: UWuoa3i6XJocQEfsXVRkm
-        title: Exceptional walkings
+        title: 'Exceptional walkings'
         grade: 0
         description:
           -
@@ -181,7 +173,7 @@ page_builder:
         enabled: true
       -
         id: Xw8j3JVBxDHhDIwMMwxU1
-        title: Boutique accommodation
+        title: 'Boutique accommodation'
         description:
           -
             type: paragraph
@@ -195,7 +187,7 @@ page_builder:
         enabled: true
       -
         id: AaYAvgyA02X1tONQIc3pZ
-        title: Authentic food
+        title: 'Authentic food'
         description:
           -
             type: paragraph
@@ -284,6 +276,13 @@ page_builder:
       - 86d468b5-96c6-4c66-8f1a-6a24245ddc41
     type: testimonials
     enabled: true
+  -
+    id: wb_X110ZFmFPZwd6qmR
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 gallery:
@@ -335,4 +334,12 @@ headline: '6 days along the breathtaking Amalfi Coast'
 now_open: false
 seasons:
   - spring
+teaser: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "This fabulous continuous walk along the length of the breathtaking Amalfi Coast starts with a private transfer from Naples to Ravello and then finishes with a private transfer from Positano back to Naples at the end. In between you get to experience the 'costiera' in all its colour and glory."
 ---

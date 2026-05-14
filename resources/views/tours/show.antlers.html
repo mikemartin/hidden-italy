@@ -166,9 +166,11 @@
                             {{# Only known section types render a button. Label comes from
                                 `strings.<type>` so the lang file is the single source of
                                 truth. `testimonials` is the one type whose anchor differs
-                                from its handle (`reviews`), so map it inline. #}}
+                                from its handle (`reviews`), so map it inline. Editors can
+                                hide an individual block from the sub-nav with the
+                                `hide_from_subnav` toggle in the shared section_settings. #}}
                             {{ page_builder scope="block" }}
-                                {{ if type == 'overview' || type == 'highlights' || type == 'itinerary' || type == 'experience' || type == 'leader' || type == 'essentials' || type == 'faqs' || type == 'testimonials' }}
+                                {{ if (type == 'overview' || type == 'highlights' || type == 'itinerary' || type == 'experience' || type == 'leader' || type == 'essentials' || type == 'faqs' || type == 'testimonials') && !hide_from_subnav }}
                                     {{ btn_id = type == 'testimonials' ? 'reviews' : type }}
                                     <li class="flex">
                                         <button
@@ -224,28 +226,11 @@
     {{ /page_builder }}
 </main>
 
-{{# Brand reassurance panel. Sits outside <main> and ahead of the tour
-    CTA banner. Heading, intro and benefit tiles live in the Guided /
-    Self-guided globals; we pick the variant from this tour's collection
-    handle (`guided` or `self-guided`) and render the shared component.
-    Auto-included on every tour show page so it survives editors
-    re-arranging or removing the matching block on a listing page. #}}
-{{ if collection:handle == 'guided' }}
-    {{ partial:components/walking_benefits
-        :heading="guided:walking_benefits_heading"
-        :intro="guided:walking_benefits_intro"
-        :benefits="guided:walking_benefits"
-    }}
-{{ elseif collection:handle == 'self-guided' }}
-    {{ partial:components/walking_benefits
-        :heading="self_guided:walking_benefits_heading"
-        :intro="self_guided:walking_benefits_intro"
-        :benefits="self_guided:walking_benefits"
-    }}
-{{ /if }}
-
 {{# Tour-specific CTA banner — replaces the global layout CTA on tour
     show pages. Reuses the tour's hero image and the booking-modal /
-    direct-link "Make an enquiry" action from the tour banner. #}}
+    direct-link "Make an enquiry" action from the tour banner. The
+    Walking benefits panel that used to sit here is now a page-builder
+    block (`type: walking_benefits` in `tour_builder.yaml`), placed by
+    editors per tour. #}}
 {{ partial:tours/cta_banner }}
 <!-- End: /tours/show.antlers.html -->

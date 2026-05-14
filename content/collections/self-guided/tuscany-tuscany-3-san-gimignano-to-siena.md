@@ -8,14 +8,6 @@ days: 5
 updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
 updated_at: 1777517220
 grade: 2
-summary: 'A classic walk takes you through celebrated landscapes and iconic towns to glorious Siena.'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Walking the Via Francigena from San Gimignano to Siena is a unique experience.\_\_ It starts in San Gimignano, a gorgeous town with a stunning hilltop skyline of towers.\_ From here you follow in the footsteps of medieval pilgrims all the way to the glorious the walled city of Siena, 'the most perfectly preserved medieval city in Europe'.\_ In between, you stay in a town that made its wealth in the wool trade in the Middle Ages and a fortified village that was Siena's stronghold again Florence."
 inclusions:
   - 'Private transfer from Florence to San Gimignano on Day 1'
   - 'Four nights accommodation'
@@ -282,6 +274,13 @@ page_builder:
       - 20094a71-62db-4dd7-acfe-2fba2848527d
     type: testimonials
     enabled: true
+  -
+    id: wb_vrwTRIL4a2c3rSSa
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
 image: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/t3.jpg
@@ -305,4 +304,12 @@ finish_location:
 now_open: false
 seasons: spring
 headline: '5 days from San Gimignano to Siena'
+teaser: 'A classic walk takes you through celebrated landscapes and iconic towns to glorious Siena.'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Walking the Via Francigena from San Gimignano to Siena is a unique experience.\_\_ It starts in San Gimignano, a gorgeous town with a stunning hilltop skyline of towers.\_ From here you follow in the footsteps of medieval pilgrims all the way to the glorious the walled city of Siena, 'the most perfectly preserved medieval city in Europe'.\_ In between, you stay in a town that made its wealth in the wool trade in the Middle Ages and a fortified village that was Siena's stronghold again Florence."
 ---

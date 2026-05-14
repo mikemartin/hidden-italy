@@ -4,18 +4,10 @@ blueprint: tour
 title: 'Italian Alps - Trails to Freedom'
 name: 'Trails to Freedom'
 region: 'Italian Alps'
-summary: 'Ten-day hike blending stunning scenery, alpine towns, and a WWII escape story.'
 days: 10
 grade: 5
 tour_size: 12
 date: '2026-04-11 14:00'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'This extraordinary ten-day hike combines breath-taking scenery, enchanting towns, challenging walks and delicious food with the fascinating story of four young men who crossed the Italian Alps to freedom in the Second World War.'
 inclusions:
   - '9 nights in comfortable accommodation'
   - 'Breakfast, lunch, and dinner daily (with wine)'
@@ -339,6 +331,13 @@ page_builder:
       - 966a5684-0228-4341-8790-8ef4f90f52dc
     type: testimonials
     enabled: true
+  -
+    id: wb_P2xQArv1ZqYUss2H
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 seasons: summer
 locations: northern-italy
 updated_by: 1
@@ -395,4 +394,12 @@ leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 headline: '10 days hiking in the Italian Alps'
 price: '$5,650 AUD'
 show_from: true
+teaser: 'Ten-day hike blending stunning scenery, alpine towns, and a WWII escape story.'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'This extraordinary ten-day hike combines breath-taking scenery, enchanting towns, challenging walks and delicious food with the fascinating story of four young men who crossed the Italian Alps to freedom in the Second World War.'
 ---

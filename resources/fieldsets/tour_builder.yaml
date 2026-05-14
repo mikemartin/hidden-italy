@@ -1,0 +1,567 @@
+title: 'Tour builder'
+# Shared replicator field used by both guided and self-guided tour
+# blueprints. Imported into the Page Builder section of each tour
+# blueprint's main tab — see resources/blueprints/collections/{guided,
+# self-guided}/tour.yaml.
+fields:
+  -
+    handle: page_builder
+    field:
+      type: replicator
+      display: 'Tour Builder'
+      button_label: 'Add Section'
+      collapse: accordion
+      sets:
+        tour:
+          display: Tour
+          icon: travel-map
+          sets:
+            highlights:
+              display: Highlights
+              instructions: 'Add up to 6 top activities'
+              icon: scenery
+              image: highlights.png
+              fields:
+                -
+                  import: highlights
+                -
+                  handle: hide_from_subnav
+                  field:
+                    type: toggle
+                    localizable: true
+                    display: 'Hide from sub-nav'
+                    instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
+                    default: false
+                    width: 50
+            itinerary:
+              display: Itinerary
+              instructions: 'Create a day by day itinerary'
+              icon: route
+              image: itinerary.png
+              fields:
+                -
+                  handle: title
+                  field:
+                    type: text
+                    display: Title
+                    instructions: 'eg. Trails to Freedom Itinerary'
+                -
+                  handle: summary
+                  field:
+                    type: textarea
+                    display: Summary
+                    instructions: 'Write a brief overview of the itinerary. Focus on the route, region, and overall experience.'
+                -
+                  handle: days
+                  field:
+                    mode: stacked
+                    add_row: 'Add Day'
+                    type: grid
+                    display: Days
+                    instructions: 'Start with a warm welcome and end with a strong finale. Keep the itinerary clear and concise.'
+                    fields:
+                      -
+                        handle: title
+                        field:
+                          type: text
+                          display: Title
+                          instructions: 'Describe the day in 2 to 4 words. Always start with a verb.'
+                      -
+                        handle: description
+                        field:
+                          character_limit: 500
+                          type: textarea
+                          display: Description
+                          instructions: 'Describe the main experiences of the day. Keep it concise and easy to scan.'
+                      -
+                        handle: duration
+                        field:
+                          append: hr
+                          type: integer
+                          display: Duration
+                          width: 33
+                          instructions: 'Total walking time for the day.'
+                      -
+                        handle: distance
+                        field:
+                          append: km
+                          type: integer
+                          display: Distance
+                          width: 33
+                          instructions: 'Total walking distance.'
+                      -
+                        handle: elevation
+                        field:
+                          append: m
+                          type: integer
+                          display: Elevation
+                          width: 33
+                          instructions: 'Total ascent.'
+                      -
+                        handle: photo
+                        field:
+                          container: assets
+                          dynamic: slug
+                          max_files: 1
+                          type: assets
+                          display: Photo
+                          folder: tours
+                      -
+                        handle: meals_included
+                        field:
+                          options:
+                            -
+                              key: breakfast
+                              value: Breakfast
+                            -
+                              key: lunch
+                              value: Lunch
+                            -
+                              key: dinner
+                              value: Dinner
+                          inline: true
+                          type: checkboxes
+                          display: 'Meals Included'
+                          instructions: 'Select the meals provided on this day.'
+                -
+                  import: section_settings
+                -
+                  handle: hide_from_subnav
+                  field:
+                    type: toggle
+                    localizable: true
+                    display: 'Hide from sub-nav'
+                    instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
+                    default: false
+                    width: 50
+            overview:
+              display: Overview
+              instructions: 'Tell the story behind the tour route.'
+              icon: Info
+              image: overview.png
+              fields:
+                -
+                  handle: title
+                  field:
+                    type: text
+                    display: Title
+                -
+                  handle: column_left
+                  field:
+                    buttons:
+                      - bold
+                      - italic
+                      - anchor
+                    type: bard
+                    display: 'Left Column'
+                    instructions: 'First column of body copy.'
+                    reading_time: true
+                -
+                  handle: column_right
+                  field:
+                    buttons:
+                      - bold
+                      - italic
+                      - anchor
+                    type: bard
+                    display: 'Right Column'
+                    instructions: 'Second column of body copy.'
+                    reading_time: true
+                -
+                  handle: images
+                  field:
+                    container: assets
+                    folder: tours
+                    dynamic: slug
+                    restrict: true
+                    mode: grid
+                    max_files: 3
+                    type: assets
+                    display: Images
+                    instructions: 'Add up to 3 images for the photo strip below the text.'
+                -
+                  import: section_settings_with_dark
+                -
+                  handle: hide_from_subnav
+                  field:
+                    type: toggle
+                    localizable: true
+                    display: 'Hide from sub-nav'
+                    instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
+                    default: false
+                    width: 50
+            experience:
+              display: Experience
+              instructions: 'Walk, accommodation and food details.'
+              icon: walking
+              image: experience.png
+              fields:
+                -
+                  handle: title
+                  field:
+                    type: text
+                    display: Title
+                    instructions: 'eg. Trails to Freedom Experience'
+                -
+                  handle: tabs
+                  field:
+                    type: replicator
+                    display: Tabs
+                    button_label: 'Add Tab'
+                    instructions: 'Add one block per experience tab. Order determines the tab order on the page.'
+                    sets:
+                      main:
+                        display: Main
+                        sets:
+                          walk:
+                            display: Walk
+                            icon: walking
+                            fields:
+                              -
+                                handle: title
+                                field:
+                                  type: text
+                                  display: Title
+                                  default: 'Exceptional walking'
+                              -
+                                handle: total_distance
+                                field:
+                                  append: km
+                                  type: integer
+                                  display: 'Total Distance'
+                                  width: 33
+                              -
+                                handle: total_elevation
+                                field:
+                                  append: m
+                                  type: integer
+                                  display: 'Total Elevation'
+                                  width: 33
+                              -
+                                handle: grade
+                                field:
+                                  max: 5
+                                  type: range
+                                  display: Grade
+                                  append: '/ 5'
+                                  width: 33
+                              -
+                                handle: description
+                                field:
+                                  buttons:
+                                    - bold
+                                    - italic
+                                    - unorderedlist
+                                    - anchor
+                                  type: bard
+                                  display: Description
+                              -
+                                handle: image
+                                field:
+                                  container: assets
+                                  folder: tours
+                                  dynamic: slug
+                                  restrict: true
+                                  max_files: 1
+                                  type: assets
+                                  display: Image
+                          accommodation:
+                            display: Accommodation
+                            icon: accommodation
+                            fields:
+                              -
+                                handle: title
+                                field:
+                                  type: text
+                                  display: Title
+                                  default: 'Boutique accommodation'
+                              -
+                                handle: description
+                                field:
+                                  buttons:
+                                    - bold
+                                    - italic
+                                    - unorderedlist
+                                    - anchor
+                                  type: bard
+                                  display: Description
+                              -
+                                handle: media
+                                field:
+                                  container: assets
+                                  dynamic: slug
+                                  folder: tours
+                                  restrict: true
+                                  max_files: 4
+                                  type: assets
+                                  display: Images
+                                  instructions: "Renamed from `images` to dodge a Statamic OrderedQueryBuilder leak with the history block's `images` field."
+                          food:
+                            display: Food
+                            icon: food
+                            fields:
+                              -
+                                handle: title
+                                field:
+                                  type: text
+                                  display: Title
+                                  default: 'Authentic food'
+                              -
+                                handle: description
+                                field:
+                                  buttons:
+                                    - bold
+                                    - italic
+                                    - unorderedlist
+                                    - anchor
+                                  type: bard
+                                  display: Description
+                              -
+                                handle: media
+                                field:
+                                  container: assets
+                                  dynamic: slug
+                                  folder: tours
+                                  restrict: true
+                                  max_files: 4
+                                  type: assets
+                                  display: Images
+                                  instructions: "Renamed from `images` to dodge a Statamic OrderedQueryBuilder leak with the history block's `images` field."
+                -
+                  import: section_settings_with_dark
+                -
+                  handle: hide_from_subnav
+                  field:
+                    type: toggle
+                    localizable: true
+                    display: 'Hide from sub-nav'
+                    instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
+                    default: false
+                    width: 50
+            leader:
+              display: 'Tour Leader'
+              instructions: 'Introduce the guide leading this tour. Shows leader from Overview tab.'
+              icon: leader
+              image: leader.png
+              fields:
+                -
+                  handle: title
+                  field:
+                    type: text
+                    display: Title
+                    default: 'Tour Leader'
+                -
+                  import: section_settings
+                -
+                  handle: hide_from_subnav
+                  field:
+                    type: toggle
+                    localizable: true
+                    display: 'Hide from sub-nav'
+                    instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
+                    default: false
+                    width: 50
+            essentials:
+              display: Essentials
+              instructions: 'Practical info travellers need to book.'
+              icon: backpack
+              image: essentials.png
+              fields:
+                -
+                  handle: title
+                  field:
+                    type: text
+                    display: Title
+                    default: 'What you should know'
+                -
+                  handle: sections
+                  field:
+                    type: replicator
+                    display: Sections
+                    button_label: 'Add Section'
+                    instructions: 'Each section renders as a labelled row. Use the named sets for shared content types, or General for anything tour-specific.'
+                    sets:
+                      main:
+                        display: Main
+                        sets:
+                          equipment:
+                            display: 'Equipment Needed'
+                            icon: backpack
+                            fields:
+                              -
+                                handle: body
+                                field:
+                                  buttons:
+                                    - bold
+                                    - italic
+                                    - unorderedlist
+                                    - orderedlist
+                                    - anchor
+                                  type: bard
+                                  display: Body
+                                  instructions: 'List the clothing, footwear and gear required for this tour.'
+                              -
+                                handle: link_text
+                                field:
+                                  type: text
+                                  display: 'Link Text'
+                                  width: 50
+                                  instructions: 'Optional. e.g. "Download packing list"'
+                              -
+                                handle: link_url
+                                field:
+                                  type: text
+                                  display: 'Link URL'
+                                  width: 50
+                          travel_insurance:
+                            display: 'Travel Insurance'
+                            icon: emergency
+                            fields:
+                              -
+                                handle: body
+                                field:
+                                  buttons:
+                                    - bold
+                                    - italic
+                                    - unorderedlist
+                                    - anchor
+                                  type: bard
+                                  display: Body
+                                  instructions: 'Describe the insurance requirements and any recommended providers.'
+                              -
+                                handle: link_text
+                                field:
+                                  type: text
+                                  display: 'Link Text'
+                                  width: 50
+                              -
+                                handle: link_url
+                                field:
+                                  type: text
+                                  display: 'Link URL'
+                                  width: 50
+                          booking_cancellation:
+                            display: 'Booking & Cancellation'
+                            icon: dates
+                            fields:
+                              -
+                                handle: body
+                                field:
+                                  buttons:
+                                    - bold
+                                    - italic
+                                    - unorderedlist
+                                    - orderedlist
+                                    - anchor
+                                  type: bard
+                                  display: Body
+                                  instructions: 'Outline the booking process, deposit requirements and cancellation policy.'
+                              -
+                                handle: link_text
+                                field:
+                                  type: text
+                                  display: 'Link Text'
+                                  width: 50
+                                  instructions: 'Optional. e.g. "Read full terms & conditions"'
+                              -
+                                handle: link_url
+                                field:
+                                  type: text
+                                  display: 'Link URL'
+                                  width: 50
+                          general:
+                            display: General
+                            icon: Info
+                            fields:
+                              -
+                                handle: heading
+                                field:
+                                  type: text
+                                  display: Heading
+                                  instructions: 'Label for this section (e.g. "Visas & entry requirements").'
+                              -
+                                handle: body
+                                field:
+                                  buttons:
+                                    - bold
+                                    - italic
+                                    - unorderedlist
+                                    - orderedlist
+                                    - anchor
+                                  type: bard
+                                  display: Body
+                              -
+                                handle: link_text
+                                field:
+                                  type: text
+                                  display: 'Link Text'
+                                  width: 50
+                              -
+                                handle: link_url
+                                field:
+                                  type: text
+                                  display: 'Link URL'
+                                  width: 50
+                -
+                  import: section_settings
+                -
+                  handle: hide_from_subnav
+                  field:
+                    type: toggle
+                    localizable: true
+                    display: 'Hide from sub-nav'
+                    instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
+                    default: false
+                    width: 50
+            testimonials:
+              display: Testimonials
+              instructions: 'Add reviews from past travellers.'
+              icon: favorite
+              image: testimonials.png
+              fields:
+                -
+                  import: testimonials
+                -
+                  handle: hide_from_subnav
+                  field:
+                    type: toggle
+                    localizable: true
+                    display: 'Hide from sub-nav'
+                    instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
+                    default: false
+                    width: 50
+            faqs:
+              display: FAQs
+              instructions: 'Tour-specific and common FAQs.'
+              icon: question
+              image: faqs.png
+              fields:
+                -
+                  import: faqs
+                -
+                  handle: hide_from_subnav
+                  field:
+                    type: toggle
+                    localizable: true
+                    display: 'Hide from sub-nav'
+                    instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
+                    default: false
+                    width: 50
+            walking_benefits:
+              display: 'Walking benefits'
+              instructions: 'Brand reassurance panel. Heading, intro and benefit tiles are managed in the Guided / Self-guided globals; this block just controls where the panel renders on the tour page.'
+              icon: scenery
+              type: walking_benefits
+              image: walking_benefits.png
+              fields:
+                -
+                  import: section_settings
+                -
+                  handle: hide_from_subnav
+                  field:
+                    type: toggle
+                    localizable: true
+                    display: 'Hide from sub-nav'
+                    instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
+                    default: false
+                    width: 50

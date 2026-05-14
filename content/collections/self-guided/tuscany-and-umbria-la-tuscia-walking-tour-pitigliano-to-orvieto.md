@@ -8,14 +8,6 @@ days: 8
 updated_by: 2
 updated_at: 1778552224
 grade: 3
-summary: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This 7-day exploration starts with a private transfer from Rome to Pitigliano, where the walk begins.\_ Known as La Tuscia since Roman times, this fascinating \_district is on the\_borders where southern Tuscany overlaps with the lakes of northern Lazio and the mountains of the south-west corner of Umbria."
 inclusions:
   - 'Pick-up from Rome and transfer to Pitigliano on Day 1'
   - '6 nights accommodation'
@@ -302,6 +294,13 @@ page_builder:
       - e6203f32-18d8-4a78-96f3-baa0dcfedcc1
     type: testimonials
     enabled: true
+  -
+    id: wb_VjurvNhglPnGRE9U
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 image: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano_-tuscany-s-hilltop-beauty.png
@@ -352,4 +351,12 @@ finish_location:
       code: null
       level: 2
   country: Italy
+teaser: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "This 7-day exploration starts with a private transfer from Rome to Pitigliano, where the walk begins.\_ Known as La Tuscia since Roman times, this fascinating \_district is on the\_borders where southern Tuscany overlaps with the lakes of northern Lazio and the mountains of the south-west corner of Umbria."
 ---

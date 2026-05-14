@@ -4,7 +4,7 @@
           tour-entry fields directly (e.g. page-builder featured tours and
           the /tours livewire-collection grid). Parchment surface with an
           inset 16:9 image, the favourite heart over the photo, a chip row
-          for region + tour type, summary, an info row (duration / season /
+          for region + tour type, teaser, an info row (duration / season /
           grade), and an optional "next departure" line for guided tours.
           The whole card is clickable via a stretched link; the heart sits
           above on its own z-layer so it stays interactive.
@@ -64,7 +64,7 @@
     {{# Content #}}
     <div class="flex-1 flex flex-col justify-between gap-4 px-5 py-6">
         <div class="flex flex-col gap-4">
-            {{# Location chip + title + summary stack tightly together. #}}
+            {{# Location chip + title + teaser stack tightly together. #}}
             <div class="flex flex-col gap-2">
                 {{# Region label + Guided / Self-guided collection badge. #}}
                 <div class="flex items-center justify-between gap-3">
@@ -78,8 +78,8 @@
 
                 {{ partial:typography/h4 :content="name" color="text-foreground" }}
 
-                {{ if summary }}
-                    {{ partial:typography/p_small :content="summary" color="text-text" class="!mb-0" }}
+                {{ if teaser }}
+                    {{ partial:typography/p_small :content="teaser" color="text-text" class="!mb-0" }}
                 {{ /if }}
             </div>
 

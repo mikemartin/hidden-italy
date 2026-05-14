@@ -10,14 +10,6 @@ updated_at: 1777905087
 locations: northern-italy
 grade: 3
 image: tours/trentino-alto-adige-dolomites/804729994-100.jpg
-summary: 'An exciting walking tour through the Dolomites, the most beautiful mountains in the world!'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Starting in Verona, this exciting small-group tour in the Dolomites takes you through the most beautiful mountains in the world. \_Its well-marked trails, charming villages and mountain huts provide some of the finest walking in Europe. \_"
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -348,6 +340,13 @@ page_builder:
       - 40451253-3672-44d1-8097-0b4c7a0680c0
     type: testimonials
     enabled: true
+  -
+    id: wb_TeS9nhgQlEoHM7La
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 seasons: autumn
 now_open: false
 headline: '13 days walking the Dolomites in autumn'
@@ -383,4 +382,12 @@ finish_location:
       code: null
       level: 2
   country: Italy
+teaser: 'An exciting walking tour through the Dolomites, the most beautiful mountains in the world!'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Starting in Verona, this exciting small-group tour in the Dolomites takes you through the most beautiful mountains in the world. \_Its well-marked trails, charming villages and mountain huts provide some of the finest walking in Europe. \_"
 ---

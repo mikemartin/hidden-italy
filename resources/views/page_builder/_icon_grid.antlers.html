@@ -1,53 +1,75 @@
 {{#
     @name Icon grid
-    @desc Reusable icon-grid section for the main page builder. Shares
-          fields and layout with the tour Highlights set — delegates to
-          `_highlights.antlers.html` so the two stay visually identical.
+    @desc General-purpose icon-grid section for the main page builder.
+          Fields come from `resources/fieldsets/icon_grid.yaml`:
+          `heading`, `intro`, `columns`, `icons` (grid of [title,
+          summary, icon]) and `buttons`.
+
+          The tour-specific `_highlights` partial delegates here by
+          passing its data via params (`:heading="block:title"`,
+          `:icons="block:activities"`), so `_icon_grid` exposes a tiny
+          param-fallback layer at the top — partials that delegate
+          override fields, direct-from-page_builder calls fall through
+          to `block:*`.
     @set page.page_builder.icon_grid
 #}}
 
+{{# Param fallback — passed params win, otherwise read from block scope. #}}
+{{ heading = heading ?? block:heading }}
+{{ intro = intro ?? block:intro }}
+{{ columns = columns ?? block:columns }}
+{{ icons = icons ?? block:icons }}
+{{ buttons = buttons ?? block:buttons }}
+
 <!-- /page_builder/_icon_grid.antlers.html -->
 {{ partial:page_builder/block :block_id="block_id" class="gap-y-10 md:gap-y-14" }}
-    {{ if block:heading }}
-        <header class="span-content text-center" x-data x-reveal>
-            <div data-reveal-item data-reveal-preset="h1">
-                {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}
-            </div>
+    {{ if heading || intro }}
+        <header class="span-content text-center flex flex-col items-center gap-4" x-data x-reveal>
+            {{ if heading }}
+                <div data-reveal-item data-reveal-preset="h1">
+                    {{ partial:typography/h2 :content="heading" color="text-foreground" }}
+                </div>
+            {{ /if }}
+            {{ if intro }}
+                <div data-reveal-item class="md:max-w-3xl">
+                    {{ partial:typography/p :content="intro" color="text-text" class="!mb-0" }}
+                </div>
+            {{ /if }}
         </header>
     {{ /if }}
 
-    {{ if block:icons }}
-    <ul class="span-content {{ if block:columns == '4' }}md:grid md:grid-cols-2 lg:grid-cols-4{{ else }}md:grid md:grid-cols-3{{ /if }} gap-x-9 gap-y-10 md:gap-y-12" x-data x-reveal data-reveal-stagger="50">
-        {{ block:icons }}
-            <li class="flex flex-col items-center text-center gap-4" data-reveal-item data-reveal-preset="card">
-                {{ if icon }}
-                    {{ icon }}
-                        <div class="flex shrink-0 items-center justify-center size-20 md:size-24 rounded-full bg-parchment-200 text-accent-2">
-                            {{ svg
-                                src="icons/{path}"
-                                attr:class="size-12 md:size-16 fill-current"
-                                attr:aria-hidden="true"
-                                attr:role="img"
-                            }}
-                        </div>
-                    {{ /icon }}
-                {{ /if }}
-                <div class="flex flex-col items-center gap-2 max-w-prose">
-                    {{ partial:typography/h4 :content="title" color="text-foreground" }}
-                    {{ if summary }}
-                        {{ partial:typography/p_small :content="summary" color="text-text" class="text-pretty !mb-0" }}
+    {{ if icons }}
+        <ul class="span-content {{ if columns == '4' }}md:grid md:grid-cols-2 lg:grid-cols-4{{ else }}md:grid md:grid-cols-3{{ /if }} gap-x-9 gap-y-10 md:gap-y-12" x-data x-reveal data-reveal-stagger="50">
+            {{ icons }}
+                <li class="flex flex-col items-center text-center gap-4" data-reveal-item data-reveal-preset="card">
+                    {{ if icon }}
+                        {{ icon }}
+                            <div class="flex shrink-0 items-center justify-center size-20 md:size-24 rounded-full bg-parchment-200 text-accent-2">
+                                {{ svg
+                                    src="icons/{path}"
+                                    attr:class="size-12 md:size-16 fill-current"
+                                    attr:aria-hidden="true"
+                                    attr:role="img"
+                                }}
+                            </div>
+                        {{ /icon }}
                     {{ /if }}
-                </div>
-            </li>
-        {{ /block:icons }}
-    </ul>
+                    <div class="flex flex-col items-center gap-2 max-w-prose">
+                        {{ partial:typography/h4 :content="title" color="text-foreground" }}
+                        {{ if summary }}
+                            {{ partial:typography/p_small :content="summary" color="text-text" class="text-pretty !mb-0" }}
+                        {{ /if }}
+                    </div>
+                </li>
+            {{ /icons }}
+        </ul>
     {{ /if }}
 
-    {{ if block:buttons }}
+    {{ if buttons }}
         <div class="span-content flex flex-wrap gap-4 justify-center">
-            {{ block:buttons }}
+            {{ buttons }}
                 {{ partial:components/button class="button--outline button--gold button--on-light" }}
-            {{ /block:buttons }}
+            {{ /buttons }}
         </div>
     {{ /if }}
 {{ /partial:page_builder/block }}

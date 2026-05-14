@@ -8,14 +8,6 @@ days: 7
 updated_by: 2
 updated_at: 1778498920
 grade: 3
-summary: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This wonderful tour takes you through the heart of Sicily, an area untouched by tourism, where the traditions, daily life, and hospitality of the island are alive and well.\_ Following mostly unsealed country lanes you’ll pass through some of the most spectacular countryside on Sicily: rolling farmlands covered in wheat fields overlooked by jagged mountains, with the forested peaks of the Madonie National Park in the distance.\_ "
 inclusions:
   - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
   - 'Private transfer from Petralia Soprana to either Palermo or Catania on Day 7'
@@ -299,6 +291,13 @@ page_builder:
       - 2e19ce5a-c9c8-4a40-94ca-868608999b10
     type: testimonials
     enabled: true
+  -
+    id: wb_HeUOHLG6MaMsjyHh
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 locations: southern-italy
 landscapes:
   - mountains
@@ -353,4 +352,12 @@ seasons:
   - spring
 headline: '7 days walking through central Sicily'
 image: tours/sicily-sicily-1-nicosia-to-petralia-soprana/08.jpg
+teaser: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "This wonderful tour takes you through the heart of Sicily, an area untouched by tourism, where the traditions, daily life, and hospitality of the island are alive and well.\_ Following mostly unsealed country lanes you’ll pass through some of the most spectacular countryside on Sicily: rolling farmlands covered in wheat fields overlooked by jagged mountains, with the forested peaks of the Madonie National Park in the distance.\_ "
 ---

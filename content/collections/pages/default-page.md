@@ -339,25 +339,6 @@ page_builder:
       - f829bb65-b523-4183-bd65-1fc700837a0f
       - 6f8a2c47-3b91-4e58-a672-9d4e0f1c5b83
   -
-    id: dp_cta_banner
-    type: cta_banner
-    enabled: true
-    heading: 'CTA banner'
-    image: tours/italian-alps-trails-to-freedom/dscf1836.jpg
-    overlay: true
-    buttons:
-      -
-        id: dp_cta_btn_1
-        label: 'Browse tours'
-        link_type: entry
-        entry:
-          - 2d1f3903-3248-4037-8e09-e76e8d62781c
-        target_blank: false
-        button_type: button
-        type: button
-        enabled: true
-        show_controls: true
-  -
     id: dp_faqs
     type: faqs
     enabled: true

@@ -8,14 +8,6 @@ days: 13
 updated_by: 1
 updated_at: 1777904703
 grade: 4
-summary: 'A special tour to a fascinating region: 3 borders, 4 national parks; and five languages.'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "With its mountains, plains and seashores all less than an hour's drive apart, Italian writer Ippolito Nievo fondly described the region Friuli Venezia Giulia (FVG) as a \"little compendium of the universe\".\_ This Hidden Italy special sets about exploring that universe."
 inclusions:
   - '12 night’s accommodation (see the itinerary for details) in excellent boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -339,6 +331,13 @@ page_builder:
       - b669f999-0f47-4bed-8887-f2caf3af7fe4
     type: testimonials
     enabled: true
+  -
+    id: wb_iLOBs00XPnuF2OVk
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 seasons: autumn
 image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/29a.jpg
@@ -383,4 +382,12 @@ finish_location:
   country: Italy
 now_open: false
 headline: '13 days across 3 borders, 4 national parks'
+teaser: 'A special tour to a fascinating region: 3 borders, 4 national parks; and five languages.'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "With its mountains, plains and seashores all less than an hour's drive apart, Italian writer Ippolito Nievo fondly described the region Friuli Venezia Giulia (FVG) as a \"little compendium of the universe\".\_ This Hidden Italy special sets about exploring that universe."
 ---

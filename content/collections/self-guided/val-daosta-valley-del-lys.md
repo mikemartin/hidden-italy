@@ -8,14 +8,6 @@ days: 7
 updated_by: 1
 updated_at: 1777906198
 grade: 4
-summary: 'A 7-day hike along historic trails through one of Italy’s most beautiful mountain valleys!'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'This exciting seven-day/six-night hike introduces you to the Valley del Lys, one of the most beautiful valleys in the European Alps, via historic trails that have been connecting the mountain communities for centuries.  Breakfast, dinners and some lunches are included.'
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
   - '6 nights accommodation'
@@ -375,6 +367,13 @@ page_builder:
     type: faqs
     enabled: true
     show_common_questions: true
+  -
+    id: wb_QCUHIpavY3iDLjNl
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 locations: northern-italy
 landscapes:
   - mountains
@@ -419,4 +418,12 @@ finish_location:
       code: null
       level: 1
   country: Italy
+teaser: 'A 7-day hike along historic trails through one of Italy’s most beautiful mountain valleys!'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'This exciting seven-day/six-night hike introduces you to the Valley del Lys, one of the most beautiful valleys in the European Alps, via historic trails that have been connecting the mountain communities for centuries.  Breakfast, dinners and some lunches are included.'
 ---

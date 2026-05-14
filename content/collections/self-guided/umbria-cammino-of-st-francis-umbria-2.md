@@ -8,14 +8,6 @@ days: 7
 updated_by: 1
 updated_at: 1777906054
 grade: 3
-summary: "A week-long walk along well-marked trails through the charming 'green heart of Italy'."
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The second section of the Cammino of St Francis, this lovey, week-long walk takes you through 'the green heart of Italy'.  Leaving Spoleto via the 13th century Ponte delle Torri bridge, you finish a week later, staying in a lovely 3-star hotel in the centre of the ancient town of Rieti.\_ "
 inclusions:
   - 'Six nights accommodation'
   - 'All breakfasts included'
@@ -306,6 +298,13 @@ page_builder:
       - b6f4574f-72b1-417a-a475-6f4d3a005af2
     type: testimonials
     enabled: true
+  -
+    id: wb_3ceTwqEAudaEdAMy
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 image: tours/umbria-cammino-of-st-francis-umbria-2/1.jpg
@@ -358,4 +357,12 @@ now_open: false
 seasons:
   - spring
 headline: "7 days in Italy's green heart"
+teaser: "A week-long walk along well-marked trails through the charming 'green heart of Italy'."
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "The second section of the Cammino of St Francis, this lovey, week-long walk takes you through 'the green heart of Italy'.  Leaving Spoleto via the 13th century Ponte delle Torri bridge, you finish a week later, staying in a lovely 3-star hotel in the centre of the ancient town of Rieti.\_ "
 ---

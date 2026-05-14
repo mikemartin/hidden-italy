@@ -8,14 +8,6 @@ days: 7
 updated_by: 1
 updated_at: 1777905302
 grade: 3
-summary: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Following an extraordinary trail, this continuous walk (no trains!) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere six days later, leaving you plenty of time to explore the charming villages you stay in each day.'
 inclusions:
   - 'Six nights accommodation'
   - 'All breakfasts included'
@@ -281,6 +273,13 @@ page_builder:
       - 740df3a3-af3b-4b7b-adb2-26e42fe3e024
     type: testimonials
     enabled: true
+  -
+    id: wb_TQv8t8nxeJUw9MVv
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 image: tours/liguria-cinque-terre-coastal-walking-tour/vernazza-8-a.jpg
@@ -333,4 +332,12 @@ now_open: false
 seasons:
   - spring
 headline: "7 days along Italy's finest coast"
+teaser: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Following an extraordinary trail, this continuous walk (no trains!) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere six days later, leaving you plenty of time to explore the charming villages you stay in each day.'
 ---

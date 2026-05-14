@@ -8,14 +8,6 @@ days: 6
 updated_by: 1
 updated_at: 1777905841
 grade: 4
-summary: "Enjoy some of Italy's finest walking through some of Europe's most breath-taking scenery!"
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'This wonderful six day self-guided walk introduces you to some ot the most spectacular mountains in the world and some of the finest walking in Europe.'
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
   - 'Five nights accommodation'
@@ -280,6 +272,13 @@ page_builder:
     type: faqs
     enabled: true
     show_common_questions: true
+  -
+    id: wb_9nixUayDYetWDbS6
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 image: tours/alto-adige-dolomites-1-self-guided-walk/img_8778-1773019621.jpg
@@ -318,4 +317,12 @@ finish_location:
       code: null
       level: 2
   country: Italy
+teaser: "Enjoy some of Italy's finest walking through some of Europe's most breath-taking scenery!"
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'This wonderful six day self-guided walk introduces you to some ot the most spectacular mountains in the world and some of the finest walking in Europe.'
 ---

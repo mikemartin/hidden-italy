@@ -8,14 +8,6 @@ days: 7
 updated_by: 1
 updated_at: 1777906024
 grade: 3
-summary: "Walk well-marked trails thru Italy's most beautiful region, in the footsteps of St Francis"
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'This six-day walk is the first section of the Cammino of St Francis. It follows the official pilgrim route, a regularly marked trail that weaves through the hills and farmlands of Central Italy, from Assisi, home of St Francis, to Spoleto through some of the most beautiful country in the region.'
 inclusions:
   - 'Five nights accommodation'
   - 'All breakfasts + 1 dinner included'
@@ -284,6 +276,13 @@ page_builder:
       - f5f447b4-6885-4112-a719-fbc568702316
     type: testimonials
     enabled: true
+  -
+    id: wb_BwwqTbfuSBgaL0B6
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 image: tours/umbria-cammino-of-st-francis-umbria-1/2.jpg
@@ -336,4 +335,12 @@ finish_location:
       code: null
       level: 2
   country: Italy
+teaser: "Walk well-marked trails thru Italy's most beautiful region, in the footsteps of St Francis"
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'This six-day walk is the first section of the Cammino of St Francis. It follows the official pilgrim route, a regularly marked trail that weaves through the hills and farmlands of Central Italy, from Assisi, home of St Francis, to Spoleto through some of the most beautiful country in the region.'
 ---

@@ -8,14 +8,6 @@ days: 13
 updated_by: 1
 updated_at: 1777904800
 grade: 4
-summary: 'This wonderful tour gives new twists to some of the classic destinations of northern Italy'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "The Italian Lakes are a little slice of paradise: deep, slender fjords gouged by glaciers, edged by dramatic forested slopes and shores lined with ancient villages and flower-bedecked villas.\_"
 inclusions:
   - '12 nights accommodation in 4-star boutique hotels (see itinerary for details)'
   - 'All breakfasts, and all lunches and dinners (with wine) listed in the itinerary.'
@@ -220,6 +212,13 @@ page_builder:
       - 2a3af93d-3a55-4a7c-b47b-e3e05f0965da
     type: testimonials
     enabled: true
+  -
+    id: wb_RLuxl19O8KA6Co6r
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 seasons: autumn
 image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/5.jpg
@@ -269,4 +268,12 @@ finish_location:
       level: 2
   country: Italy
 now_open: false
+teaser: 'This wonderful tour gives new twists to some of the classic destinations of northern Italy'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "The Italian Lakes are a little slice of paradise: deep, slender fjords gouged by glaciers, edged by dramatic forested slopes and shores lined with ancient villages and flower-bedecked villas.\_"
 ---

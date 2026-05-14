@@ -15,11 +15,12 @@
           the sticky nav (rather than when the section's border edge
           merely crosses the viewport).
 
-          For sections with their own `py-*` (passed via `class`),
-          pass `sentinel_top` mirroring the padding tier — e.g.
-          `top-12 md:top-16 lg:top-24` for `py-12 md:py-16 lg:py-24`
-          — so the sentinel sits at the content-top after padding.
-          Defaults to `top-0` for sections with no padding.
+          Sentinel offset is derived from `section_background`: no
+          panel = `top-0` (no internal padding), light/dark panel =
+          `top-10 lg:top-30` (mirrors the centralised `py-10 lg:py-30`
+          panel padding). Per-section overrides aren't needed — every
+          set imports `section_settings`, so the offset is always in
+          sync with the actual top padding.
 
           The parameter is `block_id` rather than `id` to avoid
           clashing with the block UUID that Statamic's page_builder
@@ -46,6 +47,12 @@
 
 {{ section_topo_tint = section_is_dark ? 'text-accent-light' : 'text-parchment-400' }}
 
+{{# Sentinel offset mirrors the panel's top padding so the sub-nav
+    active-state flips when the heading actually arrives near the
+    sticky nav, not when the section's outer edge merely crosses
+    the viewport. Panels have `py-10 lg:py-30`; `none` has none. #}}
+{{ section_sentinel_top = section_has_surface ? 'top-10 lg:top-30' : 'top-0' }}
+
 <section
     {{ if block_id }}
         id="{{ block_id }}"
@@ -59,7 +66,7 @@
         <div
             aria-hidden="true"
             x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('{{ block_id }}')"
-            class="absolute inset-x-0 {{ sentinel_top ?? 'top-0' }} h-px pointer-events-none"
+            class="absolute inset-x-0 {{ section_sentinel_top }} h-px pointer-events-none"
         ></div>
     {{ /if }}
 

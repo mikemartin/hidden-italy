@@ -9,16 +9,8 @@ seasons: spring
 grade: 3
 updated_by: 1
 updated_at: 1777904646
-summary: 'Campania a stunningly beautiful area with all the exuberance and colour of southern Italy.'
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'The Romans called the region around Naples ‘Campania Felix’ or the ‘happy lands’. With its rich history, spectacular coastline and fertile interior, Campania has much to be happy about: a stunningly beautiful area with endless surprises and all the exuberance and colour of southern Italy.'
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in excellent boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -353,6 +345,13 @@ page_builder:
       - 645d9e38-4f9a-4590-b2f5-27761417d043
     type: testimonials
     enabled: true
+  -
+    id: wb_Nbxbqh0WR60f7igm
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 locations: southern-italy
 start_location:
@@ -387,4 +386,12 @@ finish_location:
   country: Italy
 now_open: false
 headline: '13 days exploring colourful southern Italy'
+teaser: 'Campania a stunningly beautiful area with all the exuberance and colour of southern Italy.'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The Romans called the region around Naples ‘Campania Felix’ or the ‘happy lands’. With its rich history, spectacular coastline and fertile interior, Campania has much to be happy about: a stunningly beautiful area with endless surprises and all the exuberance and colour of southern Italy.'
 ---

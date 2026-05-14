@@ -8,14 +8,6 @@ days: 6
 updated_by: 1
 updated_at: 1777905904
 grade: 2
-summary: 'Pure Tuscany: rolling hills, cypress pines, Renaissance towns, fine food, relaxed walking.'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This wonderful tour starts with a private transfer from Siena (or Chiusi) to Montalcino, a gorgeous hill-town celebrated for its wines.  From here, the walk takes you through the Val d'Orcia, one of the most beautiful places in Italy (the world?).  You pass through classic Tuscan countryside, following sections of the Via Francigena, a medieval road that bisected the valley linking Papal Rome with northern Europe, carrying pilgrims, traders, Crusader armies, emperors and popes.  The valley is lined with castles, monasteries and villages that date from this period. "
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
   - 'Five nights accommodation'
@@ -280,6 +272,13 @@ page_builder:
       - 898ad6a9-bf99-4b6b-94d7-2f4b1cc9fe7c
     type: testimonials
     enabled: true
+  -
+    id: wb_W4F6MajT5RsWyyKg
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 image: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_0741.jpg
@@ -331,4 +330,12 @@ finish_location:
       code: null
       level: 2
   country: Italy
+teaser: 'Pure Tuscany: rolling hills, cypress pines, Renaissance towns, fine food, relaxed walking.'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "This wonderful tour starts with a private transfer from Siena (or Chiusi) to Montalcino, a gorgeous hill-town celebrated for its wines.  From here, the walk takes you through the Val d'Orcia, one of the most beautiful places in Italy (the world?).  You pass through classic Tuscan countryside, following sections of the Via Francigena, a medieval road that bisected the valley linking Papal Rome with northern Europe, carrying pilgrims, traders, Crusader armies, emperors and popes.  The valley is lined with castles, monasteries and villages that date from this period. "
 ---

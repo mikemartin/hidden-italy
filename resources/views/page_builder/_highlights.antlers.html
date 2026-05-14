@@ -8,5 +8,15 @@
 #}}
 
 <!-- /page_builder/_highlights.antlers.html -->
-{{ partial src="page_builder/_icon_grid" :icons="block:activities" block_id="highlights" }}
+{{# Tour-specific delegate to the general icon_grid partial. Field
+    names differ (`title` / `activities` here vs `heading` / `icons`
+    on icon_grid) so each set keeps its own editor-facing labels —
+    this partial just remaps them through params. Section settings
+    (`block:section_background`, `block:show_topography`) flow
+    through `block` scope to _icon_grid → _block automatically. #}}
+{{ partial src="page_builder/_icon_grid"
+    :heading="block:title"
+    :icons="block:activities"
+    block_id="highlights"
+}}
 <!-- End: /page_builder/_highlights.antlers.html -->

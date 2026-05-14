@@ -8,14 +8,6 @@ days: 8
 updated_by: 1
 updated_at: 1777905262
 grade: 3
-summary: 'From the quiet green hills of central Italy to the steps of St Peters in the heart of Rome'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This marvellous 8-day walk starts in the quiet streets of Rieti, a lovely town in the north of Lazio, before climbing into the hills of the central Apennines, through an district known as Sabina, which is dotted with small, proud towns, each with its own history traced back to the Romans and beyond.\_ The hills gradually give way to the undulating farmlands of the Tiber River plain.  The trail then winds through two nature reserves before reaching the outer suburbs of Rome. \_"
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
   - 'Seven nights accommodation'
@@ -285,6 +277,13 @@ page_builder:
       - 6fcf2d29-4fab-45fc-83f5-ee7ed490f886
     type: testimonials
     enabled: true
+  -
+    id: wb_idJz0XDiQEEermvU
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 gallery:
   - tours/piedmont-alba-and-le-langhe-1/1.5.jpg
@@ -336,4 +335,12 @@ now_open: false
 seasons:
   - autumn
 headline: '8 days from the green hills to Rome'
+teaser: 'From the quiet green hills of central Italy to the steps of St Peters in the heart of Rome'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "This marvellous 8-day walk starts in the quiet streets of Rieti, a lovely town in the north of Lazio, before climbing into the hills of the central Apennines, through an district known as Sabina, which is dotted with small, proud towns, each with its own history traced back to the Romans and beyond.\_ The hills gradually give way to the undulating farmlands of the Tiber River plain.  The trail then winds through two nature reserves before reaching the outer suburbs of Rome. \_"
 ---

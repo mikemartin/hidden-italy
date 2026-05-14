@@ -8,14 +8,6 @@ days: 8
 updated_by: 1
 updated_at: 1777905357
 grade: 4
-summary: "Walk Italy's most celebrated coastline from romantic Sestri Levante to the Cinque Terre!"
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This is a walk of two parts: the first three days take you through some of least visited parts of the Ligurian Coast, following well-marked mountain trails through unspoilt forests and staying in laid-back coastal towns quite untouched by tourism.\_ The remaining days take you along the trails of the Cinque Terre, one of the most celebrated and spectacular stretches of coastline in the Mediterranean, following stone paths that have linked the fishing villages for centuries."
 inclusions:
   - 'Eight nights accommodation'
   - 'All breakfasts included'
@@ -354,6 +346,13 @@ page_builder:
       - fca1c44a-da19-4576-8f11-03d215030961
     type: testimonials
     enabled: true
+  -
+    id: wb_QN4voBUK8NTAtDqt
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 duplicated_from: c10e8a1d-dab8-454a-8c80-abbba7b0a648
 image: tours/alto-adige-dolomites-1-self-guided-walk-1-1/1.jpg
@@ -406,4 +405,12 @@ now_open: false
 seasons:
   - autumn
 headline: '8 days walking to the Cinque Terre'
+teaser: "Walk Italy's most celebrated coastline from romantic Sestri Levante to the Cinque Terre!"
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "This is a walk of two parts: the first three days take you through some of least visited parts of the Ligurian Coast, following well-marked mountain trails through unspoilt forests and staying in laid-back coastal towns quite untouched by tourism.\_ The remaining days take you along the trails of the Cinque Terre, one of the most celebrated and spectacular stretches of coastline in the Mediterranean, following stone paths that have linked the fishing villages for centuries."
 ---

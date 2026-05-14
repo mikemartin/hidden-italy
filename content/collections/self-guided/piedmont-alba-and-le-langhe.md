@@ -8,14 +8,6 @@ days: 8
 updated_by: 1
 updated_at: 1777905465
 grade: 3
-summary: 'An 8-day tour that takes you through the seductive rolling hills of southern Piedmont.'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This delightful 8-day circuit walk starts with a private transfer to beautiful Alba, 95 kilometres south of Turin.\_ A handsome town of Roman origin, Alba is the ‘capital’ of the Langhe, a close-knit range of hills and valleys which are crowded with impeccably tended rows of nebbiolo vines, the source of some of Italy’s finest wines, including Barolo and Barbaresco.\_ They form a unique and striking landscape which is dotted with attractive hill-towns, castles and wineries, so much so that the district was recently listed as a UNESCO World Heritage site."
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
   - 'Seven nights accommodation'
@@ -300,6 +292,13 @@ page_builder:
       - fbe5bdc8-92b4-4773-b6eb-b12e6d3edac2
     type: testimonials
     enabled: true
+  -
+    id: wb_zSLmwMP3HTXi3dBe
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 image: tours/piedmont-alba-and-le-langhe/7-v2.jpg
 gallery:
@@ -349,4 +348,12 @@ now_open: false
 seasons:
   - autumn
 headline: '8 days through southern Piedmont'
+teaser: 'An 8-day tour that takes you through the seductive rolling hills of southern Piedmont.'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "This delightful 8-day circuit walk starts with a private transfer to beautiful Alba, 95 kilometres south of Turin.\_ A handsome town of Roman origin, Alba is the ‘capital’ of the Langhe, a close-knit range of hills and valleys which are crowded with impeccably tended rows of nebbiolo vines, the source of some of Italy’s finest wines, including Barolo and Barbaresco.\_ They form a unique and striking landscape which is dotted with attractive hill-towns, castles and wineries, so much so that the district was recently listed as a UNESCO World Heritage site."
 ---

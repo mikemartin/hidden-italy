@@ -8,14 +8,6 @@ days: 13
 updated_by: 1
 updated_at: 1777904817
 grade: 2
-summary: 'Puglia is pure southern Italy: vibrant towns, endless trails and coastline; fabulous food!'
-overview:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'A bridge between Italy and the East, Puglia is pure southern Italy: layers of history, vibrant cities and towns, ancient traditions celebrated in colourful festivals; a timeless interior edged by an endless coastline; gracious hospitality and fabulous food.'
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -216,7 +208,7 @@ page_builder:
         photo: tours/puglia-puglia-in-the-spring/bari-5.jpg
       -
         id: mlorf281
-        title: 'Departure'
+        title: Departure
         description: 'After breakfast, you’ll be able to continue your holiday.  Bari is well connected by air, rail and road to the rest of Italy and Europe.'
         meals_included:
           - breakfast
@@ -330,6 +322,13 @@ page_builder:
     type: faqs
     enabled: true
     show_common_questions: true
+  -
+    id: wb_tKPl4JMLeN5EjGP6
+    type: walking_benefits
+    enabled: true
+    tour_type: auto
+    section_background: none
+    show_topography: false
 simple_likes: 0
 seasons: spring
 image: tours/puglia-puglia-in-the-spring/19.7.jpg
@@ -379,4 +378,12 @@ finish_location:
   country: Italy
 now_open: false
 headline: '13 days walking the trails of Puglia'
+teaser: 'Puglia is pure southern Italy: vibrant towns, endless trails and coastline; fabulous food!'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'A bridge between Italy and the East, Puglia is pure southern Italy: layers of history, vibrant cities and towns, ancient traditions celebrated in colourful festivals; a timeless interior edged by an endless coastline; gracious hospitality and fabulous food.'
 ---
