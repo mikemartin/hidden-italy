@@ -5,14 +5,13 @@ title: 'Trails to Freedom'
 subtitle: 'The True Story of the Medieval Trails Used by Anzac POWs to Escape Italy in 1943–1944'
 lead: 'Trails to Freedom is the story of a solo hike across the Alps that brings to life the fascinating, largely unknown history of the Anzac POWs who escaped Fascist Italy to find safety in neutral Switzerland during WWII.'
 image: shop/trails-to-freedom.jpg
-buy_link: 'https://google.com'
 buy_label: 'Buy now'
 type: book
 price: '$36.99 AUD'
 show_from: true
 featured_heading: 'Featured on'
 updated_by: 1
-updated_at: 1778887123
+updated_at: 1778887132
 page_builder:
   -
     id: 1LdcYtZnlky9RkjXJpgWM
