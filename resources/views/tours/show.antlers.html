@@ -146,7 +146,12 @@
         aria-label="{{ trans:strings.tour_sections ?? 'Tour sections' }}"
     >
             <div class="fluid-grid">
-                <div class="span-content flex items-stretch gap-6 h-20 max-md:pr-3">
+                {{# Bleed past the content column's right edge below `md`
+                    so overflowing tabs are visibly cut off by the
+                    viewport — a stronger "more to scroll to" hint than a
+                    contained row. `md`+ snaps back to the content column
+                    because the right slot holds the CTA. #}}
+                <div class="[grid-column:content-start/full-end] md:[grid-column:content] flex items-stretch gap-6 h-20">
 
                     {{# Section nav — horizontally scrollable on small
                         viewports where the tabs don't all fit at once.
