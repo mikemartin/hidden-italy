@@ -20,14 +20,23 @@ export default function tourSubnav() {
             this.$store.tourSubnav.select(id);
             el.scrollIntoView({ behavior: 'smooth', block: 'start' });
         },
-        /* Centre the active button in the horizontal scroll container so
-           the spy never strands the indicator off-screen on narrow
-           viewports. `block: 'nearest'` keeps the page from scrolling
-           vertically — the sticky nav is always visible. */
+        /* Centre the active button inside the horizontal tab row so the
+           spy never strands the indicator off-screen on narrow viewports.
+           Drives `list.scrollTo` directly instead of `scrollIntoView` so
+           only the nav's horizontal scroll moves — `scrollIntoView` would
+           also tug the document scroll vertically, fighting the user's
+           page scroll as new sections crossed the spy band. */
         ensureActiveInView() {
             const active = this.$store.tourSubnav.active;
             const btn = this.$el.querySelector(`[data-subnav-id="${active}"]`);
-            btn?.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+            if (!btn) return;
+            const list = this.$el.querySelector('ul');
+            if (!list || list.scrollWidth <= list.clientWidth) return;
+            const listRect = list.getBoundingClientRect();
+            const btnRect = btn.getBoundingClientRect();
+            const btnLeftInList = btnRect.left - listRect.left + list.scrollLeft;
+            const target = btnLeftInList - (list.clientWidth - btnRect.width) / 2;
+            list.scrollTo({ left: target, behavior: 'smooth' });
         },
     };
 }
