@@ -73,6 +73,7 @@ page_builder:
         button_type: button
         type: button
         enabled: true
+    section_background: dark
   -
     id: home_featured_tours
     type: featured_tours
