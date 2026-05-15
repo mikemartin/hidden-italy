@@ -1,30 +1,29 @@
 {{#
     @name Back to top
-    @desc Floating button that fades + rises into view on scroll and
-          smooth-scrolls back to the top on click. The threshold adapts
-          to the layout: when the main nav is sticky (`nav_is_sticky`)
-          the button stays hidden until 500px of scroll because the nav
-          is always reachable; when the nav scrolls away with the page,
-          the threshold drops to 100px so the button appears as soon as
-          the nav is out of view — an alternative path back to it.
-          Tuned to the project's Premium motion identity: the wrapper
-          handles visibility entrance with opacity + scale-95 +
-          translate-y-2 via `--duration-standard` / `--ease-emphasis`
-          so the button appears as a single considered moment rather
-          than a pop. The button itself stays still at rest (premium =
-          restrained) and lifts +4px / scale 1.05 on hover to suggest
-          upward travel — 0% overshoot, matching the archetype. Press
-          settles to half the lift in 150ms for responsive feedback.
-          Reduced-motion users get the static button with no transforms.
+    @desc Floating button that fades + rises into view past 100px of
+          scroll and smooth-scrolls back to the top on click. The
+          layout only renders this on pages that opt the main nav out
+          of its sticky overlay via `static_overlay_header` (the tour
+          show templates) — on every other page the main nav stays
+          fixed/sticky and the button isn't needed. The 100px threshold
+          lines up with the header height so the button appears as
+          soon as the nav is out of view. Tuned to the project's
+          Premium motion identity: the wrapper handles visibility
+          entrance with opacity + scale-95 + translate-y-2 via
+          `--duration-standard` / `--ease-emphasis` so the button
+          appears as a single considered moment rather than a pop. The
+          button itself stays still at rest (premium = restrained) and
+          lifts +4px / scale 1.05 on hover to suggest upward travel —
+          0% overshoot, matching the archetype. Press settles to half
+          the lift in 150ms for responsive feedback. Reduced-motion
+          users get the static button with no transforms.
 #}}
-
-{{ threshold = nav_is_sticky ? 500 : 100 }}
 
 <!-- /layout/_back_to_top.antlers.html -->
 <div
-    x-data="{ threshold: {{ threshold }}, visible: false }"
-    x-init="visible = window.scrollY > threshold"
-    @scroll.window.passive="visible = window.scrollY > threshold"
+    x-data="{ visible: false }"
+    x-init="visible = window.scrollY > 100"
+    @scroll.window.passive="visible = window.scrollY > 100"
     :class="visible ? 'opacity-100 scale-100 translate-y-0 pointer-events-auto' : 'opacity-0 scale-95 translate-y-2 pointer-events-none'"
     class="fixed bottom-16 right-5 z-40 transition-all duration-[var(--duration-standard)] ease-[var(--ease-emphasis)] motion-reduce:transition-none"
 >
