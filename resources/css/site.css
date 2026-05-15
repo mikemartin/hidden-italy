@@ -465,6 +465,26 @@
     }
 }
 
+/* Back-to-top button hover — double-jump cue that plays once on hover. The
+   four `-10px` peaks mirror the Framer Motion reference (`y: [0,-10,0,-10,0]`
+   played twice). Duration is 1400ms so the two cycles read as a single
+   playful gesture rather than a continuous bounce. Reduced-motion users
+   keep the button but skip the animation. */
+@keyframes back-to-top-jump {
+    0%, 25%, 50%, 75%, 100% { transform: translateY(0); }
+    12.5%, 37.5%, 62.5%, 87.5% { transform: translateY(-10px); }
+}
+
+.back-to-top-button:hover {
+    animation: back-to-top-jump 1400ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .back-to-top-button:hover {
+        animation: none;
+    }
+}
+
 /* Hide scrollbar on horizontal scroll-snap tracks (hero & tours carousels). */
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { scrollbar-width: none; }
