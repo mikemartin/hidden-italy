@@ -38,7 +38,7 @@
         </p>
     </div>
 
-    {{ form:create handle="booking_enquiry" js="alpine:form" attr:x-ref="form" redirect="/booking/thank-you" error_redirect="/booking" }}
+    {{ form:create handle="booking_enquiry" js="alpine:form" attr:x-ref="form" redirect="/booking/thank-you" error_redirect="/booking" x-data='@{"captcha-response": "" }' }}
         <div x-data="formHandler()" class="flex flex-col gap-6" x-cloak>
             {{# Error notifications — Precognition-driven. #}}
             <template x-if="form.hasErrors && submitted">

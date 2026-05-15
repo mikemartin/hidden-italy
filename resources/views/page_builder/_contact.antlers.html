@@ -98,7 +98,7 @@
         {{# ============ Right column: form ============ #}}
         <div class="order-1 md:order-2 md:col-span-7 md:col-start-7">
             {{ if block:form }}
-                {{ form:create :in="block:form" js="alpine:form" attr:x-ref="form" }}
+                {{ form:create :in="block:form" js="alpine:form" attr:x-ref="form" x-data='@{"captcha-response": "" }'}}
                     <div x-data="formHandler()" class="flex flex-col gap-6" x-cloak>
                         {{# Error notifications. #}}
                         <template x-if="form.hasErrors && submitted">
