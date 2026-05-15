@@ -20,6 +20,7 @@
         {{ partial:statamic-peak-seo::snippets/seo }}
         {{ partial:statamic-peak-tools::snippets/browser_appearance }}
         {{ stack:head }}
+        {{ captcha:head }}
     </head>
     <body class="min-h-screen bg-background text-text font-sans antialiased">
         <div class="grid min-h-dvh lg:grid-cols-2">
@@ -45,7 +46,7 @@
                 so the if/else picks exactly one branch. #}}
             <div class="hidden lg:block relative overflow-hidden" aria-hidden="true">
                 {{ if get:tour }}
-                    {{ get_content from="/guided/{get:tour}|/self-guided/{get:tour}" }}
+                    {{ get_content from="/tours/guided/{get:tour}|/tours/self-guided/{get:tour}" }}
                         {{ if no_results || !image }}
                             <div
                                 class="absolute inset-0 bg-cover bg-center"

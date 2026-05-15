@@ -30,6 +30,7 @@
         {{ partial:statamic-peak-seo::snippets/seo }}
         {{ partial:statamic-peak-tools::snippets/browser_appearance }}
         {{ stack:head }}
+        {{ captcha:head }}
     </head>
     <body class="flex flex-col min-h-screen bg-background {{ if transparent_header }}has-overlay-header{{ /if }}">
         {{ stack:seo_body }}

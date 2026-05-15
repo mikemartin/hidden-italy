@@ -207,6 +207,12 @@
                             </fieldset>
                         {{ /sections }}
 
+                        {{ captcha }}
+ 
+                        {{ if error:captcha }}
+                            <p class="text-error">{{ error:captcha }}</p>
+                        {{ /if }}
+
                         {{# Submit button — gold pill, left-aligned to match the design. #}}
                         <div class="flex">
                             {{ partial:components/button as="button" button_type="button" label="{ trans:strings.form_send }" class="button--large button--accent" }}

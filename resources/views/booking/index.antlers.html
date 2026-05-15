@@ -196,6 +196,10 @@
 
             {{ captcha }}
 
+            {{ if error:captcha }}
+                <p class="text-error">{{ error:captcha }}</p>
+            {{ /if }}
+
             <button
                 type="button"
                 @click.prevent="submit"
