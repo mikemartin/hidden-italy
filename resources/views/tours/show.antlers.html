@@ -149,11 +149,10 @@
                 <div class="span-content flex items-stretch gap-6 h-20 max-md:pr-3">
 
                     {{# Section nav — horizontally scrollable on small
-                        viewports where the tabs don't all fit at once. The
-                        trailing gradient hints at off-screen items; hidden
-                        from md+ where the row typically fits. Each tab
-                        keeps a constant 3px bottom border so toggling the
-                        active state never shifts the baseline.
+                        viewports where the tabs don't all fit at once.
+                        Each tab keeps a constant 3px bottom border so
+                        toggling the active state never shifts the
+                        baseline.
 
                         `min-w-0` on both the wrapper and the `<ul>` is
                         load-bearing: a flex item's default `min-width` is
@@ -162,7 +161,7 @@
                         leave `overflow-x-auto` with nothing to overflow.
                         Setting min-width to 0 caps the `<ul>` at its
                         parent's width so the tabs can scroll. #}}
-                    <div class="relative flex-1 flex items-stretch min-w-0">
+                    <div class="flex-1 flex items-stretch min-w-0">
                         <ul class="flex items-stretch overflow-x-auto no-scrollbar flex-1 min-w-0">
                             {{# Only known section types render a button. Label comes from
                                 `strings.<type>` so the lang file is the single source of
@@ -185,10 +184,6 @@
                                 {{ /if }}
                             {{ /page_builder }}
                         </ul>
-                        <div
-                            aria-hidden="true"
-                            class="pointer-events-none absolute inset-y-0 right-0 w-6 bg-gradient-to-l from-card to-transparent md:hidden"
-                        ></div>
                     </div>
 
                     {{# Desktop-only CTA — pinned to the right of the section nav.
