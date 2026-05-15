@@ -6,7 +6,7 @@ name: 'Dolomites 1'
 region: 'Trentino-Alto Adige'
 days: 6
 updated_by: 1
-updated_at: 1777905841
+updated_at: 1778845597
 grade: 4
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
@@ -57,6 +57,7 @@ page_builder:
       - tours/alto-adige-dolomites-1-self-guided-walk/sassolungo-with-horse-1773020028.jpg
       - tours/alto-adige-dolomites-1-self-guided-walk/img_1570-1773020174.jpg
       - tours/alto-adige-dolomites-1-self-guided-walk/img_8778-1773019782.jpg
+    hide_from_subnav: false
   -
     id: mloocwbk
     heading: 'Highlights of the Dolomites 1 walking tour'
@@ -89,6 +90,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloox88g
     title: 'Dolomites 1 self-guided walking tour itinerary'
@@ -163,6 +166,8 @@ page_builder:
         photo: tours/alto-adige-dolomites-1-self-guided-walk/35-1773020227.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: tgGgo5fD6Wp46H72nZl2P
     title: 'Dolomites 1 Experience'
@@ -218,6 +223,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: xr8H6kvK8khfInzpfumk-
     title: 'What you should know'
@@ -269,10 +275,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: NbQeLg65
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_9nixUayDYetWDbS6
     type: walking_benefits
@@ -280,6 +292,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 image: tours/alto-adige-dolomites-1-self-guided-walk/img_8778-1773019621.jpg
@@ -297,7 +310,21 @@ gallery:
   - tours/alto-adige-dolomites-1-self-guided-walk/img_3481-1773020206.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/35-1773020227.jpg
 start_location:
-  label: Bolzano
+  label: 'Bolzano, Trentino – Alto Adige/Südtirol, Italy'
+  lat: '46.4984781'
+  lon: '11.3547399'
+  postalCode: '39100'
+  locality: Bolzano
+  adminLevels:
+    1:
+      name: 'Trentino – Alto Adige/Südtirol'
+      code: null
+      level: 1
+    2:
+      name: 'South Tyrol'
+      code: null
+      level: 2
+  country: Italy
 now_open: false
 seasons:
   - summer
@@ -326,4 +353,5 @@ summary:
       -
         type: text
         text: 'This wonderful six day self-guided walk introduces you to some ot the most spectacular mountains in the world and some of the finest walking in Europe.'
+show_from: true
 ---
