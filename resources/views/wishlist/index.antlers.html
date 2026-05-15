@@ -81,7 +81,14 @@
     </main>
 {{ else }}
     <main id="content">
-        <div class="bg-card flex flex-col items-center justify-center px-6 py-16 md:px-12 md:py-24 lg:py-32">
+        <div class="bg-card flex flex-col items-center justify-center px-6 
+        
+         {{ if static_overlay_header }}
+            pt-16 md:pt-24 lg:pt-32
+        {{ else }}
+            pt-28 md:pt-32 xl:pt-36
+        {{ /if }}
+        pb-16 md:px-12 md:pb-24 lg:pb-32">
             <div class="flex flex-col items-center text-center gap-6 max-w-xl">
                 <div class="flex shrink-0 items-center justify-center size-20 md:size-24 rounded-full bg-parchment-200 text-accent-2">
                     {{ svg
