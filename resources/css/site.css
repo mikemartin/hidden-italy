@@ -465,23 +465,38 @@
     }
 }
 
-/* Back-to-top button hover — double-jump cue that plays once on hover. The
-   four `-10px` peaks mirror the Framer Motion reference (`y: [0,-10,0,-10,0]`
-   played twice). Duration is 1400ms so the two cycles read as a single
-   playful gesture rather than a continuous bounce. Reduced-motion users
-   keep the button but skip the animation. */
-@keyframes back-to-top-jump {
-    0%, 25%, 50%, 75%, 100% { transform: translateY(0); }
-    12.5%, 37.5%, 62.5%, 87.5% { transform: translateY(-10px); }
+/* Back-to-top button — Premium travel-brand motion. Static at rest;
+   a single controlled lift on hover hints at upward travel (the
+   button's action) without bouncing. Tuned to the project's Premium
+   tokens (`--ease-standard`, `--duration-quick`) so it sits naturally
+   alongside the rest of the site's motion. Active state settles to
+   half the hover lift in 150ms so a press feels responsive without
+   undoing the affordance entirely. Reduced-motion users get a fully
+   static control. */
+.back-to-top-button {
+    transition:
+        transform var(--duration-quick) var(--ease-standard),
+        background-color var(--duration-quick) var(--ease-standard);
+    will-change: transform;
 }
 
 .back-to-top-button:hover {
-    animation: back-to-top-jump 1400ms ease-out;
+    transform: translateY(-4px) scale(1.05);
+}
+
+.back-to-top-button:active {
+    transform: translateY(-2px) scale(1.02);
+    transition-duration: 150ms;
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .back-to-top-button:hover {
-        animation: none;
+    .back-to-top-button {
+        transition: none;
+    }
+
+    .back-to-top-button:hover,
+    .back-to-top-button:active {
+        transform: none;
     }
 }
 
