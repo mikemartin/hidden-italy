@@ -84,6 +84,8 @@ return [
     'send_enquiry' => 'Send enquiry',
     'have_an_account' => 'Have an account?',
     'log_in' => 'Log in',
+    'update_profile' => 'Update profile',
+    'booking_as' => 'Booking as',
     'thank_you_heading' => 'Thank you for your enquiry',
     'thank_you_message' => 'We have received your booking enquiry and will get back to you shortly with more information.',
     'go_back_home' => 'Go back home',

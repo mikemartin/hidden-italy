@@ -82,8 +82,30 @@
                 {{# Hidden user fields piped through from the current user.
                     `x-init` seeds the Alpine `form.*` state from each
                     input's `value` (Precognition submits the Alpine state,
-                    not the raw DOM, so plain hidden inputs aren't enough). #}}
+                    not the raw DOM, so plain hidden inputs aren't enough).
+                    Above the hidden inputs, surface a compact identity
+                    card so users see whose details are about to be
+                    submitted and can jump to Account → Profile to fix
+                    them before enquiring. #}}
                 {{ current_user }}
+                    <div class="flex items-center justify-between gap-3 p-3 border rounded-lg border-zinc-200 bg-card">
+                        <div class="min-w-0">
+                            <div class="text-sm font-medium truncate text-zinc-900">
+                                {{ name }}
+                            </div>
+                            <div class="text-xs truncate text-zinc-600">
+                                {{ email }}
+                            </div>
+                        </div>
+                        <x-flux::link
+                            href="/account/profile"
+                            wire:navigate
+                            class="text-sm shrink-0"
+                        >
+                            {{ trans:strings.update_profile }}
+                        </x-flux::link>
+                    </div>
+
                     <input type="hidden" name="name"    value="{{ name }}"         x-init="form.name = $el.value">
                     <input type="hidden" name="email"   value="{{ email }}"        x-init="form.email = $el.value">
                     <input type="hidden" name="phone"   value="{{ phone_mobile }}" x-init="form.phone = $el.value">

@@ -127,7 +127,7 @@ class extends Component
 
         <x-auth-session-status class="text-center" :status="session('status')" />
 
-        <div class="flex items-center justify-between gap-3 p-3 border rounded-lg border-zinc-200">
+        <div class="flex items-center justify-between gap-3 p-3 border rounded-lg border-zinc-200 bg-card">
             <div class="min-w-0">
                 <div class="text-sm font-medium truncate text-zinc-900">
                     {{ $foundUser->name }}
