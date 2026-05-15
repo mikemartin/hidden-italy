@@ -1,8 +1,4 @@
 title: 'Tour builder'
-# Shared replicator field used by both guided and self-guided tour
-# blueprints. Imported into the Page Builder section of each tour
-# blueprint's main tab — see resources/blueprints/collections/{guided,
-# self-guided}/tour.yaml.
 fields:
   -
     handle: page_builder
@@ -31,7 +27,6 @@ fields:
                     localizable: true
                     display: 'Hide from sub-nav'
                     instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
-                    default: false
                     width: 50
             itinerary:
               display: Itinerary
@@ -132,7 +127,6 @@ fields:
                     localizable: true
                     display: 'Hide from sub-nav'
                     instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
-                    default: false
                     width: 50
             overview:
               display: Overview
@@ -188,7 +182,6 @@ fields:
                     localizable: true
                     display: 'Hide from sub-nav'
                     instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
-                    default: false
                     width: 50
             experience:
               display: Experience
@@ -336,11 +329,10 @@ fields:
                     localizable: true
                     display: 'Hide from sub-nav'
                     instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
-                    default: false
                     width: 50
             leader:
               display: 'Tour Leader'
-              instructions: 'Introduce the guide leading this tour. Shows leader from Overview tab.'
+              instructions: 'Shows leader from Overview tab.'
               icon: leader
               image: leader.png
               fields:
@@ -359,7 +351,6 @@ fields:
                     localizable: true
                     display: 'Hide from sub-nav'
                     instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
-                    default: false
                     width: 50
             essentials:
               display: Essentials
@@ -511,7 +502,6 @@ fields:
                     localizable: true
                     display: 'Hide from sub-nav'
                     instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
-                    default: false
                     width: 50
             testimonials:
               display: Testimonials
@@ -528,7 +518,6 @@ fields:
                     localizable: true
                     display: 'Hide from sub-nav'
                     instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
-                    default: false
                     width: 50
             faqs:
               display: FAQs
@@ -545,13 +534,11 @@ fields:
                     localizable: true
                     display: 'Hide from sub-nav'
                     instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
-                    default: false
                     width: 50
             walking_benefits:
               display: 'Walking benefits'
-              instructions: 'Brand reassurance panel. Heading, intro and benefit tiles are managed in the Guided / Self-guided globals; this block just controls where the panel renders on the tour page.'
+              instructions: 'Reasons to tour with us'
               icon: scenery
-              type: walking_benefits
               image: walking_benefits.png
               fields:
                 -
@@ -575,7 +562,6 @@ fields:
                     localizable: true
                     display: 'Topographic lines'
                     instructions: 'Add the topographic line pattern to the panel background.'
-                    default: false
                     width: 50
                     unless:
                       section_background: none

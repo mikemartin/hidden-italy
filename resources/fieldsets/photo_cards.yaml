@@ -1,10 +1,4 @@
 title: 'Photo cards'
-# Shared section-settings convention — `section_background`
-# (none|light|dark) and `show_topography` toggle live at the bottom
-# of the blueprint. Imports the `with_dark` variant since photo cards
-# work on the deep-blue panel; the dark rendering itself lives in
-# `_block.antlers.html` so future dark-capable sections just swap
-# their import to match.
 fields:
   -
     handle: heading
@@ -23,12 +17,12 @@ fields:
         - self-guided
       max_items: 4
       display: 'Photo cards'
-      instructions: 'Pick up to three entries. Pages show their title and a "N Tours" chip (handy for the Guided + Self-Guided pillar cards). Guided / Self-guided tours show their name and region chip.'
+      instructions: 'Pick up to four entries. Tour listings pages show the number of tours. Guided and Self-Guided tours show their name and region.'
   -
     handle: buttons
     field: buttons.buttons
     config:
-      display: 'Trailing button'
+      display: Button
       instructions: 'Optional button under the cards (e.g. "Browse all tours").'
       max_sets: 1
   -

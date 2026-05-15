@@ -14,7 +14,6 @@ fields:
       type: text
       localizable: true
       display: 'View all label'
-      instructions: 'Label for the link next to the heading (e.g. "View all").'
       default: 'View all'
       width: 33
   -

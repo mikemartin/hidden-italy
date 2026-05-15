@@ -1,4 +1,4 @@
-title: 'Testimonial — image overlap'
+title: 'Testimonial and photo'
 fields:
   -
     handle: image
@@ -35,6 +35,6 @@ fields:
       type: text
       localizable: true
       display: Role
-      instructions: "e.g. ‘Director, Hidden Italy’."
+      instructions: 'e.g. ‘Director, Hidden Italy’.'
   -
     import: section_settings_with_dark

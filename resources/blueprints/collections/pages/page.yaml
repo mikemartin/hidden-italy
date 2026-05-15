@@ -50,13 +50,6 @@ tabs:
         fields:
           -
             import: page_builder
-      -
-        display: 'Tour builder'
-        instructions: 'Optional tour-only sets, available so the `/tour-builder-sections` demo entry can stage them on the default template. Editors of regular pages can leave this blank.'
-        fields:
-          -
-            handle: tour_builder
-            field: tour_builder.page_builder
   seo:
     display: SEO
     sections:

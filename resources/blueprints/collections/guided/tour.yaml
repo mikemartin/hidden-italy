@@ -72,7 +72,6 @@ tabs:
       -
         display: Summary
         collapsible: true
-        collapsed: true
         fields:
           -
             handle: headline
@@ -94,6 +93,41 @@ tabs:
               display: Summary
               reading_time: true
               word_count: true
+          -
+            handle: days
+            field:
+              type: integer
+              display: Days
+              validate:
+                - required
+                - integer
+              width: 50
+          -
+            handle: grade
+            field:
+              max: 5
+              type: range
+              display: Grade
+              append: '/ 5'
+              width: 50
+          -
+            handle: tour_size
+            field:
+              type: integer
+              display: 'Tour Size'
+              validate:
+                - integer
+              width: 50
+          -
+            handle: leader
+            field:
+              type: entries
+              display: 'Tour Leader'
+              collections:
+                - people
+              max_items: 1
+              instructions: 'Select the guide leading this tour.'
+              width: 50
           -
             handle: inclusions
             field:
@@ -129,16 +163,20 @@ tabs:
               validate: 'max:200'
               show_regenerate: true
           -
-            handle: date
+            handle: filter_grade
             field:
-              type: date
-              display: Date
-          -
-            handle: now_open
-            field:
-              type: toggle
-              display: 'Now open'
-              instructions: 'Show a "Now open" badge on the tour card to flag that bookings are currently being taken.'
+              type: select
+              display: 'Walking Grade Filter'
+              options:
+                moderate: 'Moderate (0-2)'
+                intermediate: 'Intermediate (3-4)'
+                challenging: 'Challenging (5)'
+              instructions: 'Used only for filtering; not part of entry data.'
+              visibility: hidden
+              listable: false
+      -
+        display: Price
+        fields:
           -
             handle: price
             field:
@@ -151,55 +189,20 @@ tabs:
               type: toggle
               display: 'Show "From" prefix'
               instructions: 'Prefixes the price with "From " when the tour has variants or starting prices.'
+      -
+        display: Availability
+        fields:
           -
-            handle: days
+            handle: date
             field:
-              type: integer
-              display: Days
-              validate:
-                - required
-                - integer
+              type: date
+              display: Date
           -
-            handle: grade
+            handle: now_open
             field:
-              max: 5
-              type: range
-              display: Grade
-              append: '/ 5'
-          -
-            handle: filter_grade
-            field:
-              type: select
-              display: 'Walking Grade Filter'
-              options:
-                moderate: 'Moderate (0-2)'
-                intermediate: 'Intermediate (3-4)'
-                challenging: 'Challenging (5)'
-              instructions: 'Used only for filtering; not part of entry data.'
-              visibility: hidden
-              listable: false
-          -
-            handle: tour_size
-            field:
-              type: integer
-              display: 'Tour Size'
-              validate:
-                - integer
-          -
-            handle: leader
-            field:
-              type: entries
-              display: 'Tour Leader'
-              collections:
-                - people
-              max_items: 1
-              instructions: 'Select the guide leading this tour.'
-          -
-            handle: simple_likes
-            field:
-              type: simple_likes
-              display: Likes
-              allow_guest_likes: true
+              type: toggle
+              display: 'Now open'
+              instructions: 'Show a "Now open" badge on the tour card to flag that bookings are currently being taken.'
       -
         display: Taxonomy
         fields:
@@ -223,3 +226,12 @@ tabs:
               max_items: 1
               create: false
               mode: select
+      -
+        display: Wishlist
+        fields:
+          -
+            handle: simple_likes
+            field:
+              type: simple_likes
+              display: Likes
+              allow_guest_likes: true

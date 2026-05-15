@@ -9,7 +9,9 @@ fields:
       default: 'What our travellers are saying'
   -
     handle: text
-    field: common.text_plain
+    field: cards.text
+    config:
+      display: Text
   -
     handle: testimonials
     field:

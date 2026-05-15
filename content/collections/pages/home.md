@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 1
-updated_at: 1778550412
+updated_at: 1778842931
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -55,6 +55,7 @@ page_builder:
         type: button
         enabled: true
     columns: '3'
+    section_background: none
   -
     id: home_tour_types
     type: photo_cards
@@ -74,6 +75,7 @@ page_builder:
         type: button
         enabled: true
     section_background: dark
+    show_topography: false
   -
     id: home_featured_tours
     type: featured_tours
@@ -86,6 +88,8 @@ page_builder:
       - 3d10a0a0-5538-48e1-a7ad-e8e84b633ed9
       - 543d98ec-f3a9-42a3-9f7b-0ad11cfca5a9
       - 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
+    link_text: 'View all'
+    section_background: none
   -
     id: home_testimonials
     type: testimonials
@@ -95,6 +99,7 @@ page_builder:
       - c4dad366-cfdd-443a-8db6-c29df33df79a
       - 966a5684-0228-4341-8790-8ef4f90f52dc
       - 5e20d0e8-847b-4371-95a7-a7c859735fee
+    section_background: none
   -
     id: home_travel_tips
     type: travel_tips
@@ -104,10 +109,12 @@ page_builder:
       - 7d2a4c91-3e85-4f17-91b3-8c1e0f5a7d62
       - 8a3b7d54-9e21-4f68-b193-5c4a0e6d2f87
       - 1e4d7a93-8c52-4f16-b384-7a2e0d6f9c41
+    link_text: 'View all'
+    section_background: none
   -
     id: home_shop
     type: cards
-    enabled: true
+    enabled: false
     heading: 'Special Offers'
     cards:
       -
@@ -122,13 +129,11 @@ page_builder:
             id: home_shop_book_btn
             label: 'View book'
             link_type: entry
-            entry:
-              - c7f4e2a1-8b3d-4e9f-9a52-1f0d6e3b8c45
+            entry: c7f4e2a1-8b3d-4e9f-9a52-1f0d6e3b8c45
             target_blank: false
             button_type: button
             type: button
             enabled: true
-            show_controls: true
       -
         id: home_shop_gift50
         type: card
@@ -141,13 +146,11 @@ page_builder:
             id: home_shop_gift50_btn
             label: 'View gift card'
             link_type: entry
-            entry:
-              - f3c5e9d4-7a82-4b16-9f58-2e6b8d4a5c19
+            entry: f3c5e9d4-7a82-4b16-9f58-2e6b8d4a5c19
             target_blank: false
             button_type: button
             type: button
             enabled: true
-            show_controls: true
       -
         id: home_shop_guided_2027
         type: card
@@ -159,11 +162,10 @@ page_builder:
             id: home_shop_guided_2027_btn
             label: 'Browse guided tours'
             link_type: entry
-            entry:
-              - 46b6b124-89cf-4efb-b06a-cdb4d28312ba
+            entry: 46b6b124-89cf-4efb-b06a-cdb4d28312ba
             target_blank: false
             button_type: button
             type: button
             enabled: true
-            show_controls: true
+    section_background: none
 ---

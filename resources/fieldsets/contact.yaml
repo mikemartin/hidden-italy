@@ -5,9 +5,8 @@ fields:
     field:
       max_items: 1
       type: form
-      listable: hidden
       display: Form
-      instructions: 'Statamic form rendered in the right column.'
+      instructions: 'Statamic form rendered in the right column. Contact details from [Globals > Contact](/cp/globals/contact)'
       validate:
         - required
   -
