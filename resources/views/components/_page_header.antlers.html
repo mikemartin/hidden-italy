@@ -20,17 +20,24 @@
 
 <!-- /components/_page_header.antlers.html -->
 {{# Top padding clears the layout's fixed nav (~64px mobile / ~80px xl)
-    and keeps an equivalent of the old breathing room beneath it. The
-    nav is in flow on the few templates that set `static_overlay_header`
-    without `transparent_header`, but those don't render this partial,
-    so the offset is unconditional. #}}
+    on the default branch in `layout.antlers.html`. When a template
+    sets `static_overlay_header`, the nav drops into normal flow and
+    takes its own space, so the section reverts to its original
+    py-12/md:py-16 spacing. No current template uses page_header
+    alongside `static_overlay_header`, but the gating keeps the
+    offset tied to the layout state rather than baked in. #}}
 <section
     class="
         fluid-grid
-        {{ if header_variant == 'large' }}
-            pt-28 md:pt-32 xl:pt-36 pb-16 md:pb-24
+        {{ if static_overlay_header }}
+            pt-12 md:pt-16
         {{ else }}
-            pt-28 md:pt-32 xl:pt-36 pb-12 md:pb-16
+            pt-28 md:pt-32 xl:pt-36
+        {{ /if }}
+        {{ if header_variant == 'large' }}
+            pb-16 md:pb-24
+        {{ else }}
+            pb-12 md:pb-16
         {{ /if }}
     "
 >
