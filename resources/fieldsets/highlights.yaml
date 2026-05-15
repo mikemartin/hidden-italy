@@ -1,10 +1,10 @@
 title: Highlights
 fields:
   -
-    handle: title
+    handle: heading
     field:
       type: text
-      display: Title
+      display: Heading
       instructions: 'eg. Trails to Freedom Highlights'
   -
     handle: activities

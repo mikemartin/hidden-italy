@@ -95,6 +95,7 @@ page_builder:
         title: 'Discover the amalfi Coast'
         summary: 'Discover the secrets of the Amalfi Coast when staying in a beautiful 4-star hotel in Ravello and walking down to Amalfi.'
         icon: nature-lake.svg
+    section_background: light
   -
     id: mlomz5st
     title: 'Campania & The Amalfi Coast walking tour itinerary'
@@ -350,7 +351,7 @@ page_builder:
     type: walking_benefits
     enabled: true
     tour_type: auto
-    section_background: none
+    section_background: light
     show_topography: false
 simple_likes: 0
 locations: southern-italy

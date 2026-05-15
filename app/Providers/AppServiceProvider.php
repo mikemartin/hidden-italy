@@ -3,17 +3,18 @@
 namespace App\Providers;
 
 use App\Policies\CustomUserPolicy;
+use App\Tags\Picture;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Str;
+use JackSleight\StatamicBardMutator\Facades\Mutator;
 use Livewire\Livewire;
 use Statamic\Facades\Form;
 use Statamic\Facades\Icon;
 use Statamic\Policies\UserPolicy;
 use Studio1902\PeakSeo\Handlers\ErrorPage;
-use Illuminate\Support\Str;
-use JackSleight\StatamicBardMutator\Facades\Mutator;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -48,17 +49,25 @@ class AppServiceProvider extends ServiceProvider
         Icon::register('lucide', base_path('resources/svg/lucide'));
 
         Livewire::forceAssetInjection();
- 
+
         Mutator::html('heading', function ($value, $item) {
             if ($item->attrs->level === 2) {
                 $value[1]['id'] = Str::slug(collect($item->content)->implode('text', ''));
             }
+
             return $value;
         });
 
         $this->bootRoute();
 
         $this->bootFormConfig();
+
+        // Re-register our Picture tag override AFTER all providers
+        // have booted — `app/Tags/` auto-discovery happens before
+        // addon service providers register their tags, so we'd
+        // otherwise lose the binding to Peak's tag. The `booted`
+        // callback runs once everything is up, last-write wins.
+        $this->app->booted(fn () => Picture::register());
     }
 
     public function bootRoute(): void

@@ -8,19 +8,26 @@
           set's own partial only has to pass its content layout
           classes via `class`.
 
-          When the block is given a `block_id` it doubles as a
-          tour-subnav target. An absolutely positioned sentinel at
-          the section's content-top owns the `x-intersect`, so
-          active-state changes when the heading actually arrives near
-          the sticky nav (rather than when the section's border edge
-          merely crosses the viewport).
+          When `block_id` is set, the `<section>` itself owns the
+          `x-intersect` (sub-nav active spy) and `scroll-mt-20`
+          (anchor-scroll offset for the 80px sticky sub-nav). No
+          inner sentinel — the slight earliness of the section-bbox
+          intersect vs a heading-aware sentinel is acceptable for the
+          sub-nav's purpose.
 
-          Sentinel offset is derived from `section_background`: no
-          panel = `top-0` (no internal padding), light/dark panel =
-          `top-10 lg:top-30` (mirrors the centralised `py-10 lg:py-30`
-          panel padding). Per-section overrides aren't needed — every
-          set imports `section_settings`, so the offset is always in
-          sync with the actual top padding.
+          `content-visibility-auto` + `contain-intrinsic-size-
+          [auto_1000px]` lets the browser skip layout, paint and
+          image-decode work for off-screen sections — the biggest
+          lever for scroll smoothness on long tour pages. The 1000px
+          placeholder is just the initial size estimate; the `auto`
+          keyword tells the browser to remember each section's actual
+          height once rendered, so scroll position stays stable.
+          Gated to panel sections only — without a panel's internal
+          `py-10 lg:py-30` padding, card shadows sit right at the
+          section's border-box and the content-visibility paint
+          containment clips them visibly against the page background.
+          Non-panel sections lose the off-screen-skip but typically
+          have less paint cost anyway, so it's a worthwhile trade.
 
           The parameter is `block_id` rather than `id` to avoid
           clashing with the block UUID that Statamic's page_builder
@@ -41,35 +48,28 @@
 
 {{ section_panel_class = switch(
     (section_bg == 'dark') => 'dark stack-space-collapse py-10 lg:py-30 bg-card-dark relative overflow-hidden',
-    (section_bg == 'light') => 'stack-space-collapse py-10 lg:py-30 bg-card relative overflow-hidden',
+    (section_bg == 'light') => 'stack-space-collapse py-10 lg:py-30 bg-card border-y border-parchment-300 relative overflow-hidden',
     () => ''
 ) }}
 
 {{ section_topo_tint = section_is_dark ? 'text-accent-light' : 'text-parchment-400' }}
 
-{{# Sentinel offset mirrors the panel's top padding so the sub-nav
-    active-state flips when the heading actually arrives near the
-    sticky nav, not when the section's outer edge merely crosses
-    the viewport. Panels have `py-10 lg:py-30`; `none` has none. #}}
-{{ section_sentinel_top = section_has_surface ? 'top-10 lg:top-30' : 'top-0' }}
+{{# `content-visibility-auto` is only safe on panel sections — the
+    panel's `py-*` padding gives card shadows enough room before they
+    reach the section's border-box. On non-panel sections, the
+    containment clips card shadows visibly against the page bg. #}}
+{{ section_cv_class = section_has_surface ? 'content-visibility-auto contain-intrinsic-size-[auto_1000px]' : '' }}
 
 <section
     {{ if block_id }}
         id="{{ block_id }}"
-        class="fluid-grid relative {{ class }} {{ section_panel_class }}"
+        class="fluid-grid relative scroll-mt-20 {{ section_cv_class }} {{ class }} {{ section_panel_class }}"
         x-data
+        x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('{{ block_id }}')"
     {{ else }}
-        class="fluid-grid {{ class }} {{ section_panel_class }}"
+        class="fluid-grid {{ section_cv_class }} {{ class }} {{ section_panel_class }}"
     {{ /if }}
 >
-    {{ if block_id }}
-        <div
-            aria-hidden="true"
-            x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('{{ block_id }}')"
-            class="absolute inset-x-0 {{ section_sentinel_top }} h-px pointer-events-none"
-        ></div>
-    {{ /if }}
-
     {{# Topographic decoration — opt-in via `show_topography`, only
         renders on light / dark panels (no surface = nothing to
         decorate). #}}
@@ -77,6 +77,22 @@
         <div class="pointer-events-none absolute inset-x-0 top-0 {{ section_topo_tint }}" aria-hidden="true">
             {{ svg:top-left attr:class="absolute top-0 left-0 w-[320px] md:w-[400px] h-auto -translate-x-1/2 lg:-translate-x-1/4" }}
             {{ svg:top-right attr:class="absolute top-0 right-0 w-[320px] md:w-[400px] h-auto" }}
+        </div>
+    {{ /if }}
+
+    {{# Sibling-aware seam divider — rendered on every panel section,
+        but `display: none` by default. Becomes visible (`display:
+        grid`) only when this section is the second of two same-
+        surface panels stacked back-to-back (see the `+` selector rule
+        in site.css). The wrapper is itself a `.fluid-grid` so its
+        `.span-content` child snaps to the same 12-col content column
+        as the rest of the page — using the actual fluid-grid
+        named-line geometry rather than approximating with
+        `inset-inline: calc(--padding-left + --col-gap)`, which can
+        diverge from `span-content` on wide viewports. #}}
+    {{ if section_has_surface }}
+        <div class="panel-divider fluid-grid" aria-hidden="true">
+            <div class="span-content h-px bg-parchment-300"></div>
         </div>
     {{ /if }}
 

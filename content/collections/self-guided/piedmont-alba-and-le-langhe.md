@@ -84,6 +84,7 @@ page_builder:
         icon: culture-champagne.svg
     type: highlights
     enabled: true
+    section_background: light
   -
     id: mloox88g
     title: 'Alba and Le Langhe walking tour itinerary'
@@ -297,7 +298,7 @@ page_builder:
     type: walking_benefits
     enabled: true
     tour_type: auto
-    section_background: none
+    section_background: light
     show_topography: false
 simple_likes: 0
 image: tours/piedmont-alba-and-le-langhe/7-v2.jpg

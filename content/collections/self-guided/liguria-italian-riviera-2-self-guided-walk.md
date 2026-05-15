@@ -87,6 +87,7 @@ page_builder:
         icon: restaurant-glass-beverage-drink-restaurant-bar-dining.svg
     type: highlights
     enabled: true
+    section_background: light
   -
     id: mloox88g
     summary: 'This marvelous walk is the second half of of our Italian Riviera walk. It starts in Sestri Levante, a beautiful resort town on the eastern headland of the Tigullio Gulf and finishes at the gorgeous town of Portovenere overlooking the La Spezia Gulf.'
@@ -351,7 +352,7 @@ page_builder:
     type: walking_benefits
     enabled: true
     tour_type: auto
-    section_background: none
+    section_background: light
     show_topography: false
 simple_likes: 0
 duplicated_from: c10e8a1d-dab8-454a-8c80-abbba7b0a648

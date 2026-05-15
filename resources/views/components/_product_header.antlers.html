@@ -80,7 +80,7 @@
                 class="w-full h-auto rounded-2xl aspect-[4/3] object-cover bg-parchment-200"
                 cover="true"
                 sizes="(min-width: 1280px) 580px, (min-width: 768px) 50vw, 100vw"
-                loading="eager"
+                lazy="false"
             }}
         </figure>
     </div>
@@ -89,7 +89,7 @@
         <div class="span-content flex flex-col items-center gap-6 md:gap-8 pt-6 md:pt-10 border-t border-parchment-300">
             {{ partial:typography/h5
                 :content="featured_heading or 'Featured on'"
-                color="text-muted"
+                color="text-neutral-500"
                 class="uppercase tracking-[0.12em]"
             }}
 

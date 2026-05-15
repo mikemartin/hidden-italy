@@ -78,6 +78,7 @@ page_builder:
         icon: culture-champagne.svg
     type: highlights
     enabled: true
+    section_background: light
   -
     id: mjflgmug
     title: 'Trails to Freedom itinerary'
@@ -336,7 +337,7 @@ page_builder:
     type: walking_benefits
     enabled: true
     tour_type: auto
-    section_background: none
+    section_background: light
     show_topography: false
 seasons: summer
 locations: northern-italy

@@ -46,7 +46,7 @@
         literal `&` / `<` punctuation survives lightGallery dropping the
         string into the DOM, and `to_json` handles quoting/escaping for
         the JSON payload. #}}
-    <script type="application/json" data-tour-gallery-images>[{{ gallery }}{{ lightbox_alt = alt ?? caption }}{"src":"{{ url }}","alt":{{ lightbox_alt | sanitize | to_json }},"subHtml":{{ caption | sanitize | to_json }}}{{ unless last }},{{ /unless }}{{ /gallery }}]</script>
+    <script type="application/json" data-tour-gallery-images>[{{ gallery }}{"src":"{{ url }}","alt":{{ if alt }}{{ alt | sanitize | to_json }}{{ else }}{{ caption | sanitize | to_json }}{{ /if }},"subHtml":{{ caption | sanitize | to_json }}}{{ unless last }},{{ /unless }}{{ /gallery }}]</script>
 
     {{# ── Mobile gallery — 2 rows, up to 5 photos. ───────────────────── #}}
     <div class="flex lg:hidden flex-col gap-2">

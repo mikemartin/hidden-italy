@@ -48,8 +48,12 @@
         {{ if name }}
             {{ partial:typography/p_small :content="name" as="span" color="text-foreground" class="!mb-0" }}
         {{ /if }}
-        {{ if source_label }}
+        {{ if (blueprint == 'tour') && source_label }}
             {{ partial:typography/p_small small="true" :content="source_label" as="span" color="text-muted" class="!mb-0" }}
+        {{ elseif tour }}
+            {{ tour }}
+                <a href="{{ url }}" class="text-muted hover:text-text hover:underline underline-offset-4">{{ partial:typography/p_small small="true" :content="name" as="span" class="!mb-0" }}</a>
+            {{ /tour }}
         {{ /if }}
     </figcaption>
 </figure>

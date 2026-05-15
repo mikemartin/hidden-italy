@@ -59,13 +59,20 @@
                             </div>
                         {{ /if }}
 
-                        {{# Default the booking-cancellation row to the public
-                            Terms & Conditions page when the editor hasn't set
-                            an explicit link, so the section always exposes a
-                            direct path to the full cancellation policy. #}}
-                        {{ if type == 'booking_cancellation' && !link_text && !link_url }}
+                        {{# Pin the booking-cancellation and travel-insurance
+                            rows to the public Terms & Conditions page so the
+                            section always exposes a direct path to the
+                            canonical policy. Editor input on `link_text` /
+                            `link_url` is intentionally overridden — keeps
+                            those legal links from drifting to stale targets. #}}
+                        {{ if type == 'booking_cancellation' }}
                             {{ link_text = trans:strings.read_cancellation_terms ?? 'Read full cancellation terms' }}
-                            {{ link_url = '/terms#cancellation' }}
+                            {{ link_url = '/terms#7-cancellations' }}
+                        {{ /if }}
+
+                        {{ if type == 'travel_insurance' }}
+                            {{ link_text = trans:strings.read_travel_insurance_terms ?? 'Read full travel insurance terms' }}
+                            {{ link_url = '/terms#9-travel-insurance-medical-information' }}
                         {{ /if }}
 
                         {{ if link_text }}

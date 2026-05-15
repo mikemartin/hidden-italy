@@ -555,7 +555,30 @@ fields:
               image: walking_benefits.png
               fields:
                 -
-                  import: section_settings
+                  handle: section_background
+                  field:
+                    type: button_group
+                    localizable: true
+                    display: 'Section background'
+                    instructions: 'Wrap the section in a panel to showcase or highlight content against the parchment.'
+                    default: light
+                    width: 50
+                    validate:
+                      - required
+                    options:
+                      none: None
+                      light: 'Light panel'
+                -
+                  handle: show_topography
+                  field:
+                    type: toggle
+                    localizable: true
+                    display: 'Topographic lines'
+                    instructions: 'Add the topographic line pattern to the panel background.'
+                    default: false
+                    width: 50
+                    unless:
+                      section_background: none
                 -
                   handle: hide_from_subnav
                   field:
@@ -563,5 +586,5 @@ fields:
                     localizable: true
                     display: 'Hide from sub-nav'
                     instructions: 'Omit this section from the sticky sub-nav at the top of the tour page.'
-                    default: false
+                    default: true
                     width: 50

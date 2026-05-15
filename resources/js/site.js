@@ -9,8 +9,10 @@ import tourSubnav from './components/tour-subnav.js';
 import precognition from 'laravel-precognition-alpine';
 import officeMap from './components/office-map.js';
 import registerReveal from './components/reveal.js';
+import { pictureLazyLoad } from './components/splide-picture-lazy.js';
 
 window.Splide = Splide;
+window.pictureLazyLoad = pictureLazyLoad;
 window.simpleLikes = simpleLikes;
 
 document.addEventListener('alpine:init', () => {

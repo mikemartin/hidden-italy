@@ -60,6 +60,7 @@
                 this.atStart = controller.getPrev() === -1;
                 this.atEnd = controller.getNext() === -1;
             });
+            window.pictureLazyLoad(this.splide);
             this.splide.mount();
         },
         next() { this.splide?.go('+') },

@@ -84,6 +84,7 @@ page_builder:
         icon: transport-sailboat.svg
     type: highlights
     enabled: true
+    section_background: light
   -
     id: mloqvfcq
     title: 'Puglia guided walking tour'
@@ -327,7 +328,7 @@ page_builder:
     type: walking_benefits
     enabled: true
     tour_type: auto
-    section_background: none
+    section_background: light
     show_topography: false
 simple_likes: 0
 seasons: spring

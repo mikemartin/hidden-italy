@@ -101,6 +101,7 @@ page_builder:
         icon: culture-champagne.svg
     type: highlights
     enabled: true
+    section_background: light
   -
     id: mloox88g
     summary: 'This 8 days/7 nights walk takes you along the first half of the Italian Riviera Levante starts in the Genoa and finishes in the charming Sestri Levante, following forested trails and seaside paths along an arc of coastline dotted with fishing towns and glam resorts.'
@@ -315,7 +316,7 @@ page_builder:
     type: walking_benefits
     enabled: true
     tour_type: auto
-    section_background: none
+    section_background: light
     show_topography: false
 simple_likes: 0
 duplicated_from: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9

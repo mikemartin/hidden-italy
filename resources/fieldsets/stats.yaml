@@ -8,14 +8,6 @@ fields:
       display: Heading
       instructions: 'Optional left-side heading.'
   -
-    handle: top_border
-    field:
-      type: toggle
-      localizable: true
-      display: 'Top divider'
-      instructions: 'Show a thin parchment-200 line above the stats. Use it as a divider when this block sits below another panel on the same card surface.'
-      default: false
-  -
     handle: stats
     field:
       type: replicator

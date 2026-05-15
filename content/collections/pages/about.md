@@ -52,8 +52,8 @@ page_builder:
     id: about_stats
     type: stats
     enabled: true
+    section_background: light
     heading: 'Since then, we have covered some ground.'
-    top_border: true
     stats:
       -
         id: stat_years

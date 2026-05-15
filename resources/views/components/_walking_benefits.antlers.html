@@ -7,24 +7,36 @@
           straight from their page entry's `walking_benefits_*` fields;
           tour show templates pull them from the matching listing page
           via `get_content`.
+
+          NOTE: Statamic Antlers' partial-param injection gets cleared
+          out of the parent scope after a nested `{{ partial: }}` call,
+          so we copy `heading` and `intro` to local vars (`title_text`
+          and `intro_text`) at the top of the partial — those survive
+          the `partial:typography/h2` invocation, while the original
+          params do not. Without this, `intro` (which is checked AFTER
+          the typography call) reads empty even when the caller
+          passed it.
     @param* heading Side title.
     @param intro Optional short paragraph under the heading.
     @param* benefits Entries collection iterable (Benefit collection).
 #}}
 
+{{ title_text = heading }}
+{{ intro_text = intro }}
+
 <!-- /components/_walking_benefits.antlers.html -->
 {{ if benefits }}
     <div class="span-content grid grid-cols-1 lg:grid-cols-12 gap-y-10">
         <header class="lg:col-span-5 flex flex-col gap-6" x-data x-reveal>
-            {{ if heading }}
+            {{ if title_text }}
                 <div data-reveal-item data-reveal-preset="h1">
-                    {{ partial:typography/h2 :content="heading" color="text-foreground" }}
+                    {{ partial:typography/h2 :content="title_text" color="text-foreground" }}
                 </div>
             {{ /if }}
 
-            {{ if intro }}
+            {{ if intro_text }}
                 <p data-reveal-item class="font-sans text-base md:text-lg leading-[1.6] text-text text-pretty">
-                    {{ intro | nl2br }}
+                    {{ intro_text | nl2br }}
                 </p>
             {{ /if }}
         </header>

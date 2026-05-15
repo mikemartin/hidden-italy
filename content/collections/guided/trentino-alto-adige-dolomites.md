@@ -96,6 +96,7 @@ page_builder:
         icon: switzerland-mountain.svg
     type: highlights
     enabled: true
+    section_background: light
   -
     id: mlrayjrn
     title: 'Verona and the Dolomites itinerary'
@@ -345,7 +346,7 @@ page_builder:
     type: walking_benefits
     enabled: true
     tour_type: auto
-    section_background: none
+    section_background: light
     show_topography: false
 seasons: autumn
 now_open: false

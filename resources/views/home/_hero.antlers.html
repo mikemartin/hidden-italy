@@ -41,6 +41,7 @@
             this.splide.on('autoplay:playing', (rate) => { this.progress = rate });
             this.splide.on('autoplay:pause', () => { this.paused = true });
             this.splide.on('autoplay:play', () => { this.paused = false });
+            window.pictureLazyLoad(this.splide);
             this.splide.mount();
         },
         /* Toggle autoplay from the progress-ring button. The `autoplay:play`
@@ -96,8 +97,7 @@
                                 class="ambient-pan absolute inset-0 w-full h-full object-cover"
                                 cover="true"
                                 sizes="100vw"
-                                fetchpriority="{{ index == 1 ? 'high' : 'auto' }}"
-                                loading="{{ index == 1 ? 'eager' : 'lazy' }}"
+                                :lazy="index != 1"
                             }}
                         {{ /if }}
 

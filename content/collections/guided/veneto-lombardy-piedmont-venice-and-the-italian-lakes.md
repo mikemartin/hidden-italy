@@ -83,6 +83,7 @@ page_builder:
         icon: culture-wine.svg
     type: highlights
     enabled: true
+    section_background: light
   -
     id: mloqvfcq
     title: 'Venice and the Italian Lakes'
@@ -217,7 +218,7 @@ page_builder:
     type: walking_benefits
     enabled: true
     tour_type: auto
-    section_background: none
+    section_background: light
     show_topography: false
 simple_likes: 0
 seasons: autumn

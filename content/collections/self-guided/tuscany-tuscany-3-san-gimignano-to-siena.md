@@ -93,6 +93,7 @@ page_builder:
         icon: medieval-castle-wall.svg
     type: highlights
     enabled: true
+    section_background: light
   -
     id: mloox88g
     title: 'Tiuscany 3 itinerary'
@@ -279,7 +280,7 @@ page_builder:
     type: walking_benefits
     enabled: true
     tour_type: auto
-    section_background: none
+    section_background: light
     show_topography: false
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144

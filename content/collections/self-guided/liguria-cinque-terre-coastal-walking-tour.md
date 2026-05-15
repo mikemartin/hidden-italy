@@ -81,6 +81,7 @@ page_builder:
         icon: culture-champagne.svg
     type: highlights
     enabled: true
+    section_background: light
   -
     id: mloox88g
     title: 'Cinque Terre walking tour itinerary'
@@ -278,7 +279,7 @@ page_builder:
     type: walking_benefits
     enabled: true
     tour_type: auto
-    section_background: none
+    section_background: light
     show_topography: false
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34

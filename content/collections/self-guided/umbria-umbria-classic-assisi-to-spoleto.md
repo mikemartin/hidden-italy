@@ -89,6 +89,7 @@ page_builder:
         icon: culture-champagne.svg
     type: highlights
     enabled: true
+    section_background: light
   -
     id: mloox88g
     title: 'Umbria Classic itinerary'
@@ -293,7 +294,7 @@ page_builder:
     type: walking_benefits
     enabled: true
     tour_type: auto
-    section_background: none
+    section_background: light
     show_topography: false
 simple_likes: 0
 duplicated_from: 2c566c23-3738-482e-b78a-a2ac67ccf9cf

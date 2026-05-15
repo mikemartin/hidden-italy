@@ -29,10 +29,10 @@
     {{# Section panel + topographic decoration come from the shared
         section_settings convention via `_block.antlers.html` — set
         `section_background: dark` + `show_topography: true` on the
-        block to reproduce the classic experience design. Alpine
-        x-data is wrapped in a `display: contents` div so the
-        `_block`-rendered section stays the layout root and its
-        sentinel + topo still work. #}}
+        block to reproduce the classic experience design. The Alpine
+        tab-state x-data is wrapped in a `display: contents` div so
+        the `_block`-rendered section stays the layout root, keeping
+        its own `x-data` + `x-intersect` for the sub-nav spy. #}}
     {{ partial:page_builder/block block_id="experience" class="gap-y-12 md:gap-y-14" }}
         <div
             class="contents"
@@ -117,7 +117,7 @@
                     :aria-labelledby="$id('tab', whichChild($el, $el.parentElement))"
                     :class="!isSelected($id('tab', whichChild($el, $el.parentElement))) && 'md:hidden'"
                     data-tab-label="{{ type | ucfirst }}"
-                    class="span-content grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-y-12 items-start"
+                    class="relative span-content grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-y-12 items-start"
                 >
                     {{# Left — copy. #}}
                     <div class="lg:col-span-5 flex flex-col gap-6">

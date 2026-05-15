@@ -85,6 +85,7 @@ page_builder:
         icon: culture-champagne.svg
     type: highlights
     enabled: true
+    section_background: light
   -
     id: mlrccjcj
     title: 'Sicily 2 itinerary'
@@ -296,7 +297,7 @@ page_builder:
     type: walking_benefits
     enabled: true
     tour_type: auto
-    section_background: none
+    section_background: light
     show_topography: false
 locations: southern-italy
 landscapes:

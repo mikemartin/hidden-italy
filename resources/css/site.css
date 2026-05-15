@@ -226,32 +226,55 @@
         --color-card:           var(--color-parchment-50);
     }
 
-    /* Sibling-aware divider — when two surface panels sit next to each
-       other in the page-builder stack (collapsed flush via
-       `stack-space-collapse`), the second one renders a thin parchment-300
-       hairline at its top edge, spanning only the content column width.
-       Implemented as a `::before` pseudo-element so no markup change in
-       the section partials is needed. The `inset-inline: 0` + padding
-       + `background-clip: content-box` trick lets the line span the
-       fluid-grid content area without manually replicating its named-
-       line geometry. Same handling for like-on-like dark adjacency. */
-    section.fluid-grid.bg-card + section.fluid-grid.bg-card::before,
-    section.fluid-grid.bg-card-dark + section.fluid-grid.bg-card-dark::before {
-        content: '';
+    /* (panel-divider + seam-border suppression now live in `@layer
+       utilities` further down — Tailwind's `border-y` utility is in
+       the utilities layer, and `@layer base` would lose the cascade
+       to it.) */
+}
+
+/* Sibling-aware seam divider. Every panel section renders a
+   `.panel-divider` child via `_block.antlers.html`; hidden by default,
+   becomes visible only when this section is the second of two stacked
+   same-surface panels. Sized via `inset-inline` to span only the 12-col
+   content column (matching `.span-content`'s width), positioned
+   absolutely at the section's top so it lands on the seam.
+
+   Light-panel adjacency also drops the full-width `border-y` on both
+   sides of the seam — first panel's `border-bottom`, second panel's
+   `border-top` — so the seam reads as a single 1px content-width line
+   rather than two 1px full-width borders stacked.
+
+   Lives in `@layer utilities` (not `@layer base`) so the border-zero
+   rules win the cascade over Tailwind's `border-y` utility, which
+   also sits in the utilities layer. */
+@layer utilities {
+    /* Panel-divider wrapper: an absolutely-positioned `.fluid-grid`
+       container sitting at the section's top edge. Hidden by default
+       (`display: none` wins over `.fluid-grid`'s `display: grid` via
+       source order); revealed as `display: grid` when this section is
+       the second of two adjacent same-surface panels, at which point
+       the inner `.span-content h-px bg-parchment-300` child snaps to
+       the 12-col content column via the standard span-content
+       placement. Dark-panel adjacency re-tints the inner line. */
+    .panel-divider {
         position: absolute;
         inset-block-start: 0;
         inset-inline: 0;
-        height: 1px;
-        background: var(--color-parchment-300);
-        padding-inline: calc(var(--padding-left) + var(--col-gap));
-        background-clip: content-box;
         pointer-events: none;
+        display: none;
     }
-
-    /* On the dark panel, lift the divider to the lighter accent-light
-       tint so it reads against the deep-blue surface. */
-    section.fluid-grid.bg-card-dark + section.fluid-grid.bg-card-dark::before {
-        background-color: var(--color-blue-d-400);
+    section.fluid-grid.bg-card + section.fluid-grid.bg-card > .panel-divider,
+    section.fluid-grid.bg-card-dark + section.fluid-grid.bg-card-dark > .panel-divider {
+        display: grid;
+    }
+    section.fluid-grid.bg-card-dark + section.fluid-grid.bg-card-dark > .panel-divider > * {
+        background: var(--color-blue-d-400);
+    }
+    section.fluid-grid.bg-card:has(+ section.fluid-grid.bg-card) {
+        border-bottom: 0;
+    }
+    section.fluid-grid.bg-card + section.fluid-grid.bg-card {
+        border-top: 0;
     }
 }
 
@@ -283,6 +306,49 @@
    `not-prose` (book grid, related-articles grid, etc.) escapes these
    rules too. Color is left to the prose tokens above; we only set
    typography here. */
+/* `content-visibility-*` — skip layout, paint and image-decode work
+   for the element based on viewport proximity. Pair with
+   `contain-intrinsic-size-[auto_<estimate>]` (Tailwind's arbitrary
+   value syntax → `contain-intrinsic-size: auto <estimate>`) so the
+   browser has an initial placeholder size and remembers each
+   element's actual height once rendered — scroll position stays
+   stable. Used on every page-builder section via
+   `page_builder/_block.antlers.html` and on the tour summary
+   section. */
+@utility content-visibility-auto {
+    content-visibility: auto;
+}
+@utility content-visibility-hidden {
+    content-visibility: hidden;
+}
+@utility content-visibility-visible {
+    content-visibility: visible;
+}
+@utility contain-intrinsic-size-* {
+    contain-intrinsic-size: --value([*]);
+}
+
+/* Strip `.page-builder`'s outer padding when the first or last block
+   carries a panel surface (`bg-card` / `bg-card-dark`). The panel's
+   own internal padding (`py-10 lg:py-30` from `_block.antlers.html`)
+   already carries the breathing room, so `<main>`'s `py-12 md:py-16
+   lg:py-24` would just leave a gap between the panel edge and
+   whatever sits next to `<main>` (e.g. the tour CTA banner sibling
+   on `tours/show`). Mirrors Peak's existing
+   `:has(:first-child .no-space-y)` strip but keyed on the panel's
+   surface class instead of a marker class. Lives in `@layer
+   components` so it actually overrides Peak's `.page-builder`
+   padding — `@layer base` would lose the cascade. */
+@layer components {
+    .page-builder:has(> *:first-child:is(.bg-card, .bg-card-dark)) {
+        padding-top: 0;
+    }
+
+    .page-builder:has(> *:last-child:is(.bg-card, .bg-card-dark)) {
+        padding-bottom: 0;
+    }
+}
+
 @layer utilities {
     .prose h2:not(:where([class~="not-prose"], [class~="not-prose"] *)) {
         @apply font-display font-bold text-2xl md:text-4xl leading-[1.25] tracking-[0.01em] md:tracking-[-0.01em];

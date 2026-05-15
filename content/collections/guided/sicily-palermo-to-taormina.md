@@ -107,6 +107,7 @@ page_builder:
         icon: switzerland-mountain.svg
     type: highlights
     enabled: true
+    section_background: light
   -
     id: ETGFP516qZmXZhQdj2zPn
     title: 'Siucily in the Spring itinerary'
@@ -366,7 +367,7 @@ page_builder:
     type: walking_benefits
     enabled: true
     tour_type: auto
-    section_background: none
+    section_background: light
     show_topography: false
 start_location:
   label: 'Palermo, Sicily, Italy'

@@ -66,6 +66,21 @@
         }
     }
 
+    /* Dark variant — monochromatic foreground underline (at 30%
+       opacity) instead of the default gold accent. Use for utility
+       actions like Share / Save in the tour summary, where the
+       button should read as a restrained UI control rather than a
+       decorative inline link. Hover bumps the underline to full
+       foreground for affordance. Pairs naturally with `--small`. */
+    .button-inline.button-inline--dark span {
+        @apply decoration-foreground/30;
+    }
+
+    .button-inline.button-inline--dark:hover span,
+    .group:hover .button-inline.button-inline--dark span {
+        @apply decoration-foreground;
+    }
+
     /* Deprecated alias — `--gold` is now the default look. Kept so
        existing templates don't break; safe to remove once all call
        sites drop the modifier. */

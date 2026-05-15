@@ -13,7 +13,7 @@ export default function tourSubnav() {
             const el = document.getElementById(id);
             if (!el) return;
             // Set active immediately and lock the intersect spy for the
-            // duration of the smooth scroll — sentinels passing through
+            // duration of the smooth scroll — sections passing through
             // the band during transit would otherwise overwrite the
             // clicked target with whatever section the band passed last.
             this.$store.tourSubnav.select(id);
