@@ -64,14 +64,14 @@
 
         {{ partial:layout/footer }}
 
-        {{# Back-to-top is only useful on pages where the main nav
-            scrolls away with the content — on sticky-nav pages
-            (`transparent_header` with no `static_overlay_header`) the
-            nav is always reachable, so the button would just be
-            redundant chrome. #}}
-        {{ unless transparent_header && !static_overlay_header }}
+        {{# Back-to-top renders only on pages that opt the nav out of
+            its sticky overlay via `static_overlay_header` (i.e. the
+            tour show templates). Those pages already carry their own
+            sticky sub-nav, so the main nav scrolls away with the
+            content — the button is the way back to it. #}}
+        {{ if static_overlay_header }}
             {{ partial:layout/back_to_top }}
-        {{ /unless }}
+        {{ /if }}
 
         {{# TEMPORARY — client-preview overlay opacity control. Remove this
             line and delete `layout/_overlay_control.antlers.html` once the

@@ -1,15 +1,16 @@
 {{#
     @name Back to top
     @desc Floating button that fades + rises into view past 100px of
-          scroll and smooth-scrolls back to the top on click. Only
-          rendered by the layout on pages where the main nav scrolls
-          away with the content — on sticky-nav pages the visible nav
-          is the way back, so this button isn't needed. The 100px
-          threshold lines up with the header height so the button
-          appears as soon as the nav is out of view. Tuned to the
-          project's Premium motion identity: the wrapper handles
-          visibility entrance with opacity + scale-95 + translate-y-2
-          via `--duration-standard` / `--ease-emphasis` so the button
+          scroll and smooth-scrolls back to the top on click. The
+          layout only renders this on pages that opt the main nav out
+          of its sticky overlay via `static_overlay_header` (the tour
+          show templates) — on every other page the main nav stays
+          fixed/sticky and the button isn't needed. The 100px threshold
+          lines up with the header height so the button appears as
+          soon as the nav is out of view. Tuned to the project's
+          Premium motion identity: the wrapper handles visibility
+          entrance with opacity + scale-95 + translate-y-2 via
+          `--duration-standard` / `--ease-emphasis` so the button
           appears as a single considered moment rather than a pop. The
           button itself stays still at rest (premium = restrained) and
           lifts +4px / scale 1.05 on hover to suggest upward travel —
