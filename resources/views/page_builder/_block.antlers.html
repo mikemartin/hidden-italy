@@ -15,20 +15,6 @@
           intersect vs a heading-aware sentinel is acceptable for the
           sub-nav's purpose.
 
-          `content-visibility-auto` + `contain-intrinsic-size-
-          [auto_1000px]` lets the browser skip layout, paint and
-          image-decode work for off-screen sections — the biggest
-          lever for scroll smoothness on long tour pages. The 1000px
-          placeholder is just the initial size estimate; the `auto`
-          keyword tells the browser to remember each section's actual
-          height once rendered, so scroll position stays stable.
-          Gated to panel sections only — without a panel's internal
-          `py-10 lg:py-30` padding, card shadows sit right at the
-          section's border-box and the content-visibility paint
-          containment clips them visibly against the page background.
-          Non-panel sections lose the off-screen-skip but typically
-          have less paint cost anyway, so it's a worthwhile trade.
-
           The parameter is `block_id` rather than `id` to avoid
           clashing with the block UUID that Statamic's page_builder
           iteration auto-exposes as `id` in scope.
@@ -54,20 +40,14 @@
 
 {{ section_topo_tint = section_is_dark ? 'text-accent-light' : 'text-parchment-400' }}
 
-{{# `content-visibility-auto` is only safe on panel sections — the
-    panel's `py-*` padding gives card shadows enough room before they
-    reach the section's border-box. On non-panel sections, the
-    containment clips card shadows visibly against the page bg. #}}
-{{ section_cv_class = section_has_surface ? 'content-visibility-auto contain-intrinsic-size-[auto_1000px]' : '' }}
-
 <section
     {{ if block_id }}
         id="{{ block_id }}"
-        class="fluid-grid relative scroll-mt-20 {{ section_cv_class }} {{ class }} {{ section_panel_class }}"
+        class="fluid-grid relative scroll-mt-20 {{ class }} {{ section_panel_class }}"
         x-data
         x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('{{ block_id }}')"
     {{ else }}
-        class="fluid-grid {{ section_cv_class }} {{ class }} {{ section_panel_class }}"
+        class="fluid-grid {{ class }} {{ section_panel_class }}"
     {{ /if }}
 >
     {{# Topographic decoration — opt-in via `show_topography`, only

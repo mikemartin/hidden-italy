@@ -306,28 +306,6 @@
    `not-prose` (book grid, related-articles grid, etc.) escapes these
    rules too. Color is left to the prose tokens above; we only set
    typography here. */
-/* `content-visibility-*` — skip layout, paint and image-decode work
-   for the element based on viewport proximity. Pair with
-   `contain-intrinsic-size-[auto_<estimate>]` (Tailwind's arbitrary
-   value syntax → `contain-intrinsic-size: auto <estimate>`) so the
-   browser has an initial placeholder size and remembers each
-   element's actual height once rendered — scroll position stays
-   stable. Used on every page-builder section via
-   `page_builder/_block.antlers.html` and on the tour summary
-   section. */
-@utility content-visibility-auto {
-    content-visibility: auto;
-}
-@utility content-visibility-hidden {
-    content-visibility: hidden;
-}
-@utility content-visibility-visible {
-    content-visibility: visible;
-}
-@utility contain-intrinsic-size-* {
-    contain-intrinsic-size: --value([*]);
-}
-
 /* Strip `.page-builder`'s outer padding when the first or last block
    carries a panel surface (`bg-card` / `bg-card-dark`). The panel's
    own internal padding (`py-10 lg:py-30` from `_block.antlers.html`)
