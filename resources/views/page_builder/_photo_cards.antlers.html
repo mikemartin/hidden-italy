@@ -178,7 +178,7 @@
         {{ /if }}
 
         {{ if block:photo_cards }}
-            <ul class="span-content grid grid-cols-2 gap-6 lg:gap-9 items-stretch" x-data x-reveal data-reveal-stagger="0">
+            <ul class="span-content grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-9 items-stretch" x-data x-reveal data-reveal-stagger="0">
                 {{ block:photo_cards }}
                     <li>{{ partial:components/photo_card_item }}</li>
                 {{ /block:photo_cards }}

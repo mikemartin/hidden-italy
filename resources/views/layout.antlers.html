@@ -64,7 +64,12 @@
 
         {{ partial:layout/footer }}
 
-        {{ partial:layout/back_to_top }}
+        {{# `nav_is_sticky` is true only when the header is `fixed` (i.e.
+            `transparent_header` is on and `static_overlay_header` is not).
+            The back-to-top button uses this to lower its scroll threshold
+            on pages where the main nav scrolls away with the content, so
+            it appears as soon as the nav is out of view. #}}
+        {{ partial:layout/back_to_top :nav_is_sticky="transparent_header && !static_overlay_header" }}
 
         {{# TEMPORARY — client-preview overlay opacity control. Remove this
             line and delete `layout/_overlay_control.antlers.html` once the
