@@ -166,8 +166,13 @@
                         leave `overflow-x-auto` with nothing to overflow.
                         Setting min-width to 0 caps the `<ul>` at its
                         parent's width so the tabs can scroll. #}}
-                    <div class="flex-1 flex items-stretch min-w-0">
-                        <ul class="flex items-stretch overflow-x-auto no-scrollbar flex-1 min-w-0">
+                    <div class="relative flex-1 flex items-stretch min-w-0">
+                        {{# Trailing `pe-20` reserves enough room past the
+                            last tab that the auto-scroll can still centre
+                            it — without it, the scroll position clamps
+                            to the right edge and the active indicator
+                            sits hard against the gradient. #}}
+                        <ul class="flex items-stretch overflow-x-auto no-scrollbar flex-1 min-w-0 pe-20 md:pe-0">
                             {{# Only known section types render a button. Label comes from
                                 `strings.<type>` so the lang file is the single source of
                                 truth. `testimonials` is the one type whose anchor differs
@@ -189,6 +194,15 @@
                                 {{ /if }}
                             {{ /page_builder }}
                         </ul>
+                        {{# Right-edge fade — visual hint that more tabs
+                            sit off-screen. Pinned to the viewport edge by
+                            the parent's mobile bleed; hidden from `md`
+                            up where the row stays in the content column
+                            and typically fits. #}}
+                        <div
+                            aria-hidden="true"
+                            class="pointer-events-none absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-card to-transparent md:hidden"
+                        ></div>
                     </div>
 
                     {{# Desktop-only CTA — pinned to the right of the section nav.
