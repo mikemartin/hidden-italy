@@ -1,0 +1,29 @@
+{{#
+    @name Back to top
+    @desc Floating button that fades in past 500px of scroll and smooth-scrolls
+          the page back to the top. Alpine drives the visibility state; the
+          fade-and-scale entrance uses Tailwind transitions and the hover
+          "jump" comes from the `back-to-top-jump` keyframe in `site.css`.
+          Reduced-motion users get the button without the hover animation.
+#}}
+
+<!-- /layout/_back_to_top.antlers.html -->
+<div
+    x-data="{ visible: false }"
+    x-init="visible = window.scrollY > 500"
+    @scroll.window.passive="visible = window.scrollY > 500"
+    :class="visible ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-90 pointer-events-none'"
+    class="fixed bottom-16 right-5 z-40 transition-all duration-[400ms] ease-[var(--ease-standard)] motion-reduce:transition-none"
+>
+    <button
+        type="button"
+        @click="window.scrollTo({ top: 0, behavior: 'smooth' })"
+        :tabindex="visible ? 0 : -1"
+        :aria-hidden="!visible"
+        aria-label="Back to top"
+        class="back-to-top-button block rounded-full text-foreground/80 hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-content focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+    >
+        <x-lucide-chevron-up-circle class="size-10 stroke-[1.5]" aria-hidden="true" />
+    </button>
+</div>
+<!-- End: /layout/_back_to_top.antlers.html -->
