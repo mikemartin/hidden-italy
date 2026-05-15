@@ -12,7 +12,7 @@ price: '$36.99 AUD'
 show_from: true
 featured_heading: 'Featured on'
 updated_by: 3
-updated_at: 1778828628
+updated_at: 1778829009
 page_builder:
   -
     id: 1LdcYtZnlky9RkjXJpgWM
