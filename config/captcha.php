@@ -5,7 +5,10 @@ return [
     'sitekey' => env('TURNSTILE_SITEKEY', ''),
     'secret' => env('TURNSTILE_SECRET', ''),
     'collections' => [],
-    'forms' => [],
+    'forms' => [
+        'booking_enquiry',
+        'contact',
+    ],
     'user_login' => false,
     'user_registration' => false,
     'disclaimer' => '',
