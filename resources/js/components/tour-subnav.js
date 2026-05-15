@@ -1,5 +1,6 @@
 /**
- * Sticky tour sub-nav — only owns the smooth-scroll affordance now.
+ * Sticky tour sub-nav — owns the smooth-scroll affordance and keeps
+ * the active tab visible inside the horizontally-scrollable nav row.
  * Active-section tracking is handled by `x-intersect` directives on
  * each section partial, which write into the `tourSubnav` Alpine
  * store (registered in `site.js`).
@@ -18,6 +19,15 @@ export default function tourSubnav() {
             // clicked target with whatever section the band passed last.
             this.$store.tourSubnav.select(id);
             el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        },
+        /* Centre the active button in the horizontal scroll container so
+           the spy never strands the indicator off-screen on narrow
+           viewports. `block: 'nearest'` keeps the page from scrolling
+           vertically — the sticky nav is always visible. */
+        ensureActiveInView() {
+            const active = this.$store.tourSubnav.active;
+            const btn = this.$el.querySelector(`[data-subnav-id="${active}"]`);
+            btn?.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
         },
     };
 }

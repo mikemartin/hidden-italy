@@ -140,6 +140,7 @@
 
     <nav
         x-data="tourSubnav"
+        x-effect="ensureActiveInView()"
         :class="$store.tourSubnav.stuck && 'shadow-md'"
         class="no-space-y sticky top-0 z-20 bg-card border-y border-parchment-200 motion-safe:transition-shadow"
         aria-label="{{ trans:strings.tour_sections ?? 'Tour sections' }}"
@@ -175,6 +176,7 @@
                                     <li class="flex">
                                         <button
                                             type="button"
+                                            data-subnav-id="{{ btn_id }}"
                                             @click="goTo('{{ btn_id }}')"
                                             :class="$store.tourSubnav.active === '{{ btn_id }}' ? 'border-gold' : 'border-transparent'"
                                             class="flex items-center px-4 text-base font-medium leading-[1.6] text-foreground whitespace-nowrap border-b-[3px] motion-safe:transition-colors hover:text-foreground/70 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-gold"
