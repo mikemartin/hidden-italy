@@ -37,19 +37,30 @@
         {{ partial:statamic-peak-tools::navigation/skip_links }}
         {{ partial:statamic-peak-tools::components/toolbar }}
 
-        {{ if transparent_header }}
-            {{# Banner + header float over the first page-builder block. By
-                default they're `fixed` so the header stays put and transitions
-                to the brand colour past 20px of scroll. When the page sets
-                `static_overlay_header = true` (e.g. tour show pages with a
-                sticky in-page sub-nav) the wrapper is `absolute` instead —
-                the header still overlays the banner but scrolls away with
-                the content, leaving the sub-nav as the persistent nav. #}}
-            <div class="{{ if static_overlay_header }}absolute{{ else }}fixed{{ /if }} inset-x-0 top-0 z-30">
+        {{# Header positioning has three modes:
+            - Default (no `static_overlay_header`): wrapped `fixed` so
+              the nav stays pinned to the viewport. Transparent (home)
+              and solid-background pages both ride this branch — only
+              the header partial's own background differs.
+            - `static_overlay_header` + `transparent_header` (tour
+              show): wrapped `absolute` instead, so the overlay scrolls
+              away with the content and lets the in-page sub-nav take
+              over.
+            - `static_overlay_header` alone: rendered in normal flow
+              with no wrapper — the header sits at the top and scrolls
+              away with the page. #}}
+        {{ if static_overlay_header }}
+            {{ if transparent_header }}
+                <div class="absolute inset-x-0 top-0 z-30">
+                    {{ partial:layout/header }}
+                </div>
+            {{ else }}
+                {{ partial:layout/header }}
+            {{ /if }}
+        {{ else }}
+            <div class="fixed inset-x-0 top-0 z-30">
                 {{ partial:layout/header }}
             </div>
-        {{ else }}
-            {{ partial:layout/header }}
         {{ /if }}
 
         {{ template_content }}
