@@ -10,7 +10,13 @@
 #}}
 
 <!-- /components/_article_header.antlers.html -->
-<header class="fluid-grid py-12 md:py-16 gap-y-10 md:gap-y-14">
+<header class="fluid-grid 
+    {{ if static_overlay_header }}
+        pt-12 md:pt-16
+    {{ else }}
+        p-28 md:pt-32 xl:pt-36
+    {{ /if }}
+    pb-12 md:pb-16 gap-y-10 md:gap-y-14">
     <div class="span-xl flex flex-col items-start gap-6">
         <div class="flex items-center gap-6">
             <a
