@@ -3,13 +3,9 @@
     @desc Site header. On pages with `transparent_header`, the header is fixed
           and overlays the first page-builder block; it stays transparent at the
           top of the page and fades to the brand colour past 20px of scroll.
-          Other pages render a solid sticky bar (`sticky top-0 z-30`) so the
-          nav stays available as the page scrolls — the only opt-out is the
-          tour show template, which sets `static_overlay_header` to render the
-          header `absolute` instead so its own in-page sub-nav can take over.
-          Mobile collapses the desktop nav and account/wishlist links into a
-          single icon button (styled like the desktop nav icons) that opens
-          the mobile drawer.
+          Other pages keep a solid neutral background. Mobile collapses the
+          desktop nav and account/wishlist links into a single icon button
+          (styled like the desktop nav icons) that opens the mobile drawer.
 #}}
 
 <!-- /layout/_header.antlers.html -->
@@ -21,7 +17,7 @@
         class="dark fluid-grid py-4 transition-colors duration-300 ease-out border-b"
         :class="scrolled ? 'bg-background border-transparent lg:shadow-md' : 'bg-transparent border-white/20'"
     {{ else }}
-        class="dark fluid-grid py-4 bg-background sticky top-0 z-30"
+        class="dark fluid-grid py-4 bg-background"
     {{ /if }}
 >
     <div class="span-content flex items-center gap-8">
