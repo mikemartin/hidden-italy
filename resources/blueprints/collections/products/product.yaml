@@ -41,6 +41,8 @@ tabs:
                 [How to create a cart permalink](https://help.shopify.com/en/manual/checkout-settings/cart-permalink#product-page).
               input_type: url
               placeholder: 'https://hiddenitaly.myshopify.com/cart/VARIANT_ID:1'
+              validate:
+                - active_url
           -
             handle: buy_label
             field:
