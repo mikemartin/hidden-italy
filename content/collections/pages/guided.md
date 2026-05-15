@@ -10,14 +10,18 @@ card_image: tours/sardinia-cagliari-to-the-costa-smeralda/img_5939.jpg
 header_variant: standard
 page_builder:
   -
-    id: guided_walking_benefits
-    type: walking_benefits
-    enabled: true
-  -
     id: guided_faqs
     type: faqs
     enabled: true
     show_common_questions: true
+    tour_type: guided
+  -
+    id: guided_walking_benefits
+    type: walking_benefits
+    enabled: true
+    tour_type: guided
+    section_background: light
+  
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry

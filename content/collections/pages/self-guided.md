@@ -10,14 +10,17 @@ card_image: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/g.jpg
 header_variant: standard
 page_builder:
   -
-    id: self_guided_walking_benefits
-    type: walking_benefits
-    enabled: true
-  -
     id: self_guided_faqs
     type: faqs
     enabled: true
     show_common_questions: true
+    tour_type: self-guided
+  -
+    id: self_guided_walking_benefits
+    type: walking_benefits
+    enabled: true
+    tour_type: self-guided
+    section_background: light
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry

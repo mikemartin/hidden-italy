@@ -18,18 +18,19 @@
         {{ partial:components/page_header }}
     {{ /if }}
 
-    <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
-        <div id="livewire-collection" class="span-content stack-16">
-            {{ partial:components/tour-filters }}
 
-            {{# The Livewire collection partial handles its own per-card
-                animation using the package's `filter-updated`/`sort-updated`/
-                `entries-updated` events — see the vendor view override. #}}
-            {{ livewire-collection :from="tour_collections" paginate="50" scrollTo="#livewire-collection" }}
-        </div>
-    </section>
 
     <div class="page-builder">
+        <section class="fluid-grid no-space-t">
+            <div id="livewire-collection" class="span-content stack-16">
+                {{ partial:components/tour-filters }}
+
+                {{# The Livewire collection partial handles its own per-card
+                    animation using the package's `filter-updated`/`sort-updated`/
+                    `entries-updated` events — see the vendor view override. #}}
+                {{ livewire-collection :from="tour_collections" paginate="50" scrollTo="#livewire-collection" }}
+            </div>
+        </section>
         {{ page_builder scope="block" }}
             {{ partial src="page_builder/{type}" }}
         {{ /page_builder }}
