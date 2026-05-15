@@ -1,13 +1,14 @@
 {{#
     @name Travel tips
     @desc Splide-powered carousel of article cards pulled from the Tips and
-          Inspiration collections. Mobile shows one card at a time; desktop
-          shows three. Heading sits on the left of the header; the right
-          slot holds an optional "View all" link (when the block sets
-          `link_text` + `link_entry`) or, as a fallback, custom prev/next
-          arrows when there are more cards than fit on screen. Each tile
-          is the shared `components/_article-card` partial so this layout
-          stays in lockstep with the cards reference page.
+          Inspiration collections. Layout scales by viewport: below `sm`
+          one card with a mobile-only gold progress strip; `sm`–`md` two
+          cards; `lg`+ three. Heading sits on the left of the header; the
+          right slot holds an optional "View all" link (when the block
+          sets `link_text` + `link_entry`) or, as a fallback, custom
+          prev/next arrows when there are more cards than fit on screen.
+          Each tile is the shared `components/_article-card` partial so
+          this layout stays in lockstep with the cards reference page.
 
           When the block has no hand-picked articles, the slider falls
           back to the six newest entries across Tips + Inspiration, sorted
@@ -17,9 +18,10 @@
 
 <!-- /page_builder/_travel_tips.antlers.html -->
 {{# Use the block's hand-picked articles when present; otherwise fall
-    through to the auto fallback. Arrows show when the source has more
-    cards than the carousel page size (three) — the fallback always has
-    six, so arrows show whenever it's in use. #}}
+    through to the auto fallback. Arrows (desktop) and the mobile
+    progress bar both show when the source has more cards than the
+    carousel page size (three) — the fallback always has six, so they
+    show whenever it's in use. #}}
 {{ if block:articles }}
     {{ show_arrows = block:articles | count > 3 }}
 {{ else }}
@@ -38,6 +40,7 @@
 <div
     class="contents"
     x-data="{
+        progress: 0,
         atStart: true,
         atEnd: false,
         splide: null,
@@ -52,11 +55,14 @@
                 drag: 'free',
                 snap: true,
                 breakpoints: {
-                    768: { perPage: 1, gap: '1.5rem', padding: { right: '4rem' } },
+                    1023: { perPage: 2, gap: '1.5rem', padding: { right: '4rem' } },
+                    639: { perPage: 1, gap: '1.5rem', padding: { right: '1.5rem' } },
                 },
             });
             this.splide.on('mounted move scrolled', () => {
                 const controller = this.splide.Components.Controller;
+                const end = controller.getEnd() + 1;
+                this.progress = Math.min((this.splide.index + 1) / end, 1) * 100;
                 this.atStart = controller.getPrev() === -1;
                 this.atEnd = controller.getNext() === -1;
             });
@@ -129,6 +135,26 @@
             </div>
         </section>
     </div>
+
+    {{# Mobile-only progress bar — Splide shows one card at a time below
+        `md` with no right-peek, so the bar is the scroll affordance.
+        Hidden on `md`+ where the peeking next card + prev/next arrows
+        do the same job. #}}
+    {{ if show_arrows }}
+        <div
+            class="span-content md:hidden h-1 w-full bg-parchment-300 rounded-full overflow-hidden"
+            role="progressbar"
+            aria-label="Carousel progress"
+            :aria-valuenow="Math.round(progress)"
+            aria-valuemin="0"
+            aria-valuemax="100"
+        >
+            <div
+                class="h-full bg-gold transition-[width] duration-400 ease-out"
+                :style="`width: ${progress}%`"
+            ></div>
+        </div>
+    {{ /if }}
 </div>
 {{ /partial:page_builder/block }}
 <!-- End: /page_builder/_travel_tips.antlers.html -->

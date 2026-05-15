@@ -9,7 +9,9 @@
 
           Splide config mirrors `page_builder/_travel_tips.antlers.html`
           for behavioural parity with the other article carousels —
-          perPage 3 desktop / 1 mobile, free drag with snap, no autoplay.
+          `lg`+ shows three cards, `sm`–`md` two, below `sm` one with a
+          mobile-only gold progress strip. Free drag with snap, no
+          autoplay.
 #}}
 
 <!-- /inspiration/index.antlers.html -->
@@ -54,6 +56,7 @@
             <section
                 class="fluid-grid gap-y-12 pb-12 md:pb-16 lg:pb-24"
                 x-data="{
+                    progress: 0,
                     atStart: true,
                     atEnd: false,
                     splide: null,
@@ -68,11 +71,14 @@
                             drag: 'free',
                             snap: true,
                             breakpoints: {
-                                768: { perPage: 1, gap: '1.5rem', padding: { right: '4rem' } },
+                                1023: { perPage: 2, gap: '1.5rem', padding: { right: '4rem' } },
+                                639: { perPage: 1, gap: '1.5rem', padding: { right: '1.5rem' } },
                             },
                         });
                         this.splide.on('mounted move scrolled', () => {
                             const controller = this.splide.Components.Controller;
+                            const end = controller.getEnd() + 1;
+                            this.progress = Math.min((this.splide.index + 1) / end, 1) * 100;
                             this.atStart = controller.getPrev() === -1;
                             this.atEnd = controller.getNext() === -1;
                         });
@@ -130,6 +136,27 @@
                         </div>
                     </section>
                 </div>
+
+                {{# Mobile-only progress bar — Splide shows one card at a
+                    time below `md`, so the bar is the scroll affordance.
+                    Hidden on `md`+ where the peeking next card + prev/
+                    next arrows do the same job. Defensive count gate
+                    mirrors the arrows. #}}
+                {{ if newsletters | count > 3 }}
+                    <div
+                        class="span-content md:hidden h-1 w-full bg-parchment-300 rounded-full overflow-hidden"
+                        role="progressbar"
+                        aria-label="Carousel progress"
+                        :aria-valuenow="Math.round(progress)"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                    >
+                        <div
+                            class="h-full bg-gold transition-[width] duration-400 ease-out"
+                            :style="`width: ${progress}%`"
+                        ></div>
+                    </div>
+                {{ /if }}
             </section>
         {{ /if }}
     {{ /collection:inspiration }}

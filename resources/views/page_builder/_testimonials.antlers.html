@@ -1,8 +1,10 @@
 {{#
     @name Testimonials
-    @desc Three testimonial entries shown as a side-by-side grid on desktop
-          and a Splide-powered swipeable carousel below `md`. Each card uses
-          the shared `components/_testimonial-card` partial so the homepage
+    @desc Three testimonial entries. Layout scales by viewport: below `sm`
+          a Splide-powered swipeable carousel shows one card at a time;
+          `sm`–`md` two cards; at `lg`+ Splide is destroyed and the cards
+          fall back to a side-by-side 3-col grid. Each card uses the
+          shared `components/_testimonial-card` partial so the homepage
           and the cards reference page render the same markup.
     @set page.page_builder.testimonials
 #}}
@@ -32,7 +34,8 @@
                         pauseOnFocus: true,
                         mediaQuery: 'min',
                         breakpoints: {
-                            768: { destroy: true },
+                            640: { perPage: 2 },
+                            1024: { destroy: true },
                         },
                     });
                     window.pictureLazyLoad(this.splide);
@@ -59,9 +62,9 @@
             <div class="span-content" x-reveal>
                 <div x-ref="splide" class="splide testimonials-splide" data-reveal-item data-reveal-preset="card">
                     <div class="splide__track">
-                        {{# `md:grid` overrides Splide's `.splide__list { display: flex }`
-                            once Splide is destroyed at `md`, restoring the 3-col grid. #}}
-                        <ul class="splide__list md:grid md:grid-cols-3 md:gap-fluid-grid-gap">
+                        {{# `lg:grid` overrides Splide's `.splide__list { display: flex }`
+                            once Splide is destroyed at `lg`, restoring the 3-col grid. #}}
+                        <ul class="splide__list lg:grid lg:grid-cols-3 lg:gap-fluid-grid-gap">
                             {{ block:testimonials }}
                                 <li class="splide__slide">
                                     {{ partial:components/testimonial-card :color="card_color" }}

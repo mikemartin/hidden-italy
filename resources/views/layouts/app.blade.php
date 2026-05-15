@@ -11,7 +11,6 @@
             $currentUser = auth()->user() ? \Statamic\Facades\User::fromUser(auth()->user()) : null;
         @endphp
 
-        <s:partial src="layout/announcement_banner" :logged_in="$loggedIn" :current_user="$currentUser" />
         <s:partial src="layout/header" :logged_in="$loggedIn" :current_user="$currentUser" />
 
         <main class="relative isolate overflow-hidden flex-1 fluid-grid py-12 lg:py-16">

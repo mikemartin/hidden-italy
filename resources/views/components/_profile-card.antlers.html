@@ -76,7 +76,7 @@
     Padding is reset to 0 on the modal so the image can run edge-to-edge,
     then re-applied to the text body via `px-8 pb-8`. #}}
 {{ if short_bio }}
-    <x-flux::modal name="profile-bio-{{ slug }}" variant="flyout" class="profile-bio-modal bg-background! md:w-[34rem] !p-0">
+    <x-flux::modal name="profile-bio-{{ slug }}" flyout="true" variant="floating" class="profile-bio-modal bg-background! md:w-[34rem] !p-0">
         <div class="relative flex flex-col">
             {{# Close button — mirrors the dark mobile menu close: 44px hit
                 target, gold focus ring. On parchment we swap white text /
@@ -97,7 +97,7 @@
                 version of the card photo. #}}
             {{ if image }}
                 <div class="p-1">
-                    <div class="relative w-full aspect-[16/9] rounded-lg overflow-hidden bg-parchment-200">
+                    <div class="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-parchment-200">
                         {{ picture
                             :image="image"
                             aspect_ratio="16/9"
@@ -111,14 +111,14 @@
             {{ /if }}
 
             <div class="flex flex-col gap-6 px-5 pt-6 pb-8">
-                <header class="flex flex-col gap-1">
+                <header class="profile-bio-stagger profile-bio-stagger-1 flex flex-col gap-1">
                     {{ partial:typography/h4 :content="title" color="text-foreground" }}
                     {{ if subtitle }}
                         <p class="font-sans text-sm md:text-base text-accent-2 font-medium">{{ subtitle }}</p>
                     {{ /if }}
                 </header>
 
-                <div class="font-sans text-base leading-[1.6] text-text">
+                <div class="profile-bio-stagger profile-bio-stagger-2 font-sans text-base leading-[1.6] text-text">
                     <p>{{ short_bio }}</p>
                 </div>
 
@@ -131,9 +131,11 @@
                     don't have one linked, avoiding a null pass into the
                     field-pair scope. #}}
                 {{ if testimonial }}
-                    {{ testimonial }}
-                        {{ partial:components/testimonial-card }}
-                    {{ /testimonial }}
+                    <div class="profile-bio-stagger profile-bio-stagger-3">
+                        {{ testimonial }}
+                            {{ partial:components/testimonial-card }}
+                        {{ /testimonial }}
+                    </div>
                 {{ /if }}
             </div>
         </div>

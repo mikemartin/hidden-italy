@@ -503,12 +503,12 @@
 
 
 /* Testimonials Splide carousel — small vertical padding so the cards' subtle
-   shadow isn't clipped while the carousel is active below the `md` breakpoint. */
+   shadow isn't clipped while the carousel is active below the `lg` breakpoint. */
 .testimonials-splide .splide__track {
     padding-block: 0.5rem;
 }
 
-/* Pagination dots — only render on mobile (Splide is destroyed at `md`+ so the
+/* Pagination dots — only render below `lg` (Splide is destroyed at `lg`+ so the
    pagination is removed automatically). Inactive dots are a faint neutral pill;
    the active dot widens and turns gold. */
 .testimonials-splide .splide__pagination {
@@ -718,6 +718,73 @@
    here instead of as a prop. */
 dialog.profile-bio-modal > div.absolute[class*="end-0"] {
     display: none;
+}
+
+/* Flux modal motion — slow Flux's 75ms/150ms defaults to the brand's
+   drawer timing (520ms enter / 380ms exit on `--ease-standard`, the
+   same tokens the mobile menu and tour filter drawers use). Applies
+   to every Flux modal in the app, scoped by Flux's auto-emitted
+   `data-modal="{name}"` attribute (set whenever a `name` is provided,
+   which is required for triggers — so this covers all of them).
+
+   Override is intentionally limited to opacity + transform; Flux's
+   own CSS still handles the discrete properties (display, overlay)
+   needed for the dialog to enter/exit the browser's top layer
+   correctly. We're just lengthening the animation Flux already runs. */
+dialog[data-modal] {
+    transition:
+        opacity var(--duration-quick) var(--ease-standard),
+        transform var(--duration-quick) var(--ease-standard);
+}
+
+dialog[data-modal][open] {
+    transition:
+        opacity var(--duration-standard) var(--ease-standard),
+        transform var(--duration-standard) var(--ease-standard);
+}
+
+dialog[data-modal]::backdrop,
+dialog[data-modal][open]::backdrop {
+    transition:
+        opacity var(--duration-quick) var(--ease-standard),
+        background-color var(--duration-quick) var(--ease-standard);
+}
+
+/* Content cascade — image leads with the panel (its full-bleed photo
+   carries the primary reveal), then header → body → testimonial fade
+   up with the same 100ms rhythm the mobile drawer uses. Total cascade
+   ≤ 350ms keeps within the premium stagger budget (<500ms).
+
+   Native `<dialog>` is `display:none` when closed, so child elements
+   first render *after* the dialog opens — meaning a normal CSS
+   transition has no "from" state to start from. `@starting-style`
+   supplies that starting state for the first rendered frame (mirrors
+   how Flux animates the dialog itself). On close, children stay in
+   their resting state and ride the panel's slide-out rather than
+   reversing the stagger. */
+.profile-bio-stagger {
+    opacity: 1;
+    transform: translateY(0);
+    transition:
+        opacity var(--duration-quick) var(--ease-standard),
+        transform var(--duration-quick) var(--ease-standard);
+}
+
+@starting-style {
+    dialog.profile-bio-modal[open] .profile-bio-stagger {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+}
+
+.profile-bio-stagger-1 { transition-delay: 150ms; }
+.profile-bio-stagger-2 { transition-delay: 250ms; }
+.profile-bio-stagger-3 { transition-delay: 350ms; }
+
+@media (prefers-reduced-motion: reduce) {
+    .profile-bio-stagger {
+        transition: none;
+    }
 }
 
 /* Modal/flyout backdrop — Flux ships rgba(0,0,0,0.10) which reads almost

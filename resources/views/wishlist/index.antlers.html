@@ -26,7 +26,15 @@
         {{# Page header — same fluid-grid + h1 type as /tours, minus the
             breadcrumb pill (no parent page). Guest-account prompt sits
             below the h1. #}}
-        <section class="fluid-grid py-12 md:py-16">
+
+        
+        <section class="fluid-grid 
+        {{ if static_overlay_header }}
+            pt-12 md:pt-16
+        {{ else }}
+            pt-28 md:pt-32 xl:pt-36
+        {{ /if }}
+        pb-12 md:pb-16">
             <div class="span-content flex flex-col items-start gap-4">
                 <h1 class="font-display font-semibold text-foreground text-3xl md:text-[40px] leading-[1.25] tracking-[-0.01em]">
                     Wishlist
