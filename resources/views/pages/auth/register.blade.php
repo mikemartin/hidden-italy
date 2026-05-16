@@ -31,25 +31,15 @@
             />
 
             <!-- Email Address -->
-            <div class="relative">
-                <flux:input
-                    name="email"
-                    :label="__('Email address')"
-                    :value="old('email', request()->query('email'))"
-                    type="email"
-                    required
-                    autocomplete="email"
-                    placeholder="email@example.com"
-                />
-
-                <flux:link
-                    class="absolute top-0 text-sm end-0"
-                    :href="route('login', ['email' => old('email', request()->query('email'))])"
-                    wire:navigate
-                >
-                    {{ __('Change') }}
-                </flux:link>
-            </div>
+            <flux:input
+                name="email"
+                :label="__('Email address')"
+                :value="old('email', request()->query('email'))"
+                type="email"
+                required
+                autocomplete="email"
+                placeholder="email@example.com"
+            />
 
             <!-- Password — single field with Flux's viewable toggle so
                  the user can verify what they typed without a second
