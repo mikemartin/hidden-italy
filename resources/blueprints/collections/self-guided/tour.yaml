@@ -176,6 +176,15 @@ tabs:
               display: Likes
               allow_guest_likes: true
       -
+        display: Availability
+        fields:
+          -
+            handle: availability_text
+            field:
+              type: textarea
+              display: Availability
+              instructions: 'Free-form availability note shown under the tour name (e.g. "Superior accommodation available").'
+      -
         display: Taxonomy
         fields:
           -
