@@ -2,11 +2,12 @@
     @name Article header
     @desc Header for article entries (Tips, Inspiration). A row with the
           collection badge on the left and the publish/last-modified date
-          on the right, then the headline and an optional lead. Width
-          matches the article body (`span-lg`). Background colour and
-          topographic decoration are the wrapping template's responsibility.
+          on the right, then the headline and an optional lead. Sits in
+          a `span-content` column to match the other page headers.
+          Background colour and topographic decoration are the wrapping
+          template's responsibility.
     @param lead       Optional p.large lead below the headline.
-    @param image      Hero image displayed full-bleed (`span-xl`) below the lead.
+    @param image      Hero image displayed below the lead, same width as the text column.
 #}}
 
 <!-- /components/_article_header.antlers.html -->
@@ -17,7 +18,7 @@
         pt-28 md:pt-32 xl:pt-36
     {{ /if }}
     pb-12 md:pb-16 gap-y-10 md:gap-y-14">
-    <div class="span-xl flex flex-col items-start gap-6">
+    <div class="span-content flex flex-col items-start gap-6">
         <div class="flex items-center gap-6">
             <a
                 href="{{ parent:url }}"
@@ -42,7 +43,7 @@
     </div>
 
     {{ if image }}
-        <figure class="span-xl m-0">
+        <figure class="span-content m-0">
             {{
                 picture
                 :image="image"
