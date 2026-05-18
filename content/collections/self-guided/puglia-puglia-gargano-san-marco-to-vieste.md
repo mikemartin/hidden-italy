@@ -5,8 +5,8 @@ title: 'Puglia - Puglia: the Gargano Peninsula'
 name: 'Puglia: the Gargano Peninsula'
 region: Puglia
 days: 8
-updated_by: 1
-updated_at: 1777905557
+updated_by: 4
+updated_at: 1779063845
 grade: 4
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
@@ -49,6 +49,7 @@ page_builder:
       - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_2799.jpg
       - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/15.jpg
       - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/17.5.jpg
+    hide_from_subnav: false
   -
     id: mloocwbk
     heading: 'Highlights of the Gargano tour'
@@ -86,6 +87,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloox88g
     title: 'Puglia, Gargano tour itinerary'
@@ -148,7 +151,7 @@ page_builder:
       -
         id: mlop6avf
         title: 'Walk to the coast'
-        description: 'You leave your accommodation, you walk down a wide path through olive groves and forest with views over the coast, before descending to the sea.  The last stretch is a walk along a long sand beach to Vieste, a very attractive town with a long history that sits on a promontory wedged between two extended beaches. (3.5 hrs, 12.5 kms; max: 388 mts, min: 0 mts)'
+        description: 'You leave your accommodation, you walk down a wide path through olive groves and forest with views over the coast, before descending to the sea.  The last stretch is a walk along a long sand beach to Vieste, a very attractive town with a long history that sits on a promontory wedged between two extended beaches. (3.5 hrs, 12.5 kms; max: 388m, min: 0 mts)'
         duration: 4
         distance: 13
         elevation: -388
@@ -172,6 +175,8 @@ page_builder:
         photo: tours/puglia-puglia-gargano-san-marco-to-vieste/2-(2).jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: 5uEILSSZezZCerLbFIgIT
     title: 'Puglia Gargano Experience'
@@ -227,6 +232,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: xjmZCSqu9_pPtudw4SNdu
     title: 'What you should know'
@@ -278,10 +284,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: W50LgPmf
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: plmi3WQfZapIU1xNNVm5E
     heading: 'What our travellers are saying'
@@ -291,6 +303,8 @@ page_builder:
       - 4ac64d17-a1bb-443e-8f58-a6023213e49f
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_sU5fo77HQiGfHsNt
     type: walking_benefits
@@ -298,6 +312,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 94b14cda-124a-4b87-82f5-7bc566ac2edf
 image: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/15.jpg
@@ -358,4 +373,5 @@ summary:
       -
         type: text
         text: "The Gargano is in the north of Puglia.  The ‘spur’ on the boot of Italy, it is an expansive promontory covered by one of Italy’s oldest national parks, surrounded by sparkling waters, white limestone cliffs and pretty fishing villages.\_ Gargano has a rich history.\_ It has been inhabited since Neolithic times and has towns that were founded by the ancient Greeks and Romans, but its glory days were during the Crusades when the sanctuary of Monte San Michele became one of the most important pilgrim destinations in the Middle Ages."
+show_from: true
 ---
