@@ -10,8 +10,8 @@ type: book
 price: '$36.99 AUD'
 show_from: true
 featured_heading: 'Featured on'
-updated_by: 1
-updated_at: 1778887132
+updated_by: 3
+updated_at: 1779090519
 page_builder:
   -
     id: 1LdcYtZnlky9RkjXJpgWM
@@ -94,4 +94,5 @@ featured_logos:
   -
     id: CaJ3zugW
     logo: logos/2gb.svg
+buy_link: 'https://68i8uq-98.myshopify.com/cart/52010565534016:1?channel=buy_button'
 ---
