@@ -81,6 +81,11 @@ tabs:
         collapsed: true
         fields:
           -
+            handle: headline
+            field:
+              type: text
+              display: Headline
+          -
             handle: availability_text
             field:
               type: text
