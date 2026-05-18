@@ -56,6 +56,11 @@
                         <span class="inline-block size-2 rounded-full bg-gold ring-4 ring-parchment-200 shrink-0" aria-hidden="true"></span>
                         <span>{{ trans:strings.next_available ?? 'Next available' }} {{ date | format:'j F Y' }}</span>
                     </p>
+                {{ elseif availability_text }}
+                    <p class="font-sans text-base lg:text-lg leading-[1.5] md:leading-[1.6] text-foreground md:text-text flex items-center gap-2">
+                        <span class="inline-block size-2 rounded-full bg-gold ring-4 ring-parchment-200 shrink-0" aria-hidden="true"></span>
+                        <span>{{ availability_text }}</span>
+                    </p>
                 {{ /if }}
             </header>
 
