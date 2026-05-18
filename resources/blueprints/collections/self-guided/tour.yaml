@@ -181,7 +181,7 @@ tabs:
           -
             handle: availability_text
             field:
-              type: textarea
+              type: text
               display: Availability
               instructions: 'Free-form availability note shown under the tour name (e.g. "Superior accommodation available").'
       -
