@@ -113,28 +113,6 @@ article:
                 type: text
                 text: 'Hidden Italy reserves the right to charge a late payment fee in the event of late booking and/or payment to cover additional communication and other expenses.'
   -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: '5. Changes'
-  -
-    type: set
-    attrs:
-      id: mGDbacOKeUEK-v7IeHbe-
-      values:
-        type: accordion
-        title: 'MINIMUM NUMBERS'
-        body:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Unless otherwise stated, all guided group tours are based on a minimum number of participants. Where minimum numbers have not been achieved by 60 days prior to the start of the tour, the tour may be cancelled in accordance with clause 7b.'
-  -
     type: set
     attrs:
       id: vZHxVnzZBu_ifkX5vut5b
@@ -243,24 +221,10 @@ article:
   -
     type: set
     attrs:
-      id: terms-5c
-      values:
-        type: accordion
-        title: '5c. Force majeure'
-        body:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Force majeure changes means any event which Hidden Italy or its suppliers could not, even with all due care, foresee or avoid. Such events may include war, threat of war, riot, civil strife, industrial dispute, epidemics, government-imposed travel restrictions, health risks, terrorist activity, natural or nuclear disaster, fire or adverse weather conditions, technical or maintenance problems with transport, changes imposed by cancellation or rescheduling of travel arrangements by a main charterer, or other similar events beyond the control of Hidden Italy. Hidden Italy is not liable for any penalty charges associated with “supersaver” type connecting rail or airfares, in the event of a change to a holiday departure time, date or airport.'
-  -
-    type: set
-    attrs:
       id: xzP9sgn2Wzo0DLDe8lCTU
       values:
         type: accordion
-        title: 'Substitution of Client'
+        title: 'SUBSTITUTION OF CLIENT'
         body:
           -
             type: paragraph
@@ -277,15 +241,12 @@ article:
         title: CANCELLATIONS
         body:
           -
-            type: paragraph
+            type: heading
+            attrs:
+              level: 4
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: italic
                 text: 'CHANGES MADE BY A CLIENT'
           -
             type: paragraph
@@ -342,6 +303,50 @@ article:
                         type: text
                         text: ' — 100% of tour cost.'
           -
+            type: heading
+            attrs:
+              level: 4
+            content:
+              -
+                type: text
+                text: 'CHANGES MADE BY A HIDDEN ITALY'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Hidden Italy reserves the right to cancel a booking in the event of force majeure event (as outlined below) or if the Client fails to pay the final balance by the due date.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Unless the Client fails to pay the final balance, Hidden Italy will provide a refund or credit for all monies paid less a non-refundable fee of $750 per person per tour and any administration fees. '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Hidden Italy reserves the right to cancel a guided tour in the case of force majeure event (as outlined below), or a tour not reaching minimum numbers. '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Unless otherwise stated, all guided group tours are based on a minimum number of participants. Where minimum numbers have not been achieved by 60 days prior to the start of the tour, the tour may be cancelled. Hidden Italy will not generally cancel a tour less than 60 days before departure.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'In the event of cancellation due to less than the minimum numbers required to hold a tour, a refund or credit will be provided for the amount paid. In the event a credit is provided, it can be used towards booking any tour of choice (subject to availability) for a period stated on the credit note.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'No compensation will be paid in the event of cancellation by Hidden Italy. A full refund of monies paid for tour costs will be the full extent of Hidden Italy’s liability.'
+          -
             type: paragraph
             content:
               -
@@ -349,47 +354,18 @@ article:
                 marks:
                   -
                     type: bold
-                  -
-                    type: italic
-                text: 'CHANGES MADE BY A HIDDEN ITALY'
+                text: 'Force majeure changes'
+              -
+                type: text
+                text: ' means any event which Hidden Italy or its suppliers could not, even with all due care, foresee or avoid. Such events may include war, threat of war, riot, civil strife, industrial dispute, epidemics, government-imposed travel restrictions, health risks, terrorist activity, natural or nuclear disaster, fire or adverse weather conditions, technical or maintenance problems with transport, changes imposed by cancellation or rescheduling of travel arrangements by a main charterer, or other similar events beyond the control of Hidden Italy. Hidden Italy is not liable for any penalty charges associated with “supersaver” type connecting rail or airfares, in the event of a change to a holiday departure time, date or airport.'
           -
-            type: paragraph
+            type: heading
+            attrs:
+              level: 4
             content:
               -
                 type: text
-                text: 'Hidden Italy reserves the right to cancel a booking in the event of force majeure (as outlined in clause 5) or if the Client fails to pay the final balance by the due date.'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Hidden Italy reserves the right to cancel a tour in the case of force majeure (as outlined in clause 5), or a tour not reaching minimum numbers. Hidden Italy will not generally cancel a tour less than 60 days before departure.'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Unless the Client fails to pay the final balance, Hidden Italy will provide a refund or credit for all monies paid less a non-refundable fee of $750 per person per tour and any administration fees. This fee will be held as a credit for use on any tour of choice (subject to availability) for a period stated on the credit note.'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'In the event of cancellation due to less than the minimum numbers required to hold a tour, a refund or credit will be provided for the amount paid less a non-refundable fee of $750 per person per tour and any applicable administration fees. This fee will be held as a credit for use on any tour of choice (subject to availability) for a period stated on the credit note.'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'No compensation will be paid in the event of cancellation by Hidden Italy. A full refund of monies paid for tour costs will be the full extent of Hidden Italy’s liability.'
-  -
-    type: set
-    attrs:
-      id: terms-7c
-      values:
-        type: accordion
-        title: '7c. Cancellation due to Force majeure events'
-        body:
+                text: 'Cancellation due to Force majeure events'
           -
             type: paragraph
             content:
@@ -422,14 +398,14 @@ article:
       id: terms-7e
       values:
         type: accordion
-        title: '7e. Dinner reservations'
+        title: MEALS
         body:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'In some circumstances, dinner reservations (where applicable) may be cancelled by restaurants or hotels due to unforeseen events and are outside of Hidden Italy’s control. In such an event the Client must provide a copy of the receipt for an alternative meal and will be reimbursed up to a maximum of A$70 per person.'
+                text: 'In some circumstances, meal reservations (where applicable) may be cancelled by restaurants or hotels due to unforeseen events and are outside of Hidden Italy’s control. In such an event the Client must provide a copy of the receipt for an alternative meal and will be reimbursed up to a maximum of A$70 per person.'
   -
     type: set
     attrs:
@@ -450,7 +426,7 @@ article:
       id: p8b67qZ_x-BG4XLPw6y_i
       values:
         type: accordion
-        title: 'Travel Insurance & Medical Information'
+        title: 'TRAVEL INSURANCE & MEDICAL INFORMATION'
         body:
           -
             type: paragraph
@@ -476,7 +452,7 @@ article:
       id: 9UQUG-0cndcSug0YD8Gj_
       values:
         type: accordion
-        title: 'Fitness and Participation'
+        title: 'FITNESS & PARTICIPATION'
         body:
           -
             type: paragraph
@@ -583,7 +559,7 @@ article:
       id: hYsi5AA0iLAYMdNYaQ8Iu
       values:
         type: accordion
-        title: 'Illness or Disability'
+        title: 'ILLNESS OR DISABILITY'
         body:
           -
             type: paragraph
@@ -611,7 +587,7 @@ article:
       id: vYgpir-MVMPTH78FWWZsg
       values:
         type: accordion
-        title: 'Our Responsibilities'
+        title: 'OUR RESPONSIBILITIES'
         body:
           -
             type: paragraph
@@ -719,5 +695,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 3
-updated_at: 1779172409
+updated_at: 1779173433
 ---
