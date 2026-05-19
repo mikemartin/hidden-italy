@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 4
-updated_at: 1779151933
+updated_at: 1779151948
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -74,7 +74,7 @@ page_builder:
         button_type: button
         type: button
         enabled: true
-    section_background: light
+    section_background: dark
     show_topography: true
   -
     id: home_featured_tours
