@@ -7,7 +7,7 @@ region: 'Italian Alps'
 days: 10
 grade: 5
 tour_size: 12
-date: '2026-04-11 14:00'
+date: '2027-08-21 14:00'
 inclusions:
   - '9 nights in comfortable accommodation'
   - 'Breakfast, lunch, and dinner daily (with wine)'
@@ -42,6 +42,7 @@ page_builder:
       - tours/italian-alps-trails-to-freedom/dscf0276.jpg
       - tours/italian-alps-trails-to-freedom/dscf1836.jpg
       - tours/italian-alps-trails-to-freedom/10.jpg
+    hide_from_subnav: false
   -
     id: mjfler2v
     heading: 'Trails to Freedom highlights'
@@ -79,6 +80,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mjflgmug
     title: 'Trails to Freedom itinerary'
@@ -187,6 +190,8 @@ page_builder:
         photo: tours/italian-alps-trails-to-freedom/183.png
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: QkV2317y6zSp1bBIhKySL
     title: 'Trails to Freedom Experience'
@@ -257,12 +262,15 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: J5i0VWMfEbXL5ACtZxLBv
     title: 'Tour Leader'
     person: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
     type: leader
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: t9ajidL_bIDpc33abj59O
     title: 'What you should know'
@@ -317,12 +325,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: riG2kDbX
     type: faqs
     enabled: true
     show_common_questions: true
     heading: 'Frequently Asked Questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: v-Y1X2gPDJm6PxI5fCblV
     heading: 'What our travellers are saying'
@@ -332,6 +344,8 @@ page_builder:
       - 966a5684-0228-4341-8790-8ef4f90f52dc
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_P2xQArv1ZqYUss2H
     type: walking_benefits
@@ -339,10 +353,11 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 seasons: summer
 locations: northern-italy
-updated_by: 1
-updated_at: 1778587403
+updated_by: 3
+updated_at: 1779170672
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
@@ -390,10 +405,10 @@ finish_location:
       code: null
       level: 2
   country: Italy
-now_open: true
+now_open: false
 leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 headline: '10 days hiking in the Italian Alps'
-price: '$5,650 AUD'
+price: '$5,850 AUD'
 show_from: true
 teaser: 'Ten-day hike blending stunning scenery, alpine towns, and a WWII escape story.'
 summary:
