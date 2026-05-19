@@ -564,109 +564,109 @@ article:
                         type: text
                         text: 'Handle their own luggage.'
   -
-    type: heading
+    type: set
     attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: '11. Local Laws'
+      id: V4shNZTcpcyFpFneMONA0
+      values:
+        type: accordion
+        title: 'LOCAL LAWS'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'All participants of tours operated by Hidden Italy are expected to obey the laws and regulations of the countries visited and any failure to do so will relieve Hidden Italy of all obligations that they may otherwise have under these booking conditions.'
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'All participants of tours operated by Hidden Italy are expected to obey the laws and regulations of the countries visited and any failure to do so will relieve Hidden Italy of all obligations that they may otherwise have under these booking conditions.'
-  -
-    type: heading
+    type: set
     attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: '12. Illness or Disability'
+      id: hYsi5AA0iLAYMdNYaQ8Iu
+      values:
+        type: accordion
+        title: 'Illness or Disability'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Anyone suffering from illness or disability or undergoing treatment for any physical or medical condition must declare the true nature of such condition at the time of booking and make arrangements for the provision of any medication or other treatment which may be required during the tour. Failure to make such disclosure will constitute a breach of these booking conditions and result in such persons being excluded from the tour, in which case all monies paid will be forfeited.'
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Anyone suffering from illness or disability or undergoing treatment for any physical or medical condition must declare the true nature of such condition at the time of booking and make arrangements for the provision of any medication or other treatment which may be required during the tour. Failure to make such disclosure will constitute a breach of these booking conditions and result in such persons being excluded from the tour, in which case all monies paid will be forfeited.'
-  -
-    type: heading
+    type: set
     attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: '13. If You Have a Complaint'
+      id: ALttwHSK-Rs_r6YTE1y-X
+      values:
+        type: accordion
+        title: 'IF YOU HAVE A COMPLAINT'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'If the Client has a complaint about any of the tour arrangements, the Client must bring it to the attention of the tour leader or other representative of Hidden Italy at the time so that the representative may use their best endeavours to rectify the situation. It is only if Hidden Italy is made aware of any problems that there will be the opportunity to put things right. Any complaints must be made in writing to Hidden Italy within 28 days of the completion of the tour.'
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'If the Client has a complaint about any of the tour arrangements, the Client must bring it to the attention of the tour leader or other representative of Hidden Italy at the time so that the representative may use their best endeavours to rectify the situation. It is only if Hidden Italy is made aware of any problems that there will be the opportunity to put things right. Any complaints must be made in writing to Hidden Italy within 28 days of the completion of the tour.'
-  -
-    type: heading
+    type: set
     attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: '14. Our Responsibilities'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'All bookings are accepted on the understanding that the Client appreciates that travel does, by its very nature, involve some risk and that they undertake all tours of their own volition.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
+      id: vYgpir-MVMPTH78FWWZsg
+      values:
+        type: accordion
+        title: 'Our Responsibilities'
+        body:
           -
-            type: bold
-        text: i)
-      -
-        type: text
-        text: ' Where the Client does not suffer personal injury, Hidden Italy accepts liability should any part of the holiday arrangements booked with Hidden Italy not be supplied as described and not be of reasonable standard. In such a case, Hidden Italy will pay reasonable compensation if the Client’s enjoyment of the tour has been adversely affected but will pay no compensation if there has been no fault on the part of Hidden Italy or its suppliers and the reason for the failure in the tour arrangements was the Client’s fault, the actions of someone unconnected with the tour arrangements or matters that could not have been foreseen or avoided by Hidden Italy or its suppliers even if all due care had been exercised.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'All bookings are accepted on the understanding that the Client appreciates that travel does, by its very nature, involve some risk and that they undertake all tours of their own volition.'
           -
-            type: bold
-        text: ii)
-      -
-        type: text
-        text: ' Where the Client suffers death or personal injury as a result of an activity forming part of the tour arrangements booked with Hidden Italy, Hidden Italy accepts responsibility unless there has been no fault on Hidden Italy’s part or its suppliers and the cause was the Client’s fault, the death or personal injury were resultant of the actions of someone unconnected with the tour arrangements, or the death or personal injury were resultant of matters of which neither Hidden Italy nor its suppliers could have anticipated or avoided even if all due care had been exercised.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: i)
+              -
+                type: text
+                text: ' Where the Client does not suffer personal injury, Hidden Italy accepts liability should any part of the holiday arrangements booked with Hidden Italy not be supplied as described and not be of reasonable standard. In such a case, Hidden Italy will pay reasonable compensation if the Client’s enjoyment of the tour has been adversely affected but will pay no compensation if there has been no fault on the part of Hidden Italy or its suppliers and the reason for the failure in the tour arrangements was the Client’s fault, the actions of someone unconnected with the tour arrangements or matters that could not have been foreseen or avoided by Hidden Italy or its suppliers even if all due care had been exercised.'
           -
-            type: bold
-        text: iii)
-      -
-        type: text
-        text: ' Hidden Italy’s acceptance of liability to pay compensation pursuant to clauses 14 (i) and 14 (ii) is limited, in the case of rail travel, sea travel or hotel accommodation, to the amount set out in the provisions of, respectively, the Warsaw Convention as amended by the Hague Protocol 1955, the 1961 Berne Convention, the 1974 Athens Convention and the 1962 Paris Convention.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: ii)
+              -
+                type: text
+                text: ' Where the Client suffers death or personal injury as a result of an activity forming part of the tour arrangements booked with Hidden Italy, Hidden Italy accepts responsibility unless there has been no fault on Hidden Italy’s part or its suppliers and the cause was the Client’s fault, the death or personal injury were resultant of the actions of someone unconnected with the tour arrangements, or the death or personal injury were resultant of matters of which neither Hidden Italy nor its suppliers could have anticipated or avoided even if all due care had been exercised.'
           -
-            type: bold
-        text: iv)
-      -
-        type: text
-        text: ' Hidden Italy’s acceptance of liability in clauses 14 (i) and 14 (ii) above is subject to assignment by the Client to Hidden Italy of the Client’s rights against any agent, supplier or sub-contractor of Hidden Italy which is in any way responsible for the unsatisfactory tour arrangements or the Client’s death or personal injury.'
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: iii)
+              -
+                type: text
+                text: ' Hidden Italy’s acceptance of liability to pay compensation pursuant to clauses 14 (i) and 14 (ii) is limited, in the case of rail travel, sea travel or hotel accommodation, to the amount set out in the provisions of, respectively, the Warsaw Convention as amended by the Hague Protocol 1955, the 1961 Berne Convention, the 1974 Athens Convention and the 1962 Paris Convention.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: iv)
+              -
+                type: text
+                text: ' Hidden Italy’s acceptance of liability in clauses 14 (i) and 14 (ii) above is subject to assignment by the Client to Hidden Italy of the Client’s rights against any agent, supplier or sub-contractor of Hidden Italy which is in any way responsible for the unsatisfactory tour arrangements or the Client’s death or personal injury.'
   -
     type: paragraph
     content:
@@ -719,5 +719,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 3
-updated_at: 1779172017
+updated_at: 1779172192
 ---
