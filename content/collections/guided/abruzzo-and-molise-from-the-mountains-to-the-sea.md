@@ -1,15 +1,15 @@
 ---
 id: 43c82038-3f21-4148-8641-024253f68420
 blueprint: tour
-title: 'Abruzzo and Molise - From the mountains to the sea'
-name: 'From the mountains to the sea'
-region: 'Abruzzo and Molise'
+title: 'Rome TBA - Abruzzo and Molise'
+name: 'Abruzzo and Molise'
+region: 'Rome TBA'
 days: 13
-updated_by: 1
-updated_at: 1777904629
+updated_by: 4
+updated_at: 1779150553
 grade: 3
 inclusions:
-  - '•12 nights accommodation (see the itinerary for details) in hotels and private apartments'
+  - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
   - 'All land and sea transfers during the tours'
   - 'All taxes and service charges at the hotels and restaurants'
@@ -47,6 +47,7 @@ page_builder:
       - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_3344.jpg
       - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_8356-v2.jpg
       - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2920.jpg
+    hide_from_subnav: false
   -
     id: mloqd78x
     heading: 'Abruzzo and Molise guided tour'
@@ -84,6 +85,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloqvfcq
     title: 'Abruzzo and Molise guided tour'
@@ -210,6 +213,8 @@ page_builder:
         photo: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_8356-v2.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: ajaZp5in47xbHnusFqtcN
     title: 'Abruzzo and Molise Essentials'
@@ -262,11 +267,14 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: aYXCAIktLPE-ML89McjqM
     title: 'Tour Leader'
     type: leader
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: Oo1saFI3INeyoC15VtrpQ
     title: 'What you should know'
@@ -306,10 +314,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: tm5lcBKz
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_EJpcUXVATPKqDV4m
     type: walking_benefits
@@ -317,6 +331,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 seasons: spring
 image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2869.jpg
@@ -374,4 +389,5 @@ summary:
       -
         type: text
         text: 'Starting with two nights in Rome, this exclusive 7-person tour explores Abruzzo and Molise, two of Italy’s least-visited regions, nestled in the Apennines, the mountainous spine of Italy but also bound by the endless beaches of the Adriatic Coast.'
+show_from: false
 ---
