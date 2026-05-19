@@ -5,10 +5,20 @@
 
 <!-- /layout.antlers.html -->
 <!doctype html>
-{{# `scroll-pt-*` is the offset for anchor jumps. `tours/show` carries
-    a sticky sub-nav (~5rem tall) so anchor targets need to land below
-    it — every other template uses a small `scroll-pt-4` cushion. #}}
-<html lang="{{ site:short_locale }}" class="antialiased scroll-smooth {{ current_template == 'tours/show' ? 'scroll-pt-20' : 'scroll-pt-6' }}">
+{{# `scroll-pt-*` is the offset for anchor jumps. Three regimes:
+      - Fixed main header (default mode — no `static_overlay_header`):
+        header is ~4rem at lg / ~5rem at xl, so anchors need
+        `scroll-pt-20 xl:scroll-pt-24` to clear it with breathing room.
+      - `tours/show`: header is replaced by its own ~5rem sticky
+        sub-nav, so `scroll-pt-20` matches.
+      - `static_overlay_header` on any other template: header scrolls
+        away with the page, so a small `scroll-pt-6` cushion suffices. #}}
+{{ scroll_pt = switch(
+    (static_overlay_header && current_template == 'tours/show') => 'scroll-pt-20',
+    (static_overlay_header) => 'scroll-pt-6',
+    () => 'scroll-pt-20 xl:scroll-pt-24'
+) }}
+<html lang="{{ site:short_locale }}" class="antialiased scroll-smooth {{ scroll_pt }}">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">

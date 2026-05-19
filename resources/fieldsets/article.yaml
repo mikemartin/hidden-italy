@@ -40,6 +40,13 @@ fields:
               fields:
                 -
                   import: buttons
+            accordion:
+              display: Accordion
+              instructions: 'Single collapsible items. Collapsed by default.'
+              icon: list-bullets
+              fields:
+                -
+                  import: accordion
         text:
           display: Text
           instructions: 'Text based sets.'

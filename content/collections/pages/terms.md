@@ -135,117 +135,117 @@ article:
         type: text
         text: '5. Changes'
   -
-    type: heading
+    type: set
     attrs:
-      level: 3
-    content:
-      -
-        type: text
-        text: '5a. Changes by You'
+      id: terms-5a
+      values:
+        type: accordion
+        title: '5a. Changes by You'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Any change requests to the tours booked including changes of date, accommodation type and any other amendments to the standard tour inclusions will be subject to the following conditions.'
+          -
+            type: heading
+            attrs:
+              level: 4
+            content:
+              -
+                type: text
+                text: 'Guided Tours'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Requests made 6 months or more prior to start of tour (subject to availability) will incur a $250 per person change of tour fee and any additional costs that may be incurred.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Requests made less than 6 months prior to start of tour will be treated as cancellation of the booking and subject to our cancellation policy as outlined in section 7 below, with a new booking required (subject to availability).'
+          -
+            type: heading
+            attrs:
+              level: 4
+            content:
+              -
+                type: text
+                text: 'Self-guided Tours'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Requests made within 60 days prior to start of tour will be treated as cancellation of the booking and subject to our cancellation policy as outlined in section 7 below, with a new booking required (subject to availability).'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Requests made 61 days or more from start of tour (subject to availability) will incur a $250 per person change fee and any additional costs that may be incurred.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Due to additional communication and other expenses, we reserve the right to charge an administration fee of $100 per person (excluding any accommodation cancellation or change fees) per amendment to your original booking for all other requests. While every reasonable effort will be made to accommodate changes and additional requests, their availability cannot be guaranteed.'
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Any change requests to the tours booked including changes of date, accommodation type and any other amendments to the standard tour inclusions will be subject to the following conditions.'
-  -
-    type: heading
+    type: set
     attrs:
-      level: 4
-    content:
-      -
-        type: text
-        text: 'Guided Tours'
+      id: terms-5b
+      values:
+        type: accordion
+        title: '5b. Changes by Us'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'While Hidden Italy will use its best endeavours to operate all tours as advertised, by entering into this contract the Client accepts that it may prove necessary or advisable to vary or modify a tour or its contents due to prevailing local conditions.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Hidden Italy reserves the right at any time to cancel or change any of the facilities, services or prices described (including transport, accommodation or other arrangements) and to substitute alternative arrangements of comparable monetary value without compensation, and accepts no liability for loss of enjoyment as a result of these changes.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'If a service or facility becomes unavailable due to circumstances of force majeure and no alternative arrangement of comparable monetary value is available, Hidden Italy will substitute the best alternative available and will refund the Client for any cost saving or charge the Client for any additional costs incurred.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'If a major change is known to us, the Client will be told at the time of booking. If a major change becomes necessary, Hidden Italy will inform the Client as soon as reasonably possible if there is time before departure.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'While the specific definition of a major change will depend on the individual tour and circumstances, a major change may be broadly defined as cancellation of the tour, change of start or end city or omission of a major component. When a major change is made, the Client will have the choice of accepting the change of arrangements, purchasing another available tour or cancelling the tour. Any refunds or credits due to cancellation will be as per the cancellation policy outlined in section 7.'
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Requests made 6 months or more prior to start of tour (subject to availability) will incur a $250 per person change of tour fee and any additional costs that may be incurred.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Requests made less than 6 months prior to start of tour will be treated as cancellation of the booking and subject to our cancellation policy as outlined in section 7 below, with a new booking required (subject to availability).'
-  -
-    type: heading
+    type: set
     attrs:
-      level: 4
-    content:
-      -
-        type: text
-        text: 'Self-guided Tours'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Requests made within 60 days prior to start of tour will be treated as cancellation of the booking and subject to our cancellation policy as outlined in section 7 below, with a new booking required (subject to availability).'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Requests made 61 days or more from start of tour (subject to availability) will incur a $250 per person change fee and any additional costs that may be incurred.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Due to additional communication and other expenses, we reserve the right to charge an administration fee of $100 per person (excluding any accommodation cancellation or change fees) per amendment to your original booking for all other requests. While every reasonable effort will be made to accommodate changes and additional requests, their availability cannot be guaranteed.'
-  -
-    type: heading
-    attrs:
-      level: 3
-    content:
-      -
-        type: text
-        text: '5b. Changes by Us'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'While Hidden Italy will use its best endeavours to operate all tours as advertised, by entering into this contract the Client accepts that it may prove necessary or advisable to vary or modify a tour or its contents due to prevailing local conditions.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Hidden Italy reserves the right at any time to cancel or change any of the facilities, services or prices described (including transport, accommodation or other arrangements) and to substitute alternative arrangements of comparable monetary value without compensation, and accepts no liability for loss of enjoyment as a result of these changes.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'If a service or facility becomes unavailable due to circumstances of force majeure and no alternative arrangement of comparable monetary value is available, Hidden Italy will substitute the best alternative available and will refund the Client for any cost saving or charge the Client for any additional costs incurred.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'If a major change is known to us, the Client will be told at the time of booking. If a major change becomes necessary, Hidden Italy will inform the Client as soon as reasonably possible if there is time before departure.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'While the specific definition of a major change will depend on the individual tour and circumstances, a major change may be broadly defined as cancellation of the tour, change of start or end city or omission of a major component. When a major change is made, the Client will have the choice of accepting the change of arrangements, purchasing another available tour or cancelling the tour. Any refunds or credits due to cancellation will be as per the cancellation policy outlined in section 7.'
-  -
-    type: heading
-    attrs:
-      level: 3
-    content:
-      -
-        type: text
-        text: '5c. Force majeure'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Force majeure changes means any event which Hidden Italy or its suppliers could not, even with all due care, foresee or avoid. Such events may include war, threat of war, riot, civil strife, industrial dispute, epidemics, government-imposed travel restrictions, health risks, terrorist activity, natural or nuclear disaster, fire or adverse weather conditions, technical or maintenance problems with transport, changes imposed by cancellation or rescheduling of travel arrangements by a main charterer, or other similar events beyond the control of Hidden Italy. Hidden Italy is not liable for any penalty charges associated with “supersaver” type connecting rail or airfares, in the event of a change to a holiday departure time, date or airport.'
+      id: terms-5c
+      values:
+        type: accordion
+        title: '5c. Force majeure'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Force majeure changes means any event which Hidden Italy or its suppliers could not, even with all due care, foresee or avoid. Such events may include war, threat of war, riot, civil strife, industrial dispute, epidemics, government-imposed travel restrictions, health risks, terrorist activity, natural or nuclear disaster, fire or adverse weather conditions, technical or maintenance problems with transport, changes imposed by cancellation or rescheduling of travel arrangements by a main charterer, or other similar events beyond the control of Hidden Italy. Hidden Italy is not liable for any penalty charges associated with “supersaver” type connecting rail or airfares, in the event of a change to a holiday departure time, date or airport.'
   -
     type: heading
     attrs:
@@ -269,153 +269,153 @@ article:
         type: text
         text: '7. Cancellations'
   -
-    type: heading
+    type: set
     attrs:
-      level: 3
-    content:
-      -
-        type: text
-        text: '7a. Cancellation by You'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'The Client may cancel the booking at any time. Written notification is essential even if verbal notification of an intention to cancel has been given. Cancellation charges will be applied as shown below, calculated from the day written notification is received by Hidden Italy.'
-  -
-    type: bulletList
-    content:
-      -
-        type: listItem
-        content:
+      id: terms-7a
+      values:
+        type: accordion
+        title: '7a. Cancellation by You'
+        body:
           -
             type: paragraph
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: bold
-                text: '61 days or more from start of tour'
+                text: 'The Client may cancel the booking at any time. Written notification is essential even if verbal notification of an intention to cancel has been given. Cancellation charges will be applied as shown below, calculated from the day written notification is received by Hidden Italy.'
+          -
+            type: bulletList
+            content:
               -
-                type: text
-                text: ' — Cancellations will be eligible for a full refund of amount paid, minus a $750 per person cancellation fee plus any non-refundable booking fees or third-party costs if applicable.'
-      -
-        type: listItem
-        content:
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: '61 days or more from start of tour'
+                      -
+                        type: text
+                        text: ' — Cancellations will be eligible for a full refund of amount paid, minus a $750 per person cancellation fee plus any non-refundable booking fees or third-party costs if applicable.'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: '45–60 days from start of tour'
+                      -
+                        type: text
+                        text: ' — Cancellations will be eligible for a full refund of amount paid, minus a 50% of tour cost cancellation fee plus any non-refundable booking fees or third-party costs if applicable.'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'Within 45 days from start of tour'
+                      -
+                        type: text
+                        text: ' — 100% of tour cost.'
+  -
+    type: set
+    attrs:
+      id: terms-7b
+      values:
+        type: accordion
+        title: '7b. Cancellation by Us'
+        body:
           -
             type: paragraph
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: bold
-                text: '45–60 days from start of tour'
-              -
-                type: text
-                text: ' — Cancellations will be eligible for a full refund of amount paid, minus a 50% of tour cost cancellation fee plus any non-refundable booking fees or third-party costs if applicable.'
-      -
-        type: listItem
-        content:
+                text: 'Hidden Italy reserves the right to cancel a booking in the event of force majeure (as outlined in clause 5) or if the Client fails to pay the final balance by the due date.'
           -
             type: paragraph
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Within 45 days from start of tour'
+                text: 'Hidden Italy reserves the right to cancel a tour in the case of force majeure (as outlined in clause 5), or a tour not reaching minimum numbers. Hidden Italy will not generally cancel a tour less than 60 days before departure.'
+          -
+            type: paragraph
+            content:
               -
                 type: text
-                text: ' — 100% of tour cost.'
+                text: 'Unless the Client fails to pay the final balance, Hidden Italy will provide a refund or credit for all monies paid less a non-refundable fee of $750 per person per tour and any administration fees. This fee will be held as a credit for use on any tour of choice (subject to availability) for a period stated on the credit note.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'In the event of cancellation due to less than the minimum numbers required to hold a tour, a refund or credit will be provided for the amount paid less a non-refundable fee of $750 per person per tour and any applicable administration fees. This fee will be held as a credit for use on any tour of choice (subject to availability) for a period stated on the credit note.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'No compensation will be paid in the event of cancellation by Hidden Italy. A full refund of monies paid for tour costs will be the full extent of Hidden Italy’s liability.'
   -
-    type: heading
+    type: set
     attrs:
-      level: 3
-    content:
-      -
-        type: text
-        text: '7b. Cancellation by Us'
+      id: terms-7c
+      values:
+        type: accordion
+        title: '7c. Cancellation due to Force majeure events'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Should the cancellation be required due to force majeure event/s (as outlined in clause 5c) outside of Hidden Italy’s control, the payments made will be held as a credit on the account for a period of 12 months from date of cancellation and can be used towards booking any future tour for the same Client/s (subject to availability).'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'If you are unable to travel due to international or domestic border closures caused by COVID-19, any payments made will either be held in credit, minus the non-refundable fee of $750 per person per tour (the cancellation fee in such circumstances will be held as a credit on the account for a period of 12 months) and any fees that we have incurred making the booking that cannot be recovered. In certain circumstances, an administration cancellation fee may apply if the booking is cancelled.'
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Hidden Italy reserves the right to cancel a booking in the event of force majeure (as outlined in clause 5) or if the Client fails to pay the final balance by the due date.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Hidden Italy reserves the right to cancel a tour in the case of force majeure (as outlined in clause 5), or a tour not reaching minimum numbers. Hidden Italy will not generally cancel a tour less than 60 days before departure.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Unless the Client fails to pay the final balance, Hidden Italy will provide a refund or credit for all monies paid less a non-refundable fee of $750 per person per tour and any administration fees. This fee will be held as a credit for use on any tour of choice (subject to availability) for a period stated on the credit note.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'In the event of cancellation due to less than the minimum numbers required to hold a tour, a refund or credit will be provided for the amount paid less a non-refundable fee of $750 per person per tour and any applicable administration fees. This fee will be held as a credit for use on any tour of choice (subject to availability) for a period stated on the credit note.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'No compensation will be paid in the event of cancellation by Hidden Italy. A full refund of monies paid for tour costs will be the full extent of Hidden Italy’s liability.'
-  -
-    type: heading
+    type: set
     attrs:
-      level: 3
-    content:
-      -
-        type: text
-        text: '7c. Cancellation due to Force majeure events'
+      id: terms-7d
+      values:
+        type: accordion
+        title: '7d. Redeeming Credit Notes'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Credit notes are non-refundable and non-transferable. Any credit note held can be used towards booking any tour of choice (subject to availability). The booking must be made by the expiry date as shown on the credit note.'
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Should the cancellation be required due to force majeure event/s (as outlined in clause 5c) outside of Hidden Italy’s control, the payments made will be held as a credit on the account for a period of 12 months from date of cancellation and can be used towards booking any future tour for the same Client/s (subject to availability).'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'If you are unable to travel due to international or domestic border closures caused by COVID-19, any payments made will either be held in credit, minus the non-refundable fee of $750 per person per tour (the cancellation fee in such circumstances will be held as a credit on the account for a period of 12 months) and any fees that we have incurred making the booking that cannot be recovered. In certain circumstances, an administration cancellation fee may apply if the booking is cancelled.'
-  -
-    type: heading
+    type: set
     attrs:
-      level: 3
-    content:
-      -
-        type: text
-        text: '7d. Redeeming Credit Notes'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Credit notes are non-refundable and non-transferable. Any credit note held can be used towards booking any tour of choice (subject to availability). The booking must be made by the expiry date as shown on the credit note.'
-  -
-    type: heading
-    attrs:
-      level: 3
-    content:
-      -
-        type: text
-        text: '7e. Dinner reservations'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'In some circumstances, dinner reservations (where applicable) may be cancelled by restaurants or hotels due to unforeseen events and are outside of Hidden Italy’s control. In such an event the Client must provide a copy of the receipt for an alternative meal and will be reimbursed up to a maximum of A$70 per person.'
+      id: terms-7e
+      values:
+        type: accordion
+        title: '7e. Dinner reservations'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'In some circumstances, dinner reservations (where applicable) may be cancelled by restaurants or hotels due to unforeseen events and are outside of Hidden Italy’s control. In such an event the Client must provide a copy of the receipt for an alternative meal and will be reimbursed up to a maximum of A$70 per person.'
   -
     type: heading
     attrs:

@@ -1,0 +1,50 @@
+{{#
+    @name Accordion
+    @desc A single collapsible card. Insert multiple sets in a row to
+          get a stack of independent accordions — the article's prose
+          wrapper (`stack-8`) supplies the vertical gap between them,
+          and each card owns its own Alpine `open` state so toggles
+          never interact across cards.
+
+          Collapsed by default. The closed state shows the title with
+          a chevron; the open state reveals the `body` Bard field
+          rendered as HTML inside a non-prose surface so its own
+          typography rules win over the surrounding `.prose` styles.
+
+          The set's `id` is used as both the panel's DOM `id` and the
+          aria-controls target so each card is independently
+          addressable for assistive tech and deep links.
+    @set page.article.accordion
+#}}
+
+<!-- /components/_accordion.antlers.html -->
+<div class="span-content not-prose" x-data="{ open: false }">
+    <div class="bg-card border border-parchment-200 rounded-lg overflow-hidden shadow-sm">
+        <button
+            type="button"
+            @click="open = !open"
+            :aria-expanded="open"
+            aria-controls="accordion-panel-{{ id }}"
+            class="w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 text-left font-display font-semibold text-base md:text-lg text-foreground hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold focus-visible:-outline-offset-2"
+        >
+            <span>{{ title }}</span>
+            <x-lucide-chevron-right
+                class="size-5 shrink-0 text-accent-2 transition-transform"
+                stroke-width="2"
+                aria-hidden="true"
+                x-bind:class="open ? 'rotate-90' : ''"
+            />
+        </button>
+        <div
+            id="accordion-panel-{{ id }}"
+            x-show="open"
+            x-collapse
+            x-cloak
+        >
+            <div class="px-5 md:px-6 pb-5 md:pb-6 font-sans text-base leading-[1.6] text-text [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:underline [&_a]:underline-offset-4 [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:mb-3 [&_ol]:list-decimal [&_ol]:ml-5 [&_ol]:mb-3 [&_h3]:font-display [&_h3]:font-semibold [&_h3]:text-foreground [&_h3]:text-lg [&_h3]:mt-4 [&_h3]:mb-2 [&_h4]:font-display [&_h4]:font-semibold [&_h4]:text-foreground [&_h4]:text-base [&_h4]:mt-4 [&_h4]:mb-2">
+                {{ body }}
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End: /components/_accordion.antlers.html -->
