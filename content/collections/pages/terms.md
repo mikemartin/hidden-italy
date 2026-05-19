@@ -77,20 +77,6 @@ article:
     content:
       -
         type: text
-        text: '4. Minimum Numbers'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Unless otherwise stated, all guided group tours are based on a minimum number of participants. Where minimum numbers have not been achieved by 60 days prior to the start of the tour, the tour may be cancelled in accordance with clause 7b.'
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
         text: '5. Changes'
   -
     type: set
@@ -134,6 +120,20 @@ article:
               -
                 type: text
                 text: 'Hidden Italy reserves the right to charge a late payment fee in the event of late booking and/or payment to cover additional communication and other expenses.'
+  -
+    type: set
+    attrs:
+      id: mGDbacOKeUEK-v7IeHbe-
+      values:
+        type: accordion
+        title: 'Minimum Numbers'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Unless otherwise stated, all guided group tours are based on a minimum number of participants. Where minimum numbers have not been achieved by 60 days prior to the start of the tour, the tour may be cancelled in accordance with clause 7b.'
   -
     type: set
     attrs:
@@ -705,5 +705,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 3
-updated_at: 1779171103
+updated_at: 1779171202
 ---
