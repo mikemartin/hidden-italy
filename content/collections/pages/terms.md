@@ -33,43 +33,43 @@ article:
         type: text
         text: 'The contract, including all matters arising from it, is subject to the laws of New South Wales, Australia and the exclusive jurisdiction of the Courts of New South Wales, Australia, and the courts of appeal upon them. No employee of Hidden Italy other than a director has the authority to vary or omit any of these terms or promise any discount or refund. Any variation to these conditions or promise of a refund or discount by an employee of Hidden Italy will be deemed invalid and unenforceable.'
   -
-    type: heading
+    type: set
     attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: '2. Tour Prices'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'All tour bookings made will be charged at the current prices listed on our website. Prices may be subject to change in the event of significant currency fluctuations or the introduction of new taxes, up until final payment is received. Prices are listed in Australian dollars (AUD).'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Occasionally, Hidden Italy may make an honest mistake in our advertised tour prices, inclusions and booking conditions. Hidden Italy reserves the right to correct such errors and will advise clients at the time of booking or as soon as reasonably possible.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'In the event of a price increase, whether because of a currency fluctuation, increase in taxes or a correction in advertised prices, Hidden Italy will advise you and you will have the option of accepting the amended prices, inclusions and booking conditions or withdrawing from the tour and receiving a full refund of all monies paid.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Once final payment is received, all prices (excluding air taxes) will be guaranteed and no surcharges will apply.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'As with other countries in Europe, many local authorities in Italy charge a tourist/city tax in certain areas. City taxes are not included in the cost of the tour and are the responsibility of the client. They are typically a few euros per night per client and are payable in cash directly to the hotel.'
+      id: 3sBXz0PqPzXAvrW4-4Got
+      values:
+        type: accordion
+        title: 'TOUR PRICES'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'All tour bookings made will be charged at the current prices listed on our website. Prices may be subject to change in the event of significant currency fluctuations or the introduction of new taxes, up until final payment is received. Prices are listed in Australian dollars (AUD).'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Occasionally, Hidden Italy may make an honest mistake in our advertised tour prices, inclusions and booking conditions. Hidden Italy reserves the right to correct such errors and will advise clients at the time of booking or as soon as reasonably possible.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'In the event of a price increase, whether because of a currency fluctuation, increase in taxes or a correction in advertised prices, Hidden Italy will advise you and you will have the option of accepting the amended prices, inclusions and booking conditions or withdrawing from the tour and receiving a full refund of all monies paid.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Once final payment is received, all prices (excluding air taxes) will be guaranteed and no surcharges will apply.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'As with other countries in Europe, many local authorities in Italy charge a tourist/city tax in certain areas. City taxes are not included in the cost of the tour and are the responsibility of the client. They are typically a few euros per night per client and are payable in cash directly to the hotel.'
   -
     type: heading
     attrs:
@@ -705,5 +705,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 3
-updated_at: 1779171202
+updated_at: 1779171469
 ---
