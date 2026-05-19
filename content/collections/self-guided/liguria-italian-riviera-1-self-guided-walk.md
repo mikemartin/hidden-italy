@@ -5,8 +5,8 @@ title: 'Liguria - Italian Riviera 1'
 name: 'Italian Riviera 1'
 region: Liguria
 days: 8
-updated_by: 1
-updated_at: 1777905321
+updated_by: 3
+updated_at: 1779175270
 grade: 4
 inclusions:
   - 'Seven nights accommodation'
@@ -65,6 +65,7 @@ page_builder:
       - tours/liguria-italian-riviera-1-self-guided-walk/nastasia-yakoub-4nreelf-_6c-unsplash-a.jpg
       - tours/liguria-italian-riviera-1-self-guided-walk/chiavari-26.jpg
       - tours/liguria-italian-riviera-1-self-guided-walk/18.jpg
+    hide_from_subnav: false
   -
     id: mloocwbk
     heading: 'Highlights of the Italian Riviera 1 tour'
@@ -102,6 +103,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloox88g
     summary: 'This 8 days/7 nights walk takes you along the first half of the Italian Riviera Levante starts in the Genoa and finishes in the charming Sestri Levante, following forested trails and seaside paths along an arc of coastline dotted with fishing towns and glam resorts.'
@@ -180,6 +183,8 @@ page_builder:
         photo: tours/liguria-italian-riviera-1-self-guided-walk/chiavari-26.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: rx4jHkrMKUdbVGMC8M341
     title: 'Italian Riviera 1 Experience'
@@ -247,6 +252,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: '-fl9-vw6v0O0na9-d8v_W'
     title: 'What you should know'
@@ -298,10 +304,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: oF7DCTpO
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: UPVpERyOQrTSBZrnBJD0s
     heading: 'What our travellers are saying'
@@ -311,6 +323,8 @@ page_builder:
       - a3bc8fd1-1a62-46ce-a32b-16b725b7897f
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_jjJjs3Ydep47oC8t
     type: walking_benefits
@@ -318,6 +332,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
 image: tours/liguria-italian-riviera-1-self-guided-walk/18.jpg
@@ -377,4 +392,6 @@ summary:
       -
         type: text
         text: 'This 8-day walk takes you along the Italian Riviera following an arc of coastline dotted with fishing towns and glam resorts.  It starts in the port city of Genova, the capital of the region of Liguria, and finishes six days later in enchanting Sestri Levante.  '
+price: 'A$3,350'
+show_from: true
 ---
