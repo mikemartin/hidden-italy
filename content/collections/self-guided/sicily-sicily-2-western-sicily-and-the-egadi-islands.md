@@ -1,12 +1,12 @@
 ---
 id: 4890c31c-65dd-42bf-8f81-1bd6835115e9
 blueprint: tour
-title: 'Sicily - Sicily 2 (Western Sicily and the Egadi Islands)'
-name: 'Sicily 2 (Western Sicily and the Egadi Islands)'
+title: 'Sicily - Sicily 2 ... Western Sicily and the Egadi Islands'
+name: 'Sicily 2 ... Western Sicily and the Egadi Islands'
 region: Sicily
 days: 7
-updated_by: 1
-updated_at: 1777905595
+updated_by: 3
+updated_at: 1779175505
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
@@ -49,6 +49,7 @@ page_builder:
       - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/favignana-6.jpg
       - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/sicilie-egadische-eilanden-marettimo-3.jpg
       - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/favignana-3.jpg
+    hide_from_subnav: false
   -
     id: mlrbu308
     heading: 'Sicily 2 highlights'
@@ -86,6 +87,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mlrccjcj
     title: 'Sicily 2 itinerary'
@@ -156,6 +159,8 @@ page_builder:
         photo: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/favignana-6.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: EQoQyQK6295CpZMBd3Dzo
     title: 'Sicily 2 experience'
@@ -228,6 +233,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: wsO7vjspNn15rmXVSS-UA
     title: 'What you should know'
@@ -279,10 +285,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: TWpgiEQz
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: AAGSASPL4-n2QwiDU8GoN
     heading: 'What our travellers are saying'
@@ -292,6 +304,8 @@ page_builder:
       - 1fbd53c4-6126-4511-aaa4-70f1c2253d25
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_2zQ3Wf59rdtDgvsL
     type: walking_benefits
@@ -299,6 +313,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 locations: southern-italy
 landscapes:
   - coastal
@@ -361,4 +376,6 @@ summary:
       -
         type: text
         text: "The west of Sicily is a land apart.\_ The cubic whitewashed houses, palm trees, active fishing harbours and sunburned lowlands seem more akin to Africa than Europe, and historically, the west of the island has always looked south: the Carthaginians were entrenched here; the Muslims first occupied Sicily here; the Saracens raided the area regularly; and the towns have more than a little North African atmosphere to them.\_"
+price: 'A$3,100'
+show_from: true
 ---
