@@ -6,7 +6,7 @@ name: 'Amalfi Coast tour'
 region: Campania
 days: 6
 updated_by: 4
-updated_at: 1779150209
+updated_at: 1779150261
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
@@ -359,6 +359,6 @@ summary:
         type: text
         text: "This fabulous continuous walk along the length of the breathtaking Amalfi Coast starts with a private transfer from Naples to Ravello and then finishes with a private transfer from Positano back to Naples at the end. In between you get to experience the 'costiera' in all its colour and glory."
 availability_text: 'Available in Standard (3-star hotels) and Superior(4-star hotels) options'
-price: '3,250'
+price: '$3,250 AUD'
 show_from: true
 ---
