@@ -445,124 +445,124 @@ article:
                 type: text
                 text: 'It is the responsibility of the Client to be in possession of a valid passport, visa permits, inoculations and preventative medicines as may be required for the duration of the tour. Information about these matters or related items is given in good faith but without responsibility on the part of Hidden Italy.'
   -
-    type: heading
+    type: set
     attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: '9. Travel Insurance & Medical Information'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'It is a condition of travel that you are covered by comprehensive travel insurance.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'You must provide any medical information reasonably requested by the Tour Operator. If you have any pre-existing medical conditions which may impact your ability to travel, participate in a Tour, travel to remote areas without access to medical facilities or may adversely affect the experience of others on your Tour, you must provide this at least 60 days prior to the start of the tour.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'The Tour Operator reserves the right to request further information or professional medical opinions where necessary, as determined in its discretion, for your safety or the safe operation of a Tour. The Tour Operator reserves the right to deny you permission to travel or participate in any aspect of a Tour at any time and at your own risk and expense where the Tour Operator determines that your physical or mental condition renders you unfit for travel, you represent a danger to yourself or others, or you failed to disclose medical information relevant to the tour or were not honest with your answers.'
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: '10. Fitness and Participation'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'You have booked a walking tour and you will require a good level of fitness to be able to walk at least 10 to 12 kilometres continuously over a variety of terrains. The individual walks are all graded and details of each walk and its grading can be found on the relevant page of the Hidden Italy website.'
-  -
-    type: heading
-    attrs:
-      level: 3
-    content:
-      -
-        type: text
-        text: 'Self-guided and Guided tours'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Before committing to a Hidden Italy walking tour, clients must assess their fitness and seek medical advice if necessary, and ensure they are ready for the tour’s demands (see the website for details). This includes training with regular exercise and practice walks. Choose seasonally appropriate footwear and clothing. These steps will help ensure your safety and enhance your enjoyment of the tour.'
-  -
-    type: heading
-    attrs:
-      level: 3
-    content:
-      -
-        type: text
-        text: 'Trails to Freedom'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'As with our other tours, the fitness requirements described above are also required on this tour. Please note that the Trails to Freedom is a strenuous pack-hike with rough terrain, variable weather and altitudes above 2000 metres. Some exposed sections make it unsuitable for those with medical conditions, including vertigo. It is your responsibility to ensure you are prepared for the tour’s demands and seek medical advice if necessary.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Please note that the guides (guided tours only) reserve the right to remove participants whose fitness compromises group safety. No refunds will be available.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'All people participating in the tours must possess a reasonable level of mobility, including the ability to:'
-  -
-    type: bulletList
-    content:
-      -
-        type: listItem
-        content:
+      id: p8b67qZ_x-BG4XLPw6y_i
+      values:
+        type: accordion
+        title: 'Travel Insurance & Medical Information'
+        body:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Undertake walking tours of 3–4 hours duration, including using stairs, walking over cobblestones, gravel paths and other uneven surfaces.'
-      -
-        type: listItem
-        content:
+                text: 'It is a condition of travel that you are covered by comprehensive travel insurance.'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Stand for long periods in museums and other sites.'
-      -
-        type: listItem
-        content:
+                text: 'You must provide any medical information reasonably requested by the Tour Operator. If you have any pre-existing medical conditions which may impact your ability to travel, participate in a Tour, travel to remote areas without access to medical facilities or may adversely affect the experience of others on your Tour, you must provide this at least 60 days prior to the start of the tour.'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Embark / disembark coaches, trains and other methods of transportation without assistance.'
-      -
-        type: listItem
-        content:
+                text: 'The Tour Operator reserves the right to request further information or professional medical opinions where necessary, as determined in its discretion, for your safety or the safe operation of a Tour. The Tour Operator reserves the right to deny you permission to travel or participate in any aspect of a Tour at any time and at your own risk and expense where the Tour Operator determines that your physical or mental condition renders you unfit for travel, you represent a danger to yourself or others, or you failed to disclose medical information relevant to the tour or were not honest with your answers.'
+  -
+    type: set
+    attrs:
+      id: 9UQUG-0cndcSug0YD8Gj_
+      values:
+        type: accordion
+        title: 'Fitness and Participation'
+        body:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Handle their own luggage.'
+                text: 'You have booked a walking tour and you will require a good level of fitness to be able to walk at least 10 to 12 kilometres continuously over a variety of terrains. The individual walks are all graded and details of each walk and its grading can be found on the relevant page of the Hidden Italy website.'
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                text: 'Self-guided and Guided tours'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Before committing to a Hidden Italy walking tour, clients must assess their fitness and seek medical advice if necessary, and ensure they are ready for the tour’s demands (see the website for details). This includes training with regular exercise and practice walks. Choose seasonally appropriate footwear and clothing. These steps will help ensure your safety and enhance your enjoyment of the tour.'
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                text: 'Trails to Freedom'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'As with our other tours, the fitness requirements described above are also required on this tour. Please note that the Trails to Freedom is a strenuous pack-hike with rough terrain, variable weather and altitudes above 2000 metres. Some exposed sections make it unsuitable for those with medical conditions, including vertigo. It is your responsibility to ensure you are prepared for the tour’s demands and seek medical advice if necessary.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Please note that the guides (guided tours only) reserve the right to remove participants whose fitness compromises group safety. No refunds will be available.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'All people participating in the tours must possess a reasonable level of mobility, including the ability to:'
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Undertake walking tours of 3–4 hours duration, including using stairs, walking over cobblestones, gravel paths and other uneven surfaces.'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Stand for long periods in museums and other sites.'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Embark / disembark coaches, trains and other methods of transportation without assistance.'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Handle their own luggage.'
   -
     type: heading
     attrs:
@@ -719,5 +719,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 3
-updated_at: 1779171892
+updated_at: 1779172017
 ---
