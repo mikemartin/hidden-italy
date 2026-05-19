@@ -5,8 +5,8 @@ title: 'Umbria - Cammino of St Francis:  Umbria 2'
 name: 'Cammino of St Francis:  Umbria 2'
 region: Umbria
 days: 7
-updated_by: 1
-updated_at: 1777906054
+updated_by: 3
+updated_at: 1779175812
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -59,6 +59,7 @@ page_builder:
       - tours/umbria-cammino-of-st-francis-umbria-2/f1020015.jpg
       - tours/umbria-cammino-of-st-francis-umbria-2/img_5356.jpg
       - tours/umbria-cammino-of-st-francis-umbria-2/14.8.jpg
+    hide_from_subnav: false
   -
     id: mloocwbk
     heading: 'Highlights of the Umbria 2 tour'
@@ -96,6 +97,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloox88g
     title: 'Umbria 2 tour itinerary'
@@ -165,6 +168,8 @@ page_builder:
         photo: tours/umbria-cammino-of-st-francis-umbria-2/2.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: xcWZUtn7sJtCsH09d0uvO
     title: 'Umbria 2 experience'
@@ -232,6 +237,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: wGskjraBynP9JZnX6TVDz
     title: 'What you should know'
@@ -286,10 +292,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: oC58v7Yi
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: h-IyYhsF6gtsu-fdDVHyk
     heading: 'What our travellers are saying'
@@ -299,6 +311,8 @@ page_builder:
       - b6f4574f-72b1-417a-a475-6f4d3a005af2
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_3ceTwqEAudaEdAMy
     type: walking_benefits
@@ -306,6 +320,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 image: tours/umbria-cammino-of-st-francis-umbria-2/1.jpg
@@ -366,4 +381,6 @@ summary:
       -
         type: text
         text: "The second section of the Cammino of St Francis, this lovey, week-long walk takes you through 'the green heart of Italy'.  Leaving Spoleto via the 13th century Ponte delle Torri bridge, you finish a week later, staying in a lovely 3-star hotel in the centre of the ancient town of Rieti.\_ "
+price: 'A$2,350'
+show_from: true
 ---
