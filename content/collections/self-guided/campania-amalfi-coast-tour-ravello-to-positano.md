@@ -6,7 +6,7 @@ name: 'Amalfi Coast tour'
 region: Campania
 days: 6
 updated_by: 4
-updated_at: 1779150261
+updated_at: 1779154647
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
@@ -102,7 +102,7 @@ page_builder:
       -
         id: mloozlek
         title: 'Walk the Valle delle Ferriere'
-        description: 'Today you have two options.  The first winds down stone paths to the coast and then wraps around to the town of Amalfi, leaving plenty of time to explore this fascinating town that once ruled the Mediterranean Sea. The second option is a more challenging, longer walk into the the extraordinary Valle delle Ferriere, which wraps through a national park, passing towering cliffs, chestnut forests, and waterfalls, with breathtaking views over the coast. (4 hrs; 13.5 kms; max: - 610 mts)'
+        description: 'Today you have two options.  The first winds down stone paths to the coast and then wraps around to the town of Amalfi, leaving plenty of time to explore this fascinating town that once ruled the Mediterranean Sea. The second option is a more challenging, longer walk into the extraordinary Valle delle Ferriere, which wraps through a national park, passing towering cliffs, chestnut forests, and waterfalls, with breathtaking views over the coast. (4hrs; 13.5km; max: 610m)'
         duration: 2
         distance: 3
         elevation: -361
