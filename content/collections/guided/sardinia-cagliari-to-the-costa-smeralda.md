@@ -6,11 +6,11 @@ name: 'Sardinia in the Spring'
 region: Sardinia
 days: 13
 seasons: spring
-updated_by: 1
-updated_at: 1777904882
+updated_by: 3
+updated_at: 1779169657
 grade: 3
 tour_size: 15
-date: '2026-05-07 14:00'
+date: '2027-05-02 14:00'
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -66,6 +66,7 @@ page_builder:
       - tours/sardinia-cagliari-to-the-costa-smeralda/img_5939.jpg
       - tours/sardinia-cagliari-to-the-costa-smeralda/hotel-1.jpg
       - tours/sardinia-cagliari-to-the-costa-smeralda/img_5840.jpg
+    hide_from_subnav: false
   -
     id: mlpxjjup
     heading: 'Sardinia guided tour highlights'
@@ -103,6 +104,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mlpyisid
     title: 'Sardinia guided tour'
@@ -236,6 +239,8 @@ page_builder:
           - breakfast
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: epqs5W12xV-6rmil51__o
     title: 'Sardina in the Spring'
@@ -286,12 +291,15 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: usUm--pyAOLbxEXIGOs3A
     title: 'Tour Leader'
     person: 436787ff-89d4-438e-bf50-81c3672256cc
     type: leader
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: B4m_cmGZh_rR-hWPazlj8
     title: 'What you should know'
@@ -331,10 +339,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: TE6XYgRx
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: epecYpX1z3Uko099RuFZ4
     heading: 'What our travellers are saying'
@@ -344,6 +358,8 @@ page_builder:
       - 73c23f34-3218-46ea-8eee-940f2520a984
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_EoJ5RkwLPs4CWrTY
     type: walking_benefits
@@ -351,6 +367,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 locations: southern-italy
 start_location:
@@ -395,4 +412,6 @@ summary:
       -
         type: text
         text: "Sardinia is the second largest island in the Mediterranean, suspended off the Italian coast between Corsica and Sicily. \_It is an island of contrasts, with buzzy cities like Cagliari, its capital, a beautiful port with ancient origins; spectacular coastline; and rugged, brooding mountains, where the 'real' Sardinians live."
+price: 'A$8,990'
+show_from: true
 ---
