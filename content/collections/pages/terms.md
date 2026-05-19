@@ -71,6 +71,12 @@ article:
                 type: text
                 text: 'As with other countries in Europe, many local authorities in Italy charge a tourist/city tax in certain areas. City taxes are not included in the cost of the tour and are the responsibility of the client. They are typically a few euros per night per client and are payable in cash directly to the hotel.'
   -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: YMENTS
+  -
     type: heading
     attrs:
       level: 2
@@ -84,7 +90,7 @@ article:
       id: terms-5a
       values:
         type: accordion
-        title: Payments
+        title: PAYMENTS
         body:
           -
             type: heading
@@ -705,5 +711,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 3
-updated_at: 1779171469
+updated_at: 1779171509
 ---
