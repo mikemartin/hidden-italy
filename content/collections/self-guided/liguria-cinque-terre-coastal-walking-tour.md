@@ -5,8 +5,8 @@ title: 'Liguria - Cinque Terre Coastal'
 name: 'Cinque Terre Coastal'
 region: Liguria
 days: 7
-updated_by: 1
-updated_at: 1777905302
+updated_by: 3
+updated_at: 1779175231
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -37,14 +37,12 @@ page_builder:
           -
             type: text
             text: "This continous walk along the Cinque Terre follows stone paths that have linked the villages for centuries, starting in Levanto at the eastern end of the National Park and finishing in glorious Portovenere at the western end of the park. They twist and wind along the rugged coast passing through pine forests and terraced vineyards, with breath-taking views out over the Mediterranean, including the less walked routes from Riomaggiore to Portovenere and around the little island off Portovenere.\_ At the end of the walk, you'll be dropped off at La Spezia railway station (on the Rome/Genoa line)."
-    column_right:
-      -
-        type: paragraph
     title: 'Stone paths linking the villages for centuries'
     images:
       - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-6.jpg
       - tours/liguria-cinque-terre-coastal-walking-tour/manarola-1-a.jpg
       - tours/liguria-cinque-terre-coastal-walking-tour/44.jpg
+    hide_from_subnav: false
   -
     id: mloocwbk
     heading: 'Highlights of the Cinque Terre Coastal walk'
@@ -82,6 +80,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloox88g
     title: 'Cinque Terre walking tour itinerary'
@@ -151,6 +151,8 @@ page_builder:
         photo: tours/liguria-cinque-terre-coastal-walking-tour/siret-jaksic-yats80aqvmm-unsplash.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: I4oWuumPU31wnOL_G34Pw
     title: 'Cinque Terre Experience'
@@ -210,6 +212,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: eh8PmKp4Cq_7wwiLYbnlP
     title: 'What you should know'
@@ -261,10 +264,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: 9aP3CXyQ
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: e0MVbbIGrAUhO79dXb94n
     heading: 'What our travellers are saying'
@@ -274,6 +283,8 @@ page_builder:
       - 740df3a3-af3b-4b7b-adb2-26e42fe3e024
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_TQv8t8nxeJUw9MVv
     type: walking_benefits
@@ -281,6 +292,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 image: tours/liguria-cinque-terre-coastal-walking-tour/vernazza-8-a.jpg
@@ -341,4 +353,6 @@ summary:
       -
         type: text
         text: 'Following an extraordinary trail, this continuous walk (no trains!) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere six days later, leaving you plenty of time to explore the charming villages you stay in each day.'
+price: 'A$2,950'
+show_from: true
 ---
