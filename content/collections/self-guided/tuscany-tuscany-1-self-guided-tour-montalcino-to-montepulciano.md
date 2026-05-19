@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 1'
 name: 'Tuscany 1'
 region: Tuscany
 days: 6
-updated_by: 1
-updated_at: 1777905904
+updated_by: 3
+updated_at: 1779175604
 grade: 2
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
@@ -57,6 +57,7 @@ page_builder:
       - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5098.jpg
       - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5057.jpg
       - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5142.jpg
+    hide_from_subnav: false
   -
     id: mloocwbk
     heading: 'Highlights of Tuscany 1'
@@ -94,6 +95,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloox88g
     title: 'Tiuscany 1 itinerary'
@@ -153,6 +156,8 @@ page_builder:
         photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_0741.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: dOAGZ6SIAYjn6mO5rQVkv
     title: 'Tuscany 1 experience'
@@ -209,6 +214,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: aQ2UMC7nildseGcN9glza
     title: 'What you should know'
@@ -260,10 +266,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: kFsSZsEe
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: ROcyXirV_l_KWTeqChSYf
     heading: 'What our travellers are saying'
@@ -273,6 +285,8 @@ page_builder:
       - 898ad6a9-bf99-4b6b-94d7-2f4b1cc9fe7c
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_W4F6MajT5RsWyyKg
     type: walking_benefits
@@ -280,6 +294,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 image: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_0741.jpg
@@ -339,4 +354,6 @@ summary:
       -
         type: text
         text: "This wonderful tour starts with a private transfer from Siena (or Chiusi) to Montalcino, a gorgeous hill-town celebrated for its wines.  From here, the walk takes you through the Val d'Orcia, one of the most beautiful places in Italy (the world?).  You pass through classic Tuscan countryside, following sections of the Via Francigena, a medieval road that bisected the valley linking Papal Rome with northern Europe, carrying pilgrims, traders, Crusader armies, emperors and popes.  The valley is lined with castles, monasteries and villages that date from this period. "
+price: 'A$3,100'
+show_from: true
 ---
