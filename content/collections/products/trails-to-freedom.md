@@ -11,7 +11,7 @@ price: '$36.99 AUD'
 show_from: true
 featured_heading: 'Featured on'
 updated_by: 2
-updated_at: 1779166434
+updated_at: 1779166517
 page_builder:
   -
     id: 1LdcYtZnlky9RkjXJpgWM
@@ -87,14 +87,14 @@ featured_logos:
     logo: logos/abc.svg
     link_url: 'https://www.abc.net.au/listen/programs/conversations/simon-tancred-anzac-day-pow-italy-switzerland-escape/105164800'
   -
+    id: CaJ3zugW
+    logo: logos/2gb.svg
+    link_url: 'https://www.2gb.com/trails-to-freedom-new-book-uncovers-forgotten-wwii-escape-route-of-anzac-soldiers/'
+  -
     id: PDCTadf2
     logo: logos/theaustralian.svg
   -
     id: wNq8aUqT
     logo: logos/herald.svg
-  -
-    id: CaJ3zugW
-    logo: logos/2gb.svg
-    link_url: 'https://www.2gb.com/trails-to-freedom-new-book-uncovers-forgotten-wwii-escape-route-of-anzac-soldiers/'
 buy_link: 'https://68i8uq-98.myshopify.com/cart/52010565534016:1, 50840983011648:1'
 ---
