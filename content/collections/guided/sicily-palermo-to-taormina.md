@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: 3
-updated_at: 1779167615
+updated_at: 1779167892
 days: 14
 image: tours/sicily-palermo-to-taormina/804728531-13.jpg
 grade: 4
@@ -429,5 +429,5 @@ summary:
         text: "The largest island in the Mediterranean, Sicily is squeezed between Europe and Africa, between Christendom and Islam. It's a spectacular region with exceptional walks following country lanes, mountain trails and coastal paths. Sicily also boasts one of the finest, and surely the most diverse, cuisine in Italy based on their exceptional produce.\_ Truly, the perfect destination for an off-the-beaten track adventure."
 price: '10,490'
 show_from: true
-date: '2028-04-29 14:00'
+date: '2027-04-29 14:00'
 ---
