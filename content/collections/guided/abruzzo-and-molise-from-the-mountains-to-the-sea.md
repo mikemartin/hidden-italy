@@ -1,12 +1,12 @@
 ---
 id: 43c82038-3f21-4148-8641-024253f68420
 blueprint: tour
-title: 'Lazio - Campobasso - Abruzzo and Molise'
+title: 'Lazio-Campobasso - Abruzzo and Molise'
 name: 'Abruzzo and Molise'
-region: 'Lazio - Campobasso'
+region: Lazio-Campobasso
 days: 13
 updated_by: 4
-updated_at: 1779150716
+updated_at: 1779150740
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
