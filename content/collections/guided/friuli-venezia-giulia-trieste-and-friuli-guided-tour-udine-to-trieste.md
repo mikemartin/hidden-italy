@@ -5,8 +5,8 @@ title: 'Friuli Venezia Giulia - Trieste and Friuli'
 name: 'Trieste and Friuli'
 region: 'Friuli Venezia Giulia'
 days: 13
-updated_by: 1
-updated_at: 1777904703
+updated_by: 3
+updated_at: 1779170703
 grade: 4
 inclusions:
   - '12 night’s accommodation (see the itinerary for details) in excellent boutique hotels'
@@ -19,7 +19,7 @@ inclusions:
 locations: northern-italy
 duplicated_from: bf401969-bac2-4370-8ffd-d7c62b8f4ade
 tour_size: 15
-date: '2027-05-27 14:00'
+date: '2027-09-02 14:00'
 leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 page_builder:
   -
@@ -47,6 +47,7 @@ page_builder:
       - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/16.5.jpg
       - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/sauris-2.jpg
       - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/68a-2.jpg
+    hide_from_subnav: false
   -
     id: mloqd78x
     heading: 'Trieste and Friuli guided tour'
@@ -84,6 +85,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloqvfcq
     title: 'Trieste and Friuli guided tour'
@@ -224,6 +227,8 @@ page_builder:
         photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/87.5.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: N9Dhm5hY_vmH4K2bQRXCQ
     title: 'Trieste and Friuli Experience'
@@ -274,12 +279,15 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: YEFY7hZMnIxanwuc-b1Gz
     title: 'Tour Leader'
     person: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
     type: leader
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: vd-bo2xUCPV3g4gawnBeq
     title: 'What you should know'
@@ -319,10 +327,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: 7yRkeoCY
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: pwTJTyBaY13aVVi7tQ2RT
     heading: 'What our travellers are saying'
@@ -332,6 +346,8 @@ page_builder:
       - b669f999-0f47-4bed-8887-f2caf3af7fe4
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_iLOBs00XPnuF2OVk
     type: walking_benefits
@@ -339,6 +355,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 seasons: autumn
 image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/29a.jpg
@@ -391,4 +408,6 @@ summary:
       -
         type: text
         text: "With its mountains, plains and seashores all less than an hour's drive apart, Italian writer Ippolito Nievo fondly described the region Friuli Venezia Giulia (FVG) as a \"little compendium of the universe\".\_ This Hidden Italy special sets about exploring that universe."
+price: 'A$8,990'
+show_from: true
 ---
