@@ -223,7 +223,7 @@ article:
             content:
               -
                 type: text
-                text: 'While the specific definition of a major change will depend on the individual tour and circumstances, a major change may be broadly defined as cancellation of the tour, change of start or end city or omission of a major component. When a major change is made, the Client will have the choice of accepting the change of arrangements, purchasing another available tour or cancelling the tour. Any refunds or credits due to cancellation will be as per the cancellation policy outlined in section 7.'
+                text: 'While the specific definition of a major change will depend on the individual tour and circumstances, a major change may be broadly defined as cancellation of the tour, change of start or end city or omission of a major component. When a major change is made, the Client will have the choice of accepting the change of arrangements, purchasing another available tour or cancelling the tour. Any refunds or credits due to cancellation will be as per the cancellation policy outlined in the CANCELLATIONS section below.'
   -
     type: set
     attrs:
@@ -237,7 +237,7 @@ article:
             content:
               -
                 type: text
-                text: 'All tours booked are non-transferable. If any member of the party is prevented from travelling because of the death, injury or serious illness of the passenger, close relative or friend, redundancy or jury service or any other reason not listed here, a request to transfer the booking to another suitable person (acceptable to Hidden Italy) will be subject to our cancellation policy as outlined in section 7a, and a new booking will be required (subject to availability).'
+                text: 'All tours booked are non-transferable. If any member of the party is prevented from travelling because of the death, injury or serious illness of the passenger, close relative or friend, redundancy or jury service or any other reason not listed here, a request to transfer the booking to another suitable person (acceptable to Hidden Italy) will be subject to our cancellation policy as outlined in the CANCELLATIONS section below, and a new booking will be required (subject to availability).'
   -
     type: set
     attrs:
@@ -253,7 +253,7 @@ article:
             content:
               -
                 type: text
-                text: 'CHANGES MADE BY A CLIENT'
+                text: 'CANCELLATIONS MADE BY CLIENT'
           -
             type: paragraph
             content:
@@ -308,6 +308,8 @@ article:
                       -
                         type: text
                         text: ' — 100% of tour cost.'
+                  -
+                    type: paragraph
           -
             type: heading
             attrs:
@@ -315,25 +317,13 @@ article:
             content:
               -
                 type: text
-                text: 'CHANGES MADE BY A HIDDEN ITALY'
+                text: 'CANCELLATIONS MADE BY HIDDEN ITALY'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Hidden Italy reserves the right to cancel a booking in the event of force majeure event (as outlined below) or if the Client fails to pay the final balance by the due date.'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Unless the Client fails to pay the final balance, Hidden Italy will provide a refund or credit for all monies paid less a non-refundable fee of $750 per person per tour and any administration fees. '
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Hidden Italy reserves the right to cancel a guided tour in the case of force majeure event (as outlined below), or a tour not reaching minimum numbers. '
+                text: 'Hidden Italy reserves the right to cancel a booking in the event of force majeure (as outlined below), tour not reaching minimum numbers (guided tours only) or if the Client fails to pay the final balance by the due date.'
           -
             type: paragraph
             content:
@@ -345,7 +335,13 @@ article:
             content:
               -
                 type: text
-                text: 'In the event of cancellation due to less than the minimum numbers required to hold a tour, a refund or credit will be provided for the amount paid. In the event a credit is provided, it can be used towards booking any tour of choice (subject to availability) for a period stated on the credit note.'
+                text: 'Unless the Client fails to pay the final balance, a refund or credit at the discretion of HiddenItaly will be provided for all monies paid less a non-refundable fee of $750 per person per tour plus any non-refundable payments made to our providers and any administration fees. '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'In the event of cancellation due to less than the minimum numbers required to hold a tour, client can transfer to another tour of choice (subject to availability) receive a refund or credit for the amount paid. '
           -
             type: paragraph
             content:
@@ -365,25 +361,11 @@ article:
                 type: text
                 text: ' means any event which Hidden Italy or its suppliers could not, even with all due care, foresee or avoid. Such events may include war, threat of war, riot, civil strife, industrial dispute, epidemics, government-imposed travel restrictions, health risks, terrorist activity, natural or nuclear disaster, fire or adverse weather conditions, technical or maintenance problems with transport, changes imposed by cancellation or rescheduling of travel arrangements by a main charterer, or other similar events beyond the control of Hidden Italy. Hidden Italy is not liable for any penalty charges associated with “supersaver” type connecting rail or airfares, in the event of a change to a holiday departure time, date or airport.'
           -
-            type: heading
-            attrs:
-              level: 4
-            content:
-              -
-                type: text
-                text: 'Cancellation due to Force majeure events'
-          -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Should the cancellation be required due to force majeure event/s (as outlined in clause 5c) outside of Hidden Italy’s control, the payments made will be held as a credit on the account for a period of 12 months from date of cancellation and can be used towards booking any future tour for the same Client/s (subject to availability).'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'If you are unable to travel due to international or domestic border closures caused by COVID-19, any payments made will either be held in credit, minus the non-refundable fee of $750 per person per tour (the cancellation fee in such circumstances will be held as a credit on the account for a period of 12 months) and any fees that we have incurred making the booking that cannot be recovered. In certain circumstances, an administration cancellation fee may apply if the booking is cancelled.'
+                text: 'If you are unable to travel due to international or domestic border closures caused by COVID-19, any payments made will be held in credit, minus the non-refundable fee of $750 per person per tour and any fees that we have incurred making the booking that cannot be recovered. In certain circumstances, an administration cancellation fee may apply if the booking is cancelled.'
   -
     type: set
     attrs:
@@ -701,5 +683,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 3
-updated_at: 1779173717
+updated_at: 1779174488
 ---
