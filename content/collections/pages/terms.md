@@ -159,7 +159,7 @@ article:
             content:
               -
                 type: text
-                text: 'Requests made less than 6 months prior to start of tour will be treated as cancellation of the booking and subject to our cancellation policy as outlined in section 7 below, with a new booking required (subject to availability).'
+                text: 'Requests made less than 6 months prior to start of tour will be treated as cancellation of the booking and subject to our cancellation policy as outlined in CANCELLATIONS section below, with a new booking required (subject to availability).'
           -
             type: heading
             attrs:
@@ -173,7 +173,7 @@ article:
             content:
               -
                 type: text
-                text: 'Requests made within 60 days prior to start of tour will be treated as cancellation of the booking and subject to our cancellation policy as outlined in section 7 below, with a new booking required (subject to availability).'
+                text: 'Requests made within 60 days prior to start of tour will be treated as cancellation of the booking and subject to our cancellation policy as outlined in CANCELLATIONS section below, with a new booking required (subject to availability).'
           -
             type: paragraph
             content:
@@ -701,5 +701,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 3
-updated_at: 1779173535
+updated_at: 1779173717
 ---
