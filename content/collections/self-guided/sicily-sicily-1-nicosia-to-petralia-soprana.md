@@ -5,8 +5,8 @@ title: 'Sicily - Sicily 1'
 name: 'Sicily 1'
 region: Sicily
 days: 7
-updated_by: 2
-updated_at: 1778498920
+updated_by: 3
+updated_at: 1779175468
 grade: 3
 inclusions:
   - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
@@ -52,6 +52,7 @@ page_builder:
       - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6635.jpeg
       - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/22.jpg
       - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture1.jpg
+    hide_from_subnav: false
   -
     id: mlrbu308
     heading: 'Sicily 1 highlights'
@@ -89,6 +90,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mlrccjcj
     title: 'Sicily 1 itinerary'
@@ -165,6 +168,8 @@ page_builder:
         photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/img_6695.jpeg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: n18X67XzTjJckf8DsGJTo
     title: 'Sicily 1 experience'
@@ -228,6 +233,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: 1rWXh02Lfz-RO1U9UPY1K
     title: 'What you should know'
@@ -279,10 +285,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: oHVpjGSl
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: fLinNhBxoepkNYWQhuS77
     heading: 'What our travellers are saying'
@@ -292,6 +304,8 @@ page_builder:
       - 2e19ce5a-c9c8-4a40-94ca-868608999b10
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_HeUOHLG6MaMsjyHh
     type: walking_benefits
@@ -299,6 +313,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 locations: southern-italy
 landscapes:
   - mountains
@@ -361,4 +376,6 @@ summary:
       -
         type: text
         text: "This wonderful tour takes you through the heart of Sicily, an area untouched by tourism, where the traditions, daily life, and hospitality of the island are alive and well.\_ Following mostly unsealed country lanes you’ll pass through some of the most spectacular countryside on Sicily: rolling farmlands covered in wheat fields overlooked by jagged mountains, with the forested peaks of the Madonie National Park in the distance.\_ "
+price: 'A$3,000'
+show_from: true
 ---
