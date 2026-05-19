@@ -5,8 +5,8 @@ title: 'Umbria - Cammino of St Francis:  Umbria 1'
 name: 'Cammino of St Francis:  Umbria 1'
 region: Umbria
 days: 7
-updated_by: 1
-updated_at: 1777906024
+updated_by: 3
+updated_at: 1779175767
 grade: 3
 inclusions:
   - 'Five nights accommodation'
@@ -50,6 +50,7 @@ page_builder:
       - tours/umbria-cammino-of-st-francis-umbria-1/11.jpg
       - tours/umbria-cammino-of-st-francis-umbria-1/arriving-in-spello.jpg
       - tours/umbria-cammino-of-st-francis-umbria-1/14.jpg
+    hide_from_subnav: false
   -
     id: mloocwbk
     heading: 'Highlights of the Umbria 1 walk'
@@ -87,6 +88,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloox88g
     title: 'Unbria 1 walk tour itinerary'
@@ -146,6 +149,8 @@ page_builder:
         photo: tours/umbria-cammino-of-st-francis-umbria-1/4.5.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: aCGYn4inr52olp-OL4B-A
     title: 'Umbria 1 experience'
@@ -213,6 +218,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: LCdYovs0RVLjAVOSHR8sC
     title: 'What you should know'
@@ -264,10 +270,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: 5bF3LNeD
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: JqBSF7TDodubHM6CgzLXR
     heading: 'What our travellers are saying'
@@ -277,6 +289,8 @@ page_builder:
       - f5f447b4-6885-4112-a719-fbc568702316
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_BwwqTbfuSBgaL0B6
     type: walking_benefits
@@ -284,6 +298,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 image: tours/umbria-cammino-of-st-francis-umbria-1/2.jpg
@@ -344,4 +359,6 @@ summary:
       -
         type: text
         text: 'This six-day walk is the first section of the Cammino of St Francis. It follows the official pilgrim route, a regularly marked trail that weaves through the hills and farmlands of Central Italy, from Assisi, home of St Francis, to Spoleto through some of the most beautiful country in the region.'
+price: 'A$2,250'
+show_from: true
 ---
