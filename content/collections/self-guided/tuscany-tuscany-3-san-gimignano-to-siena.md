@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 3'
 name: 'Tuscany 3'
 region: Tuscany
 days: 5
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1777517220
+updated_by: 3
+updated_at: 1779175657
 grade: 2
 inclusions:
   - 'Private transfer from Florence to San Gimignano on Day 1'
@@ -57,6 +57,7 @@ page_builder:
       - tours/tuscany-tuscany-3-san-gimignano-to-siena/palmik-siena-2658932.jpg
       - tours/tuscany-tuscany-3-san-gimignano-to-siena/justsomedutchdude-old-2121643.jpg
       - tours/tuscany-tuscany-3-san-gimignano-to-siena/kristof-van-rentergem-lpywtwptwbs-unsplash.jpg
+    hide_from_subnav: false
   -
     id: mloocwbk
     heading: 'Highlights of Tuscany 3'
@@ -94,6 +95,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloox88g
     title: 'Tiuscany 3 itinerary'
@@ -146,6 +149,8 @@ page_builder:
         photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/achim-ruhnau-a3fwnq1inoi-unsplash(1).jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: nYOhLVKk2yrkFP3yR7zw2
     title: 'Tuscany 3 experience'
@@ -211,6 +216,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: ntGfyixzpE7gtpdo6rpm6
     title: 'What you should know'
@@ -262,10 +268,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: dIYOHH58
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: NAR2a98AM3ZVjqmMMR-pL
     heading: 'What our travellers are saying'
@@ -275,6 +287,8 @@ page_builder:
       - 20094a71-62db-4dd7-acfe-2fba2848527d
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_vrwTRIL4a2c3rSSa
     type: walking_benefits
@@ -282,6 +296,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
 image: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/t3.jpg
@@ -303,7 +318,8 @@ start_location:
 finish_location:
   label: Siena
 now_open: false
-seasons: spring
+seasons:
+  - spring
 headline: '5 days from San Gimignano to Siena'
 teaser: 'A classic walk takes you through celebrated landscapes and iconic towns to glorious Siena.'
 summary:
@@ -313,4 +329,6 @@ summary:
       -
         type: text
         text: "Walking the Via Francigena from San Gimignano to Siena is a unique experience.\_\_ It starts in San Gimignano, a gorgeous town with a stunning hilltop skyline of towers.\_ From here you follow in the footsteps of medieval pilgrims all the way to the glorious the walled city of Siena, 'the most perfectly preserved medieval city in Europe'.\_ In between, you stay in a town that made its wealth in the wool trade in the Middle Ages and a fortified village that was Siena's stronghold again Florence."
+price: 'A$3,000'
+show_from: true
 ---
