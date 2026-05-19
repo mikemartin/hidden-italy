@@ -5,8 +5,8 @@ title: 'Tuscany and Umbria - La Tuscia'
 name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 8
-updated_by: 2
-updated_at: 1778552224
+updated_by: 3
+updated_at: 1779175686
 grade: 3
 inclusions:
   - 'Pick-up from Rome and transfer to Pitigliano on Day 1'
@@ -49,6 +49,7 @@ page_builder:
       - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/img_6947.jpeg
       - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/walking.jpg
       - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-8.jpg
+    hide_from_subnav: false
   -
     id: mloocwbk
     heading: 'Highlights of the La Tuscia tour'
@@ -86,6 +87,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloox88g
     title: 'La Tuscia tour itinerary'
@@ -156,6 +159,8 @@ page_builder:
         photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020002.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: mfkdUCRox-sHPWuo9V4WX
     title: 'La Tuscia experience'
@@ -229,6 +234,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: B5PGkOu1CvOE1V8aMFmLM
     title: 'What you should know'
@@ -280,12 +286,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: w1fijO4y
     type: faqs
     enabled: true
     show_common_questions: true
     heading: 'Frequently Asked Questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: dRHaVU1FqtQ83NQaQEBy3
     heading: 'What our travellers are saying'
@@ -295,6 +305,8 @@ page_builder:
       - e6203f32-18d8-4a78-96f3-baa0dcfedcc1
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_VjurvNhglPnGRE9U
     type: walking_benefits
@@ -302,6 +314,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 image: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano_-tuscany-s-hilltop-beauty.png
@@ -360,4 +373,6 @@ summary:
       -
         type: text
         text: "This 7-day exploration starts with a private transfer from Rome to Pitigliano, where the walk begins.\_ Known as La Tuscia since Roman times, this fascinating \_district is on the\_borders where southern Tuscany overlaps with the lakes of northern Lazio and the mountains of the south-west corner of Umbria."
+price: 'A$3,200'
+show_from: true
 ---
