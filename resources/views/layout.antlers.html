@@ -5,16 +5,21 @@
 
 <!-- /layout.antlers.html -->
 <!doctype html>
-{{# `scroll-pt-*` is the offset for anchor jumps. Three regimes:
+{{# `scroll-pt-*` on `<html>` is the single source of truth for
+    anchor-jump offsets — `scrollIntoView` and hash-anchor navigation
+    both honour it, and using one mechanism here avoids the
+    spec-defined additive behaviour where `scroll-margin-top` on a
+    target would stack on top of this value. Three regimes:
       - Fixed main header (default mode — no `static_overlay_header`):
         header is ~4rem at lg / ~5rem at xl, so anchors need
         `scroll-pt-20 xl:scroll-pt-24` to clear it with breathing room.
-      - `tours/show`: header is replaced by its own ~5rem sticky
-        sub-nav, so `scroll-pt-20` matches.
+      - `tours/show`: header is replaced by its own 5rem sticky sub-nav
+        (h-20 + 2px borders = 82px), so `scroll-pt-24` clears it with
+        ~14px of breathing room.
       - `static_overlay_header` on any other template: header scrolls
         away with the page, so a small `scroll-pt-6` cushion suffices. #}}
 {{ scroll_pt = switch(
-    (static_overlay_header && current_template == 'tours/show') => 'scroll-pt-20',
+    (static_overlay_header && current_template == 'tours/show') => 'scroll-pt-24',
     (static_overlay_header) => 'scroll-pt-6',
     () => 'scroll-pt-20 xl:scroll-pt-24'
 ) }}
