@@ -79,20 +79,6 @@ article:
                 type: text
                 text: 'As with other countries in Europe, many local authorities in Italy charge a tourist/city tax in certain areas. City taxes are not included in the cost of the tour and are the responsibility of the client. They are typically a few euros per night per client and are payable in cash directly to the hotel.'
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: YMENTS
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: '5. Changes'
-  -
     type: set
     attrs:
       id: terms-5a
@@ -134,6 +120,14 @@ article:
               -
                 type: text
                 text: 'Hidden Italy reserves the right to charge a late payment fee in the event of late booking and/or payment to cover additional communication and other expenses.'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: '5. Changes'
   -
     type: set
     attrs:
@@ -275,21 +269,24 @@ article:
         type: text
         text: 'All tours booked are non-transferable. If any member of the party is prevented from travelling because of the death, injury or serious illness of the passenger, close relative or friend, redundancy or jury service or any other reason not listed here, a request to transfer the booking to another suitable person (acceptable to Hidden Italy) will be subject to our cancellation policy as outlined in section 7a, and a new booking will be required (subject to availability).'
   -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: '7. Cancellations'
-  -
     type: set
     attrs:
       id: terms-7a
       values:
         type: accordion
-        title: '7a. Cancellation by You'
+        title: CANCELLATIONS
         body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: italic
+                text: 'CHANGES MADE BY A CLIENT'
           -
             type: paragraph
             content:
@@ -344,14 +341,17 @@ article:
                       -
                         type: text
                         text: ' — 100% of tour cost.'
-  -
-    type: set
-    attrs:
-      id: terms-7b
-      values:
-        type: accordion
-        title: '7b. Cancellation by Us'
-        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: italic
+                text: 'CHANGES MADE BY A HIDDEN ITALY'
           -
             type: paragraph
             content:
@@ -408,14 +408,14 @@ article:
       id: terms-7d
       values:
         type: accordion
-        title: '7d. Redeeming Credit Notes'
+        title: 'CREDIT NOTES'
         body:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Credit notes are non-refundable and non-transferable. Any credit note held can be used towards booking any tour of choice (subject to availability). The booking must be made by the expiry date as shown on the credit note.'
+                text: 'Credit notes are non-refundable and non-transferable. Any credit note held can be used towards booking any tour of choice (subject to availability). The booking must be made by the expiry date as shown on the credit note and is subject to terms outlines on the credit note.'
   -
     type: set
     attrs:
@@ -431,19 +431,19 @@ article:
                 type: text
                 text: 'In some circumstances, dinner reservations (where applicable) may be cancelled by restaurants or hotels due to unforeseen events and are outside of Hidden Italy’s control. In such an event the Client must provide a copy of the receipt for an alternative meal and will be reimbursed up to a maximum of A$70 per person.'
   -
-    type: heading
+    type: set
     attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: '8. Passports, Visas and Vaccinations'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'It is the responsibility of the Client to be in possession of a valid passport, visa permits, inoculations and preventative medicines as may be required for the duration of the tour. Information about these matters or related items is given in good faith but without responsibility on the part of Hidden Italy.'
+      id: gCdAeGVh01n-OaeE3tjN2
+      values:
+        type: accordion
+        title: 'PASSPORTS, VISAS and VACCINATIONS'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'It is the responsibility of the Client to be in possession of a valid passport, visa permits, inoculations and preventative medicines as may be required for the duration of the tour. Information about these matters or related items is given in good faith but without responsibility on the part of Hidden Italy.'
   -
     type: heading
     attrs:
@@ -719,5 +719,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 3
-updated_at: 1779171616
+updated_at: 1779171892
 ---
