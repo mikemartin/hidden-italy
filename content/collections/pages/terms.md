@@ -111,6 +111,12 @@ article:
             content:
               -
                 type: text
+                text: 'All payments options are outlined on the invoice.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
                 text: 'Hidden Italy reserves the right to charge a late payment fee in the event of late booking and/or payment to cover additional communication and other expenses.'
   -
     type: set
@@ -695,5 +701,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 3
-updated_at: 1779173433
+updated_at: 1779173535
 ---
