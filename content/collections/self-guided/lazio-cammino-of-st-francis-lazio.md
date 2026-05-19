@@ -5,8 +5,8 @@ title: 'Lazio - Cammino of St Francis:  Lazio'
 name: 'Cammino of St Francis:  Lazio'
 region: Lazio
 days: 8
-updated_by: 1
-updated_at: 1777905262
+updated_by: 3
+updated_at: 1779175143
 grade: 3
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
@@ -41,6 +41,7 @@ page_builder:
       - tours/piedmont-alba-and-le-langhe-1/p6051915.jpg
       - tours/piedmont-alba-and-le-langhe-1/12.9.jpg
       - tours/piedmont-alba-and-le-langhe-1/14.jpg
+    hide_from_subnav: false
   -
     id: mloocwbk
     heading: 'Highlights of the Lazio tour'
@@ -78,6 +79,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloox88g
     title: 'Lazio walking tour itinerary'
@@ -157,6 +160,8 @@ page_builder:
         photo: tours/lazio-cammino-of-st-francis-lazio/20.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: Jklx_3F65rDcMelahRi2I
     title: 'Lazio 1 Experience'
@@ -214,6 +219,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: RtkRoZFEI8JOxPWYEyXEd
     title: 'What you should know'
@@ -265,10 +271,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: zeLYFBvm
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: kNzs88__zkkDBKYUudDQn
     heading: 'What our travellers are saying'
@@ -278,6 +290,8 @@ page_builder:
       - 6fcf2d29-4fab-45fc-83f5-ee7ed490f886
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_idJz0XDiQEEermvU
     type: walking_benefits
@@ -285,6 +299,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 gallery:
   - tours/piedmont-alba-and-le-langhe-1/1.5.jpg
@@ -344,4 +359,6 @@ summary:
       -
         type: text
         text: "This marvellous 8-day walk starts in the quiet streets of Rieti, a lovely town in the north of Lazio, before climbing into the hills of the central Apennines, through an district known as Sabina, which is dotted with small, proud towns, each with its own history traced back to the Romans and beyond.\_ The hills gradually give way to the undulating farmlands of the Tiber River plain.  The trail then winds through two nature reserves before reaching the outer suburbs of Rome. \_"
+price: 'A$2,450'
+show_from: true
 ---
