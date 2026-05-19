@@ -5,8 +5,8 @@ title: 'Puglia - Puglia in the Spring'
 name: 'Puglia in the Spring'
 region: Puglia
 days: 13
-updated_by: 1
-updated_at: 1777904817
+updated_by: 3
+updated_at: 1779169714
 grade: 2
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -20,7 +20,7 @@ inclusions:
 locations: southern-italy
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 tour_size: 15
-date: '2026-05-16 14:00'
+date: '2027-05-01 14:00'
 leader: fa3be588-b0dd-4d37-9213-bafbd1992434
 page_builder:
   -
@@ -48,6 +48,7 @@ page_builder:
       - tours/puglia-puglia-in-the-spring/castel-1.jpg
       - tours/puglia-puglia-in-the-spring/lecce-28.jpg
       - tours/puglia-puglia-in-the-spring/matera-14.jpg
+    hide_from_subnav: false
   -
     id: mloqd78x
     heading: 'Puglia tour highlights'
@@ -85,6 +86,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloqvfcq
     title: 'Puglia guided walking tour'
@@ -216,6 +219,8 @@ page_builder:
         photo: tours/puglia-puglia-in-the-spring/lecce-28.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: bjgbejCe8busBcGYSsXS1
     title: 'Puglia in the Spring experiences'
@@ -274,12 +279,15 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: iOkmFU6ExNE08DptpipsO
     title: 'Tour Leader'
     person: fa3be588-b0dd-4d37-9213-bafbd1992434
     type: leader
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: MRQ7ZyG03WMKfwpZJHTCO
     title: 'What you should know'
@@ -319,10 +327,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: NrD0Vhxj
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_tKPl4JMLeN5EjGP6
     type: walking_benefits
@@ -330,6 +344,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 seasons: spring
 image: tours/puglia-puglia-in-the-spring/19.7.jpg
@@ -387,4 +402,6 @@ summary:
       -
         type: text
         text: 'A bridge between Italy and the East, Puglia is pure southern Italy: layers of history, vibrant cities and towns, ancient traditions celebrated in colourful festivals; a timeless interior edged by an endless coastline; gracious hospitality and fabulous food.'
+price: 'A$8,990'
+show_from: true
 ---
