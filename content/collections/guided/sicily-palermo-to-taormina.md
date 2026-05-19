@@ -6,8 +6,8 @@ name: 'Sicily in the Spring'
 region: Sicily
 seasons: spring
 locations: southern-italy
-updated_by: 3
-updated_at: 1779167892
+updated_by: 4
+updated_at: 1779168652
 days: 14
 image: tours/sicily-palermo-to-taormina/804728531-13.jpg
 grade: 4
@@ -427,6 +427,14 @@ summary:
       -
         type: text
         text: "The largest island in the Mediterranean, Sicily is squeezed between Europe and Africa, between Christendom and Islam. It's a spectacular region with exceptional walks following country lanes, mountain trails and coastal paths. Sicily also boasts one of the finest, and surely the most diverse, cuisine in Italy based on their exceptional produce.\_ Truly, the perfect destination for an off-the-beaten track adventure."
+inclusions:
+  - '13 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
+  - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
+  - 'All land and sea transfers during the tours'
+  - 'All taxes and service charges at the hotels and restaurants'
+  - 'All paid admissions during the tour'
+  - '7 guided walks'
+  - 'Services of a full-time professional tour guide'
 price: '10,490'
 show_from: true
 date: '2027-04-29 14:00'
