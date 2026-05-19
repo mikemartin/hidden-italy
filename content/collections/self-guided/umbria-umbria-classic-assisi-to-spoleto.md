@@ -5,8 +5,8 @@ title: 'Umbria - Umbria Classic'
 name: 'Umbria Classic'
 region: Umbria
 days: 7
-updated_by: 1
-updated_at: 1777906100
+updated_by: 3
+updated_at: 1779175856
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -53,6 +53,7 @@ page_builder:
       - tours/umbria-cammino-of-st-francis-umbria-2-1/borgo-della-marmotta-1.jpg
       - tours/umbria-cammino-of-st-francis-umbria-2-1/clitumno-2089647_1920.jpg
       - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020012.jpg
+    hide_from_subnav: false
   -
     id: mloocwbk
     heading: 'Highlights of the Umbria Classic'
@@ -90,6 +91,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloox88g
     title: 'Umbria Classic itinerary'
@@ -160,6 +163,8 @@ page_builder:
         photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020013-a.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: 4ks2Z4mm56m2e9NwdZKLe
     title: 'Umbria Classic experience'
@@ -225,6 +230,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: mDzuivrLElLWsFQ6ucAPL
     title: 'What you should know'
@@ -276,10 +282,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: w0g0ctjR
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: QvH7NPEvhgUO4Xu3_g4aD
     heading: 'What our travellers are saying'
@@ -289,6 +301,8 @@ page_builder:
       - f468044d-04e7-42a9-8bb9-2cbfcc128f13
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_bbJXLn8aTeR0y0MY
     type: walking_benefits
@@ -296,6 +310,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 2c566c23-3738-482e-b78a-a2ac67ccf9cf
 image: tours/umbria-cammino-of-st-francis-umbria-2-1/f1020015.jpg
@@ -356,4 +371,6 @@ summary:
       -
         type: text
         text: "Often referred to as 'the green heart of Italy', Umbria is a beautiful, largely unspoilt, region of rolling hills, woods, streams and valleys.\_ Within its borders are a dozen or so classic hill-towns, each resolutely individual and crammed with artistic and architectural treasures that frequently rival bigger and more famous cities."
+price: 'A$2,350'
+show_from: true
 ---
