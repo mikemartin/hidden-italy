@@ -6,8 +6,8 @@ name: 'Sicily in the Spring'
 region: Sicily
 seasons: spring
 locations: southern-italy
-updated_by: 1
-updated_at: 1777904903
+updated_by: 3
+updated_at: 1779167615
 days: 14
 image: tours/sicily-palermo-to-taormina/804728531-13.jpg
 grade: 4
@@ -71,6 +71,7 @@ page_builder:
       - tours/sicily-palermo-to-taormina/48.5.jpg
       - tours/sicily-palermo-to-taormina/51.jpg
       - tours/sicily-palermo-to-taormina/69.jpg
+    hide_from_subnav: false
   -
     id: S-GxLPbJ4K3UJXaWyild9
     heading: 'Sicily in the Spring guided tour'
@@ -108,6 +109,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: ETGFP516qZmXZhQdj2zPn
     title: 'Siucily in the Spring itinerary'
@@ -254,6 +257,8 @@ page_builder:
         photo: tours/sicily-palermo-to-taormina/65.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: JElBjk_hp08VuSFkQtzh4
     type: experience
@@ -304,12 +309,15 @@ page_builder:
           - tours/taormina-7.jpg
         type: food
         enabled: true
+    hide_from_subnav: false
   -
     id: 6W62AaoW5NTjMgyRKeBS_
     title: 'Tour Leader'
     person: 699bd6c8-377d-46a8-bd97-234a3720b9f1
     type: leader
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: 94Rr-nchyqefUT-xUmC3S
     title: 'What you should know'
@@ -349,10 +357,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: Mgox0cXZ
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: 9nrvzu_HzHfgnrIsEXjwJ
     heading: 'What our travellers are saying'
@@ -362,6 +376,8 @@ page_builder:
       - 83669b00-6af8-4b55-920f-3ab8b5f75784
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_JHHJeGnKbfUclixm
     type: walking_benefits
@@ -369,6 +385,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 start_location:
   label: 'Palermo, Sicily, Italy'
   lat: '38.1112268'
@@ -410,4 +427,7 @@ summary:
       -
         type: text
         text: "The largest island in the Mediterranean, Sicily is squeezed between Europe and Africa, between Christendom and Islam. It's a spectacular region with exceptional walks following country lanes, mountain trails and coastal paths. Sicily also boasts one of the finest, and surely the most diverse, cuisine in Italy based on their exceptional produce.\_ Truly, the perfect destination for an off-the-beaten track adventure."
+price: '10,490'
+show_from: true
+date: '2028-04-29 14:00'
 ---
