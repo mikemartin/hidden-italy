@@ -7,8 +7,8 @@ region: 'Campania and Basilicata'
 days: 13
 seasons: spring
 grade: 3
-updated_by: 1
-updated_at: 1777904646
+updated_by: 3
+updated_at: 1779169950
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15
 inclusions:
@@ -59,6 +59,7 @@ page_builder:
       - tours/campania-the-amalfi-coast-naples-to-ravello/img_3120-v2.jpg
       - tours/campania-the-amalfi-coast-naples-to-ravello/maratea-1.jpg
       - tours/campania-the-amalfi-coast-naples-to-ravello/img_8037.jpg
+    hide_from_subnav: false
   -
     id: mlj10cx3
     type: highlights
@@ -96,6 +97,8 @@ page_builder:
         summary: 'Discover the secrets of the Amalfi Coast when staying in a beautiful 4-star hotel in Ravello and walking down to Amalfi.'
         icon: nature-lake.svg
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mlomz5st
     title: 'Campania & The Amalfi Coast walking tour itinerary'
@@ -227,6 +230,8 @@ page_builder:
           - breakfast
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: Hyi4uHW_dRdqSqYlispaP
     title: 'Campania and Amalfi Coast Experience'
@@ -289,12 +294,15 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: FZPAH5g2-0cnT7cqJUPaV
     title: 'Tour Leader'
     type: leader
     enabled: true
     person: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
+    section_background: none
+    hide_from_subnav: false
   -
     id: Wbn93LssKpNECI5qeXTCy
     title: 'What you should know'
@@ -334,10 +342,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: qUAvMOwn
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: DTIS5wOA0I16LznMjkaNB
     heading: 'What our travellers are saying'
@@ -346,6 +360,8 @@ page_builder:
       - 645d9e38-4f9a-4590-b2f5-27761417d043
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_Nbxbqh0WR60f7igm
     type: walking_benefits
@@ -353,6 +369,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 locations: southern-italy
 start_location:
@@ -395,4 +412,7 @@ summary:
       -
         type: text
         text: 'The Romans called the region around Naples ‘Campania Felix’ or the ‘happy lands’. With its rich history, spectacular coastline and fertile interior, Campania has much to be happy about: a stunningly beautiful area with endless surprises and all the exuberance and colour of southern Italy.'
+price: 'A$9,990'
+show_from: true
+date: '2027-05-09 14:00'
 ---
