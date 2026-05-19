@@ -5,8 +5,8 @@ title: 'Campania - Amalfi Coast tour'
 name: 'Amalfi Coast tour'
 region: Campania
 days: 6
-updated_by: 1
-updated_at: 1777905243
+updated_by: 4
+updated_at: 1779149522
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
@@ -49,6 +49,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: mloocwbk
     heading: 'Highlights of the Amalfi Coast tour'
@@ -86,6 +87,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloox88g
     title: 'The Amalfi Coast tour itinerary'
@@ -148,6 +151,8 @@ page_builder:
         photo: tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: OR8Dy9UjbFMvJq7xEKVOz
     title: 'Amalfi Coast Experience'
@@ -213,6 +218,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: nM9adWkZwzsoqHX-oyWUI
     title: 'What you should know'
@@ -264,10 +270,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: yz4JzYFd
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: Z4Eo1v9GS-MOK7Yj_nhsF
     heading: 'What our travellers are saying'
@@ -277,6 +289,8 @@ page_builder:
       - 86d468b5-96c6-4c66-8f1a-6a24245ddc41
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_X110ZFmFPZwd6qmR
     type: walking_benefits
@@ -284,6 +298,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 gallery:
@@ -343,4 +358,6 @@ summary:
       -
         type: text
         text: "This fabulous continuous walk along the length of the breathtaking Amalfi Coast starts with a private transfer from Naples to Ravello and then finishes with a private transfer from Positano back to Naples at the end. In between you get to experience the 'costiera' in all its colour and glory."
+availability_text: 'Available in Standard (3-star hotels) and Superior(4-star hotels) options'
+show_from: true
 ---
