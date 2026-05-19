@@ -14,6 +14,6 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 3
-updated_at: 1779090672
+updated_by: 4
+updated_at: 1779151486
 ---
