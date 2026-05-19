@@ -6,7 +6,7 @@ name: 'Abruzzo and Molise'
 region: Lazio-Campobasso
 days: 13
 updated_by: 4
-updated_at: 1779150740
+updated_at: 1779154259
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
@@ -389,5 +389,6 @@ summary:
       -
         type: text
         text: 'Starting with two nights in Rome, this exclusive 7-person tour explores Abruzzo and Molise, two of Italy’s least-visited regions, nestled in the Apennines, the mountainous spine of Italy but also bound by the endless beaches of the Adriatic Coast.'
+leader: 8e21b5fb-a972-4a2e-a81c-2e6f8425841f
 show_from: false
 ---
