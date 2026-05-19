@@ -5,8 +5,8 @@ title: 'Liguria - Italian Riviera 2'
 name: 'Italian Riviera 2'
 region: Liguria
 days: 8
-updated_by: 1
-updated_at: 1777905357
+updated_by: 3
+updated_at: 1779175342
 grade: 4
 inclusions:
   - 'Eight nights accommodation'
@@ -51,6 +51,7 @@ page_builder:
       - tours/alto-adige-dolomites-1-self-guided-walk-1-1/25.jpg
       - tours/alto-adige-dolomites-1-self-guided-walk-1-1/italy-autmun-2013-048.jpg
       - tours/alto-adige-dolomites-1-self-guided-walk-1-1/shutterstock_1172539480-a.jpg
+    hide_from_subnav: false
   -
     id: mloocwbk
     heading: 'Highlights of the Italian Riviera 2 tour'
@@ -88,6 +89,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloox88g
     summary: 'This marvelous walk is the second half of of our Italian Riviera walk. It starts in Sestri Levante, a beautiful resort town on the eastern headland of the Tigullio Gulf and finishes at the gorgeous town of Portovenere overlooking the La Spezia Gulf.'
@@ -176,6 +179,8 @@ page_builder:
           - breakfast
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: aTqBWuwV2T0Ga0dhlJHtM
     title: 'What you should know'
@@ -215,6 +220,8 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: CYDj9sHmq-j7AVlxso859
     title: 'Italian Riviera 2 Experience'
@@ -283,6 +290,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: 3oo4TYIvgLhZtee48HxI_
     title: 'What you should know'
@@ -334,10 +342,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: YjJ6mwMo
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: BVrOW-wVzictEhBltwKQd
     heading: 'What our travellers are saying'
@@ -347,6 +361,8 @@ page_builder:
       - fca1c44a-da19-4576-8f11-03d215030961
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_QN4voBUK8NTAtDqt
     type: walking_benefits
@@ -354,6 +370,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 duplicated_from: c10e8a1d-dab8-454a-8c80-abbba7b0a648
 image: tours/alto-adige-dolomites-1-self-guided-walk-1-1/1.jpg
@@ -414,4 +431,6 @@ summary:
       -
         type: text
         text: "This is a walk of two parts: the first three days take you through some of least visited parts of the Ligurian Coast, following well-marked mountain trails through unspoilt forests and staying in laid-back coastal towns quite untouched by tourism.\_ The remaining days take you along the trails of the Cinque Terre, one of the most celebrated and spectacular stretches of coastline in the Mediterranean, following stone paths that have linked the fishing villages for centuries."
+price: 'A$3,650'
+show_from: true
 ---
