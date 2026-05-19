@@ -77,48 +77,6 @@ article:
     content:
       -
         type: text
-        text: '3. Payments'
-  -
-    type: heading
-    attrs:
-      level: 3
-    content:
-      -
-        type: text
-        text: 'Deposit'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: '25% of the total cost of your tour is required within 7 days from invoice date to secure your booking.'
-  -
-    type: heading
-    attrs:
-      level: 3
-    content:
-      -
-        type: text
-        text: 'Final Payment'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Your final payment is due 60 days before the first day of the tour. Failure to make your final payment by the due date may result in cancellation of your booking and loss of 100% of the deposit paid.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Hidden Italy reserves the right to charge a late payment fee in the event of late booking and/or payment to cover additional communication and other expenses.'
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
         text: '4. Minimum Numbers'
   -
     type: paragraph
@@ -138,6 +96,48 @@ article:
     type: set
     attrs:
       id: terms-5a
+      values:
+        type: accordion
+        title: Payments
+        body:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                text: Deposit
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '25% of the total cost of your tour is required on receipt of invoice to secure your booking. Bookings will be automatically cancelled if no deposit is received within 7 days from invoice date.'
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                text: 'Final Payment'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Your final payment is due 60 days before the first day of the tour. Failure to make your final payment by the due date may result in cancellation of your booking and loss of 100% of the deposit paid.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Hidden Italy reserves the right to charge a late payment fee in the event of late booking and/or payment to cover additional communication and other expenses.'
+  -
+    type: set
+    attrs:
+      id: vZHxVnzZBu_ifkX5vut5b
       values:
         type: accordion
         title: '5a. Changes by You'
@@ -613,7 +613,7 @@ article:
         marks:
           -
             type: bold
-        text: 'i)'
+        text: i)
       -
         type: text
         text: ' Where the Client does not suffer personal injury, Hidden Italy accepts liability should any part of the holiday arrangements booked with Hidden Italy not be supplied as described and not be of reasonable standard. In such a case, Hidden Italy will pay reasonable compensation if the Client’s enjoyment of the tour has been adversely affected but will pay no compensation if there has been no fault on the part of Hidden Italy or its suppliers and the reason for the failure in the tour arrangements was the Client’s fault, the actions of someone unconnected with the tour arrangements or matters that could not have been foreseen or avoided by Hidden Italy or its suppliers even if all due care had been exercised.'
@@ -625,7 +625,7 @@ article:
         marks:
           -
             type: bold
-        text: 'ii)'
+        text: ii)
       -
         type: text
         text: ' Where the Client suffers death or personal injury as a result of an activity forming part of the tour arrangements booked with Hidden Italy, Hidden Italy accepts responsibility unless there has been no fault on Hidden Italy’s part or its suppliers and the cause was the Client’s fault, the death or personal injury were resultant of the actions of someone unconnected with the tour arrangements, or the death or personal injury were resultant of matters of which neither Hidden Italy nor its suppliers could have anticipated or avoided even if all due care had been exercised.'
@@ -637,7 +637,7 @@ article:
         marks:
           -
             type: bold
-        text: 'iii)'
+        text: iii)
       -
         type: text
         text: ' Hidden Italy’s acceptance of liability to pay compensation pursuant to clauses 14 (i) and 14 (ii) is limited, in the case of rail travel, sea travel or hotel accommodation, to the amount set out in the provisions of, respectively, the Warsaw Convention as amended by the Hague Protocol 1955, the 1961 Berne Convention, the 1974 Athens Convention and the 1962 Paris Convention.'
@@ -649,7 +649,7 @@ article:
         marks:
           -
             type: bold
-        text: 'iv)'
+        text: iv)
       -
         type: text
         text: ' Hidden Italy’s acceptance of liability in clauses 14 (i) and 14 (ii) above is subject to assignment by the Client to Hidden Italy of the Client’s rights against any agent, supplier or sub-contractor of Hidden Italy which is in any way responsible for the unsatisfactory tour arrangements or the Client’s death or personal injury.'
@@ -679,7 +679,7 @@ article:
               rel: null
               target: null
               title: null
-        text: 'admin@hiddenitaly.com.au'
+        text: admin@hiddenitaly.com.au
       -
         type: text
         text: ' · '
@@ -693,10 +693,17 @@ article:
               rel: null
               target: null
               title: null
-        text: 'www.hiddenitaly.com.au'
+        text: www.hiddenitaly.com.au
       -
         type: hardBreak
       -
         type: text
         text: 'ABN: 71 649 139 846 · Codice Fiscale: TNC SNF 55R042 700X'
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
+updated_by: 3
+updated_at: 1779171103
 ---
