@@ -5,8 +5,8 @@ title: "Val d'Aosta - Turin and the Val d'Aosta"
 name: "Turin and the Val d'Aosta"
 region: "Val d'Aosta"
 days: 13
-updated_by: 2
-updated_at: 1778498865
+updated_by: 3
+updated_at: 1779169852
 grade: 4
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -19,7 +19,7 @@ inclusions:
 locations: northern-italy
 duplicated_from: 43c82038-3f21-4148-8641-024253f68420
 tour_size: 15
-date: '2027-05-27 14:00'
+date: '2027-09-02 14:00'
 leader: 08f576cb-78e7-49f2-b63a-6dddd1ce4683
 page_builder:
   -
@@ -53,6 +53,7 @@ page_builder:
       - tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_5043.jpg
       - tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_7875.jpg
       - tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_8817.jpg
+    hide_from_subnav: false
   -
     id: mloqd78x
     heading: "Turin and Val d'Aosta guided tour"
@@ -90,6 +91,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloqvfcq
     title: "Turin and the Val d'Aosta guided tour"
@@ -218,12 +221,16 @@ page_builder:
         photo: tours/val-daosta-turin-and-the-val-daosta-guided-tour/c.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: BbB2CsYNZxXDD1VFZThvw
     title: 'Tour Leader'
     person: 08f576cb-78e7-49f2-b63a-6dddd1ce4683
     type: leader
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: X_I56bgQLE73B2WExeOqw
     title: "Turin and Val d'Aosta experience"
@@ -276,6 +283,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: c1xGUV18RGbXrT8w3vBFf
     title: 'What you should know'
@@ -315,10 +323,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: hadlgJwa
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: YOURaWQLZ636mGVIO_688
     heading: 'What our travellers are saying'
@@ -326,6 +340,8 @@ page_builder:
       - a64ee694-6861-49e0-b244-ed6c4b239593
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_0E0qKHIpMJ7BK6BK
     type: walking_benefits
@@ -333,6 +349,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 seasons: autumn
 gallery:
@@ -384,4 +401,6 @@ summary:
       -
         type: text
         text: "The Val d’Aosta may be Italy’s smallest region, but it is also one of its most spectacular, a wedge of mountains and valleys in the north-west corner of the country.\_ The region shares borders with Switzerland and France and contains Europe’s four highest peaks: Mt Blanc, the Matterhorn, Monte Rosa and Gran Paradiso."
+price: 'A$9,450'
+show_from: true
 ---
