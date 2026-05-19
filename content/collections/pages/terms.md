@@ -15,23 +15,31 @@ article:
         type: text
         text: '1. Your Contract with Hidden Italy'
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'To secure a booking we require a completed and signed proposal e-form plus a deposit of 25% of the invoice total paid on receipt of invoice, or full payment on receipt of invoice if travel is due to commence within 60 days. Bookings are cancelled automatically if payment is not received within 7 days from invoice date. This payment is deemed to be confirmation that the Client has read and accepts the Booking Conditions. A booking is accepted and becomes definite only from the date when Hidden Italy has confirmed acceptance by issuing a Booking Confirmation. It is at this point that a contract between Hidden Italy and the Client comes into existence. Hidden Italy reserves the right to decline any booking at their discretion.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'The contract is between Hidden Italy and the Client, being all persons named on the booking as travelling or intending to travel with Hidden Italy. The person making the booking (which is subject to these terms) warrants that he/she has full authority to do so on behalf of all persons named, and confirms that all such persons are fully aware of and accept these conditions.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'The contract, including all matters arising from it, is subject to the laws of New South Wales, Australia and the exclusive jurisdiction of the Courts of New South Wales, Australia, and the courts of appeal upon them. No employee of Hidden Italy other than a director has the authority to vary or omit any of these terms or promise any discount or refund. Any variation to these conditions or promise of a refund or discount by an employee of Hidden Italy will be deemed invalid and unenforceable.'
+    type: set
+    attrs:
+      id: zwFBhH2x8NYZYluH79uoq
+      values:
+        type: accordion
+        title: 'YOUR CONTRACT WITH HIDDEN ITALY'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'To secure a booking we require a completed and signed proposal e-form plus a deposit of 25% of the invoice total paid on receipt of invoice, or full payment on receipt of invoice if travel is due to commence within 60 days. Bookings are cancelled automatically if payment is not received within 7 days from invoice date. This payment is deemed to be confirmation that the Client has read and accepts the Booking Conditions. A booking is accepted and becomes definite only from the date when Hidden Italy has confirmed acceptance by issuing a Booking Confirmation. It is at this point that a contract between Hidden Italy and the Client comes into existence. Hidden Italy reserves the right to decline any booking at their discretion.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'The contract is between Hidden Italy and the Client, being all persons named on the booking as travelling or intending to travel with Hidden Italy. The person making the booking (which is subject to these terms) warrants that he/she has full authority to do so on behalf of all persons named, and confirms that all such persons are fully aware of and accept these conditions.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'The contract, including all matters arising from it, is subject to the laws of New South Wales, Australia and the exclusive jurisdiction of the Courts of New South Wales, Australia, and the courts of appeal upon them. No employee of Hidden Italy other than a director has the authority to vary or omit any of these terms or promise any discount or refund. Any variation to these conditions or promise of a refund or discount by an employee of Hidden Italy will be deemed invalid and unenforceable.'
   -
     type: set
     attrs:
@@ -132,7 +140,7 @@ article:
       id: mGDbacOKeUEK-v7IeHbe-
       values:
         type: accordion
-        title: 'Minimum Numbers'
+        title: 'MINIMUM NUMBERS'
         body:
           -
             type: paragraph
@@ -711,5 +719,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 3
-updated_at: 1779171509
+updated_at: 1779171616
 ---
