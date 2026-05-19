@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 4
-updated_at: 1779151873
+updated_at: 1779151933
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -64,8 +64,6 @@ page_builder:
     photo_cards:
       - 46b6b124-89cf-4efb-b06a-cdb4d28312ba
       - fff5d1d0-e05d-4088-9a54-1f2e7f630c28
-      - d6a3ceb1-2eac-4860-b7c0-b70500e53345
-      - 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
     buttons:
       -
         id: home_types_btn
