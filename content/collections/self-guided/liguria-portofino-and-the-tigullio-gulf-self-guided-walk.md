@@ -5,8 +5,8 @@ title: 'Liguria - Portofino and the Tigullio Gulf'
 name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6
-updated_by: 2
-updated_at: 1778499007
+updated_by: 3
+updated_at: 1779175390
 grade: 3
 inclusions:
   - 'Five nights’ accommodation'
@@ -53,6 +53,7 @@ page_builder:
       - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-9-a.jpg
       - tours/liguria-cinque-terre-coastal-walking-tour/gabriel-tovar-yzqxu8nrlow-unsplash-a.jpg
       - tours/liguria-cinque-terre-coastal-walking-tour/img_4819.jpg
+    hide_from_subnav: false
   -
     id: mloocwbk
     heading: 'Portofino and the Tigullio Gulf self-guided walk'
@@ -90,6 +91,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloox88g
     title: 'Portofino and the Tigullio self-guided walk'
@@ -149,6 +152,8 @@ page_builder:
         photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/nathan-prost-ivrymcq9jae-unsplash.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: mr7Ib2Pvw1h1uzvXMCBRr
     title: 'Portofino and the Tigullio Gulf Experience'
@@ -208,6 +213,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: B3WYPPy01qA_l3x-6nGIy
     title: 'What you should know'
@@ -259,10 +265,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: AQD8q67B
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: A5HnLrxQ79OJlcfbcgrXD
     heading: 'What our travellers are saying'
@@ -272,6 +284,8 @@ page_builder:
       - 143ea3d7-e24c-4354-952a-b9d17bdaebba
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_cio0CXJ6M3zVVkak
     type: walking_benefits
@@ -279,6 +293,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 image: tours/liguria-cinque-terre-coastal-walking-tour/primaselezione-portofino-7504460_1920-a.jpg
@@ -338,4 +353,6 @@ summary:
       -
         type: text
         text: 'Portofino is the star turn of the Italian Riviera, a beautifully preserved fishing village tucked into a perfect bay, but it is only one of the highlights of this fascinating stretch of coastline that sits between Genoa and the Cinque Terre.'
+price: 'A$3,300'
+show_from: true
 ---
