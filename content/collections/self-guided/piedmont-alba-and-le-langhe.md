@@ -5,8 +5,8 @@ title: 'Piedmont - Alba and Le Langhe'
 name: 'Alba and Le Langhe'
 region: Piedmont
 days: 8
-updated_by: 1
-updated_at: 1777905465
+updated_by: 3
+updated_at: 1779174856
 grade: 3
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
@@ -48,6 +48,7 @@ page_builder:
       - tours/piedmont-alba-and-le-langhe/3.jpg
       - tours/piedmont-alba-and-le-langhe/monforte-17.jpg
       - tours/piedmont-alba-and-le-langhe/monforte-18.jpg
+    hide_from_subnav: false
   -
     id: mloocwbk
     heading: 'Highlights of the Alba and Le Langhe tour'
@@ -85,6 +86,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloox88g
     title: 'Alba and Le Langhe walking tour itinerary'
@@ -164,6 +167,8 @@ page_builder:
         photo: tours/piedmont-alba-and-le-langhe/k.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: WkSha4RzUHTVzyntjtSpa
     title: 'Alba and Le Langhe Experience'
@@ -229,6 +234,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: 0Yx1fxR_ygFXnR6uZPoAm
     title: 'What you should know'
@@ -280,10 +286,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: ED0qTzIe
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: wJiPgTM98bfJql8xCh5Nc
     heading: 'What our travellers are saying'
@@ -293,6 +305,8 @@ page_builder:
       - fbe5bdc8-92b4-4773-b6eb-b12e6d3edac2
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_zSLmwMP3HTXi3dBe
     type: walking_benefits
@@ -300,6 +314,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 image: tours/piedmont-alba-and-le-langhe/7-v2.jpg
 gallery:
@@ -357,4 +372,6 @@ summary:
       -
         type: text
         text: "This delightful 8-day circuit walk starts with a private transfer to beautiful Alba, 95 kilometres south of Turin.\_ A handsome town of Roman origin, Alba is the ‘capital’ of the Langhe, a close-knit range of hills and valleys which are crowded with impeccably tended rows of nebbiolo vines, the source of some of Italy’s finest wines, including Barolo and Barbaresco.\_ They form a unique and striking landscape which is dotted with attractive hill-towns, castles and wineries, so much so that the district was recently listed as a UNESCO World Heritage site."
+price: 'A$3,300'
+show_from: true
 ---
