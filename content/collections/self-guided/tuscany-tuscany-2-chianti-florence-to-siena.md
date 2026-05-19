@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 2'
 name: 'Tuscany 2'
 region: Tuscany
 days: 7
-updated_by: 1
-updated_at: 1777905920
+updated_by: 3
+updated_at: 1779175629
 grade: 4
 inclusions:
   - 'Private transfer from Florence on Day 1; private transfer to Siena on Day 6'
@@ -54,6 +54,7 @@ page_builder:
       - tours/tuscany-tuscany-2-chianti-florence-to-siena/kristina-c-qwaolhfrx3i-unsplash.jpg
       - tours/tuscany-tuscany-2-chianti-florence-to-siena/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
       - tours/tuscany-tuscany-2-chianti-florence-to-siena/016.jpg
+    hide_from_subnav: false
   -
     id: mloocwbk
     heading: 'Highlights of Tuscany 2'
@@ -91,6 +92,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloox88g
     title: 'Tiuscany 2 itinerary'
@@ -161,6 +164,8 @@ page_builder:
         photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/paolo-d-andrea-msrizqwwlc4-unsplash.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: TuKx4S9Oq12u8HU3zN6nt
     title: 'Tuscany 2 experience'
@@ -228,6 +233,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: rghhMRzfeQqYDLSL0r0ef
     title: 'What you should know'
@@ -279,10 +285,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: DUAfhH20
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: 8rK-u0cF5zvkZTo3_aDO3
     heading: 'What our travellers are saying'
@@ -292,6 +304,8 @@ page_builder:
       - 4224a279-fcb7-464f-9535-50193349cd6a
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_swHrlPAAsVhdIad2
     type: walking_benefits
@@ -299,6 +313,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
 image: tours/tuscany-tuscany-2-chianti-florence-to-siena/rich-martello-yqcvybdd4y-unsplash-1774331143.jpg
@@ -358,4 +373,6 @@ summary:
       -
         type: text
         text: 'This magnificent walk passes through the Chianti, some of the most celebrated countryside in Europe, a unique landscape of rolling hills, vineyards, olive groves,  thick oak forests, isolated farmhouses, medieval market towns and ancient villages, all shaped by over three millennia of settlement.'
+price: 'A$3,500'
+show_from: true
 ---
