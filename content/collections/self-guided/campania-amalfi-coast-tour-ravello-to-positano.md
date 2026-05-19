@@ -6,7 +6,7 @@ name: 'Amalfi Coast tour'
 region: Campania
 days: 6
 updated_by: 3
-updated_at: 1779175033
+updated_at: 1779175095
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
