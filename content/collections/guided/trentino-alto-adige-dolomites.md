@@ -1,12 +1,12 @@
 ---
 id: 8c969301-fa7c-418d-b306-3d50f60c142a
 blueprint: tour
-title: 'Trentino-Alto Adige - Dolomites in Autumn'
-name: 'Dolomites in Autumn'
+title: 'Trentino-Alto Adige - Verona and the Dolomites in Autumn'
+name: 'Verona and the Dolomites in Autumn'
 region: 'Trentino-Alto Adige'
 days: 13
-updated_by: 1
-updated_at: 1777905087
+updated_by: 3
+updated_at: 1779170776
 locations: northern-italy
 grade: 3
 image: tours/trentino-alto-adige-dolomites/804729994-100.jpg
@@ -60,6 +60,7 @@ page_builder:
       - tours/trentino-alto-adige-dolomites/3.9.jpg
       - tours/trentino-alto-adige-dolomites/143.jpg
       - tours/trentino-alto-adige-dolomites/4.jpg
+    hide_from_subnav: false
   -
     id: mlq6wt91
     heading: 'Highlights Trentino-Alto Adige'
@@ -97,6 +98,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mlrayjrn
     title: 'Verona and the Dolomites itinerary'
@@ -233,6 +236,8 @@ page_builder:
         photo: tours/trentino-alto-adige-dolomites/804729994-100.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: fatw_zajV_o6OrNA3hTu6
     title: 'Verona and Dolomites experience'
@@ -283,12 +288,15 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: Zhb9MH5PIPDlCMyH394IM
     title: 'Tour Leader'
     type: leader
     enabled: true
     person: 656b56c6-ff12-45de-86a3-c6c480d7c141
+    section_background: none
+    hide_from_subnav: false
   -
     id: MqjKRTdGj_huvWXIOGgOs
     title: 'What you should know'
@@ -328,10 +336,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: 7lE6lgK2
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: eDfHEu200IcSeuS_-cgIx
     heading: 'What our travellers are saying'
@@ -341,6 +355,8 @@ page_builder:
       - 40451253-3672-44d1-8097-0b4c7a0680c0
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_TeS9nhgQlEoHM7La
     type: walking_benefits
@@ -348,6 +364,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 seasons: autumn
 now_open: false
 headline: '13 days walking the Dolomites in autumn'
@@ -391,4 +408,7 @@ summary:
       -
         type: text
         text: "Starting in Verona, this exciting small-group tour in the Dolomites takes you through the most beautiful mountains in the world. \_Its well-marked trails, charming villages and mountain huts provide some of the finest walking in Europe. \_"
+price: 'A$9,450'
+show_from: true
+date: '2027-09-16 14:00'
 ---
