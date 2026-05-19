@@ -5,8 +5,8 @@ title: "Val d'Aosta - Valley del Lys"
 name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
-updated_by: 1
-updated_at: 1777906198
+updated_by: 3
+updated_at: 1779175721
 grade: 4
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
@@ -57,6 +57,7 @@ page_builder:
       - tours/val-daosta-valley-del-lys/7.jpg
       - tours/val-daosta-valley-del-lys/8.jpg
       - tours/val-daosta-valley-del-lys/6.jpg
+    hide_from_subnav: false
   -
     id: mlrbu308
     heading: 'Valley del Lys highlights'
@@ -94,6 +95,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mlrccjcj
     title: 'Valley del Lys self-guided itinerary'
@@ -171,6 +174,8 @@ page_builder:
         photo: tours/val-daosta-valley-del-lys/2.jpg
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: a7aej2Tb_pfy2HsNq1cY5
     title: 'Valley del Lys experience'
@@ -313,6 +318,7 @@ page_builder:
     enabled: true
     section_background: dark
     show_topography: true
+    hide_from_subnav: false
   -
     id: lFRRLlA_Fs2US-I5qahhu
     title: 'What you should know'
@@ -364,10 +370,16 @@ page_builder:
         enabled: true
     type: essentials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: FC3uIy4k
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_QCUHIpavY3iDLjNl
     type: walking_benefits
@@ -375,6 +387,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 locations: northern-italy
 landscapes:
   - mountains
@@ -427,4 +440,6 @@ summary:
       -
         type: text
         text: 'This exciting seven-day/six-night hike introduces you to the Valley del Lys, one of the most beautiful valleys in the European Alps, via historic trails that have been connecting the mountain communities for centuries.  Breakfast, dinners and some lunches are included.'
+price: 'A$2,450'
+show_from: true
 ---
