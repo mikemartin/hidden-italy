@@ -7,14 +7,6 @@ headline: 'Terms & Conditions'
 lead: 'Hidden Italy accepts bookings subject to the following conditions.'
 article:
   -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: '1. Your Contract with Hidden Italy'
-  -
     type: set
     attrs:
       id: zwFBhH2x8NYZYluH79uoq
@@ -148,8 +140,16 @@ article:
       id: vZHxVnzZBu_ifkX5vut5b
       values:
         type: accordion
-        title: '5a. Changes by You'
+        title: 'CHANGES TO BOOKINGS'
         body:
+          -
+            type: heading
+            attrs:
+              level: 4
+            content:
+              -
+                type: text
+                text: 'CHANGES BY CLIENT'
           -
             type: paragraph
             content:
@@ -202,14 +202,14 @@ article:
               -
                 type: text
                 text: 'Due to additional communication and other expenses, we reserve the right to charge an administration fee of $100 per person (excluding any accommodation cancellation or change fees) per amendment to your original booking for all other requests. While every reasonable effort will be made to accommodate changes and additional requests, their availability cannot be guaranteed.'
-  -
-    type: set
-    attrs:
-      id: terms-5b
-      values:
-        type: accordion
-        title: '5b. Changes by Us'
-        body:
+          -
+            type: heading
+            attrs:
+              level: 4
+            content:
+              -
+                type: text
+                text: 'CHANGES BY HIDDEN ITALY'
           -
             type: paragraph
             content:
@@ -255,19 +255,19 @@ article:
                 type: text
                 text: 'Force majeure changes means any event which Hidden Italy or its suppliers could not, even with all due care, foresee or avoid. Such events may include war, threat of war, riot, civil strife, industrial dispute, epidemics, government-imposed travel restrictions, health risks, terrorist activity, natural or nuclear disaster, fire or adverse weather conditions, technical or maintenance problems with transport, changes imposed by cancellation or rescheduling of travel arrangements by a main charterer, or other similar events beyond the control of Hidden Italy. Hidden Italy is not liable for any penalty charges associated with “supersaver” type connecting rail or airfares, in the event of a change to a holiday departure time, date or airport.'
   -
-    type: heading
+    type: set
     attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: '6. Substitution of Client'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'All tours booked are non-transferable. If any member of the party is prevented from travelling because of the death, injury or serious illness of the passenger, close relative or friend, redundancy or jury service or any other reason not listed here, a request to transfer the booking to another suitable person (acceptable to Hidden Italy) will be subject to our cancellation policy as outlined in section 7a, and a new booking will be required (subject to availability).'
+      id: xzP9sgn2Wzo0DLDe8lCTU
+      values:
+        type: accordion
+        title: 'Substitution of Client'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'All tours booked are non-transferable. If any member of the party is prevented from travelling because of the death, injury or serious illness of the passenger, close relative or friend, redundancy or jury service or any other reason not listed here, a request to transfer the booking to another suitable person (acceptable to Hidden Italy) will be subject to our cancellation policy as outlined in section 7a, and a new booking will be required (subject to availability).'
   -
     type: set
     attrs:
@@ -719,5 +719,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 3
-updated_at: 1779172192
+updated_at: 1779172409
 ---
