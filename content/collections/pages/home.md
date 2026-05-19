@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 4
-updated_at: 1779151788
+updated_at: 1779151819
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
