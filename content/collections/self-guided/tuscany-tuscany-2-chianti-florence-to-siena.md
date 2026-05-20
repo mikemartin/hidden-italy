@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 2'
 name: 'Tuscany 2'
 region: Tuscany
 days: 7
-updated_by: 3
-updated_at: 1779175629
+updated_by: 2
+updated_at: 1779270606
 grade: 4
 inclusions:
   - 'Private transfer from Florence on Day 1; private transfer to Siena on Day 6'
@@ -49,7 +49,7 @@ page_builder:
           -
             type: text
             text: "The tour starts with a private transfer from Florence to Impruneta.\_ From here well-marked trails take you through undulating farmlands, over the forest-covered hills of the Colline di Chianti, and then south towards Siena.\_ You stay in comfortable accommodation in the centre of a series buzzy market towns, as well as a charming agriturismo in the hills.\_ At the end of the last walk, you will be transferred to Siena, where you spend the last night in a very nice hotel in an historic palazzo in the heart of the city, close to the famous Piazza del Campo (an appropriate finale to your tour!)."
-    title: 'Caught between Florence and Siena'
+    title: 'Between Florence and Siena'
     images:
       - tours/tuscany-tuscany-2-chianti-florence-to-siena/kristina-c-qwaolhfrx3i-unsplash.jpg
       - tours/tuscany-tuscany-2-chianti-florence-to-siena/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
@@ -364,7 +364,7 @@ finish_location:
 now_open: false
 seasons:
   - autumn
-headline: '7 days walking the Chianti vineyards'
+headline: '7 days walking the Chianti'
 teaser: 'Enjoy a seven-day walk through the rolling vineyards, forest and market towns of Chianti.'
 summary:
   -
