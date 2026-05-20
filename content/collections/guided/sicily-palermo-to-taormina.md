@@ -6,8 +6,8 @@ name: 'Sicily in the Spring'
 region: Sicily
 seasons: spring
 locations: southern-italy
-updated_by: 3
-updated_at: 1779168969
+updated_by: 2
+updated_at: 1779264573
 days: 14
 image: tours/sicily-palermo-to-taormina/804728531-13.jpg
 grade: 4
@@ -88,7 +88,7 @@ page_builder:
         icon: ski-alpine-Chalet.svg
       -
         id: Nq5hG3HzgmtEUg-VMunXK
-        title: 'EWnjoy a variety of walks'
+        title: 'Enjoy a variety of walks'
         summary: 'Enjoy a fabulous variety of walks following trails across farmlands, around mountains, and along the spectacular coast.'
         icon: trekking-trekking.svg
       -
@@ -103,7 +103,7 @@ page_builder:
         icon: nature-beach.svg
       -
         id: DotGM37-xynuYv-Mjx6oV
-        title: 'Taormina, the grnad finale'
+        title: 'Taormina, the grand finale'
         summary: "We have three days to explore this enchanting part of the world, including a guided tour and a fab' walk around Mt Etna."
         icon: switzerland-mountain.svg
     type: highlights
