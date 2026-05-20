@@ -6,7 +6,7 @@ name: 'Puglia: the Gargano Peninsula'
 region: Puglia
 days: 8
 updated_by: 4
-updated_at: 1779320916
+updated_at: 1779321047
 grade: 4
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
@@ -128,7 +128,7 @@ page_builder:
         id: mlop3c5r
         title: 'Explore Foresta Umbra'
         description: |-
-          The walk today picks up another pilgrim route (dedicated to St Michael) which you through the Foresta Umbra (an ancient beech forest which was recently listed with UNESCO) to a beautiful ‘agriturismo’ that sits under Monte Sacro, the ‘sacred mountain’. 
+          The walk today picks up another pilgrim route (dedicated to St Michael) through the Foresta Umbra (an ancient beech forest which is UNESCO listed) to a beautiful ‘agriturismo’ that sits under Monte Sacro, the ‘sacred mountain’. 
           This agriturismo offers a uniquely peaceful pause on your self‑guided journey through Puglia. Alongside its authentic and traditional hospitality, you’ll find a warm, restorative and mindful atmosphere. To support this wellness‑focused environment, the property does not serve alcohol, and kindly requests that no alcohol be consumed on site. Another long but rewarding day.
         duration: 5
         distance: 16
