@@ -5,8 +5,8 @@ title: 'Liguria - Italian Riviera 1'
 name: 'Italian Riviera 1'
 region: Liguria
 days: 8
-updated_by: 3
-updated_at: 1779175270
+updated_by: 2
+updated_at: 1779266647
 grade: 4
 inclusions:
   - 'Seven nights accommodation'
@@ -77,7 +77,7 @@ page_builder:
         icon: nature-beach.svg
       -
         id: 6ie2Lj2ewJn2NIpV3_xII
-        title: 'enjoy continuous walking along this beautiful coastline'
+        title: 'Enjoy continuous walking'
         summary: 'Enjoy following historical trails, exploring this fascinating coast passing villages, olive groves, forests and beaches.'
         icon: trekking-trekking.svg
       -
