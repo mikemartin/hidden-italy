@@ -1,12 +1,12 @@
 ---
 id: 65354be1-c899-4486-82f9-2883d090c270
 blueprint: tour
-title: 'Liguria - Cinque Terre Coastal'
-name: 'Cinque Terre Coastal'
+title: 'Liguria - The Cinque Terre'
+name: 'The Cinque Terre'
 region: Liguria
 days: 7
-updated_by: 3
-updated_at: 1779175231
+updated_by: 2
+updated_at: 1779302019
 grade: 3
 inclusions:
   - 'Six nights accommodation'
