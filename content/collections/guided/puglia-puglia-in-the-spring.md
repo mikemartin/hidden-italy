@@ -21,7 +21,10 @@ locations: southern-italy
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 tour_size: 15
 departures:
-  - '2027-05-01'
+  -
+    date: '2027-05-02'
+  -
+    date: '2027-05-16'
 leader: fa3be588-b0dd-4d37-9213-bafbd1992434
 page_builder:
   -

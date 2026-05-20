@@ -438,5 +438,8 @@ inclusions:
 price: 'A$10,490'
 show_from: true
 departures:
-  - '2027-04-29'
+  -
+    date: '2027-04-30'
+  -
+    date: '2027-05-14'
 ---

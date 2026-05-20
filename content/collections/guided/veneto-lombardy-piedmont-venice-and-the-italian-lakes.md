@@ -21,7 +21,8 @@ locations: northern-italy
 duplicated_from: bf401969-bac2-4370-8ffd-d7c62b8f4ade
 tour_size: 15
 departures:
-  - '2027-05-27'
+  -
+    date: '2027-05-27'
 page_builder:
   -
     id: 24949e0c92c55f84

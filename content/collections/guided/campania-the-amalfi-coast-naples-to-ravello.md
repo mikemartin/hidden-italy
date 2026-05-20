@@ -415,5 +415,6 @@ summary:
 price: 'A$9,990'
 show_from: true
 departures:
-  - '2027-05-09'
+  -
+    date: '2027-05-09'
 ---

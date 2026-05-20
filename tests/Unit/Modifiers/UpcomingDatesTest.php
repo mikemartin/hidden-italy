@@ -87,6 +87,58 @@ class UpcomingDatesTest extends TestCase
         ]));
     }
 
+    public function test_unwraps_grid_rows_with_date_key(): void
+    {
+        $result = $this->modifier->index([
+            ['date' => '2025-01-01'],
+            ['date' => '2027-04-30'],
+            ['date' => '2027-05-14'],
+        ]);
+
+        $this->assertSame(
+            ['2027-04-30', '2027-05-14'],
+            array_map(fn ($d) => $d->format('Y-m-d'), $result),
+        );
+    }
+
+    public function test_unwraps_array_access_grid_rows(): void
+    {
+        $row = new class implements \ArrayAccess
+        {
+            public function offsetExists($offset): bool
+            {
+                return $offset === 'date';
+            }
+
+            public function offsetGet($offset): mixed
+            {
+                return $offset === 'date' ? '2027-04-30' : null;
+            }
+
+            public function offsetSet($offset, $value): void {}
+
+            public function offsetUnset($offset): void {}
+        };
+
+        $result = $this->modifier->index([$row]);
+
+        $this->assertCount(1, $result);
+        $this->assertSame('2027-04-30', $result[0]->format('Y-m-d'));
+    }
+
+    public function test_skips_grid_rows_with_blank_date(): void
+    {
+        $result = $this->modifier->index([
+            ['date' => ''],
+            ['date' => null],
+            ['date' => '2027-04-30'],
+            [],
+        ]);
+
+        $this->assertCount(1, $result);
+        $this->assertSame('2027-04-30', $result[0]->format('Y-m-d'));
+    }
+
     public function test_reindexes_keys_starting_from_zero(): void
     {
         $result = $this->modifier->index([

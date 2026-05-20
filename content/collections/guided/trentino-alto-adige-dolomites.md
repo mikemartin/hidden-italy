@@ -411,5 +411,8 @@ summary:
 price: 'A$9,450'
 show_from: true
 departures:
-  - '2027-09-16'
+  -
+    date: '2027-09-03'
+  -
+    date: '2027-09-17'
 ---

@@ -195,11 +195,21 @@ tabs:
           -
             handle: departures
             field:
-              type: date
+              type: grid
               display: Departures
-              mode: multiple
-              time_enabled: false
+              mode: stacked
+              add_row: 'Add departure'
+              reorderable: true
               instructions: 'Scheduled departure dates for this tour. Past dates are hidden from the site automatically.'
+              fields:
+                -
+                  handle: date
+                  field:
+                    type: date
+                    display: 'Departure date'
+                    time_enabled: false
+                    validate:
+                      - required
           -
             handle: now_open
             field:

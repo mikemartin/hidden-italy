@@ -49,10 +49,11 @@
             </div>
 
             {{# Headline + departures line. Guided tours expose a `departures`
-                list (multi-date field); upcoming dates are sorted ascending
-                and past dates are filtered out by the `upcoming_dates`
-                modifier. The earliest upcoming becomes the "Next available"
-                callout (first-iteration highlight); any further upcoming
+                grid (each row carries a single `date` field). Upcoming
+                dates are sorted ascending and past dates are filtered out
+                by the `upcoming_dates` modifier — it accepts either grid
+                rows or flat date arrays. The earliest upcoming departure
+                renders as a "Next available" callout; any further upcoming
                 dates render as compact pills beneath. Self-guided tours
                 fall back to the free-form `availability_text` field. #}}
             <header data-reveal-item data-reveal-preset="h1" class="flex flex-col gap-2">
