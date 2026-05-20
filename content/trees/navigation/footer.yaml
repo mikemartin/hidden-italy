@@ -34,5 +34,6 @@ tree:
         id: 3ac1fd22-e498-4180-8b64-b6e60d8c1d86
         entry: f2528c71-fdd2-4e78-af1d-c37c56594a04
       -
-        id: 1e3c295e-f623-4faa-bcda-d49b73f8eb1b
-        entry: 6a16b095-2c9c-42e2-8593-41525210f300
+        id: de8fe1aa-6d94-4e80-826e-339d7bdf466c
+        title: Shop
+        url: 'https://hiddenitaly.myshopify.com/'
