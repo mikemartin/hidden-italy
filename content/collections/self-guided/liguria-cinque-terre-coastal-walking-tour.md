@@ -6,7 +6,7 @@ name: 'The Cinque Terre'
 region: Liguria
 days: 7
 updated_by: 2
-updated_at: 1779302019
+updated_at: 1779302096
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -45,7 +45,7 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloocwbk
-    heading: 'Highlights of the Cinque Terre Coastal walk'
+    heading: 'Highlights of the Cinque Terre walk'
     activities:
       -
         id: mlooee34
