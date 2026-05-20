@@ -5,8 +5,8 @@ title: "Val d'Aosta - Turin and the Val d'Aosta"
 name: "Turin and the Val d'Aosta"
 region: "Val d'Aosta"
 days: 13
-updated_by: 2
-updated_at: 1779265472
+updated_by: 1
+updated_at: 1779277648
 grade: 4
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -368,24 +368,22 @@ gallery:
 now_open: false
 headline: "13 days in Italy's most spectacular region"
 start_location:
-  label: 'Turin, Piedmont, Italy'
-  lat: '45.0677551'
-  lon: '7.6824892'
-  locality: Turin
+  label: 'Gressoney-La-Trinité, Aosta Valley, Italy'
+  lat: '45.872849'
+  lon: '7.8250659'
+  locality: Gressoney-La-Trinité
   adminLevels:
     1:
-      name: Piedmont
+      name: 'Aosta Valley'
       code: null
       level: 1
-    2:
-      name: Turin
-      code: null
-      level: 2
   country: Italy
 finish_location:
-  label: 'Aosta Valley, Italy'
-  lat: '45.730099'
-  lon: '7.387426'
+  label: 'Courmayeur, Aosta Valley, Italy'
+  lat: '45.8316548'
+  lon: '6.9461565'
+  postalCode: '11013'
+  locality: Courmayeur
   adminLevels:
     1:
       name: 'Aosta Valley'

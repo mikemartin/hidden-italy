@@ -6,8 +6,8 @@ name: 'Sardinia in the Spring'
 region: Sardinia
 days: 13
 seasons: spring
-updated_by: 3
-updated_at: 1779169657
+updated_by: 1
+updated_at: 1779277472
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
@@ -386,19 +386,18 @@ start_location:
       level: 2
   country: Italy
 finish_location:
-  label: 'Via Costa Smeralda, Ragusa, Sicily, Italy'
-  lat: '36.7843016'
-  lon: '14.5479082'
-  streetName: 'Via Costa Smeralda'
-  postalCode: '97100'
-  locality: Ragusa
+  label: 'Alzachèna/Arzachena, Sardinia, Italy'
+  lat: '41.079898'
+  lon: '9.3876122'
+  postalCode: '07021'
+  locality: Alzachèna/Arzachena
   adminLevels:
     1:
-      name: Sicily
+      name: Sardinia
       code: null
       level: 1
     2:
-      name: Ragusa
+      name: 'Gallura Nord-Est Sardegna'
       code: null
       level: 2
   country: Italy

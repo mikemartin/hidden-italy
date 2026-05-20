@@ -5,8 +5,8 @@ title: 'Puglia - Puglia: the Gargano Peninsula'
 name: 'Puglia: the Gargano Peninsula'
 region: Puglia
 days: 8
-updated_by: 2
-updated_at: 1779267728
+updated_by: 1
+updated_at: 1779277703
 grade: 4
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
@@ -207,8 +207,6 @@ page_builder:
                 text: "The accommodation is a mix of well-located hotels.\_ On Days 1, 2 and 3 you stay in excellent 4-star hotels (each with a swimming pool); on Days 4 and 5 you stay in two very comfortable, family-run ‘agriturismos’ while, for your last two nights in Vieste, Days 6 and 7, you stay in a very comfortable hotel in the centre of this buzzing coastal town."
         type: accommodation
         enabled: true
-        media:
-          - tours/puglia-puglia-gargano-san-marco-to-vieste/4.9.jpg
       -
         id: oiR8LxKXnykM3ecfvR-ug
         title: 'Authentic food'
@@ -336,18 +334,18 @@ seasons:
   - spring
 headline: '8 days rambling Gargano'
 start_location:
-  label: 'San Marco, Campania, Italy'
-  lat: '40.2679127'
-  lon: '14.9388058'
-  postalCode: '84071'
-  locality: 'San Marco'
+  label: 'San Marco in Lamis, Apulia, Italy'
+  lat: '41.713138'
+  lon: '15.63985'
+  postalCode: '71014'
+  locality: 'San Marco in Lamis'
   adminLevels:
     1:
-      name: Campania
+      name: Apulia
       code: null
       level: 1
     2:
-      name: Salerno
+      name: Foggia
       code: null
       level: 2
   country: Italy

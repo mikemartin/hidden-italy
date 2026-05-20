@@ -5,8 +5,8 @@ title: 'Umbria - Umbria Classic'
 name: 'Umbria Classic'
 region: Umbria
 days: 7
-updated_by: 2
-updated_at: 1779274430
+updated_by: 1
+updated_at: 1779277730
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -203,8 +203,6 @@ page_builder:
                 text: "Hidden Italy uses the best accommodation available and the accommodation is one of the highlights of this walk: \_including centrally-located hotels in recently restored historical buildings that are themselves part of the history of the towns and a beautifully restored country estate with a swimming pool and its own olive groves and vineyards."
         type: accommodation
         enabled: true
-        media:
-          - tours/umbria-umbria-classic-assisi-to-spoleto/borgo-della-marmotta-1.jpg
       -
         id: 1grdU8mk7fgoQdVPvS6M6
         title: 'Authentic food'
@@ -226,8 +224,6 @@ page_builder:
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
         type: food
         enabled: true
-        media:
-          - tours/umbria-umbria-classic-assisi-to-spoleto/pexels-magda-ehlers-pexels-15247977.jpg
     type: experience
     enabled: true
     section_background: dark
@@ -315,7 +311,6 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 2c566c23-3738-482e-b78a-a2ac67ccf9cf
-image: tours/umbria-cammino-of-st-francis-umbria-2-1/p4300817.jpg
 gallery:
   - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020011.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020013-a.jpg
@@ -334,11 +329,11 @@ seasons:
   - spring
 headline: 'Enjoying the best of Umbria'
 start_location:
-  label: 'Spoleto, Umbria, Italy'
-  lat: '42.7342971'
-  lon: '12.7382035'
-  postalCode: '06049'
-  locality: Spoleto
+  label: 'Assisi, Umbria, Italy'
+  lat: '43.0711952'
+  lon: '12.6146669'
+  postalCode: '06081'
+  locality: Assisi
   adminLevels:
     1:
       name: Umbria
