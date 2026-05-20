@@ -6,7 +6,7 @@ quote: 'I frequently look back with the greatest pleasure on the seven self-guid
 name: 'Milton O'
 tour: 0d717011-26fe-4d13-89f4-a0739f966e3d
 updated_by: 2
-updated_at: 1779261835
+updated_at: 1779261895
 rating: 5
 source: direct
 ---
