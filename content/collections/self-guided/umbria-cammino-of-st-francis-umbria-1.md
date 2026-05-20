@@ -6,7 +6,7 @@ name: 'Cammino of St Francis:  Umbria 1'
 region: Umbria
 days: 7
 updated_by: 2
-updated_at: 1779272047
+updated_at: 1779272177
 grade: 3
 inclusions:
   - 'Five nights accommodation'
