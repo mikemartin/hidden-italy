@@ -6,7 +6,7 @@ name: 'Trieste and Friuli'
 region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: 2
-updated_at: 1779297752
+updated_at: 1779297806
 grade: 4
 inclusions:
   - '12 night’s accommodation (see the itinerary for details) in excellent boutique hotels'
@@ -259,6 +259,8 @@ page_builder:
                 text: "The tour starts with two nights in a classic four-star hotel in the centre of Udine and finishes in one of the grand hotels of Italy: set in an elegant\_palazzo dating from 1727\_overlooking the Piazza Unita d'Italia, the heart of Trieste.\_ In between, we stay in a beautiful small hotel in the mountains for four nights and\_another\_four nights in a family-run hotel in the heart of a lovely town on the Natisone River that was founded by Julius Caesar"
         type: accommodation
         enabled: true
+        media:
+          - tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/3.jpg
       -
         id: DmGhPijoLKwyK7wVV3wDo
         title: 'Authentic food'
