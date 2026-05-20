@@ -79,6 +79,36 @@ tabs:
               type: text
               display: Headline
           -
+            handle: date
+            field:
+              type: date
+              display: 'Next available'
+              width: 66
+          -
+            handle: now_open
+            field:
+              type: toggle
+              display: 'Now open'
+              width: 33
+              instructions: 'Show badge on tour card.'
+              instructions_position: below
+          -
+            handle: availability_text
+            field:
+              type: text
+              display: 'Availability text'
+              instructions: 'Replace next available date under the tour name (e.g. "30 Apr–13 May or 14–27 May 2027").'
+          -
+            handle: badge_text
+            field:
+              type: text
+              display: 'Badge text'
+              placeholder: 'Now open'
+              character_limit: 10
+              instructions: 'Replace "Now open" badge text.'
+              if:
+                now_open: 'equals true'
+          -
             handle: summary
             field:
               buttons:
@@ -189,20 +219,6 @@ tabs:
               type: toggle
               display: 'Show "From" prefix'
               instructions: 'Prefixes the price with "From " when the tour has variants or starting prices.'
-      -
-        display: Availability
-        fields:
-          -
-            handle: date
-            field:
-              type: date
-              display: Date
-          -
-            handle: now_open
-            field:
-              type: toggle
-              display: 'Now open'
-              instructions: 'Show a "Now open" badge on the tour card to flag that bookings are currently being taken.'
       -
         display: Taxonomy
         fields:
