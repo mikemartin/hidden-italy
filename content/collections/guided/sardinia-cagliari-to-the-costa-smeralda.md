@@ -7,7 +7,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: 2
-updated_at: 1779297237
+updated_at: 1779299911
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
@@ -19,7 +19,7 @@ inclusions:
   - 'All paid admissions during the tour'
   - '7 guided walks'
   - 'Services of a full-time professional tour guide'
-image: tours/sardinia-cagliari-to-the-costa-smeralda/16.jpg
+image: tours/sardinia-cagliari-to-the-costa-smeralda/img_5769-(2).jpg
 gallery:
   - tours/sardinia-cagliari-to-the-costa-smeralda/02.jpg
   - tours/sardinia-cagliari-to-the-costa-smeralda/16.jpg
@@ -402,7 +402,7 @@ finish_location:
       level: 2
   country: Italy
 now_open: false
-headline: '13 days exploring magical Sardinia'
+headline: 'Explore magical Sardinia'
 teaser: 'Sardinia is a magical island, a few hours by ferry, a world away from continental Italy.'
 summary:
   -
