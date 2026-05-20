@@ -1,12 +1,12 @@
 ---
 id: fe7d8f05-4262-4ff2-9fa6-af18f7825ec2
 blueprint: tour
-title: 'Campania - Amalfi Coast tour'
-name: 'Amalfi Coast tour'
+title: 'Campania - Amalfi Coast'
+name: 'Amalfi Coast'
 region: Campania
 days: 6
 updated_by: 2
-updated_at: 1779265618
+updated_at: 1779301577
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
@@ -26,7 +26,7 @@ landscapes:
 page_builder:
   -
     id: amlfiovrvw01
-    title: 'One of the most spectacular parts of the Mediterranean'
+    title: "The most spectacular coast on the Med'"
     column_left:
       -
         type: paragraph
@@ -346,7 +346,7 @@ finish_location:
       code: null
       level: 2
   country: Italy
-headline: '6 days along the breathtaking Amalfi Coast'
+headline: '6 days on the breathtaking Amalfi Coast'
 now_open: false
 seasons:
   - spring
