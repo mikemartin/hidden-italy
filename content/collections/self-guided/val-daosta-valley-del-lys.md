@@ -6,7 +6,7 @@ name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
 updated_by: 2
-updated_at: 1779274861
+updated_at: 1779275357
 grade: 4
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
@@ -32,12 +32,6 @@ page_builder:
         content:
           -
             type: text
-            marks:
-              -
-                type: bold
-            text: "\_"
-          -
-            type: text
             text: "The Valley del Lys a long and narrow valley that starts at the glacier-covered slopes of Monte Rosa, the second highest mountain in the European Alps, and winds south following the course of the Lys River to the main Aosta Valley.\_ It is a narrow valley, its steep sides covered in pine and beech forests; and highland pastures scattered with tiny hamlets.\_ The valley was originally inhabited by the Walsers, a German-speaking people who migrated over the passes from Switzerland in the 13th century.\_ Even after eight centuries, German is still spoken, the traditions are still alive and the towns and villages of the valley are still characterised by their beautiful, timber architecture."
       -
         type: paragraph
@@ -52,7 +46,7 @@ page_builder:
           -
             type: text
             text: 'Please note that your breakfasts and dinners are included each day!'
-    title: 'From Monte Rosa to the Aosta Valley'
+    title: 'From the Aosta Valley to Monte Rosa'
     images:
       - tours/val-daosta-valley-del-lys/7.jpg
       - tours/val-daosta-valley-del-lys/8.jpg
@@ -216,6 +210,8 @@ page_builder:
                 text: "All the accommodation is in small historic buildings mostly made local timber and stone and all run by proud local families.\_ All the rooms, in the hotels and rifugios, have private, en suite bathrooms."
         images:
           - tours/5-1776049637.jpg
+        media:
+          - tours/val-daosta-valley-del-lys/5.jpg
       -
         id: R_bvUwm17pAGaqCUbgQT_
         title: 'Authentic food'
