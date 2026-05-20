@@ -5,8 +5,8 @@ title: 'Liguria - Portofino and the Tigullio Gulf'
 name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6
-updated_by: 3
-updated_at: 1779175390
+updated_by: 2
+updated_at: 1779267068
 grade: 3
 inclusions:
   - 'Five nights’ accommodation'
@@ -344,7 +344,7 @@ finish_location:
 now_open: false
 seasons:
   - autumn
-headline: '6 days exploring the Tigullio Gulf'
+headline: "6 days exploring the 'Gulf'"
 teaser: 'Spend a week exploring the Portofino National Park and the stupendous Tigullio Gulf!'
 summary:
   -
