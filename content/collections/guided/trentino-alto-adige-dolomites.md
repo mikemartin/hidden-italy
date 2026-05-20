@@ -1,15 +1,15 @@
 ---
 id: 8c969301-fa7c-418d-b306-3d50f60c142a
 blueprint: tour
-title: 'Trentino-Alto Adige - Verona and the Dolomites in Autumn'
-name: 'Verona and the Dolomites in Autumn'
+title: 'Trentino-Alto Adige - Verona and the Dolomites'
+name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: 2
-updated_at: 1779300678
+updated_at: 1779300789
 locations: northern-italy
 grade: 3
-image: tours/trentino-alto-adige-dolomites/-wengen.jpg
+image: tours/trentino-alto-adige-dolomites/-barbara.jpg
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
