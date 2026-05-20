@@ -6,7 +6,7 @@ name: 'Sicily 2: the Egadi Islands'
 region: Sicily
 days: 7
 updated_by: 2
-updated_at: 1779268524
+updated_at: 1779268637
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
@@ -76,7 +76,7 @@ page_builder:
         icon: nature-beach.svg
       -
         id: mlrc2l11
-        title: 'Go island hopping'
+        title: 'Go for a swim!'
         summary: 'Go swimming on the sandy beaches and rocky coves of western Sicily.'
         icon: water-sports-swimming.svg
       -
