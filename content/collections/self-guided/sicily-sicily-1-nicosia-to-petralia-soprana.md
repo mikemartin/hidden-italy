@@ -5,8 +5,8 @@ title: 'Sicily - Sicily 1'
 name: 'Sicily 1'
 region: Sicily
 days: 7
-updated_by: 3
-updated_at: 1779175468
+updated_by: 2
+updated_at: 1779267967
 grade: 3
 inclusions:
   - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
@@ -229,6 +229,8 @@ page_builder:
                 text: "Generous breakfasts are included each day.\_ Given the relative 'isolation' of the small villages and 'agriturismo' you stay on during this wonderful walk, we have included the dinners as well on this tour."
         type: food
         enabled: true
+        media:
+          - tours/sicily-sicily-1-nicosia-to-petralia-soprana/31.jpg
     type: experience
     enabled: true
     section_background: dark
@@ -366,7 +368,7 @@ finish_location:
 now_open: false
 seasons:
   - spring
-headline: '7 days walking through central Sicily'
+headline: '7 days walking central Sicily'
 image: tours/sicily-sicily-1-nicosia-to-petralia-soprana/08.jpg
 teaser: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
 summary:
