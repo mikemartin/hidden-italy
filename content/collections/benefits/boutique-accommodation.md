@@ -5,5 +5,5 @@ title: 'Boutique accommodation'
 icon: ski-alpine-Chalet.svg
 description: "You'll stay in the best accommodation available, well-placed, comfortable, and always welcoming."
 updated_by: 2
-updated_at: 1779261602
+updated_at: 1779261779
 ---
