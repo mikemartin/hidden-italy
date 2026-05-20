@@ -1,10 +1,12 @@
 ---
 id: c4dad366-cfdd-443a-8db6-c29df33df79a
 blueprint: testimonial
-title: 'Fantastico! Exceeded my expectations by a country mile.'
-quote: 'Fantastico!  Exceeded my expectations by a country mile.  Experienced alpine guides, (thanks Matteo, Georgia, Diletta, Stefano, Andrea), great food (thanks Luca), excellent local accommodation, hard satisfying walks to beautiful villages. Our host Simon? Champion.  Absolutely loved every minute.'
-name: 'Darren S'
-tour: 0d717011-26fe-4d13-89f4-a0739f966e3d
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776827231
+title: 'So many highlights!'
+quote: 'Simon, there were so many highlights on our Hidden Italy walk from Ravello to Positano it’s hard to know where to start.  I must first congratulate you on the amazing walk and your instructions were spot on which gave us great security.  The walk as you know is a provider of magnificent views and at times very challenging walks but it has given us both a lifetime of experience......Thanks again for your planning on this walk and we look forward to many more walks from Hidden Italy.'
+name: 'Peter W'
+tour: fe7d8f05-4262-4ff2-9fa6-af18f7825ec2
+updated_by: 2
+updated_at: 1779261947
+rating: 5
+source: direct
 ---
