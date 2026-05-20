@@ -1,12 +1,12 @@
 ---
 id: fe7d8f05-4262-4ff2-9fa6-af18f7825ec2
 blueprint: tour
-title: 'Campania - Amalfi Coast'
-name: 'Amalfi Coast'
+title: 'Campania - The Amalfi Coast'
+name: 'The Amalfi Coast'
 region: Campania
 days: 6
 updated_by: 2
-updated_at: 1779301689
+updated_at: 1779302035
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
