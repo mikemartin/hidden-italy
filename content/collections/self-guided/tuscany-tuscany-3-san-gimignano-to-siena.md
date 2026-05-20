@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 3'
 name: 'Tuscany 3'
 region: Tuscany
 days: 5
-updated_by: 3
-updated_at: 1779175657
+updated_by: 2
+updated_at: 1779270834
 grade: 2
 inclusions:
   - 'Private transfer from Florence to San Gimignano on Day 1'
@@ -320,7 +320,7 @@ finish_location:
 now_open: false
 seasons:
   - spring
-headline: '5 days from San Gimignano to Siena'
+headline: 'From San Gimignano to Siena'
 teaser: 'A classic walk takes you through celebrated landscapes and iconic towns to glorious Siena.'
 summary:
   -
