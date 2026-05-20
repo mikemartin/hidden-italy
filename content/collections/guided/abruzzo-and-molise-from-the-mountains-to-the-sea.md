@@ -1,12 +1,12 @@
 ---
 id: 43c82038-3f21-4148-8641-024253f68420
 blueprint: tour
-title: 'Abruzzo and Molise - From the mountians to the sea'
-name: 'From the mountians to the sea'
+title: 'Abruzzo and Molise - Abruzzo and Molise in Spring'
+name: 'Abruzzo and Molise in Spring'
 region: 'Abruzzo and Molise'
 days: 13
 updated_by: 2
-updated_at: 1779298110
+updated_at: 1779298194
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
