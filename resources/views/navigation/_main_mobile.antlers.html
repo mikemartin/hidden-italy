@@ -87,7 +87,10 @@
                                 :aria-expanded="subnavOpen"
                             {{ else }}
                                 href="{{ url }}"
-                                {{ if url != '/contact' }}
+                                {{ if url | is_external_url }}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                {{ elseif url != '/contact' }}
                                     wire:navigate
                                 {{ /if }}
                                 @click="$store.nav.close()"
@@ -118,7 +121,10 @@
                                                 {{ is_current || is_parent ? 'text-white underline underline-offset-4 decoration-gold' : 'text-white/80' }}
                                             "
                                             href="{{ url }}"
-                                            {{ if url != '/contact' }}
+                                            {{ if url | is_external_url }}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            {{ elseif url != '/contact' }}
                                                 wire:navigate
                                             {{ /if }}
                                             @click="$store.nav.close()"
