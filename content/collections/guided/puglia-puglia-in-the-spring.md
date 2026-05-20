@@ -6,7 +6,7 @@ name: 'Puglia in the Spring'
 region: Puglia
 days: 13
 updated_by: 2
-updated_at: 1779299370
+updated_at: 1779299807
 grade: 2
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -345,6 +345,17 @@ page_builder:
     section_background: light
     show_topography: false
     hide_from_subnav: true
+  -
+    id: bnZVLPZx_iwTf-Aa_Hu_r
+    heading: 'What our travellers are saying'
+    testimonials:
+      - 23407f92-6a8d-40ff-87ca-9fb6c96ca6a2
+      - c494e6c4-2a05-41da-9d13-70051e149267
+      - a1804347-5bdf-4350-b890-085744534e39
+    section_background: none
+    hide_from_subnav: false
+    type: testimonials
+    enabled: true
 simple_likes: 0
 seasons: spring
 image: tours/puglia-puglia-in-the-spring/40.6.jpg
