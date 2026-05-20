@@ -48,6 +48,7 @@ page_builder:
           -
             type: text
             text: 'Founder & Director'
+    show_topography: false
   -
     id: about_stats
     type: stats
@@ -83,6 +84,7 @@ page_builder:
         value: 500K+
         label: 'km walked together'
         icon: walking
+    show_topography: false
   -
     id: about_founder_quote
     type: testimonial_overlap
@@ -115,6 +117,7 @@ page_builder:
       - 9fc53e30-eeab-4b54-b681-440841a810d3
       - b52acd0c-1ed0-45ea-8351-eff37d458f6f
       - 5ecb1e88-b42e-4a9c-a493-a1af6b8d4ca2
+    section_background: none
   -
     id: about_people
     type: people_grid
@@ -127,8 +130,8 @@ page_builder:
       - 469290c8-2f8b-4d10-b639-574b4f4f1b8a
       - 656b56c6-ff12-45de-86a3-c6c480d7c141
       - 699bd6c8-377d-46a8-bd97-234a3720b9f1
-      - fa3be588-b0dd-4d37-9213-bafbd1992434
       - 436787ff-89d4-438e-bf50-81c3672256cc
+      - fa3be588-b0dd-4d37-9213-bafbd1992434
       - 08f576cb-78e7-49f2-b63a-6dddd1ce4683
       - 47c3aafd-0cf1-4122-8cfb-84953a8a3ece
       - 63fec771-0f91-4c4d-a4c1-9106f35c0670
@@ -138,6 +141,7 @@ page_builder:
       - 14b37a2e-5aa2-47eb-a5a2-842d365f4130
       - 1fc8edc9-9407-4a73-ada9-1f6095316fe8
       - 7113227c-a5b4-4030-89e8-7f203c525c13
+    section_background: none
   -
     id: about_testimonials
     type: testimonials
@@ -147,11 +151,12 @@ page_builder:
       - 4b9f09e0-3e14-4627-8f2f-837ca961174e
       - 8284a88d-7074-4ab1-bc4c-426bee31e9b8
       - 3d93c507-0ca0-48d8-907e-2d9a99010872
+    section_background: none
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2
-updated_at: 1778641258
+updated_at: 1779275850
 ---
