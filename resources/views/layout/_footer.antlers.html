@@ -57,7 +57,14 @@
                             <nav class="sm:col-span-3 flex flex-col gap-2" aria-label="{{ title }}">
                                 <p class="font-display font-semibold uppercase text-xs tracking-[0.08em] text-gold leading-[1.5] h-8">{{ title }}</p>
                                 {{ children }}
-                                    <a href="{{ url }}" class="text-[15px] leading-[1.5] hover:text-white transition-colors">
+                                    <a
+                                        href="{{ url }}"
+                                        {{ if url | starts_with:'http' }}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        {{ /if }}
+                                        class="text-[15px] leading-[1.5] hover:text-white transition-colors"
+                                    >
                                         {{ title }}
                                     </a>
                                 {{ /children }}
@@ -123,7 +130,14 @@
                 <div class="md:mr-[12%] md:-mt-5 lg:-mt-6 flex flex-col-reverse md:flex-row md:items-center md:justify-between gap-2 text-[15px] text-muted">
                     <div class="flex flex-wrap gap-x-4">
                         {{ nav:footer_legal }}
-                            <a href="{{ url }}" class="hover:text-white transition-colors">{{ title }}</a>
+                            <a
+                                href="{{ url }}"
+                                {{ if url | starts_with:'http' }}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                {{ /if }}
+                                class="hover:text-white transition-colors"
+                            >{{ title }}</a>
                         {{ /nav:footer_legal }}
                     </div>
 

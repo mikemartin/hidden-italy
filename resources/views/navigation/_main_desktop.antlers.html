@@ -32,7 +32,10 @@
                             :aria-expanded="subnavOpen"
                         {{ else }}
                             href="{{ url }}"
-                            {{ if url != '/contact' }}
+                            {{ if url | starts_with:'http' }}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            {{ elseif url != '/contact' }}
                                 wire:navigate
                             {{ /if }}
                         {{ /if }}
@@ -64,7 +67,10 @@
                                                 : 'text-foreground' }}
                                         "
                                         href="{{ url }}"
-                                        {{ if url != '/contact' }}
+                                        {{ if url | starts_with:'http' }}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        {{ elseif url != '/contact' }}
                                             wire:navigate
                                         {{ /if }}
                                         {{ is_current ?= 'aria-current="page"' }}
