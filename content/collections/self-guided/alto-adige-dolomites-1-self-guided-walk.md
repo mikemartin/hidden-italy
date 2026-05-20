@@ -6,7 +6,7 @@ name: 'The Dolomites 1'
 region: 'Trentino-Alto Adige'
 days: 6
 updated_by: 2
-updated_at: 1779269784
+updated_at: 1779269850
 grade: 4
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
@@ -64,7 +64,7 @@ page_builder:
     activities:
       -
         id: mlooee34
-        title: 'Explore the most beautiful mountains in the world!'
+        title: 'Explore the most beautiful mountains!'
         summary: 'Take your time to enjoy five days exploring a gorgeous valley in the heart of the most beautiful mountains in the world.'
         icon: trekking-trekking.svg
       -
