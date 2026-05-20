@@ -3,8 +3,8 @@ id: home
 blueprint: home
 title: Home
 template: home
-updated_by: 4
-updated_at: 1779151948
+updated_by: 2
+updated_at: 1779261168
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -25,8 +25,9 @@ buttons:
     enabled: true
 tour_photos:
   - d6a3ceb1-2eac-4860-b7c0-b70500e53345
-  - 0d717011-26fe-4d13-89f4-a0739f966e3d
+  - 9fd38ab4-55ef-435d-82cc-d9246de83cc3
   - fe7d8f05-4262-4ff2-9fa6-af18f7825ec2
+  - 97c7707c-9b34-4f4f-9445-39668362d1fd
 page_builder:
   -
     id: home_intro
