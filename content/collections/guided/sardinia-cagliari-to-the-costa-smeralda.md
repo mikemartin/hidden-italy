@@ -10,7 +10,8 @@ updated_by: 3
 updated_at: 1779169657
 grade: 3
 tour_size: 15
-date: '2027-05-02 14:00'
+departures:
+  - '2027-05-02'
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'

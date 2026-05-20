@@ -7,7 +7,8 @@ region: 'Italian Alps'
 days: 10
 grade: 5
 tour_size: 12
-date: '2027-08-21 14:00'
+departures:
+  - '2027-08-21'
 inclusions:
   - '9 nights in comfortable accommodation'
   - 'Breakfast, lunch, and dinner daily (with wine)'

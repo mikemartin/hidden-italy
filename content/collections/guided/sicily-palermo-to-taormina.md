@@ -437,5 +437,6 @@ inclusions:
   - 'Services of a full-time professional tour guide'
 price: 'A$10,490'
 show_from: true
-date: '2027-04-29 14:00'
+departures:
+  - '2027-04-29'
 ---

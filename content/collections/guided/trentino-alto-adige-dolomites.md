@@ -410,5 +410,6 @@ summary:
         text: "Starting in Verona, this exciting small-group tour in the Dolomites takes you through the most beautiful mountains in the world. \_Its well-marked trails, charming villages and mountain huts provide some of the finest walking in Europe. \_"
 price: 'A$9,450'
 show_from: true
-date: '2027-09-16 14:00'
+departures:
+  - '2027-09-16'
 ---

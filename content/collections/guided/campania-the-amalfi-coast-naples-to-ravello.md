@@ -414,5 +414,6 @@ summary:
         text: 'The Romans called the region around Naples ‘Campania Felix’ or the ‘happy lands’. With its rich history, spectacular coastline and fertile interior, Campania has much to be happy about: a stunningly beautiful area with endless surprises and all the exuberance and colour of southern Italy.'
 price: 'A$9,990'
 show_from: true
-date: '2027-05-09 14:00'
+departures:
+  - '2027-05-09'
 ---

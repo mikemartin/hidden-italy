@@ -193,10 +193,13 @@ tabs:
         display: Availability
         fields:
           -
-            handle: date
+            handle: departures
             field:
               type: date
-              display: Date
+              display: Departures
+              mode: multiple
+              time_enabled: false
+              instructions: 'Scheduled departure dates for this tour. Past dates are hidden from the site automatically.'
           -
             handle: now_open
             field:

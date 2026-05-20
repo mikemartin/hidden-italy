@@ -105,6 +105,7 @@ return [
     // Tour overview
     'tours' => 'Tours',
     'next_available' => 'Next available',
+    'further_departures' => 'Further departures',
     'duration' => 'Duration',
     'season' => 'Season',
     'tour_size' => 'Tour size',
