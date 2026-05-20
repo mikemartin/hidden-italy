@@ -1,10 +1,12 @@
 ---
 id: 2e19ce5a-c9c8-4a40-94ca-868608999b10
 blueprint: testimonial
-title: 'Sicily 1 testimonial'
+title: 'The most amazing hike!!'
 quote: 'We just want to thank you so much for the most amazing hike in Sicily!! It was just fantastic!! This was our first visit to Sicily, and it was just amazing. Such a great experience.  We were so surprised at the beautiful scenery in the Madonie National Park, stunning wildflowers, trees, and mountains and we loved the villages we stayed in.  All our accommodation offered such a great variety of experiences, and the hosts were so friendly and welcoming! Excellent food wherever we went.  We would like to say a very special, huge thank you to Nuccio, our driver. He was amazing! Amazing! So incredibly helpful, friendly, welcoming, generous and so informative. He really gave us a fantastic, true Sicilian experience!  Thank you so much, Nuccio. We learnt so much about Sicily from you. Can’t wait to go back again.  Our very sincere thanks and appreciation to you Simon and the rest of the team.  Looking forward to our next Hidden Italy Walk.'
 name: 'David H'
 tour: 9b40b14d-a9c5-43b5-ae27-eeb883bc2c34
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776840952
+updated_by: 2
+updated_at: 1779267959
+rating: 5
+source: direct
 ---
