@@ -1,12 +1,12 @@
 ---
 id: 43c82038-3f21-4148-8641-024253f68420
 blueprint: tour
-title: 'Lazio-Campobasso - Abruzzo and Molise'
-name: 'Abruzzo and Molise'
-region: Lazio-Campobasso
+title: 'Abruzzo and Molise - From the mountians to the sea'
+name: 'From the mountians to the sea'
+region: 'Abruzzo and Molise'
 days: 13
-updated_by: 3
-updated_at: 1779169811
+updated_by: 2
+updated_at: 1779298110
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
@@ -334,7 +334,7 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 seasons: spring
-image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2869.jpg
+image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea/11-capracotta-1773021187.jpg
 gallery:
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/img_2777.jpg
   - tours/abruzzo-and-molise-from-the-mountains-to-the-sea/rome-2.jpg
