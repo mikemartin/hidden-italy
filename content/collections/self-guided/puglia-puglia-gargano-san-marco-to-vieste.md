@@ -6,13 +6,13 @@ name: 'Puglia: the Gargano Peninsula'
 region: Puglia
 days: 8
 updated_by: 4
-updated_at: 1779319420
+updated_at: 1779319774
 grade: 4
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
   - 'Private transfer from Vieste to Foggia on Day 8'
-  - 'Seven nights’ accommodation'
-  - 'All breakfasts and dinners included'
+  - 'Seven nights accommodation'
+  - 'All breakfasts and dinners'
   - 'Reading lists and historical and cultural notes'
   - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
@@ -36,14 +36,14 @@ page_builder:
         content:
           -
             type: text
-            text: "The tour starts with a private transfer from the nearby town of Foggia to a small town perched on the western end of the Gargano peninsula.\_ You then follow pilgrim trails through farmlands and the Foresta Umbra, an ancient beech forest, before a spectacular descent down to the sea, finishing at the dramatically located town of Vieste, where you’ll spend the final two days, which includes a morning tour in a private boat exploring some of the most beautiful coastline in southern Italy.  You'll be transferred back to Foggia on the last day.  Breakfast and dinners are included each day."
+            text: "The tour starts with a private transfer from the nearby town of Foggia to a small town perched on the western end of the Gargano peninsula.\_You then follow pilgrim trails through farmlands and the Foresta Umbra, an ancient beech forest, before a spectacular descent down to the sea, finishing at the dramatically located town of Vieste, where you’ll spend the final two days, which includes a morning tour in a private boat exploring some of the most beautiful coastline in southern Italy."
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "This is a marvellous walker's walk, a very satisfying exploration of an area that few foreigners visit!"
+            text: " You'll be transferred back to Foggia on the last day.  Breakfast and dinner are included each day. This is a marvellous walker's walk, a very satisfying exploration of an area that few foreigners visit!"
     title: 'Pilgrim trails to the sea'
     images:
       - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_2799.jpg
