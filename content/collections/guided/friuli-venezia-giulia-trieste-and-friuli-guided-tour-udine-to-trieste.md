@@ -5,8 +5,8 @@ title: 'Friuli Venezia Giulia - Trieste and Friuli'
 name: 'Trieste and Friuli'
 region: 'Friuli Venezia Giulia'
 days: 13
-updated_by: 3
-updated_at: 1779170703
+updated_by: 2
+updated_at: 1779262898
 grade: 4
 inclusions:
   - '12 night’s accommodation (see the itinerary for details) in excellent boutique hotels'
@@ -399,7 +399,7 @@ finish_location:
       level: 2
   country: Italy
 now_open: false
-headline: '13 days across 3 borders, 4 national parks'
+headline: "13 days exploring Italy's most diverse region"
 teaser: 'A special tour to a fascinating region: 3 borders, 4 national parks; and five languages.'
 summary:
   -
