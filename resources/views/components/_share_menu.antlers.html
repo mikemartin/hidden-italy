@@ -39,6 +39,14 @@
     @param compact    If true, renders the round 44×44 icon-only trigger
                       that matches the mobile breadcrumb's Menu/Close pill.
                       Otherwise renders the labelled `.button-inline` trigger.
+    @param align      Optional — "start" (default) or "end". Describes
+                      where the share trigger sits in its parent
+                      container. Set to "end" when the trigger is anchored
+                      to the trailing edge (e.g. the tour summary actions'
+                      `lg:justify-end` row, or the compact actions inside
+                      the breadcrumb's `justify-between`), so the "Copied!"
+                      badge appears on the leading side of the trigger
+                      rather than pushing further outboard.
 #}}
 
 {{# Resolve the per-channel strings from the caller's params. `text` and
@@ -72,7 +80,7 @@
 <div
     x-data="{ copied: false }"
     @copy-success="copied = true; setTimeout(() => copied = false, 2000)"
-    class="inline-flex items-center gap-2"
+    class="inline-flex items-center gap-2 {{ if align == 'end' }}flex-row-reverse{{ /if }}"
 >
     <x-flux::dropdown align="end">
         {{ if compact }}
