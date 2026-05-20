@@ -6,7 +6,7 @@ name: 'Cammino of St Francis:  Lazio'
 region: Lazio
 days: 8
 updated_by: 2
-updated_at: 1779273413
+updated_at: 1779301819
 grade: 3
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
@@ -352,7 +352,7 @@ finish_location:
 now_open: false
 seasons:
   - autumn
-headline: '8 days from the green hills to Rome'
+headline: '8 days from Rieti to Rome'
 teaser: 'From the quiet green hills of central Italy to the steps of St Peters in the heart of Rome'
 summary:
   -
