@@ -59,7 +59,7 @@
                                 {{ children }}
                                     <a
                                         href="{{ url }}"
-                                        {{ if url | starts_with:'http' }}
+                                        {{ if url | is_external_url }}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         {{ /if }}
@@ -132,7 +132,7 @@
                         {{ nav:footer_legal }}
                             <a
                                 href="{{ url }}"
-                                {{ if url | starts_with:'http' }}
+                                {{ if url | is_external_url }}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 {{ /if }}

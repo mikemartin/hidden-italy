@@ -87,7 +87,7 @@
                                 :aria-expanded="subnavOpen"
                             {{ else }}
                                 href="{{ url }}"
-                                {{ if url | starts_with:'http' }}
+                                {{ if url | is_external_url }}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 {{ elseif url != '/contact' }}
@@ -121,7 +121,7 @@
                                                 {{ is_current || is_parent ? 'text-white underline underline-offset-4 decoration-gold' : 'text-white/80' }}
                                             "
                                             href="{{ url }}"
-                                            {{ if url | starts_with:'http' }}
+                                            {{ if url | is_external_url }}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                             {{ elseif url != '/contact' }}
