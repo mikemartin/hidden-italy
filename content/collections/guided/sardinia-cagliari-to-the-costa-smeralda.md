@@ -7,7 +7,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: 2
-updated_at: 1779300163
+updated_at: 1779300234
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
@@ -243,7 +243,7 @@ page_builder:
     hide_from_subnav: false
   -
     id: epqs5W12xV-6rmil51__o
-    title: 'Sardina in the Spring'
+    title: 'Sardinia in the Spring'
     tabs:
       -
         id: fNQh20jsh9lDQRHXc18jv
