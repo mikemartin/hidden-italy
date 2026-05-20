@@ -7,7 +7,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: 2
-updated_at: 1779299996
+updated_at: 1779300163
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
@@ -19,7 +19,7 @@ inclusions:
   - 'All paid admissions during the tour'
   - '7 guided walks'
   - 'Services of a full-time professional tour guide'
-image: tours/sardinia-cagliari-to-the-costa-smeralda/38.6.jpg
+image: tours/sardinia-cagliari-to-the-costa-smeralda/-38.6.jpg
 gallery:
   - tours/sardinia-cagliari-to-the-costa-smeralda/02.jpg
   - tours/sardinia-cagliari-to-the-costa-smeralda/16.jpg
