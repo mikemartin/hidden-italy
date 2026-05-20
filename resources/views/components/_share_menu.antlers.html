@@ -63,65 +63,80 @@
         window.shareMenuCopyText = null;
     {{ /if }}
 </script>
-<x-flux::dropdown align="end">
-    {{ if compact }}
-        <button
-            type="button"
-            aria-label="{{ trans:strings.share ?? 'Share' }}"
-            class="-my-1 -mr-1 inline-flex items-center justify-center w-11 h-11 rounded-full text-foreground hover:bg-parchment-400/25 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-        >
-            <x-lucide-share class="size-6" stroke-width="1.75" aria-hidden="true" />
-        </button>
-    {{ else }}
-        <button type="button" class="button-inline button-inline--dark button-inline--small">
-            <x-lucide-share aria-hidden="true" />
-            <span>{{ trans:strings.share ?? 'Share' }}</span>
-        </button>
-    {{ /if }}
 
-    <x-flux::menu>
-        {{# Build the mail:share href once with whichever of `subject` /
-            `body` were passed in. The addon treats missing params as
-            defaults, so we only forward what's set instead of emitting
-            empty strings that would clobber its fallbacks. #}}
-        <x-flux::menu.item icon="envelope" href="{{ if subject && body }}{{ social:mail:share subject='{subject}' body='{body}' }}{{ elseif subject }}{{ social:mail:share subject='{subject}' }}{{ elseif body }}{{ social:mail:share body='{body}' }}{{ else }}{{ social:mail:share }}{{ /if }}">
-            {{ trans:strings.share_via_email }}
-        </x-flux::menu.item>
+{{# Outer x-data scope listens for the `copy-success` event the Copy-link
+    item dispatches on a successful clipboard write — Flux closes the menu
+    on click, so the success state lives on a sibling of the trigger
+    rather than inside the menu where it would never be seen. The event
+    bubbles up the DOM tree from the menu item (popover="manual" only
+    moves the menu into the top layer for stacking, the DOM tree position
+    is unchanged), so a local listener here is enough; no need for
+    `.window`. #}}
+<div
+    x-data="{ copied: false }"
+    @copy-success="copied = true; setTimeout(() => copied = false, 2000)"
+    class="inline-flex items-center gap-2"
+>
+    <x-flux::dropdown align="end">
+        {{ if compact }}
+            <button
+                type="button"
+                aria-label="{{ trans:strings.share ?? 'Share' }}"
+                class="-my-1 -mr-1 inline-flex items-center justify-center w-11 h-11 rounded-full text-foreground hover:bg-parchment-400/25 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+            >
+                <x-lucide-share class="size-6" stroke-width="1.75" aria-hidden="true" />
+            </button>
+        {{ else }}
+            <button type="button" class="button-inline button-inline--dark button-inline--small">
+                <x-lucide-share aria-hidden="true" />
+                <span>{{ trans:strings.share ?? 'Share' }}</span>
+            </button>
+        {{ /if }}
 
-        <x-flux::menu.item icon="facebook" href="{{ social:facebook:share text='{share_text}' }}" target="_blank" rel="noopener noreferrer">
-            {{ trans:strings.share_via_facebook }}
-        </x-flux::menu.item>
+        <x-flux::menu>
+            {{# Build the mail:share href once with whichever of `subject` /
+                `body` were passed in. The addon treats missing params as
+                defaults, so we only forward what's set instead of emitting
+                empty strings that would clobber its fallbacks. #}}
+            <x-flux::menu.item icon="envelope" href="{{ if subject && body }}{{ social:mail:share subject='{subject}' body='{body}' }}{{ elseif subject }}{{ social:mail:share subject='{subject}' }}{{ elseif body }}{{ social:mail:share body='{body}' }}{{ else }}{{ social:mail:share }}{{ /if }}">
+                {{ trans:strings.share_via_email }}
+            </x-flux::menu.item>
 
-        {{# WhatsApp: the addon only ships the URL, so when a share message
-            is available we bypass `social:whatsapp:share` and write
-            wa.me's `?text=` query string ourselves. Otherwise fall back
-            to the addon (URL-only behaviour). #}}
-        <x-flux::menu.item icon="whatsapp" href="{{ if share_text }}https://wa.me/?text={{ share_text | urlencode }}{{ else }}{{ social:whatsapp:share }}{{ /if }}" target="_blank" rel="noopener noreferrer">
-            {{ trans:strings.share_via_whatsapp }}
-        </x-flux::menu.item>
+            <x-flux::menu.item icon="facebook" href="{{ social:facebook:share text='{share_text}' }}" target="_blank" rel="noopener noreferrer">
+                {{ trans:strings.share_via_facebook }}
+            </x-flux::menu.item>
 
-        <x-flux::menu.separator />
+            {{# WhatsApp: the addon only ships the URL, so when a share message
+                is available we bypass `social:whatsapp:share` and write
+                wa.me's `?text=` query string ourselves. Otherwise fall back
+                to the addon (URL-only behaviour). #}}
+            <x-flux::menu.item icon="whatsapp" href="{{ if share_text }}https://wa.me/?text={{ share_text | urlencode }}{{ else }}{{ social:whatsapp:share }}{{ /if }}" target="_blank" rel="noopener noreferrer">
+                {{ trans:strings.share_via_whatsapp }}
+            </x-flux::menu.item>
 
-        {{# Copy link — Alpine state lives on the menu item itself so it
-            survives the popover top-layer that detaches Flux's `ui-menu`
-            from the dropdown's scope chain. The clipboard helper resolves
-            to a boolean so we only flip to the success state on a real
-            write; the timer resets the icon + label after 2s. If Flux
-            ends up closing the menu on click before the swap is visible,
-            the toast still confirms — and we can move the success state
-            onto the Share trigger button. #}}
-        <x-flux::menu.item
-            x-data="{ copied: false }"
-            x-on:click="window.shareMenuCopyLink().then(ok => { if (ok) { copied = true; setTimeout(() => copied = false, 2000); } })"
-        >
-            <x-slot:icon>
-                <x-lucide-link x-show="!copied" class="size-4" stroke-width="1.75" aria-hidden="true" />
-                <x-lucide-check x-show="copied" x-cloak class="size-4" stroke-width="2" aria-hidden="true" />
-            </x-slot:icon>
-            <span x-text="copied ? '{{ trans:strings.copied }}' : '{{ trans:strings.copy_link }}'">{{ trans:strings.copy_link }}</span>
-        </x-flux::menu.item>
-    </x-flux::menu>
-</x-flux::dropdown>
+            <x-flux::menu.separator />
+
+            {{# On a successful copy, dispatch `copy-success` so the sibling
+                "Copied!" pill outside the dropdown can flash. The toast
+                still fires (universal feedback at the bottom of the
+                viewport) — the pill is the contextual cue right next to
+                the share trigger. #}}
+            <x-flux::menu.item icon="link" x-on:click="window.shareMenuCopyLink().then(ok => ok && $dispatch('copy-success'))">
+                {{ trans:strings.copy_link }}
+            </x-flux::menu.item>
+        </x-flux::menu>
+    </x-flux::dropdown>
+
+    <span
+        x-show="copied"
+        x-transition.opacity.duration.200ms
+        x-cloak
+        aria-live="polite"
+        class="font-sans text-sm font-medium text-foreground whitespace-nowrap"
+    >
+        {{ trans:strings.copied }}
+    </span>
+</div>
 
 {{ once }}
     {{ push:scripts }}
