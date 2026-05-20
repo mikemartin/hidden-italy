@@ -1,12 +1,12 @@
 ---
 id: 9b40b14d-a9c5-43b5-ae27-eeb883bc2c34
 blueprint: tour
-title: 'Sicily - Sicily 1'
-name: 'Sicily 1'
+title: 'Sicily - Sicily 1: the Madonie Mountains'
+name: 'Sicily 1: the Madonie Mountains'
 region: Sicily
 days: 7
 updated_by: 2
-updated_at: 1779268068
+updated_at: 1779268545
 grade: 3
 inclusions:
   - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
