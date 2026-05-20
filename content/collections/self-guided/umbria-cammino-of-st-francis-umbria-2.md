@@ -5,8 +5,8 @@ title: 'Umbria - Cammino of St Francis:  Umbria 2'
 name: 'Cammino of St Francis:  Umbria 2'
 region: Umbria
 days: 7
-updated_by: 3
-updated_at: 1779175812
+updated_by: 2
+updated_at: 1779272763
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -323,20 +323,20 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-image: tours/umbria-cammino-of-st-francis-umbria-2/1.jpg
+image: tours/umbria-cammino-of-st-francis-umbria-2/5.jpg
 gallery:
   - tours/umbria-cammino-of-st-francis-umbria-2/1.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2/2.5.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/t.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2/2.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/5.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/p4280723-a.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/7.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/14.4.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/8.7.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2/7.6.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/f1020015.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/img_5356.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/14.8.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/7.5.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2/img_5360.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/img_5409.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/14.8.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/7.jpg
+  - tours/umbria-cammino-of-st-francis-umbria-2/15.jpg
 start_location:
   label: 'Spoleto, Umbria, Italy'
   lat: '42.7342971'
@@ -383,4 +383,5 @@ summary:
         text: "The second section of the Cammino of St Francis, this lovey, week-long walk takes you through 'the green heart of Italy'.  Leaving Spoleto via the 13th century Ponte delle Torri bridge, you finish a week later, staying in a lovely 3-star hotel in the centre of the ancient town of Rieti.\_ "
 price: 'A$2,350'
 show_from: true
+availability_text: "Part of the three-week 'Cammino of St Francis': Assisi to Rome"
 ---
