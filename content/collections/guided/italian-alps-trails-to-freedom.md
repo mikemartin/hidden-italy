@@ -357,7 +357,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 2
-updated_at: 1779298546
+updated_at: 1779298589
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
@@ -371,7 +371,7 @@ gallery:
   - tours/italian-alps-trails-to-freedom/10.jpg
   - tours/italian-alps-trails-to-freedom/dscf0276.jpg
   - tours/italian-alps-trails-to-freedom/p8270231.jpg
-image: tours/italian-alps-trails-to-freedom/p8270231.jpg
+image: tours/italian-alps-trails-to-freedom/12.jpg
 simple_likes: 0
 start_location:
   label: 'Biella, Piedmont, Italy'
