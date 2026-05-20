@@ -6,7 +6,7 @@ name: 'The Dolomites 1'
 region: 'Trentino-Alto Adige'
 days: 6
 updated_by: 2
-updated_at: 1779269910
+updated_at: 1779269974
 grade: 4
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
@@ -83,15 +83,15 @@ page_builder:
         summary: 'Indulge your senses with very generous breakfasts and 3-course, alla carte dinners, included for each day of the tour.'
         icon: 'wine-wine bottle.svg'
       -
-        id: mmbinilb
-        title: 'Relax and enjoy your holiday'
-        summary: 'Everything organised: you are transferred from and back to Bolzano; you have maps and an App; and 24-hour local support.'
-        icon: culture-champagne.svg
-      -
         id: Canak7fbd_CbaMkLt6Qhl
         title: 'Get to know the Ladini'
         summary: '85% of the population of the valley you visit are proudly descended from the Ladini the original people of the Dolomites'
         icon: switzerland-edelweiss.svg
+      -
+        id: mmbinilb
+        title: 'Relax and enjoy your holiday'
+        summary: 'Everything organised: you are transferred from and back to Bolzano; you have maps and an App; and 24-hour local support.'
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
     section_background: light
