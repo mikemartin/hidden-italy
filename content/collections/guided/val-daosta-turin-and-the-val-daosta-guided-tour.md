@@ -6,7 +6,7 @@ name: "Turin and Val d'Aosta"
 region: "Val d'Aosta"
 days: 13
 updated_by: 2
-updated_at: 1779301257
+updated_at: 1779301357
 grade: 4
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -390,7 +390,7 @@ finish_location:
       code: null
       level: 1
   country: Italy
-image: tours/val-daosta-turin-and-the-val-daosta-guided-tour/-val-ferret-2.jpg
+image: tours/val-daosta-turin-and-the-val-daosta-guided-tour/-val-ferret-3.jpg
 teaser: "Two weeks exploring the Val d'Aosta, Italy's smallest, but most spectacular, region!"
 summary:
   -
