@@ -5,8 +5,8 @@ title: 'Trentino-Alto Adige - Verona and the Dolomites in Autumn'
 name: 'Verona and the Dolomites in Autumn'
 region: 'Trentino-Alto Adige'
 days: 13
-updated_by: 3
-updated_at: 1779170776
+updated_by: 2
+updated_at: 1779264700
 locations: northern-italy
 grade: 3
 image: tours/trentino-alto-adige-dolomites/804729994-100.jpg
