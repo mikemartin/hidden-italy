@@ -6,7 +6,7 @@ name: 'Umbria Classic'
 region: Umbria
 days: 7
 updated_by: 2
-updated_at: 1779273520
+updated_at: 1779274294
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -48,7 +48,7 @@ page_builder:
           -
             type: text
             text: 'What more could you ask for?'
-    title: 'Through the alluring Valle Umbra'
+    title: 'Across the Valle Umbra'
     images:
       - tours/umbria-cammino-of-st-francis-umbria-2-1/borgo-della-marmotta-1.jpg
       - tours/umbria-cammino-of-st-francis-umbria-2-1/clitumno-2089647_1920.jpg
@@ -203,6 +203,8 @@ page_builder:
                 text: "Hidden Italy uses the best accommodation available and the accommodation is one of the highlights of this walk: \_including centrally-located hotels in recently restored historical buildings that are themselves part of the history of the towns and a beautifully restored country estate with a swimming pool and its own olive groves and vineyards."
         type: accommodation
         enabled: true
+        media:
+          - tours/umbria-umbria-classic-assisi-to-spoleto/borgo-della-marmotta-1.jpg
       -
         id: 1grdU8mk7fgoQdVPvS6M6
         title: 'Authentic food'
@@ -222,8 +224,6 @@ page_builder:
                   -
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
-        media:
-          - tours/img_5261.jpg
         type: food
         enabled: true
     type: experience
@@ -330,7 +330,7 @@ gallery:
 now_open: false
 seasons:
   - spring
-headline: '7 days walking the best of Umbria'
+headline: 'Enjoying the best of Umbria'
 start_location:
   label: 'Spoleto, Umbria, Italy'
   lat: '42.7342971'
