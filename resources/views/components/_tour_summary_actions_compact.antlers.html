@@ -12,7 +12,10 @@
 
 <!-- /components/_tour_summary_actions_compact.antlers.html -->
 <div class="flex items-center gap-1">
-    {{ partial:components/share_menu compact="true" }}
+    {{ partial:components/share_menu
+        compact="true"
+        body="Take a look at this Hidden Italy {name} tour I discovered. {permalink}"
+    }}
 
     {{# Save piggy-backs on Simple Likes via a compact template so saved
         state syncs with the wishlist drawer through the addon's store. #}}

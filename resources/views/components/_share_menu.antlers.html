@@ -19,6 +19,11 @@
     @param text     Optional — passed to channels that accept it (Twitter
                     `text`, Facebook `text`, LinkedIn `text`). Use the
                     article lead or a short tour summary.
+    @param body     Optional — passed as the mailto body. Include the
+                    permalink via `{permalink}` if you want the recipient
+                    to receive the URL (the addon doesn't auto-append it
+                    when `body` is set). Falls back to the addon's
+                    default (URL only) when omitted.
     @param compact  If true, renders the round 44×44 icon-only trigger that
                     matches the mobile breadcrumb's Menu/Close pill.
                     Otherwise renders the labelled `.button-inline` trigger.
@@ -43,7 +48,7 @@
     {{ /if }}
 
     <x-flux::menu>
-        <x-flux::menu.item icon="envelope" href="{{ social:mail:share }}">
+        <x-flux::menu.item icon="envelope" href="{{ if body }}{{ social:mail:share body='{body}' }}{{ else }}{{ social:mail:share }}{{ /if }}">
             {{ trans:strings.share_via_email }}
         </x-flux::menu.item>
 
