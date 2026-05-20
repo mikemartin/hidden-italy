@@ -5,8 +5,8 @@ title: 'Tuscany and Umbria - La Tuscia'
 name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 8
-updated_by: 3
-updated_at: 1779175686
+updated_by: 2
+updated_at: 1779271053
 grade: 3
 inclusions:
   - 'Pick-up from Rome and transfer to Pitigliano on Day 1'
@@ -332,7 +332,7 @@ gallery:
 now_open: false
 seasons:
   - spring
-headline: '8 days walking through hidden Tuscia'
+headline: 'Walking through hidden Italy'
 start_location:
   label: 'Pitigliano, Tuscany, Italy'
   lat: '42.634827'
