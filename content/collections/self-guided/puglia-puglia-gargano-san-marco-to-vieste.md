@@ -6,7 +6,7 @@ name: 'Puglia: the Gargano Peninsula'
 region: Puglia
 days: 8
 updated_by: 4
-updated_at: 1779319774
+updated_at: 1779320871
 grade: 4
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
@@ -116,7 +116,7 @@ page_builder:
         id: mlop159i
         title: "Walk to Monte Sant'Angelo"
         description: |-
-          Today you pick up the Lombard pilgrim trail again and continue along the peninsula, passing through beautiful farmlands to one of the most important medieval sanctuaries in southern Italy.  Although dating from the 5th century, it was the Normans, on their way to Jerusalem in the 11th century, who placed the site on the map.   Along the way you have more spectacular views south over the coast.  
+          Today you pick up the Lombard pilgrim trail again and continue along the peninsula, passing through beautiful farmlands to one of the most important medieval sanctuaries in southern Italy. Although dating from the 5th century, it was the Normans, on their way to Jerusalem in the 11th century, who placed the site on the map. Along the way you have more spectacular views south over the coast.  
           With notice, this walk can be shortened by 8 kms (approximately 2 hours walking).
         duration: 5
         distance: 22
@@ -126,10 +126,10 @@ page_builder:
         photo: tours/puglia-puglia-gargano-san-marco-to-vieste/2.6.jpg
       -
         id: mlop3c5r
-        title: 'Stay on a family-run agriturismo'
+        title: 'Explore Foresta Umbra'
         description: |-
           The walk today picks up another pilgrim route (dedicated to St Michael) which you through the Foresta Umbra (an ancient beech forest which was recently listed with UNESCO) to a beautiful ‘agriturismo’ that sits under Monte Sacro, the ‘sacred mountain’. 
-          The walk follows mostly unsealed country lanes to your accommodation.  The agriturismo is family-run, serves fine food and has a swimming pool.  Another long but rewarding day.
+          The walk follows mostly unsealed country lanes to your accommodation. This agriturismo offers a uniquely peaceful pause on your self‑guided journey through Puglia. Alongside its authentic and traditional hospitality, you’ll find a warm, restorative and mindful atmosphere. To support this wellness‑focused environment, the property does not serve alcohol, and kindly requests that no alcohol be consumed on site. Another long but rewarding day.
         duration: 5
         distance: 16
         elevation: 369
