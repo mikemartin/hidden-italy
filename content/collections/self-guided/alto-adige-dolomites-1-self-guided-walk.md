@@ -6,7 +6,7 @@ name: 'The Dolomites 1'
 region: 'Trentino-Alto Adige'
 days: 6
 updated_by: 2
-updated_at: 1779269737
+updated_at: 1779269784
 grade: 4
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
@@ -52,7 +52,7 @@ page_builder:
             text: "On Day 1 you’ll be met in charming Bolzano, the capital of the South Tyrol and an important stop on the main Verona/Innsbruck train line, and driven to the spectacular valley an hour away.\_ This valley is one of the prettiest in the ‘Ladino’ heartland of the Dolomite mountains and you will be your base for the next five nights.  You will be driven back to Bolzano on Day 6."
       -
         type: paragraph
-    title: 'Amongst the most beautiful in the world'
+    title: 'The most beautiful in the world'
     images:
       - tours/alto-adige-dolomites-1-self-guided-walk/sassolungo-with-horse-1773020028.jpg
       - tours/alto-adige-dolomites-1-self-guided-walk/img_1570-1773020174.jpg
