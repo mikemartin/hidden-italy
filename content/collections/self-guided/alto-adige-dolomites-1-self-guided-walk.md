@@ -6,7 +6,7 @@ name: 'The Dolomites 1'
 region: 'Trentino-Alto Adige'
 days: 6
 updated_by: 2
-updated_at: 1779269850
+updated_at: 1779269910
 grade: 4
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
