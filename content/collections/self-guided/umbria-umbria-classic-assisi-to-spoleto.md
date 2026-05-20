@@ -6,7 +6,7 @@ name: 'Umbria Classic'
 region: Umbria
 days: 7
 updated_by: 2
-updated_at: 1779274294
+updated_at: 1779274430
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -226,6 +226,8 @@ page_builder:
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
         type: food
         enabled: true
+        media:
+          - tours/umbria-umbria-classic-assisi-to-spoleto/pexels-magda-ehlers-pexels-15247977.jpg
     type: experience
     enabled: true
     section_background: dark
