@@ -6,7 +6,7 @@ quote: 'Hi Simon. Just a short note to tell you about our experience.  The walk 
 name: 'Anthony K'
 tour: 94b14cda-124a-4b87-82f5-7bc566ac2edf
 updated_by: 2
-updated_at: 1779271026
+updated_at: 1779271047
 rating: 5
 source: direct
 ---
