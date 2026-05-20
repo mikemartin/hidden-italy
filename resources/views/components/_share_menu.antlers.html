@@ -102,8 +102,23 @@
 
         <x-flux::menu.separator />
 
-        <x-flux::menu.item icon="link" x-on:click="window.shareMenuCopyLink()">
-            {{ trans:strings.copy_link }}
+        {{# Copy link — Alpine state lives on the menu item itself so it
+            survives the popover top-layer that detaches Flux's `ui-menu`
+            from the dropdown's scope chain. The clipboard helper resolves
+            to a boolean so we only flip to the success state on a real
+            write; the timer resets the icon + label after 2s. If Flux
+            ends up closing the menu on click before the swap is visible,
+            the toast still confirms — and we can move the success state
+            onto the Share trigger button. #}}
+        <x-flux::menu.item
+            x-data="{ copied: false }"
+            x-on:click="window.shareMenuCopyLink().then(ok => { if (ok) { copied = true; setTimeout(() => copied = false, 2000); } })"
+        >
+            <x-slot:icon>
+                <x-lucide-link x-show="!copied" class="size-4" stroke-width="1.75" aria-hidden="true" />
+                <x-lucide-check x-show="copied" x-cloak class="size-4" stroke-width="2" aria-hidden="true" />
+            </x-slot:icon>
+            <span x-text="copied ? '{{ trans:strings.copied }}' : '{{ trans:strings.copy_link }}'">{{ trans:strings.copy_link }}</span>
         </x-flux::menu.item>
     </x-flux::menu>
 </x-flux::dropdown>
@@ -118,17 +133,18 @@
                         await navigator.clipboard.writeText(value);
                     } catch (e) {
                         console.error('share menu: clipboard write failed', e);
-                        return;
+                        return false;
                     }
-                    if (!window.Flux) {
+                    if (window.Flux) {
+                        window.Flux.toast({
+                            text: window.shareMenuCopiedText || 'Copied!',
+                            variant: 'success',
+                            duration: 2000,
+                        });
+                    } else {
                         console.error('share menu: window.Flux not available');
-                        return;
                     }
-                    window.Flux.toast({
-                        text: window.shareMenuCopiedText || 'Copied!',
-                        variant: 'success',
-                        duration: 2000,
-                    });
+                    return true;
                 };
             </script>
         {{ /noparse }}
