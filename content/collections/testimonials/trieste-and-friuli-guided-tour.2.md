@@ -6,7 +6,7 @@ quote: "Again, just wanted to say how much we thoroughly enjoyed your tour and i
 name: 'Val and Aldo D'
 tour: 9fd38ab4-55ef-435d-82cc-d9246de83cc3
 updated_by: 2
-updated_at: 1779297590
+updated_at: 1779297594
 rating: 5
 source: direct
 ---
