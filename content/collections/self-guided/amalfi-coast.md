@@ -6,7 +6,7 @@ name: 'Amalfi Coast'
 region: Campania
 days: 6
 updated_by: 2
-updated_at: 1779301631
+updated_at: 1779301689
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
@@ -26,7 +26,7 @@ landscapes:
 page_builder:
   -
     id: amlfiovrvw01
-    title: "The most spectacular coast on the Med'"
+    title: 'The most spectacular coast on the Mediterranean'
     column_left:
       -
         type: paragraph
