@@ -100,13 +100,6 @@
             {{ partial:layout/back_to_top }}
         {{ /if }}
 
-        {{# TEMPORARY — client-preview overlay opacity control. Remove this
-            line and delete `layout/_overlay_control.antlers.html` once the
-            client has picked a value. #}}
-        {{ if logged_in }}
-            {{# partial:layout/overlay_control #}}
-        {{ /if }}
-
         <x-flux::toast.group position="bottom center">
             <x-flux::toast />
         </x-flux::toast.group>
