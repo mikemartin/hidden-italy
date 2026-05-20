@@ -2,9 +2,11 @@
 id: 966a5684-0228-4341-8790-8ef4f90f52dc
 blueprint: testimonial
 title: 'Thank you!'
-quote: 'Thank you, Simon we feel, so very blessed and honoured to have been able to do Trails to Freedom, better still to really share it with Dad at home. The phone conversation I had with him as we finished the walk from the train platform in Domodossola is one of my most favourite moments.  As he heard my voice he started to sing, “You made it, you made it, you made it!”  Beautiful memories for sure. Thank you, without you and Hidden Italy we could never have had all those amazing experiences and adventure.'
-name: 'Tricia B'
+quote: 'I frequently look back with the greatest pleasure on the seven self-guided walks I undertook under the fine guidance of Hidden Italy… While my first walk with you along the Cinque Terre was a wonderful introduction to Hidden Italy’s finely constructed walks, I think the pick of them all was La Tuscia, starting from that extraordinary town Pitigliano. But having written that observation I immediately start thinking of the pleasure enjoyed in all the other walks.  I have spoken warmly about Hidden Italy to many people and hope they had the good sense to turn to you.'
+name: 'Milton O'
 tour: 0d717011-26fe-4d13-89f4-a0739f966e3d
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1776827329
+updated_by: 2
+updated_at: 1779261835
+rating: 5
+source: direct
 ---
