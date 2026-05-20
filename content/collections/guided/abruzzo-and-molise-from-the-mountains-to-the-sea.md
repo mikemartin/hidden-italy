@@ -6,7 +6,7 @@ name: 'Abruzzo and Molise in Spring'
 region: 'Abruzzo and Molise'
 days: 13
 updated_by: 2
-updated_at: 1779298194
+updated_at: 1779298227
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
@@ -380,7 +380,7 @@ finish_location:
       level: 2
   country: Italy
 now_open: false
-headline: '13 days from the mountains to the sea'
+headline: 'From the mountains to the sea'
 teaser: 'Exclusive small-group tour to two of the most beautiful and least-visited Italian regions!'
 summary:
   -
