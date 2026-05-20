@@ -24,6 +24,8 @@
                     to receive the URL (the addon doesn't auto-append it
                     when `body` is set). Falls back to the addon's
                     default (URL only) when omitted.
+    @param subject  Optional — passed as the mailto subject. Falls back
+                    to the addon's default (empty) when omitted.
     @param compact  If true, renders the round 44×44 icon-only trigger that
                     matches the mobile breadcrumb's Menu/Close pill.
                     Otherwise renders the labelled `.button-inline` trigger.
@@ -48,7 +50,11 @@
     {{ /if }}
 
     <x-flux::menu>
-        <x-flux::menu.item icon="envelope" href="{{ if body }}{{ social:mail:share body='{body}' }}{{ else }}{{ social:mail:share }}{{ /if }}">
+        {{# Build the mail:share href once with whichever of `subject` /
+            `body` were passed in. The addon treats missing params as
+            defaults, so we only forward what's set instead of emitting
+            empty strings that would clobber its fallbacks. #}}
+        <x-flux::menu.item icon="envelope" href="{{ if subject && body }}{{ social:mail:share subject='{subject}' body='{body}' }}{{ elseif subject }}{{ social:mail:share subject='{subject}' }}{{ elseif body }}{{ social:mail:share body='{body}' }}{{ else }}{{ social:mail:share }}{{ /if }}">
             {{ trans:strings.share_via_email }}
         </x-flux::menu.item>
 
