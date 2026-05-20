@@ -5,8 +5,8 @@ title: "Val d'Aosta - Valley del Lys"
 name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
-updated_by: 3
-updated_at: 1779175721
+updated_by: 2
+updated_at: 1779274861
 grade: 4
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
@@ -84,7 +84,7 @@ page_builder:
         icon: bakery-bread.svg
       -
         id: mlrc9yr3
-        title: 'Be intriguedd by the history'
+        title: 'Be intrigued by the history'
         summary: 'The valley was settled a German-speaking people in 13th century.  Their traditions and stories are still alive and well!'
         icon: culture-Colosseum.svg
       -
@@ -391,7 +391,7 @@ page_builder:
 locations: northern-italy
 landscapes:
   - mountains
-image: tours/val-daosta-valley-del-lys/7.jpg
+image: tours/val-daosta-valley-del-lys/-valley-del-lys-v2.jpeg
 gallery:
   - tours/val-daosta-valley-del-lys/1.jpg
   - tours/val-daosta-valley-del-lys/2.jpg
