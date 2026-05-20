@@ -6,10 +6,10 @@ name: 'Verona and the Dolomites in Autumn'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: 2
-updated_at: 1779300578
+updated_at: 1779300678
 locations: northern-italy
 grade: 3
-image: tours/trentino-alto-adige-dolomites/-p9171981.jpg
+image: tours/trentino-alto-adige-dolomites/-wengen.jpg
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
