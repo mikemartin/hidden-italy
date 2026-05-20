@@ -49,36 +49,33 @@
             </div>
 
             {{# Headline + departures line. Guided tours expose a `departures`
-                grid (each row carries a single `date` field). Upcoming
-                dates are sorted ascending and past dates are filtered out
-                by the `upcoming_dates` modifier — it accepts either grid
-                rows or flat date arrays. The earliest upcoming departure
-                renders as a "Next available" callout; any further upcoming
-                dates render as compact pills beneath. Self-guided tours
-                fall back to the free-form `availability_text` field. #}}
+                grid (each row carries a single `date` field). Editors
+                manage the order and prune past dates manually in the CP,
+                so the template renders rows as-is. The first row becomes
+                the "Next available" callout; any further rows render as
+                compact pills beneath. Self-guided tours fall back to the
+                free-form `availability_text` field. #}}
             <header data-reveal-item data-reveal-preset="h1" class="flex flex-col gap-2">
                 {{ partial:typography/h2 :content="headline ?? name" }}
-                {{ upcoming_departures = departures | upcoming_dates }}
-                {{ departure_count = upcoming_departures | length }}
-                {{ if departure_count > 0 }}
-                    {{ upcoming_departures }}
+                {{ if departures }}
+                    {{ departures }}
                         {{ if first }}
                             <p class="font-sans font-semibold text-base lg:text-lg leading-[1.5] md:leading-[1.6] text-terracotta flex items-center gap-2">
                                 <span class="inline-block size-2 rounded-full bg-gold ring-4 ring-parchment-200 shrink-0" aria-hidden="true"></span>
-                                <span>{{ trans:strings.next_available ?? 'Next available' }} {{ value | format:'j F Y' }}</span>
+                                <span>{{ trans:strings.next_available ?? 'Next available' }} {{ date | format:'j F Y' }}</span>
                             </p>
                         {{ /if }}
-                    {{ /upcoming_departures }}
-                    {{ if departure_count > 1 }}
+                    {{ /departures }}
+                    {{ if departures | length > 1 }}
                         <ul class="flex flex-wrap gap-2 mt-1" aria-label="{{ trans:strings.further_departures ?? 'Further departures' }}">
-                            {{ upcoming_departures }}
+                            {{ departures }}
                                 {{ unless first }}
                                     <li class="inline-flex items-center gap-1.5 rounded-full bg-parchment-200 px-3 py-1 font-sans text-sm leading-[1.5] text-foreground">
                                         <x-lucide-calendar class="size-4 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
-                                        <time datetime="{{ value | format:'Y-m-d' }}">{{ value | format:'j F Y' }}</time>
+                                        <time datetime="{{ date | format:'Y-m-d' }}">{{ date | format:'j F Y' }}</time>
                                     </li>
                                 {{ /unless }}
-                            {{ /upcoming_departures }}
+                            {{ /departures }}
                         </ul>
                     {{ /if }}
                 {{ elseif availability_text }}
