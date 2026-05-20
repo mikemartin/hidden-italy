@@ -19,7 +19,7 @@ inclusions:
 page_builder:
   -
     id: Ovh3ytUJq2Rwd06pw-R_-
-    title: "Follow the escape route used\Lby Allied POW's"
+    title: "Follow the escape route used\L by Allied POW's"
     column_left:
       -
         type: paragraph
@@ -356,8 +356,8 @@ page_builder:
     hide_from_subnav: true
 seasons: summer
 locations: northern-italy
-updated_by: 4
-updated_at: 1779257097
+updated_by: 2
+updated_at: 1779297964
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
