@@ -5,8 +5,8 @@ title: "Val d'Aosta - Turin and the Val d'Aosta"
 name: "Turin and the Val d'Aosta"
 region: "Val d'Aosta"
 days: 13
-updated_by: 1
-updated_at: 1779277648
+updated_by: 2
+updated_at: 1779301132
 grade: 4
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -366,7 +366,7 @@ gallery:
   - tours/val-daosta-turin-and-the-val-daosta-guided-tour/val-ferret.jpg
   - tours/val-daosta-turin-and-the-val-daosta-guided-tour/img_5240.jpg
 now_open: false
-headline: "13 days in Italy's most spectacular region"
+headline: "Italy's most spectacular region"
 start_location:
   label: 'Gressoney-La-Trinité, Aosta Valley, Italy'
   lat: '45.872849'
@@ -390,7 +390,7 @@ finish_location:
       code: null
       level: 1
   country: Italy
-image: tours/val-daosta-turin-and-the-val-daosta-guided-tour/7.5a.jpg
+image: tours/val-daosta-turin-and-the-val-daosta-guided-tour/-val-ferret.jpg
 teaser: "Two weeks exploring the Val d'Aosta, Italy's smallest, but most spectacular, region!"
 summary:
   -
