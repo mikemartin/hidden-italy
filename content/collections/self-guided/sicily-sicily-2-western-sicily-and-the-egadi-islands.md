@@ -1,12 +1,12 @@
 ---
 id: 4890c31c-65dd-42bf-8f81-1bd6835115e9
 blueprint: tour
-title: 'Sicily - Sicily 2 ... Western Sicily and the Egadi Islands'
-name: 'Sicily 2 ... Western Sicily and the Egadi Islands'
+title: 'Sicily - Sicily 2:  the Egadi Islands plus'
+name: 'Sicily 2:  the Egadi Islands plus'
 region: Sicily
 days: 7
-updated_by: 3
-updated_at: 1779175505
+updated_by: 2
+updated_at: 1779268465
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
@@ -65,11 +65,6 @@ page_builder:
         summary: 'The tour includes transfers from and to Palermo, and a private guided tour of Erice, a fascinating town above Trapani.'
         icon: tourism-taxi.svg
       -
-        id: mlrc2l11
-        title: 'Go island hopping'
-        summary: 'The ferry tickets are included in the tour cost so you can experience the pleasure of island hopping around the Egadi.'
-        icon: transport-ship.svg
-      -
         id: mlrbzbll
         title: 'Relish the authentic food'
         summary: "Enjoy the area's fine food based on garden vegetables and fresh seafood all with North African twists, such as couscous."
@@ -79,6 +74,11 @@ page_builder:
         title: 'Discover gorgeous fishing villages'
         summary: 'You will have lots of time to explore the little fishing villages of the islands and enjoy outdoor dining at their ports'
         icon: nature-beach.svg
+      -
+        id: mlrc2l11
+        title: 'Go island hopping'
+        summary: 'Go swimming on the sandy beaches and rocky coves of western Sicily.'
+        icon: water-sports-swimming.svg
       -
         id: mlrc9yr3
         title: 'Relax and enjoy your holiday'
@@ -299,9 +299,9 @@ page_builder:
     id: AAGSASPL4-n2QwiDU8GoN
     heading: 'What our travellers are saying'
     testimonials:
-      - 7dc91f51-95db-43d9-937e-1a0f60631c6d
       - 8e8cd370-fbb2-4770-bf18-3debccf03031
       - 1fbd53c4-6126-4511-aaa4-70f1c2253d25
+      - 7dc91f51-95db-43d9-937e-1a0f60631c6d
     type: testimonials
     enabled: true
     section_background: none
@@ -367,7 +367,7 @@ finish_location:
       level: 2
   country: Italy
 now_open: false
-headline: '7 days walking the Egadi Islands'
+headline: '7 days exploring western Sicily'
 teaser: 'Coastal walks, island hoping and fabulous food, this tour is southern Italy at its best!'
 summary:
   -
