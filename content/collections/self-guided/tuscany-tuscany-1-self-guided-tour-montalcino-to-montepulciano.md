@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 1'
 name: 'Tuscany 1'
 region: Tuscany
 days: 6
-updated_by: 3
-updated_at: 1779175604
+updated_by: 2
+updated_at: 1779270329
 grade: 2
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
@@ -210,6 +210,8 @@ page_builder:
                 text: "The traditional dishes of Tuscany are Italy's most influential cuisine.\_ The ingredients and techniques of the region have made their mark not just on the menus of the rest of Italy but also abroad, even in France.\_ The produce is of the highest quality, with its mushrooms, truffles and prosciutto especially prized.\_ Wine has always been central to Tuscany's economy and way of life, familiar names like Chianti and Brunello are just a portion of their enormous output."
         type: food
         enabled: true
+        media:
+          - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5261.jpg
     type: experience
     enabled: true
     section_background: dark
