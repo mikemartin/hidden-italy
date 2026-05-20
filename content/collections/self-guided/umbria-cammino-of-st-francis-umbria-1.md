@@ -5,8 +5,8 @@ title: 'Umbria - Cammino of St Francis:  Umbria 1'
 name: 'Cammino of St Francis:  Umbria 1'
 region: Umbria
 days: 7
-updated_by: 3
-updated_at: 1779175767
+updated_by: 2
+updated_at: 1779271905
 grade: 3
 inclusions:
   - 'Five nights accommodation'
@@ -45,7 +45,7 @@ page_builder:
               -
                 type: italic
             text: "Umbria 1 walk is the first section of the Cammino of St Francis, a marvellous 258 km walk that starts in Assisi and finishes in Rome, following in the footsteps of Italy's most beloved saint.  The whole three-week walk can be broken up into three one-week sections: Umbria 1, Umbria 2 and Lazio."
-    title: 'From Assisi, across the Vale of Umbria'
+    title: "Across the Valle d'Umbria"
     images:
       - tours/umbria-cammino-of-st-francis-umbria-1/11.jpg
       - tours/umbria-cammino-of-st-francis-umbria-1/arriving-in-spello.jpg
@@ -57,7 +57,7 @@ page_builder:
     activities:
       -
         id: mlooee34
-        title: "Five days walking through the 'green heart' of Italy"
+        title: "Walking through the 'green heart' of Italy"
         summary: 'Enjoy a continuous walk through hilltop villages and an unspoilt region of rolling green hills, woods and valleys.'
         icon: trekking-trekking.svg
       -
@@ -301,7 +301,7 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-image: tours/umbria-cammino-of-st-francis-umbria-1/2.jpg
+image: tours/umbria-cammino-of-st-francis-umbria-1/6.jpg
 gallery:
   - tours/umbria-cammino-of-st-francis-umbria-1/2.jpg
   - tours/umbria-cammino-of-st-francis-umbria-1/3.jpg
