@@ -6,7 +6,7 @@ name: 'Sicily 1'
 region: Sicily
 days: 7
 updated_by: 2
-updated_at: 1779267967
+updated_at: 1779268025
 grade: 3
 inclusions:
   - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
@@ -59,7 +59,7 @@ page_builder:
     activities:
       -
         id: mlrbvyrv
-        title: 'Experience a side of Sicily others only read about!'
+        title: 'Experienc the Sicily others only read about!'
         summary: 'Far from the regular tourist trails, this tour allows you to experience the charm and authenticity of the real Sicily!'
         icon: culture-Vineyard.svg
       -
