@@ -1,12 +1,12 @@
 ---
 id: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
 blueprint: tour
-title: 'Trentino-Alto Adige - Dolomites'
-name: Dolomites
+title: 'Trentino-Alto Adige - The Dolomites'
+name: 'The Dolomites'
 region: 'Trentino-Alto Adige'
 days: 6
-updated_by: 3
-updated_at: 1779175556
+updated_by: 2
+updated_at: 1779269396
 grade: 4
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
@@ -87,6 +87,11 @@ page_builder:
         title: 'Relax and enjoy your holiday'
         summary: 'Everything organised: you are transferred from and back to Bolzano; you have maps and an App; and 24-hour local support.'
         icon: culture-champagne.svg
+      -
+        id: Canak7fbd_CbaMkLt6Qhl
+        title: 'Get to know the Ladini'
+        summary: '85% of the population of the valley you visit are proudly descended from the Ladini the original people of the Dolomites'
+        icon: switzerland-edelweiss.svg
     type: highlights
     enabled: true
     section_background: light
@@ -328,7 +333,7 @@ start_location:
 now_open: false
 seasons:
   - summer
-headline: '6 days walking through the Dolomites'
+headline: '6 days walking the Dolomites'
 finish_location:
   label: 'Sëlva - Wolkenstein - Selva di Val Gardena, Trentino – Alto Adige/Südtirol, Italy'
   lat: '46.5551877'
