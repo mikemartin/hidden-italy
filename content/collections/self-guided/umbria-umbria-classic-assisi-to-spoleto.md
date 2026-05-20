@@ -5,8 +5,8 @@ title: 'Umbria - Umbria Classic'
 name: 'Umbria Classic'
 region: Umbria
 days: 7
-updated_by: 3
-updated_at: 1779175856
+updated_by: 2
+updated_at: 1779273520
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -313,7 +313,7 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 2c566c23-3738-482e-b78a-a2ac67ccf9cf
-image: tours/umbria-cammino-of-st-francis-umbria-2-1/f1020015.jpg
+image: tours/umbria-cammino-of-st-francis-umbria-2-1/p4300817.jpg
 gallery:
   - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020011.jpg
   - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020013-a.jpg
