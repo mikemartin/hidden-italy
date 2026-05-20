@@ -6,7 +6,7 @@ name: "Turin and the Val d'Aosta"
 region: "Val d'Aosta"
 days: 13
 updated_by: 2
-updated_at: 1779264960
+updated_at: 1779265329
 grade: 4
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
