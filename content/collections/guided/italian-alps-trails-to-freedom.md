@@ -356,8 +356,8 @@ page_builder:
     hide_from_subnav: true
 seasons: summer
 locations: northern-italy
-updated_by: 3
-updated_at: 1779170672
+updated_by: 4
+updated_at: 1779257097
 gallery:
   - tours/italian-alps-trails-to-freedom/94.jpg
   - tours/italian-alps-trails-to-freedom/3-(2).jpg
@@ -408,7 +408,7 @@ finish_location:
 now_open: false
 leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 headline: '10 days hiking in the Italian Alps'
-price: '$5,850 AUD'
+price: '$A5,850'
 show_from: true
 teaser: 'Ten-day hike blending stunning scenery, alpine towns, and a WWII escape story.'
 summary:
