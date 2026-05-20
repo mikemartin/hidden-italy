@@ -7,8 +7,8 @@ region: 'Campania and Basilicata'
 days: 13
 seasons: spring
 grade: 3
-updated_by: 3
-updated_at: 1779169950
+updated_by: 2
+updated_at: 1779262665
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15
 inclusions:
@@ -93,7 +93,7 @@ page_builder:
         icon: transport-sailboat.svg
       -
         id: GLBV6yW5uTYV2rFpFGZs5
-        title: 'Discover the amalfi Coast'
+        title: 'Discover the Amalfi Coast'
         summary: 'Discover the secrets of the Amalfi Coast when staying in a beautiful 4-star hotel in Ravello and walking down to Amalfi.'
         icon: nature-lake.svg
     section_background: light
