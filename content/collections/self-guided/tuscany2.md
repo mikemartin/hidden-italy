@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 2'
 name: 'Tuscany 2'
 region: Tuscany
 days: 7
-updated_by: 1
-updated_at: 1779336438
+updated_by: 4
+updated_at: 1779403486
 grade: 4
 inclusions:
   - 'Private transfer from Florence on Day 1; private transfer to Siena on Day 6'
