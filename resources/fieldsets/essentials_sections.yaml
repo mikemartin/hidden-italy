@@ -1,0 +1,137 @@
+title: 'Essentials Sections'
+fields:
+  -
+    handle: title
+    field:
+      type: text
+      display: Title
+      default: 'What you should know'
+  -
+    handle: sections
+    field:
+      type: replicator
+      display: Sections
+      button_label: 'Add Section'
+      instructions: 'Each section renders as a labelled row. Use the named sets for shared content types, or General for anything tour-specific.'
+      sets:
+        main:
+          display: Main
+          sets:
+            equipment:
+              display: 'Equipment Needed'
+              icon: backpack
+              fields:
+                -
+                  handle: body
+                  field:
+                    buttons:
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - anchor
+                    type: bard
+                    display: Body
+                    instructions: 'List the clothing, footwear and gear required for this tour.'
+                -
+                  handle: link_text
+                  field:
+                    type: text
+                    display: 'Link Text'
+                    width: 50
+                    instructions: 'Optional. e.g. "Download packing list"'
+                -
+                  handle: link_url
+                  field:
+                    type: text
+                    display: 'Link URL'
+                    width: 50
+            travel_insurance:
+              display: 'Travel Insurance'
+              icon: emergency
+              fields:
+                -
+                  handle: body
+                  field:
+                    buttons:
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - anchor
+                    type: bard
+                    display: Body
+                    instructions: 'Describe the insurance requirements and any recommended providers.'
+                -
+                  handle: link_text
+                  field:
+                    type: text
+                    display: 'Link Text'
+                    width: 50
+                -
+                  handle: link_url
+                  field:
+                    type: text
+                    display: 'Link URL'
+                    width: 50
+            booking_cancellation:
+              display: 'Booking & Cancellation'
+              icon: dates
+              fields:
+                -
+                  handle: body
+                  field:
+                    buttons:
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - anchor
+                    type: bard
+                    display: Body
+                    instructions: 'Outline the booking process, deposit requirements and cancellation policy.'
+                -
+                  handle: link_text
+                  field:
+                    type: text
+                    display: 'Link Text'
+                    width: 50
+                    instructions: 'Optional. e.g. "Read full terms & conditions"'
+                -
+                  handle: link_url
+                  field:
+                    type: text
+                    display: 'Link URL'
+                    width: 50
+            general:
+              display: General
+              icon: Info
+              fields:
+                -
+                  handle: heading
+                  field:
+                    type: text
+                    display: Heading
+                    instructions: 'Label for this section (e.g. "Visas & entry requirements").'
+                -
+                  handle: body
+                  field:
+                    buttons:
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - anchor
+                    type: bard
+                    display: Body
+                -
+                  handle: link_text
+                  field:
+                    type: text
+                    display: 'Link Text'
+                    width: 50
+                -
+                  handle: link_url
+                  field:
+                    type: text
+                    display: 'Link URL'
+                    width: 50

@@ -45,9 +45,9 @@ page_builder:
             text: "\_The highlights of the Hidden Italy Puglia tour include walking along country lanes lined with ancient dry-stone walls, olive groves and fields filled with wildflowers; exploring the mysteries of Matera; sleeping in a restored 18th century Masseria, surrounded by ancient olive trees; sailing on the Adriatic Sea; a cooking day in a 15th century tower in the heart of the 'Salento' district; coastal walks along both the Adriatic and Ionian Seas; visiting Frederick's extraordinary castle of Castel del Monte; wandering the medieval lanes and allies of Bari Vecchia (old Bari); the fabulous Pugliese cooking; and last, but not least, the warm southern hospitality."
     title: 'A delightfully different world'
     images:
-      - tours/puglia-puglia-in-the-spring/castel-1.jpg
-      - tours/puglia-puglia-in-the-spring/lecce-28.jpg
-      - tours/puglia-puglia-in-the-spring/matera-14.jpg
+      - guided/puglia-in-the-spring/castel-1.jpg
+      - guided/puglia-in-the-spring/lecce-28.jpg
+      - guided/puglia-in-the-spring/matera-14.jpg
     hide_from_subnav: false
   -
     id: mloqd78x
@@ -99,7 +99,7 @@ page_builder:
         description: "We will meet in the foyer of our hotel, a classic hotel in the centre of the old town of Lecce, the 'Florence of the South'.  After an aperitivo at the roof bar of the hotel, we'll walk to a neighbouring restaurant for dinner."
         meals_included:
           - dinner
-        photo: tours/puglia-puglia-in-the-spring/lecce-14.jpg
+        photo: guided/puglia-in-the-spring/lecce-14.jpg
       -
         id: mloqxcnx
         title: 'Explore Lecce'
@@ -107,7 +107,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/puglia-puglia-in-the-spring/lecce-12.jpg
+        photo: guided/puglia-in-the-spring/lecce-12.jpg
       -
         id: mloqy5ed
         title: 'Transfer to the coast'
@@ -119,7 +119,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/puglia-puglia-in-the-spring/otranto-3.jpg
+        photo: guided/puglia-in-the-spring/otranto-3.jpg
       -
         id: mloqzruj
         title: 'Walk along the coast'
@@ -130,7 +130,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/puglia-puglia-in-the-spring/40.6.jpg
+        photo: guided/puglia-in-the-spring/40.6.jpg
       -
         id: mlor10w3
         title: 'Go sailing'
@@ -139,7 +139,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/puglia-puglia-in-the-spring/otranto-24.jpg
+        photo: guided/puglia-in-the-spring/otranto-24.jpg
       -
         id: mlor23s2
         title: 'Go for a walk and a cooking lesson'
@@ -150,7 +150,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/puglia-puglia-in-the-spring/tower-1.jpeg
+        photo: guided/puglia-in-the-spring/tower-1.jpeg
       -
         id: mlor3ri3
         title: 'Visit a vineyard and stay in a masseria'
@@ -159,7 +159,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/puglia-puglia-in-the-spring/tenuta-monticelli.webp
+        photo: guided/puglia-in-the-spring/tenuta-monticelli.webp
       -
         id: mlor6aar
         title: 'Walk through forest and orchards'
@@ -171,7 +171,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/puglia-puglia-in-the-spring/palmento-29.jpg
+        photo: guided/puglia-in-the-spring/palmento-29.jpg
       -
         id: mlor867w
         title: 'Visit Matera'
@@ -179,7 +179,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/puglia-puglia-in-the-spring/matera-12.jpg
+        photo: guided/puglia-in-the-spring/matera-12.jpg
       -
         id: mlora14b
         title: 'Walk to Alberobello'
@@ -190,7 +190,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/puglia-puglia-in-the-spring/19.8.jpg
+        photo: guided/puglia-in-the-spring/19.8.jpg
       -
         id: mlorbjxg
         title: 'Transfer to Bari'
@@ -201,7 +201,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/puglia-puglia-in-the-spring/castel-1.jpg
+        photo: guided/puglia-in-the-spring/castel-1.jpg
       -
         id: mlore9l3
         title: 'Explore Bari'
@@ -209,14 +209,14 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/puglia-puglia-in-the-spring/bari-5.jpg
+        photo: guided/puglia-in-the-spring/bari-5.jpg
       -
         id: mlorf281
         title: Departure
         description: 'After breakfast, you’ll be able to continue your holiday.  Bari is well connected by air, rail and road to the rest of Italy and Europe.'
         meals_included:
           - breakfast
-        photo: tours/puglia-puglia-in-the-spring/lecce-28.jpg
+        photo: guided/puglia-in-the-spring/lecce-28.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -258,7 +258,7 @@ page_builder:
                 type: text
                 text: ".\_ Finally, we stay in a comfortable hotel in the centre of Bari."
         media:
-          - tours/palmento-19.jpg
+          - guided/puglia-in-the-spring/palmento-19.jpg
         type: accommodation
         enabled: true
       -
@@ -272,7 +272,7 @@ page_builder:
                 type: text
                 text: "In springtime the market gardens and kitchen gardens of Puglia are bursting with fresh produce (tomatoes, zucchini, eggplants, artichokes, asparagus, fava beans) which provides the basis for all the region’s cooking.\_ Pugliese cuisine is simple, rustic and cheerful, based on the abundance of its fertile plains and coastline. As Italy's wheat belt, pasta and a variety of excellent breads are pillars of Pugliese diet, as is olive oil (Puglia has over 50 million olive trees, some over 2000 years old).\_ Puglia is bounded by two seas, the Adriatic and Ionian, and has an abundance of seafood, while the butchers of the Itria Valley are famous throughout Italy."
         media:
-          - tours/bari-12.jpg
+          - guided/puglia-in-the-spring/bari-12.jpg
         type: food
         enabled: true
     type: experience
@@ -358,20 +358,20 @@ page_builder:
     enabled: true
 simple_likes: 0
 seasons: spring
-image: tours/puglia-puglia-in-the-spring/40.6.jpg
+image: guided/puglia-in-the-spring/40.6.jpg
 gallery:
-  - tours/puglia-puglia-in-the-spring/19.7.jpg
-  - tours/puglia-puglia-in-the-spring/19.8.jpg
-  - tours/puglia-puglia-in-the-spring/40.6.jpg
-  - tours/puglia-puglia-in-the-spring/otranto-3.jpg
-  - tours/puglia-puglia-in-the-spring/43.5.jpg
-  - tours/puglia-puglia-in-the-spring/otranto-24.jpg
-  - tours/puglia-puglia-in-the-spring/30.jpg
-  - tours/puglia-puglia-in-the-spring/castel-1.jpg
-  - tours/puglia-puglia-in-the-spring/lecce-28.jpg
-  - tours/puglia-puglia-in-the-spring/matera-14.jpg
-  - tours/puglia-puglia-in-the-spring/ruvo-9.jpg
-  - tours/puglia-puglia-in-the-spring/tower-1.jpeg
+  - guided/puglia-in-the-spring/19.7.jpg
+  - guided/puglia-in-the-spring/19.8.jpg
+  - guided/puglia-in-the-spring/40.6.jpg
+  - guided/puglia-in-the-spring/otranto-3.jpg
+  - guided/puglia-in-the-spring/43.5.jpg
+  - guided/puglia-in-the-spring/otranto-24.jpg
+  - guided/puglia-in-the-spring/30.jpg
+  - guided/puglia-in-the-spring/castel-1.jpg
+  - guided/puglia-in-the-spring/lecce-28.jpg
+  - guided/puglia-in-the-spring/matera-14.jpg
+  - guided/puglia-in-the-spring/ruvo-9.jpg
+  - guided/puglia-in-the-spring/tower-1.jpeg
 start_location:
   label: 'Lecce, Apulia, Italy'
   lat: '40.3570373'

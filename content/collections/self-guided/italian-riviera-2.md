@@ -48,9 +48,9 @@ page_builder:
             text: 'Please note, that the Italian Riviera 2 walk is the second section of the complete 15 day Italian Riviera walk, which takes you the whole length of the whole eastern Italian Riviera, from Genoa to Portofino, passing through the Cinque Terre along the way.  '
     title: 'From the Bay of Silence to Portovenere'
     images:
-      - tours/alto-adige-dolomites-1-self-guided-walk-1-1/25.jpg
-      - tours/alto-adige-dolomites-1-self-guided-walk-1-1/italy-autmun-2013-048.jpg
-      - tours/alto-adige-dolomites-1-self-guided-walk-1-1/shutterstock_1172539480-a.jpg
+      - self-guided/italian-riviera-2/25.jpg
+      - self-guided/italian-riviera-2/italy-autmun-2013-048.jpg
+      - self-guided/italian-riviera-2/shutterstock_1172539480-a.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -99,7 +99,7 @@ page_builder:
         id: mlooymbz
         title: 'Arrive in Sestri Levante'
         description: 'The tour starts in Sestri Levante, a very attractive resort town that is built along a peninsula , with a bay on either side: the charming Bay of Silence and the Bay of Fairies (name in honour of Hans Christian Anderson who lived here in the 1880s).  Peninsula ends with a forested hill a monastery on top.'
-        photo: tours/liguria-italian-riviera-2-self-guided-walk/1.jpg
+        photo: self-guided/italian-riviera-2/1.jpg
       -
         id: mloozlek
         title: 'Walk along the coast'
@@ -109,7 +109,7 @@ page_builder:
         elevation: 368
         meals_included:
           - breakfast
-        photo: tours/liguria-italian-riviera-2-self-guided-walk/8.jpg
+        photo: self-guided/italian-riviera-2/8.jpg
       -
         id: mlop159i
         title: 'Walk to Camogli'
@@ -119,7 +119,7 @@ page_builder:
         elevation: 333
         meals_included:
           - breakfast
-        photo: tours/liguria-italian-riviera-2-self-guided-walk/framura-5.jpg
+        photo: self-guided/italian-riviera-2/framura-5.jpg
       -
         id: mlop3c5r
         title: 'Walk to the Cinque Terre'
@@ -129,7 +129,7 @@ page_builder:
         elevation: 310
         meals_included:
           - breakfast
-        photo: tours/liguria-italian-riviera-2-self-guided-walk/yy.jpg
+        photo: self-guided/italian-riviera-2/yy.jpg
       -
         id: mlop5205
         title: 'Walk to Vernazza'
@@ -139,7 +139,7 @@ page_builder:
         elevation: 197
         meals_included:
           - breakfast
-        photo: tours/liguria-italian-riviera-2-self-guided-walk/italy-autmun-2013-048.jpg
+        photo: self-guided/italian-riviera-2/italy-autmun-2013-048.jpg
       -
         id: mlop6avf
         title: 'Walk to Riomaggiore'
@@ -149,7 +149,7 @@ page_builder:
         elevation: 184
         meals_included:
           - breakfast
-        photo: tours/liguria-italian-riviera-2-self-guided-walk/24.jpg
+        photo: self-guided/italian-riviera-2/24.jpg
       -
         id: mmin3e1a
         title: 'Walk to Portovenere'
@@ -159,7 +159,7 @@ page_builder:
         elevation: 558
         meals_included:
           - breakfast
-        photo: tours/liguria-italian-riviera-2-self-guided-walk/25.jpg
+        photo: self-guided/italian-riviera-2/25.jpg
       -
         id: mmin5pe3
         title: 'Do a lap of Palmaria'
@@ -169,12 +169,12 @@ page_builder:
         duration: 2
         distance: 6
         elevation: 180
-        photo: tours/liguria-italian-riviera-2-self-guided-walk/img_7590.jpg
+        photo: self-guided/italian-riviera-2/img_7590.jpg
       -
         id: mmiq1kti
         title: 'Private transfer to La Spezia'
         description: 'This morning you have a private transfer to La Spezia, thirty minutes’ drive away.  La Spezia is a busy and colourful port, which has a number of excellent museums and good rail connections.'
-        photo: tours/liguria-italian-riviera-2-self-guided-walk/7.5.jpg
+        photo: self-guided/italian-riviera-2/7.5.jpg
         meals_included:
           - breakfast
     type: itinerary
@@ -246,7 +246,7 @@ page_builder:
               -
                 type: text
                 text: "\_ The second section takes you along narrow stone paths of the Cinque Terrre.\_ There are some steep climbs up from the villages to the trail and some steep descents at the end."
-        image: tours/2-1775017239.jpg
+        image: self-guided/italian-riviera-2/2-1775017239.jpg
         type: walk
         enabled: true
       -
@@ -260,7 +260,7 @@ page_builder:
                 type: text
                 text: "Hidden Italy uses the best accommodation available.\_ On this walk this means very comfortable, centrally located, family-run hotels, a mix of 4-star hotels, 3-star hotels and a simple, family-run ‘pensione’.\_ All the rooms have en suite bathrooms and air-conditioning.\_ Please bear in mind that the places you are visiting are essentially small fishing villages and don't have a range of accommodation options.\_ Some of the hotels have their own swimming pools and their is always the opportunity to swim at beaches along the way."
         media:
-          - tours/view-from-window-at-paradiso.jpg
+          - self-guided/italian-riviera-2/view-from-window-at-paradiso.jpg
         type: accommodation
         enabled: true
       -
@@ -283,7 +283,7 @@ page_builder:
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
         media:
-          - tours/img_7590.jpg
+          - self-guided/italian-riviera-2/img_7590.jpg
         type: food
         enabled: true
     type: experience
@@ -373,20 +373,20 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: c10e8a1d-dab8-454a-8c80-abbba7b0a648
-image: tours/alto-adige-dolomites-1-self-guided-walk-1-1/1.jpg
+image: self-guided/italian-riviera-2/1.jpg
 gallery:
-  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/1.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/2.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/8.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/7.5.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/img_7590.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/24.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/19.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/25.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/italy-autmun-2013-048.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/shutterstock_1172539480-a.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/view-from-window-at-paradiso.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk-1-1/wine-bottle.jpg
+  - self-guided/italian-riviera-2/1.jpg
+  - self-guided/italian-riviera-2/2.jpg
+  - self-guided/italian-riviera-2/8.jpg
+  - self-guided/italian-riviera-2/7.5.jpg
+  - self-guided/italian-riviera-2/img_7590.jpg
+  - self-guided/italian-riviera-2/24.jpg
+  - self-guided/italian-riviera-2/19.jpg
+  - self-guided/italian-riviera-2/25.jpg
+  - self-guided/italian-riviera-2/italy-autmun-2013-048.jpg
+  - self-guided/italian-riviera-2/shutterstock_1172539480-a.jpg
+  - self-guided/italian-riviera-2/view-from-window-at-paradiso.jpg
+  - self-guided/italian-riviera-2/wine-bottle.jpg
 start_location:
   label: 'Sestri Levante, Liguria, Italy'
   lat: '44.2714526'

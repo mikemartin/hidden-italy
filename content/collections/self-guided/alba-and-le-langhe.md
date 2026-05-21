@@ -45,9 +45,9 @@ page_builder:
             text: "You'll also have plenty of opportunity to sample some Le Langhe's very special treats.  The district is also one of Italy’s gastronomic capitals, the home of the Slow Food Association, famous for its cheeses, meats, chocolates, hazel nuts and white truffles, as well, of course, as its excellent wines.  There is much to see and do!"
     title: 'Vineyards, pine forests and hazelnut farms'
     images:
-      - tours/piedmont-alba-and-le-langhe/3.jpg
-      - tours/piedmont-alba-and-le-langhe/monforte-17.jpg
-      - tours/piedmont-alba-and-le-langhe/monforte-18.jpg
+      - self-guided/alba-and-le-langhe/3.jpg
+      - self-guided/alba-and-le-langhe/monforte-17.jpg
+      - self-guided/alba-and-le-langhe/monforte-18.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -97,7 +97,7 @@ page_builder:
         id: mlooymbz
         title: 'Transfer from Turin to Alba'
         description: 'You will be taken by private transfer from Turin to beautiful Alba, 95 kilometres south.  The plan of the historic centre of Alba reflects its Roman origins (an orderly grid tucked behind defensive walls) while its narrow streets are decidedly medieval, complete with a five brick tower-houses that date from the 13th century.'
-        photo: tours/piedmont-alba-and-le-langhe/alba-2.jpg
+        photo: self-guided/alba-and-le-langhe/alba-2.jpg
       -
         id: mloozlek
         title: 'Walk along the Tanaro River'
@@ -107,7 +107,7 @@ page_builder:
         elevation: 281
         meals_included:
           - breakfast
-        photo: tours/piedmont-alba-and-le-langhe/monforte-2.5.jpg
+        photo: self-guided/alba-and-le-langhe/monforte-2.5.jpg
       -
         id: mlop159i
         title: 'Walk through vineyards'
@@ -117,7 +117,7 @@ page_builder:
         elevation: 267
         meals_included:
           - breakfast
-        photo: tours/piedmont-alba-and-le-langhe/monforte-17.jpg
+        photo: self-guided/alba-and-le-langhe/monforte-17.jpg
       -
         id: mlop3c5r
         title: 'Walk through chestnut forests'
@@ -127,7 +127,7 @@ page_builder:
         elevation: 264
         meals_included:
           - breakfast
-        photo: tours/piedmont-alba-and-le-langhe/4-v2.jpg
+        photo: self-guided/alba-and-le-langhe/4-v2.jpg
       -
         id: mlop5205
         title: 'Walk along a ridge'
@@ -137,7 +137,7 @@ page_builder:
         elevation: 401
         meals_included:
           - breakfast
-        photo: tours/piedmont-alba-and-le-langhe/10-v2.jpg
+        photo: self-guided/alba-and-le-langhe/10-v2.jpg
       -
         id: mlop6avf
         title: 'Walk to the pretty village in the area'
@@ -147,7 +147,7 @@ page_builder:
         elevation: 468
         meals_included:
           - breakfast
-        photo: tours/piedmont-alba-and-le-langhe/img_5836.jpeg
+        photo: self-guided/alba-and-le-langhe/img_5836.jpeg
       -
         id: mlop8uiy
         title: 'Head back to Alba'
@@ -157,14 +157,14 @@ page_builder:
         elevation: 135
         meals_included:
           - breakfast
-        photo: tours/piedmont-alba-and-le-langhe/alba-view-2.jpg
+        photo: self-guided/alba-and-le-langhe/alba-view-2.jpg
       -
         id: mlop9wks
         title: 'Transfer back to Turin'
         description: 'After breakfast, you will be taken by private vehicle back to Turin, 95 kilometres to the north.'
         meals_included:
           - breakfast
-        photo: tours/piedmont-alba-and-le-langhe/k.jpg
+        photo: self-guided/alba-and-le-langhe/k.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -184,7 +184,7 @@ page_builder:
               -
                 type: text
                 text: "The trails are well-marked and generally follow unsealed country lanes over rolling hills often through vineyards and orchards. There are the occasional rougher sections and some asphalt walking into and out of the larger towns.\_ The walks on Day 5 is 17 kms and on Day 6 is 19 km, which will take around 5 hours walking.\_ With notice, both walks can be shortened.\_ Full details on each walk are on the itinerary"
-        image: tours/5.jpg
+        image: self-guided/alba-and-le-langhe/5.jpg
         type: walk
         enabled: true
       -
@@ -198,7 +198,7 @@ page_builder:
                 type: text
                 text: "Alba and the Langhe have a long history of hospitality and offer a range of very comfortable and welcoming accommodation. \_During the walk you will stay in a variety of accommodation including 4-star hotels (in Alba on Days 1 and 7 and on Day 5); an ex-castle/vineyard which once belonged to the king of Italy (Day 2); a lovely small hotel in the heart of the prettiest village in the district (Day 6) and an agriturismo outside a small hilltop village, which has a pool and an excellent restaurant\_ (Day 4).\_ All the accommodation has ensuite services."
         media:
-          - tours/benevello-6.jpg
+          - self-guided/alba-and-le-langhe/benevello-6.jpg
         type: accommodation
         enabled: true
       -
@@ -227,7 +227,7 @@ page_builder:
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
         media:
-          - tours/9.jpg
+          - self-guided/alba-and-le-langhe/9.jpg
         type: food
         enabled: true
     type: experience
@@ -316,20 +316,20 @@ page_builder:
     show_topography: false
     hide_from_subnav: true
 simple_likes: 0
-image: tours/piedmont-alba-and-le-langhe/7-v2.jpg
+image: self-guided/alba-and-le-langhe/7-v2.jpg
 gallery:
-  - tours/piedmont-alba-and-le-langhe/alba-2.jpg
-  - tours/piedmont-alba-and-le-langhe/10-v2.jpg
-  - tours/piedmont-alba-and-le-langhe/9.jpg
-  - tours/piedmont-alba-and-le-langhe/4-v2.jpg
-  - tours/piedmont-alba-and-le-langhe/5.jpg
-  - tours/piedmont-alba-and-le-langhe/12.jpg
-  - tours/piedmont-alba-and-le-langhe/7-v2.jpg
-  - tours/piedmont-alba-and-le-langhe/3.jpg
-  - tours/piedmont-alba-and-le-langhe/monforte-17.jpg
-  - tours/piedmont-alba-and-le-langhe/monforte-18.jpg
-  - tours/piedmont-alba-and-le-langhe/monforte-2.5.jpg
-  - tours/piedmont-alba-and-le-langhe/img_5838.jpg
+  - self-guided/alba-and-le-langhe/alba-2.jpg
+  - self-guided/alba-and-le-langhe/10-v2.jpg
+  - self-guided/alba-and-le-langhe/9.jpg
+  - self-guided/alba-and-le-langhe/4-v2.jpg
+  - self-guided/alba-and-le-langhe/5.jpg
+  - self-guided/alba-and-le-langhe/12.jpg
+  - self-guided/alba-and-le-langhe/7-v2.jpg
+  - self-guided/alba-and-le-langhe/3.jpg
+  - self-guided/alba-and-le-langhe/monforte-17.jpg
+  - self-guided/alba-and-le-langhe/monforte-18.jpg
+  - self-guided/alba-and-le-langhe/monforte-2.5.jpg
+  - self-guided/alba-and-le-langhe/img_5838.jpg
 start_location:
   label: 'Turin, Piedmont, Italy'
   lat: '45.0677551'

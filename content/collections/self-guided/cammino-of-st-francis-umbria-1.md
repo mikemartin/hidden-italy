@@ -47,9 +47,9 @@ page_builder:
             text: "Umbria 1 walk is the first section of the Cammino of St Francis, a marvellous 258 km walk that starts in Assisi and finishes in Rome, following in the footsteps of Italy's most beloved saint.  The whole three-week walk can be broken up into three one-week sections: Umbria 1, Umbria 2 and Lazio."
     title: "Along the 'Trail of the Olives'"
     images:
-      - tours/umbria-cammino-of-st-francis-umbria-1/11.jpg
-      - tours/umbria-cammino-of-st-francis-umbria-1/arriving-in-spello.jpg
-      - tours/umbria-cammino-of-st-francis-umbria-1/14.jpg
+      - self-guided/cammino-of-st-francis-umbria-1/11.jpg
+      - self-guided/cammino-of-st-francis-umbria-1/arriving-in-spello.jpg
+      - self-guided/cammino-of-st-francis-umbria-1/14.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -99,7 +99,7 @@ page_builder:
         id: mlooymbz
         title: 'Arrive in Assisi'
         description: 'Arrival in Assisi, one of the most beautiful towns in central Italy.  It is, of course, the home of St Francis (1182 – 1226).  It is dominated by the two-level Basilica of St Francis (consecrated in 1256) which contains some of the finest art in Western Europe, including works by Giotto, Cimabue and the Lorenzetti brothers.'
-        photo: tours/umbria-cammino-of-st-francis-umbria-1/2.jpg
+        photo: self-guided/cammino-of-st-francis-umbria-1/2.jpg
       -
         id: mloozlek
         title: "Visit St Francis' retreat"
@@ -109,7 +109,7 @@ page_builder:
         elevation: 570
         meals_included:
           - breakfast
-        photo: tours/umbria-cammino-of-st-francis-umbria-1/04.jpg
+        photo: self-guided/cammino-of-st-francis-umbria-1/04.jpg
       -
         id: mlop159i
         title: 'Walk the Olive Trail'
@@ -119,7 +119,7 @@ page_builder:
         elevation: 185
         meals_included:
           - breakfast
-        photo: tours/umbria-cammino-of-st-francis-umbria-1/arriving-in-spello.jpg
+        photo: self-guided/cammino-of-st-francis-umbria-1/arriving-in-spello.jpg
       -
         id: mlop3c5r
         title: 'Enjoy the views'
@@ -129,7 +129,7 @@ page_builder:
         elevation: 228
         meals_included:
           - breakfast
-        photo: tours/umbria-cammino-of-st-francis-umbria-1/6.jpg
+        photo: self-guided/cammino-of-st-francis-umbria-1/6.jpg
       -
         id: mlop5205
         title: 'Walk to Spoleto'
@@ -139,14 +139,14 @@ page_builder:
         elevation: 257
         meals_included:
           - breakfast
-        photo: tours/umbria-cammino-of-st-francis-umbria-1/umbria-3686911_1280.jpg
+        photo: self-guided/cammino-of-st-francis-umbria-1/umbria-3686911_1280.jpg
       -
         id: mlop6avf
         title: 'Depart Spoleto'
         description: "After breakfast, you'll be free to continue your holiday.  Spoleto station has direct connections to Rome and Florence."
         meals_included:
           - breakfast
-        photo: tours/umbria-cammino-of-st-francis-umbria-1/4.5.jpg
+        photo: self-guided/cammino-of-st-francis-umbria-1/4.5.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -174,7 +174,7 @@ page_builder:
                   -
                     type: italic
                 text: 'The self-guided itineraries are re-walked and the notes updated each year.'
-        image: tours/4.5.jpg
+        image: self-guided/cammino-of-st-francis-umbria-1/4.5.jpg
         type: walk
         enabled: true
       -
@@ -188,7 +188,7 @@ page_builder:
                 type: text
                 text: "In the spirit of the long-distance pilgrimage, we have sought to keep the costs down.\_ The accommodation is in centrally-located, historic, family-run 3-star hotels.\_ They are comfortable and welcoming.\_ All rooms have en suite bathrooms."
         media:
-          - tours/05.jpg
+          - self-guided/cammino-of-st-francis-umbria-1/05.jpg
         type: accommodation
         enabled: true
       -
@@ -211,7 +211,7 @@ page_builder:
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
         media:
-          - tours/12.jpg
+          - self-guided/cammino-of-st-francis-umbria-1/12.jpg
         type: food
         enabled: true
     type: experience
@@ -301,20 +301,20 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-image: tours/umbria-cammino-of-st-francis-umbria-1/6.jpg
+image: self-guided/cammino-of-st-francis-umbria-1/6.jpg
 gallery:
-  - tours/umbria-cammino-of-st-francis-umbria-1/2.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-1/3.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-1/4.5.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-1/04.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-1/05.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-1/6.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-1/12.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-1/11.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-1/arriving-in-spello.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-1/14.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-1/umbria-3686911_1280.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-1/16.jpg
+  - self-guided/cammino-of-st-francis-umbria-1/2.jpg
+  - self-guided/cammino-of-st-francis-umbria-1/3.jpg
+  - self-guided/cammino-of-st-francis-umbria-1/4.5.jpg
+  - self-guided/cammino-of-st-francis-umbria-1/04.jpg
+  - self-guided/cammino-of-st-francis-umbria-1/05.jpg
+  - self-guided/cammino-of-st-francis-umbria-1/6.jpg
+  - self-guided/cammino-of-st-francis-umbria-1/12.jpg
+  - self-guided/cammino-of-st-francis-umbria-1/11.jpg
+  - self-guided/cammino-of-st-francis-umbria-1/arriving-in-spello.jpg
+  - self-guided/cammino-of-st-francis-umbria-1/14.jpg
+  - self-guided/cammino-of-st-francis-umbria-1/umbria-3686911_1280.jpg
+  - self-guided/cammino-of-st-francis-umbria-1/16.jpg
 now_open: false
 seasons:
   - spring

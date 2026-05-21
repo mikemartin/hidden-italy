@@ -44,9 +44,9 @@ page_builder:
             text: "This marvellous tour starts with two days in Udine, an elegant provincial capital.\_ We then head north-east into the mountains, staying in a beautifully preserved village in the heart of the Carnian Alps, our base for the next four days.\_ From here we drive east across the plains to ‘Venetian Slovenia’, a wedge of forested hills that forms the frontier between Italy and Slovenia.\_ Our base is a family-run hotel in the centre of beautiful frontier town that was founded by Julius Caesar.\_ Our last two nights are in the grand port city of Trieste, for four centuries the Mediterranean port for the Austro-Hungarian Empire.\_ Trieste has fast train connections to the rest of Italy."
     title: 'A beguiling combination of mountains, plains and sea'
     images:
-      - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/16.5.jpg
-      - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/sauris-2.jpg
-      - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/68a-2.jpg
+      - guided/trieste-and-friuli/16.5.jpg
+      - guided/trieste-and-friuli/sauris-2.jpg
+      - guided/trieste-and-friuli/68a-2.jpg
     hide_from_subnav: false
   -
     id: mloqd78x
@@ -98,7 +98,7 @@ page_builder:
         description: 'Prosperous Udine sits on a fertile plain in the middle of Friuli Venezia Giulia (FVG).  With its elegant architecture and refined way of life, Udine has retained much of its past as part of the Venetian Empire.  The first two nights of our tour are in a classic 4-star hotel in the centre of the city.  After an aperitivo in our hotel, we’ll have dinner in an elegant restaurant near the hotel.'
         meals_included:
           - dinner
-        photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/1.jpg
+        photo: guided/trieste-and-friuli/1.jpg
       -
         id: mloqxcnx
         title: 'Explore Udine'
@@ -106,7 +106,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/img_3969.jpeg
+        photo: guided/trieste-and-friuli/img_3969.jpeg
       -
         id: mloqy5ed
         title: 'Transfer to the mountains'
@@ -118,7 +118,7 @@ page_builder:
         duration: 2
         distance: 7
         elevation: 135
-        photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/3.jpg
+        photo: guided/trieste-and-friuli/3.jpg
       -
         id: mloqzruj
         title: 'A walk in the valley'
@@ -130,7 +130,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/2.7-a.jpg
+        photo: guided/trieste-and-friuli/2.7-a.jpg
       -
         id: mlor10w3
         title: 'Explore the heritage of the valley'
@@ -142,7 +142,7 @@ page_builder:
         duration: 4
         distance: 9
         elevation: 365
-        photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/2.jpg
+        photo: guided/trieste-and-friuli/2.jpg
       -
         id: mlor23s2
         title: 'Walk in the mountains'
@@ -154,7 +154,7 @@ page_builder:
         duration: 4
         distance: 9
         elevation: 377
-        photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/sauris-2.jpg
+        photo: guided/trieste-and-friuli/sauris-2.jpg
       -
         id: mlor3ri3
         title: 'Transfer to the Natisone Valley'
@@ -166,7 +166,7 @@ page_builder:
         duration: 4
         distance: 10
         elevation: 355
-        photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/59a.jpg
+        photo: guided/trieste-and-friuli/59a.jpg
       -
         id: mlor6aar
         title: 'A very special hike'
@@ -178,7 +178,7 @@ page_builder:
         duration: 3
         distance: 6
         elevation: 479
-        photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/13.jpg
+        photo: guided/trieste-and-friuli/13.jpg
       -
         id: mlor867w
         title: 'A day of relax'
@@ -187,7 +187,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/100.jpg
+        photo: guided/trieste-and-friuli/100.jpg
       -
         id: mlora14b
         title: 'Vineyards and a Michelin-starred lunch'
@@ -198,7 +198,7 @@ page_builder:
         duration: 4
         distance: 11
         elevation: 288
-        photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/54a.jpg
+        photo: guided/trieste-and-friuli/54a.jpg
       -
         id: mlorbjxg
         title: 'Transfer to Trieste'
@@ -209,7 +209,7 @@ page_builder:
         duration: 4
         distance: 12
         elevation: 400
-        photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/88.7.jpg
+        photo: guided/trieste-and-friuli/88.7.jpg
       -
         id: mlore9l3
         title: 'Explore Trieste'
@@ -217,14 +217,14 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/1a.jpg
+        photo: guided/trieste-and-friuli/1a.jpg
       -
         id: mlorf281
         title: 'Depart Trieste'
         description: 'After breakfast you are free to continue your holiday.  Trieste railway station is a short taxi ride or walk from the hotel and has direct connections to Venice, Milan, Florence and the rest of Italy.'
         meals_included:
           - breakfast
-        photo: tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/87.5.jpg
+        photo: guided/trieste-and-friuli/87.5.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -244,7 +244,7 @@ page_builder:
               -
                 type: text
                 text: 'With its pristine forests, national parks and fascinating history, FVG offers some wonderful walks, including: exploring the valleys and mountains of the Carnian Alps; following the historic trails through the hills that hug the Slovenian border; walking through the vineyards of the Collio region; and a stroll along the Adriatic Coast The walks range from 8 to 17 kms and follow well-marked trails, mostly unsealed country roads. In some cases it is possible to shorten the walk or to opt out and join the walkers for lunch.'
-        image: tours/4.1.jpg
+        image: guided/trieste-and-friuli/4.1.jpg
         type: walk
         enabled: true
       -
@@ -260,7 +260,7 @@ page_builder:
         type: accommodation
         enabled: true
         media:
-          - tours/friuli-venezia-giulia-trieste-and-friuli-guided-tour-udine-to-trieste/3.jpg
+          - guided/trieste-and-friuli/3.jpg
       -
         id: DmGhPijoLKwyK7wVV3wDo
         title: 'Authentic food'
@@ -272,7 +272,7 @@ page_builder:
                 type: text
                 text: "With its long coastline, fertile plains, unspoilt mountains and ancient traditions, the food of Friuli is as diverse as the region itself.\_ Friuli also produces some of Italy's finest ingredients, including Collio wines, San Daniele ham and Montasio cheese.\_ You will have plenty of opportunity to experience these along the way, including dining at stylish city restaurants; simple home-cooked fare in the mountains; a long lunch at a Michelin-starred trattoria in the country; finishing with a delicious seafood lunch overlooking the Gulf of Trieste.\_ Wine is included with the meals."
         media:
-          - tours/img_3936.jpeg
+          - guided/trieste-and-friuli/img_3936.jpeg
         type: food
         enabled: true
     type: experience
@@ -358,20 +358,20 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 seasons: autumn
-image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/29a.jpg
+image: guided/trieste-and-friuli/29a.jpg
 gallery:
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/1.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/2.7-a.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/2.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/3.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/29a.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/59a.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/13.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/16.5.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/sauris-2.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/68a-2.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/87.5.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/88.7.jpg
+  - guided/trieste-and-friuli/1.jpg
+  - guided/trieste-and-friuli/2.7-a.jpg
+  - guided/trieste-and-friuli/2.jpg
+  - guided/trieste-and-friuli/3.jpg
+  - guided/trieste-and-friuli/29a.jpg
+  - guided/trieste-and-friuli/59a.jpg
+  - guided/trieste-and-friuli/13.jpg
+  - guided/trieste-and-friuli/16.5.jpg
+  - guided/trieste-and-friuli/sauris-2.jpg
+  - guided/trieste-and-friuli/68a-2.jpg
+  - guided/trieste-and-friuli/87.5.jpg
+  - guided/trieste-and-friuli/88.7.jpg
 start_location:
   label: 'Friuli – Venezia Giulia, Italy'
   lat: '46.151042'

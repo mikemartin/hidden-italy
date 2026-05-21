@@ -39,9 +39,9 @@ page_builder:
             text: "This continous walk along the Cinque Terre follows stone paths that have linked the villages for centuries, starting in Levanto at the eastern end of the National Park and finishing in glorious Portovenere at the western end of the park. They twist and wind along the rugged coast passing through pine forests and terraced vineyards, with breath-taking views out over the Mediterranean, including the less walked routes from Riomaggiore to Portovenere and around the little island off Portovenere.\_ At the end of the walk, you'll be dropped off at La Spezia railway station (on the Rome/Genoa line)."
     title: 'Stone paths linking the villages for centuries'
     images:
-      - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-6.jpg
-      - tours/liguria-cinque-terre-coastal-walking-tour/manarola-1-a.jpg
-      - tours/liguria-cinque-terre-coastal-walking-tour/44.jpg
+      - self-guided/the-cinque-terre/vernazza-6.jpg
+      - self-guided/the-cinque-terre/manarola-1-a.jpg
+      - self-guided/the-cinque-terre/44.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -91,7 +91,7 @@ page_builder:
         id: mlooymbz
         title: 'Arrive in Levanto'
         description: 'The tour starts in Levanto, a charming and unpretentious town on the main Genoa/Rome railway line with a sandy beach and a wonderful new cycle-way, a thoroughly Italian sea-side resort.'
-        photo: tours/liguria-cinque-terre-coastal-walking-tour/levanto-1-1775014187.jpg
+        photo: self-guided/the-cinque-terre/levanto-1-1775014187.jpg
       -
         id: mloozlek
         title: 'Walk to Monterosso'
@@ -101,7 +101,7 @@ page_builder:
         elevation: 314
         meals_included:
           - breakfast
-        photo: tours/liguria-cinque-terre-coastal-walking-tour/monterosso-9.jpg
+        photo: self-guided/the-cinque-terre/monterosso-9.jpg
       -
         id: mlop159i
         title: 'Walk through vineyards'
@@ -111,7 +111,7 @@ page_builder:
         elevation: 200
         meals_included:
           - breakfast
-        photo: tours/liguria-cinque-terre-coastal-walking-tour/vernazza-3-a.jpg
+        photo: self-guided/the-cinque-terre/vernazza-3-a.jpg
       -
         id: mlop3c5r
         title: 'Walk to Riomaggiore'
@@ -121,7 +121,7 @@ page_builder:
         elevation: 184
         meals_included:
           - breakfast
-        photo: tours/liguria-cinque-terre-coastal-walking-tour/vernazza-10-a.jpeg
+        photo: self-guided/the-cinque-terre/vernazza-10-a.jpeg
       -
         id: mlop5205
         title: 'Walk to Portovenere'
@@ -131,7 +131,7 @@ page_builder:
         elevation: 563
         meals_included:
           - breakfast
-        photo: tours/liguria-cinque-terre-coastal-walking-tour/portovenere-town-1.jpg
+        photo: self-guided/the-cinque-terre/portovenere-town-1.jpg
       -
         id: mlop6avf
         title: 'Do a lap of Palmaria island'
@@ -141,14 +141,14 @@ page_builder:
         elevation: 181
         meals_included:
           - breakfast
-        photo: tours/liguria-cinque-terre-coastal-walking-tour/camogli-5.jpg
+        photo: self-guided/the-cinque-terre/camogli-5.jpg
       -
         id: mlop8uiy
         title: 'Transfer to La Spezia'
         description: "After breakfast, you'll be transferred by private vehicle to La Spezia (30 minutes away) a busy and colourful port, with a number of excellent museums, a picturesque harbour and daily markets.  La Spezia has regular rail connections to Rome, Florence and Milan."
         meals_included:
           - breakfast
-        photo: tours/liguria-cinque-terre-coastal-walking-tour/siret-jaksic-yats80aqvmm-unsplash.jpg
+        photo: self-guided/the-cinque-terre/siret-jaksic-yats80aqvmm-unsplash.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -168,7 +168,7 @@ page_builder:
               -
                 type: text
                 text: "You follow well-marked tracks; and there are some long climbs up stone stairs.\_ The trails between Monterosso and Vernazza and Vernazza and Riomaggiore can get busy in summer but the crowds (usually daytrippers) can be avioded by getting early starts.\_ The walks can be comfortably done in half a day, which leaves you plenty of time to explore the little villages you'll be staying in.\_ Full details on each walk are on the itinerary."
-        image: tours/img_1544.jpg
+        image: self-guided/the-cinque-terre/img_1544.jpg
         type: walk
         enabled: true
       -
@@ -182,7 +182,7 @@ page_builder:
                 type: text
                 text: "Hidden Italy uses the best accommodation available.\_ On the Cinque Terre this means very comfortable, centrally located, family-run hotels. All rooms have en suite bathrooms and air-conditioning.\_ Please bear in mind that these are essentially small fishing villages and don't have a range of accommodation options."
         media:
-          - tours/terrazza_hotel_villa_argentina.jpg
+          - self-guided/the-cinque-terre/terrazza_hotel_villa_argentina.jpg
         type: accommodation
         enabled: true
       -
@@ -205,7 +205,7 @@ page_builder:
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
         media:
-          - tours/siret-jaksic-yats80aqvmm-unsplash.jpg
+          - self-guided/the-cinque-terre/siret-jaksic-yats80aqvmm-unsplash.jpg
         type: food
         enabled: true
     type: experience
@@ -295,20 +295,20 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
-image: tours/liguria-cinque-terre-coastal-walking-tour/vernazza-8-a.jpg
+image: self-guided/the-cinque-terre/vernazza-8-a.jpg
 gallery:
-  - tours/liguria-cinque-terre-coastal-walking-tour/levanto-1.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/monterosso-9.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/img_4637-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-2.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-11.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-10-a.jpeg
-  - tours/liguria-cinque-terre-coastal-walking-tour/djedj-cinque-terre-2928723_1920-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-6.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/manarola-1-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/44.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/portovenere-town-1.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/siret-jaksic-yats80aqvmm-unsplash.jpg
+  - self-guided/the-cinque-terre/levanto-1.jpg
+  - self-guided/the-cinque-terre/monterosso-9.jpg
+  - self-guided/the-cinque-terre/img_4637-a.jpg
+  - self-guided/the-cinque-terre/vernazza-2.jpg
+  - self-guided/the-cinque-terre/vernazza-11.jpg
+  - self-guided/the-cinque-terre/vernazza-10-a.jpeg
+  - self-guided/the-cinque-terre/djedj-cinque-terre-2928723_1920-a.jpg
+  - self-guided/the-cinque-terre/vernazza-6.jpg
+  - self-guided/the-cinque-terre/manarola-1-a.jpg
+  - self-guided/the-cinque-terre/44.jpg
+  - self-guided/the-cinque-terre/portovenere-town-1.jpg
+  - self-guided/the-cinque-terre/siret-jaksic-yats80aqvmm-unsplash.jpg
 start_location:
   label: 'Levanto, Liguria, Italy'
   lat: '44.1699056'

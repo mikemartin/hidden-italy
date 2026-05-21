@@ -39,9 +39,9 @@ page_builder:
     section_background: dark
     show_topography: true
     images:
-      - tours/italian-alps-trails-to-freedom/dscf0276.jpg
-      - tours/italian-alps-trails-to-freedom/dscf1836.jpg
-      - tours/italian-alps-trails-to-freedom/10.jpg
+      - guided/trails-to-freedom/dscf0276.jpg
+      - guided/trails-to-freedom/dscf1836.jpg
+      - guided/trails-to-freedom/10.jpg
     hide_from_subnav: false
   -
     id: mjfler2v
@@ -93,7 +93,7 @@ page_builder:
         description: "Your first night is in Biella, a pleasant town north of Turin with a rail link. Located where the Po River plain meets the foothills of the Alps, Biella has long been a trade and commercial centre. The Oropa Valley has connected Italy to Switzerland and France since Roman times. Its centuries-old textile tradition continues today, producing high-quality wool and housing fashion brands like Ermenegildo Zegna. We'll have dinner at an innovative local restaurant."
         meals_included:
           - dinner
-        photo: tours/italian-alps-trails-to-freedom/img_0975.jpg
+        photo: guided/trails-to-freedom/img_0975.jpg
       -
         id: mjflhmx3
         title: 'Hike to a baroque monastery'
@@ -105,7 +105,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/italian-alps-trails-to-freedom/img_0986.jpg
+        photo: guided/trails-to-freedom/img_0986.jpg
       -
         id: mjfliav4
         title: 'Sanctuary tour and ridge walk'
@@ -117,7 +117,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/italian-alps-trails-to-freedom/57.png
+        photo: guided/trails-to-freedom/57.png
       -
         id: mlizaetv
         title: 'The first big climb'
@@ -129,7 +129,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/italian-alps-trails-to-freedom/10.jpg
+        photo: guided/trails-to-freedom/10.jpg
       -
         id: mlj01a3m
         title: 'A long walk to Alagna'
@@ -140,7 +140,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/italian-alps-trails-to-freedom/dscf0143.jpg
+        photo: guided/trails-to-freedom/dscf0143.jpg
       -
         id: mlj05x9f
         title: 'Free day in Alagna'
@@ -148,7 +148,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/italian-alps-trails-to-freedom/65.jpg
+        photo: guided/trails-to-freedom/65.jpg
       -
         id: mlj06yj3
         title: 'Museum visit and climb to Monte Rosa'
@@ -160,7 +160,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/italian-alps-trails-to-freedom/p8270231.jpg
+        photo: guided/trails-to-freedom/p8270231.jpg
       -
         id: mlj0rpd5
         title: 'The first views of Switzerland'
@@ -171,7 +171,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/italian-alps-trails-to-freedom/dscf0276.jpg
+        photo: guided/trails-to-freedom/dscf0276.jpg
       -
         id: mlj0t848
         title: 'Macugnaga and the Swiss border'
@@ -180,14 +180,14 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/italian-alps-trails-to-freedom/94.jpg
+        photo: guided/trails-to-freedom/94.jpg
       -
         id: mlj0uhz8
         title: 'Heading for Milano'
         description: 'This morning after breakfast you’ll be picked up at 08.00 by private bus and driven to Milan, 150 kilometres south.  We should arrive around 10.30.'
         meals_included:
           - breakfast
-        photo: tours/italian-alps-trails-to-freedom/183.png
+        photo: guided/trails-to-freedom/183.png
     type: itinerary
     enabled: true
     section_background: none
@@ -215,7 +215,7 @@ page_builder:
               -
                 type: text
                 text: "Technically the route is simple, however, it is a challenge.\_ You will be required to climb more than a thousand metres on several days, there are some exposed sections and you will be crossing high altitude country where weather conditions can change dramatically so you will require a high level of fitness.\_\_ You must also be prepared to walk in all conditions rain, hail or shine! This is a tough but very satisfying hike."
-        image: tours/5.5.jpg
+        image: guided/trails-to-freedom/5.5.jpg
         type: walk
         enabled: true
       -
@@ -229,7 +229,7 @@ page_builder:
                 type: text
                 text: "The accommodation is one of the highlights of the tour.\_ We will start with the first night in a 4-star hotel in Biella in Piedmont.\_ For the next two night we will stay in a very comfortable pilgrim accommodation in magnificent monasteries that date from the Middle Ages.\_ The next night is in a ‘rifugio’, or mountain hut, where we will sleep overnight in shared rooms (with shared bathrooms).\_ The following two nights are in a lovely 3-star hotel in a town at the head of the Sesia Valley.\_ The next night is in a gorgeous rifugio at the foot of Mont Rosa, with shared rooms (with shared bathrooms)..\_ The last two nights we spend in a family-run 3-star hotel in a village below the Mt Moro Pass and the Swiss border"
         media:
-          - tours/b96f4a2a-dec1-40ff-b7cb-9c99a23a7e4f.jpg
+          - guided/trails-to-freedom/b96f4a2a-dec1-40ff-b7cb-9c99a23a7e4f.jpg
         type: accommodation
         enabled: true
       -
@@ -255,7 +255,7 @@ page_builder:
                 type: text
                 text: 'Lunches on the track will be a mixture of picnic lunches and cut lunches prepared by our accommodation.'
         media:
-          - tours/44.jpg
+          - guided/trails-to-freedom/44.jpg
         type: food
         enabled: true
     type: experience
@@ -359,19 +359,19 @@ locations: northern-italy
 updated_by: 1
 updated_at: 1779336263
 gallery:
-  - tours/italian-alps-trails-to-freedom/94.jpg
-  - tours/italian-alps-trails-to-freedom/3-(2).jpg
-  - tours/italian-alps-trails-to-freedom/5.5.jpg
-  - tours/italian-alps-trails-to-freedom/12.jpg
-  - tours/italian-alps-trails-to-freedom/57.png
-  - tours/italian-alps-trails-to-freedom/44.jpg
-  - tours/italian-alps-trails-to-freedom/65.jpg
-  - tours/italian-alps-trails-to-freedom/dscf1836.jpg
-  - tours/italian-alps-trails-to-freedom/dscf0143.jpg
-  - tours/italian-alps-trails-to-freedom/10.jpg
-  - tours/italian-alps-trails-to-freedom/dscf0276.jpg
-  - tours/italian-alps-trails-to-freedom/p8270231.jpg
-image: tours/italian-alps-trails-to-freedom/dscf0276.jpg
+  - guided/trails-to-freedom/94.jpg
+  - guided/trails-to-freedom/3-(2).jpg
+  - guided/trails-to-freedom/5.5.jpg
+  - guided/trails-to-freedom/12.jpg
+  - guided/trails-to-freedom/57.png
+  - guided/trails-to-freedom/44.jpg
+  - guided/trails-to-freedom/65.jpg
+  - guided/trails-to-freedom/dscf1836.jpg
+  - guided/trails-to-freedom/dscf0143.jpg
+  - guided/trails-to-freedom/10.jpg
+  - guided/trails-to-freedom/dscf0276.jpg
+  - guided/trails-to-freedom/p8270231.jpg
+image: guided/trails-to-freedom/dscf0276.jpg
 simple_likes: 0
 start_location:
   label: 'Biella, Piedmont, Italy'

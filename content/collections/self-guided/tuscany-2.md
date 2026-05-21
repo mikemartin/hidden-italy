@@ -51,9 +51,9 @@ page_builder:
             text: "The tour starts with a private transfer from Florence to Impruneta.\_ From here well-marked trails take you through undulating farmlands, over the forest-covered hills of the Colline di Chianti, and then south towards Siena.\_ You stay in comfortable accommodation in the centre of a series buzzy market towns, as well as a charming agriturismo in the hills.\_ At the end of the last walk, you will be transferred to Siena, where you spend the last night in a very nice hotel in an historic palazzo in the heart of the city, close to the famous Piazza del Campo (an appropriate finale to your tour!)."
     title: 'Between Florence and Siena'
     images:
-      - tours/tuscany-tuscany-2-chianti-florence-to-siena/kristina-c-qwaolhfrx3i-unsplash.jpg
-      - tours/tuscany-tuscany-2-chianti-florence-to-siena/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
-      - tours/tuscany-tuscany-2-chianti-florence-to-siena/016.jpg
+      - self-guided/tuscany-2/kristina-c-qwaolhfrx3i-unsplash.jpg
+      - self-guided/tuscany-2/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
+      - self-guided/tuscany-2/016.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -103,7 +103,7 @@ page_builder:
         id: mlooymbz
         title: 'Arrive in Impruneta'
         description: 'The tour starts with a private transfer from Florence to Impruneta, a pleasant town twenty kilometres Florence. Your family hotel has views of the town’s famous basilica in the central piazza, dating from the 11th century, which contains a miraculous image of the Madonna, fragments of the True Cross and masterpieces by Luca della Robbia and Michelozzi.'
-        photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/kristina-c-qwaolhfrx3i-unsplash.jpg
+        photo: self-guided/tuscany-2/kristina-c-qwaolhfrx3i-unsplash.jpg
       -
         id: mloozlek
         title: 'Stroll through farmlands'
@@ -113,7 +113,7 @@ page_builder:
         elevation: 165
         meals_included:
           - breakfast
-        photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/jonathan-skule-hvhpyxztqmc-unsplash(1).jpg
+        photo: self-guided/tuscany-2/jonathan-skule-hvhpyxztqmc-unsplash(1).jpg
       -
         id: mlop159i
         title: 'Walk through vineyards'
@@ -123,7 +123,7 @@ page_builder:
         elevation: 278
         meals_included:
           - breakfast
-        photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/016.jpg
+        photo: self-guided/tuscany-2/016.jpg
       -
         id: mlop3c5r
         title: 'Cross the Chianti hills'
@@ -134,7 +134,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
+        photo: self-guided/tuscany-2/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
       -
         id: mlop5205
         title: 'Walk to  through forests'
@@ -144,7 +144,7 @@ page_builder:
         elevation: -546
         meals_included:
           - breakfast
-        photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/img_0738-2.jpg
+        photo: self-guided/tuscany-2/img_0738-2.jpg
       -
         id: mlop6avf
         title: 'Transfer to Siena'
@@ -154,14 +154,14 @@ page_builder:
         duration: 2
         distance: 7
         elevation: 174
-        photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/alessandro-rossi-ju_bgza3zhe-unsplash.jpg
+        photo: self-guided/tuscany-2/alessandro-rossi-ju_bgza3zhe-unsplash.jpg
       -
         id: mmzs9nie
         title: 'Depart Siena'
         description: "This morning, after breakfast, you'll be able to continue your holiday.  Siena is connected to Florence and Rome by regular buses and trains."
         meals_included:
           - breakfast
-        photo: tours/tuscany-tuscany-2-chianti-florence-to-siena/paolo-d-andrea-msrizqwwlc4-unsplash.jpg
+        photo: self-guided/tuscany-2/paolo-d-andrea-msrizqwwlc4-unsplash.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -189,7 +189,7 @@ page_builder:
                   -
                     type: italic
                 text: 'The self-guided itineraries are re-walked and the notes updated each year.'
-        image: tours/-7.5.jpg
+        image: self-guided/tuscany-2/-7.5.jpg
         type: walk
         enabled: true
       -
@@ -203,7 +203,7 @@ page_builder:
                 type: text
                 text: "The Hidden Italy use the best accommodation available.\_ This includes a combination of family-run 3-star hotels, 4-star hotels in restored historical buildings and lovely country ‘agriturismo’s with swimming pools and fine local cooking.\_ All rooms have, private ensuite bathrooms.\_ Guaranteed!"
         media:
-          - tours/flo-p-puor_oqheg4-unsplash.jpg
+          - self-guided/tuscany-2/flo-p-puor_oqheg4-unsplash.jpg
         type: accommodation
         enabled: true
       -
@@ -226,7 +226,7 @@ page_builder:
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
         media:
-          - tours/img_5083.jpg
+          - self-guided/tuscany-2/img_5083.jpg
         type: food
         enabled: true
     type: experience
@@ -316,20 +316,20 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
-image: tours/tuscany-tuscany-2-chianti-florence-to-siena/rich-martello-yqcvybdd4y-unsplash-1774331143.jpg
+image: self-guided/tuscany-2/rich-martello-yqcvybdd4y-unsplash-1774331143.jpg
 gallery:
-  - tours/tuscany-tuscany-2-chianti-florence-to-siena/rich-martello-yqcvybdd4y-unsplash-1774331143.jpg
-  - tours/tuscany-tuscany-2-chianti-florence-to-siena/aleksandrs-karevs-ne-z7d7v2yu-unsplash(1).jpg
-  - tours/tuscany-tuscany-2-chianti-florence-to-siena/img_0738-2.jpg
-  - tours/tuscany-tuscany-2-chianti-florence-to-siena/img_5083.jpg
-  - tours/tuscany-tuscany-2-chianti-florence-to-siena/jonathan-skule-hvhpyxztqmc-unsplash(1).jpg
-  - tours/tuscany-tuscany-2-chianti-florence-to-siena/flo-p-puor_oqheg4-unsplash.jpg
-  - tours/tuscany-tuscany-2-chianti-florence-to-siena/paolo-d-andrea-msrizqwwlc4-unsplash.jpg
-  - tours/tuscany-tuscany-2-chianti-florence-to-siena/kristina-c-qwaolhfrx3i-unsplash.jpg
-  - tours/tuscany-tuscany-2-chianti-florence-to-siena/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
-  - tours/tuscany-tuscany-2-chianti-florence-to-siena/016.jpg
-  - tours/tuscany-tuscany-2-chianti-florence-to-siena/alessandro-rossi-ju_bgza3zhe-unsplash.jpg
-  - tours/tuscany-tuscany-2-chianti-florence-to-siena/mario-la-pergola-vopuqdtcnja-unsplash.jpg
+  - self-guided/tuscany-2/rich-martello-yqcvybdd4y-unsplash-1774331143.jpg
+  - self-guided/tuscany-2/aleksandrs-karevs-ne-z7d7v2yu-unsplash(1).jpg
+  - self-guided/tuscany-2/img_0738-2.jpg
+  - self-guided/tuscany-2/img_5083.jpg
+  - self-guided/tuscany-2/jonathan-skule-hvhpyxztqmc-unsplash(1).jpg
+  - self-guided/tuscany-2/flo-p-puor_oqheg4-unsplash.jpg
+  - self-guided/tuscany-2/paolo-d-andrea-msrizqwwlc4-unsplash.jpg
+  - self-guided/tuscany-2/kristina-c-qwaolhfrx3i-unsplash.jpg
+  - self-guided/tuscany-2/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
+  - self-guided/tuscany-2/016.jpg
+  - self-guided/tuscany-2/alessandro-rossi-ju_bgza3zhe-unsplash.jpg
+  - self-guided/tuscany-2/mario-la-pergola-vopuqdtcnja-unsplash.jpg
 start_location:
   label: 'Florence, Tuscany, Italy'
   lat: '43.7697955'

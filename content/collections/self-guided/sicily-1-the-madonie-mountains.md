@@ -49,9 +49,9 @@ page_builder:
             text: 'The Sicily 1 walk is a wonderful opportunity to get local, experience the famous Sicilian hospitality, its delicious seasonal cuisine as well as enjoying some long country rambles.'
     title: 'In the shadow of Mt Etna'
     images:
-      - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6635.jpeg
-      - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/22.jpg
-      - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture1.jpg
+      - self-guided/sicily-1-the-madonie-mountains/img_6635.jpeg
+      - self-guided/sicily-1-the-madonie-mountains/22.jpg
+      - self-guided/sicily-1-the-madonie-mountains/picture1.jpg
     hide_from_subnav: false
   -
     id: mlrbu308
@@ -103,7 +103,7 @@ page_builder:
         description: 'Your tour starts with a private transfer from either Palermo or Catania to Nicosia in central Sicily, an hour and a half away.  A strategic point on the mountain road that linked eastern Sicily with Palermo, Nicosia grew up around a 7th century Byzantine castle and flourished under Norman rule in the 12th century.  Today it is a bustling agricultural centre – pure Sicily!'
         meals_included:
           - dinner
-        photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/saints-day-out.jpg
+        photo: self-guided/sicily-1-the-madonie-mountains/saints-day-out.jpg
       -
         id: mlrce7n9
         title: 'Walk into the mountains'
@@ -114,7 +114,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/45.5.jpg
+        photo: self-guided/sicily-1-the-madonie-mountains/45.5.jpg
       -
         id: mlrchqfo
         title: 'A ramble through the valleys'
@@ -125,7 +125,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/42.jpg
+        photo: self-guided/sicily-1-the-madonie-mountains/42.jpg
       -
         id: mlrcpsyv
         title: 'Stay in a family-run agriturismo'
@@ -136,7 +136,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/08.jpg
+        photo: self-guided/sicily-1-the-madonie-mountains/08.jpg
       -
         id: mlrcryci
         title: 'Walk to the Madonie Park'
@@ -147,7 +147,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/121.jpg
+        photo: self-guided/sicily-1-the-madonie-mountains/121.jpg
       -
         id: mlrczqmb
         title: 'Walk to Petralia Soprana'
@@ -158,14 +158,14 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/25-2.jpg
+        photo: self-guided/sicily-1-the-madonie-mountains/25-2.jpg
       -
         id: mlrd7giq
         title: 'Transfer to Palermo or Catania'
         description: 'After breakfast, you will be transferred to either Palermo or Catania, a one and a half hour drive away.'
         meals_included:
           - breakfast
-        photo: tours/sicily-sicily-1-nicosia-to-petralia-soprana/img_6695.jpeg
+        photo: self-guided/sicily-1-the-madonie-mountains/img_6695.jpeg
     type: itinerary
     enabled: true
     section_background: none
@@ -185,7 +185,7 @@ page_builder:
               -
                 type: text
                 text: "This is a continuous walk.\_ The walks range from 3 to 4 hours, covering between 12 to 15 kilometres.\_ They generally follow unsealed country lanes passing through rolling farmlands.\_ There are also some short sections following smaller trails with uneven footing. \_The trails are unmarked but are straight-forward to follow - there is always a farmhouse in sight.\_ Full details on each walk are on the itinerary.  The self-guided itineraries are re-walked and the notes updated each year."
-        image: tours/img_6633.jpeg
+        image: self-guided/sicily-1-the-madonie-mountains/img_6633.jpeg
         type: walk
         enabled: true
       -
@@ -199,7 +199,7 @@ page_builder:
                 type: text
                 text: "You will stay in a variety of accommodation, themselves often part of the area's history, which are always comfortable and welcoming: two family-run 'agriturismos' (one of which was once a baronial residence); a private apartment; a small, family-run hotel; a 15th century convent (hosted by nuns) and finishing in a restored noble residence in the heart of an ancient village.\_"
         media:
-          - tours/img_2547.jpg
+          - self-guided/sicily-1-the-madonie-mountains/img_2547.jpg
         type: accommodation
         enabled: true
       -
@@ -230,7 +230,7 @@ page_builder:
         type: food
         enabled: true
         media:
-          - tours/sicily-sicily-1-nicosia-to-petralia-soprana/31.jpg
+          - self-guided/sicily-1-the-madonie-mountains/31.jpg
     type: experience
     enabled: true
     section_background: dark
@@ -321,18 +321,18 @@ landscapes:
   - mountains
 duplicated_from: 7397f93f-96a7-4030-b13c-2315e28fe22c
 gallery:
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/saints-day-out.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/25-2.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture4.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/125.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/palermo.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6633.jpeg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/45.5.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6635.jpeg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/22.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/picture1.jpg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_6695.jpeg
-  - tours/val-daosta-valley-del-lys-gaby-to-gressoney-la-trinite/img_0270.jpg
+  - self-guided/sicily-1-the-madonie-mountains/saints-day-out.jpg
+  - self-guided/sicily-1-the-madonie-mountains/25-2.jpg
+  - self-guided/sicily-1-the-madonie-mountains/picture4.jpg
+  - self-guided/sicily-1-the-madonie-mountains/125.jpg
+  - self-guided/sicily-1-the-madonie-mountains/palermo.jpg
+  - self-guided/sicily-1-the-madonie-mountains/img_6633.jpeg
+  - self-guided/sicily-1-the-madonie-mountains/45.5.jpg
+  - self-guided/sicily-1-the-madonie-mountains/img_6635.jpeg
+  - self-guided/sicily-1-the-madonie-mountains/22.jpg
+  - self-guided/sicily-1-the-madonie-mountains/picture1.jpg
+  - self-guided/sicily-1-the-madonie-mountains/img_6695.jpeg
+  - self-guided/sicily-1-the-madonie-mountains/img_0270.jpg
 start_location:
   label: 'Nicosia, Sicily, Italy'
   lat: '37.7481225'
@@ -369,7 +369,7 @@ now_open: false
 seasons:
   - spring
 headline: '7 days walking central Sicily'
-image: tours/sicily-sicily-1-nicosia-to-petralia-soprana/-08.jpg
+image: self-guided/sicily-1-the-madonie-mountains/-08.jpg
 teaser: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
 summary:
   -

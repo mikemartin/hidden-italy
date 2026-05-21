@@ -54,9 +54,9 @@ page_builder:
             text: "The Val d'Orcia is where Hidden Italy had its first tour over thirty years ago, and it is still one of my favourite areas in Italy!"
     title: 'From medieval walls to rolling hills'
     images:
-      - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5098.jpg
-      - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5057.jpg
-      - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5142.jpg
+      - self-guided/tuscany-1/img_5098.jpg
+      - self-guided/tuscany-1/img_5057.jpg
+      - self-guided/tuscany-1/img_5142.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -106,7 +106,7 @@ page_builder:
         id: mlooymbz
         title: 'Arrive in Montalcino'
         description: "You will be picked up at either Siena or Chiusi and taken to Montalcino, a perfectly preserved walled hilltop town, famous for both its views and its red wine, Brunello di Montalcino. Included in your notes is a short walk around the outside of the town's walls."
-        photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/f1000012-a.jpg
+        photo: self-guided/tuscany-1/f1000012-a.jpg
       -
         id: mloozlek
         title: 'Stay in a Medieval village'
@@ -116,7 +116,7 @@ page_builder:
         elevation: 328
         meals_included:
           - breakfast
-        photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5057.jpg
+        photo: self-guided/tuscany-1/img_5057.jpg
       -
         id: mlop159i
         title: 'Walk through vineyards'
@@ -126,7 +126,7 @@ page_builder:
         elevation: 453
         meals_included:
           - breakfast
-        photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5098.jpg
+        photo: self-guided/tuscany-1/img_5098.jpg
       -
         id: mlop3c5r
         title: 'Walk a Renaissance gem'
@@ -136,7 +136,7 @@ page_builder:
         elevation: 214
         meals_included:
           - breakfast
-        photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5149.jpg
+        photo: self-guided/tuscany-1/img_5149.jpg
       -
         id: mlop5205
         title: 'Walk to Montepulciano'
@@ -146,14 +146,14 @@ page_builder:
         elevation: 208
         meals_included:
           - breakfast
-        photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/shutterstock_574301368.jpg
+        photo: self-guided/tuscany-1/shutterstock_574301368.jpg
       -
         id: mlop6avf
         title: 'Transfer to Chiusi station'
         description: "After breakfast at 9.00 you'll be transfered to nearby Chiusi on the main Rome/Florence railway line."
         meals_included:
           - breakfast
-        photo: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_0741.jpg
+        photo: self-guided/tuscany-1/img_0741.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -181,7 +181,7 @@ page_builder:
                   -
                     type: italic
                 text: 'The self-guided itineraries are rewalked and the notes updated each year.'
-        image: tours/f1050006-a.jpg
+        image: self-guided/tuscany-1/f1050006-a.jpg
         type: walk
         enabled: true
       -
@@ -195,7 +195,7 @@ page_builder:
                 type: text
                 text: "Hidden Italy uses the best accommodation available.\_ On this tour all the accommodation is in\_ family-run, three star hotels which are based in centrally located, restored heritage buildings which themselves are part of the the local history.\_ The exception is\_Day 2 when you'll stay in a private serviced apartment in the centre of a tiny\_medieval village (there are no hotels here)."
         media:
-          - tours/hotel-view-montalcino.jpg
+          - self-guided/tuscany-1/hotel-view-montalcino.jpg
         type: accommodation
         enabled: true
       -
@@ -211,7 +211,7 @@ page_builder:
         type: food
         enabled: true
         media:
-          - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5261.jpg
+          - self-guided/tuscany-1/img_5261.jpg
     type: experience
     enabled: true
     section_background: dark
@@ -299,20 +299,20 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-image: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_0741.jpg
+image: self-guided/tuscany-1/img_0741.jpg
 gallery:
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/f1000012-a.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/f1050006-a.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5261.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_0741.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5049.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5075.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/shutterstock_574301368.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5098.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5057.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5142.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5117.jpg
-  - tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano/img_5149.jpg
+  - self-guided/tuscany-1/f1000012-a.jpg
+  - self-guided/tuscany-1/f1050006-a.jpg
+  - self-guided/tuscany-1/img_5261.jpg
+  - self-guided/tuscany-1/img_0741.jpg
+  - self-guided/tuscany-1/img_5049.jpg
+  - self-guided/tuscany-1/img_5075.jpg
+  - self-guided/tuscany-1/shutterstock_574301368.jpg
+  - self-guided/tuscany-1/img_5098.jpg
+  - self-guided/tuscany-1/img_5057.jpg
+  - self-guided/tuscany-1/img_5142.jpg
+  - self-guided/tuscany-1/img_5117.jpg
+  - self-guided/tuscany-1/img_5149.jpg
 now_open: false
 seasons:
   - spring

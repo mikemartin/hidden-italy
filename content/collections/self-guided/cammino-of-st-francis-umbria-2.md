@@ -56,9 +56,9 @@ page_builder:
         type: paragraph
     title: 'Abbeys, waterfalls and hilltop villages'
     images:
-      - tours/umbria-cammino-of-st-francis-umbria-2/f1020015.jpg
-      - tours/umbria-cammino-of-st-francis-umbria-2/img_5356.jpg
-      - tours/umbria-cammino-of-st-francis-umbria-2/14.8.jpg
+      - self-guided/cammino-of-st-francis-umbria-2/f1020015.jpg
+      - self-guided/cammino-of-st-francis-umbria-2/img_5356.jpg
+      - self-guided/cammino-of-st-francis-umbria-2/14.8.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -108,7 +108,7 @@ page_builder:
         id: mlooymbz
         title: 'Arrive in Spoleto'
         description: 'Arrival in Spoleto, well-connected to Florence and Rome.  This charming city has a long and fascinating history: besieged by Hannibal and his elephants, it was the seat of a Lombard duchy and had the 19 year old Lucrezia Borgia as it’s governor.  These days it is best known for its summer festival, the Festival dei Due Mondi, Italy’s largest international arts event.'
-        photo: tours/umbria-cammino-of-st-francis-umbria-2/1.jpg
+        photo: self-guided/cammino-of-st-francis-umbria-2/1.jpg
       -
         id: mloozlek
         title: 'Walk to the Nera Valley'
@@ -118,7 +118,7 @@ page_builder:
         elevation: 666
         meals_included:
           - breakfast
-        photo: tours/umbria-cammino-of-st-francis-umbria-2/img_5409.jpg
+        photo: self-guided/cammino-of-st-francis-umbria-2/img_5409.jpg
       -
         id: mlop159i
         title: 'Walk down the Nera River'
@@ -128,7 +128,7 @@ page_builder:
         elevation: 86
         meals_included:
           - breakfast
-        photo: tours/umbria-cammino-of-st-francis-umbria-2/7.jpg
+        photo: self-guided/cammino-of-st-francis-umbria-2/7.jpg
       -
         id: mlop3c5r
         title: 'Walk to a lake'
@@ -138,7 +138,7 @@ page_builder:
         elevation: 178
         meals_included:
           - breakfast
-        photo: tours/umbria-cammino-of-st-francis-umbria-2/sofia-msnxoysxjsq-unsplash.jpg
+        photo: self-guided/cammino-of-st-francis-umbria-2/sofia-msnxoysxjsq-unsplash.jpg
       -
         id: mlop5205
         title: 'Discover the Rieti valley'
@@ -148,7 +148,7 @@ page_builder:
         elevation: 726
         meals_included:
           - breakfast
-        photo: tours/umbria-cammino-of-st-francis-umbria-2/img_5356.jpg
+        photo: self-guided/cammino-of-st-francis-umbria-2/img_5356.jpg
       -
         id: mlop6avf
         title: 'Walk to Rieti'
@@ -158,14 +158,14 @@ page_builder:
         elevation: 326
         meals_included:
           - breakfast
-        photo: tours/umbria-cammino-of-st-francis-umbria-2/p4280723-a.jpg
+        photo: self-guided/cammino-of-st-francis-umbria-2/p4280723-a.jpg
       -
         id: mlop8uiy
         title: 'Depart Rieti'
         description: "After breakfast, you'll be free to continue your holiday.   Rieti is well connected by regular train to Rome and the rest of Italy."
         meals_included:
           - breakfast
-        photo: tours/umbria-cammino-of-st-francis-umbria-2/2.jpg
+        photo: self-guided/cammino-of-st-francis-umbria-2/2.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -193,7 +193,7 @@ page_builder:
                   -
                     type: italic
                 text: 'The self-guided itineraries are re-walked and the notes updated each year.'
-        image: tours/2.5.jpg
+        image: self-guided/cammino-of-st-francis-umbria-2/2.5.jpg
         type: walk
         enabled: true
       -
@@ -207,7 +207,7 @@ page_builder:
                 type: text
                 text: "In the spirit of the long-distance pilgrimage, we have sought to keep the costs down.\_ The accommodation in between is the best available in each places including a 4-star hotel, asimple family-run agriturismo, a private apartment and modern lake-side hotel.\_ All the accommodation is clean, comfortable and welcoming and each room has an en suite bathroom."
         media:
-          - tours/miralago-1.jpg
+          - self-guided/cammino-of-st-francis-umbria-2/miralago-1.jpg
         type: accommodation
         enabled: true
       -
@@ -230,7 +230,7 @@ page_builder:
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
         media:
-          - tours/7.6.jpg
+          - self-guided/cammino-of-st-francis-umbria-2/7.6.jpg
         type: food
         enabled: true
     type: experience
@@ -323,20 +323,20 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-image: tours/umbria-cammino-of-st-francis-umbria-2/sofia-msnxoysxjsq-unsplash.jpg
+image: self-guided/cammino-of-st-francis-umbria-2/sofia-msnxoysxjsq-unsplash.jpg
 gallery:
-  - tours/umbria-cammino-of-st-francis-umbria-2/spoleto.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/2.5.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/7.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/2.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/14.4.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/8.7.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/7.6.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/7.5.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/14.8.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/img_5360.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/spoleto-2.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2/spoleto-3.jpg
+  - self-guided/cammino-of-st-francis-umbria-2/spoleto.jpg
+  - self-guided/cammino-of-st-francis-umbria-2/2.5.jpg
+  - self-guided/cammino-of-st-francis-umbria-2/7.jpg
+  - self-guided/cammino-of-st-francis-umbria-2/2.jpg
+  - self-guided/cammino-of-st-francis-umbria-2/14.4.jpg
+  - self-guided/cammino-of-st-francis-umbria-2/8.7.jpg
+  - self-guided/cammino-of-st-francis-umbria-2/7.6.jpg
+  - self-guided/cammino-of-st-francis-umbria-2/7.5.jpg
+  - self-guided/cammino-of-st-francis-umbria-2/14.8.jpg
+  - self-guided/cammino-of-st-francis-umbria-2/img_5360.jpg
+  - self-guided/cammino-of-st-francis-umbria-2/spoleto-2.jpg
+  - self-guided/cammino-of-st-francis-umbria-2/spoleto-3.jpg
 start_location:
   label: 'Spoleto, Umbria, Italy'
   lat: '42.7342971'

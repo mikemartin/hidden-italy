@@ -9,7 +9,7 @@ seasons: spring
 grade: 3
 updated_by: 1
 updated_at: 1779336249
-image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
+image: guided/campania-and-the-amalfi-coast/22.6.jpg
 tour_size: 15
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in excellent boutique hotels'
@@ -20,18 +20,18 @@ inclusions:
   - '7 guided walks'
   - 'Services of a full-time professional tour guide'
 gallery:
-  - tours/campania-the-amalfi-coast-naples-to-ravello/1.5.png
-  - tours/campania-the-amalfi-coast-naples-to-ravello/img_1450.jpg
-  - tours/campania-the-amalfi-coast-naples-to-ravello/img_4724-v2.jpg
-  - tours/campania-the-amalfi-coast-naples-to-ravello/3.8.jpg
-  - tours/campania-the-amalfi-coast-naples-to-ravello/img_1680.jpg
-  - tours/campania-the-amalfi-coast-naples-to-ravello/img_2369-v2.jpg
-  - tours/campania-the-amalfi-coast-naples-to-ravello/maratea-2.jpg
-  - tours/campania-the-amalfi-coast-naples-to-ravello/img_3120-v2.jpg
-  - tours/campania-the-amalfi-coast-naples-to-ravello/maratea-1.jpg
-  - tours/campania-the-amalfi-coast-naples-to-ravello/img_8037.jpg
-  - tours/campania-the-amalfi-coast-naples-to-ravello/maratea-5.jpg
-  - tours/campania-the-amalfi-coast-naples-to-ravello/img_2509-v2.jpg
+  - guided/campania-and-the-amalfi-coast/1.5.png
+  - guided/campania-and-the-amalfi-coast/img_1450.jpg
+  - guided/campania-and-the-amalfi-coast/img_4724-v2.jpg
+  - guided/campania-and-the-amalfi-coast/3.8.jpg
+  - guided/campania-and-the-amalfi-coast/img_1680.jpg
+  - guided/campania-and-the-amalfi-coast/img_2369-v2.jpg
+  - guided/campania-and-the-amalfi-coast/maratea-2.jpg
+  - guided/campania-and-the-amalfi-coast/img_3120-v2.jpg
+  - guided/campania-and-the-amalfi-coast/maratea-1.jpg
+  - guided/campania-and-the-amalfi-coast/img_8037.jpg
+  - guided/campania-and-the-amalfi-coast/maratea-5.jpg
+  - guided/campania-and-the-amalfi-coast/img_2509-v2.jpg
 leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 page_builder:
   -
@@ -56,9 +56,9 @@ page_builder:
             text: "We begin with three nights in Naples, exploring its vibrant streets, art, museums, and food. Next, we drive to the Apennine foothills for four nights at a family-run hotel in an ancient town near Monti Picentini National Park, where we'll walk and enjoy southern cuisine.\_ Then we head to the Tyrrhenian Coast for three nights at a 4-star hotel overlooking Policastro Gulf, featuring a ridge walk and a private boat trip along the coast. \_Finally, we stay two nights in Ravello on the Amalfi Coast, ending our journey with a forest walk down to Amalfi.\_ This tour is a Hidden Italy special!"
     title: 'A region of great variety'
     images:
-      - tours/campania-the-amalfi-coast-naples-to-ravello/img_3120-v2.jpg
-      - tours/campania-the-amalfi-coast-naples-to-ravello/maratea-1.jpg
-      - tours/campania-the-amalfi-coast-naples-to-ravello/img_8037.jpg
+      - guided/campania-and-the-amalfi-coast/img_3120-v2.jpg
+      - guided/campania-and-the-amalfi-coast/maratea-1.jpg
+      - guided/campania-and-the-amalfi-coast/img_8037.jpg
     hide_from_subnav: false
   -
     id: mlj10cx3
@@ -110,7 +110,7 @@ page_builder:
         description: 'Our accommodation is an elegant 4-star hotel in a pedestrian precinct a short walk from Via Toledo.  After meeting in the foyer at 19.00, we will walk to a sophisticated nearby restaurant for dinner.'
         meals_included:
           - dinner
-        photo: tours/campania-the-amalfi-coast-naples-to-ravello/1.5.png
+        photo: guided/campania-and-the-amalfi-coast/1.5.png
       -
         id: mlondlri
         title: 'Explore the city'
@@ -118,7 +118,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/campania-the-amalfi-coast-naples-to-ravello/3.8.jpg
+        photo: guided/campania-and-the-amalfi-coast/3.8.jpg
       -
         id: mlonefs6
         title: 'Climb Mount Vesuvius and more'
@@ -129,7 +129,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/campania-the-amalfi-coast-naples-to-ravello/img_1475.jpeg
+        photo: guided/campania-and-the-amalfi-coast/img_1475.jpeg
       -
         id: mlonggeq
         title: 'Drive into the interior'
@@ -138,7 +138,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/campania-the-amalfi-coast-naples-to-ravello/img_4724-v2.jpg
+        photo: guided/campania-and-the-amalfi-coast/img_4724-v2.jpg
       -
         id: mlonj7ll
         title: 'Go walking in the mountains'
@@ -149,7 +149,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/campania-the-amalfi-coast-naples-to-ravello/13.5.jpg
+        photo: guided/campania-and-the-amalfi-coast/13.5.jpg
       -
         id: mlonlca0
         title: 'Fine wines and cuisine'
@@ -157,7 +157,7 @@ page_builder:
         meals_included:
           - lunch
           - dinner
-        photo: tours/campania-the-amalfi-coast-naples-to-ravello/img_2094.jpeg
+        photo: guided/campania-and-the-amalfi-coast/img_2094.jpeg
       -
         id: mlonqtn1
         title: 'Have a picnic lunch in a beech forest'
@@ -169,7 +169,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/campania-the-amalfi-coast-naples-to-ravello/img_3162.jpg
+        photo: guided/campania-and-the-amalfi-coast/img_3162.jpg
       -
         id: mlonsfkn
         title: 'Transfer to the Pollicastro Gulf'
@@ -177,7 +177,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/campania-the-amalfi-coast-naples-to-ravello/maratea-2.jpg
+        photo: guided/campania-and-the-amalfi-coast/maratea-2.jpg
       -
         id: mlonw8im
         title: 'Go for a spectacular walk above the sea'
@@ -189,7 +189,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/campania-the-amalfi-coast-naples-to-ravello/maratea-5.jpg
+        photo: guided/campania-and-the-amalfi-coast/maratea-5.jpg
       -
         id: mlonyye8
         title: 'Go boating up the coast'
@@ -200,7 +200,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
+        photo: guided/campania-and-the-amalfi-coast/22.6.jpg
       -
         id: mloo1bta
         title: 'Transfer to the Amalfi Coast'
@@ -208,7 +208,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/campania-the-amalfi-coast-naples-to-ravello/img_5314.jpeg
+        photo: guided/campania-and-the-amalfi-coast/img_5314.jpeg
       -
         id: mloo58a6
         title: 'A glorious walk to Amalfi'
@@ -220,12 +220,12 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/campania-the-amalfi-coast-naples-to-ravello/1.jpg
+        photo: guided/campania-and-the-amalfi-coast/1.jpg
       -
         id: mloo6vkh
         title: 'Transfer to Naples'
         description: 'In the morning we will be transferred back to Naples, an hour’s drive from Ravello, which has national and international rail and air connections.  The transfer is scheduled for 08.30.  First stop Naples Centrale station (around 10.00) and then Naples airport (around 10.30).'
-        photo: tours/campania-the-amalfi-coast-naples-to-ravello/img_2509-v2.jpg
+        photo: guided/campania-and-the-amalfi-coast/img_2509-v2.jpg
         meals_included:
           - breakfast
     type: itinerary
@@ -247,7 +247,7 @@ page_builder:
               -
                 type: text
                 text: "The walks on this tour are as varied as the region itself.\_ They include a short walk up to the crater of Mt Vesuvius; two beautiful walks in the dappled beech forests of the mountains of the Picentini National Park; a ridge walk above the Pollicastro Gulf, which finishes with lunch on a beach;\_ and a looping walk through forest that links Ravello with Amalfi, enjoying spectacular views over the sea along the way.\_ The walks are between 4 to 12 kilometres long.\_ They follow good trails over generally undulating terrain.\_ There are a couple of short steep sections along the way.\_ Please see the daily for the details of each walk."
-        image: tours/img_2369-v2-1775006818.jpg
+        image: guided/campania-and-the-amalfi-coast/img_2369-v2-1775006818.jpg
         type: walk
         enabled: true
       -
@@ -273,7 +273,7 @@ page_builder:
                 type: text
                 text: 'The tour finishes in marvellous Ravello, perched high above the Amalfi Coast. Our accommodation is another 4-star hotel, also with gardens, a swimming pool and great views, a short walk from the mian piazza and from Villa Cimbrone.'
         media:
-          - tours/maratea-1.jpg
+          - guided/campania-and-the-amalfi-coast/maratea-1-tours-root.jpg
         type: accommodation
         enabled: true
       -
@@ -287,7 +287,7 @@ page_builder:
                 type: text
                 text: "At one time the capital of a kingdom, Naples, and the surrounding region of Campania, is a land of contrasts, and this is reflected in region's cuisine. The poorest and most authentic cooking is intermingled with that of the nobility, which draws heavily from French traditions. With pizza, spaghetti, mozzarella and expresso coffee, Campania created dishes that are not only part of the national cuisine but also part of international gastronomy. \_Campanian cooking is often simple, the chefs respecting the freshness and integrity of their excellent ingredients: vegetables and fruit grown in volcanic soils as well as the abundant fresh fish.\_ We’ll have plenty of opportunity to sample this in all its variety as we move from the city to the mountains and then the coast.\_ Campania's excellent wines also have a very long history, dating back to Greek and Roman times.\_\_Wine is included with each meal."
         media:
-          - tours/22.5.jpg
+          - guided/campania-and-the-amalfi-coast/22.5.jpg
         type: food
         enabled: true
     type: experience

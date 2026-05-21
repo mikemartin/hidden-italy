@@ -9,7 +9,7 @@ updated_by: 1
 updated_at: 1779336310
 locations: northern-italy
 grade: 3
-image: tours/trentino-alto-adige-dolomites/-p9192176.jpg
+image: guided/verona-and-the-dolomites/-p9192176.jpg
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -20,18 +20,18 @@ inclusions:
   - 'Guided sight seeing tours of Bolzano and Verona'
   - 'Services of a full-time professional tour guide'
 gallery:
-  - tours/trentino-alto-adige-dolomites/7.jpg
-  - tours/trentino-alto-adige-dolomites/1.9.jpg
-  - tours/trentino-alto-adige-dolomites/39.jpg
-  - tours/trentino-alto-adige-dolomites/p9171981.jpg
-  - tours/trentino-alto-adige-dolomites/13.jpg
-  - tours/trentino-alto-adige-dolomites/3.7.jpg
-  - tours/trentino-alto-adige-dolomites/7.9.jpg
-  - tours/trentino-alto-adige-dolomites/3.9.jpg
-  - tours/trentino-alto-adige-dolomites/143.jpg
-  - tours/trentino-alto-adige-dolomites/4.jpg
-  - tours/trentino-alto-adige-dolomites/p9192166.jpg
-  - tours/trentino-alto-adige-dolomites/61.jpg
+  - guided/verona-and-the-dolomites/7.jpg
+  - guided/verona-and-the-dolomites/1.9.jpg
+  - guided/verona-and-the-dolomites/39.jpg
+  - guided/verona-and-the-dolomites/p9171981.jpg
+  - guided/verona-and-the-dolomites/13.jpg
+  - guided/verona-and-the-dolomites/3.7.jpg
+  - guided/verona-and-the-dolomites/7.9.jpg
+  - guided/verona-and-the-dolomites/3.9.jpg
+  - guided/verona-and-the-dolomites/143.jpg
+  - guided/verona-and-the-dolomites/4.jpg
+  - guided/verona-and-the-dolomites/p9192166.jpg
+  - guided/verona-and-the-dolomites/61.jpg
 simple_likes: 0
 leader: 656b56c6-ff12-45de-86a3-c6c480d7c141
 page_builder:
@@ -57,9 +57,9 @@ page_builder:
             text: "The tour starts with a bang, two nights in a lovely 4-star hotel in the centre of romantic Verona, before driving north into the heart of the Dolomites, spending the next 4 nights in another gorgeous 4-star in a valley near Bolzano. \_We then head east being based for another four nights in a quiet valley off the Val Badia. Finally, we finish with another bang, with two nights in 4-star hotel in Cortina d'Ampezzo, a beautiful town known as the 'pearl of the Dolomites' that is still glowing from hosting the 2026 Winter Olympics!"
     title: 'Towering pinnacles above deep green valleys'
     images:
-      - tours/trentino-alto-adige-dolomites/3.9.jpg
-      - tours/trentino-alto-adige-dolomites/143.jpg
-      - tours/trentino-alto-adige-dolomites/4.jpg
+      - guided/verona-and-the-dolomites/3.9.jpg
+      - guided/verona-and-the-dolomites/143.jpg
+      - guided/verona-and-the-dolomites/4.jpg
     hide_from_subnav: false
   -
     id: mlq6wt91
@@ -111,7 +111,7 @@ page_builder:
         description: "The tour starts in Verona, one of the most beautiful and romantic towns in Italy. After meeting in our hotel foyer at 19.00, we'll have a traditional dinner in one of the town's finest osterias."
         meals_included:
           - dinner
-        photo: tours/trentino-alto-adige-dolomites/7.jpg
+        photo: guided/verona-and-the-dolomites/7.jpg
       -
         id: mlrb0u64
         title: 'Explore Verona'
@@ -119,7 +119,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/trentino-alto-adige-dolomites/105.jpg
+        photo: guided/verona-and-the-dolomites/105.jpg
       -
         id: mlrb41ej
         title: 'Head into the mountains'
@@ -128,7 +128,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/trentino-alto-adige-dolomites/1.9.jpg
+        photo: guided/verona-and-the-dolomites/1.9.jpg
       -
         id: mlrb55m6
         title: 'Meet the Dolomites'
@@ -140,7 +140,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/trentino-alto-adige-dolomites/p9171981.jpg
+        photo: guided/verona-and-the-dolomites/p9171981.jpg
       -
         id: mlrb71ly
         title: 'Explore Bolzano'
@@ -150,7 +150,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/trentino-alto-adige-dolomites/4.jpg
+        photo: guided/verona-and-the-dolomites/4.jpg
       -
         id: mlrb874i
         title: 'Walk the high plains'
@@ -162,7 +162,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/trentino-alto-adige-dolomites/3.9.jpg
+        photo: guided/verona-and-the-dolomites/3.9.jpg
       -
         id: mlrba04p
         title: 'Transfer to the Val Badia'
@@ -171,7 +171,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/trentino-alto-adige-dolomites/39.jpg
+        photo: guided/verona-and-the-dolomites/39.jpg
       -
         id: mlrbbbr6
         title: 'Another walk in the mountains'
@@ -183,7 +183,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/trentino-alto-adige-dolomites/7.3.jpg
+        photo: guided/verona-and-the-dolomites/7.3.jpg
       -
         id: mlrbfnmc
         title: 'Discover Braies Lake'
@@ -194,7 +194,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/trentino-alto-adige-dolomites/367.jpg
+        photo: guided/verona-and-the-dolomites/367.jpg
       -
         id: mlrbilht
         title: 'Visit the most magical place in the Dolomites'
@@ -206,7 +206,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/trentino-alto-adige-dolomites/505.jpg
+        photo: guided/verona-and-the-dolomites/505.jpg
       -
         id: mlrblkbg
         title: "Transfer to Cortina d'Ampezzo"
@@ -214,7 +214,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/trentino-alto-adige-dolomites/jerryming-town-6875859.jpg
+        photo: guided/verona-and-the-dolomites/jerryming-town-6875859.jpg
       -
         id: mlrbor6n
         title: 'Loop the Tre Cime di Lavaredo'
@@ -226,14 +226,14 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/trentino-alto-adige-dolomites/51.7.jpg
+        photo: guided/verona-and-the-dolomites/51.7.jpg
       -
         id: mlrbqrqr
         title: 'Transfer to Venice'
         description: 'After an early breakfast, we will be transferred at 8.00am to Venice/Mestre, 1.5 hours away, with a first stop at Venice airport (which has water taxis and vaporettos directly into Venice) and then on to Mestre station (which has national and international rail connections).'
         meals_included:
           - breakfast
-        photo: tours/trentino-alto-adige-dolomites/804729994-100.jpg
+        photo: guided/verona-and-the-dolomites/804729994-100.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -253,7 +253,7 @@ page_builder:
               -
                 type: text
                 text: "The seven beautiful walks during the tour are straightforward, following well-marked and well-maintained paths with no dramatic climbs or descents as we take cable cars to the start of the high walks and follow good tracks across alpine meadows to the valleys below.\_ On the way we stop at mountain huts for breaks and lunch (even for an occasional mid-morning cappuccino). In some cases it is possible to shorten the walk or to opt out and join the walkers for lunch.\_"
-        image: tours/3.7.jpg
+        image: guided/verona-and-the-dolomites/3.7.jpg
         type: walk
         enabled: true
       -
@@ -267,7 +267,7 @@ page_builder:
                 type: text
                 text: "The accommodation is in lovely 4-star hotels all the way.\_ In Verona we stay in a classic hotel in the centre of town (Maria Calls used to stay here when she was preforming at the Arena).\_ In the valleys we stay in two spacious Tyrolean-style, family-run hotels, both of which have wellness centres and swimming pools.\_ In Cortina d'Ampezzo we stay in another classic 4-star hotel, a short walk from the centre of town."
         media:
-          - tours/2-1775543819.jpg
+          - guided/verona-and-the-dolomites/2-1775543819.jpg
         type: accommodation
         enabled: true
       -
@@ -281,7 +281,7 @@ page_builder:
                 type: text
                 text: "Food, of course, is one of the highlights of the trip. The people of the Dolomites are\_extremely proud of the produce of their beautiful territory (fruit, vegetables, cheeses, hams and a wide variety of breads etc) and the local cuisine is a fascinating combination Italian and Austrian cooking. The Alto Adige/Sud Tirol is particularly famous for its high altitude white wines.\_ Wine is included with each meal."
         media:
-          - tours/7.8.jpg
+          - guided/verona-and-the-dolomites/7.8.jpg
         type: food
         enabled: true
     type: experience

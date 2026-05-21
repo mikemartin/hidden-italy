@@ -50,9 +50,9 @@ page_builder:
             text: 'What more could you ask for?'
     title: 'Across the Valle Umbra'
     images:
-      - tours/umbria-cammino-of-st-francis-umbria-2-1/borgo-della-marmotta-1.jpg
-      - tours/umbria-cammino-of-st-francis-umbria-2-1/clitumno-2089647_1920.jpg
-      - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020012.jpg
+      - self-guided/umbria-classic/borgo-della-marmotta-1.jpg
+      - self-guided/umbria-classic/clitumno-2089647_1920.jpg
+      - self-guided/umbria-classic/f1020012.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -102,7 +102,7 @@ page_builder:
         id: mlooymbz
         title: 'Arrive in Spoleto'
         description: 'Even without St Francis Assisi would be irresistible, a charming medieval town nestled under the forested peak of Monte Subasio. However, the monuments that have been dedicated to the saint make Assisi a highlight of any visit to Umbria. The Basilica dedicated to Saint Francis contains some of the masterpieces of Western art, including seminal works by Cimabue, Giotto, Simone Martini and the Lorenzetti brothers.'
-        photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020011.jpg
+        photo: self-guided/umbria-classic/f1020011.jpg
       -
         id: mloozlek
         title: 'Walk under Monte Subasio'
@@ -112,7 +112,7 @@ page_builder:
         elevation: 570
         meals_included:
           - breakfast
-        photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020014.jpg
+        photo: self-guided/umbria-classic/f1020014.jpg
       -
         id: mlop159i
         title: 'Walk across the valley'
@@ -122,7 +122,7 @@ page_builder:
         elevation: -109
         meals_included:
           - breakfast
-        photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020015.jpg
+        photo: self-guided/umbria-classic/f1020015.jpg
       -
         id: mlop3c5r
         title: 'Pass through vineyards'
@@ -132,7 +132,7 @@ page_builder:
         elevation: 246
         meals_included:
           - breakfast
-        photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020018.jpg
+        photo: self-guided/umbria-classic/f1020018.jpg
       -
         id: mlop5205
         title: "Stay in a 'borgo'"
@@ -143,7 +143,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/umbria-umbria-classic-assisi-to-spoleto/eggi-view.jpg
+        photo: self-guided/umbria-classic/eggi-view.jpg
       -
         id: mlop6avf
         title: 'Walk to Spoleto'
@@ -153,14 +153,14 @@ page_builder:
         elevation: 258
         meals_included:
           - breakfast
-        photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1030001.jpg
+        photo: self-guided/umbria-classic/f1030001.jpg
       -
         id: mlop8uiy
         title: 'Depart Spoleto'
         description: "After breakfast, you'll be free to continue your holiday.   Spoleto is well connected by regular train to Florence, Rome and the rest of Italy."
         meals_included:
           - breakfast
-        photo: tours/umbria-umbria-classic-assisi-to-spoleto/f1020013-a.jpg
+        photo: self-guided/umbria-classic/f1020013-a.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -188,7 +188,7 @@ page_builder:
                   -
                     type: italic
                 text: 'The self-guided itineraries are re-walked and the notes updated each year.'
-        image: tours/f1020010.jpg
+        image: self-guided/umbria-classic/f1020010.jpg
         type: walk
         enabled: true
       -
@@ -312,18 +312,18 @@ page_builder:
 simple_likes: 0
 duplicated_from: 2c566c23-3738-482e-b78a-a2ac67ccf9cf
 gallery:
-  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020011.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020013-a.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020014.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020010.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2-1/bevagna.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020018.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020015.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2-1/borgo-della-marmotta-1.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2-1/clitumno-2089647_1920.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020012.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1020022.jpg
-  - tours/umbria-cammino-of-st-francis-umbria-2-1/f1030001.jpg
+  - self-guided/umbria-classic/f1020011.jpg
+  - self-guided/umbria-classic/f1020013-a.jpg
+  - self-guided/umbria-classic/f1020014.jpg
+  - self-guided/umbria-classic/f1020010.jpg
+  - self-guided/umbria-classic/bevagna.jpg
+  - self-guided/umbria-classic/f1020018.jpg
+  - self-guided/umbria-classic/f1020015.jpg
+  - self-guided/umbria-classic/borgo-della-marmotta-1.jpg
+  - self-guided/umbria-classic/clitumno-2089647_1920.jpg
+  - self-guided/umbria-classic/f1020012.jpg
+  - self-guided/umbria-classic/f1020022.jpg
+  - self-guided/umbria-classic/f1030001.jpg
 now_open: false
 seasons:
   - spring
@@ -370,7 +370,7 @@ summary:
         text: "Often referred to as 'the green heart of Italy', Umbria is a beautiful, largely unspoilt, region of rolling hills, woods, streams and valleys.\_ Within its borders are a dozen or so classic hill-towns, each resolutely individual and crammed with artistic and architectural treasures that frequently rival bigger and more famous cities."
 price: 'A$2,350'
 show_from: true
-image: tours/umbria-umbria-classic-assisi-to-spoleto/sterling-lanier-eyewiju5mc0-unsplash.jpg
+image: self-guided/umbria-classic/sterling-lanier-eyewiju5mc0-unsplash.jpg
 og_image: umbria-umbria-classic-og-1779335313.png
 seo_noindex: inherit
 seo_nofollow: false

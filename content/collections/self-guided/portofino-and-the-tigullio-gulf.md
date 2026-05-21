@@ -50,9 +50,9 @@ page_builder:
             text: "Leaving the Portofino peninsula on Day 3 you pick up the ancient pilgrim trails that connected France wth Rome, passing through the hills that wrap around behind the Gulf of Tugullio, dropping down to the lively coastal towns each evening.\_ The tour finishes at the end of the gulf at the 'Bay of Silence' in Sestri Levante, a delightful summer resort on the Isola Peninsula."
     title: 'The city of a thousand sails'
     images:
-      - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-9-a.jpg
-      - tours/liguria-cinque-terre-coastal-walking-tour/gabriel-tovar-yzqxu8nrlow-unsplash-a.jpg
-      - tours/liguria-cinque-terre-coastal-walking-tour/img_4819.jpg
+      - self-guided/portofino-and-the-tigullio-gulf/vernazza-9-a.jpg
+      - self-guided/portofino-and-the-tigullio-gulf/gabriel-tovar-yzqxu8nrlow-unsplash-a.jpg
+      - self-guided/portofino-and-the-tigullio-gulf/img_4819.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -102,7 +102,7 @@ page_builder:
         id: mlooymbz
         title: 'Arrive in Camogli'
         description: "You start the tour in Camogli, which is on the main La Spezia/Genoa railway line, where you’ll spend your first night in a lovely hotel set in the centre of the town overlooking the sea.  Dickens described Camogli as 'the saltiest, roughest, most piratical little place'.  The rough edges have long gone but it remains one of the most attractive resorts on the coast."
-        photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/moira-nazzari-cbtepzflvtu-unsplash.jpg
+        photo: self-guided/portofino-and-the-tigullio-gulf/moira-nazzari-cbtepzflvtu-unsplash.jpg
       -
         id: mloozlek
         title: 'Walk through the Portofino National Park'
@@ -112,7 +112,7 @@ page_builder:
         elevation: 471
         meals_included:
           - breakfast
-        photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/primaselezione-portofino-7504460_1920.jpg
+        photo: self-guided/portofino-and-the-tigullio-gulf/primaselezione-portofino-7504460_1920.jpg
       -
         id: mlop159i
         title: 'Walk around the Gulf of Tigullio'
@@ -122,7 +122,7 @@ page_builder:
         elevation: 203
         meals_included:
           - breakfast
-        photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/linfer3-santa-margherita-2784154_1920.jpg
+        photo: self-guided/portofino-and-the-tigullio-gulf/linfer3-santa-margherita-2784154_1920.jpg
       -
         id: mlop3c5r
         title: 'A high forest walk'
@@ -132,7 +132,7 @@ page_builder:
         elevation: -633
         meals_included:
           - breakfast
-        photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/img_4819.jpg
+        photo: self-guided/portofino-and-the-tigullio-gulf/img_4819.jpg
       -
         id: mlop5205
         title: 'Walk to Sestri Levante'
@@ -142,14 +142,14 @@ page_builder:
         elevation: 203
         meals_included:
           - breakfast
-        photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/brendan-greenway-soufafk9-kq-unsplash.jpg
+        photo: self-guided/portofino-and-the-tigullio-gulf/brendan-greenway-soufafk9-kq-unsplash.jpg
       -
         id: mlop6avf
         title: 'Departure from Sestri Levante'
         description: "After breakfast, you'll be able to continue your holidays.  Sestri Levante is on the Genoa/La Spezia line well serviced by regular trains in either direction (including to the Cinque Terre, three stops away to the east."
         meals_included:
           - breakfast
-        photo: tours/liguria-portofino-and-the-tigullio-gulf-self-guided-walk/nathan-prost-ivrymcq9jae-unsplash.jpg
+        photo: self-guided/portofino-and-the-tigullio-gulf/nathan-prost-ivrymcq9jae-unsplash.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -169,7 +169,7 @@ page_builder:
               -
                 type: text
                 text: "The walks range from 6 km to 11 km per day.\_ They follow a combination of trade and pilgrim trails that run above the Liguria coast, climbing up into the forested hills at the beginning each day before dipping down to the bustling coastal towns at the end. The trails follow a combination of ancient paved paths and well-marked walking trails.\_ It is straightforward and without long climbs.\_ Full details on each walk are on the itinerary.\_"
-        image: tours/chiavari-6.jpg
+        image: self-guided/portofino-and-the-tigullio-gulf/chiavari-6.jpg
         type: walk
         enabled: true
       -
@@ -183,7 +183,7 @@ page_builder:
                 type: text
                 text: "You'll be staying in a mix excellent, centrally located, family-run 3 and 4-star hotels that have been operating since the early 1900s.\_ They have comfortable rooms with\_generous breakfasts, en suite bathrooms and sea views."
         media:
-          - tours/erinsummer-beautiful-5284440_1920-a.jpg
+          - self-guided/portofino-and-the-tigullio-gulf/erinsummer-beautiful-5284440_1920-a.jpg
         type: accommodation
         enabled: true
       -
@@ -206,7 +206,7 @@ page_builder:
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village"
         media:
-          - tours/chaewon-you-vrngfwxd0nm-unsplash.jpg
+          - self-guided/portofino-and-the-tigullio-gulf/chaewon-you-vrngfwxd0nm-unsplash.jpg
         type: food
         enabled: true
     type: experience
@@ -296,20 +296,20 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-image: tours/liguria-cinque-terre-coastal-walking-tour/primaselezione-portofino-7504460_1920-a.jpg
+image: self-guided/portofino-and-the-tigullio-gulf/primaselezione-portofino-7504460_1920-a.jpg
 gallery:
-  - tours/liguria-cinque-terre-coastal-walking-tour/moira-nazzari-cbtepzflvtu-unsplash.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/linfer3-santa-margherita-2784154_1920.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/camogli-5.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/primaselezione-portofino-7504460_1920-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/chaewon-you-vrngfwxd0nm-unsplash.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/chiavari-6.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/erinsummer-beautiful-5284440_1920-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/vernazza-9-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/gabriel-tovar-yzqxu8nrlow-unsplash-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/img_4819.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/georgiana-andreca-h-hkuehqrs0-unsplash-a.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour/nathan-prost-ivrymcq9jae-unsplash.jpg
+  - self-guided/portofino-and-the-tigullio-gulf/moira-nazzari-cbtepzflvtu-unsplash.jpg
+  - self-guided/portofino-and-the-tigullio-gulf/linfer3-santa-margherita-2784154_1920.jpg
+  - self-guided/portofino-and-the-tigullio-gulf/camogli-5.jpg
+  - self-guided/portofino-and-the-tigullio-gulf/primaselezione-portofino-7504460_1920-a.jpg
+  - self-guided/portofino-and-the-tigullio-gulf/chaewon-you-vrngfwxd0nm-unsplash.jpg
+  - self-guided/portofino-and-the-tigullio-gulf/chiavari-6.jpg
+  - self-guided/portofino-and-the-tigullio-gulf/erinsummer-beautiful-5284440_1920-a.jpg
+  - self-guided/portofino-and-the-tigullio-gulf/vernazza-9-a.jpg
+  - self-guided/portofino-and-the-tigullio-gulf/gabriel-tovar-yzqxu8nrlow-unsplash-a.jpg
+  - self-guided/portofino-and-the-tigullio-gulf/img_4819.jpg
+  - self-guided/portofino-and-the-tigullio-gulf/georgiana-andreca-h-hkuehqrs0-unsplash-a.jpg
+  - self-guided/portofino-and-the-tigullio-gulf/nathan-prost-ivrymcq9jae-unsplash.jpg
 start_location:
   label: 'Camogli, Liguria, Italy'
   lat: '44.3511373'

@@ -62,9 +62,9 @@ page_builder:
             text: 'Please note, that the Italian Riviera 1 walk is the only first section of the complete 15 day Italian Riviera walk, which takes you the whole length of the whole eastern Italian Riviera, from Genoa to Portofino, passing through the Cinque Terre along the way.  '
     title: 'Seaside paths, country lanes and forest trails'
     images:
-      - tours/liguria-italian-riviera-1-self-guided-walk/nastasia-yakoub-4nreelf-_6c-unsplash-a.jpg
-      - tours/liguria-italian-riviera-1-self-guided-walk/chiavari-26.jpg
-      - tours/liguria-italian-riviera-1-self-guided-walk/18.jpg
+      - self-guided/italian-riviera-1/nastasia-yakoub-4nreelf-_6c-unsplash-a.jpg
+      - self-guided/italian-riviera-1/chiavari-26.jpg
+      - self-guided/italian-riviera-1/18.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -113,7 +113,7 @@ page_builder:
         id: mlooymbz
         title: 'Arrive in Genova'
         description: 'Staying in a comfortable hotel in the medieval centre of Genoa, your first day is an opportunity to explore the treasures of a city that once ruled the Mediterranean and was known for centuries as La Superba (the Proud).  Genoa preserves many relics of its ancient and honourable history, including numerous palaces and magnificent art collections of its maritime families, as well as its colourful old port.'
-        photo: tours/liguria-italian-riviera-1-self-guided-walk/img_9103-a.jpg
+        photo: self-guided/italian-riviera-1/img_9103-a.jpg
       -
         id: mloozlek
         title: 'Walk along the coast'
@@ -123,7 +123,7 @@ page_builder:
         elevation: 218
         meals_included:
           - breakfast
-        photo: tours/liguria-italian-riviera-1-self-guided-walk/6.jpg
+        photo: self-guided/italian-riviera-1/6.jpg
       -
         id: mlop159i
         title: 'Walk to Camogli'
@@ -133,7 +133,7 @@ page_builder:
         elevation: 263
         meals_included:
           - breakfast
-        photo: tours/liguria-italian-riviera-1-self-guided-walk/18.jpg
+        photo: self-guided/italian-riviera-1/18.jpg
       -
         id: mlop3c5r
         title: 'Walk to Portofino'
@@ -143,7 +143,7 @@ page_builder:
         elevation: 271
         meals_included:
           - breakfast
-        photo: tours/liguria-italian-riviera-1-self-guided-walk/porto.jpg
+        photo: self-guided/italian-riviera-1/porto.jpg
       -
         id: mlop5205
         title: 'Walk through the Portofino park'
@@ -153,7 +153,7 @@ page_builder:
         elevation: 203
         meals_included:
           - breakfast
-        photo: tours/liguria-italian-riviera-1-self-guided-walk/nastasia-yakoub-4nreelf-_6c-unsplash-a.jpg
+        photo: self-guided/italian-riviera-1/nastasia-yakoub-4nreelf-_6c-unsplash-a.jpg
       -
         id: mlop6avf
         title: 'Walk along the Tigullio Gulf'
@@ -163,7 +163,7 @@ page_builder:
         elevation: 181
         meals_included:
           - breakfast
-        photo: tours/liguria-italian-riviera-1-self-guided-walk/21.2.jpg
+        photo: self-guided/italian-riviera-1/21.2.jpg
       -
         id: mmin3e1a
         title: 'Walk to Sestri Levante'
@@ -173,14 +173,14 @@ page_builder:
         elevation: 230
         meals_included:
           - breakfast
-        photo: tours/liguria-italian-riviera-1-self-guided-walk/27-a.jpg
+        photo: self-guided/italian-riviera-1/27-a.jpg
       -
         id: mmin5pe3
         title: 'Depart Sestri Levante'
         description: 'Sestri Levante is on the Genoa/La Spezia line well serviced by regular trains in either direction (including to the Cinque Terre, three stops away to the east).'
         meals_included:
           - breakfast
-        photo: tours/liguria-italian-riviera-1-self-guided-walk/chiavari-26.jpg
+        photo: self-guided/italian-riviera-1/chiavari-26.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -206,7 +206,7 @@ page_builder:
               -
                 type: text
                 text: "One of the characteristics of this route is its flexibility: all the towns are connected by regular local trains, which means you can hop on and off the train to shorten the longer legs.\_"
-        image: tours/21.2.jpg
+        image: self-guided/italian-riviera-1/21.2.jpg
         type: walk
         enabled: true
       -
@@ -220,7 +220,7 @@ page_builder:
                 type: text
                 text: "You will stay in a variety of accommodation: fancy 4-star hotels, comfortable 3-star hotels and a lovely family run ‘agriturismo’, which has its own restaurant.\_ Hidden Italy uses the best available in each place: it is comfortable and welcoming, with seaview, when possible.\_ Several of the hotels have their own swimming pools but there are also plenty of beautiful beaches along the way."
         media:
-          - tours/agriturismo-la-pale-1.jpg
+          - self-guided/italian-riviera-1/agriturismo-la-pale-1.jpg
         type: accommodation
         enabled: true
       -
@@ -245,7 +245,7 @@ page_builder:
           -
             type: paragraph
         media:
-          - tours/30.jpg
+          - self-guided/italian-riviera-1/30.jpg
         type: food
         enabled: true
     type: experience
@@ -335,20 +335,20 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
-image: tours/liguria-italian-riviera-1-self-guided-walk/18.jpg
+image: self-guided/italian-riviera-1/18.jpg
 gallery:
-  - tours/liguria-italian-riviera-1-self-guided-walk/1.jpg
-  - tours/liguria-italian-riviera-1-self-guided-walk/6.jpg
-  - tours/liguria-italian-riviera-1-self-guided-walk/img_9103-a.jpg
-  - tours/liguria-italian-riviera-1-self-guided-walk/21.2.jpg
-  - tours/liguria-italian-riviera-1-self-guided-walk/30.jpg
-  - tours/liguria-italian-riviera-1-self-guided-walk/porto.jpg
-  - tours/liguria-italian-riviera-1-self-guided-walk/img_9183-a.jpg
-  - tours/liguria-italian-riviera-1-self-guided-walk/nastasia-yakoub-4nreelf-_6c-unsplash-a.jpg
-  - tours/liguria-italian-riviera-1-self-guided-walk/chiavari-26.jpg
-  - tours/liguria-italian-riviera-1-self-guided-walk/18.jpg
-  - tours/liguria-italian-riviera-1-self-guided-walk/img_4828-a.jpg
-  - tours/liguria-italian-riviera-1-self-guided-walk/27-a.jpg
+  - self-guided/italian-riviera-1/1.jpg
+  - self-guided/italian-riviera-1/6.jpg
+  - self-guided/italian-riviera-1/img_9103-a.jpg
+  - self-guided/italian-riviera-1/21.2.jpg
+  - self-guided/italian-riviera-1/30.jpg
+  - self-guided/italian-riviera-1/porto.jpg
+  - self-guided/italian-riviera-1/img_9183-a.jpg
+  - self-guided/italian-riviera-1/nastasia-yakoub-4nreelf-_6c-unsplash-a.jpg
+  - self-guided/italian-riviera-1/chiavari-26.jpg
+  - self-guided/italian-riviera-1/18.jpg
+  - self-guided/italian-riviera-1/img_4828-a.jpg
+  - self-guided/italian-riviera-1/27-a.jpg
 start_location:
   label: 'Genoa, Liguria, Italy'
   lat: '44.40726'

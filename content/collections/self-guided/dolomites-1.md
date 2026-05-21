@@ -54,9 +54,9 @@ page_builder:
         type: paragraph
     title: 'The most beautiful in the world'
     images:
-      - tours/alto-adige-dolomites-1-self-guided-walk/sassolungo-with-horse-1773020028.jpg
-      - tours/alto-adige-dolomites-1-self-guided-walk/img_1570-1773020174.jpg
-      - tours/alto-adige-dolomites-1-self-guided-walk/img_8778-1773019782.jpg
+      - self-guided/dolomites-1/sassolungo-with-horse-1773020028.jpg
+      - self-guided/dolomites-1/img_1570-1773020174.jpg
+      - self-guided/dolomites-1/img_8778-1773019782.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -108,7 +108,7 @@ page_builder:
         description: 'You will be picked up in Bolzano and taken north, following the Adige Valley towards Austria, before turning left into one of the most beautiful valleys in the Dolomites (a fascinating one-hour drive away).'
         meals_included:
           - dinner
-        photo: tours/alto-adige-dolomites-1-self-guided-walk/2.jpg
+        photo: self-guided/dolomites-1/2.jpg
       -
         id: mloozlek
         title: 'Walk the north side of the valley'
@@ -119,7 +119,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/alto-adige-dolomites-1-self-guided-walk/img_1568.jpg
+        photo: self-guided/dolomites-1/img_1568.jpg
       -
         id: mlop159i
         title: 'Walk to Ortisei'
@@ -133,7 +133,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/alto-adige-dolomites-1-self-guided-walk/p9171957-(2)-1773019785.jpg
+        photo: self-guided/dolomites-1/p9171957-(2)-1773019785.jpg
       -
         id: mlop3c5r
         title: 'Walk Walk the south side of the valley'
@@ -147,7 +147,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/alto-adige-dolomites-1-self-guided-walk/36.jpg
+        photo: self-guided/dolomites-1/36.jpg
       -
         id: mlop5205
         title: 'The grand finale'
@@ -158,7 +158,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/alto-adige-dolomites-1-self-guided-walk/p9192176-1773019628.jpg
+        photo: self-guided/dolomites-1/p9192176-1773019628.jpg
       -
         id: mlop6avf
         title: 'Transfer to Bolzano'
@@ -168,7 +168,7 @@ page_builder:
         elevation: 181
         meals_included:
           - breakfast
-        photo: tours/alto-adige-dolomites-1-self-guided-walk/35-1773020227.jpg
+        photo: self-guided/dolomites-1/35-1773020227.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -201,7 +201,7 @@ page_builder:
                 type: text
                 text: "Accommodation is in ‘superior’ rooms with en-suite bathrooms in a very well located 4-star hotel, an excellent family run hotel on the sunny side of the valley with a ‘wellness’ centre, pool and surrounded by lawns.\_ It is in prettiest town in the valley.\_\_"
         media:
-          - tours/2.jpg
+          - self-guided/dolomites-1/2-tours-root.jpg
         type: accommodation
         enabled: true
       -
@@ -221,7 +221,7 @@ page_builder:
                     type: italic
                 text: "Generous breakfasts and 3-course dinners are included each day.\_"
         media:
-          - tours/img_1570.jpg
+          - self-guided/dolomites-1/img_1570.jpg
         type: food
         enabled: true
     type: experience
@@ -311,20 +311,20 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-image: tours/alto-adige-dolomites-1-self-guided-walk/-img_1568-v3.jpg
+image: self-guided/dolomites-1/-img_1568-v3.jpg
 gallery:
-  - tours/alto-adige-dolomites-1-self-guided-walk/p9192176-1773020026.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/2.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/p9192120-1773020023.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/p9171957-(2)-1773019785.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/22.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/36.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/34-1773020320.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/sassolungo-with-horse-1773020028.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/img_1570-1773020174.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/img_8778-1773019782.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/img_3481-1773020206.jpg
-  - tours/alto-adige-dolomites-1-self-guided-walk/35-1773020227.jpg
+  - self-guided/dolomites-1/p9192176-1773020026.jpg
+  - self-guided/dolomites-1/2.jpg
+  - self-guided/dolomites-1/p9192120-1773020023.jpg
+  - self-guided/dolomites-1/p9171957-(2)-1773019785.jpg
+  - self-guided/dolomites-1/22.jpg
+  - self-guided/dolomites-1/36.jpg
+  - self-guided/dolomites-1/34-1773020320.jpg
+  - self-guided/dolomites-1/sassolungo-with-horse-1773020028.jpg
+  - self-guided/dolomites-1/img_1570-1773020174.jpg
+  - self-guided/dolomites-1/img_8778-1773019782.jpg
+  - self-guided/dolomites-1/img_3481-1773020206.jpg
+  - self-guided/dolomites-1/35-1773020227.jpg
 start_location:
   label: 'Bolzano, Trentino – Alto Adige/Südtirol, Italy'
   lat: '46.4984781'

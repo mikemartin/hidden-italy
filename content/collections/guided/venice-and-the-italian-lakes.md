@@ -50,9 +50,9 @@ page_builder:
             text: 'We start in a 4-star hotel on the canals of Venice and finish in a 4-star hotel in the Baroque arcades of Turin. In between, we spend four nights based in a 4-star hotel on the shores of Lake Como, before crossing the Swiss border into the Italian-speaking canton of Ticino, and spending four nights in a 400-year-old hotel in the lush valleys above the northern reaches of Lake Maggiore.'
     title: 'From magical Venice to elegant Turin'
     images:
-      - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/menaggio-cheese.jpg
-      - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/58.jpg
-      - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/varenna-3.jpg
+      - guided/venice-and-the-italian-lakes/menaggio-cheese.jpg
+      - guided/venice-and-the-italian-lakes/58.jpg
+      - guided/venice-and-the-italian-lakes/varenna-3.jpg
     hide_from_subnav: false
   -
     id: mloqd78x
@@ -235,20 +235,20 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 seasons: autumn
-image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/5.jpg
+image: guided/venice-and-the-italian-lakes/5.jpg
 gallery:
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/1.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/7.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_2972.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/view-over-lake-como.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_4488.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/la-villetta-5.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/maggia-26.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/menaggio-cheese.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/58.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/varenna-3.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/17.5.jpg
-  - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/img_8098.jpg
+  - guided/venice-and-the-italian-lakes/1.jpg
+  - guided/venice-and-the-italian-lakes/7.jpg
+  - guided/venice-and-the-italian-lakes/img_2972.jpg
+  - guided/venice-and-the-italian-lakes/view-over-lake-como.jpg
+  - guided/venice-and-the-italian-lakes/img_4488.jpg
+  - guided/venice-and-the-italian-lakes/la-villetta-5.jpg
+  - guided/venice-and-the-italian-lakes/maggia-26.jpg
+  - guided/venice-and-the-italian-lakes/menaggio-cheese.jpg
+  - guided/venice-and-the-italian-lakes/58.jpg
+  - guided/venice-and-the-italian-lakes/varenna-3.jpg
+  - guided/venice-and-the-italian-lakes/17.5.jpg
+  - guided/venice-and-the-italian-lakes/img_8098.jpg
 headline: '13 days through Venice and the Italian Lakes'
 start_location:
   label: 'Venice, Veneto, Italy'

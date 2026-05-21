@@ -38,9 +38,9 @@ page_builder:
             text: "From here, the final walk takes along a dedicated 'greenway' from the Monte Sacro district in northern Rome along the banks the Aniene River and  the Tiber rivers to Castel Sant'Angelo.  From here you walk up the Via della Conciliazione to embracing arms Piazza San Pietro and the stairs of St Peter’s Basilica, one of the most spectacular buildings in the world, a memorable finale to a memorable walk."
     title: 'A memorable finale at St Peter’s Basilica'
     images:
-      - tours/piedmont-alba-and-le-langhe-1/p6051915.jpg
-      - tours/piedmont-alba-and-le-langhe-1/12.9.jpg
-      - tours/piedmont-alba-and-le-langhe-1/14.jpg
+      - self-guided/cammino-of-st-francis-lazio/p6051915.jpg
+      - self-guided/cammino-of-st-francis-lazio/12.9.jpg
+      - self-guided/cammino-of-st-francis-lazio/14.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -90,7 +90,7 @@ page_builder:
         id: mlooymbz
         title: 'Arrive in Rieti'
         description: 'Arrival in Rieti, which is well-connected by rail to Rome.  Pre-dating Rome, this small city was a long-time rival of the capital most famously remembered when the founders of Rome kidnapped its women, the ‘Sabines’, to help populate the new city.  Under Roman rule it was known as Umbilicus Italiae (the belly-button of Italy) because it is the geographical centre of the peninsula.  It has an interesting historical centre and is ringed by the Velino River.'
-        photo: tours/lazio-cammino-of-st-francis-lazio/1.5.jpg
+        photo: self-guided/cammino-of-st-francis-lazio/1.5.jpg
       -
         id: mloozlek
         title: 'Walk into the Apennines'
@@ -100,7 +100,7 @@ page_builder:
         elevation: 256
         meals_included:
           - breakfast
-        photo: tours/lazio-cammino-of-st-francis-lazio/7.jpg
+        photo: self-guided/cammino-of-st-francis-lazio/7.jpg
       -
         id: mlop159i
         title: 'Ramble through countryside'
@@ -110,7 +110,7 @@ page_builder:
         elevation: 214
         meals_included:
           - breakfast
-        photo: tours/lazio-cammino-of-st-francis-lazio/12.7.jpg
+        photo: self-guided/cammino-of-st-francis-lazio/12.7.jpg
       -
         id: mlop3c5r
         title: 'Farmland and orchards'
@@ -120,7 +120,7 @@ page_builder:
         elevation: 329
         meals_included:
           - breakfast
-        photo: tours/lazio-cammino-of-st-francis-lazio/12.2.jpg
+        photo: self-guided/cammino-of-st-francis-lazio/12.2.jpg
       -
         id: mlop5205
         title: 'Passieggiata and an Orsini palace'
@@ -130,7 +130,7 @@ page_builder:
         elevation: 398
         meals_included:
           - breakfast
-        photo: tours/lazio-cammino-of-st-francis-lazio/13.4.jpg
+        photo: self-guided/cammino-of-st-francis-lazio/13.4.jpg
       -
         id: mlop6avf
         title: 'First contact with Rome'
@@ -140,7 +140,7 @@ page_builder:
         elevation: 132
         meals_included:
           - breakfast
-        photo: tours/lazio-cammino-of-st-francis-lazio/p4300817.jpg
+        photo: self-guided/cammino-of-st-francis-lazio/p4300817.jpg
       -
         id: mlop8uiy
         title: 'Arrive at the Vatican'
@@ -150,14 +150,14 @@ page_builder:
         elevation: 58
         meals_included:
           - breakfast
-        photo: tours/lazio-cammino-of-st-francis-lazio/rome-1.jpg
+        photo: self-guided/cammino-of-st-francis-lazio/rome-1.jpg
       -
         id: mlop9wks
         title: 'Depart Rome'
         description: 'After breakfast, you are fee to continue your holiday.'
         meals_included:
           - breakfast
-        photo: tours/lazio-cammino-of-st-francis-lazio/20.jpg
+        photo: self-guided/cammino-of-st-francis-lazio/20.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -177,7 +177,7 @@ page_builder:
               -
                 type: text
                 text: "There are three long walks: Day 2, 21 kms; Day 4, 17 kms and Day 5, 26 kms (please note that this latter walk can be broken into two separate walks of 8 and 18 kms).\_ Until reaching the outer suburbs of Rome on the penultimate day, the walk takes you through forested hills and rolling farmlands following predominantly unsealed roads and asphalted country lanes and is well-marked.\_ In Rome you follow paved 'greenways' through park-lands and along the Tiber River, and suburban streets. Full details on each walk are on the itinerary.\_ The self-guided itineraries are re-walked and the notes updated each year."
-        image: tours/14.jpg
+        image: self-guided/cammino-of-st-francis-lazio/14.jpg
         type: walk
         enabled: true
       -
@@ -193,7 +193,7 @@ page_builder:
         type: accommodation
         enabled: true
         media:
-          - tours/lazio-cammino-of-st-francis-lazio/7.jpg
+          - self-guided/cammino-of-st-francis-lazio/7.jpg
       -
         id: W8rMzD2R7Q1wbO80cJWG6
         title: 'Authentic food'
@@ -214,7 +214,7 @@ page_builder:
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
         media:
-          - tours/14.5.jpg
+          - self-guided/cammino-of-st-francis-lazio/14.5.jpg
         type: food
         enabled: true
     type: experience
@@ -304,20 +304,20 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 gallery:
-  - tours/piedmont-alba-and-le-langhe-1/1.5.jpg
-  - tours/piedmont-alba-and-le-langhe-1/1.8.jpg
-  - tours/piedmont-alba-and-le-langhe-1/12.7.jpg
-  - tours/piedmont-alba-and-le-langhe-1/8.jpg
-  - tours/piedmont-alba-and-le-langhe-1/13.4.jpg
-  - tours/piedmont-alba-and-le-langhe-1/14.5.jpg
-  - tours/piedmont-alba-and-le-langhe-1/12.2.jpg
-  - tours/piedmont-alba-and-le-langhe-1/p6051915.jpg
-  - tours/piedmont-alba-and-le-langhe-1/12.9.jpg
-  - tours/piedmont-alba-and-le-langhe-1/14.jpg
-  - tours/piedmont-alba-and-le-langhe-1/21.jpg
-  - tours/piedmont-alba-and-le-langhe-1/rome-1.jpg
+  - self-guided/cammino-of-st-francis-lazio/1.5.jpg
+  - self-guided/cammino-of-st-francis-lazio/1.8.jpg
+  - self-guided/cammino-of-st-francis-lazio/12.7.jpg
+  - self-guided/cammino-of-st-francis-lazio/8.jpg
+  - self-guided/cammino-of-st-francis-lazio/13.4.jpg
+  - self-guided/cammino-of-st-francis-lazio/14.5.jpg
+  - self-guided/cammino-of-st-francis-lazio/12.2.jpg
+  - self-guided/cammino-of-st-francis-lazio/p6051915.jpg
+  - self-guided/cammino-of-st-francis-lazio/12.9.jpg
+  - self-guided/cammino-of-st-francis-lazio/14.jpg
+  - self-guided/cammino-of-st-francis-lazio/21.jpg
+  - self-guided/cammino-of-st-francis-lazio/rome-1.jpg
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
-image: tours/piedmont-alba-and-le-langhe-1/rome-1.jpg
+image: self-guided/cammino-of-st-francis-lazio/rome-1.jpg
 start_location:
   label: 'Rieti, Lazio, Italy'
   lat: '42.4025479'

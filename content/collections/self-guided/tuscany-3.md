@@ -54,9 +54,9 @@ page_builder:
             text: "What more could you want for a week's walking?"
     title: 'Vineyards, olive groves and rolling countryside'
     images:
-      - tours/tuscany-tuscany-3-san-gimignano-to-siena/palmik-siena-2658932.jpg
-      - tours/tuscany-tuscany-3-san-gimignano-to-siena/justsomedutchdude-old-2121643.jpg
-      - tours/tuscany-tuscany-3-san-gimignano-to-siena/kristof-van-rentergem-lpywtwptwbs-unsplash.jpg
+      - self-guided/tuscany-3/palmik-siena-2658932.jpg
+      - self-guided/tuscany-3/justsomedutchdude-old-2121643.jpg
+      - self-guided/tuscany-3/kristof-van-rentergem-lpywtwptwbs-unsplash.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -109,7 +109,7 @@ page_builder:
         duration: 2
         distance: 9
         elevation: 195
-        photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/aver007-san-gimignano-4720522.jpg
+        photo: self-guided/tuscany-3/aver007-san-gimignano-4720522.jpg
       -
         id: mloozlek
         title: 'Walk through vineyards'
@@ -119,7 +119,7 @@ page_builder:
         elevation: 174
         meals_included:
           - breakfast
-        photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/deepak-sharma-0y0ap85o7cy-unsplash.jpg
+        photo: self-guided/tuscany-3/deepak-sharma-0y0ap85o7cy-unsplash.jpg
       -
         id: mlop159i
         title: 'Stay in a medieval fortress'
@@ -129,7 +129,7 @@ page_builder:
         elevation: 113
         meals_included:
           - breakfast
-        photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/img_0736.jpg
+        photo: self-guided/tuscany-3/img_0736.jpg
       -
         id: mlop3c5r
         title: 'Arrive in Siena'
@@ -139,14 +139,14 @@ page_builder:
         elevation: 119
         meals_included:
           - breakfast
-        photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/p1010314.jpg
+        photo: self-guided/tuscany-3/p1010314.jpg
       -
         id: mlop5205
         title: 'Depart Siena'
         description: 'After breakfast in your hotel, you are free to continue your holiday.  Siena is connected to Florence and Rome by rail and bus.'
         meals_included:
           - breakfast
-        photo: tours/tuscany-tuscany-3-san-gimignano-to-siena/achim-ruhnau-a3fwnq1inoi-unsplash(1).jpg
+        photo: self-guided/tuscany-3/achim-ruhnau-a3fwnq1inoi-unsplash(1).jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -172,7 +172,7 @@ page_builder:
                   -
                     type: italic
                 text: 'The self-guided itineraries are re-walked and the notes updated each year.'
-        image: tours/walking-in-chianti-9.jpg
+        image: self-guided/tuscany-3/walking-in-chianti-9.jpg
         type: walk
         enabled: true
       -
@@ -186,7 +186,7 @@ page_builder:
                 type: text
                 text: "Hidden Italy uses the best accommodation available and the accommodation on this walk is one of the highlights.\_\_You'll be staying in the best hotels in each place,all\_in\_restored historical palazzi in the heart of each town and village, some dating from the Middle Ages and all steeped in the wonderful history of Tuscany. \_All rooms have ensuite bathrooms."
         media:
-          - tours/palazzo-ravizza-siena-pic-33.jpeg
+          - self-guided/tuscany-3/palazzo-ravizza-siena-pic-33.jpeg
         type: accommodation
         enabled: true
       -
@@ -209,7 +209,7 @@ page_builder:
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
         media:
-          - tours/img_5061.jpg
+          - self-guided/tuscany-3/img_5061.jpg
         type: food
         enabled: true
     type: experience
@@ -299,20 +299,20 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 5300daa4-c274-4a6e-8715-fbd320d02144
-image: tours/tuscany-tuscany-1-self-guided-tour-montalcino-to-montepulciano-1/t3.jpg
+image: self-guided/tuscany-3/t3.jpg
 gallery:
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/deepak-sharma-0y0ap85o7cy-unsplash.jpg
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/aver007-san-gimignano-4720522.jpg
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/walking-in-chianti-9.jpg
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/t3.jpg
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/img_5061.jpg
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/img_0736.jpg
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/makalu-italy-3608515.jpg
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/palmik-siena-2658932.jpg
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/justsomedutchdude-old-2121643.jpg
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/kristof-van-rentergem-lpywtwptwbs-unsplash.jpg
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/p1010314.jpg
-  - tours/tuscany-tuscany-3-san-gimignano-to-siena/achim-ruhnau-a3fwnq1inoi-unsplash(1).jpg
+  - self-guided/tuscany-3/deepak-sharma-0y0ap85o7cy-unsplash.jpg
+  - self-guided/tuscany-3/aver007-san-gimignano-4720522.jpg
+  - self-guided/tuscany-3/walking-in-chianti-9.jpg
+  - self-guided/tuscany-3/t3.jpg
+  - self-guided/tuscany-3/img_5061.jpg
+  - self-guided/tuscany-3/img_0736.jpg
+  - self-guided/tuscany-3/makalu-italy-3608515.jpg
+  - self-guided/tuscany-3/palmik-siena-2658932.jpg
+  - self-guided/tuscany-3/justsomedutchdude-old-2121643.jpg
+  - self-guided/tuscany-3/kristof-van-rentergem-lpywtwptwbs-unsplash.jpg
+  - self-guided/tuscany-3/p1010314.jpg
+  - self-guided/tuscany-3/achim-ruhnau-a3fwnq1inoi-unsplash(1).jpg
 start_location:
   label: 'San Gimignano'
 finish_location:

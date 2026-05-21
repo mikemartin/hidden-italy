@@ -9,22 +9,22 @@ locations: southern-italy
 updated_by: 1
 updated_at: 1779336291
 days: 14
-image: tours/sicily-palermo-to-taormina/804728531-13.jpg
+image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
 tour_size: 15
 gallery:
-  - tours/sicily-palermo-to-taormina/01.jpg
-  - tours/sicily-palermo-to-taormina/3.jpg
-  - tours/sicily-palermo-to-taormina/2.jpg
-  - tours/sicily-palermo-to-taormina/7.jpg
-  - tours/sicily-palermo-to-taormina/24.5.jpg
-  - tours/sicily-palermo-to-taormina/21.6.jpg
-  - tours/sicily-palermo-to-taormina/42.jpg
-  - tours/sicily-palermo-to-taormina/48.5.jpg
-  - tours/sicily-palermo-to-taormina/51.jpg
-  - tours/sicily-palermo-to-taormina/69.jpg
-  - tours/sicily-palermo-to-taormina/63.jpg
-  - tours/sicily-palermo-to-taormina/65.jpg
+  - guided/sicily-in-the-spring/01.jpg
+  - guided/sicily-in-the-spring/3.jpg
+  - guided/sicily-in-the-spring/2.jpg
+  - guided/sicily-in-the-spring/7.jpg
+  - guided/sicily-in-the-spring/24.5.jpg
+  - guided/sicily-in-the-spring/21.6.jpg
+  - guided/sicily-in-the-spring/42.jpg
+  - guided/sicily-in-the-spring/48.5.jpg
+  - guided/sicily-in-the-spring/51.jpg
+  - guided/sicily-in-the-spring/69.jpg
+  - guided/sicily-in-the-spring/63.jpg
+  - guided/sicily-in-the-spring/65.jpg
 simple_likes: 0
 leader: 699bd6c8-377d-46a8-bd97-234a3720b9f1
 page_builder:
@@ -68,9 +68,9 @@ page_builder:
             text: "\_"
     title: 'Not one but many Sicilys'
     images:
-      - tours/sicily-palermo-to-taormina/48.5.jpg
-      - tours/sicily-palermo-to-taormina/51.jpg
-      - tours/sicily-palermo-to-taormina/69.jpg
+      - guided/sicily-in-the-spring/48.5.jpg
+      - guided/sicily-in-the-spring/51.jpg
+      - guided/sicily-in-the-spring/69.jpg
     hide_from_subnav: false
   -
     id: S-GxLPbJ4K3UJXaWyild9
@@ -122,7 +122,7 @@ page_builder:
         description: "Our Sicily tour starts in Palermo, the capital of Sicily, which is pressed between the mountains and the sea, a striking setting for what must be one of the most exotic cities in Europe. Its architecture and culture reflect the extraordinarily rich fabric of its past. Our accommodation for the first two nights is in an elegant 4-star hotel in the lively commercial centre of Palermo. We'll meet in the hotel foyer at 19.00 and have a light dinner in a neighbouring restaurant."
         meals_included:
           - dinner
-        photo: tours/sicily-palermo-to-taormina/04.2.jpg
+        photo: guided/sicily-in-the-spring/04.2.jpg
       -
         id: YLkYj4_LvvpA8FQtJRa-C
         title: 'Explore Palermo'
@@ -130,7 +130,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/sicily-palermo-to-taormina/2.jpg
+        photo: guided/sicily-in-the-spring/2.jpg
       -
         id: ysEtAW5lQJTqXlSE064rQ
         title: 'Transfer to the mountains'
@@ -139,7 +139,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/sicily-palermo-to-taormina/7.jpg
+        photo: guided/sicily-in-the-spring/7.jpg
       -
         id: GZDLxY0mZk-PQrOwEsWlO
         title: 'Walk in the mountains'
@@ -151,7 +151,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/sicily-palermo-to-taormina/24.5.jpg
+        photo: guided/sicily-in-the-spring/24.5.jpg
       -
         id: EymXPLYKFOpoqp-arNVIS
         title: 'Visit an an ancient Roman villa'
@@ -159,7 +159,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/sicily-palermo-to-taormina/27.5.jpg
+        photo: guided/sicily-in-the-spring/27.5.jpg
       -
         id: aR55SmJ_TrUEhTa-OcU7g
         title: 'Another fabulous walk'
@@ -174,7 +174,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/sicily-palermo-to-taormina/25-a.jpg
+        photo: guided/sicily-in-the-spring/25-a.jpg
       -
         id: FemEj-8GNCdYUNm9nMHXz
         title: 'Transfer to the Aeolian Islands'
@@ -182,7 +182,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/sicily-palermo-to-taormina/48.5.jpg
+        photo: guided/sicily-in-the-spring/48.5.jpg
       -
         id: mv17ZUEjrm5We0s3WpSXb
         title: 'Walk across the island'
@@ -195,7 +195,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/sicily-palermo-to-taormina/50-v2.jpg
+        photo: guided/sicily-in-the-spring/50-v2.jpg
       -
         id: KzzRjFO9tlWGf2-Wii1Pd
         title: 'A day island-hopping'
@@ -206,7 +206,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/sicily-palermo-to-taormina/48.5.jpg
+        photo: guided/sicily-in-the-spring/48.5.jpg
       -
         id: siQvsdgOurix_sZEIwh0X
         title: 'Climb a volcano'
@@ -218,7 +218,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/sicily-palermo-to-taormina/vulcano-3.jpg
+        photo: guided/sicily-in-the-spring/vulcano-3.jpg
       -
         id: jvC4EyD_4eCaTbq_WjKBg
         title: 'Transfer to Taormina'
@@ -228,7 +228,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/sicily-palermo-to-taormina/taormina-4.5.jpg
+        photo: guided/sicily-in-the-spring/taormina-4.5.jpg
       -
         id: O0emPib_FcRIp-1IWMCpC
         title: 'Walk in the forests of Mt Etna'
@@ -239,7 +239,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/sicily-palermo-to-taormina/etna-22.jpg
+        photo: guided/sicily-in-the-spring/etna-22.jpg
       -
         id: inM18Qylk6zVJhIaWY7Mu
         title: 'Relax in Taormina'
@@ -247,14 +247,14 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/sicily-palermo-to-taormina/taormina-teatro-1.jpg
+        photo: guided/sicily-in-the-spring/taormina-teatro-1.jpg
       -
         id: EtPXnMrh4_7D4BidgyAzQ
         title: 'Transfer to Catania'
         description: 'After breakfast, we leave our hotel at 8.00am and transfer to Catania, which has an international airport and rail connections to the mainland (the train is ferried across the Straits of Messina) and to the rest of Europe. If required, we can also organise transfers back to Palermo.'
         meals_included:
           - breakfast
-        photo: tours/sicily-palermo-to-taormina/65.jpg
+        photo: guided/sicily-in-the-spring/65.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -278,7 +278,7 @@ page_builder:
               -
                 type: text
                 text: "This tour has a variety of walks, including easy coastal strolls, longer mountain walks following unsealed country roads as well as more challenging walks such as the climb to the top of Vulcano in the Aeolian islands.\_ Going in May means that we'll be able to enjoy the island's idyllic spring weather and abundant wildflowers as well as avoid the crowds of the busier seasons.\_ In some cases it is possible to shorten the walk or to opt out and join the walkers for lunch.\_ Details for the individual walks are on the itinerary."
-        image: tours/60.jpg
+        image: guided/sicily-in-the-spring/60.jpg
         type: walk
         enabled: true
       -
@@ -292,7 +292,7 @@ page_builder:
                 type: text
                 text: "Accommodation is in very good, centrally located boutique hotels: a grand 4-star hotel in the heart of Palermo; a recently restored patrician palazzo in the heart of our sleepy village in the mountains; a 4-star hotel with generous gardens and a large swimming pool in Lipari and another 4-star hotel above Taormina, with a beautiful swimming pool and fabulous views across the sea.\_ All rooms have en suite bathrooms and air conditioning."
         media:
-          - tours/taormina-2.jpg
+          - guided/sicily-in-the-spring/taormina-2.jpg
         type: accommodation
         enabled: true
       -
@@ -306,7 +306,7 @@ page_builder:
                 type: text
                 text: "One of the highlights of the tour is the exploration of the island's diverse and wonderous cuisine (some would say the finest in Italy): the rich ‘cucina povera' of Palermo; the fine country cooking of the interior; the excellent seafood of the Aeolian Islands and Taormina - all the ingredients rigorously seasonal and local.\_ We'll eat in fine restaurants, small trattoria's, enjoy picnic lunches, all exalting the best of Sicilian cooking.\_ Wine is included with all meals."
         media:
-          - tours/taormina-7.jpg
+          - guided/sicily-in-the-spring/taormina-7.jpg
         type: food
         enabled: true
     hide_from_subnav: false

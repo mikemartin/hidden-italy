@@ -34,7 +34,7 @@ tabs:
             handle: image
             field:
               container: assets
-              folder: tours
+              folder: guided
               dynamic: slug
               restrict: true
               mode: grid
@@ -173,13 +173,13 @@ tabs:
               type: assets
               display: Gallery
               instructions: 'Add at least 5 photos of people in action, and show different angles.'
-              folder: tours
+              folder: guided
               restrict: true
       -
         display: 'Page Builder'
         fields:
           -
-            import: tour_builder
+            import: guided_tour_builder
   seo:
     display: SEO
     sections:

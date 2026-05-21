@@ -42,9 +42,9 @@ page_builder:
             type: text
             text: "This is a tour of two worlds: the winding trails take you high above the coast during the day, following stone paths that have been used for centuries, passing through shaded forests, remote farming communities and ancient terraces and not meeting anyone along the way. And then there are the buzzy, picturesque villages on the coast, where you'll spend each night staying in charming, family-run hotels and eating in excellent restaurants and trattorias!"
     images:
-      - tours/liguria-cinque-terre-coastal-walking-tour-1/img_2216.jpg
-      - tours/liguria-cinque-terre-coastal-walking-tour-1/positano-pan-1.jpg
-      - tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
+      - self-guided/the-amalfi-coast/img_2216.jpg
+      - self-guided/the-amalfi-coast/positano-pan-1.jpg
+      - self-guided/the-amalfi-coast/a.jpg
     type: overview
     enabled: true
     section_background: dark
@@ -98,7 +98,7 @@ page_builder:
         id: mlooymbz
         title: 'Arrive in Ravello'
         description: 'You are picked up by a private vehicle at a time and place that suits you and driven from Naples to Ravello, a beautiful village perched 350 metres above the port of Amalfi, celebrated for Wagner, its gardens and superb views over the Gulf of Salerno.'
-        photo: tours/liguria-cinque-terre-coastal-walking-tour-1/1.jpg
+        photo: self-guided/the-amalfi-coast/1.jpg
       -
         id: mloozlek
         title: 'Walk the Valle delle Ferriere'
@@ -108,7 +108,7 @@ page_builder:
         elevation: -361
         meals_included:
           - breakfast
-        photo: tours/liguria-cinque-terre-coastal-walking-tour-1/amalfi.jpg
+        photo: self-guided/the-amalfi-coast/amalfi.jpg
       -
         id: mlop159i
         title: 'Walk above the coast'
@@ -118,7 +118,7 @@ page_builder:
         elevation: 261
         meals_included:
           - breakfast
-        photo: tours/liguria-cinque-terre-coastal-walking-tour-1/img_4282.jpeg
+        photo: self-guided/the-amalfi-coast/img_4282.jpeg
       -
         id: mlop3c5r
         title: 'Climbing high'
@@ -128,7 +128,7 @@ page_builder:
         elevation: 570
         meals_included:
           - breakfast
-        photo: tours/liguria-cinque-terre-coastal-walking-tour-1/b.jpg
+        photo: self-guided/the-amalfi-coast/b.jpg
       -
         id: mlop5205
         title: 'Walk the Path of the Gods'
@@ -138,7 +138,7 @@ page_builder:
         elevation: 517
         meals_included:
           - breakfast
-        photo: tours/liguria-cinque-terre-coastal-walking-tour-1/view-to-positano.jpg
+        photo: self-guided/the-amalfi-coast/view-to-positano.jpg
       -
         id: mlop6avf
         title: 'Transfer to Naples'
@@ -148,7 +148,7 @@ page_builder:
         elevation: 181
         meals_included:
           - breakfast
-        photo: tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
+        photo: self-guided/the-amalfi-coast/a.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -174,7 +174,7 @@ page_builder:
                   -
                     type: italic
                 text: 'The self-guided itineraries are rewalked and the notes updated each year.'
-        image: tours/img_2481.jpeg
+        image: self-guided/the-amalfi-coast/img_2481.jpeg
         type: walk
         enabled: true
       -
@@ -188,7 +188,7 @@ page_builder:
                 type: text
                 text: "Hidden Italy tours use the best available accommodation.\_ On the Amalfi Coast walking tour this means staying each night in very good, centrally located, hotels (most with swimming pools) with whom we've been working for years.\_ The Standard option uses 3-star hotels while the Superior option uses 4-star hotels. \_ We request rooms with sea views. \_All rooms have en suite bathrooms."
         media:
-          - tours/hotel-positano.jpg
+          - self-guided/the-amalfi-coast/hotel-positano.jpg
         type: accommodation
         enabled: true
       -
@@ -211,7 +211,7 @@ page_builder:
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
         media:
-          - tours/c.jpg
+          - self-guided/the-amalfi-coast/c.jpg
         type: food
         enabled: true
     type: experience
@@ -302,19 +302,19 @@ page_builder:
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 gallery:
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/1.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/amalfi.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_2481.jpeg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/b.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_2216.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_4350.jpeg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_4282.jpeg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/santa-maria.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/view-to-positano.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/img_4424.jpeg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/positano-pan-1.jpg
-  - tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
-image: tours/liguria-cinque-terre-coastal-walking-tour-1/a.jpg
+  - self-guided/the-amalfi-coast/1.jpg
+  - self-guided/the-amalfi-coast/amalfi.jpg
+  - self-guided/the-amalfi-coast/img_2481.jpeg
+  - self-guided/the-amalfi-coast/b.jpg
+  - self-guided/the-amalfi-coast/img_2216.jpg
+  - self-guided/the-amalfi-coast/img_4350.jpeg
+  - self-guided/the-amalfi-coast/img_4282.jpeg
+  - self-guided/the-amalfi-coast/santa-maria.jpg
+  - self-guided/the-amalfi-coast/view-to-positano.jpg
+  - self-guided/the-amalfi-coast/img_4424.jpeg
+  - self-guided/the-amalfi-coast/positano-pan-1.jpg
+  - self-guided/the-amalfi-coast/a.jpg
+image: self-guided/the-amalfi-coast/a.jpg
 start_location:
   label: 'Ravello, Campania, Italy'
   lat: '40.663289'

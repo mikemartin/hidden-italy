@@ -46,9 +46,9 @@ page_builder:
             text: "The tour starts by first visiting the 'three lost villages of Tuscany' then progresses to Lake Bolsena and finishes in the spectacular Umbrian town of Orvieto.\_ On the way you follow country lanes, sections of ancient Etruscan roads and stretches of the Via Francigena, the Medieval road that carried pilgrims, merchants and crusader armies from Papal Rome to northern Italy and the rest of Europe.   You stay in very comfortable accommodation in quiet farming villages that are more than two thousand old.\_ It's one of my favourite hikes and the food and wine is pretty good as well!"
     title: 'One of the cradles of Italian civilisation'
     images:
-      - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/img_6947.jpeg
-      - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/walking.jpg
-      - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-8.jpg
+      - self-guided/la-tuscia/img_6947.jpeg
+      - self-guided/la-tuscia/walking.jpg
+      - self-guided/la-tuscia/orvieto-8.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -98,7 +98,7 @@ page_builder:
         id: mlooymbz
         title: 'Transfer from Rome to Pitigliano'
         description: 'You will be picked up in Rome and transferred to Pitigliano. This spectacularly sited town is bounded by two ravines and is over three thousand years old.  The historic centre of the town is a tangle of lanes and car-free streets, a fascinating place to spend some time exploring.'
-        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano_-tuscany-s-hilltop-beauty.png
+        photo: self-guided/la-tuscia/pitigliano_-tuscany-s-hilltop-beauty.png
       -
         id: mloozlek
         title: 'Walk ancient trails'
@@ -108,7 +108,7 @@ page_builder:
         elevation: 115
         meals_included:
           - breakfast
-        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano-2.jpg
+        photo: self-guided/la-tuscia/pitigliano-2.jpg
       -
         id: mlop159i
         title: 'Sleep in a castle'
@@ -118,7 +118,7 @@ page_builder:
         elevation: 160
         meals_included:
           - breakfast
-        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/sorano-1-a.jpg
+        photo: self-guided/la-tuscia/sorano-1-a.jpg
       -
         id: mlop3c5r
         title: 'Discover an abandoned city'
@@ -129,7 +129,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/walking.jpg
+        photo: self-guided/la-tuscia/walking.jpg
       -
         id: mlop5205
         title: 'Sleep lakeside'
@@ -139,7 +139,7 @@ page_builder:
         elevation: 322
         meals_included:
           - breakfast
-        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/bolsena-1.jpg
+        photo: self-guided/la-tuscia/bolsena-1.jpg
       -
         id: mlop6avf
         title: 'Walk to Orvieto'
@@ -149,14 +149,14 @@ page_builder:
         elevation: 442
         meals_included:
           - breakfast
-        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-1.jpg
+        photo: self-guided/la-tuscia/orvieto-1.jpg
       -
         id: mlop8uiy
         title: 'Depart Orvieto'
         description: 'Breakfast in your hotel. Orvieto station is on the main Rome/Florence line and you will be able to continue your holiday from there.'
         meals_included:
           - breakfast
-        photo: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020002.jpg
+        photo: self-guided/la-tuscia/f1020002.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -184,7 +184,7 @@ page_builder:
                   -
                     type: italic
                 text: 'The self-guided itineraries are re-walked and the notes updated each year.'
-        image: tours/hiking-the-ancient-via-cava-1775802079.png
+        image: self-guided/la-tuscia/hiking-the-ancient-via-cava-1775802079.png
         type: walk
         enabled: true
       -
@@ -198,7 +198,7 @@ page_builder:
                 type: text
                 text: "The accommodation is one of the special features of this tour.\_ As usual, Hidden Italy uses the best accommodation available.\_ All the hotels are in historical buildings in the centre of the small villages and towns including a 4-star resort built on Etruscan foundations; a hotel built in a restored Medici fortress; a family-run hotel in the shadow of the Orvieto cathedral and, my favourite, a 3rd generation country hotel in a tiny rural village. All rooms have an en suite bathroom and air conditioning."
         media:
-          - tours/hotel-della-fortezza.jpg
+          - self-guided/la-tuscia/hotel-della-fortezza.jpg
         type: accommodation
         enabled: true
       -
@@ -227,7 +227,7 @@ page_builder:
                     type: italic
                 text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
         media:
-          - tours/f1020009-a.jpg
+          - self-guided/la-tuscia/f1020009-a.jpg
         type: food
         enabled: true
     type: experience
@@ -317,20 +317,20 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
-image: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano_-tuscany-s-hilltop-beauty.png
+image: self-guided/la-tuscia/pitigliano_-tuscany-s-hilltop-beauty.png
 gallery:
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano_-tuscany-s-hilltop-beauty.png
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020002.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-3.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/walking.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/pitigliano-2.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1050010.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/sorano-1-a.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/martinophuc-boats-7100032.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020004.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-1.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/orvieto-5.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto/f1020008.jpg
+  - self-guided/la-tuscia/pitigliano_-tuscany-s-hilltop-beauty.png
+  - self-guided/la-tuscia/f1020002.jpg
+  - self-guided/la-tuscia/orvieto-3.jpg
+  - self-guided/la-tuscia/walking.jpg
+  - self-guided/la-tuscia/pitigliano-2.jpg
+  - self-guided/la-tuscia/f1050010.jpg
+  - self-guided/la-tuscia/sorano-1-a.jpg
+  - self-guided/la-tuscia/martinophuc-boats-7100032.jpg
+  - self-guided/la-tuscia/f1020004.jpg
+  - self-guided/la-tuscia/orvieto-1.jpg
+  - self-guided/la-tuscia/orvieto-5.jpg
+  - self-guided/la-tuscia/f1020008.jpg
 now_open: false
 seasons:
   - spring

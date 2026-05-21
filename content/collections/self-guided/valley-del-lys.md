@@ -48,9 +48,9 @@ page_builder:
             text: 'Please note that your breakfasts and dinners are included each day!'
     title: 'From the Aosta Valley to Monte Rosa'
     images:
-      - tours/val-daosta-valley-del-lys/7.jpg
-      - tours/val-daosta-valley-del-lys/8.jpg
-      - tours/val-daosta-valley-del-lys/6.jpg
+      - self-guided/valley-del-lys/7.jpg
+      - self-guided/valley-del-lys/8.jpg
+      - self-guided/valley-del-lys/6.jpg
     hide_from_subnav: false
   -
     id: mlrbu308
@@ -102,7 +102,7 @@ page_builder:
         description: 'You will be met at Pont-Saint-Martin railway station (which is on the main line that connects Turin, Aosta city and Geneva) and driven to your base, a lovely historic hamlet on the slopes of the Valley del Lys.  Your accommodation is in a gloriously restored, historic Walser residence.  You will be given a briefing on the tour on arrival at your accommodation.'
         meals_included:
           - dinner
-        photo: tours/val-daosta-valley-del-lys/13.jpg
+        photo: self-guided/valley-del-lys/13.jpg
       -
         id: mlrce7n9
         title: 'Walk into the mountains'
@@ -114,7 +114,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/val-daosta-valley-del-lys/9.jpg
+        photo: self-guided/valley-del-lys/9.jpg
       -
         id: mlrchqfo
         title: 'Walk through forest'
@@ -125,7 +125,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/val-daosta-valley-del-lys/7.jpg
+        photo: self-guided/valley-del-lys/7.jpg
       -
         id: mlrcpsyv
         title: 'Visit Gressoney-la-Trinite'
@@ -136,7 +136,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/val-daosta-valley-del-lys/10.jpg
+        photo: self-guided/valley-del-lys/10.jpg
       -
         id: mlrcryci
         title: 'Touch Monte Rosa'
@@ -147,7 +147,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/val-daosta-valley-del-lys/img_7055.jpg
+        photo: self-guided/valley-del-lys/img_7055.jpg
       -
         id: mlrczqmb
         title: 'Return to the valley!'
@@ -158,14 +158,14 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/val-daosta-valley-del-lys/5.jpg
+        photo: self-guided/valley-del-lys/5.jpg
       -
         id: mlrd7giq
         title: 'Transfer to Ponte-St-Martin'
         description: 'After breakfast, you will be transferred back to Pont-Saint-Martin, at the entrance to the valley, which has regular train connections back to Turin, or to Aosta city and beyond into France.'
         meals_included:
           - breakfast
-        photo: tours/val-daosta-valley-del-lys/2.jpg
+        photo: self-guided/valley-del-lys/2.jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -187,7 +187,7 @@ page_builder:
               -
                 type: text
                 text: "The hikes follow very well-maintained and well-marked trails that have been used by traders, farmers and travellers since the Middle Ages.\_ They take you through a variety of terrain (high mountain passes, ancient larch forests, the banks of the River Lys) all the time surrounded by breath-taking scenery.\_ There are some sustained climbs and descents, so you will need to have a good level of fitness, but your efforts are amply rewarded by the views and the warm mountain hospitality at the end of each day.\_ You will need to carry a change of clothes, pyjamas and a toothbrush on Days 2 and Day 4."
-        image: tours/9-1776049452.jpg
+        image: self-guided/valley-del-lys/9-1776049452.jpg
         type: walk
         enabled: true
       -
@@ -209,9 +209,9 @@ page_builder:
                 type: text
                 text: "All the accommodation is in small historic buildings mostly made local timber and stone and all run by proud local families.\_ All the rooms, in the hotels and rifugios, have private, en suite bathrooms."
         images:
-          - tours/5-1776049637.jpg
+          - self-guided/valley-del-lys/5-1776049637.jpg
         media:
-          - tours/val-daosta-valley-del-lys/5.jpg
+          - self-guided/valley-del-lys/5.jpg
       -
         id: R_bvUwm17pAGaqCUbgQT_
         title: 'Authentic food'
@@ -307,7 +307,7 @@ page_builder:
                 type: text
                 text: .
         media:
-          - tours/8.jpg
+          - self-guided/valley-del-lys/8.jpg
         type: food
         enabled: true
     type: experience
@@ -387,20 +387,20 @@ page_builder:
 locations: northern-italy
 landscapes:
   - mountains
-image: tours/val-daosta-valley-del-lys/-valley-del-lys-v2.jpeg
+image: self-guided/valley-del-lys/-valley-del-lys-v2.jpeg
 gallery:
-  - tours/val-daosta-valley-del-lys/1.jpg
-  - tours/val-daosta-valley-del-lys/2.jpg
-  - tours/val-daosta-valley-del-lys/13.jpg
-  - tours/val-daosta-valley-del-lys/9.jpg
-  - tours/val-daosta-valley-del-lys/10.jpg
-  - tours/val-daosta-valley-del-lys/5.jpg
-  - tours/val-daosta-valley-del-lys/3.jpg
-  - tours/val-daosta-valley-del-lys/7.jpg
-  - tours/val-daosta-valley-del-lys/8.jpg
-  - tours/val-daosta-valley-del-lys/6.jpg
-  - tours/val-daosta-valley-del-lys/img_7055.jpg
-  - tours/val-daosta-valley-del-lys/16.jpg
+  - self-guided/valley-del-lys/1.jpg
+  - self-guided/valley-del-lys/2.jpg
+  - self-guided/valley-del-lys/13.jpg
+  - self-guided/valley-del-lys/9.jpg
+  - self-guided/valley-del-lys/10.jpg
+  - self-guided/valley-del-lys/5.jpg
+  - self-guided/valley-del-lys/3.jpg
+  - self-guided/valley-del-lys/7.jpg
+  - self-guided/valley-del-lys/8.jpg
+  - self-guided/valley-del-lys/6.jpg
+  - self-guided/valley-del-lys/img_7055.jpg
+  - self-guided/valley-del-lys/16.jpg
 now_open: false
 seasons:
   - summer

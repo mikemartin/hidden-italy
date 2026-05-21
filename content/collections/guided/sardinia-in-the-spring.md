@@ -19,20 +19,20 @@ inclusions:
   - 'All paid admissions during the tour'
   - '7 guided walks'
   - 'Services of a full-time professional tour guide'
-image: tours/sardinia-cagliari-to-the-costa-smeralda/-38.6.jpg
+image: guided/sardinia-in-the-spring/-38.6.jpg
 gallery:
-  - tours/sardinia-cagliari-to-the-costa-smeralda/02.jpg
-  - tours/sardinia-cagliari-to-the-costa-smeralda/16.jpg
-  - tours/sardinia-cagliari-to-the-costa-smeralda/carloforte-1.jpg
-  - tours/sardinia-cagliari-to-the-costa-smeralda/hotel-7.jpg
-  - tours/sardinia-cagliari-to-the-costa-smeralda/14.jpg
-  - tours/sardinia-cagliari-to-the-costa-smeralda/46.jpg
-  - tours/sardinia-cagliari-to-the-costa-smeralda/caprera-1.jpg
-  - tours/sardinia-cagliari-to-the-costa-smeralda/img_5939.jpg
-  - tours/sardinia-cagliari-to-the-costa-smeralda/hotel-1.jpg
-  - tours/sardinia-cagliari-to-the-costa-smeralda/img_5840.jpg
-  - tours/sardinia-cagliari-to-the-costa-smeralda/img_5769-(2).jpg
-  - tours/sardinia-cagliari-to-the-costa-smeralda/78.jpg
+  - guided/sardinia-in-the-spring/02.jpg
+  - guided/sardinia-in-the-spring/16.jpg
+  - guided/sardinia-in-the-spring/carloforte-1.jpg
+  - guided/sardinia-in-the-spring/hotel-7.jpg
+  - guided/sardinia-in-the-spring/14.jpg
+  - guided/sardinia-in-the-spring/46.jpg
+  - guided/sardinia-in-the-spring/caprera-1.jpg
+  - guided/sardinia-in-the-spring/img_5939.jpg
+  - guided/sardinia-in-the-spring/hotel-1.jpg
+  - guided/sardinia-in-the-spring/img_5840.jpg
+  - guided/sardinia-in-the-spring/img_5769-(2).jpg
+  - guided/sardinia-in-the-spring/78.jpg
 leader: 436787ff-89d4-438e-bf50-81c3672256cc
 page_builder:
   -
@@ -63,9 +63,9 @@ page_builder:
             text: "\_"
     title: 'Stunning landscapes and a fascinating past'
     images:
-      - tours/sardinia-cagliari-to-the-costa-smeralda/img_5939.jpg
-      - tours/sardinia-cagliari-to-the-costa-smeralda/hotel-1.jpg
-      - tours/sardinia-cagliari-to-the-costa-smeralda/img_5840.jpg
+      - guided/sardinia-in-the-spring/img_5939.jpg
+      - guided/sardinia-in-the-spring/hotel-1.jpg
+      - guided/sardinia-in-the-spring/img_5840.jpg
     hide_from_subnav: false
   -
     id: mlpxjjup
@@ -117,7 +117,7 @@ page_builder:
         description: 'Our exploration of Sardinia starts with two nights in the capital Cagliari, a buzzy but relaxed port that DH Lawrence linked to Jerusalem, “a strange and rather wonderful city”. We stay in a classic 4-star hotel on the edge of the old town, a short walk from the harbour and the medieval district. We will meet in the foyer of the hotel at 19.00 for introductions before walking to a lovely nearby restaurant for dinner.'
         meals_included:
           - dinner
-        photo: tours/sardinia-cagliari-to-the-costa-smeralda/02.jpg
+        photo: guided/sardinia-in-the-spring/02.jpg
       -
         id: mlpym850
         title: 'Explore Cagliari'
@@ -125,7 +125,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/sardinia-cagliari-to-the-costa-smeralda/04.jpg
+        photo: guided/sardinia-in-the-spring/04.jpg
       -
         id: mlpynee9
         title: 'Drive south'
@@ -136,7 +136,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/sardinia-cagliari-to-the-costa-smeralda/14.jpg
+        photo: guided/sardinia-in-the-spring/14.jpg
       -
         id: mlpypuym
         title: 'Walk to a Phoenician temple'
@@ -147,7 +147,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/sardinia-cagliari-to-the-costa-smeralda/38.6.jpg
+        photo: guided/sardinia-in-the-spring/38.6.jpg
       -
         id: mlpyuve7
         title: 'Explore the island'
@@ -159,7 +159,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/sardinia-cagliari-to-the-costa-smeralda/caprera-1.jpg
+        photo: guided/sardinia-in-the-spring/caprera-1.jpg
       -
         id: mlpyzzky
         title: 'Drive into the mountains'
@@ -168,7 +168,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/sardinia-cagliari-to-the-costa-smeralda/hotel-1.jpg
+        photo: guided/sardinia-in-the-spring/hotel-1.jpg
       -
         id: mlpz8t18
         title: 'Take in the views!'
@@ -180,7 +180,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/sardinia-cagliari-to-the-costa-smeralda/56.jpg
+        photo: guided/sardinia-in-the-spring/56.jpg
       -
         id: mlpzcmyy
         title: 'Explore the local traditions'
@@ -189,7 +189,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/sardinia-cagliari-to-the-costa-smeralda/62.jpg
+        photo: guided/sardinia-in-the-spring/62.jpg
       -
         id: mlpze0ii
         title: "Visit the island's most fascinating site"
@@ -201,7 +201,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/sardinia-cagliari-to-the-costa-smeralda/img_5939.jpg
+        photo: guided/sardinia-in-the-spring/img_5939.jpg
       -
         id: mlpzfc6o
         title: 'Head for the Costa Smeralda'
@@ -209,7 +209,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/sardinia-cagliari-to-the-costa-smeralda/77.jpg
+        photo: guided/sardinia-in-the-spring/77.jpg
       -
         id: mlpzmp2f
         title: 'Walk along the Costa Smeralda'
@@ -220,7 +220,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: tours/sardinia-cagliari-to-the-costa-smeralda/img_5769-(2).jpg
+        photo: guided/sardinia-in-the-spring/img_5769-(2).jpg
       -
         id: mlpzo8or
         title: 'the grande finale!'
@@ -229,12 +229,12 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: tours/sardinia-cagliari-to-the-costa-smeralda/78.jpg
+        photo: guided/sardinia-in-the-spring/78.jpg
       -
         id: mlpzrq9k
         title: 'Transfer to Olbia'
         description: "After breakfast, we’ll transfer you to nearby Olbia an hour's drive away which has an airport (we will be arriving around 10:00) and a port with ferries back to mainland Italy: to Genoa, La Spezia, Livorno (Tuscany) and Civitavecchia (Rome)."
-        photo: tours/sardinia-cagliari-to-the-costa-smeralda/75.jpg
+        photo: guided/sardinia-in-the-spring/75.jpg
         meals_included:
           - breakfast
     type: itinerary
@@ -256,7 +256,7 @@ page_builder:
               -
                 type: text
                 text: "The walks on this tour are as varied as Sardinia itself.\_ They include a guided morning walk through Cagliari's old town; spectacular walks along the island's peerless coastline; walks in the mountains with breath-taking views of the interior; and a forest walk to find the ruins of a Pheonician temple.\_ The walks are from 5 to 12 kilometres long, take from 2 to 4 hours.\_ They follow good trails over mostly undulating terrain. There are some steeper climbs in the mountains. Details of each day's walk are listed in the itinerary."
-        image: tours/01-v3.jpg
+        image: guided/sardinia-in-the-spring/01-v3.jpg
         type: walk
         enabled: true
       -
@@ -270,7 +270,7 @@ page_builder:
                 type: text
                 text: "The accommodation is in excellent boutique hotels: two nights in a classic 4-star hotel in the centre of Cagliari; three nights down in the south-west corner of Sardinia, staying in a gorgeous\_family-run hotel in the historic centre of a small car-free town, a short walk from the port; four nights in a luxurious, family-run 4-star 'country house' in the mountains, which is itself part of the island's history; and. finally, three nights in a 4-star resort staying in\_deluxe rooms each of which has sea views over the Costa Smeralda!"
         media:
-          - tours/hotel-1.jpg
+          - guided/sardinia-in-the-spring/hotel-1.jpg
         type: accommodation
         enabled: true
       -
@@ -284,7 +284,7 @@ page_builder:
                 type: text
                 text: "Sardinian cooking is deeply rooted in its past, full of flavours nearly forgotten elsewhere.\_ The essence of Sardinian cooking is unmistakeably biased towards traditional country dishes: fresh seasonal vegetabels; suckling pig and wild boar; rustic stews with wild vegetables and beans; fresh pastas; mountain cheeses; and boggling array of breads, including the famous carta da musica... and, of course, plenty of fresh seafood on the coast.\_ We will eat in a variety of settings including elegant dining in Cagliari and on the Costa Smeralda; seaside osterias, country trattorias, and picnics with the shepherds in the mountains."
         media:
-          - tours/84.jpg
+          - guided/sardinia-in-the-spring/84.jpg
         type: food
         enabled: true
     type: experience

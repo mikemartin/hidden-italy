@@ -46,9 +46,9 @@ page_builder:
             text: " You'll be transferred back to Foggia on the last day.  Breakfast and dinner are included each day. This is a marvellous walker's walk, a very satisfying exploration of an area that few foreigners visit!"
     title: 'Pilgrim trails to the sea'
     images:
-      - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_2799.jpg
-      - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/15.jpg
-      - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/17.5.jpg
+      - self-guided/the-gargano-peninsula/img_2799.jpg
+      - self-guided/the-gargano-peninsula/15.jpg
+      - self-guided/the-gargano-peninsula/17.5.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -100,7 +100,7 @@ page_builder:
         description: 'Foggia is the main city in northern Puglia, a three-hour train ride from Rome.  You will be transferred from here to a small town on the western end of the Gargano Peninsula (a 40-minute drive) where you will spend the first night.'
         meals_included:
           - dinner
-        photo: tours/puglia-puglia-gargano-san-marco-to-vieste/13.jpg
+        photo: self-guided/the-gargano-peninsula/13.jpg
       -
         id: mloozlek
         title: 'Walk to San Giovanni Rotondo'
@@ -111,7 +111,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/puglia-puglia-gargano-san-marco-to-vieste/1.3.jpg
+        photo: self-guided/the-gargano-peninsula/1.3.jpg
       -
         id: mlop159i
         title: "Walk to Monte Sant'Angelo"
@@ -123,7 +123,7 @@ page_builder:
         elevation: 396
         meals_included:
           - breakfast
-        photo: tours/puglia-puglia-gargano-san-marco-to-vieste/2.6.jpg
+        photo: self-guided/the-gargano-peninsula/2.6.jpg
       -
         id: mlop3c5r
         title: 'Explore Foresta Umbra'
@@ -136,7 +136,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/puglia-puglia-gargano-san-marco-to-vieste/2.jpg
+        photo: self-guided/the-gargano-peninsula/2.jpg
       -
         id: mlop5205
         title: "Stay at a family-run 'masseria'"
@@ -147,7 +147,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/puglia-puglia-gargano-san-marco-to-vieste/img_2799.jpg
+        photo: self-guided/the-gargano-peninsula/img_2799.jpg
       -
         id: mlop6avf
         title: 'Walk to the coast'
@@ -158,21 +158,21 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: tours/puglia-puglia-gargano-san-marco-to-vieste/15.jpg
+        photo: self-guided/the-gargano-peninsula/15.jpg
       -
         id: mlop8uiy
         title: 'Morning boat ride'
         description: 'Free day in Vieste. We have booked a private boat to take you for a morning tour along the spectacular rocky shoreline to explore the grottoes and bays of one of southern Italy’s most spectacular coasts (subject to the weather conditions). You’ll have the chance to have a swim before heading back to town. The afternoon is free. No dinner is included tonight.'
         meals_included:
           - breakfast
-        photo: tours/puglia-puglia-gargano-san-marco-to-vieste/14-1775022186.jpg
+        photo: self-guided/the-gargano-peninsula/14-1775022186.jpg
       -
         id: mlop9wks
         title: 'Transfer back to Foggia'
         description: 'This morning, you will have a private transfer from Vieste to Foggia railway station (1 hour), from where you can take trains west to Rome or south to Bari.'
         meals_included:
           - breakfast
-        photo: tours/puglia-puglia-gargano-san-marco-to-vieste/2-(2).jpg
+        photo: self-guided/the-gargano-peninsula/2-(2).jpg
     type: itinerary
     enabled: true
     section_background: none
@@ -192,7 +192,7 @@ page_builder:
               -
                 type: text
                 text: "The walks are long, contemplative rambles through beautiful countryside and forests. They cover a range of terrain, following marked trails.\_The itinerary mostly follows unsealed country lanes.\_There are some sections of asphalt going into and out of the towns.\_Day 3 is a 23 km, which can be shortened by 8 kms with notice."
-        image: tours/1.1.jpg
+        image: self-guided/the-gargano-peninsula/1.1.jpg
         type: walk
         enabled: true
       -
@@ -208,7 +208,7 @@ page_builder:
         type: accommodation
         enabled: true
         media:
-          - tours/puglia-puglia-gargano-san-marco-to-vieste/monte-sacro.jpg
+          - self-guided/the-gargano-peninsula/monte-sacro.jpg
       -
         id: oiR8LxKXnykM3ecfvR-ug
         title: 'Authentic food'
@@ -231,7 +231,7 @@ page_builder:
         type: food
         enabled: true
         media:
-          - tours/puglia-puglia-gargano-san-marco-to-vieste/authenic-food.jpeg
+          - self-guided/the-gargano-peninsula/authenic-food.jpeg
     type: experience
     enabled: true
     section_background: dark
@@ -319,20 +319,20 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 94b14cda-124a-4b87-82f5-7bc566ac2edf
-image: tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/15.jpg
+image: self-guided/the-gargano-peninsula/15.jpg
 gallery:
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/13.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/2.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/2.6.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/1.4.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_2819.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_3328.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/4.9.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_2799.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/15.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/17.5.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_2836.jpg
-  - tours/tuscany-and-umbria-la-tuscia-walking-tour-pitigliano-to-orvieto-1/img_3610.jpg
+  - self-guided/the-gargano-peninsula/13.jpg
+  - self-guided/the-gargano-peninsula/2.jpg
+  - self-guided/the-gargano-peninsula/2.6.jpg
+  - self-guided/the-gargano-peninsula/1.4.jpg
+  - self-guided/the-gargano-peninsula/img_2819.jpg
+  - self-guided/the-gargano-peninsula/img_3328.jpg
+  - self-guided/the-gargano-peninsula/4.9.jpg
+  - self-guided/the-gargano-peninsula/img_2799.jpg
+  - self-guided/the-gargano-peninsula/15.jpg
+  - self-guided/the-gargano-peninsula/17.5.jpg
+  - self-guided/the-gargano-peninsula/img_2836.jpg
+  - self-guided/the-gargano-peninsula/img_3610.jpg
 now_open: false
 seasons:
   - spring
