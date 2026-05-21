@@ -23,7 +23,7 @@ page_builder:
           -
             type: text
             text: "In October 1943, four Australian soldiers left Biella in the foothills of the Alps in northern Turin, fleeing Italy's Nazi–Fascist regime. They spoke no Italian, and they had scant clothing and no food.  With the help of local partisans, who offered support at great risk to themselves and their families, the soldiers crossed into neutral Switzerland eight days later. They were four of more than 500 Anzac POWs who followed the sentieri della libertá - the trails to freedom."
-    image: tours/italian-alps-trails-to-freedom/dscf1836.jpg
+    image: guided/trails-to-freedom/dscf1836.jpg
     image_position: left
     type: image_and_text
     enabled: true
@@ -44,7 +44,7 @@ page_builder:
           -
             type: text
             text: 'This is a fascinating story that brings to life the extraordinary, largely unknown history of this ardurous route to freedom'
-    image: tours/italian-alps-trails-to-freedom/94.jpg
+    image: guided/trails-to-freedom/94.jpg
     image_position: right
     type: image_and_text
     enabled: true

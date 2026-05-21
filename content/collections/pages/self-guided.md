@@ -6,7 +6,7 @@ template: tours/index
 headline: 'Self-guided Tours'
 description: 'Our self-guided walking tours of the Cinque Terre, Tuscany, Umbria and Amalfi have been designed to give the independent traveller the chance to experience Italy first-hand.'
 tour_collections: self-guided
-card_image: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/g.jpg
+card_image: self-guided/sicily-2-the-egadi-islands/g.jpg
 header_variant: standard
 page_builder:
   -

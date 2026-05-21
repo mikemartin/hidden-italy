@@ -201,7 +201,7 @@ page_builder:
                 type: text
                 text: "Accommodation is in ‘superior’ rooms with en-suite bathrooms in a very well located 4-star hotel, an excellent family run hotel on the sunny side of the valley with a ‘wellness’ centre, pool and surrounded by lawns.\_ It is in prettiest town in the valley.\_\_"
         media:
-          - self-guided/dolomites-1/2-tours-root.jpg
+          - self-guided/dolomites-1/2.jpg
         type: accommodation
         enabled: true
       -

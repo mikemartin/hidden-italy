@@ -43,6 +43,7 @@ export default function officeMap() {
                 zoom: 15,
                 attributionControl: { compact: true },
                 interactive: true,
+                cooperativeGestures: true,
             });
 
             this.map.addControl(

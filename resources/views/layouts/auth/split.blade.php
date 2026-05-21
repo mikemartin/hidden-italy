@@ -1,4 +1,4 @@
-@props(['hero' => '/assets/tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg'])
+@props(['hero' => '/assets/guided/campania-and-the-amalfi-coast/22.6.jpg'])
 
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">

@@ -6,7 +6,7 @@ template: tours/index
 headline: 'Guided Tours'
 description: 'Our guided walking tours to Sicily and Venice and the Italian Lakes are a gentle and unique way to discover a side of this fascinating country that most people only read about.'
 tour_collections: guided
-card_image: tours/sardinia-cagliari-to-the-costa-smeralda/img_5939.jpg
+card_image: guided/sardinia-in-the-spring/img_5939.jpg
 header_variant: standard
 page_builder:
   -

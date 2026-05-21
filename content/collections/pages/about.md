@@ -14,7 +14,7 @@ page_builder:
     image_position: right
     image_aspect: tall
     section_background: light
-    image: tours/tuscany-tuscany-2-chianti-florence-to-siena/rich-martello-yqcvybdd4y-unsplash-1774331143.jpg
+    image: self-guided/tuscany-2/rich-martello-yqcvybdd4y-unsplash-1774331143.jpg
     body:
       -
         type: paragraph

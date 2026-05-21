@@ -156,7 +156,7 @@ page_builder:
         id: home_shop_guided_2027
         type: card
         enabled: true
-        image: tours/sardinia-cagliari-to-the-costa-smeralda/img_5939.jpg
+        image: guided/sardinia-in-the-spring/img_5939.jpg
         heading: 'Guided tours now available to book for 2027'
         button:
           -

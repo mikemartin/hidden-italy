@@ -15,6 +15,6 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-card_image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/29a.jpg
+card_image: guided/abruzzo-and-molise/29a.jpg
 og_image: tours-og-1779334608.png
 ---

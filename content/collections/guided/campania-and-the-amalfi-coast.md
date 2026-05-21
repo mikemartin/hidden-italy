@@ -273,7 +273,7 @@ page_builder:
                 type: text
                 text: 'The tour finishes in marvellous Ravello, perched high above the Amalfi Coast. Our accommodation is another 4-star hotel, also with gardens, a swimming pool and great views, a short walk from the mian piazza and from Villa Cimbrone.'
         media:
-          - guided/campania-and-the-amalfi-coast/maratea-1-tours-root.jpg
+          - guided/campania-and-the-amalfi-coast/maratea-1.jpg
         type: accommodation
         enabled: true
       -

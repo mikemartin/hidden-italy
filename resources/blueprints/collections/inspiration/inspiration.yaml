@@ -17,7 +17,7 @@ tabs:
             handle: image
             field:
               container: assets
-              folder: tips
+              folder: inspiration
               mode: grid
               max_files: 1
               type: assets
@@ -29,7 +29,92 @@ tabs:
               display: Lead
               instructions: 'A 1&ndash;2 sentence dek shown under the headline on article cards and on the article page itself.'
           -
-            import: article
+            handle: article
+            field:
+              buttons:
+                - h2
+                - h3
+                - h4
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - quote
+                - removeformat
+                - anchor
+              reading_time: true
+              allow_source: true
+              type: bard
+              localizable: true
+              display: Article
+              replicator_preview: false
+              validate:
+                - required
+              container: files
+              always_save: false
+              remove_empty_nodes: true
+              smart_typography: true
+              sets:
+                main:
+                  display: Main
+                  sets:
+                    image:
+                      display: Image
+                      instructions: 'Add a single image with an optional caption.'
+                      icon: hero-image-above-text
+                      image: image.jpeg
+                      fields:
+                        -
+                          import: image
+                          config:
+                            folder: inspiration
+                    video:
+                      display: Video
+                      instructions: 'Add a YouTube or Vimeo video with an optional caption.'
+                      icon: movie-video-clip
+                      image: video.jpeg
+                      fields:
+                        -
+                          import: video
+                    accordion:
+                      display: Accordion
+                      instructions: 'Single collapsible items. Collapsed by default.'
+                      icon: collapse-vertical
+                      image: accordion.png
+                      fields:
+                        -
+                          import: accordion
+                    books:
+                      display: Books
+                      icon: book-next-page
+                      image: books.png
+                      fields:
+                        -
+                          import: books
+                    pull_quote:
+                      display: 'Pull quote'
+                      instructions: 'Add a pull quote with an optional author.'
+                      icon: text-formatting-quotation
+                      image: pull-quote.jpeg
+                      fields:
+                        -
+                          import: pull_quote
+                    table:
+                      display: Table
+                      instructions: 'Add a data table with headers, rows and columns.'
+                      icon: add-table
+                      image: table.jpeg
+                      fields:
+                        -
+                          import: table
+                    buttons:
+                      display: Buttons
+                      instructions: 'Add one or multiple buttons.'
+                      icon: link
+                      image: buttons.jpeg
+                      fields:
+                        -
+                          import: buttons
   seo:
     display: SEO
     sections:
