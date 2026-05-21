@@ -75,6 +75,18 @@ return [
         ], 
         [ 
             'type' => 'collection',
+            'collection' => 'inspiration',
+            'limit' => 10,
+            'width' => '50',
+        ], 
+        [ 
+            'type' => 'collection',
+            'collection' => 'tips',
+            'limit' => 10,
+            'width' => '50',
+        ], 
+        [ 
+            'type' => 'collection',
             'collection' => 'people',
             'limit' => 10,
             'width' => '50',
