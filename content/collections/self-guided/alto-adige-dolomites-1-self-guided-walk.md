@@ -6,7 +6,7 @@ name: 'Dolomites 1'
 region: 'Trentino-Alto Adige'
 days: 6
 updated_by: 2
-updated_at: 1779329823
+updated_at: 1779329906
 grade: 4
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
@@ -311,7 +311,7 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-image: tours/alto-adige-dolomites-1-self-guided-walk/-img_1568-v2.jpg
+image: tours/alto-adige-dolomites-1-self-guided-walk/-img_1568-v3.jpg
 gallery:
   - tours/alto-adige-dolomites-1-self-guided-walk/p9192176-1773020026.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/2.jpg
