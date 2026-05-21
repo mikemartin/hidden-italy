@@ -6,10 +6,10 @@ name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: 2
-updated_at: 1779300921
+updated_at: 1779329970
 locations: northern-italy
 grade: 3
-image: tours/trentino-alto-adige-dolomites/-suisi.jpg
+image: tours/trentino-alto-adige-dolomites/-p9192176.jpg
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
