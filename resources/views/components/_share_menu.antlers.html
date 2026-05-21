@@ -19,7 +19,11 @@
           `x-on:click`. We sidestep that by exposing a plain
           `window.shareMenuCopyLink()` function and threading the
           clipboard text through `window.shareMenuCopyText`. The function
-          script is pushed once to the layout's `scripts` stack.
+          script is pushed to the layout's `scripts` stack on every
+          render — redefining the same function on `window` is harmless.
+          Don't wrap the body in `{{ noparse }}`: it silently breaks
+          `{{ push:scripts }}` and the script never lands in the page.
+          The JS contains no Antlers syntax, so noparse isn't needed.
     @param text       Optional — pre-fill text for Facebook + WhatsApp.
                       Falls back to `body` when omitted so a caller that
                       only sets `body` (e.g. tour summary actions) still
@@ -168,22 +172,18 @@
     </span>
 </div>
 
-{{ once }}
-    {{ push:scripts }}
-        {{ noparse }}
-            <script>
-                window.shareMenuCopyLink = async function () {
-                    const value = window.shareMenuCopyText || window.location.href;
-                    try {
-                        await navigator.clipboard.writeText(value);
-                    } catch (e) {
-                        console.error('share menu: clipboard write failed', e);
-                        return false;
-                    }
-                    return true;
-                };
-            </script>
-        {{ /noparse }}
-    {{ /push:scripts }}
-{{ /once }}
+{{ push:scripts }}
+    <script>
+        window.shareMenuCopyLink = async function () {
+            const value = window.shareMenuCopyText || window.location.href;
+            try {
+                await navigator.clipboard.writeText(value);
+            } catch (e) {
+                console.error('share menu: clipboard write failed', e);
+                return false;
+            }
+            return true;
+        };
+    </script>
+{{ /push:scripts }}
 <!-- End: /components/_share_menu.antlers.html -->
