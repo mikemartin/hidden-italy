@@ -1,12 +1,12 @@
 ---
 id: 3d10a0a0-5538-48e1-a7ad-e8e84b633ed9
 blueprint: tour
-title: 'Puglia - The Gargano Peninsula'
-name: 'The Gargano Peninsula'
+title: 'Puglia - Puglia: The Gargano Peninsula'
+name: 'Puglia: The Gargano Peninsula'
 region: Puglia
 days: 8
-updated_by: 1
-updated_at: 1779336391
+updated_by: 4
+updated_at: 1779402789
 grade: 4
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
