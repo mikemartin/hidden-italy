@@ -5,8 +5,8 @@ title: 'Liguria - The Cinque Terre'
 name: 'The Cinque Terre'
 region: Liguria
 days: 7
-updated_by: 1
-updated_at: 1779336358
+updated_by: 4
+updated_at: 1779403130
 grade: 3
 inclusions:
   - 'Six nights accommodation'
