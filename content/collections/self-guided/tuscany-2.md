@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 2'
 name: 'Tuscany 2'
 region: Tuscany
 days: 7
-updated_by: 2
-updated_at: 1779270606
+updated_by: 1
+updated_at: 1779336438
 grade: 4
 inclusions:
   - 'Private transfer from Florence on Day 1; private transfer to Siena on Day 6'
@@ -376,4 +376,9 @@ summary:
 price: 'A$3,500'
 show_from: true
 og_image: tuscany-tuscany-2-og-1779335303.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

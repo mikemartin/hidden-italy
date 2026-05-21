@@ -5,8 +5,8 @@ title: 'Umbria - Umbria Classic'
 name: 'Umbria Classic'
 region: Umbria
 days: 7
-updated_by: 2
-updated_at: 1779329021
+updated_by: 1
+updated_at: 1779336484
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -372,4 +372,9 @@ price: 'A$2,350'
 show_from: true
 image: tours/umbria-umbria-classic-assisi-to-spoleto/sterling-lanier-eyewiju5mc0-unsplash.jpg
 og_image: umbria-umbria-classic-og-1779335313.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

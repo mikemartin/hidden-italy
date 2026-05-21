@@ -5,8 +5,8 @@ title: 'Liguria - Portofino and the Tigullio Gulf'
 name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6
-updated_by: 2
-updated_at: 1779267068
+updated_by: 1
+updated_at: 1779336351
 grade: 3
 inclusions:
   - 'Five nights’ accommodation'
@@ -356,4 +356,9 @@ summary:
 price: 'A$3,300'
 show_from: true
 og_image: liguria-portofino-and-the-tigullio-gulf-og-1779335289.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

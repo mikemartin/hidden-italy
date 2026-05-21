@@ -78,7 +78,6 @@ tabs:
               width: 50
       -
         display: Summary
-        collapsed: true
         fields:
           -
             handle: headline
@@ -173,6 +172,7 @@ tabs:
               localizable: true
               validate: 'max:200'
               show_regenerate: true
+              from: name
           -
             handle: price
             field:

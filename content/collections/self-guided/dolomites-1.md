@@ -5,8 +5,8 @@ title: 'Trentino-Alto Adige - Dolomites 1'
 name: 'Dolomites 1'
 region: 'Trentino-Alto Adige'
 days: 6
-updated_by: 2
-updated_at: 1779329906
+updated_by: 1
+updated_at: 1779336418
 grade: 4
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
@@ -372,4 +372,9 @@ summary:
 show_from: true
 price: 'A$2,950'
 og_image: trentino-alto-adige-dolomites-1-og-1779335300.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

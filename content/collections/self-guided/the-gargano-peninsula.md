@@ -1,12 +1,12 @@
 ---
 id: 3d10a0a0-5538-48e1-a7ad-e8e84b633ed9
 blueprint: tour
-title: 'Puglia - Puglia: the Gargano Peninsula'
-name: 'Puglia: the Gargano Peninsula'
+title: 'Puglia - The Gargano Peninsula'
+name: 'The Gargano Peninsula'
 region: Puglia
 days: 8
-updated_by: 4
-updated_at: 1779335904
+updated_by: 1
+updated_at: 1779336391
 grade: 4
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
@@ -380,4 +380,9 @@ summary:
 show_from: true
 price: 'A$3,400'
 og_image: puglia-puglia-the-gargano-peninsula-og-1779335294.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

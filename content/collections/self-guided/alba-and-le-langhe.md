@@ -5,8 +5,8 @@ title: 'Piedmont - Alba and Le Langhe'
 name: 'Alba and Le Langhe'
 region: Piedmont
 days: 8
-updated_by: 2
-updated_at: 1779267272
+updated_by: 1
+updated_at: 1779336374
 grade: 3
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
@@ -375,4 +375,9 @@ summary:
 price: 'A$3,300'
 show_from: true
 og_image: piedmont-alba-and-le-langhe-og-1779335292.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

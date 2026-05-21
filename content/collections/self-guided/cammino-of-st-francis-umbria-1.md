@@ -5,8 +5,8 @@ title: 'Umbria - Cammino of St Francis:  Umbria 1'
 name: 'Cammino of St Francis:  Umbria 1'
 region: Umbria
 days: 7
-updated_by: 2
-updated_at: 1779273609
+updated_by: 1
+updated_at: 1779336464
 grade: 3
 inclusions:
   - 'Five nights accommodation'
@@ -363,4 +363,9 @@ price: 'A$2,250'
 show_from: true
 availability_text: "Part of the three-week 'Cammino of St Francis': Assisi to Rome"
 og_image: umbria-cammino-of-st-francis-umbria-1-og-1779335309.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

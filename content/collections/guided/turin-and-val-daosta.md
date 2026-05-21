@@ -5,8 +5,8 @@ title: "Val d'Aosta - Turin and Val d'Aosta"
 name: "Turin and Val d'Aosta"
 region: "Val d'Aosta"
 days: 13
-updated_by: 2
-updated_at: 1779301357
+updated_by: 1
+updated_at: 1779336317
 grade: 4
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -402,4 +402,9 @@ summary:
 price: 'A$9,450'
 show_from: true
 og_image: val-daosta-turin-and-val-daosta-og-1779335255.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

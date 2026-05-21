@@ -7,7 +7,7 @@ name: 'Venice and the Italian Lakes'
 region: Lombardy-Piedmont
 days: 13
 updated_by: 1
-updated_at: 1777904800
+updated_at: 1779336269
 grade: 4
 inclusions:
   - '12 nights accommodation in 4-star boutique hotels (see itinerary for details)'
@@ -53,6 +53,7 @@ page_builder:
       - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/menaggio-cheese.jpg
       - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/58.jpg
       - tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/varenna-3.jpg
+    hide_from_subnav: false
   -
     id: mloqd78x
     heading: 'Venice and the Italian Lakes'
@@ -85,6 +86,8 @@ page_builder:
     type: highlights
     enabled: true
     section_background: light
+    show_topography: false
+    hide_from_subnav: false
   -
     id: mloqvfcq
     title: 'Venice and the Italian Lakes'
@@ -201,10 +204,16 @@ page_builder:
           - breakfast
     type: itinerary
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
+    id: S7STwpDO
     type: faqs
     enabled: true
     show_common_questions: true
+    heading: 'Frequently asked questions'
+    section_background: none
+    hide_from_subnav: false
   -
     id: hqjZfm096AlKce4Tz15li
     heading: 'What our travellers are saying'
@@ -214,6 +223,8 @@ page_builder:
       - 2a3af93d-3a55-4a7c-b47b-e3e05f0965da
     type: testimonials
     enabled: true
+    section_background: none
+    hide_from_subnav: false
   -
     id: wb_RLuxl19O8KA6Co6r
     type: walking_benefits
@@ -221,6 +232,7 @@ page_builder:
     tour_type: auto
     section_background: light
     show_topography: false
+    hide_from_subnav: true
 simple_likes: 0
 seasons: autumn
 image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1/5.jpg
@@ -279,4 +291,10 @@ summary:
         type: text
         text: "The Italian Lakes are a little slice of paradise: deep, slender fjords gouged by glaciers, edged by dramatic forested slopes and shores lined with ancient villages and flower-bedecked villas.\_"
 og_image: lombardy-piedmont-venice-and-the-italian-lakes-og-1779335246.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
+show_from: false
 ---

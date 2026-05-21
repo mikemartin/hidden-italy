@@ -5,8 +5,8 @@ title: 'Liguria - Italian Riviera 2'
 name: 'Italian Riviera 2'
 region: Liguria
 days: 8
-updated_by: 2
-updated_at: 1779266873
+updated_by: 1
+updated_at: 1779336344
 grade: 4
 inclusions:
   - 'Eight nights accommodation'
@@ -434,4 +434,9 @@ summary:
 price: 'A$3,650'
 show_from: true
 og_image: liguria-italian-riviera-2-og-1779335287.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

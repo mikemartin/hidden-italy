@@ -6,7 +6,7 @@ name: 'Sicily 2: the Egadi Islands'
 region: Sicily
 days: 7
 updated_by: 1
-updated_at: 1779330720
+updated_at: 1779336407
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
@@ -379,4 +379,9 @@ summary:
 price: 'A$3,100'
 show_from: true
 og_image: sicily-sicily-2-the-egadi-islands-og-1779335298.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

@@ -5,8 +5,8 @@ title: 'Liguria - Italian Riviera 1'
 name: 'Italian Riviera 1'
 region: Liguria
 days: 8
-updated_by: 2
-updated_at: 1779266647
+updated_by: 1
+updated_at: 1779336336
 grade: 4
 inclusions:
   - 'Seven nights accommodation'
@@ -395,4 +395,9 @@ summary:
 price: 'A$3,350'
 show_from: true
 og_image: liguria-italian-riviera-1-og-1779335285.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

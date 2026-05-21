@@ -225,6 +225,7 @@ tabs:
               localizable: true
               validate: 'max:200'
               show_regenerate: true
+              from: name
           -
             handle: filter_grade
             field:

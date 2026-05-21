@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 1'
 name: 'Tuscany 1'
 region: Tuscany
 days: 6
-updated_by: 2
-updated_at: 1779270329
+updated_by: 1
+updated_at: 1779336427
 grade: 2
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
@@ -359,4 +359,9 @@ summary:
 price: 'A$3,100'
 show_from: true
 og_image: tuscany-tuscany-1-og-1779335301.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

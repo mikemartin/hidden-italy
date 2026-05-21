@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 3'
 name: 'Tuscany 3'
 region: Tuscany
 days: 5
-updated_by: 2
-updated_at: 1779270834
+updated_by: 1
+updated_at: 1779336448
 grade: 2
 inclusions:
   - 'Private transfer from Florence to San Gimignano on Day 1'
@@ -332,4 +332,9 @@ summary:
 price: 'A$3,000'
 show_from: true
 og_image: tuscany-tuscany-3-og-1779335305.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

@@ -6,8 +6,8 @@ name: 'Sardinia in the Spring'
 region: Sardinia
 days: 13
 seasons: spring
-updated_by: 2
-updated_at: 1779300234
+updated_by: 1
+updated_at: 1779336285
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
@@ -414,4 +414,9 @@ summary:
 price: 'A$8,990'
 show_from: true
 og_image: sardinia-sardinia-in-the-spring-og-1779335249.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

@@ -5,8 +5,8 @@ title: 'Friuli Venezia Giulia - Trieste and Friuli'
 name: 'Trieste and Friuli'
 region: 'Friuli Venezia Giulia'
 days: 13
-updated_by: 2
-updated_at: 1779297806
+updated_by: 1
+updated_at: 1779336256
 grade: 4
 inclusions:
   - '12 night’s accommodation (see the itinerary for details) in excellent boutique hotels'
@@ -411,4 +411,9 @@ summary:
 price: 'A$8,990'
 show_from: true
 og_image: friuli-venezia-giulia-trieste-and-friuli-og-1779335242.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

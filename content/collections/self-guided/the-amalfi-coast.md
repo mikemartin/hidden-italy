@@ -5,8 +5,8 @@ title: 'Campania - The Amalfi Coast'
 name: 'The Amalfi Coast'
 region: Campania
 days: 6
-updated_by: 2
-updated_at: 1779302035
+updated_by: 1
+updated_at: 1779336324
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
@@ -362,4 +362,9 @@ availability_text: 'Available in Standard (3 star hotels) and Superior (4 star h
 price: 'A$3,250'
 show_from: true
 og_image: campania-the-amalfi-coast-og-1779335281.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

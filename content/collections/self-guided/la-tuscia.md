@@ -5,8 +5,8 @@ title: 'Tuscany and Umbria - La Tuscia'
 name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 8
-updated_by: 2
-updated_at: 1779271560
+updated_by: 1
+updated_at: 1779336456
 grade: 3
 inclusions:
   - 'Pick-up from Rome and transfer to Pitigliano on Day 1'
@@ -378,4 +378,9 @@ summary:
 price: 'A$3,200'
 show_from: true
 og_image: tuscany-and-umbria-la-tuscia-og-1779335307.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

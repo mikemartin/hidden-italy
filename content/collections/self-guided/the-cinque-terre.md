@@ -5,8 +5,8 @@ title: 'Liguria - The Cinque Terre'
 name: 'The Cinque Terre'
 region: Liguria
 days: 7
-updated_by: 2
-updated_at: 1779302096
+updated_by: 1
+updated_at: 1779336358
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -356,4 +356,9 @@ summary:
 price: 'A$2,950'
 show_from: true
 og_image: liguria-the-cinque-terre-og-1779335291.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

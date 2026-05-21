@@ -5,8 +5,8 @@ title: 'Trentino-Alto Adige - Verona and the Dolomites'
 name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
-updated_by: 2
-updated_at: 1779330028
+updated_by: 1
+updated_at: 1779336310
 locations: northern-italy
 grade: 3
 image: tours/trentino-alto-adige-dolomites/-p9192176.jpg
@@ -412,4 +412,9 @@ price: 'A$9,450'
 show_from: true
 date: '2027-09-16 14:00'
 og_image: trentino-alto-adige-verona-and-the-dolomites-og-1779335253.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

@@ -7,8 +7,8 @@ region: 'Campania and Basilicata'
 days: 13
 seasons: spring
 grade: 3
-updated_by: 2
-updated_at: 1779262665
+updated_by: 1
+updated_at: 1779336249
 image: tours/campania-the-amalfi-coast-naples-to-ravello/22.6.jpg
 tour_size: 15
 inclusions:
@@ -416,4 +416,9 @@ price: 'A$9,990'
 show_from: true
 date: '2027-05-09 14:00'
 og_image: campania-and-basilicata-campania-and-the-amalfi-coast-og-1779335240.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

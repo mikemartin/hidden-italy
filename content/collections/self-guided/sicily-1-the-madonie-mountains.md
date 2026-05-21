@@ -5,8 +5,8 @@ title: 'Sicily - Sicily 1: the Madonie Mountains'
 name: 'Sicily 1: the Madonie Mountains'
 region: Sicily
 days: 7
-updated_by: 2
-updated_at: 1779329442
+updated_by: 1
+updated_at: 1779336400
 grade: 3
 inclusions:
   - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
@@ -381,4 +381,9 @@ summary:
 price: 'A$3,000'
 show_from: true
 og_image: sicily-sicily-1-the-madonie-mountains-og-1779335296.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

@@ -6,8 +6,8 @@ name: 'Sicily in the Spring'
 region: Sicily
 seasons: spring
 locations: southern-italy
-updated_by: 2
-updated_at: 1779264855
+updated_by: 1
+updated_at: 1779336291
 days: 14
 image: tours/sicily-palermo-to-taormina/804728531-13.jpg
 grade: 4
@@ -439,4 +439,9 @@ price: 'A$10,490'
 show_from: true
 date: '2027-04-29 14:00'
 og_image: sicily-sicily-in-the-spring-og-1779335251.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

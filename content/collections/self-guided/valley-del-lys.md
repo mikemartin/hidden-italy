@@ -5,8 +5,8 @@ title: "Val d'Aosta - Valley del Lys"
 name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
-updated_by: 2
-updated_at: 1779275357
+updated_by: 1
+updated_at: 1779336491
 grade: 4
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
@@ -439,4 +439,9 @@ summary:
 price: 'A$2,450'
 show_from: true
 og_image: val-daosta-valley-del-lys-og-1779335314.png
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---
