@@ -13,6 +13,7 @@ social_images_collections:
   - inspiration
   - tips
 use_no_sandbox_for_social_image_generation: false
+og_image: home-og-1779334520.png
 use_sitemap: true
 sitemap_collections:
   - pages
