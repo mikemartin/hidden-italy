@@ -358,4 +358,5 @@ summary:
         text: "This wonderful tour starts with a private transfer from Siena (or Chiusi) to Montalcino, a gorgeous hill-town celebrated for its wines.  From here, the walk takes you through the Val d'Orcia, one of the most beautiful places in Italy (the world?).  You pass through classic Tuscan countryside, following sections of the Via Francigena, a medieval road that bisected the valley linking Papal Rome with northern Europe, carrying pilgrims, traders, Crusader armies, emperors and popes.  The valley is lined with castles, monasteries and villages that date from this period. "
 price: 'A$3,100'
 show_from: true
+og_image: tuscany-tuscany-1-og-1779335301.png
 ---

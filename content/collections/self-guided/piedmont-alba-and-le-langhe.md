@@ -374,4 +374,5 @@ summary:
         text: "This delightful 8-day circuit walk starts with a private transfer to beautiful Alba, 95 kilometres south of Turin.\_ A handsome town of Roman origin, Alba is the ‘capital’ of the Langhe, a close-knit range of hills and valleys which are crowded with impeccably tended rows of nebbiolo vines, the source of some of Italy’s finest wines, including Barolo and Barbaresco.\_ They form a unique and striking landscape which is dotted with attractive hill-towns, castles and wineries, so much so that the district was recently listed as a UNESCO World Heritage site."
 price: 'A$3,300'
 show_from: true
+og_image: piedmont-alba-and-le-langhe-og-1779335292.png
 ---

@@ -411,4 +411,5 @@ summary:
 price: 'A$9,450'
 show_from: true
 date: '2027-09-16 14:00'
+og_image: trentino-alto-adige-verona-and-the-dolomites-og-1779335253.png
 ---

@@ -371,4 +371,5 @@ summary:
         text: 'This wonderful six day self-guided walk introduces you to some ot the most spectacular mountains in the world and some of the finest walking in Europe.'
 show_from: true
 price: 'A$2,950'
+og_image: trentino-alto-adige-dolomites-1-og-1779335300.png
 ---

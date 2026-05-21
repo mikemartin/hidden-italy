@@ -5,8 +5,16 @@ title: Tours
 template: tours/index
 headline: 'Discover our walking tours'
 description: 'Our guided and self-guided walking tours are a unique way to discover a side of this fascinating country that most people only read about.'
-tour_collections: 'guided|self-guided'
+tour_collections: guided|self-guided
 author: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_by: deb352aa-ad74-476e-8287-4bb96703e2cc
-updated_at: 1765964912
+updated_by: 1
+updated_at: 1779334601
+header_variant: standard
+seo_noindex: inherit
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
+card_image: tours/abruzzo-and-molise-from-the-mountains-to-the-sea-1-2/29a.jpg
+og_image: tours-og-1779334608.png
 ---

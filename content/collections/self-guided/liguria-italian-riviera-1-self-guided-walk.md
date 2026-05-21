@@ -394,4 +394,5 @@ summary:
         text: 'This 8-day walk takes you along the Italian Riviera following an arc of coastline dotted with fishing towns and glam resorts.  It starts in the port city of Genova, the capital of the region of Liguria, and finishes six days later in enchanting Sestri Levante.  '
 price: 'A$3,350'
 show_from: true
+og_image: liguria-italian-riviera-1-og-1779335285.png
 ---

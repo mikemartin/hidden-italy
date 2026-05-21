@@ -1,0 +1,109 @@
+{{ xml_header }}
+{{ unless seo:use_sitemap }}
+    {{ 404 }}
+{{ else }}
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" {{ yield:namespace }}>
+        {{ seo:sitemap_collections }}
+            {{# Resolve global default for this collection once #}}
+            {{ collection_default_noindex = false }}
+            {{ seo:collection_indexing_defaults | where('collection', handle) }}
+                {{ if noindex == 'noindex' }}
+                    {{ collection_default_noindex = true }}
+                {{ /if }}
+            {{ /seo:collection_indexing_defaults }}
+            {{ collection from="{handle}" as="results" }}
+                {{ results where (x => x.permalink !== null) }}
+                    {{# Resolve noindex: entry override → global default → index #}}
+                    {{ resolved_noindex = false }}
+                    {{ if seo_noindex == 'noindex' }}
+                        {{ resolved_noindex = true }}
+                    {{ elseif seo_noindex == 'index' }}
+                        {{ resolved_noindex = false }}
+                    {{ else }}
+                        {{ resolved_noindex = collection_default_noindex }}
+                    {{ /if }}
+                    {{ if permalink && !resolved_noindex }}
+                        <url>
+                            <loc>{{ permalink }}</loc>
+                            <lastmod>{{ updated_at format="Y-m-d"}}</lastmod>
+                            <changefreq>{{ sitemap_change_frequency ? sitemap_change_frequency : 'weekly' }}</changefreq>
+                            <priority>{{ sitemap_priority ? sitemap_priority : '0.5' }}</priority>
+                            {{ if {locales:count} > 1 }}
+                                {{ once }}
+                                    {{ section:namespace}}
+                                        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                                    {{ /section:namespace}}
+                                {{ /once }}
+                                {{ locales }}
+                                    <xhtml:link rel="alternate" hreflang="{{ locale:full }}" href="{{ permalink }}"/>
+                                {{ /locales }}
+                            {{ /if }}
+                        </url>
+                    {{ /if }}
+                {{ /results }}
+            {{ /collection }}
+        {{ /seo:sitemap_collections }}
+        {{ seo:sitemap_taxonomies }}
+            {{# Resolve global default for this taxonomy once #}}
+            {{ taxonomy_default_noindex = false }}
+            {{ seo:taxonomy_indexing_defaults | where('taxonomy', handle) }}
+                {{ if noindex == 'noindex' }}
+                    {{ taxonomy_default_noindex = true }}
+                {{ /if }}
+            {{ /seo:taxonomy_indexing_defaults }}
+            {{ taxonomy from="{handle}" as="results" }}
+                {{ results where (x => x.permalink !== null) }}
+                    {{# Resolve noindex: term override → global default → index #}}
+                    {{ resolved_noindex = false }}
+                    {{ if seo_noindex == 'noindex' }}
+                        {{ resolved_noindex = true }}
+                    {{ elseif seo_noindex == 'index' }}
+                        {{ resolved_noindex = false }}
+                    {{ else }}
+                        {{ resolved_noindex = taxonomy_default_noindex }}
+                    {{ /if }}
+                    {{ unless resolved_noindex }}
+                        <url>
+                            <loc>{{ permalink }}</loc>
+                            <lastmod>{{ updated_at format="Y-m-d"}}</lastmod>
+                            <changefreq>{{ sitemap_change_frequency ? sitemap_change_frequency : 'weekly' }}</changefreq>
+                            <priority>{{ sitemap_priority ? sitemap_priority : '0.5' }}</priority>
+                        </url>
+                    {{ /unless }}
+                {{ /results }}
+            {{ /taxonomy }}
+        {{ /seo:sitemap_taxonomies }}
+        {{ seo:sitemap_collection_taxonomies }}
+            {{ collections }}
+                {{# Resolve global default for this taxonomy once #}}
+                {{ ct_default_noindex = false }}
+                {{ seo:taxonomy_indexing_defaults | where('taxonomy', taxonomy) }}
+                    {{ if noindex == 'noindex' }}
+                        {{ ct_default_noindex = true }}
+                    {{ /if }}
+                {{ /seo:taxonomy_indexing_defaults }}
+                {{ taxonomy from="{taxonomy}" collection="{handle}" as="results" }}
+                    {{ results }}
+                        {{# Resolve noindex: term override → global default → index #}}
+                        {{ resolved_noindex = false }}
+                        {{ if seo_noindex == 'noindex' }}
+                            {{ resolved_noindex = true }}
+                        {{ elseif seo_noindex == 'index' }}
+                            {{ resolved_noindex = false }}
+                        {{ else }}
+                            {{ resolved_noindex = ct_default_noindex }}
+                        {{ /if }}
+                        {{ unless resolved_noindex }}
+                            <url>
+                                <loc>{{ permalink }}</loc>
+                                <lastmod>{{ updated_at format="Y-m-d"}}</lastmod>
+                                <changefreq>{{ sitemap_change_frequency ? sitemap_change_frequency : 'weekly' }}</changefreq>
+                                <priority>{{ sitemap_priority ? sitemap_priority : '0.5' }}</priority>
+                            </url>
+                        {{ /unless }}
+                    {{ /results }}
+                {{ /taxonomy }}
+            {{ /collections }}
+        {{ /seo:sitemap_collection_taxonomies }}
+    </urlset>
+{{ /unless }}

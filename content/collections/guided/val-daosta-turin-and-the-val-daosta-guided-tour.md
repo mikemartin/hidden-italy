@@ -401,4 +401,5 @@ summary:
         text: "The Val d’Aosta may be Italy’s smallest region, but it is also one of its most spectacular, a wedge of mountains and valleys in the north-west corner of the country.\_ The region shares borders with Switzerland and France and contains Europe’s four highest peaks: Mt Blanc, the Matterhorn, Monte Rosa and Gran Paradiso."
 price: 'A$9,450'
 show_from: true
+og_image: val-daosta-turin-and-val-daosta-og-1779335255.png
 ---

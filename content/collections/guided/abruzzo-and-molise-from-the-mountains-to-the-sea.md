@@ -392,4 +392,5 @@ summary:
 leader: 8e21b5fb-a972-4a2e-a81c-2e6f8425841f
 show_from: true
 price: 'A$10,990'
+og_image: abruzzo-and-molise-abruzzo-and-molise-og-1779335238.png
 ---

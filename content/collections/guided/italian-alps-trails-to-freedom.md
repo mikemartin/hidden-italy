@@ -418,4 +418,5 @@ summary:
       -
         type: text
         text: 'This extraordinary ten-day hike combines breath-taking scenery, enchanting towns, challenging walks and delicious food with the fascinating story of four young men who crossed the Italian Alps to freedom in the Second World War.'
+og_image: italian-alps-trails-to-freedom-og-1779335244.png
 ---

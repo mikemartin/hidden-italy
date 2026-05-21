@@ -278,4 +278,5 @@ summary:
       -
         type: text
         text: "The Italian Lakes are a little slice of paradise: deep, slender fjords gouged by glaciers, edged by dramatic forested slopes and shores lined with ancient villages and flower-bedecked villas.\_"
+og_image: lombardy-piedmont-venice-and-the-italian-lakes-og-1779335246.png
 ---

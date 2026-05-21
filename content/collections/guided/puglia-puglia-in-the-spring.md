@@ -417,4 +417,5 @@ price: 'A$8,990'
 show_from: true
 availability_text: 'Tour Start Dates: 2 May 27 & 16 May 27'
 badge_text: 'Last Spots'
+og_image: puglia-puglia-in-the-spring-og-1779335247.png
 ---

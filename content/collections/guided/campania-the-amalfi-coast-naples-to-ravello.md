@@ -415,4 +415,5 @@ summary:
 price: 'A$9,990'
 show_from: true
 date: '2027-05-09 14:00'
+og_image: campania-and-basilicata-campania-and-the-amalfi-coast-og-1779335240.png
 ---

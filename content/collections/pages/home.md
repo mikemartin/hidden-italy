@@ -169,4 +169,5 @@ page_builder:
             type: button
             enabled: true
     section_background: none
+og_image: home-og-1779334520.png
 ---

@@ -413,4 +413,5 @@ summary:
         text: "Sardinia is the second largest island in the Mediterranean, suspended off the Italian coast between Corsica and Sicily. \_It is an island of contrasts, with buzzy cities like Cagliari, its capital, a beautiful port with ancient origins; spectacular coastline; and rugged, brooding mountains, where the 'real' Sardinians live."
 price: 'A$8,990'
 show_from: true
+og_image: sardinia-sardinia-in-the-spring-og-1779335249.png
 ---

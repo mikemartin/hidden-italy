@@ -371,4 +371,5 @@ summary:
 price: 'A$2,350'
 show_from: true
 image: tours/umbria-umbria-classic-assisi-to-spoleto/sterling-lanier-eyewiju5mc0-unsplash.jpg
+og_image: umbria-umbria-classic-og-1779335313.png
 ---

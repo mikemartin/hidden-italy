@@ -364,4 +364,5 @@ summary:
 price: 'A$2,450'
 show_from: true
 availability_text: "Part of the three-week 'Cammino of St Francis': Assisi to Rome"
+og_image: lazio-cammino-of-st-francis-lazio-og-1779335283.png
 ---

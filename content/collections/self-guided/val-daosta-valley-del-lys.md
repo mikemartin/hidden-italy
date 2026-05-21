@@ -438,4 +438,5 @@ summary:
         text: 'This exciting seven-day/six-night hike introduces you to the Valley del Lys, one of the most beautiful valleys in the European Alps, via historic trails that have been connecting the mountain communities for centuries.  Breakfast, dinners and some lunches are included.'
 price: 'A$2,450'
 show_from: true
+og_image: val-daosta-valley-del-lys-og-1779335314.png
 ---

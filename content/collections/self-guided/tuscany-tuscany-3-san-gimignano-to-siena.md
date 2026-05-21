@@ -331,4 +331,5 @@ summary:
         text: "Walking the Via Francigena from San Gimignano to Siena is a unique experience.\_\_ It starts in San Gimignano, a gorgeous town with a stunning hilltop skyline of towers.\_ From here you follow in the footsteps of medieval pilgrims all the way to the glorious the walled city of Siena, 'the most perfectly preserved medieval city in Europe'.\_ In between, you stay in a town that made its wealth in the wool trade in the Middle Ages and a fortified village that was Siena's stronghold again Florence."
 price: 'A$3,000'
 show_from: true
+og_image: tuscany-tuscany-3-og-1779335305.png
 ---

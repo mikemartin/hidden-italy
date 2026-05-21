@@ -361,4 +361,5 @@ summary:
 availability_text: 'Available in Standard (3 star hotels) and Superior (4 star hotels) options'
 price: 'A$3,250'
 show_from: true
+og_image: campania-the-amalfi-coast-og-1779335281.png
 ---

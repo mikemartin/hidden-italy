@@ -379,4 +379,5 @@ summary:
         text: 'The Gargano is in northern Puglia. The ‘spur’ on the boot of Italy, it is an expansive promontory covered by one of Italy’s oldest national parks, surrounded by sparkling waters, white limestone cliffs and pretty fishing villages. Gargano has a rich history. It has been inhabited since Neolithic times and has towns that were founded by the ancient Greeks and Romans, but its glory days were during the Crusades when the sanctuary of Monte San Michele became one of the most important pilgrim destinations in the Middle Ages.'
 show_from: true
 price: 'A$3,400'
+og_image: puglia-puglia-the-gargano-peninsula-og-1779335294.png
 ---

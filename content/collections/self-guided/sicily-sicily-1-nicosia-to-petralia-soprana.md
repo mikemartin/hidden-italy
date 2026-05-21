@@ -380,4 +380,5 @@ summary:
         text: "This wonderful tour takes you through the heart of Sicily, an area untouched by tourism, where the traditions, daily life, and hospitality of the island are alive and well.\_ Following mostly unsealed country lanes you’ll pass through some of the most spectacular countryside on Sicily: rolling farmlands covered in wheat fields overlooked by jagged mountains, with the forested peaks of the Madonie National Park in the distance.\_ "
 price: 'A$3,000'
 show_from: true
+og_image: sicily-sicily-1-the-madonie-mountains-og-1779335296.png
 ---

@@ -375,4 +375,5 @@ summary:
         text: 'This magnificent walk passes through the Chianti, some of the most celebrated countryside in Europe, a unique landscape of rolling hills, vineyards, olive groves,  thick oak forests, isolated farmhouses, medieval market towns and ancient villages, all shaped by over three millennia of settlement.'
 price: 'A$3,500'
 show_from: true
+og_image: tuscany-tuscany-2-og-1779335303.png
 ---

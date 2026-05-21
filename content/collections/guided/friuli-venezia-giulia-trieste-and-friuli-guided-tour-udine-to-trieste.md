@@ -410,4 +410,5 @@ summary:
         text: "With its mountains, plains and seashores all less than an hour's drive apart, Italian writer Ippolito Nievo fondly described the region Friuli Venezia Giulia (FVG) as a \"little compendium of the universe\".\_ This Hidden Italy special sets about exploring that universe."
 price: 'A$8,990'
 show_from: true
+og_image: friuli-venezia-giulia-trieste-and-friuli-og-1779335242.png
 ---

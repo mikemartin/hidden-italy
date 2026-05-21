@@ -377,4 +377,5 @@ summary:
         text: "This 7-day exploration starts with a private transfer from Rome to Pitigliano, where the walk begins.\_ Known as La Tuscia since Roman times, this fascinating \_district is on the\_borders where southern Tuscany overlaps with the lakes of northern Lazio and the mountains of the south-west corner of Umbria."
 price: 'A$3,200'
 show_from: true
+og_image: tuscany-and-umbria-la-tuscia-og-1779335307.png
 ---

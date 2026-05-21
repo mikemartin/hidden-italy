@@ -30,6 +30,39 @@ tabs:
               instructions: 'A 1&ndash;2 sentence dek shown under the headline on article cards and on the article page itself.'
           -
             import: article
+  seo:
+    display: SEO
+    sections:
+      -
+        display: Basic
+        instructions: 'Basic SEO settings.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_basic'
+      -
+        display: Advanced
+        instructions: 'Advanced SEO settings.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_advanced'
+      -
+        display: 'Open Graph'
+        instructions: 'Open Graph meta tags for social sharing.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_open_graph'
+      -
+        display: Sitemap
+        instructions: 'Sitemap configuration.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_sitemap'
+      -
+        display: 'JSON-ld Schema'
+        instructions: 'Custom JSON-ld schema objects.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_jsonld'
   sidebar:
     display: Sidebar
     sections:
@@ -41,6 +74,7 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
+              show_regenerate: true
       -
         display: Taxonomy
         fields:
@@ -52,5 +86,11 @@ tabs:
                 - categories
               display: Categories
               mode: select
-              create: true
-
+          -
+            handle: date
+            field:
+              type: date
+              required: true
+              default: now
+              validate:
+                - required

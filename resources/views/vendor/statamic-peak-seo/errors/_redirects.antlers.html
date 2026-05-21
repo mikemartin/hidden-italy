@@ -1,0 +1,13 @@
+{{#
+    @name Error: Redirects
+    @desc Handles the 404 page redirects
+#}}
+
+{{# Redirect if current_url is in the Redirects global. #}}
+{{ peak_seo_find_redirect_rule :redirect_data="redirects" }}
+    {{ if internal_url }}
+        {{ %redirect :to="internal_url:url" response="{response}" }}
+    {{ elseif external_url }}
+        {{ %redirect :to="external_url" response="{response}" }}
+    {{ /if }}
+{{ /peak_seo_find_redirect_rule }}

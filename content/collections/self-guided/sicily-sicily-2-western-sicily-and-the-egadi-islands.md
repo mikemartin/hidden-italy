@@ -378,4 +378,5 @@ summary:
         text: "The west of Sicily is a land apart.\_ The cubic whitewashed houses, palm trees, active fishing harbours and sunburned lowlands seem more akin to Africa than Europe, and historically, the west of the island has always looked south: the Carthaginians were entrenched here; the Muslims first occupied Sicily here; the Saracens raided the area regularly; and the towns have more than a little North African atmosphere to them.\_"
 price: 'A$3,100'
 show_from: true
+og_image: sicily-sicily-2-the-egadi-islands-og-1779335298.png
 ---

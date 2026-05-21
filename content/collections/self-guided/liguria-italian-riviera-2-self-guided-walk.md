@@ -433,4 +433,5 @@ summary:
         text: "This is a walk of two parts: the first three days take you through some of least visited parts of the Ligurian Coast, following well-marked mountain trails through unspoilt forests and staying in laid-back coastal towns quite untouched by tourism.\_ The remaining days take you along the trails of the Cinque Terre, one of the most celebrated and spectacular stretches of coastline in the Mediterranean, following stone paths that have linked the fishing villages for centuries."
 price: 'A$3,650'
 show_from: true
+og_image: liguria-italian-riviera-2-og-1779335287.png
 ---

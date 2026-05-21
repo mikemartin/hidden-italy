@@ -438,4 +438,5 @@ inclusions:
 price: 'A$10,490'
 show_from: true
 date: '2027-04-29 14:00'
+og_image: sicily-sicily-in-the-spring-og-1779335251.png
 ---

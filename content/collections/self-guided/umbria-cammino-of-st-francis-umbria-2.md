@@ -384,4 +384,5 @@ summary:
 price: 'A$2,350'
 show_from: true
 availability_text: "Part of the three-week 'Cammino of St Francis': Assisi to Rome"
+og_image: umbria-cammino-of-st-francis-umbria-2-og-1779335311.png
 ---

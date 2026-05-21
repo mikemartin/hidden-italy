@@ -355,4 +355,5 @@ summary:
         text: 'Following an extraordinary trail, this continuous walk (no trains!) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere six days later, leaving you plenty of time to explore the charming villages you stay in each day.'
 price: 'A$2,950'
 show_from: true
+og_image: liguria-the-cinque-terre-og-1779335291.png
 ---

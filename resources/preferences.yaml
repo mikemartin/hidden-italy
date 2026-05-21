@@ -24,6 +24,7 @@ collections:
       - title
       - location
       - days
+      - og_image
       - status
     filters:
       northern_italy:
@@ -56,6 +57,7 @@ collections:
       - title
       - location
       - days
+      - og_image
       - status
     filters:
       northern_italy:

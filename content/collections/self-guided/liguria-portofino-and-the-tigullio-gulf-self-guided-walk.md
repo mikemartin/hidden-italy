@@ -355,4 +355,5 @@ summary:
         text: 'Portofino is the star turn of the Italian Riviera, a beautifully preserved fishing village tucked into a perfect bay, but it is only one of the highlights of this fascinating stretch of coastline that sits between Genoa and the Cinque Terre.'
 price: 'A$3,300'
 show_from: true
+og_image: liguria-portofino-and-the-tigullio-gulf-og-1779335289.png
 ---
