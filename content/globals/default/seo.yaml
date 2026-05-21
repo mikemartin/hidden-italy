@@ -1,5 +1,22 @@
-title_separator: ·
+title_separator: '|'
 site_name: 'Hidden Italy'
+change_page_title:
+  -
+    id: Lql-cMMEsxn1hR_ZTpFsA
+    collection: guided
+    manipulate_title: collection_title
+  -
+    id: _SmdzVNFbOTifgvr9Q02C
+    collection: self-guided
+    manipulate_title: collection_title
+  -
+    id: C2mrt8rjOnTL7penm6R05
+    collection: inspiration
+    manipulate_title: collection_title
+  -
+    id: 4G3l7AnVrIpf8ROm0SwNY
+    collection: tips
+    manipulate_title: collection_title
 collection_defaults:
   -
     id: ApxD07MO8Tt3PvMK5a1jx
