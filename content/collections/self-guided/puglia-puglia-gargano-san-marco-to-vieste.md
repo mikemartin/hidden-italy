@@ -6,7 +6,7 @@ name: 'Puglia: the Gargano Peninsula'
 region: Puglia
 days: 8
 updated_by: 4
-updated_at: 1779321047
+updated_at: 1779322085
 grade: 4
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
@@ -140,7 +140,7 @@ page_builder:
       -
         id: mlop5205
         title: "Stay at a family-run 'masseria'"
-        description: 'Today, the path follows unsealed country lanes through the Foresta Umbra to another charming, family-run agriturismo, an ancient ‘masseria’ which has been in the same family for four generations.  If you have time, a visit to the nearby top of Monte Sacro to the ruins of a Benedictine monastery founded by the Byzantines in the 7th century is well worth the effort. (1 hr; 2 kms; 251 mts)'
+        description: 'Today, the path follows unsealed country lanes through the Foresta Umbra to another charming, family-run agriturismo, an ancient ‘masseria’ which has been in the same family for four generations. If you have time, a visit to the nearby top of Monte Sacro to the ruins of a Benedictine monastery founded by the Byzantines in the 7th century is well worth the effort. (1 hr; 2 kms; 251 m)'
         duration: 5
         distance: 17
         elevation: 369
@@ -151,7 +151,7 @@ page_builder:
       -
         id: mlop6avf
         title: 'Walk to the coast'
-        description: 'You leave your accommodation, you walk down a wide path through olive groves and forest with views over the coast, before descending to the sea.  The last stretch is a walk along a long sand beach to Vieste, a very attractive town with a long history that sits on a promontory wedged between two extended beaches. (3.5 hrs, 12.5 kms; max: 388m, min: 0 mts)'
+        description: 'You leave your accommodation, you walk down a wide path through olive groves and forest with views over the coast, before descending to the sea. The last stretch is a walk along a long sand beach to Vieste, a very attractive town with a long history that sits on a promontory wedged between two extended beaches.'
         duration: 4
         distance: 13
         elevation: -388
@@ -162,7 +162,7 @@ page_builder:
       -
         id: mlop8uiy
         title: 'Morning boat ride'
-        description: 'Free day in Vieste.  We have booked a private boat to take you for a morning tour along the spectacular rocky shoreline to explore the grottoes and bays of one of southern Italy’s most spectacular coasts (subject to the weather conditions).  You’ll have the chance to have a swim before heading back to town.  The afternoon is free.  No dinner is included tonight.'
+        description: 'Free day in Vieste. We have booked a private boat to take you for a morning tour along the spectacular rocky shoreline to explore the grottoes and bays of one of southern Italy’s most spectacular coasts (subject to the weather conditions). You’ll have the chance to have a swim before heading back to town. The afternoon is free. No dinner is included tonight.'
         meals_included:
           - breakfast
         photo: tours/puglia-puglia-gargano-san-marco-to-vieste/14-1775022186.jpg
@@ -191,7 +191,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The walks are long, contemplative rambles through beautiful countryside and forests.\_ They cover a range of terrain, following marked trails.\_ The itinerary mostly follows unsealed country lanes.\_ There are some sections of asphalt going into and out of the towns.\_ Day 3 is a 23 km, which can be shortened by 8 kms with notice.\_ Full details on each walk are on the itinerary."
+                text: "The walks are long, contemplative rambles through beautiful countryside and forests. They cover a range of terrain, following marked trails.\_The itinerary mostly follows unsealed country lanes.\_There are some sections of asphalt going into and out of the towns.\_Day 3 is a 23 km, which can be shortened by 8 kms with notice."
         image: tours/1.1.jpg
         type: walk
         enabled: true
@@ -204,7 +204,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The accommodation is a mix of well-located hotels.\_ On Days 1, 2 and 3 you stay in excellent 4-star hotels (each with a swimming pool); on Days 4 and 5 you stay in two very comfortable, family-run ‘agriturismos’ while, for your last two nights in Vieste, Days 6 and 7, you stay in a very comfortable hotel in the centre of this buzzing coastal town."
+                text: "The accommodation is a mix of well-located hotels.\_On Days 1, 2 and 3 you stay in excellent 4-star hotels (each with a swimming pool); on Days 4 and 5 you stay in two very comfortable ‘agriturismos’, while for your last two nights in Vieste, Days 6 and 7, you stay in a very comfortable hotel in the centre of this buzzing coastal town."
         type: accommodation
         enabled: true
       -
@@ -216,7 +216,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Pugliese cuisine is simple, rustic and cheerful, based on the abundance of its fertile plains and coast line. As Italy's wheat belt, pasta and a variety of excellent breads are pillars of Pugliese diet, as is olive oil (Puglia has over 50 million olive trees, some over 2000 years old).\_ Although wine-making in Puglia stretches back to the ancient Greeks, for a long time Puglia was a source of robust red wine sent north to cut the pallid wines of Tuscany and Piedmont.\_ In recent times the industry has been revolutionised and Puglia now produces some excellent reds (Primitivo and Negroamaro), whites (Fiano and Vermentino) and some very good roses.\_\_\_ You’ll experience the whole range of Puglia's offerings on this walk."
+                text: "Pugliese cuisine is simple, rustic and cheerful, based on the abundance of its fertile plains and coast line. As Italy's wheat belt, pasta and a variety of excellent breads are pillars of the Pugliese diet, as is olive oil (Puglia has over 50 million olive trees, some over 2000 years old).\_ Although wine-making in Puglia stretches back to the ancient Greeks, for a long time Puglia was a source of robust red wine sent north to cut the pallid wines of Tuscany and Piedmont.\_ In recent times the industry has been revolutionised and Puglia now produces some excellent reds (Primitivo and Negroamaro), whites (Fiano and Vermentino) and some very good roses.\_\_\_ You’ll experience the whole range of Puglia's offerings on this walk."
           -
             type: paragraph
             content:
