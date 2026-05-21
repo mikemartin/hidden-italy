@@ -6,7 +6,7 @@ name: 'Umbria 2: Cammino of St Francis Part 2'
 region: Umbria
 days: 7
 updated_by: 4
-updated_at: 1779403596
+updated_at: 1779403683
 grade: 3
 inclusions:
   - 'Six nights accommodation'
