@@ -6,7 +6,7 @@ name: 'Puglia: the Gargano Peninsula'
 region: Puglia
 days: 8
 updated_by: 4
-updated_at: 1779322118
+updated_at: 1779323683
 grade: 4
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
@@ -81,7 +81,7 @@ page_builder:
         icon: transport-sailboat.svg
       -
         id: mn2o0oyw
-        title: 'Relax, you are fully-supported'
+        title: 'Pull on your boots each morning we will take care of the rest'
         summary: 'Everything is organised: transfers from Foggia and back again;  bags moved each day; an App; and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
