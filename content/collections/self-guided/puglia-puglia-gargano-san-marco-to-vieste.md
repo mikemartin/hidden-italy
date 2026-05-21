@@ -6,7 +6,7 @@ name: 'Puglia: the Gargano Peninsula'
 region: Puglia
 days: 8
 updated_by: 4
-updated_at: 1779323683
+updated_at: 1779332265
 grade: 4
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
@@ -230,6 +230,8 @@ page_builder:
                 text: "Generous breakfasts and three course dinners are included each day on this tour.\_ "
         type: food
         enabled: true
+        media:
+          - tours/puglia-puglia-gargano-san-marco-to-vieste/authenic-food.jpeg
     type: experience
     enabled: true
     section_background: dark
