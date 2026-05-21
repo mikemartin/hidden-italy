@@ -6,7 +6,7 @@ name: 'Sicily 2: the Egadi Islands'
 region: Sicily
 days: 7
 updated_by: 2
-updated_at: 1779268637
+updated_at: 1779329571
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
@@ -318,7 +318,7 @@ locations: southern-italy
 landscapes:
   - coastal
 duplicated_from: 9b40b14d-a9c5-43b5-ae27-eeb883bc2c34
-image: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/a.jpeg
+image: tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/-scopello-1.jpeg
 gallery:
   - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/scopello-tonnara-1.jpg
   - tours/sicily-sicily-2-western-sicily-and-the-egadi-islands/a.jpeg
