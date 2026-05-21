@@ -1,4 +1,26 @@
 title_separator: ·
+site_name: 'Hidden Italy'
+collection_defaults:
+  -
+    id: ApxD07MO8Tt3PvMK5a1jx
+    collection: guided
+    fallback: field
+    field_handle: summary
+  -
+    id: qDmjutCXcgpTuWFnXDHmE
+    collection: self-guided
+    fallback: field
+    field_handle: summary
+  -
+    id: tP4zfxKNsjZCjfC_Z4bcC
+    collection: inspiration
+    fallback: field
+    field_handle: lead
+  -
+    id: eA3jMRBYa7Y5tZ8ANZeDY
+    collection: tips
+    fallback: field
+    field_handle: lead
 hreflang_auto: true
 noindex_local: true
 noindex_staging: true
