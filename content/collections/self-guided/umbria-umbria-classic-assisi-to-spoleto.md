@@ -6,7 +6,7 @@ name: 'Umbria Classic'
 region: Umbria
 days: 7
 updated_by: 2
-updated_at: 1779328820
+updated_at: 1779328981
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -370,5 +370,5 @@ summary:
         text: "Often referred to as 'the green heart of Italy', Umbria is a beautiful, largely unspoilt, region of rolling hills, woods, streams and valleys.\_ Within its borders are a dozen or so classic hill-towns, each resolutely individual and crammed with artistic and architectural treasures that frequently rival bigger and more famous cities."
 price: 'A$2,350'
 show_from: true
-image: tours/umbria-umbria-classic-assisi-to-spoleto/sterling-lanier-eyewiju5mc0-unsplash.jpg
+image: tours/umbria-umbria-classic-assisi-to-spoleto/sterling-lanier-eyewiju5mc0-unsplash-v2.jpg
 ---
