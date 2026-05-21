@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 3'
 name: 'Tuscany 3'
 region: Tuscany
 days: 5
-updated_by: 1
-updated_at: 1779336448
+updated_by: 4
+updated_at: 1779403498
 grade: 2
 inclusions:
   - 'Private transfer from Florence to San Gimignano on Day 1'
