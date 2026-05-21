@@ -1,12 +1,12 @@
 ---
 id: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
 blueprint: tour
-title: 'Trentino-Alto Adige - Dolomites 1'
-name: 'Dolomites 1'
+title: 'Trentino-Alto Adige - Dolomites'
+name: Dolomites
 region: 'Trentino-Alto Adige'
 days: 6
-updated_by: 1
-updated_at: 1779336418
+updated_by: 4
+updated_at: 1779402851
 grade: 4
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
