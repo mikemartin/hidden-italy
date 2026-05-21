@@ -1,12 +1,12 @@
 ---
 id: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
 blueprint: tour
-title: 'Trentino-Alto Adige - The Dolomites'
-name: 'The Dolomites'
+title: 'Trentino-Alto Adige - Dolomites 1'
+name: 'Dolomites 1'
 region: 'Trentino-Alto Adige'
 days: 6
-updated_by: 4
-updated_at: 1779317397
+updated_by: 2
+updated_at: 1779329823
 grade: 4
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
@@ -311,7 +311,7 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-image: tours/alto-adige-dolomites-1-self-guided-walk/img_8778-1773019621.jpg
+image: tours/alto-adige-dolomites-1-self-guided-walk/-img_1568-v2.jpg
 gallery:
   - tours/alto-adige-dolomites-1-self-guided-walk/p9192176-1773020026.jpg
   - tours/alto-adige-dolomites-1-self-guided-walk/2.jpg
