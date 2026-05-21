@@ -17,15 +17,6 @@
         {{ page_builder scope="block" }}
             {{ partial src="page_builder/{type}" }}
         {{ /page_builder }}
-
-        {{# Optional tour-only sets — empty on regular pages, populated
-            on the `/tour-builder-sections` demo entry so screenshots
-            can be staged on the default template. Iterates through the
-            same `page_builder/_{type}.antlers.html` partials as the
-            main builder. #}}
-        {{ tour_builder scope="block" }}
-            {{ partial src="page_builder/{type}" }}
-        {{ /tour_builder }}
     </div>
 </main>
 <!-- End: /default.antlers.html -->
