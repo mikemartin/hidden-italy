@@ -5,8 +5,8 @@ title: 'Sicily - Sicily 2: the Egadi Islands'
 name: 'Sicily 2: the Egadi Islands'
 region: Sicily
 days: 7
-updated_by: 2
-updated_at: 1779329571
+updated_by: 1
+updated_at: 1779330720
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
@@ -351,18 +351,18 @@ start_location:
       level: 2
   country: Italy
 finish_location:
-  label: 'Scopello, Piedmont, Italy'
-  lat: '45.757984'
-  lon: '8.1127615'
-  postalCode: '13028'
-  locality: Scopello
+  label: 'Castellammare del Golfo, Sicily, Italy'
+  lat: '38.0703537'
+  lon: '12.8181605'
+  postalCode: '91014'
+  locality: 'Castellammare del Golfo'
   adminLevels:
     1:
-      name: Piedmont
+      name: Sicily
       code: null
       level: 1
     2:
-      name: Vercelli
+      name: Trapani
       code: null
       level: 2
   country: Italy
