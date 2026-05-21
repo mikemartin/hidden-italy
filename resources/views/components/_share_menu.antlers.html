@@ -80,7 +80,7 @@
 <div
     x-data="{ copied: false }"
     @copy-success="copied = true; setTimeout(() => copied = false, 2000)"
-    class="inline-flex items-center gap-2 {{ if align == 'end' }}flex-row-reverse{{ /if }}"
+    class="inline-flex items-center gap-2 {{ align == 'end' ? 'flex-row-reverse' : '' }}"
 >
     <x-flux::dropdown align="end">
         {{ if compact }}
@@ -99,25 +99,49 @@
         {{ /if }}
 
         <x-flux::menu>
-            {{# Build the mail:share href once with whichever of `subject` /
+            {{# Build the mail:share menu item with whichever of `subject` /
                 `body` were passed in. The addon treats missing params as
                 defaults, so we only forward what's set instead of emitting
-                empty strings that would clobber its fallbacks. #}}
-            <x-flux::menu.item icon="envelope" href="{{ if subject && body }}{{ social:mail:share subject='{subject}' body='{body}' }}{{ elseif subject }}{{ social:mail:share subject='{subject}' }}{{ elseif body }}{{ social:mail:share body='{body}' }}{{ else }}{{ social:mail:share }}{{ /if }}">
-                {{ trans:strings.share_via_email }}
-            </x-flux::menu.item>
+                empty strings that would clobber its fallbacks. The branches
+                are repeated rather than packed into a single `href="…"`
+                because Antlers doesn't allow `{{ if }}` tag pairs inside an
+                attribute value of a Blade component. #}}
+            {{ if subject && body }}
+                <x-flux::menu.item icon="envelope" href="{{ social:mail:share :subject='subject' :body='body' }}">
+                    {{ trans:strings.share_via_email }}
+                </x-flux::menu.item>
+            {{ elseif subject }}
+                <x-flux::menu.item icon="envelope" href="{{ social:mail:share :subject='subject' }}">
+                    {{ trans:strings.share_via_email }}
+                </x-flux::menu.item>
+            {{ elseif body }}
+                <x-flux::menu.item icon="envelope" href="{{ social:mail:share :body='body' }}">
+                    {{ trans:strings.share_via_email }}
+                </x-flux::menu.item>
+            {{ else }}
+                <x-flux::menu.item icon="envelope" href="{{ social:mail:share }}">
+                    {{ trans:strings.share_via_email }}
+                </x-flux::menu.item>
+            {{ /if }}
 
-            <x-flux::menu.item icon="facebook" href="{{ social:facebook:share text='{share_text}' }}" target="_blank" rel="noopener noreferrer">
+            <x-flux::menu.item icon="facebook" href="{{ social:facebook:share :text='share_text' }}" target="_blank" rel="noopener noreferrer">
                 {{ trans:strings.share_via_facebook }}
             </x-flux::menu.item>
 
             {{# WhatsApp: the addon only ships the URL, so when a share message
                 is available we bypass `social:whatsapp:share` and write
                 wa.me's `?text=` query string ourselves. Otherwise fall back
-                to the addon (URL-only behaviour). #}}
-            <x-flux::menu.item icon="whatsapp" href="{{ if share_text }}https://wa.me/?text={{ share_text | urlencode }}{{ else }}{{ social:whatsapp:share }}{{ /if }}" target="_blank" rel="noopener noreferrer">
-                {{ trans:strings.share_via_whatsapp }}
-            </x-flux::menu.item>
+                to the addon (URL-only behaviour). Branches are again kept at
+                the menu-item level instead of inside `href="…"`. #}}
+            {{ if share_text }}
+                <x-flux::menu.item icon="whatsapp" href="https://wa.me/?text={{ share_text | urlencode }}" target="_blank" rel="noopener noreferrer">
+                    {{ trans:strings.share_via_whatsapp }}
+                </x-flux::menu.item>
+            {{ else }}
+                <x-flux::menu.item icon="whatsapp" href="{{ social:whatsapp:share }}" target="_blank" rel="noopener noreferrer">
+                    {{ trans:strings.share_via_whatsapp }}
+                </x-flux::menu.item>
+            {{ /if }}
 
             <x-flux::menu.separator />
 
