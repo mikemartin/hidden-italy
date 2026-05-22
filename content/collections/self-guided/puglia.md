@@ -6,7 +6,7 @@ name: 'Puglia: The Gargano Peninsula'
 region: Puglia
 days: 8
 updated_by: 4
-updated_at: 1779402789
+updated_at: 1779413052
 grade: 4
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
@@ -369,7 +369,7 @@ finish_location:
       code: null
       level: 2
   country: Italy
-teaser: 'Ramble the length of Gargano Peninsula through farmlands and forest to the sparkling sea!'
+teaser: 'Exploring the length of Gargano Peninsula through farmlands and forest to the sparkling sea!'
 summary:
   -
     type: paragraph
