@@ -160,7 +160,7 @@
     {{# Static grid for 1–3 hand-picked articles. Matches the layout of
         the Tips index page so single-row sections feel native instead
         of like a stranded carousel. #}}
-    <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4" x-reveal>
+    <header class="span-content flex flex-col md:flex-row md:items-center md:justify-between gap-4" x-data x-reveal>
         <div data-reveal-item data-reveal-preset="h1">
             {{ partial:typography/h2 :content="block:heading" class="!mb-0" color="text-foreground" }}
         </div>
