@@ -35,16 +35,23 @@
             {{# Image — fills its column on desktop so the card can overlap
                 its lower / right portion. Both image and blockquote are
                 pinned to row 1 explicitly so CSS Grid can overlap them
-                rather than auto-flowing the image to a second row. #}}
+                rather than auto-flowing the image to a second row.
+
+                `data-reveal-item` sits on the inner picture wrapper, not
+                the parchment frame, so the placeholder stays painted even
+                if the reveal observer never fires — without it the entire
+                photo area would vanish into the dark panel. #}}
             {{ if block:image }}
-                <div data-reveal-item class="lg:row-start-1 lg:col-start-1 lg:col-span-6 relative rounded-[20px] overflow-hidden bg-parchment-200 ring-1 ring-inset ring-black/5 aspect-4/3 lg:aspect-square">
-                    {{ picture
-                        :image="block:image"
-                        class="absolute inset-0 w-full h-full object-cover"
-                        cover="true"
-                        sizes="(min-width: 1024px) 60vw, 100vw"
-                        loading="lazy"
-                    }}
+                <div class="lg:row-start-1 lg:col-start-1 lg:col-span-6 relative rounded-[20px] overflow-hidden bg-parchment-200 ring-1 ring-inset ring-black/5 aspect-4/3 lg:aspect-square">
+                    <div data-reveal-item class="absolute inset-0">
+                        {{ picture
+                            :image="block:image"
+                            class="absolute inset-0 w-full h-full object-cover"
+                            cover="true"
+                            sizes="(min-width: 1024px) 60vw, 100vw"
+                            loading="lazy"
+                        }}
+                    </div>
                 </div>
             {{ /if }}
 
