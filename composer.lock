@@ -6607,16 +6607,16 @@
         },
         {
             "name": "statamic-rad-pack/mailchimp",
-            "version": "v6.2.3",
+            "version": "v6.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic-rad-pack/mailchimp.git",
-                "reference": "78e1c2c907e1e447d5ad51904f105904f114997e"
+                "reference": "a6f65e5d60bd6711f4229b7a40637bdd86f6d58e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic-rad-pack/mailchimp/zipball/78e1c2c907e1e447d5ad51904f105904f114997e",
-                "reference": "78e1c2c907e1e447d5ad51904f105904f114997e",
+                "url": "https://api.github.com/repos/statamic-rad-pack/mailchimp/zipball/a6f65e5d60bd6711f4229b7a40637bdd86f6d58e",
+                "reference": "a6f65e5d60bd6711f4229b7a40637bdd86f6d58e",
                 "shasum": ""
             },
             "require": {
@@ -6675,9 +6675,9 @@
             "description": "Subscribe registrations or contact forms to Mailchimp",
             "support": {
                 "issues": "https://github.com/statamic-rad-pack/mailchimp/issues",
-                "source": "https://github.com/statamic-rad-pack/mailchimp/tree/v6.2.3"
+                "source": "https://github.com/statamic-rad-pack/mailchimp/tree/v6.2.4"
             },
-            "time": "2026-04-14T22:05:11+00:00"
+            "time": "2026-05-24T17:21:21+00:00"
         },
         {
             "name": "statamic/cms",

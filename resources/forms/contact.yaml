@@ -33,7 +33,8 @@ mailchimp:
     primary_email_field: email
     audience_id: 1ab892c5de
     disable_opt_in: false
-    check_consent: false
+    check_consent: true
+    consent_field: newsletter
 title: Contact
 honeypot: fax
 email:

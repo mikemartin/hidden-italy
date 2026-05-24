@@ -1,0 +1,10 @@
+title: Newsletter
+honeypot: fax
+store: true
+mailchimp:
+  enabled: true
+  settings:
+    primary_email_field: email
+    audience_id: 1ab892c5de
+    disable_opt_in: false
+    check_consent: false

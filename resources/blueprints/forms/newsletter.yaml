@@ -1,0 +1,19 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: email
+            field:
+              display: 'Email address'
+              type: text
+              input_type: email
+              placeholder: 'your@email.com'
+              autocomplete: email
+              validate:
+                - required
+                - email
+              localizable: true
+              listable: true

@@ -58,6 +58,13 @@ tabs:
                 - 'min:5'
               localizable: true
           -
+            handle: newsletter
+            field:
+              inline_label: 'Sign me up for email newsletter'
+              display: Newsletter
+              type: toggle
+              localizable: true
+          -
             handle: user_id
             field:
               display: 'User ID'

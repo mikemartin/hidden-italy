@@ -27,6 +27,14 @@ content_sender:
           text: 'The Hidden Italy team'
 content_owner:
   show_submitted_data: true
+mailchimp:
+  enabled: true
+  settings:
+    primary_email_field: email
+    audience_id: 1ab892c5de
+    disable_opt_in: false
+    check_consent: true
+    consent_field: newsletter
 title: 'Booking enquiry'
 honeypot: fax
 email:

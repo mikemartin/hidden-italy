@@ -19,6 +19,9 @@ return [
     'form_success' => 'Thank you, we received your message and will contact you as soon as possible.',
     'form_required' => 'Required',
 
+    // Newsletter signup
+    'newsletter_success' => 'Thanks for subscribing! Check your inbox to confirm.',
+
     // Consent banner
     'consent_accept_all' => 'Accept all',
     'consent_accept_selected' => 'Accept selected',

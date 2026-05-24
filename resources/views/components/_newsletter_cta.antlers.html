@@ -25,22 +25,55 @@
             {{ partial:typography/p :content="contact:newsletter_text ?? 'Sign up to get travel tips and inspiration delivered right to your inbox'" color="text-text" class="!mb-0" }}
         </div>
 
-        {{# Sign-up form — mirrors the footer markup so the Mailchimp wiring
-            can target both with the same form handle. #}}
-        <form action="#" method="post" class="w-full max-w-md flex flex-col sm:flex-row gap-2 items-stretch">
-            <label class="sr-only" for="inspiration-newsletter-email">Email address</label>
-            <input
-                id="inspiration-newsletter-email"
-                name="email"
-                type="email"
-                required
-                placeholder="your@email.com"
-                class="flex-1 bg-white border border-neutral-300 rounded-full px-4 py-3 text-base text-foreground outline-none placeholder:text-muted focus-visible:border-gold focus-visible:ring-2 focus-visible:ring-gold/40"
-            >
-            <button type="submit" class="button button--accent button--large">
-                <span>Subscribe</span>
-            </button>
-        </form>
+        {{# Sign-up form — same `newsletter` Statamic form handle as the
+            footer, wired to Mailchimp via statamic-rad-pack/mailchimp.
+            AJAX submit via Peak's Alpine + Precognition handler. #}}
+        {{ form:create in="newsletter" js="alpine:form" attr:x-ref="form" class="w-full max-w-md" }}
+            <div x-data="formHandler()" x-cloak>
+                <template x-if="success">
+                    {{ partial:typography/p :content="trans:strings.newsletter_success ?? 'Thanks for subscribing!'" color="text-foreground" class="!mb-0 text-center" }}
+                </template>
+
+                <template x-if="!success">
+                    <div>
+                        <div class="flex flex-col sm:flex-row gap-2 items-stretch">
+                            <label class="sr-only" for="inspiration-newsletter-email">Email address</label>
+                            <input
+                                id="inspiration-newsletter-email"
+                                type="email"
+                                name="email"
+                                x-model="form.email"
+                                required
+                                placeholder="your@email.com"
+                                :aria-invalid="form.invalid('email')"
+                                class="flex-1 bg-white border border-neutral-300 rounded-full px-4 py-3 text-base text-foreground outline-none placeholder:text-muted focus-visible:border-gold focus-visible:ring-2 focus-visible:ring-gold/40"
+                            >
+                            <button
+                                type="button"
+                                @click.prevent="submit"
+                                :disabled="form.processing"
+                                :class="{ 'opacity-50 cursor-default': form.processing }"
+                                class="button button--accent button--large"
+                            >
+                                <span>Subscribe</span>
+                            </button>
+                        </div>
+
+                        {{# Honeypot — invisible field bots will fill in. #}}
+                        <div class="hidden" aria-hidden="true">
+                            <label for="cta-{{ honeypot }}">{{ trans:strings.form_honeypot }}</label>
+                            <input id="cta-{{ honeypot }}" type="text" name="{{ honeypot }}" x-model="form.{{ honeypot }}" tabindex="-1" autocomplete="off"/>
+                        </div>
+
+                        <template x-if="form.invalid('email')">
+                            <p class="mt-2 text-sm text-error text-center" x-text="form.errors.email"></p>
+                        </template>
+                    </div>
+                </template>
+            </div>
+        {{ /form:create }}
+
+        {{ partial:statamic-peak-tools::snippets/form_handler }}
     </div>
 </aside>
 <!-- End: /components/_newsletter_cta.antlers.html -->

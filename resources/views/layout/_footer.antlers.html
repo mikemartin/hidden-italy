@@ -26,28 +26,60 @@
                         {{ /if }}
                     </header>
 
-                    {{# Sign-up form. Wire `action` to a Statamic Form or a third-party
-                        endpoint when the newsletter integration is ready. #}}
-                    <form action="#" method="post" class="w-full max-w-xs">
-                        <label class="sr-only" for="footer-newsletter-email">Email address</label>
-                        <div class="flex bg-card rounded-full border border-background p-1">
-                            <input
-                                id="footer-newsletter-email"
-                                name="email"
-                                type="email"
-                                required
-                                placeholder="Enter your email"
-                                class="flex-1 w-full bg-transparent px-4 py-1.5 text-white text-[18px] outline-none placeholder:text-muted"
-                            >
-                            <button
-                                type="submit"
-                                class="shrink-0 size-10 inline-flex items-center justify-center rounded-full bg-gold text-background hover:bg-gold/90 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-parchment-100"
-                                aria-label="Subscribe"
-                            >
-                                <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />
-                            </button>
+                    {{# Sign-up form. Posts to the `newsletter` Statamic form,
+                        which pushes the address into Mailchimp via the
+                        statamic-rad-pack/mailchimp addon. AJAX submit via
+                        Peak's Alpine + Precognition handler — no page
+                        reload, success swaps in place. #}}
+                    {{ form:create in="newsletter" js="alpine:form" attr:x-ref="form" class="w-full max-w-xs" }}
+                        <div x-data="formHandler()" x-cloak>
+                            <template x-if="success">
+                                <p class="text-[15px] leading-[1.5] text-white">
+                                    {{ trans:strings.newsletter_success ?? 'Thanks for subscribing!' }}
+                                </p>
+                            </template>
+
+                            <template x-if="!success">
+                                <div>
+                                    <label class="sr-only" for="footer-newsletter-email">Email address</label>
+                                    <div class="flex bg-card rounded-full border border-background p-1">
+                                        <input
+                                            id="footer-newsletter-email"
+                                            type="email"
+                                            name="email"
+                                            x-model="form.email"
+                                            required
+                                            placeholder="Enter your email"
+                                            :aria-invalid="form.invalid('email')"
+                                            class="flex-1 w-full bg-transparent px-4 py-1.5 text-white text-[18px] outline-none placeholder:text-muted"
+                                        >
+                                        <button
+                                            type="button"
+                                            @click.prevent="submit"
+                                            :disabled="form.processing"
+                                            :class="{ 'opacity-50 cursor-default': form.processing }"
+                                            class="shrink-0 size-10 inline-flex items-center justify-center rounded-full bg-gold text-background hover:bg-gold/90 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-parchment-100"
+                                            aria-label="Subscribe"
+                                        >
+                                            <x-lucide-arrow-right class="size-5" stroke-width="2" aria-hidden="true" />
+                                        </button>
+                                    </div>
+
+                                    {{# Honeypot — invisible field bots will fill in. #}}
+                                    <div class="hidden" aria-hidden="true">
+                                        <label for="footer-{{ honeypot }}">{{ trans:strings.form_honeypot }}</label>
+                                        <input id="footer-{{ honeypot }}" type="text" name="{{ honeypot }}" x-model="form.{{ honeypot }}" tabindex="-1" autocomplete="off"/>
+                                    </div>
+
+                                    <template x-if="form.invalid('email')">
+                                        <p class="mt-2 text-[14px] leading-[1.4] text-error" x-text="form.errors.email"></p>
+                                    </template>
+                                </div>
+                            </template>
                         </div>
-                    </form>
+                    {{ /form:create }}
+
+                    {{ partial:statamic-peak-tools::snippets/form_handler }}
                 </div>
 
                 {{# Nav columns — top-level items in the `footer` nav are column headings. #}}
