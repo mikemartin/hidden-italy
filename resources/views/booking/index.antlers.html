@@ -185,7 +185,7 @@
                                 )}}
                             ">
                                 {{ unless type == 'spacer' }}
-                                    <label class="block text-base font-medium leading-[1.6] text-foreground" for="{{ handle }}">
+                                    <label class="{{ field:hide_display ? 'sr-only' : 'block text-base font-medium leading-[1.6] text-foreground' }}" for="{{ handle }}">
                                         {{ trans :key="field:display" }}
                                         {{ if validate | contains('required') || validate | contains('accepted') }}
                                             <sup aria-label="{{ trans:strings.form_required }}" class="text-error">*</sup>

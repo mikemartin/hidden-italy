@@ -98,42 +98,34 @@
                                             () => 'md:col-span-12'
                                         )}}
                                     ">
-                                        {{ if type == 'toggle' }}
+                                        {{ unless type == 'spacer' }}
+                                            <label class="{{ field:hide_display ? 'sr-only' : 'block text-base font-medium leading-[1.6] text-foreground' }}" for="{{ handle }}">
+                                                {{ trans :key="field:display" }}
+                                                {{ if validate | contains('required') || validate | contains('accepted') }}
+                                                    <sup aria-label="{{ trans:strings.form_required }}" class="text-error">*</sup>
+                                                {{ /if }}
+                                            </label>
+
+                                            {{ if field:instructions && instructions_position != 'below' }}
+                                                <span id="{{ field:handle }}-instructions" class="text-sm text-text">
+                                                    {{ trans :key="field:instructions" }}
+                                                </span>
+                                            {{ /if }}
+                                        {{ /unless }}
+
+                                        <div class="flex flex-col gap-1">
                                             {{ field:field }}
 
                                             <template x-if="form.invalid('{{ handle }}')">
                                                 <span class="text-error text-sm font-bold" x-text="form.errors.{{ handle }}"></span>
                                             </template>
-                                        {{ else }}
-                                            {{ unless type == 'spacer' }}
-                                                <label class="block text-base font-medium leading-[1.6] text-foreground" for="{{ handle }}">
-                                                    {{ trans :key="field:display" }}
-                                                    {{ if validate | contains('required') || validate | contains('accepted') }}
-                                                        <sup aria-label="{{ trans:strings.form_required }}" class="text-error">*</sup>
-                                                    {{ /if }}
-                                                </label>
 
-                                                {{ if field:instructions && instructions_position != 'below' }}
-                                                    <span id="{{ field:handle }}-instructions" class="text-sm text-text">
-                                                        {{ trans :key="field:instructions" }}
-                                                    </span>
-                                                {{ /if }}
-                                            {{ /unless }}
-
-                                            <div class="flex flex-col gap-1">
-                                                {{ field:field }}
-
-                                                <template x-if="form.invalid('{{ handle }}')">
-                                                    <span class="text-error text-sm font-bold" x-text="form.errors.{{ handle }}"></span>
-                                                </template>
-
-                                                {{ if field:instructions && instructions_position === 'below' }}
-                                                    <span id="{{ field:handle }}-instructions" class="text-sm text-text">
-                                                        {{ trans :key="field:instructions" }}
-                                                    </span>
-                                                {{ /if }}
-                                            </div>
-                                        {{ /if }}
+                                            {{ if field:instructions && instructions_position === 'below' }}
+                                                <span id="{{ field:handle }}-instructions" class="text-sm text-text">
+                                                    {{ trans :key="field:instructions" }}
+                                                </span>
+                                            {{ /if }}
+                                        </div>
                                     </div>
                                 </template>
                             {{ /%form:fields }}
