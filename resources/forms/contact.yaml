@@ -32,9 +32,18 @@ mailchimp:
   settings:
     primary_email_field: email
     audience_id: 1ab892c5de
-    disable_opt_in: false
+    disable_opt_in: true
     check_consent: true
     consent_field: newsletter
+    merge_fields:
+      -
+        id: tXLHnLqdxw04zo_U-jXaB
+        field_name: name
+        tag: FNAME
+      -
+        id: TZZOGASddEplvb2KlA8jO
+        field_name: phone
+        tag: PHONE
 title: Contact
 honeypot: fax
 email:
