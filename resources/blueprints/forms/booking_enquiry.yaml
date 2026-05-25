@@ -65,6 +65,7 @@ tabs:
               display: Newsletter
               type: toggle
               localizable: true
+              hide_display: true
           -
             handle: user_id
             field:
