@@ -19,6 +19,13 @@
  * in the site layout (per the official CDN docs), so `window.maplibregl`
  * is already on the page when this component initialises. We just wait
  * for it in case Alpine boots before the deferred script.
+ *
+ * Following the canonical Alpine integration pattern (see chartjs /
+ * apexcharts examples in the Alpine docs), the MapLibre Map instance
+ * and ResizeObserver live in closure-scoped `let` bindings — not on
+ * the reactive x-data object. That keeps Alpine from wrapping a Map /
+ * Observer in a Proxy, which can interfere with internal `this`
+ * references inside third-party classes.
  */
 
 /**
@@ -38,6 +45,46 @@ function whenMapLibreReady() {
         };
         tick();
     });
+}
+
+/**
+ * Resolves once `el` reports non-zero width AND height. Returns
+ * immediately if already sized, otherwise watches via ResizeObserver
+ * until the first non-zero measurement. The map mounts inside a
+ * tabpanel whose `md:hidden` class flips after Alpine's `$nextTick` —
+ * racing this component's init — and pages with `x-reveal` ancestors
+ * may briefly hold zero height during boot.
+ */
+function whenSized(el) {
+    if (el.clientWidth > 0 && el.clientHeight > 0) {
+        return Promise.resolve();
+    }
+    return new Promise((resolve) => {
+        const observer = new ResizeObserver((entries) => {
+            for (const entry of entries) {
+                const { width, height } = entry.contentRect;
+                if (width > 0 && height > 0) {
+                    observer.disconnect();
+                    resolve();
+                    return;
+                }
+            }
+        });
+        observer.observe(el);
+    });
+}
+
+function parseCoords(raw) {
+    if (!raw) return null;
+    try {
+        const parsed = JSON.parse(raw);
+        if (!Array.isArray(parsed) || parsed.length !== 2) return null;
+        const [lon, lat] = parsed.map(Number);
+        if (Number.isNaN(lon) || Number.isNaN(lat)) return null;
+        return [lon, lat];
+    } catch {
+        return null;
+    }
 }
 
 // Regional anchor: each Italian region keyed to its capital city
@@ -75,26 +122,95 @@ const REGION_ANCHOR = {
     "Valle d'Aosta": { coords: [7.3208, 45.7372], name: 'Aosta' },
 };
 
-export default function tourMap() {
-    return {
-        map: null,
+function drawRoute(map, maplibregl, start, end, region) {
+    // Dashed line between start and end.
+    map.addSource('route', {
+        type: 'geojson',
+        data: {
+            type: 'Feature',
+            geometry: { type: 'LineString', coordinates: [start, end] },
+        },
+    });
+    map.addLayer({
+        id: 'route-line',
+        type: 'line',
+        source: 'route',
+        layout: { 'line-cap': 'round', 'line-join': 'round' },
+        paint: {
+            'line-color': '#bb4d00',
+            'line-width': 3,
+            'line-dasharray': [2, 2],
+        },
+    });
 
+    // Start (green) and end (terracotta) point markers. Each marker is
+    // a coloured disc with a white halo and a small white pip on top,
+    // so the pin reads as a traditional concentric map marker rather
+    // than a flat coloured dot.
+    for (const [id, coords, color] of [
+        ['start', start, '#6D998C'], // sage green
+        ['end', end, '#bb4d00'], // terracotta
+    ]) {
+        map.addSource(`${id}-point`, {
+            type: 'geojson',
+            data: {
+                type: 'Feature',
+                geometry: { type: 'Point', coordinates: coords },
+            },
+        });
+        map.addLayer({
+            id: `${id}-circle`,
+            type: 'circle',
+            source: `${id}-point`,
+            paint: {
+                'circle-radius': 12,
+                'circle-color': color,
+                'circle-stroke-color': '#ffffff',
+                'circle-stroke-width': 2,
+            },
+        });
+        map.addLayer({
+            id: `${id}-circle-inner`,
+            type: 'circle',
+            source: `${id}-point`,
+            paint: {
+                'circle-radius': 4,
+                'circle-color': '#ffffff',
+            },
+        });
+    }
+
+    // Fit bounds — include the regional anchor city so the map zooms
+    // wide enough to give context.
+    const bounds = new maplibregl.LngLatBounds().extend(start).extend(end);
+    const anchor = REGION_ANCHOR[region];
+    if (anchor) bounds.extend(anchor.coords);
+    map.fitBounds(bounds, { padding: 40, maxZoom: 8.5, duration: 0 });
+}
+
+export default function tourMap() {
+    let map = null;
+    let resizeObserver = null;
+
+    return {
         async init() {
-            const start = this._parseCoords(this.$el.dataset.start);
-            const end = this._parseCoords(this.$el.dataset.end);
+            const start = parseCoords(this.$el.dataset.start);
+            const end = parseCoords(this.$el.dataset.end);
             const region = (this.$el.dataset.region || '').trim();
 
-            if (!start || !end) {
-                return;
-            }
+            if (!start || !end) return;
 
-            // The MapLibre `<script>` in the layout attaches
-            // `window.maplibregl`. Wait for it in case Alpine init runs
-            // before the deferred script lands.
             const maplibregl = await whenMapLibreReady();
+            const canvas = this.$refs.canvas;
 
-            this.map = new maplibregl.Map({
-                container: this.$refs.canvas,
+            // MapLibre needs a sized container to measure tiles. Park
+            // construction until the canvas reports real dimensions —
+            // covers the tabpanel `md:hidden` race, reveal animations,
+            // and any layout reflow during boot.
+            await whenSized(canvas);
+
+            map = new maplibregl.Map({
+                container: canvas,
                 style: '/maps/style.json',
                 center: start,
                 zoom: 7,
@@ -109,100 +225,32 @@ export default function tourMap() {
 
             // Basic zoom in / zoom out buttons (top-right). Compass dropped —
             // there's no rotation to reset on a route map.
-            this.map.addControl(
+            map.addControl(
                 new maplibregl.NavigationControl({ showCompass: false, showZoom: true }),
                 'top-right'
             );
 
-            this.map.on('load', () => {
-                this._drawRoute(maplibregl, start, end, region);
+            map.on('load', () => drawRoute(map, maplibregl, start, end, region));
+
+            // Keep the canvas measured. Fires when the user toggles tabs
+            // (display:none ↔ visible), when the viewport resizes, when
+            // a reveal animation completes, or when content above the
+            // map reflows. resize() preserves the user's pan/zoom — we
+            // deliberately do NOT re-fit bounds here so a visitor's view
+            // survives tab toggles.
+            resizeObserver = new ResizeObserver(() => {
+                if (!map) return;
+                if (canvas.clientWidth === 0 || canvas.clientHeight === 0) return;
+                map.resize();
             });
+            resizeObserver.observe(canvas);
         },
 
         destroy() {
-            if (this.map) {
-                this.map.remove();
-                this.map = null;
-            }
-        },
-
-        _parseCoords(raw) {
-            if (!raw) return null;
-            try {
-                const parsed = JSON.parse(raw);
-                if (!Array.isArray(parsed) || parsed.length !== 2) return null;
-                const [lon, lat] = parsed.map(Number);
-                if (Number.isNaN(lon) || Number.isNaN(lat)) return null;
-                return [lon, lat];
-            } catch {
-                return null;
-            }
-        },
-
-        _drawRoute(maplibregl, start, end, region) {
-            // Dashed line between start and end.
-            this.map.addSource('route', {
-                type: 'geojson',
-                data: {
-                    type: 'Feature',
-                    geometry: { type: 'LineString', coordinates: [start, end] },
-                },
-            });
-            this.map.addLayer({
-                id: 'route-line',
-                type: 'line',
-                source: 'route',
-                layout: { 'line-cap': 'round', 'line-join': 'round' },
-                paint: {
-                    'line-color': '#bb4d00',
-                    'line-width': 3,
-                    'line-dasharray': [2, 2],
-                },
-            });
-
-            // Start (green) and end (terracotta) point markers. Each
-            // marker is a coloured disc with a white halo and a small
-            // white pip on top, so the pin reads as a traditional
-            // concentric map marker rather than a flat coloured dot.
-            for (const [id, coords, color] of [
-                ['start', start, '#6D998C'], // sage green
-                ['end', end, '#bb4d00'], // terracotta
-            ]) {
-                this.map.addSource(`${id}-point`, {
-                    type: 'geojson',
-                    data: {
-                        type: 'Feature',
-                        geometry: { type: 'Point', coordinates: coords },
-                    },
-                });
-                this.map.addLayer({
-                    id: `${id}-circle`,
-                    type: 'circle',
-                    source: `${id}-point`,
-                    paint: {
-                        'circle-radius': 12,
-                        'circle-color': color,
-                        'circle-stroke-color': '#ffffff',
-                        'circle-stroke-width': 2,
-                    },
-                });
-                this.map.addLayer({
-                    id: `${id}-circle-inner`,
-                    type: 'circle',
-                    source: `${id}-point`,
-                    paint: {
-                        'circle-radius': 4,
-                        'circle-color': '#ffffff',
-                    },
-                });
-            }
-
-            // Fit bounds — include the regional anchor city so the map
-            // zooms wide enough to give context.
-            const bounds = new maplibregl.LngLatBounds().extend(start).extend(end);
-            const anchor = REGION_ANCHOR[region];
-            if (anchor) bounds.extend(anchor.coords);
-            this.map.fitBounds(bounds, { padding: 40, maxZoom: 8.5, duration: 0 });
+            resizeObserver?.disconnect();
+            resizeObserver = null;
+            map?.remove();
+            map = null;
         },
     };
 }
