@@ -12,7 +12,7 @@ article:
       id: zwFBhH2x8NYZYluH79uoq
       values:
         type: accordion
-        title: 'YOUR CONTRACT WITH HIDDEN ITALY'
+        title: 'Your Contract with Hidden Italy'
         body:
           -
             type: paragraph
@@ -38,7 +38,7 @@ article:
       id: 3sBXz0PqPzXAvrW4-4Got
       values:
         type: accordion
-        title: 'TOUR PRICES'
+        title: 'Tour Prices'
         body:
           -
             type: paragraph
@@ -76,7 +76,7 @@ article:
       id: terms-5a
       values:
         type: accordion
-        title: PAYMENTS
+        title: Payments
         body:
           -
             type: heading
@@ -124,7 +124,7 @@ article:
       id: vZHxVnzZBu_ifkX5vut5b
       values:
         type: accordion
-        title: 'CHANGES TO BOOKINGS'
+        title: 'Changes to Bookings'
         body:
           -
             type: heading
@@ -133,7 +133,7 @@ article:
             content:
               -
                 type: text
-                text: 'CHANGES BY CLIENT'
+                text: 'Changes by Client'
           -
             type: paragraph
             content:
@@ -193,7 +193,7 @@ article:
             content:
               -
                 type: text
-                text: 'CHANGES BY HIDDEN ITALY'
+                text: 'Changes by Hidden Italy'
           -
             type: paragraph
             content:
@@ -230,7 +230,7 @@ article:
       id: xzP9sgn2Wzo0DLDe8lCTU
       values:
         type: accordion
-        title: 'SUBSTITUTION OF CLIENT'
+        title: 'Substitution of Client'
         body:
           -
             type: paragraph
@@ -244,7 +244,7 @@ article:
       id: terms-7a
       values:
         type: accordion
-        title: CANCELLATIONS
+        title: Cancellations
         body:
           -
             type: heading
@@ -253,7 +253,7 @@ article:
             content:
               -
                 type: text
-                text: 'CANCELLATIONS MADE BY CLIENT'
+                text: 'Cancellations Made by Client'
           -
             type: paragraph
             content:
@@ -317,7 +317,7 @@ article:
             content:
               -
                 type: text
-                text: 'CANCELLATIONS MADE BY HIDDEN ITALY'
+                text: 'Cancellations Made by Hidden Italy'
           -
             type: paragraph
             content:
@@ -372,7 +372,7 @@ article:
       id: terms-7d
       values:
         type: accordion
-        title: 'CREDIT NOTES'
+        title: 'Credit Notes'
         body:
           -
             type: paragraph
@@ -386,7 +386,7 @@ article:
       id: terms-7e
       values:
         type: accordion
-        title: MEALS
+        title: Meals
         body:
           -
             type: paragraph
@@ -400,7 +400,7 @@ article:
       id: gCdAeGVh01n-OaeE3tjN2
       values:
         type: accordion
-        title: 'PASSPORTS, VISAS and VACCINATIONS'
+        title: 'Passports, Visas and Vaccinations'
         body:
           -
             type: paragraph
@@ -414,7 +414,7 @@ article:
       id: p8b67qZ_x-BG4XLPw6y_i
       values:
         type: accordion
-        title: 'TRAVEL INSURANCE & MEDICAL INFORMATION'
+        title: 'Travel Insurance & Medical Information'
         body:
           -
             type: paragraph
@@ -440,7 +440,7 @@ article:
       id: 9UQUG-0cndcSug0YD8Gj_
       values:
         type: accordion
-        title: 'FITNESS & PARTICIPATION'
+        title: 'Fitness & Participation'
         body:
           -
             type: paragraph
@@ -533,7 +533,7 @@ article:
       id: V4shNZTcpcyFpFneMONA0
       values:
         type: accordion
-        title: 'LOCAL LAWS'
+        title: 'Local Laws'
         body:
           -
             type: paragraph
@@ -547,7 +547,7 @@ article:
       id: hYsi5AA0iLAYMdNYaQ8Iu
       values:
         type: accordion
-        title: 'ILLNESS OR DISABILITY'
+        title: 'Illness or Disability'
         body:
           -
             type: paragraph
@@ -561,7 +561,7 @@ article:
       id: ALttwHSK-Rs_r6YTE1y-X
       values:
         type: accordion
-        title: 'IF YOU HAVE A COMPLAINT'
+        title: 'If You Have a Complaint'
         body:
           -
             type: paragraph
@@ -575,7 +575,7 @@ article:
       id: vYgpir-MVMPTH78FWWZsg
       values:
         type: accordion
-        title: 'OUR RESPONSIBILITIES'
+        title: 'Our Responsibilities'
         body:
           -
             type: paragraph
