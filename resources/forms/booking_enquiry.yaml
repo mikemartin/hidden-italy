@@ -32,9 +32,18 @@ mailchimp:
   settings:
     primary_email_field: email
     audience_id: 1ab892c5de
-    disable_opt_in: false
+    disable_opt_in: true
     check_consent: true
     consent_field: newsletter
+    merge_fields:
+      -
+        id: 12y1UgYMUDG3GTCkBDhst
+        field_name: name
+        tag: FNAME
+      -
+        id: UAKFV0--yATUDQFxs2BU6
+        field_name: phone
+        tag: PHONE
 title: 'Booking enquiry'
 honeypot: fax
 email:
@@ -49,6 +58,6 @@ email:
     id: bookingSender
     to: '{{ email }}'
     reply_to: info@hiddenitaly.com
-    subject: 'We''ve received your booking enquiry'
+    subject: "We've received your booking enquiry"
     html: email/form_sender
     text: email/form_sender_text
