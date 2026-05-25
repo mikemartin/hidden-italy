@@ -34,7 +34,9 @@
                     {{ form:create in="newsletter" js="alpine:form" attr:x-ref="form" class="w-full max-w-xs" }}
                         <div x-data="formHandler()" x-cloak>
                             <template x-if="success">
-                                {{ partial:components/notification type="success" :content="trans:strings.newsletter_success ?? 'Thanks for subscribing!'" }}
+                                <div>
+                                    {{ partial:components/notification type="success" :content="trans:strings.newsletter_success ?? 'Thanks for subscribing!'" }}
+                                </div>
                             </template>
 
                             <template x-if="!success">

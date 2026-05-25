@@ -19,6 +19,13 @@
                 {{ article }}
                     {{ partial src="components/{type}" }}
                 {{ /article }}
+
+                {{# Newsletter CTA — flows with the article column. `not-prose`
+                    keeps the card's own type styles from being overridden by
+                    the prose ramp. #}}
+                <div class="span-lg not-prose">
+                    {{ partial:components/newsletter_cta_compact }}
+                </div>
             {{ /partial:typography/prose }}
         </section>
     </article>

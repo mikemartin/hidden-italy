@@ -1,0 +1,93 @@
+{{#
+    @name Newsletter CTA (compact)
+    @desc Compact horizontal newsletter sign-up sized to slot inside article
+          columns and other mid-width contexts. Round paper-plane icon on
+          the left, heading + supporting line + inline email form on the
+          right. Wraps to vertical on narrow screens.
+
+          Uses the same `newsletter` Statamic form handle as the standard
+          CTA and the footer, wired to Mailchimp via statamic-rad-pack/mailchimp.
+          AJAX submit via Peak's Alpine + Precognition handler — on
+          success, swaps the form for our standard success notification.
+#}}
+
+<!-- /components/_newsletter_cta_compact.antlers.html -->
+<aside class="bg-card border border-parchment-300 rounded-lg shadow-xs p-6 md:p-10">
+    <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-9">
+
+        {{# Round icon — paper plane in a parchment circle. Sized to match
+            the Figma reference at desktop, scaled down on mobile to keep
+            the stacked layout from dominating. #}}
+        <div class="flex shrink-0 items-center justify-center size-20 md:size-[100px] rounded-full bg-parchment-200 text-accent-2">
+            {{ svg
+                src="icons/post-office-paper-plane"
+                attr:class="size-12 md:size-16 fill-current"
+                attr:aria-hidden="true"
+                attr:role="img"
+            }}
+        </div>
+
+        <div class="flex-1 min-w-0 w-full flex flex-col gap-6 sm:gap-8">
+            <div class="flex flex-col gap-2 text-center sm:text-left">
+                {{ partial:typography/h3 small="true" :content="contact:newsletter_heading ?? 'Subscribe to our Newsletter'" class="!mb-0" }}
+                {{ partial:typography/p :content="contact:newsletter_text ?? 'Sign up to get travel tips and inspiration delivered right to your inbox'" color="text-text" class="!mb-0" }}
+            </div>
+
+            {{# Sign-up form — same `newsletter` Statamic form handle as the
+                footer and standalone CTA. Inline input + button at sm+,
+                stacks on mobile. #}}
+            <div class="w-full max-w-sm">
+            {{ form:create in="newsletter" js="alpine:form" attr:x-ref="form" class="w-full" }}
+                <div x-data="formHandler()" x-cloak>
+                    <template x-if="success">
+                        <div>
+                            {{ partial:components/notification type="success" :content="trans:strings.newsletter_success ?? 'Thanks for subscribing!'" }}
+                        </div>
+                    </template>
+
+                    <template x-if="!success">
+                        <div>
+                            <div class="flex flex-col sm:flex-row gap-2 items-stretch">
+                                <label class="sr-only" for="compact-newsletter-email">Email address</label>
+                                <input
+                                    id="compact-newsletter-email"
+                                    type="email"
+                                    name="email"
+                                    x-model="form.email"
+                                    required
+                                    placeholder="your@email.com"
+                                    :aria-invalid="form.invalid('email')"
+                                    class="flex-1 bg-white border border-neutral-300 rounded-full px-4 py-3 text-base text-foreground outline-none placeholder:text-muted focus-visible:border-gold focus-visible:ring-2 focus-visible:ring-gold/40"
+                                >
+                                <button
+                                    type="button"
+                                    @click.prevent="submit"
+                                    :disabled="form.processing"
+                                    :class="{ 'opacity-50 cursor-default': form.processing }"
+                                    class="button button--accent"
+                                >
+                                    <span>Subscribe</span>
+                                </button>
+                            </div>
+
+                            {{# Honeypot — invisible field bots will fill in. #}}
+                            <div class="hidden" aria-hidden="true">
+                                <label for="compact-{{ honeypot }}">{{ trans:strings.form_honeypot }}</label>
+                                <input id="compact-{{ honeypot }}" type="text" name="{{ honeypot }}" x-model="form.{{ honeypot }}" tabindex="-1" autocomplete="off"/>
+                            </div>
+
+                            <template x-if="form.invalid('email')">
+                                <p class="mt-2 text-sm text-error" x-text="form.errors.email"></p>
+                            </template>
+                        </div>
+                    </template>
+                </div>
+            {{ /form:create }}
+            </div>
+
+            {{ partial:statamic-peak-tools::snippets/form_handler }}
+        </div>
+
+    </div>
+</aside>
+<!-- End: /components/_newsletter_cta_compact.antlers.html -->
