@@ -86,8 +86,14 @@
         </article>
     {{ else }}
         <article>
-            <header class="fluid-grid py-12 md:py-16 gap-y-10 md:gap-y-14">
-                <div class="span-content flex flex-col items-start gap-6">
+            <header class="fluid-grid
+            {{ if static_overlay_header }}
+                pt-12 md:pt-16 lg:pt-24
+            {{ else }}
+                pt-28 md:pt-32 xl:pt-36
+            {{ /if }}
+            pb-12 md:pb-16 gap-y-10 md:gap-y-14">
+                <div class="span-lg flex flex-col items-start gap-6">
 
                     {{ partial:typography/h1 :content="headline ?? title" color="text-foreground" }}
 
