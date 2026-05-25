@@ -37,7 +37,7 @@
                 pinned to row 1 explicitly so CSS Grid can overlap them
                 rather than auto-flowing the image to a second row. #}}
             {{ if block:image }}
-                <div data-reveal-item class="lg:row-start-1 lg:col-start-1 lg:col-span-6 relative rounded-[20px] overflow-hidden bg-parchment-200 ring-1 ring-inset ring-black/5 aspect-4/3 lg:aspect-square">
+                <div data-reveal-item class="lg:row-start-1 lg:col-start-1 lg:col-span-6 relative rounded-[20px] overflow-hidden bg-parchment-200 ring-1 ring-inset ring-black/5 aspect-[4/3] lg:aspect-square">
                     {{ picture
                         :image="block:image"
                         class="absolute inset-0 w-full h-full object-cover"
