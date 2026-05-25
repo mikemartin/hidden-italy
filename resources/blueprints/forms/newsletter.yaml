@@ -10,7 +10,7 @@ tabs:
               display: 'Email address'
               type: text
               input_type: email
-              placeholder: 'your@email.com'
+              placeholder: your@email.com
               autocomplete: email
               validate:
                 - required
