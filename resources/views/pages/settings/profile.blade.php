@@ -17,6 +17,8 @@ new #[Title('Profile settings')] class extends Component {
 
     public string $phone_mobile = '';
 
+    public bool $saved = false;
+
     /**
      * Mount the component.
      */
@@ -50,7 +52,7 @@ new #[Title('Profile settings')] class extends Component {
 
         $user->save();
 
-        Flux::toast(variant: 'success', text: __('Profile updated.'));
+        $this->saved = true;
     }
 
     /**
@@ -84,6 +86,12 @@ new #[Title('Profile settings')] class extends Component {
     <flux:heading class="sr-only">{{ __('Profile settings') }}</flux:heading>
 
     <x-pages::settings.layout :heading="__('Profile')" :subheading="__('Update your name, email address, and mobile number')">
+        @if ($saved)
+            <div class="mt-6">
+                <s:partial src="components/notification" type="success" content="{{ __('Profile updated.') }}" />
+            </div>
+        @endif
+
         <form wire:submit="updateProfileInformation" class="my-6 w-full space-y-6">
             <flux:input wire:model="name" :label="__('Name')" type="text" required autofocus autocomplete="name" />
 
@@ -112,7 +120,7 @@ new #[Title('Profile settings')] class extends Component {
             />
 
             <div class="flex items-center gap-4">
-                <button type="submit" class="button button--accent button--large" data-test="update-profile-button">
+                <button type="submit" class="button button--accent" data-test="update-profile-button">
                     <span>{{ __('Save') }}</span>
                 </button>
             </div>

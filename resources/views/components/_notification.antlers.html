@@ -9,12 +9,12 @@
 <!-- /components/_notification.antlers.html -->
 <div
     class="
-        rounded-lg border p-4
+        rounded-lg p-4
         {{ switch(
-            (type == 'success') => 'bg-green-50 border-green-700',
-            (type == 'notice') => 'bg-yellow-50 border-yellow-700',
-            (type == 'error') => 'bg-error/10 border-error',
-            () => 'bg-gray-50 border-gray-700'
+            (type == 'success') => 'bg-sage/15 dark:bg-card',
+            (type == 'notice')  => 'bg-gold/15 dark:bg-card',
+            (type == 'error')   => 'bg-terracotta/15 dark:bg-card',
+            ()                  => 'bg-parchment-200 dark:bg-card'
         )}}
         {{ class }}
     "
@@ -22,20 +22,15 @@
 >
     <div class="flex">
         <div class="shrink-0">
-            {{ svg
-                :src="type"
-                attr:alt=""
-                attr:aria-hidden="true"
-                attr:class="
-                    h-5 w-5 fill-stroke motion-safe:transition-colors
-                    { switch(
-                        (type == 'success') => 'text-green-700',
-                        (type == 'notice') => 'text-yellow-700',
-                        (type == 'error') => 'text-error',
-                        () => 'text-gray-700'
-                    )}
-                "
-            }}
+            {{ if type == 'success' }}
+                <x-lucide-circle-check-big class="h-5 w-5 text-sage motion-safe:transition-colors" stroke-width="2" aria-hidden="true" />
+            {{ elseif type == 'error' }}
+                <x-lucide-circle-x class="h-5 w-5 text-terracotta-light motion-safe:transition-colors" stroke-width="2" aria-hidden="true" />
+            {{ elseif type == 'notice' }}
+                <x-lucide-triangle-alert class="h-5 w-5 text-gold motion-safe:transition-colors" stroke-width="2" aria-hidden="true" />
+            {{ else }}
+                <x-lucide-info class="h-5 w-5 text-terracotta dark:text-terracotta-light motion-safe:transition-colors" stroke-width="2" aria-hidden="true" />
+            {{ /if }}
         </div>
         <div class="ml-3">
             {{ if content }}
@@ -43,10 +38,10 @@
                     class="
                         text-sm leading-5 font-bold
                         {{ switch(
-                            (type == 'success') => 'text-green-800',
-                            (type == 'notice') => 'text-yellow-800',
+                            (type == 'success') => 'text-success',
+                            (type == 'notice') => 'text-gold-dark dark:text-gold',
                             (type == 'error') => 'text-error',
-                            () => 'text-gray-800'
+                            () => 'text-terracotta dark:text-terracotta-light'
                         )}}
                     "
                 >

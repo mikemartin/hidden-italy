@@ -1,7 +1,6 @@
 <?php
 
 use App\Concerns\PasswordValidationRules;
-use Flux\Flux;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\ValidationException;
 use Livewire\Attributes\Title;
@@ -15,6 +14,8 @@ new #[Title('Update password')] class extends Component {
     public string $password = '';
 
     public string $password_confirmation = '';
+
+    public bool $saved = false;
 
     /**
      * Update the password for the currently authenticated user.
@@ -38,7 +39,7 @@ new #[Title('Update password')] class extends Component {
 
         $this->reset('current_password', 'password', 'password_confirmation');
 
-        Flux::toast(variant: 'success', text: __('Password updated.'));
+        $this->saved = true;
     }
 }; ?>
 
@@ -48,6 +49,12 @@ new #[Title('Update password')] class extends Component {
     <flux:heading class="sr-only">{{ __('Update password') }}</flux:heading>
 
     <x-pages::settings.layout :heading="__('Update password')" :subheading="__('Ensure your account is using a long, random password to stay secure')">
+        @if ($saved)
+            <div class="mt-6">
+                <s:partial src="components/notification" type="success" content="{{ __('Password updated.') }}" />
+            </div>
+        @endif
+
         <form method="POST" wire:submit="updatePassword" class="mt-6 space-y-6">
             <flux:input
                 wire:model="current_password"
@@ -77,7 +84,7 @@ new #[Title('Update password')] class extends Component {
             />
 
             <div class="flex items-center gap-4">
-                <button type="submit" class="button button--accent button--large" data-test="update-password-button">
+                <button type="submit" class="button button--accent" data-test="update-password-button">
                     <span>{{ __('Save') }}</span>
                 </button>
             </div>

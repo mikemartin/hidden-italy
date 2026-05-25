@@ -83,9 +83,12 @@
 
         {{# Universal CTA banner — pulled from the `cta_banner` global.
             Skipped on the tour listing (`tours/index`, which has its own
-            CTAs) and on tour show pages (`tours/show`, which render their
-            own tour-specific CTA via `tours/cta_banner`). #}}
-        {{ unless current_template == 'tours/index' || current_template == 'tours/show' }}
+            CTAs), on tour show pages (`tours/show`, which render their
+            own tour-specific CTA via `tours/cta_banner`), and on the
+            404 page (which carries its own back-to-home actions).
+            Note: `current_template` is slash-separated for collection
+            entries but dot-separated for the 404 entry's stored value. #}}
+        {{ unless current_template == 'tours/index' || current_template == 'tours/show' || current_template == 'errors.404' }}
             {{ partial:layout/cta_banner }}
         {{ /unless }}
 

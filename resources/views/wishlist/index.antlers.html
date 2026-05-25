@@ -28,40 +28,93 @@
             below the h1. #}}
 
         
-        <section class="fluid-grid 
+        <section class="fluid-grid
         {{ if static_overlay_header }}
             pt-12 md:pt-16
         {{ else }}
             pt-28 md:pt-32 xl:pt-36
         {{ /if }}
         pb-12 md:pb-16">
-            <div class="span-content flex flex-col items-start gap-4">
-                <h1 class="font-display font-semibold text-foreground text-3xl md:text-[40px] leading-[1.25] tracking-[-0.01em]">
-                    Wishlist
-                </h1>
+            <div class="span-content flex flex-col items-start sm:flex-row sm:items-center sm:justify-between gap-4">
+                <div class="flex flex-col items-start gap-4">
+                    <h1 class="font-display font-semibold text-foreground text-3xl md:text-[40px] leading-[1.25] tracking-[-0.01em]">
+                        Wishlist
+                    </h1>
+                    {{ if {simple_like:is_guest} }}
+                        <p class="font-sans leading-[1.6] text-text text-base md:text-lg max-w-2xl">
+                            Create a Hidden Italy account or log in to save your wishlist.
+                        </p>
+                    {{ else }}
+                        <p class="font-sans leading-[1.6] text-text text-base md:text-lg max-w-2xl">
+                            Click the heart icon as you browse to save tours to your wishlist.
+                        </p>
+                    {{ /if }}
+                </div>
+
                 {{ if {simple_like:is_guest} }}
-                    <p class="font-sans leading-[1.6] text-text text-base md:text-lg max-w-3xl">
-                        <a href="/register" class="text-accent-2 underline underline-offset-2">Create a Hidden Italy account</a> to view your wishlist on all your devices.
-                    </p>
+                    <x-flux::modal.trigger name="wishlist-account-modal">
+                        <button type="button" class="button button--outline button--gold button--on-light shrink-0">
+                            <span>Save Wishlist</span>
+                        </button>
+                    </x-flux::modal.trigger>
+                {{ else }}
+                    <a href="/tours" class="button button--accent shrink-0" wire:navigate>
+                        <span>Discover tours</span>
+                    </a>
                 {{ /if }}
             </div>
+
+            {{ if {session:has key="likes_synced"} }}
+                <div class="span-content mt-6">
+                    {{ partial:components/notification type="success" content="Your wishlist has been saved to your account." class="max-w-md" }}
+                </div>
+            {{ /if }}
         </section>
+
+        {{# Save-wishlist modal — guests only. Collects an email up front
+            and forwards to /login, which fans out to /register if the
+            email isn't on file. Email is pre-filled in either destination
+            so the visitor doesn't have to retype. #}}
+        {{ if {simple_like:is_guest} }}
+            <x-flux::modal name="wishlist-account-modal" class="md:w-[28rem]">
+                <div
+                    x-data="{
+                        email: '',
+                        signIn() {
+                            const params = new URLSearchParams();
+                            params.set('redirect', '/wishlist');
+                            if (this.email) params.set('email', this.email);
+                            window.location.href = '/login?' + params.toString();
+                        },
+                    }"
+                    class="space-y-4"
+                >
+                    <div class="text-center space-y-1">
+                        {{ partial:typography/h3 content="Save your wishlist" small="true" }}
+                        {{ partial:typography/p_small content="Create an account or log in to view your wishlist on all your devices." color="text-muted" }}
+                    </div>
+
+                    <x-flux::input
+                        x-model="email"
+                        type="email"
+                        label="{{ trans:strings.email_address }}"
+                        placeholder="{{ trans:strings.email_placeholder }}"
+                        autocomplete="email"
+                    />
+
+                    <button
+                        type="button"
+                        @click="signIn()"
+                        class="button button--accent w-full"
+                    >
+                        <span>{{ trans:strings.continue }}</span>
+                    </button>
+                </div>
+            </x-flux::modal>
+        {{ /if }}
 
         <section class="fluid-grid pb-12 md:pb-16 lg:pb-24">
             <div class="span-content stack-16">
-                {{ if {session:has key="likes_synced"} }}
-                    <div class="flex rounded-lg bg-green-50 p-4">
-                        <div class="shrink-0">
-                            <x-lucide-check class="size-5 text-green-400" />
-                        </div>
-                        <div class="ml-3">
-                            <p class="text-sm font-medium text-green-800">
-                                Your wishlist has been saved to your account.
-                            </p>
-                        </div>
-                    </div>
-                {{ /if }}
-
                 <div class="@container">
                     <div
                         class="grid grid-cols-1 @2xl:grid-cols-2 @5xl:grid-cols-3 gap-x-9 gap-y-14 transition-opacity duration-700"

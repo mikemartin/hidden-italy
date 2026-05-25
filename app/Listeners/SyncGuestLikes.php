@@ -62,7 +62,7 @@ class SyncGuestLikes
         }
 
         if ($migrated > 0) {
-            session(['likes_synced' => true]);
+            session()->flash('likes_synced', true);
         }
     }
 }

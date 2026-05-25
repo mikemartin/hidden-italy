@@ -47,10 +47,12 @@
     --color-parchment-400: #e8d4a0;
 
     /* Warm accents */
-    --color-gold:       #e2ae4d; /* Accent */
-    --color-gold-dark:  #9A6D19; /* Accent content (gold text) */
-    --color-terracotta: #bb4d00; /* Light: accent-2, error */
-    --color-sage:       #6d998c; /* Success */
+    --color-gold:        #e2ae4d; /* Accent */
+    --color-gold-dark:   #9A6D19; /* Accent content (gold text) */
+    --color-terracotta:  #bb4d00; /* Light: accent-2, error */
+    --color-terracotta-light: #d4704e; /* Dark: error — softer, brighter terracotta for legibility on deep blue */
+    --color-sage:        #6d998c; /* Dark: success — lighter sage for legibility on deep blue */
+    --color-sage-dark:   #3c6360; /* Light: success — deeper sage for legibility on parchment */
 
     /* Neutrals — slate aliases for the mid-range. The 50 and 900 endpoints
        used to be White Heat overrides; both have been retired in favour of
@@ -99,8 +101,9 @@
        deep blue (use `bg-card-dark`). */
     --color-card-dark:      var(--color-blue-d-300);
 
-    /* Status — used by form validation messaging, toasts, inline notices. */
-    --color-success:        var(--color-sage);
+    /* Status — used by form validation messaging, toasts, inline notices.
+       Light-surface defaults; `.dark` overrides flip to brighter shades. */
+    --color-success:        var(--color-sage-dark);
     --color-error:          var(--color-terracotta);
 
     /* `--color-primary` stays a literal brand blue (not surface-scoped) for
@@ -204,6 +207,8 @@
         --color-accent-2:       var(--color-blue-d-500);
         --color-accent-light:   var(--color-blue-d-400);
         --color-card:           var(--color-blue-d-200);
+        --color-success:        var(--color-sage);
+        --color-error:          var(--color-terracotta-light);
     }
 
     /* Light surface override — symmetric counterpart to `.dark`. Drop
@@ -224,6 +229,8 @@
         --color-accent-2:       var(--color-terracotta);
         --color-accent-light:   var(--color-parchment-200);
         --color-card:           var(--color-parchment-50);
+        --color-success:        var(--color-sage-dark);
+        --color-error:          var(--color-terracotta);
     }
 
     /* (panel-divider + seam-border suppression now live in `@layer

@@ -6,8 +6,8 @@
 #}}
 
 <!-- /layout/_footer.antlers.html -->
-<footer class="dark bg-background text-text mt-auto relative overflow-hidden">
-    <div class="pointer-events-none absolute inset-x-0 top-0 text-accent-light" aria-hidden="true">
+<footer class="dark bg-background text-text mt-auto relative">
+    <div class="pointer-events-none absolute inset-0 overflow-hidden text-accent-light" aria-hidden="true">
         {{ svg:top-left attr:class="absolute top-0 left-0 w-[320px] md:w-[400px] h-auto -translate-x-1/2 lg:-translate-x-1/4" }}
         {{ svg:top-right attr:class="absolute top-0 right-0 w-[320px] md:w-[400px] h-auto" }}
     </div>
@@ -34,9 +34,7 @@
                     {{ form:create in="newsletter" js="alpine:form" attr:x-ref="form" class="w-full max-w-xs" }}
                         <div x-data="formHandler()" x-cloak>
                             <template x-if="success">
-                                <p class="text-[15px] leading-[1.5] text-white">
-                                    {{ trans:strings.newsletter_success ?? 'Thanks for subscribing!' }}
-                                </p>
+                                {{ partial:components/notification type="success" :content="trans:strings.newsletter_success ?? 'Thanks for subscribing!'" }}
                             </template>
 
                             <template x-if="!success">
@@ -126,6 +124,7 @@
                             {{ if contact:address }}
                                 <p class="text-[15px] leading-[1.5]">
                                     {{ contact:address | nl2br }}
+                                    <br/>
                                     <span class="text-muted">{{ trans:strings.appointment_only }}</span>
                                 </p>
                                 

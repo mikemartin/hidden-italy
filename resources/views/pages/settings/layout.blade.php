@@ -3,13 +3,25 @@
         ['route' => 'account.profile',  'label' => __('Profile'),  'icon' => 'circle-user-round'],
         ['route' => 'account.password', 'label' => __('Password'), 'icon' => 'key-round'],
     ];
+
+    // Flux's auto data-current detection is unreliable inside Livewire
+    // update requests (it depends on app.url matching the request scheme).
+    // Computing the active path manually keeps the nav highlight in sync
+    // after wire:submit form saves.
+    $currentPath = '/'.trim(
+        app('livewire')?->isLivewireRequest()
+            ? app('livewire')->originalPath()
+            : request()->path(),
+        '/'
+    );
 @endphp
 
 <div class="flex items-start max-md:flex-col">
     <div class="me-10 w-full pb-4 md:w-[220px]">
         <flux:navlist aria-label="{{ __('Settings') }}">
             @foreach ($accountNav as $item)
-                <flux:navlist.item :href="route($item['route'])" wire:navigate>
+                @php $itemPath = '/'.trim(parse_url(route($item['route']), PHP_URL_PATH), '/'); @endphp
+                <flux:navlist.item :href="route($item['route'])" :current="$currentPath === $itemPath" wire:navigate>
                     <x-slot name="icon">
                         <x-dynamic-component :component="'lucide-' . $item['icon']" class="size-5" stroke-width="1.75" />
                     </x-slot>
