@@ -24,6 +24,7 @@ tabs:
                 - email
               localizable: true
               width: 50
+              listable: true
           -
             handle: phone
             field:
