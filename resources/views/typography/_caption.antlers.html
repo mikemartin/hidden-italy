@@ -1,16 +1,20 @@
 {{#
     @name Caption
-    @desc The typography caption partial to render a caption with `as` and `caption` attributes.
-    @param content The caption content.
+    @desc Shared caption treatment for article-body media (image, video,
+          table). Centered 15px Mona Sans in `text-text`, followed by a
+          short parchment-400 separator rule. Matches the Figma media
+          caption pattern.
+    @param caption The caption content.
     @param as The wrapping element. Defaults to `span`.
-    @param color Set a custom text color utility. Falls back to `text-foreground`.
+    @param color Set a custom text color utility. Falls back to `text-text`.
     @param class Add custom CSS classes.
 #}}
 
 <!-- /typography/_caption.antlers.html -->
 {{ if caption }}
-    <{{ as or 'span' }} class="block mt-2 text-sm {{ color or 'text-foreground' }} {{ class }}">
+    <{{ as or 'span' }} class="block mt-4 text-center font-sans text-sm md:text-base font-normal leading-[1.5] {{ color or 'text-text' }} {{ class }}">
         {{ caption }}
     </{{ as or 'span' }}>
+    <span class="block mx-auto mt-6 w-[54px] border-t border-parchment-400" aria-hidden="true"></span>
 {{ /if }}
 <!-- End: /typography/_caption.antlers.html -->

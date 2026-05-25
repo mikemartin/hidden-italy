@@ -13,7 +13,7 @@
         <div class="flex flex-col items-center justify-between space-y-3">
             <form method="POST" action="{{ route('verification.send') }}">
                 @csrf
-                <button type="submit" class="button button--accent button--large w-full">
+                <button type="submit" class="button button--large w-full">
                     <span>{{ __('Resend verification email') }}</span>
                 </button>
             </form>

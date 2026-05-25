@@ -18,7 +18,7 @@
                 placeholder="email@example.com"
             />
 
-            <button type="submit" class="button button--accent button--large w-full" data-test="email-password-reset-link-button">
+            <button type="submit" class="button button--large w-full" data-test="email-password-reset-link-button">
                 <span>{{ __('Email password reset link') }}</span>
             </button>
         </form>

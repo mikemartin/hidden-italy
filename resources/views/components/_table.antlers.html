@@ -22,7 +22,7 @@
                 <thead>
                     <tr>
                         {{ cells }}
-                            <th class="px-3 py-3 text-xs font-bold tracking-wider text-left text-white uppercase border-b xl:px-6 border-neutral bg-neutral">{{ value }}</th>
+                            <th class="px-3 py-3 text-xs font-bold tracking-wider text-left text-terracotta uppercase border-b xl:px-6 border-parchment-300 bg-parchment-200">{{ value }}</th>
                         {{ /cells }}
                     </tr>
                 </thead>
@@ -34,9 +34,9 @@
                 <tr>
                     {{ cells }}
                         {{ if first && first_column_headers }}
-                            <th class="px-3 py-3 text-xs font-bold tracking-wider text-left text-white uppercase border-b xl:px-6 border-neutral bg-neutral">{{ value }}</th>
+                            <th class="px-3 py-3 text-xs font-bold tracking-wider text-left text-terracotta uppercase border-b xl:px-6 border-parchment-300 bg-parchment-200">{{ value }}</th>
                         {{ else }}
-                            <td class="px-3 py-3 text-sm border-b xl:px-6 border-neutral text-foreground align-top ">{{ value }}</td>
+                            <td class="px-3 py-3 text-sm border-b xl:px-6 border-parchment-300 text-foreground align-top ">{{ value }}</td>
                         {{ /if }}
                     {{ /cells }}
                 </tr>

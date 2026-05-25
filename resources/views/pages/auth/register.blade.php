@@ -55,7 +55,7 @@
             />
 
             <div class="flex items-center justify-end">
-                <button type="submit" class="button button--accent button--large w-full" data-test="register-user-button">
+                <button type="submit" class="button button--large w-full" data-test="register-user-button">
                     <span>{{ __('Create account') }}</span>
                 </button>
             </div>

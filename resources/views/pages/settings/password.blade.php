@@ -84,7 +84,7 @@ new #[Title('Update password')] class extends Component {
             />
 
             <div class="flex items-center gap-4">
-                <button type="submit" class="button button--accent" data-test="update-password-button">
+                <button type="submit" class="button" data-test="update-password-button">
                     <span>{{ __('Save') }}</span>
                 </button>
             </div>

@@ -7,11 +7,12 @@
           be copied directly into templates.
 
           Variants and their target surfaces:
-          - `.button`                                    primary blue, light or neutral surfaces
-          - `.button.button--accent`                     gold solid CTA, cream/parchment surfaces
+          - `.button`                                    primary gold solid CTA (default look), light or neutral surfaces
           - `.button.button--outline.button--gold.button--on-light`  gold outline, light surfaces
+          - `.button.button--cream`                      quiet cream pill, secondary CTA on parchment
           - `.button.button--accent-light`               lighter blue solid, deep-blue surfaces
           - `.button.button--outline.button--gold`       gold outline + white text, dark surfaces
+          - `.button.button--ghost`                      transparent fill, tertiary actions
           - `.button-inline`                             inline link, both surfaces
 #}}
 
@@ -41,29 +42,16 @@
                     {{ partial:typography/p content="Rendered on the default page background (`bg-background`, aliased to parchment-100). These variants assume light tokens — text is dark, accents are warm." class="!mb-0 text-foreground/70" }}
                 </header>
 
-                {{# Primary — default solid blue #}}
+                {{# Primary — default solid gold #}}
                 <div class="stack-6">
                     <header class="stack-1">
-                        {{ partial:typography/h3 content="Primary" }}
-                        {{ partial:typography/p_small content="`.button` &mdash; solid blue with white label. Default CTA on neutral and parchment surfaces." color="text-muted" class="!mb-0" }}
+                        {{ partial:typography/h3 content="Primary (gold)" }}
+                        {{ partial:typography/p_small content="`.button` &mdash; solid gold with foreground text. The default look — primary CTA across the site." color="text-muted" class="!mb-0" }}
                     </header>
                     <div class="flex flex-wrap items-center gap-4">
                         <a class="button button--small" href="#"><span>Small</span></a>
                         <a class="button" href="#"><span>Default</span></a>
                         <a class="button button--large" href="#"><span>Large</span></a>
-                    </div>
-                </div>
-
-                {{# Accent — solid gold #}}
-                <div class="stack-6">
-                    <header class="stack-1">
-                        {{ partial:typography/h3 content="Accent (gold)" }}
-                        {{ partial:typography/p_small content="`.button.button--accent` &mdash; solid gold with foreground text. Primary CTA on cream surfaces (auth pages, account settings)." color="text-muted" class="!mb-0" }}
-                    </header>
-                    <div class="flex flex-wrap items-center gap-4">
-                        <a class="button button--accent button--small" href="#"><span>Small</span></a>
-                        <a class="button button--accent" href="#"><span>Default</span></a>
-                        <a class="button button--accent button--large" href="#"><span>Large</span></a>
                     </div>
                 </div>
 
@@ -142,7 +130,6 @@
                     </header>
                     <div class="flex flex-wrap items-center gap-4">
                         <button type="button" class="button" disabled><span>Primary</span></button>
-                        <button type="button" class="button button--accent" disabled><span>Accent</span></button>
                         <button type="button" class="button button--outline button--gold button--on-light" disabled><span>Outline</span></button>
                     </div>
                 </div>
@@ -160,8 +147,8 @@
                 {{# Primary on dark — same .button class, surface drives the contrast #}}
                 <div class="stack-6">
                     <header class="stack-1">
-                        {{ partial:typography/h3 content="Primary" color="text-foreground" }}
-                        {{ partial:typography/p_small content="`.button` &mdash; solid blue with white label. Reads on dark surfaces but has lower contrast than the accent-light variant; prefer accent-light for the deep-blue band." color="text-text" class="!mb-0" }}
+                        {{ partial:typography/h3 content="Primary (gold)" color="text-foreground" }}
+                        {{ partial:typography/p_small content="`.button` &mdash; the default solid-gold CTA reads cleanly against the deep-blue panel. Use it as the primary action everywhere unless the design specifically calls for the lighter accent-blue band variant below." color="text-text" class="!mb-0" }}
                     </header>
                     <div class="flex flex-wrap items-center gap-4">
                         <a class="button button--small" href="#"><span>Small</span></a>

@@ -88,7 +88,7 @@
             <button
                 type="button"
                 @click="signIn()"
-                class="button button--accent w-full"
+                class="button w-full"
             >
                 <span>{{ trans:strings.continue }}</span>
             </button>
@@ -221,12 +221,12 @@
                             </div>
                         {{ /if }}
                         {{ if logged_in }}
-                            <a href="/booking?tour={{ slug }}" class="button button--accent">
+                            <a href="/booking?tour={{ slug }}" class="button">
                                 <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
                             </a>
                         {{ else }}
                             <x-flux::modal.trigger name="booking-modal">
-                                <button type="button" class="button button--accent">
+                                <button type="button" class="button">
                                     <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
                                 </button>
                             </x-flux::modal.trigger>

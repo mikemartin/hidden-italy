@@ -1,9 +1,9 @@
 @layer components {
     .button {
-        @apply inline-flex items-center justify-center gap-2 max-w-full py-3 px-4 bg-primary rounded-full select-none text-white motion-safe:transition disabled:cursor-not-allowed disabled:opacity-50 focus:outline-primary;
+        @apply inline-flex items-center justify-center gap-2 max-w-full py-3 px-4 bg-accent rounded-full select-none text-foreground motion-safe:transition hover:bg-accent/90 disabled:cursor-not-allowed disabled:opacity-50 focus:outline-foreground;
 
         span {
-            @apply min-w-fit text-center text-base font-semibold uppercase leading-none tracking-[0.02em] no-underline motion-safe:transition;
+            @apply min-w-fit text-center text-base text-foreground font-semibold uppercase leading-none tracking-[0.02em] no-underline motion-safe:transition;
         }
 
         /* Large variant */
@@ -114,20 +114,9 @@
         @apply bg-accent-light text-white border-0 hover:bg-accent-2 focus:outline-gold;
     }
 
-    /* Solid gold accent button — primary CTA on cream/parchment surfaces
-       (auth pages, account settings forms). Uppercase dark-on-gold pill,
-       slight darken on hover, matches the wireframe. */
-    .button.button--accent {
-        @apply bg-accent text-foreground border-0 hover:bg-accent/90 focus:outline-foreground;
-
-        span {
-            @apply text-foreground;
-        }
-    }
-
-    /* Quiet cream pill — pairs with `button--accent` as the secondary CTA on
-       parchment/card surfaces (404, empty states). Dark text on parchment-200
-       fill, deepens to parchment-300 on hover. */
+    /* Quiet cream pill — pairs with the default `.button` (gold) as the
+       secondary CTA on parchment/card surfaces (404, empty states). Dark
+       text on parchment-200 fill, deepens to parchment-300 on hover. */
     .button.button--cream {
         @apply bg-parchment-200 text-foreground border-0 hover:bg-parchment-300 focus:outline-foreground;
 

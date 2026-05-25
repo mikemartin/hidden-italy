@@ -26,7 +26,7 @@
                                  and `stack-space-collapse` so adjacent
                                  surface blocks butt up flush. Each
                                  card carries its own `.dark` scope.
-                                 Trailing button uses `button--accent`.
+                                 Trailing button uses the default `.button` (gold).
             - dark             — deep-blue `bg-background` scoped under
                                  `.dark` so semantic tokens flip to
                                  parchment text. Same padding / stack
@@ -65,7 +65,7 @@
     surface uses the lighter accent-blue pill; light and none surfaces
     use the gold pill. The carousel variant renders the button as an
     inline link in the header instead, so this is unused there. #}}
-{{ button_class = is_dark ? 'button--outline button--gold button--on-light' : 'button--accent' }}
+{{ button_class = is_dark ? 'button--outline button--gold button--on-light' : '' }}
 
 {{# Carousel kicks in when there are more than 2 cards. With 1–2
     cards the section stays as a tight 2-column grid so both are

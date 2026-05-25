@@ -58,7 +58,7 @@
                         </button>
                     </x-flux::modal.trigger>
                 {{ else }}
-                    <a href="/tours" class="button button--accent shrink-0" wire:navigate>
+                    <a href="/tours" class="button shrink-0" wire:navigate>
                         <span>Discover tours</span>
                     </a>
                 {{ /if }}
@@ -105,7 +105,7 @@
                     <button
                         type="button"
                         @click="signIn()"
-                        class="button button--accent w-full"
+                        class="button w-full"
                     >
                         <span>{{ trans:strings.continue }}</span>
                     </button>
@@ -163,7 +163,7 @@
                 </p>
 
                 <div class="mt-4 flex flex-wrap items-center justify-center gap-4 sm:gap-6">
-                    <a href="/tours" class="button button--accent button--large" wire:navigate>
+                    <a href="/tours" class="button button--large" wire:navigate>
                         <span>Discover tours</span>
                     </a>
                 </div>

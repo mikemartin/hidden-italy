@@ -20,7 +20,7 @@
                 viewable
             />
 
-            <button type="submit" class="button button--accent button--large w-full" data-test="confirm-password-button">
+            <button type="submit" class="button button--large w-full" data-test="confirm-password-button">
                 <span>{{ __('Confirm') }}</span>
             </button>
         </form>

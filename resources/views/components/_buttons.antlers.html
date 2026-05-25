@@ -8,9 +8,9 @@
 {{ if buttons }}
     {{ if type == 'buttons' }}
         {{# Add a size utility and use different styling when called as a Bard set. #}}
-        <div class="span-md flex flex-wrap gap-3 not-prose">
+        <div class="span-lg flex flex-wrap items-center justify-start gap-6 not-prose">
             {{ buttons }}
-                {{ partial:components/button }}
+                {{ partial:components/button large="true" }}
             {{ /buttons }}
         </div>
     {{ else }}

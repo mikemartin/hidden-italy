@@ -43,7 +43,7 @@
             />
 
             <div class="flex items-center justify-end">
-                <button type="submit" class="button button--accent button--large w-full" data-test="reset-password-button">
+                <button type="submit" class="button button--large w-full" data-test="reset-password-button">
                     <span>{{ __('Reset password') }}</span>
                 </button>
             </div>

@@ -331,8 +331,8 @@
             is dropped on mobile so the footer sits flush with the
             drawer's bottom edge. #}}
         <div class="md:hidden -mx-5 mt-6 px-5 py-4 bg-card border-t border-parchment-200">
-            {{# Primary CTA — uses the .button / .button--accent / .button--large
-                classes directly (rather than the `components/button` partial)
+            {{# Primary CTA — uses the .button / .button--large classes
+                directly (rather than the `components/button` partial)
                 because the label is Alpine-driven via x-text and the spinner
                 is conditionally shown, neither of which the partial covers.
                 Matches the partial's output structure (.button span wrapper). #}}
@@ -340,7 +340,7 @@
                 type="button"
                 @click="count === 0 ? Livewire.dispatch('clear-all-filters') : close()"
                 :disabled="loading"
-                class="button button--accent button--large w-full min-h-14"
+                class="button button--large w-full min-h-14"
             >
                 <svg
                     x-show="loading"

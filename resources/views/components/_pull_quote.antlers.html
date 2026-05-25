@@ -16,13 +16,22 @@
         )}}
     "
 >
-    <blockquote class="p-0 m-0 text-3xl font-bold leading-snug text-foreground">
-        <span class="text-primary">&OpenCurlyDoubleQuote;</span>{{ quote | widont | nl2br }}<span class="text-primary">&CloseCurlyDoubleQuote;</span>
-    </blockquote>
-    {{ if author }}
-        <figcaption class="block mt-4 font-bold text-foreground">
-            <span class="text-primary">- </span>{{ author }}
-        </figcaption>
-    {{ /if }}
+    <div class="flex gap-2 lg:gap-4">
+        <span
+            class="font-display font-medium text-4xl xl:text-6xl leading-none text-accent-2 select-none pointer-events-none"
+            aria-hidden="true"
+        >&ldquo;</span>
+
+        <div>
+            <blockquote class="p-0 m-0 font-display font-medium text-lg xl:text-2xl leading-[1.5] text-foreground text-pretty">
+                {{ quote | widont | nl2br }}
+            </blockquote>
+            {{ if author }}
+                <figcaption class="block mt-4 font-sans font-medium text-base xl:text-lg leading-[1.6] text-foreground">
+                    {{ author }}
+                </figcaption>
+            {{ /if }}
+        </div>
+    </div>
 </figure>
 <!-- End: /components/_pull_quote.antlers.html -->

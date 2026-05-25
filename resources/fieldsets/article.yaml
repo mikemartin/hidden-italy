@@ -34,7 +34,7 @@ fields:
               display: Image
               instructions: 'Add a single image with an optional caption.'
               icon: hero-image-above-text
-              image: image.jpeg
+              image: image.png
               fields:
                 -
                   import: image
@@ -42,7 +42,7 @@ fields:
               display: Video
               instructions: 'Add a YouTube or Vimeo video with an optional caption.'
               icon: movie-video-clip
-              image: video.jpeg
+              image: video.png
               fields:
                 -
                   import: video
@@ -65,7 +65,7 @@ fields:
               display: 'Pull quote'
               instructions: 'Add a pull quote with an optional author.'
               icon: text-formatting-quotation
-              image: pull-quote.jpeg
+              image: pull_quote.png
               fields:
                 -
                   import: pull_quote
@@ -73,7 +73,7 @@ fields:
               display: Table
               instructions: 'Add a data table with headers, rows and columns.'
               icon: add-table
-              image: table.jpeg
+              image: table.png
               fields:
                 -
                   import: table
@@ -81,7 +81,7 @@ fields:
               display: Buttons
               instructions: 'Add one or multiple buttons.'
               icon: link
-              image: buttons.jpeg
+              image: buttons.png
               fields:
                 -
                   import: buttons

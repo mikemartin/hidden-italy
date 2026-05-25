@@ -107,7 +107,7 @@ class extends Component
             />
 
             <div class="flex items-center justify-end">
-                <button type="submit" class="button button--accent button--large w-full" data-test="login-continue-button">
+                <button type="submit" class="button button--large w-full" data-test="login-continue-button">
                     <span>{{ __('Continue') }}</span>
                 </button>
             </div>
@@ -171,7 +171,7 @@ class extends Component
             <flux:checkbox name="remember" :label="__('Remember me')" />
 
             <div class="flex items-center justify-end">
-                <button type="submit" class="button button--accent button--large w-full" data-test="login-button">
+                <button type="submit" class="button button--large w-full" data-test="login-button">
                     <span>{{ __('Log in') }}</span>
                 </button>
             </div>
