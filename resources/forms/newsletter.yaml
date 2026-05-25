@@ -1,10 +1,13 @@
-title: Newsletter
-honeypot: fax
-store: true
 mailchimp:
   enabled: true
   settings:
     primary_email_field: email
     audience_id: 1ab892c5de
-    disable_opt_in: false
+    disable_opt_in: true
     check_consent: false
+content_sender:
+  show_submitted_data: true
+content_owner:
+  show_submitted_data: true
+title: Newsletter
+honeypot: fax
