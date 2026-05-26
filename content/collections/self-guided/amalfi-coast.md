@@ -6,7 +6,7 @@ name: 'The Amalfi Coast'
 region: Campania
 days: 6
 updated_by: 4
-updated_at: 1779762848
+updated_at: 1779763017
 grade: 3
 inclusions:
   - 'Private transfer from Naples on Day 1'
@@ -164,7 +164,10 @@ page_builder:
             content:
               -
                 type: text
-                text: "The walks take between 3 to 5 hours.\_ The distances are short but the paths for two of the walks run approximately 400 metres above sea level meaning a stiff climb up old stone stairs to get to the start. \_For this reason we have introduced shorter, less demanding alternative walks on Days 2, 4 and 5.  While the walks generally follow clearly marked, centuries old paths, there are a couple of sections, where you will have to pay attention!\_ Full details on each walk are on the itinerary.  "
+                text: "The walks take between 3 to 5 hours.\_The distances are short but the paths for two of the walks run approximately 400m above sea level meaning a stiff climb up old stone stairs to get to the start. For this reason we have introduced shorter, less demanding alternative walks on Days 2, 4 and 5. While the walks generally follow clearly marked, centuries old paths, there are a couple of sections, where you will have to pay attention!\_Full details on each walk are on the itinerary. "
+          -
+            type: paragraph
+            content:
               -
                 type: text
                 marks:
@@ -183,7 +186,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Hidden Italy tours use the best available accommodation.\_ On the Amalfi Coast walking tour this means staying each night in very good, centrally located, hotels (most with swimming pools) with whom we've been working for years.\_ The Standard option uses 3-star hotels while the Superior option uses 4-star hotels. \_ We request rooms with sea views. \_All rooms have en suite bathrooms."
+                text: "Hidden Italy tours use the best available accommodation.\_On the Amalfi Coast walking tour this means staying each night in very good, centrally located, hotels (most with swimming pools) with whom we've been working for years.\_The Standard option uses 3-star hotels while the Superior option uses 4-star hotels.  We request rooms with sea views. All rooms have ensuite bathrooms."
         media:
           - self-guided/the-amalfi-coast/hotel-positano.jpg
         type: accommodation
@@ -197,7 +200,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Campania, is a region of contrasts and this is reflected in region's cuisine.\_ With pizza and spaghetti, Campania created dishes that are not only part of the national cuisine but also international gastronomy.\_ Cooking on the Amalfi Coast, is simple, preserving the freshness of its ingredient, including its exceptional vegetables and fruit, grown in volcanic soils, as well as its abundant fresh fish.\_ Campania's excellent wines, which grown around Ischia, Capri, Vesuvius and the Sorrentine Peninsula, have a very long history, dating back to Greek and Roman times."
+                text: "Campania, is a region of contrasts and this is reflected in region's cuisine.\_With pizza and spaghetti, Campania created dishes that are not only part of the national cuisine but also international gastronomy. Cooking on the Amalfi Coast, is simple, preserving the freshness of its ingredient, including its exceptional vegetables and fruit, grown in volcanic soils, as well as its abundant fresh fish.\_Campania's excellent wines, which grown around Ischia, Capri, Vesuvius and the Sorrentine Peninsula, have a very long history, dating back to Greek and Roman times."
           -
             type: paragraph
             content:
@@ -206,7 +209,7 @@ page_builder:
                 marks:
                   -
                     type: italic
-                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+                text: 'Generous breakfasts are included each day. Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit. You will be able to book your meals directly through the Hidden Italy App.'
         media:
           - self-guided/the-amalfi-coast/c.jpg
         type: food
