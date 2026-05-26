@@ -6,7 +6,7 @@ name: 'The Amalfi Coast'
 region: Campania
 days: 6
 updated_by: 4
-updated_at: 1779763597
+updated_at: 1779763727
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
@@ -14,11 +14,11 @@ inclusions:
   - 'Five nights accommodation'
   - 'All breakfasts included'
   - 'Reading lists and historical and cultural notes'
-  - 'Maps and detailed walking instructions'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App with GPS to complement the booklet'
   - 'A curated list of restaurants in each town'
   - 'Daily transfers of baggage between hotels'
-  - '24 hour backup from local manager'
+  - '24-hour support from our local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: southern-italy
 landscapes:
