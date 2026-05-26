@@ -61,18 +61,6 @@ fields:
                     type: bard
                     display: Body
                     instructions: 'Describe the insurance requirements and any recommended providers.'
-                -
-                  handle: link_text
-                  field:
-                    type: text
-                    display: 'Link Text'
-                    width: 50
-                -
-                  handle: link_url
-                  field:
-                    type: text
-                    display: 'Link URL'
-                    width: 50
             booking_cancellation:
               display: 'Booking & Cancellation'
               icon: dates
@@ -89,19 +77,6 @@ fields:
                     type: bard
                     display: Body
                     instructions: 'Outline the booking process, deposit requirements and cancellation policy.'
-                -
-                  handle: link_text
-                  field:
-                    type: text
-                    display: 'Link Text'
-                    width: 50
-                    instructions: 'Optional. e.g. "Read full terms & conditions"'
-                -
-                  handle: link_url
-                  field:
-                    type: text
-                    display: 'Link URL'
-                    width: 50
             general:
               display: General
               icon: Info
