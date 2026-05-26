@@ -6,7 +6,7 @@ name: 'Lazio: Cammino of St Francis Part 3'
 region: Lazio
 days: 8
 updated_by: 4
-updated_at: 1779764053
+updated_at: 1779764134
 grade: 3
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
