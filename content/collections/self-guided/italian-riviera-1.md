@@ -5,18 +5,18 @@ title: 'Liguria - Italian Riviera 1'
 name: 'Italian Riviera 1'
 region: Liguria
 days: 8
-updated_by: 1
-updated_at: 1779336336
+updated_by: 4
+updated_at: 1779772698
 grade: 4
 inclusions:
   - 'Seven nights accommodation'
-  - 'All breakfasts included'
+  - 'All breakfasts'
   - 'Reading lists and historical and cultural notes'
-  - 'Maps and detailed walking instructions'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App with GPS to complement the booklet'
   - 'A curated list of restaurants for each town you visit'
   - 'Daily transfers of baggage between hotels'
-  - '24 hour backup from local manager'
+  - '24-hour support from our local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: northern-italy
 landscapes:
@@ -43,14 +43,20 @@ page_builder:
             text: 'creuze de ma '
           -
             type: text
-            text: "(traditional country lanes lined with dry-stone walls); and forest trails, passing through vineyards and olive groves, constantly accompanied by spectacular views up into the mountains and out over the sea.  Liguria is a region steeped in maritime history (seafaring, shipbuilding and fishing) and the buzzy towns you'll stay in still proudly retain their traditions and vestiges of their colourful pasts.   "
+            text: "(traditional country lanes lined with dry-stone walls); and forest trails, passing through vineyards and olive groves, constantly accompanied by spectacular views up into the mountains and out over the sea. Liguria is a region steeped in maritime history (seafaring, shipbuilding and fishing) and the buzzy towns you'll stay in still proudly retain their traditions and vestiges of their colourful pasts.   "
       -
         type: paragraph
         content:
           -
             type: text
-            text: "To make your adventure complete, along the way you will have the chance to sample one of Italy's finest cuisines, characterised by simple recipes based on the freshest produce, such as pasta al pesto genovese, gnocchi with walnut sauce and crunchy focaccia bread, as well as the freshest seafood including swordfish, mussels, scampi, octopus and anchovies, all accompanied some very fine white wines and olive oils."
+            text: "To make your adventure complete, along the way you will have the chance to sample one of Italy's finest cuisines, characterised by simple recipes based on the freshest produce, such as pasta al pesto genovese, gnocchi with walnut"
     column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: ' sauce and crunchy focaccia bread, as well as the freshest seafood including swordfish, mussels, scampi, octopus and anchovies, all accompanied some very fine white wines and olive oils.'
       -
         type: paragraph
         content:
@@ -118,8 +124,8 @@ page_builder:
         id: mloozlek
         title: 'Walk along the coast'
         description: 'The first section of today’s walk starts from Genoa’s historic port, an ‘urban walk’ through the lane and alleys to a coastal promenade that takes you to a seaside resort.  Here you have the option of shortening the walk by taking the train. The second section follows stone trails that you will walk for much of the tour.  You climb into the foothills with views to the promontory of Portofino, before descending to a picturesque fishing village.'
-        duration: 4
-        distance: 14
+        duration: 4.0
+        distance: 14.0
         elevation: 218
         meals_included:
           - breakfast
@@ -128,8 +134,8 @@ page_builder:
         id: mlop159i
         title: 'Walk to Camogli'
         description: 'This first section of the walk follows creuze de ma again up through hamlets to the ridge of Monte Croce.  It continues along the ridge before descending to another cute fishing village.  Here you can shortening the walk by taking the train. The second leg is straight forward, following lanes and marked trails but it also involves two steep climb with the effort is rewarded by wide views over the Portofino Peninsula and arrive in the busy little port of Camogli.'
-        duration: 5
-        distance: 15
+        duration: 5.0
+        distance: 15.0
         elevation: 263
         meals_included:
           - breakfast
@@ -138,8 +144,8 @@ page_builder:
         id: mlop3c5r
         title: 'Walk to Portofino'
         description: 'Today you leave Camogli by walking above the coastline on the western edge of the Portofino National Park with its vast views across the Gulf of Genoa before climbing up into forest.  You then wind your way down through forest and olive groves to the stunning little village of Portofino, one of the most celebrated spots on the Italian coast.'
-        duration: 3
-        distance: 10
+        duration: 3.0
+        distance: 10.0
         elevation: 271
         meals_included:
           - breakfast
@@ -148,8 +154,8 @@ page_builder:
         id: mlop5205
         title: 'Walk through the Portofino park'
         description: 'This morning you head out of Portofino along a lovely path that winds above the coast passing through olive groves with views over bays and hidden villas to the elegant resort town of Santa Margherita Ligure.  From here you follow a well-marked path through a busy neighbouring port, entering the the final town over a Roman bridge that Hannibal himself crossed, or so the legend goes.'
-        duration: 3
-        distance: 8
+        duration: 3.0
+        distance: 8.0
         elevation: 203
         meals_included:
           - breakfast
@@ -158,8 +164,8 @@ page_builder:
         id: mlop6avf
         title: 'Walk along the Tigullio Gulf'
         description: 'Today’s gorgeous walk starts with a 15-minute funicular ride from the port up to one of the holiest religious sanctuaries in the area, founded in the 16th century.  From here, you follow an ancient and well-marked walk that takes you from the sanctuary along a descending ridge line through beautiful oak and chestnut forests to Giuseppe Garibaldi’s bustling hometown, whose origins predates the Romans.'
-        duration: 3
-        distance: 10
+        duration: 3.0
+        distance: 10.0
         elevation: 181
         meals_included:
           - breakfast
@@ -168,8 +174,8 @@ page_builder:
         id: mmin3e1a
         title: 'Walk to Sestri Levante'
         description: 'Today, the trail takes you along the sea front to a neighbouring town before picking up the pilgrim trail again, climbing up into the hills along an old paved trail to a ruined church with breath-taking views and down over Sestri Levante and the Bay of Silences.'
-        duration: 3
-        distance: 11
+        duration: 3.0
+        distance: 11.0
         elevation: 230
         meals_included:
           - breakfast
@@ -391,7 +397,7 @@ summary:
     content:
       -
         type: text
-        text: 'This 8-day walk takes you along the Italian Riviera following an arc of coastline dotted with fishing towns and glam resorts.  It starts in the port city of Genova, the capital of the region of Liguria, and finishes six days later in enchanting Sestri Levante.  '
+        text: 'This 8-day/7-night walk takes you along the Italian Riviera following an arc of coastline dotted with fishing towns and glam resorts. It starts in the port city of Genova, the capital of the region of Liguria, and finishes in enchanting Sestri Levante.'
 price: 'A$3,350'
 show_from: true
 og_image: liguria-italian-riviera-1-og-1779335285.png
@@ -400,4 +406,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+availability_text: 'Part 1 of the 15 day Italian Riviera walk'
 ---
