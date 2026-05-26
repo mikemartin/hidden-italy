@@ -56,6 +56,7 @@ fields:
       instructions: 'Landscape (4:3) suits scenery; tall (4:5) suits portrait or story panels.'
       options:
         landscape: Landscape
+        square: Square
         tall: Tall
       width: 50
   -

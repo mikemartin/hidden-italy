@@ -303,16 +303,6 @@
     --tw-prose-td-borders:    var(--color-text);
 }
 
-/* Lock h2 / h3 / p / li inside `.prose` to the project type scale (matches
-   `typography/_h2`, `_h3`, and `_p_large`). Lives in `@layer utilities`
-   — the same layer as Tailwind Typography's defaults — so the higher
-   specificity of `.prose h2` (0,1,1) wins over the plugin's
-   `.prose :where(h2)` (0,1,0). Putting these in an earlier layer would
-   lose regardless of specificity. The `:not(:where([class~=not-prose]…))`
-   guard mirrors the Tailwind Typography plugin so opting out via
-   `not-prose` (book grid, related-articles grid, etc.) escapes these
-   rules too. Color is left to the prose tokens above; we only set
-   typography here. */
 /* Strip `.page-builder`'s outer padding when the first or last block
    carries a panel surface (`bg-card` / `bg-card-dark`). The panel's
    own internal padding (`py-10 lg:py-30` from `_block.antlers.html`)
@@ -335,21 +325,12 @@
 }
 
 @layer utilities {
+    .prose :is(h1, h2, h3, h4):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+        @apply font-display;
+    }
+
     .prose h2:not(:where([class~="not-prose"], [class~="not-prose"] *)) {
-        @apply font-display font-bold text-2xl md:text-4xl leading-[1.25] tracking-[0.01em] md:tracking-[-0.01em];
-    }
-
-    .prose h3:not(:where([class~="not-prose"], [class~="not-prose"] *)) {
-        @apply font-display font-bold text-xl md:text-2xl leading-[1.25] md:leading-[1.5];
-    }
-
-    .prose h4:not(:where([class~="not-prose"], [class~="not-prose"] *)) {
-        @apply font-display font-bold text-lg md:text-xl leading-[1.25] md:leading-[1.5];
-    }
-
-    .prose p:not(:where([class~="not-prose"], [class~="not-prose"] *)),
-    .prose li:not(:where([class~="not-prose"], [class~="not-prose"] *)) {
-        @apply text-lg md:text-[21px] font-normal leading-[1.5] md:leading-[1.6];
+        @apply tracking-[0.01em] md:tracking-[-0.01em];
     }
 }
 

@@ -12,7 +12,7 @@ page_builder:
     enabled: true
     heading: 'It started with a walk'
     image_position: right
-    image_aspect: tall
+    image_aspect: square
     section_background: light
     image: self-guided/tuscany-2/rich-martello-yqcvybdd4y-unsplash-1774331143.jpg
     body:
