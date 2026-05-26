@@ -6,7 +6,7 @@ name: 'Italian Riviera 1'
 region: Liguria
 days: 8
 updated_by: 4
-updated_at: 1779772698
+updated_at: 1779773397
 grade: 4
 inclusions:
   - 'Seven nights accommodation'
@@ -103,8 +103,8 @@ page_builder:
         icon: water-sports-swimming.svg
       -
         id: mmbinilb
-        title: 'Relax and enjoy your holiday'
-        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -118,12 +118,12 @@ page_builder:
       -
         id: mlooymbz
         title: 'Arrive in Genova'
-        description: 'Staying in a comfortable hotel in the medieval centre of Genoa, your first day is an opportunity to explore the treasures of a city that once ruled the Mediterranean and was known for centuries as La Superba (the Proud).  Genoa preserves many relics of its ancient and honourable history, including numerous palaces and magnificent art collections of its maritime families, as well as its colourful old port.'
+        description: 'Staying in a comfortable hotel in the medieval centre of Genoa, your first day is an opportunity to explore the treasures of a city that once ruled the Mediterranean and was known for centuries as La Superba (the Proud). Genoa preserves many relics of its ancient and honourable history, including numerous palaces and magnificent art collections of its maritime families, as well as its colourful old port.'
         photo: self-guided/italian-riviera-1/img_9103-a.jpg
       -
         id: mloozlek
         title: 'Walk along the coast'
-        description: 'The first section of today’s walk starts from Genoa’s historic port, an ‘urban walk’ through the lane and alleys to a coastal promenade that takes you to a seaside resort.  Here you have the option of shortening the walk by taking the train. The second section follows stone trails that you will walk for much of the tour.  You climb into the foothills with views to the promontory of Portofino, before descending to a picturesque fishing village.'
+        description: 'The first section of today’s walk starts from Genoa’s historic port, an ‘urban walk’ through the lane and alleys to a coastal promenade that takes you to a seaside resort. Here you have the option of shortening the walk by taking the train. The second section follows stone trails that you will walk for much of the tour. You climb into the foothills with views to the promontory of Portofino, before descending to a picturesque fishing village.'
         duration: 4.0
         distance: 14.0
         elevation: 218
@@ -133,9 +133,9 @@ page_builder:
       -
         id: mlop159i
         title: 'Walk to Camogli'
-        description: 'This first section of the walk follows creuze de ma again up through hamlets to the ridge of Monte Croce.  It continues along the ridge before descending to another cute fishing village.  Here you can shortening the walk by taking the train. The second leg is straight forward, following lanes and marked trails but it also involves two steep climb with the effort is rewarded by wide views over the Portofino Peninsula and arrive in the busy little port of Camogli.'
+        description: 'This first section of the walk follows creuze de ma again up through hamlets to the ridge of Monte Croce.  It continues along the ridge before descending to another cute fishing village. Here you can shortening the walk by taking the train. The second leg is straight forward, following lanes and marked trails but it also involves two steep climb with the effort is rewarded by wide views over the Portofino Peninsula and arrive in the busy little port of Camogli.'
         duration: 5.0
-        distance: 15.0
+        distance: 14.5
         elevation: 263
         meals_included:
           - breakfast
@@ -153,7 +153,7 @@ page_builder:
       -
         id: mlop5205
         title: 'Walk through the Portofino park'
-        description: 'This morning you head out of Portofino along a lovely path that winds above the coast passing through olive groves with views over bays and hidden villas to the elegant resort town of Santa Margherita Ligure.  From here you follow a well-marked path through a busy neighbouring port, entering the the final town over a Roman bridge that Hannibal himself crossed, or so the legend goes.'
+        description: 'This morning you head out of Portofino along a lovely path that winds above the coast passing through olive groves with views over bays and hidden villas to the elegant resort town of Santa Margherita Ligure. From here you follow a well-marked path through a busy neighbouring port, entering the the final town over a Roman bridge that Hannibal himself crossed, or so the legend goes.'
         duration: 3.0
         distance: 8.0
         elevation: 203
@@ -163,7 +163,7 @@ page_builder:
       -
         id: mlop6avf
         title: 'Walk along the Tigullio Gulf'
-        description: 'Today’s gorgeous walk starts with a 15-minute funicular ride from the port up to one of the holiest religious sanctuaries in the area, founded in the 16th century.  From here, you follow an ancient and well-marked walk that takes you from the sanctuary along a descending ridge line through beautiful oak and chestnut forests to Giuseppe Garibaldi’s bustling hometown, whose origins predates the Romans.'
+        description: 'Today’s gorgeous walk starts with a 15-minute funicular ride from the port up to one of the holiest religious sanctuaries in the area, founded in the 16th century. From here, you follow an ancient and well-marked walk that takes you from the sanctuary along a descending ridge line through beautiful oak and chestnut forests to Giuseppe Garibaldi’s bustling hometown, whose origins predates the Romans.'
         duration: 3.0
         distance: 10.0
         elevation: 181
@@ -191,6 +191,7 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
+    title: 'Italian Riviera 1 Itinerary'
   -
     id: rx4jHkrMKUdbVGMC8M341
     title: 'Italian Riviera 1 Experience'
@@ -205,7 +206,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "several walks on this tour are between 12 and 15 kms; orientation is straight forward and the paths are well-marked and maintained; and there are some long climbs.\_ The walks are very varied, including an urban walk, hill climbs along ancient trails; coastal walks and a bushwalk through a national park.\_"
+                text: "Several walks on this tour are between 12 and 15 kms; orientation is straight forward and the paths are well-marked and maintained; and there are some long climbs.\_The walks are very varied, including an urban walk, hill climbs along ancient trails; coastal walks and a bushwalk through a national park.\_"
           -
             type: paragraph
             content:
@@ -224,7 +225,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "You will stay in a variety of accommodation: fancy 4-star hotels, comfortable 3-star hotels and a lovely family run ‘agriturismo’, which has its own restaurant.\_ Hidden Italy uses the best available in each place: it is comfortable and welcoming, with seaview, when possible.\_ Several of the hotels have their own swimming pools but there are also plenty of beautiful beaches along the way."
+                text: 'You will stay in a variety of accommodation: fancy 4-star hotels, comfortable 3-star hotels and a lovely family run ‘agriturismo’, which has its own restaurant. Hidden Italy uses the best available in each place: it is comfortable and welcoming, with sea view, when possible. Several of the hotels have their own swimming pools but there are also plenty of beautiful beaches along the way.'
         media:
           - self-guided/italian-riviera-1/agriturismo-la-pale-1.jpg
         type: accommodation
@@ -238,7 +239,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Like its inhabitants, the food of Ligurian is austere and reserved, based on the finest ingredients hard won from the rocky slopes of the Apennine Mountains and the blue waters of the Mediterranean Sea.\_ The classic dishes are pesto (a basil, pine-nut and garlic paste, traditionally served with a local short pasta and diced potato); focaccia (a dimpled, rustic bread served with herbs and lashing of the excellent local olive oil) and farinata (a delicious flat-bread made from chick peas with more olive oil).\_ There is an abundance of very good seafood, complemented with very good, locally grown vegetables.\_ The most celebrated dry white wine is  Vermentino) but Liguria also produces some good reds too."
+                text: "Like its inhabitants, the food of Ligurian is austere and reserved, based on the finest ingredients hard won from the rocky slopes of the Apennine Mountains and the blue waters of the Mediterranean Sea.\_The classic dishes are pesto (a basil, pine-nut and garlic paste, traditionally served with a local short pasta and diced potato); focaccia (a dimpled, rustic bread served with herbs and lashing of the excellent local olive oil) and farinata (a delicious flat-bread made from chick peas with more olive oil). There is an abundance of very good seafood, complemented with very good, locally grown vegetables.\_ The most celebrated dry white wine is  Vermentino) but Liguria also produces some good reds too."
           -
             type: paragraph
             content:
@@ -247,7 +248,7 @@ page_builder:
                 marks:
                   -
                     type: italic
-                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+                text: "Generous breakfasts are included each day.\_Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_You will be able to make reservations where applicable directly through the Hidden Italy App."
           -
             type: paragraph
         media:
