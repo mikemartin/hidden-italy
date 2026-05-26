@@ -76,6 +76,16 @@ tabs:
               display: 'Now open'
               instructions: 'Show a "Now open" badge on the tour card to flag that bookings are currently being taken.'
               width: 50
+          -
+            handle: badge_text
+            field:
+              type: text
+              display: 'Badge text'
+              placeholder: 'Now open'
+              character_limit: 10
+              instructions: 'Replace "Now open" badge text.'
+              if:
+                now_open: 'equals true'
       -
         display: Summary
         fields:
