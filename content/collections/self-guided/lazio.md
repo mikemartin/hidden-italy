@@ -6,7 +6,7 @@ name: 'Lazio: Cammino of St Francis Part 3'
 region: Lazio
 days: 8
 updated_by: 4
-updated_at: 1779764134
+updated_at: 1779768996
 grade: 3
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
@@ -102,13 +102,13 @@ page_builder:
       -
         id: mlooymbz
         title: 'Arrive in Rieti'
-        description: 'Arrival in Rieti, which is well-connected by rail to Rome.  Pre-dating Rome, this small city was a long-time rival of the capital most famously remembered when the founders of Rome kidnapped its women, the ‘Sabines’, to help populate the new city.  Under Roman rule it was known as Umbilicus Italiae (the belly-button of Italy) because it is the geographical centre of the peninsula.  It has an interesting historical centre and is ringed by the Velino River.'
+        description: 'Arrival in Rieti, which is well-connected by rail to Rome. Pre-dating Rome, this small city was a long-time rival of the capital most famously remembered when the founders of Rome kidnapped its women, the ‘Sabines’, to help populate the new city. Under Roman rule it was known as Umbilicus Italiae (the belly-button of Italy) because it is the geographical centre of the peninsula. It has an interesting historical centre and is ringed by the Velino River.'
         photo: self-guided/cammino-of-st-francis-lazio/1.5.jpg
       -
         id: mloozlek
         title: 'Walk into the Apennines'
-        description: 'A mostly flat and easy stage that takes you along creeks and through fields and forests, crossing a 4th century Roman bridge, before climbing up to a small farming town, whose ancient walls are over 2000 years old.  You stay in a lovely ‘agriturismo’ on the edge of the town.  (5.5 hrs; 21 kms; min: 388 mts, max: 644 mts)'
-        duration: 5.0
+        description: 'A mostly flat and easy stage that takes you along creeks and through fields and forests, crossing a 4th century Roman bridge, before climbing up to a small farming town, whose ancient walls are over 2000 years old. You stay in a lovely ‘agriturismo’ on the edge of the town.'
+        duration: 5.5
         distance: 21.0
         elevation: 256
         meals_included:
@@ -117,7 +117,7 @@ page_builder:
       -
         id: mlop159i
         title: 'Ramble through countryside'
-        description: 'Today’s route takes you south along unsealed country lanes with spectacular mountain scenery and very pleasant walks through orchards, fields and farms, passing an historic village, two lovely Romanesque churches before arriving at an attractive farming village.  (4 hrs; 12 kms; min: 336 mts, max: 550 mts)'
+        description: 'Today’s route takes you south along unsealed country lanes with spectacular mountain scenery and very pleasant walks through orchards, fields and farms, passing an historic village, two lovely Romanesque churches before arriving at an attractive farming village.'
         duration: 4.0
         distance: 12.0
         elevation: 214
@@ -127,7 +127,7 @@ page_builder:
       -
         id: mlop3c5r
         title: 'Farmland and orchards'
-        description: 'Leading down from the mountains onto the Tiber Valley plain, this long and undulating itinerary on unsealed country roads stretches passes through rich farmlands and orchards to finish at a lovely hilltop town.  You will be picked up from here and driven back to your Day 3 accommodation, where you will spend a second night.  (4 hrs; 15 kms; min: 216 mts, max: 545 mts)'
+        description: 'Leading down from the mountains onto the Tiber Valley plain, this long and undulating itinerary on unsealed country roads stretches through rich farmlands and orchards to finish at a lovely hilltop town. You will be picked up from here and driven back to your Day 3 accommodation, where you will spend a second night.'
         duration: 4.0
         distance: 15.0
         elevation: 329
@@ -137,7 +137,7 @@ page_builder:
       -
         id: mlop5205
         title: 'Passieggiata and an Orsini palace'
-        description: 'This morning you will be driven back to the hilltop town to continue your walk.  Passing through a number of pretty towns, todays walk takes you down onto the plains, passing through a nature reserve, following gravel and asphalt roads before finishing in a buzzy hill-town, famous for its passeggiata and an 18th century Orsini palace. With notice, it is possible to break this leg of the walk into two, staying in a small village along the way.  (8 kms then 18 kms).'
+        description: 'This morning you will be driven back to the hilltop town to continue your walk.  Passing through a number of pretty towns, todays walk takes you down onto the plains, passing through a nature reserve, following gravel and asphalt roads before finishing in a buzzy hill-town, famous for its passeggiata and an 18th century Orsini palace. With notice, it is possible to break this leg of the walk into two, staying in a small village along the way. (8 kms then 18 kms).'
         duration: 6.0
         distance: 26.0
         elevation: 398
@@ -147,7 +147,7 @@ page_builder:
       -
         id: mlop6avf
         title: 'First contact with Rome'
-        description: 'The first half of the day is a very pleasant walk through farmland and another nature reserve, while the second half transitions into the busy outer suburbs of Rome finishing at lovely 4-star hotel in the fashionable Monte Sacro district.  (4.5 hrs; 18 kms; min: 32 mts, max: 164 mts).'
+        description: 'The first half of the day is a very pleasant walk through farmland and another nature reserve, while the second half transitions into the busy outer suburbs of Rome finishing at lovely hotel in the fashionable Monte Sacro district.  (4.5 hrs; 18 kms; min: 32 mts, max: 164 mts).'
         duration: 5.0
         distance: 18.0
         elevation: 132
@@ -157,7 +157,7 @@ page_builder:
       -
         id: mlop8uiy
         title: 'Arrive at the Vatican'
-        description: 'While there is a nearby station that can take you directly to the Vatican, today’s walk is well worth the effort, following a cycle path/greenway that winds along beside the Aniene River before crossing the famous Milvio Bridge then following the Tiber River past eight more bridges to the Castel Sant’Angelo and St Peter’s Square.  (4 hrs;15 kms; min: 9 mts, max 67 mts)'
+        description: 'While there is a nearby station that can take you directly to the Vatican, today’s walk is well worth the effort, following a cycle path/greenway that winds along beside the Aniene River before crossing the famous Milvio Bridge then following the Tiber River past eight more bridges to the Castel Sant’Angelo and St Peter’s Square.'
         duration: 4.0
         distance: 15.0
         elevation: 58
