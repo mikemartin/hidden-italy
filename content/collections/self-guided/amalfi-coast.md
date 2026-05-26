@@ -6,19 +6,19 @@ name: 'The Amalfi Coast'
 region: Campania
 days: 6
 updated_by: 4
-updated_at: 1779763017
+updated_at: 1779763032
 grade: 3
 inclusions:
-  - 'Private transfer from Naples on Day 1'
-  - 'Private transfer back to Naples on Day 6'
+  - 'Private transfer from Naples to Ravello on Day 1'
+  - 'Private transfer from Positano to Naples on Day 6'
   - 'Five nights accommodation'
-  - 'All breakfasts'
+  - 'All breakfasts included'
   - 'Reading lists and historical and cultural notes'
-  - 'The Hidden Italy booklet with maps and detailed walking instructions'
-  - 'The Hidden Italy App to complement the booklet'
+  - 'Maps and detailed walking instructions'
+  - 'Hidden Italy App with GPS to complement the roadbook'
   - 'A curated list of restaurants in each town'
   - 'Daily transfers of baggage between hotels'
-  - '24 hour support from local manager'
+  - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: southern-italy
 landscapes:
@@ -33,7 +33,7 @@ page_builder:
         content:
           -
             type: text
-            text: "The Amalfi Coast is surely one of the most spectacular parts of the Mediterranean, with steep mountains rising almost 1500m above the limpid aquamarine sea and whitewashed villages that seem to have tumbled down the slopes to the water's edge. It is an area of vibrant colours, lush vegetation and warm, boisterous people. And then there is the food (the finest in the south?)!"
+            text: "The Amalfi Coast is surely one of the most spectacular parts of the Mediterranean, with steep mountains rising almost 1500 metres above the limpid aquamarine sea and whitewashed villages that seem to have tumbled down the slopes to the water's edge. It is an area of vibrant colours, lush vegetation and warm, boisterous people. And then there is the food (the finest in the south?)!"
     column_right:
       -
         type: paragraph
@@ -81,8 +81,8 @@ page_builder:
         icon: water-sports-swimming.svg
       -
         id: mmbinilb
-        title: 'Pull on your boots, we’ll handle the rest'
-        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
+        title: 'Relax and enjoy your holiday'
+        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -102,7 +102,7 @@ page_builder:
       -
         id: mloozlek
         title: 'Walk the Valle delle Ferriere'
-        description: 'Today you have two options. The first winds down stone paths to the coast and then wraps around to the town of Amalfi, leaving plenty of time to explore this fascinating town that once ruled the Mediterranean Sea. The second option is a more challenging, longer walk into the extraordinary Valle delle Ferriere, which wraps through a national park, passing towering cliffs, chestnut forests, and waterfalls, with breathtaking views over the coast. (4hrs; 13.5km; max: 610m)'
+        description: 'Today you have two options.  The first winds down stone paths to the coast and then wraps around to the town of Amalfi, leaving plenty of time to explore this fascinating town that once ruled the Mediterranean Sea. The second option is a more challenging, longer walk into the extraordinary Valle delle Ferriere, which wraps through a national park, passing towering cliffs, chestnut forests, and waterfalls, with breathtaking views over the coast. (4hrs; 13.5km; max: 610m)'
         duration: 2.0
         distance: 3.0
         elevation: -361
@@ -112,9 +112,9 @@ page_builder:
       -
         id: mlop159i
         title: 'Walk above the coast'
-        description: "Today's walk follows an ancient path that has linked the villages between for centuries, passing an ancient monastery before dropping down to a little hamlet sitting above the sea, where you'll stay the night. Below your hotel is a beautiful hidden port, with coloured fishing boats, a small shingle beach and a very pleasant bar. In the afternoon, you will also have time to visit the famous nearby Grotta Smeralda."
+        description: "Today's walk follows an ancient path that has linked the villages between for centuries, passing an ancient monastery before dropping down to a little hamlet sitting above the sea, where you'll stay the night. B elow your hotel is a beautiful hidden port, with coloured fishing boats, a small shingle beach and a very pleasant bar. In the afternoon, you will also have time to visit the famous nearby Grotta Smeralda."
         duration: 2.0
-        distance: 5.5
+        distance: 6.0
         elevation: 261
         meals_included:
           - breakfast
@@ -122,9 +122,9 @@ page_builder:
       -
         id: mlop3c5r
         title: 'Climbing high'
-        description: 'Today you have a choice of two trails. The first, more demanding trail, starts with a steep climb through hamlets to a busy village. It then contours around the mountains before entering a green valley and descending to your accommodation, a lovely family-run hotel with views across the gulf to Positano. The second, less demanding, trail follows a lower route along a path above the sea which has spectacular views. After crossing a fjord, you climb up to your accommodation. (3 hrs; 7 kms)'
+        description: 'Today you have a choice of two trails.  The first, more demanding trail, starts with a steep climb through hamlets to a busy village.  It then contours around the mountains before entering a green valley and descending to your accommodation, a lovely family-run hotel with views across the gulf to Positano.  The second, less demanding, trail follows a lower route along a path above the sea which has spectacular views.  After crossing a fjord, you climb up to your accommodation.  (3 hrs; 7 kms)'
         duration: 4.0
-        distance: 10.5
+        distance: 11.0
         elevation: 570
         meals_included:
           - breakfast
@@ -132,7 +132,7 @@ page_builder:
       -
         id: mlop5205
         title: 'Walk the Path of the Gods'
-        description: 'It is not by chance that the locals have baptised this walk with the rather extravagant name of Via degli Dei, the Path of the God’s. Despite the tourist hyperbole that has made this one of the most famous walks in the area, the views and the hike are extraordinary.  It is a big climb up to the start of the path but it is worth it, and from there it is all down hill to arrive in magical Positano!'
+        description: 'It is not by chance that the locals have baptised this walk with the rather extravagant name of Via degli Dei, the Path of the God’s.  Despite the tourist hyperbole that has made this one of the most famous walks in the area, the views and the hike are extraordinary.  It is a big climb up to the start of the path but it is worth it, and from there it is all down hill to arrive in magical Positano!'
         duration: 4.0
         distance: 11.0
         elevation: 517
@@ -143,6 +143,9 @@ page_builder:
         id: mlop6avf
         title: 'Transfer to Naples'
         description: 'After breakfast in your hotel, at a time that suits you, you will be taken by private vehicle back to the Naples, an hour or so north.'
+        duration: 2.0
+        distance: 6.0
+        elevation: 181
         meals_included:
           - breakfast
         photo: self-guided/the-amalfi-coast/a.jpg
@@ -164,10 +167,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The walks take between 3 to 5 hours.\_The distances are short but the paths for two of the walks run approximately 400m above sea level meaning a stiff climb up old stone stairs to get to the start. For this reason we have introduced shorter, less demanding alternative walks on Days 2, 4 and 5. While the walks generally follow clearly marked, centuries old paths, there are a couple of sections, where you will have to pay attention!\_Full details on each walk are on the itinerary. "
-          -
-            type: paragraph
-            content:
+                text: "The walks take between 3 to 5 hours.\_ The distances are short but the paths for two of the walks run approximately 400 metres above sea level meaning a stiff climb up old stone stairs to get to the start. \_For this reason we have introduced shorter, less demanding alternative walks on Days 2, 4 and 5.  While the walks generally follow clearly marked, centuries old paths, there are a couple of sections, where you will have to pay attention!\_ Full details on each walk are on the itinerary.  "
               -
                 type: text
                 marks:
@@ -186,7 +186,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Hidden Italy tours use the best available accommodation.\_On the Amalfi Coast walking tour this means staying each night in very good, centrally located, hotels (most with swimming pools) with whom we've been working for years.\_The Standard option uses 3-star hotels while the Superior option uses 4-star hotels.  We request rooms with sea views. All rooms have ensuite bathrooms."
+                text: "Hidden Italy tours use the best available accommodation.\_ On the Amalfi Coast walking tour this means staying each night in very good, centrally located, hotels (most with swimming pools) with whom we've been working for years.\_ The Standard option uses 3-star hotels while the Superior option uses 4-star hotels. \_ We request rooms with sea views. \_All rooms have en suite bathrooms."
         media:
           - self-guided/the-amalfi-coast/hotel-positano.jpg
         type: accommodation
@@ -200,7 +200,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Campania, is a region of contrasts and this is reflected in region's cuisine.\_With pizza and spaghetti, Campania created dishes that are not only part of the national cuisine but also international gastronomy. Cooking on the Amalfi Coast, is simple, preserving the freshness of its ingredient, including its exceptional vegetables and fruit, grown in volcanic soils, as well as its abundant fresh fish.\_Campania's excellent wines, which grown around Ischia, Capri, Vesuvius and the Sorrentine Peninsula, have a very long history, dating back to Greek and Roman times."
+                text: "Campania, is a region of contrasts and this is reflected in region's cuisine.\_ With pizza and spaghetti, Campania created dishes that are not only part of the national cuisine but also international gastronomy.\_ Cooking on the Amalfi Coast, is simple, preserving the freshness of its ingredient, including its exceptional vegetables and fruit, grown in volcanic soils, as well as its abundant fresh fish.\_ Campania's excellent wines, which grown around Ischia, Capri, Vesuvius and the Sorrentine Peninsula, have a very long history, dating back to Greek and Roman times."
           -
             type: paragraph
             content:
@@ -209,7 +209,7 @@ page_builder:
                 marks:
                   -
                     type: italic
-                text: 'Generous breakfasts are included each day. Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit. You will be able to book your meals directly through the Hidden Italy App.'
+                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
         media:
           - self-guided/the-amalfi-coast/c.jpg
         type: food
@@ -358,7 +358,7 @@ summary:
       -
         type: text
         text: "This fabulous continuous walk along the length of the breathtaking Amalfi Coast starts with a private transfer from Naples to Ravello and then finishes with a private transfer from Positano back to Naples at the end. In between you get to experience the 'costiera' in all its colour and glory."
-availability_text: 'Standard (3 star hotels) & Superior (4 star hotels) option available'
+availability_text: 'Available in Standard (3 star hotels) and Superior (4 star hotels) options'
 price: 'A$3,250'
 show_from: true
 og_image: campania-the-amalfi-coast-og-1779335281.png
