@@ -5,18 +5,18 @@ title: 'Liguria - Italian Riviera 2'
 name: 'Italian Riviera 2'
 region: Liguria
 days: 8
-updated_by: 1
-updated_at: 1779336344
+updated_by: 4
+updated_at: 1779838279
 grade: 4
 inclusions:
   - 'Eight nights accommodation'
-  - 'All breakfasts included'
+  - 'All breakfasts'
   - 'Reading lists and historical and cultural notes'
-  - 'Maps and detailed walking instructions'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App with GPS to complement the booklet'
   - 'A curated list of restaurants for each town you visit'
   - 'Daily transfers of baggage between hotels'
-  - '24 hour backup from local manager'
+  - '24-hour support from our local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: northern-italy
 landscapes:
@@ -35,8 +35,14 @@ page_builder:
         content:
           -
             type: text
-            text: "The highlights of the tour include:\_ strolling around Sestri Levante’s Bay of Silence; the tranquillity of the trails that take you through oak and pine forests on the first two walks; the breath-taking sea views from the ruined tower on Punte Baffe; the lanes of old Levanto;\_ swimming at the Mediterranean beaches; your first views of Vernazza; dinner al fresco on the top of a tower overlooking the port; walking through the vineyards high above the sea; a crisp glass of local Cinque Terre white wine in Riomaggiore; coming down above the cliffs to Portovenere; a moonlight walk to San Pietro at the tip of Portovenere; the boat ride across the gulf for your last walk."
+            text: "The highlights of the tour include:\_strolling around Sestri Levante’s Bay of Silence; the tranquillity of the trails that take you through oak and pine forests on the first two walks; the breath-taking sea views from the ruined tower on Punte Baffe; the lanes of old Levanto;\_ swimming at the Mediterranean beaches; your first views of Vernazza; dinner al fresco on the top of a tower overlooking the port; walking through the vineyards high above the sea; a crisp glass of local Cinque Terre white wine in Riomaggiore; coming down "
     column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'above the cliffs to Portovenere; a moonlight walk to San Pietro at the tip of Portovenere; the boat ride across the gulf for your last walk.'
       -
         type: paragraph
         content:
@@ -45,7 +51,7 @@ page_builder:
             marks:
               -
                 type: italic
-            text: 'Please note, that the Italian Riviera 2 walk is the second section of the complete 15 day Italian Riviera walk, which takes you the whole length of the whole eastern Italian Riviera, from Genoa to Portofino, passing through the Cinque Terre along the way.  '
+            text: 'Please note, that the Italian Riviera 2 walk is the second section of the complete 15 day Italian Riviera walk, which takes you the whole length of the whole eastern Italian Riviera, from Genoa to Portofino, passing through the Cinque Terre along the way. '
     title: 'From the Bay of Silence to Portovenere'
     images:
       - self-guided/italian-riviera-2/25.jpg
@@ -104,8 +110,8 @@ page_builder:
         id: mloozlek
         title: 'Walk along the coast'
         description: 'The first section on today’s walk follows a trail through forest to a headland with views over to Portofino.  From here the trail rounds the peninsula, passing through more forest before descending to a small town with a long sandy beach.  Here you have the option of shortening the walk by taking the train.  The second section climbs up to another headland with the ruins of a medieval lookout tower.  It then contours through forest before descending to an attractive town with a small port.'
-        duration: 5
-        distance: 15
+        duration: 5.0
+        distance: 15.0
         elevation: 368
         meals_included:
           - breakfast
@@ -114,8 +120,8 @@ page_builder:
         id: mlop159i
         title: 'Walk to Camogli'
         description: 'The first section today passes through one of the most unspoilt sections of the Ligurian coast, to an attractive neighbouring town.  Here you have the option of shortening the walk by taking the train. The second section involves a steep climb at the beginning, following an ancient path through oak forests, one of the most beautiful walks along the whole route.  You finishes at a very quaint town that has a long sandy beach.'
-        duration: 6
-        distance: 17
+        duration: 6.0
+        distance: 17.0
         elevation: 333
         meals_included:
           - breakfast
@@ -124,8 +130,8 @@ page_builder:
         id: mlop3c5r
         title: 'Walk to the Cinque Terre'
         description: 'There is a gentle start to today’s walk as you leave town along a disused railway tunnel which has recently been converted into a cycle/walking path, taking you to Levanto.  After walking along the waterfront, the trail picks a superb coastal path, going through woods with breathtaking views of the gulf and the Cinque Terre.  It finishes at the first of the five famous villages.'
-        duration: 3
-        distance: 10
+        duration: 3.0
+        distance: 10.0
         elevation: 310
         meals_included:
           - breakfast
@@ -134,8 +140,8 @@ page_builder:
         id: mlop5205
         title: 'Walk to Vernazza'
         description: "With today's walk you start on  the Sentiero Azzuro, the celebrated path that links the five villages of the Cinque Terre. The walk weaves along cliffs and through terraces, offering spectacular views over the bays and the villages, taking you to Vernazza. (5 kms; 2.5 hrs; min: 3 mts, max: 200 mts)."
-        duration: 3
-        distance: 5
+        duration: 3.0
+        distance: 5.0
         elevation: 197
         meals_included:
           - breakfast
@@ -144,8 +150,8 @@ page_builder:
         id: mlop6avf
         title: 'Walk to Riomaggiore'
         description: "This morning, you pick up the Sentiero Azzuro again passing through olive groves with views up to the ancient terraces climbing  the mountains above you  You pass through two more of the Cinque Terre villages (where you can stop for lunch) before finishing at the last of the five villages, where you'll stay the night.  A beautiful alternative high walk through the vineyards of Volastra for this day is included as a more challenging option."
-        duration: 2
-        distance: 6
+        duration: 2.0
+        distance: 6.0
         elevation: 184
         meals_included:
           - breakfast
@@ -154,8 +160,8 @@ page_builder:
         id: mmin3e1a
         title: 'Walk to Portovenere'
         description: 'Today you walk above the eastern part of the gulf to Portovenere.  It’s a big climb up to the ridge.  The first stop is a religious sanctuary, before continuing up through forest to the top of the ridge.  From here you slowly walk down to a small village where you can pause for a break.  The final section is a long steady descent through forest to the spectacularly situated Portovenere.'
-        duration: 4
-        distance: 14
+        duration: 4.0
+        distance: 14.0
         elevation: 558
         meals_included:
           - breakfast
@@ -166,8 +172,8 @@ page_builder:
         description: 'The walk this morning starts with a short boat ride across the narrow waterway that separates Portovenere from a fascinating island which has a small fishing village and the remains of a monastery from the 11th century.  You return by boat to Portovenere.  (2 hrs; 6 kms; min: 1 mt; max: 181 mts)'
         meals_included:
           - breakfast
-        duration: 2
-        distance: 6
+        duration: 2.0
+        distance: 6.0
         elevation: 180
         photo: self-guided/italian-riviera-2/img_7590.jpg
       -
@@ -422,7 +428,7 @@ finish_location:
 now_open: false
 seasons:
   - autumn
-headline: '8 days coastal walking'
+headline: '8 days of coastal walking'
 teaser: "Walk Italy's most celebrated coastline from romantic Sestri Levante to the Cinque Terre!"
 summary:
   -
@@ -430,7 +436,7 @@ summary:
     content:
       -
         type: text
-        text: "This is a walk of two parts: the first three days take you through some of least visited parts of the Ligurian Coast, following well-marked mountain trails through unspoilt forests and staying in laid-back coastal towns quite untouched by tourism.\_ The remaining days take you along the trails of the Cinque Terre, one of the most celebrated and spectacular stretches of coastline in the Mediterranean, following stone paths that have linked the fishing villages for centuries."
+        text: "This 8-day/7-night walk is a two-part walk: the first three days take you through some of the least-visited parts of the Ligurian Coast, following well-marked mountain trails through unspoilt forests and staying in laid-back coastal towns quite untouched by tourism.\_The remaining days take you along the trails of the Cinque Terre, one of the most celebrated and spectacular stretches of coastline in the Mediterranean, following stone paths that have linked the fishing villages for centuries."
 price: 'A$3,650'
 show_from: true
 og_image: liguria-italian-riviera-2-og-1779335287.png
@@ -439,4 +445,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+availability_text: 'Part 2 of the 15 day Italian Riviera walk'
 ---
