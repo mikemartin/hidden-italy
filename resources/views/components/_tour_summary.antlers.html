@@ -157,7 +157,7 @@
                         <dd class="mt-1 flex items-center gap-2">
                             <x-lucide-footprints class="size-5 lg:size-6 text-accent-2 shrink-0" stroke-width="2" aria-hidden="true" />
                             <span class="font-display font-medium text-base lg:text-lg leading-[1.5] text-foreground">
-                                {{ trans:strings.grade ?? 'Grade' }} {{ grade }} / 5
+                                {{ grade }} / 5
                             </span>
                             {{ if grade_description }}
                                 <button
@@ -215,7 +215,7 @@
                                         x-data
                                         @click.prevent="document.getElementById('leader')?.scrollIntoView({ behavior: 'smooth', block: 'start' })"
                                         class="font-display font-medium text-base lg:text-lg leading-[1.5] text-foreground underline underline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold rounded-sm"
-                                    >{{ title }}</a>
+                                    >{{ title | explode:' ' | first }}</a>
                                 </dd>
                             </div>
                         </div>

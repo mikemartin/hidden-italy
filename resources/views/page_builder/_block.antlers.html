@@ -9,13 +9,19 @@
           classes via `class`.
 
           When `block_id` is set, the `<section>` itself owns the
-          `x-intersect` (sub-nav active spy). The anchor-scroll offset
-          is handled by `scroll-padding-top` on `<html>` in
-          `layout.antlers.html` — keeping it in one place avoids the
-          spec-defined additive stacking with per-section
-          `scroll-margin-top`. No inner sentinel — the slight
-          earliness of the section-bbox intersect vs a heading-aware
-          sentinel is acceptable for the sub-nav's purpose.
+          `x-intersect` (sub-nav active spy). Anchor-scroll offsets
+          layer two sources:
+            - `scroll-padding-top` on `<html>` (layout.antlers.html)
+              clears the fixed header / sticky sub-nav for every
+              anchor.
+            - Flush sections additionally carry
+              `scroll-mt-10 md:scroll-mt-14` so their heading lands
+              with a small breathing room below the sub-nav, in
+              keeping with the visual spacing panel sections get
+              from their own internal padding. No
+              inner sentinel — the slight earliness of the
+              section-bbox intersect vs a heading-aware sentinel is
+              acceptable for the sub-nav's purpose.
 
           The parameter is `block_id` rather than `id` to avoid
           clashing with the block UUID that Statamic's page_builder
@@ -35,17 +41,23 @@
 {{ section_show_topo = section_has_surface && {block:show_topography} }}
 
 {{ section_panel_class = switch(
-    (section_bg == 'dark') => 'dark stack-space-collapse py-10 lg:py-30 bg-card-dark relative overflow-hidden',
-    (section_bg == 'light') => 'stack-space-collapse py-10 lg:py-30 bg-card border-y border-parchment-300 relative overflow-hidden',
+    (section_bg == 'dark') => 'dark stack-space-collapse py-16 lg:py-24 bg-card-dark relative overflow-hidden',
+    (section_bg == 'light') => 'stack-space-collapse py-16 lg:py-24 bg-card border-y border-parchment-300 relative overflow-hidden',
     () => ''
 ) }}
 
 {{ section_topo_tint = section_is_dark ? 'text-accent-light' : 'text-parchment-400' }}
 
+{{# Flush sections need an extra scroll-margin so anchor jumps land
+    the heading with the same breathing room a panel section gets
+    from its own `py-16 lg:py-24` padding. Panels already have that
+    gap baked in, so they skip the offset. #}}
+{{ section_scroll_offset = section_has_surface ? '' : 'scroll-mt-10 md:scroll-mt-14' }}
+
 <section
     {{ if block_id }}
         id="{{ block_id }}"
-        class="fluid-grid relative {{ class }} {{ section_panel_class }}"
+        class="fluid-grid relative {{ section_scroll_offset }} {{ class }} {{ section_panel_class }}"
         x-data
         x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('{{ block_id }}')"
     {{ else }}
