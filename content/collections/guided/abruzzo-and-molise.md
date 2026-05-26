@@ -5,8 +5,8 @@ title: 'Abruzzo and Molise - Abruzzo and Molise'
 name: 'Abruzzo and Molise'
 region: 'Abruzzo and Molise'
 days: 13
-updated_by: 1
-updated_at: 1779336240
+updated_by: 3
+updated_at: 1779765687
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
@@ -120,8 +120,8 @@ page_builder:
         id: mloqzruj
         title: 'Walk through rolling hills'
         description: 'This morning we go for a fascinating walk starting from our village, following an undulating trail that was once used by drovers moving their flocks between the mountains and the coast.  The first stop is at the spectacular ruins of a medieval castle.  From here we walk down into the valley past a lake and farmlands to the next village.  We’ll have a cut lunch along the way.  After refreshments, we will be driven back to base.  The evening is free.'
-        duration: 5
-        distance: 15
+        duration: 5.0
+        distance: 15.0
         elevation: 650
         meals_included:
           - breakfast
@@ -140,8 +140,8 @@ page_builder:
         id: mlor23s2
         title: 'Walk on the Gran Sasso'
         description: 'This morning we explore some of the most spectacular scenery in central Italy: the Campo Imperatore, a vast high plain and the Gran Sasso, the Apennine’s highest peak.  This walk is one of the most rewarding in Abruzzo. It starts with a gradual climb up a well-made path and then contours up to a pass with a superb view of the Gran Sasso and the surrounding countryside.  We then drive back to our base, having a delicious lunch on the way.  The rest of the afternoon and evening are free.'
-        duration: 3
-        distance: 6
+        duration: 3.0
+        distance: 6.0
         elevation: 360
         meals_included:
           - breakfast
@@ -160,8 +160,8 @@ page_builder:
         id: mlor6aar
         title: 'Walk along a ridge'
         description: 'This morning, we take a thirty-minute winding drive up to a small village that is the highest point in the valley.  From here we follow trails up through beech forest to a long ridge, with very spectacular views.  We will have a cut lunch in the forest.  The rest of the afternoon is free.  In the evening, we will have a short transfer to one of the surprises of the area, a lovely farm-based restaurant where we will have degustation dinner prepared by their Michelin-starred local chef.'
-        duration: 4
-        distance: 10
+        duration: 4.0
+        distance: 10.0
         elevation: 340
         meals_included:
           - breakfast
@@ -181,8 +181,8 @@ page_builder:
         id: mlora14b
         title: 'Walk in ancient beech forest'
         description: 'At seven thousand kilometres, the Sentiero Italia is the longest walking trail in the world. It was created to connect all the Italian regions and unite their cultural diversity, beauty and traditions. This morning, we walk a section of Sentiero, a loop walk following a well-made trail through spectacular old-growth beech forest. After a cut lunch along the way, we return to our base where you can swim in the pool and relax for the rest of the afternoon. We have dinner at the agriturismo.'
-        duration: 4
-        distance: 9
+        duration: 4.0
+        distance: 9.0
         elevation: 340
         meals_included:
           - breakfast
@@ -222,7 +222,7 @@ page_builder:
       -
         id: se4QkDqZh0I8FJcN9EucR
         title: 'Exceptional walking'
-        total_distance: 40
+        total_distance: 40.0
         total_elevation: 1690
         grade: 2
         description:
