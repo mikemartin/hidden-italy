@@ -6,7 +6,7 @@ name: 'The Amalfi Coast'
 region: Campania
 days: 6
 updated_by: 4
-updated_at: 1779763727
+updated_at: 1779773435
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
@@ -209,7 +209,7 @@ page_builder:
                 marks:
                   -
                     type: italic
-                text: "Generous breakfasts are included each day. Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_You will be able to book your meals directly through the Hidden Italy App."
+                text: "Generous breakfasts are included each day.\_Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_You will be able to make reservations where applicable directly through the Hidden Italy App."
         media:
           - self-guided/the-amalfi-coast/c.jpg
         type: food
