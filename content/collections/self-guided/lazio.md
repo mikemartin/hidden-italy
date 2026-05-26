@@ -6,18 +6,18 @@ name: 'Lazio: Cammino of St Francis Part 3'
 region: Lazio
 days: 8
 updated_by: 4
-updated_at: 1779402972
+updated_at: 1779764053
 grade: 3
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
   - 'Seven nights accommodation'
-  - 'All breakfasts included'
+  - 'All breakfasts'
   - 'Reading lists, historical and cultural notes'
-  - 'Detailed roadbook with maps and daily notes (updated annually)'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App with GPS to complement the booklet'
   - 'A curated list of restaurants for each town you visit'
   - 'Daily transfers of baggage between hotels each morning'
-  - '24 hour backup from our operations manager'
+  - '24-hour support from our local manager'
   - 'City taxes are not included in t'
 locations: central-italy
 landscapes:
@@ -35,13 +35,26 @@ page_builder:
         content:
           -
             type: text
-            text: "From here, the final walk takes along a dedicated 'greenway' from the Monte Sacro district in northern Rome along the banks the Aniene River and  the Tiber rivers to Castel Sant'Angelo.  From here you walk up the Via della Conciliazione to embracing arms Piazza San Pietro and the stairs of St Peter’s Basilica, one of the most spectacular buildings in the world, a memorable finale to a memorable walk."
+            text: 'Starting in the rolling countryside and forests of northern Lazio, seeing the first glimpse of the domes of Rome on the horizon and finally arriving at the magnificent stairs of St Peters in the heart of Rome, a truly moving experience, '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The final walk takes along a dedicated 'greenway' from the Monte Sacro district in northern Rome along the banks of the Aniene River and the Tiber River to Castel Sant'Angelo."
     title: 'A memorable finale at St Peter’s Basilica'
     images:
       - self-guided/cammino-of-st-francis-lazio/p6051915.jpg
       - self-guided/cammino-of-st-francis-lazio/12.9.jpg
       - self-guided/cammino-of-st-francis-lazio/14.jpg
     hide_from_subnav: false
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'From here you walk up the Via della Conciliazione to the embracing arms of Piazza San Pietro and the stairs of St Peter’s Basilica, one of the most spectacular buildings in the world, a memorable finale to a memorable walk. This independent walk is the third and final section of the Cammino of St Francis.'
   -
     id: mloocwbk
     heading: 'Highlights of the Lazio tour'
@@ -73,8 +86,8 @@ page_builder:
         icon: culture-Colosseum.svg
       -
         id: mlooun08
-        title: 'Relax, you are fully-supported'
-        summary: 'Everything is organised so you can relax. Your bags are moved each day; you have maps, an App and 24-hour local support.'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: restaurant-glass-beverage-drink-restaurant-bar-dining.svg
     type: highlights
     enabled: true
@@ -95,8 +108,8 @@ page_builder:
         id: mloozlek
         title: 'Walk into the Apennines'
         description: 'A mostly flat and easy stage that takes you along creeks and through fields and forests, crossing a 4th century Roman bridge, before climbing up to a small farming town, whose ancient walls are over 2000 years old.  You stay in a lovely ‘agriturismo’ on the edge of the town.  (5.5 hrs; 21 kms; min: 388 mts, max: 644 mts)'
-        duration: 5
-        distance: 21
+        duration: 5.0
+        distance: 21.0
         elevation: 256
         meals_included:
           - breakfast
@@ -105,8 +118,8 @@ page_builder:
         id: mlop159i
         title: 'Ramble through countryside'
         description: 'Today’s route takes you south along unsealed country lanes with spectacular mountain scenery and very pleasant walks through orchards, fields and farms, passing an historic village, two lovely Romanesque churches before arriving at an attractive farming village.  (4 hrs; 12 kms; min: 336 mts, max: 550 mts)'
-        duration: 4
-        distance: 12
+        duration: 4.0
+        distance: 12.0
         elevation: 214
         meals_included:
           - breakfast
@@ -115,8 +128,8 @@ page_builder:
         id: mlop3c5r
         title: 'Farmland and orchards'
         description: 'Leading down from the mountains onto the Tiber Valley plain, this long and undulating itinerary on unsealed country roads stretches passes through rich farmlands and orchards to finish at a lovely hilltop town.  You will be picked up from here and driven back to your Day 3 accommodation, where you will spend a second night.  (4 hrs; 15 kms; min: 216 mts, max: 545 mts)'
-        duration: 4
-        distance: 15
+        duration: 4.0
+        distance: 15.0
         elevation: 329
         meals_included:
           - breakfast
@@ -125,8 +138,8 @@ page_builder:
         id: mlop5205
         title: 'Passieggiata and an Orsini palace'
         description: 'This morning you will be driven back to the hilltop town to continue your walk.  Passing through a number of pretty towns, todays walk takes you down onto the plains, passing through a nature reserve, following gravel and asphalt roads before finishing in a buzzy hill-town, famous for its passeggiata and an 18th century Orsini palace. With notice, it is possible to break this leg of the walk into two, staying in a small village along the way.  (8 kms then 18 kms).'
-        duration: 6
-        distance: 26
+        duration: 6.0
+        distance: 26.0
         elevation: 398
         meals_included:
           - breakfast
@@ -135,8 +148,8 @@ page_builder:
         id: mlop6avf
         title: 'First contact with Rome'
         description: 'The first half of the day is a very pleasant walk through farmland and another nature reserve, while the second half transitions into the busy outer suburbs of Rome finishing at lovely 4-star hotel in the fashionable Monte Sacro district.  (4.5 hrs; 18 kms; min: 32 mts, max: 164 mts).'
-        duration: 5
-        distance: 18
+        duration: 5.0
+        distance: 18.0
         elevation: 132
         meals_included:
           - breakfast
@@ -145,8 +158,8 @@ page_builder:
         id: mlop8uiy
         title: 'Arrive at the Vatican'
         description: 'While there is a nearby station that can take you directly to the Vatican, today’s walk is well worth the effort, following a cycle path/greenway that winds along beside the Aniene River before crossing the famous Milvio Bridge then following the Tiber River past eight more bridges to the Castel Sant’Angelo and St Peter’s Square.  (4 hrs;15 kms; min: 9 mts, max 67 mts)'
-        duration: 4
-        distance: 15
+        duration: 4.0
+        distance: 15.0
         elevation: 58
         meals_included:
           - breakfast
@@ -360,7 +373,7 @@ summary:
     content:
       -
         type: text
-        text: "This marvellous 8-day walk starts in the quiet streets of Rieti, a lovely town in the north of Lazio, before climbing into the hills of the central Apennines, through an district known as Sabina, which is dotted with small, proud towns, each with its own history traced back to the Romans and beyond.\_ The hills gradually give way to the undulating farmlands of the Tiber River plain.  The trail then winds through two nature reserves before reaching the outer suburbs of Rome. \_"
+        text: "This marvellous 8-day/7-night walk starts in the quiet streets of Rieti, a lovely town in the north of Lazio, before climbing into the hills of the central Apennines, through an district known as Sabina, which is dotted with small, proud towns, each with its own history traced back to the Romans and beyond. The hills gradually give way to the undulating farmlands of the Tiber River plain. The trail then winds through two nature reserves before reaching the outer suburbs of Rome. \_"
 price: 'A$2,450'
 show_from: true
 availability_text: "Part of the three-week 'Cammino of St Francis': Assisi to Rome"
