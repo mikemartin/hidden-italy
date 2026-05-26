@@ -91,7 +91,7 @@ page_builder:
         id: mmx1061d
         title: 'Relax and enjoy for holiday'
         summary: 'Everything has been looked after: transfers at the beginning and end; luggage moved daily; maps and app; 24-hour support'
-        icon: culture-champagne.svg
+        icon: tourism-beach.svg
     type: highlights
     enabled: true
     section_background: light

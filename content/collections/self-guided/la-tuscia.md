@@ -83,7 +83,7 @@ page_builder:
         id: mlooun08
         title: 'Relax, you are fully-supported'
         summary: 'Everything is organised: your transfer from Rome on Day 1; bags moved daily; maps and an app; plus 24-hour local support'
-        icon: culture-champagne.svg
+        icon: tourism-beach.svg
     type: highlights
     enabled: true
     section_background: light

@@ -86,7 +86,7 @@ page_builder:
         id: mlrc9yr3
         title: 'Relax and enjoy your holiday'
         summary: 'Everything organised. You are transfer to and from Palermo. You have your bags moved; an App; and 24-hour local support.'
-        icon: culture-champagne.svg
+        icon: tourism-beach.svg
     type: highlights
     enabled: true
     section_background: light

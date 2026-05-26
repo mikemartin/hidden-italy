@@ -83,7 +83,7 @@ page_builder:
         id: mn2o0oyw
         title: 'Pull on your boots each morning we will take care of the rest'
         summary: 'Everything is organised: transfers from Foggia and back again;  bags moved each day; an App; and 24-hour local support.'
-        icon: culture-champagne.svg
+        icon: tourism-beach.svg
     type: highlights
     enabled: true
     section_background: light

@@ -85,7 +85,7 @@ page_builder:
         id: X33IRRSnl32_xPcqIGs-d
         title: 'Relax and enjoy your holiday!'
         summary: 'Everything is organised: pickup and dropoff at start and finish; luggage transfers; maps and App; 24-hour local support.'
-        icon: culture-champagne.svg
+        icon: tourism-beach.svg
     type: highlights
     enabled: true
     section_background: light

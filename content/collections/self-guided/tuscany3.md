@@ -86,7 +86,7 @@ page_builder:
         id: mmx1061d
         title: 'Relax and enjoy for holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: culture-champagne.svg
+        icon: tourism-beach.svg
       -
         id: WnHtbv6LQHbEKu3kGTNc-
         title: 'Stay in fabulous accommodation'

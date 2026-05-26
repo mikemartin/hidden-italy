@@ -91,7 +91,7 @@ page_builder:
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Everything organised: you are transferred from and back to Bolzano; you have maps and an App; and 24-hour local support.'
-        icon: culture-champagne.svg
+        icon: tourism-beach.svg
     type: highlights
     enabled: true
     section_background: light

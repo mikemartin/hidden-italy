@@ -71,7 +71,7 @@ page_builder:
         id: 0bzkfKar62qNq6TG-Oga6
         title: "Start and finish in two of Italy's most charming seaside towns"
         summary: "Your starts in Sestri Levante and finishes in Portofino, two of the Italy's most charming and interesting seaside towns."
-        icon: culture-champagne.svg
+        icon: tourism-beach.svg
       -
         id: mloog7vk
         title: 'Swim in the blue Mediterranean'
