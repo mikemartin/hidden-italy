@@ -6,7 +6,7 @@ name: 'Italian Riviera 2'
 region: Liguria
 days: 8
 updated_by: 4
-updated_at: 1779838279
+updated_at: 1779838484
 grade: 4
 inclusions:
   - 'Eight nights accommodation'
@@ -75,7 +75,7 @@ page_builder:
       -
         id: mloog7vk
         title: 'Swim in the blue Mediterranean'
-        summary: "You will pass rocky coves and some of Italy's best beaches with plenty of opportunities to plunge into the deep blue sea"
+        summary: "You will pass rocky coves and some of Italy's best beaches with plenty of opportunities to plunge into the deep blue sea."
         icon: water-sports-swimming.svg
       -
         id: VvRv3xIve8BoWdW7xq8cI
@@ -89,8 +89,8 @@ page_builder:
         icon: gastronomy-spaghetti.svg
       -
         id: mmbinilb
-        title: 'Relax and enjoy your holiday'
-        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: restaurant-glass-beverage-drink-restaurant-bar-dining.svg
     type: highlights
     enabled: true
