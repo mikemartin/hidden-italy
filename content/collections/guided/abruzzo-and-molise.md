@@ -6,7 +6,7 @@ name: 'Abruzzo and Molise'
 region: 'Abruzzo and Molise'
 days: 13
 updated_by: 3
-updated_at: 1779765687
+updated_at: 1779768419
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
@@ -298,7 +298,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_ "
+                text: 'To secure your walking tour, a deposit of 25% of the total invoice amount is required on receipt of the attached invoice. Bookings are cancelled automatically if payment is not received within 7 days from invoice date. In the event of cancellation by the customer, a non-refundable & non-transferable fee of $750 per person per tour will apply.'
         type: booking_cancellation
         enabled: true
       -
