@@ -6,19 +6,19 @@ name: 'The Amalfi Coast'
 region: Campania
 days: 6
 updated_by: 4
-updated_at: 1779402879
+updated_at: 1779756108
 grade: 3
 inclusions:
-  - 'Private transfer from Naples to Ravello on Day 1'
-  - 'Private transfer from Positano to Naples on Day 6'
+  - 'Private transfer from Naples on Day 1'
+  - 'Private transfer back to Naples on Day 6'
   - 'Five nights accommodation'
-  - 'All breakfasts included'
+  - 'All breakfasts'
   - 'Reading lists and historical and cultural notes'
-  - 'Maps and detailed walking instructions'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App to complement the booklet'
   - 'A curated list of restaurants in each town'
   - 'Daily transfers of baggage between hotels'
-  - '24 hour backup from local manager'
+  - '24 hour support from local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: southern-italy
 landscapes:
@@ -358,7 +358,7 @@ summary:
       -
         type: text
         text: "This fabulous continuous walk along the length of the breathtaking Amalfi Coast starts with a private transfer from Naples to Ravello and then finishes with a private transfer from Positano back to Naples at the end. In between you get to experience the 'costiera' in all its colour and glory."
-availability_text: 'Available in Standard (3 star hotels) and Superior (4 star hotels) options'
+availability_text: 'Standard (3 star hotels) & Superior (4 star hotels) option available'
 price: 'A$3,250'
 show_from: true
 og_image: campania-the-amalfi-coast-og-1779335281.png
