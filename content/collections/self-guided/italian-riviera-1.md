@@ -95,7 +95,7 @@ page_builder:
         id: mloog7vk
         title: 'Stay in fabulous Portofino'
         summary: "Stay in a family-run hotel off the main piazza and schmooze in one of Italy's most picturesque seaside villages!"
-        icon: restaurant-glass-beverage-drink-restaurant-bar-dining.svg
+        icon: trekking-boots.svg
       -
         id: kmbm05nSUD7URhPWwOiKU
         title: 'Go for swims!'
