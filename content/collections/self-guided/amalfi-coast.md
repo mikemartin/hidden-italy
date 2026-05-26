@@ -6,7 +6,7 @@ name: 'The Amalfi Coast'
 region: Campania
 days: 6
 updated_by: 4
-updated_at: 1779756108
+updated_at: 1779762848
 grade: 3
 inclusions:
   - 'Private transfer from Naples on Day 1'
@@ -33,7 +33,7 @@ page_builder:
         content:
           -
             type: text
-            text: "The Amalfi Coast is surely one of the most spectacular parts of the Mediterranean, with steep mountains rising almost 1500 metres above the limpid aquamarine sea and whitewashed villages that seem to have tumbled down the slopes to the water's edge. It is an area of vibrant colours, lush vegetation and warm, boisterous people. And then there is the food (the finest in the south?)!"
+            text: "The Amalfi Coast is surely one of the most spectacular parts of the Mediterranean, with steep mountains rising almost 1500m above the limpid aquamarine sea and whitewashed villages that seem to have tumbled down the slopes to the water's edge. It is an area of vibrant colours, lush vegetation and warm, boisterous people. And then there is the food (the finest in the south?)!"
     column_right:
       -
         type: paragraph
@@ -81,8 +81,8 @@ page_builder:
         icon: water-sports-swimming.svg
       -
         id: mmbinilb
-        title: 'Relax and enjoy your holiday'
-        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -102,9 +102,9 @@ page_builder:
       -
         id: mloozlek
         title: 'Walk the Valle delle Ferriere'
-        description: 'Today you have two options.  The first winds down stone paths to the coast and then wraps around to the town of Amalfi, leaving plenty of time to explore this fascinating town that once ruled the Mediterranean Sea. The second option is a more challenging, longer walk into the extraordinary Valle delle Ferriere, which wraps through a national park, passing towering cliffs, chestnut forests, and waterfalls, with breathtaking views over the coast. (4hrs; 13.5km; max: 610m)'
-        duration: 2
-        distance: 3
+        description: 'Today you have two options. The first winds down stone paths to the coast and then wraps around to the town of Amalfi, leaving plenty of time to explore this fascinating town that once ruled the Mediterranean Sea. The second option is a more challenging, longer walk into the extraordinary Valle delle Ferriere, which wraps through a national park, passing towering cliffs, chestnut forests, and waterfalls, with breathtaking views over the coast. (4hrs; 13.5km; max: 610m)'
+        duration: 2.0
+        distance: 3.0
         elevation: -361
         meals_included:
           - breakfast
@@ -112,9 +112,9 @@ page_builder:
       -
         id: mlop159i
         title: 'Walk above the coast'
-        description: "Today's walk follows an ancient path that has linked the villages between for centuries, passing an ancient monastery before dropping down to a little hamlet sitting above the sea, where you'll stay the night. B elow your hotel is a beautiful hidden port, with coloured fishing boats, a small shingle beach and a very pleasant bar. In the afternoon, you will also have time to visit the famous nearby Grotta Smeralda."
-        duration: 2
-        distance: 6
+        description: "Today's walk follows an ancient path that has linked the villages between for centuries, passing an ancient monastery before dropping down to a little hamlet sitting above the sea, where you'll stay the night. Below your hotel is a beautiful hidden port, with coloured fishing boats, a small shingle beach and a very pleasant bar. In the afternoon, you will also have time to visit the famous nearby Grotta Smeralda."
+        duration: 2.0
+        distance: 5.5
         elevation: 261
         meals_included:
           - breakfast
@@ -122,9 +122,9 @@ page_builder:
       -
         id: mlop3c5r
         title: 'Climbing high'
-        description: 'Today you have a choice of two trails.  The first, more demanding trail, starts with a steep climb through hamlets to a busy village.  It then contours around the mountains before entering a green valley and descending to your accommodation, a lovely family-run hotel with views across the gulf to Positano.  The second, less demanding, trail follows a lower route along a path above the sea which has spectacular views.  After crossing a fjord, you climb up to your accommodation.  (3 hrs; 7 kms)'
-        duration: 4
-        distance: 11
+        description: 'Today you have a choice of two trails. The first, more demanding trail, starts with a steep climb through hamlets to a busy village. It then contours around the mountains before entering a green valley and descending to your accommodation, a lovely family-run hotel with views across the gulf to Positano. The second, less demanding, trail follows a lower route along a path above the sea which has spectacular views. After crossing a fjord, you climb up to your accommodation. (3 hrs; 7 kms)'
+        duration: 4.0
+        distance: 10.5
         elevation: 570
         meals_included:
           - breakfast
@@ -132,9 +132,9 @@ page_builder:
       -
         id: mlop5205
         title: 'Walk the Path of the Gods'
-        description: 'It is not by chance that the locals have baptised this walk with the rather extravagant name of Via degli Dei, the Path of the God’s.  Despite the tourist hyperbole that has made this one of the most famous walks in the area, the views and the hike are extraordinary.  It is a big climb up to the start of the path but it is worth it, and from there it is all down hill to arrive in magical Positano!'
-        duration: 4
-        distance: 11
+        description: 'It is not by chance that the locals have baptised this walk with the rather extravagant name of Via degli Dei, the Path of the God’s. Despite the tourist hyperbole that has made this one of the most famous walks in the area, the views and the hike are extraordinary.  It is a big climb up to the start of the path but it is worth it, and from there it is all down hill to arrive in magical Positano!'
+        duration: 4.0
+        distance: 11.0
         elevation: 517
         meals_included:
           - breakfast
@@ -143,9 +143,6 @@ page_builder:
         id: mlop6avf
         title: 'Transfer to Naples'
         description: 'After breakfast in your hotel, at a time that suits you, you will be taken by private vehicle back to the Naples, an hour or so north.'
-        duration: 2
-        distance: 6
-        elevation: 181
         meals_included:
           - breakfast
         photo: self-guided/the-amalfi-coast/a.jpg
