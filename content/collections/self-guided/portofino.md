@@ -6,7 +6,7 @@ name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6
 updated_by: 4
-updated_at: 1779867091
+updated_at: 1779867151
 grade: 3
 inclusions:
   - 'Five nights’ accommodation'
@@ -91,8 +91,8 @@ page_builder:
         icon: water-sports-swimming.svg
       -
         id: mmbinilb
-        title: 'Relax and enjoy your holiday'
-        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: tourism-beach.svg
     type: highlights
     enabled: true
