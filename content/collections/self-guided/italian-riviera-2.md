@@ -6,7 +6,7 @@ name: 'Italian Riviera 2'
 region: Liguria
 days: 8
 updated_by: 4
-updated_at: 1779838484
+updated_at: 1779862064
 grade: 4
 inclusions:
   - 'Eight nights accommodation'
@@ -91,7 +91,6 @@ page_builder:
         id: mmbinilb
         title: 'Pull on your boots, we’ll handle the rest'
         summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
-        icon: trekking-boots.svg
     type: highlights
     enabled: true
     section_background: light
@@ -187,6 +186,7 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
+    title: 'Italian Riviera 2 Itinerary'
   -
     id: aTqBWuwV2T0Ga0dhlJHtM
     title: 'What you should know'
