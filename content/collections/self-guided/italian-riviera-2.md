@@ -6,7 +6,7 @@ name: 'Italian Riviera 2'
 region: Liguria
 days: 8
 updated_by: 4
-updated_at: 1779863229
+updated_at: 1779867217
 grade: 4
 inclusions:
   - 'Eight nights accommodation'
@@ -188,47 +188,6 @@ page_builder:
     section_background: none
     hide_from_subnav: false
     title: 'Italian Riviera 2 Itinerary'
-  -
-    id: aTqBWuwV2T0Ga0dhlJHtM
-    title: 'What you should know'
-    sections:
-      -
-        id: wOj-JNVWrDm6WWI7vxuPt
-        body:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
-        type: equipment
-        enabled: true
-      -
-        id: GdQITkmA9yqR_8KSN9dC6
-        body:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
-        type: booking_cancellation
-        enabled: true
-      -
-        id: nDitpnIMRh_hz1jGInUfp
-        body:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
-        type: travel_insurance
-        enabled: true
-    type: essentials
-    enabled: true
-    section_background: none
-    hide_from_subnav: false
   -
     id: CYDj9sHmq-j7AVlxso859
     title: 'Italian Riviera 2 Experience'
