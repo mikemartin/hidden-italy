@@ -6,7 +6,7 @@ name: 'Italian Riviera 1'
 region: Liguria
 days: 8
 updated_by: 4
-updated_at: 1779861536
+updated_at: 1779861790
 grade: 4
 inclusions:
   - 'Seven nights accommodation'
@@ -121,7 +121,7 @@ page_builder:
         photo: self-guided/italian-riviera-1/img_9103-a.jpg
       -
         id: mloozlek
-        title: 'Walk along the coast'
+        title: 'Climb the foothills'
         description: 'The first section of today’s walk starts from Genoa’s historic port, an ‘urban walk’ through the lane and alleys to a coastal promenade that takes you to a seaside resort. Here you have the option of shortening the walk by taking the train. The second section follows stone trails that you will walk for much of the tour. You climb into the foothills with views to the promontory of Portofino, before descending to a picturesque fishing village.'
         duration: 4.0
         distance: 14.0
@@ -141,8 +141,8 @@ page_builder:
         photo: self-guided/italian-riviera-1/18.jpg
       -
         id: mlop3c5r
-        title: 'Walk to Portofino'
-        description: 'Today you leave Camogli by walking above the coastline on the western edge of the Portofino National Park with its vast views across the Gulf of Genoa before climbing up into forest.  You then wind your way down through forest and olive groves to the stunning little village of Portofino, one of the most celebrated spots on the Italian coast.'
+        title: 'Scenic coastal walking'
+        description: 'Today you leave Camogli by walking above the coastline on the western edge of the Portofino National Park with its vast views across the Gulf of Genoa before climbing up into forest. You then wind your way down through forest and olive groves to the stunning little village of Portofino, one of the most celebrated spots on the Italian coast.'
         duration: 3.0
         distance: 10.0
         elevation: 271
@@ -151,8 +151,8 @@ page_builder:
         photo: self-guided/italian-riviera-1/porto.jpg
       -
         id: mlop5205
-        title: 'Walk through the Portofino park'
-        description: 'This morning you head out of Portofino along a lovely path that winds above the coast passing through olive groves with views over bays and hidden villas to the elegant resort town of Santa Margherita Ligure. From here you follow a well-marked path through a busy neighbouring port, entering the the final town over a Roman bridge that Hannibal himself crossed, or so the legend goes.'
+        title: 'Spectacular views over bays'
+        description: 'This morning you head out of Portofino along a lovely path that winds above the coast passing through olive groves with views over bays and hidden villas to the elegant resort town of Santa Margherita Ligure. From here you follow a well-marked path through a busy neighbouring port, entering the final town over a Roman bridge that Hannibal himself crossed, or so the legend goes.'
         duration: 3.0
         distance: 8.0
         elevation: 203
