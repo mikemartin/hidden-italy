@@ -6,7 +6,7 @@ name: 'Italian Riviera 2'
 region: Liguria
 days: 8
 updated_by: 4
-updated_at: 1779862236
+updated_at: 1779863050
 grade: 4
 inclusions:
   - 'Eight nights accommodation'
@@ -104,23 +104,23 @@ page_builder:
       -
         id: mlooymbz
         title: 'Arrive in Sestri Levante'
-        description: 'The tour starts in Sestri Levante, a very attractive resort town that is built along a peninsula , with a bay on either side: the charming Bay of Silence and the Bay of Fairies (name in honour of Hans Christian Anderson who lived here in the 1880s).  Peninsula ends with a forested hill a monastery on top.'
+        description: 'The tour starts in Sestri Levante, a very attractive resort town that is built along a peninsula, with a bay on either side: the charming Bay of Silence and the Bay of Fairies (named in honour of Hans Christian Anderson, who lived here in the 1880s).  Peninsula ends with a forested hill, a monastery on top.'
         photo: self-guided/italian-riviera-2/1.jpg
       -
         id: mloozlek
         title: 'Walk along the coast'
         description: 'The first section on today’s walk follows a trail through forest to a headland with views over to Portofino.  From here the trail rounds the peninsula, passing through more forest before descending to a small town with a long sandy beach.  Here you have the option of shortening the walk by taking the train.  The second section climbs up to another headland with the ruins of a medieval lookout tower.  It then contours through forest before descending to an attractive town with a small port.'
         duration: 5.0
-        distance: 15.0
+        distance: 14.5
         elevation: 368
         meals_included:
           - breakfast
         photo: self-guided/italian-riviera-2/8.jpg
       -
         id: mlop159i
-        title: 'Walk to Camogli'
-        description: 'The first section today passes through one of the most unspoilt sections of the Ligurian coast, to an attractive neighbouring town.  Here you have the option of shortening the walk by taking the train. The second section involves a steep climb at the beginning, following an ancient path through oak forests, one of the most beautiful walks along the whole route.  You finishes at a very quaint town that has a long sandy beach.'
-        duration: 6.0
+        title: 'Discover ancient forest paths'
+        description: 'The first section today passes through one of the most unspoilt sections of the Ligurian coast, to an attractive neighbouring town. Here you have the option of shortening the walk by taking the train. The second section involves a steep climb at the beginning, following an ancient path through oak forests, one of the most beautiful walks along the whole route. You finish at a very quaint town that has a long sandy beach.'
+        duration: 5.5
         distance: 17.0
         elevation: 333
         meals_included:
@@ -128,19 +128,19 @@ page_builder:
         photo: self-guided/italian-riviera-2/framura-5.jpg
       -
         id: mlop3c5r
-        title: 'Walk to the Cinque Terre'
-        description: 'There is a gentle start to today’s walk as you leave town along a disused railway tunnel which has recently been converted into a cycle/walking path, taking you to Levanto.  After walking along the waterfront, the trail picks a superb coastal path, going through woods with breathtaking views of the gulf and the Cinque Terre.  It finishes at the first of the five famous villages.'
+        title: 'Superb coastal walking'
+        description: 'There is a gentle start to today’s walk as you leave town along a disused railway tunnel which has recently been converted into a cycle/walking path, taking you to Levanto. After walking along the waterfront, the trail picks a superb coastal path, going through woods with breathtaking views of the gulf and the Cinque Terre. It finishes at the first of the five famous villages.'
         duration: 3.0
-        distance: 10.0
+        distance: 9.5
         elevation: 310
         meals_included:
           - breakfast
         photo: self-guided/italian-riviera-2/yy.jpg
       -
         id: mlop5205
-        title: 'Walk to Vernazza'
-        description: "With today's walk you start on  the Sentiero Azzuro, the celebrated path that links the five villages of the Cinque Terre. The walk weaves along cliffs and through terraces, offering spectacular views over the bays and the villages, taking you to Vernazza. (5 kms; 2.5 hrs; min: 3 mts, max: 200 mts)."
-        duration: 3.0
+        title: 'Walk the Sentiero Azzuro'
+        description: "With today's walk you start on the Sentiero Azzuro, the celebrated path that links the five villages of the Cinque Terre. The walk weaves along cliffs and through terraces, offering spectacular views over the bays and the villages, taking you to Vernazza."
+        duration: 2.5
         distance: 5.0
         elevation: 197
         meals_included:
