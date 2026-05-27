@@ -58,7 +58,7 @@ page_builder:
         id: mlooee34
         title: "Walk the entire length of the 'Costiera'"
         summary: 'Walk the entire length of the Amalfi Coast (no buses!) following ancient trails with breath-taking views all the way!'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
       -
         id: mloog7vk
         title: 'Stay in fabulous accommodation'
@@ -83,7 +83,7 @@ page_builder:
         id: mmbinilb
         title: 'Pull on your boots, we’ll handle the rest'
         summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
     type: highlights
     enabled: true
     section_background: light

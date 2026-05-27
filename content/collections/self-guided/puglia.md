@@ -58,7 +58,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy eight days way off the beaten track!'
         summary: 'Enjoy a continuous walk following Medieval pilgrim trails through peaceful countryside, spectacular forest to the coast!'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
       -
         id: BL0BCFZ3eqANalVYMQ_CC
         title: 'Stay in a variety of accommodation'
@@ -83,7 +83,7 @@ page_builder:
         id: mn2o0oyw
         title: 'Pull on your boots each morning we will take care of the rest'
         summary: 'Everything is organised: transfers from Foggia and back again;  bags moved each day; an App; and 24-hour local support.'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
     type: highlights
     enabled: true
     section_background: light

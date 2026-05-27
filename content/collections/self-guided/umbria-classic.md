@@ -62,7 +62,7 @@ page_builder:
         id: mlooee34
         title: 'Walk through magical landscapes'
         summary: "Follow well-marked trails through the 'green heart of Italy': rolling hills, vineyards, olive groves and charming towns."
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
       -
         id: mloog7vk
         title: 'Stay in fabulous accommodation'
@@ -87,7 +87,7 @@ page_builder:
         id: yzrNBaT-_rmmrnPeEEdB9
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
     type: highlights
     enabled: true
     section_background: light

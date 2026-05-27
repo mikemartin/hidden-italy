@@ -85,7 +85,7 @@ page_builder:
         id: 6ie2Lj2ewJn2NIpV3_xII
         title: 'Enjoy continuous walking'
         summary: 'Enjoy following historical trails, exploring this fascinating coast passing villages, olive groves, forests and beaches.'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
       -
         id: mlooun08
         title: "Sample Liguria's celebrated cuisine"
@@ -104,7 +104,7 @@ page_builder:
         id: mmbinilb
         title: 'Pull on your boots, we’ll handle the rest'
         summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
     type: highlights
     enabled: true
     section_background: light

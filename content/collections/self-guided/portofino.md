@@ -68,7 +68,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy challenging walks'
         summary: 'The tour includes coastal hikes; forest walks; and easy rambles along cobbled lanes through charming towns and villages.'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
       -
         id: mloog7vk
         title: 'Stay in great hotels'
@@ -93,7 +93,7 @@ page_builder:
         id: mmbinilb
         title: 'Pull on your boots, we’ll handle the rest'
         summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
     type: highlights
     enabled: true
     section_background: light

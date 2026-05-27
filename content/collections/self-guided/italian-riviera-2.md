@@ -66,12 +66,12 @@ page_builder:
         id: mlooee34
         title: "Hike Italy's most celebrated coastline"
         summary: 'Hiking well-marked trails through forests and quiet fishing villages before hitting the breath-taking Cinque Terre.'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
       -
         id: 0bzkfKar62qNq6TG-Oga6
         title: "Start and finish in two of Italy's most charming seaside towns"
         summary: "Your starts in Sestri Levante and finishes in Portofino, two of the Italy's most charming and interesting seaside towns."
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
       -
         id: mloog7vk
         title: 'Swim in the blue Mediterranean'
@@ -91,7 +91,7 @@ page_builder:
         id: mmbinilb
         title: 'Pull on your boots, we’ll handle the rest'
         summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
     type: highlights
     enabled: true
     section_background: light

@@ -70,7 +70,7 @@ page_builder:
         id: mlrc2l11
         title: 'Walk spectacular trails'
         summary: 'Follow spectacular and well-marked trails that have been used by traders, farmers and travelers since the Middle Ages.'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
       -
         id: mlrc4uq2
         title: 'Enjoy genuine mountain hospitality'
@@ -85,7 +85,7 @@ page_builder:
         id: X33IRRSnl32_xPcqIGs-d
         title: 'Relax and enjoy your holiday!'
         summary: 'Everything is organised: pickup and dropoff at start and finish; luggage transfers; maps and App; 24-hour local support.'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
     type: highlights
     enabled: true
     section_background: light

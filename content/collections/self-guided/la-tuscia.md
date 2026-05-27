@@ -58,7 +58,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy seven days way off the beaten track!'
         summary: 'Enjoy a continuous walk following country lanes, Etruscan paths and Medieval pilgrim trails through rolling countryside.'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
       -
         id: mloog7vk
         title: 'Be astonished by ancient villages'
@@ -83,7 +83,7 @@ page_builder:
         id: mlooun08
         title: 'Relax, you are fully-supported'
         summary: 'Everything is organised: your transfer from Rome on Day 1; bags moved daily; maps and an app; plus 24-hour local support'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
     type: highlights
     enabled: true
     section_background: light

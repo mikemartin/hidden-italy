@@ -66,7 +66,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 5-day walk'
         summary: 'Enjoy a continuous walk from town to town for four days following pilgrim trails through magnificent Tuscan countryside!'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
       -
         id: mloog7vk
         title: 'Immerse yourself in daily Tuscan life'
@@ -86,7 +86,7 @@ page_builder:
         id: mmx1061d
         title: 'Relax and enjoy for holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
       -
         id: WnHtbv6LQHbEKu3kGTNc-
         title: 'Stay in fabulous accommodation'

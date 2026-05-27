@@ -72,7 +72,7 @@ page_builder:
         id: mloqrnhn
         title: "Walk some of Europe's finest trails"
         summary: 'With local guides out front, walk well-maintained mountain trails each day, surrounded by incomparable natural beauty.'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
       -
         id: mloqndod
         title: "Explore Italy's most spectacular region"

@@ -68,7 +68,7 @@ page_builder:
         id: mlooee34
         title: 'Get off the beaten track'
         summary: "Enjoy a week following well-marked trails through some of central Italy's less visited, but most beautiful, countryside."
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
       -
         id: mloog7vk
         title: 'Explore the towns'
@@ -93,7 +93,7 @@ page_builder:
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: tourism-beach.svg
+        icon: nature-lake.svg
     type: highlights
     enabled: true
     section_background: light
