@@ -6,7 +6,7 @@ name: 'Italian Riviera 1'
 region: Liguria
 days: 8
 updated_by: 4
-updated_at: 1779773397
+updated_at: 1779861536
 grade: 4
 inclusions:
   - 'Seven nights accommodation'
@@ -95,7 +95,6 @@ page_builder:
         id: mloog7vk
         title: 'Stay in fabulous Portofino'
         summary: "Stay in a family-run hotel off the main piazza and schmooze in one of Italy's most picturesque seaside villages!"
-        icon: trekking-boots.svg
       -
         id: kmbm05nSUD7URhPWwOiKU
         title: 'Go for swims!'
@@ -132,8 +131,8 @@ page_builder:
         photo: self-guided/italian-riviera-1/6.jpg
       -
         id: mlop159i
-        title: 'Walk to Camogli'
-        description: 'This first section of the walk follows creuze de ma again up through hamlets to the ridge of Monte Croce.  It continues along the ridge before descending to another cute fishing village. Here you can shortening the walk by taking the train. The second leg is straight forward, following lanes and marked trails but it also involves two steep climb with the effort is rewarded by wide views over the Portofino Peninsula and arrive in the busy little port of Camogli.'
+        title: 'Travel the creuza de ma'
+        description: 'This first section of the walk follows the creuza de ma again up through hamlets to the ridge of Monte Croce. It continues along the ridge before descending to another cute fishing village. Here you can shorten the walk by taking the train. The second leg is straightforward, following lanes and marked trails but it also involves two steep climb with the effort is rewarded by wide views over the Portofino Peninsula and arrive in the busy little port of Camogli.'
         duration: 5.0
         distance: 14.5
         elevation: 263
