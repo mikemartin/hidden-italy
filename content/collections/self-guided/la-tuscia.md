@@ -58,7 +58,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy seven days way off the beaten track!'
         summary: 'Enjoy a continuous walk following country lanes, Etruscan paths and Medieval pilgrim trails through rolling countryside.'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: mloog7vk
         title: 'Be astonished by ancient villages'

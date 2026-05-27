@@ -90,7 +90,7 @@ page_builder:
         id: Nq5hG3HzgmtEUg-VMunXK
         title: 'Enjoy a variety of walks'
         summary: 'Enjoy a fabulous variety of walks following trails across farmlands, around mountains, and along the spectacular coast.'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: d3oIvR78iTmdORtYuOoEK
         title: 'Experience the food'

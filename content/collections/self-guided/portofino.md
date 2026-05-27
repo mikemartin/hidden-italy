@@ -68,7 +68,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy challenging walks'
         summary: 'The tour includes coastal hikes; forest walks; and easy rambles along cobbled lanes through charming towns and villages.'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: mloog7vk
         title: 'Stay in great hotels'

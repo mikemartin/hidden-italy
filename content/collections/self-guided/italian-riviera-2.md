@@ -66,7 +66,7 @@ page_builder:
         id: mlooee34
         title: "Hike Italy's most celebrated coastline"
         summary: 'Hiking well-marked trails through forests and quiet fishing villages before hitting the breath-taking Cinque Terre.'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: 0bzkfKar62qNq6TG-Oga6
         title: "Start and finish in two of Italy's most charming seaside towns"
@@ -91,7 +91,7 @@ page_builder:
         id: mmbinilb
         title: 'Pull on your boots, we’ll handle the rest'
         summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
     type: highlights
     enabled: true
     section_background: light

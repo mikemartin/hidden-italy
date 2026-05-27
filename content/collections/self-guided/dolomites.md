@@ -66,7 +66,7 @@ page_builder:
         id: mlooee34
         title: 'Explore the most beautiful mountains!'
         summary: 'Take your time to enjoy five days exploring a gorgeous valley in the heart of the most beautiful mountains in the world.'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: mloog7vk
         title: 'Enjoy magnificent walking'

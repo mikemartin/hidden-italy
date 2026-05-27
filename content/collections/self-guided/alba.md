@@ -57,7 +57,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 8-day walk'
         summary: 'Enjoy a continuous walk through vineyards and forest following well-marked trails from village to village for seven days'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: mloog7vk
         title: 'Savour the famous food and wines'

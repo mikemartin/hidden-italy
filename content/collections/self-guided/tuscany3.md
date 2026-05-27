@@ -66,7 +66,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 5-day walk'
         summary: 'Enjoy a continuous walk from town to town for four days following pilgrim trails through magnificent Tuscan countryside!'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: mloog7vk
         title: 'Immerse yourself in daily Tuscan life'

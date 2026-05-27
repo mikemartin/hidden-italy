@@ -85,7 +85,7 @@ page_builder:
         id: 6ie2Lj2ewJn2NIpV3_xII
         title: 'Enjoy continuous walking'
         summary: 'Enjoy following historical trails, exploring this fascinating coast passing villages, olive groves, forests and beaches.'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: mlooun08
         title: "Sample Liguria's celebrated cuisine"

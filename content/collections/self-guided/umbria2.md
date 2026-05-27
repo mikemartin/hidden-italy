@@ -68,7 +68,7 @@ page_builder:
         id: mlooee34
         title: 'Get off the beaten track'
         summary: "Enjoy a week following well-marked trails through some of central Italy's less visited, but most beautiful, countryside."
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: mloog7vk
         title: 'Explore the towns'

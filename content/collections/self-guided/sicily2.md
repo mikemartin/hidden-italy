@@ -58,7 +58,7 @@ page_builder:
         id: mlrbvyrv
         title: 'Enjoy coastal walking'
         summary: 'Follow well-marked paths that take you above the sea with spectacular views over the coastline and surrounding mountains'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: tlktoZzf1f6p1C_QwMNEB
         title: 'Be pampered'

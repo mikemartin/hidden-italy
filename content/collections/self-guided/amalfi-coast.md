@@ -58,7 +58,7 @@ page_builder:
         id: mlooee34
         title: "Walk the entire length of the 'Costiera'"
         summary: 'Walk the entire length of the Amalfi Coast (no buses!) following ancient trails with breath-taking views all the way!'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: mloog7vk
         title: 'Stay in fabulous accommodation'

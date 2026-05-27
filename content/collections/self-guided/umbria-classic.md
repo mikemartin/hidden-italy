@@ -62,7 +62,7 @@ page_builder:
         id: mlooee34
         title: 'Walk through magical landscapes'
         summary: "Follow well-marked trails through the 'green heart of Italy': rolling hills, vineyards, olive groves and charming towns."
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: mloog7vk
         title: 'Stay in fabulous accommodation'

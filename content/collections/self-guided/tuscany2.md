@@ -63,7 +63,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 7-day walk'
         summary: 'Enjoy a continuous walk from village to village for five days following well-marked trails through beautiful countryside'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: mloog7vk
         title: 'Immerse yourself in the daily life'

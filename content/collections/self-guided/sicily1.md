@@ -66,7 +66,7 @@ page_builder:
         id: _nPPb6hfVZftShhGhn9D_
         title: 'Walk continuous trails'
         summary: 'Walk on continuous trails, following ancient paths through rolling farmlands and the foothills of the Madonie Mountains.'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: mlrbzbll
         title: 'Discover the Madonie Mountains'

@@ -67,7 +67,7 @@ page_builder:
         id: mloqndod
         title: 'Go walking along rolling hills and undulating coastline'
         summary: 'The tour includes 8 guided walks along undulating hills, through orchards and vineyards and along spectacular coastline.'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: mloqrnhn
         title: "Indulge yourself in Italy's finest food"

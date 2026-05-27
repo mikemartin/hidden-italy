@@ -58,7 +58,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy eight days way off the beaten track!'
         summary: 'Enjoy a continuous walk following Medieval pilgrim trails through peaceful countryside, spectacular forest to the coast!'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: BL0BCFZ3eqANalVYMQ_CC
         title: 'Stay in a variety of accommodation'

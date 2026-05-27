@@ -70,7 +70,7 @@ page_builder:
         id: mlrc2l11
         title: 'Walk spectacular trails'
         summary: 'Follow spectacular and well-marked trails that have been used by traders, farmers and travelers since the Middle Ages.'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: mlrc4uq2
         title: 'Enjoy genuine mountain hospitality'

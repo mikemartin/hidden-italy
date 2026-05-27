@@ -56,7 +56,7 @@ page_builder:
         id: mjflfcs4
         title: 'Walk historic trails'
         summary: 'Follow ancient trails through the European Alps in the footsteps of 4 Aussie POWs who escaped Fascist Italy in 1943.'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: mjflflyr
         title: 'Sleep in ancient monasteries'

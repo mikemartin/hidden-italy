@@ -63,7 +63,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy the progress'
         summary: 'Start in forested hills and quiet countryside then pass through undulating farmland before arriving in the heart of Rome'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: mloog7vk
         title: 'Enjoy the accommodation'

@@ -66,7 +66,7 @@ page_builder:
         id: mloqrnhn
         title: 'Walk incomparable trails'
         summary: 'Led by local guides enjoy a variety of beautiful walks: through mountain and valleys, and along along beautiful coasts.'
-        icon: trekking-trekking.svg
+        icon: tourism-beach.svg
       -
         id: mloqndod
         title: "Explore Italy's most diverse region"
