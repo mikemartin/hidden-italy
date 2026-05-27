@@ -6,7 +6,7 @@ name: 'Italian Riviera 2'
 region: Liguria
 days: 8
 updated_by: 4
-updated_at: 1779863050
+updated_at: 1779863229
 grade: 4
 inclusions:
   - 'Eight nights accommodation'
@@ -148,19 +148,19 @@ page_builder:
         photo: self-guided/italian-riviera-2/italy-autmun-2013-048.jpg
       -
         id: mlop6avf
-        title: 'Walk to Riomaggiore'
+        title: 'Pass through olive groves'
         description: "This morning, you pick up the Sentiero Azzuro again passing through olive groves with views up to the ancient terraces climbing  the mountains above you  You pass through two more of the Cinque Terre villages (where you can stop for lunch) before finishing at the last of the five villages, where you'll stay the night.  A beautiful alternative high walk through the vineyards of Volastra for this day is included as a more challenging option."
         duration: 2.0
-        distance: 6.0
+        distance: 5.0
         elevation: 184
         meals_included:
           - breakfast
         photo: self-guided/italian-riviera-2/24.jpg
       -
         id: mmin3e1a
-        title: 'Walk to Portovenere'
-        description: 'Today you walk above the eastern part of the gulf to Portovenere.  It’s a big climb up to the ridge.  The first stop is a religious sanctuary, before continuing up through forest to the top of the ridge.  From here you slowly walk down to a small village where you can pause for a break.  The final section is a long steady descent through forest to the spectacularly situated Portovenere.'
-        duration: 4.0
+        title: 'Scenic ridge walking'
+        description: 'Today you walk above the eastern part of the gulf to Portovenere. It’s a big climb up to the ridge. The first stop is a religious sanctuary, before continuing up through forest to the top of the ridge. From here you slowly walk down to a small village where you can pause for a break. The final section is a long steady descent through forest to the spectacularly situated Portovenere.'
+        duration: 5.0
         distance: 14.0
         elevation: 558
         meals_included:
@@ -168,8 +168,8 @@ page_builder:
         photo: self-guided/italian-riviera-2/25.jpg
       -
         id: mmin5pe3
-        title: 'Do a lap of Palmaria'
-        description: 'The walk this morning starts with a short boat ride across the narrow waterway that separates Portovenere from a fascinating island which has a small fishing village and the remains of a monastery from the 11th century.  You return by boat to Portovenere.  (2 hrs; 6 kms; min: 1 mt; max: 181 mts)'
+        title: 'Visiting a fishing village'
+        description: 'The walk this morning starts with a short boat ride across the narrow waterway that separates Portovenere from a fascinating island which has a small fishing village and the remains of a monastery from the 11th century. You return by boat to Portovenere.'
         meals_included:
           - breakfast
         duration: 2.0
