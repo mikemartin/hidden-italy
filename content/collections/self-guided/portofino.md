@@ -6,14 +6,14 @@ name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6
 updated_by: 4
-updated_at: 1779403108
+updated_at: 1779866905
 grade: 3
 inclusions:
   - 'Five nights’ accommodation'
-  - 'All breakfasts included'
+  - 'All breakfasts'
   - 'Reading lists and historical and cultural notes'
-  - 'Maps and detailed walking instructions'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App with GPS to complement the booklet'
   - 'A curated list of restaurants for each town you visit'
   - 'Daily transfers of baggage between hotels'
   - '24 hour back-up from local operations manager'
@@ -107,8 +107,8 @@ page_builder:
         id: mloozlek
         title: 'Walk through the Portofino National Park'
         description: 'Today you leave Camogli by walking above the coastline on the western edge of the Portofino National Park with its vast views across the Gulf of Genoa before climbing up into forest.  You then wind your way down through forest and olive groves to the stunning little village of Portofino, one of the most celebrated spots on the Italian coast. Your accommodation is in a beautiful hotel on the main square of this celebrated village, a short walk from the port.'
-        duration: 3
-        distance: 9
+        duration: 3.0
+        distance: 9.0
         elevation: 471
         meals_included:
           - breakfast
@@ -117,8 +117,8 @@ page_builder:
         id: mlop159i
         title: 'Walk around the Gulf of Tigullio'
         description: 'This morning you head out of Portofino following a lovely path that winds above the coast, passing through olive groves with views over bays and hidden villas to arrive at the elegant resort town of Santa Margherita Ligure.  From here, you follow a well-marked path to a busy neighbouring port, entering the town your staying in over a Roman bridge that Hannibal himself is said to have crossed.'
-        duration: 3
-        distance: 8
+        duration: 3.0
+        distance: 8.0
         elevation: 203
         meals_included:
           - breakfast
@@ -127,8 +127,8 @@ page_builder:
         id: mlop3c5r
         title: 'A high forest walk'
         description: 'Today’s gorgeous walk starts with a 15-minute funicular ride from the port up to one of the holiest religious sanctuaries in the area, founded in the 16th century.  From here, you follow an ancient and well-marked trail that takes you from the sanctuary along a descending ridge line through beautiful oak and chestnut forests before descending to a bustling port whose origins predates the Romans and which is the birthplace of Italian hero Giuseppe Garibaldi.'
-        duration: 3
-        distance: 10
+        duration: 3.0
+        distance: 10.0
         elevation: -633
         meals_included:
           - breakfast
@@ -137,8 +137,8 @@ page_builder:
         id: mlop5205
         title: 'Walk to Sestri Levante'
         description: "Today's trail takes you along the sea front to a neighbouring town before picking up the pilgrim trail once again.  The trail then climbs up into the hills, following an old paved trail to a ruined church with breath-taking views and down over the Gulf of Tigullio and the Bay of Silence, before descending to enchanting Sestri Levante."
-        duration: 3
-        distance: 11
+        duration: 3.0
+        distance: 11.0
         elevation: 203
         meals_included:
           - breakfast
@@ -352,7 +352,7 @@ summary:
     content:
       -
         type: text
-        text: 'Portofino is the star turn of the Italian Riviera, a beautifully preserved fishing village tucked into a perfect bay, but it is only one of the highlights of this fascinating stretch of coastline that sits between Genoa and the Cinque Terre.'
+        text: 'Portofino is the star turn of the Italian Riviera, this 6-day/5-night tour explores the beautifully preserved fishing village tucked into a perfect bay, but it is only one of the highlights of this fascinating stretch of coastline that sits between Genoa and the Cinque Terre.'
 price: 'A$3,300'
 show_from: true
 og_image: liguria-portofino-and-the-tigullio-gulf-og-1779335289.png
