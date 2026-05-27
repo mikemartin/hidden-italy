@@ -6,7 +6,7 @@ name: 'Italian Riviera 1'
 region: Liguria
 days: 8
 updated_by: 4
-updated_at: 1779861790
+updated_at: 1779861943
 grade: 4
 inclusions:
   - 'Seven nights accommodation'
@@ -161,7 +161,7 @@ page_builder:
         photo: self-guided/italian-riviera-1/nastasia-yakoub-4nreelf-_6c-unsplash-a.jpg
       -
         id: mlop6avf
-        title: 'Walk along the Tigullio Gulf'
+        title: 'Visit a religious sanctuary'
         description: 'Today’s gorgeous walk starts with a 15-minute funicular ride from the port up to one of the holiest religious sanctuaries in the area, founded in the 16th century. From here, you follow an ancient and well-marked walk that takes you from the sanctuary along a descending ridge line through beautiful oak and chestnut forests to Giuseppe Garibaldi’s bustling hometown, whose origins predates the Romans.'
         duration: 3.0
         distance: 10.0
@@ -171,7 +171,7 @@ page_builder:
         photo: self-guided/italian-riviera-1/21.2.jpg
       -
         id: mmin3e1a
-        title: 'Walk to Sestri Levante'
+        title: 'Take the pilgrim trail'
         description: 'Today, the trail takes you along the sea front to a neighbouring town before picking up the pilgrim trail again, climbing up into the hills along an old paved trail to a ruined church with breath-taking views and down over Sestri Levante and the Bay of Silences.'
         duration: 3.0
         distance: 11.0
