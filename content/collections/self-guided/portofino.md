@@ -6,7 +6,7 @@ name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6
 updated_by: 4
-updated_at: 1779866940
+updated_at: 1779867091
 grade: 3
 inclusions:
   - 'Five nights’ accommodation'
@@ -34,20 +34,26 @@ page_builder:
         content:
           -
             type: text
-            text: "The tour starts in Camogli on the\_west side of the Portofino promontory, a former fishing village (known in medieval times as the 'city of a thousand sails') which was described by Charles Dickens as ‘the feistiest, roughest, most piratical little place I’ve visited’.\_ It’s a little more couth these days but has lost none of its nautical charm.\_"
+            text: "The tour starts in Camogli on the\_west side of the Portofino promontory, a former fishing village (known in medieval times as the 'city of a thousand sails') which was described by Charles Dickens as ‘the feistiest, roughest, most piratical little place I’ve visited’. It’s a little more couth these days but has lost none of its nautical charm.\_"
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'The first walk of the tour takes you through the national park that separates Camogli and Portofino following a series of well-marked trails through pine and oak forests above spectacular coastline with some of the most beautiful views in northern Italy.'
+            text: 'The first walk of the tour takes you through the national park that separates Camogli and Portofino, following a series of well-marked trails through pine'
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "Leaving the Portofino peninsula on Day 3 you pick up the ancient pilgrim trails that connected France wth Rome, passing through the hills that wrap around behind the Gulf of Tugullio, dropping down to the lively coastal towns each evening.\_ The tour finishes at the end of the gulf at the 'Bay of Silence' in Sestri Levante, a delightful summer resort on the Isola Peninsula."
+            text: 'and oak forests above a spectacular coastline with some of the most beautiful views in northern Italy.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Leaving the Portofino peninsula on Day 3 you pick up the ancient pilgrim trails that connected France wth Rome, passing through the hills that wrap around behind the Gulf of Tugullio, dropping down to the lively coastal towns each evening. The tour finishes at the end of the gulf at the 'Bay of Silence' in Sestri Levante, a delightful summer resort on the Isola Peninsula."
     title: 'The city of a thousand sails'
     images:
       - self-guided/portofino-and-the-tigullio-gulf/vernazza-9-a.jpg
