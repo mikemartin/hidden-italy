@@ -6,7 +6,7 @@ name: 'Italian Riviera 2'
 region: Liguria
 days: 8
 updated_by: 1
-updated_at: 1779931918
+updated_at: 1779931940
 grade: 4
 inclusions:
   - 'Eight nights accommodation'
@@ -81,7 +81,7 @@ page_builder:
         id: VvRv3xIve8BoWdW7xq8cI
         title: 'Soak up the tranquility'
         summary: "The first two walks take you along a stretch of spectacular forested, coastline where you won't pass another hiker."
-        icon: cuisine-gelato-ice-cream-dessert-italian-sweet.svg
+        icon: landscape-island.svg
       -
         id: mlooun08
         title: "Sample Liguria's celebrated cuisine"
