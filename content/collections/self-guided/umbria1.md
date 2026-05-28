@@ -59,7 +59,7 @@ page_builder:
         id: mlooee34
         title: "Walking through the 'green heart' of Italy"
         summary: 'Enjoy a continuous walk through hilltop villages and an unspoilt region of rolling green hills, woods and valleys.'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
       -
         id: DzKpDjGG1gjZ79CTeRS9N
         title: "Discover Umbria's treasures"
@@ -84,7 +84,7 @@ page_builder:
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
     type: highlights
     enabled: true
     section_background: light

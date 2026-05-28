@@ -58,7 +58,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy seven days way off the beaten track!'
         summary: 'Enjoy a continuous walk following country lanes, Etruscan paths and Medieval pilgrim trails through rolling countryside.'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
       -
         id: mloog7vk
         title: 'Be astonished by ancient villages'
@@ -78,12 +78,12 @@ page_builder:
         id: PELODUzVD0CDXCukWKeaY
         title: 'Be pampered lakeside'
         summary: 'Enjoy a night in a 4-star hotel on the shores of Lake Bolsena with its excellent restaurant and its lakeside promenade.'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
       -
         id: mlooun08
         title: 'Relax, you are fully-supported'
         summary: 'Everything is organised: your transfer from Rome on Day 1; bags moved daily; maps and an app; plus 24-hour local support'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
     type: highlights
     enabled: true
     section_background: light

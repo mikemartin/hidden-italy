@@ -51,7 +51,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 6-day walk'
         summary: 'Enjoy a continuous walk from village to village for the whole six days (no trains to get to and from the walks each day)'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
       -
         id: mloog7vk
         title: 'Savour the famous food and wines'
@@ -61,7 +61,7 @@ page_builder:
         id: mlooou12
         title: 'Walk through stunning scenery'
         summary: 'The ancient walking trails take you through the most stunning scenery in Italy: mountains on the left, sea on the right!'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
       -
         id: mlooun08
         title: 'Immerse yourself in gorgeous villages'
@@ -76,7 +76,7 @@ page_builder:
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
     type: highlights
     enabled: true
     section_background: light

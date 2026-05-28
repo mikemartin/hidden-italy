@@ -66,7 +66,7 @@ page_builder:
         id: mlooee34
         title: 'Explore the most beautiful mountains!'
         summary: 'Take your time to enjoy five days exploring a gorgeous valley in the heart of the most beautiful mountains in the world.'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
       -
         id: mloog7vk
         title: 'Enjoy magnificent walking'
@@ -91,7 +91,7 @@ page_builder:
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Everything organised: you are transferred from and back to Bolzano; you have maps and an App; and 24-hour local support.'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
     type: highlights
     enabled: true
     section_background: light

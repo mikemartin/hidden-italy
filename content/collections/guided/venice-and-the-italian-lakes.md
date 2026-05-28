@@ -72,7 +72,7 @@ page_builder:
         id: mloqndod
         title: 'Discover the glories of the Italian Lakes'
         summary: 'Follow a network of historic stone paths to discover the beauty of the Italian Lakes and mountains that surround them.'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
       -
         id: mloqrnhn
         title: 'Immerse yourself in the history and culture'

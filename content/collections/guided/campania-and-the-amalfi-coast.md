@@ -75,7 +75,7 @@ page_builder:
         id: mlomhha0
         title: 'Climb to the top of Mount Vesuvius'
         summary: 'Enjoy the extraordinary views over the Gulf of Naples to the Isle of Capri from the top of this legendary mountain.'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
       -
         id: mlomkfe7
         title: 'Explore the Monti Picentini'
@@ -95,7 +95,7 @@ page_builder:
         id: GLBV6yW5uTYV2rFpFGZs5
         title: 'Discover the Amalfi Coast'
         summary: 'Discover the secrets of the Amalfi Coast when staying in a beautiful 4-star hotel in Ravello and walking down to Amalfi.'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
     section_background: light
     show_topography: false
     hide_from_subnav: false

@@ -63,7 +63,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 7-day walk'
         summary: 'Enjoy a continuous walk from village to village for five days following well-marked trails through beautiful countryside'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
       -
         id: mloog7vk
         title: 'Immerse yourself in the daily life'
@@ -88,7 +88,7 @@ page_builder:
         id: mmx1061d
         title: 'Relax and enjoy for holiday'
         summary: 'Everything has been looked after: transfer from Florence; rooms; daily luggage transfers; maps and app; 24-hour support!'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
     type: highlights
     enabled: true
     section_background: light

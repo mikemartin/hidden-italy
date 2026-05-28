@@ -66,7 +66,7 @@ page_builder:
         id: mloqrnhn
         title: 'Walk incomparable trails'
         summary: 'Led by local guides enjoy a variety of beautiful walks: through mountain and valleys, and along along beautiful coasts.'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
       -
         id: mloqndod
         title: "Explore Italy's most diverse region"
@@ -81,7 +81,7 @@ page_builder:
         id: js_5ne3PRsZOs4LH-5Cgf
         title: "Discover Trieste, the region's wonderful capital"
         summary: 'Staying in an historic 5-star, get to know this marvellous city with a guided tour and a harbourside farewell lunch'
-        icon: nature-lake.svg
+        icon: landscape-island.svg
     type: highlights
     enabled: true
     section_background: light
