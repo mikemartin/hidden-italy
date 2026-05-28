@@ -5,8 +5,8 @@ title: 'Liguria - Italian Riviera 2'
 name: 'Italian Riviera 2'
 region: Liguria
 days: 8
-updated_by: 1
-updated_at: 1779931940
+updated_by: 4
+updated_at: 1779938439
 grade: 4
 inclusions:
   - 'Eight nights accommodation'
@@ -71,7 +71,7 @@ page_builder:
         id: 0bzkfKar62qNq6TG-Oga6
         title: "Start and finish in two of Italy's most charming seaside towns"
         summary: "Your starts in Sestri Levante and finishes in Portofino, two of the Italy's most charming and interesting seaside towns."
-        icon: culture-champagne.svg
+        icon: landscape-island.svg
       -
         id: mloog7vk
         title: 'Swim in the blue Mediterranean'
@@ -151,7 +151,7 @@ page_builder:
         title: 'Pass through olive groves'
         description: "This morning, you pick up the Sentiero Azzuro again passing through olive groves with views up to the ancient terraces climbing  the mountains above you  You pass through two more of the Cinque Terre villages (where you can stop for lunch) before finishing at the last of the five villages, where you'll stay the night.  A beautiful alternative high walk through the vineyards of Volastra for this day is included as a more challenging option."
         duration: 2.0
-        distance: 5.0
+        distance: 7.0
         elevation: 184
         meals_included:
           - breakfast
@@ -202,7 +202,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The trails are well-maintained and clearly marked.\_ The first two walks take you through mountains and valleys covered with beautiful forests with sea views where you will rarely meet another walker.\_"
+                text: "The trails are well-maintained and clearly marked.\_The first two walks take you through mountains and valleys covered with beautiful forests with sea views where you will rarely meet another walker."
               -
                 type: text
                 marks:
@@ -211,7 +211,7 @@ page_builder:
                 text: ' They are quite long but can be shortened by taking one of the regular local trains along the way.'
               -
                 type: text
-                text: "\_ The second section takes you along narrow stone paths of the Cinque Terrre.\_ There are some steep climbs up from the villages to the trail and some steep descents at the end."
+                text: " The second section takes you along the narrow stone paths of the Cinque Terrre.\_There are some steep climbs up from the villages to the trail and some steep descents at the end."
         image: self-guided/italian-riviera-2/2-1775017239.jpg
         type: walk
         enabled: true
@@ -224,7 +224,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Hidden Italy uses the best accommodation available.\_ On this walk this means very comfortable, centrally located, family-run hotels, a mix of 4-star hotels, 3-star hotels and a simple, family-run ‘pensione’.\_ All the rooms have en suite bathrooms and air-conditioning.\_ Please bear in mind that the places you are visiting are essentially small fishing villages and don't have a range of accommodation options.\_ Some of the hotels have their own swimming pools and their is always the opportunity to swim at beaches along the way."
+                text: "Hidden Italy uses the best accommodation available.\_On this walk this means very comfortable, centrally located, family-run hotels, a mix of 4-star hotels, 3-star hotels and a simple, family-run ‘pensione’.\_All the rooms have ensuite bathrooms and air-conditioning.\_Please bear in mind that the places you are visiting are essentially small fishing villages and don't have a range of accommodation options. Some of the hotels have their own swimming pools and their is always the opportunity to swim at beaches along the way."
         media:
           - self-guided/italian-riviera-2/view-from-window-at-paradiso.jpg
         type: accommodation
@@ -238,7 +238,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Like its inhabitants, the food of Ligurian is austere and reserved, based on the finest ingredients hard won from the rocky slopes of the Apennine Mountains and the blue waters of the Mediterranean Sea.\_ The classic dishes are pesto (a basil, pine-nut and garlic paste, traditionally served with a local short pasta and diced potato); focaccia (a dimpled, rustic bread served with herbs and lashing of the excellent local olive oil) and farinata (a delicious flat-bread made from chic peas with more olive oil).\_ There is an abundance of very good seafood, complemented with very good, locally grown vegetables.\_ "
+                text: "Like its inhabitants, the food of Ligurian is austere and reserved, based on the finest ingredients hard won from the rocky slopes of the Apennine Mountains and the blue waters of the Mediterranean Sea.\_The classic dishes are pesto (a basil, pine-nut and garlic paste, traditionally served with a local short pasta and diced potato); focaccia (a dimpled, rustic bread served with herbs and lashing of the excellent local olive oil) and farinata (a delicious flat-bread made from chic peas with more olive oil).\_There is an abundance of very good seafood, complemented with very good, locally grown vegetables.\_"
           -
             type: paragraph
             content:
@@ -247,7 +247,7 @@ page_builder:
                 marks:
                   -
                     type: italic
-                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+                text: 'Generous breakfasts are included each day. Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit. You will be able to make reservations where applicable directly through the Hidden Italy App.'
         media:
           - self-guided/italian-riviera-2/img_7590.jpg
         type: food
