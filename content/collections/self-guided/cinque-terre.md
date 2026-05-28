@@ -6,11 +6,11 @@ name: 'The Cinque Terre'
 region: Liguria
 days: 7
 updated_by: 4
-updated_at: 1779403130
+updated_at: 1779939503
 grade: 3
 inclusions:
   - 'Six nights accommodation'
-  - 'All breakfasts included'
+  - 'All breakfasts'
   - 'Reading lists, historical and cultural notes'
   - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
@@ -96,8 +96,8 @@ page_builder:
         id: mloozlek
         title: 'Walk to Monterosso'
         description: 'The first walk follows a superb coastal path, through woods and scented scrub with breathtaking views over the gulf and the five villages of Cinque Terre.  Along the way it passes the ruins of an abandoned convent, before dipping down to the first Cinque Terre village.'
-        duration: 3
-        distance: 7
+        duration: 3.0
+        distance: 7.0
         elevation: 314
         meals_included:
           - breakfast
@@ -106,8 +106,8 @@ page_builder:
         id: mlop159i
         title: 'Walk through vineyards'
         description: "With today's walk you start on  the Sentiero Azzurro, the celebrated path that links all the five villages of the Cinque Terre. The walk today weaves along cliffs and through terraces, offering spectacular views over the bays and the villages, before taking you to Vernazza, which, with its natural harbour and its Gothic church, many consider the loveliest of all."
-        duration: 3
-        distance: 5
+        duration: 3.0
+        distance: 5.0
         elevation: 200
         meals_included:
           - breakfast
@@ -116,8 +116,8 @@ page_builder:
         id: mlop3c5r
         title: 'Walk to Riomaggiore'
         description: "This morning, you pick up the Sentiero Azzurro again passing through olive groves with views up to ancient terraces in the mountains above you.  Along the way you visit two more of the Cinque Terre villages (perfect for resfershments and lunch) and then continue on to Riomaggiore, the last of the five villages, where you'll stay the night.  We also include a beautiful alternative high walk through the vineyards of Volastra."
-        duration: 2
-        distance: 7
+        duration: 2.0
+        distance: 7.0
         elevation: 184
         meals_included:
           - breakfast
@@ -126,8 +126,8 @@ page_builder:
         id: mlop5205
         title: 'Walk to Portovenere'
         description: 'Today you walk above the eastern part of the gulf to Portovenere.  It’s starts with a big climb up through forest to the ridge, passing an ancient religious sanctuary along the way.  From here you slowly descend to Portovenere, an ancient, narrow-laned town that sits astride a spit of land on the very tip of the Gulf of the Poets.  Portovenere has a small, sandy beach and a number of rocky coves, excellent for swimming.'
-        duration: 4
-        distance: 14
+        duration: 4.0
+        distance: 14.0
         elevation: 563
         meals_included:
           - breakfast
@@ -136,8 +136,8 @@ page_builder:
         id: mlop6avf
         title: 'Do a lap of Palmaria island'
         description: 'The walk this morning starts with a short boat ride across the narrow waterway that separates Portovenere from a fascinating island, which has a small fishing village, the remains of a monastery from the 11th century, and a very good small restaurant.  The walk circumnavigates the island, starting and finishing at the wharf.  You return by boat to Portovenere.'
-        duration: 2
-        distance: 6
+        duration: 2.0
+        distance: 6.0
         elevation: 181
         meals_included:
           - breakfast
