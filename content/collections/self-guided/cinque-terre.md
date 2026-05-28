@@ -6,7 +6,7 @@ name: 'The Cinque Terre'
 region: Liguria
 days: 7
 updated_by: 4
-updated_at: 1780008247
+updated_at: 1780008394
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -43,22 +43,6 @@ page_builder:
       - self-guided/the-cinque-terre/manarola-1-a.jpg
       - self-guided/the-cinque-terre/44.jpg
     hide_from_subnav: false
-    column_right:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Optional Day 1'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "Santa Margherita Ligure is lively and picturesque port at the foot of the superb Portofino National Park, a large promontory surrounded by cliffs and small coves, which has some the most rewarding walking on the Italian Riviera. The slopes of the park are covered with wild time, pine and holm oak and offers views over successive headlands from the summit. Santa Margherita is easily accessed by rail or road and is an ideal base from which to explore this fascinating part of the Ligurian coast. You'll stay in an excellent family-run hotel near the waterfront."
   -
     id: mloocwbk
     heading: 'Highlights of the Cinque Terre walk'
@@ -165,6 +149,13 @@ page_builder:
         meals_included:
           - breakfast
         photo: self-guided/the-cinque-terre/siret-jaksic-yats80aqvmm-unsplash.jpg
+      -
+        id: B_-5Z5ZElHjjiut0rHfg-
+        title: 'The Santa Margherita/Portofino option includes 3 nights in a 4-star hotel, sea views'
+        description: |-
+          Optional Day 1
+
+          Santa Margherita Ligure is lively and picturesque port at the foot of the superb Portofino National Park, a large promontory surrounded by cliffs and small coves, which has some the most rewarding walking on the Italian Riviera. The slopes of the park are covered with wild time, pine and holm oak and offers views over successive headlands from the summit. Santa Margherita is easily accessed by rail or road and is an ideal base from which to explore this fascinating part of the Ligurian coast. You'll stay in an excellent family-run hotel near the waterfront.
     type: itinerary
     enabled: true
     section_background: none
