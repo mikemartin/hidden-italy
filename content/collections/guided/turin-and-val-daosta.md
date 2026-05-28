@@ -72,12 +72,12 @@ page_builder:
         id: mloqrnhn
         title: "Walk some of Europe's finest trails"
         summary: 'With local guides out front, walk well-maintained mountain trails each day, surrounded by incomparable natural beauty.'
-        icon: landscape-island.svg
+        icon: trekking-trekking.svg
       -
         id: mloqndod
         title: "Explore Italy's most spectacular region"
         summary: "Every corner of the Val d'Aosta has breathtaking views: spectacular mountains, glaciers, high pastures and cute villages"
-        icon: landscape-island.svg
+        icon: nature-lake.svg
       -
         id: mm4fpvo1
         title: 'Enjoy wholesome mountain cuisine'

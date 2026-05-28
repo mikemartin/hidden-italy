@@ -66,7 +66,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 5-day walk'
         summary: 'Enjoy a continuous walk from village to village for five days following well-marked trails through beautiful countryside'
-        icon: landscape-island.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Get lost in gorgeous towns'
@@ -91,7 +91,7 @@ page_builder:
         id: mmx1061d
         title: 'Relax and enjoy for holiday'
         summary: 'Everything has been looked after: transfers at the beginning and end; luggage moved daily; maps and app; 24-hour support'
-        icon: landscape-island.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
     section_background: light

@@ -6,7 +6,7 @@ name: 'Lazio: Cammino of St Francis Part 3'
 region: Lazio
 days: 8
 updated_by: 4
-updated_at: 1779772110
+updated_at: 1779764134
 grade: 3
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
@@ -63,7 +63,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy the progress'
         summary: 'Start in forested hills and quiet countryside then pass through undulating farmland before arriving in the heart of Rome'
-        icon: landscape-island.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Enjoy the accommodation'
@@ -88,7 +88,7 @@ page_builder:
         id: mlooun08
         title: 'Pull on your boots, we’ll handle the rest'
         summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
-        icon: trekking-boots.svg
+        icon: restaurant-glass-beverage-drink-restaurant-bar-dining.svg
     type: highlights
     enabled: true
     section_background: light

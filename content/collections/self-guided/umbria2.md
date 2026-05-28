@@ -68,7 +68,7 @@ page_builder:
         id: mlooee34
         title: 'Get off the beaten track'
         summary: "Enjoy a week following well-marked trails through some of central Italy's less visited, but most beautiful, countryside."
-        icon: landscape-island.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Explore the towns'
@@ -88,12 +88,12 @@ page_builder:
         id: kU--cz46e_GZQ1Qu5BR6a
         title: 'Stay lakeside'
         summary: 'Overnight in a tranquil lakefront hotel with an outdoor pool and lush gardens, watching the sunset over the mountains.'
-        icon: landscape-island.svg
+        icon: nature-lake.svg
       -
         id: mmbinilb
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: landscape-island.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
     section_background: light

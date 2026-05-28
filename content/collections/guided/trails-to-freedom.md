@@ -56,7 +56,7 @@ page_builder:
         id: mjflfcs4
         title: 'Walk historic trails'
         summary: 'Follow ancient trails through the European Alps in the footsteps of 4 Aussie POWs who escaped Fascist Italy in 1943.'
-        icon: landscape-island.svg
+        icon: trekking-trekking.svg
       -
         id: mjflflyr
         title: 'Sleep in ancient monasteries'
@@ -76,7 +76,7 @@ page_builder:
         id: mjflgcks
         title: 'Celebrate with a farewell dinner'
         summary: 'Mark the end of your alpine adventure with a festive group meal in a charming mountain village near the Swiss border.'
-        icon: landscape-island.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
     section_background: light

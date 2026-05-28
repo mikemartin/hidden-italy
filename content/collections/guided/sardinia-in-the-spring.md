@@ -80,7 +80,7 @@ page_builder:
         id: mlpxzpka
         title: 'Embrace the nature'
         summary: "Embrace the island's pristine nature: walking coastal paths and mountain trails; and sailing along the Costa Smeralda!"
-        icon: landscape-island.svg
+        icon: trekking-trekking.svg
       -
         id: mlpy8s53
         title: "Stay in the island's finest hotel!"

@@ -85,7 +85,7 @@ page_builder:
         id: 6ie2Lj2ewJn2NIpV3_xII
         title: 'Enjoy continuous walking'
         summary: 'Enjoy following historical trails, exploring this fascinating coast passing villages, olive groves, forests and beaches.'
-        icon: landscape-island.svg
+        icon: trekking-trekking.svg
       -
         id: mlooun08
         title: "Sample Liguria's celebrated cuisine"
@@ -95,6 +95,7 @@ page_builder:
         id: mloog7vk
         title: 'Stay in fabulous Portofino'
         summary: "Stay in a family-run hotel off the main piazza and schmooze in one of Italy's most picturesque seaside villages!"
+        icon: restaurant-glass-beverage-drink-restaurant-bar-dining.svg
       -
         id: kmbm05nSUD7URhPWwOiKU
         title: 'Go for swims!'

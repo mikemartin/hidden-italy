@@ -58,7 +58,7 @@ page_builder:
         id: mlrbvyrv
         title: 'Enjoy coastal walking'
         summary: 'Follow well-marked paths that take you above the sea with spectacular views over the coastline and surrounding mountains'
-        icon: landscape-island.svg
+        icon: trekking-trekking.svg
       -
         id: tlktoZzf1f6p1C_QwMNEB
         title: 'Be pampered'
@@ -83,7 +83,7 @@ page_builder:
         id: mlrc9yr3
         title: 'Relax and enjoy your holiday'
         summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: landscape-island.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
     section_background: light

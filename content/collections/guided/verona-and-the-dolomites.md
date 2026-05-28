@@ -74,7 +74,7 @@ page_builder:
         id: mlq71o6y
         title: 'Immerse yourself in the Dolomites'
         summary: 'Immerse yourself in the most beautiful mountains in the world, following well-marked trials accompanied by local guides.'
-        icon: landscape-island.svg
+        icon: trekking-trekking.svg
       -
         id: mlq77jb0
         title: 'Enjoy world-class accommodation'

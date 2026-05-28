@@ -57,7 +57,7 @@ page_builder:
         id: mlooee34
         title: 'Enjoy a continuous 8-day walk'
         summary: 'Enjoy a continuous walk through vineyards and forest following well-marked trails from village to village for seven days'
-        icon: landscape-island.svg
+        icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Savour the famous food and wines'
@@ -82,7 +82,7 @@ page_builder:
         id: mlooun08
         title: 'Relax, you are fully-supported'
         summary: 'Everything is organised: you are transfer to and from Alba; your bags moved each day; an App; and 24-hour local support.'
-        icon: landscape-island.svg
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
     section_background: light
