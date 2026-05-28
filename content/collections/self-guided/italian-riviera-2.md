@@ -5,8 +5,8 @@ title: 'Liguria - Italian Riviera 2'
 name: 'Italian Riviera 2'
 region: Liguria
 days: 8
-updated_by: 4
-updated_at: 1779867217
+updated_by: 1
+updated_at: 1779931880
 grade: 4
 inclusions:
   - 'Eight nights accommodation'
