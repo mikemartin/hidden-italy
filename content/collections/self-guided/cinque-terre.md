@@ -6,14 +6,14 @@ name: 'The Cinque Terre'
 region: Liguria
 days: 7
 updated_by: 4
-updated_at: 1779939503
+updated_at: 1780008247
 grade: 3
 inclusions:
   - 'Six nights accommodation'
   - 'All breakfasts'
   - 'Reading lists, historical and cultural notes'
-  - 'Maps and detailed walking instructions'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App with GPS to complement the booklet'
   - 'Daily transfers of baggage between hotels'
   - 'Drop-off at the end of the tour from Portovenere to La Spezia station (on the Rome/Genoa line)'
   - 'The Santa Margherita/Portofino option includes 3 nights in a 4-star hotel, sea views'
@@ -43,6 +43,22 @@ page_builder:
       - self-guided/the-cinque-terre/manarola-1-a.jpg
       - self-guided/the-cinque-terre/44.jpg
     hide_from_subnav: false
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Optional Day 1'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Santa Margherita Ligure is lively and picturesque port at the foot of the superb Portofino National Park, a large promontory surrounded by cliffs and small coves, which has some the most rewarding walking on the Italian Riviera. The slopes of the park are covered with wild time, pine and holm oak and offers views over successive headlands from the summit. Santa Margherita is easily accessed by rail or road and is an ideal base from which to explore this fascinating part of the Ligurian coast. You'll stay in an excellent family-run hotel near the waterfront."
   -
     id: mloocwbk
     heading: 'Highlights of the Cinque Terre walk'
@@ -352,7 +368,7 @@ summary:
     content:
       -
         type: text
-        text: 'Following an extraordinary trail, this continuous walk (no trains!) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere six days later, leaving you plenty of time to explore the charming villages you stay in each day.'
+        text: 'Following an extraordinary trail, this continuous 7-day/ 6-night walking tour (no trains!) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere six days later, leaving you plenty of time to explore the charming villages you stay in each day.'
 price: 'A$2,950'
 show_from: true
 og_image: liguria-the-cinque-terre-og-1779335291.png
