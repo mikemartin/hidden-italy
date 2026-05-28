@@ -6,7 +6,7 @@ name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6
 updated_by: 4
-updated_at: 1779867193
+updated_at: 1779939137
 grade: 3
 inclusions:
   - 'Five nights’ accommodation'
@@ -16,7 +16,7 @@ inclusions:
   - 'The Hidden Italy App with GPS to complement the booklet'
   - 'A curated list of restaurants for each town you visit'
   - 'Daily transfers of baggage between hotels'
-  - '24 hour back-up from local operations manager'
+  - '24-hour support from our local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: northern-italy
 landscapes:
@@ -101,20 +101,22 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloox88g
-    title: 'Portofino and the Tigullio self-guided walk'
+    title: 'Portofino and the Tigullio Itinerary'
     summary: 'Portofino is the star turn of the Italian Riviera, a beautifully preserved fishing village tucked into a perfect bay, but it is only one of the highlights of this fascinating stretch of coastline that sits between Genoa and the Cinque Terre.'
     days:
       -
         id: mlooymbz
         title: 'Arrive in Camogli'
-        description: "You start the tour in Camogli, which is on the main La Spezia/Genoa railway line, where you’ll spend your first night in a lovely hotel set in the centre of the town overlooking the sea.  Dickens described Camogli as 'the saltiest, roughest, most piratical little place'.  The rough edges have long gone but it remains one of the most attractive resorts on the coast."
+        description: "You start the tour in Camogli, which is on the main La Spezia/Genoa railway line, where you’ll spend your first night in a lovely hotel set in the centre of the town overlooking the sea. Dickens described Camogli as 'the saltiest, roughest, most piratical little place'. The rough edges have long gone but it remains one of the most attractive resorts on the coast."
         photo: self-guided/portofino-and-the-tigullio-gulf/moira-nazzari-cbtepzflvtu-unsplash.jpg
       -
         id: mloozlek
-        title: 'Walk through the Portofino National Park'
-        description: 'Today you leave Camogli by walking above the coastline on the western edge of the Portofino National Park with its vast views across the Gulf of Genoa before climbing up into forest.  You then wind your way down through forest and olive groves to the stunning little village of Portofino, one of the most celebrated spots on the Italian coast. Your accommodation is in a beautiful hotel on the main square of this celebrated village, a short walk from the port.'
+        title: 'Walk the Portofino National Park'
+        description: |-
+          Today you leave Camogli by walking above the coastline on the western edge of the Portofino National Park with its vast views across the Gulf of Genoa before climbing up into forest. You then wind your way down through forest and olive groves to the stunning little village of Portofino, one of the most celebrated spots on the Italian coast. Your accommodation is in a beautiful hotel on the main square of this celebrated village, a short walk from the port.
+          An additional night option is available here.
         duration: 3.0
-        distance: 9.0
+        distance: 9.5
         elevation: 471
         meals_included:
           - breakfast
@@ -122,7 +124,7 @@ page_builder:
       -
         id: mlop159i
         title: 'Walk around the Gulf of Tigullio'
-        description: 'This morning you head out of Portofino following a lovely path that winds above the coast, passing through olive groves with views over bays and hidden villas to arrive at the elegant resort town of Santa Margherita Ligure.  From here, you follow a well-marked path to a busy neighbouring port, entering the town your staying in over a Roman bridge that Hannibal himself is said to have crossed.'
+        description: 'This morning you head out of Portofino following a lovely path that winds above the coast, passing through olive groves with views over bays and hidden villas to arrive at the elegant resort town of Santa Margherita Ligure. From here, you follow a well-marked path to a busy neighbouring port, entering the town your staying in over a Roman bridge that Hannibal himself is said to have crossed.'
         duration: 3.0
         distance: 8.0
         elevation: 203
@@ -141,8 +143,8 @@ page_builder:
         photo: self-guided/portofino-and-the-tigullio-gulf/img_4819.jpg
       -
         id: mlop5205
-        title: 'Walk to Sestri Levante'
-        description: "Today's trail takes you along the sea front to a neighbouring town before picking up the pilgrim trail once again.  The trail then climbs up into the hills, following an old paved trail to a ruined church with breath-taking views and down over the Gulf of Tigullio and the Bay of Silence, before descending to enchanting Sestri Levante."
+        title: 'Explore the pilgrim trail'
+        description: "Today's trail takes you along the sea front to a neighbouring town before picking up the pilgrim trail once again. The trail then climbs up into the hills, following an old paved trail to a ruined church with breath-taking views and down over the Gulf of Tigullio and the Bay of Silence, before descending to enchanting Sestri Levante."
         duration: 3.0
         distance: 11.0
         elevation: 203
@@ -172,6 +174,11 @@ page_builder:
           -
             type: paragraph
             content:
+              -
+                type: text
+                text: 'A spectacular trail that wraps around the Portofino peninsula, cobbled lanes that connect pretty coastal towns and an ancient pilgrim trail through unspoilt forest'
+              -
+                type: hardBreak
               -
                 type: text
                 text: "The walks range from 6 km to 11 km per day.\_ They follow a combination of trade and pilgrim trails that run above the Liguria coast, climbing up into the forested hills at the beginning each day before dipping down to the bustling coastal towns at the end. The trails follow a combination of ancient paved paths and well-marked walking trails.\_ It is straightforward and without long climbs.\_ Full details on each walk are on the itinerary.\_"
@@ -358,7 +365,7 @@ summary:
     content:
       -
         type: text
-        text: 'Portofino is the star turn of the Italian Riviera, this 6-day/5-night tour explores the beautifully preserved fishing village tucked into a perfect bay, but it is only one of the highlights of this fascinating stretch of coastline that sits between Genoa and the Cinque Terre.'
+        text: 'This 6-day/5-night tour explores Portofino, the star turn of the Italian Riviera, the beautifully preserved fishing village tucked into a perfect bay, but it is only one of the highlights of this fascinating stretch of coastline that sits between Genoa and the Cinque Terre.'
 price: 'A$3,300'
 show_from: true
 og_image: liguria-portofino-and-the-tigullio-gulf-og-1779335289.png
