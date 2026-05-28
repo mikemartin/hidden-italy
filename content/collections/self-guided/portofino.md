@@ -6,7 +6,7 @@ name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6
 updated_by: 4
-updated_at: 1779939431
+updated_at: 1780007854
 grade: 3
 inclusions:
   - 'Five nights’ accommodation'
@@ -176,7 +176,7 @@ page_builder:
             content:
               -
                 type: text
-                text: 'A spectacular trail that wraps around the Portofino peninsula, cobbled lanes that connect pretty coastal towns and an ancient pilgrim trail through unspoilt forest'
+                text: 'A spectacular trail that wraps around the Portofino peninsula, cobbled lanes that connect pretty coastal towns and an ancient pilgrim trail through unspoilt forest.'
               -
                 type: hardBreak
               -
@@ -194,7 +194,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "You'll be staying in a mix excellent, centrally located, family-run 3 and 4-star hotels that have been operating since the early 1900s.\_ They have comfortable rooms with\_generous breakfasts, en suite bathrooms and sea views."
+                text: "You'll be staying in a mix excellent, centrally located, family-run 3 and 4-star hotels that have been operating since the early 1900s.\_They have comfortable rooms with\_generous breakfasts, ensuite bathrooms and sea views."
         media:
           - self-guided/portofino-and-the-tigullio-gulf/erinsummer-beautiful-5284440_1920-a.jpg
         type: accommodation
@@ -208,7 +208,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Ligurians like to use their own trusted products which come from the 350 kilometres of coastline with its rough, mountainous hinterland or which is fished out of ther own waters.\_ It is an austere but delicous style of cooking that has produced such specialities as pesto sauce and foccaccia.\_ Even the wines, grown with great effort on the steep, rocky terraces suit the local food perfectly.\_"
+                text: "Ligurians like to use their own trusted products which come from the 350 kilometres of coastline with its rough, mountainous hinterland or which is fished out of ther own waters.\_It is an austere but delicious style of cooking that has produced such specialties as pesto sauce and focaccia.\_ Even the wines, grown with great effort on the steep, rocky terraces, suit the local food perfectly.\_"
           -
             type: paragraph
             content:
@@ -217,7 +217,7 @@ page_builder:
                 marks:
                   -
                     type: italic
-                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village"
+                text: 'Generous breakfasts are included each day. Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit. You will be able to make reservations where applicable directly through the Hidden Italy App.'
         media:
           - self-guided/portofino-and-the-tigullio-gulf/chaewon-you-vrngfwxd0nm-unsplash.jpg
         type: food
