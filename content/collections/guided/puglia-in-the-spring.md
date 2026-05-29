@@ -5,8 +5,8 @@ title: 'Puglia - Puglia in the Spring'
 name: 'Puglia in the Spring'
 region: Puglia
 days: 13
-updated_by: 1
-updated_at: 1779336277
+updated_by: 3
+updated_at: 1780024552
 grade: 2
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -112,8 +112,8 @@ page_builder:
         id: mloqy5ed
         title: 'Transfer to the coast'
         description: "This morning we leave Lecce and head for Otranto.  On the way, we visit Puglia's oldest national park, for a lovely walk along the Ionian Sea, where we'll have a light lunch. Our base for the next four nights is a perfectly preserved medieval port tucked behind 15th century Spanish walls above an idyllic harbour. Our accommodation is in a 5-star boutique hotel set in a 14th-century palazzo inside the town's bastions.  We'll have dinner together in one of our favourite restaurants in town."
-        duration: 2
-        distance: 6
+        duration: 2.0
+        distance: 6.0
         elevation: 229
         meals_included:
           - breakfast
@@ -124,8 +124,8 @@ page_builder:
         id: mloqzruj
         title: 'Walk along the coast'
         description: 'This morning we walk south of the town following trails along the coast, passing a number of medieval lookout towers that mark the eastern most point of Italy.  After stopping for a coffee in a strategically placed ‘agriturismo’, we’ll continue down the coast to a lovely small bay, where we will have lunch.  We’ll be given a lift back to our base, where the rest of the afternoon and evening are free.'
-        duration: 4
-        distance: 13
+        duration: 4.0
+        distance: 13.0
         elevation: 335
         meals_included:
           - breakfast
@@ -144,8 +144,8 @@ page_builder:
         id: mlor23s2
         title: 'Go for a walk and a cooking lesson'
         description: 'This morning we have a short drive inland to do a walk beginning at recently restored masseria that has a very long and fascinating history.  We will then take an easy walk through pine forests and farmlands to a 15th century lookout tower (also recently restored).  Here we will have a cooking demonstration in the tower, followed by lunch before driving back to our base.  The rest of the afternoon and evening is free.'
-        duration: 2
-        distance: 6
+        duration: 2.0
+        distance: 6.0
         elevation: 64
         meals_included:
           - breakfast
@@ -164,8 +164,8 @@ page_builder:
         id: mlor6aar
         title: 'Walk through forest and orchards'
         description: "Today we enjoy a beautiful walk leaving our base along country lanes, walking through olive groves, orchards and oak forests before picking up an ancient stone path that takes us through hamlets and villages.   After a very special lunch based on homegrown produce, we will head back by bus to relax at our base.   In the evening, we'll go out for dinner at a nearby restaurant."
-        duration: 4
-        distance: 13
+        duration: 4.0
+        distance: 13.0
         elevation: 160
         meals_included:
           - breakfast
@@ -184,8 +184,8 @@ page_builder:
         id: mlora14b
         title: 'Walk to Alberobello'
         description: 'Today we walk from our base along ancient roads through vineyards, forest and cherry orchards lined with drystone walls before picking up a trail that follows an historic aqueduct to Alberobello.  This fascinating town is the capital of the ‘trulli’ district, with over 1500 of these charming, conical houses crowded into its historic centre. After lunch, you’ll have time to explore Alberobello before we return to our base.  The rest of the afternoon is free.'
-        duration: 5
-        distance: 15
+        duration: 5.0
+        distance: 15.0
         elevation: 200
         meals_included:
           - breakfast
@@ -195,8 +195,8 @@ page_builder:
         id: mlorbjxg
         title: 'Transfer to Bari'
         description: "This morning we leave the trulli and drive north across the rolling plains and wheat fields of Le Murghe, stopping to visit a lovely town, which is famous for bread.  After a light lunch, we'll take an easy walk through forest and farmlands, climbing up to one of the most remarkable buildings in southern Italy: Castel del Monte, a mysterious, isolated octagonal castle constructed in the 13th century.  After a visit to the castle, we’ll drive south to Bari. where the evening is free."
-        duration: 1
-        distance: 4
+        duration: 1.0
+        distance: 4.0
         elevation: 102
         meals_included:
           - breakfast
@@ -311,7 +311,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+                text: 'To secure your walking tour, a deposit of 25% of the total invoice amount is required on receipt of the attached invoice. Bookings are cancelled automatically if payment is not received within 7 days from invoice date. In the event of cancellation by the customer, a non-refundable & non-transferable fee of $750 per person per tour will apply.'
         type: booking_cancellation
         enabled: true
       -
@@ -322,7 +322,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
     type: essentials
