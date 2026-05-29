@@ -5,8 +5,8 @@ title: 'Umbria - Umbria 1: Cammino of St Francis Part 1'
 name: 'Umbria 1: Cammino of St Francis Part 1'
 region: Umbria
 days: 7
-updated_by: 4
-updated_at: 1779403541
+updated_by: 3
+updated_at: 1780026574
 grade: 3
 inclusions:
   - 'Five nights accommodation'
@@ -104,8 +104,8 @@ page_builder:
         id: mloozlek
         title: "Visit St Francis' retreat"
         description: 'This itinerary starts with a steep climb up to a beautiful hermitage surrounded by forests that was a place of retreat for St Francis.  From here the path contours around the side of Mt Subasio with wide views across the valley to Montefalco and the Martani Hills, before descending to a beautiful hill-town founded by the Romans.   Please note there is an alternative, which is lower and shorter.  (11.5 kms, 3.5 hrs; 220 mts)'
-        duration: 5
-        distance: 15
+        duration: 5.0
+        distance: 15.0
         elevation: 570
         meals_included:
           - breakfast
@@ -114,8 +114,8 @@ page_builder:
         id: mlop159i
         title: 'Walk the Olive Trail'
         description: 'The first half of today’s walk takes you down onto the valley floor passing through a string of towns including Foligno, before climbing up the side of the valley and picking paths that take you classic Umbria countryside dominated by centuries old olive groves finishing in one of the best-preserved and attractive hill-towns in the region  (19.5 kms; 6 hrs; min: 228 mts, max: 413 mts)'
-        duration: 6
-        distance: 19
+        duration: 6.0
+        distance: 19.0
         elevation: 185
         meals_included:
           - breakfast
@@ -124,8 +124,8 @@ page_builder:
         id: mlop3c5r
         title: 'Enjoy the views'
         description: 'The route continues to skirt along the side of the mountains with spectacular views across the valley and up to the Sibillini Mountains.  It largely follows unsealed country lanes through farmlands and olive groves passing sites of considerable historical interest, including a Franciscan hermitage and a sleepy medieval village.  (10 kms; 3 hrs; min: 324 mts, max: 552 mts)'
-        duration: 3
-        distance: 10
+        duration: 3.0
+        distance: 10.0
         elevation: 228
         meals_included:
           - breakfast
@@ -134,8 +134,8 @@ page_builder:
         id: mlop5205
         title: 'Walk to Spoleto'
         description: "The last walk continues along the 'Sentiero degli Ulivi', winding through olive groves, around the side of the hills past a string of villages before arriving in Spoleto, entering this gorgeous city through the lower medieval walls and climbing up to the cathedral square.  (5 hrs; 18 kms; min: 299 mts, max: 556 mts)"
-        duration: 5
-        distance: 18
+        duration: 5.0
+        distance: 18.0
         elevation: 257
         meals_included:
           - breakfast
@@ -158,7 +158,7 @@ page_builder:
       -
         id: FR3faXfk73iAF3NKH5tOt
         title: 'Exceptional walkings'
-        total_distance: 62
+        total_distance: 62.0
         total_elevation: 1220
         grade: 3
         description:
@@ -254,7 +254,19 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+                text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
       -
@@ -265,7 +277,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
     type: essentials
