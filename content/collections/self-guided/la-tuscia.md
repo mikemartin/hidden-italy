@@ -5,8 +5,8 @@ title: 'Tuscany and Umbria - La Tuscia'
 name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 8
-updated_by: 1
-updated_at: 1779336456
+updated_by: 3
+updated_at: 1780026417
 grade: 3
 inclusions:
   - 'Pick-up from Rome and transfer to Pitigliano on Day 1'
@@ -103,8 +103,8 @@ page_builder:
         id: mloozlek
         title: 'Walk ancient trails'
         description: "In the morning you will be transferred to nearby Pitigliano, where you'll have time to explore this spectacular town before doing the extraordinary walk that links Pitigliano to Sovana.  The trail follows an Etruscan path carved out of living rock two and a half thousand years ago.  You will have time in the afternoon to walk down to the valleys surrounding Sovana to explore the Etruscan sites."
-        duration: 2
-        distance: 8
+        duration: 2.0
+        distance: 8.0
         elevation: 115
         meals_included:
           - breakfast
@@ -113,8 +113,8 @@ page_builder:
         id: mlop159i
         title: 'Sleep in a castle'
         description: "The next leg of the walk is to another extraordinary neighbouring town, founded at the same time as Pitigliano and with an equally extraordinary location, perched on volcanic cliffs above a river, staying in a hotel situated in the town's medieval fortress."
-        duration: 3
-        distance: 11
+        duration: 3.0
+        distance: 11.0
         elevation: 160
         meals_included:
           - breakfast
@@ -123,8 +123,8 @@ page_builder:
         id: mlop3c5r
         title: 'Discover an abandoned city'
         description: 'After a morning exploring town, the next walk is to a charming farming town following a shaded stream and a route that originally joined landlocked Orvieto with the coast, visiting on the way the ruins of a very interesting abandoned medieval town, swallowed up by forests centuries ago.  Dinner in your lovely agriturismo is included tonight.'
-        duration: 3
-        distance: 7
+        duration: 3.0
+        distance: 7.0
         elevation: 140
         meals_included:
           - breakfast
@@ -134,8 +134,8 @@ page_builder:
         id: mlop5205
         title: 'Sleep lakeside'
         description: "Today you walk to Lake Bolsena via a sleepy country town, leaving Tuscany and crossing into Lazio, from the Grand Duchy into the Papal State. The walk finishes on the shores of the lake at a tiny trattoria shaded by willows were you'll be able to have lunch. You will be picked up from here by our driver and taken around the lake to your accommodation in a 4-star hotel on the lakeshore."
-        duration: 5
-        distance: 18
+        duration: 5.0
+        distance: 18.0
         elevation: 322
         meals_included:
           - breakfast
@@ -144,8 +144,8 @@ page_builder:
         id: mlop6avf
         title: 'Walk to Orvieto'
         description: "Walk from Lake Bolsena to the marvellous town of Orvieto following for much of the way the original route of a branch of the medieval Via Francigena. On the way you will pass through forest (past an Etruscan excavation and a rock that was miraculously split to allow a medieval procession carrying a relic of Christ's blood to reach Orvieto) before, picking up a dead straight paved section of original Roman road which will take you into Orvieto.  (18 kms, 5 hrs; min: 188 mts, max: 626 mts)"
-        duration: 5
-        distance: 17
+        duration: 5.0
+        distance: 17.0
         elevation: 442
         meals_included:
           - breakfast
@@ -168,7 +168,7 @@ page_builder:
       -
         id: hm_KqkbxxKsWJItLexN2s
         title: 'Exceptional walkings'
-        total_distance: 63
+        total_distance: 63.0
         total_elevation: 1179
         grade: 3
         description:
@@ -270,7 +270,19 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+                text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
       -
@@ -281,7 +293,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
     type: essentials
