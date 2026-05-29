@@ -5,8 +5,8 @@ title: 'Trentino-Alto Adige - Dolomites'
 name: Dolomites
 region: 'Trentino-Alto Adige'
 days: 6
-updated_by: 4
-updated_at: 1779402851
+updated_by: 3
+updated_at: 1780026204
 grade: 4
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
@@ -113,8 +113,8 @@ page_builder:
         id: mloozlek
         title: 'Walk the north side of the valley'
         description: 'Your first walk is a spectacular introduction to the Dolomites.  To get to the start, you will be driven to the western end of the valley.  You then take a cable car to the top of the northern side, where you have breath-taking views over the whole range, stretching from Austria in the north to Veneto in the south.   You then take an undulating path across alpine pastures, through pine forests and back down to your village, with the option of stopping for lunch in a mountain hut along the way.'
-        duration: 4
-        distance: 10
+        duration: 4.0
+        distance: 10.0
         elevation: 250
         meals_included:
           - breakfast
@@ -127,8 +127,8 @@ page_builder:
           This morning is an easy day, following a gentle river-side path that takes you the length of the valley past farmhouses and through villages to the largest town in the valley  (2.5 hrs; 9 kms; max: 1563 mts, min: 1221 mts)
 
           You’ll have time to visit the town with its shops, markets and museums and also have lunch.  In the afternoon, you will have the option of walking back your base along the same trail or taking one of the regular local buses back to your base.
-        duration: 3
-        distance: 9
+        duration: 3.0
+        distance: 9.0
         elevation: 187
         meals_included:
           - breakfast
@@ -141,8 +141,8 @@ page_builder:
           The walk today starts with a transfer back to the eastern end of the valley and another cable car ride, this time up the southern side of the valley (to 2,000 metres) from where you walk across the largest high altitude alpine meadows in Europe, a vast undulating amphitheatre of green fields surrounded by some of the most spectacular ranges in the area. 
 
           The walk passes a small hamlet where you can have lunch before continuing under the cliffs and then dropping back down through forest into the valley to your base.  (4.5 hrs; 14 kms; max: 1995 mts, min: 1544 mts)
-        duration: 5
-        distance: 14
+        duration: 5.0
+        distance: 14.0
         elevation: 279
         meals_included:
           - breakfast
@@ -152,8 +152,8 @@ page_builder:
         id: mlop5205
         title: 'The grand finale'
         description: 'As the grand finale to your visit, you have a circuit walk around one of the most famous formations in the Dolomites.  To get to the start, you take a cable car directly up from the town.  From here, you follow a trail that contours around this extraordinary massif, with cliffs soaring up above you (3000 mts). There are regular mountain huts along the way for refreshments.  This trail is not suitable for suffers of vertigo so we have included a shorter, lower and less challenging alternative.'
-        duration: 6
-        distance: 19
+        duration: 6.0
+        distance: 19.0
         elevation: 394
         meals_included:
           - breakfast
@@ -163,8 +163,8 @@ page_builder:
         id: mlop6avf
         title: 'Transfer to Bolzano'
         description: 'You’ll be taken back to Bolzano by a private transfer, which has regular national and international rail connections.'
-        duration: 2
-        distance: 6
+        duration: 2.0
+        distance: 6.0
         elevation: 181
         meals_included:
           - breakfast
@@ -264,7 +264,19 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_ "
+                text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice. '
         type: booking_cancellation
         enabled: true
       -
@@ -275,7 +287,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_ "
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
     type: essentials
@@ -341,7 +359,7 @@ start_location:
       code: null
       level: 2
   country: Italy
-now_open: false
+now_open: true
 seasons:
   - summer
 headline: '6 days walking the Dolomites'
@@ -377,4 +395,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+badge_text: POPULAR
 ---
