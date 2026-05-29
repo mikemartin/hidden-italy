@@ -6,7 +6,7 @@ name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: 3
-updated_at: 1780025204
+updated_at: 1780028487
 locations: northern-italy
 grade: 3
 image: guided/verona-and-the-dolomites/-p9192176.jpg
@@ -426,7 +426,7 @@ summary:
       -
         type: text
         text: "Starting in Verona, this exciting small-group tour in the Dolomites takes you through the most beautiful mountains in the world. \_Its well-marked trails, charming villages and mountain huts provide some of the finest walking in Europe. \_"
-price: 'A$9,450'
+price: 'A$9,450 pp'
 show_from: true
 date: '2027-09-16 14:00'
 og_image: trentino-alto-adige-verona-and-the-dolomites-og-1779335253.png
