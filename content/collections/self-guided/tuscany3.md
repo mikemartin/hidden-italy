@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 3'
 name: 'Tuscany 3'
 region: Tuscany
 days: 5
-updated_by: 4
-updated_at: 1779403498
+updated_by: 3
+updated_at: 1780026379
 grade: 2
 inclusions:
   - 'Private transfer from Florence to San Gimignano on Day 1'
@@ -106,16 +106,16 @@ page_builder:
         id: mlooymbz
         title: 'Arrive in San Gimignano'
         description: "A private transfer will take you from Florence to your hotel in San Gimignano, a walled medieval town famous for its towers, which was on the Via Francigena, the most important route to Rome in the Middle Ages. In the afternoon there is a short loop walk through the celebrated Vernaccia vineyards with wonderful views over San Gimignano's famous skyline before returning to your base."
-        duration: 2
-        distance: 9
+        duration: 2.0
+        distance: 9.0
         elevation: 195
         photo: self-guided/tuscany-3/aver007-san-gimignano-4720522.jpg
       -
         id: mloozlek
         title: 'Walk through vineyards'
         description: "Today's walk takes you to another well-preserved medieval town that prospered trading in the Middle Ages. The walk leaves San Gimignano along the Via Francigena.  It passes vineyards and olive groves before following a narrow, forested valley, taking you through a landscape that has changed little since the Middle Ages."
-        duration: 3
-        distance: 12
+        duration: 3.0
+        distance: 12.0
         elevation: 174
         meals_included:
           - breakfast
@@ -124,8 +124,8 @@ page_builder:
         id: mlop159i
         title: 'Stay in a medieval fortress'
         description: 'The walk this morning again picks up the Via Francigena, and takes you across undulating farmlands, passing hamlets, castles and a fine Romanesque abbey before arriving at a tiny walled medieval village, a little gem with a ring of high walls that enclose a precious collection of restored houses, gardens and palazzi.  (18 kms; 4.5 hrs; min: 172 mts, max: 285 mts)'
-        duration: 5
-        distance: 18
+        duration: 5.0
+        distance: 18.0
         elevation: 113
         meals_included:
           - breakfast
@@ -134,8 +134,8 @@ page_builder:
         id: mlop3c5r
         title: 'Arrive in Siena'
         description: "The walk today takes you to Siena, the dynamic capital of southern Tuscany.  It passes through forests and the range of hills that once protected Siena's northern frontier from their enemies in Florence.  A city rich in art and history, Siena is a wonderful place to explore or simply while away time, sipping an aperitivo and watching the colourful life pass by.   It is a long day but the walk can be shortened by taking a bus on the outskirts of Siena."
-        duration: 5
-        distance: 20
+        duration: 5.0
+        distance: 20.0
         elevation: 119
         meals_included:
           - breakfast
@@ -252,7 +252,19 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+                text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
       -
@@ -263,7 +275,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
     type: essentials
