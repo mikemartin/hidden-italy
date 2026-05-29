@@ -5,20 +5,20 @@ title: 'Puglia - Puglia: The Gargano Peninsula'
 name: 'Puglia: The Gargano Peninsula'
 region: Puglia
 days: 8
-updated_by: 3
-updated_at: 1780025757
+updated_by: 4
+updated_at: 1780026168
 grade: 4
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
   - 'Private transfer from Vieste to Foggia on Day 8'
   - 'Seven nights accommodation'
-  - 'All breakfasts and dinners'
+  - 'All breakfasts and 6 dinners'
   - 'Reading lists and historical and cultural notes'
-  - 'Maps and detailed walking instructions'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App with GPS to complement the booklet'
   - 'A curated list of restaurants is included'
   - 'Daily transfers of baggage between hotels'
-  - '24-hour backup from local manager'
+  - '24-hour support from our local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: southern-italy
 landscapes:
@@ -36,14 +36,14 @@ page_builder:
         content:
           -
             type: text
-            text: "The tour starts with a private transfer from the nearby town of Foggia to a small town perched on the western end of the Gargano peninsula.\_You then follow pilgrim trails through farmlands and the Foresta Umbra, an ancient beech forest, before a spectacular descent down to the sea, finishing at the dramatically located town of Vieste, where you’ll spend the final two days, which includes a morning tour in a private boat exploring some of the most beautiful coastline in southern Italy."
+            text: 'A forested peninsula surrounded by sparkling waters, white limestone cliffs and pretty fishing villages, criss-crossed by ancient pilgrim trails, Gargano is a perfect place to go hiking. The tour starts with a private transfer from the nearby town of Foggia to a small town perched on the western end of the Gargano peninsula.'
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: " You'll be transferred back to Foggia on the last day.  Breakfast and dinner are included each day. This is a marvellous walker's walk, a very satisfying exploration of an area that few foreigners visit!"
+            text: "You then follow pilgrim trails through farmlands and the Foresta Umbra, an ancient beech forest, before a spectacular descent down to the sea, finishing at the dramatically located town of Vieste, where you’ll spend the final two days, which includes a morning tour in a private boat exploring some of the most beautiful coastline in southern Italy. You'll be transferred back to Foggia on the last day. This is a marvellous walker's walk, a very satisfying exploration of an area that few foreigners visit!"
     title: 'Pilgrim trails to the sea'
     images:
       - self-guided/the-gargano-peninsula/img_2799.jpg
@@ -354,7 +354,7 @@ gallery:
 now_open: false
 seasons:
   - spring
-headline: '8 days rambling Gargano'
+headline: '8 days wandering the Gargano'
 start_location:
   label: 'San Marco in Lamis, Apulia, Italy'
   lat: '41.713138'
@@ -394,7 +394,7 @@ summary:
     content:
       -
         type: text
-        text: 'The Gargano is in northern Puglia. The ‘spur’ on the boot of Italy, it is an expansive promontory covered by one of Italy’s oldest national parks, surrounded by sparkling waters, white limestone cliffs and pretty fishing villages. Gargano has a rich history. It has been inhabited since Neolithic times and has towns that were founded by the ancient Greeks and Romans, but its glory days were during the Crusades when the sanctuary of Monte San Michele became one of the most important pilgrim destinations in the Middle Ages.'
+        text: 'The Gargano Peninsula is in northern Puglia. The ‘spur’ on the boot of Italy, it is an expansive promontory covered by one of Italy’s oldest national parks, surrounded by sparkling waters, white limestone cliffs and pretty fishing villages. Gargano has a rich history. It has been inhabited since Neolithic times and has towns that were founded by the ancient Greeks and Romans, but its glory days were during the Crusades when the sanctuary of Monte San Michele became one of the most important pilgrim destinations in the Middle Ages.'
 show_from: true
 price: 'A$3,400'
 og_image: puglia-puglia-the-gargano-peninsula-og-1779335294.png
