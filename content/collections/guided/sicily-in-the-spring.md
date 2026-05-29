@@ -6,8 +6,8 @@ name: 'Sicily in the Spring'
 region: Sicily
 seasons: spring
 locations: southern-italy
-updated_by: 1
-updated_at: 1779336291
+updated_by: 3
+updated_at: 1780024664
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -144,8 +144,8 @@ page_builder:
         id: GZDLxY0mZk-PQrOwEsWlO
         title: 'Walk in the mountains'
         description: "The first walk of the tour takes us into the heart of the Madonie National Natural Park. It is a beautiful high mountain walk finishing in a small fortified town, perched on the edge of the park, that was the original seat of the area's feudal lords. After a light lunch, we'll explore this beautifully situated town before returning to our base."
-        duration: 4
-        distance: 13
+        duration: 4.0
+        distance: 13.0
         elevation: 455
         meals_included:
           - breakfast
@@ -167,8 +167,8 @@ page_builder:
           Today we walk through rolling green hills covered with wildflowers and dotted with farmhouses and hamlets, up to a tiny hilltop village, dominated by an awesome medieval Norman castle, where we'll have a packed lunch before visiting the castle (14 kms, 4 hrs, 459 mts ascent, 528 mts descent).
 
           In the afternoon we'll drive back to our accommodation, stopping to visit possibly the most spectacularly sited town in the area, which has breath-taking views and a very good gelateria.  (Lunch/Dinner)
-        duration: 4
-        distance: 14
+        duration: 4.0
+        distance: 14.0
         elevation: 459
         meals_included:
           - breakfast
@@ -189,8 +189,8 @@ page_builder:
         description: |-
           This morning we go for a walk, starting at the furthest tip of the Lipari, where, with views over neighbouring islands, we take an ancient path that dips down to follow cliffs along the coast before climbing up to thermal springs scattered with Roman and Greek ruins, then continue along a paved stretch of Roman road to lunch.  
           Afterwards, the willing can continue the walk down to Lipari town (4 kms, 1 hr), while the others can take a taxi back to town. The rest of the afternoon and evening are free.
-        duration: 4
-        distance: 10
+        duration: 4.0
+        distance: 10.0
         elevation: 304
         meals_included:
           - breakfast
@@ -200,8 +200,8 @@ page_builder:
         id: KzzRjFO9tlWGf2-Wii1Pd
         title: 'A day island-hopping'
         description: 'This morning we will be taken by private boat (a very comfortable converted fishing boat) to explore the smallest and most picturesque island of the archipelago. We go for a walk to visit a spectacularly positioned pre-historic site before returning to the port for lunch.  After lunch we get back on the boat and continue our exploration of the island, having a swim in the blue Mediterranean sea before returning to Lipari. The evening is free'
-        duration: 2
-        distance: 5
+        duration: 2.0
+        distance: 5.0
         elevation: 157
         meals_included:
           - breakfast
@@ -211,8 +211,8 @@ page_builder:
         id: siQvsdgOurix_sZEIwh0X
         title: 'Climb a volcano'
         description: "Today we will again take a private boat for a visit to another neighbouring island a short boat ride from Lipari, for the one hour climb up to the smoking crater of one the Mediterranean's most famous seismic phenomena, believed by the ancients to be the gates to hell (conditions permitting).  On the way back to Lipari we'll explore the coast before having a light lunch. In the evening we have dinner at an elegant restaurant which specialises in seafood and local cuisine"
-        duration: 2
-        distance: 5
+        duration: 2.0
+        distance: 5.0
         elevation: 352
         meals_included:
           - breakfast
@@ -223,8 +223,8 @@ page_builder:
         id: jvC4EyD_4eCaTbq_WjKBg
         title: 'Transfer to Taormina'
         description: 'In the morning, we take the hydrofoil back to the mainland and drive around the north-eastern tip of Sicily to an enchanting village perched above the picturesque town of Taormina.  Our 4-star hotel has wonderful views over Taormina to Mt Etna. You will be free to unpack and relax around the swimming pool.  Later in the afternoon, we will walk down to Taormina for a guided visit of the famous Greek theatre, which dates from the 3rd century BC.    We will return to the hotel for dinner.'
-        duration: 1
-        distance: 4
+        duration: 1.0
+        distance: 4.0
         meals_included:
           - breakfast
           - dinner
@@ -233,8 +233,8 @@ page_builder:
         id: O0emPib_FcRIp-1IWMCpC
         title: 'Walk in the forests of Mt Etna'
         description: 'Today we drive around the northern side of Mt Etna and then up into the Etna National Park, taking a beautiful walk through forests of oak, beech and birch trees, crossing countryside modelled by centuries of lava flows with the peak of snow-capped Mount Etna looming above.  We then drive down the mountain for a wine tasting and lunch at a small family-run vineyard.  After a stroll around the vineyard, we’ll drive back to our hotel where the evening is free.'
-        duration: 4
-        distance: 11
+        duration: 4.0
+        distance: 11.0
         elevation: 316
         meals_included:
           - breakfast
@@ -341,7 +341,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour."
+                text: 'To secure your walking tour, a deposit of 25% of the total invoice amount is required on receipt of the attached invoice. Bookings are cancelled automatically if payment is not received within 7 days from invoice date. In the event of cancellation by the customer, a non-refundable & non-transferable fee of $750 per person per tour will apply.'
         type: booking_cancellation
         enabled: true
       -
@@ -352,7 +352,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
     type: essentials
