@@ -6,7 +6,7 @@ name: 'Puglia: The Gargano Peninsula'
 region: Puglia
 days: 8
 updated_by: 4
-updated_at: 1780026414
+updated_at: 1780027380
 grade: 4
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
@@ -52,7 +52,7 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloocwbk
-    heading: 'Highlights of the Gargano tour'
+    heading: 'Highlights of the Puglia tour'
     activities:
       -
         id: mlooee34
@@ -81,8 +81,8 @@ page_builder:
         icon: transport-sailboat.svg
       -
         id: mn2o0oyw
-        title: 'Pull on your boots each morning we will take care of the rest'
-        summary: 'Everything is organised: transfers from Foggia and back again;  bags moved each day; an App; and 24-hour local support.'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -91,13 +91,13 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloox88g
-    title: 'Puglia, Gargano tour itinerary'
+    title: 'Puglia Itinerary'
     summary: 'A forested peninsula surrounded by sparkling waters, white limestone cliffs and pretty fishing villages, criss-crossed by ancient pilgrim trails, Gargano is a perfect place to go hiking!'
     days:
       -
         id: mlooymbz
         title: 'Transfer from Foggia to San Marco'
-        description: 'Foggia is the main city in northern Puglia, a three-hour train ride from Rome.  You will be transferred from here to a small town on the western end of the Gargano Peninsula (a 40-minute drive) where you will spend the first night.'
+        description: 'Foggia is the main city in northern Puglia, a three-hour train ride from Rome. You will be transferred from here to a small town on the western end of the Gargano Peninsula (a 40-minute drive) where you will spend the first night.'
         meals_included:
           - dinner
         photo: self-guided/the-gargano-peninsula/13.jpg
