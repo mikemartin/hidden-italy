@@ -5,8 +5,8 @@ title: 'Liguria - Italian Riviera 1'
 name: 'Italian Riviera 1'
 region: Liguria
 days: 8
-updated_by: 4
-updated_at: 1779861943
+updated_by: 3
+updated_at: 1780025447
 grade: 4
 inclusions:
   - 'Seven nights accommodation'
@@ -283,7 +283,19 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+                text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
       -
@@ -294,7 +306,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
       -
