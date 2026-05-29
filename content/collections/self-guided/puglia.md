@@ -5,8 +5,8 @@ title: 'Puglia - Puglia: The Gargano Peninsula'
 name: 'Puglia: The Gargano Peninsula'
 region: Puglia
 days: 8
-updated_by: 4
-updated_at: 1779413052
+updated_by: 3
+updated_at: 1780025757
 grade: 4
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
@@ -105,8 +105,8 @@ page_builder:
         id: mloozlek
         title: 'Walk to San Giovanni Rotondo'
         description: 'The first walk takes you along a marked medieval pilgrim path through rolling farmlands with spectacular views south across the plains to the northern coast of the Adriatic and the town where you will stay the night.  This town has become a modern pilgrim site, being the home and resting place of Padre Pio, the most beloved of modern Italian saints.  It also is famous for its giant modern church designed Renzo Piano to accommodate the faithful.'
-        duration: 4
-        distance: 12
+        duration: 4.0
+        distance: 12.0
         elevation: 395
         meals_included:
           - breakfast
@@ -118,8 +118,8 @@ page_builder:
         description: |-
           Today you pick up the Lombard pilgrim trail again and continue along the peninsula, passing through beautiful farmlands to one of the most important medieval sanctuaries in southern Italy. Although dating from the 5th century, it was the Normans, on their way to Jerusalem in the 11th century, who placed the site on the map. Along the way you have more spectacular views south over the coast.  
           With notice, this walk can be shortened by 8 kms (approximately 2 hours walking).
-        duration: 5
-        distance: 22
+        duration: 5.0
+        distance: 22.0
         elevation: 396
         meals_included:
           - breakfast
@@ -130,8 +130,8 @@ page_builder:
         description: |-
           The walk today picks up another pilgrim route (dedicated to St Michael) through the Foresta Umbra (an ancient beech forest which is UNESCO listed) to a beautiful ‘agriturismo’ that sits under Monte Sacro, the ‘sacred mountain’. 
           This agriturismo offers a uniquely peaceful pause on your self‑guided journey through Puglia. Alongside its authentic and traditional hospitality, you’ll find a warm, restorative and mindful atmosphere. To support this wellness‑focused environment, the property does not serve alcohol, and kindly requests that no alcohol be consumed on site. Another long but rewarding day.
-        duration: 5
-        distance: 16
+        duration: 5.0
+        distance: 16.0
         elevation: 369
         meals_included:
           - breakfast
@@ -141,8 +141,8 @@ page_builder:
         id: mlop5205
         title: "Stay at a family-run 'masseria'"
         description: 'Today, the path follows unsealed country lanes through the Foresta Umbra to another charming, family-run agriturismo, an ancient ‘masseria’ which has been in the same family for four generations. If you have time, a visit to the nearby top of Monte Sacro to the ruins of a Benedictine monastery founded by the Byzantines in the 7th century is well worth the effort. (1 hr; 2 kms; 251 m)'
-        duration: 5
-        distance: 17
+        duration: 5.0
+        distance: 17.0
         elevation: 369
         meals_included:
           - breakfast
@@ -152,8 +152,8 @@ page_builder:
         id: mlop6avf
         title: 'Walk to the coast'
         description: 'You leave your accommodation, you walk down a wide path through olive groves and forest with views over the coast, before descending to the sea. The last stretch is a walk along a long sand beach to Vieste, a very attractive town with a long history that sits on a promontory wedged between two extended beaches.'
-        duration: 4
-        distance: 13
+        duration: 4.0
+        distance: 13.0
         elevation: -388
         meals_included:
           - breakfast
@@ -272,7 +272,19 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $750 per person per tour.\_"
+                text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
       -
@@ -283,7 +295,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
     type: essentials
