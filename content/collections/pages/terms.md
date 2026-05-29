@@ -632,6 +632,145 @@ article:
                 type: text
                 text: ' Hidden Italy’s acceptance of liability in clauses 14 (i) and 14 (ii) above is subject to assignment by the Client to Hidden Italy of the Client’s rights against any agent, supplier or sub-contractor of Hidden Italy which is in any way responsible for the unsatisfactory tour arrangements or the Client’s death or personal injury.'
   -
+    type: set
+    attrs:
+      id: YqC5KxxfGj-PiCGaSv7lM
+      values:
+        type: accordion
+        title: 'Gift Cards'
+        body:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                text: 'Gift Card Terms & Conditions'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'By purchasing or using a gift card, you agree to the following terms …'
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Gift cards are valid for '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: '3 years'
+                      -
+                        type: text
+                        text: ' from the date of purchase.'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'The expiry date is shown on the gift card.'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Gifts cards cannot be used in conjunction with any other offer or discount.'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Gift cards are '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'non-refundable, non-transferable'
+                      -
+                        type: text
+                        text: ' and cannot be exchanged for cash.'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Lost, stolen, or damaged gift cards will not be replaced.'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Gift cards can only be used for purchases of Hidden Italy tours.'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'The full value must be used in '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'one single transaction'
+                      -
+                        type: text
+                        text: ' — partial redemption is not allowed.'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Any unused balance cannot be redeemed for cash and will be forfeited.'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'We do not charge any activation, account-keeping, or redemption fees.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Please email us @ admin@hiddenitlay.com.au if you wish to redeem your card (please include gift card #) or if you have any questions.'
+  -
     type: paragraph
     content:
       -
@@ -683,5 +822,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 3
-updated_at: 1779174524
+updated_at: 1780037938
 ---
