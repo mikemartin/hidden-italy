@@ -5,8 +5,8 @@ title: "Val d'Aosta - Turin and Val d'Aosta"
 name: "Turin and Val d'Aosta"
 region: "Val d'Aosta"
 days: 13
-updated_by: 1
-updated_at: 1779336317
+updated_by: 3
+updated_at: 1780024779
 grade: 4
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -126,8 +126,8 @@ page_builder:
         id: mloqzruj
         title: 'Meet the glacier'
         description: 'The first walk follows a trail that is one of the most popular among hikers visiting the valley.  We leave directly from our hotel and head north following the Lys river, climbing up through larch forests towards the glacial source of the river.  It is relatively short and allows you to quickly reach the border between the ‘normal’ mountain and the ‘glacial’ mountain in a quite spectacular location.  We follow the river back to our base.'
-        duration: 3
-        distance: 8
+        duration: 3.0
+        distance: 8.0
         elevation: 400
         meals_included:
           - breakfast
@@ -141,8 +141,8 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        duration: 4
-        distance: 9
+        duration: 4.0
+        distance: 9.0
         elevation: 365
         photo: guided/turin-and-val-daosta/-valle-del-lys.jpeg
       -
@@ -161,8 +161,8 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        duration: 4
-        distance: 10
+        duration: 4.0
+        distance: 10.0
         elevation: 355
         photo: guided/turin-and-val-daosta/img_0108-a.jpeg
       -
@@ -181,8 +181,8 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        duration: 5
-        distance: 12
+        duration: 5.0
+        distance: 12.0
         elevation: 566
         photo: guided/turin-and-val-daosta/img_8817.jpg
       -
@@ -200,8 +200,8 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        duration: 4
-        distance: 12
+        duration: 4.0
+        distance: 12.0
         elevation: 400
         photo: guided/turin-and-val-daosta/val-ferret.jpg
       -
@@ -238,7 +238,7 @@ page_builder:
       -
         id: IwjLNiPN_iaXgY5EUBAYS
         title: 'Exceptional walkings'
-        total_distance: 51
+        total_distance: 51.0
         total_elevation: 2086
         grade: 0
         description:
@@ -307,7 +307,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+                text: 'To secure your walking tour, a deposit of 25% of the total invoice amount is required on receipt of the attached invoice. Bookings are cancelled automatically if payment is not received within 7 days from invoice date. In the event of cancellation by the customer, a non-refundable & non-transferable fee of $750 per person per tour will apply.'
         type: booking_cancellation
         enabled: true
       -
@@ -318,7 +318,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: ". It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).\_"
         type: travel_insurance
         enabled: true
     type: essentials
