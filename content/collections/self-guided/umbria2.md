@@ -1,12 +1,12 @@
 ---
 id: 2c566c23-3738-482e-b78a-a2ac67ccf9cf
 blueprint: tour
-title: 'Umbria - Umbria 2: Cammino of St Francis Part 2'
-name: 'Umbria 2: Cammino of St Francis Part 2'
+title: 'Umbria - Umbria 2: Cammino of St Francis Section 2'
+name: 'Umbria 2: Cammino of St Francis Section 2'
 region: Umbria
 days: 7
 updated_by: 3
-updated_at: 1780026633
+updated_at: 1780026668
 grade: 3
 inclusions:
   - 'Six nights accommodation'
