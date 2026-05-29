@@ -98,8 +98,8 @@ page_builder:
         id: mjflhmx3
         title: 'Hike to a baroque monastery'
         description: "The path we take today leaves Biella, following a route first mentioned in 1207 that once served as a trade route to Lyon in central France. It climbs through forests and hamlets, offering spectacular views over the plains. We'll stop for a delicious picnic lunch. The hike ends at one of the most unexpected and striking sites on the walk: a vast baroque monastery that has been a popular pilgrimage destination for centuries and where we’ll stay the night."
-        duration: 5
-        distance: 17
+        duration: 5.0
+        distance: 17.0
         elevation: 768
         meals_included:
           - breakfast
@@ -110,8 +110,8 @@ page_builder:
         id: mjfliav4
         title: 'Sanctuary tour and ridge walk'
         description: "Today is a short walk.  In the morning we'll be taken on a guided tour of this fascinating sanctuary.  After another delicious picnic lunch, we take a small trail that climbs up through pine forest to the ridge that divides the two valleys.  We then descent to the second monastery. We'll have time to relax, before having dinner on the veranda of the monastery."
-        duration: 4
-        distance: 11
+        duration: 4.0
+        distance: 11.0
         elevation: 393
         meals_included:
           - breakfast
@@ -122,8 +122,8 @@ page_builder:
         id: mlizaetv
         title: 'The first big climb'
         description: 'We follow the trail into a quirky town once home to the benefactor who built the road and tunnel connecting two monasteries in the late 1800s. The path then leads north by the river to another village in he head of the valley where we have lunch.  Afterward, we begin a challenging three-hour climb to a mountain hut beneath the peaks. The effort is rewarded with stunning views across the Alps and a convivial spot for dinner and rest.'
-        duration: 6
-        distance: 12
+        duration: 6.0
+        distance: 12.0
         elevation: 1406
         meals_included:
           - breakfast
@@ -134,8 +134,8 @@ page_builder:
         id: mlj01a3m
         title: 'A long walk to Alagna'
         description: "Today’s walk winds through the Alps with the first views of Monte Rosa, passing alpine lakes, glaciers, and mountain pastures that still used for grazing. Only trails connect this area; there are no roads.  After a picnic lunch, we descend a glacial valley that leads into forest and pasture, passing distinctive wooden 'Walser' farmhouses. Tonight’s stay is at a very comfortable hotel in Alagna."
-        duration: 8
-        distance: 17
+        duration: 8.0
+        distance: 17.0
         elevation: 540
         meals_included:
           - breakfast
@@ -153,8 +153,8 @@ page_builder:
         id: mlj06yj3
         title: 'Museum visit and climb to Monte Rosa'
         description: 'This morning, we have a leisurely start and walk up the valley to visit a fascinating small museum. After the visit, we will have a light lunch and then continue to walk up the valley to another ‘rifugio’, this time a beautifully restored stone shepherds’ hamlet surrounded by pastures, with an excellent restaurant and a terrace with views up to the mountains.'
-        duration: 2
-        distance: 5
+        duration: 2.0
+        distance: 5.0
         elevation: 360
         meals_included:
           - breakfast
@@ -165,8 +165,8 @@ page_builder:
         id: mlj0rpd5
         title: 'The first views of Switzerland'
         description: 'Today’s walk is challenging but very rewarding. We leave the valley beneath Monte Rosa and climb an old mule trail to a 2900-meter pass with our first views of Switzerland, where we stop for lunch. After crossing the pass, we descend for long walk into a valley with a lake before crossing the Anzasca River and arriving in  Macugnaga. The last two nights are spent at a family-run 3-star hotel in Macugnaga, with your luggage delivered from Biella. The evening is free.'
-        duration: 8
-        distance: 22
+        duration: 8.0
+        distance: 22.0
         elevation: 1217
         meals_included:
           - breakfast
@@ -199,7 +199,7 @@ page_builder:
       -
         id: 4B51YZfmo3puQemzyeq0f
         title: 'Exceptional walking'
-        total_distance: 96
+        total_distance: 96.0
         total_elevation: 5000
         grade: 5
         description:
@@ -309,7 +309,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+                text: 'To secure your walking tour, a deposit of 25% of the total invoice amount is required on receipt of the attached invoice. Bookings are cancelled automatically if payment is not received within 7 days from invoice date. In the event of cancellation by the customer, a non-refundable & non-transferable fee of $750 per person per tour will apply.'
         type: booking_cancellation
         enabled: true
       -
@@ -320,7 +320,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
     type: essentials
@@ -356,8 +362,8 @@ page_builder:
     hide_from_subnav: true
 seasons: summer
 locations: northern-italy
-updated_by: 1
-updated_at: 1779336263
+updated_by: 3
+updated_at: 1780024473
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg
