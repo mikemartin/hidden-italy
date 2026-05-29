@@ -6,7 +6,7 @@ name: 'The Cinque Terre'
 region: Liguria
 days: 7
 updated_by: 4
-updated_at: 1780021705
+updated_at: 1780024650
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -139,8 +139,8 @@ page_builder:
         photo: self-guided/the-cinque-terre/vernazza-10-a.jpeg
       -
         id: mlop5205
-        title: 'Walk to Portovenere'
-        description: 'Today you walk above the eastern part of the gulf to Portovenere.  It’s starts with a big climb up through forest to the ridge, passing an ancient religious sanctuary along the way.  From here you slowly descend to Portovenere, an ancient, narrow-laned town that sits astride a spit of land on the very tip of the Gulf of the Poets.  Portovenere has a small, sandy beach and a number of rocky coves, excellent for swimming.'
+        title: 'The Gulf of the Poets'
+        description: 'Today you walk above the eastern part of the gulf to Portovenere. It’s starts with a big climb up through forest to the ridge, passing an ancient religious sanctuary along the way. From here you slowly descend to Portovenere, an ancient, narrow-laned town that sits astride a spit of land on the very tip of the Gulf of the Poets. Portovenere has a small, sandy beach and a number of rocky coves, excellent for swimming.'
         duration: 4.0
         distance: 14.0
         elevation: 563
@@ -149,9 +149,9 @@ page_builder:
         photo: self-guided/the-cinque-terre/portovenere-town-1.jpg
       -
         id: mlop6avf
-        title: 'Do a lap of Palmaria island'
-        description: 'The walk this morning starts with a short boat ride across the narrow waterway that separates Portovenere from a fascinating island, which has a small fishing village, the remains of a monastery from the 11th century, and a very good small restaurant.  The walk circumnavigates the island, starting and finishing at the wharf.  You return by boat to Portovenere.'
-        duration: 2.0
+        title: 'Do a lap of an island'
+        description: 'The walk this morning starts with a short boat ride across the narrow waterway that separates Portovenere from a fascinating island, which has a small fishing village, the remains of a monastery from the 11th century, and a very good small restaurant. The walk circumnavigates the island, starting and finishing at the wharf. You return by boat to Portovenere.'
+        duration: 2.5
         distance: 6.0
         elevation: 181
         meals_included:
@@ -160,17 +160,10 @@ page_builder:
       -
         id: mlop8uiy
         title: 'Transfer to La Spezia'
-        description: "After breakfast, you'll be transferred by private vehicle to La Spezia (30 minutes away) a busy and colourful port, with a number of excellent museums, a picturesque harbour and daily markets.  La Spezia has regular rail connections to Rome, Florence and Milan."
+        description: "After breakfast, you'll be transferred by private vehicle to La Spezia (30 minutes away) a busy and colourful port, with a number of excellent museums, a picturesque harbour and daily markets. La Spezia has regular rail connections to Rome, Florence and Milan."
         meals_included:
           - breakfast
         photo: self-guided/the-cinque-terre/siret-jaksic-yats80aqvmm-unsplash.jpg
-      -
-        id: B_-5Z5ZElHjjiut0rHfg-
-        title: 'The Santa Margherita/Portofino option includes 3 nights in a 4-star hotel, sea views'
-        description: |-
-          Optional Day 1
-
-          Santa Margherita Ligure is lively and picturesque port at the foot of the superb Portofino National Park, a large promontory surrounded by cliffs and small coves, which has some the most rewarding walking on the Italian Riviera. The slopes of the park are covered with wild time, pine and holm oak and offers views over successive headlands from the summit. Santa Margherita is easily accessed by rail or road and is an ideal base from which to explore this fascinating part of the Ligurian coast. You'll stay in an excellent family-run hotel near the waterfront.
     type: itinerary
     enabled: true
     section_background: none
@@ -189,7 +182,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "You follow well-marked tracks; and there are some long climbs up stone stairs.\_ The trails between Monterosso and Vernazza and Vernazza and Riomaggiore can get busy in summer but the crowds (usually daytrippers) can be avioded by getting early starts.\_ The walks can be comfortably done in half a day, which leaves you plenty of time to explore the little villages you'll be staying in.\_ Full details on each walk are on the itinerary."
+                text: "You follow well-marked tracks, and there are some long climbs up stone stairs.\_The trails between Monterosso and Vernazza and Vernazza and Riomaggiore can get busy in summer but the crowds (usually daytrippers) can be avioded by getting early starts.\_The walks can be comfortably done in half a day, which leaves you plenty of time to explore the little villages you'll be staying in.\_Full details on each walk are on the itinerary."
         image: self-guided/the-cinque-terre/img_1544.jpg
         type: walk
         enabled: true
@@ -202,7 +195,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Hidden Italy uses the best accommodation available.\_ On the Cinque Terre this means very comfortable, centrally located, family-run hotels. All rooms have en suite bathrooms and air-conditioning.\_ Please bear in mind that these are essentially small fishing villages and don't have a range of accommodation options."
+                text: "Hidden Italy uses the best accommodation available.\_On the Cinque Terre this means very comfortable, centrally located, family-run hotels. All rooms have ensuite bathrooms and air-conditioning.\_Please bear in mind that these are essentially small fishing villages and don't have a range of accommodation options."
         media:
           - self-guided/the-cinque-terre/terrazza_hotel_villa_argentina.jpg
         type: accommodation
@@ -216,7 +209,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Ligurians like to use their own trusted products which come from the 350 kilometres of coastline with it rough, mountainous hinterland or is fished out of ther own waters.\_ It is an austere but delicous style of cooking that has produced such specialities as pesto sauce and foccaccia.\_ Even the wines, grown with great effort on the steep, rocky terraces seems to have been invented in Liguria, and suits the local food perfectly."
+                text: "Ligurians like to use their own trusted products which come from the 350km of coastline with its rough, mountainous hinterland or are fished out of their own waters.\_It is an austere but delicious style of cooking that has produced such specialties as pesto sauce and focaccia.\_Even the wines, grown with great effort on the steep, rocky terraces, seem to have been invented in Liguria, and suit the local food perfectly."
           -
             type: paragraph
             content:
@@ -225,7 +218,7 @@ page_builder:
                 marks:
                   -
                     type: italic
-                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+                text: "Generous breakfasts are included each day.\_Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_You will be able to make reservations where applicable directly through the Hidden Italy App."
         media:
           - self-guided/the-cinque-terre/siret-jaksic-yats80aqvmm-unsplash.jpg
         type: food
