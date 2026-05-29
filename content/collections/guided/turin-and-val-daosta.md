@@ -6,7 +6,7 @@ name: "Turin and Val d'Aosta"
 region: "Val d'Aosta"
 days: 13
 updated_by: 3
-updated_at: 1780025223
+updated_at: 1780028498
 grade: 4
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -417,7 +417,7 @@ summary:
       -
         type: text
         text: "The Val d’Aosta may be Italy’s smallest region, but it is also one of its most spectacular, a wedge of mountains and valleys in the north-west corner of the country.\_ The region shares borders with Switzerland and France and contains Europe’s four highest peaks: Mt Blanc, the Matterhorn, Monte Rosa and Gran Paradiso."
-price: 'A$9,450'
+price: 'A$9,450 pp'
 show_from: true
 og_image: val-daosta-turin-and-val-daosta-og-1779335255.png
 seo_noindex: inherit
