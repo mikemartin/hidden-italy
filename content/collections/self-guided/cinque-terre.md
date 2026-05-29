@@ -6,7 +6,7 @@ name: 'The Cinque Terre'
 region: Liguria
 days: 7
 updated_by: 4
-updated_at: 1780016247
+updated_at: 1780020736
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -16,7 +16,6 @@ inclusions:
   - 'The Hidden Italy App with GPS to complement the booklet'
   - 'Daily transfers of baggage between hotels'
   - 'Drop-off at the end of the tour from Portovenere to La Spezia station (on the Rome/Genoa line)'
-  - 'The Santa Margherita/Portofino option includes 3 nights in a 4-star hotel, sea views'
   - '24 hour backup from local manager'
   - 'City taxes are not included in the cost of the tour'
   - 'A curated list of restaurants for each town you visit'
@@ -49,7 +48,13 @@ page_builder:
         content:
           -
             type: text
-            text: "Extend your tour by 4 days to take in Santa Margherita and Portofino. Santa Margherita Ligure is a lively and picturesque port at the foot of the superb Portofino National Park. A large promontory surrounded by cliffs and small coves, which has some of the most rewarding walking on the Italian Riviera. Santa Margherita is easily accessed by rail or road and is an ideal base from which to explore this fascinating part of the Ligurian coast. You'll stay in an excellent family-run hotel near the waterfront."
+            marks:
+              -
+                type: bold
+            text: 'Extend your tour by 4 days to take in Santa Margherita and Portofino.'
+          -
+            type: text
+            text: " Santa Margherita Ligure is a lively and picturesque port at the foot of the superb Portofino National Park. A large promontory surrounded by cliffs and small coves, which has some of the most rewarding walking on the Italian Riviera. Santa Margherita is easily accessed by rail or road and is an ideal base from which to explore this fascinating part of the Ligurian coast. You'll stay in an excellent family-run hotel near the waterfront."
   -
     id: mloocwbk
     heading: 'Highlights of the Cinque Terre walk'
@@ -375,4 +380,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+availability_text: 'Optional extra Santa Margherita/Portofino 4-day/3-night'
 ---
