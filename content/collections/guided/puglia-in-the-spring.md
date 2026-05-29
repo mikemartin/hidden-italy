@@ -6,7 +6,7 @@ name: 'Puglia in the Spring'
 region: Puglia
 days: 13
 updated_by: 3
-updated_at: 1780025142
+updated_at: 1780028453
 grade: 2
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -431,7 +431,7 @@ summary:
       -
         type: text
         text: 'A bridge between Italy and the East, Puglia is pure southern Italy: layers of history, vibrant cities and towns, ancient traditions celebrated in colourful festivals; a timeless interior edged by an endless coastline; gracious hospitality and fabulous food.'
-price: 'A$8,990'
+price: 'A$8,990 pp'
 show_from: true
 availability_text: 'Tour Start Dates: 2 May 27 & 16 May 27'
 badge_text: 'Last Spots'
