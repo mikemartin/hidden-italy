@@ -5,8 +5,8 @@ title: 'Sicily - Sicily 2: the Egadi Islands'
 name: 'Sicily 2: the Egadi Islands'
 region: Sicily
 days: 7
-updated_by: 4
-updated_at: 1779403446
+updated_by: 3
+updated_at: 1780026145
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
@@ -105,8 +105,8 @@ page_builder:
         id: mlrce7n9
         title: 'Go island hopping'
         description: 'Today you take a ferry to explore the smallest and most remote of the three islands of the archipelago (which is 30 minutes away).  You follow a paved out of the port and then up to the top of the island before descending into a lovely valley with dense vegetation before returning along the coast to Marettimo. Here, you have plenty of time for lunch and a swim before taking the ferry back to Favignana.'
-        duration: 4
-        distance: 9
+        duration: 4.0
+        distance: 9.0
         elevation: 459
         meals_included:
           - breakfast
@@ -115,8 +115,8 @@ page_builder:
         id: mlrchqfo
         title: 'Explore Favignana'
         description: 'A day exploring your base.  The little medieval port had its heyday in the 19th century when the tuna fisheries off the islands thrived.  There is a very interesting local museum and the very unusual ‘underground gardens’, botanical gardens which have been established in the deep sandstone quarries and tunnels on the north of the island.  We have also included a walk that does a complete circuit of the island, passing a number of lovely beaches and lookout points (bikes are also available for hire).  (3.5 hrs; 14.5 kms; min: 2 mts, max: 35 mts)'
-        duration: 4
-        distance: 15
+        duration: 4.0
+        distance: 15.0
         elevation: 33
         meals_included:
           - breakfast
@@ -125,8 +125,8 @@ page_builder:
         id: mlrcpsyv
         title: 'Explore Levanzo'
         description: 'Today you take another ferry to the third of the archipelago’s islands, which holds the Egadis’ greatest treasure: a gallery of prehistoric frescos painted between 10,000 and 6000 BC, which were discovered in a grotto in 1949.  The walk today is a beautiful loop walk around the island via the grotto, which starts and finishes at the port. (2 hrs; 8 kms; min: 3 mts, max: 170 mts)'
-        duration: 2
-        distance: 8
+        duration: 2.0
+        distance: 8.0
         elevation: 167
         meals_included:
           - breakfast
@@ -143,8 +143,8 @@ page_builder:
         id: mlrczqmb
         title: 'A long coastal walk'
         description: 'As the finale to your visit, the last walk is a beautiful coastal walk following a well-marked trail under majestic limestone mountains and overlooking gorgeous turquoise-blue bays. There are plenty of opportunities for swims on the way back (it is possible to shorten this walk).  We have also added an alternative walk that takes you inland to and interesting archaeological site (3 hrs, 8 kms, 354 mts).'
-        duration: 5
-        distance: 15
+        duration: 5.0
+        distance: 15.0
         elevation: 399
         meals_included:
           - breakfast
@@ -269,7 +269,19 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+                text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
       -
@@ -280,7 +292,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
     type: essentials
