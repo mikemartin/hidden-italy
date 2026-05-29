@@ -6,8 +6,8 @@ name: 'Sardinia in the Spring'
 region: Sardinia
 days: 13
 seasons: spring
-updated_by: 1
-updated_at: 1779336285
+updated_by: 3
+updated_at: 1780024614
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
@@ -130,8 +130,8 @@ page_builder:
         id: mlpynee9
         title: 'Drive south'
         description: 'Today we drive south, past lagoons filled with pink flamingos, following some of the most pristine and beautiful coastline in Europe. On the way we will stop for a lovely walk along the coast, picking up a Roman road before finishing at a lovely beach.  After a picnic lunch, we drive to the southern tip of Sardinia, taking a ferry short hop to a very small island, our base for the next three nights. The evening is free to explore one of the most pleasant Italian towns.'
-        duration: 2
-        distance: 6
+        duration: 2.0
+        distance: 6.0
         elevation: 76
         meals_included:
           - breakfast
@@ -141,8 +141,8 @@ page_builder:
         id: mlpypuym
         title: 'Walk to a Phoenician temple'
         description: 'This morning we take a ferry back to the mainland then a spectacular drive above the south-western cliffs of mainland Sardinia. We enjoy an undulating loop walk which takes us out through a forested valley and then back along a ridge, before descending to the well-preserved remains of a Phoenician/Roman temple, which stands isolated in a green valley.  After a picnic lunch, we’ll head back to our base, where the evening is free.'
-        duration: 4
-        distance: 13
+        duration: 4.0
+        distance: 13.0
         elevation: 223
         meals_included:
           - breakfast
@@ -152,8 +152,8 @@ page_builder:
         id: mlpyuve7
         title: 'Explore the island'
         description: "This morning we walk from the village across the northern tip of the island, following a winding trail that takes us down to a tiny bay.  On our way back to town, we visit the island's only winery, where we'll have a light lunch while tasting some of our hosts' fine wines. After lunch, you’ll have the option of getting a lift or continuing back to town on foot.  In the evening we will have an alfresco dinner at the town’s best restaurant."
-        duration: 3
-        distance: 9
+        duration: 3.0
+        distance: 9.0
         elevation: 229
         meals_included:
           - breakfast
@@ -173,8 +173,8 @@ page_builder:
         id: mlpz8t18
         title: 'Take in the views!'
         description: "Today we will be picked up from the hotel by two jeeps by local guide Fabrizio and his fabulous team, and driven up to the mountains above the town, the Supramonte, the north tip of the Gennargentu range.  We'll be taken on a walk with spectacular views over half of Sardinia. We’ll then have a picnic lunch before heading back to the base, where the rest of the afternoon is free.  Dinner is at our accommodation."
-        duration: 3
-        distance: 7
+        duration: 3.0
+        distance: 7.0
         elevation: 307
         meals_included:
           - breakfast
@@ -194,8 +194,8 @@ page_builder:
         id: mlpze0ii
         title: "Visit the island's most fascinating site"
         description: 'This morning Fabrizio will take us on one of the area’s classic walks heading up a long valley behind our hotel, before climbing up to Mt Tiscali, a ridge where the remains of two prehistoric settlements are hidden in a huge limestone cavern – a completely stunning and unexpected sight.  After a barbeque lunch, we’ll head back to our hotel, allowing time for a swim in the pool and a relax before dinner.'
-        duration: 3
-        distance: 7
+        duration: 3.0
+        distance: 7.0
         elevation: 329
         meals_included:
           - breakfast
@@ -214,8 +214,8 @@ page_builder:
         id: mlpzmp2f
         title: 'Walk along the Costa Smeralda'
         description: "Today we will be transferred to the northeastern tip of the Island where we'll take a loop walk that starts and finishes at Golfo Aranci, a lovely coastal town.  Our walk takes us along coastal and valley path with scenic views."
-        duration: 3
-        distance: 7
+        duration: 3.0
+        distance: 7.0
         elevation: 150
         meals_included:
           - breakfast
@@ -323,7 +323,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+                text: "To secure your walking tour, a deposit of 25% of the total invoice amount is required on receipt of the attached invoice. Bookings are cancelled automatically if payment is not received within 7 days from invoice date. In the event of cancellation by the customer, a non-refundable & non-transferable fee of $750 per person per tour will apply.\_"
         type: booking_cancellation
         enabled: true
       -
@@ -334,7 +334,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
     type: essentials
