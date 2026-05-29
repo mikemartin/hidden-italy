@@ -1,12 +1,12 @@
 ---
 id: 5e536055-01da-4264-a45c-5c879a0d73d7
 blueprint: tour
-title: 'Lazio - Lazio: Cammino of St Francis Part 3'
-name: 'Lazio: Cammino of St Francis Part 3'
+title: 'Lazio - Lazio: Cammino of St Francis Section 3'
+name: 'Lazio: Cammino of St Francis Section 3'
 region: Lazio
 days: 8
 updated_by: 3
-updated_at: 1780025399
+updated_at: 1780026683
 grade: 3
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
