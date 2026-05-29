@@ -6,7 +6,7 @@ name: 'Puglia: The Gargano Peninsula'
 region: Puglia
 days: 8
 updated_by: 4
-updated_at: 1780026168
+updated_at: 1780026391
 grade: 4
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
@@ -36,14 +36,14 @@ page_builder:
         content:
           -
             type: text
-            text: 'A forested peninsula surrounded by sparkling waters, white limestone cliffs and pretty fishing villages, criss-crossed by ancient pilgrim trails, Gargano is a perfect place to go hiking. The tour starts with a private transfer from the nearby town of Foggia to a small town perched on the western end of the Gargano peninsula.'
+            text: 'A forested peninsula surrounded by sparkling waters, white limestone cliffs and pretty fishing villages, criss-crossed by ancient pilgrim trails, Gargano is a perfect place to go hiking. The tour starts with a private transfer from the nearby town of Foggia to a small town perched on the western end of the Gargano peninsula. You then follow pilgrim trails through farmlands and the Foresta Umbra, an ancient beech forest, before a spectacular descent down to the sea, finishing'
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "You then follow pilgrim trails through farmlands and the Foresta Umbra, an ancient beech forest, before a spectacular descent down to the sea, finishing at the dramatically located town of Vieste, where you’ll spend the final two days, which includes a morning tour in a private boat exploring some of the most beautiful coastline in southern Italy. You'll be transferred back to Foggia on the last day. This is a marvellous walker's walk, a very satisfying exploration of an area that few foreigners visit!"
+            text: "at the dramatically located town of Vieste, where you’ll spend the final two days, which includes a morning tour in a private boat exploring some of the most beautiful coastline in southern Italy. You'll be transferred back to Foggia on the last day. This is a marvellous walker's walk, a very satisfying exploration of an area that few foreigners visit!"
     title: 'Pilgrim trails to the sea'
     images:
       - self-guided/the-gargano-peninsula/img_2799.jpg
