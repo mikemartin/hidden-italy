@@ -5,8 +5,8 @@ title: 'Trentino-Alto Adige - Verona and the Dolomites'
 name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
-updated_by: 1
-updated_at: 1779336310
+updated_by: 3
+updated_at: 1780024726
 locations: northern-italy
 grade: 3
 image: guided/verona-and-the-dolomites/-p9192176.jpg
@@ -133,8 +133,8 @@ page_builder:
         id: mlrb55m6
         title: 'Meet the Dolomites'
         description: 'Our first walk in the mountains is a spectacular introduction to the Dolomites.  We take a cable car to the top of the northern side of the valley (2,500 metres) from where you have breathtaking 360 degree views over the whole mountain range, stretching to the horizon on all sides.  From here we take a good path across and down through alpine pastures to a mountain lodge for lunch.  After lunch we continue downhill back to our base.'
-        duration: 4
-        distance: 10
+        duration: 4.0
+        distance: 10.0
         elevation: 164
         meals_included:
           - breakfast
@@ -145,8 +145,8 @@ page_builder:
         id: mlrb71ly
         title: 'Explore Bolzano'
         description: "Today we drive to Bolzano, the capital of the Alto Adige, a pretty town on a river with a long history and strong Austrian feel.  We stop in the hills above Bolzano for a short walk down hill through lovely forests (6 kms, 1.5 hrs) to a cable car which we’ll take down to Bolzano.  After lunch, we will visit one of the highlights of the region: the excellent museum dedicated to Otzi, the 5000-year-old 'Iceman’ found in 1991, before returning to our valley.  Dinner is at our hotel"
-        duration: 2
-        distance: 6
+        duration: 2.0
+        distance: 6.0
         meals_included:
           - breakfast
           - dinner
@@ -155,8 +155,8 @@ page_builder:
         id: mlrb874i
         title: 'Walk the high plains'
         description: 'The walk today starts with another cable car ride, this time up the southern side of the valley (2,000 metres) from where we walk across the beautiful rolling pastures, across a vast undulating amphitheatre of alpine meadows surrounded by some of the most spectacular ranges in the area.  After a packed lunch, we continue under soaring cliffs back to the hotel.'
-        duration: 4
-        distance: 14
+        duration: 4.0
+        distance: 14.0
         elevation: 468
         meals_included:
           - breakfast
@@ -176,8 +176,8 @@ page_builder:
         id: mlrbbbr6
         title: 'Another walk in the mountains'
         description: "Today we get a lift up to the southern side of the valley, walking along a trail that takes us through pine forests, into the neighbouring valley, stopping for a packed lunch on the way.  On the way down, we pass  clusters of ancient timber farmhouses and barns that have survived from another era.  After well-earned refreshments at the local village, we'll be driven back to our base, stopping to visit a recently restored 14th century castle with a fine ethnographic museum.  Dinner back at base."
-        duration: 3
-        distance: 9
+        duration: 3.0
+        distance: 9.0
         elevation: 401
         meals_included:
           - breakfast
@@ -188,8 +188,8 @@ page_builder:
         id: mlrbfnmc
         title: 'Discover Braies Lake'
         description: 'After a leisurely morning, we drive to the beautiful mountain lake of Braies situated in the Alta Pusteria valley.  You will have free time to walk around the lake (3.5kms, 1 hr) or hire a rowing boat or just sit on the shore of the lake and enjoy the amazing scenery.  Afternoon visit to the folklore museum in nearby Bruneck which recounts the everyday life of the rural population of earlier times, including an open-air site with original farmhouses and craft workshops.  Dinner is at our hotel.'
-        duration: 4
-        distance: 1
+        duration: 4.0
+        distance: 1.0
         elevation: 50
         meals_included:
           - breakfast
@@ -199,8 +199,8 @@ page_builder:
         id: mlrbilht
         title: 'Visit the most magical place in the Dolomites'
         description: "This morning we drive to the head of our valley then up a steep winding road into the rugged beauty in the heart of the National Park, to a mountain lodge perched on a plateau surrounded by soaring mountains.  We'll spend the day exploring this area, including a morning walk, followed by lunch and a stroll to the 'green' lake to see the 'parliament of marmots', a colony of furry mountain critters, famous Ladino legends, before driving back down to our base.  Dinner is at our hotel."
-        duration: 2
-        distance: 6
+        duration: 2.0
+        distance: 6.0
         elevation: 202
         meals_included:
           - breakfast
@@ -219,8 +219,8 @@ page_builder:
         id: mlrbor6n
         title: 'Loop the Tre Cime di Lavaredo'
         description: 'The final walk is one of the most famous and spectacular in the Alps - a circular walk around the Tre Cime di Lavaredo, a 40 minute drive from Cortina. The walking route follows a mountain path that loops around the base of this extraordinary formation, three jagged peaks rising over 3000 metres - a fitting grand-finale to the tour. There is the option to shorten this walk).  After a packed lunch, we return to Cortina.  Our farewell dinner will be in a lovely restaurant in the centre of town.'
-        duration: 4
-        distance: 10
+        duration: 4.0
+        distance: 10.0
         elevation: 385
         meals_included:
           - breakfast
@@ -320,7 +320,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+                text: 'To secure your walking tour, a deposit of 25% of the total invoice amount is required on receipt of the attached invoice. Bookings are cancelled automatically if payment is not received within 7 days from invoice date. In the event of cancellation by the customer, a non-refundable & non-transferable fee of $750 per person per tour will apply.'
         type: booking_cancellation
         enabled: true
       -
@@ -331,7 +331,13 @@ page_builder:
             content:
               -
                 type: text
-                text: 'It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.'
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
     type: essentials
