@@ -6,7 +6,7 @@ name: 'Abruzzo and Molise'
 region: 'Abruzzo and Molise'
 days: 13
 updated_by: 3
-updated_at: 1780022913
+updated_at: 1780023133
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
@@ -298,7 +298,18 @@ page_builder:
             content:
               -
                 type: text
-                text: 'To secure your walking tour, a deposit of 25% of the total invoice amount is required on receipt of the attached invoice. Bookings are cancelled automatically if payment is not received within 7 days from invoice date. In the event of cancellation by the customer, a non-refundable & non-transferable fee of $750 per person per tour will apply.'
+                text: 'To secure your walking tour, a deposit of 25% of the total invoice amount is required on receipt of the attached invoice. Bookings are cancelled automatically if payment is not received within 7 days from invoice date. In the event of cancellation by the customer, a non-refundable & non-transferable fee of $750 per person per tour will apply. Please read our full '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://hiddenitaly.mike-martin.ca/terms'
+                      rel: null
+                      target: null
+                      title: null
+                text: "T&C's"
         type: booking_cancellation
         enabled: true
       -
