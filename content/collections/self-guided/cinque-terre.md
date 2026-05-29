@@ -6,7 +6,7 @@ name: 'The Cinque Terre'
 region: Liguria
 days: 7
 updated_by: 4
-updated_at: 1780020736
+updated_at: 1780020772
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -35,7 +35,7 @@ page_builder:
         content:
           -
             type: text
-            text: "This continous walk along the Cinque Terre follows stone paths that have linked the villages for centuries, starting in Levanto at the eastern end of the National Park and finishing in glorious Portovenere at the western end of the park. They twist and wind along the rugged coast passing through pine forests and terraced vineyards, with breath-taking views out over the Mediterranean, including the less walked routes from Riomaggiore to Portovenere and around the little island off Portovenere.\_ At the end of the walk, you'll be dropped off at La Spezia railway station (on the Rome/Genoa line)."
+            text: "This continous walk along the Cinque Terre follows stone paths that have linked the villages for centuries, starting in Levanto at the eastern end of the National Park and finishing in glorious Portovenere at the western end of the park. They twist and wind along the rugged coast passing through pine forests and terraced vineyards, with breath-taking views out over the Mediterranean, including the less walked routes from Riomaggiore to Portovenere and around the little island off Portovenere. At the end of the walk, you'll be dropped off at La Spezia railway station (on the Rome/Genoa line)."
     title: 'Stone paths linking the villages for centuries'
     images:
       - self-guided/the-cinque-terre/vernazza-6.jpg
