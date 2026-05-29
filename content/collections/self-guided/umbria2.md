@@ -5,8 +5,8 @@ title: 'Umbria - Umbria 2: Cammino of St Francis Part 2'
 name: 'Umbria 2: Cammino of St Francis Part 2'
 region: Umbria
 days: 7
-updated_by: 4
-updated_at: 1779403683
+updated_by: 3
+updated_at: 1780026633
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -113,8 +113,8 @@ page_builder:
         id: mloozlek
         title: 'Walk to the Nera Valley'
         description: 'After a steep climb to the Franciscan convent of Monteluco (built around a cave in which St Francis lived), this walk crosses forests, along paths that traverse mountain-sides with breath-taking views of the Tiber and Nera valleys.  After a steep downhill path, you arrive at a hamlet and then follow the Nera River to a gorgeous, small hilltop town.'
-        duration: 5
-        distance: 21
+        duration: 5.0
+        distance: 21.0
         elevation: 666
         meals_included:
           - breakfast
@@ -123,8 +123,8 @@ page_builder:
         id: mlop159i
         title: 'Walk down the Nera River'
         description: 'Today’s walk takes you along a flat trail that passes through a national park beside the Nera River to a pretty medieval village sitting on a rocky pinnacle above the river.  Along the way, you will be able to detour to visit a spectacularly sited abbey founded in the 8th century considered one of the most beautiful in central Italy, where you can have lunch and enjoy the views. (5 hrs; 18 kms; min: 228 mts, max: 314 mts)'
-        duration: 5
-        distance: 18
+        duration: 5.0
+        distance: 18.0
         elevation: 86
         meals_included:
           - breakfast
@@ -133,8 +133,8 @@ page_builder:
         id: mlop3c5r
         title: 'Walk to a lake'
         description: 'A spectacular waterfall created when the Romans drained the marshlands of Rieti in 267 BC and a serene lake are the highlights of today’s walk.  The undulating trail follows the Nera River along quiet country roads and marked pathways to the lake, home of the Italian national rowing team, where you’ll stay in a hotel on the lake shores.  (4 hrs; 14 kms; min: 213 mts, max: 391 mts).'
-        duration: 4
-        distance: 14
+        duration: 4.0
+        distance: 14.0
         elevation: 178
         meals_included:
           - breakfast
@@ -143,8 +143,8 @@ page_builder:
         id: mlop5205
         title: 'Discover the Rieti valley'
         description: 'The day’s walk is probably the most demanding of the week, but is also one of the most spectacular.  It starts by crossing the border from Umbria into the region of Lazio, climbing to an ancient village perched high above the lake.  It continues to a remote  forest and an ancient tree that is believed to have sheltered St Francis during a storm.  The long downhill walk is rewarded with an overnight in a medieval village which has beautiful views across the Rieti valley.'
-        duration: 5
-        distance: 20
+        duration: 5.0
+        distance: 20.0
         elevation: 726
         meals_included:
           - breakfast
@@ -153,8 +153,8 @@ page_builder:
         id: mlop6avf
         title: 'Walk to Rieti'
         description: 'Today takes on a lovely walk through forests, fields and farms to another charming town, followed by a visit to a 13th century sanctuary where St Francis took refuge in the later stages of his life.  It finishes in the buzzy centre of Rieti, with shops, restaurants, a rich history and a beautiful cathedral.  (4.5 hrs; 18 kms; min: 390 mts, max: 716 mts)'
-        duration: 5
-        distance: 18
+        duration: 5.0
+        distance: 18.0
         elevation: 326
         meals_included:
           - breakfast
@@ -177,7 +177,7 @@ page_builder:
       -
         id: mHb4rqFxO0jDx8CKjPTWK
         title: 'Exceptional walkings'
-        total_distance: 91
+        total_distance: 91.0
         total_elevation: 1982
         grade: 4
         description:
@@ -273,10 +273,19 @@ page_builder:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: italic
-                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+                text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
       -
@@ -287,7 +296,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
     type: essentials
