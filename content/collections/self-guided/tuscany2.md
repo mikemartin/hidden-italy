@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 2'
 name: 'Tuscany 2'
 region: Tuscany
 days: 7
-updated_by: 4
-updated_at: 1779403486
+updated_by: 3
+updated_at: 1780026339
 grade: 4
 inclusions:
   - 'Private transfer from Florence on Day 1; private transfer to Siena on Day 6'
@@ -108,8 +108,8 @@ page_builder:
         id: mloozlek
         title: 'Stroll through farmlands'
         description: "Today's is a gentle walk, taking you along well-marked trails over the undulating hills of northern Tuscany to a small market town, where you spend the night.  Along the way, you pass through undulating farmlands, wheat fields and patches of forests."
-        duration: 3
-        distance: 9
+        duration: 3.0
+        distance: 9.0
         elevation: 165
         meals_included:
           - breakfast
@@ -118,8 +118,8 @@ page_builder:
         id: mlop159i
         title: 'Walk through vineyards'
         description: 'The walk today takes you through the heartland of the Chianti wine district, following a well-marked trail through rolling hills covered in vineyards, to a small town that is one the centres of viticulture in Tuscany.  Along the walk, you will have the opportunity  to visit one of the oldest and wealthiest abbeys in the region, and have lunch at their excellent restaurant (there is a simpler bistrot nearby, if you prefer).  It is possible to shorten this walk.'
-        duration: 5
-        distance: 17
+        duration: 5.0
+        distance: 17.0
         elevation: 278
         meals_included:
           - breakfast
@@ -128,8 +128,8 @@ page_builder:
         id: mlop3c5r
         title: 'Cross the Chianti hills'
         description: 'Today’s walk starts with a long climb up to the ridge of the highest range hills in the Chianti district.  On the way, you pass a medieval castle and several hamlets.  From the top of the range you are rewarded with spectacular views over the Greve River valley.  The walk continues along the ridge, passing through oak and chestnut forests on the way to your accommodation, a lovely ‘agriturismo’ with a swimming pool and an excellent restaurant.  Your dinner is included tonight.'
-        duration: 5
-        distance: 15
+        duration: 5.0
+        distance: 15.0
         elevation: 636
         meals_included:
           - breakfast
@@ -139,8 +139,8 @@ page_builder:
         id: mlop5205
         title: 'Walk to  through forests'
         description: 'Today you continue your walk along the ridge before descending through pine and oak forests, to a magnificent wine estate situated in a converted medieval abbey (where you can have lunch and sample some of their produce).  Your goal, another small town devoted to wine industry, is an hour’s descent through more oak forest and farmlands.  Along the way you pass from the Florentine territory into the Sienese territory.'
-        duration: 4
-        distance: 16
+        duration: 4.0
+        distance: 16.0
         elevation: -546
         meals_included:
           - breakfast
@@ -151,8 +151,8 @@ page_builder:
         description: 'This morning you have a short walk, passing through classic Chianti countryside passing more vineyards, farm houses with panoramic views and a beautiful castle along the way.  You will be picked up by private transfer at a small hamlet at 12.00 and driven to Siena, ten kilometres south, which will leave you plenty of time to explore this extraordinary city in the afternoon and evening.'
         meals_included:
           - breakfast
-        duration: 2
-        distance: 7
+        duration: 2.0
+        distance: 7.0
         elevation: 174
         photo: self-guided/tuscany-2/alessandro-rossi-ju_bgza3zhe-unsplash.jpg
       -
@@ -173,7 +173,7 @@ page_builder:
       -
         id: OP85htJdF8NKhc6jXS1-9
         title: 'Exceptional walkings'
-        total_distance: 64
+        total_distance: 64.0
         total_elevation: 707
         grade: 0
         description:
@@ -269,7 +269,19 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+                text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
       -
@@ -280,7 +292,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: ". It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).\_"
         type: travel_insurance
         enabled: true
     type: essentials
