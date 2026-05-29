@@ -5,8 +5,8 @@ title: 'Puglia - Puglia: The Gargano Peninsula'
 name: 'Puglia: The Gargano Peninsula'
 region: Puglia
 days: 8
-updated_by: 3
-updated_at: 1780028182
+updated_by: 4
+updated_at: 1780028660
 grade: 4
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
@@ -105,7 +105,7 @@ page_builder:
         id: mloozlek
         title: 'Walk to San Giovanni Rotondo'
         description: 'The first walk takes you along a marked medieval pilgrim path through rolling farmlands with spectacular views south across the plains to the northern coast of the Adriatic and the town where you will stay the night.  This town has become a modern pilgrim site, being the home and resting place of Padre Pio, the most beloved of modern Italian saints.  It also is famous for its giant modern church designed Renzo Piano to accommodate the faithful.'
-        duration: 4.0
+        duration: 3.5
         distance: 12.0
         elevation: 395
         meals_included:
@@ -118,7 +118,7 @@ page_builder:
         description: |-
           Today you pick up the Lombard pilgrim trail again and continue along the peninsula, passing through beautiful farmlands to one of the most important medieval sanctuaries in southern Italy. Although dating from the 5th century, it was the Normans, on their way to Jerusalem in the 11th century, who placed the site on the map. Along the way you have more spectacular views south over the coast.  
           With notice, this walk can be shortened by 8 kms (approximately 2 hours walking).
-        duration: 5.0
+        duration: 6.0
         distance: 22.0
         elevation: 396
         meals_included:
@@ -141,7 +141,7 @@ page_builder:
         id: mlop5205
         title: "Stay at a family-run 'masseria'"
         description: 'Today, the path follows unsealed country lanes through the Foresta Umbra to another charming, family-run agriturismo, an ancient ‘masseria’ which has been in the same family for four generations. If you have time, a visit to the nearby top of Monte Sacro to the ruins of a Benedictine monastery founded by the Byzantines in the 7th century is well worth the effort. (1 hr; 2 kms; 251 m)'
-        duration: 5.0
+        duration: 4.5
         distance: 17.0
         elevation: 369
         meals_included:
@@ -152,8 +152,8 @@ page_builder:
         id: mlop6avf
         title: 'Walk to the coast'
         description: 'You leave your accommodation, you walk down a wide path through olive groves and forest with views over the coast, before descending to the sea. The last stretch is a walk along a long sand beach to Vieste, a very attractive town with a long history that sits on a promontory wedged between two extended beaches.'
-        duration: 4.0
-        distance: 13.0
+        duration: 3.5
+        distance: 12.5
         elevation: -388
         meals_included:
           - breakfast
@@ -227,7 +227,9 @@ page_builder:
                 marks:
                   -
                     type: italic
-                text: "Generous breakfasts and three course dinners are included each day on this tour.\_ "
+                text: 'Generous breakfasts are included each day along with 6 dinners. Hidden Italy will provide you with a curated list of a range three to four restaurants for some of town/village you visit. You will be able to make reservations where applicable directly through the Hidden Italy App.'
+          -
+            type: paragraph
         type: food
         enabled: true
         media:
