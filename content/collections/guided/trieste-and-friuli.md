@@ -6,7 +6,7 @@ name: 'Trieste and Friuli'
 region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: 3
-updated_at: 1780025096
+updated_at: 1780028429
 grade: 4
 inclusions:
   - '12 night’s accommodation (see the itinerary for details) in excellent boutique hotels'
@@ -426,7 +426,7 @@ summary:
       -
         type: text
         text: "With its mountains, plains and seashores all less than an hour's drive apart, Italian writer Ippolito Nievo fondly described the region Friuli Venezia Giulia (FVG) as a \"little compendium of the universe\".\_ This Hidden Italy special sets about exploring that universe."
-price: 'A$8,990'
+price: 'A$8,990 pp'
 show_from: true
 og_image: friuli-venezia-giulia-trieste-and-friuli-og-1779335242.png
 seo_noindex: inherit
