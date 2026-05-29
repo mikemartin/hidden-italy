@@ -7,8 +7,8 @@ region: 'Campania and Basilicata'
 days: 13
 seasons: spring
 grade: 3
-updated_by: 1
-updated_at: 1779336249
+updated_by: 3
+updated_at: 1780024279
 image: guided/campania-and-the-amalfi-coast/22.6.jpg
 tour_size: 15
 inclusions:
@@ -123,8 +123,8 @@ page_builder:
         id: mlonefs6
         title: 'Climb Mount Vesuvius and more'
         description: 'This morning we will be driven up to the side of Mt Vesuvius and take a short walk up to the edge of the crater.  From here we can enjoy extraordinary views out over Naples and its gulf. After lunch we will be taken on a guided visit of Herculaneum, an ancient residential town on the outskirts of Naples that was swallowed up in the same eruption as Pompeii.  Smaller but better preserved than Pompeii, Herculaneum is no less fascinating and more manageable.   The evening is free.'
-        duration: 2
-        distance: 4
+        duration: 2.0
+        distance: 4.0
         elevation: 161
         meals_included:
           - breakfast
@@ -143,8 +143,8 @@ page_builder:
         id: mlonj7ll
         title: 'Go walking in the mountains'
         description: "Today we drive up into the Monti Picentini National Park.  We will do a beautiful walk down through beech and chestnut following well-marked trails, finishing at the ruins of a Norman castle, where we will enjoy a picnic lunch.  We will have pre-dinner drinks and dinner at a lovely 'agriturismo' in the country before driving back to our base, where the evening is free.  We will have pre-dinner drinks and dinner at a lovely 'agriturismo' in the country before driving back to our base."
-        duration: 4
-        distance: 11
+        duration: 4.0
+        distance: 11.0
         meals_included:
           - breakfast
           - lunch
@@ -162,8 +162,8 @@ page_builder:
         id: mlonqtn1
         title: 'Have a picnic lunch in a beech forest'
         description: 'Today we return to the Picentini National Park.  This time we will be taken on a beautiful walk through a leafy beech forest beside a babbling brook to the source of the Calore River, where we will have a picnic lunch.  (9 kms, 4 hrs, 367 mts ascent).  At the end of the walk, we will be driven back to our base where afternoon is free.'
-        duration: 4
-        distance: 9
+        duration: 4.0
+        distance: 9.0
         elevation: 367
         meals_included:
           - breakfast
@@ -182,8 +182,8 @@ page_builder:
         id: mlonw8im
         title: 'Go for a spectacular walk above the sea'
         description: "This morning we get a lift up to the spectacular 'belvedere' high above the town.  After admiring the views, we walk south along a mountain ridge with wide vistas inland over the mountains on one side and views over the Mediterranean Sea on the other.  At the end of the walk, we will have lunch and a swim at a family-run beach club overlooking the prettiest beach in the region.  Back at base, the rest of the afternoon is free.  Dinner is at a local trattoria."
-        duration: 3
-        distance: 8
+        duration: 3.0
+        distance: 8.0
         elevation: 89
         meals_included:
           - breakfast
@@ -194,8 +194,8 @@ page_builder:
         id: mlonyye8
         title: 'Go boating up the coast'
         description: "Today we explore the beautiful coastline where Campania borders with Basilicata, taking a small boat north, exploring rocky coves, grottos and beaches, with plenty of places to swim in the blue waters of the Mediterranean.  After lunch in the port we will return to our base, where you will have the option of relaxing at the hotel or go for a walk, climbing up a paved pilgrim trail to the ruins of the town's castle, which is perched on a promontory that has sweeping views across the gulf."
-        duration: 2
-        distance: 5
+        duration: 2.0
+        distance: 5.0
         elevation: 363
         meals_included:
           - breakfast
@@ -213,8 +213,8 @@ page_builder:
         id: mloo58a6
         title: 'A glorious walk to Amalfi'
         description: "The grand finale of our tour is a glorious walk from Ravello into the extraordinary Valle delle Ferriere.  The trail takes us through a national park passing under towering cliffs and through shaded chestnut forests, with views down over the coast.  We'll have a packed lunch beside a stream.  We will be taken back to Ravello, and you'll have the option of visiting the ancient town of Amalfi along the way.  Our final dinner is in a lovely, family-run restaurant."
-        duration: 5
-        distance: 12
+        duration: 5.0
+        distance: 12.0
         elevation: 478
         meals_included:
           - breakfast
@@ -326,7 +326,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+                text: "To secure your walking tour, a deposit of 25% of the total invoice amount is required on receipt of the attached invoice. Bookings are cancelled automatically if payment is not received within 7 days from invoice date. In the event of cancellation by the customer, a non-refundable & non-transferable fee of $750 per person per tour will apply..\_"
         type: booking_cancellation
         enabled: true
       -
@@ -337,7 +337,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_ "
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
     type: essentials
