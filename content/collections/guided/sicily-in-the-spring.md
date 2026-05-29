@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: 3
-updated_at: 1780025187
+updated_at: 1780028477
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -453,7 +453,7 @@ inclusions:
   - 'All paid admissions during the tour'
   - '7 guided walks'
   - 'Services of a full-time professional tour guide'
-price: 'A$10,490'
+price: 'A$10,490 pp'
 show_from: true
 date: '2027-04-29 14:00'
 og_image: sicily-sicily-in-the-spring-og-1779335251.png
