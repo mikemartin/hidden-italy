@@ -6,7 +6,7 @@ name: 'The Cinque Terre'
 region: Liguria
 days: 7
 updated_by: 4
-updated_at: 1780021016
+updated_at: 1780021705
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -109,8 +109,8 @@ page_builder:
         photo: self-guided/the-cinque-terre/levanto-1-1775014187.jpg
       -
         id: mloozlek
-        title: 'Walk to Monterosso'
-        description: 'The first walk follows a superb coastal path, through woods and scented scrub with breathtaking views over the gulf and the five villages of Cinque Terre.  Along the way it passes the ruins of an abandoned convent, before dipping down to the first Cinque Terre village.'
+        title: 'Breathtaking views over the gulf'
+        description: 'The first walk follows a superb coastal path, through woods and scented scrub with breathtaking views over the gulf and the five villages of Cinque Terre. Along the way, it passes the ruins of an abandoned convent, before dipping down to the first Cinque Terre village.'
         duration: 3.0
         distance: 7.0
         elevation: 314
@@ -120,8 +120,8 @@ page_builder:
       -
         id: mlop159i
         title: 'Walk through vineyards'
-        description: "With today's walk you start on  the Sentiero Azzurro, the celebrated path that links all the five villages of the Cinque Terre. The walk today weaves along cliffs and through terraces, offering spectacular views over the bays and the villages, before taking you to Vernazza, which, with its natural harbour and its Gothic church, many consider the loveliest of all."
-        duration: 3.0
+        description: "With today's walk you start on the Sentiero Azzurro, the celebrated path that links all the five villages of the Cinque Terre. The walk today weaves along cliffs and through terraces, offering spectacular views over the bays and the villages, before taking you to Vernazza, which, with its natural harbour and its Gothic church, many consider the loveliest of all."
+        duration: 2.5
         distance: 5.0
         elevation: 200
         meals_included:
@@ -129,9 +129,9 @@ page_builder:
         photo: self-guided/the-cinque-terre/vernazza-3-a.jpg
       -
         id: mlop3c5r
-        title: 'Walk to Riomaggiore'
-        description: "This morning, you pick up the Sentiero Azzurro again passing through olive groves with views up to ancient terraces in the mountains above you.  Along the way you visit two more of the Cinque Terre villages (perfect for resfershments and lunch) and then continue on to Riomaggiore, the last of the five villages, where you'll stay the night.  We also include a beautiful alternative high walk through the vineyards of Volastra."
-        duration: 2.0
+        title: 'Explore local olive groves'
+        description: "This morning, you pick up the Sentiero Azzurro again passing through olive groves with views up to ancient terraces in the mountains above you.  Along the way you visit two more of the Cinque Terre villages (perfect for refreshments and lunch) and then continue to the last of the five villages, where you'll stay the night. We also include a beautiful alternative high walk through the vineyards of Volastra."
+        duration: 3.0
         distance: 7.0
         elevation: 184
         meals_included:
