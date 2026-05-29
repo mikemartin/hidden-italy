@@ -6,7 +6,7 @@ name: 'The Amalfi Coast'
 region: Campania
 days: 6
 updated_by: 3
-updated_at: 1780025319
+updated_at: 1780027721
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
@@ -232,7 +232,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "To guide you through this wonderful walk you will have the Hidden Italy road-book (A5 booklet that includes comprehensive daily walking notes accompanied by detailed maps, updated and revised each year);\_ access to the exclusive Hidden Italy App to complement the road-book (the App is downloadable to Apple and Android devices and features information about the routes: maps, GPS tracks, altimetric profiles, etc; GPS navigation on all the routes; an alert function if you stray off the track; and an emergency function);\_ twenty-four-hour phone support from our local team as well as our Italian-based Operations Manager."
+                text: 'To help guide you on this wonderful walk, you’ll receive our Hidden Italy booklet — a handy A5 guide with detailed daily walking notes and clear maps, updated and revised each year. You’ll also have access to our exclusive Hidden Italy App, which complements the booklet and works on both Apple and Android devices. The app includes route maps, GPS tracks, altimetric profiles, turn-by-turn navigation, an alert if you stray off the path, and an emergency function. In addition, you’ll have 24-hour phone support from our local team.'
         type: general
         enabled: true
       -
