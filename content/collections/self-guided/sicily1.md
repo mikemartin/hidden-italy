@@ -5,8 +5,8 @@ title: 'Sicily - Sicily 1: the Madonie Mountains'
 name: 'Sicily 1: the Madonie Mountains'
 region: Sicily
 days: 7
-updated_by: 4
-updated_at: 1779403173
+updated_by: 3
+updated_at: 1780026008
 grade: 3
 inclusions:
   - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
@@ -108,8 +108,8 @@ page_builder:
         id: mlrce7n9
         title: 'Walk into the mountains'
         description: 'Your first walk is an easy hike across the valley to a tiny village that grew up around a rock outcrop riddled with prehistoric cave dwellings.  Mt Etna, 100 kms to the east, is visible from the village’s impregnable castle.  The village’s dialect still has traces of the French invaders who were garrisoned here in the 13th century.'
-        duration: 3
-        distance: 13
+        duration: 3.0
+        distance: 13.0
         elevation: 166
         meals_included:
           - breakfast
@@ -119,8 +119,8 @@ page_builder:
         id: mlrchqfo
         title: 'A ramble through the valleys'
         description: 'Today you have a long but gentle walk through rolling valleys with vast views of the mountains and farmlands around you.  At the end of the walk, you will be met and driven to your accommodation for the night, at the foot of one of the most fascinating villages in the district.'
-        duration: 4
-        distance: 14
+        duration: 4.0
+        distance: 14.0
         elevation: 383
         meals_included:
           - breakfast
@@ -130,8 +130,8 @@ page_builder:
         id: mlrcpsyv
         title: 'Stay in a family-run agriturismo'
         description: "An easy day, today you climb up to a nearby town,  a jumble of houses and lanes that tumble down the side of a spherical hill.  Your accommodation is a family-run agriturismo in the valley below the town which was once a baronial residence. You will have the option in the afternoon of doing a loop walk up to visit the neighbouring town, which was judged Italy's Most Beautiful Village in 2014 (2 hrs, 6 kms, 440 mts)"
-        duration: 2
-        distance: 7
+        duration: 2.0
+        distance: 7.0
         elevation: 269
         meals_included:
           - breakfast
@@ -141,8 +141,8 @@ page_builder:
         id: mlrcryci
         title: 'Walk to the Madonie Park'
         description: "The walk today takes you through the valley and then up to a small town that was founded by the ancient Greeks and was the seat of the medieval counts who ruled central Sicily from here in the 14th and 15th centuries.  The town is also the gateway to the Madonie National Park.  Your accommodation tonight is in a beautifully restored historic building in the centre of town, close to the town's central piazza."
-        duration: 4
-        distance: 12
+        duration: 4.0
+        distance: 12.0
         elevation: 440
         meals_included:
           - breakfast
@@ -152,8 +152,8 @@ page_builder:
         id: mlrczqmb
         title: 'Walk to Petralia Soprana'
         description: "Today’s walk takes you sharply up from the town to a wide path that contours around side of a mountain, taking you through pines forests and pastures with spectacular views back east across the valleys and mountains.  On a clear day, you will have Mt Etna as a backdrop.  You descend down a fire-trail to your final destination, an extraordinary town that was founded by the Romans and was classified as Italy's Most Beautiful Village in 2018."
-        duration: 4
-        distance: 12
+        duration: 4.0
+        distance: 12.0
         elevation: 415
         meals_included:
           - breakfast
@@ -271,7 +271,19 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+                text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
       -
@@ -282,7 +294,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
     type: essentials
