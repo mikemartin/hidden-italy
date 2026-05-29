@@ -5,8 +5,8 @@ title: 'Umbria - Umbria Classic'
 name: 'Umbria Classic'
 region: Umbria
 days: 7
-updated_by: 1
-updated_at: 1779336484
+updated_by: 3
+updated_at: 1780026526
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -107,8 +107,8 @@ page_builder:
         id: mloozlek
         title: 'Walk under Monte Subasio'
         description: "This itinerary starts with a steep climb up to a beautiful hermitage surrounded by forests that was a place of retreat for St Francis.  From here the path contours around the side of Mt Subasio with wide views across the valley before descending to a beautiful hill-town founded by the Romans. You'll have time to visit the 13th century church with Pinturicchio's dazzling fresco cycle.  Please note a shorter version, with less climbing, is included in the notes (4 hrs; 11.5 kms; 220 mts)."
-        duration: 5
-        distance: 15
+        duration: 5.0
+        distance: 15.0
         elevation: 570
         meals_included:
           - breakfast
@@ -117,8 +117,8 @@ page_builder:
         id: mlop159i
         title: 'Walk across the valley'
         description: "A gentle walk following country roads across the valley floor, leaving via a magnificent Roman gate and passing through wheat fields to a small town on the plain, one of the hidden treasures of the region. This sleepy town has two of Umbria's finest Romanesque churches as well as impressive Roman mosaics and a delightful little 19th century theatre."
-        duration: 4
-        distance: 14
+        duration: 4.0
+        distance: 14.0
         elevation: -109
         meals_included:
           - breakfast
@@ -127,8 +127,8 @@ page_builder:
         id: mlop3c5r
         title: 'Pass through vineyards'
         description: "Today you walk up rolling hills to one of the viticulture centres of the region, which has beautiful views over the valley.  On the way, you pass through the vineyards that have made the town famous. The town also has a rich artistic heritage out of all proportion to its size, including a beautiful fresco cycle of St Francis' life by the influential Florentine artist Gozzoli."
-        duration: 2
-        distance: 7
+        duration: 2.0
+        distance: 7.0
         elevation: 246
         meals_included:
           - breakfast
@@ -137,8 +137,8 @@ page_builder:
         id: mlop5205
         title: "Stay in a 'borgo'"
         description: 'Descending from the hills, you cross the valley floor again, following a medieval path through wheat fields, past quiet farming villages and springs from a river source sacred to the Romans which inspired poets from Virgil to Byron, before climbing up to your accommodation.  Dinner is included tonight.  Please note that this walk can be shortened with an night in an excellent 4-star hotel along the way (7kms + 14 kms).'
-        duration: 5
-        distance: 21
+        duration: 5.0
+        distance: 21.0
         elevation: 238
         meals_included:
           - breakfast
@@ -148,8 +148,8 @@ page_builder:
         id: mlop6avf
         title: 'Walk to Spoleto'
         description: "The last walk picks up the 'Sentiero degli Ulivi', the Trail of the Olives, winding through olive groves, around the side of the hills past a string of villages before arriving in Spoleto.  You enter this gorgeous city through the lower medieval walls and climb up to the cathedral square (there is an escalator as well!)."
-        duration: 4
-        distance: 15
+        duration: 4.0
+        distance: 15.0
         elevation: 258
         meals_included:
           - breakfast
@@ -172,7 +172,7 @@ page_builder:
       -
         id: _mDmVfayfhOdoqr-fftAm
         title: 'Exceptional walkings'
-        total_distance: 73
+        total_distance: 73.0
         total_elevation: 1312
         grade: 0
         description:
@@ -264,7 +264,19 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+                text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
       -
@@ -275,7 +287,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
     type: essentials
