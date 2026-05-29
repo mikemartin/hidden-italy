@@ -6,7 +6,7 @@ name: 'The Cinque Terre'
 region: Liguria
 days: 7
 updated_by: 4
-updated_at: 1780008394
+updated_at: 1780016206
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -43,6 +43,13 @@ page_builder:
       - self-guided/the-cinque-terre/manarola-1-a.jpg
       - self-guided/the-cinque-terre/44.jpg
     hide_from_subnav: false
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Extend your tour by 4 days to take in Santa Margherita and Portofino. Santa Margherita Ligure is a lively and picturesque port at the foot of the superb Portofino National Park. A large promontory surrounded by cliffs and small coves, which has some of the most rewarding walking on the Italian Riviera.'
   -
     id: mloocwbk
     heading: 'Highlights of the Cinque Terre walk'
