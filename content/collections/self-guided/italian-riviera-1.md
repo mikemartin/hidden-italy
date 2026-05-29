@@ -6,7 +6,7 @@ name: 'Italian Riviera 1'
 region: Liguria
 days: 8
 updated_by: 3
-updated_at: 1780025447
+updated_at: 1780027967
 grade: 4
 inclusions:
   - 'Seven nights accommodation'
@@ -265,6 +265,18 @@ page_builder:
     title: 'What you should know'
     sections:
       -
+        id: LtWJ3qojOWkW4ZDwnJ0p6
+        heading: 'Support on the tour'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'To help guide you on this wonderful walk, you’ll receive our Hidden Italy booklet — a handy A5 guide with detailed daily walking notes and clear maps, updated and revised each year. You’ll also have access to our exclusive Hidden Italy App, which complements the booklet and works on both Apple and Android devices. The app includes route maps, GPS tracks, altimetric profiles, turn-by-turn navigation, an alert if you stray off the path, and an emergency function. In addition, you’ll have 24-hour phone support from our local team.'
+        type: general
+        enabled: true
+      -
         id: dI8bzBqnchbZvuYu_Vn5o
         body:
           -
@@ -314,18 +326,6 @@ page_builder:
                 type: text
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
-        enabled: true
-      -
-        id: LtWJ3qojOWkW4ZDwnJ0p6
-        heading: 'Support on the tour'
-        body:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: "To guide you through this wonderful walk you will have the Hidden Italy road-book (an eighty-page A5 booklet that includes comprehensive daily walking notes accompanied by detailed maps, updated and revised each year);\_ access to the exclusive Hidden Italy App to complement the road-book (the App is downloadable to Apple and Android devices and features information about the routes: maps, GPS tracks, altimetric profiles, etc; GPS navigation on all the routes; an alert function if you stray off the track; and an emergency function);\_ twenty-four-hour phone support from our local team as well as our Italy-based Operations Manager."
-        type: general
         enabled: true
     type: essentials
     enabled: true
