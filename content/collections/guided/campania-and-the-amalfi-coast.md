@@ -8,7 +8,7 @@ days: 13
 seasons: spring
 grade: 3
 updated_by: 3
-updated_at: 1780025074
+updated_at: 1780028414
 image: guided/campania-and-the-amalfi-coast/22.6.jpg
 tour_size: 15
 inclusions:
@@ -430,7 +430,7 @@ summary:
       -
         type: text
         text: 'The Romans called the region around Naples ‘Campania Felix’ or the ‘happy lands’. With its rich history, spectacular coastline and fertile interior, Campania has much to be happy about: a stunningly beautiful area with endless surprises and all the exuberance and colour of southern Italy.'
-price: 'A$9,990'
+price: 'A$9,990 pp'
 show_from: true
 date: '2027-05-09 14:00'
 og_image: campania-and-basilicata-campania-and-the-amalfi-coast-og-1779335240.png
