@@ -8,7 +8,7 @@ days: 13
 seasons: spring
 grade: 3
 updated_by: 3
-updated_at: 1780024279
+updated_at: 1780024305
 image: guided/campania-and-the-amalfi-coast/22.6.jpg
 tour_size: 15
 inclusions:
