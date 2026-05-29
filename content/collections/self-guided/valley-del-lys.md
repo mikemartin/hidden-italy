@@ -5,8 +5,8 @@ title: "Val d'Aosta - Valley del Lys"
 name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
-updated_by: 1
-updated_at: 1779336491
+updated_by: 3
+updated_at: 1780026481
 grade: 4
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
@@ -107,8 +107,8 @@ page_builder:
         id: mlrce7n9
         title: 'Walk into the mountains'
         description: "From the hamlet, you climb up the mountain following a well-maintained, historic path, which has spectacular views over the whole valley, before looping back down to the Lys River.  You are now in the heartland of the Valley del Lys Walser community, which is clear from the characteristic timber and stone houses.  Monte Rosa is now a stone's throw away from here, you feel you can almost touch it.  Your accommodation is in a beautifully restored 16th century family home."
-        duration: 5
-        distance: 14
+        duration: 5.0
+        distance: 14.0
         elevation: 1073
         meals_included:
           - breakfast
@@ -119,8 +119,8 @@ page_builder:
         id: mlrchqfo
         title: 'Walk through forest'
         description: 'You will be able to enjoy the magnificent views of Monte Rosa for most of the day following sections of the Great Walser Trail.  The hamlet is one of the most beautiful villages in the Aosta Valley.  The rifugio is famous throughout the valley for its cooking.  Please note that there is also a shorter a less challenging option for today’s walk.  Your beautiful accommodation tonight does not have car access, you will need to take a change of clothes, pyjamas and a toothbrush.'
-        duration: 4
-        distance: 10
+        duration: 4.0
+        distance: 10.0
         elevation: 713
         meals_included:
           - breakfast
@@ -130,8 +130,8 @@ page_builder:
         id: mlrcpsyv
         title: 'Visit Gressoney-la-Trinite'
         description: 'A pretty and relaxed walk today that descends gradually through larch forest down to the pretty town of Gressoney-la-Trinite, where you’ll have the chance to have a break and visit the Walser Museum.  From here you follow the Lys River up to the head of the valley, Monte Rosa and its glaciers looming large in front of you beckoning you to to stay.  Your accommodation is in an elegantly restored historic inn.'
-        duration: 3
-        distance: 7
+        duration: 3.0
+        distance: 7.0
         elevation: 269
         meals_included:
           - breakfast
@@ -141,8 +141,8 @@ page_builder:
         id: mlrcryci
         title: 'Touch Monte Rosa'
         description: 'With this stage you almost touch the glaciers of Monte Rosa.  The climb follows the Moos Valley up to a beautiful rifugio at 2600 metres asl, Monte Rosa presenting itself in all its grandeur.  Your accommodation is in a modern structure with an international flavour at the foot of the mountain.  Please note, if weather conditions are such that the rifugio is closed, you can stay a second night in the Day 4 accommodation and enjoy the two ‘alternative’ walks.'
-        duration: 4
-        distance: 7
+        duration: 4.0
+        distance: 7.0
         elevation: 834
         meals_included:
           - breakfast
@@ -152,8 +152,8 @@ page_builder:
         id: mlrczqmb
         title: 'Return to the valley!'
         description: 'The last stage of our tour takes you up to a pass before descending down the Salza Valley (with a possible detour at the bottom to visit the glacier that form the source of the Lys River).  From here you walk down the valley and then beside the river back to Gressoney-la-Trinite, where your accommodation tonight, the grand finale, is in an historic Walser residence, famous for its mountain cooking.'
-        duration: 4
-        distance: 12
+        duration: 4.0
+        distance: 12.0
         elevation: 600
         meals_included:
           - breakfast
@@ -177,7 +177,7 @@ page_builder:
       -
         id: qZKpOK0h9QRlSouIPFB1H
         title: 'Exceptional walkings'
-        total_distance: 52
+        total_distance: 52.0
         total_elevation: 2471
         grade: 4
         description:
@@ -350,7 +350,19 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+                text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
       -
@@ -361,7 +373,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              -
+                type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
     type: essentials
