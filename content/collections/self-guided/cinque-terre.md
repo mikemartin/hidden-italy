@@ -5,8 +5,8 @@ title: 'Liguria - The Cinque Terre'
 name: 'The Cinque Terre'
 region: Liguria
 days: 7
-updated_by: 4
-updated_at: 1780024650
+updated_by: 3
+updated_at: 1780025598
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -233,6 +233,18 @@ page_builder:
     title: 'What you should know'
     sections:
       -
+        id: TMiC64cz8drBLUf2Ylbjn
+        heading: 'Support on the tour'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "To guide you through this wonderful walk you will have the Hidden Italy road-book (an eighty-page A5 booklet that includes comprehensive daily walking notes accompanied by detailed maps, updated and revised each year);\_ access to the exclusive Hidden Italy App to complement the road-book (the App is downloadable to Apple and Android devices and features information about the routes: maps, GPS tracks, altimetric profiles, etc; GPS navigation on all the routes; an alert function if you stray off the track; and an emergency function);\_ twenty-four-hour phone support from our local team as well as our Italy-based Operations Manager."
+        type: general
+        enabled: true
+      -
         id: lR_EB8wZUKD7jAu_zuDh1
         body:
           -
@@ -251,7 +263,19 @@ page_builder:
             content:
               -
                 type: text
-                text: "To confirm the booking, a deposit of 25% of the total booking cost is required within 7 days of the issue of the invoice. \_Please note that in the event of customer cancellation, deposits are refunded, less a cancellation fee of $500 per person per tour.\_"
+                text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
       -
@@ -262,20 +286,14 @@ page_builder:
             content:
               -
                 type: text
-                text: "It is a condition of travel that you are covered by comprehensive travel insurance. When arranging your insurance, you must provide no later than 60 days prior to commencement of travel: a copy of your travel insurance policy (or details of master policy), the emergency telephone number of your insurance company; and next of kin emergency contact.\_"
-        type: travel_insurance
-        enabled: true
-      -
-        id: TMiC64cz8drBLUf2Ylbjn
-        heading: 'Support on the tour'
-        body:
-          -
-            type: paragraph
-            content:
+                marks:
+                  -
+                    type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
               -
                 type: text
-                text: "To guide you through this wonderful walk you will have the Hidden Italy road-book (an eighty-page A5 booklet that includes comprehensive daily walking notes accompanied by detailed maps, updated and revised each year);\_ access to the exclusive Hidden Italy App to complement the road-book (the App is downloadable to Apple and Android devices and features information about the routes: maps, GPS tracks, altimetric profiles, etc; GPS navigation on all the routes; an alert function if you stray off the track; and an emergency function);\_ twenty-four-hour phone support from our local team as well as our Italy-based Operations Manager."
-        type: general
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
+        type: travel_insurance
         enabled: true
     type: essentials
     enabled: true
