@@ -6,18 +6,18 @@ name: 'Alba and Le Langhe'
 region: Piedmont
 days: 8
 updated_by: 4
-updated_at: 1779403144
+updated_at: 1780025511
 grade: 3
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
   - 'Seven nights accommodation'
-  - 'All breakfasts included'
+  - 'All breakfasts'
   - 'Reading lists, historical and cultural notes'
-  - 'Detailed roadbook with maps and daily notes (updated annually)'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App with GPS to complement the booklet'
   - 'A curated list of restaurants for each town you visit'
   - 'Daily transfers of baggage between hotels each morning'
-  - '24 hour backup from our operations manager'
+  - '24-hour support from our local manager'
   - 'City taxes are not included in t'
 locations: northern-italy
 landscapes:
@@ -35,14 +35,14 @@ page_builder:
         content:
           -
             type: text
-            text: 'Your well-marked walking trails will take through this exceptional area, passing undulating vineyards, pine forests, orchards and hazel nut farms.  Along the way, you will visit in some very attractive towns and villages and stay in welcoming accommodation, that is often part of the history of the towns themselves.'
+            text: 'Your well-marked walking trails will take through this exceptional area, passing undulating vineyards, pine forests, orchards and hazel nut farms. Along the way, you will visit in some very attractive towns and villages and stay in welcoming accommodation, that is often part of the history of the towns themselves.'
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "You'll also have plenty of opportunity to sample some Le Langhe's very special treats.  The district is also one of Italy’s gastronomic capitals, the home of the Slow Food Association, famous for its cheeses, meats, chocolates, hazel nuts and white truffles, as well, of course, as its excellent wines.  There is much to see and do!"
+            text: "You'll also have plenty of opportunity to sample some Le Langhe's very special treats. The district is also one of Italy’s gastronomic capitals, the home of the Slow Food Association, famous for its cheeses, meats, chocolates, hazel nuts and white truffles, as well, of course, as its excellent wines. There is much to see and do!"
     title: 'Vineyards, pine forests and hazelnut farms'
     images:
       - self-guided/alba-and-le-langhe/3.jpg
@@ -80,8 +80,8 @@ page_builder:
         icon: culture-Pantheon.svg
       -
         id: mlooun08
-        title: 'Relax, you are fully-supported'
-        summary: 'Everything is organised: you are transfer to and from Alba; your bags moved each day; an App; and 24-hour local support.'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -96,14 +96,14 @@ page_builder:
       -
         id: mlooymbz
         title: 'Transfer from Turin to Alba'
-        description: 'You will be taken by private transfer from Turin to beautiful Alba, 95 kilometres south.  The plan of the historic centre of Alba reflects its Roman origins (an orderly grid tucked behind defensive walls) while its narrow streets are decidedly medieval, complete with a five brick tower-houses that date from the 13th century.'
+        description: 'You will be taken by private transfer from Turin to beautiful Alba, 95 kilometres south. The plan of the historic centre of Alba reflects its Roman origins (an orderly grid tucked behind defensive walls) while its narrow streets are decidedly medieval, complete with a five brick tower-houses that date from the 13th century.'
         photo: self-guided/alba-and-le-langhe/alba-2.jpg
       -
         id: mloozlek
         title: 'Walk along the Tanaro River'
-        description: 'You leave Alba heading south-west, passing the Ferrero chocolate factory (home of Nutella) and then follow an easy path along the left bank of the Tanaro River, before turning south and climbing up to a small hilltop village that is famous for its.  The second half of the walk takes you through vineyards to another lovely hilltop town, with a ruined castle from where you have a breathtaking view south over all the Langhe hills.'
-        duration: 4
-        distance: 15
+        description: 'You leave Alba heading south-west, passing the Ferrero chocolate factory (home of Nutella) and then follow an easy path along the left bank of the Tanaro River, before turning south and climbing up to a small hilltop village that is famous for its. The second half of the walk takes you through vineyards to another lovely hilltop town, with a ruined castle from where you have a breathtaking view south over all the Langhe hills.'
+        duration: 4.0
+        distance: 15.0
         elevation: 281
         meals_included:
           - breakfast
@@ -111,9 +111,9 @@ page_builder:
       -
         id: mlop159i
         title: 'Walk through vineyards'
-        description: 'Today’s walk takes you through the heart of Barolo country following lanes that cut through the middle of the some of the finest and most famous vineyards in Italy such as ‘Cannubi’ and ‘Sori’, passing through the town of Barolo itself (where you can have lunch and visit one of the cantine and/or its Oenological Museum).  After passing through more vineyards, you arrive at another charming hilltop town.'
-        duration: 4
-        distance: 13
+        description: 'Today’s walk takes you through the heart of Barolo country following lanes that cut through the middle of the some of the finest and most famous vineyards in Italy such as ‘Cannubi’ and ‘Sori’, passing through the town of Barolo itself (where you can have lunch and visit one of the cantine and/or its Oenological Museum). After passing through more vineyards, you arrive at another charming hilltop town.'
+        duration: 3.5
+        distance: 13.0
         elevation: 267
         meals_included:
           - breakfast
@@ -122,8 +122,8 @@ page_builder:
         id: mlop3c5r
         title: 'Walk through chestnut forests'
         description: 'Today’s walk takes you out of the wine growing area and into the Alta Langhe, the slightly ‘wilder’ (relatively!) part of the district which is characterised by steeper hills, hazelnut and fruit orchards and tracts of chestnut forests. Although there are a couple of hills, today’s walk is quite short which will leave you time to explore the interesting places you are pass, including the very interesting castle with time for a light lunch as well.'
-        duration: 3
-        distance: 8
+        duration: 2.5
+        distance: 8.0
         elevation: 264
         meals_included:
           - breakfast
@@ -131,29 +131,29 @@ page_builder:
       -
         id: mlop5205
         title: 'Walk along a ridge'
-        description: 'The walk today takes heads north following a ridge above the Belbo River, passing though long tracts of forest and orchards with extensive views south over the Alta Langhe.  It passes through a number of small villages where you can break for lunch. With notice, this walk can be shortened.'
-        duration: 5
-        distance: 17
+        description: 'The walk today takes heads north following a ridge above the Belbo River, passing through long tracts of forest and orchards with extensive views south over the Alta Langhe. It passes through a number of small villages where you can break for lunch. With notice, this walk can be shortened.'
+        duration: 4.5
+        distance: 17.0
         elevation: 401
         meals_included:
           - breakfast
         photo: self-guided/alba-and-le-langhe/10-v2.jpg
       -
         id: mlop6avf
-        title: 'Walk to the pretty village in the area'
-        description: 'Leaving your accommodation the trail further along the ridge through forests and orchards, passing close to Santo Stefano Belbo, the home of one of the Langhe’s favourite sons: Cesare Pavese (1908 to 1950), poet, novelist, critic and translator.  The second part of today’s walk takes you back into the sweet rolling hills of the wine country, through vineyards dedicated to Barbaresco, a light version of Barolo, to one of the prettiest and best preserved villages in the area.'
-        duration: 5
-        distance: 17
+        title: 'Stay in one of the prettiest villages'
+        description: 'Leaving your accommodation the trail further along the ridge through forests and orchards, passing close to Santo Stefano Belbo, the home of one of the Langhe’s favourite sons: Cesare Pavese (1908 to 1950), poet, novelist, critic and translator. The second part of today’s walk takes you back into the sweet rolling hills of the wine country, through vineyards dedicated to Barbaresco, a light version of Barolo, to one of the prettiest and best preserved villages in the area.'
+        duration: 5.5
+        distance: 17.0
         elevation: 468
         meals_included:
           - breakfast
         photo: self-guided/alba-and-le-langhe/img_5836.jpeg
       -
         id: mlop8uiy
-        title: 'Head back to Alba'
-        description: 'The last walk of your visit takes you back to Alba.  It loops around through more vineyards, passing a number of settlements, including the town of Barbaresco itself, before entering forest and following the banks of the Tanaro River along a trail that is dedicated to Beppe Fenoglio (1922 to 1963), another beloved local writer who fought the German occupation during World War II.  Your last night is spent in Alba.'
-        duration: 4
-        distance: 13
+        title: 'Trak the trail dedicated to Beppe Fenoglio'
+        description: 'The last walk of your visit takes you back to Alba. It loops around through more vineyards, passing a number of settlements, including the town of Barbaresco itself, before entering forest and following the banks of the Tanaro River along a trail that is dedicated to Beppe Fenoglio (1922 to 1963), another beloved local writer who fought the German occupation during World War II. Your last night is spent in Alba.'
+        duration: 3.0
+        distance: 11.0
         elevation: 135
         meals_included:
           - breakfast
@@ -183,7 +183,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The trails are well-marked and generally follow unsealed country lanes over rolling hills often through vineyards and orchards. There are the occasional rougher sections and some asphalt walking into and out of the larger towns.\_ The walks on Day 5 is 17 kms and on Day 6 is 19 km, which will take around 5 hours walking.\_ With notice, both walks can be shortened.\_ Full details on each walk are on the itinerary"
+                text: "The trails are well-marked and generally follow unsealed country lanes over rolling hills often through vineyards and orchards. There are the occasional rougher sections and some asphalt walking into and out of the larger towns.\_The walk on Day 5 is 17 kms and on Day 6 is 19 km, which will take around 5 hours walking.\_ With notice, both walks can be shortened.\_Full details on each walk are on the itinerary"
         image: self-guided/alba-and-le-langhe/5.jpg
         type: walk
         enabled: true
@@ -196,7 +196,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Alba and the Langhe have a long history of hospitality and offer a range of very comfortable and welcoming accommodation. \_During the walk you will stay in a variety of accommodation including 4-star hotels (in Alba on Days 1 and 7 and on Day 5); an ex-castle/vineyard which once belonged to the king of Italy (Day 2); a lovely small hotel in the heart of the prettiest village in the district (Day 6) and an agriturismo outside a small hilltop village, which has a pool and an excellent restaurant\_ (Day 4).\_ All the accommodation has ensuite services."
+                text: "Alba and the Langhe have a long history of hospitality and offer a range of very comfortable and welcoming accommodation. During the walk you will stay in a variety of accommodation including 4-star hotels, an ex-castle/vineyard which once belonged to the king of Italy; a lovely small hotel in the heart of the prettiest village in the district and an agriturismo outside a small hilltop village, which has a pool and an excellent restaurant.\_All with ensuite bathrooms."
         media:
           - self-guided/alba-and-le-langhe/benevello-6.jpg
         type: accommodation
@@ -210,7 +210,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Alba and the Langhe is one of Italy’s gastronomic and wine capitals so you will eat and drink very well during this tour (just as well there are some long walks!).\_ According to Pliny the Elder and Strabo, this area was producing fine wines in Roman times.\_ It’s modern manifestation started in the mid-1800s with the introduction of production techniques from nearby France.\_ Big, bold Barolo, the flagship wine, is recognised as one of the finest reds in Europe.\_"
+                text: "Alba and the Langhe is one of Italy’s gastronomic and wine capitals so you will eat and drink very well during this tour (just as well there are some long walks!). According to Pliny the Elder and Strabo, this area was producing fine wines in Roman times.\_It’s modern manifestation started in the mid-1800s with the introduction of production techniques from nearby France.\_Big, bold Barolo, the flagship wine, is recognised as one of the finest reds in Europe.\_"
           -
             type: paragraph
             content:
@@ -225,7 +225,7 @@ page_builder:
                 marks:
                   -
                     type: italic
-                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+                text: 'Generous breakfasts are included each day. Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit. You will be able to make reservations where applicable directly through the Hidden Italy App.'
         media:
           - self-guided/alba-and-le-langhe/9.jpg
         type: food
@@ -363,7 +363,7 @@ finish_location:
 now_open: false
 seasons:
   - autumn
-headline: '8 days through Piedmont'
+headline: 'Explore the rolling hills of the Langhe'
 teaser: 'An 8-day tour that takes you through the seductive rolling hills of southern Piedmont.'
 summary:
   -
@@ -371,7 +371,7 @@ summary:
     content:
       -
         type: text
-        text: "This delightful 8-day circuit walk starts with a private transfer to beautiful Alba, 95 kilometres south of Turin.\_ A handsome town of Roman origin, Alba is the ‘capital’ of the Langhe, a close-knit range of hills and valleys which are crowded with impeccably tended rows of nebbiolo vines, the source of some of Italy’s finest wines, including Barolo and Barbaresco.\_ They form a unique and striking landscape which is dotted with attractive hill-towns, castles and wineries, so much so that the district was recently listed as a UNESCO World Heritage site."
+        text: "This delightful 8-day/7-night circuit walk starts with a private transfer to beautiful Alba, 95 kilometres south of Turin.\_A handsome town of Roman origin, Alba is the ‘capital’ of the Langhe, a close-knit range of hills and valleys which are crowded with impeccably tended rows of nebbiolo vines, the source of some of Italy’s finest wines, including Barolo and Barbaresco.\_They form a unique and striking landscape which is dotted with attractive hill-towns, castles and wineries, so much so that the district was recently listed as a UNESCO World Heritage site."
 price: 'A$3,300'
 show_from: true
 og_image: piedmont-alba-and-le-langhe-og-1779335292.png
