@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use App\Imaging\ClutFilter;
+use App\Imaging\ImageFilter;
 use App\Policies\CustomUserPolicy;
 use App\Tags\Picture;
 use Illuminate\Cache\RateLimiting\Limit;
@@ -56,7 +56,7 @@ class AppServiceProvider extends ServiceProvider
             $api = $server->getApi();
 
             $api->setManipulators(
-                collect($api->getManipulators())->push(new ClutFilter)->all()
+                collect($api->getManipulators())->push(new ImageFilter)->all()
             );
 
             $server->setApi($api);

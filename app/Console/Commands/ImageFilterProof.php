@@ -2,7 +2,7 @@
 
 namespace App\Console\Commands;
 
-use App\Imaging\ClutFilter;
+use App\Imaging\ImageFilter;
 use Illuminate\Console\Command;
 use Imagick;
 use Intervention\Image\ImageManager;
@@ -14,15 +14,15 @@ use Intervention\Image\ImageManager;
  * intermediate result. Writes samples to disk for eyeballing.
  *
  * Run on a host with the Imagick PHP extension + the LUT in place:
- *   php artisan clut:proof nordic public/img/sample.jpg --intensity=50
+ *   php artisan image-filter:proof nordic public/img/sample.jpg --intensity=50
  */
-class ClutFilterProof extends Command
+class ImageFilterProof extends Command
 {
-    protected $signature = 'clut:proof
+    protected $signature = 'image-filter:proof
         {filter : Registered filter name (e.g. nordic, fresco)}
         {source : Path to a source image (absolute, or relative to the project root)}
         {--intensity=50 : Strength for the partial-blend sample (0-100)}
-        {--out= : Output directory (defaults to storage/app/clut-proof)}';
+        {--out= : Output directory (defaults to storage/app/image-filter-proof)}';
 
     protected $description = 'Prove a brand HALD CLUT filter in isolation (outside Glide).';
 
@@ -36,7 +36,7 @@ class ClutFilterProof extends Command
         }
 
         $name = $this->argument('filter');
-        $config = (new ClutFilter)->filterConfig($name);
+        $config = (new ImageFilter)->filterConfig($name);
 
         if ($config === null) {
             $this->error("Unknown filter [{$name}]. Defined: ".implode(', ', array_keys(config('image_filters.filters', []))));
@@ -68,7 +68,7 @@ class ClutFilterProof extends Command
         }
 
         $partial = max(0, min(100, (int) $this->option('intensity')));
-        $filter = new ClutFilter;
+        $filter = new ImageFilter;
         $manager = ImageManager::imagick();
 
         // (a) Confirm Intervention v3 hands us a native \Imagick.

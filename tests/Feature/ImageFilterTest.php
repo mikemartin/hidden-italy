@@ -2,16 +2,16 @@
 
 namespace Tests\Feature;
 
-use App\Imaging\ClutFilter;
+use App\Imaging\ImageFilter;
 use Intervention\Image\Interfaces\ImageInterface;
 use Mockery;
 use Tests\TestCase;
 
-class ClutFilterTest extends TestCase
+class ImageFilterTest extends TestCase
 {
     public function test_it_exposes_filt_and_intensity_as_api_params(): void
     {
-        $this->assertSame(['filt', 'intensity'], (new ClutFilter)->getApiParams());
+        $this->assertSame(['filt', 'intensity'], (new ImageFilter)->getApiParams());
     }
 
     public function test_it_resolves_registered_filters_and_ignores_unknown_ones(): void
@@ -20,7 +20,7 @@ class ClutFilterTest extends TestCase
             'nordic' => ['lut_path' => '/luts/hald_nordic.png', 'intensity' => 100],
         ]);
 
-        $filter = new ClutFilter;
+        $filter = new ImageFilter;
 
         $this->assertIsArray($filter->filterConfig('nordic'));
         $this->assertNull($filter->filterConfig('greyscale'), 'Built-in Glide filters must pass through.');
@@ -35,7 +35,7 @@ class ClutFilterTest extends TestCase
         $image = Mockery::mock(ImageInterface::class);
         $image->shouldNotReceive('core');
 
-        $filter = (new ClutFilter)->setParams(['filt' => 'greyscale']);
+        $filter = (new ImageFilter)->setParams(['filt' => 'greyscale']);
 
         $this->assertSame($image, $filter->run($image));
     }
@@ -51,30 +51,30 @@ class ClutFilterTest extends TestCase
         $image = Mockery::mock(ImageInterface::class);
         $image->shouldNotReceive('core');
 
-        $filter = (new ClutFilter)->setParams(['filt' => 'nordic']);
+        $filter = (new ImageFilter)->setParams(['filt' => 'nordic']);
 
         $this->assertSame($image, $filter->run($image));
     }
 
     public function test_intensity_uses_the_configured_locked_value(): void
     {
-        $this->assertSame(80, (new ClutFilter)->resolveIntensity(80));
+        $this->assertSame(80, (new ImageFilter)->resolveIntensity(80));
     }
 
     public function test_intensity_is_clamped_to_0_100(): void
     {
-        $this->assertSame(100, (new ClutFilter)->resolveIntensity(150));
-        $this->assertSame(0, (new ClutFilter)->resolveIntensity(-5));
+        $this->assertSame(100, (new ImageFilter)->resolveIntensity(150));
+        $this->assertSame(0, (new ImageFilter)->resolveIntensity(-5));
     }
 
     public function test_intensity_param_override_is_honoured_only_in_debug(): void
     {
         config()->set('app.debug', true);
-        $debug = (new ClutFilter)->setParams(['filt' => 'nordic', 'intensity' => '30']);
+        $debug = (new ImageFilter)->setParams(['filt' => 'nordic', 'intensity' => '30']);
         $this->assertSame(30, $debug->resolveIntensity(100));
 
         config()->set('app.debug', false);
-        $prod = (new ClutFilter)->setParams(['filt' => 'nordic', 'intensity' => '30']);
+        $prod = (new ImageFilter)->setParams(['filt' => 'nordic', 'intensity' => '30']);
         $this->assertSame(100, $prod->resolveIntensity(100), 'Param override must be ignored in production.');
     }
 

@@ -7,7 +7,7 @@ use Intervention\Image\Interfaces\ImageInterface;
 use League\Glide\Manipulators\BaseManipulator;
 
 /**
- * ClutFilter — a config-driven Glide manipulator that applies a named brand
+ * ImageFilter — a config-driven Glide manipulator that applies a named brand
  * colour grade via a HALD CLUT, using Imagick's native haldClutImage().
  *
  * Filters are registered in config/image_filters.php; each maps a name to a
@@ -29,7 +29,7 @@ use League\Glide\Manipulators\BaseManipulator;
  *  (e.g. greyscale/sepia handled by Glide's built-in Filter) pass straight
  *  through, so the two coexist without any param allow-listing.
  */
-class ClutFilter extends BaseManipulator
+class ImageFilter extends BaseManipulator
 {
     /**
      * Param keys this manipulator consumes.
@@ -59,13 +59,13 @@ class ClutFilter extends BaseManipulator
         }
 
         if (! extension_loaded('imagick')) {
-            logger()->warning("ClutFilter [{$name}] skipped: Imagick extension not available.");
+            logger()->warning("ImageFilter [{$name}] skipped: Imagick extension not available.");
 
             return $image;
         }
 
         if (! is_file($filter['lut_path'])) {
-            logger()->warning("ClutFilter [{$name}] skipped: LUT missing at {$filter['lut_path']}");
+            logger()->warning("ImageFilter [{$name}] skipped: LUT missing at {$filter['lut_path']}");
 
             return $image;
         }
@@ -73,7 +73,7 @@ class ClutFilter extends BaseManipulator
         $native = $image->core()->native();
 
         if (! $native instanceof Imagick) {
-            logger()->warning("ClutFilter [{$name}] skipped: not running the Imagick driver.");
+            logger()->warning("ImageFilter [{$name}] skipped: not running the Imagick driver.");
 
             return $image;
         }
@@ -121,7 +121,7 @@ class ClutFilter extends BaseManipulator
      * Apply a HALD CLUT to a native Imagick instance, in place.
      *
      * Extracted from run() so it can be exercised outside Glide (see the
-     * clut:proof command). At full strength the CLUT is applied directly; below
+     * image-filter:proof command). At full strength the CLUT is applied directly; below
      * that, the graded clone is composited over the original at the requested
      * opacity so shadows/highlights are preserved.
      */
