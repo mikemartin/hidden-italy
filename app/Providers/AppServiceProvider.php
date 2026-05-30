@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Imaging\NordicFilter;
 use App\Policies\CustomUserPolicy;
 use App\Tags\Picture;
 use Illuminate\Cache\RateLimiting\Limit;
@@ -10,6 +11,7 @@ use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use JackSleight\StatamicBardMutator\Facades\Mutator;
+use League\Glide\Server;
 use Livewire\Livewire;
 use Statamic\Facades\Form;
 use Statamic\Facades\Icon;
@@ -33,6 +35,34 @@ class AppServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->app->bind(UserPolicy::class, CustomUserPolicy::class);
+
+        $this->registerNordicGlideManipulator();
+    }
+
+    /**
+     * Append the Nordic HALD CLUT manipulator to Statamic's Glide server.
+     *
+     * Statamic binds League\Glide\Server as a singleton (built via
+     * Glide::server()). We extend that binding and push our manipulator onto
+     * the API's existing list — the same get-api / setManipulators / set-api
+     * dance Statamic itself uses to swap the watermark manipulator. Appending
+     * last means the grade is applied after sizing/cropping, and Glide's
+     * built-in Filter (which no-ops on filt=nordic) still runs harmlessly
+     * before it.
+     */
+    private function registerNordicGlideManipulator(): void
+    {
+        $this->app->extend(Server::class, function (Server $server) {
+            $api = $server->getApi();
+
+            $api->setManipulators(
+                collect($api->getManipulators())->push(new NordicFilter)->all()
+            );
+
+            $server->setApi($api);
+
+            return $server;
+        });
     }
 
     /**
