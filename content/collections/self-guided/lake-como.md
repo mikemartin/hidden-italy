@@ -7,7 +7,7 @@ name: 'Lake Como'
 region: Lombardy
 days: 7
 updated_by: 4
-updated_at: 1780355000
+updated_at: 1780355319
 grade: 3
 inclusions:
   - 'Private transfer from Como on Day 1'
@@ -291,9 +291,7 @@ page_builder:
     id: Z4Eo1v9GS-MOK7Yj_nhsF
     heading: 'What our travellers are saying'
     testimonials:
-      - abed777c-bcf3-4f03-a324-027c876335ee
-      - d8789430-b786-4f4f-a392-12794da0f312
-      - 86d468b5-96c6-4c66-8f1a-6a24245ddc41
+      - 4657e340-53bf-4111-b64e-ae6016e83e16
     type: testimonials
     enabled: true
     section_background: none
