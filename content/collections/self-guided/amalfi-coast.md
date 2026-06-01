@@ -1,12 +1,12 @@
 ---
 id: fe7d8f05-4262-4ff2-9fa6-af18f7825ec2
 blueprint: tour
-title: 'Campania - The Amalfi Coast'
-name: 'The Amalfi Coast'
-region: Campania
+title: 'Lombardy - Lake Como'
+name: 'Lake Como'
+region: Lombardy
 days: 6
-updated_by: 3
-updated_at: 1780027721
+updated_by: 4
+updated_at: 1780284004
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
@@ -332,35 +332,34 @@ gallery:
   - self-guided/the-amalfi-coast/img_4424.jpeg
   - self-guided/the-amalfi-coast/positano-pan-1.jpg
   - self-guided/the-amalfi-coast/a.jpg
-image: self-guided/the-amalfi-coast/a.jpg
+image: self-guided/the-amalfi-coast/varenna-from-castle_hrc.jpg
 start_location:
-  label: 'Ravello, Campania, Italy'
-  lat: '40.663289'
-  lon: '14.6125597'
-  locality: Ravello
+  label: 'Como, Lombardy, Italy'
+  lat: '45.8115623'
+  lon: '9.0830353'
+  postalCode: '22100'
+  locality: Como
   adminLevels:
     1:
-      name: Campania
+      name: Lombardy
       code: null
       level: 1
     2:
-      name: Salerno
+      name: Como
       code: null
       level: 2
   country: Italy
 finish_location:
-  label: 'Positano, Campania, Italy'
-  lat: '40.6286581'
-  lon: '14.4854955'
-  postalCode: '84017'
-  locality: Positano
+  label: 'Lombardy, Italy'
+  lat: '45.9917589'
+  lon: '9.264881'
   adminLevels:
     1:
-      name: Campania
+      name: Lombardy
       code: null
       level: 1
     2:
-      name: Salerno
+      name: Como
       code: null
       level: 2
   country: Italy
@@ -368,7 +367,7 @@ headline: '6 days on the Amalfi Coast'
 now_open: false
 seasons:
   - spring
-teaser: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
+teaser: 'The most romantic of the Italian lakes with an extensive network of ancient paths'
 summary:
   -
     type: paragraph
