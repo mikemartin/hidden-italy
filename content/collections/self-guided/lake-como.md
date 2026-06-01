@@ -7,7 +7,7 @@ name: 'Lake Como'
 region: Lombardy
 days: 7
 updated_by: 4
-updated_at: 1780354966
+updated_at: 1780355000
 grade: 3
 inclusions:
   - 'Private transfer from Como on Day 1'
@@ -366,7 +366,7 @@ summary:
       -
         type: text
         text: 'This 7-day/6-night tour of Lake Como, one of the most romantic of the Italian lakes, has excellent hotels and an extensive network of ancient paths, the perfect place for a Hidden Italy walk! Lake Como is the most sophisticated and interesting of the Italian lakes, it is also the most beautiful. '
-price: 'A$3,250'
+price: 'A$3,580'
 show_from: true
 og_image: campania-the-amalfi-coast-og-1779335281.png
 seo_noindex: inherit
