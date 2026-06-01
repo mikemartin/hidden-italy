@@ -7,7 +7,7 @@ name: 'Lake Como'
 region: Lombardy
 days: 7
 updated_by: 4
-updated_at: 1780352196
+updated_at: 1780352283
 grade: 3
 inclusions:
   - 'Private transfer from Como on Day 1'
@@ -63,12 +63,12 @@ page_builder:
       -
         id: mloog7vk
         title: 'Stay in fabulous accommodation'
-        summary: 'Stay in in excellent hotels, in rooms with views over the lake!'
+        summary: 'Stay in in excellent family-run, romantic hotels, with views over the lake!'
         icon: ski-alpine-hotel.svg
       -
         id: mlooou12
         title: 'Relish the wonderful food'
-        summary: 'Savour the flavours of the region and enjoy the deliciousness of fresh lake fish and alpine cheeses.'
+        summary: 'Savour the flavours of the region with the deliciousness of fresh lake fish and alpine cheeses.'
         icon: nature-fish.svg
       -
         id: mlooun08
