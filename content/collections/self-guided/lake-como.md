@@ -7,12 +7,12 @@ name: 'Lake Como'
 region: Lombardy
 days: 7
 updated_by: 4
-updated_at: 1780284043
+updated_at: 1780295961
 grade: 3
 inclusions:
-  - 'Private transfer from Naples to Ravello on Day 1'
-  - 'Private transfer from Positano to Naples on Day 6'
-  - 'Five nights accommodation'
+  - 'Private transfer from Como on Day 1'
+  - 'Private transfer from back to Como on Day 7'
+  - 'Six nights accommodation'
   - 'All breakfasts included'
   - 'Reading lists and historical and cultural notes'
   - 'The Hidden Italy booklet with maps and detailed walking instructions'
@@ -27,25 +27,25 @@ landscapes:
 page_builder:
   -
     id: amlfiovrvw01
-    title: 'The most spectacular coast on the Mediterranean'
+    title: 'Breath-taking views over Lake Como'
     column_left:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "The Amalfi Coast is surely one of the most spectacular parts of the Mediterranean, with steep mountains rising almost 1500 metres above the limpid aquamarine sea and whitewashed villages that seem to have tumbled down the slopes to the water's edge. It is an area of vibrant colours, lush vegetation and warm, boisterous people. And then there is the food (the finest in the south?)!"
+            text: "You'll spend the first four days the tour based in a delightful little town on the shores of the lake, with views up towards Switzerland. From here you'll take a ferry ride to spend two nights in Bellagio, the jewel of Lake Como and considered the most beautiful town in Italy. Each walk reveals a different side of this fascinating area's history and traditions: a beautiful lake side route that follows a stone medieval trading path through forests and villages above"
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "This is a tour of two worlds: the winding trails take you high above the coast during the day, following stone paths that have been used for centuries, passing through shaded forests, remote farming communities and ancient terraces and not meeting anyone along the way. And then there are the buzzy, picturesque villages on the coast, where you'll spend each night staying in charming, family-run hotels and eating in excellent restaurants and trattorias!"
+            text: "the eastern shore; a loop walk that follows an old smugglers' routes above the western side of the lake\_ up through oak forests to open farmlands with breath-taking views into Switzerland; an interesting walk through the villages that surround Bellagio; and, as a grande finale, an extraordinary walk in the mountains above Bellagio with endless views across the lake and surrounding mountains."
     images:
-      - self-guided/the-amalfi-coast/img_2216.jpg
-      - self-guided/the-amalfi-coast/positano-pan-1.jpg
-      - self-guided/the-amalfi-coast/a.jpg
+      - self-guided/the-amalfi-coast/menaggio-1.jpg
+      - self-guided/the-amalfi-coast/menaggio-17.jpg
+      - self-guided/the-amalfi-coast/43.3.jpg
     type: overview
     enabled: true
     section_background: dark
@@ -53,12 +53,12 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloocwbk
-    heading: 'Highlights of the Amalfi Coast tour'
+    heading: 'Highlights of the Lake Como tour'
     activities:
       -
         id: mlooee34
         title: "Walk the entire length of the 'Costiera'"
-        summary: 'Walk the entire length of the Amalfi Coast (no buses!) following ancient trails with breath-taking views all the way!'
+        summary: 'Walk th'
         icon: trekking-trekking.svg
       -
         id: mloog7vk
@@ -68,17 +68,17 @@ page_builder:
       -
         id: mlooou12
         title: 'Relish the wonderful food'
-        summary: 'Enjoy surprisingly simple specialities: vegetables grown in volcanic soil, fresh seafood, mozzarella, pasta and pizza!'
+        summary: 'Enjoy surprisingly s'
         icon: culture-pizza.svg
       -
         id: mlooun08
         title: 'Be astonished by the views'
-        summary: 'Sheer cliffs drop to rugged shoreline dotted with beaches, fishing villages, vineyards and lemon grove: simply stunning!'
+        summary: 'Sheer cliffs drop to rugged shorelin'
         icon: nature-beach.svg
       -
         id: Y_o0Zoe7gdIqFYluomJOV
         title: 'Go for a swim'
-        summary: 'There are plenty of chances to plunge into the blue waters of the Mediterranean or simply relax poolside at your hotel.'
+        summary: 'There are plenty of chances to plunge'
         icon: water-sports-swimming.svg
       -
         id: mmbinilb
@@ -321,19 +321,19 @@ page_builder:
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 gallery:
-  - self-guided/the-amalfi-coast/1.jpg
-  - self-guided/the-amalfi-coast/amalfi.jpg
-  - self-guided/the-amalfi-coast/img_2481.jpeg
-  - self-guided/the-amalfi-coast/b.jpg
-  - self-guided/the-amalfi-coast/img_2216.jpg
-  - self-guided/the-amalfi-coast/img_4350.jpeg
-  - self-guided/the-amalfi-coast/img_4282.jpeg
-  - self-guided/the-amalfi-coast/santa-maria.jpg
-  - self-guided/the-amalfi-coast/view-to-positano.jpg
-  - self-guided/the-amalfi-coast/img_4424.jpeg
-  - self-guided/the-amalfi-coast/positano-pan-1.jpg
-  - self-guided/the-amalfi-coast/a.jpg
-image: self-guided/the-amalfi-coast/varenna-from-castle_hrc.jpg
+  - self-guided/the-amalfi-coast/116.jpg
+  - self-guided/the-amalfi-coast/115.4.jpg
+  - self-guided/the-amalfi-coast/28.6.jpg
+  - self-guided/the-amalfi-coast/28.3.jpg
+  - self-guided/the-amalfi-coast/varenna-from-castle_hrc.jpg
+  - self-guided/the-amalfi-coast/varenna-3.jpg
+  - self-guided/the-amalfi-coast/321.jpg
+  - self-guided/the-amalfi-coast/varenna-2.jpg
+  - self-guided/the-amalfi-coast/dervio-8.jpg
+  - self-guided/the-amalfi-coast/menaggio-17.jpg
+  - self-guided/the-amalfi-coast/32-a.jpg
+  - self-guided/the-amalfi-coast/menaggio-18.jpg
+image: self-guided/the-amalfi-coast/menaggio-17.jpg
 start_location:
   label: 'Como, Lombardy, Italy'
   lat: '45.8115623'
@@ -351,9 +351,11 @@ start_location:
       level: 2
   country: Italy
 finish_location:
-  label: 'Lombardy, Italy'
-  lat: '45.9917589'
-  lon: '9.264881'
+  label: 'Bellagio, Lombardy, Italy'
+  lat: '45.9872549'
+  lon: '9.2613001'
+  postalCode: '22021'
+  locality: Bellagio
   adminLevels:
     1:
       name: Lombardy
@@ -364,10 +366,18 @@ finish_location:
       code: null
       level: 2
   country: Italy
+headline: 'Explore the sophistication of Lake Como'
 now_open: false
 seasons:
   - spring
 teaser: 'The most romantic of the Italian lakes with an extensive network of ancient paths'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'This 7-day/6-night tour of Lake Como on of the most romantic of the Italian lakes has excellent hotels and extensive network of ancient paths, the perfect place for a Hidden Italy walk! Lake Como is the most sophisticated and interesting of the Italian lakes, it is also the most beautiful. '
 price: 'A$3,250'
 show_from: true
 og_image: campania-the-amalfi-coast-og-1779335281.png
