@@ -7,7 +7,7 @@ name: 'Lake Como'
 region: Lombardy
 days: 7
 updated_by: 4
-updated_at: 1780295961
+updated_at: 1780296294
 grade: 3
 inclusions:
   - 'Private transfer from Como on Day 1'
@@ -57,19 +57,19 @@ page_builder:
     activities:
       -
         id: mlooee34
-        title: "Walk the entire length of the 'Costiera'"
-        summary: 'Walk th'
+        title: 'Walk around Monte San Primo'
+        summary: 'The ‘grand finale’ of the tour is the walk around Monte San Primo on the last day, with breath-taking views over the whole lake'
         icon: trekking-trekking.svg
       -
         id: mloog7vk
         title: 'Stay in fabulous accommodation'
-        summary: 'Stay in the best available accommodation in each town, always welcoming, always central and usually with sea views!'
+        summary: 'Stay in in excellent hotels, in rooms with views over the lake!'
         icon: ski-alpine-hotel.svg
       -
         id: mlooou12
         title: 'Relish the wonderful food'
-        summary: 'Enjoy surprisingly s'
-        icon: culture-pizza.svg
+        summary: 'Enjoy fresh lake fish, Alpine cheeses from the cattle and goat herds in the mountains, making the most of local ingredients'
+        icon: nature-fish.svg
       -
         id: mlooun08
         title: 'Be astonished by the views'
