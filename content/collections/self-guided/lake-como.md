@@ -7,7 +7,7 @@ name: 'Lake Como'
 region: Lombardy
 days: 7
 updated_by: 4
-updated_at: 1780284029
+updated_at: 1780284043
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
@@ -364,19 +364,10 @@ finish_location:
       code: null
       level: 2
   country: Italy
-headline: '6 days on the Amalfi Coast'
 now_open: false
 seasons:
   - spring
 teaser: 'The most romantic of the Italian lakes with an extensive network of ancient paths'
-summary:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "This fabulous 6-day/5-night continuous walk along the length of the breathtaking Amalfi Coast starts with a private transfer from Naples to Ravello and then finishes with a private transfer from Positano back to Naples at the end. In between you get to experience the 'costiera' in all its colour and glory."
-availability_text: 'Standard (3 star hotels) and Superior (4 star hotels) options'
 price: 'A$3,250'
 show_from: true
 og_image: campania-the-amalfi-coast-og-1779335281.png
