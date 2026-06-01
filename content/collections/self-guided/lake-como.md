@@ -7,7 +7,7 @@ name: 'Lake Como'
 region: Lombardy
 days: 7
 updated_by: 4
-updated_at: 1780349932
+updated_at: 1780352196
 grade: 3
 inclusions:
   - 'Private transfer from Como on Day 1'
@@ -58,7 +58,7 @@ page_builder:
       -
         id: mlooee34
         title: 'Walk around Monte San Primo'
-        summary: 'The ‘grand finale’ of the tour is the walk around Monte San Primo on the last day, with breath-taking views over the whole lake'
+        summary: 'The ‘grand finale’ of the tour is the walk around Monte San Primo, with breath-taking views over the whole lake.'
         icon: trekking-trekking.svg
       -
         id: mloog7vk
@@ -68,7 +68,7 @@ page_builder:
       -
         id: mlooou12
         title: 'Relish the wonderful food'
-        summary: 'Enjoy fresh lake fish, Alpine cheeses from the cattle and goat herds in the mountains, making the most of local ingredients'
+        summary: 'Savour the flavours of the region and enjoy the deliciousness of fresh lake fish and alpine cheeses.'
         icon: nature-fish.svg
       -
         id: mlooun08
@@ -321,18 +321,18 @@ page_builder:
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 gallery:
-  - self-guided/the-amalfi-coast/116.jpg
-  - self-guided/the-amalfi-coast/115.4.jpg
-  - self-guided/the-amalfi-coast/28.6.jpg
-  - self-guided/the-amalfi-coast/28.3.jpg
   - self-guided/the-amalfi-coast/varenna-from-castle_hrc.jpg
-  - self-guided/the-amalfi-coast/varenna-3.jpg
+  - self-guided/the-amalfi-coast/28.3.jpg
+  - self-guided/the-amalfi-coast/28.6.jpg
+  - self-guided/the-amalfi-coast/116.jpg
   - self-guided/the-amalfi-coast/321.jpg
+  - self-guided/the-amalfi-coast/115.4.jpg
+  - self-guided/the-amalfi-coast/varenna-3.jpg
   - self-guided/the-amalfi-coast/varenna-2.jpg
   - self-guided/the-amalfi-coast/dervio-8.jpg
-  - self-guided/the-amalfi-coast/menaggio-17.jpg
   - self-guided/the-amalfi-coast/32-a.jpg
   - self-guided/the-amalfi-coast/menaggio-18.jpg
+  - self-guided/the-amalfi-coast/17-v2.jpg
 image: self-guided/the-amalfi-coast/menaggio-17.jpg
 start_location:
   label: 'Como, Lombardy, Italy'
@@ -377,7 +377,7 @@ summary:
     content:
       -
         type: text
-        text: 'This 7-day/6-night tour of Lake Como on of the most romantic of the Italian lakes has excellent hotels and extensive network of ancient paths, the perfect place for a Hidden Italy walk! Lake Como is the most sophisticated and interesting of the Italian lakes, it is also the most beautiful. '
+        text: 'This 7-day/6-night tour of Lake Como, one of the most romantic of the Italian lakes, has excellent hotels and an extensive network of ancient paths, the perfect place for a Hidden Italy walk! Lake Como is the most sophisticated and interesting of the Italian lakes, it is also the most beautiful. '
 price: 'A$3,250'
 show_from: true
 og_image: campania-the-amalfi-coast-og-1779335281.png
