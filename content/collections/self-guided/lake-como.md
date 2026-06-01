@@ -7,7 +7,7 @@ name: 'Lake Como'
 region: Lombardy
 days: 7
 updated_by: 4
-updated_at: 1780352283
+updated_at: 1780354966
 grade: 3
 inclusions:
   - 'Private transfer from Como on Day 1'
@@ -72,14 +72,14 @@ page_builder:
         icon: nature-fish.svg
       -
         id: mlooun08
-        title: 'Be astonished by the views'
-        summary: 'Sheer cliffs drop to rugged shorelin'
-        icon: nature-beach.svg
+        title: 'Visit stunning villas'
+        summary: 'Explore some of the most celebrated villas are in the central lake with enchanting terraced gardens.'
+        icon: medieval-castle-wall.svg
       -
         id: Y_o0Zoe7gdIqFYluomJOV
-        title: 'Go for a swim'
-        summary: 'There are plenty of chances to plunge'
-        icon: water-sports-swimming.svg
+        title: 'Cruise the lake'
+        summary: 'Discover the magic of Lake Como from the water, with views of charming villages, elegant villas, and stunning mountains.'
+        icon: transport-sailboat.svg
       -
         id: mmbinilb
         title: 'Pull on your boots, we’ll handle the rest'
@@ -92,61 +92,49 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloox88g
-    title: 'The Amalfi Coast tour itinerary'
+    title: 'Lake Como itinerary'
     summary: 'The magnificent, six-day Amalfi Coast walking tour takes you the length of the coast (with no buses or shuttles), starting at the romantic town of Ravello and finishing at the spectacular seaside town of Positano, with views over the sparkling Mediterranean Sea all the way - a unique experience!'
     days:
       -
         id: mlooymbz
-        title: 'Arrive in Ravello'
-        description: 'You are picked up by a private vehicle at a time and place that suits you and driven from Naples to Ravello, a beautiful village perched 350 metres above the port of Amalfi, celebrated for Wagner, its gardens and superb views over the Gulf of Salerno.'
-        photo: self-guided/the-amalfi-coast/1.jpg
+        title: 'Arrive in Como'
+        description: 'You will met in Como and driven to your lakeside accommodation with a private transfer.  After checking in, the rest of the day will be free for you to explore.'
+        photo: self-guided/the-amalfi-coast/varenna-from-castle_hrc.jpg
       -
         id: mloozlek
-        title: 'Walk the Valle delle Ferriere'
-        description: 'Today you have two options.  The first winds down stone paths to the coast and then wraps around to the town of Amalfi, leaving plenty of time to explore this fascinating town that once ruled the Mediterranean Sea. The second option is a more challenging, longer walk into the extraordinary Valle delle Ferriere, which wraps through a national park, passing towering cliffs, chestnut forests, and waterfalls, with breathtaking views over the coast. (4hrs; 13.5km; max: 610m)'
-        duration: 2.0
-        distance: 3.0
-        elevation: -361
+        title: TBA
+        description: "Today's walk is a circuit walk up into the mountains on the eastern side of the lake. This spectacular walk starts and finishes in Menaggio. It follows old smugglers paths, taking you up past villas and into oak forests that open on to orchards and farmlands filled with grazing cows with bells, offering breath-taking views across into Switzerland and Lake Lugano. You take another ancient cobbled path back down to the lake where you started from."
+        duration: 4.0
+        distance: 12.0
+        elevation: 389
         meals_included:
           - breakfast
-        photo: self-guided/the-amalfi-coast/amalfi.jpg
+        photo: self-guided/the-amalfi-coast/menaggio-17.jpg
       -
         id: mlop159i
-        title: 'Walk above the coast'
-        description: "Today's walk follows an ancient path that has linked the villages between for centuries, passing an ancient monastery before dropping down to a little hamlet sitting above the sea, where you'll stay the night. B elow your hotel is a beautiful hidden port, with coloured fishing boats, a small shingle beach and a very pleasant bar. In the afternoon, you will also have time to visit the famous nearby Grotta Smeralda."
-        duration: 2.0
-        distance: 5.5
-        elevation: 261
+        title: TBA
+        description: Tod
+        duration: 4.0
+        distance: 10.0
+        elevation: 213
         meals_included:
           - breakfast
-        photo: self-guided/the-amalfi-coast/img_4282.jpeg
       -
         id: mlop3c5r
-        title: 'Climbing high'
-        description: 'Today you have a choice of two trails.  The first, more demanding trail, starts with a steep climb through hamlets to a busy village.  It then contours around the mountains before entering a green valley and descending to your accommodation, a lovely family-run hotel with views across the gulf to Positano.  The second, less demanding, trail follows a lower route along a path above the sea which has spectacular views.  After crossing a fjord, you climb up to your accommodation.  (3 hrs; 7 kms)'
-        duration: 4.0
-        distance: 10.5
-        elevation: 570
+        title: Cli
+        description: 'Today you'
         meals_included:
           - breakfast
-        photo: self-guided/the-amalfi-coast/b.jpg
       -
         id: mlop5205
-        title: 'Walk the Path of the Gods'
-        description: 'It is not by chance that the locals have baptised this walk with the rather extravagant name of Via degli Dei, the Path of the God’s.  Despite the tourist hyperbole that has made this one of the most famous walks in the area, the views and the hike are extraordinary.  It is a big climb up to the start of the path but it is worth it, and from there it is all down hill to arrive in magical Positano!'
-        duration: 4.0
-        distance: 11.0
-        elevation: 517
+        title: Walk
+        description: 'It is not by'
         meals_included:
           - breakfast
-        photo: self-guided/the-amalfi-coast/view-to-positano.jpg
       -
         id: mlop6avf
-        title: 'Transfer to Naples'
-        description: 'After breakfast in your hotel, at a time that suits you, you will be taken by private vehicle back to the Naples, an hour or so north.'
         meals_included:
           - breakfast
-        photo: self-guided/the-amalfi-coast/a.jpg
     type: itinerary
     enabled: true
     section_background: none
