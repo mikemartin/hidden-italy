@@ -7,7 +7,7 @@ name: 'Lake Como'
 region: Lombardy
 days: 7
 updated_by: 4
-updated_at: 1780296294
+updated_at: 1780349932
 grade: 3
 inclusions:
   - 'Private transfer from Como on Day 1'
