@@ -1,12 +1,13 @@
 ---
 id: fe7d8f05-4262-4ff2-9fa6-af18f7825ec2
+published: false
 blueprint: tour
 title: 'Lombardy - Lake Como'
 name: 'Lake Como'
 region: Lombardy
-days: 6
+days: 7
 updated_by: 4
-updated_at: 1780284004
+updated_at: 1780284029
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
