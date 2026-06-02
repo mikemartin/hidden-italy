@@ -341,6 +341,24 @@ page_builder:
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
+      -
+        id: gauscQrhQuNgmaApeIL53
+        heading: 'General section'
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum.'
+        link_text: Link
+        link_url: 'https://google.com'
+        type: general
+        enabled: true
+      -
+        id: 9CDND1cWm2-ziXlx-p0ki
+        type: booking_cancellation
+        enabled: true
     type: essentials
     enabled: true
     section_background: none
@@ -374,8 +392,8 @@ page_builder:
     hide_from_subnav: true
 seasons: summer
 locations: northern-italy
-updated_by: 3
-updated_at: 1780028441
+updated_by: 1
+updated_at: 1780378241
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg
