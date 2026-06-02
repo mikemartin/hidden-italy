@@ -6,7 +6,7 @@ name: 'Tuscany 1'
 region: Tuscany
 days: 6
 updated_by: 4
-updated_at: 1780366988
+updated_at: 1780367452
 grade: 2
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
@@ -92,7 +92,7 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloox88g
-    title: 'Tiuscany 1 itinerary'
+    title: 'Tuscany 1 itinerary'
     summary: 'Starting with a private transfer to the charming medieval town of Montalcino, this walk tour crosses the Orcia River Valley in southern Tuscany, passing through some of the most beautiful country in central Italy.'
     days:
       -
@@ -114,8 +114,8 @@ page_builder:
         id: mlop159i
         title: 'Walk through vineyards'
         description: 'Today you climb up through vineyards and olive groves, to a beautifully restored medieval pilgrim town, a key point on the road to Rome, which is now a peaceful agricultural town and one of the most charming in the area. Despite its pedestrian centre, two beautiful Romansque churches and several beautiful gardens, which still remains relatively unvisited.'
-        duration: 4.0
-        distance: 14.0
+        duration: 3.5
+        distance: 13.5
         elevation: 453
         meals_included:
           - breakfast
@@ -123,9 +123,9 @@ page_builder:
       -
         id: mlop3c5r
         title: 'Walk a Renaissance gem'
-        description: "Today you follow parts of the medieval road down into the bare, rolling hills of the Val d'Orcia, with sweeping views across the valley to the forests and peaks of Mount Amiata before a short climb up to your base for the evening.  This enchanting little town was the birth place of one of the more important 15th century popes, who  had the modest village razed and then rebuilt in his honour, creating one of the gems of southern Tuscany, a fine example early Renaissance architecture."
+        description: "Today you follow parts of the medieval road down into the bare, rolling hills of the Val d'Orcia, with sweeping views across the valley to the forests and peaks of Mount Amiata before a short climb up to your base for the evening. This enchanting little town was the birth place of one of the more important 15th century popes, who had the modest village razed and then rebuilt in his honour, creating one of the gems of southern Tuscany, a fine example early Renaissance architecture."
         duration: 3.0
-        distance: 10.0
+        distance: 9.0
         elevation: 214
         meals_included:
           - breakfast
@@ -135,7 +135,7 @@ page_builder:
         title: 'Walk to Montepulciano'
         description: 'The last walk takes you through forests to Montepulciano. On the way you pass a tiny fortified village, perfect for lunch. Perched on a hill between the Orcia and Chianina valleys, Montepulciano was an ally of Florence in their relentless war against Siena, and was amply rewarded and has an extraordinary architectural heritage from this period.  (4 hrs; 13.5 kms; min: 331 mts, max: 539 mts).'
         duration: 4.0
-        distance: 14.0
+        distance: 13.0
         elevation: 208
         meals_included:
           - breakfast
@@ -160,14 +160,14 @@ page_builder:
         title: 'Exceptional walkings'
         total_distance: 50.0
         total_elevation: 1203
-        grade: 0
+        grade: 1
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: "The walks are from 10 to 12 kilometres and take between 3 to 4 hours. They are well marked and generally follow good, unsealed country roads through undulating hills. There are several rougher sections but the trails are easy to follow. The walk is suitable throughout the year.\_ Full details on each walk are on the itinerary.\_ "
+                text: "The walks are from 10 to 12 kilometres and take between 3 to 4 hours. They are well marked and generally follow good, unsealed country roads through undulating hills. There are several rougher sections but the trails are easy to follow. The walk is suitable throughout the year.\_Full details on each walk are on the itinerary.\_"
               -
                 type: text
                 marks:
@@ -186,7 +186,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Hidden Italy uses the best accommodation available.\_ On this tour all the accommodation is in\_ family-run, three star hotels which are based in centrally located, restored heritage buildings which themselves are part of the the local history.\_ The exception is\_Day 2 when you'll stay in a private serviced apartment in the centre of a tiny\_medieval village (there are no hotels here)."
+                text: "Hidden Italy uses the best accommodation available.\_On this tour all the accommodation is in family-run, three star hotels which are based in centrally located, restored heritage buildings which themselves are part of the the local history. The exception is\_Day 2 when you'll stay in a private serviced apartment in the centre of a tiny\_medieval village (there are no hotels here)."
         media:
           - self-guided/tuscany-1/hotel-view-montalcino.jpg
         type: accommodation
@@ -200,7 +200,16 @@ page_builder:
             content:
               -
                 type: text
-                text: "The traditional dishes of Tuscany are Italy's most influential cuisine.\_ The ingredients and techniques of the region have made their mark not just on the menus of the rest of Italy but also abroad, even in France.\_ The produce is of the highest quality, with its mushrooms, truffles and prosciutto especially prized.\_ Wine has always been central to Tuscany's economy and way of life, familiar names like Chianti and Brunello are just a portion of their enormous output."
+                text: "The traditional dishes of Tuscany are Italy's most influential cuisine.\_The ingredients and techniques of the region have made their mark not just on the menus of the rest of Italy but also abroad, even in France.\_The produce is of the highest quality, with its mushrooms, truffles and prosciutto especially prized.\_Wine has always been central to Tuscany's economy and way of life, familiar names like Chianti and Brunello are just a portion of their enormous output."
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: "Generous breakfasts are included each day.\_Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_You will be able to make reservations where applicable directly through the Hidden Italy App."
         type: food
         enabled: true
         media:
