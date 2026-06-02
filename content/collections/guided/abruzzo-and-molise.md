@@ -5,8 +5,8 @@ title: 'Abruzzo and Molise - Abruzzo and Molise'
 name: 'Abruzzo and Molise'
 region: 'Abruzzo and Molise'
 days: 13
-updated_by: 3
-updated_at: 1780027301
+updated_by: 1
+updated_at: 1780382250
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
