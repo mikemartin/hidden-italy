@@ -6,7 +6,7 @@ name: 'Sicily 1: the Madonie Mountains'
 region: Sicily
 days: 7
 updated_by: 4
-updated_at: 1780359324
+updated_at: 1780359412
 grade: 3
 inclusions:
   - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
@@ -184,7 +184,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "This is a continuous walk.\_ The walks range from 3 to 4 hours, covering between 12 to 15 kilometres.\_ They generally follow unsealed country lanes passing through rolling farmlands.\_ There are also some short sections following smaller trails with uneven footing. \_The trails are unmarked but are straight-forward to follow - there is always a farmhouse in sight.\_ Full details on each walk are on the itinerary.  The self-guided itineraries are re-walked and the notes updated each year."
+                text: "This is a continuous walk.\_The walks range from 3 to 4 hours, covering between 12 to 15 kilometres.\_They generally follow unsealed country lanes passing through rolling farmlands. There are also some short sections following smaller trails with uneven footing.\_The trails are unmarked but are straight-forward to follow - there is always a farmhouse in sight.\_Full details on each walk are on the itinerary. The self-guided itineraries are re-walked and the notes updated each year."
         image: self-guided/sicily-1-the-madonie-mountains/img_6633.jpeg
         type: walk
         enabled: true
@@ -211,7 +211,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Sicilian food is completely hybrid, reflecting the island's extraordinary history.\_ From Greece came the the traditional country dishes around Syracuse and Ragusa; the Arabs introduced sweet and sour; the Spanish a Baroque taste for excess; the French introduced the onion, while Swiss chef influenced the their dessterts with cream and stuffing."
+                text: "Sicilian food is completely hybrid, reflecting the island's extraordinary history.\_From Greece came the the traditional country dishes around Syracuse and Ragusa; the Arabs introduced sweet and sour; the Spanish a Baroque taste for excess; the French introduced the onion, while Swiss chef influenced the their desserts with cream and stuffing."
           -
             type: paragraph
             content:
@@ -226,7 +226,7 @@ page_builder:
                 marks:
                   -
                     type: italic
-                text: "Generous breakfasts are included each day.\_ Given the relative 'isolation' of the small villages and 'agriturismo' you stay on during this wonderful walk, we have included the dinners as well on this tour."
+                text: "Generous breakfasts are included each day. Given the relative 'isolation' of the small villages and 'agriturismo' you stay on during this wonderful walk, we have included the dinners as well on this tour."
         type: food
         enabled: true
         media:
