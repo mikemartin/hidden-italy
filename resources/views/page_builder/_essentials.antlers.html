@@ -21,19 +21,8 @@
         </header>
 
         <div class="span-content flex flex-col" x-data x-reveal data-reveal-stagger="80">
-            {{ block:sections }}
-                {{# Resolve the row label from the set type — `general` uses its own heading field. #}}
-                {{ if type == 'equipment' }}{{ row_heading = trans:strings.equipment_needed ?? 'Equipment needed' }}{{ /if }}
-                {{ if type == 'travel_insurance' }}{{ row_heading = trans:strings.travel_insurance ?? 'Travel insurance conditions' }}{{ /if }}
-                {{ if type == 'booking_cancellation' }}{{ row_heading = trans:strings.booking_cancellation ?? 'Booking and cancellation conditions' }}{{ /if }}
-                {{ if type == 'general' }}{{ row_heading = heading }}{{ /if }}
-
+            {{ block:sections }}            
                 <div data-reveal-item class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-12 py-8 md:py-10 first:pt-0 last:pb-0 border-t border-parchment-200 first:border-t-0">
-                    {{ if row_heading }}
-                        {{# Heading column lays the icon tile beside the heading,
-                            top-aligned so the icon sits flush with the first
-                            line of the type even when the heading wraps.
-                            Icon glyph is conditioned on the set type. #}}
                         <div class="lg:col-span-4 flex items-start gap-4">
                             <span class="shrink-0 inline-flex items-center justify-center size-10 rounded-full bg-parchment-200 text-accent-2">
                                 {{ if type == 'equipment' }}
@@ -47,7 +36,15 @@
                                 {{ /if }}
                             </span>
                             <h3 class="mt-1.5 font-display font-semibold text-lg md:text-xl text-foreground">
-                                {{ row_heading }}
+                                {{ if type == 'equipment' }}
+                                    {{ trans:strings.equipment_needed ?? 'Equipment needed' }}
+                                {{ elseif type == 'travel_insurance' }}
+                                    {{ trans:strings.travel_insurance ?? 'Travel insurance conditions' }}
+                                {{ elseif type == 'booking_cancellation' }}
+                                    {{ trans:strings.booking_cancellation ?? 'Booking and cancellation conditions' }}
+                                {{ elseif type == 'general' }}
+                                    {{ heading }}
+                                {{ /if }}
                             </h3>
                         </div>
                     {{ /if }}
@@ -66,20 +63,22 @@
                             `link_url` is intentionally overridden — keeps
                             those legal links from drifting to stale targets. #}}
                         {{ if type == 'booking_cancellation' }}
-                            {{ link_text = trans:strings.read_cancellation_terms ?? 'Read full cancellation terms' }}
-                            {{ link_url = '/terms#7-cancellations' }}
-                        {{ /if }}
-
-                        {{ if type == 'travel_insurance' }}
-                            {{ link_text = trans:strings.read_travel_insurance_terms ?? 'Read full travel insurance terms' }}
-                            {{ link_url = '/terms#9-travel-insurance-medical-information' }}
-                        {{ /if }}
-
-                        {{ if link_text }}
-                            <a href="{{ link_url ?? '#' }}" class="button-inline self-start">
-                                <span>{{ link_text }}</span>
+                            <a href="/terms#7-cancellations" class="button-inline self-start">
+                                <span>{{ trans:strings.read_cancellation_terms ?? 'Read full cancellation terms' }}</span>
                                 <x-lucide-arrow-up-right stroke-width="1.75" aria-hidden="true" />
                             </a>
+                        {{ elseif type == 'travel_insurance' }}
+                            <a href="/terms#9-travel-insurance-medical-information" class="button-inline self-start">
+                                <span>{{ trans:strings.read_travel_insurance_terms ?? 'Read full travel insurance terms' }}</span>
+                                <x-lucide-arrow-up-right stroke-width="1.75" aria-hidden="true" />
+                            </a>                            
+                        {{ else }}
+                            {{ if (link_text && link_url) }}
+                                <a href="{{ link_url ?? '#' }}" class="button-inline self-start">
+                                    <span>{{ link_text }}</span>
+                                    <x-lucide-arrow-up-right stroke-width="1.75" aria-hidden="true" />
+                                </a>
+                            {{ /if }}
                         {{ /if }}
                     </div>
                 </div>
