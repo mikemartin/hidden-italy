@@ -308,7 +308,7 @@ simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 gallery:
   - self-guided/lake-como/varenna-from-castle_hrc.jpg
-  - self-guided/the-amalfi-coast/28.3.jpg
+  - self-guided/lake-como/28.3.jpg
   - self-guided/the-amalfi-coast/28.6.jpg
   - self-guided/the-amalfi-coast/116.jpg
   - self-guided/the-amalfi-coast/321.jpg
