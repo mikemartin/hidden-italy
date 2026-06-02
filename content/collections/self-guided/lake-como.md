@@ -43,7 +43,7 @@ page_builder:
             type: text
             text: "the eastern shore; a loop walk that follows an old smugglers' routes above the western side of the lake\_ up through oak forests to open farmlands with breath-taking views into Switzerland; an interesting walk through the villages that surround Bellagio; and, as a grande finale, an extraordinary walk in the mountains above Bellagio with endless views across the lake and surrounding mountains."
     images:
-      - self-guided/the-amalfi-coast/menaggio-1.jpg
+      - self-guided/lake-como/menaggio-1.jpg
       - self-guided/lake-como/menaggio-17.jpg
       - self-guided/the-amalfi-coast/43.3.jpg
     type: overview
