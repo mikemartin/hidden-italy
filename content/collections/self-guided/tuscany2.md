@@ -6,7 +6,7 @@ name: 'Tuscany 2'
 region: Tuscany
 days: 7
 updated_by: 4
-updated_at: 1780368141
+updated_at: 1780368325
 grade: 4
 inclusions:
   - 'Private transfer from Florence on Day 1 and to Siena on Day 6'
@@ -96,7 +96,7 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloox88g
-    title: 'Tiuscany 2 itinerary'
+    title: 'Tuscany 2 itinerary'
     summary: 'Starting in Florence and finishing in Siena, and staying in gorgeous market towns along the way, this classic seven-day walk takes you through the Chianti via some of the most celebrated landscapes in Italy: undulating farmlands, rolling vineyards, oak and chestnut forests.'
     days:
       -
@@ -107,8 +107,8 @@ page_builder:
       -
         id: mloozlek
         title: 'Stroll through farmlands'
-        description: "Today's is a gentle walk, taking you along well-marked trails over the undulating hills of northern Tuscany to a small market town, where you spend the night.  Along the way, you pass through undulating farmlands, wheat fields and patches of forests."
-        duration: 3.0
+        description: "Today's is a gentle walk, taking you along well-marked trails over the undulating hills of northern Tuscany to a small market town, where you spend the night. Along the way, you pass through undulating farmlands, wheat fields and patches of forests."
+        duration: 4.0
         distance: 9.0
         elevation: 165
         meals_included:
