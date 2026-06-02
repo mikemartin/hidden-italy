@@ -6,18 +6,18 @@ name: 'Tuscany 1'
 region: Tuscany
 days: 6
 updated_by: 4
-updated_at: 1780366885
+updated_at: 1780366988
 grade: 2
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
   - 'Five nights accommodation'
   - 'All breakfasts'
   - 'Reading lists and historical and cultural notes'
-  - 'Maps and detailed walking instructions'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App with GPS to complement the booklet'
   - 'A curated list of restaurants in each town'
   - 'Daily transfers of baggage between hotels'
-  - '24 hour backup from local manager'
+  - '24-hour support from our local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: central-italy
 landscapes:
@@ -42,7 +42,7 @@ page_builder:
         content:
           -
             type: text
-            text: "red brick farmhouses, stands of deep green cypress pines and endless views, as it is famous for its wines and food. Along the way you stay in some of the most celebrated town in Tuscany, cultural treasures that include a beautifully restored pilgrim town; a magnificent papal town; and Montepulciano, 'pearl of the Renaissance'.  At the end of the tour you will have a private transfer to Chiusi, well-connected by train to Rome and Florence.  "
+            text: "red brick farmhouses, stands of deep green cypress pines and endless views, as it is famous for its wines and food. Along the way you stay in some of the most celebrated town in Tuscany, cultural treasures that include a beautifully restored pilgrim town; a magnificent papal town; and Montepulciano, 'pearl of the Renaissance'. At the end of the tour you will have a private transfer to Chiusi, well-connected by train to Rome and Florence.  "
       -
         type: paragraph
     title: 'From medieval walls to rolling hills'
@@ -58,7 +58,7 @@ page_builder:
       -
         id: mlooee34
         title: 'Enjoy a continuous 5-day walk'
-        summary: 'Enjoy a continuous walk from village to village for five days following well-marked trails through beautiful countryside'
+        summary: 'Enjoy a continuous walk from village to village for five days following well-marked trails through beautiful countryside.'
         icon: trekking-trekking.svg
       -
         id: mloog7vk
@@ -82,8 +82,8 @@ page_builder:
         icon: 'wine-wine bottle.svg'
       -
         id: mmx1061d
-        title: 'Relax and enjoy for holiday'
-        summary: 'Everything has been looked after: transfers at the beginning and end; luggage moved daily; maps and app; 24-hour support'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
