@@ -6,7 +6,7 @@ name: 'The Cinque Terre'
 region: Liguria
 days: 7
 updated_by: 4
-updated_at: 1780367635
+updated_at: 1780367680
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -89,8 +89,8 @@ page_builder:
         icon: water-sports-swimming.svg
       -
         id: mmbinilb
-        title: 'Relax and enjoy your holiday'
-        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
