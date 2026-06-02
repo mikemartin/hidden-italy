@@ -6,7 +6,7 @@ name: 'Tuscany 3'
 region: Tuscany
 days: 5
 updated_by: 4
-updated_at: 1780444094
+updated_at: 1780444303
 grade: 2
 inclusions:
   - 'Private transfer from Florence to San Gimignano on Day 1'
@@ -131,8 +131,8 @@ page_builder:
       -
         id: mlop159i
         title: 'Stay in a medieval fortress'
-        description: 'The walk this morning again picks up the Via Francigena, and takes you across undulating farmlands, passing hamlets, castles and a fine Romanesque abbey before arriving at a tiny walled medieval village, a little gem with a ring of high walls that enclose a precious collection of restored houses, gardens and palazzi.  (18 kms; 4.5 hrs; min: 172 mts, max: 285 mts)'
-        duration: 5.0
+        description: 'The walk this morning again picks up the Via Francigena, and takes you across undulating farmlands, passing hamlets, castles and a fine Romanesque abbey before arriving at a tiny walled medieval village, a little gem with a ring of high walls that enclose a precious collection of restored houses, gardens and palazzi.'
+        duration: 4.5
         distance: 18.0
         elevation: 113
         meals_included:
