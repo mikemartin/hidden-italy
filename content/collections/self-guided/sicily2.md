@@ -6,7 +6,7 @@ name: 'Sicily 2: the Egadi Islands'
 region: Sicily
 days: 7
 updated_by: 4
-updated_at: 1780361281
+updated_at: 1780361301
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
@@ -123,7 +123,7 @@ page_builder:
         id: mlrcpsyv
         title: 'Visit Egadi’s greatest treasure'
         description: 'Today you take another ferry to the third of the archipelago’s islands, which holds the Egadis’ greatest treasure: a gallery of prehistoric frescos painted between 10,000 and 6000 BC, which were discovered in a grotto in 1949. The walk today is a beautiful loop walk around the island via the grotto, which starts and finishes at the port.'
-        duration: 2.0
+        duration: 2.5
         distance: 8.0
         elevation: 167
         meals_included:
