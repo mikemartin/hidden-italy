@@ -6,7 +6,7 @@ name: 'Tuscany 2'
 region: Tuscany
 days: 7
 updated_by: 4
-updated_at: 1780374150
+updated_at: 1780377427
 grade: 4
 inclusions:
   - 'Private transfer from Florence on Day 1 and to Siena on Day 6'
@@ -119,7 +119,7 @@ page_builder:
         title: 'Walk through vineyards'
         description: 'The walk today takes you through the heartland of the Chianti wine district, following a well-marked trail through rolling hills covered in vineyards, to a small town that is one the centres of viticulture in Tuscany. Along the walk, you will have the opportunity  to visit one of the oldest and wealthiest abbeys in the region, and have lunch at their excellent restaurant (there is a simpler bistrot nearby, if you prefer). It is possible to shorten this walk.'
         duration: 4.5
-        distance: 17.0
+        distance: 15.0
         elevation: 278
         meals_included:
           - breakfast
@@ -127,7 +127,7 @@ page_builder:
       -
         id: mlop3c5r
         title: 'Cross the Chianti hills'
-        description: 'Today’s walk starts with a long climb up to the ridge of the highest range hills in the Chianti district.  On the way, you pass a medieval castle and several hamlets. From the top of the range you are rewarded with spectacular views over the Greve River valley.  The walk continues along the ridge, passing through oak and chestnut forests on the way to your accommodation, a lovely ‘agriturismo’ with a swimming pool and an excellent restaurant.  Your dinner is included tonight.'
+        description: 'Today’s walk starts with a long climb up to the ridge of the highest range hills in the Chianti district. On the way, you pass a medieval castle and several hamlets. From the top of the range you are rewarded with spectacular views over the Greve River valley. The walk continues along the ridge, passing through oak and chestnut forests on the way to your accommodation, a lovely ‘agriturismo’ with a swimming pool and an excellent restaurant.  Your dinner is included tonight.'
         duration: 4.5
         distance: 15.0
         elevation: 636
@@ -148,17 +148,17 @@ page_builder:
       -
         id: mlop6avf
         title: 'Transfer to Siena'
-        description: 'This morning you have a short walk, passing through classic Chianti countryside passing more vineyards, farm houses with panoramic views and a beautiful castle along the way.  You will be picked up by private transfer at a small hamlet at 12.00 and driven to Siena, ten kilometres south, which will leave you plenty of time to explore this extraordinary city in the afternoon and evening.'
+        description: 'This morning you have a short walk, passing through classic Chianti countryside passing more vineyards, farm houses with panoramic views and a beautiful castle along the way. You will be picked up by private transfer at a small hamlet at 12.00 and driven to Siena, ten kilometres south, which will leave you plenty of time to explore this extraordinary city in the afternoon and evening.'
         meals_included:
           - breakfast
         duration: 2.0
-        distance: 7.0
+        distance: 8.0
         elevation: 174
         photo: self-guided/tuscany-2/alessandro-rossi-ju_bgza3zhe-unsplash.jpg
       -
         id: mmzs9nie
         title: 'Depart Siena'
-        description: "This morning, after breakfast, you'll be able to continue your holiday.  Siena is connected to Florence and Rome by regular buses and trains."
+        description: "This morning, after breakfast, you'll be able to continue your holiday. Siena is connected to Florence and Rome by regular buses and trains."
         meals_included:
           - breakfast
         photo: self-guided/tuscany-2/paolo-d-andrea-msrizqwwlc4-unsplash.jpg
@@ -201,7 +201,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The Hidden Italy use the best accommodation available.\_ This includes a combination of family-run 3-star hotels, 4-star hotels in restored historical buildings and lovely country ‘agriturismo’s with swimming pools and fine local cooking.\_ All rooms have, private ensuite bathrooms.\_ Guaranteed!"
+                text: "The Hidden Italy use the best accommodation available.\_This includes a combination of family-run 3-star hotels, 4-star hotels in restored historical buildings and lovely country ‘agriturismo’s with swimming pools and fine local cooking.\_All rooms have private ensuite bathrooms."
         media:
           - self-guided/tuscany-2/flo-p-puor_oqheg4-unsplash.jpg
         type: accommodation
@@ -215,7 +215,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The traditional dishes of Tuscany are Italy's most influential cuisine.\_ The ingredients and techniques of the region have made their mark not just on the menus of the rest of Italy but also abroad, even in France.\_ The produce is of the highest quality, with its mushrooms, truffles and prosciutto especially prized.\_ Wine has always been central to Tuscany's economy and way of life, familiar names like Chianti and Brunello are just a portion of their enormous output.\_"
+                text: "The traditional dishes of Tuscany are Italy's most influential cuisine. The ingredients and techniques of the region have made their mark not just on the menus of the rest of Italy but also abroad, even in France.\_The produce is of the highest quality, with its mushrooms, truffles and prosciutto especially prized. Wine has always been central to Tuscany's economy and way of life, familiar names like Chianti and Brunello are just a portion of their enormous output.\_"
           -
             type: paragraph
             content:
@@ -224,7 +224,7 @@ page_builder:
                 marks:
                   -
                     type: italic
-                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+                text: 'Generous breakfasts are included each day. Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit. You will be able to make reservations where applicable directly through the Hidden Italy App.'
         media:
           - self-guided/tuscany-2/img_5083.jpg
         type: food
