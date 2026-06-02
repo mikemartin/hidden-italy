@@ -62,7 +62,7 @@ fields:
                     display: Body
                     instructions: 'Describe the insurance requirements and any recommended providers.'
             booking_cancellation:
-              display: 'Deposits & Cancellations'
+              display: 'Booking & Cancellation'
               icon: dates
               fields:
                 -
