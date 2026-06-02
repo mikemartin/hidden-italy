@@ -318,7 +318,7 @@ gallery:
   - self-guided/lake-como/dervio-8.jpg
   - self-guided/lake-como/32-a.jpg
   - self-guided/lake-como/menaggio-18.jpg
-  - self-guided/the-amalfi-coast/17-v2.jpg
+  - self-guided/lake-como/17-v2.jpg
 image: self-guided/lake-como/menaggio-17.jpg
 start_location:
   label: 'Como, Lombardy, Italy'
