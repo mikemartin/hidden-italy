@@ -45,7 +45,7 @@ page_builder:
     images:
       - self-guided/lake-como/menaggio-1.jpg
       - self-guided/lake-como/menaggio-17.jpg
-      - self-guided/the-amalfi-coast/43.3.jpg
+      - self-guided/lake-como/43.3.jpg
     type: overview
     enabled: true
     section_background: dark
