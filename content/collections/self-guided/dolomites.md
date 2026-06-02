@@ -5,17 +5,18 @@ title: 'Trentino-Alto Adige - Dolomites'
 name: Dolomites
 region: 'Trentino-Alto Adige'
 days: 6
-updated_by: 3
-updated_at: 1780028234
+updated_by: 4
+updated_at: 1780365839
 grade: 4
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
   - 'Five nights accommodation'
-  - 'All breakfasts and five dinners included'
+  - 'All breakfasts and five dinners'
   - 'Reading lists and historical and cultural notes'
-  - 'Maps and detailed walking instructions'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App with GPS to complement the booklet'
   - 'Transfers to the beginning of the walks on Day 2 and Day 4'
+  - '24-hour support from our local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: northern-italy
 landscapes:
@@ -42,14 +43,20 @@ page_builder:
         content:
           -
             type: text
-            text: "Celebrated as a skiing destination, the Dolomites also offer unrivalled walking in the summer.\_ You will use cable cars to get to the start of most walks and then follow well-marked trails as they wind your way back to your base, with the option at one of the charming mountains huts (rifugio) for a break or lunch along the way."
+            text: "Celebrated as a skiing destination, the Dolomites also offer unrivalled walking in the summer.\_You will use cable cars to get to the start of most walks and then follow well-marked trails as they wind your way back to your base, with"
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "On Day 1 you’ll be met in charming Bolzano, the capital of the South Tyrol and an important stop on the main Verona/Innsbruck train line, and driven to the spectacular valley an hour away.\_ This valley is one of the prettiest in the ‘Ladino’ heartland of the Dolomite mountains and you will be your base for the next five nights.  You will be driven back to Bolzano on Day 6."
+            text: ' the option at one of the charming mountains huts (rifugio) for a break or lunch along the way. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "On Day 1 you’ll be met in charming Bolzano, the capital of the South Tyrol and an important stop on the main Verona/Innsbruck train line, and driven to the spectacular valley an hour away.\_This valley is one of the prettiest in the ‘Ladino’ heartland of the Dolomite mountains and you will be your base for the next five nights. You will be driven back to Bolzano on Day 6."
       -
         type: paragraph
     title: 'The most beautiful in the world'
@@ -60,7 +67,7 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloocwbk
-    heading: 'Highlights of the Dolomites 1 walking tour'
+    heading: 'Highlights of the Dolomites walking tour'
     activities:
       -
         id: mlooee34
@@ -89,8 +96,8 @@ page_builder:
         icon: switzerland-edelweiss.svg
       -
         id: mmbinilb
-        title: 'Relax and enjoy your holiday'
-        summary: 'Everything organised: you are transferred from and back to Bolzano; you have maps and an App; and 24-hour local support.'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -99,7 +106,7 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloox88g
-    title: 'Dolomites 1 self-guided walking tour itinerary'
+    title: 'Dolomites Itinerary'
     summary: 'This wonderful five night/six day self-guided walk introduces you to some spectacular mountains in the world and some of the finest walking in Europe.'
     days:
       -
@@ -386,7 +393,7 @@ summary:
     content:
       -
         type: text
-        text: 'This wonderful six day self-guided walk introduces you to some ot the most spectacular mountains in the world and some of the finest walking in Europe.'
+        text: 'This wonderful 6-day/5-night self-guided walk introduces you to some of the most spectacular mountains in the world and some of the finest walking in Europe.'
 show_from: true
 price: 'A$2,950'
 og_image: trentino-alto-adige-dolomites-1-og-1779335300.png
