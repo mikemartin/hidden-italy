@@ -5,22 +5,22 @@ title: 'Sicily - Sicily 2: the Egadi Islands'
 name: 'Sicily 2: the Egadi Islands'
 region: Sicily
 days: 7
-updated_by: 3
-updated_at: 1780028218
+updated_by: 4
+updated_at: 1780359971
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
   - 'Private transfer from Trapani to Lo Zingaro Regional Park on Day 5'
-  - 'Private transfer from Lo Zingaro Regional Park to Palermo on Day 7'
-  - 'Six nights’ accommodation'
-  - 'Generous breakfasts included'
+  - 'Private transfer back to Palermo on Day 7'
+  - 'Six nights accommodation'
+  - 'All breakfasts'
   - 'All ferry tickets required (from and back to Trapani and around the islands'
   - 'Entrance ticklet to the prehistoric grotto on Levanzo'
   - 'Reading lists, historical and cultural notes'
-  - 'Maps and detailed walking instructions'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App with GPS to complement the booklet'
   - 'A curated list of restaurants in each town'
-  - '24 hour backup from local manager'
+  - '24-hour support from our local manager'
   - 'City taxes are not included in the cost of the tour'
 simple_likes: 0
 page_builder:
@@ -393,7 +393,7 @@ summary:
     content:
       -
         type: text
-        text: "The west of Sicily is a land apart.\_ The cubic whitewashed houses, palm trees, active fishing harbours and sunburned lowlands seem more akin to Africa than Europe, and historically, the west of the island has always looked south: the Carthaginians were entrenched here; the Muslims first occupied Sicily here; the Saracens raided the area regularly; and the towns have more than a little North African atmosphere to them.\_"
+        text: "The west of Sicily is a land apart.\_The cubic whitewashed houses, palm trees, active fishing harbours and sunburned lowlands seem more akin to Africa than Europe, and historically, the west of the island has always looked south: the Carthaginians were entrenched here; the Muslims first occupied Sicily here; the Saracens raided the area regularly; and the towns have more than a little North African atmosphere to them.\_"
 price: 'A$3,100'
 show_from: true
 og_image: sicily-sicily-2-the-egadi-islands-og-1779335298.png
