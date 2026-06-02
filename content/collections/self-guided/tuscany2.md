@@ -6,7 +6,7 @@ name: 'Tuscany 2'
 region: Tuscany
 days: 7
 updated_by: 4
-updated_at: 1780368325
+updated_at: 1780370396
 grade: 4
 inclusions:
   - 'Private transfer from Florence on Day 1 and to Siena on Day 6'
@@ -117,8 +117,8 @@ page_builder:
       -
         id: mlop159i
         title: 'Walk through vineyards'
-        description: 'The walk today takes you through the heartland of the Chianti wine district, following a well-marked trail through rolling hills covered in vineyards, to a small town that is one the centres of viticulture in Tuscany.  Along the walk, you will have the opportunity  to visit one of the oldest and wealthiest abbeys in the region, and have lunch at their excellent restaurant (there is a simpler bistrot nearby, if you prefer).  It is possible to shorten this walk.'
-        duration: 5.0
+        description: 'The walk today takes you through the heartland of the Chianti wine district, following a well-marked trail through rolling hills covered in vineyards, to a small town that is one the centres of viticulture in Tuscany. Along the walk, you will have the opportunity  to visit one of the oldest and wealthiest abbeys in the region, and have lunch at their excellent restaurant (there is a simpler bistrot nearby, if you prefer). It is possible to shorten this walk.'
+        duration: 4.5
         distance: 17.0
         elevation: 278
         meals_included:
@@ -127,8 +127,8 @@ page_builder:
       -
         id: mlop3c5r
         title: 'Cross the Chianti hills'
-        description: 'Today’s walk starts with a long climb up to the ridge of the highest range hills in the Chianti district.  On the way, you pass a medieval castle and several hamlets.  From the top of the range you are rewarded with spectacular views over the Greve River valley.  The walk continues along the ridge, passing through oak and chestnut forests on the way to your accommodation, a lovely ‘agriturismo’ with a swimming pool and an excellent restaurant.  Your dinner is included tonight.'
-        duration: 5.0
+        description: 'Today’s walk starts with a long climb up to the ridge of the highest range hills in the Chianti district.  On the way, you pass a medieval castle and several hamlets. From the top of the range you are rewarded with spectacular views over the Greve River valley.  The walk continues along the ridge, passing through oak and chestnut forests on the way to your accommodation, a lovely ‘agriturismo’ with a swimming pool and an excellent restaurant.  Your dinner is included tonight.'
+        duration: 4.5
         distance: 15.0
         elevation: 636
         meals_included:
@@ -137,8 +137,8 @@ page_builder:
         photo: self-guided/tuscany-2/wolfgang-weiser-y_kh8lgu4ma-unsplash-copy.jpg
       -
         id: mlop5205
-        title: 'Walk to  through forests'
-        description: 'Today you continue your walk along the ridge before descending through pine and oak forests, to a magnificent wine estate situated in a converted medieval abbey (where you can have lunch and sample some of their produce).  Your goal, another small town devoted to wine industry, is an hour’s descent through more oak forest and farmlands.  Along the way you pass from the Florentine territory into the Sienese territory.'
+        title: 'Walk to through forests'
+        description: 'Today you continue your walk along the ridge before descending through pine and oak forests, to a magnificent wine estate situated in a converted medieval abbey (where you can have lunch and sample some of their produce). Your goal, another small town devoted to wine industry, is an hour’s descent through more oak forest and farmlands. Along the way you pass from the Florentine territory into the Sienese territory.'
         duration: 4.0
         distance: 16.0
         elevation: -546
@@ -175,7 +175,7 @@ page_builder:
         title: 'Exceptional walkings'
         total_distance: 64.0
         total_elevation: 707
-        grade: 0
+        grade: 4
         description:
           -
             type: paragraph
