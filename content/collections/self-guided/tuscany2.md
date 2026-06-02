@@ -5,19 +5,19 @@ title: 'Tuscany - Tuscany 2'
 name: 'Tuscany 2'
 region: Tuscany
 days: 7
-updated_by: 3
-updated_at: 1780028268
+updated_by: 4
+updated_at: 1780367988
 grade: 4
 inclusions:
-  - 'Private transfer from Florence on Day 1; private transfer to Siena on Day 6'
+  - 'Private transfer from Florence on Day 1 and to Siena on Day 6'
   - 'Six nights accommodation'
   - 'All breakfasts and one dinner'
   - 'Reading lists and historical and cultural notes'
-  - 'Maps and detailed walking instructions'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App with GPS to complement the booklet'
   - 'A curated list of restaurants for each town and village you stay in'
   - 'Daily transfers of baggage between hotels'
-  - '24 hour backup from local manager'
+  - '24-hour support from our local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: central-italy
 landscapes:
@@ -35,20 +35,20 @@ page_builder:
         content:
           -
             type: text
-            text: "But Chianti is not only a place of exceptional natural beauty, it also has a very rich in history.\_Its most formative years were during the Middle Ages, when the district became a battleground, caught between the implacable ambitions of Florence and Siena.\_ The fortified towns, magnificent monasteries and famous castles that you encounter during the walk bear testament to this legacy.\_"
+            text: "Chianti is not only a place of exceptional natural beauty, but it also has a very rich history.\_Its most formative years were during the Middle Ages, when the district became a battleground, caught between the implacable ambitions of Florence and Siena.\_The fortified towns, magnificent monasteries and famous castles that you encounter during the walk bear testament to this legacy.\_"
       -
         type: paragraph
         content:
           -
             type: text
-            text: "Chianti is famous for its wholesome home-cooking, pastas and soups, roast meats and garden vegetables, but it is, of course, best know its eponymous red wine, which, some say, is amongst the best produced in Italy.\_ You will have plenty of chances to sample these treats along the way and make your own decision!"
+            text: "Chianti is famous for its wholesome home-cooking, pastas and soups, roast meats and garden vegetables, but it is, of course, best known for its eponymous red wine, which, some say, is amongst the best produced in Italy.\_You will have plenty of chances to sample these treats along the way and make your own decision!"
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "The tour starts with a private transfer from Florence to Impruneta.\_ From here well-marked trails take you through undulating farmlands, over the forest-covered hills of the Colline di Chianti, and then south towards Siena.\_ You stay in comfortable accommodation in the centre of a series buzzy market towns, as well as a charming agriturismo in the hills.\_ At the end of the last walk, you will be transferred to Siena, where you spend the last night in a very nice hotel in an historic palazzo in the heart of the city, close to the famous Piazza del Campo (an appropriate finale to your tour!)."
+            text: "The tour starts with a private transfer from Florence to Impruneta. From here well-marked trails take you through undulating farmlands, over the forest-covered hills of the Colline di Chianti, and then south towards Siena.\_You stay in comfortable accommodation in the centre of a series of buzzy market towns, as well as a charming agriturismo in the hills.\_At the end of the last walk, you will be transferred to Siena, where you spend the last night in a very nice hotel in an historic palazzo in the heart of the city, close to the famous Piazza del Campo (an appropriate finale to your tour!)."
     title: 'Between Florence and Siena'
     images:
       - self-guided/tuscany-2/kristina-c-qwaolhfrx3i-unsplash.jpg
@@ -390,7 +390,7 @@ summary:
     content:
       -
         type: text
-        text: 'This magnificent walk passes through the Chianti, some of the most celebrated countryside in Europe, a unique landscape of rolling hills, vineyards, olive groves,  thick oak forests, isolated farmhouses, medieval market towns and ancient villages, all shaped by over three millennia of settlement.'
+        text: 'This magnificent 7-day/6-night walk passes through the Chianti, some of the most celebrated countryside in Europe, a unique landscape of rolling hills, vineyards, olive groves, thick oak forests, isolated farmhouses, medieval market towns and ancient villages, all shaped by over three millennia of settlement.'
 price: 'A$3,500'
 show_from: true
 og_image: tuscany-tuscany-2-og-1779335303.png
