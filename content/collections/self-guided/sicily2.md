@@ -6,7 +6,7 @@ name: 'Sicily 2: the Egadi Islands'
 region: Sicily
 days: 7
 updated_by: 4
-updated_at: 1780361301
+updated_at: 1780361874
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
@@ -132,21 +132,20 @@ page_builder:
         photo: self-guided/sicily-2-the-egadi-islands/levanzo-1.jpg
       -
         id: mlrcryci
-        title: 'Transfer to Lo Zingaro Regional Park'
-        description: 'Today you take the hydrofoil back to Trapani, where you’ll be met and driven to Lo Zingaro Regional Park.  Along the way, you will visit the beautiful town of Erice, which sits on a hill high above Trapani.  You’ll be able to explore this remarkable town (with time for a light lunch) before being taken to a gorgeous hamlet on the edge of Sicily’s first national park, which stretches along the Gulf of Castellamare.'
+        title: 'Discover Lo Zingaro Regional Park'
+        description: 'Today you take the hydrofoil back to Trapani, where you’ll be met and driven to Lo Zingaro Regional Park. Along the way, you will visit the beautiful town of Erice, which sits on a hill high above Trapani. You’ll be able to explore this remarkable town (with time for a light lunch) before being taken to a gorgeous hamlet on the edge of Sicily’s first national park, which stretches along the Gulf of Castellamare.'
         meals_included:
           - breakfast
         photo: self-guided/sicily-2-the-egadi-islands/scopello-tonnara-1.jpg
       -
         id: mlrczqmb
         title: 'A long coastal walk'
-        description: 'As the finale to your visit, the last walk is a beautiful coastal walk following a well-marked trail under majestic limestone mountains and overlooking gorgeous turquoise-blue bays. There are plenty of opportunities for swims on the way back (it is possible to shorten this walk).  We have also added an alternative walk that takes you inland to and interesting archaeological site (3 hrs, 8 kms, 354 mts).'
+        description: 'As the finale to your visit, the last walk is a beautiful coastal walk following a well-marked trail under majestic limestone mountains and overlooking gorgeous turquoise-blue bays. There are plenty of opportunities for swims on the way back (it is possible to shorten this walk). We have also added an alternative walk that takes you inland to and interesting archaeological site (3.5 hrs, 8.5 kms, 354m).'
         duration: 5.0
         distance: 15.0
         elevation: 399
         meals_included:
           - breakfast
-          - dinner
         photo: self-guided/sicily-2-the-egadi-islands/a.jpeg
       -
         id: mlrd7giq
