@@ -192,22 +192,14 @@ fields:
                                   append: km
                                   type: float
                                   display: 'Total Distance'
-                                  width: 33
+                                  width: 50
                               -
                                 handle: total_elevation
                                 field:
                                   append: m
                                   type: integer
                                   display: 'Total Elevation'
-                                  width: 33
-                              -
-                                handle: grade
-                                field:
-                                  max: 5
-                                  type: range
-                                  display: Grade
-                                  append: '/ 5'
-                                  width: 33
+                                  width: 50
                               -
                                 handle: description
                                 field:
