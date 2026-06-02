@@ -6,7 +6,7 @@ name: 'Tuscany 3'
 region: Tuscany
 days: 5
 updated_by: 4
-updated_at: 1780444303
+updated_at: 1780444402
 grade: 2
 inclusions:
   - 'Private transfer from Florence to San Gimignano on Day 1'
@@ -141,7 +141,7 @@ page_builder:
       -
         id: mlop3c5r
         title: 'Arrive in Siena'
-        description: "The walk today takes you to Siena, the dynamic capital of southern Tuscany.  It passes through forests and the range of hills that once protected Siena's northern frontier from their enemies in Florence.  A city rich in art and history, Siena is a wonderful place to explore or simply while away time, sipping an aperitivo and watching the colourful life pass by.   It is a long day but the walk can be shortened by taking a bus on the outskirts of Siena."
+        description: "The walk today takes you to Siena, the dynamic capital of southern Tuscany. It passes through forests and the range of hills that once protected Siena's northern frontier from their enemies in Florence. A city rich in art and history, Siena is a wonderful place to explore or simply while away time, sipping an aperitivo and watching the colourful life pass by. It is a long day but the walk can be shortened by taking a bus on the outskirts of Siena."
         duration: 5.0
         distance: 20.0
         elevation: 119
@@ -151,7 +151,7 @@ page_builder:
       -
         id: mlop5205
         title: 'Depart Siena'
-        description: 'After breakfast in your hotel, you are free to continue your holiday.  Siena is connected to Florence and Rome by rail and bus.'
+        description: 'After breakfast in your hotel, you are free to continue your holiday. Siena is connected to Florence and Rome by rail and bus.'
         meals_included:
           - breakfast
         photo: self-guided/tuscany-3/achim-ruhnau-a3fwnq1inoi-unsplash(1).jpg
