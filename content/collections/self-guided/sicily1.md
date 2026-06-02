@@ -5,19 +5,19 @@ title: 'Sicily - Sicily 1: the Madonie Mountains'
 name: 'Sicily 1: the Madonie Mountains'
 region: Sicily
 days: 7
-updated_by: 3
-updated_at: 1780028198
+updated_by: 4
+updated_at: 1780359324
 grade: 3
 inclusions:
   - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
-  - 'Private transfer from Petralia Soprana to either Palermo or Catania on Day 7'
-  - "Six nights' accommodation"
-  - 'All breakfasts + dinners are included'
+  - 'Private transfer back to either Palermo or Catania on Day 7'
+  - 'Six nights accommodation'
+  - 'All breakfasts and dinners'
   - 'Reading lists and historical and cultural notes'
-  - 'Maps with gps markers and walking instructions'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App with GPS to complement the booklet'
   - 'Daily transfers of baggage between the accommodation'
-  - '24 hour backup from local manager'
+  - '24-hour support from our local manager'
   - 'City taxes are not included in the cost of the tour'
 simple_likes: 0
 page_builder:
@@ -33,20 +33,20 @@ page_builder:
         content:
           -
             type: text
-            text: "On a clear day, the conical form of Mt Etna, Europe’s largest and most-active volcano, smokes on the horizon, one hundred kilometres away.\_ Along the way, you visit some of Italy’s most unspoilt villages, two of which have been winners of ‘Italy’s Most Beautiful Village’, one in 2014 (Day 4) and other in 2018 (Day 6)."
+            text: 'On a clear day, the conical form of Mt Etna, Europe’s largest and most-active volcano, smokes on the horizon, one hundred kilometres away. Along the way, you visit some of Italy’s most unspoilt villages, two of which have been winners of ‘Italy’s Most Beautiful Village’, one in 2014 (Day 4) and the other in 2018 (Day 6).'
       -
         type: paragraph
         content:
           -
             type: text
-            text: "You start the tour with a private transfer from either Palermo or Catania and then taken to Nicosia, a bussling farming centre, where you spend the first night.\_ For the next four nights, you will stay in a series very attractive and interesting villages, until Day 6, when you arrive at Petralia Soprana at the foot of the Madonie Mountains, where the tour finishes.\_ From here you will be driven by private transfer back to either Palermo or Catania.\_ "
+            text: 'You start the tour with a private transfer from either Palermo or Catania and then taken to Nicosia, a bustling farming centre, where you spend the first '
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'The Sicily 1 walk is a wonderful opportunity to get local, experience the famous Sicilian hospitality, its delicious seasonal cuisine as well as enjoying some long country rambles.'
+            text: "night.\_For the next four nights, you will stay in a series very attractive and interesting villages, until Day 6, when you arrive at Petralia Soprana at the foot of the Madonie Mountains, where the tour finishes.\_From here you will be driven by private transfer back to either Palermo or Catania.\_The Sicily 1 walk is a wonderful opportunity to get local, experience the famous Sicilian hospitality, its delicious seasonal cuisine as well as enjoying some long country rambles."
     title: 'In the shadow of Mt Etna'
     images:
       - self-guided/sicily-1-the-madonie-mountains/img_6635.jpeg
@@ -84,8 +84,8 @@ page_builder:
         icon: ski-alpine-Chalet.svg
       -
         id: mlrc9yr3
-        title: 'Relax and enjoy your holiday'
-        summary: 'Everything organised. You are transfer to and from Palermo. You have your bags moved; an App; and 24-hour local support.'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -100,16 +100,16 @@ page_builder:
       -
         id: mlrcdegn
         title: 'Arrive in Nicosia'
-        description: 'Your tour starts with a private transfer from either Palermo or Catania to Nicosia in central Sicily, an hour and a half away.  A strategic point on the mountain road that linked eastern Sicily with Palermo, Nicosia grew up around a 7th century Byzantine castle and flourished under Norman rule in the 12th century.  Today it is a bustling agricultural centre – pure Sicily!'
+        description: 'Your tour starts with a private transfer from either Palermo or Catania to Nicosia in central Sicily, an hour and a half away. A strategic point on the mountain road that linked eastern Sicily with Palermo, Nicosia grew up around a 7th century Byzantine castle and flourished under Norman rule in the 12th century. Today it is a bustling agricultural centre – pure Sicily!'
         meals_included:
           - dinner
         photo: self-guided/sicily-1-the-madonie-mountains/saints-day-out.jpg
       -
         id: mlrce7n9
         title: 'Walk into the mountains'
-        description: 'Your first walk is an easy hike across the valley to a tiny village that grew up around a rock outcrop riddled with prehistoric cave dwellings.  Mt Etna, 100 kms to the east, is visible from the village’s impregnable castle.  The village’s dialect still has traces of the French invaders who were garrisoned here in the 13th century.'
-        duration: 3.0
-        distance: 13.0
+        description: 'Your first walk is an easy hike across the valley to a tiny village that grew up around a rock outcrop riddled with prehistoric cave dwellings. Mt Etna, 100 kms to the east, is visible from the village’s impregnable castle. The village’s dialect still has traces of the French invaders who were garrisoned here in the 13th century.'
+        duration: 3.5
+        distance: 11.0
         elevation: 166
         meals_included:
           - breakfast
@@ -118,8 +118,8 @@ page_builder:
       -
         id: mlrchqfo
         title: 'A ramble through the valleys'
-        description: 'Today you have a long but gentle walk through rolling valleys with vast views of the mountains and farmlands around you.  At the end of the walk, you will be met and driven to your accommodation for the night, at the foot of one of the most fascinating villages in the district.'
-        duration: 4.0
+        description: 'Today you have a long but gentle walk through rolling valleys with vast views of the mountains and farmlands around you. At the end of the walk, you will be met and driven to your accommodation for the night, at the foot of one of the most fascinating villages in the district.'
+        duration: 4.5
         distance: 14.0
         elevation: 383
         meals_included:
@@ -129,7 +129,7 @@ page_builder:
       -
         id: mlrcpsyv
         title: 'Stay in a family-run agriturismo'
-        description: "An easy day, today you climb up to a nearby town,  a jumble of houses and lanes that tumble down the side of a spherical hill.  Your accommodation is a family-run agriturismo in the valley below the town which was once a baronial residence. You will have the option in the afternoon of doing a loop walk up to visit the neighbouring town, which was judged Italy's Most Beautiful Village in 2014 (2 hrs, 6 kms, 440 mts)"
+        description: "An easy day, today you climb up to a nearby town,  a jumble of houses and lanes that tumble down the side of a spherical hill. Your accommodation is a family-run agriturismo in the valley below the town which was once a baronial residence. You will have the option in the afternoon of doing a loop walk up to visit the neighbouring town, which was judged Italy's Most Beautiful Village in 2014 (2 hrs, 6.5 kms, 440m)"
         duration: 2.0
         distance: 7.0
         elevation: 269
@@ -140,9 +140,9 @@ page_builder:
       -
         id: mlrcryci
         title: 'Walk to the Madonie Park'
-        description: "The walk today takes you through the valley and then up to a small town that was founded by the ancient Greeks and was the seat of the medieval counts who ruled central Sicily from here in the 14th and 15th centuries.  The town is also the gateway to the Madonie National Park.  Your accommodation tonight is in a beautifully restored historic building in the centre of town, close to the town's central piazza."
+        description: "The walk today takes you through the valley and then up to a small town that was founded by the ancient Greeks and was the seat of the medieval counts who ruled central Sicily from here in the 14th and 15th centuries. The town is also the gateway to the Madonie National Park. Your accommodation tonight is in a beautifully restored historic building in the centre of town, close to the town's central piazza."
         duration: 4.0
-        distance: 12.0
+        distance: 11.5
         elevation: 440
         meals_included:
           - breakfast
@@ -151,7 +151,7 @@ page_builder:
       -
         id: mlrczqmb
         title: 'Walk to Petralia Soprana'
-        description: "Today’s walk takes you sharply up from the town to a wide path that contours around side of a mountain, taking you through pines forests and pastures with spectacular views back east across the valleys and mountains.  On a clear day, you will have Mt Etna as a backdrop.  You descend down a fire-trail to your final destination, an extraordinary town that was founded by the Romans and was classified as Italy's Most Beautiful Village in 2018."
+        description: "Today’s walk takes you sharply up from the town to a wide path that contours around side of a mountain, taking you through pines forests and pastures with spectacular views back east across the valleys and mountains. On a clear day, you will have Mt Etna as a backdrop. You descend down a fire-trail to your final destination, an extraordinary town that was founded by the Romans and was classified as Italy's Most Beautiful Village in 2018."
         duration: 4.0
         distance: 12.0
         elevation: 415
@@ -395,7 +395,7 @@ summary:
     content:
       -
         type: text
-        text: "This wonderful tour takes you through the heart of Sicily, an area untouched by tourism, where the traditions, daily life, and hospitality of the island are alive and well.\_ Following mostly unsealed country lanes you’ll pass through some of the most spectacular countryside on Sicily: rolling farmlands covered in wheat fields overlooked by jagged mountains, with the forested peaks of the Madonie National Park in the distance.\_ "
+        text: "This wonderful tour takes you through the heart of Sicily, an area untouched by tourism, where the traditions, daily life, and hospitality of the island are alive and well.\_Following mostly unsealed country lanes, you’ll pass through some of the most spectacular countryside in Sicily: rolling farmlands covered in wheat fields, overlooked by jagged mountains, with the forested peaks of the Madonie National Park in the distance.\_ "
 price: 'A$3,000'
 show_from: true
 og_image: sicily-sicily-1-the-madonie-mountains-og-1779335296.png
