@@ -313,7 +313,7 @@ gallery:
   - self-guided/lake-como/116.jpg
   - self-guided/lake-como/321.jpg
   - self-guided/lake-como/115.4.jpg
-  - self-guided/the-amalfi-coast/varenna-3.jpg
+  - self-guided/lake-como/varenna-3.jpg
   - self-guided/the-amalfi-coast/varenna-2.jpg
   - self-guided/the-amalfi-coast/dervio-8.jpg
   - self-guided/the-amalfi-coast/32-a.jpg
