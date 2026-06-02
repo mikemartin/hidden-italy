@@ -6,7 +6,7 @@ name: 'Tuscany 2'
 region: Tuscany
 days: 7
 updated_by: 4
-updated_at: 1780370396
+updated_at: 1780374150
 grade: 4
 inclusions:
   - 'Private transfer from Florence on Day 1 and to Siena on Day 6'
@@ -182,7 +182,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The walks are from 9 to 19 kms (2.5 to 5 hours). Except for the first day, most of the trail is clearly marked with walking signs. It generally follows unsealed country roads, although there are several sections which wind along smaller paths. There are no steep climbs although on Day 3 there is a sustained walk up to the ridge of the Chianti Hills. Much of Day 4 winds through forests.\_ Full details on each walk are on the itinerary. "
+                text: "The walks are from 9 to 19 kms (2.5 to 5 hours). Except for the first day, most of the trail is clearly marked with walking signs. It generally follows unsealed country roads, although there are several sections which wind along smaller paths. There are no steep climbs although on Day 3 there is a sustained walk up to the ridge of the Chianti Hills. Much of Day 4 winds through forests.\_Full details on each walk are on the itinerary. "
               -
                 type: text
                 marks:
