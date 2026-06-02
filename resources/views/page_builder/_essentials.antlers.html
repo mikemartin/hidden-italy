@@ -23,31 +23,30 @@
         <div class="span-content flex flex-col" x-data x-reveal data-reveal-stagger="80">
             {{ block:sections }}            
                 <div data-reveal-item class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-12 py-8 md:py-10 first:pt-0 last:pb-0 border-t border-parchment-200 first:border-t-0">
-                        <div class="lg:col-span-4 flex items-start gap-4">
-                            <span class="shrink-0 inline-flex items-center justify-center size-10 rounded-full bg-parchment-200 text-accent-2">
-                                {{ if type == 'equipment' }}
-                                    <x-lucide-backpack class="size-5" stroke-width="1.75" aria-hidden="true" />
-                                {{ elseif type == 'travel_insurance' }}
-                                    <x-lucide-shield-check class="size-5" stroke-width="1.75" aria-hidden="true" />
-                                {{ elseif type == 'booking_cancellation' }}
-                                    <x-lucide-calendar class="size-5" stroke-width="1.75" aria-hidden="true" />
-                                {{ else }}
-                                    <x-lucide-info class="size-5" stroke-width="1.75" aria-hidden="true" />
-                                {{ /if }}
-                            </span>
-                            <h3 class="mt-1.5 font-display font-semibold text-lg md:text-xl text-foreground">
-                                {{ if type == 'equipment' }}
-                                    {{ trans:strings.equipment_needed ?? 'Equipment needed' }}
-                                {{ elseif type == 'travel_insurance' }}
-                                    {{ trans:strings.travel_insurance ?? 'Travel insurance conditions' }}
-                                {{ elseif type == 'booking_cancellation' }}
-                                    {{ trans:strings.booking_cancellation ?? 'Booking and cancellation conditions' }}
-                                {{ elseif type == 'general' }}
-                                    {{ heading }}
-                                {{ /if }}
-                            </h3>
-                        </div>
-                    {{ /if }}
+                    <div class="lg:col-span-4 flex items-start gap-4">
+                        <span class="shrink-0 inline-flex items-center justify-center size-10 rounded-full bg-parchment-200 text-accent-2">
+                            {{ if type == 'equipment' }}
+                                <x-lucide-backpack class="size-5" stroke-width="1.75" aria-hidden="true" />
+                            {{ elseif type == 'travel_insurance' }}
+                                <x-lucide-shield-check class="size-5" stroke-width="1.75" aria-hidden="true" />
+                            {{ elseif type == 'booking_cancellation' }}
+                                <x-lucide-calendar class="size-5" stroke-width="1.75" aria-hidden="true" />
+                            {{ else }}
+                                <x-lucide-info class="size-5" stroke-width="1.75" aria-hidden="true" />
+                            {{ /if }}
+                        </span>
+                        <h3 class="mt-1.5 font-display font-semibold text-lg md:text-xl text-foreground">
+                            {{ if type == 'equipment' }}
+                                {{ trans:strings.equipment_needed }}
+                            {{ elseif type == 'travel_insurance' }}
+                                {{ trans:strings.travel_insurance }}
+                            {{ elseif type == 'booking_cancellation' }}
+                                {{ trans:strings.booking_cancellation }}
+                            {{ else type == 'general' }}
+                                {{ heading }}
+                            {{ /if }}
+                        </h3>
+                    </div>
 
                     <div class="lg:col-span-8 flex flex-col gap-4">
                         {{ if body }}
@@ -64,12 +63,12 @@
                             those legal links from drifting to stale targets. #}}
                         {{ if type == 'booking_cancellation' }}
                             <a href="/terms#7-cancellations" class="button-inline self-start">
-                                <span>{{ trans:strings.read_cancellation_terms ?? 'Read full cancellation terms' }}</span>
+                                <span>{{ trans:strings.read_cancellation_terms }}</span>
                                 <x-lucide-arrow-up-right stroke-width="1.75" aria-hidden="true" />
                             </a>
                         {{ elseif type == 'travel_insurance' }}
                             <a href="/terms#9-travel-insurance-medical-information" class="button-inline self-start">
-                                <span>{{ trans:strings.read_travel_insurance_terms ?? 'Read full travel insurance terms' }}</span>
+                                <span>{{ trans:strings.read_travel_insurance_terms }}</span>
                                 <x-lucide-arrow-up-right stroke-width="1.75" aria-hidden="true" />
                             </a>                            
                         {{ else }}
