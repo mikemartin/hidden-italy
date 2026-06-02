@@ -6,7 +6,7 @@ name: 'Sicily 2: the Egadi Islands'
 region: Sicily
 days: 7
 updated_by: 4
-updated_at: 1780360161
+updated_at: 1780361281
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
@@ -97,16 +97,14 @@ page_builder:
       -
         id: mlrcdegn
         title: 'Arrive in Favignana'
-        description: 'The tour starts with a private transfer from Palermo to Trapani (approximately 2 hrs).  From here you take a hydrofoil from Trapani to Favignana, the largest of the Egadi islands.  Accommodation is in an excellent, family-run 3-star hotel in the centre of town, a short walk from the port.'
+        description: 'The tour starts with a private transfer from Palermo to Trapani (approximately 2 hrs). From here you take a hydrofoil from Trapani to Favignana, the largest of the Egadi islands. Accommodation is in an excellent, family-run 3-star hotel in the centre of town, a short walk from the port.'
         photo: 'self-guided/sicily-2-the-egadi-islands/trapani,_sicily.jpg'
-        meals_included:
-          - dinner
       -
         id: mlrce7n9
         title: 'Go island hopping'
-        description: 'Today you take a ferry to explore the smallest and most remote of the three islands of the archipelago (which is 30 minutes away).  You follow a paved out of the port and then up to the top of the island before descending into a lovely valley with dense vegetation before returning along the coast to Marettimo. Here, you have plenty of time for lunch and a swim before taking the ferry back to Favignana.'
-        duration: 4.0
-        distance: 9.0
+        description: 'Today you take a ferry to explore the smallest and most remote of the three islands of the archipelago (which is 30 minutes away). You follow a paved out of the port and then up to the top of the island before descending into a lovely valley with dense vegetation before returning along the coast to Marettimo. Here, you have plenty of time for lunch and a swim before taking the ferry back to Favignana.'
+        duration: 3.0
+        distance: 8.0
         elevation: 459
         meals_included:
           - breakfast
@@ -114,17 +112,17 @@ page_builder:
       -
         id: mlrchqfo
         title: 'Explore Favignana'
-        description: 'A day exploring your base.  The little medieval port had its heyday in the 19th century when the tuna fisheries off the islands thrived.  There is a very interesting local museum and the very unusual ‘underground gardens’, botanical gardens which have been established in the deep sandstone quarries and tunnels on the north of the island.  We have also included a walk that does a complete circuit of the island, passing a number of lovely beaches and lookout points (bikes are also available for hire).  (3.5 hrs; 14.5 kms; min: 2 mts, max: 35 mts)'
+        description: 'A day exploring your base. The little medieval port had its heyday in the 19th century when the tuna fisheries off the islands thrived. There is a very interesting local museum and the very unusual ‘underground gardens’, botanical gardens which have been established in the deep sandstone quarries and tunnels on the north of the island. We have also included a walk that does a complete circuit of the island, passing a number of lovely beaches and lookout points (bikes are also available for hire).'
         duration: 4.0
-        distance: 15.0
+        distance: 14.0
         elevation: 33
         meals_included:
           - breakfast
         photo: self-guided/sicily-2-the-egadi-islands/favignana-1.jpg
       -
         id: mlrcpsyv
-        title: 'Explore Levanzo'
-        description: 'Today you take another ferry to the third of the archipelago’s islands, which holds the Egadis’ greatest treasure: a gallery of prehistoric frescos painted between 10,000 and 6000 BC, which were discovered in a grotto in 1949.  The walk today is a beautiful loop walk around the island via the grotto, which starts and finishes at the port. (2 hrs; 8 kms; min: 3 mts, max: 170 mts)'
+        title: 'Visit Egadi’s greatest treasure'
+        description: 'Today you take another ferry to the third of the archipelago’s islands, which holds the Egadis’ greatest treasure: a gallery of prehistoric frescos painted between 10,000 and 6000 BC, which were discovered in a grotto in 1949. The walk today is a beautiful loop walk around the island via the grotto, which starts and finishes at the port.'
         duration: 2.0
         distance: 8.0
         elevation: 167
