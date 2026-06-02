@@ -6,7 +6,7 @@ name: Dolomites
 region: 'Trentino-Alto Adige'
 days: 6
 updated_by: 4
-updated_at: 1780365839
+updated_at: 1780366425
 grade: 4
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
@@ -119,9 +119,9 @@ page_builder:
       -
         id: mloozlek
         title: 'Walk the north side of the valley'
-        description: 'Your first walk is a spectacular introduction to the Dolomites.  To get to the start, you will be driven to the western end of the valley.  You then take a cable car to the top of the northern side, where you have breath-taking views over the whole range, stretching from Austria in the north to Veneto in the south.   You then take an undulating path across alpine pastures, through pine forests and back down to your village, with the option of stopping for lunch in a mountain hut along the way.'
+        description: 'Your first walk is a spectacular introduction to the Dolomites. To get to the start, you will be driven to the western end of the valley. You then take a cable car to the top of the northern side, where you have breath-taking views over the whole range, stretching from Austria in the north to Veneto in the south.  You then take an undulating path across alpine pastures, through pine forests and back down to your village, with the option of stopping for lunch in a mountain hut along the way.'
         duration: 4.0
-        distance: 10.0
+        distance: 11.5
         elevation: 250
         meals_included:
           - breakfast
@@ -130,11 +130,8 @@ page_builder:
       -
         id: mlop159i
         title: 'Walk to Ortisei'
-        description: |-
-          This morning is an easy day, following a gentle river-side path that takes you the length of the valley past farmhouses and through villages to the largest town in the valley  (2.5 hrs; 9 kms; max: 1563 mts, min: 1221 mts)
-
-          You’ll have time to visit the town with its shops, markets and museums and also have lunch.  In the afternoon, you will have the option of walking back your base along the same trail or taking one of the regular local buses back to your base.
-        duration: 3.0
+        description: 'This morning is an easy day, following a gentle river-side path that takes you the length of the valley past farmhouses and through villages to the largest town in the valley. You’ll have time to visit the town with its shops, markets and museums and also have lunch. In the afternoon, you will have the option of walking back your base along the same trail or taking one of the regular local buses back to your base.'
+        duration: 1.5
         distance: 9.0
         elevation: 187
         meals_included:
@@ -143,13 +140,10 @@ page_builder:
         photo: self-guided/dolomites-1/p9171957-(2)-1773019785.jpg
       -
         id: mlop3c5r
-        title: 'Walk Walk the south side of the valley'
-        description: |-
-          The walk today starts with a transfer back to the eastern end of the valley and another cable car ride, this time up the southern side of the valley (to 2,000 metres) from where you walk across the largest high altitude alpine meadows in Europe, a vast undulating amphitheatre of green fields surrounded by some of the most spectacular ranges in the area. 
-
-          The walk passes a small hamlet where you can have lunch before continuing under the cliffs and then dropping back down through forest into the valley to your base.  (4.5 hrs; 14 kms; max: 1995 mts, min: 1544 mts)
-        duration: 5.0
-        distance: 14.0
+        title: 'Walk the south side of the valley'
+        description: 'The walk today starts with a transfer back to the eastern end of the valley and another cable car ride, this time up the southern side of the valley (to 2,000 metres) from where you walk across the largest high altitude alpine meadows in Europe, a vast undulating amphitheatre of green fields surrounded by some of the most spectacular ranges in the area. The walk passes a small hamlet where you can have lunch before continuing under the cliffs and then dropping back down through forest into the valley to your base.'
+        duration: 4.0
+        distance: 15.0
         elevation: 279
         meals_included:
           - breakfast
@@ -158,9 +152,9 @@ page_builder:
       -
         id: mlop5205
         title: 'The grand finale'
-        description: 'As the grand finale to your visit, you have a circuit walk around one of the most famous formations in the Dolomites.  To get to the start, you take a cable car directly up from the town.  From here, you follow a trail that contours around this extraordinary massif, with cliffs soaring up above you (3000 mts). There are regular mountain huts along the way for refreshments.  This trail is not suitable for suffers of vertigo so we have included a shorter, lower and less challenging alternative.'
+        description: 'As the grand finale to your visit, you have a circuit walk around one of the most famous formations in the Dolomites. To get to the start, you take a cable car directly up from the town. From here, you follow a trail that contours around this extraordinary massif, with cliffs soaring up above you (3000m). There are regular mountain huts along the way for refreshments. This trail is not suitable for suffers of vertigo so we have included a shorter, lower and less challenging alternative.'
         duration: 6.0
-        distance: 19.0
+        distance: 19.5
         elevation: 394
         meals_included:
           - breakfast
@@ -182,7 +176,7 @@ page_builder:
     hide_from_subnav: false
   -
     id: tgGgo5fD6Wp46H72nZl2P
-    title: 'Dolomites 1 Experience'
+    title: 'Dolomites Experience'
     tabs:
       -
         id: AOPi3gsbq397Xcy1m50Yr
@@ -194,7 +188,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The trails follow well-marked and well-maintained paths with no dramatic climbs or descents and pass mountain huts along the way for breaks and lunch. While the walks do not have steep or long climbs (you use cable cars to avoid this), several of the walks are quite long: Day 4 is 14 kms and Day 5 is 19 kms (there is a shorter alternative on Day 5).\_ The circuit walk on Day 5 has some ‘exposed’ sections so is not suitable for people who suffer from vertigo (there is an alternative walk).\_ Full details on each walk are on the itinerary.\_ The self-guided itineraries are re-walked and the notes updated each year."
+                text: "The trails follow well-marked and well-maintained paths with no dramatic climbs or descents and pass mountain huts along the way for breaks and lunch. While the walks do not have steep or long climbs (you use cable cars to avoid this), several of the walks are quite long: Day 4 is 14 kms and Day 5 is 19 kms (there is a shorter alternative on Day 5).\_The circuit walk on Day 5 has some ‘exposed’ sections so is not suitable for people who suffer from vertigo (there is an alternative walk). Full details on each walk are on the itinerary. The self-guided itineraries are re-walked and the notes updated each year."
         type: walk
         enabled: true
       -
@@ -206,7 +200,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Accommodation is in ‘superior’ rooms with en-suite bathrooms in a very well located 4-star hotel, an excellent family run hotel on the sunny side of the valley with a ‘wellness’ centre, pool and surrounded by lawns.\_ It is in prettiest town in the valley.\_\_"
+                text: "Accommodation is in ‘superior’ rooms with en-suite bathrooms in a very well located 4-star hotel, an excellent family run hotel on the sunny side of the valley with a ‘wellness’ centre, pool and surrounded by lawns.\_It is in prettiest town in the valley.\_\_"
         media:
           - self-guided/dolomites-1/2.jpg
         type: accommodation
