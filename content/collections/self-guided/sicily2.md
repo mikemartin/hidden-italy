@@ -6,7 +6,7 @@ name: 'Sicily 2: the Egadi Islands'
 region: Sicily
 days: 7
 updated_by: 4
-updated_at: 1780359971
+updated_at: 1780360161
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
@@ -36,14 +36,14 @@ page_builder:
         content:
           -
             type: text
-            text: "It is a place of dramatic beauty: long rocky bays, soaring mountains and volcanic islands.\_ Once a neglected region renowned more for its Mafia strongholds than its tourist destinations, western Sicily has been reborn over the last 10 years and has much to offer, including its history, natural beauty, national parks and its food and wines."
+            text: "Explore the ‘other’ Sicily, the remarkable western side of the island, a place of dramatic beauty: long rocky bays, soaring mountains and volcanic islands.\_Once a neglected region renowned more for its Mafia strongholds than its tourist destinations, western Sicily has been reborn over the last 10 years and has much to offer, including its history, natural beauty, national parks and its food and wines."
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "Starting with a private transfer from Palermo, this tour takes you to the Egadi islands off the western tip of Sicily.\_ You’ll spend the next four days island hopping, exploring this fascinating and beautiful archipelago.\_ From here you’ll be taken to Sicily’s first national park for the last two nights, a spectacular piece of coastline stretching along the Castellamare Gulf, which you’ll walk on the last day."
+            text: "Starting with a private transfer from Palermo, this tour takes you to the Egadi islands off the western tip of Sicily.\_You’ll spend the next four days island hopping, exploring this fascinating and beautiful archipelago.\_From here you’ll be taken to Sicily’s first national park for the last two nights, a spectacular piece of coastline stretching along the Castellamare Gulf, which you’ll walk on the last day."
     title: 'A place of dramatic beauty'
     images:
       - self-guided/sicily-2-the-egadi-islands/favignana-6.jpg
@@ -81,8 +81,8 @@ page_builder:
         icon: water-sports-swimming.svg
       -
         id: mlrc9yr3
-        title: 'Relax and enjoy your holiday'
-        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
