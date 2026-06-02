@@ -5,19 +5,19 @@ title: 'Tuscany - Tuscany 3'
 name: 'Tuscany 3'
 region: Tuscany
 days: 5
-updated_by: 3
-updated_at: 1780028289
+updated_by: 4
+updated_at: 1780444094
 grade: 2
 inclusions:
   - 'Private transfer from Florence to San Gimignano on Day 1'
   - 'Four nights accommodation'
-  - 'Generous breakfasts each day'
-  - 'Reading lists and historical and cultural notes'
-  - 'Maps and detailed walking instructions'
+  - 'All breakfasts'
   - 'Daily transfers of baggage between hotels'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'Reading lists and historical and cultural notes'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App with GPS to complement the booklet'
   - 'A curated list of restaurants for each town'
-  - '24 hour backup from local manager'
+  - '24-hour support from our local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: central-italy
 landscapes:
@@ -35,14 +35,22 @@ page_builder:
         content:
           -
             type: text
-            text: "The well-marked trails take you through rolling countryside covered in vineyards, olive groves and forest, with long, open stretches of farmlands and fields dotted the occasional farmhouse or cluster of cypress.\_ Each day you pass through small villages and rural hamlets, where you can pause for a coffee, a drink of water or a snack.\_\_"
+            text: "The well-marked trails take you through rolling countryside covered in vineyards, olive groves and forest, with long, open stretches of farmlands and fields dotted the occasional farmhouse or cluster of cypress. Each day you pass through small villages and rural hamlets, where you can pause for a coffee, a drink of water or a snack.\_"
       -
         type: paragraph
         content:
           -
             type: text
-            text: "The accommodation is a highlight of the tour.\_ You stay in very comfortable, three-star hotels in historic buildings in the heart of each town.\_ Another highlight, of course, is the food.\_ Tuscan cooking, with its emphasis on simple dishes using fresh, quality, local ingredients, has had an enormous influence on Italian cuisine.\_ As well as this, you are also walking through the Chianti district, which produces some of the country's finest wines."
+            text: "The accommodation is a highlight of the tour.\_ You stay in very comfortable, three-star hotels in historic buildings in the heart of each town.\_"
+      -
+        type: paragraph
     column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Another highlight, of course, is the food.\_Tuscan cooking, with its emphasis on simple dishes using fresh, quality, local ingredients, has had an enormous influence on Italian cuisine.\_ As well as this, you are also walking through the Chianti district, which produces some of the country's finest wines."
       -
         type: paragraph
         content:
@@ -83,15 +91,15 @@ page_builder:
         summary: 'Enjoy the food and wine that have made this region famous: fresh authentic flavors, simple dishes with exceptional wine.'
         icon: 'wine-wine bottle.svg'
       -
-        id: mmx1061d
-        title: 'Relax and enjoy for holiday'
-        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
-        icon: culture-champagne.svg
-      -
         id: WnHtbv6LQHbEKu3kGTNc-
         title: 'Stay in fabulous accommodation'
         summary: 'Each night, you sleep in lovely 3-star hotel in the heart of the historic centre of these gorgeous, Renaissance towns.'
         icon: medieval-castle-wall.svg
+      -
+        id: mmx1061d
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
+        icon: culture-champagne.svg
     type: highlights
     enabled: true
     section_background: light
@@ -346,7 +354,7 @@ summary:
     content:
       -
         type: text
-        text: "Walking the Via Francigena from San Gimignano to Siena is a unique experience.\_\_ It starts in San Gimignano, a gorgeous town with a stunning hilltop skyline of towers.\_ From here you follow in the footsteps of medieval pilgrims all the way to the glorious the walled city of Siena, 'the most perfectly preserved medieval city in Europe'.\_ In between, you stay in a town that made its wealth in the wool trade in the Middle Ages and a fortified village that was Siena's stronghold again Florence."
+        text: "Walking the Via Francigena from San Gimignano to Siena is a unique experience.\_It starts in San Gimignano, a gorgeous town with a stunning hilltop skyline of towers. From here you follow in the footsteps of medieval pilgrims all the way to the glorious walled city of Siena, 'the most perfectly preserved medieval city in Europe'.\_In between, you stay in a town that made its wealth from the wool trade in the Middle Ages and in a fortified village that was Siena's stronghold against Florence."
 price: 'A$3,000'
 show_from: true
 og_image: tuscany-tuscany-3-og-1779335305.png
