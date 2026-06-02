@@ -5,13 +5,13 @@ title: 'Tuscany - Tuscany 1'
 name: 'Tuscany 1'
 region: Tuscany
 days: 6
-updated_by: 3
-updated_at: 1780028251
+updated_by: 4
+updated_at: 1780366885
 grade: 2
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
   - 'Five nights accommodation'
-  - 'All breakfasts included'
+  - 'All breakfasts'
   - 'Reading lists and historical and cultural notes'
   - 'Maps and detailed walking instructions'
   - 'Hidden Italy App with GPS to complement the roadbook'
@@ -35,23 +35,16 @@ page_builder:
         content:
           -
             type: text
-            text: "Leaving the medieval walls of\_Montalcino, you'll following well-marked, undulating trails to finish four days later\_in Montepulciano, having passed through\_an area as famous for its rolling hills, wheat fields dotted with red brick farmhouses, stands of deep green cypress pines and endless views, as it is famous for its wines and food."
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "Along the way you stay in some of the most celebrated town in Tuscany, cultural treasures that include a beautifully restored pilgrim town; a magnificent papal town; and Montepulciano, 'pearl of the Renaissance'.  At the end of the tour you will have a private transfer to Chiusi, well-connected by train to Rome and Florence.  "
+            text: "You pass through classic Tuscan countryside, following sections of the Via Francigena, a medieval road that bisected the valley linking Papal Rome with northern Europe, carrying pilgrims, traders, Crusader armies, emperors and popes, the valley is lined with castles, monasteries and villages that date from this period. Leaving the medieval walls of\_Montalcino, you'll following well-marked, undulating trails to finish four days later\_in Montepulciano, having passed through\_an area as famous for its rolling hills, wheat fields dotted with "
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            marks:
-              -
-                type: italic
-            text: "The Val d'Orcia is where Hidden Italy had its first tour over thirty years ago, and it is still one of my favourite areas in Italy!"
+            text: "red brick farmhouses, stands of deep green cypress pines and endless views, as it is famous for its wines and food. Along the way you stay in some of the most celebrated town in Tuscany, cultural treasures that include a beautifully restored pilgrim town; a magnificent papal town; and Montepulciano, 'pearl of the Renaissance'.  At the end of the tour you will have a private transfer to Chiusi, well-connected by train to Rome and Florence.  "
+      -
+        type: paragraph
     title: 'From medieval walls to rolling hills'
     images:
       - self-guided/tuscany-1/img_5098.jpg
@@ -373,7 +366,16 @@ summary:
     content:
       -
         type: text
-        text: "This wonderful tour starts with a private transfer from Siena (or Chiusi) to Montalcino, a gorgeous hill-town celebrated for its wines.  From here, the walk takes you through the Val d'Orcia, one of the most beautiful places in Italy (the world?).  You pass through classic Tuscan countryside, following sections of the Via Francigena, a medieval road that bisected the valley linking Papal Rome with northern Europe, carrying pilgrims, traders, Crusader armies, emperors and popes.  The valley is lined with castles, monasteries and villages that date from this period. "
+        text: "This wonderful 6-day/5-night tour starts with a private transfer from Siena (or Chiusi) to Montalcino, a gorgeous hill-town celebrated for its wines. The walk takes you through the Val d'Orcia, one of the most beautiful places in Italy (the world?). "
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: "The Val d'Orcia is where Hidden Italy had its first tour over thirty years ago, and it is still one of my favourite areas in Italy!"
 price: 'A$3,100'
 show_from: true
 og_image: tuscany-tuscany-1-og-1779335301.png
