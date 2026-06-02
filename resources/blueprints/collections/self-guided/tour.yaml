@@ -116,6 +116,23 @@ tabs:
               reading_time: true
               word_count: true
           -
+            handle: days
+            field:
+              type: integer
+              display: Days
+              validate:
+                - required
+                - integer
+              width: 50
+          -
+            handle: grade
+            field:
+              max: 5
+              type: range
+              display: Grade
+              append: '/ 5'
+              width: 50
+          -
             handle: inclusions
             field:
               type: list
@@ -196,21 +213,6 @@ tabs:
               display: 'Show "From" prefix'
               default: true
               instructions: 'Prefixes the price with "From " when the tour has variants or starting prices.'
-          -
-            handle: days
-            field:
-              type: integer
-              display: Days
-              validate:
-                - required
-                - integer
-          -
-            handle: grade
-            field:
-              max: 5
-              type: range
-              display: Grade
-              append: '/ 5'
           -
             handle: filter_grade
             field:
