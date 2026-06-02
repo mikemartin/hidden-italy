@@ -123,7 +123,7 @@ return [
     |
     */
 
-    'localize_dates_in_modifiers' => false,
+    'localize_dates_in_modifiers' => true,
 
     /*
     |--------------------------------------------------------------------------
