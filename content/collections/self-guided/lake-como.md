@@ -44,7 +44,7 @@ page_builder:
             text: "the eastern shore; a loop walk that follows an old smugglers' routes above the western side of the lake\_ up through oak forests to open farmlands with breath-taking views into Switzerland; an interesting walk through the villages that surround Bellagio; and, as a grande finale, an extraordinary walk in the mountains above Bellagio with endless views across the lake and surrounding mountains."
     images:
       - self-guided/the-amalfi-coast/menaggio-1.jpg
-      - self-guided/the-amalfi-coast/menaggio-17.jpg
+      - self-guided/lake-como/menaggio-17.jpg
       - self-guided/the-amalfi-coast/43.3.jpg
     type: overview
     enabled: true
@@ -109,7 +109,7 @@ page_builder:
         elevation: 389
         meals_included:
           - breakfast
-        photo: self-guided/the-amalfi-coast/menaggio-17.jpg
+        photo: self-guided/lake-como/menaggio-17.jpg
       -
         id: mlop159i
         title: TBA
@@ -319,7 +319,7 @@ gallery:
   - self-guided/the-amalfi-coast/32-a.jpg
   - self-guided/the-amalfi-coast/menaggio-18.jpg
   - self-guided/the-amalfi-coast/17-v2.jpg
-image: self-guided/the-amalfi-coast/menaggio-17.jpg
+image: self-guided/lake-como/menaggio-17.jpg
 start_location:
   label: 'Como, Lombardy, Italy'
   lat: '45.8115623'
