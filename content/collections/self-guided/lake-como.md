@@ -99,7 +99,7 @@ page_builder:
         id: mlooymbz
         title: 'Arrive in Como'
         description: 'You will met in Como and driven to your lakeside accommodation with a private transfer.  After checking in, the rest of the day will be free for you to explore.'
-        photo: self-guided/the-amalfi-coast/varenna-from-castle_hrc.jpg
+        photo: self-guided/lake-como/varenna-from-castle_hrc.jpg
       -
         id: mloozlek
         title: TBA
@@ -307,7 +307,7 @@ page_builder:
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
 gallery:
-  - self-guided/the-amalfi-coast/varenna-from-castle_hrc.jpg
+  - self-guided/lake-como/varenna-from-castle_hrc.jpg
   - self-guided/the-amalfi-coast/28.3.jpg
   - self-guided/the-amalfi-coast/28.6.jpg
   - self-guided/the-amalfi-coast/116.jpg
