@@ -5,8 +5,8 @@ title: 'Liguria - The Cinque Terre'
 name: 'The Cinque Terre'
 region: Liguria
 days: 7
-updated_by: 3
-updated_at: 1780028115
+updated_by: 4
+updated_at: 1780367635
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -15,10 +15,10 @@ inclusions:
   - 'The Hidden Italy booklet with maps and detailed walking instructions'
   - 'The Hidden Italy App with GPS to complement the booklet'
   - 'Daily transfers of baggage between hotels'
-  - 'Drop-off at the end of the tour from Portovenere to La Spezia station (on the Rome/Genoa line)'
-  - '24 hour backup from local manager'
-  - 'City taxes are not included in the cost of the tour'
   - 'A curated list of restaurants for each town you visit'
+  - 'Drop-off at the end of the tour from Portovenere to La Spezia station (on the Rome/Genoa line)'
+  - '24-hour support from our local manager'
+  - 'City taxes are not included in the cost of the tour'
 locations: northern-italy
 landscapes:
   - coastal
