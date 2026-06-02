@@ -6,7 +6,7 @@ name: 'Tuscany 2'
 region: Tuscany
 days: 7
 updated_by: 4
-updated_at: 1780367988
+updated_at: 1780368141
 grade: 4
 inclusions:
   - 'Private transfer from Florence on Day 1 and to Siena on Day 6'
@@ -61,7 +61,7 @@ page_builder:
     activities:
       -
         id: mlooee34
-        title: 'Enjoy a continuous 7-day walk'
+        title: 'Enjoy a continuous walking'
         summary: 'Enjoy a continuous walk from village to village for five days following well-marked trails through beautiful countryside'
         icon: trekking-trekking.svg
       -
@@ -82,12 +82,12 @@ page_builder:
       -
         id: mmbinilb
         title: 'Soak up Siena'
-        summary: "Stay in a lovely hotel near the Piazza del Campo, in the heart of Siena, Europe's most perfectly preserved Medieval city"
+        summary: "Stay in a lovely hotel near the Piazza del Campo, in the heart of Siena, Europe's most perfectly preserved Medieval city."
         icon: culture-vatican.svg
       -
         id: mmx1061d
-        title: 'Relax and enjoy for holiday'
-        summary: 'Everything has been looked after: transfer from Florence; rooms; daily luggage transfers; maps and app; 24-hour support!'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
