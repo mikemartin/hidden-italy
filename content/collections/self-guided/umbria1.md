@@ -6,7 +6,7 @@ name: 'Umbria 1: Cammino of St Francis Part 1'
 region: Umbria
 days: 6
 updated_by: 4
-updated_at: 1780449701
+updated_at: 1780449803
 grade: 3
 inclusions:
   - 'Five nights accommodation'
@@ -168,7 +168,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The walks follow clear, well-marked trails mostly along unsealed country lanes over undulating hills.\_ There are two longer walks at the beginning (16 and 19 kms) as well as a long section of asphalt on Day 2, where the trail dips down from the hills and crosses through Foligno, a fascinating town on the plains.\_ Full details on each walk are on the itinerary.\_ "
+                text: "The walks follow clear, well-marked trails mostly along unsealed country lanes over undulating hills.\_There are two longer walks at the beginning (16 and 19 kms) as well as a long section of asphalt on Day 2, where the trail dips down from the hills and crosses through Foligno, a fascinating town on the plains.\_Full details on each walk are on the itinerary.\_"
               -
                 type: text
                 marks:
@@ -187,7 +187,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "In the spirit of the long-distance pilgrimage, we have sought to keep the costs down.\_ The accommodation is in centrally-located, historic, family-run 3-star hotels.\_ They are comfortable and welcoming.\_ All rooms have en suite bathrooms."
+                text: "In the spirit of the long-distance pilgrimage, we have sought to keep the costs down. The accommodation is in centrally-located, historic, family-run 3-star hotels.\_They are comfortable and welcoming. All rooms have ensuite bathrooms."
         media:
           - self-guided/cammino-of-st-francis-umbria-1/05.jpg
         type: accommodation
@@ -201,7 +201,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "You are walking through one of the more celebrated food and wine regions of Italy - famous for its Sagrantino red wine; 'norcineria' (sausages and cold cuts); lentils; truffles and.... chocolate.\_ Umbrian cuisine is dominated by olive oil, which features in everything from roast pork to its luxurious truffle dishes, the pride of the region.\_ Local dishes, as a result, are simple and tasty, putting the accent on the excellent quality of the raw materials.\_ You only need three things to make good Umbrian food: a fire or oven, local produce and plenty of time."
+                text: "You are walking through one of the more celebrated food and wine regions of Italy - famous for its Sagrantino red wine; 'norcineria' (sausages and cold cuts); lentils; truffles and.... chocolate.\_Umbrian cuisine is dominated by olive oil, which features in everything from roast pork to its luxurious truffle dishes, the pride of the region. Local dishes, as a result, are simple and tasty, putting the accent on the excellent quality of the raw materials.\_You only need three things to make good Umbrian food: a fire or oven, local produce and plenty of time."
           -
             type: paragraph
             content:
@@ -210,7 +210,7 @@ page_builder:
                 marks:
                   -
                     type: italic
-                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+                text: "Generous breakfasts are included each day.\_Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_You will be able to make reservations where applicable directly through the Hidden Italy App."
         media:
           - self-guided/cammino-of-st-francis-umbria-1/12.jpg
         type: food
