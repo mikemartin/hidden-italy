@@ -6,7 +6,7 @@ name: 'Umbria 2: Cammino of St Francis part 2'
 region: Umbria
 days: 7
 updated_by: 4
-updated_at: 1780450507
+updated_at: 1780451618
 grade: 4
 inclusions:
   - 'Six nights accommodation'
@@ -97,8 +97,8 @@ page_builder:
         icon: nature-lake.svg
       -
         id: mmbinilb
-        title: 'Relax and enjoy your holiday'
-        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -107,19 +107,19 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloox88g
-    title: 'Umbria 2 tour itinerary'
+    title: 'Umbria 2 Itinerary'
     summary: 'The second leg of the ‘Cammino of St Francis’, this beautiful seven day walk takes you far from the madding crowd to explore the ‘green heart of Italy’, following well-marked trails through forests, along river valleys and past lakes to Rieti, home of the Sabines and an ancient rival of Rome.'
     days:
       -
         id: mlooymbz
         title: 'Arrive in Spoleto'
-        description: 'Arrival in Spoleto, well-connected to Florence and Rome.  This charming city has a long and fascinating history: besieged by Hannibal and his elephants, it was the seat of a Lombard duchy and had the 19 year old Lucrezia Borgia as it’s governor.  These days it is best known for its summer festival, the Festival dei Due Mondi, Italy’s largest international arts event.'
+        description: 'Arrival in Spoleto, well-connected to Florence and Rome. This charming city has a long and fascinating history: besieged by Hannibal and his elephants, it was the seat of a Lombard duchy and had the 19 year old Lucrezia Borgia as it’s governor. These days it is best known for its summer festival, the Festival dei Due Mondi, Italy’s largest international arts event.'
         photo: self-guided/cammino-of-st-francis-umbria-2/1.jpg
       -
         id: mloozlek
         title: 'Walk to the Nera Valley'
-        description: 'After a steep climb to the Franciscan convent of Monteluco (built around a cave in which St Francis lived), this walk crosses forests, along paths that traverse mountain-sides with breath-taking views of the Tiber and Nera valleys.  After a steep downhill path, you arrive at a hamlet and then follow the Nera River to a gorgeous, small hilltop town.'
-        duration: 5.0
+        description: 'After a steep climb to the Franciscan convent of Monteluco (built around a cave in which St Francis lived), this walk crosses forests, along paths that traverse mountain-sides with breath-taking views of the Tiber and Nera valleys. After a steep downhill path, you arrive at a hamlet and then follow the Nera River to a gorgeous, small hilltop town.'
+        duration: 6.0
         distance: 21.0
         elevation: 666
         meals_included:
@@ -128,7 +128,7 @@ page_builder:
       -
         id: mlop159i
         title: 'Walk down the Nera River'
-        description: 'Today’s walk takes you along a flat trail that passes through a national park beside the Nera River to a pretty medieval village sitting on a rocky pinnacle above the river.  Along the way, you will be able to detour to visit a spectacularly sited abbey founded in the 8th century considered one of the most beautiful in central Italy, where you can have lunch and enjoy the views. (5 hrs; 18 kms; min: 228 mts, max: 314 mts)'
+        description: 'Today’s walk takes you along a flat trail that passes through a national park beside the Nera River to a pretty medieval village sitting on a rocky pinnacle above the river. Along the way, you will be able to detour to visit a spectacularly sited abbey founded in the 8th century considered one of the most beautiful in central Italy, where you can have lunch and enjoy the views.'
         duration: 5.0
         distance: 18.0
         elevation: 86
@@ -137,9 +137,9 @@ page_builder:
         photo: self-guided/cammino-of-st-francis-umbria-2/7.jpg
       -
         id: mlop3c5r
-        title: 'Walk to a lake'
-        description: 'A spectacular waterfall created when the Romans drained the marshlands of Rieti in 267 BC and a serene lake are the highlights of today’s walk.  The undulating trail follows the Nera River along quiet country roads and marked pathways to the lake, home of the Italian national rowing team, where you’ll stay in a hotel on the lake shores.  (4 hrs; 14 kms; min: 213 mts, max: 391 mts).'
-        duration: 4.0
+        title: 'Follow the Nera River'
+        description: 'A spectacular waterfall created when the Romans drained the marshlands of Rieti in 267 BC and a serene lake are the highlights of today’s walk. The undulating trail follows the Nera River along quiet country roads and marked pathways to the lake, home of the Italian national rowing team, where you’ll stay in a hotel on the lake shores.'
+        duration: 3.5
         distance: 14.0
         elevation: 178
         meals_included:
@@ -147,9 +147,9 @@ page_builder:
         photo: self-guided/cammino-of-st-francis-umbria-2/sofia-msnxoysxjsq-unsplash.jpg
       -
         id: mlop5205
-        title: 'Discover the Rieti valley'
-        description: 'The day’s walk is probably the most demanding of the week, but is also one of the most spectacular.  It starts by crossing the border from Umbria into the region of Lazio, climbing to an ancient village perched high above the lake.  It continues to a remote  forest and an ancient tree that is believed to have sheltered St Francis during a storm.  The long downhill walk is rewarded with an overnight in a medieval village which has beautiful views across the Rieti valley.'
-        duration: 5.0
+        title: 'Discover the Rieti Valley'
+        description: 'The day’s walk is probably the most demanding of the week, but is also one of the most spectacular. It starts by crossing the border from Umbria into the region of Lazio, climbing to an ancient village perched high above the lake. It continues to a remote  forest and an ancient tree that is believed to have sheltered St Francis during a storm. The long downhill walk is rewarded with an overnight in a medieval village which has beautiful views across the Rieti valley.'
+        duration: 6.0
         distance: 20.0
         elevation: 726
         meals_included:
@@ -157,8 +157,8 @@ page_builder:
         photo: self-guided/cammino-of-st-francis-umbria-2/img_5356.jpg
       -
         id: mlop6avf
-        title: 'Walk to Rieti'
-        description: 'Today takes on a lovely walk through forests, fields and farms to another charming town, followed by a visit to a 13th century sanctuary where St Francis took refuge in the later stages of his life.  It finishes in the buzzy centre of Rieti, with shops, restaurants, a rich history and a beautiful cathedral.  (4.5 hrs; 18 kms; min: 390 mts, max: 716 mts)'
+        title: 'Forests, Fields and Farms'
+        description: 'Today takes on a lovely walk through forests, fields and farms to another charming town, followed by a visit to a 13th century sanctuary where St Francis took refuge in the later stages of his life. It finishes in the buzzy centre of Rieti, with shops, restaurants, a rich history and a beautiful cathedral.'
         duration: 5.0
         distance: 18.0
         elevation: 326
