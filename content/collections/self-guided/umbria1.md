@@ -6,7 +6,7 @@ name: 'Umbria 1: Cammino of St Francis Part 1'
 region: Umbria
 days: 6
 updated_by: 4
-updated_at: 1780449803
+updated_at: 1780449865
 grade: 3
 inclusions:
   - 'Five nights accommodation'
@@ -133,7 +133,7 @@ page_builder:
         photo: self-guided/cammino-of-st-francis-umbria-1/6.jpg
       -
         id: mlop5205
-        title: 'Walk to Spoleto'
+        title: 'Walk the Sentiero degli Ulivi'
         description: "The last walk continues along the 'Sentiero degli Ulivi', winding through olive groves, around the side of the hills past a string of villages before arriving in Spoleto, entering this gorgeous city through the lower medieval walls and climbing up to the cathedral square."
         duration: 5.0
         distance: 19.0
