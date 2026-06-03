@@ -6,7 +6,7 @@ name: 'Tuscany 3'
 region: Tuscany
 days: 5
 updated_by: 4
-updated_at: 1780445103
+updated_at: 1780445858
 grade: 2
 inclusions:
   - 'Private transfer from Florence to San Gimignano on Day 1'
@@ -192,7 +192,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Hidden Italy uses the best accommodation available and the accommodation on this walk is one of the highlights.\_\_You'll be staying in the best hotels in each place,all\_in\_restored historical palazzi in the heart of each town and village, some dating from the Middle Ages and all steeped in the wonderful history of Tuscany. \_All rooms have ensuite bathrooms."
+                text: "Hidden Italy uses the best accommodation available and the accommodation on this walk is one of the highlights.\_You'll be staying in the best hotels in each place, all\_in\_restored historical palazzi in the heart of each town and village, some dating from the Middle Ages and all steeped in the wonderful history of Tuscany.\_All rooms have ensuite bathrooms."
         media:
           - self-guided/tuscany-3/palazzo-ravizza-siena-pic-33.jpeg
         type: accommodation
@@ -206,7 +206,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The traditional dishes of Tuscany are Italy's most influential cuisine.\_ The ingredients and techniques of the region have made their mark not just on the menus of the rest of Italy but also abroad, even in France.\_ The produce is of the highest quality, with its mushrooms, truffles and prosciutto especially prized.\_ Wine has always been central to Tuscany's economy and way of life, familiar names like Chianti and Brunello are just a portion of their enormous output."
+                text: "The traditional dishes of Tuscany are Italy's most influential cuisine.\_The ingredients and techniques of the region have made their mark not just on the menus of the rest of Italy but also abroad, even in France.\_The produce is of the highest quality, with its mushrooms, truffles and prosciutto especially prized. Wine has always been central to Tuscany's economy and way of life, familiar names like Chianti and Brunello are just a portion of their enormous output."
           -
             type: paragraph
             content:
@@ -215,7 +215,7 @@ page_builder:
                 marks:
                   -
                     type: italic
-                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+                text: 'Generous breakfasts are included each day. Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit. You will be able to make reservations where applicable directly through the Hidden Italy App.'
         media:
           - self-guided/tuscany-3/img_5061.jpg
         type: food
