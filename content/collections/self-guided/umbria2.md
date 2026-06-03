@@ -6,7 +6,7 @@ name: 'Umbria 2: Cammino of St Francis part 2'
 region: Umbria
 days: 7
 updated_by: 4
-updated_at: 1780451636
+updated_at: 1780451795
 grade: 4
 inclusions:
   - 'Six nights accommodation'
@@ -178,7 +178,7 @@ page_builder:
     hide_from_subnav: false
   -
     id: xcWZUtn7sJtCsH09d0uvO
-    title: 'Umbria 2 experience'
+    title: 'Umbria 2 Experience'
     tabs:
       -
         id: mHb4rqFxO0jDx8CKjPTWK
@@ -192,7 +192,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The walks follow clear and well-marked trails and much of the walk passes along river flats and over undulating farmlands.\_ However, there are two days with long walks: Day 5 (20 kms) and Day 6 (18 kms) and two days with long climbs long climbs (on Day 2 and on Day 5).\_ Full details on each walk are on the itinerary.\_"
+                text: "The walks follow clear and well-marked trails and much of the walk passes along river flats and over undulating farmlands.\_However, there are two days with long walks: Day 5 (20 kms) and Day 6 (18 kms) and two days with long climbs long climbs (on Day 2 and on Day 5).\_Full details on each walk are on the itinerary.\_"
               -
                 type: text
                 marks:
@@ -211,7 +211,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "In the spirit of the long-distance pilgrimage, we have sought to keep the costs down.\_ The accommodation in between is the best available in each places including a 4-star hotel, asimple family-run agriturismo, a private apartment and modern lake-side hotel.\_ All the accommodation is clean, comfortable and welcoming and each room has an en suite bathroom."
+                text: "In the spirit of the long-distance pilgrimage, we have sought to keep the costs down. The accommodation in between is the best available in each places including a 4-star hotel, a simple family-run agriturismo, a private apartment and modern lake-side hotel.\_All the accommodation is clean, comfortable and welcoming and each room has an ensuite bathroom."
         media:
           - self-guided/cammino-of-st-francis-umbria-2/miralago-1.jpg
         type: accommodation
@@ -225,7 +225,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "You are walking through one of the more celebrated food and wine regions of Italy - famous for its Sagrantino red wine; 'norcineria' (sausages and cold cuts); lentils; truffles and.... chocolate.\_ Umbrian cuisine is dominated by olive oil, which features in everything from roast pork to its luxurious truffle dishes, the pride of the region.\_ Local dishes, as a result, are simple and tasty, putting the accent on the excellent quality of the raw materials.\_ You only need three things to make good Umbrian food: a fire or oven, local produce and plenty of time."
+                text: "You are walking through one of the more celebrated food and wine regions of Italy - famous for its Sagrantino red wine; 'norcineria' (sausages and cold cuts); lentils; truffles and.... chocolate.\_Umbrian cuisine is dominated by olive oil, which features in everything from roast pork to its luxurious truffle dishes, the pride of the region. Local dishes, as a result, are simple and tasty, putting the accent on the excellent quality of the raw materials. You only need three things to make good Umbrian food: a fire or oven, local produce and plenty of time."
           -
             type: paragraph
             content:
@@ -234,7 +234,7 @@ page_builder:
                 marks:
                   -
                     type: italic
-                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+                text: "Generous breakfasts are included each day.\_Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_You will be able to make reservations where applicable directly through the Hidden Italy App."
         media:
           - self-guided/cammino-of-st-francis-umbria-2/7.6.jpg
         type: food
