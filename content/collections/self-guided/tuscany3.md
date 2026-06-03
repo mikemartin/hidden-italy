@@ -6,7 +6,7 @@ name: 'Tuscany 3'
 region: Tuscany
 days: 5
 updated_by: 4
-updated_at: 1780444402
+updated_at: 1780445103
 grade: 2
 inclusions:
   - 'Private transfer from Florence to San Gimignano on Day 1'
@@ -107,7 +107,7 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloox88g
-    title: 'Tiuscany 3 itinerary'
+    title: 'Tuscany 3 itinerary'
     summary: 'Starting with a transfer from Florence to San Gimignano, these well-marlked trail take you along the Via Francigena, a medieval pilgrim route, passing through the famous Tuscany countryside: forests, olive groves, vineyards and rolling hills - a classic walk!'
     days:
       -
@@ -121,7 +121,7 @@ page_builder:
       -
         id: mloozlek
         title: 'Walk through vineyards'
-        description: "Today's walk takes you to another well-preserved medieval town that prospered trading in the Middle Ages. The walk leaves San Gimignano along the Via Francigena.  It passes vineyards and olive groves before following a narrow, forested valley, taking you through a landscape that has changed little since the Middle Ages."
+        description: "Today's walk takes you to another well-preserved medieval town that prospered trading in the Middle Ages. The walk leaves San Gimignano along the Via Francigena. It passes vineyards and olive groves before following a narrow, forested valley, taking you through a landscape that has changed little since the Middle Ages."
         duration: 3.0
         distance: 12.0
         elevation: 174
@@ -173,7 +173,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "It generally follows unsealed country roads through rolling hills and farmland, passing through villages and hamlets along the way.\_ The walks range from 8 kilometres to 16 kilometres.\_ The last walk into Siena is 20 kms long but can be shortened!\_ There are no steep climbs and you have plenty of time to enjoy the walks.\_ Full details on each walk are on the itinerary.\_ "
+                text: "It generally follows unsealed country roads through rolling hills and farmland, passing through villages and hamlets along the way.\_The walks range from 8km to 16km.\_The last walk into Siena is 20 kms long but can be shortened!\_There are no steep climbs and you have plenty of time to enjoy the walks.\_Full details on each walk are on the itinerary.\_"
               -
                 type: text
                 marks:
