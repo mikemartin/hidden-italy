@@ -6,7 +6,7 @@ name: 'Umbria 2: Cammino of St Francis part 2'
 region: Umbria
 days: 7
 updated_by: 4
-updated_at: 1780451795
+updated_at: 1780452046
 grade: 4
 inclusions:
   - 'Six nights accommodation'
@@ -117,7 +117,7 @@ page_builder:
         photo: self-guided/cammino-of-st-francis-umbria-2/1.jpg
       -
         id: mloozlek
-        title: 'Walk to the Nera Valley'
+        title: 'Traverse mountain-sides'
         description: 'After a steep climb to the Franciscan convent of Monteluco (built around a cave in which St Francis lived), this walk crosses forests, along paths that traverse mountain-sides with breath-taking views of the Tiber and Nera valleys. After a steep downhill path, you arrive at a hamlet and then follow the Nera River to a gorgeous, small hilltop town.'
         duration: 6.0
         distance: 21.0
