@@ -6,7 +6,7 @@ name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
 updated_by: 4
-updated_at: 1780455056
+updated_at: 1780455133
 grade: 4
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
@@ -32,20 +32,20 @@ page_builder:
         content:
           -
             type: text
-            text: "The Valley del Lys a long and narrow valley that starts at the glacier-covered slopes of Monte Rosa, the second highest mountain in the European Alps, and winds south following the course of the Lys River to the main Aosta Valley.\_ It is a narrow valley, its steep sides covered in pine and beech forests; and highland pastures scattered with tiny hamlets.\_ The valley was originally inhabited by the Walsers, a German-speaking people who migrated over the passes from Switzerland in the 13th century.\_ Even after eight centuries, German is still spoken, the traditions are still alive and the towns and villages of the valley are still characterised by their beautiful, timber architecture."
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "The fully-supported tour begins with a transfer from Pont-St-Martin railway to the start of the hike.\_ From here you follow well-marked trails, including sections of the Great Walser Trail, to the foot of Monte Rosa.\_ Along the way, you will stay in marvellous, historic accommodation and enjoy the hospitality of these welcoming mountain people.\_ You will be transferred back to Pont-St-Martin at the end of the tour."
+            text: "The Valley del Lys a long and narrow valley that starts at the glacier-covered slopes of Monte Rosa, the second highest mountain in the European Alps, and winds south following the course of the Lys River to the main Aosta Valley.\_It is a narrow valley, its steep sides covered in pine and beech forests; and highland pastures scattered with tiny hamlets.\_The valley was originally inhabited by the Walsers, a German-speaking people who migrated over the passes from Switzerland in the 13th century.\_ Even after eight centuries, German is still spoken, the traditions are still alive and the towns and villages of the valley are still characterised by their beautiful, timber architecture."
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Please note that your breakfasts and dinners are included each day!'
+            text: "The fully-supported tour begins with a transfer from Pont-St-Martin railway to the start of the hike. From here you follow well-marked trails, including sections of the Great Walser Trail, to the foot of Monte Rosa.\_Along the way, you will stay in marvellous, historic accommodation and enjoy the hospitality of these welcoming mountain people.\_You will be transferred back to Pont-St-Martin at the end of the tour. "
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Due to the nature of this hike your breakfasts and dinners are included each day!'
     title: 'From the Aosta Valley to Monte Rosa'
     images:
       - self-guided/valley-del-lys/7.jpg
