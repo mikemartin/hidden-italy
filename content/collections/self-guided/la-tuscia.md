@@ -6,7 +6,7 @@ name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 7
 updated_by: 4
-updated_at: 1780446377
+updated_at: 1780446387
 grade: 3
 inclusions:
   - 'Private transfer from Rome to Pitigliano on Day 1'
@@ -91,7 +91,7 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloox88g
-    title: 'La Tuscia tour itinerary'
+    title: 'La Tuscia Itinerary'
     summary: 'Following beautiful trails through rolling farmlands, forests and sleepy country villages steeped history well off the beaten track, the La Tuscia tour is a Hidden Italy special!'
     days:
       -
