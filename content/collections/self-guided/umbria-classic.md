@@ -6,7 +6,7 @@ name: 'Umbria Classic'
 region: Umbria
 days: 7
 updated_by: 4
-updated_at: 1780454728
+updated_at: 1780454785
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -183,7 +183,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The walks mainly\_follow unsealed country roads passing thdough farmlands, olive groves and vineyards. The walks range from 8 to 21 kilometres (3 to 6 hours).\_ The first walk on Day 2 is probably the most challenging with a steep climb at the beginning (the views on the top of Mt Subasio are your reward) however, there is a shorter option with less climbing is included in the notes. \_Day 5 walk (21 kms) can be shortened with an night in an excellent 4-star hotel along the way (highly recommended!).\_ "
+                text: "The walks mainly\_follow unsealed country roads passing thdough farmlands, olive groves and vineyards. The walks range from 8 to 21 kilometres (3 to 6 hours).\_The first walk on Day 2 is probably the most challenging with a steep climb at the beginning (the views on the top of Mt Subasio are your reward) however, there is a shorter option with less climbing is included in the notes.\_Day 5 walk (21 kms) can be shortened with an night in an excellent 4-star hotel along the way (highly recommended!).\_"
               -
                 type: text
                 marks:
@@ -214,7 +214,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "You are walking through one of the most celebrated food and wine regions of Italy - famous for its Sagrantino red wine; 'norcineria' (sausages and cold cuts); lentils; truffles and.... chocolate.\_ Umbrian by olive oil, which features in everything from roast pork to its luxurious truffle dishes, the pride of the region.\_ Local dishes, as a result, are simple and tasty, putting the accent on the excellent quality of the raw materials.\_ You only need three things to make good Umbrian food: a fire or oven, local produce and plenty of time."
+                text: "You are walking through one of the most celebrated food and wine regions of Italy - famous for its Sagrantino red wine; 'norcineria' (sausages and cold cuts); lentils; truffles and.... chocolate.\_Umbrian by olive oil, which features in everything from roast pork to its luxurious truffle dishes, the pride of the region. Local dishes, as a result, are simple and tasty, putting the accent on the excellent quality of the raw materials. You only need three things to make good Umbrian food: a fire or oven, local produce and plenty of time."
           -
             type: paragraph
             content:
@@ -223,7 +223,7 @@ page_builder:
                 marks:
                   -
                     type: italic
-                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+                text: "Generous breakfasts are included each day.\_Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_You will be able to make reservations where applicable directly through the Hidden Italy App."
         type: food
         enabled: true
     type: experience
