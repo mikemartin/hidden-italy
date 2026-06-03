@@ -6,7 +6,7 @@ name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 7
 updated_by: 4
-updated_at: 1780446686
+updated_at: 1780447309
 grade: 3
 inclusions:
   - 'Private transfer from Rome to Pitigliano on Day 1'
@@ -123,8 +123,8 @@ page_builder:
         id: mlop3c5r
         title: 'Discover an abandoned city'
         description: 'After a morning exploring town, the next walk is to a charming farming town following a shaded stream and a route that originally joined landlocked Orvieto with the coast, visiting on the way the ruins of a very interesting abandoned medieval town, swallowed up by forests centuries ago.  Dinner in your lovely agriturismo is included tonight.'
-        duration: 3.0
-        distance: 7.0
+        duration: 2.5
+        distance: 6.5
         elevation: 140
         meals_included:
           - breakfast
@@ -143,9 +143,9 @@ page_builder:
       -
         id: mlop6avf
         title: 'Walk to Orvieto'
-        description: "Walk from Lake Bolsena to the marvellous town of Orvieto following for much of the way the original route of a branch of the medieval Via Francigena. On the way you will pass through forest (past an Etruscan excavation and a rock that was miraculously split to allow a medieval procession carrying a relic of Christ's blood to reach Orvieto) before, picking up a dead straight paved section of original Roman road which will take you into Orvieto.  (18 kms, 5 hrs; min: 188 mts, max: 626 mts)"
-        duration: 5.0
-        distance: 17.0
+        description: "Walk from Lake Bolsena to the marvellous town of Orvieto following for much of the way the original route of a branch of the medieval Via Francigena. On the way you will pass through forest (past an Etruscan excavation and a rock that was miraculously split to allow a medieval procession carrying a relic of Christ's blood to reach Orvieto) before, picking up a dead straight paved section of original Roman road which will take you into Orvieto."
+        duration: 5.5
+        distance: 18.0
         elevation: 442
         meals_included:
           - breakfast
@@ -177,7 +177,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The walks range from 8 to 18 kms. The tour starts with shorter walks for the first three days, building up to the two longer walks at the end.\_ The trails mostly follow unsealed country roads through undulating farmlands. and are well-marked\_ There are a couple of rougher sections which follow small but clear trails.\_ Full details on each walk are on the itinerary.\_ "
+                text: "The walks range from 8km to 18km. The tour starts with shorter walks for the first three days, building up to the two longer walks at the end.\_The trails mostly follow unsealed country roads through undulating farmlands and are well-marked.\_There are a couple of rougher sections which follow small but clear trails.\_Full details on each walk are on the itinerary.\_"
               -
                 type: text
                 marks:
@@ -196,7 +196,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The accommodation is one of the special features of this tour.\_ As usual, Hidden Italy uses the best accommodation available.\_ All the hotels are in historical buildings in the centre of the small villages and towns including a 4-star resort built on Etruscan foundations; a hotel built in a restored Medici fortress; a family-run hotel in the shadow of the Orvieto cathedral and, my favourite, a 3rd generation country hotel in a tiny rural village. All rooms have an en suite bathroom and air conditioning."
+                text: "The accommodation is one of the special features of this tour.\_As usual, Hidden Italy uses the best accommodation available.\_All the hotels are in historical buildings in the centre of the small villages and towns including a 4-star resort built on Etruscan foundations; a hotel built in a restored Medici fortress; a family-run hotel in the shadow of the Orvieto cathedral and my favourite, a 3rd generation country hotel in a tiny rural village. All rooms have an ensuite bathroom and air conditioning."
         media:
           - self-guided/la-tuscia/hotel-della-fortezza.jpg
         type: accommodation
@@ -210,7 +210,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The traditional dishes of Tuscany are Italy's most influential cuisine.\_ The ingredients and techniques of the region have made their mark not just on the menus of the rest of Italy but also abroad, even in France.\_ The produce is of the highest quality, with its mushrooms, truffles and prosciutto especially prized.\_ Wine has always been central to Tuscany's economy and way of life, familiar names like Chianti and Brunello are just a portion of their enormous output.\_"
+                text: "The traditional dishes of Tuscany are Italy's most influential cuisine. The ingredients and techniques of the region have made their mark not just on the menus of the rest of Italy but also abroad, even in France. The produce is of the highest quality, with its mushrooms, truffles and prosciutto especially prized.\_Wine has always been central to Tuscany's economy and way of life, familiar names like Chianti and Brunello are just a portion of their enormous output.\_"
           -
             type: paragraph
             content:
@@ -225,7 +225,7 @@ page_builder:
                 marks:
                   -
                     type: italic
-                text: "Generous breakfasts are included each day.\_ Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_ You will be able to book your meals directly through the Hidden Italy App."
+                text: 'Generous breakfasts are included each day. Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit. You will be able to make reservations where applicable directly through the Hidden Italy App.'
         media:
           - self-guided/la-tuscia/f1020009-a.jpg
         type: food
