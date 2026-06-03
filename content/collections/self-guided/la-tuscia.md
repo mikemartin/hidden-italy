@@ -4,20 +4,20 @@ blueprint: tour
 title: 'Tuscany and Umbria - La Tuscia'
 name: 'La Tuscia'
 region: 'Tuscany and Umbria'
-days: 8
-updated_by: 3
-updated_at: 1780028308
+days: 7
+updated_by: 4
+updated_at: 1780446377
 grade: 3
 inclusions:
-  - 'Pick-up from Rome and transfer to Pitigliano on Day 1'
+  - 'Private transfer from Rome to Pitigliano on Day 1'
   - '6 nights accommodation'
-  - 'All breakfasts and one dinner included'
+  - 'All breakfasts and one dinner'
   - 'Reading lists and historical and cultural notes'
-  - 'Maps and detailed walking instructions'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App with GPS to complement the booklet'
   - 'A curated list of restaurants in each town and village'
   - 'Daily transfers of baggage between hotels'
-  - '24 hour backup from local manager'
+  - '24-hour support from our local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: central-italy
 landscapes:
@@ -36,14 +36,14 @@ page_builder:
         content:
           -
             type: text
-            text: "It is dramatically beautiful area, characterised by rolling downs of black soil, deep basalt canyons, mountain ranges and crater lakes.\_ It has been inhabited since prehistoric times and is one of the cradles of Italian civilisation: six centuries BC it was the heart of the Etruscan Federation and then, in the Renaissance, it was the stronghold of two of the great papal dynasties.\_ The villages and countryside of La Tuscia retain many of the glories of their rich past. If you are looking for a truly off-the-beaten-track walk, this is the one for you!"
+            text: "It is dramatically beautiful area, characterised by rolling downs of black soil, deep basalt canyons, mountain ranges and crater lakes.\_It has been inhabited since prehistoric times and is one of the cradles of Italian civilisation: six centuries BC it was the heart of the Etruscan Federation and then, in the Renaissance, it was the stronghold of two of the great papal dynasties.\_The villages and countryside of La Tuscia retain many of the glories of their rich past. If you are looking for a truly off-the-beaten-track walk, this is the one for you!"
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "The tour starts by first visiting the 'three lost villages of Tuscany' then progresses to Lake Bolsena and finishes in the spectacular Umbrian town of Orvieto.\_ On the way you follow country lanes, sections of ancient Etruscan roads and stretches of the Via Francigena, the Medieval road that carried pilgrims, merchants and crusader armies from Papal Rome to northern Italy and the rest of Europe.   You stay in very comfortable accommodation in quiet farming villages that are more than two thousand old.\_ It's one of my favourite hikes and the food and wine is pretty good as well!"
+            text: "The tour starts by first visiting the 'three lost villages of Tuscany' then progresses to Lake Bolsena and finishes in the spectacular Umbrian town of Orvieto.\_On the way you follow country lanes, sections of ancient Etruscan roads and stretches of the Via Francigena, the Medieval road that carried pilgrims, merchants and crusader armies from Papal Rome to northern Italy and the rest of Europe. You stay in very comfortable accommodation in quiet farming villages that are more than two thousand old.\_ It's one of my favourite hikes and the food and wine is pretty good as well!"
     title: 'One of the cradles of Italian civilisation'
     images:
       - self-guided/la-tuscia/img_6947.jpeg
@@ -62,7 +62,7 @@ page_builder:
       -
         id: mloog7vk
         title: 'Be astonished by ancient villages'
-        summary: 'Be astonished by these forgotten villages that are perched in the most impossible places overlooking spectacular scenery'
+        summary: 'Be astonished by these forgotten villages that are perched in the most impossible places overlooking spectacular scenery.'
         icon: medieval-castle-wall.svg
       -
         id: u_kEWLZctzE9YVhckTb-M
@@ -81,8 +81,8 @@ page_builder:
         icon: nature-lake.svg
       -
         id: mlooun08
-        title: 'Relax, you are fully-supported'
-        summary: 'Everything is organised: your transfer from Rome on Day 1; bags moved daily; maps and an app; plus 24-hour local support'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -352,7 +352,7 @@ gallery:
 now_open: false
 seasons:
   - spring
-headline: 'Walking through hidden Italy'
+headline: 'Walking through Hidden Italy'
 start_location:
   label: 'Pitigliano, Tuscany, Italy'
   lat: '42.634827'
@@ -392,7 +392,7 @@ summary:
     content:
       -
         type: text
-        text: "This 7-day exploration starts with a private transfer from Rome to Pitigliano, where the walk begins.\_ Known as La Tuscia since Roman times, this fascinating \_district is on the\_borders where southern Tuscany overlaps with the lakes of northern Lazio and the mountains of the south-west corner of Umbria."
+        text: "This 7-day/6night tour exploration starts with a private transfer from Rome to Pitigliano, where the walk begins.\_Known as La Tuscia since Roman times, this fascinating \_district is on the\_borders where southern Tuscany overlaps with the lakes of northern Lazio and the mountains of the south-west corner of Umbria."
 price: 'A$3,200'
 show_from: true
 og_image: tuscany-and-umbria-la-tuscia-og-1779335307.png
