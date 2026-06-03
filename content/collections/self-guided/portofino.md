@@ -5,9 +5,9 @@ title: 'Liguria - Portofino and the Tigullio Gulf'
 name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6
-updated_by: 3
-updated_at: 1780028061
-grade: 3
+updated_by: 4
+updated_at: 1780457002
+grade: 1
 inclusions:
   - 'Five nights’ accommodation'
   - 'All breakfasts'
