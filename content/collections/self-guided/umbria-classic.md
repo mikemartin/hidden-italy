@@ -6,7 +6,7 @@ name: 'Umbria Classic'
 region: Umbria
 days: 7
 updated_by: 4
-updated_at: 1780454184
+updated_at: 1780454244
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -34,14 +34,16 @@ page_builder:
         content:
           -
             type: text
-            text: "Starting in Assisi and finishing in Spoleto, this wonderful walk will take through the most alluring part of the region: the Valle Umbra (the Umbra Valley).  Following well-marked trails, you walk through a beguiling landscape of rolling hills dotted with olive groves and draped with grape vines, with mountains above you and valleys below.  Staying in superior accommodation in historic palazzi, you will also have plenty of time explore some of the region's most charming towns and admire some of the best art in central Italy, including works by Giotto, Perugino, Pinturicchio and Raphael. "
+            text: "Starting in Assisi and finishing in Spoleto, this wonderful walk will take through the most alluring part of the region: the Valle Umbra (the Umbra Valley). Following well-marked trails, you walk through a beguiling landscape of rolling hills dotted with olive groves and draped with grape vines, with mountains above you and valleys below. Staying in superior accommodation in historic palazzi, you will also have plenty of time explore some of the region's most charming towns and admire some of the best art in central Italy, including works by Giotto, Perugino, Pinturicchio and Raphael. "
+      -
+        type: paragraph
+    column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "Of course, we mustn't forget the food!  You'll also have plenty of opportunities to sample the region's celebrated cuisine, which tends to be simple and seasonal home-cooking.\_ Umbria is best known for its vegetables (including lentils from Castellucio and beans from Trasimeno); its game (pigeon; pheasant and wild boar); and its truffles (both black and white); but the crowning glory is its porchetta (whole suckling pig, pit roasted)!\_ Umbria is also well-known for its wines, including the red Sagrantino and the white Grechetto."
-    column_right:
+            text: "Of course, we mustn't forget the food! You'll also have plenty of opportunities to sample the region's celebrated cuisine, which tends to be simple and seasonal home-cooking.\_Umbria is best known for its vegetables (including lentils from Castellucio and beans from Trasimeno); its game (pigeon; pheasant and wild boar); and its truffles (both black and white); but the crowning glory is its porchetta (whole suckling pig, pit roasted)!\_Umbria is also well-known for its wines, including the red Sagrantino and the white Grechetto."
       -
         type: paragraph
         content:
