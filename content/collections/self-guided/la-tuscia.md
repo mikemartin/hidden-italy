@@ -6,7 +6,7 @@ name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 7
 updated_by: 4
-updated_at: 1780446387
+updated_at: 1780446686
 grade: 3
 inclusions:
   - 'Private transfer from Rome to Pitigliano on Day 1'
@@ -97,14 +97,14 @@ page_builder:
       -
         id: mlooymbz
         title: 'Transfer from Rome to Pitigliano'
-        description: 'You will be picked up in Rome and transferred to Pitigliano. This spectacularly sited town is bounded by two ravines and is over three thousand years old.  The historic centre of the town is a tangle of lanes and car-free streets, a fascinating place to spend some time exploring.'
+        description: 'You will be picked up in Rome and transferred to Pitigliano. This spectacularly sited town is bounded by two ravines and is over three thousand years old. The historic centre of the town is a tangle of lanes and car-free streets, a fascinating place to spend some time exploring.'
         photo: self-guided/la-tuscia/pitigliano_-tuscany-s-hilltop-beauty.png
       -
         id: mloozlek
         title: 'Walk ancient trails'
-        description: "In the morning you will be transferred to nearby Pitigliano, where you'll have time to explore this spectacular town before doing the extraordinary walk that links Pitigliano to Sovana.  The trail follows an Etruscan path carved out of living rock two and a half thousand years ago.  You will have time in the afternoon to walk down to the valleys surrounding Sovana to explore the Etruscan sites."
-        duration: 2.0
-        distance: 8.0
+        description: 'In the morning you have time to explore this spectacular town before doing the extraordinary walk that links Pitigliano to Sovana. The trail follows an Etruscan path carved out of living rock two and a half thousand years ago. You will have time in the afternoon to walk down to the valleys surrounding Sovana to explore the Etruscan sites.'
+        duration: 2.5
+        distance: 7.0
         elevation: 115
         meals_included:
           - breakfast
