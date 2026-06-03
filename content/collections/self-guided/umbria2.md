@@ -6,7 +6,7 @@ name: 'Umbria 2: Cammino of St Francis part 2'
 region: Umbria
 days: 7
 updated_by: 4
-updated_at: 1780451618
+updated_at: 1780451636
 grade: 4
 inclusions:
   - 'Six nights accommodation'
@@ -168,7 +168,7 @@ page_builder:
       -
         id: mlop8uiy
         title: 'Depart Rieti'
-        description: "After breakfast, you'll be free to continue your holiday.   Rieti is well connected by regular train to Rome and the rest of Italy."
+        description: "After breakfast, you'll be free to continue your holiday. Rieti is well connected by regular train to Rome and the rest of Italy."
         meals_included:
           - breakfast
         photo: self-guided/cammino-of-st-francis-umbria-2/2.jpg
