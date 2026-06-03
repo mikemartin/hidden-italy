@@ -6,7 +6,7 @@ name: 'Umbria 1: Cammino of St Francis Part 1'
 region: Umbria
 days: 6
 updated_by: 4
-updated_at: 1780448222
+updated_at: 1780449701
 grade: 3
 inclusions:
   - 'Five nights accommodation'
@@ -92,18 +92,18 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloox88g
-    title: 'Unbria 1 walk tour itinerary'
+    title: 'Umbria 1 Itinerary'
     summary: 'This six-day walk is the first section of the Cammino of St Francis (Assisi to Rome). It follows the official pilgrim route, a regularly marked trail that weaves through the hills and farmlands of Central Italy, from Assisi, home of St Francis, to Spoleto through some of the most beautiful country in the region.'
     days:
       -
         id: mlooymbz
         title: 'Arrive in Assisi'
-        description: 'Arrival in Assisi, one of the most beautiful towns in central Italy.  It is, of course, the home of St Francis (1182 – 1226).  It is dominated by the two-level Basilica of St Francis (consecrated in 1256) which contains some of the finest art in Western Europe, including works by Giotto, Cimabue and the Lorenzetti brothers.'
+        description: 'Arrival in Assisi, one of the most beautiful towns in central Italy. It is, of course, the home of St Francis (1182 – 1226). It is dominated by the two-level Basilica of St Francis (consecrated in 1256) which contains some of the finest art in Western Europe, including works by Giotto, Cimabue and the Lorenzetti brothers.'
         photo: self-guided/cammino-of-st-francis-umbria-1/2.jpg
       -
         id: mloozlek
         title: "Visit St Francis' retreat"
-        description: 'This itinerary starts with a steep climb up to a beautiful hermitage surrounded by forests that was a place of retreat for St Francis.  From here the path contours around the side of Mt Subasio with wide views across the valley to Montefalco and the Martani Hills, before descending to a beautiful hill-town founded by the Romans.   Please note there is an alternative, which is lower and shorter.  (11.5 kms, 3.5 hrs; 220 mts)'
+        description: 'This itinerary starts with a steep climb up to a beautiful hermitage surrounded by forests that was a place of retreat for St Francis. From here the path contours around the side of Mt Subasio with wide views across the valley to Montefalco and the Martani Hills, before descending to a beautiful hill-town founded by the Romans. There is an alternative, which is lower and shorter.  (14.5km, 3.5 hrs; 220m)'
         duration: 5.0
         distance: 15.0
         elevation: 570
@@ -113,9 +113,9 @@ page_builder:
       -
         id: mlop159i
         title: 'Walk the Olive Trail'
-        description: 'The first half of today’s walk takes you down onto the valley floor passing through a string of towns including Foligno, before climbing up the side of the valley and picking paths that take you classic Umbria countryside dominated by centuries old olive groves finishing in one of the best-preserved and attractive hill-towns in the region  (19.5 kms; 6 hrs; min: 228 mts, max: 413 mts)'
+        description: 'The first half of today’s walk takes you down onto the valley floor passing through a string of towns including Foligno, before climbing up the side of the valley and picking paths that take you classic Umbria countryside dominated by centuries old olive groves finishing in one of the best-preserved and attractive hill-towns in the region.'
         duration: 6.0
-        distance: 19.0
+        distance: 19.5
         elevation: 185
         meals_included:
           - breakfast
@@ -123,19 +123,20 @@ page_builder:
       -
         id: mlop3c5r
         title: 'Enjoy the views'
-        description: 'The route continues to skirt along the side of the mountains with spectacular views across the valley and up to the Sibillini Mountains.  It largely follows unsealed country lanes through farmlands and olive groves passing sites of considerable historical interest, including a Franciscan hermitage and a sleepy medieval village.  (10 kms; 3 hrs; min: 324 mts, max: 552 mts)'
+        description: 'The route continues to skirt along the side of the mountains with spectacular views across the valley and up to the Sibillini Mountains. It largely follows unsealed country lanes through farmlands and olive groves passing sites of considerable historical interest, including a Franciscan hermitage and a sleepy medieval village.'
         duration: 3.0
         distance: 10.0
         elevation: 228
         meals_included:
           - breakfast
+          - dinner
         photo: self-guided/cammino-of-st-francis-umbria-1/6.jpg
       -
         id: mlop5205
         title: 'Walk to Spoleto'
-        description: "The last walk continues along the 'Sentiero degli Ulivi', winding through olive groves, around the side of the hills past a string of villages before arriving in Spoleto, entering this gorgeous city through the lower medieval walls and climbing up to the cathedral square.  (5 hrs; 18 kms; min: 299 mts, max: 556 mts)"
+        description: "The last walk continues along the 'Sentiero degli Ulivi', winding through olive groves, around the side of the hills past a string of villages before arriving in Spoleto, entering this gorgeous city through the lower medieval walls and climbing up to the cathedral square."
         duration: 5.0
-        distance: 18.0
+        distance: 19.0
         elevation: 257
         meals_included:
           - breakfast
@@ -143,7 +144,7 @@ page_builder:
       -
         id: mlop6avf
         title: 'Depart Spoleto'
-        description: "After breakfast, you'll be free to continue your holiday.  Spoleto station has direct connections to Rome and Florence."
+        description: "After breakfast, you'll be free to continue your holiday. Spoleto station has direct connections to Rome and Florence."
         meals_included:
           - breakfast
         photo: self-guided/cammino-of-st-francis-umbria-1/4.5.jpg
