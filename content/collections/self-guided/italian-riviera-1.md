@@ -5,9 +5,9 @@ title: 'Liguria - Italian Riviera 1'
 name: 'Italian Riviera 1'
 region: Liguria
 days: 8
-updated_by: 3
-updated_at: 1780027967
-grade: 4
+updated_by: 4
+updated_at: 1780456888
+grade: 3
 inclusions:
   - 'Seven nights accommodation'
   - 'All breakfasts'
