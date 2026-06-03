@@ -6,7 +6,7 @@ name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
 updated_by: 4
-updated_at: 1780455179
+updated_at: 1780456613
 grade: 4
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
@@ -93,20 +93,20 @@ page_builder:
     hide_from_subnav: false
   -
     id: mlrccjcj
-    title: 'Valley del Lys self-guided itinerary'
+    title: 'Valley del Lys Itinerary'
     summary: 'This marvellous seven-day/six-night hike introduces you to the Valley del Lys, one of the most beautiful valleys in the European Alps, via the historic trails that have been connecting the mountain communities for centuries.'
     days:
       -
         id: mlrcdegn
         title: 'Arrive in the valley'
-        description: 'You will be met at Pont-Saint-Martin railway station (which is on the main line that connects Turin, Aosta city and Geneva) and driven to your base, a lovely historic hamlet on the slopes of the Valley del Lys.  Your accommodation is in a gloriously restored, historic Walser residence.  You will be given a briefing on the tour on arrival at your accommodation.'
+        description: 'You will be met at Pont-Saint-Martin railway station (which is on the main line that connects Turin, Aosta city and Geneva) and driven to your base, a lovely historic hamlet on the slopes of the Valley del Lys. Your accommodation is in a gloriously restored, historic Walser residence. You will be given a briefing on the tour on arrival at your accommodation.'
         meals_included:
           - dinner
         photo: self-guided/valley-del-lys/13.jpg
       -
         id: mlrce7n9
         title: 'Walk into the mountains'
-        description: "From the hamlet, you climb up the mountain following a well-maintained, historic path, which has spectacular views over the whole valley, before looping back down to the Lys River.  You are now in the heartland of the Valley del Lys Walser community, which is clear from the characteristic timber and stone houses.  Monte Rosa is now a stone's throw away from here, you feel you can almost touch it.  Your accommodation is in a beautifully restored 16th century family home."
+        description: "From the hamlet, you climb up the mountain following a well-maintained, historic path, which has spectacular views over the whole valley, before looping back down to the Lys River. You are now in the heartland of the Valley del Lys Walser community, which is clear from the characteristic timber and stone houses. Monte Rosa is now a stone's throw away from here, you feel you can almost touch it. Your accommodation is in a beautifully restored 16th century family home."
         duration: 5.0
         distance: 14.0
         elevation: 1073
@@ -118,30 +118,32 @@ page_builder:
       -
         id: mlrchqfo
         title: 'Walk through forest'
-        description: 'You will be able to enjoy the magnificent views of Monte Rosa for most of the day following sections of the Great Walser Trail.  The hamlet is one of the most beautiful villages in the Aosta Valley.  The rifugio is famous throughout the valley for its cooking.  Please note that there is also a shorter a less challenging option for today’s walk.  Your beautiful accommodation tonight does not have car access, you will need to take a change of clothes, pyjamas and a toothbrush.'
-        duration: 4.0
+        description: 'You will be able to enjoy the magnificent views of Monte Rosa for most of the day following sections of the Great Walser Trail. The hamlet is one of the most beautiful villages in the Aosta Valley. The rifugio is famous throughout the valley for its cooking. Please note that there is also a shorter a less challenging option for today’s walk. Your beautiful accommodation tonight does not have car access, you will need to take a change of clothes, pyjamas and a toothbrush.'
+        duration: 3.5
         distance: 10.0
         elevation: 713
         meals_included:
           - breakfast
+          - lunch
           - dinner
         photo: self-guided/valley-del-lys/7.jpg
       -
         id: mlrcpsyv
         title: 'Visit Gressoney-la-Trinite'
-        description: 'A pretty and relaxed walk today that descends gradually through larch forest down to the pretty town of Gressoney-la-Trinite, where you’ll have the chance to have a break and visit the Walser Museum.  From here you follow the Lys River up to the head of the valley, Monte Rosa and its glaciers looming large in front of you beckoning you to to stay.  Your accommodation is in an elegantly restored historic inn.'
-        duration: 3.0
+        description: 'A pretty and relaxed walk today that descends gradually through larch forest down to the pretty town of Gressoney-la-Trinite, where you’ll have the chance to have a break and visit the Walser Museum. From here you follow the Lys River up to the head of the valley, Monte Rosa and its glaciers looming large in front of you beckoning you to to stay. Your accommodation is in an elegantly restored historic inn.'
+        duration: 2.5
         distance: 7.0
         elevation: 269
         meals_included:
           - breakfast
+          - lunch
           - dinner
         photo: self-guided/valley-del-lys/10.jpg
       -
         id: mlrcryci
         title: 'Touch Monte Rosa'
-        description: 'With this stage you almost touch the glaciers of Monte Rosa.  The climb follows the Moos Valley up to a beautiful rifugio at 2600 metres asl, Monte Rosa presenting itself in all its grandeur.  Your accommodation is in a modern structure with an international flavour at the foot of the mountain.  Please note, if weather conditions are such that the rifugio is closed, you can stay a second night in the Day 4 accommodation and enjoy the two ‘alternative’ walks.'
-        duration: 4.0
+        description: 'With this stage you almost touch the glaciers of Monte Rosa. The climb follows the Moos Valley up to a beautiful rifugio at 2600m asl, Monte Rosa presenting itself in all its grandeur. Your accommodation is in a modern structure with an international flavour at the foot of the mountain, with no car access, you will need to pack clothes, pyjamas and a toothbrush. Please note, if weather conditions are such that the rifugio is closed, you can stay a 2nd night in the Day 4 accommodation and enjoy the two ‘alternative’ walks.'
+        duration: 3.5
         distance: 7.0
         elevation: 834
         meals_included:
@@ -151,12 +153,13 @@ page_builder:
       -
         id: mlrczqmb
         title: 'Return to the valley!'
-        description: 'The last stage of our tour takes you up to a pass before descending down the Salza Valley (with a possible detour at the bottom to visit the glacier that form the source of the Lys River).  From here you walk down the valley and then beside the river back to Gressoney-la-Trinite, where your accommodation tonight, the grand finale, is in an historic Walser residence, famous for its mountain cooking.'
+        description: 'The last stage of our tour takes you up to a pass before descending down the Salza Valley (with a possible detour at the bottom to visit the glacier that form the source of the Lys River). From here you walk down the valley and then beside the river back to Gressoney-la-Trinite, where your accommodation tonight, the grand finale, is in an historic Walser residence, famous for its mountain cooking.'
         duration: 4.0
         distance: 12.0
         elevation: 600
         meals_included:
           - breakfast
+          - lunch
           - dinner
         photo: self-guided/valley-del-lys/5.jpg
       -
@@ -186,7 +189,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The hikes follow very well-maintained and well-marked trails that have been used by traders, farmers and travellers since the Middle Ages.\_ They take you through a variety of terrain (high mountain passes, ancient larch forests, the banks of the River Lys) all the time surrounded by breath-taking scenery.\_ There are some sustained climbs and descents, so you will need to have a good level of fitness, but your efforts are amply rewarded by the views and the warm mountain hospitality at the end of each day.\_ You will need to carry a change of clothes, pyjamas and a toothbrush on Days 2 and Day 4."
+                text: "The hikes follow very well-maintained and well-marked trails that have been used by traders, farmers and travellers since the Middle Ages.\_They take you through a variety of terrain (high mountain passes, ancient larch forests, the banks of the River Lys) all the time surrounded by breath-taking scenery.\_ here are some sustained climbs and descents, so you will need to have a good level of fitness, but your efforts are amply rewarded by the views and the warm mountain hospitality at the end of each day. You will need to carry a change of clothes, pyjamas and a toothbrush on Days 2 and Day 4."
         image: self-guided/valley-del-lys/9-1776049452.jpg
         type: walk
         enabled: true
@@ -201,13 +204,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "The accommodation is definitely one of the highlights of the visit.\_ You stay in a combination of beautiful boutique hotels set in restored Walser residences, one dating from the 16th century and, for two nights, two very comfortable 'rifugios' (mountain lodges) in spectacular locations, one in a hamlet that dates from the 12th century.\_"
+                text: "The accommodation is definitely one of the highlights of the visit.\_You stay in a combination of beautiful boutique hotels set in restored Walser residences, one dating from the 16th century and, for two nights, two very comfortable 'rifugios' (mountain lodges) in spectacular locations, one in a hamlet that dates from the 12th century.\_"
           -
             type: paragraph
             content:
               -
                 type: text
-                text: "All the accommodation is in small historic buildings mostly made local timber and stone and all run by proud local families.\_ All the rooms, in the hotels and rifugios, have private, en suite bathrooms."
+                text: 'All the accommodation is in small historic buildings mostly made local timber and stone and all run by proud local families. All the rooms, in the hotels and rifugios, have private ensuite bathrooms.'
         images:
           - self-guided/valley-del-lys/5-1776049637.jpg
         media:
@@ -227,7 +230,7 @@ page_builder:
                 text: 'The tour cost includes all breakfasts, a light lunch and dinners.'
               -
                 type: text
-                text: "\_ You will enjoy some of the finest food in northern Italy, proudly based on local and seasonal produce.\_"
+                text: "\_You will enjoy some of the finest food in northern Italy, proudly based on local and seasonal produce."
               -
                 type: text
                 marks:
@@ -269,7 +272,7 @@ page_builder:
                 text: fontina
               -
                 type: text
-                text: " cheese) and local trout (generally cooked with fresh veggies, butter and sage).\_ The area is also famous for its cheeses (particularly "
+                text: " cheese) and local trout (generally cooked with fresh veggies, butter and sage).\_The area is also famous for its cheeses (particularly "
               -
                 type: text
                 marks:
