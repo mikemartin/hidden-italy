@@ -4,10 +4,10 @@ blueprint: tour
 title: 'Liguria - Italian Riviera 2'
 name: 'Italian Riviera 2'
 region: Liguria
-days: 8
-updated_by: 3
-updated_at: 1780028043
-grade: 4
+days: 9
+updated_by: 4
+updated_at: 1780456965
+grade: 3
 inclusions:
   - 'Eight nights accommodation'
   - 'All breakfasts'
@@ -406,7 +406,7 @@ finish_location:
 now_open: false
 seasons:
   - autumn
-headline: '8 days of coastal walking'
+headline: '9 days of coastal walking'
 teaser: "Walk Italy's most celebrated coastline from romantic Sestri Levante to the Cinque Terre!"
 summary:
   -
@@ -414,7 +414,7 @@ summary:
     content:
       -
         type: text
-        text: "This 8-day/7-night walk is a two-part walk: the first three days take you through some of the least-visited parts of the Ligurian Coast, following well-marked mountain trails through unspoilt forests and staying in laid-back coastal towns quite untouched by tourism.\_The remaining days take you along the trails of the Cinque Terre, one of the most celebrated and spectacular stretches of coastline in the Mediterranean, following stone paths that have linked the fishing villages for centuries."
+        text: "This 9-day/8-night walk is a two-part walk: the first three days take you through some of the least-visited parts of the Ligurian Coast, following well-marked mountain trails through unspoilt forests and staying in laid-back coastal towns quite untouched by tourism.\_The remaining days take you along the trails of the Cinque Terre, one of the most celebrated and spectacular stretches of coastline in the Mediterranean, following stone paths that have linked the fishing villages for centuries."
 price: 'A$3,650'
 show_from: true
 og_image: liguria-italian-riviera-2-og-1779335287.png
