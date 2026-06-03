@@ -6,7 +6,7 @@ name: 'Umbria Classic'
 region: Umbria
 days: 7
 updated_by: 4
-updated_at: 1780454244
+updated_at: 1780454728
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -68,17 +68,17 @@ page_builder:
       -
         id: mloog7vk
         title: 'Stay in fabulous accommodation'
-        summary: 'A feature of this Classic tour is the fabulous accommodation: fab 4-star hotels in the historical centre of each town'
+        summary: 'A feature of this Classic tour is the fabulous 4 star accommodation in the historical centre of each town.'
         icon: housing-house.svg
       -
         id: mlooou12
         title: 'Soak up the atmosphere'
-        summary: 'Spend time soaking up the atmosphere of some of the most charming towns in central Italy, each so different to the other'
+        summary: 'Spend time soaking up the atmosphere of some of the most charming towns in central Italy, each so different to the other.'
         icon: medieval-castle-wall.svg
       -
         id: mlooun08
         title: 'Admire the art'
-        summary: 'Admire fabulous works by some of the important artists of the Italian Renaissance: Cimabue, Giotto, Perugino and Raphael'
+        summary: 'Admire fabulous works by some of the important artists of the Italian Renaissance: Cimabue, Giotto, Perugino and Raphael.'
         icon: festa-fireworks.svg
       -
         id: mmbinilb
@@ -87,8 +87,8 @@ page_builder:
         icon: gastronomy-spaghetti.svg
       -
         id: yzrNBaT-_rmmrnPeEEdB9
-        title: 'Relax and enjoy your holiday'
-        summary: 'Relax, enjoy yourself as everything has been looked after: rooms, luggage transfers; maps and app; with 24-hour support!'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
@@ -97,7 +97,7 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloox88g
-    title: 'Umbria Classic itinerary'
+    title: 'Umbria Classic Itinerary'
     summary: 'This wonderful 7 day walk takes you through forests, across farmlands, past olive groves and staying in some of the most gorgeous and interesting towns with some of the finest art in central Italy, staying in excellent 4-star hotels along the way.'
     days:
       -
@@ -108,7 +108,7 @@ page_builder:
       -
         id: mloozlek
         title: 'Walk under Monte Subasio'
-        description: "This itinerary starts with a steep climb up to a beautiful hermitage surrounded by forests that was a place of retreat for St Francis.  From here the path contours around the side of Mt Subasio with wide views across the valley before descending to a beautiful hill-town founded by the Romans. You'll have time to visit the 13th century church with Pinturicchio's dazzling fresco cycle.  Please note a shorter version, with less climbing, is included in the notes (4 hrs; 11.5 kms; 220 mts)."
+        description: "This itinerary starts with a steep climb up to a beautiful hermitage surrounded by forests that was a place of retreat for St Francis. From here the path contours around the side of Mt Subasio with wide views across the valley before descending to a beautiful hill-town founded by the Romans. You'll have time to visit the 13th century church with Pinturicchio's dazzling fresco cycle. Please note a shorter version, with less climbing, is included in the notes (3.5hrs; 14 kms; 220m)."
         duration: 5.0
         distance: 15.0
         elevation: 570
@@ -119,7 +119,7 @@ page_builder:
         id: mlop159i
         title: 'Walk across the valley'
         description: "A gentle walk following country roads across the valley floor, leaving via a magnificent Roman gate and passing through wheat fields to a small town on the plain, one of the hidden treasures of the region. This sleepy town has two of Umbria's finest Romanesque churches as well as impressive Roman mosaics and a delightful little 19th century theatre."
-        duration: 4.0
+        duration: 3.5
         distance: 14.0
         elevation: -109
         meals_included:
@@ -128,8 +128,8 @@ page_builder:
       -
         id: mlop3c5r
         title: 'Pass through vineyards'
-        description: "Today you walk up rolling hills to one of the viticulture centres of the region, which has beautiful views over the valley.  On the way, you pass through the vineyards that have made the town famous. The town also has a rich artistic heritage out of all proportion to its size, including a beautiful fresco cycle of St Francis' life by the influential Florentine artist Gozzoli."
-        duration: 2.0
+        description: "Today you walk up rolling hills to one of the viticulture centres of the region, which has beautiful views over the valley. On the way, you pass through the vineyards that have made the town famous. The town also has a rich artistic heritage out of all proportion to its size, including a beautiful fresco cycle of St Francis' life by the influential Florentine artist Gozzoli."
+        duration: 2.5
         distance: 7.0
         elevation: 246
         meals_included:
@@ -138,8 +138,8 @@ page_builder:
       -
         id: mlop5205
         title: "Stay in a 'borgo'"
-        description: 'Descending from the hills, you cross the valley floor again, following a medieval path through wheat fields, past quiet farming villages and springs from a river source sacred to the Romans which inspired poets from Virgil to Byron, before climbing up to your accommodation.  Dinner is included tonight.  Please note that this walk can be shortened with an night in an excellent 4-star hotel along the way (7kms + 14 kms).'
-        duration: 5.0
+        description: 'Descending from the hills, you cross the valley floor again, following a medieval path through wheat fields, past quiet farming villages and springs from a river source sacred to the Romans which inspired poets from Virgil to Byron, before climbing up to your accommodation. Dinner is included tonight. Please note that this walk can be shortened with an night in an excellent 4-star hotel along the way (7kms + 14 kms).'
+        duration: 5.5
         distance: 21.0
         elevation: 238
         meals_included:
@@ -148,8 +148,8 @@ page_builder:
         photo: self-guided/umbria-classic/eggi-view.jpg
       -
         id: mlop6avf
-        title: 'Walk to Spoleto'
-        description: "The last walk picks up the 'Sentiero degli Ulivi', the Trail of the Olives, winding through olive groves, around the side of the hills past a string of villages before arriving in Spoleto.  You enter this gorgeous city through the lower medieval walls and climb up to the cathedral square (there is an escalator as well!)."
+        title: 'Walk the Sentiero degli Ulivi'
+        description: "The last walk picks up the 'Sentiero degli Ulivi', the Trail of the Olives, winding through olive groves, around the side of the hills past a string of villages before arriving in Spoleto. You enter this gorgeous city through the lower medieval walls and climb up to the cathedral square (there is an escalator as well!)."
         duration: 4.0
         distance: 15.0
         elevation: 258
@@ -159,7 +159,7 @@ page_builder:
       -
         id: mlop8uiy
         title: 'Depart Spoleto'
-        description: "After breakfast, you'll be free to continue your holiday.   Spoleto is well connected by regular train to Florence, Rome and the rest of Italy."
+        description: "After breakfast, you'll be free to continue your holiday. Spoleto is well connected by regular train to Florence, Rome and the rest of Italy."
         meals_included:
           - breakfast
         photo: self-guided/umbria-classic/f1020013-a.jpg
