@@ -6,8 +6,8 @@ name: 'Puglia: The Gargano Peninsula'
 region: Puglia
 days: 8
 updated_by: 4
-updated_at: 1780283794
-grade: 4
+updated_at: 1780457262
+grade: 3
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
   - 'Private transfer from Vieste to Foggia on Day 8'
