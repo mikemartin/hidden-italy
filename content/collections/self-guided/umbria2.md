@@ -6,7 +6,7 @@ name: 'Umbria 2: Cammino of St Francis part 2'
 region: Umbria
 days: 7
 updated_by: 4
-updated_at: 1780450089
+updated_at: 1780450507
 grade: 4
 inclusions:
   - 'Six nights accommodation'
@@ -41,8 +41,14 @@ page_builder:
         content:
           -
             type: text
-            text: "The most memorable feature of this itinerary, though, is the peaceful, unspoilt nature you walk through: the evergreen forests of the Monteluco National Park, the meadows along the banks of the Nera River, the lake shores and the woods overlooking Rieti.\_"
+            text: 'The most memorable feature of this itinerary, though, is the peaceful, unspoilt nature you walk through: the evergreen forests of the Monteluco National'
     column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Park, the meadows along the banks of the Nera River, the lake shores and the woods overlooking Rieti.\_"
       -
         type: paragraph
         content:
@@ -51,7 +57,7 @@ page_builder:
             marks:
               -
                 type: italic
-            text: "Umbria 2 walk is the first section of the Cammino of St Francis, a marvellous 258 km walk that starts in Assisi and finishes in Rome, following in the footsteps of Italy's most beloved saint.  The whole three-week walk can be broken up into three one-week sections: Umbria 1, Umbria 2 and Lazio."
+            text: "Umbria 2 walk is the second section of the Cammino of St Francis, a marvellous 258 km walk that starts in Assisi and finishes in Rome, following in the footsteps of Italy's most beloved saint. The whole three-week walk can be broken up into three one-week sections: Umbria 1, Umbria 2 and Lazio."
       -
         type: paragraph
     title: 'Abbeys, waterfalls and hilltop villages'
