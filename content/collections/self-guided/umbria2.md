@@ -1,22 +1,22 @@
 ---
 id: 2c566c23-3738-482e-b78a-a2ac67ccf9cf
 blueprint: tour
-title: 'Umbria - Umbria 2: Cammino of St Francis Section 2'
-name: 'Umbria 2: Cammino of St Francis Section 2'
+title: 'Umbria - Umbria 2: Cammino of St Francis part 2'
+name: 'Umbria 2: Cammino of St Francis part 2'
 region: Umbria
 days: 7
-updated_by: 3
-updated_at: 1780028359
-grade: 3
+updated_by: 4
+updated_at: 1780450089
+grade: 4
 inclusions:
   - 'Six nights accommodation'
-  - 'All breakfasts included'
+  - 'All breakfasts'
   - 'Reading lists and historical and cultural notes'
-  - 'Maps and detailed walking instructions'
-  - 'Hidden Italy App with GPS to complement the roadbook'
+  - 'The Hidden Italy booklet with maps and detailed walking instructions'
+  - 'The Hidden Italy App with GPS to complement the booklet'
   - 'A curated list of restaurants for each town you visit'
   - 'Daily transfers of baggage between hotels'
-  - '24 hour backup from local manager'
+  - '24-hour support from our local manager'
   - 'City taxes are not included in the cost of the tour'
 locations: central-italy
 landscapes:
@@ -395,7 +395,7 @@ summary:
     content:
       -
         type: text
-        text: "The second section of the Cammino of St Francis, this lovey, week-long walk takes you through 'the green heart of Italy'.  Leaving Spoleto via the 13th century Ponte delle Torri bridge, you finish a week later, staying in a lovely 3-star hotel in the centre of the ancient town of Rieti.\_ "
+        text: "This lovely 7-day/6-night tour is the second section of the Cammino of St Francis, this lovey, taking you through 'the green heart of Italy'. Leaving Spoleto via the 13th century Ponte delle Torri bridge, you finish a week later, staying in a lovely 3-star hotel in the centre of the ancient town of Rieti.\_"
 price: 'A$2,350'
 show_from: true
 availability_text: "Part of the three-week 'Cammino of St Francis': Assisi to Rome"
