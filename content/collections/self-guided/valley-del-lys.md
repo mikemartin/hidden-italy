@@ -6,7 +6,7 @@ name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
 updated_by: 4
-updated_at: 1780455133
+updated_at: 1780455179
 grade: 4
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
@@ -54,7 +54,7 @@ page_builder:
     hide_from_subnav: false
   -
     id: mlrbu308
-    heading: 'Valley del Lys highlights'
+    heading: 'Valley del Lys Highlights'
     activities:
       -
         id: mlrbvyrv
@@ -74,17 +74,17 @@ page_builder:
       -
         id: mlrc4uq2
         title: 'Enjoy genuine mountain hospitality'
-        summary: 'Enjoy the hospitality of these welcoming people.  A delicious dinner included each night, heart-warming mountain cuisine'
+        summary: 'Enjoy the hospitality of these welcoming people. A delicious dinner included each night, heart-warming mountain cuisine.'
         icon: bakery-bread.svg
       -
         id: mlrc9yr3
         title: 'Be intrigued by the history'
-        summary: 'The valley was settled a German-speaking people in 13th century.  Their traditions and stories are still alive and well!'
+        summary: 'The valley was settled a German-speaking people in 13th century. Their traditions and stories are still alive and well!'
         icon: culture-Colosseum.svg
       -
         id: X33IRRSnl32_xPcqIGs-d
-        title: 'Relax and enjoy your holiday!'
-        summary: 'Everything is organised: pickup and dropoff at start and finish; luggage transfers; maps and App; 24-hour local support.'
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
     type: highlights
     enabled: true
