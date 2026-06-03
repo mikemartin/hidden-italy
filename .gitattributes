@@ -6,6 +6,9 @@
 *.md diff=markdown
 *.php diff=php
 
+# Keep the brand-locked Nordic HALD CLUT byte-exact (never EOL-normalized).
+resources/luts/*.png binary
+
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
