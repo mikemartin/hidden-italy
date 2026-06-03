@@ -6,7 +6,7 @@ name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 7
 updated_by: 4
-updated_at: 1780447309
+updated_at: 1780447344
 grade: 3
 inclusions:
   - 'Private transfer from Rome to Pitigliano on Day 1'
