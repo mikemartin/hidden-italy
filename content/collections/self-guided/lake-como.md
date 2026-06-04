@@ -7,7 +7,7 @@ name: 'Lake Como'
 region: Lombardy
 days: 7
 updated_by: 4
-updated_at: 1780546459
+updated_at: 1780613095
 grade: 3
 inclusions:
   - '6 nights accommodation'
@@ -100,41 +100,44 @@ page_builder:
         description: 'You will met in Como and driven to your lakeside accommodation with a private transfer.  After checking in, the rest of the day will be free for you to explore.'
         photo: self-guided/lake-como/43.3.jpg
       -
+        id: mlop3c5r
+        title: 'Explore the mountainside'
+        description: "Today's walk is a circuit walk up into the mountains on the eastern side of the lake. This spectacular walk starts and finishes in Menaggio. It follows old smugglers paths, taking you up past villas and into oak forests that open on to orchards and farmlands filled with grazing cows with bells, offering breath-taking views across into Switzerland and Lake Lugano. You take another ancient cobbled path back down to the lake where you started from."
+        meals_included:
+          - breakfast
+        duration: 4.0
+        distance: 12.0
+        photo: self-guided/lake-como/dervio-8.jpg
+      -
         id: mloozlek
-        title: 'Follow ancient cobbled paths'
-        description: "Day 2 This morning you head north along the western shore towards Switzerland. Starting in Varenna with a steep climb up to the castle, the trail then passes through forests and villages, following stone medieval paths with breathtaking views over the lake and mountains. You finish in a pretty lake side town where you can take either a train or ferry back to your base. It's possible to shorten this walk by stopping at an earlier village and taking the train or ferry back to your base from there. (4 hrs; 10 kms; min: 211 mts; max: 424 mts)"
+        title: 'A lakeside walk'
+        description: "This morning you head north along the western shore towards Switzerland. Starting in Varenna with a steep climb up to the castle, the trail then passes through forests and villages, following stone medieval paths with breathtaking views over the lake and mountains. You finish in a pretty lake side town where you can take either a train or ferry back to your base. It's possible to shorten this walk by stopping at an earlier village and taking the train or ferry back to your base from there."
         duration: 4.0
         distance: 10.0
         meals_included:
           - breakfast
         photo: self-guided/lake-como/varenna-from-castle_hrc.jpg
+        elevation: 213
       -
         id: mlop159i
         title: 'Visit a Villa'
-        description: 'Day 3 Today is a free day to enjoy what the the lake has to offer. We will provide you with details (opening information, ferry timetables etc) to visit two of the finest villas and gardens on the central lake, both of which can be easily reached with short pleasant ferry rides. We have also included an additional walk that starts that can be combined with the villa visits or can be done as an alternative to the villa visits. (3.5 hours; 9 kms; min: 210 mts, max: 880 mts)'
+        description: 'Today is a free day to enjoy what the the lake has to offer. We will provide you with details (opening information, ferry timetables etc) to visit two of the finest villas and gardens on the central lake, both of which can be easily reached with short pleasant ferry rides. We have also included an additional walk that starts that can be combined with the villa visits or can be done as an alternative to the villa visits.'
         duration: 3.5
         distance: 9.0
         meals_included:
           - breakfast
         photo: self-guided/lake-como/28.3.jpg
-      -
-        id: mlop3c5r
-        title: 'Explore the mountainside'
-        description: "Day 4 Today's walk is a circuit walk up into the mountains on the eastern side of the lake. This spectacular walk starts and finishes in Menaggio. It follows old smugglers paths, taking you up past villas and into oak forests that open on to orchards and farmlands filled with grazing cows with bells, offering breath-taking views across into Switzerland and Lake Lugano. You take another ancient cobbled path back down to the lake where you started from. (4 hrs; 12.5 kms; min: 204 mts, max: 512 mts)"
-        meals_included:
-          - breakfast
-        duration: 4.0
-        distance: 12.5
-        photo: self-guided/lake-como/dervio-8.jpg
+        elevation: 670
       -
         id: mlop5205
         title: 'Pass through fishing villages'
-        description: 'Day 5 Today you transfer to Bellagio, a short ferry ride across the lake (your bags will be delivered privately), your base for the next two nights. We have included an interesting walk takes you around the Bellagio promontory, which visits the two branches of the lake, passing through fishing villages and past handsome historic villas before returning to Bellagio, via the beautiful gardens of Villa Melzi, the villa which graces the edge of the town. (1.5 hrs; 4 kms; min: 199 mts, max: 247 mts)'
+        description: 'Today you transfer to Bellagio, a short ferry ride across the lake (your bags will be delivered privately), your base for the next two nights. We have included an interesting walk takes you around the Bellagio promontory, which visits the two branches of the lake, passing through fishing villages and past handsome historic villas before returning to Bellagio, via the beautiful gardens of Villa Melzi, the villa which graces the edge of the town.'
         meals_included:
           - breakfast
         duration: 1.5
         distance: 4.0
         photo: self-guided/lake-como/116.jpg
+        elevation: 50
       -
         id: mlop6avf
         meals_included:
