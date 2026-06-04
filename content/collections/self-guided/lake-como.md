@@ -7,13 +7,12 @@ name: 'Lake Como'
 region: Lombardy
 days: 7
 updated_by: 4
-updated_at: 1780355319
+updated_at: 1780545625
 grade: 3
 inclusions:
-  - 'Private transfer from Como on Day 1'
-  - 'Private transfer from back to Como on Day 7'
-  - 'Six nights accommodation'
-  - 'All breakfasts included'
+  - '6 nights accommodation'
+  - 'Daily breakfasts'
+  - 'Private transfer to and from Como at the beginning and end of the tour'
   - 'Reading lists and historical and cultural notes'
   - 'The Hidden Italy booklet with maps and detailed walking instructions'
   - 'The Hidden Italy App with GPS to complement the booklet'
@@ -102,39 +101,53 @@ page_builder:
         photo: self-guided/lake-como/varenna-from-castle_hrc.jpg
       -
         id: mloozlek
-        title: TBA
-        description: "Today's walk is a circuit walk up into the mountains on the eastern side of the lake. This spectacular walk starts and finishes in Menaggio. It follows old smugglers paths, taking you up past villas and into oak forests that open on to orchards and farmlands filled with grazing cows with bells, offering breath-taking views across into Switzerland and Lake Lugano. You take another ancient cobbled path back down to the lake where you started from."
+        title: 'Follow ancient cobbled paths'
+        description: "Day 2 This morning you head north along the western shore towards Switzerland.  Starting in Varenna with a steep climb up to the castle, the trail then passes through forests and villages, following stone medieval paths with breathtaking views over the lake and mountains.  You finish in a pretty lake side town where you can take either a train or ferry back to your base. It's possible to shorten this walk by stopping at an earlier village and taking the train or ferry  back to your base from there. (4 hrs; 10 kms; min: 211 mts; max: 424 mts)"
         duration: 4.0
-        distance: 12.0
-        elevation: 389
+        distance: 10.0
         meals_included:
           - breakfast
         photo: self-guided/lake-como/menaggio-17.jpg
       -
         id: mlop159i
         title: TBA
-        description: Tod
-        duration: 4.0
-        distance: 10.0
-        elevation: 213
+        description: 'Day 3 Today is a free day to enjoy what the the lake has to offer.  We will provide you with details (opening information, ferry timetables etc) to visit two of the finest villas and gardens on the central lake, both of which can be easily reached with short pleasant ferry rides.  We have also included an additional walk that starts that can be combined with the villa visits or can be done as an alternative to the villa visits. (3.5 hours; 9 kms; min: 210 mts, max: 880 mts)'
+        duration: 3.5
+        distance: 9.0
         meals_included:
           - breakfast
       -
         id: mlop3c5r
         title: Cli
-        description: 'Today you'
+        description: "Day 4 Today's walk is a circuit walk up into the mountains on the eastern side of the lake. This spectacular walk starts and finishes in Menaggio.  It follows old smugglers paths, taking you up past villas and into oak forests that open on to orchards and farmlands filled with grazing cows with bells, offering breath-taking views across into Switzerland and Lake Lugano.  You take another ancient cobbled path back down to the lake where you started from.  (4 hrs; 12.5 kms; min: 204 mts, max: 512 mts)"
         meals_included:
           - breakfast
+        duration: 4.0
+        distance: 12.5
       -
         id: mlop5205
         title: Walk
-        description: 'It is not by'
+        description: 'Day 5 Today you transfer to Bellagio, a short ferry ride across the lake (your bags will be delivered privately), your base for the next two nights.  We have included an interesting walk takes you around the Bellagio promontory, which visits the two branches of the lake, passing through fishing villages and past handsome historic villas before returning to Bellagio, via the beautiful gardens of Villa Melzi, the villa which graces the edge of the town.  (1.5 hrs; 4 kms; min: 199 mts, max: 247 mts)'
         meals_included:
           - breakfast
+        duration: 1.5
+        distance: 4.0
       -
         id: mlop6avf
         meals_included:
           - breakfast
+        description: |-
+          Day 6
+          Monte San Primo is the mountain that forms the backdrop behind Bellagio and which offers spectacular views over whole of Lake Como and on to the Swiss mountains.  This fabulous walk, the tour finale, takes you on a well-marked path that loops the top of the mountain. You will have a private transfer to the start of the walk and you will be picked up and driven back to Bellagio at the end of the walk.  There is a shorter version of the walk, which avoids the steep climb.  (3 hrs; 7 kms; min: 1111 mts, max: 1662 mts)
+        duration: 3.0
+        distance: 7.0
+        elevation: 1
+      -
+        id: 0V0II83zkRJYkqeGpNITv
+        meals_included:
+          - breakfast
+        description: 'After breakfast at you will be driven to Como by private transfer.  Como railway station has national and international rail links.   Please note that, with notice, we can book transfers to Malpensa airport (additional costs apply) which is an hour and a half away.'
+        elevation: 1
     type: itinerary
     enabled: true
     section_background: none
