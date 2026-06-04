@@ -7,7 +7,7 @@ name: 'Lake Como'
 region: Lombardy
 days: 7
 updated_by: 4
-updated_at: 1780613095
+updated_at: 1780613232
 grade: 3
 inclusions:
   - '6 nights accommodation'
@@ -142,20 +142,19 @@ page_builder:
         id: mlop6avf
         meals_included:
           - breakfast
-        description: |-
-          Day 6
-          Monte San Primo is the mountain that forms the backdrop behind Bellagio and which offers spectacular views over whole of Lake Como and on to the Swiss mountains. This fabulous walk, the tour finale, takes you on a well-marked path that loops the top of the mountain. You will have a private transfer to the start of the walk and you will be picked up and driven back to Bellagio at the end of the walk. There is a shorter version of the walk, which avoids the steep climb.  (3 hrs; 7 kms; min: 1111 mts, max: 1662 mts)
+        description: 'Monte San Primo is the mountain that forms the backdrop behind Bellagio and which offers spectacular views over whole of Lake Como and on to the Swiss mountains. This fabulous walk, the tour finale, takes you on a well-marked path that loops the top of the mountain. You will have a private transfer to the start of the walk and you will be picked up and driven back to Bellagio at the end of the walk. There is a shorter version of the walk, which avoids the steep climb.  (3 hrs; 7 kms; min: 1111 mts, max: 1662 mts)'
         duration: 3.0
         distance: 7.0
-        elevation: 1
+        elevation: 551
         title: 'Climb Monte San Primo'
         photo: self-guided/lake-como/28.6.jpg
       -
         id: 0V0II83zkRJYkqeGpNITv
         meals_included:
           - breakfast
-        description: 'After breakfast at you will be driven to Como by private transfer.  Como railway station has national and international rail links.   Please note that, with notice, we can book transfers to Malpensa airport (additional costs apply) which is an hour and a half away.'
+        description: 'After breakfast at you will be driven to Como by private transfer. Como railway station has national and international rail links. Please note that, with notice, we can book transfers to Malpensa airport (additional costs apply) which is an hour and a half away.'
         photo: self-guided/lake-como/115.4.jpg
+        title: 'Depart the Lakes'
     type: itinerary
     enabled: true
     section_background: none
