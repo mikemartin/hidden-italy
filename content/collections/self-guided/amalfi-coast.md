@@ -6,7 +6,7 @@ name: 'The Amalfi Coast'
 region: Campania
 days: 6
 updated_by: 4
-updated_at: 1780367605
+updated_at: 1780544643
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
