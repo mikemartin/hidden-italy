@@ -7,7 +7,7 @@ name: 'Lake Como'
 region: Lombardy
 days: 7
 updated_by: 4
-updated_at: 1780545966
+updated_at: 1780546428
 grade: 3
 inclusions:
   - '6 nights accommodation'
@@ -91,14 +91,14 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloox88g
-    title: 'Lake Como itinerary'
+    title: 'Lake Como Itinerary'
     summary: 'The magnificent, six-day Amalfi Coast walking tour takes you the length of the coast (with no buses or shuttles), starting at the romantic town of Ravello and finishing at the spectacular seaside town of Positano, with views over the sparkling Mediterranean Sea all the way - a unique experience!'
     days:
       -
         id: mlooymbz
         title: 'Arrive in Como'
         description: 'You will met in Como and driven to your lakeside accommodation with a private transfer.  After checking in, the rest of the day will be free for you to explore.'
-        photo: self-guided/lake-como/varenna-from-castle_hrc.jpg
+        photo: self-guided/lake-como/43.3.jpg
       -
         id: mloozlek
         title: 'Follow ancient cobbled paths'
@@ -107,7 +107,7 @@ page_builder:
         distance: 10.0
         meals_included:
           - breakfast
-        photo: self-guided/lake-como/menaggio-17.jpg
+        photo: self-guided/lake-como/varenna-from-castle_hrc.jpg
       -
         id: mlop159i
         title: 'Visit a Villa'
@@ -116,6 +116,7 @@ page_builder:
         distance: 9.0
         meals_included:
           - breakfast
+        photo: self-guided/lake-como/28.3.jpg
       -
         id: mlop3c5r
         title: 'Explore the mountainside'
@@ -124,6 +125,7 @@ page_builder:
           - breakfast
         duration: 4.0
         distance: 12.5
+        photo: self-guided/lake-como/dervio-8.jpg
       -
         id: mlop5205
         title: 'Pass through fishing villages'
@@ -132,6 +134,7 @@ page_builder:
           - breakfast
         duration: 1.5
         distance: 4.0
+        photo: self-guided/lake-como/116.jpg
       -
         id: mlop6avf
         meals_included:
@@ -143,19 +146,20 @@ page_builder:
         distance: 7.0
         elevation: 1
         title: 'Climb Monte San Primo'
+        photo: self-guided/lake-como/28.6.jpg
       -
         id: 0V0II83zkRJYkqeGpNITv
         meals_included:
           - breakfast
         description: 'After breakfast at you will be driven to Como by private transfer.  Como railway station has national and international rail links.   Please note that, with notice, we can book transfers to Malpensa airport (additional costs apply) which is an hour and a half away.'
-        elevation: 1
+        photo: self-guided/lake-como/115.4.jpg
     type: itinerary
     enabled: true
     section_background: none
     hide_from_subnav: false
   -
     id: OR8Dy9UjbFMvJq7xEKVOz
-    title: 'Amalfi Coast Experience'
+    title: 'Lake Como Experience'
     tabs:
       -
         id: UWuoa3i6XJocQEfsXVRkm
@@ -167,7 +171,7 @@ page_builder:
             content:
               -
                 type: text
-                text: 'The walks take between 3 to 5 hours. The distances are short but the paths for two of the walks run approximately 400m above sea level meaning a stiff climb up old stone stairs to get to the start. For this reason we have introduced shorter, less demanding alternative walks on Days 2, 4 and 5. While the walks generally follow clearly marked, centuries old paths, there are a couple of sections where you will have to pay attention! Full details on each walk are on the itinerary. '
+                text: 'The walk follows marked routes along a combination of paved stone paths and unsealed roads. As the paths are above the lakes there are long climbs to get to the start of each one. The walks are 3 to 4 hours (some of them can be shortened by using the very efficient local transport of ferries and buses. Full details on each walk are on the itinerary.'
           -
             type: paragraph
             content:
@@ -177,7 +181,7 @@ page_builder:
                   -
                     type: italic
                 text: 'The self-guided itineraries are rewalked and the notes updated each year.'
-        image: self-guided/the-amalfi-coast/img_2481.jpeg
+        image: self-guided/the-amalfi-coast/dervio-17.jpg
         type: walk
         enabled: true
       -
@@ -189,9 +193,9 @@ page_builder:
             content:
               -
                 type: text
-                text: "Hidden Italy tours use the best available accommodation.\_On the Amalfi Coast walking tour this means staying each night in very good, centrally located hotels (most with swimming pools) with whom we've been working for years.\_The Standard option uses 3-star hotels while the Superior option uses 4-star hotels. We request rooms with sea views. All rooms have ensuite bathrooms."
+                text: "Hidden Italy uses the best accommodation available.\_On Lake Como this means excellent centrally located, family-run, romantic\_hotels, with whom we've been working for years.\_ All rooms have ensuite bathrooms, air conditioning and generous breakfasts."
         media:
-          - self-guided/the-amalfi-coast/hotel-positano.jpg
+          - self-guided/the-amalfi-coast/varenna-3.jpg
         type: accommodation
         enabled: true
       -
@@ -203,7 +207,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Campania, is a region of contrasts and this is reflected in the region's cuisine.\_With pizza and spaghetti, Campania created dishes that are not only part of the national cuisine but also international gastronomy.\_Cooking on the Amalfi Coast is simple, preserving the freshness of its ingredients, including its exceptional vegetables and fruit, grown in volcanic soils, as well as its abundant fresh fish.\_Campania's excellent wines, which are grown around Ischia, Capri, Vesuvius and the Sorrentine Peninsula, have a very long history, dating back to Greek and Roman times."
+                text: "Forget pizzas and tomato-based suaces, lake cuisine specilaises in risotto, polenta, fresh-caught fish and wild mushrooms in butter.\_The historical emphasis here has been on hearty fare to fuel a day's hard work, making the most of local ingredients, be they corn from the fields; Alpine cheeses from the cattle and goat herds in the mountains; or even frogs from the marshes. However, the key ingredients here are fresh lake fish, which include persico (perch), luccio (pike), lavarello (lavarel) and trout, all best served simply (perhaps fried in butter with sage leaves) to preserve their delicate flavour. There are also some interesting wines produced around the lake."
           -
             type: paragraph
             content:
@@ -214,7 +218,7 @@ page_builder:
                     type: italic
                 text: "Generous breakfasts are included each day.\_Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_You will be able to make reservations where applicable directly through the Hidden Italy App."
         media:
-          - self-guided/the-amalfi-coast/c.jpg
+          - self-guided/the-amalfi-coast/30-naggio-lunch-mushrooms.jpg
         type: food
         enabled: true
     type: experience
