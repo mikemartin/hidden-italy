@@ -6,7 +6,7 @@ name: 'Lake Como'
 region: Lombardy
 days: 7
 updated_by: 4
-updated_at: 1780613298
+updated_at: 1780613703
 grade: 3
 inclusions:
   - '6 nights accommodation'
@@ -310,7 +310,9 @@ page_builder:
     id: Z4Eo1v9GS-MOK7Yj_nhsF
     heading: 'What our travellers are saying'
     testimonials:
-      - 4657e340-53bf-4111-b64e-ae6016e83e16
+      - 586beb5e-7306-4833-a450-cf0faaf22e6e
+      - 31d19d3a-d286-4622-9665-5458471fd171
+      - 265ac136-97b8-4c09-9da6-706437c266ed
     type: testimonials
     enabled: true
     section_background: none
