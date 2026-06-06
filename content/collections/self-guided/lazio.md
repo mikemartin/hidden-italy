@@ -5,8 +5,8 @@ title: 'Lazio - Lazio: Cammino of St Francis Part 3'
 name: 'Lazio: Cammino of St Francis Part 3'
 region: Lazio
 days: 8
-updated_by: 3
-updated_at: 1780531001
+updated_by: 2
+updated_at: 1780757633
 grade: 4
 inclusions:
   - '7 nights accommodation'
@@ -392,6 +392,8 @@ finish_location:
 now_open: false
 seasons:
   - autumn
+  - spring
+  - summer
 headline: '8 days from Rieti to Rome'
 teaser: 'From the quiet green hills of central Italy to the steps of St Peters in the heart of Rome'
 summary:
