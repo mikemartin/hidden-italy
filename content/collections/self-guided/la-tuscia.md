@@ -5,8 +5,8 @@ title: 'Tuscany and Umbria - La Tuscia'
 name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 7
-updated_by: 4
-updated_at: 1780447344
+updated_by: 2
+updated_at: 1780757906
 grade: 3
 inclusions:
   - 'Private transfer from Rome to Pitigliano on Day 1'
@@ -352,6 +352,8 @@ gallery:
 now_open: false
 seasons:
   - spring
+  - autumn
+  - summer
 headline: 'Walking through Hidden Italy'
 start_location:
   label: 'Pitigliano, Tuscany, Italy'
