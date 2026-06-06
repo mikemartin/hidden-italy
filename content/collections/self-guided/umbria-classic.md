@@ -5,8 +5,8 @@ title: 'Umbria - Umbria Classic'
 name: 'Umbria Classic'
 region: Umbria
 days: 7
-updated_by: 4
-updated_at: 1780454995
+updated_by: 2
+updated_at: 1780757995
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -347,6 +347,9 @@ gallery:
 now_open: false
 seasons:
   - spring
+  - autumn
+  - summer
+  - winter
 headline: 'Enjoying the best of Umbria'
 start_location:
   label: 'Assisi, Umbria, Italy'
