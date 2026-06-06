@@ -5,8 +5,8 @@ title: 'Sicily - Sicily 1: the Madonie Mountains'
 name: 'Sicily 1: the Madonie Mountains'
 region: Sicily
 days: 7
-updated_by: 4
-updated_at: 1780359412
+updated_by: 2
+updated_at: 1780757770
 grade: 3
 inclusions:
   - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
@@ -386,6 +386,7 @@ finish_location:
 now_open: false
 seasons:
   - spring
+  - autumn
 headline: '7 days walking central Sicily'
 image: self-guided/sicily-1-the-madonie-mountains/-08.jpg
 teaser: 'A seven-day walk through the unspoit heart of central Sicily - a Hidden Italy special!'
