@@ -5,8 +5,8 @@ title: 'Umbria - Umbria 1: Cammino of St Francis Part 1'
 name: 'Umbria 1: Cammino of St Francis Part 1'
 region: Umbria
 days: 6
-updated_by: 4
-updated_at: 1780457055
+updated_by: 2
+updated_at: 1780757957
 grade: 3
 inclusions:
   - 'Five nights accommodation'
@@ -337,6 +337,9 @@ gallery:
 now_open: false
 seasons:
   - spring
+  - autumn
+  - summer
+  - winter
 headline: '6 days walking with St Francis'
 start_location:
   label: 'Assisi, Umbria, Italy'
