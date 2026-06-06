@@ -5,8 +5,8 @@ title: "Val d'Aosta - Valley del Lys"
 name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
-updated_by: 4
-updated_at: 1780456647
+updated_by: 2
+updated_at: 1780758015
 grade: 4
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
@@ -425,6 +425,7 @@ gallery:
 now_open: false
 seasons:
   - summer
+  - autumn
 headline: '7 days hiking a stunning mountain valley'
 start_location:
   label: 'Pont-Saint-Martin, Aosta Valley, Italy'
