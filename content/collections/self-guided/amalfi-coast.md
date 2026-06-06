@@ -5,8 +5,8 @@ title: 'Campania - The Amalfi Coast'
 name: 'The Amalfi Coast'
 region: Campania
 days: 6
-updated_by: 4
-updated_at: 1780544643
+updated_by: 2
+updated_at: 1780757606
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
@@ -368,6 +368,8 @@ headline: '6 days on the Amalfi Coast'
 now_open: false
 seasons:
   - spring
+  - summer
+  - autumn
 teaser: 'A fabulous six-day hike that takes you the length of the breathtaking Amalfi Coast!'
 summary:
   -
