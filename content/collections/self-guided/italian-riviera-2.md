@@ -5,8 +5,8 @@ title: 'Liguria - Italian Riviera 2'
 name: 'Italian Riviera 2'
 region: Liguria
 days: 9
-updated_by: 4
-updated_at: 1780456965
+updated_by: 2
+updated_at: 1780757671
 grade: 3
 inclusions:
   - 'Eight nights accommodation'
@@ -406,6 +406,9 @@ finish_location:
 now_open: false
 seasons:
   - autumn
+  - spring
+  - summer
+  - winter
 headline: '9 days of coastal walking'
 teaser: "Walk Italy's most celebrated coastline from romantic Sestri Levante to the Cinque Terre!"
 summary:
