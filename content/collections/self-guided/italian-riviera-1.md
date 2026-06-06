@@ -5,8 +5,8 @@ title: 'Liguria - Italian Riviera 1'
 name: 'Italian Riviera 1'
 region: Liguria
 days: 8
-updated_by: 4
-updated_at: 1780456888
+updated_by: 2
+updated_at: 1780757652
 grade: 3
 inclusions:
   - 'Seven nights accommodation'
@@ -408,6 +408,9 @@ finish_location:
 now_open: false
 seasons:
   - autumn
+  - spring
+  - summer
+  - winter
 headline: '8 days hiking the Italian Riviera'
 teaser: 'Follow ancient paths through fishing villages and forests on the beautiful Italian Riviera'
 summary:
