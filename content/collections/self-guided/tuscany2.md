@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 2'
 name: 'Tuscany 2'
 region: Tuscany
 days: 7
-updated_by: 4
-updated_at: 1780457197
+updated_by: 2
+updated_at: 1780757866
 grade: 3
 inclusions:
   - 'Private transfer from Florence on Day 1 and to Siena on Day 6'
@@ -382,6 +382,8 @@ finish_location:
 now_open: false
 seasons:
   - autumn
+  - spring
+  - summer
 headline: '7 days walking the Chianti'
 teaser: 'Enjoy a seven-day walk through the rolling vineyards, forest and market towns of Chianti.'
 summary:
