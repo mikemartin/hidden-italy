@@ -5,8 +5,8 @@ title: 'Trentino-Alto Adige - Dolomites'
 name: Dolomites
 region: 'Trentino-Alto Adige'
 days: 6
-updated_by: 4
-updated_at: 1780456844
+updated_by: 2
+updated_at: 1780757818
 grade: 3
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
@@ -363,6 +363,7 @@ start_location:
 now_open: true
 seasons:
   - summer
+  - autumn
 headline: '6 days walking the Dolomites'
 finish_location:
   label: 'Sëlva - Wolkenstein - Selva di Val Gardena, Trentino – Alto Adige/Südtirol, Italy'
