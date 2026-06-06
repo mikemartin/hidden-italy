@@ -5,8 +5,8 @@ title: 'Piedmont - Alba and Le Langhe'
 name: 'Alba and Le Langhe'
 region: Piedmont
 days: 8
-updated_by: 3
-updated_at: 1780028160
+updated_by: 2
+updated_at: 1780757727
 grade: 3
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
@@ -381,6 +381,8 @@ finish_location:
 now_open: false
 seasons:
   - autumn
+  - spring
+  - summer
 headline: "Explore the Langhe's rolling hills"
 teaser: 'An 8-day tour that takes you through the seductive rolling hills of southern Piedmont.'
 summary:
