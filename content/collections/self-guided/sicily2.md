@@ -5,8 +5,8 @@ title: 'Sicily - Sicily 2: the Egadi Islands'
 name: 'Sicily 2: the Egadi Islands'
 region: Sicily
 days: 7
-updated_by: 4
-updated_at: 1780361874
+updated_by: 2
+updated_at: 1780757795
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
@@ -349,6 +349,8 @@ gallery:
   - self-guided/sicily-2-the-egadi-islands/p1010686.jpg
 seasons:
   - spring
+  - autumn
+  - summer
 start_location:
   label: 'Favignana, Sicily, Italy'
   lat: '37.9314018'
