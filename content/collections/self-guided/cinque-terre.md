@@ -5,8 +5,8 @@ title: 'Liguria - The Cinque Terre'
 name: 'The Cinque Terre'
 region: Liguria
 days: 7
-updated_by: 4
-updated_at: 1780367680
+updated_by: 2
+updated_at: 1780757711
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -377,6 +377,9 @@ finish_location:
 now_open: false
 seasons:
   - spring
+  - autumn
+  - summer
+  - winter
 headline: "7 days along Italy's finest coast"
 teaser: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
 summary:
