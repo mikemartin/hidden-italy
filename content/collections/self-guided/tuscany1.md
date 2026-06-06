@@ -5,8 +5,8 @@ title: 'Tuscany - Tuscany 1'
 name: 'Tuscany 1'
 region: Tuscany
 days: 6
-updated_by: 4
-updated_at: 1780367505
+updated_by: 2
+updated_at: 1780757847
 grade: 1
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
@@ -336,6 +336,8 @@ gallery:
 now_open: false
 seasons:
   - spring
+  - autumn
+  - winter
 headline: '6 days walking the Tuscan hills'
 start_location:
   label: 'Montalcino, Tuscany, Italy'
