@@ -6,7 +6,7 @@ name: 'Lake Como'
 region: Lombardy
 days: 7
 updated_by: 2
-updated_at: 1780757584
+updated_at: 1780758418
 grade: 3
 inclusions:
   - '6 nights accommodation'
@@ -331,15 +331,15 @@ gallery:
   - self-guided/lake-como/varenna-from-castle_hrc.jpg
   - self-guided/lake-como/17-v2.jpg
   - self-guided/lake-como/28.3.jpg
+  - self-guided/lake-como/menaggio-18.jpg
   - self-guided/lake-como/28.6.jpg
   - self-guided/lake-como/116.jpg
-  - self-guided/lake-como/321.jpg
   - self-guided/lake-como/30-naggio-lunch-mushrooms-1780757551.jpg
   - self-guided/lake-como/115.4.jpg
   - self-guided/lake-como/32-a.jpg
   - self-guided/lake-como/varenna-3.jpg
-  - self-guided/lake-como/menaggio-18.jpg
   - self-guided/lake-como/dervio-8.jpg
+  - self-guided/lake-como/view-over-lake-como.jpg
 image: self-guided/lake-como/menaggio-17.jpg
 start_location:
   label: 'Como, Lombardy, Italy'
