@@ -5,8 +5,8 @@ title: 'Umbria - Umbria 2: Cammino of St Francis Part 2'
 name: 'Umbria 2: Cammino of St Francis Part 2'
 region: Umbria
 days: 7
-updated_by: 4
-updated_at: 1780454806
+updated_by: 2
+updated_at: 1780757976
 grade: 4
 inclusions:
   - 'Six nights accommodation'
@@ -393,6 +393,9 @@ finish_location:
 now_open: false
 seasons:
   - spring
+  - autumn
+  - summer
+  - winter
 headline: "7 days in Italy's green heart"
 teaser: "A week-long walk along well-marked trails through the charming 'green heart of Italy'."
 summary:
