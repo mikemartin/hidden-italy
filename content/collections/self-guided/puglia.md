@@ -5,8 +5,8 @@ title: 'Puglia - Puglia: The Gargano Peninsula'
 name: 'Puglia: The Gargano Peninsula'
 region: Puglia
 days: 8
-updated_by: 4
-updated_at: 1780457262
+updated_by: 2
+updated_at: 1780757744
 grade: 3
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
@@ -356,6 +356,8 @@ gallery:
 now_open: false
 seasons:
   - spring
+  - autumn
+  - summer
 headline: '8 days wandering the Gargano'
 start_location:
   label: 'San Marco in Lamis, Apulia, Italy'
