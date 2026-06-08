@@ -21,4 +21,4 @@ fields:
       max_items: 4
       type: entries
       display: 'Tour Photos'
-      instructions: 'Pick up to 4 tours. Each slide uses that tour''s photo and its own Image overlay (slide opacity).'
+      instructions: 'Pick up to 4 tours. Each slide uses that tour''s photo and its own adjustable image overlay.'
