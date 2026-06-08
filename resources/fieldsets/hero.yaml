@@ -22,3 +22,14 @@ fields:
       type: entries
       display: 'Tour Photos'
       instructions: 'Pick up to 4 tours. Each tour becomes one slide of the hero carousel — its main photo is the slide image and the tour name is shown as a caption.'
+  -
+    handle: overlay_opacity
+    field:
+      type: range
+      display: 'Image overlay'
+      instructions: 'Darkens the hero images so the headline stays legible. 0% = no overlay, 100% = solid black.'
+      min: 0
+      max: 100
+      step: 1
+      default: 30
+      append: '%'

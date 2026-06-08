@@ -101,11 +101,17 @@
                             }}
                         {{ /if }}
 
-                        {{# Uniform dark wash for centred-content contrast. On the first
-                            slide it doubles as an initial-load curtain — starts fully
-                            opaque and fades to its resting 30% on mount so the image
-                            emerges from dark without delaying LCP. #}}
-                        <div class="absolute inset-0 bg-black/20{{ if first }} hero-curtain{{ /if }}"></div>
+                        {{# Uniform dark wash for centred-content contrast. Opacity is
+                            editor-controlled via the entry's Image overlay field
+                            (default 30%), exposed as the `--hero-overlay-opacity`
+                            custom property. On the first slide the wash doubles as an
+                            initial-load curtain — starts fully opaque and fades to its
+                            resting opacity on mount so the image emerges from dark
+                            without delaying LCP. #}}
+                        <div
+                            class="absolute inset-0{{ if first }} hero-curtain{{ /if }}"
+                            style="--hero-overlay-opacity: {{ overlay_opacity ?? 30 }}%; background-color: rgba(0, 0, 0, var(--hero-overlay-opacity, 30%));"
+                        ></div>
 
                         {{# Top + bottom dark gradients to anchor the header and the bottom row. #}}
                         <div
