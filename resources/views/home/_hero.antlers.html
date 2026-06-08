@@ -101,13 +101,15 @@
                             }}
                         {{ /if }}
 
-                        {{# Uniform dark wash for centred-content contrast. Opacity is
-                            editor-controlled via the entry's Image overlay field
-                            (default 30%), exposed as the `--hero-overlay-opacity`
-                            custom property. On the first slide the wash doubles as an
-                            initial-load curtain — starts fully opaque and fades to its
-                            resting opacity on mount so the image emerges from dark
-                            without delaying LCP. #}}
+                        {{# Uniform dark wash for centred-content contrast. Each slide
+                            is a tour entry, so `overlay_opacity` resolves to that
+                            tour's own Image overlay field (default 30%) — the editor
+                            sets the darkness per tour, not on the homepage. The value
+                            is exposed as the `--hero-overlay-opacity` custom property.
+                            On the first slide the wash doubles as an initial-load
+                            curtain — starts fully opaque and fades to its resting
+                            opacity on mount so the image emerges from dark without
+                            delaying LCP. #}}
                         <div
                             class="absolute inset-0{{ if first }} hero-curtain{{ /if }}"
                             style="--hero-overlay-opacity: {{ overlay_opacity ?? 30 }}%; background-color: rgba(0, 0, 0, var(--hero-overlay-opacity, 30%));"

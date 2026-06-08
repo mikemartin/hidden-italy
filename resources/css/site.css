@@ -392,9 +392,9 @@
    image is painted underneath at full opacity — so LCP isn't delayed) and
    fades down to its resting overlay opacity as the page settles. The rest
    state reads the `--hero-overlay-opacity` custom property set inline from
-   the entry's Image overlay field (default 30%), so the curtain lands on
-   whatever opacity the editor chose. Only runs once at mount, not on slide
-   rewinds. */
+   the slide's tour Image overlay field (default 30%), so the curtain lands
+   on whatever opacity the editor chose for that tour. Only runs once at
+   mount, not on slide rewinds. */
 @keyframes hero-curtain {
     from { background-color: rgba(0, 0, 0, 1); }
     to   { background-color: rgba(0, 0, 0, var(--hero-overlay-opacity, 30%)); }
