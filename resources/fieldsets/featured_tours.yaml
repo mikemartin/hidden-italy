@@ -36,7 +36,7 @@ fields:
         - guided
         - self-guided
       max_items: 6
-      instructions: 'Hand-picked tours shown in the slider. Three is the intended count.'
+      instructions: 'Pick three tours to feature.'
       validate:
         - required
   -
