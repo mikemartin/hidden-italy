@@ -60,17 +60,19 @@
                             section always exposes a direct path to the
                             canonical policy. Editor input on `link_text` /
                             `link_url` is intentionally overridden — keeps
-                            those legal links from drifting to stale targets. #}}
+                            those legal links from drifting to stale targets.
+                            Links target the page itself (no section anchors),
+                            so they stay valid as the terms content changes. #}}
                         {{ if type == 'booking_cancellation' }}
-                            <a href="/terms#7-cancellations" class="button-inline self-start">
+                            <a href="/terms" class="button-inline self-start">
                                 <span>{{ trans:strings.read_cancellation_terms }}</span>
                                 <x-lucide-arrow-up-right stroke-width="1.75" aria-hidden="true" />
                             </a>
                         {{ elseif type == 'travel_insurance' }}
-                            <a href="/terms#9-travel-insurance-medical-information" class="button-inline self-start">
+                            <a href="/terms" class="button-inline self-start">
                                 <span>{{ trans:strings.read_travel_insurance_terms }}</span>
                                 <x-lucide-arrow-up-right stroke-width="1.75" aria-hidden="true" />
-                            </a>                            
+                            </a>
                         {{ else }}
                             {{ if (link_text && link_url) }}
                                 <a href="{{ link_url ?? '#' }}" class="button-inline self-start">
