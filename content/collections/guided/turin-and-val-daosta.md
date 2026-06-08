@@ -1,7 +1,7 @@
 ---
 id: bf401969-bac2-4370-8ffd-d7c62b8f4ade
 blueprint: tour
-title: "Val d'Aosta - Turin and Val d'Aosta"
+title: 'Turin and Val d''Aosta - Val d''Aosta'
 name: "Turin and Val d'Aosta"
 region: "Val d'Aosta"
 days: 13

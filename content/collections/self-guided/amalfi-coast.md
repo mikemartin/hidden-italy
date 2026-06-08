@@ -1,7 +1,7 @@
 ---
 id: 4d4c9c9a-64b1-4bfb-9c8b-cce9a757139e
 blueprint: tour
-title: 'Campania - The Amalfi Coast'
+title: 'The Amalfi Coast - Campania'
 name: 'The Amalfi Coast'
 region: Campania
 days: 6

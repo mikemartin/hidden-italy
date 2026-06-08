@@ -1,7 +1,7 @@
 ---
 id: 96805144-50d8-471e-9208-b397627a3a1c
 blueprint: tour
-title: 'Puglia - Puglia in the Spring'
+title: 'Puglia in the Spring - Puglia'
 name: 'Puglia in the Spring'
 region: Puglia
 days: 13

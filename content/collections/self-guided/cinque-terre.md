@@ -1,7 +1,7 @@
 ---
 id: 65354be1-c899-4486-82f9-2883d090c270
 blueprint: tour
-title: 'Liguria - The Cinque Terre'
+title: 'The Cinque Terre - Liguria'
 name: 'The Cinque Terre'
 region: Liguria
 days: 7

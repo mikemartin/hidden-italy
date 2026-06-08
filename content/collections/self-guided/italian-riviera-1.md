@@ -1,7 +1,7 @@
 ---
 id: c10e8a1d-dab8-454a-8c80-abbba7b0a648
 blueprint: tour
-title: 'Liguria - Italian Riviera 1'
+title: 'Italian Riviera 1 - Liguria'
 name: 'Italian Riviera 1'
 region: Liguria
 days: 8

@@ -1,7 +1,7 @@
 ---
 id: 4890c31c-65dd-42bf-8f81-1bd6835115e9
 blueprint: tour
-title: 'Sicily - Sicily 2: the Egadi Islands'
+title: 'Sicily 2: the Egadi Islands - Sicily'
 name: 'Sicily 2: the Egadi Islands'
 region: Sicily
 days: 7

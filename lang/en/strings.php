@@ -136,10 +136,10 @@ return [
     'days' => 'Days',
     'from' => 'From',
     'equipment_needed' => 'Equipment needed',
-    'travel_insurance' => 'Travel insurance conditions',
+    'travel_insurance' => 'Travel insurance',
     'booking_cancellation' => 'Booking and cancellation conditions',
-    'read_cancellation_terms' => 'Read full cancellation terms',
-    'read_travel_insurance_terms' => 'Read full travel insurance terms',
+    'read_cancellation_terms' => 'Read full terms and conditions',
+    'read_travel_insurance_terms' => 'Read full terms and conditions',
     'read_bio' => 'Read bio',
 
     // Tour sub-nav (sticky in-page navigation). Keys mirror page_builder block

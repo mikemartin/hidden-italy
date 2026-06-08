@@ -25,8 +25,9 @@
         }}
     {{ /if }}
 
-    {{# Uniform dark wash for centred-content contrast. #}}
-    <div class="absolute inset-0 bg-black/20" aria-hidden="true"></div>
+    {{# Uniform dark wash for centred-content contrast. Opacity is
+        editor-controlled via the tour's Image overlay field (default 30%). #}}
+    <div class="absolute inset-0" style="background-color: rgba(0, 0, 0, {{ overlay_opacity ?? 30 }}%);" aria-hidden="true"></div>
 
     {{# Top + bottom dark gradients to anchor the header and the location row. #}}
     <div

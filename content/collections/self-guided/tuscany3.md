@@ -1,7 +1,7 @@
 ---
 id: 7e191ba5-7ed0-4683-bf70-1a754fadc11d
 blueprint: tour
-title: 'Tuscany - Tuscany 3'
+title: 'Tuscany 3 - Tuscany'
 name: 'Tuscany 3'
 region: Tuscany
 days: 5

@@ -1,7 +1,7 @@
 ---
 id: 3d10a0a0-5538-48e1-a7ad-e8e84b633ed9
 blueprint: tour
-title: 'Puglia - Puglia: The Gargano Peninsula'
+title: 'Puglia: The Gargano Peninsula - Puglia'
 name: 'Puglia: The Gargano Peninsula'
 region: Puglia
 days: 8

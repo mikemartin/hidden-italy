@@ -1,7 +1,7 @@
 ---
 id: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
 blueprint: tour
-title: 'Piedmont - Alba and Le Langhe'
+title: 'Alba and Le Langhe - Piedmont'
 name: 'Alba and Le Langhe'
 region: Piedmont
 days: 8

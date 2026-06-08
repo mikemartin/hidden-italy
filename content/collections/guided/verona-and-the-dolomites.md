@@ -1,7 +1,7 @@
 ---
 id: 8c969301-fa7c-418d-b306-3d50f60c142a
 blueprint: tour
-title: 'Trentino-Alto Adige - Verona and the Dolomites'
+title: 'Verona and the Dolomites - Trentino-Alto Adige'
 name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13

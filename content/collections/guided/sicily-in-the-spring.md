@@ -1,7 +1,7 @@
 ---
 id: d6a3ceb1-2eac-4860-b7c0-b70500e53345
 blueprint: tour
-title: 'Sicily - Sicily in the Spring'
+title: 'Sicily in the Spring - Sicily'
 name: 'Sicily in the Spring'
 region: Sicily
 seasons: spring

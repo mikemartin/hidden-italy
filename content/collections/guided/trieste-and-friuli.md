@@ -1,7 +1,7 @@
 ---
 id: 9fd38ab4-55ef-435d-82cc-d9246de83cc3
 blueprint: tour
-title: 'Friuli Venezia Giulia - Trieste and Friuli'
+title: 'Trieste and Friuli - Friuli Venezia Giulia'
 name: 'Trieste and Friuli'
 region: 'Friuli Venezia Giulia'
 days: 13
