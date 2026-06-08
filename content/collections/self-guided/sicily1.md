@@ -1,7 +1,7 @@
 ---
 id: 9b40b14d-a9c5-43b5-ae27-eeb883bc2c34
 blueprint: tour
-title: 'Sicily - Sicily 1: the Madonie Mountains'
+title: 'Sicily 1: the Madonie Mountains - Sicily'
 name: 'Sicily 1: the Madonie Mountains'
 region: Sicily
 days: 7

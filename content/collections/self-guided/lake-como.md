@@ -1,7 +1,7 @@
 ---
 id: fe7d8f05-4262-4ff2-9fa6-af18f7825ec2
 blueprint: tour
-title: 'Lombardy - Lake Como'
+title: 'Lake Como - Lombardy'
 name: 'Lake Como'
 region: Lombardy
 days: 7

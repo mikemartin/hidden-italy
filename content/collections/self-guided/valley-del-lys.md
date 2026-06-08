@@ -1,7 +1,7 @@
 ---
 id: 7397f93f-96a7-4030-b13c-2315e28fe22c
 blueprint: tour
-title: "Val d'Aosta - Valley del Lys"
+title: 'Valley del Lys - Val d''Aosta'
 name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7

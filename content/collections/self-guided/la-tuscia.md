@@ -1,7 +1,7 @@
 ---
 id: 94b14cda-124a-4b87-82f5-7bc566ac2edf
 blueprint: tour
-title: 'Tuscany and Umbria - La Tuscia'
+title: 'La Tuscia - Tuscany and Umbria'
 name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 7

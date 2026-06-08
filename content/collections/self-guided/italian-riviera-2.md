@@ -1,7 +1,7 @@
 ---
 id: f943eb67-6a4d-42c3-b854-183322963089
 blueprint: tour
-title: 'Liguria - Italian Riviera 2'
+title: 'Italian Riviera 2 - Liguria'
 name: 'Italian Riviera 2'
 region: Liguria
 days: 9

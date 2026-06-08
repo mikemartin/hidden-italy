@@ -1,7 +1,7 @@
 ---
 id: 97c7707c-9b34-4f4f-9445-39668362d1fd
 blueprint: tour
-title: 'Tuscany - Tuscany 2'
+title: 'Tuscany 2 - Tuscany'
 name: 'Tuscany 2'
 region: Tuscany
 days: 7

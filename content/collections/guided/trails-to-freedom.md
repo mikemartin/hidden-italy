@@ -1,7 +1,7 @@
 ---
 id: 0d717011-26fe-4d13-89f4-a0739f966e3d
 blueprint: tour
-title: 'Italian Alps - Trails to Freedom'
+title: 'Trails to Freedom - Italian Alps'
 name: 'Trails to Freedom'
 region: 'Italian Alps'
 days: 10

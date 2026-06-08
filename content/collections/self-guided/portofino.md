@@ -1,7 +1,7 @@
 ---
 id: c4b08565-bc23-4d2d-877c-69e8e02e78b8
 blueprint: tour
-title: 'Liguria - Portofino and the Tigullio Gulf'
+title: 'Portofino and the Tigullio Gulf - Liguria'
 name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6

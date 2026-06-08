@@ -1,7 +1,7 @@
 ---
 id: 543d98ec-f3a9-42a3-9f7b-0ad11cfca5a9
 blueprint: tour
-title: 'Sardinia - Sardinia in the Spring'
+title: 'Sardinia in the Spring - Sardinia'
 name: 'Sardinia in the Spring'
 region: Sardinia
 days: 13

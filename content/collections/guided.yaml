@@ -7,7 +7,7 @@ taxonomies:
   - seasons
   - locations
 revisions: false
-title_format: '{region} - {name}'
+title_format: '{name} - {region}'
 route: '/tours/guided/{slug}'
 sort_dir: asc
 date_behavior:

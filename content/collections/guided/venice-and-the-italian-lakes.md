@@ -2,7 +2,7 @@
 id: acc266b3-4cb5-44f3-b331-96d21d8fe85c
 published: false
 blueprint: tour
-title: 'Lombardy-Piedmont - Venice and the Italian Lakes'
+title: 'Venice and the Italian Lakes - Lombardy-Piedmont'
 name: 'Venice and the Italian Lakes'
 region: Lombardy-Piedmont
 days: 13

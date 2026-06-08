@@ -1,7 +1,7 @@
 ---
 id: a5eb2e54-ad28-467a-9e7a-b32fdce0c6d7
 blueprint: tour
-title: 'Campania and Basilicata - Campania and the Amalfi Coast'
+title: 'Campania and the Amalfi Coast - Campania and Basilicata'
 name: 'Campania and the Amalfi Coast'
 region: 'Campania and Basilicata'
 days: 13

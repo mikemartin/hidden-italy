@@ -1,7 +1,7 @@
 ---
 id: 885f3bc4-e91d-444f-a666-44cc0eda6277
 blueprint: tour
-title: 'Umbria - Umbria Classic'
+title: 'Umbria Classic - Umbria'
 name: 'Umbria Classic'
 region: Umbria
 days: 7

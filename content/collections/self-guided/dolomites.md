@@ -1,7 +1,7 @@
 ---
 id: 5cbc2124-bf9e-49cf-af90-b2ef7d32c0d9
 blueprint: tour
-title: 'Trentino-Alto Adige - Dolomites'
+title: 'Dolomites - Trentino-Alto Adige'
 name: Dolomites
 region: 'Trentino-Alto Adige'
 days: 6
