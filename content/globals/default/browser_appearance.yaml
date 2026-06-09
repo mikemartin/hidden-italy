@@ -6,6 +6,7 @@ use_theme_color: true
 use_theme_color_dark_mode: false
 theme_color: '#27556B'
 use_favicons: true
-svg: silhouette-icon.svg
+svg: favicon.svg
 background: '#27556B'
 safari_icon: ios-icon.png
+override_512: android-icon.png
