@@ -2,5 +2,10 @@ disable_telephone_detection: false
 disable_email_detection: false
 disable_address_detection: false
 display_standalone: false
-use_theme_color: false
-use_favicons: false
+use_theme_color: true
+use_theme_color_dark_mode: false
+theme_color: '#27556B'
+use_favicons: true
+svg: silhouette-icon.svg
+background: '#27556B'
+safari_icon: ios-icon.png
