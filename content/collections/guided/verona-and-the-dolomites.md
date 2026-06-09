@@ -5,8 +5,8 @@ title: 'Verona and the Dolomites - Trentino-Alto Adige'
 name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
-updated_by: 3
-updated_at: 1780028487
+updated_by: 4
+updated_at: 1780969954
 locations: northern-italy
 grade: 3
 image: guided/verona-and-the-dolomites/-p9192176.jpg
@@ -435,4 +435,6 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
+availability_text: 'Tour Start Dates: 03 Sep 27 & 17 Sep 27'
 ---
