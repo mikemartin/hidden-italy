@@ -5,8 +5,8 @@ title: 'Puglia: The Gargano Peninsula - Puglia'
 name: 'Puglia: The Gargano Peninsula'
 region: Puglia
 days: 8
-updated_by: 2
-updated_at: 1780757744
+updated_by: 3
+updated_at: 1780966025
 grade: 3
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
@@ -400,11 +400,12 @@ summary:
         type: text
         text: 'This 8-day/7-night tour explores the Gargano Peninsula in northern Puglia. The ‘spur’ on the boot of Italy, it is an expansive promontory covered by one of Italy’s oldest national parks, surrounded by sparkling waters, white limestone cliffs and pretty fishing villages. Gargano has a rich history. It has been inhabited since Neolithic times and has towns that were founded by the ancient Greeks and Romans, but its glory days were during the Crusades when the sanctuary of Monte San Michele became one of the most important pilgrim destinations in the Middle Ages.'
 show_from: true
-price: 'A$3,400'
+price: 'A$3,400 pp'
 og_image: puglia-puglia-the-gargano-peninsula-og-1779335294.png
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
