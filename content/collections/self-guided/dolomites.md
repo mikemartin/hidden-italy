@@ -5,8 +5,8 @@ title: 'Dolomites - Trentino-Alto Adige'
 name: Dolomites
 region: 'Trentino-Alto Adige'
 days: 6
-updated_by: 2
-updated_at: 1780757818
+updated_by: 3
+updated_at: 1780965946
 grade: 3
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
@@ -390,7 +390,7 @@ summary:
         type: text
         text: 'This wonderful 6-day/5-night self-guided walk introduces you to some of the most spectacular mountains in the world and some of the finest walking in Europe.'
 show_from: true
-price: 'A$2,950'
+price: 'A$2,950 pp'
 og_image: trentino-alto-adige-dolomites-1-og-1779335300.png
 seo_noindex: inherit
 seo_nofollow: false
@@ -398,4 +398,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 badge_text: POPULAR
+overlay_opacity: 30
 ---
