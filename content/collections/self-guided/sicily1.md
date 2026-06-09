@@ -6,7 +6,7 @@ name: 'Sicily 1: the Madonie Mountains'
 region: Sicily
 days: 7
 updated_by: 3
-updated_at: 1780966036
+updated_at: 1780966077
 grade: 3
 inclusions:
   - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
