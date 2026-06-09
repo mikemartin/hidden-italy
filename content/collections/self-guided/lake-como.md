@@ -5,8 +5,8 @@ title: 'Lake Como - Lombardy'
 name: 'Lake Como'
 region: Lombardy
 days: 7
-updated_by: 2
-updated_at: 1780758704
+updated_by: 3
+updated_at: 1780965989
 grade: 3
 inclusions:
   - '6 nights accommodation'
@@ -387,7 +387,7 @@ summary:
       -
         type: text
         text: 'This 7-day/6-night tour of Lake Como, one of the most romantic of the Italian lakes, has excellent hotels and an extensive network of ancient paths, the perfect place for a Hidden Italy walk! Lake Como is the most sophisticated and interesting of the Italian lakes, it is also the most beautiful. '
-price: 'A$3,580'
+price: 'A$3,580 pp'
 show_from: true
 og_image: campania-the-amalfi-coast-og-1779335281.png
 seo_noindex: inherit
@@ -395,4 +395,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
