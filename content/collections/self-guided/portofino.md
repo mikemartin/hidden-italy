@@ -5,8 +5,8 @@ title: 'Portofino and the Tigullio Gulf - Liguria'
 name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6
-updated_by: 2
-updated_at: 1780757688
+updated_by: 3
+updated_at: 1780966012
 grade: 1
 inclusions:
   - 'Five nights’ accommodation'
@@ -387,7 +387,7 @@ summary:
       -
         type: text
         text: 'This 6-day/5-night tour explores Portofino, the star turn of the Italian Riviera, the beautifully preserved fishing village tucked into a perfect bay, but it is only one of the highlights of this fascinating stretch of coastline that sits between Genoa and the Cinque Terre.'
-price: 'A$3,300'
+price: 'A$3,300 pp'
 show_from: true
 og_image: liguria-portofino-and-the-tigullio-gulf-og-1779335289.png
 seo_noindex: inherit
@@ -395,4 +395,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
