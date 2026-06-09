@@ -5,8 +5,8 @@ title: 'Tuscany 1 - Tuscany'
 name: 'Tuscany 1'
 region: Tuscany
 days: 6
-updated_by: 2
-updated_at: 1780757847
+updated_by: 3
+updated_at: 1780966089
 grade: 1
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
@@ -387,7 +387,7 @@ summary:
           -
             type: italic
         text: "The Val d'Orcia is where Hidden Italy had its first tour over thirty years ago, and it is still one of my favourite areas in Italy!"
-price: 'A$3,100'
+price: 'A$3,100 pp'
 show_from: true
 og_image: tuscany-tuscany-1-og-1779335301.png
 seo_noindex: inherit
@@ -395,4 +395,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
