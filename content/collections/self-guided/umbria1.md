@@ -5,8 +5,8 @@ title: 'Umbria 1: Cammino of St Francis Part 1 - Umbria'
 name: 'Umbria 1: Cammino of St Francis Part 1'
 region: Umbria
 days: 6
-updated_by: 2
-updated_at: 1780757957
+updated_by: 3
+updated_at: 1780966122
 grade: 3
 inclusions:
   - 'Five nights accommodation'
@@ -381,7 +381,7 @@ summary:
       -
         type: text
         text: 'This 6-day/5-night walk is the first section of the Cammino of St Francis. It follows the official pilgrim route, a regularly marked trail that weaves through the hills and farmlands of Central Italy, from Assisi, home of St Francis, to Spoleto through some of the most beautiful country in the region.'
-price: 'A$2,250'
+price: 'A$2,250 pp'
 show_from: true
 availability_text: "Part of the three-week 'Cammino of St Francis': Assisi to Rome"
 og_image: umbria-cammino-of-st-francis-umbria-1-og-1779335309.png
@@ -390,4 +390,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
