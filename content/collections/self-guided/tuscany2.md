@@ -5,8 +5,8 @@ title: 'Tuscany 2 - Tuscany'
 name: 'Tuscany 2'
 region: Tuscany
 days: 7
-updated_by: 2
-updated_at: 1780757866
+updated_by: 3
+updated_at: 1780966098
 grade: 3
 inclusions:
   - 'Private transfer from Florence on Day 1 and to Siena on Day 6'
@@ -393,7 +393,7 @@ summary:
       -
         type: text
         text: 'This magnificent 7-day/6-night walk passes through the Chianti, some of the most celebrated countryside in Europe, a unique landscape of rolling hills, vineyards, olive groves, thick oak forests, isolated farmhouses, medieval market towns and ancient villages, all shaped by over three millennia of settlement.'
-price: 'A$3,500'
+price: 'A$3,500 pp'
 show_from: true
 og_image: tuscany-tuscany-2-og-1779335303.png
 seo_noindex: inherit
@@ -401,4 +401,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
