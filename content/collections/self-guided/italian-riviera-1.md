@@ -5,8 +5,8 @@ title: 'Italian Riviera 1 - Liguria'
 name: 'Italian Riviera 1'
 region: Liguria
 days: 8
-updated_by: 2
-updated_at: 1780757652
+updated_by: 3
+updated_at: 1780965958
 grade: 3
 inclusions:
   - 'Seven nights accommodation'
@@ -420,7 +420,7 @@ summary:
       -
         type: text
         text: 'This 8-day/7-night walk takes you along the Italian Riviera following an arc of coastline dotted with fishing towns and glam resorts. It starts in the port city of Genova, the capital of the region of Liguria, and finishes in enchanting Sestri Levante.'
-price: 'A$3,350'
+price: 'A$3,350 pp'
 show_from: true
 og_image: liguria-italian-riviera-1-og-1779335285.png
 seo_noindex: inherit
@@ -429,4 +429,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 availability_text: 'Part 1 of the 15 day Italian Riviera walk'
+overlay_opacity: 30
 ---
