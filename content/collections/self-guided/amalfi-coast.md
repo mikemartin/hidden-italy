@@ -5,8 +5,8 @@ title: 'The Amalfi Coast - Campania'
 name: 'The Amalfi Coast'
 region: Campania
 days: 6
-updated_by: 2
-updated_at: 1780757606
+updated_by: 3
+updated_at: 1780966058
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
@@ -379,7 +379,7 @@ summary:
         type: text
         text: "This fabulous 6-day/5-night continuous walk along the length of the breathtaking Amalfi Coast starts with a private transfer from Naples to Ravello and then finishes with a private transfer from Positano back to Naples at the end. In between you get to experience the 'costiera' in all its colour and glory."
 availability_text: 'Standard (3 star hotels) and Superior (4 star hotels) options'
-price: 'A$3,250'
+price: 'A$3,250 pp'
 show_from: true
 og_image: campania-the-amalfi-coast-og-1779335281.png
 seo_noindex: inherit
@@ -387,4 +387,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
