@@ -1,12 +1,12 @@
 ---
 id: 7397f93f-96a7-4030-b13c-2315e28fe22c
 blueprint: tour
-title: 'Valley del Lys - Val d''Aosta'
+title: "Valley del Lys - Val d'Aosta"
 name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
-updated_by: 2
-updated_at: 1780758015
+updated_by: 3
+updated_at: 1780966152
 grade: 4
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
@@ -458,7 +458,7 @@ summary:
       -
         type: text
         text: 'This exciting 7-day/6-night hike introduces you to the Valley del Lys, one of the most beautiful valleys in the European Alps, via historic trails that have been connecting the mountain communities for centuries. Breakfast, dinners and some lunches are included.'
-price: 'A$2,450'
+price: 'A$2,450 pp'
 show_from: true
 og_image: val-daosta-valley-del-lys-og-1779335314.png
 seo_noindex: inherit
@@ -466,4 +466,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
