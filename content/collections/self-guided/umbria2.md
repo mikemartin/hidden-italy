@@ -5,8 +5,8 @@ title: 'Umbria 2: Cammino of St Francis Part 2 - Umbria'
 name: 'Umbria 2: Cammino of St Francis Part 2'
 region: Umbria
 days: 7
-updated_by: 2
-updated_at: 1780757976
+updated_by: 3
+updated_at: 1780966131
 grade: 4
 inclusions:
   - 'Six nights accommodation'
@@ -405,7 +405,7 @@ summary:
       -
         type: text
         text: "This lovely 7-day/6-night tour is the second section of the Cammino of St Francis, this lovey, taking you through 'the green heart of Italy'. Leaving Spoleto via the 13th century Ponte delle Torri bridge, you finish a week later, staying in a lovely 3-star hotel in the centre of the ancient town of Rieti.\_"
-price: 'A$2,350'
+price: 'A$2,350 pp'
 show_from: true
 availability_text: "Part of the three-week 'Cammino of St Francis': Assisi to Rome"
 og_image: umbria-cammino-of-st-francis-umbria-2-og-1779335311.png
@@ -414,4 +414,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
