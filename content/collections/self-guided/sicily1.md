@@ -5,8 +5,8 @@ title: 'Sicily 1: the Madonie Mountains - Sicily'
 name: 'Sicily 1: the Madonie Mountains'
 region: Sicily
 days: 7
-updated_by: 2
-updated_at: 1780757770
+updated_by: 3
+updated_at: 1780966036
 grade: 3
 inclusions:
   - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
@@ -397,7 +397,7 @@ summary:
       -
         type: text
         text: "This wonderful tour takes you through the heart of Sicily, an area untouched by tourism, where the traditions, daily life, and hospitality of the island are alive and well.\_Following mostly unsealed country lanes, you’ll pass through some of the most spectacular countryside in Sicily: rolling farmlands covered in wheat fields, overlooked by jagged mountains, with the forested peaks of the Madonie National Park in the distance.\_ "
-price: 'A$3,000'
+price: 'A$3,000 pp'
 show_from: true
 og_image: sicily-sicily-1-the-madonie-mountains-og-1779335296.png
 seo_noindex: inherit
@@ -405,4 +405,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
