@@ -5,8 +5,8 @@ title: 'Italian Riviera 2 - Liguria'
 name: 'Italian Riviera 2'
 region: Liguria
 days: 9
-updated_by: 2
-updated_at: 1780757671
+updated_by: 3
+updated_at: 1780965967
 grade: 3
 inclusions:
   - 'Eight nights accommodation'
@@ -418,7 +418,7 @@ summary:
       -
         type: text
         text: "This 9-day/8-night walk is a two-part walk: the first three days take you through some of the least-visited parts of the Ligurian Coast, following well-marked mountain trails through unspoilt forests and staying in laid-back coastal towns quite untouched by tourism.\_The remaining days take you along the trails of the Cinque Terre, one of the most celebrated and spectacular stretches of coastline in the Mediterranean, following stone paths that have linked the fishing villages for centuries."
-price: 'A$3,650'
+price: 'A$3,650 pp'
 show_from: true
 og_image: liguria-italian-riviera-2-og-1779335287.png
 seo_noindex: inherit
@@ -427,4 +427,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 availability_text: 'Part 2 of the 15 day Italian Riviera walk'
+overlay_opacity: 30
 ---
