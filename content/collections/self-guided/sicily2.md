@@ -5,8 +5,8 @@ title: 'Sicily 2: the Egadi Islands - Sicily'
 name: 'Sicily 2: the Egadi Islands'
 region: Sicily
 days: 7
-updated_by: 2
-updated_at: 1780757795
+updated_by: 3
+updated_at: 1780966046
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
@@ -393,7 +393,7 @@ summary:
       -
         type: text
         text: "The west of Sicily is a land apart.\_The cubic whitewashed houses, palm trees, active fishing harbours and sunburned lowlands seem more akin to Africa than Europe, and historically, the west of the island has always looked south: the Carthaginians were entrenched here; the Muslims first occupied Sicily here; the Saracens raided the area regularly; and the towns have more than a little North African atmosphere to them.\_"
-price: 'A$3,100'
+price: 'A$3,100 pp'
 show_from: true
 og_image: sicily-sicily-2-the-egadi-islands-og-1779335298.png
 seo_noindex: inherit
@@ -401,4 +401,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
