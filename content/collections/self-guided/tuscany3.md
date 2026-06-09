@@ -5,8 +5,8 @@ title: 'Tuscany 3 - Tuscany'
 name: 'Tuscany 3'
 region: Tuscany
 days: 5
-updated_by: 2
-updated_at: 1780757887
+updated_by: 3
+updated_at: 1780966108
 grade: 2
 inclusions:
   - 'Private transfer from Florence to San Gimignano on Day 1'
@@ -358,7 +358,7 @@ summary:
       -
         type: text
         text: "Walking the Via Francigena from San Gimignano to Siena is a unique experience.\_It starts in San Gimignano, a gorgeous town with a stunning hilltop skyline of towers. From here you follow in the footsteps of medieval pilgrims all the way to the glorious walled city of Siena, 'the most perfectly preserved medieval city in Europe'.\_In between, you stay in a town that made its wealth from the wool trade in the Middle Ages and in a fortified village that was Siena's stronghold against Florence."
-price: 'A$3,000'
+price: 'A$3,000 pp'
 show_from: true
 og_image: tuscany-tuscany-3-og-1779335305.png
 seo_noindex: inherit
@@ -366,4 +366,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
