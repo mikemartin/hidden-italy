@@ -5,8 +5,8 @@ title: 'The Cinque Terre - Liguria'
 name: 'The Cinque Terre'
 region: Liguria
 days: 7
-updated_by: 2
-updated_at: 1780757711
+updated_by: 3
+updated_at: 1780966068
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -389,7 +389,7 @@ summary:
       -
         type: text
         text: 'Following an extraordinary trail, this continuous 7-day/ 6-night walking tour (no trains!) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere six days later, leaving you plenty of time to explore the charming villages you stay in each day.'
-price: 'A$2,950'
+price: 'A$2,950 pp'
 show_from: true
 og_image: liguria-the-cinque-terre-og-1779335291.png
 seo_noindex: inherit
@@ -398,4 +398,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 availability_text: 'Optional extra Santa Margherita/Portofino 4-day/3-night'
+overlay_opacity: 30
 ---
