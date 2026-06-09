@@ -54,7 +54,7 @@
 {{ card_bg = (block:section_background ?? 'none') == 'light' ? 'bg-background' : 'bg-card' }}
 
 
-{{ partial:page_builder/block block_id="faqs" }}
+{{ partial:page_builder/block block_id="faqs" spy="true" }}
     <div class="span-content grid grid-cols-1 lg:grid-cols-12 gap-y-10 lg:gap-x-12" x-data="{ open: null }">
         <header class="lg:col-span-4 flex flex-col gap-4" x-reveal>
             <div data-reveal-item data-reveal-preset="h1">

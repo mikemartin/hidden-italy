@@ -9,7 +9,7 @@
 #}}
 
 <!-- /page_builder/_intro.antlers.html -->
-{{ partial:page_builder/block class="gap-y-10 md:gap-y-16" }}
+{{ partial:page_builder/block block_id="{ block:heading | slugify }" class="gap-y-10 md:gap-y-16" }}
     <header class="span-content flex flex-col items-center text-center gap-6" x-data x-reveal>
         <div data-reveal-item data-reveal-preset="h1">
             {{ partial:typography/h2 :content="block:heading" color="text-foreground" }}

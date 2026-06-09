@@ -8,9 +8,14 @@
           set's own partial only has to pass its content layout
           classes via `class`.
 
-          When `block_id` is set, the `<section>` itself owns the
-          `x-intersect` (sub-nav active spy). Anchor-scroll offsets
-          layer two sources:
+          When `block_id` is set, the `<section>` carries it as the
+          HTML `id` so the section is a deep-link / scroll anchor.
+          Passing `spy="true"` additionally binds the `x-intersect`
+          (tour sub-nav active spy). Keep it off for plain anchors
+          (e.g. redirect / deep-link targets): the `tourSubnav` store
+          is global, but only the sections that actually appear in a
+          tour's sub-nav should write their id into its active state.
+          Anchor-scroll offsets layer two sources:
             - `scroll-padding-top` on `<html>` (layout.antlers.html)
               clears the fixed header / sticky sub-nav for every
               anchor.
@@ -58,8 +63,10 @@
     {{ if block_id }}
         id="{{ block_id }}"
         class="fluid-grid relative {{ section_scroll_offset }} {{ class }} {{ section_panel_class }}"
-        x-data
-        x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('{{ block_id }}')"
+        {{ if spy }}
+            x-data
+            x-intersect.margin.-80px.0px.-85%.0px="$store.tourSubnav.spy('{{ block_id }}')"
+        {{ /if }}
     {{ else }}
         class="fluid-grid {{ class }} {{ section_panel_class }}"
     {{ /if }}

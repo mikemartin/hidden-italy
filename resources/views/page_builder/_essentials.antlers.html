@@ -10,7 +10,7 @@
 
 <!-- /page_builder/_essentials.antlers.html -->
 {{ if block:sections }}
-    {{ partial:page_builder/block block_id="essentials" class="gap-y-10 md:gap-y-14" }}
+    {{ partial:page_builder/block block_id="essentials" spy="true" class="gap-y-10 md:gap-y-14" }}
         <header class="span-content flex flex-col gap-3" x-data x-reveal>
             <div data-reveal-item data-reveal-preset="chip">
                 {{ partial:typography/label content="Essentials" small="true" class="!text-accent-2 uppercase tracking-[0.12em] font-semibold" }}

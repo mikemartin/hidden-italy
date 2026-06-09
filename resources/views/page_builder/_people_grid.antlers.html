@@ -16,7 +16,7 @@
 
 <!-- /page_builder/_people_grid.antlers.html -->
 {{ if block:people }}
-    {{ partial:page_builder/block class="gap-y-10 md:gap-y-14" }}
+    {{ partial:page_builder/block block_id="{ block:heading | slugify }" class="gap-y-10 md:gap-y-14" }}
         <header class="span-content flex flex-col items-center text-center gap-4 md:gap-6" x-data x-reveal>
             {{ if block:heading }}
                 <div data-reveal-item data-reveal-preset="h1">

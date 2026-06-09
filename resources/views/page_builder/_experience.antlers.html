@@ -33,7 +33,7 @@
         tab-state x-data is wrapped in a `display: contents` div so
         the `_block`-rendered section stays the layout root, keeping
         its own `x-data` + `x-intersect` for the sub-nav spy. #}}
-    {{ partial:page_builder/block block_id="experience" class="gap-y-12 md:gap-y-14" }}
+    {{ partial:page_builder/block block_id="experience" spy="true" class="gap-y-12 md:gap-y-14" }}
         <div
             class="contents"
             x-data="{

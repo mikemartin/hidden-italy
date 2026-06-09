@@ -22,7 +22,7 @@
 {{ buttons = buttons ?? block:buttons }}
 
 <!-- /page_builder/_icon_grid.antlers.html -->
-{{ partial:page_builder/block :block_id="block_id" class="gap-y-10 md:gap-y-14" }}
+{{ partial:page_builder/block :block_id="block_id" :spy="spy" class="gap-y-10 md:gap-y-14" }}
     {{ if heading || intro }}
         <header class="span-content text-center flex flex-col items-center gap-4" x-data x-reveal>
             {{ if heading }}
