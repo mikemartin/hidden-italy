@@ -5,8 +5,8 @@ title: 'Lazio: Cammino of St Francis Part 3 - Lazio'
 name: 'Lazio: Cammino of St Francis Part 3'
 region: Lazio
 days: 8
-updated_by: 2
-updated_at: 1780757936
+updated_by: 3
+updated_at: 1780966002
 grade: 4
 inclusions:
   - '7 nights accommodation'
@@ -404,7 +404,7 @@ summary:
       -
         type: text
         text: "This marvellous 8-day/7-night walk starts in the quiet streets of Rieti, a lovely town in the north of Lazio, before climbing into the hills of the central Apennines, through an district known as Sabina, which is dotted with small, proud towns, each with its own history traced back to the Romans and beyond. The hills gradually give way to the undulating farmlands of the Tiber River plain. The trail then winds through two nature reserves before reaching the outer suburbs of Rome. \_"
-price: 'A$2,450'
+price: 'A$2,450 pp'
 show_from: true
 availability_text: "Part of the three-week 'Cammino of St Francis' - Assisi to Rome"
 og_image: lazio-cammino-of-st-francis-lazio-og-1779335283.png
@@ -413,4 +413,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
