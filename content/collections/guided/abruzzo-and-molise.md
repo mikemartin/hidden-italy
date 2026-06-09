@@ -6,7 +6,7 @@ name: 'Abruzzo and Molise'
 region: 'Abruzzo and Molise'
 days: 13
 updated_by: 4
-updated_at: 1780444660
+updated_at: 1780970267
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
@@ -407,7 +407,7 @@ summary:
       -
         type: text
         text: 'Starting with two nights in Rome, this exclusive 7-person tour explores Abruzzo and Molise, two of Italy’s least-visited regions, nestled in the Apennines, the mountainous spine of Italy but also bound by the endless beaches of the Adriatic Coast.'
-leader: 8e21b5fb-a972-4a2e-a81c-2e6f8425841f
+leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 show_from: true
 price: 'A$10,990 pp'
 og_image: abruzzo-and-molise-abruzzo-and-molise-og-1779335238.png
@@ -416,4 +416,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
