@@ -5,8 +5,8 @@ title: 'La Tuscia - Tuscany and Umbria'
 name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 7
-updated_by: 2
-updated_at: 1780757906
+updated_by: 3
+updated_at: 1780965977
 grade: 3
 inclusions:
   - 'Private transfer from Rome to Pitigliano on Day 1'
@@ -395,7 +395,7 @@ summary:
       -
         type: text
         text: "This 7-day/6night tour exploration starts with a private transfer from Rome to Pitigliano, where the walk begins.\_Known as La Tuscia since Roman times, this fascinating \_district is on the\_borders where southern Tuscany overlaps with the lakes of northern Lazio and the mountains of the south-west corner of Umbria."
-price: 'A$3,200'
+price: 'A$3,200 pp'
 show_from: true
 og_image: tuscany-and-umbria-la-tuscia-og-1779335307.png
 seo_noindex: inherit
@@ -403,4 +403,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
