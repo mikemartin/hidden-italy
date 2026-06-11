@@ -5,8 +5,18 @@ blueprint: tour
 title: 'Bondi to Manly - Sydney'
 region: Sydney
 name: 'Bondi to Manly'
-overlay_opacity: 30
+teaser: 'Walk around Sydney Harbour, one of the most stunning waterways in the world'
+image: self-guided/bondi-to-manly/adrian-rem-lnznlb-nh7w-unsplash.jpg
+overlay_opacity: 11
 now_open: false
+headline: 'Presenting the very best of this exceptional city'
+summary:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Starting at glorious Bondi Beach, you walk above sandstone cliffs overlooking the Pacific Ocean before reaching South Head (the grand entrance to Sydney Harbour). The marked trails then lead you around Sydney Harbour, past islands, hidden bays and beaches, through national parks, botanic gardens and the glamorous residential suburbs that fringe the southern and northern shores of the bay before finishing at the golden sands of Manly Beach.'
 days: 5
 grade: 0
 seo_noindex: inherit
@@ -25,5 +35,5 @@ seasons:
 landscapes:
   - coastal
 updated_by: 4
-updated_at: 1781134681
+updated_at: 1781139500
 ---
