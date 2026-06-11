@@ -3,8 +3,8 @@ id: home
 blueprint: home
 title: Home
 template: home
-updated_by: 4
-updated_at: 1781158235
+updated_by: 1
+updated_at: 1781218440
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -164,4 +164,5 @@ page_builder:
     section_background: none
 seo_title: 'Hidden Italy | Walking Italy since 1993'
 seo_description: "For over 30 years, we've helped inquisitive travellers explore Italy on walking tours. You'll experience the country at your own pace, with meaningful encounters, local flavour, and the comfort of knowing everything is taken care of."
+og_image: home-og-1781218365.png
 ---
