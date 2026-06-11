@@ -5,8 +5,8 @@ title: "Valley del Lys - Val d'Aosta"
 name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
-updated_by: 3
-updated_at: 1780966152
+updated_by: 4
+updated_at: 1781150750
 grade: 4
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
@@ -30,21 +30,18 @@ page_builder:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "The Valley del Lys a long and narrow valley that starts at the glacier-covered slopes of Monte Rosa, the second highest mountain in the European Alps, and winds south following the course of the Lys River to the main Aosta Valley.\_It is a narrow valley, its steep sides covered in pine and beech forests; and highland pastures scattered with tiny hamlets.\_The valley was originally inhabited by the Walsers, a German-speaking people who migrated over the passes from Switzerland in the 13th century.\_ Even after eight centuries, German is still spoken, the traditions are still alive and the towns and villages of the valley are still characterised by their beautiful, timber architecture."
     column_right:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "The fully-supported tour begins with a transfer from Pont-St-Martin railway to the start of the hike. From here you follow well-marked trails, including sections of the Great Walser Trail, to the foot of Monte Rosa.\_Along the way, you will stay in marvellous, historic accommodation and enjoy the hospitality of these welcoming mountain people.\_You will be transferred back to Pont-St-Martin at the end of the tour. "
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: 'Due to the nature of this hike your breakfasts and dinners are included each day!'
     title: 'From the Aosta Valley to Monte Rosa'
     images:
@@ -56,33 +53,27 @@ page_builder:
     id: mlrbu308
     heading: 'Valley del Lys Highlights'
     activities:
-      -
-        id: mlrbvyrv
+      - id: mlrbvyrv
         title: 'Discover a hidden valley'
         summary: 'Far from the regular tourist trails, at the foot of Monte Rosa, this is one of the most beautiful valleys in the Alps.'
         icon: switzerland-mountain.svg
-      -
-        id: mlrbzbll
+      - id: mlrbzbll
         title: 'Stay in fabulous accommodation'
         summary: "Stay in a combination of beautiful boutique hotels and 'rifugi' set in hostoric residences, one from the 16th century."
         icon: ski-alpine-hotel.svg
-      -
-        id: mlrc2l11
+      - id: mlrc2l11
         title: 'Walk spectacular trails'
         summary: 'Follow spectacular and well-marked trails that have been used by traders, farmers and travelers since the Middle Ages.'
         icon: trekking-trekking.svg
-      -
-        id: mlrc4uq2
+      - id: mlrc4uq2
         title: 'Enjoy genuine mountain hospitality'
         summary: 'Enjoy the hospitality of these welcoming people. A delicious dinner included each night, heart-warming mountain cuisine.'
         icon: bakery-bread.svg
-      -
-        id: mlrc9yr3
+      - id: mlrc9yr3
         title: 'Be intrigued by the history'
         summary: 'The valley was settled a German-speaking people in 13th century. Their traditions and stories are still alive and well!'
         icon: culture-Colosseum.svg
-      -
-        id: X33IRRSnl32_xPcqIGs-d
+      - id: X33IRRSnl32_xPcqIGs-d
         title: 'Pull on your boots, we’ll handle the rest'
         summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
@@ -187,8 +178,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "The hikes follow very well-maintained and well-marked trails that have been used by traders, farmers and travellers since the Middle Ages.\_They take you through a variety of terrain (high mountain passes, ancient larch forests, the banks of the River Lys) all the time surrounded by breath-taking scenery.\_ here are some sustained climbs and descents, so you will need to have a good level of fitness, but your efforts are amply rewarded by the views and the warm mountain hospitality at the end of each day. You will need to carry a change of clothes, pyjamas and a toothbrush on Days 2 and Day 4."
         image: self-guided/valley-del-lys/9-1776049452.jpg
         type: walk
@@ -202,14 +192,12 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "The accommodation is definitely one of the highlights of the visit.\_You stay in a combination of beautiful boutique hotels set in restored Walser residences, one dating from the 16th century and, for two nights, two very comfortable 'rifugios' (mountain lodges) in spectacular locations, one in a hamlet that dates from the 12th century.\_"
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'All the accommodation is in small historic buildings mostly made local timber and stone and all run by proud local families. All the rooms, in the hotels and rifugios, have private ensuite bathrooms.'
         images:
           - self-guided/valley-del-lys/5-1776049637.jpg
@@ -225,89 +213,70 @@ page_builder:
               -
                 type: text
                 marks:
-                  -
-                    type: bold
+                  - type: bold
                 text: 'The tour cost includes all breakfasts, a light lunch and dinners.'
-              -
-                type: text
+              - type: text
                 text: "\_You will enjoy some of the finest food in northern Italy, proudly based on local and seasonal produce."
               -
                 type: text
                 marks:
-                  -
-                    type: italic
+                  - type: italic
                 text: ' Polenta'
-              -
-                type: text
+              - type: text
                 text: " and hearty soups are the stalwarts of the local cuisine.\_\_"
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Main courses may include '
               -
                 type: text
                 marks:
-                  -
-                    type: italic
+                  - type: italic
                 text: carbonada
-              -
-                type: text
+              - type: text
                 text: ' (beef stew cooked with red wine), '
               -
                 type: text
                 marks:
-                  -
-                    type: italic
+                  - type: italic
                 text: 'costoletta alla valdostana'
-              -
-                type: text
+              - type: text
                 text: ' (a ‘schnitty’ served with '
               -
                 type: text
                 marks:
-                  -
-                    type: italic
+                  - type: italic
                 text: fontina
-              -
-                type: text
+              - type: text
                 text: " cheese) and local trout (generally cooked with fresh veggies, butter and sage).\_The area is also famous for its cheeses (particularly "
               -
                 type: text
                 marks:
-                  -
-                    type: italic
+                  - type: italic
                 text: fontina
-              -
-                type: text
+              - type: text
                 text: ' and '
               -
                 type: text
                 marks:
-                  -
-                    type: italic
+                  - type: italic
                 text: toma
-              -
-                type: text
+              - type: text
                 text: ') and its high altitude, cold climate wines such as '
               -
                 type: text
                 marks:
-                  -
-                    type: italic
+                  - type: italic
                 text: 'Torrette, Fumin '
-              -
-                type: text
+              - type: text
                 text: and
               -
                 type: text
                 marks:
-                  -
-                    type: italic
+                  - type: italic
                 text: ' Gamay'
-              -
-                type: text
+              - type: text
                 text: .
         media:
           - self-guided/valley-del-lys/8.jpg
@@ -331,8 +300,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'To help guide you on this wonderful walk, you’ll receive our Hidden Italy booklet — a handy A5 guide with detailed daily walking notes and clear maps, updated and revised each year. You’ll also have access to our exclusive Hidden Italy App, which complements the booklet and works on both Apple and Android devices. The app includes route maps, GPS tracks, altimetric profiles, turn-by-turn navigation, an alert if you stray off the path, and an emergency function. In addition, you’ll have 24-hour phone support from our local team.'
       -
         id: 2_lvQRVL8AHIDHP8jse82
@@ -340,8 +308,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_It is autumn and we are in the mountains so you will need to take some warm clothes, eg a pullover, a puffer-type jacket and some warm pants.  You will need to carry a change of clothes, pyjamas and a toothbrush on Days 2 and Day 4.  As  Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
         type: equipment
         enabled: true
@@ -351,20 +318,17 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
@@ -377,11 +341,9 @@ page_builder:
               -
                 type: text
                 marks:
-                  -
-                    type: bold
+                  - type: bold
                 text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
-              -
-                type: text
+              - type: text
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
@@ -389,16 +351,14 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  -
-    id: FC3uIy4k
+  - id: FC3uIy4k
     type: faqs
     enabled: true
     show_common_questions: true
     heading: 'Frequently asked questions'
     section_background: none
     hide_from_subnav: false
-  -
-    id: wb_QCUHIpavY3iDLjNl
+  - id: wb_QCUHIpavY3iDLjNl
     type: walking_benefits
     enabled: true
     tour_type: auto
@@ -455,8 +415,7 @@ summary:
   -
     type: paragraph
     content:
-      -
-        type: text
+      - type: text
         text: 'This exciting 7-day/6-night hike introduces you to the Valley del Lys, one of the most beautiful valleys in the European Alps, via historic trails that have been connecting the mountain communities for centuries. Breakfast, dinners and some lunches are included.'
 price: 'A$2,450 pp'
 show_from: true
@@ -467,4 +426,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 overlay_opacity: 30
+availability_text: 'Mid June-Late September only'
 ---
