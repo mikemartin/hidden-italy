@@ -5,8 +5,8 @@ title: 'Tuscany 1 - Tuscany'
 name: 'Tuscany 1'
 region: Tuscany
 days: 6
-updated_by: 3
-updated_at: 1780966089
+updated_by: 4
+updated_at: 1781145977
 grade: 1
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
@@ -333,7 +333,7 @@ gallery:
   - self-guided/tuscany-1/img_5142.jpg
   - self-guided/tuscany-1/img_5117.jpg
   - self-guided/tuscany-1/img_5149.jpg
-now_open: false
+now_open: true
 seasons:
   - spring
   - autumn
@@ -396,4 +396,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 overlay_opacity: 30
+badge_text: 'Top Pick'
 ---
