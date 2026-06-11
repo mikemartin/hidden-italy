@@ -6,7 +6,7 @@ name: 'Tuscany 1'
 region: Tuscany
 days: 6
 updated_by: 4
-updated_at: 1781145977
+updated_at: 1781146009
 grade: 1
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
