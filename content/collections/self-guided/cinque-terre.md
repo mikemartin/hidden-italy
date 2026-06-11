@@ -5,8 +5,8 @@ title: 'The Cinque Terre - Liguria'
 name: 'The Cinque Terre'
 region: Liguria
 days: 7
-updated_by: 3
-updated_at: 1780966068
+updated_by: 4
+updated_at: 1781145931
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -374,7 +374,7 @@ finish_location:
       code: null
       level: 2
   country: Italy
-now_open: false
+now_open: true
 seasons:
   - spring
   - autumn
@@ -399,4 +399,5 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 availability_text: 'Optional extra Santa Margherita/Portofino 4-day/3-night'
 overlay_opacity: 30
+badge_text: Popular
 ---
