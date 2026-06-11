@@ -143,7 +143,10 @@
 
         <div class="mobile-nav-stagger mobile-nav-stagger-3 flex flex-col gap-5 pt-6 border-t border-white/10">
             {{ partial:components/nav-wishlist show_label="true" }}
-            {{ partial:components/nav-account show_label="true" }}
+            {{# nocache: varies by auth — see layout/_header.antlers.html. #}}
+            {{ nocache }}
+                {{ partial:components/nav-account show_label="true" }}
+            {{ /nocache }}
         </div>
     </div>
 </nav>

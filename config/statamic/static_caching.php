@@ -1,5 +1,8 @@
 <?php
 
+use Statamic\StaticCaching\Replacers\CsrfTokenReplacer;
+use Statamic\StaticCaching\Replacers\NoCacheReplacer;
+
 return [
 
     /*
@@ -65,6 +68,17 @@ return [
             '/site.webmanifest',
             '/sitemap.xml',
             '/sitemaps.xml',
+
+            // Session-specific pages: the booking form pre-fills from the
+            // logged-in user, the wishlist is per-visitor, and the auth /
+            // account area must never be served from a shared cache.
+            '/booking*',
+            '/wishlist',
+            '/login*',
+            '/register*',
+            '/forgot-password*',
+            '/reset-password*',
+            '/account*',
         ],
     ],
 
@@ -140,8 +154,8 @@ return [
     */
 
     'replacers' => [
-        \Statamic\StaticCaching\Replacers\CsrfTokenReplacer::class,
-        \Statamic\StaticCaching\Replacers\NoCacheReplacer::class,
+        CsrfTokenReplacer::class,
+        NoCacheReplacer::class,
     ],
 
     /*

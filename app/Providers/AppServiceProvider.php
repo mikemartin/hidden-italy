@@ -10,7 +10,6 @@ use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use JackSleight\StatamicBardMutator\Facades\Mutator;
-use Livewire\Livewire;
 use Statamic\Facades\Form;
 use Statamic\Facades\Icon;
 use Statamic\Policies\UserPolicy;
@@ -47,8 +46,6 @@ class AppServiceProvider extends ServiceProvider
 
         Icon::register('wencory', base_path('public/icons'));
         Icon::register('lucide', base_path('resources/svg/lucide'));
-
-        Livewire::forceAssetInjection();
 
         Mutator::html('heading', function ($value, $item) {
             if ($item->attrs->level === 2) {

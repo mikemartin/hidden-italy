@@ -33,17 +33,21 @@
     :overlay_opacity="overlay_opacity"
     eager="true"
 }}
-    {{ if logged_in }}
-        <a href="/booking?tour={{ slug }}" class="button button--outline button--gold button--large">
-            <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
-        </a>
-    {{ else }}
-        <x-flux::modal.trigger name="booking-modal">
-            <button type="button" class="button button--outline button--gold button--large">
+    {{# nocache: the CTA varies by auth (direct booking link vs. guest
+        modal) — must re-render per request on statically cached pages. #}}
+    {{ nocache }}
+        {{ if logged_in }}
+            <a href="/booking?tour={{ slug }}" class="button button--outline button--gold button--large">
                 <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
-            </button>
-        </x-flux::modal.trigger>
-    {{ /if }}
+            </a>
+        {{ else }}
+            <x-flux::modal.trigger name="booking-modal">
+                <button type="button" class="button button--outline button--gold button--large">
+                    <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
+                </button>
+            </x-flux::modal.trigger>
+        {{ /if }}
+    {{ /nocache }}
 {{ /partial:components/tour_banner }}
 
 {{ partial:components/tour_summary }}
@@ -52,6 +56,9 @@
     forwards to /login (sign in or register, depending on whether
     the email is on file) or to /booking?guest=1 with the email
     pre-filled so the destination form skips the retype. #}}
+{{# nocache: guests-only modal — without it a page cached by a logged-in
+    visitor would lack the modal the CTA triggers (and vice versa). #}}
+{{ nocache }}
 {{ unless logged_in }}
     <x-flux::modal name="booking-modal" class="md:w-[28rem]">
         <div
@@ -110,6 +117,7 @@
         </div>
     </x-flux::modal>
 {{ /unless }}
+{{ /nocache }}
 
 <main class="page-builder" id="content">
 {{# Sticky sub-nav — sits between the gallery/stats overview and the
@@ -221,17 +229,20 @@
                                 <span class="font-display font-semibold text-lg text-foreground leading-none">{{ price }}</span>
                             </div>
                         {{ /if }}
-                        {{ if logged_in }}
-                            <a href="/booking?tour={{ slug }}" class="button">
-                                <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
-                            </a>
-                        {{ else }}
-                            <x-flux::modal.trigger name="booking-modal">
-                                <button type="button" class="button">
+                        {{# nocache: auth-dependent CTA, see banner above. #}}
+                        {{ nocache }}
+                            {{ if logged_in }}
+                                <a href="/booking?tour={{ slug }}" class="button">
                                     <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
-                                </button>
-                            </x-flux::modal.trigger>
-                        {{ /if }}
+                                </a>
+                            {{ else }}
+                                <x-flux::modal.trigger name="booking-modal">
+                                    <button type="button" class="button">
+                                        <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
+                                    </button>
+                                </x-flux::modal.trigger>
+                            {{ /if }}
+                        {{ /nocache }}
                     </div>
                 </div>
             </div>

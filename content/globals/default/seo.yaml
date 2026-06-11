@@ -47,6 +47,10 @@ use_no_sandbox_for_social_image_generation: true
 use_sitemap: true
 sitemap_collections:
   - pages
+  - guided
+  - self-guided
+  - tips
+  - inspiration
 robots: |-
   User-agent: Applebot-Extended
   Disallow: /

@@ -29,7 +29,12 @@
 
         <div class="hidden lg:flex items-center gap-6 text-white ml-auto">
             {{ partial:components/nav-wishlist }}
-            {{ partial:components/nav-account }}
+            {{# nocache: varies by auth (account name vs. log-in link) —
+                without it the first visitor's state gets baked into the
+                statically cached page for everyone. #}}
+            {{ nocache }}
+                {{ partial:components/nav-account }}
+            {{ /nocache }}
         </div>
 
         <button

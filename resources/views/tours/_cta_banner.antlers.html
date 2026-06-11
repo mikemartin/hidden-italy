@@ -38,17 +38,21 @@
                     </div>
 
                     <div class="flex flex-wrap gap-4 justify-center">
-                        {{ if logged_in }}
-                            <a href="/booking?tour={{ slug }}" class="button button--outline button--gold button--large">
-                                <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
-                            </a>
-                        {{ else }}
-                            <x-flux::modal.trigger name="booking-modal">
-                                <button type="button" class="button button--outline button--gold button--large">
+                        {{# nocache: auth-dependent CTA (direct booking link
+                            vs. guest modal) on statically cached pages. #}}
+                        {{ nocache }}
+                            {{ if logged_in }}
+                                <a href="/booking?tour={{ slug }}" class="button button--outline button--gold button--large">
                                     <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
-                                </button>
-                            </x-flux::modal.trigger>
-                        {{ /if }}
+                                </a>
+                            {{ else }}
+                                <x-flux::modal.trigger name="booking-modal">
+                                    <button type="button" class="button button--outline button--gold button--large">
+                                        <span>{{ trans:strings.request_booking ?? 'Make an enquiry' }}</span>
+                                    </button>
+                                </x-flux::modal.trigger>
+                            {{ /if }}
+                        {{ /nocache }}
                     </div>
                 </div>
             </div>
