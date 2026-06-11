@@ -59,7 +59,7 @@ page_builder:
   -
     id: woNfwmuvxUGqtKq3u8SPa
     heading: 'Frequently asked questions'
-    show_common_questions: true
+    show_common_questions: false
     section_background: none
     type: faqs
     enabled: true
@@ -87,5 +87,5 @@ seasons:
 landscapes:
   - coastal
 updated_by: 4
-updated_at: 1781139856
+updated_at: 1781139890
 ---
