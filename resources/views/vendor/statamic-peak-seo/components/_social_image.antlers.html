@@ -89,9 +89,9 @@
                 </p>
             {{ /if }}
             {{ if has_image }}
-                {{ partial:typography/h1_big_display :content="og_title ?? seo_title ?? name ?? headline ?? title" class="!text-white max-w-4xl" }}
+                {{ partial:typography/h1_big_display :content="og_title ?? name ?? headline ?? title" class="!text-white max-w-4xl" }}
             {{ else }}
-                {{ partial:typography/h1 :content="og_title ?? seo_title ?? name ?? headline ?? title" class="max-w-4xl !text-4xl md:!text-[72px] !leading-[1.1] !tracking-[-0.02em]" }}
+                {{ partial:typography/h1 :content="og_title ?? name ?? headline ?? title" class="max-w-4xl !text-4xl md:!text-[72px] !leading-[1.1] !tracking-[-0.02em]" }}
             {{ /if }}
         </div>
     </div>
