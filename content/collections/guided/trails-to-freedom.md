@@ -24,15 +24,13 @@ page_builder:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: 'On the 3rd of October 1943, four young Australian soldiers crossed from Italy to Switzerland at the border on Monte Moro Pass, thus ending a three-week odyssey that had started in a Fascist prison camp on the Po Plain near Biella in Piedmont (north of Turin).  The route they took followed a network of medieval paths that had been re-opened by the partisans and came to be known as the ‘sentieri della liberta’ or the trails to freedom.'
     column_right:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: 'Based on several years’ research, this magnificent hike follows the same route, starting in Biella and finishing on Mt Moro on the Swiss border.  It passes through some of the most spectacular scenery in the European Alps, staying in a mixture of hotels, pilgrim monasteries and mountain huts along the way.  Although we will walk through uncontaminated mountain landscapes, this is an ancient land: traders, pilgrims and graziers have been passing through here for millennia, in fact, since before the Bronze Age.'
     type: overview
     enabled: true
@@ -47,33 +45,27 @@ page_builder:
     id: mjfler2v
     heading: 'Trails to Freedom highlights'
     activities:
-      -
-        id: mjflez0m
+      - id: mjflez0m
         title: 'Explore Biella'
         summary: 'Settle into a 4-star hotel and share a welcome dinner with your group in this historic alpine town.'
         icon: ski-alpine-hotel.svg
-      -
-        id: mjflfcs4
+      - id: mjflfcs4
         title: 'Walk historic trails'
         summary: 'Follow ancient trails through the European Alps in the footsteps of 4 Aussie POWs who escaped Fascist Italy in 1943.'
         icon: trekking-trekking.svg
-      -
-        id: mjflflyr
+      - id: mjflflyr
         title: 'Sleep in ancient monasteries'
         summary: 'Stay in marvellous baroque monasteries nestled in the heart of the mountains, enjoying their history and hearty dinners.'
         icon: housing-house.svg
-      -
-        id: mjflft3i
+      - id: mjflft3i
         title: 'Explore the spectacular scenery'
         summary: 'This hikes takes you through some of the most spectacular scenery in Europe: mountains and forests; lakes and glaciers.'
         icon: switzerland-mountain.svg
-      -
-        id: mjflfz9u
+      - id: mjflfz9u
         title: 'Enjoy mountain hospitality'
         summary: 'Enjoy the generous hospitality of the the mountain people in this little-visited part of Italy: warm welcomes, fine food'
         icon: ski-alpine-Chalet.svg
-      -
-        id: mjflgcks
+      - id: mjflgcks
         title: 'Celebrate with a farewell dinner'
         summary: 'Mark the end of your alpine adventure with a festive group meal in a charming mountain village near the Swiss border.'
         icon: culture-champagne.svg
@@ -206,14 +198,12 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "The trails are well-marked, starting with a pilgrim route that takes us up into the hills above Biella in northern Piedmont before picking up sections of two long distance trails: the Grande Traversata degli Alpi (GTA) and the final section of the Tour de Mt Rosa (TMR) that take us to the Swiss border.\_ A large part of the route follows ancient pack routes, variously narrow, wide, cobbled and paved.\_ You will cross some long stretches of skree and boulders, so you’ll need to be sure-footed and fit."
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "Technically the route is simple, however, it is a challenge.\_ You will be required to climb more than a thousand metres on several days, there are some exposed sections and you will be crossing high altitude country where weather conditions can change dramatically so you will require a high level of fitness.\_\_ You must also be prepared to walk in all conditions rain, hail or shine! This is a tough but very satisfying hike."
         image: guided/trails-to-freedom/5.5.jpg
         type: walk
@@ -225,8 +215,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "The accommodation is one of the highlights of the tour.\_ We will start with the first night in a 4-star hotel in Biella in Piedmont.\_ For the next two night we will stay in a very comfortable pilgrim accommodation in magnificent monasteries that date from the Middle Ages.\_ The next night is in a ‘rifugio’, or mountain hut, where we will sleep overnight in shared rooms (with shared bathrooms).\_ The following two nights are in a lovely 3-star hotel in a town at the head of the Sesia Valley.\_ The next night is in a gorgeous rifugio at the foot of Mont Rosa, with shared rooms (with shared bathrooms)..\_ The last two nights we spend in a family-run 3-star hotel in a village below the Mt Moro Pass and the Swiss border"
         media:
           - guided/trails-to-freedom/b96f4a2a-dec1-40ff-b7cb-9c99a23a7e4f.jpg
@@ -239,20 +228,17 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'The walk passes through the region of Piemonte (Piedmont), home of the Slow Food movement and one of Italy’s premier food and wine regions, so, although sometimes simple, the food on the tour will always be local, hearty and delicious.'
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "Dinner each night will usually consists of three courses: a first course which may consist of risotto, ravioli or polenta; mains such as veal or rabbit stew; and a desserts such as bonet (a thick chocolate pudding) or a slice of excellent mature local cheese, chased down with coffee and/or a shot of grappa.\_ Wine with the meals is included.\_"
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Lunches on the track will be a mixture of picnic lunches and cut lunches prepared by our accommodation.'
         media:
           - guided/trails-to-freedom/44.jpg
@@ -263,8 +249,7 @@ page_builder:
     section_background: dark
     show_topography: true
     hide_from_subnav: false
-  -
-    id: J5i0VWMfEbXL5ACtZxLBv
+  - id: J5i0VWMfEbXL5ACtZxLBv
     title: 'Tour Leader'
     person: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
     type: leader
@@ -281,8 +266,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "Because several of the legs do not have car access, you will need to carry your own gear for the week.\_ We will provide you with a comprehensive (and prescriptive) list of what is required (nothing more and nothing less!).\_ The first requirement is a good quality 35 to 40 litre backpack.\_ The total loaded weight should be no more than 12 kilos.\_"
           -
             type: paragraph
@@ -290,14 +274,12 @@ page_builder:
               -
                 type: text
                 marks:
-                  -
-                    type: italic
+                  - type: italic
                 text: 'Please note, that the rest of our luggage will be stored in Biella for the duration of the walk and then will be forwarded to Macugnaga, and will be waiting for us at the end of the walk.'
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "As mentioned, the trail is well maintained, well-marked and there will be other people walking the route, however, the trail does pass through long stretches of uninhabited land at high altitude where the weather can change quickly so safety is a priority. \_The main safety requirements are a high level of fitness and common sense. \_We will be accompanied by certified mountain guides and there is the mountain rescue service as backup."
         type: equipment
         enabled: true
@@ -307,20 +289,17 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date. '
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour. '
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
@@ -333,38 +312,17 @@ page_builder:
               -
                 type: text
                 marks:
-                  -
-                    type: bold
+                  - type: bold
                 text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
-              -
-                type: text
+              - type: text
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
-        enabled: true
-      -
-        id: gauscQrhQuNgmaApeIL53
-        heading: 'General section'
-        body:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Lorem ipsum.'
-        link_text: Link
-        link_url: 'https://google.com'
-        type: general
-        enabled: true
-      -
-        id: 9CDND1cWm2-ziXlx-p0ki
-        type: booking_cancellation
         enabled: true
     type: essentials
     enabled: true
     section_background: none
     hide_from_subnav: false
-  -
-    id: riG2kDbX
+  - id: riG2kDbX
     type: faqs
     enabled: true
     show_common_questions: true
@@ -382,8 +340,7 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  -
-    id: wb_P2xQArv1ZqYUss2H
+  - id: wb_P2xQArv1ZqYUss2H
     type: walking_benefits
     enabled: true
     tour_type: auto
@@ -393,7 +350,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 1
-updated_at: 1780378241
+updated_at: 1781157827
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg
@@ -451,8 +408,7 @@ summary:
   -
     type: paragraph
     content:
-      -
-        type: text
+      - type: text
         text: 'This extraordinary ten-day hike combines breath-taking scenery, enchanting towns, challenging walks and delicious food with the fascinating story of four young men who crossed the Italian Alps to freedom in the Second World War.'
 og_image: italian-alps-trails-to-freedom-og-1779335244.png
 seo_noindex: inherit
@@ -460,4 +416,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
