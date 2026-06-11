@@ -162,6 +162,7 @@ page_builder:
             type: button
             enabled: true
     section_background: none
+og_image: home-og-1781155930.png
 seo_title: 'Hidden Italy | Walking Italy since 1993'
 seo_description: "For over 30 years, we've helped inquisitive travellers explore Italy on walking tours. You'll experience the country at your own pace, with meaningful encounters, local flavour, and the comfort of knowing everything is taken care of."
 ---
