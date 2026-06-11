@@ -5,8 +5,8 @@ title: 'Puglia in the Spring - Puglia'
 name: 'Puglia in the Spring'
 region: Puglia
 days: 13
-updated_by: 3
-updated_at: 1780028453
+updated_by: 4
+updated_at: 1781145848
 grade: 2
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -434,11 +434,12 @@ summary:
 price: 'A$8,990 pp'
 show_from: true
 availability_text: 'Tour Start Dates: 2 May 27 & 16 May 27'
-badge_text: 'Last Spots'
+badge_text: Popular
 og_image: puglia-puglia-in-the-spring-og-1779335247.png
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
