@@ -5,8 +5,8 @@ title: 'Dolomites - Trentino-Alto Adige'
 name: Dolomites
 region: 'Trentino-Alto Adige'
 days: 6
-updated_by: 3
-updated_at: 1780965946
+updated_by: 4
+updated_at: 1781144911
 grade: 3
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
@@ -397,6 +397,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-badge_text: POPULAR
 overlay_opacity: 30
 ---
