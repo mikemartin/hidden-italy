@@ -1,40 +1,32 @@
 title_separator: '|'
 site_name: 'Hidden Italy'
 change_page_title:
-  -
-    id: Lql-cMMEsxn1hR_ZTpFsA
+  - id: Lql-cMMEsxn1hR_ZTpFsA
     collection: guided
     manipulate_title: collection_title
-  -
-    id: _SmdzVNFbOTifgvr9Q02C
+  - id: _SmdzVNFbOTifgvr9Q02C
     collection: self-guided
     manipulate_title: collection_title
-  -
-    id: C2mrt8rjOnTL7penm6R05
+  - id: C2mrt8rjOnTL7penm6R05
     collection: inspiration
     manipulate_title: collection_title
-  -
-    id: 4G3l7AnVrIpf8ROm0SwNY
+  - id: 4G3l7AnVrIpf8ROm0SwNY
     collection: tips
     manipulate_title: collection_title
 collection_defaults:
-  -
-    id: ApxD07MO8Tt3PvMK5a1jx
+  - id: ApxD07MO8Tt3PvMK5a1jx
     collection: guided
     fallback: field
     field_handle: summary
-  -
-    id: qDmjutCXcgpTuWFnXDHmE
+  - id: qDmjutCXcgpTuWFnXDHmE
     collection: self-guided
     fallback: field
     field_handle: summary
-  -
-    id: tP4zfxKNsjZCjfC_Z4bcC
+  - id: tP4zfxKNsjZCjfC_Z4bcC
     collection: inspiration
     fallback: field
     field_handle: lead
-  -
-    id: eA3jMRBYa7Y5tZ8ANZeDY
+  - id: eA3jMRBYa7Y5tZ8ANZeDY
     collection: tips
     fallback: field
     field_handle: lead
@@ -66,3 +58,48 @@ use_plausible: false
 use_cloudflare_web_analytics: false
 tracker_type: none
 use_consent_banner: false
+robots: |-
+  User-agent: Applebot-Extended
+  Disallow: /
+
+  User-agent: anthropic-ai
+  Disallow: /
+
+  User-agent: Bytespider
+  Disallow: /
+
+  User-agent: ClaudeBot
+  Disallow: /
+
+  User-agent: cohere-ai
+  Disallow: /
+
+  User-agent: Diffbot
+  Disallow: /
+
+  User-agent: CCBot
+  Disallow: /
+
+  User-agent: ChatGPT-User
+  Disallow: /
+
+  User-agent: FacebookBot
+  Disallow: /
+
+  User-agent: GPTBot
+  Disallow: /
+
+  User-agent: Google-Extended
+  Disallow: /
+
+  User-agent: ImagesiftBot
+  Disallow: /
+
+  User-agent: Omgili
+  Disallow: /
+
+  User-agent: Omgilibot
+  Disallow: /
+
+  User-agent: PerplexityBot
+  Disallow: /
