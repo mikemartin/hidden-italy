@@ -3,8 +3,8 @@ id: home
 blueprint: home
 title: Home
 template: home
-updated_by: 2
-updated_at: 1779262206
+updated_by: 1
+updated_at: 1781148026
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -14,8 +14,7 @@ headline: |-
   Explore Italy, 
   one step at a time
 buttons:
-  -
-    id: home_hero_btn
+  - id: home_hero_btn
     label: 'Discover tours'
     link_type: entry
     entry: 2d1f3903-3248-4037-8e09-e76e8d62781c
@@ -38,16 +37,14 @@ page_builder:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "For over 30 years, we've helped inquisitive travellers explore Italy on walking tours. You'll experience the country at your own pace, with meaningful encounters, local flavour, and the comfort of knowing everything is taken care of."
     benefits:
       - d98e45f6-28fa-4018-ab67-51d82701a881
       - 987b0947-3003-41c1-86f6-c3456e1429da
       - 1473fd92-2f3e-4025-8d25-66111aef1fa0
     buttons:
-      -
-        id: home_intro_btn
+      - id: home_intro_btn
         label: 'Read our story'
         link_type: url
         url: /about
@@ -66,8 +63,7 @@ page_builder:
       - 46b6b124-89cf-4efb-b06a-cdb4d28312ba
       - fff5d1d0-e05d-4088-9a54-1f2e7f630c28
     buttons:
-      -
-        id: home_types_btn
+      - id: home_types_btn
         label: 'Browse all tours'
         link_type: entry
         entry: 2d1f3903-3248-4037-8e09-e76e8d62781c
@@ -126,8 +122,7 @@ page_builder:
         heading: 'Trails to Freedom'
         text: 'The true story of the medieval trails used by Anzac POWs to escape Italy in 1943–1944.'
         button:
-          -
-            id: home_shop_book_btn
+          - id: home_shop_book_btn
             label: 'View book'
             link_type: entry
             entry: c7f4e2a1-8b3d-4e9f-9a52-1f0d6e3b8c45
@@ -143,8 +138,7 @@ page_builder:
         heading: 'Gift card — $50'
         text: 'A Hidden Italy gift card to put towards any tour or product.'
         button:
-          -
-            id: home_shop_gift50_btn
+          - id: home_shop_gift50_btn
             label: 'View gift card'
             link_type: entry
             entry: f3c5e9d4-7a82-4b16-9f58-2e6b8d4a5c19
@@ -159,8 +153,7 @@ page_builder:
         image: guided/sardinia-in-the-spring/img_5939.jpg
         heading: 'Guided tours now available to book for 2027'
         button:
-          -
-            id: home_shop_guided_2027_btn
+          - id: home_shop_guided_2027_btn
             label: 'Browse guided tours'
             link_type: entry
             entry: 46b6b124-89cf-4efb-b06a-cdb4d28312ba
@@ -170,4 +163,6 @@ page_builder:
             enabled: true
     section_background: none
 og_image: home-og-1779334520.png
+seo_title: 'Hidden Italy | Walking Italy since 1993'
+seo_description: "For over 30 years, we've helped inquisitive travellers explore Italy on walking tours. You'll experience the country at your own pace, with meaningful encounters, local flavour, and the comfort of knowing everything is taken care of."
 ---
