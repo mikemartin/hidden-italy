@@ -94,6 +94,9 @@
 
         {{ partial:layout/footer }}
 
+        {{# Outside the footer to stay clear of its `dark` scope. #}}
+        {{ partial:components/feedback_modal }}
+
         {{# Back-to-top renders only on pages that opt the nav out of
             its sticky overlay via `static_overlay_header` (i.e. the
             tour show templates). Those pages already carry their own

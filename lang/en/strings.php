@@ -49,6 +49,26 @@ return [
     // Footer
     'on' => 'on',
 
+    // Feedback modal
+    'share_feedback' => 'Share feedback',
+    'feedback' => 'Feedback',
+    'feedback_modal_title' => 'Share your feedback',
+    'feedback_modal_subtitle' => 'We\'d love to hear what you think.',
+    'feedback_type' => 'What kind of feedback is it?',
+    'feedback_type_issue' => 'Issue',
+    'feedback_type_idea' => 'Idea',
+    'feedback_type_other' => 'Other',
+    'feedback_message' => 'Your feedback',
+    'feedback_message_placeholder' => 'Tell us what\'s on your mind...',
+    'feedback_placeholder_issue' => 'I\'m having an issue with...',
+    'feedback_placeholder_idea' => 'I\'d like to see...',
+    'feedback_placeholder_other' => 'Anything else you\'d like to share?',
+    'feedback_email' => 'Email address',
+    'feedback_optional' => 'Optional',
+    'feedback_email_description' => 'In case we need to follow up.',
+    'feedback_success' => 'Thanks for your feedback!',
+    'send_feedback' => 'Send feedback',
+
     // Navigation
     'close' => 'Close',
     'main_navigation_desktop' => 'Main navigation desktop',
