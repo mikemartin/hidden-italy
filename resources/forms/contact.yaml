@@ -42,14 +42,12 @@ title: Contact
 honeypot: fax
 email:
   - id: iwArpANx
-    to: '{{ email }}'
-    reply_to: '{{ email }}'
+    to: info@hiddenitaly.com.au
     subject: '{{ trans:strings.form_subject_received }}'
     html: email/form_owner
     text: email/form_owner_text
   - id: p0bMnaXJ
     to: '{{ email }}'
-    reply_to: '{{ email }}'
     subject: '{{ trans:strings.form_subject_sent }}'
     html: email/form_sender
     text: email/form_sender_text
