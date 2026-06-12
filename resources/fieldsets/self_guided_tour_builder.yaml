@@ -82,7 +82,6 @@ fields:
                         handle: photo
                         field:
                           container: assets
-                          dynamic: slug
                           max_files: 1
                           type: assets
                           display: Photo
@@ -144,8 +143,6 @@ fields:
                   field:
                     container: assets
                     folder: self-guided
-                    dynamic: slug
-                    restrict: true
                     mode: grid
                     max_files: 3
                     type: assets
@@ -215,8 +212,6 @@ fields:
                                 field:
                                   container: assets
                                   folder: self-guided
-                                  dynamic: slug
-                                  restrict: true
                                   max_files: 1
                                   type: assets
                                   display: Image
@@ -244,9 +239,7 @@ fields:
                                 handle: media
                                 field:
                                   container: assets
-                                  dynamic: slug
                                   folder: self-guided
-                                  restrict: true
                                   max_files: 4
                                   type: assets
                                   display: Images
@@ -274,9 +267,7 @@ fields:
                                 handle: media
                                 field:
                                   container: assets
-                                  dynamic: slug
                                   folder: self-guided
-                                  restrict: true
                                   max_files: 4
                                   type: assets
                                   display: Images
