@@ -4,26 +4,22 @@ content_sender:
     -
       type: paragraph
       content:
-        -
-          type: text
+        - type: text
           text: 'Hi {{ first_name or name }},'
     -
       type: paragraph
       content:
-        -
-          type: text
+        - type: text
           text: 'Thank you for your booking enquiry. We have received the details of your selected tour and will be in touch shortly with more information.'
     -
       type: paragraph
       content:
-        -
-          type: text
+        - type: text
           text: 'Best regards,'
     -
       type: paragraph
       content:
-        -
-          type: text
+        - type: text
           text: 'The Hidden Italy team'
 content_owner:
   show_submitted_data: true
@@ -36,28 +32,22 @@ mailchimp:
     check_consent: true
     consent_field: newsletter
     merge_fields:
-      -
-        id: 12y1UgYMUDG3GTCkBDhst
+      - id: 12y1UgYMUDG3GTCkBDhst
         field_name: name
         tag: FNAME
-      -
-        id: UAKFV0--yATUDQFxs2BU6
+      - id: UAKFV0--yATUDQFxs2BU6
         field_name: phone
         tag: PHONE
 title: 'Booking enquiry'
 honeypot: fax
 email:
-  -
-    id: bookingOwner
-    to: info@hiddenitaly.com
-    reply_to: '{{ email }}'
+  - id: bookingOwner
+    to: info@hiddenitaly.com.au
     subject: 'New booking enquiry — {{ tour or "Hidden Italy" }}'
     html: email/form_owner
     text: email/form_owner_text
-  -
-    id: bookingSender
+  - id: bookingSender
     to: '{{ email }}'
-    reply_to: info@hiddenitaly.com
     subject: "We've received your booking enquiry"
     html: email/form_sender
     text: email/form_sender_text

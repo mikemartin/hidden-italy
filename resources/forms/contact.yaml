@@ -4,26 +4,22 @@ content_sender:
     -
       type: paragraph
       content:
-        -
-          type: text
+        - type: text
           text: '{{ trans:strings.form_mail_greeting }} {{ first_name or name }},'
     -
       type: paragraph
       content:
-        -
-          type: text
+        - type: text
           text: '{{ trans:strings.form_mail_body_sender }}'
     -
       type: paragraph
       content:
-        -
-          type: text
+        - type: text
           text: '{{ trans:strings.form_mail_closing }},'
     -
       type: paragraph
       content:
-        -
-          type: text
+        - type: text
           text: '{{ trans:strings.form_mail_from }}'
 content_owner:
   show_submitted_data: true
@@ -36,28 +32,24 @@ mailchimp:
     check_consent: true
     consent_field: newsletter
     merge_fields:
-      -
-        id: tXLHnLqdxw04zo_U-jXaB
+      - id: tXLHnLqdxw04zo_U-jXaB
         field_name: name
         tag: FNAME
-      -
-        id: TZZOGASddEplvb2KlA8jO
+      - id: TZZOGASddEplvb2KlA8jO
         field_name: phone
         tag: PHONE
 title: Contact
 honeypot: fax
 email:
-  -
-    id: iwArpANx
-    to: info@hiddenitaly.com
+  - id: iwArpANx
+    to: '{{ email }}'
     reply_to: '{{ email }}'
     subject: '{{ trans:strings.form_subject_received }}'
     html: email/form_owner
     text: email/form_owner_text
-  -
-    id: p0bMnaXJ
+  - id: p0bMnaXJ
     to: '{{ email }}'
-    reply_to: info@hiddenitaly.com
+    reply_to: '{{ email }}'
     subject: '{{ trans:strings.form_subject_sent }}'
     html: email/form_sender
     text: email/form_sender_text
