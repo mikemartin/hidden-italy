@@ -49,6 +49,7 @@ email:
     text: email/form_owner_text
   - id: bookingSender
     to: '{{ email }}'
+    reply_to: info@hiddenitaly.com.au
     subject: "We've received your booking enquiry"
     html: email/form_sender
     text: email/form_sender_text
