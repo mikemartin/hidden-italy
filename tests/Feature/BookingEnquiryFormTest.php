@@ -2,10 +2,14 @@
 
 namespace Tests\Feature;
 
+use App\Models\User;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
 class BookingEnquiryFormTest extends TestCase
 {
+    use RefreshDatabase;
+
     /**
      * The booking enquiry form is captcha-protected in production. These
      * tests exercise the blueprint validation rules directly, so the
@@ -57,5 +61,24 @@ class BookingEnquiryFormTest extends TestCase
         $this->precognitiveSubmit($this->validSubmission())
             ->assertSuccessful()
             ->assertJsonMissingValidationErrors('phone');
+    }
+
+    public function test_logged_in_users_see_an_editable_phone_field_prefilled_from_their_mobile(): void
+    {
+        $user = User::create([
+            'name' => 'Giulia Verdi',
+            'email' => 'giulia@example.com',
+            'password' => 'password123',
+            'phone_mobile' => '+39 333 999 8888',
+        ]);
+
+        $response = $this->actingAs($user)->get('/booking');
+
+        $response->assertOk()
+            // The phone field renders visibly (its label is shown) rather
+            // than being piped silently through a hidden input.
+            ->assertSee('Phone number')
+            // …seeded from the user's saved mobile so they can edit it.
+            ->assertSee("form.phone = '+39 333 999 8888'", false);
     }
 }
