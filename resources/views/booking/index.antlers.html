@@ -1,10 +1,12 @@
 {{#
     @name Booking enquiry
     @desc Tour booking enquiry form. Logged-in users see a slim form
-          (tour + travel plans) with name / email / phone passed as
-          hidden inputs from their account; guests see the full form
-          with a "Have an account? Log in" link below the submit
-          button. Both submit to the `booking_enquiry` Statamic form
+          (tour + phone + travel plans) with name / email passed as
+          hidden inputs from their account; the phone field is always
+          shown and editable, pre-filled from the user's saved mobile,
+          because a phone number is required on every enquiry. Guests
+          see the full form with a "Have an account? Log in" link below
+          the submit button. Both submit to the `booking_enquiry` Statamic form
           via Peak's Alpine + Precognition handler and land on
           /booking/thank-you.
 
@@ -83,10 +85,13 @@
                     `x-init` seeds the Alpine `form.*` state from each
                     input's `value` (Precognition submits the Alpine state,
                     not the raw DOM, so plain hidden inputs aren't enough).
-                    Above the hidden inputs, surface a compact identity
-                    card so users see whose details are about to be
-                    submitted and can jump to Account → Profile to fix
-                    them before enquiring. #}}
+                    Name + email are piped silently; the phone field is
+                    rendered visibly by the field loop below and only
+                    seeded here from the user's saved mobile, so they can
+                    correct it before enquiring. Above the hidden inputs,
+                    surface a compact identity card so users see whose
+                    details are about to be submitted and can jump to
+                    Account → Profile to fix them before enquiring. #}}
                 {{ current_user }}
                     <div class="flex items-center justify-between gap-3 p-3 border rounded-lg border-zinc-200 bg-card">
                         <div class="min-w-0">
@@ -106,10 +111,15 @@
                         </x-flux::link>
                     </div>
 
-                    <input type="hidden" name="name"    value="{{ name }}"         x-init="form.name = $el.value">
-                    <input type="hidden" name="email"   value="{{ email }}"        x-init="form.email = $el.value">
-                    <input type="hidden" name="phone"   value="{{ phone_mobile }}" x-init="form.phone = $el.value">
-                    <input type="hidden" name="user_id" value="{{ id }}"           x-init="form.user_id = $el.value">
+                    <input type="hidden" name="name"    value="{{ name }}"  x-init="form.name = $el.value">
+                    <input type="hidden" name="email"   value="{{ email }}" x-init="form.email = $el.value">
+                    <input type="hidden" name="user_id" value="{{ id }}"    x-init="form.user_id = $el.value">
+
+                    {{# Seed the visible phone field with the user's saved
+                        mobile, leaving anything they've already typed
+                        untouched. The field itself is rendered by the
+                        loop below so it stays editable and validated. #}}
+                    <span class="hidden" x-init="if (! form.phone) form.phone = '{{ phone_mobile }}'"></span>
                 {{ /current_user }}
             {{ /if }}
 
@@ -119,8 +129,10 @@
                   - `tour` — replaced with the bespoke optgroup selector
                     below (Peak's select partial can't do
                     collection-driven optgroups).
-                  - `name`/`email`/`phone` for logged-in users — those
-                    values come from `current_user` via hidden inputs. #}}
+                  - `name`/`email` for logged-in users — those values
+                    come from `current_user` via hidden inputs. (Phone
+                    stays in the loop so it renders as an editable field
+                    for everyone, seeded above for logged-in users.) #}}
             <div class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
                 {{ %form:fields scope="field" }}
                     {{ if field:handle == 'tour' }}
@@ -168,7 +180,7 @@
                                 <span class="text-error text-sm font-bold" x-text="form.errors.tour"></span>
                             </template>
                         </div>
-                    {{ elseif !as_guest && (field:handle == 'name' || field:handle == 'email' || field:handle == 'phone') }}
+                    {{ elseif !as_guest && (field:handle == 'name' || field:handle == 'email') }}
                         {{# Skipped — value supplied via hidden input above. #}}
                     {{ else }}
                         <template x-if="{{ show_field }}">

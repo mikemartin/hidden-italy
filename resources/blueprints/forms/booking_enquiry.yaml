@@ -31,7 +31,7 @@ tabs:
               display: 'Phone number'
               type: text
               validate:
-                - nullable
+                - required
                 - string
                 - 'max:50'
               localizable: true
