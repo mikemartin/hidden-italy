@@ -43,6 +43,7 @@ honeypot: fax
 email:
   - id: iwArpANx
     to: info@hiddenitaly.com.au
+    reply_to: '{{ email }}'
     subject: '{{ trans:strings.form_subject_received }}'
     html: email/form_owner
     text: email/form_owner_text
