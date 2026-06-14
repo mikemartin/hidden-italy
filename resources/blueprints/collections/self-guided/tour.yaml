@@ -35,7 +35,6 @@ tabs:
             field:
               container: assets
               folder: self-guided
-              dynamic: slug
               restrict: true
               mode: grid
               max_files: 1
@@ -152,7 +151,6 @@ tabs:
             handle: gallery
             field:
               container: assets
-              dynamic: slug
               mode: grid
               max_files: 12
               type: assets

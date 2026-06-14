@@ -40,6 +40,7 @@ class LivewireAssetsTest extends TestCase
         return [
             'home (no Livewire components)' => ['/'],
             'tour listing (Livewire filter components)' => ['/tours/guided'],
+            'booking enquiry (bespoke layout)' => ['/booking'],
         ];
     }
 

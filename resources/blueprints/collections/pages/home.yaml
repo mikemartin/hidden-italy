@@ -11,7 +11,6 @@ tabs:
             field:
               type: text
               required: true
-              input_type: text
               localizable: true
               listable: true
               display: Title
@@ -21,13 +20,11 @@ tabs:
         display: Hero
         instructions: 'Full-bleed hero shown at the top of the homepage.'
         fields:
-          -
-            import: hero
+          - import: hero
       -
         display: 'Page builder'
         fields:
-          -
-            import: page_builder
+          - import: page_builder
   seo:
     display: SEO
     sections:
@@ -35,32 +32,27 @@ tabs:
         display: Basic
         instructions: 'Basic SEO settings.'
         fields:
-          -
-            import: 'statamic-peak-seo::seo_basic'
+          - import: 'statamic-peak-seo::seo_basic'
       -
         display: Advanced
         instructions: 'Advanced SEO settings.'
         fields:
-          -
-            import: 'statamic-peak-seo::seo_advanced'
+          - import: 'statamic-peak-seo::seo_advanced'
       -
         display: 'Open Graph'
         instructions: 'Open Graph meta tags for social sharing.'
         fields:
-          -
-            import: 'statamic-peak-seo::seo_open_graph'
+          - import: 'statamic-peak-seo::seo_open_graph'
       -
         display: Sitemap
         instructions: 'Sitemap configuration.'
         fields:
-          -
-            import: 'statamic-peak-seo::seo_sitemap'
+          - import: 'statamic-peak-seo::seo_sitemap'
       -
         display: 'JSON-ld Schema'
         instructions: 'Custom JSON-ld schema objects.'
         fields:
-          -
-            import: 'statamic-peak-seo::seo_jsonld'
+          - import: 'statamic-peak-seo::seo_jsonld'
   sidebar:
     display: Sidebar
     sections:
@@ -74,6 +66,4 @@ tabs:
               localizable: true
               validate:
                 - required
-              generate: true
-              listable: hidden
               display: Slug

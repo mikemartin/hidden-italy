@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 4
-updated_at: 1781158235
+updated_at: 1781478754
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -84,7 +84,6 @@ page_builder:
       - 96805144-50d8-471e-9208-b397627a3a1c
       - 97c7707c-9b34-4f4f-9445-39668362d1fd
       - d6a3ceb1-2eac-4860-b7c0-b70500e53345
-      - 4d4c9c9a-64b1-4bfb-9c8b-cce9a757139e
     link_text: 'View all'
     section_background: none
   -
@@ -105,7 +104,6 @@ page_builder:
     articles:
       - 7d2a4c91-3e85-4f17-91b3-8c1e0f5a7d62
       - 8a3b7d54-9e21-4f68-b193-5c4a0e6d2f87
-      - 1e4d7a93-8c52-4f16-b384-7a2e0d6f9c41
     link_text: 'View all'
     section_background: none
   -
@@ -164,4 +162,5 @@ page_builder:
     section_background: none
 seo_title: 'Hidden Italy | Walking Italy since 1993'
 seo_description: "For over 30 years, we've helped inquisitive travellers explore Italy on walking tours. You'll experience the country at your own pace, with meaningful encounters, local flavour, and the comfort of knowing everything is taken care of."
+og_image: home-og-1781221374.png
 ---
