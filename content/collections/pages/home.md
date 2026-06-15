@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 4
-updated_at: 1781478754
+updated_at: 1781491291
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -104,6 +104,7 @@ page_builder:
     articles:
       - 7d2a4c91-3e85-4f17-91b3-8c1e0f5a7d62
       - 8a3b7d54-9e21-4f68-b193-5c4a0e6d2f87
+      - 6f8a2c47-3b91-4e58-a672-9d4e0f1c5b83
     link_text: 'View all'
     section_background: none
   -
