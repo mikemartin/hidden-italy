@@ -23,7 +23,6 @@ tabs:
                 - required
                 - email
               localizable: true
-              width: 50
               listable: true
           -
             handle: phone
@@ -35,7 +34,6 @@ tabs:
                 - string
                 - 'max:50'
               localizable: true
-              width: 50
           -
             handle: tour
             field:
