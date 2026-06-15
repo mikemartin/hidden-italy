@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 4
-updated_at: 1781491291
+updated_at: 1781508631
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -99,7 +99,7 @@ page_builder:
   -
     id: home_travel_tips
     type: travel_tips
-    enabled: true
+    enabled: false
     heading: 'Travel tips and inspiration'
     articles:
       - 7d2a4c91-3e85-4f17-91b3-8c1e0f5a7d62
