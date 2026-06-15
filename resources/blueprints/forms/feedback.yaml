@@ -1,0 +1,49 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: feedback_type
+            field:
+              display: 'Feedback type'
+              type: select
+              options:
+                issue: Issue
+                idea: Idea
+                other: Other
+              validate:
+                - required
+                - 'in:issue,idea,other'
+              listable: true
+          -
+            handle: message
+            field:
+              display: Message
+              type: textarea
+              validate:
+                - required
+                - 'min:2'
+                - 'max:5000'
+              listable: true
+          -
+            handle: page
+            field:
+              display: Page
+              type: text
+              instructions: 'The page the visitor was on when they sent the feedback.'
+              validate:
+                - nullable
+                - 'max:2048'
+              listable: true
+          -
+            handle: email
+            field:
+              display: 'Email address'
+              type: text
+              input_type: email
+              validate:
+                - nullable
+                - email
+                - 'max:255'

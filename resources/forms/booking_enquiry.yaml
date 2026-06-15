@@ -43,11 +43,13 @@ honeypot: fax
 email:
   - id: bookingOwner
     to: info@hiddenitaly.com.au
+    reply_to: '{{ email }}'
     subject: 'New booking enquiry — {{ tour or "Hidden Italy" }}'
     html: email/form_owner
     text: email/form_owner_text
   - id: bookingSender
     to: '{{ email }}'
+    reply_to: info@hiddenitaly.com.au
     subject: "We've received your booking enquiry"
     html: email/form_sender
     text: email/form_sender_text

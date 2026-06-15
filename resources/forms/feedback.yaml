@@ -1,0 +1,11 @@
+content_owner:
+  show_submitted_data: true
+title: Feedback
+honeypot: fax
+email:
+  -
+    id: fbWebhook
+    to: info@hiddenitaly.com
+    subject: 'New website feedback'
+    html: email/form_owner
+    text: email/form_owner_text

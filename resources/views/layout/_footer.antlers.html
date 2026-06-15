@@ -172,6 +172,13 @@
                                 class="hover:text-white transition-colors"
                             >{{ title }}</a>
                         {{ /nav:footer_legal }}
+
+                        <x-flux::modal.trigger name="feedback-modal">
+                            <button
+                                type="button"
+                                class="hover:text-white transition-colors cursor-pointer"
+                            >{{ trans:strings.share_feedback }}</button>
+                        </x-flux::modal.trigger>
                     </div>
 
                     <p>

@@ -1,0 +1,126 @@
+{{#
+    @name Feedback modal
+    @desc Floating "Feedback" tab + Flux modal wrapping the `feedback` form.
+          Included once from the layout; the footer link triggers it by name.
+#}}
+
+<!-- /components/_feedback_modal.antlers.html -->
+{{# Reveals past the hero (back-to-top pattern). The `!` overrides beat
+    flux.css, which loads after the site CSS. #}}
+<div
+    x-data="{ visible: false }"
+    x-init="visible = window.scrollY > window.innerHeight * 0.8"
+    @scroll.window.passive="visible = window.scrollY > window.innerHeight * 0.8"
+    :class="visible ? 'opacity-100 translate-x-0 pointer-events-auto' : 'opacity-0 translate-x-2 pointer-events-none'"
+    class="fixed right-0 top-1/2 -translate-y-1/2 z-30 transition-all duration-[var(--duration-standard)] ease-[var(--ease-emphasis)] motion-reduce:transition-none"
+    x-cloak
+>
+    <x-flux::modal.trigger name="feedback-modal">
+        <x-flux::button
+            variant="primary"
+            x-bind:tabindex="visible ? 0 : -1"
+            x-bind:aria-hidden="!visible"
+            class="[writing-mode:vertical-rl] h-auto! px-2! py-3 rounded-r-none! cursor-pointer"
+        >{{ trans:strings.feedback }}</x-flux::button>
+    </x-flux::modal.trigger>
+</div>
+
+<x-flux::modal name="feedback-modal" class="md:w-[28rem]">
+    <div class="space-y-4">
+        <div class="text-center space-y-1">
+            {{ partial:typography/h3 content="{ trans:strings.feedback_modal_title }" small="true" }}
+            {{ partial:typography/p_small content="{ trans:strings.feedback_modal_subtitle }" color="text-muted" }}
+        </div>
+
+        {{# Precognition submits the Alpine state — x-init seeding is enough. #}}
+        {{ form:create in="feedback" js="alpine:form" attr:x-ref="form" class="w-full" }}
+            <div x-data="formHandler()" x-init="form.page = window.location.pathname; if (! form.feedback_type) form.feedback_type = 'issue'" x-cloak class="space-y-4">
+                <template x-if="success">
+                    <div>
+                        {{ partial:components/notification type="success" content="{ trans:strings.feedback_success }" }}
+                    </div>
+                </template>
+
+                <template x-if="!success">
+                    <div class="space-y-4">
+                        <div class="flex flex-col gap-2">
+                            {{# `checked` only paints initial state; x-model (seeded in x-init) wins. #}}
+                            <x-flux::radio.group
+                                variant="buttons"
+                                color="amber"
+                                class="w-full *:flex-1"
+                                label="{{ trans:strings.feedback_type }}"
+                                name="feedback_type"
+                                x-model="form.feedback_type"
+                                @change="form.validate('feedback_type')"
+                            >
+                                <x-flux::radio value="issue" icon="exclamation-circle" checked>{{ trans:strings.feedback_type_issue }}</x-flux::radio>
+                                <x-flux::radio value="idea" icon="light-bulb">{{ trans:strings.feedback_type_idea }}</x-flux::radio>
+                                <x-flux::radio value="other" icon="chat-bubble-oval-left">{{ trans:strings.feedback_type_other }}</x-flux::radio>
+                            </x-flux::radio.group>
+                            <template x-if="form.invalid('feedback_type')">
+                                <span class="text-error text-sm font-bold" x-text="form.errors.feedback_type"></span>
+                            </template>
+                        </div>
+
+                        <div class="flex flex-col gap-2">
+                            {{# Antlers claims `:` and `{ }` in component-tag attrs — hence x-bind: + ternary. #}}
+                            <x-flux::textarea
+                                label="{{ trans:strings.feedback_message }}"
+                                name="message"
+                                rows="4"
+                                required
+                                x-model="form.message"
+                                @change="form.validate('message')"
+                                placeholder="{{ trans:strings.feedback_message_placeholder }}"
+                                x-bind:placeholder="form.feedback_type === 'idea' ? `{{ trans:strings.feedback_placeholder_idea }}` : (form.feedback_type === 'other' ? `{{ trans:strings.feedback_placeholder_other }}` : `{{ trans:strings.feedback_placeholder_issue }}`)"
+                                x-bind:data-invalid="form.invalid('message')"
+                                x-bind:aria-invalid="form.invalid('message')"
+                            />
+                            <template x-if="form.invalid('message')">
+                                <span class="text-error text-sm font-bold" x-text="form.errors.message"></span>
+                            </template>
+                        </div>
+
+                        <div class="flex flex-col gap-2">
+                            <x-flux::input
+                                type="email"
+                                label="{{ trans:strings.feedback_email }}"
+                                badge="{{ trans:strings.feedback_optional }}"
+                                description="{{ trans:strings.feedback_email_description }}"
+                                name="email"
+                                x-model="form.email"
+                                @change="form.validate('email')"
+                                placeholder="{{ trans:strings.email_placeholder }}"
+                                autocomplete="email"
+                                x-bind:data-invalid="form.invalid('email')"
+                                x-bind:aria-invalid="form.invalid('email')"
+                            />
+                            <template x-if="form.invalid('email')">
+                                <span class="text-error text-sm font-bold" x-text="form.errors.email"></span>
+                            </template>
+                        </div>
+
+                        {{# Honeypot — invisible field bots will fill in. #}}
+                        <div class="hidden" aria-hidden="true">
+                            <label for="feedback-{{ honeypot }}">{{ trans:strings.form_honeypot }}</label>
+                            <input id="feedback-{{ honeypot }}" type="text" name="{{ honeypot }}" x-model="form.{{ honeypot }}" tabindex="-1" autocomplete="off"/>
+                        </div>
+
+                        <button
+                            type="button"
+                            @click.prevent="submit"
+                            :disabled="form.processing"
+                            class="button w-full"
+                        >
+                            <span>{{ trans:strings.send_feedback }}</span>
+                        </button>
+                    </div>
+                </template>
+            </div>
+        {{ /form:create }}
+
+        {{ partial:statamic-peak-tools::snippets/form_handler }}
+    </div>
+</x-flux::modal>
+<!-- End: /components/_feedback_modal.antlers.html -->
