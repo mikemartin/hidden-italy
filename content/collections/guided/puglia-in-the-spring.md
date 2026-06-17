@@ -6,7 +6,7 @@ name: 'Puglia in the Spring'
 region: Puglia
 days: 13
 updated_by: 4
-updated_at: 1781145848
+updated_at: 1781735773
 grade: 2
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -33,15 +33,13 @@ page_builder:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "\_Visiting Puglia is an adventure.\_ It is a delightfully different world to the fashionable streets of Florence, Milan and Venice: little English is spoken; time is flexible; it has been little touched by tourism and surprises lurk around every corner. \_A trip to Puglia is a fascinating and rewarding experience, particularly in the spring."
     column_right:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "\_The highlights of the Hidden Italy Puglia tour include walking along country lanes lined with ancient dry-stone walls, olive groves and fields filled with wildflowers; exploring the mysteries of Matera; sleeping in a restored 18th century Masseria, surrounded by ancient olive trees; sailing on the Adriatic Sea; a cooking day in a 15th century tower in the heart of the 'Salento' district; coastal walks along both the Adriatic and Ionian Seas; visiting Frederick's extraordinary castle of Castel del Monte; wandering the medieval lanes and allies of Bari Vecchia (old Bari); the fabulous Pugliese cooking; and last, but not least, the warm southern hospitality."
     title: 'A delightfully different world'
     images:
@@ -53,33 +51,27 @@ page_builder:
     id: mloqd78x
     heading: 'Puglia tour highlights'
     activities:
-      -
-        id: mloqdoo9
+      - id: mloqdoo9
         title: 'Be immersed in the magic of southern Italy'
         summary: 'Spend two weeks experiencing the charm and fascination of southern Italy, exploring the towns, coast and interior.'
         icon: festa-fireworks.svg
-      -
-        id: mloqi0iy
+      - id: mloqi0iy
         title: 'Stay in fabulous accommodation'
         summary: 'Stay in a restored palazzo in Lecce; an historic palazzo on the coast; an ancient masseria; and a 4-star hotel in Bari.'
         icon: housing-house.svg
-      -
-        id: mloqndod
+      - id: mloqndod
         title: 'Go walking along rolling hills and undulating coastline'
         summary: 'The tour includes 8 guided walks along undulating hills, through orchards and vineyards and along spectacular coastline.'
         icon: trekking-trekking.svg
-      -
-        id: mloqrnhn
+      - id: mloqrnhn
         title: "Indulge yourself in Italy's finest food"
         summary: "Puglia has Italy's finest food:  the freshest fruit and veggies; the fab meats of Itria Valley; and spectacular seafood."
         icon: gastronomy-spaghetti.svg
-      -
-        id: 0TMxr-ateMuphRzONcxmY
+      - id: 0TMxr-ateMuphRzONcxmY
         title: "Visit one of Puglia's most innovative vineyards."
         summary: 'Puglia is proud of its wines and you will visit one its finest vineyards, enjoying a tasting and a light lunch.'
         icon: wine-grapes.svg
-      -
-        id: jHWGNbTTt9a3Y36qp8wN3
+      - id: jHWGNbTTt9a3Y36qp8wN3
         title: 'Go sailing on the Med'
         summary: 'Enjoy a day sailing, grazing and swimming aboard two private yachts, exploring the coastline of the Mediterranean Sea.'
         icon: transport-sailboat.svg
@@ -233,8 +225,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "Without mountains, Puglia offers relaxed walking through undulating hills, following country lanes lined with drystone walls or following trails along spectacular coastline. Three walks are in central Puglia, passing through forest, wheat fields, cherry orchards and olive groves.\_ Two are coastal walks: the first walk winds along the Ionian coast through Puglia's oldest national park while the other heads south down the Adriatic coast with glimpses of the mountains of Albania to the east and Corfu in the south (weather permitting).\_ The main feature of all the walks in this season is the wildflowers.\_ The walks range from 4 to 14 kilometres and take from 1 to 4 hours.\_ In some cases it is possible to shorten the walks or opt out and join the walkers for lunch."
         type: walk
         enabled: true
@@ -245,17 +236,14 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "We stay in the best accommodation available, ie low-key and gracious. The tour starts with two nights in a lovely hotel in the pedestrian centre of Lecce, the ‘Florence of the South’.\_ The next is a welcoming 5-star boutique hotel with a roof terrace with views over the port in the heart of the most charming town in Puglia.\_ We then move a lovely hotel set in gardens surrounded by olive groves with a beautiful swimming pool, a recently restored 18th century '"
               -
                 type: text
                 marks:
-                  -
-                    type: italic
+                  - type: italic
                 text: "masseria'"
-              -
-                type: text
+              - type: text
                 text: ".\_ Finally, we stay in a comfortable hotel in the centre of Bari."
         media:
           - guided/puglia-in-the-spring/palmento-19.jpg
@@ -268,8 +256,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "In springtime the market gardens and kitchen gardens of Puglia are bursting with fresh produce (tomatoes, zucchini, eggplants, artichokes, asparagus, fava beans) which provides the basis for all the region’s cooking.\_ Pugliese cuisine is simple, rustic and cheerful, based on the abundance of its fertile plains and coastline. As Italy's wheat belt, pasta and a variety of excellent breads are pillars of Pugliese diet, as is olive oil (Puglia has over 50 million olive trees, some over 2000 years old).\_ Puglia is bounded by two seas, the Adriatic and Ionian, and has an abundance of seafood, while the butchers of the Itria Valley are famous throughout Italy."
         media:
           - guided/puglia-in-the-spring/bari-12.jpg
@@ -280,8 +267,7 @@ page_builder:
     section_background: dark
     show_topography: true
     hide_from_subnav: false
-  -
-    id: iOkmFU6ExNE08DptpipsO
+  - id: iOkmFU6ExNE08DptpipsO
     title: 'Tour Leader'
     person: fa3be588-b0dd-4d37-9213-bafbd1992434
     type: leader
@@ -298,8 +284,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
         type: equipment
         enabled: true
@@ -309,20 +294,17 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date. '
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour. '
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
@@ -335,11 +317,9 @@ page_builder:
               -
                 type: text
                 marks:
-                  -
-                    type: bold
+                  - type: bold
                 text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
-              -
-                type: text
+              - type: text
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
@@ -347,16 +327,14 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  -
-    id: NrD0Vhxj
+  - id: NrD0Vhxj
     type: faqs
     enabled: true
     show_common_questions: true
     heading: 'Frequently asked questions'
     section_background: none
     hide_from_subnav: false
-  -
-    id: wb_tKPl4JMLeN5EjGP6
+  - id: wb_tKPl4JMLeN5EjGP6
     type: walking_benefits
     enabled: true
     tour_type: auto
@@ -428,13 +406,12 @@ summary:
   -
     type: paragraph
     content:
-      -
-        type: text
+      - type: text
         text: 'A bridge between Italy and the East, Puglia is pure southern Italy: layers of history, vibrant cities and towns, ancient traditions celebrated in colourful festivals; a timeless interior edged by an endless coastline; gracious hospitality and fabulous food.'
 price: 'A$8,990 pp'
 show_from: true
 availability_text: 'Tour Start Dates: 2 May 27 & 16 May 27'
-badge_text: Popular
+badge_text: 'Last Spots'
 og_image: puglia-puglia-in-the-spring-og-1779335247.png
 seo_noindex: inherit
 seo_nofollow: false

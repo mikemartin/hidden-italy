@@ -6,7 +6,7 @@ name: Dolomites
 region: 'Trentino-Alto Adige'
 days: 6
 updated_by: 4
-updated_at: 1781145323
+updated_at: 1781735955
 grade: 3
 inclusions:
   - 'Private transfer to and from Bolzano at the beginning and end of the tour'
@@ -35,30 +35,25 @@ page_builder:
           -
             type: text
             marks:
-              -
-                type: italic
+              - type: italic
             text: "“The Dolomites National Park protects a series of highly distinctive mountain landscapes that are of exceptional natural beauty, extraordinary in a global context, and amongst the most beautiful in the world……..”\_\_ UNESCO World Heritage Listing, June 2009."
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "Celebrated as a skiing destination, the Dolomites also offer unrivalled walking in the summer.\_You will use cable cars to get to the start of most walks and then follow well-marked trails as they wind your way back to your base, with"
     column_right:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: ' the option at one of the charming mountains huts (rifugio) for a break or lunch along the way. '
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "On Day 1 you’ll be met in charming Bolzano, the capital of the South Tyrol and an important stop on the main Verona/Innsbruck train line, and driven to the spectacular valley an hour away.\_This valley is one of the prettiest in the ‘Ladino’ heartland of the Dolomite mountains and you will be your base for the next five nights. You will be driven back to Bolzano on Day 6."
-      -
-        type: paragraph
+      - type: paragraph
     title: 'The most beautiful in the world'
     images:
       - self-guided/dolomites-1/sassolungo-with-horse-1773020028.jpg
@@ -69,33 +64,27 @@ page_builder:
     id: mloocwbk
     heading: 'Highlights of the Dolomites walking tour'
     activities:
-      -
-        id: mlooee34
+      - id: mlooee34
         title: 'Explore the most beautiful mountains!'
         summary: 'Take your time to enjoy five days exploring a gorgeous valley in the heart of the most beautiful mountains in the world.'
         icon: trekking-trekking.svg
-      -
-        id: mloog7vk
+      - id: mloog7vk
         title: 'Enjoy magnificent walking'
         summary: 'Enjoy a variety of extraordinary walks following well-marked trails with breath-taking views everywhere you turn.'
         icon: switzerland-mountain.svg
-      -
-        id: mlooou12
+      - id: mlooou12
         title: 'Revel in a luxurious accommodation'
         summary: 'Your accommodation is in a family-run, 4-star hotel, a seductive combination of Austrian efficiency and Italian warmth.'
         icon: ski-alpine-hotel.svg
-      -
-        id: mlooun08
+      - id: mlooun08
         title: 'Indulge your taste buds'
         summary: 'Indulge your senses with very generous breakfasts and 3-course, alla carte dinners, included for each day of the tour.'
         icon: 'wine-wine bottle.svg'
-      -
-        id: Canak7fbd_CbaMkLt6Qhl
+      - id: Canak7fbd_CbaMkLt6Qhl
         title: 'Get to know the Ladini'
         summary: '85% of the population of the valley you visit are proudly descended from the Ladini the original people of the Dolomites'
         icon: switzerland-edelweiss.svg
-      -
-        id: mmbinilb
+      - id: mmbinilb
         title: 'Pull on your boots, we’ll handle the rest'
         summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
@@ -186,8 +175,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "The trails follow well-marked and well-maintained paths with no dramatic climbs or descents and pass mountain huts along the way for breaks and lunch. While the walks do not have steep or long climbs (you use cable cars to avoid this), several of the walks are quite long: Day 4 is 14 kms and Day 5 is 19 kms (there is a shorter alternative on Day 5).\_The circuit walk on Day 5 has some ‘exposed’ sections so is not suitable for people who suffer from vertigo (there is an alternative walk). Full details on each walk are on the itinerary. The self-guided itineraries are re-walked and the notes updated each year."
         type: walk
         enabled: true
@@ -198,8 +186,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "Accommodation is in ‘superior’ rooms with en-suite bathrooms in a very well located 4-star hotel, an excellent family run hotel on the sunny side of the valley with a ‘wellness’ centre, pool and surrounded by lawns.\_It is in prettiest town in the valley.\_\_"
         media:
           - self-guided/dolomites-1/2.jpg
@@ -212,14 +199,12 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "Food, of course, is one of the highlights of the trip. The people of the Dolomites are\_extremely proud of the produce of their beautiful territory (fruit, vegetables, cheeses, hams and a wide variety of breads etc) and the local cuisine is a fascinating combination Italian and Austrian cooking. The Alto Adige/Sud Tirol is particularly famous for its high altitude white wines.\_ "
               -
                 type: text
                 marks:
-                  -
-                    type: italic
+                  - type: italic
                 text: "Generous breakfasts and 3-course dinners are included each day.\_"
         media:
           - self-guided/dolomites-1/img_1570.jpg
@@ -241,8 +226,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'To help guide you on this wonderful walk, you’ll receive our Hidden Italy booklet — a handy A5 guide with detailed daily walking notes and clear maps, updated and revised each year. You’ll also have access to our exclusive Hidden Italy App, which complements the booklet and works on both Apple and Android devices. The app includes route maps, GPS tracks, altimetric profiles, turn-by-turn navigation, an alert if you stray off the path, and an emergency function. In addition, you’ll have 24-hour phone support from our local team.'
         type: general
         enabled: true
@@ -252,8 +236,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
         type: equipment
         enabled: true
@@ -263,20 +246,17 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice. '
         type: booking_cancellation
         enabled: true
@@ -289,11 +269,9 @@ page_builder:
               -
                 type: text
                 marks:
-                  -
-                    type: bold
+                  - type: bold
                 text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
-              -
-                type: text
+              - type: text
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
@@ -301,8 +279,7 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  -
-    id: NbQeLg65
+  - id: NbQeLg65
     type: faqs
     enabled: true
     show_common_questions: true
@@ -320,8 +297,7 @@ page_builder:
     hide_from_subnav: false
     type: testimonials
     enabled: true
-  -
-    id: wb_9nixUayDYetWDbS6
+  - id: wb_9nixUayDYetWDbS6
     type: walking_benefits
     enabled: true
     tour_type: auto
@@ -386,8 +362,7 @@ summary:
   -
     type: paragraph
     content:
-      -
-        type: text
+      - type: text
         text: 'This wonderful 6-day/5-night self-guided walk introduces you to some of the most spectacular mountains in the world and some of the finest walking in Europe.'
 show_from: true
 price: 'A$2,950 pp'
@@ -397,6 +372,6 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-badge_text: Popular
+badge_text: Featured
 overlay_opacity: 30
 ---
