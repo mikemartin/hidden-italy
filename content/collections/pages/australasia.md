@@ -1,6 +1,5 @@
 ---
 id: 3b8316f0-4e7a-4c1c-9abc-fd72ba7bf0f0
-published: false
 blueprint: tour_type
 title: Australasia
 template: tours/index
@@ -29,7 +28,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 4
-updated_at: 1781669084
+updated_at: 1781669656
 og_image: self-guided-tours-og-1779331721.png
 duplicated_from: fff5d1d0-e05d-4088-9a54-1f2e7f630c28
 ---
