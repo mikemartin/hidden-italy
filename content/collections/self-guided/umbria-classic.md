@@ -5,8 +5,8 @@ title: 'Umbria Classic - Umbria'
 name: 'Umbria Classic'
 region: Umbria
 days: 7
-updated_by: 3
-updated_at: 1780966141
+updated_by: 4
+updated_at: 1781655286
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -32,23 +32,19 @@ page_builder:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "Starting in Assisi and finishing in Spoleto, this wonderful walk will take through the most alluring part of the region: the Valle Umbra (the Umbra Valley). Following well-marked trails, you walk through a beguiling landscape of rolling hills dotted with olive groves and draped with grape vines, with mountains above you and valleys below. Staying in superior accommodation in historic palazzi, you will also have plenty of time explore some of the region's most charming towns and admire some of the best art in central Italy, including works by Giotto, Perugino, Pinturicchio and Raphael. "
-      -
-        type: paragraph
+      - type: paragraph
     column_right:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "Of course, we mustn't forget the food! You'll also have plenty of opportunities to sample the region's celebrated cuisine, which tends to be simple and seasonal home-cooking.\_Umbria is best known for its vegetables (including lentils from Castellucio and beans from Trasimeno); its game (pigeon; pheasant and wild boar); and its truffles (both black and white); but the crowning glory is its porchetta (whole suckling pig, pit roasted)!\_Umbria is also well-known for its wines, including the red Sagrantino and the white Grechetto."
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: 'What more could you ask for?'
     title: 'Across the Valle Umbra'
     images:
@@ -60,33 +56,27 @@ page_builder:
     id: mloocwbk
     heading: 'Highlights of the Umbria Classic'
     activities:
-      -
-        id: mlooee34
+      - id: mlooee34
         title: 'Walk through magical landscapes'
         summary: "Follow well-marked trails through the 'green heart of Italy': rolling hills, vineyards, olive groves and charming towns."
         icon: trekking-trekking.svg
-      -
-        id: mloog7vk
+      - id: mloog7vk
         title: 'Stay in fabulous accommodation'
         summary: 'A feature of this Classic tour is the fabulous 4 star accommodation in the historical centre of each town.'
         icon: housing-house.svg
-      -
-        id: mlooou12
+      - id: mlooou12
         title: 'Soak up the atmosphere'
         summary: 'Spend time soaking up the atmosphere of some of the most charming towns in central Italy, each so different to the other.'
         icon: medieval-castle-wall.svg
-      -
-        id: mlooun08
+      - id: mlooun08
         title: 'Admire the art'
         summary: 'Admire fabulous works by some of the important artists of the Italian Renaissance: Cimabue, Giotto, Perugino and Raphael.'
         icon: festa-fireworks.svg
-      -
-        id: mmbinilb
+      - id: mmbinilb
         title: 'Enjoy Umbrian home cooking'
         summary: 'Sit down and enjoy the wholesome home-cooking: cold cuts, cheeses, pastas, soups, roast meats, fresh garden vegetables.'
         icon: gastronomy-spaghetti.svg
-      -
-        id: yzrNBaT-_rmmrnPeEEdB9
+      - id: yzrNBaT-_rmmrnPeEEdB9
         title: 'Pull on your boots, we’ll handle the rest'
         summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
@@ -100,8 +90,7 @@ page_builder:
     title: 'Umbria Classic Itinerary'
     summary: 'This wonderful 7 day walk takes you through forests, across farmlands, past olive groves and staying in some of the most gorgeous and interesting towns with some of the finest art in central Italy, staying in excellent 4-star hotels along the way.'
     days:
-      -
-        id: mlooymbz
+      - id: mlooymbz
         title: 'Arrive in Spoleto'
         description: 'Even without St Francis Assisi would be irresistible, a charming medieval town nestled under the forested peak of Monte Subasio. However, the monuments that have been dedicated to the saint make Assisi a highlight of any visit to Umbria. The Basilica dedicated to Saint Francis contains some of the masterpieces of Western art, including seminal works by Cimabue, Giotto, Simone Martini and the Lorenzetti brothers.'
         photo: self-guided/umbria-classic/f1020011.jpg
@@ -181,14 +170,12 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "The walks mainly\_follow unsealed country roads passing thdough farmlands, olive groves and vineyards. The walks range from 8 to 21 kilometres (3 to 6 hours).\_The first walk on Day 2 is probably the most challenging with a steep climb at the beginning (the views on the top of Mt Subasio are your reward) however, there is a shorter option with less climbing is included in the notes.\_Day 5 walk (21 kms) can be shortened with an night in an excellent 4-star hotel along the way (highly recommended!).\_"
               -
                 type: text
                 marks:
-                  -
-                    type: italic
+                  - type: italic
                 text: 'The self-guided itineraries are re-walked and the notes updated each year.'
         image: self-guided/umbria-classic/f1020010.jpg
         type: walk
@@ -200,8 +187,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "Hidden Italy uses the best accommodation available and the accommodation is one of the highlights of this walk: \_including centrally-located hotels in recently restored historical buildings that are themselves part of the history of the towns and a beautifully restored country estate with a swimming pool and its own olive groves and vineyards."
         type: accommodation
         enabled: true
@@ -212,8 +198,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "You are walking through one of the most celebrated food and wine regions of Italy - famous for its Sagrantino red wine; 'norcineria' (sausages and cold cuts); lentils; truffles and.... chocolate.\_Umbrian by olive oil, which features in everything from roast pork to its luxurious truffle dishes, the pride of the region. Local dishes, as a result, are simple and tasty, putting the accent on the excellent quality of the raw materials. You only need three things to make good Umbrian food: a fire or oven, local produce and plenty of time."
           -
             type: paragraph
@@ -221,8 +206,7 @@ page_builder:
               -
                 type: text
                 marks:
-                  -
-                    type: italic
+                  - type: italic
                 text: "Generous breakfasts are included each day.\_Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_You will be able to make reservations where applicable directly through the Hidden Italy App."
         type: food
         enabled: true
@@ -242,8 +226,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'To help guide you on this wonderful walk, you’ll receive our Hidden Italy booklet — a handy A5 guide with detailed daily walking notes and clear maps, updated and revised each year. You’ll also have access to our exclusive Hidden Italy App, which complements the booklet and works on both Apple and Android devices. The app includes route maps, GPS tracks, altimetric profiles, turn-by-turn navigation, an alert if you stray off the path, and an emergency function. In addition, you’ll have 24-hour phone support from our local team.'
         type: general
         enabled: true
@@ -253,8 +236,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
         type: equipment
         enabled: true
@@ -264,20 +246,17 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
@@ -290,11 +269,9 @@ page_builder:
               -
                 type: text
                 marks:
-                  -
-                    type: bold
+                  - type: bold
                 text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
-              -
-                type: text
+              - type: text
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
@@ -302,8 +279,7 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  -
-    id: w0g0ctjR
+  - id: w0g0ctjR
     type: faqs
     enabled: true
     show_common_questions: true
@@ -321,8 +297,7 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  -
-    id: wb_bbJXLn8aTeR0y0MY
+  - id: wb_bbJXLn8aTeR0y0MY
     type: walking_benefits
     enabled: true
     tour_type: auto
@@ -388,10 +363,9 @@ summary:
   -
     type: paragraph
     content:
-      -
-        type: text
+      - type: text
         text: "Often referred to as 'the green heart of Italy', Umbria is a beautiful. This 7-day / 6-night itinerary showcases the largely unspoilt region of rolling hills, woods, streams and valleys.\_Within its borders are a dozen or so classic hill-towns, each resolutely individual and crammed with artistic and architectural treasures that frequently rival bigger and more famous cities."
-price: 'A$2,350 pp'
+price: 'A$3,000 pp'
 show_from: true
 image: self-guided/umbria-classic/sterling-lanier-eyewiju5mc0-unsplash.jpg
 og_image: umbria-umbria-classic-og-1779335313.png
