@@ -1,32 +1,19 @@
 tree:
-  -
-    entry: home
+  - entry: home
   -
     entry: 2d1f3903-3248-4037-8e09-e76e8d62781c
     children:
-      -
-        entry: 46b6b124-89cf-4efb-b06a-cdb4d28312ba
-      -
-        entry: fff5d1d0-e05d-4088-9a54-1f2e7f630c28
-  -
-    entry: c81f1652-4d1d-49fb-bd9b-cad19ed89159
-  -
-    entry: 6522c57c-2a9d-4ec7-a8eb-26035629e36a
-  -
-    entry: 60f29dc3-3636-4ae8-95a4-e508c713936a
-  -
-    entry: 6a16b095-2c9c-42e2-8593-41525210f300
-  -
-    entry: f2528c71-fdd2-4e78-af1d-c37c56594a04
-  -
-    entry: e265bad2-3f40-4069-bc06-9f8afe6e59f6
-  -
-    entry: 40fd13ef-8bd8-42bc-b239-0f5e185e468d
-  -
-    entry: 059d4d8d-fc60-49f8-8823-7da10549e84e
-  -
-    entry: a44b160b-fc70-43cb-a3dc-e06f89007174
-  -
-    entry: 06eda9dc-c4c5-40c3-a3d0-da1f3f9007b4
-  -
-    entry: 99752007-eeca-4882-b67d-f3c0d9a91118
+      - entry: 46b6b124-89cf-4efb-b06a-cdb4d28312ba
+      - entry: fff5d1d0-e05d-4088-9a54-1f2e7f630c28
+      - entry: 3b8316f0-4e7a-4c1c-9abc-fd72ba7bf0f0
+  - entry: c81f1652-4d1d-49fb-bd9b-cad19ed89159
+  - entry: 6522c57c-2a9d-4ec7-a8eb-26035629e36a
+  - entry: 60f29dc3-3636-4ae8-95a4-e508c713936a
+  - entry: 6a16b095-2c9c-42e2-8593-41525210f300
+  - entry: f2528c71-fdd2-4e78-af1d-c37c56594a04
+  - entry: e265bad2-3f40-4069-bc06-9f8afe6e59f6
+  - entry: 40fd13ef-8bd8-42bc-b239-0f5e185e468d
+  - entry: 059d4d8d-fc60-49f8-8823-7da10549e84e
+  - entry: a44b160b-fc70-43cb-a3dc-e06f89007174
+  - entry: 06eda9dc-c4c5-40c3-a3d0-da1f3f9007b4
+  - entry: 99752007-eeca-4882-b67d-f3c0d9a91118

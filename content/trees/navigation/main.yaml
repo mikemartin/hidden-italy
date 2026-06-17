@@ -1,23 +1,18 @@
 tree:
-  -
-    id: fff733df-934b-453d-b658-285b64385d12
+  - id: fff733df-934b-453d-b658-285b64385d12
     entry: 46b6b124-89cf-4efb-b06a-cdb4d28312ba
-  -
-    id: 81cfd011-dc10-4c6d-838c-f21712788b84
+  - id: 81cfd011-dc10-4c6d-838c-f21712788b84
     entry: fff5d1d0-e05d-4088-9a54-1f2e7f630c28
-  -
-    id: b528e3a4-c9be-49b0-acb6-ee370c658512
+  - id: c25f34e7-8a08-4478-8d06-3aec99eed33a
+    entry: 4725b84b-14ea-43eb-a2d0-e4ca2f6f2b74
+  - id: b528e3a4-c9be-49b0-acb6-ee370c658512
     entry: c81f1652-4d1d-49fb-bd9b-cad19ed89159
-  -
-    id: 46df1eae-b39d-4742-9d5d-3c59437047a8
+  - id: 46df1eae-b39d-4742-9d5d-3c59437047a8
     entry: 6522c57c-2a9d-4ec7-a8eb-26035629e36a
-  -
-    id: 64c45043-f31e-4e8e-ab1a-9d3b3dd83c82
+  - id: 64c45043-f31e-4e8e-ab1a-9d3b3dd83c82
     entry: 60f29dc3-3636-4ae8-95a4-e508c713936a
-  -
-    id: 2ffb7df6-f70b-43ac-b5d3-c8f720daae4a
+  - id: 2ffb7df6-f70b-43ac-b5d3-c8f720daae4a
     title: Shop
     url: 'https://hiddenitaly.myshopify.com/'
-  -
-    id: c259b6a2-b11b-4032-93b5-f06f8766b9ef
+  - id: c259b6a2-b11b-4032-93b5-f06f8766b9ef
     entry: f2528c71-fdd2-4e78-af1d-c37c56594a04

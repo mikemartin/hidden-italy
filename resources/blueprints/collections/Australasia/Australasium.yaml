@@ -1,0 +1,57 @@
+title: Tour
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: hidden
+              required: false
+          - handle: region
+            field: tour_banner.region
+          - handle: name
+            field: testimonial_overlap.name
+          -
+            handle: content
+            field:
+              type: markdown
+              display: Content
+              localizable: true
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: seasons
+            field:
+              type: terms
+              taxonomies:
+                - seasons
+              display: Seasons
+              mode: select
+          -
+            handle: landscapes
+            field:
+              type: terms
+              taxonomies:
+                - landscapes
+              display: Landscapes
+              mode: select
+          -
+            handle: locations
+            field:
+              type: terms
+              taxonomies:
+                - locations
+              display: Locations
+              mode: select
