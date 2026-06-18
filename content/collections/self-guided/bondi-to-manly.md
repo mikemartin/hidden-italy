@@ -1,6 +1,5 @@
 ---
 id: 4cfe7ed9-69f8-4f0e-95fb-a0c934325887
-published: false
 blueprint: tour
 title: 'Bondi to Manly - Sydney'
 region: Sydney
@@ -14,8 +13,7 @@ summary:
   -
     type: paragraph
     content:
-      -
-        type: text
+      - type: text
         text: 'Starting at glorious Bondi Beach, you walk above sandstone cliffs overlooking the Pacific Ocean before reaching South Head (the grand entrance to Sydney Harbour). The marked trails then lead you around Sydney Harbour, past islands, hidden bays and beaches, through national parks, botanic gardens and the glamorous residential suburbs that fringe the southern and northern shores of the bay before finishing at the golden sands of Manly Beach.'
 days: 5
 grade: 0
@@ -39,15 +37,13 @@ page_builder:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "The 80km walk is regularly marked.\_Navigation is straightforward.\_It generally follows good, well-maintained pathways through national parks, suburban streets and along beaches.\_There are occasional sets of stairs but no sustained climbs.\_The only challenge may be the distance of the walks. Comfortable, good quality walking shoes will suffice, boots aren’t necessary."
     column_right:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "Staying in ‘king’ rooms in 4-star accommodation each night, you will explore the city’s colourful history, vibrant cultural life and rich gastronomic traditions along the way (passing some of the city’s finest, and best-situated, restaurants).\_You will also spend a night in the heart in the centre of the CBD, with access to theatres, art galleries and cinemas as well as the celebrated Sydney Harbour Bridge Climb. As a special treat, we include an night with dinner at Sydney’s celebrated Taronga Zoo’s 4-star eco-retreat."
       -
         type: paragraph
@@ -55,32 +51,26 @@ page_builder:
           -
             type: text
             marks:
-              -
-                type: italic
+              - type: italic
             text: "This is an all-year-round walk.\_Although it does get hot in the summer (getting up to the high thirties) there is plenty of shade along the way and many wonderful places to swim each day.\_We recommend, if possible, doing the walk during the week to avoid the weekend crowds, particularly in the warmer seasons."
-  -
-    id: AsJJI90QSy1PTnt-Abk7n
+  - id: AsJJI90QSy1PTnt-Abk7n
     section_background: none
     type: highlights
     enabled: true
-  -
-    id: bvqGbocRMWSFZ6M_2KhnW
+  - id: bvqGbocRMWSFZ6M_2KhnW
     section_background: none
     type: itinerary
     enabled: true
-  -
-    id: ebiebiiZMhsD8vCBKW_6U
+  - id: ebiebiiZMhsD8vCBKW_6U
     section_background: none
     type: experience
     enabled: true
-  -
-    id: dyOLbDUqsjeL61aoSPECH
+  - id: dyOLbDUqsjeL61aoSPECH
     title: 'What you should know'
     section_background: none
     type: essentials
     enabled: true
-  -
-    id: woNfwmuvxUGqtKq3u8SPa
+  - id: woNfwmuvxUGqtKq3u8SPa
     heading: 'Frequently asked questions'
     show_common_questions: false
     section_background: none
@@ -110,5 +100,6 @@ seasons:
 landscapes:
   - coastal
 updated_by: 4
-updated_at: 1781140704
+updated_at: 1781743766
+locations: australia
 ---
