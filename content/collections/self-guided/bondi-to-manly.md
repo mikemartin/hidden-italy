@@ -1,5 +1,6 @@
 ---
 id: 4cfe7ed9-69f8-4f0e-95fb-a0c934325887
+published: false
 blueprint: tour
 title: 'Bondi to Manly - Sydney'
 region: Sydney
@@ -100,6 +101,6 @@ seasons:
 landscapes:
   - coastal
 updated_by: 4
-updated_at: 1781743766
+updated_at: 1781744686
 locations: australia
 ---

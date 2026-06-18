@@ -16,7 +16,3 @@ tree:
   - entry: a44b160b-fc70-43cb-a3dc-e06f89007174
   - entry: 06eda9dc-c4c5-40c3-a3d0-da1f3f9007b4
   - entry: 99752007-eeca-4882-b67d-f3c0d9a91118
-  -
-    entry: 04049431-e8a9-473d-9f70-776073f9aab7
-    children:
-      - entry: 5648e639-f15e-43e7-b290-98d0b33e344d
