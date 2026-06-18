@@ -12,10 +12,10 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 4
-updated_at: 1781743285
+updated_at: 1781744292
 page_builder:
   - id: NT_KLFDrFMJ_YEMgQ7sQP
     section_background: none
     type: cards
-    enabled: true
+    enabled: false
 ---
