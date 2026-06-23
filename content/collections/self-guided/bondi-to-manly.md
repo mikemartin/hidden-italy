@@ -135,6 +135,8 @@ page_builder:
         photo: self-guided/bondi-to-manly/21.jpg
         meals_included:
           - breakfast
+        duration: 2.5
+        distance: 10.0
       -
         id: exApjE_cuypPvTn84BbtP
         title: 'Coastal Trails and Harbour Views'
@@ -398,6 +400,6 @@ seasons:
 landscapes:
   - coastal
 updated_by: 4
-updated_at: 1782192058
+updated_at: 1782193051
 locations: australasia
 ---
