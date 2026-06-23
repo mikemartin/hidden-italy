@@ -20,6 +20,7 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+card_image: self-guided/bondi-to-manly/23.5.jpg
 updated_by: 4
-updated_at: 1782192079
+updated_at: 1782192483
 ---
