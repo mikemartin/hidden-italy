@@ -6,7 +6,7 @@ region: Sydney
 name: 'Bondi to Manly'
 teaser: 'Walk around Sydney Harbour, one of the most stunning waterways in the world'
 image: self-guided/bondi-to-manly/adrian-rem-lnznlb-nh7w-unsplash.jpg
-overlay_opacity: 11
+overlay_opacity: 20
 now_open: false
 headline: 'Presenting the very best of this exceptional city'
 summary:
@@ -400,6 +400,6 @@ seasons:
 landscapes:
   - coastal
 updated_by: 4
-updated_at: 1782193051
+updated_at: 1782193292
 locations: australasia
 ---
