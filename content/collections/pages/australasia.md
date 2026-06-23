@@ -21,5 +21,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 4
-updated_at: 1782191958
+updated_at: 1782192079
 ---
