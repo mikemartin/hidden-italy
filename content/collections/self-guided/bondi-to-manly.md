@@ -400,17 +400,17 @@ seasons:
 landscapes:
   - coastal
 updated_by: 4
-updated_at: 1782193563
+updated_at: 1782193601
 locations: australasia
 gallery:
   - self-guided/22.5.jpeg
   - self-guided/23.5.jpg
   - self-guided/23.jpeg
-  - self-guided/24.jpg
-  - self-guided/1-2.jpg
-  - self-guided/2.jpeg
   - self-guided/21.jpg
-  - self-guided/2.jpg
   - self-guided/17.5.jpg
+  - self-guided/24.jpg
+  - self-guided/2.jpeg
+  - self-guided/1-2.jpg
+  - self-guided/2.jpg
   - self-guided/27.jpeg
 ---
