@@ -105,9 +105,17 @@ use_fathom: false
 use_matomo: false
 use_plausible: false
 use_cloudflare_web_analytics: false
-tracker_type: gtag
-google_analytics: G-3DCCBT95HN
-anonymize_ip: true
+tracker_type: sgtm
+sgtm_script: |-
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3DCCBT95HN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-3DCCBT95HN');
+  </script>
 use_consent_banner: true
 embeds: false
 display_style: left
