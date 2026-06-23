@@ -204,6 +204,17 @@ page_builder:
     enabled: true
     sections:
       -
+        id: qRIBSg-8bbN0b_951pZPf
+        heading: 'Highlights of this walk'
+        body:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'To help guide you on this wonderful walk, you’ll receive our Hidden Italy booklet — a handy A5 guide with detailed daily walking notes and clear maps, updated and revised each year. You’ll also have access to our exclusive Hidden Italy App, which complements the booklet and works on both Apple and Android devices. The app includes route maps, GPS tracks, altimetric profiles, turn-by-turn navigation, an alert if you stray off the path, and an emergency function. In addition, you’ll have 24-hour phone support from our local team.'
+        type: general
+        enabled: true
+      -
         id: HFl4jCDm2J8xwAsXV5zFk
         body:
           -
@@ -248,23 +259,122 @@ page_builder:
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
-      -
-        id: qRIBSg-8bbN0b_951pZPf
-        heading: 'Highlights of this walk'
-        body:
-          -
-            type: paragraph
-            content:
-              - type: text
-                text: 'To help guide you on this wonderful walk, you’ll receive our Hidden Italy booklet — a handy A5 guide with detailed daily walking notes and clear maps, updated and revised each year. You’ll also have access to our exclusive Hidden Italy App, which complements the booklet and works on both Apple and Android devices. The app includes route maps, GPS tracks, altimetric profiles, turn-by-turn navigation, an alert if you stray off the path, and an emergency function. In addition, you’ll have 24-hour phone support from our local team.'
-        type: general
-        enabled: true
-  - id: woNfwmuvxUGqtKq3u8SPa
+  -
+    id: woNfwmuvxUGqtKq3u8SPa
     heading: 'Frequently asked questions'
     show_common_questions: false
     section_background: none
     type: faqs
     enabled: true
+    questions:
+      -
+        id: GGHeyC4OtgE1qKVyt3Tev
+        question: 'What are the walks like?'
+        answer:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'The Hidden Italy walks are exactly that: walks, not hikes, and have been designed as half-day walks, leaving you plenty of time at the end of the walk to explore the places you will be staying in. Please see the itineraries for each tour for the daily details of each walk.'
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'Vehicles support our self-guided walks, which gives you some degree of flexibility — with notice some of the walks can be shortened or, with notice, you can skip a day’s walk altogether.'
+      -
+        id: 7im0FBP7EAsVt1CeZuHxS
+        question: 'How fit do I have to be?'
+        answer:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'Although we have vehicles supporting both the guided and self-guided walks, meaning you might be able to shorten or skip some walks, a good level of fitness is required to really enjoy the tours. The grades of difficulty vary from walk to walk but as a rule of thumb, being able to comfortably play an 18 hole round of golf is a good starting point although we strongly recommend you do some more training beforehand!'
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'We would suggest starting your training at least two months before your visit and doing at least two walks a week of between 10 and 12 kilometres, including some hill and steps, if possible.'
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'Where possible, we’d also recommend that you do these walks in the clothes and with the equipment that you will be using during your visit eg with a day pack with water, food, camera, raincoat etc; walking stocks (if you decide to use these) and, very importantly, the shoes/boots you’ll be using on the visit nothing worse than walking in new boots!'
+      -
+        id: aUJt-6-xi_IhRO0T9zW51
+        question: 'How safe are the self-guided walks?'
+        answer:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'To guide you through these wonderful self-guided walks, you will receive the following support:'
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      - type: text
+                        text: 'The Hidden Italy Booklet (an A5 booklet that includes comprehensive daily walking notes accompanied by detailed maps, updated and revised each year)'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      - type: text
+                        text: 'Access to the exclusive Hidden Italy App to complement the roadbook (the App is downloadable to Apple and Android devices and features information about the routes: maps, GPS tracks, altimetric profiles, etc; GPS navigation on all the routes; an alert function if you stray off the track; and an emergency function)'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      - type: text
+                        text: 'Twenty-four-hour phone support from our Australian-based Manager'
+      -
+        id: l7968wiGb1RpTn-GrqvbH
+        question: 'How can I prepare for the walk?'
+        answer:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'How long does it take to get into shape for the walks? That depends on you, though we would recommend getting started at least three months before you set off. Be patient and listen to your body: start gently and build up. Aim to do some form of exercise at least three times a week for a minimum of 30 minutes each time.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  - type: bold
+                text: 'Start walking.'
+              - type: text
+                text: ' Begin with shorter, less strenuous routes (nothing gets muscles ready for the trail better than the trail itself). Gradually increase the length of your walks to around 10 to 12 kms; also gradually increasing the elevation of your walks as well (incorporating hills and steps, if possible) and start carrying a loaded daypack (ie with a litre of water, warm top, rain coat, camera and some snacks).'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  - type: bold
+                text: 'Hit the gym.'
+              - type: text
+                text: ' Try stair-steppers, elliptical trainers and climbing machines. Consider step aerobics and lifting weights (trained muscles are less susceptible to injury and strains). Pilates is an excellent way to build body strength and balance. Swimming is another great aerobic workout: it’s good for the lungs and heart, and easy on the joints.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  - type: bold
+                text: 'Use what’s around you.'
+              - type: text
+                text: ' Take the stairs — walking (or running!) up and down stairs on a regular basis is terrific pre-trail training. Walk instead of drive — if you can perform routine chores by leaving your car keys in your pocket, do so. If you have a bike, start pedaling; cycling is another good way to condition your legs and increase endurance. Gentle jogging is also a simple training option for getting in shape.'
   -
     id: SmZ7dGSFomEmrWe-GG6cE
     heading: 'What our travellers are saying'
@@ -272,7 +382,7 @@ page_builder:
       - 012de9d3-89ab-40f0-8875-779791403729
     section_background: none
     type: testimonials
-    enabled: true
+    enabled: false
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -289,6 +399,6 @@ seasons:
 landscapes:
   - coastal
 updated_by: 4
-updated_at: 1782191178
+updated_at: 1782191426
 locations: australasia
 ---
