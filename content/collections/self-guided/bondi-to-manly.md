@@ -31,7 +31,7 @@ inclusions:
 page_builder:
   -
     id: B-LCvhJkZFefEeNcHz3Nl
-    section_background: none
+    section_background: dark
     type: overview
     enabled: true
     column_left:
@@ -59,9 +59,14 @@ page_builder:
             marks:
               - type: italic
             text: "This is an all-year-round walk.\_Although it does get hot in the summer (getting up to the high thirties) there is plenty of shade along the way and many wonderful places to swim each day.\_We recommend, if possible, doing the walk during the week to avoid the weekend crowds, particularly in the warmer seasons."
+    images:
+      - self-guided/bondi-to-manly/25.jpeg
+      - self-guided/bondi-to-manly/17.5.jpg
+      - self-guided/bondi-to-manly/24.jpg
+    show_topography: true
   -
     id: AsJJI90QSy1PTnt-Abk7n
-    section_background: none
+    section_background: light
     type: highlights
     enabled: true
     heading: 'Bondi to Manly Highlights'
@@ -90,6 +95,7 @@ page_builder:
         title: 'Pull on your boots, we’ll handle the rest'
         summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
+    show_topography: false
   -
     id: bvqGbocRMWSFZ6M_2KhnW
     section_background: none
@@ -105,7 +111,7 @@ page_builder:
         photo: self-guided/bondi-to-manly/1-1.jpg
       -
         id: N21mfQT0DSNtmSnpIiizf
-        title: 'Walk via Glamorous Bays to World-Famous Landmarks'
+        title: 'Glamorous Bays to World-Famous Landmarks'
         description: 'Today is the longest, but possibly the most interesting, walk of your getaway that takes along the southern shore of the harbour through some of the most glamorous suburbs in the city, past pretty beaches and parklands, the colourful Kings Cross district, the New South Wales Art Gallery, the beautiful Botanical Gardens to your hotel the city, flanked by the Sydney Opera House and the Harbour Bridge.'
         duration: 4.5
         distance: 21.0
@@ -139,15 +145,120 @@ page_builder:
         photo: self-guided/bondi-to-manly/27.jpeg
         meals_included:
           - breakfast
-  - id: ebiebiiZMhsD8vCBKW_6U
-    section_background: none
+  -
+    id: ebiebiiZMhsD8vCBKW_6U
+    section_background: dark
     type: experience
     enabled: true
-  - id: dyOLbDUqsjeL61aoSPECH
+    title: 'Bondi to Manly Experience'
+    tabs:
+      -
+        id: Y0X5p_k-iihtRx7trFYaM
+        title: 'Exceptional walking'
+        description:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: "The eighty-kilometre walk is regularly marked.\_Navigation is straightforward.\_It generally follows good, well-maintained pathways through national parks, suburban streets and along beaches. There are occasional sets of stairs but no sustained climbs. The only challenge may be the distance of the walks (see the itinerary for details).\_ Comfortable, good quality walking shoes will suffice, boots aren’t necessary."
+        image: self-guided/bondi-to-manly/22.5.jpeg
+        type: walk
+        enabled: true
+      -
+        id: lrI-K1j2T68we9w27Wpy1
+        title: 'Boutique accommodation'
+        description:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: "The getaway includes four nights’ accommodation: the first night is at pretty Watsons Bay at the beginning of the harbour.\_The second night is in a beautiful hotel in the heart of the city, overlooking Sydney Harbour.\_The third night is an elegant eco-retreat in Sydney’s famous Taronga Zoo.\_The final night is in a lovely boutique hotel (originally built as a stately home in 1886) in the fashionable suburb of Mosman.\_"
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: "Please note, additional accommodation at the beginning (Bondi) and end of the walk (Manly) can be organised on request.\_You may also consider a second day in the CBD (Day 2) to enjoy what's on offer in the city centre."
+        media:
+          - self-guided/bondi-to-manly/18.5.jpg
+        type: accommodation
+        enabled: true
+      -
+        id: Z8SWqpCmblV6qxKCrb2jC
+        title: 'Authentic food'
+        description:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: "The tour includes breakfast each day.  We have included recommendations for lunch and dinner in the notes and are happy to assist with bookings.\_Along the walk you will pass many beautiful bay and beach cafes and restaurants, where you’ll be able to stop for a coffee or lunch. You will also pass delicatessens and produce shops where you can get provisions for each day’s walk if you prefer a waterside picnic lunch."
+        media:
+          - self-guided/bondi-to-manly/2.5.jpg
+        type: food
+        enabled: true
+    show_topography: true
+  -
+    id: dyOLbDUqsjeL61aoSPECH
     title: 'What you should know'
     section_background: none
     type: essentials
     enabled: true
+    sections:
+      -
+        id: HFl4jCDm2J8xwAsXV5zFk
+        body:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: hQhWp7MBYQ1-qW4b4YmN_
+        body:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
+        type: booking_cancellation
+        enabled: true
+      -
+        id: t1pmc_bPj9EK87gzZSaDo
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  - type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              - type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
+        type: travel_insurance
+        enabled: true
+      -
+        id: qRIBSg-8bbN0b_951pZPf
+        heading: 'Highlights of this walk'
+        body:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'To help guide you on this wonderful walk, you’ll receive our Hidden Italy booklet — a handy A5 guide with detailed daily walking notes and clear maps, updated and revised each year. You’ll also have access to our exclusive Hidden Italy App, which complements the booklet and works on both Apple and Android devices. The app includes route maps, GPS tracks, altimetric profiles, turn-by-turn navigation, an alert if you stray off the path, and an emergency function. In addition, you’ll have 24-hour phone support from our local team.'
+        type: general
+        enabled: true
   - id: woNfwmuvxUGqtKq3u8SPa
     heading: 'Frequently asked questions'
     show_common_questions: false
@@ -178,6 +289,6 @@ seasons:
 landscapes:
   - coastal
 updated_by: 4
-updated_at: 1782190607
+updated_at: 1782191178
 locations: australasia
 ---
