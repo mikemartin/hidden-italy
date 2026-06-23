@@ -6,7 +6,7 @@ title: 'Waiheke - New Zealand'
 region: 'New Zealand'
 name: Waiheke
 teaser: 'Explore the extraordinary natural beauty and gourmet treats of Waiheke Island'
-image: guided/2.jpg
+image: guided/waiheke/2.jpg
 overlay_opacity: 30
 headline: 'Spectacular Island Walking'
 now_open: false
@@ -29,8 +29,8 @@ inclusions:
   - '5 guided walks'
   - 'Services of a full-time professional tour guide'
 gallery:
-  - guided/3.jpg
-  - guided/shutterstock_1721999545.jpg
+  - guided/waiheke/3.jpg
+  - guided/waiheke/shutterstock_1721999545.jpg
 page_builder:
   -
     id: Lr2VCH5T6FNnIf4bi1UZH
