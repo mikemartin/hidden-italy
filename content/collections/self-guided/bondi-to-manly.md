@@ -102,6 +102,7 @@ page_builder:
         description: 'Today starts with a pickup from Sydney CBD where you will be driven to Bondi Beach, Australia’s most famous beach, where the walk starts following a trail through parklands along sandstone cliffs to South Head, the spectacular southern gateway into Sydney Harbour.'
         duration: 3.0
         distance: 10.0
+        photo: self-guided/bondi-to-manly/1-1.jpg
       -
         id: N21mfQT0DSNtmSnpIiizf
         title: 'Walk via Glamorous Bays to World-Famous Landmarks'
@@ -110,11 +111,34 @@ page_builder:
         distance: 21.0
         meals_included:
           - breakfast
-      - id: b3quVk8CFXM41WezF4vPv
+        photo: self-guided/bondi-to-manly/15.jpg
+      -
+        id: b3quVk8CFXM41WezF4vPv
         title: 'Walk the Sydney Harbour Bridge'
         description: 'This morning, you walk across the celebrated Sydney Harbour Bridge and follow a trail which skirts around the bays, beaches and parks of the exclusive suburbs of Kirribilli, Cremorne and Mosman to Sydney’s famous Taronga Zoo, a parkland zoo with sweeping views back over the city that is dedicated to scientific conservation, education and preservation. Your accommodation tonight is in the Zoo’s own elegant eco-retreat hotel (tickets to visit the zoo will be included)'
         duration: 3.5
         distance: 13.0
+        photo: self-guided/bondi-to-manly/18.5.jpg
+        meals_included:
+          - breakfast
+      -
+        id: ctpGf6OVd191QLLrRNy_U
+        title: 'Visit Sydney’s famous Taronga Zoo'
+        description: |-
+          The walk takes you through Sydney Harbour National Park, beautiful bushland trails that skirt around the shore with beautiful views across the harbour to the south, via Middle Head, a spectacular lookout point with breathtaking views across to North Head, South Head and out into the Pacific Ocean, finishing at pretty Balmoral Beach. From here, you can take the bus or walk up hill to a boutique hotel in upmarket Mosman.
+          Today’s walk is quite short, which will leave you the morning free to visit the Zoo, if you wish.
+        photo: self-guided/bondi-to-manly/21.jpg
+        meals_included:
+          - breakfast
+      -
+        id: exApjE_cuypPvTn84BbtP
+        title: 'Coastal Trails and Harbour Views'
+        description: "Today's walk starts by either walking or catching the bus back to Balmoral Beach for the final walk. A gorgeous route that crosses the Spit Bridge and wraps around the hidden beaches and stunning national park bushland of Clontarf and Balgowlah Heights before bringing you out to laid-back Manly, dominated by its bustling Corso and a magnificent 2km long beach on golden sand, lined by Norfolk Pines. You finish today’s walk at Manly Wharf, where you will be transferred back to Sydney CBD."
+        duration: 3.0
+        distance: 13.0
+        photo: self-guided/bondi-to-manly/27.jpeg
+        meals_included:
+          - breakfast
   - id: ebiebiiZMhsD8vCBKW_6U
     section_background: none
     type: experience
@@ -154,6 +178,6 @@ seasons:
 landscapes:
   - coastal
 updated_by: 4
-updated_at: 1782190197
+updated_at: 1782190607
 locations: australasia
 ---
