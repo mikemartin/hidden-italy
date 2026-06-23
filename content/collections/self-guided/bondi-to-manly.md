@@ -90,10 +90,31 @@ page_builder:
         title: 'Pull on your boots, we’ll handle the rest'
         summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
-  - id: bvqGbocRMWSFZ6M_2KhnW
+  -
+    id: bvqGbocRMWSFZ6M_2KhnW
     section_background: none
     type: itinerary
     enabled: true
+    title: 'Bondi to Manly Itinerary'
+    days:
+      - id: WLonbEY0cSB2QI--ewd2O
+        title: 'Visit the Famous Sydney Beach'
+        description: 'Today starts with a pickup from Sydney CBD where you will be driven to Bondi Beach, Australia’s most famous beach, where the walk starts following a trail through parklands along sandstone cliffs to South Head, the spectacular southern gateway into Sydney Harbour.'
+        duration: 3.0
+        distance: 10.0
+      -
+        id: N21mfQT0DSNtmSnpIiizf
+        title: 'Walk via Glamorous Bays to World-Famous Landmarks'
+        description: 'Today is the longest, but possibly the most interesting, walk of your getaway that takes along the southern shore of the harbour through some of the most glamorous suburbs in the city, past pretty beaches and parklands, the colourful Kings Cross district, the New South Wales Art Gallery, the beautiful Botanical Gardens to your hotel the city, flanked by the Sydney Opera House and the Harbour Bridge.'
+        duration: 4.5
+        distance: 21.0
+        meals_included:
+          - breakfast
+      - id: b3quVk8CFXM41WezF4vPv
+        title: 'Walk the Sydney Harbour Bridge'
+        description: 'This morning, you walk across the celebrated Sydney Harbour Bridge and follow a trail which skirts around the bays, beaches and parks of the exclusive suburbs of Kirribilli, Cremorne and Mosman to Sydney’s famous Taronga Zoo, a parkland zoo with sweeping views back over the city that is dedicated to scientific conservation, education and preservation. Your accommodation tonight is in the Zoo’s own elegant eco-retreat hotel (tickets to visit the zoo will be included)'
+        duration: 3.5
+        distance: 13.0
   - id: ebiebiiZMhsD8vCBKW_6U
     section_background: none
     type: experience
@@ -133,6 +154,6 @@ seasons:
 landscapes:
   - coastal
 updated_by: 4
-updated_at: 1782189763
+updated_at: 1782190197
 locations: australasia
 ---
