@@ -29,8 +29,15 @@ inclusions:
   - '5 guided walks'
   - 'Services of a full-time professional tour guide'
 gallery:
+  - guided/nz.jpg
   - guided/waiheke/3.jpg
+  - guided/4.5.jpg
+  - guided/d98pde-(1).jpg
   - guided/waiheke/shutterstock_1721999545.jpg
+  - guided/w4gr3g.jpg
+  - guided/jil-beckmann-kmsuyebwgmg-unsplash.jpg
+  - guided/4.jpg
+  - guided/2.jpg
 page_builder:
   -
     id: Lr2VCH5T6FNnIf4bi1UZH
@@ -117,5 +124,5 @@ sitemap_priority: 0.5
 show_from: false
 simple_likes: 0
 updated_by: 4
-updated_at: 1782254653
+updated_at: 1782257680
 ---
