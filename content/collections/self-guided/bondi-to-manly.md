@@ -40,12 +40,17 @@ page_builder:
         content:
           - type: text
             text: "The 80km walk is regularly marked.\_Navigation is straightforward.\_It generally follows good, well-maintained pathways through national parks, suburban streets and along beaches.\_There are occasional sets of stairs but no sustained climbs.\_The only challenge may be the distance of the walks. Comfortable, good quality walking shoes will suffice, boots aren’t necessary."
+      -
+        type: paragraph
+        content:
+          - type: text
+            text: "Staying in ‘king’ rooms in 4-star accommodation each night, you will explore the city’s colourful history, vibrant cultural life and rich gastronomic traditions along the way (passing some of the city’s finest, and best-situated, restaurants).\_"
     column_right:
       -
         type: paragraph
         content:
           - type: text
-            text: "Staying in ‘king’ rooms in 4-star accommodation each night, you will explore the city’s colourful history, vibrant cultural life and rich gastronomic traditions along the way (passing some of the city’s finest, and best-situated, restaurants).\_You will also spend a night in the heart in the centre of the CBD, with access to theatres, art galleries and cinemas as well as the celebrated Sydney Harbour Bridge Climb. As a special treat, we include an night with dinner at Sydney’s celebrated Taronga Zoo’s 4-star eco-retreat."
+            text: 'You will also spend a night in the heart in the centre of the CBD, with access to theatres, art galleries and cinemas as well as the celebrated Sydney Harbour Bridge Climb. As a special treat, we include an night with dinner at Sydney’s celebrated Taronga Zoo’s 4-star eco-retreat.'
       -
         type: paragraph
         content:
@@ -54,10 +59,37 @@ page_builder:
             marks:
               - type: italic
             text: "This is an all-year-round walk.\_Although it does get hot in the summer (getting up to the high thirties) there is plenty of shade along the way and many wonderful places to swim each day.\_We recommend, if possible, doing the walk during the week to avoid the weekend crowds, particularly in the warmer seasons."
-  - id: AsJJI90QSy1PTnt-Abk7n
+  -
+    id: AsJJI90QSy1PTnt-Abk7n
     section_background: none
     type: highlights
     enabled: true
+    heading: 'Bondi to Manly Highlights'
+    activities:
+      - id: aTnn3OT0F7S_EHMBRVSp6
+        title: 'Enjoy a continuous 5-day walk'
+        summary: 'Discover Sydney Harbour past its islands, secluded bays, and beautiful beaches.'
+        icon: trekking-trekking.svg
+      - id: lidz8Su0BhZUoXV8Rwn3C
+        title: 'Visit Taronga Zoo'
+        summary: "Taronga Zoo Sydney is home to some of Australia's and the world's most iconic and endangered wildlife."
+        icon: landscape-hedgehog.svg
+      - id: OLPnbe0JPYp3TYXD_0G30
+        title: 'Costal Walking'
+        summary: '‘Spectacularly draped around its glorious harbour and beaches, Sydney has visual wow factor like few other cities. Scratch the surface and it only gets better’ Lonely Planet, 2018.'
+        icon: landscape-island.svg
+      - id: wnMscO2WcU1c8Xvdw9HbL
+        title: 'Discover the Heart and Soul of the City'
+        summary: 'Explore the city’s colourful history, vibrant cultural life and rich gastronomic traditions along the way'
+        icon: culture-serving.svg
+      - id: AqqdIyIkrmPWG2rhYFEwm
+        title: 'Swim in the Ocean'
+        summary: 'Swim at some of Australia’s most famous beaches.'
+        icon: water-sports-swimming.svg
+      - id: gb7KxwmF9EIKgeQnRgu61
+        title: 'Pull on your boots, we’ll handle the rest'
+        summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
+        icon: culture-champagne.svg
   - id: bvqGbocRMWSFZ6M_2KhnW
     section_background: none
     type: itinerary
@@ -101,6 +133,6 @@ seasons:
 landscapes:
   - coastal
 updated_by: 4
-updated_at: 1781744686
-locations: australia
+updated_at: 1782189763
+locations: australasia
 ---
