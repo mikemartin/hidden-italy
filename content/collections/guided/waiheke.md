@@ -59,11 +59,34 @@ page_builder:
       - type: paragraph
     title: 'The Hauraki Gulf'
     show_topography: true
-  - id: N_WVoMDNCtooAY2q2_-xA
+  -
+    id: N_WVoMDNCtooAY2q2_-xA
     section_background: light
     show_topography: false
     type: highlights
     enabled: true
+    heading: 'Waiheke Island Highlights'
+    activities:
+      - id: 99Csi93voHQUMsO-Ftf93
+        title: 'Climb Maungawhau'
+        summary: 'Maungawhau or Mt Eden is the highest natural point in Auckland.'
+        icon: switzerland-mountain.svg
+      - id: P8Ij7-OZzo5-8wkiSjbk9
+        title: 'Spectacular coastal walking'
+        summary: 'Follow a spectacular trail along the coast, passing around the western headlands'
+        icon: nature-beach.svg
+      - id: dxziOe6eqyfW6HON0PmHj
+        title: 'Explore Stony Batter Historic site'
+        summary: 'Participate in a fascinating guided walk of the historical reserve'
+        icon: geography-cartography-hills.svg
+      - id: U0SRw302zpM5J0ENkMAz3
+        title: 'Visit beautiful vineyard'
+        summary: 'Visits boutique vineyards and an award-winning olive oil mill'
+        icon: 'wine-wine bottle.svg'
+      - id: XnPanF9Iw26bGlTB8_jjT
+        title: 'Discover exceptional food'
+        summary: 'Waiheke is a food lovers paradise'
+      - id: wCDNIXV428LypFfjpTX7a
   - id: yCZ-U2P0sM_IGRKM2YW6u
     section_background: none
     type: itinerary
@@ -124,5 +147,5 @@ sitemap_priority: 0.5
 show_from: false
 simple_likes: 0
 updated_by: 4
-updated_at: 1782257680
+updated_at: 1782261712
 ---
