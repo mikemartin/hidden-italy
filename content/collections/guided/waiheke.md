@@ -91,10 +91,45 @@ page_builder:
         title: 'Be immersed in Maori traditions'
         summary: 'Visit a number of places of significant importance to the Maori people of Waiheke'
         icon: winter-lake-frozen-ice-winter-travel.svg
-  - id: yCZ-U2P0sM_IGRKM2YW6u
+  -
+    id: yCZ-U2P0sM_IGRKM2YW6u
     section_background: none
     type: itinerary
     enabled: true
+    title: Waiheke
+    days:
+      -
+        id: uAxGPtEp2avFiFssKQPk3
+        title: 'Arrive in Auckland'
+        description: 'You will be met at Auckland airport and transferred to a very comfortable hotel in the centre of Auckland. After an aperitivo at the hotel, we will have dinner at an excellent Italian restaurant a short walk from the hotel.'
+        photo: guided/waiheke/d98pde-(1).jpg
+        meals_included:
+          - dinner
+      -
+        id: M1BZ4m_dFbWQvqNcktBoL
+        title: 'Coast to Coast walking'
+        description: 'This morning we will go for walk following a section of the ‘Coast to Coast’ route, climbing up to Maungawhau/Mt Eden, the highest natural point in Auckland, finishing at the fascinating Auckland Museum in the attractive suburb of Parnell, unique for its collection of Maori and Pacific treasures.'
+        duration: 3.0
+        distance: 7.0
+        photo: guided/waiheke/2.jpg
+        meals_included:
+          - breakfast
+          - lunch
+      -
+        id: fXUmxG48GtZFQjqFliWu3
+        title: 'Ferry to the Island'
+        description: 'After breakfast we take a Ferry to the Islany. Today’s walk is the perfect introduction to Waiheke, following a section of the Te Ara Hura trail following a spectacular trail along the coast, passing around the western headlands, via beaches and a number of places of significant importance to the Maori people of Waiheke. We finish at Oneroa, where we’ll have a relaxed lunch at an Italian restaurant overlooking the beach. In the afternoon, you will have the option of another walk south (10 kms, 3 hrs) or explore the galleries and shops of Oneroa.'
+        duration: 4.0
+        distance: 12.0
+        photo: guided/waiheke/1.jpg
+        meals_included:
+          - breakfast
+          - lunch
+          - dinner
+      - id: '-ukCb4fA2bm4RHXm8NLrw'
+      - id: dGNF3vpb1TRSD0t9mWSqJ
+      - id: fyCdWuzyocyo6jyyWwTpY
+      - id: x8frzponbWF7vqznEhjPE
   -
     id: wMCFzMEq46YnqcvuITrGO
     tabs:
@@ -151,5 +186,5 @@ sitemap_priority: 0.5
 show_from: false
 simple_likes: 0
 updated_by: 4
-updated_at: 1782262533
+updated_at: 1782263079
 ---
