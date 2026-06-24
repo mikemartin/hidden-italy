@@ -20,6 +20,7 @@ summary:
 days: 7
 grade: 0
 tour_size: 15
+leader: 8e21b5fb-a972-4a2e-a81c-2e6f8425841f
 inclusions:
   - '6 nights accommodation in excellent hotels'
   - 'All breakfast, and 5 lunches and 4 dinners'
@@ -163,21 +164,50 @@ page_builder:
   -
     id: wMCFzMEq46YnqcvuITrGO
     tabs:
-      - id: NRwxzEgZ2ZSdGAhW1kWt3
+      -
+        id: NRwxzEgZ2ZSdGAhW1kWt3
         title: 'Exceptional walking'
         type: walk
         enabled: true
-      - id: Dd_XBmv9zur7iszLwgBWs
+        description:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'Waiheke is a walker’s paradise as well, with beautiful trails that take you along the beaches and rocky bays of the island as well as through the hills, forests, vineyards and nature reserves of the interior following sections of the Te Ara Hura trail. Our tour includes four walks starting with a short warm-up walk in Auckland and including three more extensive walks on the island, ranging from three to four hours each. '
+          - type: paragraph
+        image: guided/w4gr3g.jpg
+      -
+        id: Dd_XBmv9zur7iszLwgBWs
         title: 'Boutique accommodation'
         type: accommodation
         enabled: true
-      - id: WHInrewT1ORxrkhtSe0Sg
+        description:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'We spend 3 nights in Auckland, staying in a centrally located hotel. The accommodation on Waiheke is in beautifully designed, modern, self-contained apartments, each with spectacular views over the western end of the island. It is a short walk from Oneroa, the main town on Waiheke as well as some of the best vineyard restaurants on the island.'
+          - type: paragraph
+        media:
+          - guided/waiheke/cable-bay-house-private.jpg
+      -
+        id: WHInrewT1ORxrkhtSe0Sg
         title: 'Authentic food'
         type: food
         enabled: true
-    section_background: none
+        description:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'Waiheke is a food lovers paradise. There are around thirty boutique wineries scattered across the island, many with tasting rooms, excellent restaurants and great views.  There is also a number of very good eateries closer to the water. You’ll have the opportunity to sample the best of these as well as the islands own produce. The tour includes generous breakfasts each day, four dinners and five lunches as well as a scenic wine tour. '
+        media:
+          - guided/4.jpg
+    section_background: dark
     type: experience
     enabled: true
+    show_topography: true
   - id: l2t_F-V4UKanZV4SuzUJ5
     title: 'Tour Leader'
     section_background: none
@@ -214,7 +244,9 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_from: false
+seasons: summer
+locations: australasia
 simple_likes: 0
 updated_by: 4
-updated_at: 1782263522
+updated_at: 1782263864
 ---
