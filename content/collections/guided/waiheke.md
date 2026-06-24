@@ -126,10 +126,40 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-      - id: '-ukCb4fA2bm4RHXm8NLrw'
-      - id: dGNF3vpb1TRSD0t9mWSqJ
-      - id: fyCdWuzyocyo6jyyWwTpY
-      - id: x8frzponbWF7vqznEhjPE
+      -
+        id: '-ukCb4fA2bm4RHXm8NLrw'
+        title: 'Explore the Vineyards'
+        description: 'Today we go on a guided tour of the vineyards and gourmet treats of the island. The tour includes an introduction to the history of the island; visits to two boutique vineyards and an award-winning olive oil mill; as well as a sampling of the celebrated Waiheke oysters and a vineyard platter lunch. The afternoon is free.  Dinner will be at a nearby restaurant with sweeping views from its picturesque verandah.'
+        photo: guided/waiheke/cable-bay-house-private.jpg
+        meals_included:
+          - breakfast
+          - dinner
+      -
+        id: dGNF3vpb1TRSD0t9mWSqJ
+        title: 'Visit the  beaches'
+        description: 'The walk this morning explores the southern coast of the island, following a section of the Te Ara Hura trail along the shore, passing a lovely beach (where there is the possibility of having a swim) before climbing up through forest to a family-owned vineyard where we’ll have lunch, with spectacular views across the gulf from Coromandel to Auckland. On the way back to base, we’ll visit a boutique gin distillery. The evening is free.'
+        duration: 4.0
+        distance: 13.0
+        photo: guided/w4gr3g.jpg
+        meals_included:
+          - breakfast
+          - lunch
+      -
+        id: fyCdWuzyocyo6jyyWwTpY
+        description: "The Far (or eastern) End of Waiheke is a place apart from the rest of the island. Here, you'll get big skies, big views, and fresh air therapy. Our walk takes us from the easternmost point past beaches, through the forest back to another lovely boutique vineyard, owned by an Italian family, who specialise in Italian varietals and have an excellent Italian restaurant, where we’ll enjoy a long lunch before heading back to Auckland for the evening."
+        duration: 4.0
+        distance: 13.0
+        meals_included:
+          - breakfast
+          - lunch
+          - dinner
+      -
+        id: x8frzponbWF7vqznEhjPE
+        title: 'Farewell Auckland'
+        description: 'After breakfast, a transfer to Auckland airport will be available for those you require it.'
+        photo: guided/jil-beckmann-kmsuyebwgmg-unsplash.jpg
+        meals_included:
+          - breakfast
   -
     id: wMCFzMEq46YnqcvuITrGO
     tabs:
@@ -186,5 +216,5 @@ sitemap_priority: 0.5
 show_from: false
 simple_likes: 0
 updated_by: 4
-updated_at: 1782263079
+updated_at: 1782263522
 ---
