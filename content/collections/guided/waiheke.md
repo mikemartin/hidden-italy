@@ -80,12 +80,12 @@ page_builder:
         summary: 'Participate in a fascinating guided walk of the historical reserve'
         icon: geography-cartography-hills.svg
       - id: U0SRw302zpM5J0ENkMAz3
-        title: 'Visit beautiful vineyard'
+        title: 'Visit beautiful vineyards'
         summary: 'Visits boutique vineyards and an award-winning olive oil mill'
         icon: 'wine-wine bottle.svg'
       - id: XnPanF9Iw26bGlTB8_jjT
         title: 'Discover exceptional food'
-        summary: 'Waiheke is a food lovers paradise'
+        summary: 'Waiheke is a food lovers paradise. You’ll have the opportunity to sample the amazing islands produce.'
       - id: wCDNIXV428LypFfjpTX7a
   - id: yCZ-U2P0sM_IGRKM2YW6u
     section_background: none
@@ -147,5 +147,5 @@ sitemap_priority: 0.5
 show_from: false
 simple_likes: 0
 updated_by: 4
-updated_at: 1782261712
+updated_at: 1782262206
 ---
