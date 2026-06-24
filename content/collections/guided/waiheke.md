@@ -75,6 +75,10 @@ page_builder:
         title: 'Spectacular coastal walking'
         summary: 'Follow a spectacular trail along the coast, passing around the western headlands'
         icon: nature-beach.svg
+      - id: XnPanF9Iw26bGlTB8_jjT
+        title: 'Discover exceptional food'
+        summary: 'Waiheke is a food lovers paradise. You’ll have the opportunity to sample the amazing islands produce.'
+        icon: agriculture-tomatoes.svg
       - id: dxziOe6eqyfW6HON0PmHj
         title: 'Explore Stony Batter Historic site'
         summary: 'Participate in a fascinating guided walk of the historical reserve'
@@ -83,10 +87,10 @@ page_builder:
         title: 'Visit beautiful vineyards'
         summary: 'Visits boutique vineyards and an award-winning olive oil mill'
         icon: 'wine-wine bottle.svg'
-      - id: XnPanF9Iw26bGlTB8_jjT
-        title: 'Discover exceptional food'
-        summary: 'Waiheke is a food lovers paradise. You’ll have the opportunity to sample the amazing islands produce.'
       - id: wCDNIXV428LypFfjpTX7a
+        title: 'Be immersed in Maori traditions'
+        summary: 'Visit a number of places of significant importance to the Maori people of Waiheke'
+        icon: winter-lake-frozen-ice-winter-travel.svg
   - id: yCZ-U2P0sM_IGRKM2YW6u
     section_background: none
     type: itinerary
@@ -147,5 +151,5 @@ sitemap_priority: 0.5
 show_from: false
 simple_likes: 0
 updated_by: 4
-updated_at: 1782262206
+updated_at: 1782262533
 ---
