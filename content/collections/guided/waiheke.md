@@ -161,7 +161,6 @@ page_builder:
         id: x8frzponbWF7vqznEhjPE
         title: 'Farewell Auckland'
         description: 'After breakfast, a transfer to Auckland airport will be available for those you require it.'
-        photo: guided/jil-beckmann-kmsuyebwgmg-unsplash.jpg
         meals_included:
           - breakfast
   -
@@ -206,7 +205,7 @@ page_builder:
               - type: text
                 text: 'Waiheke is a food lovers paradise. There are around thirty boutique wineries scattered across the island, many with tasting rooms, excellent restaurants and great views.  There is also a number of very good eateries closer to the water. You’ll have the opportunity to sample the best of these as well as the islands own produce. The tour includes generous breakfasts each day, four dinners and five lunches as well as a scenic wine tour. '
         media:
-          - guided/4.jpg
+          - guided/waiheke/caf1f5d501668031216c1ceff9d7b045_1553499188.jpg
     section_background: dark
     type: experience
     enabled: true
@@ -251,5 +250,5 @@ seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 4
-updated_at: 1782263965
+updated_at: 1782264147
 ---
