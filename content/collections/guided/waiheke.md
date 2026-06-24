@@ -134,6 +134,7 @@ page_builder:
         photo: guided/waiheke/cable-bay-house-private.jpg
         meals_included:
           - breakfast
+          - lunch
           - dinner
       -
         id: dGNF3vpb1TRSD0t9mWSqJ
@@ -154,6 +155,8 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        title: 'Breathtaking Views'
+        photo: guided/waiheke/jil-beckmann-kmsuyebwgmg-unsplash.jpg
       -
         id: x8frzponbWF7vqznEhjPE
         title: 'Farewell Auckland'
@@ -248,5 +251,5 @@ seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 4
-updated_at: 1782263864
+updated_at: 1782263965
 ---
