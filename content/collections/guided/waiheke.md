@@ -16,7 +16,7 @@ summary:
     type: paragraph
     content:
       - type: text
-        text: 'This seven-day tour starts with a night in Auckland and then five nights on Waiheke in superior self-contained accommodation with spectacular views overlooking the sea, a short walk form Oneroa and some of the island’s best vineyard restaurants.'
+        text: 'This seven-day tour starts in Auckland and then four nights on Waiheke in superior self-contained accommodation with spectacular views overlooking the sea, a short walk from Oneroa and some of the island’s best vineyard restaurants.'
 days: 7
 grade: 0
 tour_size: 15
@@ -250,5 +250,5 @@ seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 4
-updated_at: 1782264147
+updated_at: 1782429204
 ---
