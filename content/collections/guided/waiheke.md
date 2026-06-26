@@ -10,7 +10,7 @@ image: guided/waiheke/2.jpg
 overlay_opacity: 30
 headline: 'Spectacular Island Walking'
 now_open: false
-availability_text: 'Tour Start Dates: 30 Nov 26 & 28 Feb 27'
+availability_text: 'Tour Start Dates: 20 Feb 27'
 summary:
   -
     type: paragraph
@@ -245,10 +245,11 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+price: 'A$5,900'
 show_from: false
 seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 4
-updated_at: 1782429204
+updated_at: 1782439102
 ---
