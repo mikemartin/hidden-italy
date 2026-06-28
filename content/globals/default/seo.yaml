@@ -105,6 +105,6 @@ use_matomo: false
 use_plausible: false
 use_cloudflare_web_analytics: false
 tracker_type: gtag
-google_analytics: G-3DCCBT95HN
+google_analytics: GT-TNGJ6K9S
 anonymize_ip: true
 use_consent_banner: false
