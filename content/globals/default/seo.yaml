@@ -104,5 +104,7 @@ use_fathom: false
 use_matomo: false
 use_plausible: false
 use_cloudflare_web_analytics: false
-tracker_type: none
+tracker_type: gtag
+google_analytics: G-3DCCBT95HN
+anonymize_ip: true
 use_consent_banner: false
