@@ -1,12 +1,12 @@
 ---
 id: 65354be1-c899-4486-82f9-2883d090c270
 blueprint: tour
-title: 'The Cinque Terre - Liguria'
-name: 'The Cinque Terre'
+title: 'Cinque Terre - Liguria'
+name: 'Cinque Terre'
 region: Liguria
 days: 7
 updated_by: 4
-updated_at: 1781145931
+updated_at: 1782694496
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -33,8 +33,7 @@ page_builder:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "This continous walk along the Cinque Terre follows stone paths that have linked the villages for centuries, starting in Levanto at the eastern end of the National Park and finishing in glorious Portovenere at the western end of the park. They twist and wind along the rugged coast passing through pine forests and terraced vineyards, with breath-taking views out over the Mediterranean, including the less walked routes from Riomaggiore to Portovenere and around the little island off Portovenere. At the end of the walk, you'll be dropped off at La Spezia railway station (on the Rome/Genoa line)."
     title: 'Stone paths linking the villages for centuries'
     images:
@@ -46,49 +45,40 @@ page_builder:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: 'We recommend you '
           -
             type: text
             marks:
-              -
-                type: bold
+              - type: bold
             text: 'extend your tour by 4 days to take in Santa Margherita and Portofino'
-          -
-            type: text
+          - type: text
             text: ", from A$2000. Santa Margherita Ligure is a lively and picturesque port at the foot of the superb Portofino National Park. A large promontory surrounded by cliffs and small coves, which has some of the most rewarding walking on the Italian Riviera. Santa Margherita is easily accessed by rail or road and is an ideal base from which to explore this fascinating part of the Ligurian coast. You'll stay in an excellent family-run hotel near the waterfront."
   -
     id: mloocwbk
     heading: 'Highlights of the Cinque Terre walk'
     activities:
-      -
-        id: mlooee34
+      - id: mlooee34
         title: 'Enjoy a continuous 6-day walk'
         summary: 'Enjoy a continuous walk from village to village for the whole six days (no trains to get to and from the walks each day)'
         icon: trekking-trekking.svg
-      -
-        id: mloog7vk
+      - id: mloog7vk
         title: 'Savour the famous food and wines'
         summary: 'Ligurian cuisine is the delicious result of fresh produce from gardens and sea being combined with generations of skill.'
         icon: gastronomy-spaghetti.svg
-      -
-        id: mlooou12
+      - id: mlooou12
         title: 'Walk through stunning scenery'
         summary: 'The ancient walking trails take you through the most stunning scenery in Italy: mountains on the left, sea on the right!'
         icon: nature-lake.svg
-      -
-        id: mlooun08
+      - id: mlooun08
         title: 'Immerse yourself in gorgeous villages'
         summary: "You will have all the time in the world to immerse yourself in the life of six of Italy's most beautiful villages."
         icon: nature-beach.svg
-      -
-        id: mpkrDehOpEFtkL4YdtWzO
+      - id: mpkrDehOpEFtkL4YdtWzO
         title: 'Go for a swim'
         summary: 'You will have plenty of opportunity each day to jump in the blue Mediterranean, and swim at sandy beaches or rocky coves'
         icon: water-sports-swimming.svg
-      -
-        id: mmbinilb
+      - id: mmbinilb
         title: 'Pull on your boots, we’ll handle the rest'
         summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
@@ -102,8 +92,7 @@ page_builder:
     title: 'Cinque Terre walking tour itinerary'
     summary: 'Following an extraordinary trail, this continuous walk (no trains) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere 6 days later, with plenty of time to explore the charming villages you stay in each day.'
     days:
-      -
-        id: mlooymbz
+      - id: mlooymbz
         title: 'Arrive in Levanto'
         description: 'The tour starts in Levanto, a charming and unpretentious town on the main Genoa/Rome railway line with a sandy beach and a wonderful new cycle-way, a thoroughly Italian sea-side resort.'
         photo: self-guided/the-cinque-terre/levanto-1-1775014187.jpg
@@ -180,8 +169,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "You follow well-marked tracks, and there are some long climbs up stone stairs.\_The trails between Monterosso and Vernazza and Vernazza and Riomaggiore can get busy in summer but the crowds (usually daytrippers) can be avioded by getting early starts.\_The walks can be comfortably done in half a day, which leaves you plenty of time to explore the little villages you'll be staying in.\_Full details on each walk are on the itinerary."
         image: self-guided/the-cinque-terre/img_1544.jpg
         type: walk
@@ -193,8 +181,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "Hidden Italy uses the best accommodation available.\_On the Cinque Terre this means very comfortable, centrally located, family-run hotels. All rooms have ensuite bathrooms and air-conditioning.\_Please bear in mind that these are essentially small fishing villages and don't have a range of accommodation options."
         media:
           - self-guided/the-cinque-terre/terrazza_hotel_villa_argentina.jpg
@@ -207,8 +194,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "Ligurians like to use their own trusted products which come from the 350km of coastline with its rough, mountainous hinterland or are fished out of their own waters.\_It is an austere but delicious style of cooking that has produced such specialties as pesto sauce and focaccia.\_Even the wines, grown with great effort on the steep, rocky terraces, seem to have been invented in Liguria, and suit the local food perfectly."
           -
             type: paragraph
@@ -216,8 +202,7 @@ page_builder:
               -
                 type: text
                 marks:
-                  -
-                    type: italic
+                  - type: italic
                 text: "Generous breakfasts are included each day.\_Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit.\_You will be able to make reservations where applicable directly through the Hidden Italy App."
         media:
           - self-guided/the-cinque-terre/siret-jaksic-yats80aqvmm-unsplash.jpg
@@ -239,8 +224,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'To help guide you on this wonderful walk, you’ll receive our Hidden Italy booklet — a handy A5 guide with detailed daily walking notes and clear maps, updated and revised each year. You’ll also have access to our exclusive Hidden Italy App, which complements the booklet and works on both Apple and Android devices. The app includes route maps, GPS tracks, altimetric profiles, turn-by-turn navigation, an alert if you stray off the path, and an emergency function. In addition, you’ll have 24-hour phone support from our local team.'
         type: general
         enabled: true
@@ -250,8 +234,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
         type: equipment
         enabled: true
@@ -261,20 +244,17 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
@@ -287,11 +267,9 @@ page_builder:
               -
                 type: text
                 marks:
-                  -
-                    type: bold
+                  - type: bold
                 text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
-              -
-                type: text
+              - type: text
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
@@ -299,8 +277,7 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  -
-    id: 9aP3CXyQ
+  - id: 9aP3CXyQ
     type: faqs
     enabled: true
     show_common_questions: true
@@ -318,8 +295,7 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  -
-    id: wb_TQv8t8nxeJUw9MVv
+  - id: wb_TQv8t8nxeJUw9MVv
     type: walking_benefits
     enabled: true
     tour_type: auto
@@ -386,8 +362,7 @@ summary:
   -
     type: paragraph
     content:
-      -
-        type: text
+      - type: text
         text: 'Following an extraordinary trail, this continuous 7-day/ 6-night walking tour (no trains!) takes you the length of the Cinque Terre National Park along Italy’s most spectacular coastline, starting in Levanto and arriving in Portovenere six days later, leaving you plenty of time to explore the charming villages you stay in each day.'
 price: 'A$2,950 pp'
 show_from: true

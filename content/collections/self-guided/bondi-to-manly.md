@@ -413,4 +413,5 @@ gallery:
   - self-guided/1-2.jpg
   - self-guided/2.jpg
   - self-guided/27.jpeg
+og_image: bondi-to-manly-sydney-og-1782694550.png
 ---
