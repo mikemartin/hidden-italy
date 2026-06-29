@@ -160,7 +160,7 @@ page_builder:
       -
         id: x8frzponbWF7vqznEhjPE
         title: 'Farewell Auckland'
-        description: 'After breakfast, a transfer to Auckland airport will be available for those you require it.'
+        description: 'After breakfast, a transfer to Auckland airport will be available for those who require it.'
         meals_included:
           - breakfast
   -
@@ -251,5 +251,5 @@ seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 4
-updated_at: 1782696135
+updated_at: 1782696442
 ---
