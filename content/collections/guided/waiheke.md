@@ -102,7 +102,7 @@ page_builder:
       -
         id: uAxGPtEp2avFiFssKQPk3
         title: 'Arrive in Auckland'
-        description: 'You will be met at Auckland airport and transferred to a very comfortable hotel in the centre of Auckland. After an aperitivo at the hotel, we will have dinner at an excellent Italian restaurant a short walk from the hotel.'
+        description: 'This tour starts in Auckland, a multicultural hub of food and wine, music, art and culture. After an aperitivo at the hotel, we will have dinner at an excellent Italian restaurant a short walk from the hotel.'
         photo: guided/waiheke/d98pde-(1).jpg
         meals_included:
           - dinner
@@ -119,7 +119,9 @@ page_builder:
       -
         id: fXUmxG48GtZFQjqFliWu3
         title: 'Ferry to the Island'
-        description: 'After breakfast we take a Ferry to the Islany. Today’s walk is the perfect introduction to Waiheke, following a section of the Te Ara Hura trail following a spectacular trail along the coast, passing around the western headlands, via beaches and a number of places of significant importance to the Maori people of Waiheke. We finish at Oneroa, where we’ll have a relaxed lunch at an Italian restaurant overlooking the beach. In the afternoon, you will have the option of another walk south (10 kms, 3 hrs) or explore the galleries and shops of Oneroa.'
+        description: |-
+          After breakfast, we take a Ferry to the Island. Today’s walk is the perfect introduction to Waiheke exploring two of the main beaches and the northern side of the island, Sandy Bay and Palm Beach before heading to our lunchtime destination, a 4-hectare vineyard with stunning views of the coast and an outstanding Tapas restaurant.
+          The afternoon is free to settle into your accommodation. Dinner will be at a nearby restaurant with sweeping views from its picturesque verandah.
         duration: 4.0
         distance: 12.0
         photo: guided/waiheke/1.jpg
@@ -130,16 +132,21 @@ page_builder:
       -
         id: '-ukCb4fA2bm4RHXm8NLrw'
         title: 'Explore the Vineyards'
-        description: 'Today we go on a guided tour of the vineyards and gourmet treats of the island. The tour includes an introduction to the history of the island; visits to two boutique vineyards and an award-winning olive oil mill; as well as a sampling of the celebrated Waiheke oysters and a vineyard platter lunch. The afternoon is free.  Dinner will be at a nearby restaurant with sweeping views from its picturesque verandah.'
-        photo: guided/waiheke/cable-bay-house-private.jpg
+        description: |-
+          Today’s walk follows another section of the Te Ara Hura trail, following a spectacular trail along the coast passing around the western headlands, via beaches and a number of places of significant importance to the Māori people of Waiheke.
+          We finish at Oneroa, where you will have the option of another walk south (10kms, 3hrs) or explore the galleries and shops or return to the accommodation.
+          Dinner will be at a nearby excellent restaurant - fast becoming the secret local "place to be" for an exceptional dinner.
+        photo: guided/image-(6).jpg
         meals_included:
           - breakfast
           - lunch
           - dinner
+        duration: 3.0
+        distance: 10.0
       -
         id: dGNF3vpb1TRSD0t9mWSqJ
         title: 'Visit the  beaches'
-        description: 'The walk this morning explores the southern coast of the island, following a section of the Te Ara Hura trail along the shore, passing a lovely beach (where there is the possibility of having a swim) before climbing up through forest to a family-owned vineyard where we’ll have lunch, with spectacular views across the gulf from Coromandel to Auckland. On the way back to base, we’ll visit a boutique gin distillery. The evening is free.'
+        description: 'The walk this morning explores the southern coast of the island, following a section of the Te Ara Hura trail along the shore, passing a lovely beach (where there is the possibility of having a swim) before climbing up through forest to a family-owned vineyard where we’ll have lunch, with spectacular views across the gulf from Coromandel to Auckland. The evening is free.'
         duration: 4.0
         distance: 13.0
         photo: guided/w4gr3g.jpg
@@ -160,9 +167,10 @@ page_builder:
       -
         id: x8frzponbWF7vqznEhjPE
         title: 'Farewell Auckland'
-        description: 'After breakfast, a transfer to Auckland airport will be available for those who require it.'
+        description: 'After breakfast, you will be free to continue your holiday.'
         meals_included:
           - breakfast
+        photo: guided/image.jpg
   -
     id: wMCFzMEq46YnqcvuITrGO
     tabs:
@@ -251,5 +259,5 @@ seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 4
-updated_at: 1782696442
+updated_at: 1782786329
 ---
