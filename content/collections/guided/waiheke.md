@@ -240,13 +240,13 @@ page_builder:
       - 012de9d3-89ab-40f0-8875-779791403729
     section_background: none
     type: testimonials
-    enabled: true
+    enabled: false
   - id: lQ_gWpCewWji7tuYRs0dg
     section_background: light
     show_topography: false
     hide_from_subnav: true
     type: walking_benefits
-    enabled: true
+    enabled: false
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -258,5 +258,5 @@ seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 4
-updated_at: 1782786954
+updated_at: 1782787918
 ---
