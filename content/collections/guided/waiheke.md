@@ -1,6 +1,5 @@
 ---
 id: 4ac58bc7-386b-49cd-8e92-3bd8fd1e24a3
-published: false
 blueprint: tour
 title: 'Waiheke - New Zealand'
 region: 'New Zealand'
@@ -9,8 +8,8 @@ teaser: 'Explore the extraordinary natural beauty and gourmet treats of Waiheke 
 image: guided/waiheke/2.jpg
 overlay_opacity: 30
 headline: 'Spectacular Island Walking'
+date: '2027-02-19 13:00'
 now_open: false
-availability_text: 'Tour Start Dates: 20 Feb 27 & 26 Feb 27'
 summary:
   -
     type: paragraph
@@ -259,5 +258,5 @@ seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 4
-updated_at: 1782786700
+updated_at: 1782786954
 ---
