@@ -131,7 +131,7 @@ page_builder:
           - dinner
       -
         id: '-ukCb4fA2bm4RHXm8NLrw'
-        title: 'Explore the Vineyards'
+        title: 'Visit the beaches'
         description: |-
           Today’s walk follows another section of the Te Ara Hura trail, following a spectacular trail along the coast passing around the western headlands, via beaches and a number of places of significant importance to the Māori people of Waiheke.
           We finish at Oneroa, where you will have the option of another walk south (10kms, 3hrs) or explore the galleries and shops or return to the accommodation.
@@ -141,11 +141,11 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        duration: 3.0
-        distance: 10.0
+        duration: 4.0
+        distance: 13.0
       -
         id: dGNF3vpb1TRSD0t9mWSqJ
-        title: 'Visit the  beaches'
+        title: 'Explore the Vineyards'
         description: 'The walk this morning explores the southern coast of the island, following a section of the Te Ara Hura trail along the shore, passing a lovely beach (where there is the possibility of having a swim) before climbing up through forest to a family-owned vineyard where we’ll have lunch, with spectacular views across the gulf from Coromandel to Auckland. The evening is free.'
         duration: 4.0
         distance: 13.0
@@ -259,5 +259,5 @@ seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 4
-updated_at: 1782786329
+updated_at: 1782786700
 ---
