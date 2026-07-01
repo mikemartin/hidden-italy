@@ -6,7 +6,7 @@ name: 'Umbria Classic'
 region: Umbria
 days: 7
 updated_by: 4
-updated_at: 1781655286
+updated_at: 1782866829
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -91,7 +91,7 @@ page_builder:
     summary: 'This wonderful 7 day walk takes you through forests, across farmlands, past olive groves and staying in some of the most gorgeous and interesting towns with some of the finest art in central Italy, staying in excellent 4-star hotels along the way.'
     days:
       - id: mlooymbz
-        title: 'Arrive in Spoleto'
+        title: 'Arrive in Assisi'
         description: 'Even without St Francis Assisi would be irresistible, a charming medieval town nestled under the forested peak of Monte Subasio. However, the monuments that have been dedicated to the saint make Assisi a highlight of any visit to Umbria. The Basilica dedicated to Saint Francis contains some of the masterpieces of Western art, including seminal works by Cimabue, Giotto, Simone Martini and the Lorenzetti brothers.'
         photo: self-guided/umbria-classic/f1020011.jpg
       -
