@@ -222,11 +222,58 @@ page_builder:
     section_background: none
     type: leader
     enabled: true
-  - id: MKhEjZbuVXVDB3QO7BdOZ
+  -
+    id: MKhEjZbuVXVDB3QO7BdOZ
     title: 'What you should know'
     section_background: none
     type: essentials
     enabled: true
+    sections:
+      -
+        id: H6bQd25PmUHG9tMjSHZzk
+        type: equipment
+        enabled: true
+        body:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two of the most essential items. On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+      -
+        id: iufHVxVfsOcGBp6_TDtkU
+        type: booking_cancellation
+        enabled: true
+        body:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'To secure a booking, a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
+      -
+        id: x9_WpTX1T7TKvqAH_qwPd
+        type: travel_insurance
+        enabled: true
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  - type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              - type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
   - id: ObVJaFBS6rkI7fVY8qu2v
     heading: 'Frequently asked questions'
     show_common_questions: true
@@ -258,5 +305,5 @@ seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 4
-updated_at: 1782787918
+updated_at: 1782967330
 ---
