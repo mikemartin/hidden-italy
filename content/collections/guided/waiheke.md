@@ -108,7 +108,7 @@ page_builder:
       -
         id: M1BZ4m_dFbWQvqNcktBoL
         title: 'Coast to Coast walking'
-        description: 'This morning we will go for walk following a section of the ‘Coast to Coast’ route, climbing up to Maungawhau/Mt Eden, the highest natural point in Auckland, finishing at the fascinating Auckland Museum in the attractive suburb of Parnell, unique for its collection of Maori and Pacific treasures.'
+        description: 'This morning we will go for a walk following a section of the ‘Coast to Coast’ route, climbing up to Maungawhau/Mt Eden, the highest natural point in Auckland, finishing at the fascinating Auckland Museum in the attractive suburb of Parnell, unique for its collection of Maori and Pacific treasures.'
         duration: 3.0
         distance: 7.0
         photo: guided/waiheke/2.jpg
@@ -303,5 +303,5 @@ seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 4
-updated_at: 1782967546
+updated_at: 1783290757
 ---
