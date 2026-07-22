@@ -5,7 +5,7 @@ blueprint: tour
 title: 'Umbria Guided Tour - Umbria'
 region: Umbria
 name: 'Umbria Guided Tour'
-teaser: 'From unspoilt landscapes to cultural treasures, this tour perfectly balances tranquillity and culture.'
+teaser: 'Unspoilt landscapes to cultural treasures, the perfect balance of tranquillity and culture'
 overlay_opacity: 30
 start_location:
   label: 'Gubbio, Umbria, Italy'
@@ -39,6 +39,7 @@ finish_location:
       code: null
       level: 2
   country: Italy
+headline: "Explore the region known as Italy's green heart"
 date: '2027-08-19 14:00'
 now_open: true
 badge_text: 'New Tour'
@@ -215,5 +216,5 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1784701860
+updated_at: 1784704863
 ---
