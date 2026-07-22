@@ -40,7 +40,7 @@ finish_location:
       code: null
       level: 2
   country: Italy
-headline: "Explore the region known as Italy's green heart"
+headline: 'Explore Italy green heart'
 date: '2027-08-19 14:00'
 now_open: true
 badge_text: 'New Tour'
@@ -58,16 +58,47 @@ inclusions:
   - 'Guided sight seeing tours of XXXX'
   - 'Services of a full-time professional tour guide'
 page_builder:
-  - id: S79KwERvxOXW4ik46HYEL
+  -
+    id: S79KwERvxOXW4ik46HYEL
     section_background: dark
     type: overview
     enabled: true
     show_topography: true
-  - id: L-xBFglx3C6oFGLfQX754
+    column_left:
+      -
+        type: paragraph
+        content:
+          - type: text
+            text: 'text text'
+    column_right:
+      -
+        type: paragraph
+        content:
+          - type: text
+            text: 'text text'
+  -
+    id: L-xBFglx3C6oFGLfQX754
     section_background: light
     type: highlights
     enabled: true
     show_topography: false
+    activities:
+      - id: sBhtndcz7wpXB6i4aU0kR
+        title: "Discover Umbria's treasures"
+        summary: "Local guides will help you unlock the secrets of the fascinating Italy's green heart"
+        icon: 'tourism-tour guide.svg'
+      - id: RezgZqkCTnivlqqhDjIZb
+        title: 'Enjoy Umbrian home cooking'
+        summary: 'Sit down and enjoy the wholesome home-cooking: cold cuts, cheeses, pastas, soups, roast meats, fresh garden vegetables.'
+        icon: culture-cheese.svg
+      - id: Wj73RrKfQG4N51CdrrGbA
+        title: "Lose yourself in the region's fine art"
+        summary: "Lose yourself in small villages and towns holding some of Italy's finest art: Giotto, Pinturicchio and Fra Lippo Lippi."
+        icon: medieval-castle-wall.svg
+      - id: pwK5yo4MPCYrS2xrAdIXn
+        title: 'Enchanting Landscapes'
+        summary: 'The green hills, golden stone towns and shimmering light give the region an almost mystical quality.'
+        icon: geography-cartography-hills.svg
   -
     id: z3KjMnW9KrNFd12RC7hC6
     section_background: none
@@ -283,5 +314,5 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1784705565
+updated_at: 1784706023
 ---
