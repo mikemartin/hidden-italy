@@ -59,13 +59,15 @@ inclusions:
   - 'Services of a full-time professional tour guide'
 page_builder:
   - id: S79KwERvxOXW4ik46HYEL
-    section_background: none
+    section_background: dark
     type: overview
     enabled: true
+    show_topography: true
   - id: L-xBFglx3C6oFGLfQX754
-    section_background: none
+    section_background: light
     type: highlights
     enabled: true
+    show_topography: false
   -
     id: z3KjMnW9KrNFd12RC7hC6
     section_background: none
@@ -182,20 +184,83 @@ page_builder:
           Transfer to Orvieto station for onward travel.
         meals_included:
           - breakfast
-  - id: 6np4rNhRue8SqrUBCqHuK
-    section_background: none
+  -
+    id: 6np4rNhRue8SqrUBCqHuK
+    section_background: dark
     type: experience
     enabled: true
+    title: 'Umbria Guided Tour'
+    tabs:
+      - id: 68QDLI5yPSbGdCN6NXWED
+        title: 'Exceptional walking'
+        type: walk
+        enabled: true
+      - id: PEePl_7BCgVNDSxdSJl6B
+        title: 'Boutique accommodation'
+        type: accommodation
+        enabled: true
+      - id: wMVJ8e4dKm72p178Gc6L6
+        title: 'Authentic food'
+        type: food
+        enabled: true
+    show_topography: true
   - id: Q8teFUrQd_KaHrdLR1Myv
     title: 'Tour Leader'
     section_background: none
     type: leader
     enabled: true
-  - id: j3VA8zwxPZJ4kCP4Nw5lJ
+  -
+    id: j3VA8zwxPZJ4kCP4Nw5lJ
     title: 'What you should know'
     section_background: none
     type: essentials
     enabled: true
+    sections:
+      -
+        id: cn1lav0P1F_dvFQ2fFI_J
+        body:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+        type: equipment
+        enabled: true
+      -
+        id: 0u7rlsUFDpRF74D0q_dS0
+        body:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date. '
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour. '
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
+        type: booking_cancellation
+        enabled: true
+      -
+        id: A7DKwP3SPWREmca1qfJYe
+        body:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  - type: bold
+                text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
+              - type: text
+                text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
+        type: travel_insurance
+        enabled: true
   - id: Z4_cu9r-ejovrn4HreT7U
     heading: 'Frequently asked questions'
     show_common_questions: true
@@ -203,10 +268,11 @@ page_builder:
     type: faqs
     enabled: true
   - id: SVpmWTDVRUI9wppoEPHT1
-    section_background: none
+    section_background: light
     hide_from_subnav: true
     type: walking_benefits
     enabled: true
+    show_topography: false
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -217,5 +283,5 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1784705266
+updated_at: 1784705565
 ---
