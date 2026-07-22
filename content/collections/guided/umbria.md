@@ -6,6 +6,7 @@ title: 'Umbria Guided Tour - Umbria'
 region: Umbria
 name: 'Umbria Guided Tour'
 teaser: 'Unspoilt landscapes to cultural treasures, the perfect balance of tranquillity and culture'
+image: guided/the-waterfall-marmore-4587240_1920.jpg
 overlay_opacity: 30
 start_location:
   label: 'Gubbio, Umbria, Italy'
@@ -216,5 +217,5 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1784704863
+updated_at: 1784705266
 ---
