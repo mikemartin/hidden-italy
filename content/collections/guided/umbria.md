@@ -54,13 +54,53 @@ inclusions:
   - '7 guided walks'
   - 'Guided sight seeing tours of XXXX'
   - 'Services of a full-time professional tour guide'
+page_builder:
+  - id: S79KwERvxOXW4ik46HYEL
+    section_background: none
+    type: overview
+    enabled: true
+  - id: L-xBFglx3C6oFGLfQX754
+    section_background: none
+    type: highlights
+    enabled: true
+  - id: z3KjMnW9KrNFd12RC7hC6
+    section_background: none
+    type: itinerary
+    enabled: true
+  - id: 6np4rNhRue8SqrUBCqHuK
+    section_background: none
+    type: experience
+    enabled: true
+  - id: Q8teFUrQd_KaHrdLR1Myv
+    title: 'Tour Leader'
+    section_background: none
+    type: leader
+    enabled: true
+  - id: j3VA8zwxPZJ4kCP4Nw5lJ
+    title: 'What you should know'
+    section_background: none
+    type: essentials
+    enabled: true
+  - id: Z4_cu9r-ejovrn4HreT7U
+    heading: 'Frequently asked questions'
+    show_common_questions: true
+    section_background: none
+    type: faqs
+    enabled: true
+  - id: SVpmWTDVRUI9wppoEPHT1
+    section_background: none
+    hide_from_subnav: true
+    type: walking_benefits
+    enabled: true
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-show_from: false
+show_from: true
+seasons: autumn
+locations: central-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1784691482
+updated_at: 1784691893
 ---
