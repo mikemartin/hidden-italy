@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: 4
-updated_at: 1781735789
+updated_at: 1784769127
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -439,6 +439,6 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 overlay_opacity: 30
-availability_text: 'Tour Start Dates: 30 Apr 27 & 14 May 27'
+availability_text: 'Tour Start Dates: 14 May 27'
 badge_text: Featured
 ---
