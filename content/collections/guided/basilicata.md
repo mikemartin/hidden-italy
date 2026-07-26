@@ -81,21 +81,22 @@ page_builder:
     show_topography: false
     activities:
       - id: sBhtndcz7wpXB6i4aU0kR
-        title: "Discover Umbria's treasures"
-        summary: "Local guides will help you unlock the secrets of the fascinating Italy's green heart"
+        title: 'Discover the arch of the boot'
+        summary: "Local guides will help you discover one of Italy's most remote and least visited region"
         icon: 'tourism-tour guide.svg'
       - id: RezgZqkCTnivlqqhDjIZb
-        title: 'Enjoy Umbrian home cooking'
-        summary: 'Sit down and enjoy the wholesome home-cooking: cold cuts, cheeses, pastas, soups, roast meats, fresh garden vegetables.'
-        icon: culture-cheese.svg
+        title: Cooking
+        summary: 'Sit down and enjoy the wholesome home-cooking: pastas, meats and fresh garden vegetables.'
+        icon: bakery-bread.svg
       - id: Wj73RrKfQG4N51CdrrGbA
-        title: "Lose yourself in the region's fine art"
-        summary: "Lose yourself in small villages and towns holding some of Italy's finest art: Giotto, Pinturicchio and Fra Lippo Lippi."
+        title: '"The Pearl of Tyrrhenian Sea'
         icon: medieval-castle-wall.svg
       - id: pwK5yo4MPCYrS2xrAdIXn
-        title: 'Enchanting Landscapes'
-        summary: 'The green hills, golden stone towns and shimmering light give the region an almost mystical quality.'
-        icon: geography-cartography-hills.svg
+        title: 'A day on the sea'
+        summary: 'Spend the day cruising the beautiful waters of XXX'
+        icon: transport-sailboat.svg
+      - id: ShfhKkKPFNLPiJpU0fuQ1
+        title: 'Visit a  UNESCO World Heritage Site'
   -
     id: z3KjMnW9KrNFd12RC7hC6
     section_background: none
@@ -311,6 +312,6 @@ seasons: spring
 locations: southern-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1785040978
+updated_at: 1785042076
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 ---
