@@ -44,7 +44,7 @@ badge_text: 'New Tour'
 days: 13
 grade: 3
 tour_size: 15
-leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
+leader: fa3be588-b0dd-4d37-9213-bafbd1992434
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
@@ -311,6 +311,6 @@ seasons: spring
 locations: southern-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1785040867
+updated_at: 1785040978
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 ---
