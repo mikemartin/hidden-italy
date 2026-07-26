@@ -86,17 +86,20 @@ page_builder:
         icon: 'tourism-tour guide.svg'
       - id: RezgZqkCTnivlqqhDjIZb
         title: Cooking
-        summary: 'Sit down and enjoy the wholesome home-cooking: pastas, meats and fresh garden vegetables.'
+        summary: 'Sit down and enjoy the wholesome home-cooking: pastas, meats and fresh garden vegetables'
         icon: bakery-bread.svg
       - id: Wj73RrKfQG4N51CdrrGbA
-        title: '"The Pearl of Tyrrhenian Sea'
-        icon: medieval-castle-wall.svg
+        title: 'The Pearl of Tyrrhenian Sea'
+        icon: nature-lake.svg
+        summary: 'Explore its stunning landscapes, offering breathtaking sea views, serene wooded hillsides, and majestic mountains'
       - id: pwK5yo4MPCYrS2xrAdIXn
         title: 'A day on the sea'
         summary: 'Spend the day cruising the beautiful waters of XXX'
         icon: transport-sailboat.svg
       - id: ShfhKkKPFNLPiJpU0fuQ1
-        title: 'Visit a  UNESCO World Heritage Site'
+        summary: 'Visit a  UNESCO World Heritage Site???'
+      - id: be3yfzj6SgiETet5KRbR0
+        summary: TBA
   -
     id: z3KjMnW9KrNFd12RC7hC6
     section_background: none
@@ -312,6 +315,6 @@ seasons: spring
 locations: southern-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1785042076
+updated_at: 1785042561
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 ---
