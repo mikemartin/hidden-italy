@@ -6,7 +6,7 @@ name: 'Amalfi Coast'
 region: Campania
 days: 6
 updated_by: 4
-updated_at: 1782694518
+updated_at: 1785119414
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
@@ -174,7 +174,7 @@ page_builder:
             type: paragraph
             content:
               - type: text
-                text: "Hidden Italy tours use the best available accommodation.\_On the Amalfi Coast walking tour this means staying each night in very good, centrally located hotels (most with swimming pools) with whom we've been working for years.\_The Standard option uses 3-star hotels while the Superior option uses 4-star hotels. We request rooms with sea views. All rooms have ensuite bathrooms."
+                text: "Hidden Italy tours use the best available accommodation.\_On the Amalfi Coast walking tour this means staying each night in very good, centrally located hotels (most with swimming pools) with whom we've been working for years.\_We request rooms with sea views. All rooms have ensuite bathrooms."
         media:
           - self-guided/the-amalfi-coast/hotel-positano.jpg
         type: accommodation
@@ -354,8 +354,7 @@ summary:
     content:
       - type: text
         text: "This fabulous 6-day/5-night continuous walk along the length of the breathtaking Amalfi Coast starts with a private transfer from Naples to Ravello and then finishes with a private transfer from Positano back to Naples at the end. In between you get to experience the 'costiera' in all its colour and glory."
-availability_text: 'Standard (3 star hotels) and Superior (4 star hotels) options'
-price: 'A$3,250 pp'
+price: 'A$3,900 pp'
 show_from: true
 og_image: campania-the-amalfi-coast-og-1779335281.png
 seo_noindex: inherit

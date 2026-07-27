@@ -349,8 +349,8 @@ page_builder:
     hide_from_subnav: true
 seasons: summer
 locations: northern-italy
-updated_by: 1
-updated_at: 1781157827
+updated_by: 4
+updated_at: 1785119172
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg
@@ -417,4 +417,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 overlay_opacity: 30
+availability_text: '2027 Fully Booked, 2028 dates TBC'
 ---
