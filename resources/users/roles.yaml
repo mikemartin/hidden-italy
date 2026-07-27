@@ -181,9 +181,11 @@ user_management:
     - 'create users'
     - 'delete users'
     - 'change passwords'
-    - 'assign roles'
     - 'assign user groups'
-    - 'access default site'
+    - 'assign roles'
+    - 'edit user groups'
+    - 'edit roles'
+    - 'impersonate users'
 form_editor:
   title: 'Form editor'
   permissions:

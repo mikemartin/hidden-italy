@@ -1,4 +1,7 @@
-# admin:
-#   title: Administrators
-#   roles:
-#     - admin
+hidden_italy:
+  title: 'Hidden Italy'
+  roles:
+    - editor
+    - form_editor
+    - marketer
+    - user_management
