@@ -5,8 +5,8 @@ title: 'Trieste and Friuli - Friuli Venezia Giulia'
 name: 'Trieste and Friuli'
 region: 'Friuli Venezia Giulia'
 days: 13
-updated_by: 3
-updated_at: 1780028429
+updated_by: 2
+updated_at: 1785128793
 grade: 4
 inclusions:
   - '12 night’s accommodation (see the itinerary for details) in excellent boutique hotels'
@@ -32,15 +32,13 @@ page_builder:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "Bordering Austria to the north and Slovenia to the east, FVG has long been contested by rival powers wanting to access the rich plains of northern Italy.\_ Today, German, Slavic and Italian populations all call it home.\_ The region’s landscapes are equally varied, a beguiling combination of soaring Alps, limestone plateaux, deep green valleys, rolling plains and a long stretch of Adriatic coastline."
     column_right:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "This marvellous tour starts with two days in Udine, an elegant provincial capital.\_ We then head north-east into the mountains, staying in a beautifully preserved village in the heart of the Carnian Alps, our base for the next four days.\_ From here we drive east across the plains to ‘Venetian Slovenia’, a wedge of forested hills that forms the frontier between Italy and Slovenia.\_ Our base is a family-run hotel in the centre of beautiful frontier town that was founded by Julius Caesar.\_ Our last two nights are in the grand port city of Trieste, for four centuries the Mediterranean port for the Austro-Hungarian Empire.\_ Trieste has fast train connections to the rest of Italy."
     title: 'A beguiling combination of mountains, plains and sea'
     images:
@@ -52,33 +50,27 @@ page_builder:
     id: mloqd78x
     heading: 'Trieste and Friuli guided tour'
     activities:
-      -
-        id: mloqdoo9
+      - id: mloqdoo9
         title: 'Discover the elegance of Udine'
         summary: 'Discover the secrets of Udine, an elegant provincial city with lane-ways, canals, fine food and a fascinating history.'
         icon: 'tourism-tour guide.svg'
-      -
-        id: mloqi0iy
+      - id: mloqi0iy
         title: 'Stay in fabulous accommodation'
         summary: 'Including a 4-star hotel in Udine; a family-run hotel from the 14th century; and an historic, 4-star hotel in Trieste.'
         icon: housing-house.svg
-      -
-        id: mloqrnhn
+      - id: mloqrnhn
         title: 'Walk incomparable trails'
         summary: 'Led by local guides enjoy a variety of beautiful walks: through mountain and valleys, and along along beautiful coasts.'
         icon: trekking-trekking.svg
-      -
-        id: mloqndod
+      - id: mloqndod
         title: "Explore Italy's most diverse region"
         summary: 'With 5 official languages, 3 international borders, soaring mountains and endless coasts, Friuli is a captivating place.'
         icon: culture-italy.svg
-      -
-        id: mm4fpvo1
+      - id: mm4fpvo1
         title: 'Enjoy sophisticated cuisine'
         summary: "A combination of Italian, Austrian and Slovenian traditions and top quality produce, yields some of Italy's finest food."
         icon: 'wine-wine bottle.svg'
-      -
-        id: js_5ne3PRsZOs4LH-5Cgf
+      - id: js_5ne3PRsZOs4LH-5Cgf
         title: "Discover Trieste, the region's wonderful capital"
         summary: 'Staying in an historic 5-star, get to know this marvellous city with a guided tour and a harbourside farewell lunch'
         icon: tourism-beach.svg
@@ -241,8 +233,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'With its pristine forests, national parks and fascinating history, FVG offers some wonderful walks, including: exploring the valleys and mountains of the Carnian Alps; following the historic trails through the hills that hug the Slovenian border; walking through the vineyards of the Collio region; and a stroll along the Adriatic Coast The walks range from 8 to 17 kms and follow well-marked trails, mostly unsealed country roads. In some cases it is possible to shorten the walk or to opt out and join the walkers for lunch.'
         image: guided/trieste-and-friuli/4.1.jpg
         type: walk
@@ -254,8 +245,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "The tour starts with two nights in a classic four-star hotel in the centre of Udine and finishes in one of the grand hotels of Italy: set in an elegant\_palazzo dating from 1727\_overlooking the Piazza Unita d'Italia, the heart of Trieste.\_ In between, we stay in a beautiful small hotel in the mountains for four nights and\_another\_four nights in a family-run hotel in the heart of a lovely town on the Natisone River that was founded by Julius Caesar"
         type: accommodation
         enabled: true
@@ -268,8 +258,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "With its long coastline, fertile plains, unspoilt mountains and ancient traditions, the food of Friuli is as diverse as the region itself.\_ Friuli also produces some of Italy's finest ingredients, including Collio wines, San Daniele ham and Montasio cheese.\_ You will have plenty of opportunity to experience these along the way, including dining at stylish city restaurants; simple home-cooked fare in the mountains; a long lunch at a Michelin-starred trattoria in the country; finishing with a delicious seafood lunch overlooking the Gulf of Trieste.\_ Wine is included with the meals."
         media:
           - guided/trieste-and-friuli/img_3936.jpeg
@@ -280,8 +269,7 @@ page_builder:
     section_background: dark
     show_topography: true
     hide_from_subnav: false
-  -
-    id: YEFY7hZMnIxanwuc-b1Gz
+  - id: YEFY7hZMnIxanwuc-b1Gz
     title: 'Tour Leader'
     person: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
     type: leader
@@ -298,8 +286,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_It is autumn and we are in the mountains so you will need to take some warm clothes, eg a pullover, a puffer-type jacket and some warm pants.  Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
         type: equipment
         enabled: true
@@ -309,20 +296,17 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date. '
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour. '
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
@@ -335,11 +319,9 @@ page_builder:
               -
                 type: text
                 marks:
-                  -
-                    type: bold
+                  - type: bold
                 text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
-              -
-                type: text
+              - type: text
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
@@ -347,8 +329,7 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  -
-    id: 7yRkeoCY
+  - id: 7yRkeoCY
     type: faqs
     enabled: true
     show_common_questions: true
@@ -366,8 +347,7 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  -
-    id: wb_iLOBs00XPnuF2OVk
+  - id: wb_iLOBs00XPnuF2OVk
     type: walking_benefits
     enabled: true
     tour_type: auto
@@ -423,8 +403,7 @@ summary:
   -
     type: paragraph
     content:
-      -
-        type: text
+      - type: text
         text: "With its mountains, plains and seashores all less than an hour's drive apart, Italian writer Ippolito Nievo fondly described the region Friuli Venezia Giulia (FVG) as a \"little compendium of the universe\".\_ This Hidden Italy special sets about exploring that universe."
 price: 'A$8,990 pp'
 show_from: true
@@ -434,4 +413,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 20
 ---
