@@ -5,26 +5,6 @@
 #}}
 
 <!-- /components/_feedback_modal.antlers.html -->
-{{# Reveals past the hero (back-to-top pattern). The `!` overrides beat
-    flux.css, which loads after the site CSS. #}}
-<div
-    x-data="{ visible: false }"
-    x-init="visible = window.scrollY > window.innerHeight * 0.8"
-    @scroll.window.passive="visible = window.scrollY > window.innerHeight * 0.8"
-    :class="visible ? 'opacity-100 translate-x-0 pointer-events-auto' : 'opacity-0 translate-x-2 pointer-events-none'"
-    class="hidden md:block fixed right-0 top-1/2 -translate-y-1/2 z-30 transition-all duration-[var(--duration-standard)] ease-[var(--ease-emphasis)] motion-reduce:transition-none"
-    x-cloak
->
-    <x-flux::modal.trigger name="feedback-modal">
-        <x-flux::button
-            variant="primary"
-            x-bind:tabindex="visible ? 0 : -1"
-            x-bind:aria-hidden="!visible"
-            class="[writing-mode:vertical-rl] h-auto! px-2! py-3 rounded-r-none! cursor-pointer"
-        >{{ trans:strings.feedback }}</x-flux::button>
-    </x-flux::modal.trigger>
-</div>
-
 <x-flux::modal name="feedback-modal" class="md:w-[28rem]">
     <div class="space-y-4">
         <div class="text-center space-y-1">
