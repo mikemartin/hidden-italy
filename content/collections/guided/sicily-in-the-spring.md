@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: 4
-updated_at: 1784769127
+updated_at: 1785118801
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -26,7 +26,7 @@ gallery:
   - guided/sicily-in-the-spring/63.jpg
   - guided/sicily-in-the-spring/65.jpg
 simple_likes: 0
-leader: 699bd6c8-377d-46a8-bd97-234a3720b9f1
+leader: 656b56c6-ff12-45de-86a3-c6c480d7c141
 page_builder:
   -
     id: 60cb2f47dbf79c3c
@@ -431,7 +431,7 @@ inclusions:
   - 'Services of a full-time professional tour guide'
 price: 'A$10,490 pp'
 show_from: true
-date: '2027-04-29 14:00'
+date: '2027-05-13 14:00'
 og_image: sicily-sicily-in-the-spring-og-1779335251.png
 seo_noindex: inherit
 seo_nofollow: false
@@ -439,6 +439,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 overlay_opacity: 30
-availability_text: 'Tour Start Dates: 14 May 27'
 badge_text: Featured
 ---

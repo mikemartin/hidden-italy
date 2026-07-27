@@ -6,7 +6,7 @@ name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: 4
-updated_at: 1784864231
+updated_at: 1785118692
 locations: northern-italy
 grade: 3
 image: guided/verona-and-the-dolomites/-p9192176.jpg
@@ -33,7 +33,7 @@ gallery:
   - guided/verona-and-the-dolomites/p9192166.jpg
   - guided/verona-and-the-dolomites/61.jpg
 simple_likes: 0
-leader: 656b56c6-ff12-45de-86a3-c6c480d7c141
+leader: 699bd6c8-377d-46a8-bd97-234a3720b9f1
 page_builder:
   -
     id: c96bec259b9cca9c
