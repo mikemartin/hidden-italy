@@ -285,7 +285,8 @@ show_from: true
 seasons: spring
 locations: southern-italy
 simple_likes: 0
-updated_by: 4
-updated_at: 1785042723
+updated_by: 2
+updated_at: 1785134501
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
+teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 ---
