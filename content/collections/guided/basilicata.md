@@ -93,7 +93,7 @@ page_builder:
         summary: "Stay three nights in a beautifully restored, historic hotel in the heart of Matera's celebrated Sassi district"
         icon: culture-champagne.svg
       - id: Wj73RrKfQG4N51CdrrGbA
-        title: "Explore two of Italy's grandest national parks"
+        title: "Explore two of Italy's most spectacular national parks"
         icon: geography-cartography-rural.svg
         summary: "Local guides take you along the trails of two of Italy's grandest national parks: the Pollino and the Gallipoli-Cognato."
       - id: pwK5yo4MPCYrS2xrAdIXn
@@ -101,7 +101,7 @@ page_builder:
         summary: 'Basilicata cuisine is wholesome home-cooking based on the freshest ingredients: fish, meat, cheese and spring vegetables'
         icon: gastronomy-spaghetti.svg
       - id: ShfhKkKPFNLPiJpU0fuQ1
-        summary: 'Stay in a beautiful 4-star hotel high above the ravishing coast in the gorgeous town of Maratea, pearl of the Tyhrrenian'
+        summary: 'Stay in a beautiful 4-star hotel, high above the ravishing Tyhrrenian coast in gorgeous Maratea, pearl of the south!'
         title: 'Finish in ravishing Maratea'
         icon: nature-beach.svg
       - id: be3yfzj6SgiETet5KRbR0
@@ -117,23 +117,26 @@ page_builder:
       -
         id: Om5y5FTAtdk95fGc42Xbj
         title: 'Arrive in Matera'
-        description: 'Arrival in Matera & Check-in and welcome dinner'
+        description: 'Check-in to your gorgeous hotel in Sassi district, the historic heart of Matera.  After a briefing from your tour leader, you will be taken to dinner in one of the excellent nearby restaurants.'
         meals_included:
           - dinner
+        photo: guided/102.jpg
       -
         id: YjcLZmnMamy-RsFTNTnN6
         title: 'Explore the historical town'
-        description: 'Full day exploring Matera (with Dora?) lunch included, evening free.'
+        description: "Once the 'shame of Italy', Matera was declared a UNESCO World Heritage Site in 2003, and is now the star-turn of the region.  You will spend the whole day with a local guide exploring the ins and outs of this fascinating town.  Along the way, you will stop for coffee and for a delicious lunch.  The late afternoon and evening are free."
         meals_included:
           - breakfast
           - lunch
+        photo: guided/img_2201.jpeg
       -
         id: dRttPDU-P82DA7eK9yvVs
-        title: 'Head South'
+        title: 'Go for a walk'
         meals_included:
           - breakfast
           - lunch
           - dinner
+        description: "This morning you pull on your boots and head south out of town into the 'Murgia', rolling hills that surround Matera.  The walk finishes at a rock hewn, 9th century church whose frecoes have been called the 'Sistine Chapel of the Dark Ages'.  After a guided visit, we head to a nearby 'agriturismo' for a farm-fresh lunch and then are transferred back to town.  The evening is free."
       -
         id: DSEbPuDVys5s-dLV1Yqjy
         title: 'Visit the Abbey of San Pietro'
@@ -294,7 +297,7 @@ seasons: spring
 locations: southern-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1785218076
+updated_at: 1785219206
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
