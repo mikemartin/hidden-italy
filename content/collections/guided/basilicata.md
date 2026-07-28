@@ -23,18 +23,18 @@ start_location:
       level: 2
   country: Italy
 finish_location:
-  label: 'Matera, Basilicata, Italy'
-  lat: '40.667029'
-  lon: '16.6063265'
-  postalCode: '75100'
-  locality: Matera
+  label: 'Maratea, Basilicata, Italy'
+  lat: '39.9931029'
+  lon: '15.723124'
+  postalCode: '85046'
+  locality: Maratea
   adminLevels:
     1:
       name: Basilicata
       code: null
       level: 1
     2:
-      name: Matera
+      name: Potenza
       code: null
       level: 2
   country: Italy
@@ -52,8 +52,8 @@ inclusions:
   - 'All taxes and service charges at the hotels and restaurants'
   - 'All paid admissions during the tour'
   - '7 guided walks'
-  - 'Guided sight seeing tours of XXXX'
-  - 'Services of a full-time professional tour guide'
+  - 'Guided sight seeing tours of Matera and Craco and a private boat trip on the Tyrrenian Sea'
+  - 'Services of a full-time professional tour leader and a qualified local walking guide for each hike'
 page_builder:
   -
     id: S79KwERvxOXW4ik46HYEL
@@ -286,8 +286,28 @@ seasons: spring
 locations: southern-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1785212410
+updated_at: 1785215464
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
+headline: 'Pure southern Italy'
+summary:
+  -
+    type: paragraph
+    content:
+      - type: text
+        text: "Basilicata is one of Italy’s least-explored regions. This dramatic land of rocks, mountains, forests and upland meadows spans the ‘instep’ of Italy’s ‘boot’, with short coastlines on both the Tyrrhenian and Ionian Seas. It is home to two of Italy’s most striking national parks: the Pollino National Park, with its limestone mountains, beech and pine forests; and the sandstone peaks of the ‘Lucani Dolomites’ in Gallipoli-Cognato National Park; as well as some of southern Italy’s most fascinating towns.\_ A Hidden Italy special!"
+gallery:
+  - guided/101.jpeg
+  - guided/102.jpg
+  - guided/103.jpeg
+  - guided/img_3583.jpeg
+  - guided/106.jpeg
+  - guided/107.jpeg
+  - guided/105.jpeg
+  - guided/108.jpg
+  - guided/109.jpg
+  - guided/111.jpg
+  - guided/110.jpg
+  - guided/112.jpeg
 ---
