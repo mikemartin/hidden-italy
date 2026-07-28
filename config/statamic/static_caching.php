@@ -65,6 +65,7 @@ return [
         'class' => null,
 
         'urls' => [
+            '/robots.txt',
             '/site.webmanifest',
             '/sitemap.xml',
             '/sitemaps.xml',
