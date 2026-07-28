@@ -117,7 +117,7 @@ page_builder:
       -
         id: Om5y5FTAtdk95fGc42Xbj
         title: 'Arrive in Matera'
-        description: 'Check-in to your gorgeous hotel in Sassi district, the historic heart of Matera.  After a briefing from your tour leader, you will be taken to dinner in one of the excellent nearby restaurants.'
+        description: 'Check-in to your gorgeous hotel in Sassi district, the historic heart of Matera.  After you have unpacked and settled in, you will have a briefing from your tour leader and you will then be taken to dinner in one of the excellent nearby restaurants.'
         meals_included:
           - dinner
         photo: guided/102.jpg
@@ -135,24 +135,34 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-          - dinner
         description: "This morning you pull on your boots and head south out of town into the 'Murgia', rolling hills that surround Matera.  The walk finishes at a rock hewn, 9th century church whose frecoes have been called the 'Sistine Chapel of the Dark Ages'.  After a guided visit, we head to a nearby 'agriturismo' for a farm-fresh lunch and then are transferred back to town.  The evening is free."
+        duration: 4.0
+        distance: 15.0
+        elevation: 250
+        photo: guided/103.jpeg
       -
         id: DSEbPuDVys5s-dLV1Yqjy
-        title: 'Visit the Abbey of San Pietro'
-        distance: 14.0
+        title: "Head for the 'Lucani Dolomites'"
+        distance: 0.0
         meals_included:
           - breakfast
           - lunch
+          - dinner
+        description: "This morning we leave Matera and head west for the 'Lucani Dolomites', a spectacular sandstone range on the edge of the Gallipoli-Cognato National Park.  On the way, we stop for a guided visit to Craco, the most spectacular 'phantom town' in Italy, abandoned because of an earthquake in 1963.  In the 'Lucani Dolomites' we stay in a lovely family-run 3-star hotel in a fairytale town under soaring rock peaks.  Dinner is at their celebrated restaurant."
+        photo: guided/106.jpeg
       -
         id: V5y6olGGteTR7aqTsF3FH
-        title: 'A cultural and culinary delight'
+        title: 'Visit the neighbours'
         meals_included:
           - breakfast
           - lunch
+        description: "Today's is a loop walk that takes around the spectacular rock formations that surround the town and across the ravine to the neighbouring twin-town.  Along the way, our local guide will introduce us to the fascinating history of these two ancient rivals.  Having enjoyed the views, we will have lunch and then return to our base, where the evening is free."
+        duration: 4.0
+        distance: 10.0
+        elevation: 768
+        photo: guided/img_3589-v2.jpeg
       -
         id: 7HnpGnYA9oMkxf9wqePAZ
-        title: 'Spectacular mountain walking'
         meals_included:
           - breakfast
           - lunch
@@ -297,7 +307,7 @@ seasons: spring
 locations: southern-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1785219206
+updated_at: 1785220951
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
