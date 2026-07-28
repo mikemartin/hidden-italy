@@ -66,13 +66,17 @@ page_builder:
         type: paragraph
         content:
           - type: text
-            text: 'text text'
+            text: 'Strategically placed between Rome and the ports of Puglia, Basilicata has a long and colourful history. It was crossed by the Roman Via Appia; occupied by the Byzantines and Normans; and later traversed by the Via Francigena, which carried pilgrims and traders to the Holy Land. In the 19th century, it became known for its brigands who roamed the uplands resisting Garibaldi’s armies and Italian unification. Today it is a far more peaceful place: well off the tourist trail, with welcoming towns that retain the pace and charm of earlier times.'
     column_right:
       -
         type: paragraph
         content:
           - type: text
-            text: 'text text'
+            text: "This 12-night tour begins with three nights in a 4-star hotel in Matera, the region’s star attraction. We then drive west for three nights in a family-run hotel in a fairytale town below the sandstone peaks of the ‘Lucani Dolimites’, before moving to the heart of Pollino the National Park for three nights in a mountain lodge. The tour ends with three nights in a beautiful 4-star hotel with a pool overlooking the Tyrrhenian Sea, followed by transfers to Naples station and airport on the final day.\_ Pure southern Italy!"
+    images:
+      - guided/img_2201.jpeg
+      - guided/img_5161.jpeg
+      - guided/img_3120.jpeg
   -
     id: L-xBFglx3C6oFGLfQX754
     section_background: light
@@ -81,25 +85,29 @@ page_builder:
     show_topography: false
     activities:
       - id: sBhtndcz7wpXB6i4aU0kR
-        title: 'Discover the arch of the boot'
-        summary: "Local guides will help you discover one of Italy's most remote and least visited region"
-        icon: 'tourism-tour guide.svg'
+        title: "Discover Italy's most fascinating town"
+        summary: 'Matera is absolutely unique.  Spend a day with a local guide unlocking the mysteries of this fascinating UNESCO town.'
+        icon: culture-italy.svg
       - id: RezgZqkCTnivlqqhDjIZb
-        title: Cooking
-        summary: 'Sit down and enjoy the wholesome home-cooking: pastas, meats and fresh garden vegetables'
-        icon: bakery-bread.svg
+        title: 'Stay in a unique hotel in the Sassi'
+        summary: "Stay three nights in a beautifully restored, historic hotel in the heart of Matera's celebrated Sassi district"
+        icon: culture-champagne.svg
       - id: Wj73RrKfQG4N51CdrrGbA
-        title: 'The Pearl of Tyrrhenian Sea'
-        icon: nature-lake.svg
-        summary: 'Explore its stunning landscapes, offering breathtaking sea views, serene wooded hillsides, and majestic mountains'
+        title: "Explore two of Italy's grandest national parks"
+        icon: geography-cartography-rural.svg
+        summary: "Local guides take you along the trails of two of Italy's grandest national parks: the Pollino and the Gallipoli-Cognato."
       - id: pwK5yo4MPCYrS2xrAdIXn
-        title: 'A day on the sea'
-        summary: 'Spend the day cruising the beautiful waters of XXX'
-        icon: transport-sailboat.svg
+        title: 'Enjoy fine southern cooking'
+        summary: 'Basilicata cuisine is wholesome home-cooking based on the freshest ingredients: fish, meat, cheese and spring vegetables'
+        icon: gastronomy-spaghetti.svg
       - id: ShfhKkKPFNLPiJpU0fuQ1
-        summary: 'Visit a  UNESCO World Heritage Site???'
+        summary: 'Stay in a beautiful 4-star hotel high above the ravishing coast in the gorgeous town of Maratea, pearl of the Tyhrrenian'
+        title: 'Finish in ravishing Maratea'
+        icon: nature-beach.svg
       - id: be3yfzj6SgiETet5KRbR0
-        summary: TBA
+        summary: 'Spend the morning swimming and exploring the coast on a private boat, before a delicious seafood lunch in the port.'
+        title: 'Relax on boat tour of the coast'
+        icon: transport-sailboat.svg
   -
     id: z3KjMnW9KrNFd12RC7hC6
     section_background: none
@@ -286,7 +294,7 @@ seasons: spring
 locations: southern-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1785215464
+updated_at: 1785218076
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
