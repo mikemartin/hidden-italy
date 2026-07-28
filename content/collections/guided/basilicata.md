@@ -307,7 +307,7 @@ seasons: spring
 locations: southern-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1785220951
+updated_at: 1785222297
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
@@ -322,11 +322,11 @@ gallery:
   - guided/101.jpeg
   - guided/102.jpg
   - guided/103.jpeg
-  - guided/img_3583.jpeg
   - guided/106.jpeg
   - guided/107.jpeg
   - guided/105.jpeg
   - guided/108.jpg
+  - guided/img_5161.jpeg
   - guided/109.jpg
   - guided/111.jpg
   - guided/110.jpg
