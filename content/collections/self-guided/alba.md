@@ -5,8 +5,8 @@ title: 'Alba and Le Langhe - Piedmont'
 name: 'Alba and Le Langhe'
 region: Piedmont
 days: 8
-updated_by: 3
-updated_at: 1780965929
+updated_by: 4
+updated_at: 1785295917
 grade: 3
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
@@ -33,15 +33,13 @@ page_builder:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: 'Your well-marked walking trails will take through this exceptional area, passing undulating vineyards, pine forests, orchards and hazel nut farms. Along the way, you will visit in some very attractive towns and villages and stay in welcoming accommodation, that is often part of the history of the towns themselves.'
     column_right:
       -
         type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "You'll also have plenty of opportunity to sample some Le Langhe's very special treats. The district is also one of Italy’s gastronomic capitals, the home of the Slow Food Association, famous for its cheeses, meats, chocolates, hazel nuts and white truffles, as well, of course, as its excellent wines. There is much to see and do!"
     title: 'Vineyards, pine forests and hazelnut farms'
     images:
@@ -53,33 +51,27 @@ page_builder:
     id: mloocwbk
     heading: 'Highlights of the Alba and Le Langhe tour'
     activities:
-      -
-        id: mlooee34
+      - id: mlooee34
         title: 'Enjoy a continuous 8-day walk'
         summary: 'Enjoy a continuous walk through vineyards and forest following well-marked trails from village to village for seven days'
         icon: trekking-trekking.svg
-      -
-        id: mloog7vk
+      - id: mloog7vk
         title: 'Savour the famous food and wines'
         summary: "Relish the district's famous cuisine (truffles, mushrooms, cheeses, game) and its celebrated wines, both reds and whites"
         icon: 'wine-wine bottle.svg'
-      -
-        id: mlooou12
+      - id: mlooou12
         title: 'Be wowed by the gorgeous scenery'
         summary: 'You walk through rolling hills covered in vineyards, past cute towns with the snowy peaks of the Alps in the distance.'
         icon: geography-cartography-hills.svg
-      -
-        id: 0cFvFwfWzMeuNllxlpi-e
+      - id: 0cFvFwfWzMeuNllxlpi-e
         title: 'Stay in exceptional accommodation'
         summary: 'Stay in exceptional accommodation from a restored medieval home, to a charming agriturismo and a former royal residence.'
         icon: culture-Vineyard.svg
-      -
-        id: wwcrR53eEZZnhGZMcBplA
+      - id: wwcrR53eEZZnhGZMcBplA
         title: 'Explore Alba'
         summary: 'Enjoy beautiful Alba, one of the most interesting towns in Piedmont - you will have plenty of opportunity to explore it.'
         icon: culture-Pantheon.svg
-      -
-        id: mlooun08
+      - id: mlooun08
         title: 'Pull on your boots, we’ll handle the rest'
         summary: 'Enjoy yourself as everything has been looked after, private transfers, daily bag moves, maps, our app and 24-hour local support.'
         icon: culture-champagne.svg
@@ -93,8 +85,7 @@ page_builder:
     title: 'Alba and Le Langhe walking tour itinerary'
     summary: "Starting and finishing in beautiful Alba, this 8 day circular walk explores the sweet rolling hills of the Langhe, one of Italy's premier wine and food regions, it is scattered with villages and castles that date from Roman times and crisscrossed with trails that have been walked for centuries."
     days:
-      -
-        id: mlooymbz
+      - id: mlooymbz
         title: 'Transfer from Turin to Alba'
         description: 'You will be taken by private transfer from Turin to beautiful Alba, 95 kilometres south. The plan of the historic centre of Alba reflects its Roman origins (an orderly grid tucked behind defensive walls) while its narrow streets are decidedly medieval, complete with a five brick tower-houses that date from the 13th century.'
         photo: self-guided/alba-and-le-langhe/alba-2.jpg
@@ -181,9 +172,8 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
-                text: "The trails are well-marked and generally follow unsealed country lanes over rolling hills often through vineyards and orchards. There are the occasional rougher sections and some asphalt walking into and out of the larger towns.\_The walk on Day 5 is 17 kms and on Day 6 is 19 km, which will take around 5 hours walking.\_ With notice, both walks can be shortened.\_Full details on each walk are on the itinerary"
+              - type: text
+                text: "The trails are well-marked and generally follow unsealed country lanes over rolling hills often through vineyards and orchards. There are the occasional rougher sections and some asphalt walking into and out of the larger towns.\_The walk on Day 5 is 17 kms and on Day 6 is 19 km, which will take around 5 hours walking.\_With notice, both walks can be shortened.\_Full details on each walk are on the itinerary"
         image: self-guided/alba-and-le-langhe/5.jpg
         type: walk
         enabled: true
@@ -194,8 +184,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "Alba and the Langhe have a long history of hospitality and offer a range of very comfortable and welcoming accommodation. During the walk you will stay in a variety of accommodation including 4-star hotels, an ex-castle/vineyard which once belonged to the king of Italy; a lovely small hotel in the heart of the prettiest village in the district and an agriturismo outside a small hilltop village, which has a pool and an excellent restaurant.\_All with ensuite bathrooms."
         media:
           - self-guided/alba-and-le-langhe/benevello-6.jpg
@@ -208,14 +197,12 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "Alba and the Langhe is one of Italy’s gastronomic and wine capitals so you will eat and drink very well during this tour (just as well there are some long walks!). According to Pliny the Elder and Strabo, this area was producing fine wines in Roman times.\_It’s modern manifestation started in the mid-1800s with the introduction of production techniques from nearby France.\_Big, bold Barolo, the flagship wine, is recognised as one of the finest reds in Europe.\_"
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "The area is also famous for its food:\_ the white truffles; cheeses like toma and castelmagno; Carru beef and traditional dishes such as agnolotti (local ravioli); tajarin (‘angel hair’ pasta usually served with truffles or porcini mushrooms); bagna caoda (boiled meats); vitello tonnato; brasato al Barolo (beef stewed in Barolo); coniglio con pepperoni (rabbit slow cooked in white wine with bell peppers) and bonet (a rich chocolate pudding)."
           -
             type: paragraph
@@ -223,8 +210,7 @@ page_builder:
               -
                 type: text
                 marks:
-                  -
-                    type: italic
+                  - type: italic
                 text: 'Generous breakfasts are included each day. Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit. You will be able to make reservations where applicable directly through the Hidden Italy App.'
         media:
           - self-guided/alba-and-le-langhe/9.jpg
@@ -246,8 +232,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'To help guide you on this wonderful walk, you’ll receive our Hidden Italy booklet — a handy A5 guide with detailed daily walking notes and clear maps, updated and revised each year. You’ll also have access to our exclusive Hidden Italy App, which complements the booklet and works on both Apple and Android devices. The app includes route maps, GPS tracks, altimetric profiles, turn-by-turn navigation, an alert if you stray off the path, and an emergency function. In addition, you’ll have 24-hour phone support from our local team.'
         type: general
         enabled: true
@@ -257,8 +242,7 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
         type: equipment
         enabled: true
@@ -268,20 +252,17 @@ page_builder:
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
           -
             type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
@@ -294,11 +275,9 @@ page_builder:
               -
                 type: text
                 marks:
-                  -
-                    type: bold
+                  - type: bold
                 text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
-              -
-                type: text
+              - type: text
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
@@ -306,8 +285,7 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  -
-    id: ED0qTzIe
+  - id: ED0qTzIe
     type: faqs
     enabled: true
     show_common_questions: true
@@ -325,8 +303,7 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  -
-    id: wb_zSLmwMP3HTXi3dBe
+  - id: wb_zSLmwMP3HTXi3dBe
     type: walking_benefits
     enabled: true
     tour_type: auto
@@ -389,8 +366,7 @@ summary:
   -
     type: paragraph
     content:
-      -
-        type: text
+      - type: text
         text: "This delightful 8-day/7-night circuit walk starts with a private transfer to beautiful Alba, 95 kilometres south of Turin.\_A handsome town of Roman origin, Alba is the ‘capital’ of the Langhe, a close-knit range of hills and valleys which are crowded with impeccably tended rows of nebbiolo vines, the source of some of Italy’s finest wines, including Barolo and Barbaresco.\_They form a unique and striking landscape which is dotted with attractive hill-towns, castles and wineries, so much so that the district was recently listed as a UNESCO World Heritage site."
 price: 'A$3,300 pp'
 show_from: true
