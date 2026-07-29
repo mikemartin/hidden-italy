@@ -183,18 +183,29 @@ page_builder:
           - lunch
           - dinner
         description: "Today we leave the 'Lucani Dolomites' and drive to our next base, a beautiful mountain lodge in the heart of the Pollino National Park, Italy's largest.  On the way we will stop for coffee at Aliano (made famous by Carlo Levi's book Christ Stopped at Eboli) and for lunch and a visit to Viggianello, a charming village with a Byzantine chapel and a Norman castle.  After settling in to our accommodation, we'll have an aperitivo and dinner at the lodge's excellent restaurant."
-      - id: 0l3nLZ0EbT-jFT0RWNEs5
+      -
+        id: 0l3nLZ0EbT-jFT0RWNEs5
         title: 'Explore the woods and fields'
         distance: 10.0
         description: "Today's walk is a great introduction to the national park  It follows a loop route, that leaves our accommodation winding through pine forests before climbing up to the top of Montagna di Grasta (1434 mts) which has spectacular views south into Calabria.  We'll have a picnic lunch along the way.  Back at base the rest of the afternoon is free.  Dinner will be at the lodge."
         duration: 4.0
         elevation: 430
+        photo: guided/fasanelli-1.webp
+        meals_included:
+          - breakfast
+          - lunch
+          - dinner
       -
         id: yAPlMq-7I0LxA3jqvlhrw
-        title: 'Visit the Roman cisterns'
+        title: 'A hike to the roof of the Pollino NP'
         meals_included:
           - breakfast
           - dinner
+        description: "Today is another loop route, which requires a short transfer to start with.  We then follow historical droving trails up through chestnut and beech forests to the tree free ridges to enjoy 360% views over the whole national park.  We will have a picnic lunch at the top.  On the way back, we will visit some ancient 'loricato' pine, only found in the Pollino NP.  Dinner is at our accommodation"
+        duration: 4.0
+        distance: 10.0
+        elevation: 660
+        photo: guided/fasanelli-2.jpeg
       -
         id: KHRGr3D2yhqLQdiThxIUa
         distance: 12.0
@@ -319,7 +330,7 @@ seasons: spring
 locations: southern-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1785302119
+updated_at: 1785303715
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
@@ -335,12 +346,12 @@ gallery:
   - guided/102.jpg
   - guided/103.jpeg
   - guided/106.jpeg
-  - guided/107.jpeg
   - guided/105.jpeg
-  - guided/108.jpg
+  - guided/107.jpeg
+  - guided/fasanelli-2.jpeg
   - guided/109.jpg
-  - guided/img_5161.jpeg
   - guided/111.jpg
+  - guided/img_5161.jpeg
   - guided/110.jpg
   - guided/112.jpeg
 ---
