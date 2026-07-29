@@ -183,6 +183,7 @@ page_builder:
           - lunch
           - dinner
         description: "Today we leave the 'Lucani Dolomites' and drive to our next base, a beautiful mountain lodge in the heart of the Pollino National Park, Italy's largest.  On the way we will stop for coffee at Aliano (made famous by Carlo Levi's book Christ Stopped at Eboli) and for lunch and a visit to Viggianello, a charming village with a Byzantine chapel and a Norman castle.  After settling in to our accommodation, we'll have an aperitivo and dinner at the lodge's excellent restaurant."
+        photo: guided/108.jpg
       -
         id: 0l3nLZ0EbT-jFT0RWNEs5
         title: 'Explore the woods and fields'
@@ -200,6 +201,7 @@ page_builder:
         title: 'A hike to the roof of the Pollino NP'
         meals_included:
           - breakfast
+          - lunch
           - dinner
         description: "Today is another loop route, which requires a short transfer to start with.  We then follow historical droving trails up through chestnut and beech forests to the tree free ridges to enjoy 360% views over the whole national park.  We will have a picnic lunch at the top.  On the way back, we will visit some ancient 'loricato' pine, only found in the Pollino NP.  Dinner is at our accommodation"
         duration: 4.0
@@ -208,29 +210,39 @@ page_builder:
         photo: guided/fasanelli-2.jpeg
       -
         id: KHRGr3D2yhqLQdiThxIUa
-        distance: 12.0
         meals_included:
           - breakfast
           - lunch
-          - dinner
+        title: 'Transfer to Maratea'
+        description: 'Today we leave the mountains and forest and embrace the beautiful Tyhrrenian coastline.  Along the way, we stop for a coffee in Rotonda and then lunch in Rivello, a picture-perfect medieval village where we will have a delicious lunch.  Maratea is drive further on.  After checking into our gorgeous hotel, the rest of the day and evening to explore this fascinating towm.'
       -
         id: j-gmsVnOqpZy0rOQpeOlG
-        title: 'An authentic dining experience'
+        title: 'Explore the Tyhrrenian coast'
         meals_included:
           - breakfast
           - lunch
+        description: 'This morning a private boat will take us up the coast, with plenty of opportunities to explore the rugged coastline and plenty of opportunities to dive into the blue Mediterranean Sea.  We will return to port for a wonderful seafood dinner in one of the best restaurants in the district.  Back at base, you will have the option of a short walk up to visit the famous gigantic statue of Jesus that dominates the bay or to simply relax and enjoy the accommodation.  The evening is free.'
+        duration: 2.0
+        distance: 5.0
+        elevation: 263
+        photo: guided/110.jpg
       -
         id: 4aE_GQ_5tU2YwEUaKJNG8
-        title: 'Visit the wonderful cathedral'
+        title: 'Go for a walk down the coast'
         meals_included:
           - breakfast
           - dinner
+        description: "The tour finishes with a spectacular walk down the coast, following a path high above the sea.  At the end of the walk, you will be transferred to a beach club where you can have a swim and a light lunch.  The afternoon is free.  We will regroup for a farewell aperitivo and dinner in one of the town's excellent restaurants."
+        duration: 3.0
+        distance: 8.0
+        elevation: 89
       -
         id: fDUzSckxzWLu1D2DbqbFR
-        title: 'Depart Orvieto'
-        description: 'Breakfast at the hotel.'
+        title: 'Depart for Naples'
+        description: 'All good things must come to an end!  After breakfast at the hotel, we will be transferred to Naples, first stop at the Centrale Station and then at the international airport.'
         meals_included:
           - breakfast
+    title: 'Welcome to the Basilicata guided tour'
   -
     id: 6np4rNhRue8SqrUBCqHuK
     section_background: dark
@@ -330,7 +342,7 @@ seasons: spring
 locations: southern-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1785303715
+updated_at: 1785304675
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
