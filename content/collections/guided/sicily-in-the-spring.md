@@ -6,8 +6,8 @@ name: 'Sicily in the Spring'
 region: Sicily
 seasons: spring
 locations: southern-italy
-updated_by: 2
-updated_at: 1785128759
+updated_by: 4
+updated_at: 1785296509
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -26,7 +26,7 @@ gallery:
   - guided/sicily-in-the-spring/63.jpg
   - guided/sicily-in-the-spring/65.jpg
 simple_likes: 0
-leader: 656b56c6-ff12-45de-86a3-c6c480d7c141
+leader: 699bd6c8-377d-46a8-bd97-234a3720b9f1
 page_builder:
   -
     id: 60cb2f47dbf79c3c
