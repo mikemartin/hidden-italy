@@ -38,7 +38,6 @@ finish_location:
       code: null
       level: 2
   country: Italy
-date: '2027-05-15 14:00'
 now_open: true
 badge_text: 'New Tour'
 days: 13
@@ -131,6 +130,9 @@ page_builder:
           - breakfast
           - lunch
         photo: guided/img_2201.jpeg
+        duration: 6.0
+        distance: 12.0
+        elevation: 220
       -
         id: dRttPDU-P82DA7eK9yvVs
         title: 'Go for a walk'
@@ -342,7 +344,7 @@ seasons: spring
 locations: southern-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1785304675
+updated_at: 1785307823
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
@@ -357,8 +359,8 @@ gallery:
   - guided/101.jpeg
   - guided/102.jpg
   - guided/103.jpeg
-  - guided/106.jpeg
   - guided/105.jpeg
+  - guided/106.jpeg
   - guided/107.jpeg
   - guided/fasanelli-2.jpeg
   - guided/109.jpg
