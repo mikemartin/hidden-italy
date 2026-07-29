@@ -7,7 +7,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: 4
-updated_at: 1785119198
+updated_at: 1785289784
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
@@ -398,7 +398,7 @@ finish_location:
       code: null
       level: 2
   country: Italy
-now_open: true
+now_open: false
 headline: 'Explore magical Sardinia'
 teaser: 'Sardinia is a magical island, a few hours by ferry, a world away from continental Italy.'
 summary:
