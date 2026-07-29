@@ -38,6 +38,7 @@ finish_location:
       code: null
       level: 2
   country: Italy
+date: '2027-09-16 14:00'
 now_open: true
 badge_text: 'New Tour'
 days: 13
@@ -147,7 +148,6 @@ page_builder:
       -
         id: DSEbPuDVys5s-dLV1Yqjy
         title: "Head for the 'Lucani Dolomites'"
-        distance: 0.0
         meals_included:
           - breakfast
           - lunch
@@ -207,7 +207,7 @@ page_builder:
           - dinner
         description: "Today is another loop route, which requires a short transfer to start with.  We then follow historical droving trails up through chestnut and beech forests to the tree free ridges to enjoy 360% views over the whole national park.  We will have a picnic lunch at the top.  On the way back, we will visit some ancient 'loricato' pine, only found in the Pollino NP.  Dinner is at our accommodation"
         duration: 4.0
-        distance: 10.0
+        distance: 12.0
         elevation: 660
         photo: guided/fasanelli-2.jpeg
       -
@@ -252,18 +252,46 @@ page_builder:
     enabled: true
     title: 'Basilicata Guided Tour'
     tabs:
-      - id: 68QDLI5yPSbGdCN6NXWED
+      -
+        id: 68QDLI5yPSbGdCN6NXWED
         title: 'Exceptional walking'
         type: walk
         enabled: true
-      - id: PEePl_7BCgVNDSxdSJl6B
+        total_distance: 84.0
+        total_elevation: 3270
+        description:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: "The walks on this tour follow well marked and well-maintained trails.  They vary in distance from 5 to 15 kilometres.  As we are walking mostly in national parks, there are some long climbs but they aren't steep and we have plenty of time."
+        image: guided/img_5183.jpeg
+      -
+        id: PEePl_7BCgVNDSxdSJl6B
         title: 'Boutique accommodation'
         type: accommodation
         enabled: true
-      - id: wMVJ8e4dKm72p178Gc6L6
+        description:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: "The accommodation is one of the highlights of this tour.  We start and finish the tours staying in very nice 4-star hotels.  In Matera the hotel is an exceptional 'albergo diffuso' using very carefully restored historical spaces.  In Maratea the accommodation is in a beautifully restored 15th century convent (with a swimming pool and gardens).  In between we stay at a very welcoming family-run 3-star hotel and a very comfortable mountain lodge in the heart of the Pollino NP.  Both have celebrated restaurants!"
+        media:
+          - guided/110.jpg
+      -
+        id: wMVJ8e4dKm72p178Gc6L6
         title: 'Authentic food'
         type: food
         enabled: true
+        description:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: "Food, of course, is also a highlight travelling anywhere in Italy, but particularly in the south.  In Basilicata, the cooking is generally very wholesome home-cooking, derived from a long tradition of the 'cucina povera'.  It is based on very fresh season ingredients: fruit and vegetables from the gardens; fresh fish on the coast; and fresh pastas (paricularly ravioli), cheeses and preserved meats in the mountains.  Peperone crusco is the signature dish, sun-dried red peppers that garnish many offering!"
+        media:
+          - guided/107.jpeg
     show_topography: true
   - id: Q8teFUrQd_KaHrdLR1Myv
     title: 'Tour Leader'
@@ -344,7 +372,7 @@ seasons: spring
 locations: southern-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1785307823
+updated_at: 1785309243
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
