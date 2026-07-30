@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: 4
-updated_at: 1785375691
+updated_at: 1785376276
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -440,5 +440,5 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 overlay_opacity: 20
 badge_text: Featured
-availability_text: 'Next available - 30 Apr 2027 & 14 May 2027'
+availability_text: 'Tour Start Dates: 30 Apr 2027 & 14 May 2027 - last spaces'
 ---
