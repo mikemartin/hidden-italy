@@ -217,6 +217,7 @@ page_builder:
           - lunch
         title: 'Transfer to Maratea'
         description: 'Today we leave the mountains and forest and embrace the beautiful Tyhrrenian coastline.  Along the way, we stop for a coffee in Rotonda and then lunch in Rivello, a picture-perfect medieval village where we will have a delicious lunch.  Maratea is drive further on.  After checking into our gorgeous hotel, the rest of the day and evening to explore this fascinating towm.'
+        photo: guided/110.jpg
       -
         id: j-gmsVnOqpZy0rOQpeOlG
         title: 'Explore the Tyhrrenian coast'
@@ -227,7 +228,7 @@ page_builder:
         duration: 2.0
         distance: 5.0
         elevation: 263
-        photo: guided/110.jpg
+        photo: guided/maratea-port-1785654095.jpeg
       -
         id: 4aE_GQ_5tU2YwEUaKJNG8
         title: 'Go for a walk down the coast'
@@ -238,12 +239,14 @@ page_builder:
         duration: 3.0
         distance: 8.0
         elevation: 89
+        photo: guided/111.jpg
       -
         id: fDUzSckxzWLu1D2DbqbFR
         title: 'Depart for Naples'
         description: 'All good things must come to an end!  After breakfast at the hotel, we will be transferred to Naples, first stop at the Centrale Station and then at the international airport.'
         meals_included:
           - breakfast
+        photo: guided/img_3120.jpeg
     title: 'Welcome to the Basilicata guided tour'
   -
     id: 6np4rNhRue8SqrUBCqHuK
@@ -372,7 +375,7 @@ seasons: spring
 locations: southern-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1785309243
+updated_at: 1785654310
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
@@ -392,8 +395,8 @@ gallery:
   - guided/107.jpeg
   - guided/fasanelli-2.jpeg
   - guided/109.jpg
-  - guided/111.jpg
-  - guided/img_5161.jpeg
   - guided/110.jpg
-  - guided/112.jpeg
+  - guided/maratea-port-1785654095.jpeg
+  - guided/img_5161.jpeg
+  - guided/111.jpg
 ---
