@@ -6,7 +6,7 @@ name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
 updated_by: 4
-updated_at: 1781150820
+updated_at: 1785712082
 grade: 4
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
@@ -179,7 +179,7 @@ page_builder:
             type: paragraph
             content:
               - type: text
-                text: "The hikes follow very well-maintained and well-marked trails that have been used by traders, farmers and travellers since the Middle Ages.\_They take you through a variety of terrain (high mountain passes, ancient larch forests, the banks of the River Lys) all the time surrounded by breath-taking scenery.\_ here are some sustained climbs and descents, so you will need to have a good level of fitness, but your efforts are amply rewarded by the views and the warm mountain hospitality at the end of each day. You will need to carry a change of clothes, pyjamas and a toothbrush on Days 2 and Day 4."
+                text: "The hikes follow very well-maintained and well-marked trails that have been used by traders, farmers and travellers since the Middle Ages.\_They take you through a variety of terrain (high mountain passes, ancient larch forests, the banks of the River Lys) all the time surrounded by breath-taking scenery.\_There are some sustained climbs and descents, so you will need to have a good level of fitness, but your efforts are amply rewarded by the views and the warm mountain hospitality at the end of each day. You will need to carry a change of clothes, pyjamas and a toothbrush on Days 2 and Day 4."
         image: self-guided/valley-del-lys/9-1776049452.jpg
         type: walk
         enabled: true
