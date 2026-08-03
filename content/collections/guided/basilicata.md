@@ -74,7 +74,7 @@ page_builder:
         type: paragraph
         content:
           - type: text
-            text: "This 12-night tour begins with three nights in a 4-star hotel in Matera, the region’s star attraction. We then drive west for three nights in a family-run hotel in a fairytale town below the sandstone peaks of the ‘Lucani Dolimites’, before moving to the heart of Pollino the National Park for three nights in a mountain lodge. The tour ends with three nights in a beautiful 4-star hotel with a pool overlooking the Tyrrhenian Sea, followed by transfers to Naples station and airport on the final day.\_ Pure southern Italy!"
+            text: "This 12-night tour begins with three nights in a 4-star hotel in Matera, the region’s star attraction. We then drive west for three nights in a family-run hotel in a fairytale town below the sandstone peaks of the ‘Lucani Dolimites’, before moving to the heart of Pollino the National Park for three nights in a mountain lodge. The tour ends with three nights in a beautiful 4-star hotel with a pool overlooking the Tyrrhenian Sea, followed by transfers to Naples station and airport on the final day.\_Pure southern Italy!"
     images:
       - guided/img_2201.jpeg
       - guided/img_5161.jpeg
@@ -374,8 +374,8 @@ show_from: true
 seasons: spring
 locations: southern-italy
 simple_likes: 0
-updated_by: 2
-updated_at: 1785654310
+updated_by: 4
+updated_at: 1785726022
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
@@ -385,7 +385,7 @@ summary:
     type: paragraph
     content:
       - type: text
-        text: "Basilicata is one of Italy’s least-explored regions. This dramatic land of rocks, mountains, forests and upland meadows spans the ‘instep’ of Italy’s ‘boot’, with short coastlines on both the Tyrrhenian and Ionian Seas. It is home to two of Italy’s most striking national parks: the Pollino National Park, with its limestone mountains, beech and pine forests; and the sandstone peaks of the ‘Lucani Dolomites’ in Gallipoli-Cognato National Park; as well as some of southern Italy’s most fascinating towns.\_ A Hidden Italy special!"
+        text: "Basilicata is one of Italy’s least-explored regions. This dramatic land of rocks, mountains, forests and upland meadows spans the ‘instep’ of Italy’s ‘boot’, with short coastlines on both the Tyrrhenian and Ionian Seas. It is home to two of Italy’s most striking national parks: the Pollino National Park, with its limestone mountains, beech and pine forests; and the sandstone peaks of the ‘Lucani Dolomites’ in Gallipoli-Cognato National Park; as well as some of southern Italy’s most fascinating towns.\_A Hidden Italy special!"
 gallery:
   - guided/101.jpeg
   - guided/102.jpg
