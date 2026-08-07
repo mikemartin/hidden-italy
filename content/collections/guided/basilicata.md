@@ -1,6 +1,5 @@
 ---
 id: 11a4453e-9cd1-4418-b350-c3c35a49ae4c
-published: false
 blueprint: tour
 title: 'Basilicata Guided Tour - Basilicata'
 region: Basilicata
@@ -375,7 +374,7 @@ seasons: spring
 locations: southern-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1786065788
+updated_at: 1786069286
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
