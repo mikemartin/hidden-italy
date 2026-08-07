@@ -375,7 +375,7 @@ seasons: spring
 locations: southern-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1785726022
+updated_at: 1786065788
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
@@ -399,4 +399,5 @@ gallery:
   - guided/maratea-port-1785654095.jpeg
   - guided/img_5161.jpeg
   - guided/111.jpg
+price: 'Intro offer A$9,590 pp'
 ---
