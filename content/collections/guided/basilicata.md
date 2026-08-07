@@ -171,7 +171,7 @@ page_builder:
           - lunch
           - dinner
         title: 'Explore the remains of a pre-Roman city'
-        description: "A short drive takes us into the heart of the Gallipoli-Cognato National Park, where we will walk through woods with breathtaking scenery to visit the fascinating remains of a Osco-Samnite city, which was hidden in the forests for over two millennia.  It predates Romans settlement by several centuries .  We will have a light picnic lunch along the way before returning to our base.  Dinner is at the hotel's excellent restaurant."
+        description: 'A short drive takes us into the heart of the Gallipoli-Cognato National Park, where we will walk through woods with breathtaking scenery to visit the fascinating remains of an Osco-Samnite city, which was hidden in the forests for over two millennia.  It predates Roman settlement by several centuries. We will have a light picnic lunch along the way before returning to our base.'
         duration: 4.0
         distance: 12.0
         elevation: 590
@@ -183,13 +183,13 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        description: "Today we leave the 'Lucani Dolomites' and drive to our next base, a beautiful mountain lodge in the heart of the Pollino National Park, Italy's largest.  On the way we will stop for coffee at Aliano (made famous by Carlo Levi's book Christ Stopped at Eboli) and for lunch and a visit to Viggianello, a charming village with a Byzantine chapel and a Norman castle.  After settling in to our accommodation, we'll have an aperitivo and dinner at the lodge's excellent restaurant."
+        description: "Today we leave the 'Lucani Dolomites' and drive to our next base, a beautiful mountain lodge in the heart of the Pollino National Park, Italy's largest. On the way, we will stop for coffee at Aliano (made famous by Carlo Levi's book Christ Stopped at Eboli) and for lunch and a visit to Viggianello, a charming village with a Byzantine chapel and a Norman castle.  After settling into our accommodation, we'll have an aperitivo and dinner at the lodge's excellent restaurant."
         photo: guided/108.jpg
       -
         id: 0l3nLZ0EbT-jFT0RWNEs5
         title: 'Explore the woods and fields'
         distance: 10.0
-        description: "Today's walk is a great introduction to the national park  It follows a loop route, that leaves our accommodation winding through pine forests before climbing up to the top of Montagna di Grasta (1434 mts) which has spectacular views south into Calabria.  We'll have a picnic lunch along the way.  Back at base the rest of the afternoon is free.  Dinner will be at the lodge."
+        description: "Today's walk is a great introduction to the national park  It follows a loop route, that leaves our accommodation winding through pine forests before climbing up to the top of Montagna di Grasta (1434 mts) which has spectacular views south into Calabria. We'll have a picnic lunch along the way.  Back at base the rest of the afternoon is free. Dinner will be at the lodge."
         duration: 4.0
         elevation: 430
         photo: guided/fasanelli-1.webp
@@ -204,7 +204,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        description: "Today is another loop route, which requires a short transfer to start with.  We then follow historical droving trails up through chestnut and beech forests to the tree free ridges to enjoy 360% views over the whole national park.  We will have a picnic lunch at the top.  On the way back, we will visit some ancient 'loricato' pine, only found in the Pollino NP.  Dinner is at our accommodation"
+        description: "Today is another loop route, which requires a short transfer to start with. We then follow historical droving trails up through chestnut and beech forests to the tree free ridges to enjoy 360% views over the whole national park.  We will have a picnic lunch at the top. On the way back, we will visit some ancient 'loricato' pine, only found in the Pollino NP. Dinner is at our accommodation."
         duration: 4.0
         distance: 12.0
         elevation: 660
@@ -215,7 +215,7 @@ page_builder:
           - breakfast
           - lunch
         title: 'Transfer to Maratea'
-        description: 'Today we leave the mountains and forest and embrace the beautiful Tyhrrenian coastline.  Along the way, we stop for a coffee in Rotonda and then lunch in Rivello, a picture-perfect medieval village where we will have a delicious lunch.  Maratea is drive further on.  After checking into our gorgeous hotel, the rest of the day and evening to explore this fascinating towm.'
+        description: 'Today we leave the mountains and forest and embrace the beautiful Tyhrrenian coastline.  Along the way, we stop for a coffee in Rotonda and then lunch in Rivello, a picture-perfect medieval village where we will have a delicious lunch.  Maratea is drive further on.  After checking into our gorgeous hotel, the rest of the day and evening to explore this fascinating town.'
         photo: guided/110.jpg
       -
         id: j-gmsVnOqpZy0rOQpeOlG
@@ -223,7 +223,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        description: 'This morning a private boat will take us up the coast, with plenty of opportunities to explore the rugged coastline and plenty of opportunities to dive into the blue Mediterranean Sea.  We will return to port for a wonderful seafood dinner in one of the best restaurants in the district.  Back at base, you will have the option of a short walk up to visit the famous gigantic statue of Jesus that dominates the bay or to simply relax and enjoy the accommodation.  The evening is free.'
+        description: 'This morning a private boat will take us up the coast, with plenty of opportunities to explore the rugged coastline and plenty of opportunities to dive into the blue Mediterranean Sea.  We will return to port for a wonderful seafood dinner in one of the best restaurants in the district.  Back at base, you will have the option of a short walk up to visit the famous gigantic statue of Jesus that dominates the bay or to simply relax and enjoy the accommodation. The evening is free.'
         duration: 2.0
         distance: 5.0
         elevation: 263
@@ -374,7 +374,7 @@ seasons: spring
 locations: southern-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1786069286
+updated_at: 1786069938
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
