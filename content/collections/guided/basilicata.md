@@ -37,7 +37,7 @@ finish_location:
       code: null
       level: 2
   country: Italy
-date: '2027-09-16 14:00'
+date: '2027-10-04 13:00'
 now_open: true
 badge_text: 'New Tour'
 days: 13
@@ -370,11 +370,11 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_from: true
-seasons: spring
+seasons: autumn
 locations: southern-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1786069938
+updated_at: 1786432340
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
