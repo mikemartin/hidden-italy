@@ -45,7 +45,7 @@ grade: 3
 tour_size: 15
 leader: fa3be588-b0dd-4d37-9213-bafbd1992434
 inclusions:
-  - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
+  - '12 nights accommodation (see the itinerary for details)'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
   - 'All transfers and activities during the tours'
   - 'All taxes and service charges at the hotels and restaurants'
@@ -373,8 +373,8 @@ show_from: true
 seasons: autumn
 locations: southern-italy
 simple_likes: 0
-updated_by: 4
-updated_at: 1786432340
+updated_by: 2
+updated_at: 1786659973
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
@@ -384,7 +384,7 @@ summary:
     type: paragraph
     content:
       - type: text
-        text: "Basilicata is one of Italy’s least-explored regions. This dramatic land of rocks, mountains, forests and upland meadows spans the ‘instep’ of Italy’s ‘boot’, with short coastlines on both the Tyrrhenian and Ionian Seas. It is home to two of Italy’s most striking national parks: the Pollino National Park, with its limestone mountains, beech and pine forests; and the sandstone peaks of the ‘Lucani Dolomites’ in Gallipoli-Cognato National Park; as well as some of southern Italy’s most fascinating towns.\_A Hidden Italy special!"
+        text: "Basilicata is one of Italy’s least-explored regions. This dramatic land of rocks, mountains, forests and upland meadows spans the ‘instep’ of Italy’s ‘boot’, with short coastlines on both the Tyrrhenian and Ionian Seas. It is home to two of Italy’s most striking national parks: the Pollino National Park, with its limestone mountains, beech and pine forests; and the sandstone peaks of the ‘Lucani Dolomites’ in Gallipoli-Cognato National Park; as well as some of southern Italy’s most fascinating towns.\_Going in autumn means we get mild temperatures, miss the crowds, have long balmy days, and get to enjoy the changing colours of the forests.  A Hidden Italy special!"
 gallery:
   - guided/101.jpeg
   - guided/102.jpg
