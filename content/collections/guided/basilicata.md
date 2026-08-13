@@ -97,6 +97,10 @@ page_builder:
         title: "Explore two of Italy's most spectacular national parks"
         icon: geography-cartography-rural.svg
         summary: "Local guides take you along the trails of two of Italy's grandest national parks: the Pollino and the Gallipoli-Cognato."
+      - id: be3yfzj6SgiETet5KRbR0
+        summary: 'Visiting in autumn means we get to enjoy long balmy days with mild temperatures, and the changing colours of the forests'
+        title: 'Enjoy the colours of autumn'
+        icon: nature-leaf.svg
       - id: pwK5yo4MPCYrS2xrAdIXn
         title: 'Enjoy fine southern cooking'
         summary: 'Basilicata cuisine is wholesome home-cooking based on the freshest ingredients: fish, meat, cheese and spring vegetables'
@@ -105,10 +109,6 @@ page_builder:
         summary: 'Stay in a beautiful 4-star hotel, high above the ravishing Tyhrrenian coast in gorgeous Maratea, pearl of the south!'
         title: 'Finish in ravishing Maratea'
         icon: nature-beach.svg
-      - id: be3yfzj6SgiETet5KRbR0
-        summary: 'Spend the morning swimming and exploring the coast on a private boat, before a delicious seafood lunch in the port.'
-        title: 'Relax on boat tour of the coast'
-        icon: transport-sailboat.svg
   -
     id: z3KjMnW9KrNFd12RC7hC6
     section_background: none
@@ -374,7 +374,7 @@ seasons: autumn
 locations: southern-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1786659973
+updated_at: 1786660460
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
