@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 4
-updated_at: 1786682296
+updated_at: 1786682394
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -119,7 +119,7 @@ page_builder:
         enabled: true
         image: guided/maratea-port.jpeg
         heading: 'Basilicata Guided tour'
-        text: 'Basilicata is one of Italy’s least-explored regions. This dramatic land of rocks, mountains, forests and upland meadows spans the ‘instep’ of Italy’s ‘boot’, with short coastlines on both the Tyrrhenian and Ionian Seas.'
+        text: "Basilicata is one of Italy’s least-explored regions. Miss the crowds, enjoy long balmy days, and the changing colours of the forests. A Hidden Italy\_special!"
         button:
           - id: home_shop_book_btn
             label: 'Learn More'
