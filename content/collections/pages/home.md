@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 4
-updated_at: 1786682066
+updated_at: 1786682296
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -117,14 +117,14 @@ page_builder:
         id: home_shop_book
         type: card
         enabled: true
-        image: shop/trails-to-freedom.jpg
-        heading: 'Trails to Freedom'
-        text: 'The true story of the medieval trails used by Anzac POWs to escape Italy in 1943–1944.'
+        image: guided/maratea-port.jpeg
+        heading: 'Basilicata Guided tour'
+        text: 'Basilicata is one of Italy’s least-explored regions. This dramatic land of rocks, mountains, forests and upland meadows spans the ‘instep’ of Italy’s ‘boot’, with short coastlines on both the Tyrrhenian and Ionian Seas.'
         button:
           - id: home_shop_book_btn
-            label: 'View book'
+            label: 'Learn More'
             link_type: entry
-            entry: c7f4e2a1-8b3d-4e9f-9a52-1f0d6e3b8c45
+            entry: 11a4453e-9cd1-4418-b350-c3c35a49ae4c
             target_blank: false
             button_type: button
             type: button
@@ -133,18 +133,18 @@ page_builder:
         id: home_shop_gift50
         type: card
         enabled: true
-        image: shop/gift-card.jpg
-        heading: 'Gift card — $50'
+        image: shop/hidden-italy_gift-crd-mock_02.png
+        heading: 'Gift card — $250'
         text: 'A Hidden Italy gift card to put towards any tour or product.'
         button:
           - id: home_shop_gift50_btn
             label: 'View gift card'
-            link_type: entry
-            entry: f3c5e9d4-7a82-4b16-9f58-2e6b8d4a5c19
-            target_blank: false
+            link_type: url
+            target_blank: true
             button_type: button
             type: button
             enabled: true
+            url: 'https://hiddenitaly.myshopify.com/'
       -
         id: home_shop_guided_2027
         type: card
