@@ -4,7 +4,7 @@ blueprint: tour_type
 title: 'Guided Tours'
 template: tours/index
 headline: 'Guided Tours'
-description: 'Our guided walking tours to Sicily and Venice and the Italian Lakes are a gentle and unique way to discover a side of this fascinating country that most people only read about.'
+description: 'Our guided walking tours to Basilicata and Puglia are a gentle and unique way to discover a side of this fascinating country that most people only read about.'
 tour_collections: guided
 card_image: guided/sardinia-in-the-spring/img_5939.jpg
 header_variant: standard
@@ -27,7 +27,7 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 3
-updated_at: 1781743196
+updated_by: 4
+updated_at: 1786681971
 og_image: guided-tours-og-1779331719.png
 ---
