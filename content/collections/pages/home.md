@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 4
-updated_at: 1786682394
+updated_at: 1786684025
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -133,7 +133,7 @@ page_builder:
         id: home_shop_gift50
         type: card
         enabled: true
-        image: shop/hidden-italy_gift-crd-mock_02.png
+        image: shop/hidden-italy_gift-crd-mock_02-1786682937.png
         heading: 'Gift card — $250'
         text: 'A Hidden Italy gift card to put towards any tour or product.'
         button:
