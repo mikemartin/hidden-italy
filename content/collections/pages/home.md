@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 4
-updated_at: 1785289913
+updated_at: 1786682066
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -110,7 +110,7 @@ page_builder:
   -
     id: home_shop
     type: cards
-    enabled: false
+    enabled: true
     heading: 'Special Offers'
     cards:
       -
