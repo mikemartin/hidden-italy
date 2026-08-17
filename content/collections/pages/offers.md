@@ -14,14 +14,6 @@ page_builder:
       -
         type: paragraph
         content:
-          -
-            type: text
-            marks:
-              - type: bold
-            text: 'We are delighted to offer an introductory rate of A$9,590 (normally A$10,590), available for all new bookings made by 31 October 2026.'
-      -
-        type: paragraph
-        content:
           - type: text
             text: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
       -
@@ -34,6 +26,14 @@ page_builder:
         content:
           - type: text
             text: 'Home to two of Italy’s most striking national parks: the Pollino National Park, with its limestone mountains, beech and pine forests; and the sandstone peaks of the ‘Lucani Dolomites’ in Gallipoli-Cognato National Park; as well as some of southern Italy’s most fascinating towns. A Hidden Italy special!'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              - type: bold
+            text: 'We are delighted to offer an introductory rate of A$9,590 (normally A$10,590), available for all new bookings made by 31 October 2026.'
       -
         type: paragraph
         content:
@@ -87,5 +87,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 4
-updated_at: 1787009534
+updated_at: 1787009558
 ---
