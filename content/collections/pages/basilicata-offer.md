@@ -10,7 +10,7 @@ buttons:
     button_type: button
     target_blank: false
     type: button
-    enabled: false
+    enabled: true
     entry: 40fd13ef-8bd8-42bc-b239-0f5e185e468d
 tour_photos:
   - 11a4453e-9cd1-4418-b350-c3c35a49ae4c
@@ -110,5 +110,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 4
-updated_at: 1787034902
+updated_at: 1787034940
 ---
