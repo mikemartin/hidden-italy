@@ -6,12 +6,12 @@ headline: 'Make the most of our introductory rate of A$9,590 (normally A$10,590)
 buttons:
   - id: tz-oIBBdE8pAkS_fxfLrh
     label: 'Book now'
-    link_type: entry
+    link_type: email
     button_type: button
     target_blank: false
     type: button
     enabled: true
-    entry: 40fd13ef-8bd8-42bc-b239-0f5e185e468d
+    email: theartofnumbers@me.com
 tour_photos:
   - 11a4453e-9cd1-4418-b350-c3c35a49ae4c
 page_builder:
@@ -109,6 +109,6 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 4
-updated_at: 1787034940
+updated_by: 3
+updated_at: 1787035100
 ---
