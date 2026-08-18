@@ -81,19 +81,36 @@ page_builder:
     type: image_and_text
     enabled: true
     show_topography: false
-  - id: AlnE_xc7Bkb-kv3EUIcnV
+  -
+    id: AlnE_xc7Bkb-kv3EUIcnV
     heading: 'BRING 4 PAY FOR 3'
     image: bring-a-friend-offer.png
     image_position: right
-    image_aspect: landscape
+    image_aspect: tall
     section_background: none
     type: image_and_text
     enabled: true
+    body:
+      -
+        type: paragraph
+        content:
+          - type: text
+            text: 'Make it a  group getaway and save on our Guided and Self-Guided Tours.'
+      -
+        type: paragraph
+        content:
+          - type: text
+            text: 'From the Dolomites and the Lakes in the north to Puglia and Sicily in the south, and lots of places in between, including Liguria, Tuscany, Lazio, Umbria, Abruzzo, Sardinia, Campania and the Amalfi Coast our tours are a unique way to discover a side of this fascinating country that most people only read about.'
+      -
+        type: paragraph
+        content:
+          - type: text
+            text: 'Choose your adventure today!'
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 4
-updated_at: 1787010398
+updated_at: 1787012091
 ---
