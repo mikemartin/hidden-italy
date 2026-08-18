@@ -135,7 +135,7 @@ page_builder:
     questions:
       -
         id: Cb2vygJ2ofgfIOyh7_h11
-        question: 'View our Terms and Conditions'
+        question: 'Click to Open'
         answer:
           -
             type: bulletList
@@ -192,7 +192,7 @@ page_builder:
     section_background: none
     type: faqs
     enabled: true
-    heading: 'Terms and Conditions'
+    heading: 'T&Cs'
   - id: IQqookNS8Blb5vt7UtDhL
     heading: 'Enquire Now'
     form: booking_enquiry
@@ -205,6 +205,6 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: alberobello-7.jpg
-updated_by: 4
-updated_at: 1787033672
+updated_by: 3
+updated_at: 1787033857
 ---
