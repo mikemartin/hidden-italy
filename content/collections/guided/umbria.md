@@ -75,7 +75,7 @@ page_builder:
         type: paragraph
         content:
           - type: text
-            text: "Taking you well off the beaten paths, this tour will introduce you to a side of Umbria only a local can share.\_ It starts with two nights in a centrally located, 4-star hotel in Gubbio, and includes a guided tour of this fascinating town.\_ From here we go off-the-beaten track to ‘the most beautiful part of Umbria’, the wild Nera valley, where we’ll be based in an ‘albergo diffuso’ in a small, historic village on the river.\_ The next stop is a beautifully restored monastery on the edge of Sarah’s hometown.\_ The grand finale is two nights in historic 4-star hotel two steps from Orvieto’s famous cathedral,"
+            text: "Taking you well off the beaten paths, this tour will introduce you to a side of Umbria only a local can share.\_ It starts with two nights in a centrally located, 4-star hotel in Gubbio, and includes a guided tour of this fascinating town.\_ From here we go off-the-beaten track to ‘the most beautiful part of Umbria’, the wild Nera valley, where we’ll be based in an ‘albergo diffuso’ in a small, historic village on the river.\_ The next stop is a beautifully restored monastery on the edge of Sarah’s hometown.\_ The grand finale is two nights in historic 4-star hotel two steps from Orvieto’s famous cathedral."
   -
     id: L-xBFglx3C6oFGLfQX754
     section_background: light
@@ -314,11 +314,11 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1787028298
+updated_at: 1787031703
 summary:
   -
     type: paragraph
     content:
       - type: text
-        text: "Designed and led by an insider, our own Sarah Morgan, this tour aims to share her passion for her home region.  It starts and finishes in two of Umbria's most celebrated towns, Gubbio and Orvieto, then way off the beaten-track to the Valnerina and the charming town of Amelia."
+        text: "Designed and led by an insider, our own Sarah Morgan, this tour aims to share her passion for her home region.  It starts and finishes in two of Umbria's most celebrated towns, Gubbio and Orvieto.  In between we go way off the beaten-track to visit Valnerina, the Sibillini National Park and Amelia, Sarah's home and the most charming town in Umbria."
 ---
