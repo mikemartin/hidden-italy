@@ -37,23 +37,8 @@ page_builder:
       -
         type: paragraph
         content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'statamic://entry::2d1f3903-3248-4037-8e09-e76e8d62781c'
-                  rel: null
-                  target: null
-                  title: null
-              - type: bold
-            text: 'Choose your adventure today!'
-      -
-        type: paragraph
-        content:
           - type: text
-            text: 'Terms and & Conditions'
+            text: 'Terms and Conditions'
       -
         type: bulletList
         content:
@@ -152,7 +137,7 @@ page_builder:
         type: paragraph
         content:
           - type: text
-            text: 'Terms and & Conditions'
+            text: 'Terms and Conditions'
       -
         type: bulletList
         content:
@@ -210,6 +195,47 @@ page_builder:
     section_background: none
     type: image_and_text
     enabled: true
+  -
+    id: Ys3bA1m99Fd9tDRU5MaSo
+    questions:
+      -
+        id: Cb2vygJ2ofgfIOyh7_h11
+        question: 'Terms and Conditions'
+        answer:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'Not in conjunction with any other offers'
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'Cannot be used with gift cards '
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'Applicable on tour price only; does not include single supplement'
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'Book between 1 September 2026 and 15 October 2026'
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'XXXXXX must be quoted at time of booking'
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'General T&C’s apply'
+    show_common_questions: true
+    section_background: none
+    type: faqs
+    enabled: true
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -217,5 +243,5 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: alberobello-7.jpg
 updated_by: 4
-updated_at: 1787024107
+updated_at: 1787033261
 ---
