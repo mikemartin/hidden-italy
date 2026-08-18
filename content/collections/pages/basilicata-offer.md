@@ -18,7 +18,8 @@ page_builder:
   -
     id: qgN0GivzZXrzxRmyDOB9M
     cards:
-      - id: jaRUN7KHlZXQrg0KVAR2Y
+      -
+        id: jaRUN7KHlZXQrg0KVAR2Y
         image: alberobello-7.jpg
         heading: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
         type: card
@@ -27,6 +28,15 @@ page_builder:
           Basilicata is one of Italy’s least-explored regions.  This dramatic land of rocks, mountains, forests and upland meadows spans the ‘instep’ of Italy’s ‘boot’, with short coastlines on both the Tyrrhenian and Ionian Seas.
 
           Home to two of Italy’s most striking national parks: the Pollino National Park, with its limestone mountains, beech and pine forests; and the sandstone peaks of the ‘Lucani Dolomites’ in Gallipoli-Cognato National Park; as well as some of southern Italy’s most fascinating towns. A Hidden Italy special!
+        button:
+          - id: qtwpS9WsFY32eJxQuXlzR
+            label: 'Book now'
+            link_type: entry
+            entry: 40fd13ef-8bd8-42bc-b239-0f5e185e468d
+            button_type: button
+            target_blank: false
+            type: button
+            enabled: true
     section_background: none
     type: cards
     enabled: true
@@ -109,5 +119,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 4
-updated_at: 1787035401
+updated_at: 1787035432
 ---
