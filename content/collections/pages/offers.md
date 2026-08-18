@@ -12,7 +12,7 @@ page_builder:
     image: bring-a-friend-offer.png
     image_position: right
     image_aspect: tall
-    section_background: none
+    section_background: light
     type: image_and_text
     enabled: true
     body:
@@ -105,9 +105,10 @@ page_builder:
                 content:
                   - type: text
                     text: 'General T&C’s apply'
+    show_topography: false
   -
     id: m2kNH7k1-TxpSg20tmb4U
-    heading: 'Basilicata Guided Tour'
+    heading: 'BASILICATA INTO OFFER'
     body:
       -
         type: paragraph
@@ -132,6 +133,21 @@ page_builder:
             marks:
               - type: bold
             text: 'Make the most of our introductory rate of A$9,590 (normally A$10,590) for all new bookings made by 31 October 2026.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'statamic://entry::11a4453e-9cd1-4418-b350-c3c35a49ae4c'
+                  rel: null
+                  target: null
+                  title: null
+              - type: bold
+            text: 'Enquire now!'
       -
         type: paragraph
         content:
@@ -191,15 +207,15 @@ page_builder:
     image: guided/maratea-port.jpeg
     image_position: left
     image_aspect: tall
-    section_background: light
+    section_background: none
     type: image_and_text
     enabled: true
-    show_topography: false
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+card_image: alberobello-7.jpg
 updated_by: 4
-updated_at: 1787012549
+updated_at: 1787024107
 ---
