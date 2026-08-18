@@ -189,15 +189,14 @@ page_builder:
                       - type: text
                         text: 'General T&C’s apply'
     show_common_questions: false
-    section_background: none
+    section_background: light
     type: faqs
     enabled: true
     heading: 'T&Cs'
-  - id: IQqookNS8Blb5vt7UtDhL
-    heading: 'Enquire Now'
-    form: booking_enquiry
+    show_topography: true
+  - id: Kl_iVZLu2aTQZirgKY8Yc
     section_background: none
-    type: form
+    type: cards
     enabled: true
 seo_noindex: inherit
 seo_nofollow: false
@@ -206,5 +205,5 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: alberobello-7.jpg
 updated_by: 3
-updated_at: 1787033857
+updated_at: 1787034055
 ---
