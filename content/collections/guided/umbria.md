@@ -40,10 +40,10 @@ finish_location:
       code: null
       level: 2
   country: Italy
-headline: 'Explore Italy green heart'
+headline: "Explore Italy's green heart"
 date: '2027-08-19 14:00'
 now_open: true
-badge_text: 'New Tour'
+badge_text: 'New Tour!'
 days: 13
 grade: 3
 tour_size: 15
@@ -69,13 +69,13 @@ page_builder:
         type: paragraph
         content:
           - type: text
-            text: 'text text'
+            text: "Often referred to as the ‘green heart of Italy’, Umbria is a beautiful, unspoilt, landlocked region of rolling hills, woods, streams and valleys.\_ Within its borders are a dozen or so classic hill-towns, each resolutely individual and crammed with artistic and architectural treasures that frequently rival bigger and more famous cities.\_ To the east, pastoral countryside gives way to more rugged scenery, none better than the dramatic twists and turns of the Nera River valley and the high mountain landscapes of the Parco Nazionale dei Monti Sibillini.\_ Designed and led by Sarah Morgan, this journey reflects her deep passion for showcasing her home region."
     column_right:
       -
         type: paragraph
         content:
           - type: text
-            text: 'text text'
+            text: "Taking you well off the beaten paths, this tour will introduce you to a side of Umbria only a local can share.\_ It starts with two nights in a centrally located, 4-star hotel in Gubbio, and includes a guided tour of this fascinating town.\_ From here we go off-the-beaten track to ‘the most beautiful part of Umbria’, the wild Nera valley, where we’ll be based in an ‘albergo diffuso’ in a small, historic village on the river.\_ The next stop is a beautifully restored monastery on the edge of Sarah’s hometown.\_ The grand finale is two nights in historic 4-star hotel two steps from Orvieto’s famous cathedral,"
   -
     id: L-xBFglx3C6oFGLfQX754
     section_background: light
@@ -313,6 +313,12 @@ show_from: true
 seasons: autumn
 locations: central-italy
 simple_likes: 0
-updated_by: 4
-updated_at: 1784706023
+updated_by: 2
+updated_at: 1787028298
+summary:
+  -
+    type: paragraph
+    content:
+      - type: text
+        text: "Designed and led by an insider, our own Sarah Morgan, this tour aims to share her passion for her home region.  It starts and finishes in two of Umbria's most celebrated towns, Gubbio and Orvieto, then way off the beaten-track to the Valnerina and the charming town of Amelia."
 ---
