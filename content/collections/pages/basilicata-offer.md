@@ -1,5 +1,6 @@
 ---
 id: 47e43933-0e1d-48c5-98b4-b306feaad485
+published: false
 blueprint: home
 title: 'BASILICATA INTO OFFER'
 buttons:
@@ -9,7 +10,7 @@ buttons:
     button_type: inline
     target_blank: true
     type: button
-    enabled: true
+    enabled: false
     entry: 40fd13ef-8bd8-42bc-b239-0f5e185e468d
     attr_title: 'Book now'
 tour_photos:
@@ -20,7 +21,7 @@ page_builder:
     cards:
       -
         id: jaRUN7KHlZXQrg0KVAR2Y
-        image: alberobello-7.jpg
+        image: guided/maratea-port.jpeg
         heading: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
         type: card
         enabled: true
@@ -44,11 +45,11 @@ page_builder:
     text: 'Make the most of our introductory rate of A$9,590 (normally A$10,590) for all new bookings made by 31 October 2026.'
   -
     id: IhfVXBkDCrPhCYmP194-Q
-    heading: "T&C's"
+    heading: 'Offer Terms'
     questions:
       -
         id: hvpQ5QO21RH9OYKjt1m5v
-        question: 'View More'
+        question: "View T&C's"
         answer:
           -
             type: bulletList
@@ -119,5 +120,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 4
-updated_at: 1787035432
+updated_at: 1787035665
 ---
