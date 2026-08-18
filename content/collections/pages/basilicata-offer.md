@@ -2,16 +2,16 @@
 id: 47e43933-0e1d-48c5-98b4-b306feaad485
 blueprint: home
 title: 'BASILICATA INTO OFFER'
-headline: 'Make the most of our introductory rate of A$9,590 (normally A$10,590) for all new bookings made by 31 October 2026.'
 buttons:
   - id: tz-oIBBdE8pAkS_fxfLrh
     label: 'Book now'
-    link_type: email
-    button_type: button
-    target_blank: false
+    link_type: entry
+    button_type: inline
+    target_blank: true
     type: button
     enabled: true
-    email: theartofnumbers@me.com
+    entry: 40fd13ef-8bd8-42bc-b239-0f5e185e468d
+    attr_title: 'Book now'
 tour_photos:
   - 11a4453e-9cd1-4418-b350-c3c35a49ae4c
 page_builder:
@@ -24,14 +24,14 @@ page_builder:
         type: card
         enabled: true
         text: |-
-          Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!
-
           Basilicata is one of Italy’s least-explored regions.  This dramatic land of rocks, mountains, forests and upland meadows spans the ‘instep’ of Italy’s ‘boot’, with short coastlines on both the Tyrrhenian and Ionian Seas.
 
           Home to two of Italy’s most striking national parks: the Pollino National Park, with its limestone mountains, beech and pine forests; and the sandstone peaks of the ‘Lucani Dolomites’ in Gallipoli-Cognato National Park; as well as some of southern Italy’s most fascinating towns. A Hidden Italy special!
     section_background: none
     type: cards
     enabled: true
+    heading: 'BASILICATA INTO OFFER'
+    text: 'Make the most of our introductory rate of A$9,590 (normally A$10,590) for all new bookings made by 31 October 2026.'
   -
     id: IhfVXBkDCrPhCYmP194-Q
     heading: "T&C's"
@@ -40,7 +40,6 @@ page_builder:
         id: hvpQ5QO21RH9OYKjt1m5v
         question: 'View More'
         answer:
-          - type: paragraph
           -
             type: bulletList
             content:
@@ -109,6 +108,6 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 3
-updated_at: 1787035100
+updated_by: 4
+updated_at: 1787035401
 ---
