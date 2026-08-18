@@ -34,62 +34,6 @@ page_builder:
             marks:
               - type: bold
             text: '1 GUEST TRAVELS FREE'
-      -
-        type: paragraph
-        content:
-          - type: text
-            text: 'Terms and Conditions'
-      -
-        type: bulletList
-        content:
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  - type: text
-                    text: 'Not in conjunction with any other offers'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  - type: text
-                    text: 'Cannot be used with gift cards '
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  - type: text
-                    text: 'Applicable on tour price only; does not include single supplement'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  - type: text
-                    text: 'Book between 1 September 2026 and 15 October 2026'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  - type: text
-                    text: 'XXXXXX must be quoted at time of booking'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  - type: text
-                    text: 'General T&C’s apply'
     show_topography: false
   -
     id: m2kNH7k1-TxpSg20tmb4U
@@ -194,47 +138,75 @@ page_builder:
     image_aspect: tall
     section_background: none
     type: image_and_text
-    enabled: true
+    enabled: false
   -
     id: Ys3bA1m99Fd9tDRU5MaSo
     questions:
       -
         id: Cb2vygJ2ofgfIOyh7_h11
-        question: 'Terms and Conditions'
+        question: 'View our Terms and Conditions'
         answer:
           -
-            type: paragraph
+            type: bulletList
             content:
-              - type: text
-                text: 'Not in conjunction with any other offers'
-          -
-            type: paragraph
-            content:
-              - type: text
-                text: 'Cannot be used with gift cards '
-          -
-            type: paragraph
-            content:
-              - type: text
-                text: 'Applicable on tour price only; does not include single supplement'
-          -
-            type: paragraph
-            content:
-              - type: text
-                text: 'Book between 1 September 2026 and 15 October 2026'
-          -
-            type: paragraph
-            content:
-              - type: text
-                text: 'XXXXXX must be quoted at time of booking'
-          -
-            type: paragraph
-            content:
-              - type: text
-                text: 'General T&C’s apply'
-    show_common_questions: true
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      - type: text
+                        text: 'Not in conjunction with any other offers'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      - type: text
+                        text: 'Cannot be used with gift cards '
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      - type: text
+                        text: 'Applicable on tour price only; does not include single supplement'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      - type: text
+                        text: 'Book between 1 September 2026 and 15 October 2026'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      - type: text
+                        text: 'XXXXXX must be quoted at time of booking'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      - type: text
+                        text: 'General T&C’s apply'
+    show_common_questions: false
     section_background: none
     type: faqs
+    enabled: true
+    heading: 'Terms and Conditions'
+  - id: IQqookNS8Blb5vt7UtDhL
+    heading: 'Enquire Now'
+    form: booking_enquiry
+    section_background: none
+    type: form
     enabled: true
 seo_noindex: inherit
 seo_nofollow: false
@@ -243,5 +215,5 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: alberobello-7.jpg
 updated_by: 4
-updated_at: 1787033261
+updated_at: 1787033514
 ---
