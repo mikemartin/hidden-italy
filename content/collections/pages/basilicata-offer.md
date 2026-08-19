@@ -1,6 +1,5 @@
 ---
 id: 47e43933-0e1d-48c5-98b4-b306feaad485
-published: false
 blueprint: home
 title: 'BASILICATA INTO OFFER'
 tour_photos:
@@ -16,7 +15,7 @@ page_builder:
         type: card
         enabled: true
         text: |-
-          Basilicata is one of Italy’s least-explored regions.  This dramatic land of rocks, mountains, forests and upland meadows spans the ‘instep’ of Italy’s ‘boot’, with short coastlines on both the Tyrrhenian and Ionian Seas.
+          Basilicata is one of Italy’s least-explored regions. This dramatic land of rocks, mountains, forests and upland meadows spans the ‘instep’ of Italy’s ‘boot’, with short coastlines on both the Tyrrhenian and Ionian Seas.
 
           Home to two of Italy’s most striking national parks: the Pollino National Park, with its limestone mountains, beech and pine forests; and the sandstone peaks of the ‘Lucani Dolomites’ in Gallipoli-Cognato National Park; as well as some of southern Italy’s most fascinating towns. A Hidden Italy special!
 
@@ -53,7 +52,7 @@ page_builder:
                     type: paragraph
                     content:
                       - type: text
-                        text: 'Not in conjunction with any other offers'
+                        text: 'Not valid in conjunction with any other offer.'
               -
                 type: listItem
                 content:
@@ -61,7 +60,7 @@ page_builder:
                     type: paragraph
                     content:
                       - type: text
-                        text: 'Cannot be used with gift cards '
+                        text: 'Cannot be used in conjunction with gift cards.'
               -
                 type: listItem
                 content:
@@ -69,7 +68,7 @@ page_builder:
                     type: paragraph
                     content:
                       - type: text
-                        text: 'Applicable on tour price only; does not include single supplement'
+                        text: 'Offer applies to the tour price only and excludes any single supplement, additional nights or additional transfers'
               -
                 type: listItem
                 content:
@@ -77,7 +76,7 @@ page_builder:
                     type: paragraph
                     content:
                       - type: text
-                        text: 'Book between 1 August 2026 and 31 October 2026'
+                        text: 'Bookings must be made between 1 August 2026 and 31 October 2026.'
               -
                 type: listItem
                 content:
@@ -85,7 +84,7 @@ page_builder:
                     type: paragraph
                     content:
                       - type: text
-                        text: 'Price is per person twin share'
+                        text: 'Price is per person based on twin share.'
               -
                 type: listItem
                 content:
@@ -93,16 +92,25 @@ page_builder:
                     type: paragraph
                     content:
                       - type: text
-                        text: 'General T&C’s apply'
+                        text: 'General Terms and Conditions apply.'
     show_common_questions: true
     section_background: none
     type: faqs
     enabled: true
+seo_title: 'Basilicata Italy Tour | 12-Night Southern Italy Holiday'
+seo_description: 'Discover Basilicata on a 12-night Southern Italy tour through mountains, national parks, forests, fascinating towns and spectacular coastlines. Introductory offer from A$9,590 pp.'
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
+og_title: 'Basilicata Introductory Offer – 12 Nights in Southern Italy'
+og_description: |-
+  Discover the hidden beauty of Basilicata on an unforgettable 12-night journey through one of Italy’s least-explored regions. From dramatic mountains, forests and upland meadows to spectacular coastlines on the Tyrrhenian and Ionian Seas, experience an authentic side of southern Italy far from the usual tourist trails.
+
+  Explore the breathtaking landscapes of Pollino National Park and Gallipoli-Cognato National Park, home to limestone mountains, ancient forests and the dramatic sandstone peaks of the Lucani Dolomites. Along the way, discover some of southern Italy’s most fascinating towns and experience the landscapes, culture and character that make Basilicata a true Hidden Italy destination.
+
+  Offer: A$9,590 per person, reduced from A$10,590. Available for all new bookings made by 31 October 2026.
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 4
-updated_at: 1787182200
+updated_at: 1787182796
 ---
