@@ -3,16 +3,6 @@ id: 47e43933-0e1d-48c5-98b4-b306feaad485
 published: false
 blueprint: home
 title: 'BASILICATA INTO OFFER'
-buttons:
-  - id: tz-oIBBdE8pAkS_fxfLrh
-    label: 'Book now'
-    link_type: entry
-    button_type: inline
-    target_blank: true
-    type: button
-    enabled: false
-    entry: 40fd13ef-8bd8-42bc-b239-0f5e185e468d
-    attr_title: 'Book now'
 tour_photos:
   - 11a4453e-9cd1-4418-b350-c3c35a49ae4c
 page_builder:
@@ -29,6 +19,8 @@ page_builder:
           Basilicata is one of Italy’s least-explored regions.  This dramatic land of rocks, mountains, forests and upland meadows spans the ‘instep’ of Italy’s ‘boot’, with short coastlines on both the Tyrrhenian and Ionian Seas.
 
           Home to two of Italy’s most striking national parks: the Pollino National Park, with its limestone mountains, beech and pine forests; and the sandstone peaks of the ‘Lucani Dolomites’ in Gallipoli-Cognato National Park; as well as some of southern Italy’s most fascinating towns. A Hidden Italy special!
+
+          Make the most of our introductory rate of A$ 9,590 pp (normally A$10,590) for all new bookings made by 31 October 2026.
         button:
           - id: qtwpS9WsFY32eJxQuXlzR
             label: 'Book now'
@@ -41,8 +33,8 @@ page_builder:
     section_background: none
     type: cards
     enabled: true
-    heading: 'BASILICATA INTO OFFER'
-    text: 'Make the most of our introductory rate of A$9,590 (normally A$10,590) for all new bookings made by 31 October 2026.'
+    heading: 'BASILICATA INTRODUCTORY OFFER'
+    text: 'Make the most of our introductory rate of A$ 9,590 pp'
   -
     id: IhfVXBkDCrPhCYmP194-Q
     heading: 'Offer Terms'
@@ -54,14 +46,6 @@ page_builder:
           -
             type: bulletList
             content:
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      - type: text
-                        text: 'Terms and Conditions'
               -
                 type: listItem
                 content:
@@ -120,5 +104,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 4
-updated_at: 1787035665
+updated_at: 1787182200
 ---
