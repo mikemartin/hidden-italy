@@ -49,14 +49,14 @@ grade: 3
 tour_size: 15
 leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 inclusions:
-  - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
+  - '12 nights accommodation in boutique hotels (see the itinerary for details)'
   - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
   - 'All transfers and activities during the tours'
   - 'All taxes and service charges at the hotels and restaurants'
   - 'All paid admissions during the tour'
   - '7 guided walks'
-  - 'Guided sight seeing tours of XXXX'
-  - 'Services of a full-time professional tour guide'
+  - 'Guided sight seeing tours of Gubbio, Assisi, Spoleto and Amelia'
+  - 'Services of a full-time, bi-lingual tour guide'
 page_builder:
   -
     id: S79KwERvxOXW4ik46HYEL
@@ -75,7 +75,7 @@ page_builder:
         type: paragraph
         content:
           - type: text
-            text: "Taking you well off the beaten paths, this tour will introduce you to a side of Umbria only a local can share.\_ It starts with two nights in a centrally located, 4-star hotel in Gubbio, and includes a guided tour of this fascinating town.\_ From here we go off-the-beaten track to ‘the most beautiful part of Umbria’, the wild Nera valley, where we’ll be based in an ‘albergo diffuso’ in a small, historic village on the river.\_ The next stop is a beautifully restored monastery on the edge of Sarah’s hometown.\_ The grand finale is two nights in historic 4-star hotel two steps from Orvieto’s famous cathedral."
+            text: "Taking you well off the beaten paths, this tour will introduce you to a side of Umbria only a local can share. \_It starts with two nights in a centrally located, 4-star hotel in Gubbio, and includes a guided tour of this fascinating town.\_ From here we go off-the-beaten track to ‘the most beautiful part of Umbria’, the wild Nera valley, where we’ll be based in an ‘albergo diffuso’ in a small, historic village on the river. The next stop is a 4-star hotel set beautifully restored monastery, with a pool and surrounded by gardens outside Amelia. \_The grand finale is two nights in an historic 4-star hotel two steps from Orvieto’s famous cathedral."
   -
     id: L-xBFglx3C6oFGLfQX754
     section_background: light
@@ -84,21 +84,29 @@ page_builder:
     show_topography: false
     activities:
       - id: sBhtndcz7wpXB6i4aU0kR
-        title: "Discover Umbria's treasures"
-        summary: "Local guides will help you unlock the secrets of the fascinating Italy's green heart"
+        title: 'Discover the secrets of Gubbio'
+        summary: 'Seated on the slopes of Monte Ingino, Gubbio is a thoroughly charming town which wears its fascinating history lightly.'
         icon: 'tourism-tour guide.svg'
-      - id: RezgZqkCTnivlqqhDjIZb
-        title: 'Enjoy Umbrian home cooking'
-        summary: 'Sit down and enjoy the wholesome home-cooking: cold cuts, cheeses, pastas, soups, roast meats, fresh garden vegetables.'
-        icon: culture-cheese.svg
+      - id: f5OmTtAzqFlzCCRaBVZN2
+        title: 'Luxuriate in wonderful accommodation'
+        summary: "Relax in exceptional accommodation: three historic 4-star hotels and a charming 'albergo diffuso' on the Nera River."
+        icon: ski-alpine-hotel.svg
+      - id: pwK5yo4MPCYrS2xrAdIXn
+        title: 'Walk the stunning landscapes'
+        summary: 'Follow well-marked trails over green hills, through deep valleys and across majestic mountains.'
+        icon: trekking-trekking.svg
       - id: Wj73RrKfQG4N51CdrrGbA
         title: "Lose yourself in the region's fine art"
         summary: "Lose yourself in small villages and towns holding some of Italy's finest art: Giotto, Pinturicchio and Fra Lippo Lippi."
         icon: medieval-castle-wall.svg
-      - id: pwK5yo4MPCYrS2xrAdIXn
-        title: 'Enchanting Landscapes'
-        summary: 'The green hills, golden stone towns and shimmering light give the region an almost mystical quality.'
-        icon: geography-cartography-hills.svg
+      - id: RezgZqkCTnivlqqhDjIZb
+        title: 'Enjoy Umbrian home cooking'
+        summary: 'Enjoy the wholesome home-cooking the region is famous for: cold cuts, cheeses, pastas, roast meats, and fresh vegetables'
+        icon: culture-cheese.svg
+      - id: f7gSb2aleggMTsZl50XLu
+        title: 'Explore gorgeous Orvieto'
+        summary: 'Orvieto is one of the hidden treasures of Umbria.  Dramatically located on cliffs, this small town holds many treasures!'
+        icon: culture-cathedral.svg
   -
     id: z3KjMnW9KrNFd12RC7hC6
     section_background: none
@@ -314,11 +322,11 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1787031703
+updated_at: 1787296236
 summary:
   -
     type: paragraph
     content:
       - type: text
-        text: "Designed and led by an insider, our own Sarah Morgan, this tour aims to share her passion for her home region.  It starts and finishes in two of Umbria's most celebrated towns, Gubbio and Orvieto.  In between we go way off the beaten-track to visit Valnerina, the Sibillini National Park and Amelia, Sarah's home and the most charming town in Umbria."
+        text: "Designed and led by Hidden Italy guide Sarah Morgan, who has called Umbria home for twenty years, this fabulous tour offers an insider’s view of the region. It begins and ends in Gubbio and Orvieto, two of Umbria’s most celebrated towns, with visits to some of the region’s hidden gems:\_ Valnerina, the Sibillini National Park, and Amelia, Sarah’s home and one of Umbria’s most fascinating towns."
 ---
