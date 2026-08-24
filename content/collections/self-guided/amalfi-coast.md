@@ -5,8 +5,8 @@ title: 'Amalfi Coast - Campania'
 name: 'Amalfi Coast'
 region: Campania
 days: 6
-updated_by: 4
-updated_at: 1785119414
+updated_by: 2
+updated_at: 1787612029
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
@@ -362,5 +362,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-overlay_opacity: 30
+overlay_opacity: 20
 ---
