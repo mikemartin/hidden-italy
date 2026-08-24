@@ -43,9 +43,9 @@ finish_location:
 headline: "Explore Italy's green heart"
 date: '2027-08-19 14:00'
 now_open: true
-badge_text: 'New Tour!'
+badge_text: 'New tour!'
 days: 13
-grade: 3
+grade: 2
 tour_size: 15
 leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 inclusions:
@@ -55,8 +55,8 @@ inclusions:
   - 'All taxes and service charges at the hotels and restaurants'
   - 'All paid admissions during the tour'
   - '7 guided walks'
-  - 'Guided sight seeing tours of Gubbio, Assisi, Spoleto and Amelia'
-  - 'Services of a full-time, bi-lingual tour guide'
+  - 'Guided sight seeing tours of Gubbio, Assisi, Spoleto and Orvieto'
+  - 'Services of a full-time, professional bi-lingual tour guide'
 page_builder:
   -
     id: S79KwERvxOXW4ik46HYEL
@@ -228,18 +228,46 @@ page_builder:
     enabled: true
     title: 'Umbria Guided Tour'
     tabs:
-      - id: 68QDLI5yPSbGdCN6NXWED
+      -
+        id: 68QDLI5yPSbGdCN6NXWED
         title: 'Exceptional walking'
         type: walk
         enabled: true
-      - id: PEePl_7BCgVNDSxdSJl6B
+        description:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'These gentle walks range from 3 to 12 kilometres.  They generally take three to fours hours following well-marked.  You are in the foothills of the Apennine Range so there are a few climbs but nothing dramatic.  They include an easy riverside walk, walks through rolling countryside and forests, and a spectacular undulating walk in the heart of the Sibillini Mountains.  You will be accompanied by your tour leader and a local guide on each of the walks'
+      -
+        id: PEePl_7BCgVNDSxdSJl6B
         title: 'Boutique accommodation'
         type: accommodation
         enabled: true
-      - id: wMVJ8e4dKm72p178Gc6L6
+        description:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: "The accommodation is one of the highlights of this tour.  The tour is booked ended by stays in centrally located 4-star hotels set in historic palazzi in both Gubbio and Orvieto.  In between you stay in an 'albergo diffuso' with independent rooms in a charming village on the banks of the Nera River and then in another 4-star hotel, this time set in restored monastery with a swimming pool and large gardens."
+      -
+        id: wMVJ8e4dKm72p178Gc6L6
         title: 'Authentic food'
         type: food
         enabled: true
+        description:
+          -
+            type: paragraph
+            content:
+              - type: text
+                text: 'Food, of course, is the highlight of any visit to Italy, but especially to Umbria: hearty, home-cooked meals based on seasonal produce.  It is particularly well-known for its pasta dishes and it roast meats, especially its '
+              -
+                type: text
+                marks:
+                  - type: italic
+                text: porchetta
+              - type: text
+                text: ', roasted suckling pig stuffed with rosemary or sage.  Umbria is well-known for its truffles, its lentils and its fresh vegetables such as green beans from Trasimeno and cardoons from Trevi.  Umbria also produces some excellent wines including the white wines of Orvieto some outstanding reds such as Torgiano Rosso and Sagrantino.'
     show_topography: true
   - id: Q8teFUrQd_KaHrdLR1Myv
     title: 'Tour Leader'
@@ -320,7 +348,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1787545457
+updated_at: 1787546987
 summary:
   -
     type: paragraph
