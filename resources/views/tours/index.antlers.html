@@ -28,7 +28,7 @@
                 {{# The Livewire collection partial handles its own per-card
                     animation using the package's `filter-updated`/`sort-updated`/
                     `entries-updated` events — see the vendor view override. #}}
-                {{ livewire-collection :from="tour_collections" paginate="50" scrollTo="#livewire-collection" }}
+                {{ livewire-collection :from="tour_collections" sort="in_australasia:asc|title:asc" paginate="50" scrollTo="#livewire-collection" }}
             </div>
         </section>
         {{ page_builder scope="block" }}

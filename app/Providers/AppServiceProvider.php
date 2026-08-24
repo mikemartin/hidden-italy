@@ -10,6 +10,8 @@ use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use JackSleight\StatamicBardMutator\Facades\Mutator;
+use Statamic\Entries\Entry;
+use Statamic\Facades\Collection;
 use Statamic\Facades\Form;
 use Statamic\Facades\Icon;
 use Statamic\Policies\UserPolicy;
@@ -53,6 +55,12 @@ class AppServiceProvider extends ServiceProvider
             }
 
             return $value;
+        });
+
+        // Tour listings sort on this (in_australasia:asc|title:asc) so
+        // Australia/NZ tours land after the Italian ones.
+        Collection::computed(['guided', 'self-guided'], 'in_australasia', function (Entry $entry): int {
+            return in_array('australasia', (array) $entry->value('locations'), true) ? 1 : 0;
         });
 
         $this->bootRoute();
