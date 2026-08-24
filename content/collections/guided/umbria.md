@@ -116,111 +116,109 @@ page_builder:
       -
         id: Om5y5FTAtdk95fGc42Xbj
         title: 'Arrive in Gubbio'
-        description: 'Built into the slopes of Monte Ingino, Gubbio provides an exceptional introduction to the region, with medieval streets, Roman heritage, artisan traditions, and sweeping views over the countryside.'
+        description: 'The tour starts in Gubbio, one of Umbria’s most beautifully preserved medieval towns.  Built into the slopes of Monte Ingino, Gubbio provides an exceptional introduction to the region, with medieval streets, Roman heritage, artisan traditions, and sweeping views over the countryside.  We’ll meet at the hotel at 19.00 and walk to dinner.'
         meals_included:
           - dinner
       -
         id: YjcLZmnMamy-RsFTNTnN6
         title: 'Explore the historical town'
-        description: |-
-          This morning we will be taken on a guided tour of the town to get to know its history, architecture, and local traditions.
-          Highlights include Piazza Grande and Palazzo dei Consoli (Gubbio/Iguvine tablets in this museum/, cage funivia up to Basilica di Sant’Ubaldo, cathedral. 
-          Optional walk to Eremo Sant’Ambrogio.
+        description: 'This morning we will be taken on a guided tour of this fascinating town to get to know its history, architecture, and local traditions.  Highlights include Piazza Grande and Palazzo dei Consoli and a cable car up to Basilica di Sant’Ubaldo, the town’s cathedral.  After lunch, you’ll have the option to walk to the Hermitage of Sant’Ambrogio.  The rest afternoon and evening are free.'
         meals_included:
           - breakfast
           - lunch
+        duration: 1.0
+        distance: 3.0
+        elevation: 84
       -
         id: dRttPDU-P82DA7eK9yvVs
-        title: 'Head South'
-        description: |-
-          On the way south to our accommodation in Valnerina stop at Assisi to see its basilica frescoed by Giotto and other imminent painters of the late 13th century. We’ll then walk through the town before being picked up to go to lunch. We’ll have lunch out of the town’s hustle and bustle up above the town at a simple osteria (Ristorante Gli Eremi).
-          We’ll then stop in Spello for a coffee and to see the remains of a Roman villa before continuing on to the Valnerina, where the group settles for four nights
+        title: 'Head south to the Valenerina'
+        description: 'On the way south to the Valnerina, we will stop at Assisi to see its famous 13th century basilica with Giotto’s celebrated frescoes.  We will then be taken on a guided tour of this beautiful town, the home of St Francis, Italy and Europe’s patron saint.  After a light lunch, we will continue on to the Valnerina, stopping to visit gorgeous Spello on the way.   Our accommodation is in an historic hotel in a quaint medieval town on the banks of the Nera River.'
         meals_included:
           - breakfast
           - lunch
           - dinner
       -
         id: DSEbPuDVys5s-dLV1Yqjy
-        title: 'Visit the Abbey of San Pietro'
-        description: 'Today we’ll do a circular walk from Scheggino through the forests and ancient paths of the Valnerina, reaching the magnificent Abbey of San Pietro in Valle. The route follows historic connections through the valley, combining mountain scenery, medieval villages, and one of Umbria’s most atmospheric monastic sites. (12-14km).'
-        distance: 14.0
+        title: 'Walk to lunch in an 8th century abbey'
+        description: 'This morning is an easy walk following the Nera River south, combining mountain scenery with medieval villages.  The walk finishes at a magnificent abbey that dates from the 8th century, now a luxury 4-star hotel.  We will have a delicious lunch at the abbey and then be driven back to our accommodation, where the evening is free.'
+        distance: 11.0
         meals_included:
           - breakfast
           - lunch
+        duration: 4.0
+        elevation: 60
       -
         id: V5y6olGGteTR7aqTsF3FH
         title: 'A cultural and culinary delight'
-        description: 'Today is a  cultural and culinary day. First we visit Spoleto stopping at the Basilica of San Salvatore (Longobard basilica made from spolia from various Roman temples) and then the centre of the town with its cathedral. Possible visit to Tempietto. We’ll then continue on to a winery near Montefalcofor wine tasting and a light lunch. Evening free.'
+        description: 'Today we explore the cultural and culinary traditions of southern Umbria.  Our first stop in Spoleto.  Built on a steep hill with a very long history, Spoleto is one of the most charming towns in Umbria.  After seeing a few gems of the town, we will e will visit a winery in nearby Montefalco, home of Sagrantino, and the most celebrated wine town in the region.  After a lunch and a wine tasting we head back to base, where the evening is free.'
         meals_included:
           - breakfast
           - lunch
       -
         id: 7HnpGnYA9oMkxf9wqePAZ
-        title: 'Spectacular mountain walking'
-        description: |-
-          Today we will go on a spectacular mountain walk up in the Sibillini mountains above Norcia.
-          We’ll take sandwiches so we can stop along the way to eat.
-          We’ll stop in Norcia for coffee on way up or gelato on way down.
+        title: 'A spectacular mountain walk'
+        description: 'Today we will drive up into the wonderful Sibillini Mountains, above the pleasant mountain retreat of Norcia, the home of St Benedict and the largest town in the Valnerina.  We will go on a spectacular mountain above the Piano Grande in the heart of the mountains (12 kms, 439 mts).  On the way home, we’ll stop at Norcia for a gelato.  Dinner is back at our base.'
         meals_included:
           - breakfast
           - lunch
           - dinner
+        duration: 4.0
+        distance: 12.0
+        elevation: 439
       -
         id: KXWCs8ChKhSxYCxxb7V0p
         title: 'See the world’s highest man-made waterfall'
-        description: |-
-          Leaving the Valerian we will stop to visit the Cascata delle Marmore, one of Europe’s highest waterfalls and world’s highest man-made waterfall created by the Romans and a popular stop on the Gran Tour. 
-          We’ll then drive on to Narni where we’ll have a light lunch.
+        description: 'Time to leave the Valnerina and head to Amelia, Sarah’s hometown.  On the way, we’ll stop to visit the Cascata delle Marmore, a spectacular waterfall created by the Romans and then have lunch at Narni, a medieval hill-town that guards the entrance to the Nera Valley.  From here, we continue on to our accommodation, a 4-star hotel set in a recently restored monastery, which has a pool and large grounds.  Dinner is at the monastery’s restaurant.'
         meals_included:
           - breakfast
           - lunch
           - dinner
-      - id: 0l3nLZ0EbT-jFT0RWNEs5
-        title: 'Explore the woods and fields'
-        description: |-
-          Today we’ll have a lovely walk towards the town through woods and fields and end up at the town itself.
-          Sambucetole- Amelia (8km).
-          We’ll have a light lunch together  (Convitto).
-          After a relaxing afternoon, we’ll go out to dinner at a nearby restaurant specialising in truffles, mushrooms and meat.
-        distance: 8.0
+      -
+        id: 0l3nLZ0EbT-jFT0RWNEs5
+        title: 'Walk through woods and fields to an ancient town'
+        description: 'This morning we will take a lovely walk towards through woods and fields to the gorgeous Roman town of Amelia, which follows part of the Cammino of Germanicus, a Roman general who is something of a hero in the town.  (12 kms, 360 mts).  After a light lunch we’ll return to our base.  Dinner will be at a at a nearby restaurant specialising in truffles, mushrooms and roast meats.'
+        distance: 12.0
+        duration: 8.0
+        elevation: 360
+        meals_included:
+          - breakfast
+          - lunch
+          - dinner
       -
         id: yAPlMq-7I0LxA3jqvlhrw
-        title: 'Visit the Roman cisterns'
-        description: 'Today is the chance to get to know Amelia and its history. We’ll visit the museum which has artefacts of the Umbri ancient people as well as many from the town’s Roman period. We’ll also visit the Roman cisterns, one of the palazzos and the Duomo.'
+        title: 'Explore Amelia'
+        description: 'Today is dedicated to discovering Amelia, a small but fascinating town that has a very long history (its intact, cyclopean town walls date from the 7th century BC!).  After the morning exploring the town, you will be free to have lunch on your own.  We’ll return to the monastery mid-afternoon.  Dinner is at the monastery’s restaurant.'
         meals_included:
           - breakfast
           - dinner
       -
         id: KHRGr3D2yhqLQdiThxIUa
-        description: 'Today we will walk from Amelia to a nearby town, Lugnano (12km). There will be a chance to have a coffee along the way. Sandwiches along the way.'
+        description: 'Today we will walk from Amelia to a nearby Lugnano, officially listed as one the most beautiful towns in Italy (12 km, 370 mts), enjoying a cut lunch along the way.  After exploring this tiny town, we’ll drive back to our base.  In the evening you will be guests in guide Sarah’s home, a small olive farm on the outskirts of Amelia, having a delicious home-cooked meal under their pergola with views across the valley.'
         distance: 12.0
         meals_included:
           - breakfast
           - lunch
           - dinner
+        duration: 4.0
+        elevation: 370
       -
         id: j-gmsVnOqpZy0rOQpeOlG
-        title: 'An authentic dining experience'
-        description: 'Today we leave Amelia to go on to our final destination. Orvieto. On the way, we’ll stop in Todi before having lunch at a restaurant run by one of Umbria’s leading chefs (Trippini). Free evening in Orvieto.'
+        title: "Lunch in one of Umbria's finest restaurants"
+        description: 'Today we leave Amelia for Orvieto, the grand finale of the tour. On the way, we will visit the town of Todi before having lunch at a restaurant run by one of Umbria’s leading chefs.  After checking into our fabulous 4-star hotel (a recently renovated noble palazzo) you will be free to explore this gorgeous town.  The evening is free.'
         meals_included:
           - breakfast
           - lunch
       -
         id: 4aE_GQ_5tU2YwEUaKJNG8
-        title: 'Visit the wonderful cathedral'
-        description: |-
-          This morning we’ll enjoy a guided tour of Orvieto paying particular attention to its wonderful cathedral as well as going down its famous well.
-          The afternoon is a chance to continue to explore the town on your own.
-          Final dinner celebrating Umbrian cuisine and wines.
+        title: 'Discover the secrets of Orvieto'
+        description: 'This morning we’ll enjoy a guided tour of Orvieto, including the celebrated cathedral with its famous fresco cycle by Luca Signorelii (believed to have inspired Michelangelo’s Sistine Chapel, painted thirty years later).  The afternoon is a chance to continue to explore the town.  We will regroup for our final dinner at one of the town’s excellent restaurants.'
         meals_included:
           - breakfast
           - dinner
       -
         id: fDUzSckxzWLu1D2DbqbFR
         title: 'Depart Orvieto'
-        description: |-
-          Breakfast at the hotel.
-          Transfer to Orvieto station for onward travel.
+        description: 'After breakfast, you will be free to continue your holiday.  Orvieto is well-connected by regular trains to Rome, Florence and beyond'
         meals_included:
           - breakfast
   -
@@ -322,11 +320,11 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1787296236
+updated_at: 1787545457
 summary:
   -
     type: paragraph
     content:
       - type: text
-        text: "Designed and led by Hidden Italy guide Sarah Morgan, who has called Umbria home for twenty years, this fabulous tour offers an insider’s view of the region. It begins and ends in Gubbio and Orvieto, two of Umbria’s most celebrated towns, with visits to some of the region’s hidden gems:\_ Valnerina, the Sibillini National Park, and Amelia, Sarah’s home and one of Umbria’s most fascinating towns."
+        text: "Designed and led by Hidden Italy guide Sarah Morgan, who has called Umbria home for fifteen years, this fabulous tour offers an insider’s view of the region. It begins and ends in Gubbio and Orvieto, two of Umbria’s most celebrated towns, with visits to some of the region’s hidden gems:\_ Valnerina, the Sibillini National Park, and Amelia, Sarah’s home and one of Umbria’s most fascinating towns."
 ---
