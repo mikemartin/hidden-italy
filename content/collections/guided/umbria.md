@@ -123,7 +123,7 @@ page_builder:
         description: 'The tour starts in Gubbio, one of Umbria’s most beautifully preserved medieval towns.  Built into the slopes of Monte Ingino, Gubbio provides an exceptional introduction to the region, with medieval streets, Roman heritage, artisan traditions, and sweeping views over the countryside.  We’ll meet at the hotel at 19.00 and walk to dinner.'
         meals_included:
           - dinner
-        photo: guided/gubbio-2.jpg
+        photo: guided/ducale-1.jpg
       -
         id: YjcLZmnMamy-RsFTNTnN6
         title: 'Explore the historical town'
@@ -134,7 +134,7 @@ page_builder:
         duration: 1.0
         distance: 3.0
         elevation: 84
-        photo: guided/spello-5.jpg
+        photo: guided/gubbio-2.jpg
       -
         id: dRttPDU-P82DA7eK9yvVs
         title: 'Head south to the Valenerina'
@@ -183,7 +183,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: guided/amelia-1.jpg
+        photo: guided/monasterio-1.jpg
       -
         id: 0l3nLZ0EbT-jFT0RWNEs5
         title: 'Walk through woods and fields to an ancient town'
@@ -203,6 +203,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: guided/amelia-1.jpg
       -
         id: KHRGr3D2yhqLQdiThxIUa
         description: 'Today we will walk from Amelia to a nearby Lugnano, officially listed as one the most beautiful towns in Italy (12 km, 370 mts), enjoying a cut lunch along the way.  After exploring this tiny town, we’ll drive back to our base.  In the evening you will be guests in guide Sarah’s home, a small olive farm on the outskirts of Amelia, having a delicious home-cooked meal under their pergola with views across the valley.'
@@ -213,6 +214,7 @@ page_builder:
           - dinner
         duration: 4.0
         elevation: 370
+        photo: guided/foce-2.jpg
       -
         id: j-gmsVnOqpZy0rOQpeOlG
         title: "Lunch in one of Umbria's finest restaurants"
@@ -220,6 +222,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: guided/orvieto-1.jpg
       -
         id: 4aE_GQ_5tU2YwEUaKJNG8
         title: 'Discover the secrets of Orvieto'
@@ -227,12 +230,14 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
+        photo: guided/orvieto-1.jpg
       -
         id: fDUzSckxzWLu1D2DbqbFR
         title: 'Depart Orvieto'
         description: 'After breakfast, you will be free to continue your holiday.  Orvieto is well-connected by regular trains to Rome, Florence and beyond'
         meals_included:
           - breakfast
+        photo: guided/img_7469.jpg
   -
     id: 6np4rNhRue8SqrUBCqHuK
     section_background: dark
@@ -360,7 +365,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1787626098
+updated_at: 1787626901
 summary:
   -
     type: paragraph
@@ -370,11 +375,11 @@ summary:
 gallery:
   - guided/mattia-poli-2yytez6z44e-unsplash.jpg
   - guided/foce-4.jpg
-  - guided/amelia-1.jpg
-  - guided/amelia-4.jpg
+  - guided/monasterio-1.jpg
   - guided/img_7470.jpg
   - guided/castelluccio-7.jpg
-  - guided/spello-5.jpg
+  - guided/amelia-1.jpg
+  - guided/amelia-4.jpg
   - guided/umbria-7.jpg
   - guided/spello-6.jpg
   - guided/umbria-3.jpg
