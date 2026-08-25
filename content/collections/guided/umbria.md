@@ -153,7 +153,7 @@ page_builder:
           - lunch
         duration: 4.0
         elevation: 60
-        photo: guided/foce-4.jpg
+        photo: guided/foce-8.jpg
       -
         id: V5y6olGGteTR7aqTsF3FH
         title: 'A cultural and culinary delight'
@@ -369,13 +369,13 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1787631522
+updated_at: 1787631761
 summary:
   -
     type: paragraph
     content:
       - type: text
-        text: "Designed and led by Hidden Italy guide Sarah Morgan, who has called Umbria home for fifteen years, this fabulous tour offers an insider’s view of the region. It begins in Gubbio and ends in Orvieto, two of Umbria’s most celebrated towns, with visits to some of the region’s hidden gems:\_ Valnerina, the Sibillini National Park, and Amelia, Sarah’s home and one of Umbria’s most fascinating towns."
+        text: "Designed and led by Hidden Italy guide Sarah Morgan, who has called Umbria home for fifteen years, this fabulous tour offers an insider’s view of the region. It begins in Gubbio and ends in Orvieto, two of Umbria’s most celebrated towns, with visits in between to some of the region’s hidden gems:\_ Valnerina, the Sibillini National Park, and Amelia, Sarah’s home and one of Umbria’s most fascinating towns."
 gallery:
   - guided/mattia-poli-2yytez6z44e-unsplash.jpg
   - guided/foce-4.jpg
