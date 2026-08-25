@@ -194,7 +194,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: guided/foce-1.jpg
+        photo: guided/foce-6.jpg
       -
         id: yAPlMq-7I0LxA3jqvlhrw
         title: 'Explore Amelia'
@@ -221,7 +221,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: guided/orvieto-1.jpg
+        photo: guided/trippini-1.webp
       -
         id: 4aE_GQ_5tU2YwEUaKJNG8
         title: 'Discover the secrets of Orvieto'
@@ -229,7 +229,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: guided/orvieto-1.jpg
+        photo: guided/orvieto-8.jpg
       -
         id: fDUzSckxzWLu1D2DbqbFR
         title: 'Depart Orvieto'
@@ -369,7 +369,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1787627086
+updated_at: 1787627753
 summary:
   -
     type: paragraph
