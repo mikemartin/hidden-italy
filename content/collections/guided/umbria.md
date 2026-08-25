@@ -1,5 +1,6 @@
 ---
 id: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
+published: false
 blueprint: tour
 title: 'Umbria Guided Tour - Umbria'
 region: Umbria
@@ -369,7 +370,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1787631761
+updated_at: 1787631879
 summary:
   -
     type: paragraph
