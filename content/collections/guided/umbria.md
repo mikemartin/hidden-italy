@@ -40,7 +40,7 @@ finish_location:
       level: 2
   country: Italy
 headline: "Explore Italy's green heart"
-date: '2027-08-19 14:00'
+date: '2027-09-19 14:00'
 now_open: true
 badge_text: 'New tour!'
 days: 13
@@ -142,7 +142,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: guided/mattia-poli-2yytez6z44e-unsplash.jpg
+        photo: guided/giotto-1.jpg
       -
         id: DSEbPuDVys5s-dLV1Yqjy
         title: 'Walk to lunch in an 8th century abbey'
@@ -369,7 +369,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1787630893
+updated_at: 1787631232
 summary:
   -
     type: paragraph
