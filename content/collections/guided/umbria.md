@@ -255,7 +255,7 @@ page_builder:
             type: paragraph
             content:
               - type: text
-                text: 'These gentle walks range from 3 to 12 kilometres.  They generally take three to fours hours following well-marked.  You are in the foothills of the Apennine Range so there are a few climbs but nothing dramatic.  They include an easy riverside walk, walks through rolling countryside and forests, and a spectacular undulating walk in the heart of the Sibillini Mountains.  You will be accompanied by your tour leader and a local guide on each of the walks'
+                text: 'These gentle walks range from 3 to 12 kilometres.  They generally take three to fours hours following well-marked trails.  You are in the foothills of the Apennine Range so there are a few climbs but nothing dramatic.  They include an easy riverside walk, walks through rolling countryside and forests, and a spectacular undulating walk in the heart of the Sibillini Mountains.  You will be accompanied by your tour leader and a local guide on each of the walks'
         image: guided/foce-4.jpg
       -
         id: PEePl_7BCgVNDSxdSJl6B
@@ -267,7 +267,7 @@ page_builder:
             type: paragraph
             content:
               - type: text
-                text: "The accommodation is one of the highlights of this tour.  The tour is booked ended by stays in centrally located 4-star hotels set in historic palazzi in both Gubbio and Orvieto.  In between you stay in an 'albergo diffuso' with independent rooms in a charming village on the banks of the Nera River and then in another 4-star hotel, this time set in restored monastery with a swimming pool and large gardens."
+                text: "The accommodation is one of the highlights of this tour.  The tour is book ended by stays in centrally located 4-star hotels set in historic palazzi in both Gubbio and Orvieto.  In between you stay in an 'albergo diffuso' with independent rooms in a charming village on the banks of the Nera River and then in another 4-star hotel, this time set in restored monastery with a swimming pool and large gardens."
         media:
           - guided/monasterio-1.jpg
       -
@@ -370,7 +370,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1787632100
+updated_at: 1787639869
 summary:
   -
     type: paragraph
