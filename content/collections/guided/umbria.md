@@ -1,6 +1,5 @@
 ---
 id: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
-published: false
 blueprint: tour
 title: 'Umbria Guided Tour - Umbria'
 region: Umbria
@@ -256,6 +255,7 @@ page_builder:
             content:
               - type: text
                 text: 'These gentle walks range from 3 to 12 kilometres.  They generally take three to fours hours following well-marked.  You are in the foothills of the Apennine Range so there are a few climbs but nothing dramatic.  They include an easy riverside walk, walks through rolling countryside and forests, and a spectacular undulating walk in the heart of the Sibillini Mountains.  You will be accompanied by your tour leader and a local guide on each of the walks'
+        image: guided/foce-4.jpg
       -
         id: PEePl_7BCgVNDSxdSJl6B
         title: 'Boutique accommodation'
@@ -267,6 +267,8 @@ page_builder:
             content:
               - type: text
                 text: "The accommodation is one of the highlights of this tour.  The tour is booked ended by stays in centrally located 4-star hotels set in historic palazzi in both Gubbio and Orvieto.  In between you stay in an 'albergo diffuso' with independent rooms in a charming village on the banks of the Nera River and then in another 4-star hotel, this time set in restored monastery with a swimming pool and large gardens."
+        media:
+          - guided/monasterio-1.jpg
       -
         id: wMVJ8e4dKm72p178Gc6L6
         title: 'Authentic food'
@@ -285,6 +287,8 @@ page_builder:
                 text: porchetta
               - type: text
                 text: ', roasted suckling pig stuffed with rosemary or sage.  Umbria is well-known for its truffles, its lentils and its fresh vegetables such as green beans from Trasimeno and cardoons from Trevi.  Umbria also produces some excellent wines including the white wines of Orvieto some outstanding reds such as Torgiano Rosso and Sagrantino.'
+        media:
+          - guided/porchetta-1.jpg
     show_topography: true
   - id: Q8teFUrQd_KaHrdLR1Myv
     title: 'Tour Leader'
@@ -365,7 +369,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1787626901
+updated_at: 1787627086
 summary:
   -
     type: paragraph
