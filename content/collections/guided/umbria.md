@@ -6,7 +6,7 @@ title: 'Umbria Guided Tour - Umbria'
 region: Umbria
 name: 'Umbria Guided Tour'
 teaser: 'Unspoilt landscapes to cultural treasures, the perfect balance of tranquillity and culture'
-image: guided/foce-5.jpg
+image: guided/umbria-3.jpg
 overlay_opacity: 20
 start_location:
   label: 'Gubbio, Umbria, Italy'
@@ -76,6 +76,10 @@ page_builder:
         content:
           - type: text
             text: "Taking you well off the beaten paths, this tour will introduce you to a side of Umbria only a local can share. \_It starts with two nights in a centrally located, 4-star hotel in Gubbio, and includes a guided tour of this fascinating town.\_ From here we go off-the-beaten track to ‘the most beautiful part of Umbria’, the wild Nera valley, where we’ll be based in an ‘albergo diffuso’ in a small, historic village on the river. The next stop is a 4-star hotel set beautifully restored monastery, with a pool and surrounded by gardens outside Amelia. \_The grand finale is two nights in an historic 4-star hotel two steps from Orvieto’s famous cathedral."
+    images:
+      - guided/monasterio-1.jpg
+      - guided/castelluccio-7.jpg
+      - guided/img_7469.jpg
   -
     id: L-xBFglx3C6oFGLfQX754
     section_background: light
@@ -119,6 +123,7 @@ page_builder:
         description: 'The tour starts in Gubbio, one of Umbria’s most beautifully preserved medieval towns.  Built into the slopes of Monte Ingino, Gubbio provides an exceptional introduction to the region, with medieval streets, Roman heritage, artisan traditions, and sweeping views over the countryside.  We’ll meet at the hotel at 19.00 and walk to dinner.'
         meals_included:
           - dinner
+        photo: guided/gubbio-2.jpg
       -
         id: YjcLZmnMamy-RsFTNTnN6
         title: 'Explore the historical town'
@@ -129,6 +134,7 @@ page_builder:
         duration: 1.0
         distance: 3.0
         elevation: 84
+        photo: guided/spello-5.jpg
       -
         id: dRttPDU-P82DA7eK9yvVs
         title: 'Head south to the Valenerina'
@@ -137,6 +143,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: guided/mattia-poli-2yytez6z44e-unsplash.jpg
       -
         id: DSEbPuDVys5s-dLV1Yqjy
         title: 'Walk to lunch in an 8th century abbey'
@@ -147,6 +154,7 @@ page_builder:
           - lunch
         duration: 4.0
         elevation: 60
+        photo: guided/foce-4.jpg
       -
         id: V5y6olGGteTR7aqTsF3FH
         title: 'A cultural and culinary delight'
@@ -154,6 +162,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+        photo: guided/umbria-5.jpg
       -
         id: 7HnpGnYA9oMkxf9wqePAZ
         title: 'A spectacular mountain walk'
@@ -165,6 +174,7 @@ page_builder:
         duration: 4.0
         distance: 12.0
         elevation: 439
+        photo: guided/umbria-3.jpg
       -
         id: KXWCs8ChKhSxYCxxb7V0p
         title: 'See the world’s highest man-made waterfall'
@@ -173,6 +183,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: guided/amelia-1.jpg
       -
         id: 0l3nLZ0EbT-jFT0RWNEs5
         title: 'Walk through woods and fields to an ancient town'
@@ -184,6 +195,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
+        photo: guided/foce-1.jpg
       -
         id: yAPlMq-7I0LxA3jqvlhrw
         title: 'Explore Amelia'
@@ -348,7 +360,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1787556078
+updated_at: 1787626098
 summary:
   -
     type: paragraph
@@ -357,15 +369,15 @@ summary:
         text: "Designed and led by Hidden Italy guide Sarah Morgan, who has called Umbria home for fifteen years, this fabulous tour offers an insider’s view of the region. It begins and ends in Gubbio and Orvieto, two of Umbria’s most celebrated towns, with visits to some of the region’s hidden gems:\_ Valnerina, the Sibillini National Park, and Amelia, Sarah’s home and one of Umbria’s most fascinating towns."
 gallery:
   - guided/mattia-poli-2yytez6z44e-unsplash.jpg
-  - guided/castelluccio-7.jpg
   - guided/foce-4.jpg
   - guided/amelia-1.jpg
   - guided/amelia-4.jpg
+  - guided/img_7470.jpg
+  - guided/castelluccio-7.jpg
   - guided/spello-5.jpg
-  - guided/foce-1.jpg
+  - guided/umbria-7.jpg
   - guided/spello-6.jpg
-  - guided/castelluccio-2.jpg
-  - guided/spoleto-1.jpg
-  - guided/norcia-3.jpg
-  - guided/foce-2.jpg
+  - guided/umbria-3.jpg
+  - guided/umbria-6.jpg
+  - guided/img_7469.jpg
 ---
