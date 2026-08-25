@@ -78,7 +78,7 @@ page_builder:
     images:
       - guided/monasterio-1.jpg
       - guided/castelluccio-7.jpg
-      - guided/img_7469.jpg
+      - guided/foce-1.jpg
   -
     id: L-xBFglx3C6oFGLfQX754
     section_background: light
@@ -133,7 +133,7 @@ page_builder:
         duration: 1.0
         distance: 3.0
         elevation: 84
-        photo: guided/gubbio-2.jpg
+        photo: guided/gubbio-3.jpg
       -
         id: dRttPDU-P82DA7eK9yvVs
         title: 'Head south to the Valenerina'
@@ -194,7 +194,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: guided/foce-6.jpg
+        photo: guided/foce-7.jpg
       -
         id: yAPlMq-7I0LxA3jqvlhrw
         title: 'Explore Amelia'
@@ -369,7 +369,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1787627753
+updated_at: 1787630893
 summary:
   -
     type: paragraph
@@ -384,9 +384,9 @@ gallery:
   - guided/castelluccio-7.jpg
   - guided/amelia-1.jpg
   - guided/amelia-4.jpg
-  - guided/umbria-7.jpg
   - guided/spello-6.jpg
   - guided/umbria-3.jpg
   - guided/umbria-6.jpg
+  - guided/castelluccio-2.jpg
   - guided/img_7469.jpg
 ---
