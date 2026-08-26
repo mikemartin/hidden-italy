@@ -52,7 +52,7 @@ page_builder:
                     type: paragraph
                     content:
                       - type: text
-                        text: 'Not in conjunction with any other offers'
+                        text: 'Not valid in conjunction with any other offer.'
               -
                 type: listItem
                 content:
@@ -60,7 +60,7 @@ page_builder:
                     type: paragraph
                     content:
                       - type: text
-                        text: 'Cannot be used with gift cards '
+                        text: 'Cannot be used in conjunction with gift cards.'
               -
                 type: listItem
                 content:
@@ -68,7 +68,7 @@ page_builder:
                     type: paragraph
                     content:
                       - type: text
-                        text: 'Applicable on tour price only; does not include single supplement'
+                        text: 'Offer applies to the tour price only and excludes any single supplement, additional nights or additional transfers'
               -
                 type: listItem
                 content:
@@ -76,7 +76,12 @@ page_builder:
                     type: paragraph
                     content:
                       - type: text
-                        text: 'Book between 1 September 2026 and 15 October 2026'
+                        text: 'Bookings must be made between '
+                      -
+                        type: text
+                        marks:
+                          - type: bold
+                        text: '1 September 2026 and 15 October 2026.'
               -
                 type: listItem
                 content:
@@ -84,7 +89,7 @@ page_builder:
                     type: paragraph
                     content:
                       - type: text
-                        text: 'XXXXXX must be quoted at time of booking'
+                        text: 'Price is per person based on twin share.'
               -
                 type: listItem
                 content:
@@ -92,7 +97,19 @@ page_builder:
                     type: paragraph
                     content:
                       - type: text
-                        text: 'General T&C’s apply'
+                        text: 'Promotional code: [XXX] must be entered at the time of booking to redeem the offer.'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          - type: bold
+                        text: 'General Terms and Conditions apply.'
+                  - type: paragraph
     show_common_questions: false
     section_background: light
     type: faqs
@@ -106,7 +123,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: bring-a-friend-offer.png
 updated_by: 4
-updated_at: 1787704526
+updated_at: 1787704717
 headline: 'BRING 4 PAY FOR 3'
 description: 'Make it a group getaway and save on our Guided and Self-Guided Tours.'
 ---
