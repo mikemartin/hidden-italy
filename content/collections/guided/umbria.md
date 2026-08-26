@@ -6,8 +6,8 @@ title: 'Umbria Guided Tour - Umbria'
 region: Umbria
 name: 'Umbria Guided Tour'
 teaser: 'Unspoilt landscapes to cultural treasures, the perfect balance of tranquillity and culture'
-image: guided/umbria-3.jpg
-overlay_opacity: 20
+image: guided/untitled-design-(2).png
+overlay_opacity: 15
 start_location:
   label: 'Gubbio, Umbria, Italy'
   lat: '43.3517605'
@@ -369,8 +369,8 @@ show_from: true
 seasons: autumn
 locations: central-italy
 simple_likes: 0
-updated_by: 2
-updated_at: 1787639869
+updated_by: 4
+updated_at: 1787703576
 summary:
   -
     type: paragraph
@@ -379,12 +379,12 @@ summary:
         text: "Designed and led by Hidden Italy guide Sarah Morgan, who has called Umbria home for fifteen years, this fabulous tour offers an insider’s view of the region. It begins in Gubbio and ends in Orvieto, two of Umbria’s most celebrated towns, with visits in between to some of the region’s hidden gems:\_ Valnerina, the Sibillini National Park, and Amelia, Sarah’s home and one of Umbria’s most fascinating towns."
 gallery:
   - guided/mattia-poli-2yytez6z44e-unsplash.jpg
-  - guided/giotto-1.jpg
   - guided/foce-4.jpg
   - guided/monasterio-1.jpg
   - guided/img_7470.jpg
   - guided/castelluccio-7.jpg
   - guided/amelia-1.jpg
+  - guided/giotto-1.jpg
   - guided/amelia-4.jpg
   - guided/umbria-3.jpg
   - guided/spello-6.jpg
