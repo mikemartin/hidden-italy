@@ -24,7 +24,12 @@ page_builder:
         type: paragraph
         content:
           - type: text
-            text: "You'll experience the country at your own pace, with meaningful encounters, local flavour, and the comfort of knowing everything is taken care of."
+            text: 'Experience Italy with meaningful encounters, local flavour, and the comfort of knowing everything is taken care of.'
+      -
+        type: paragraph
+        content:
+          - type: text
+            text: 'With over 30 tours to choose from, there is a walking adventure for everyone.'
       -
         type: paragraph
         content:
@@ -127,8 +132,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: bring-a-friend-offer.png
-updated_by: 3
-updated_at: 1787705608
+updated_by: 4
+updated_at: 1787705768
 headline: 'SHARE THE ADVENTURE'
-description: 'Make it a group getaway and your 4th guest travels free on our Guided and Self-Guided Tours with this special offer (conditions apply)'
+description: 'Make it a group getaway and your 4th guest travels free on our Guided and Self-Guided Tours.'
 ---
