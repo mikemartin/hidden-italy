@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 4
-updated_at: 1787705803
+updated_at: 1787713678
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -150,7 +150,7 @@ page_builder:
         type: card
         enabled: true
         image: guided/sardinia-in-the-spring/img_5939.jpg
-        heading: 'Guided tours now available to book for 2027'
+        heading: '2027 Guided Tours filling fast'
         button:
           - id: home_shop_guided_2027_btn
             label: 'Browse guided tours'
@@ -160,6 +160,7 @@ page_builder:
             button_type: button
             type: button
             enabled: true
+        text: 'From Basilicata, Puglia, Trieste & Friuli, our guided tours are a gentle and unique way to discover a side of this fascinating country that most people only read about.'
     section_background: none
 seo_title: 'Hidden Italy | Walking Italy since 1993'
 seo_description: "For over 30 years, we've helped inquisitive travellers explore Italy on guided and self-guided walking tours. You'll experience the country at your own pace, with meaningful encounters, local flavour, and the comfort of knowing everything is taken care of."
