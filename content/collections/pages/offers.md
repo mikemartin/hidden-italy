@@ -7,7 +7,7 @@ header_variant: large
 page_builder:
   -
     id: AlnE_xc7Bkb-kv3EUIcnV
-    heading: '1 GUEST TRAVELS FREE'
+    heading: 'Pay for 3, 4th travels for free'
     image: bring-a-friend-offer.png
     image_position: right
     image_aspect: square
@@ -122,8 +122,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: bring-a-friend-offer.png
-updated_by: 4
-updated_at: 1787704717
+updated_by: 3
+updated_at: 1787705278
 headline: 'BRING 4 PAY FOR 3'
-description: 'Make it a group getaway and save on our Guided and Self-Guided Tours.'
+description: 'Make it a group getaway and save on our Guided and Self-Guided Tours with this special offer.'
 ---
