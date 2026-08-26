@@ -106,7 +106,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: bring-a-friend-offer.png
 updated_by: 4
-updated_at: 1787704486
+updated_at: 1787704526
 headline: 'BRING 4 PAY FOR 3'
 description: 'Make it a group getaway and save on our Guided and Self-Guided Tours.'
 ---
