@@ -1,9 +1,7 @@
 ---
 id: 47e43933-0e1d-48c5-98b4-b306feaad485
 blueprint: home
-title: 'BASILICATA INTO OFFER'
-tour_photos:
-  - 11a4453e-9cd1-4418-b350-c3c35a49ae4c
+title: 'BASILICATA INTRO OFFER'
 page_builder:
   -
     id: qgN0GivzZXrzxRmyDOB9M
@@ -112,5 +110,5 @@ og_description: |-
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 4
-updated_at: 1787182796
+updated_at: 1787704276
 ---

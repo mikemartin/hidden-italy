@@ -2,7 +2,7 @@
 id: a75d1779-a1ed-44a5-a997-e950a195e9a9
 published: false
 blueprint: page
-title: Offers
+title: 'BRING 4 PAY FOR 3'
 header_variant: large
 page_builder:
   -
@@ -223,5 +223,5 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: alberobello-7.jpg
 updated_by: 4
-updated_at: 1787034551
+updated_at: 1787704031
 ---
