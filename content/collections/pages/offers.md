@@ -107,7 +107,7 @@ page_builder:
                     type: paragraph
                     content:
                       - type: text
-                        text: 'Promotional code: [XXX] must be entered at the time of booking to redeem the offer.'
+                        text: 'Promotional code: [4FOR326] must be entered at the time of booking to redeem the offer.'
               -
                 type: listItem
                 content:
@@ -133,7 +133,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: bring-a-friend-offer.png
 updated_by: 4
-updated_at: 1787710734
+updated_at: 1787711765
 headline: 'SHARE THE ADVENTURE'
 description: 'Make it a group getaway and your 4th guest travels free on our Guided and Self-Guided Tours.'
 ---
