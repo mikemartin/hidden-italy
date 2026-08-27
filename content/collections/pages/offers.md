@@ -114,6 +114,14 @@ page_builder:
                   -
                     type: paragraph
                     content:
+                      - type: text
+                        text: 'Bookings cannot be made via a third party.'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
                       -
                         type: text
                         marks:
@@ -133,7 +141,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: bring-a-friend-offer.png
 updated_by: 4
-updated_at: 1787711765
+updated_at: 1787812453
 headline: 'SHARE THE ADVENTURE'
 description: 'Make it a group getaway and your 4th guest travels free on our Guided and Self-Guided Tours.'
 ---
