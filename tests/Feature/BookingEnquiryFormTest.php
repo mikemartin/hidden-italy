@@ -4,6 +4,7 @@ namespace Tests\Feature;
 
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Testing\TestResponse;
 use Tests\TestCase;
 
 class BookingEnquiryFormTest extends TestCase
@@ -44,7 +45,7 @@ class BookingEnquiryFormTest extends TestCase
      *
      * @param  array<string, mixed>  $data
      */
-    private function precognitiveSubmit(array $data): \Illuminate\Testing\TestResponse
+    private function precognitiveSubmit(array $data): TestResponse
     {
         return $this->postJson('/!/forms/booking_enquiry', $data, ['Precognition' => 'true']);
     }
@@ -80,5 +81,15 @@ class BookingEnquiryFormTest extends TestCase
             ->assertSee('Phone number')
             // …seeded from the user's saved mobile so they can edit it.
             ->assertSee("form.phone = '+39 333 999 8888'", false);
+    }
+
+    public function test_fallback_hero_image_is_served_through_glide(): void
+    {
+        $response = $this->get('/booking');
+
+        $response->assertOk()
+            ->assertDontSee("url('/assets/guided/campania-and-the-amalfi-coast/22.6.jpg')", false)
+            ->assertSee('/img/asset/', false)
+            ->assertSee('22.6.jpg?w=1600&q=80', false);
     }
 }

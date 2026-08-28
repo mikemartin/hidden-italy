@@ -51,7 +51,7 @@
                         {{ if no_results || !image }}
                             <div
                                 class="absolute inset-0 bg-cover bg-center"
-                                style="background-image: url('/assets/guided/campania-and-the-amalfi-coast/22.6.jpg');"
+                                style="background-image: url('{{ glide src="/assets/guided/campania-and-the-amalfi-coast/22.6.jpg" width="1600" quality="80" }}');"
                             ></div>
                         {{ else }}
                             <div
@@ -63,7 +63,7 @@
                 {{ else }}
                     <div
                         class="absolute inset-0 bg-cover bg-center"
-                        style="background-image: url('/assets/guided/campania-and-the-amalfi-coast/22.6.jpg');"
+                        style="background-image: url('{{ glide src="/assets/guided/campania-and-the-amalfi-coast/22.6.jpg" width="1600" quality="80" }}');"
                     ></div>
                 {{ /if }}
             </div>
