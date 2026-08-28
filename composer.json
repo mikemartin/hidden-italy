@@ -33,7 +33,7 @@
         "mallardduck/blade-lucide-icons": "^1.24",
         "mikemartin/helpscout-beacon": "^1.0",
         "mikomagni/simple-likes": "^2.0",
-        "reachweb/statamic-livewire-filters": "4.3.2",
+        "reachweb/statamic-livewire-filters": "4.5.1",
         "spatie/browsershot": "^5.3",
         "statamic-rad-pack/mailchimp": "^6.2",
         "statamic/cms": "^6.0",
