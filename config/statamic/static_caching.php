@@ -33,7 +33,7 @@ return [
 
         'half' => [
             'driver' => 'application',
-            'expiry' => null,
+            'expiry' => 10080,
         ],
 
         'full' => [
@@ -115,7 +115,9 @@ return [
     |
     */
 
-    'ignore_query_strings' => false,
+    // No public page uses query strings (single paginated page never exceeds one
+    // page; filters go through Livewire's endpoint). Revisit if pagination grows.
+    'ignore_query_strings' => true,
 
     'allowed_query_strings' => [
         //
