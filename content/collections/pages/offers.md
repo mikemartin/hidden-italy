@@ -170,7 +170,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: bring-a-friend-offer.png
 updated_by: 4
-updated_at: 1788141080
+updated_at: 1788141182
 headline: 'SHARE THE ADVENTURE'
 description: 'Make it a group getaway and your 4th guest travels free on our Guided and Self-Guided Tours.'
 ---
