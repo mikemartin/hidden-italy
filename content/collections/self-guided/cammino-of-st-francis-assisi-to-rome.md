@@ -69,16 +69,14 @@ page_builder:
         content:
           -
             type: text
-            text: 'In 1209, Francis and his posse of bare-footed disciples walked from Assisi to Rome to confront the not-so-innocent Pope Innocent III. This beautiful nineteen-day walk recreates this journey, starting in Assisi, passing through vineyards and art towns of the Vale Umbria; the forests and rivers of the Nerina Valley and the undulating hills of northern Lazio before finishing on the steps of St Peter’s Basilica in the heart of Rome. No saint speaks to the modern mind like St Francis, the patron saint of Italy, his love of nature and his messages of freedom, fraternity and modesty still resonating across the centuries. St Francis was also a great walker, indeed, his career began with a long walk from Assisi to Rome: this marvellous walk follows this route.'
-      -
-        type: paragraph
+            text: 'In 1209, Francis and his posse of bare-footed disciples walked from Assisi to Rome to confront the not-so-innocent Pope Innocent III. This beautiful nineteen-day walk recreates this journey, starting in Assisi, passing through vineyards and art towns of the Vale Umbria; the forests and rivers of the Nerina Valley and the undulating hills of northern Lazio before finishing on the steps of St Peter’s Basilica in the heart of Rome. No saint speaks to the modern mind like St Francis, the patron saint of Italy, his love of nature and his messages of freedom, fraternity and modesty still resonating across the centuries. St Francis was also a great walker, indeed, his career began with a long walk from Assisi to Rome: this marvellous walk follows this route. The trail takes you through some of the most striking and varied countryside in central Italy: the olive groves, vineyards and farmlands of the Valle Umbra '
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'The trail takes you through some of most striking and varied countryside in central Italy: the olive groves, vineyards and farmlands of the Valle Umbra (between Assisi and Spoleto); the hills, forests, rivers and lakes of the Valnerina (between Spoleto and Rieti); and the fertile plains of northern Lazio, with their memories of ancient Rome, barbarian invasions, Renaissance princes and prelates (between Rieti and Rome) finishing in the centre of the ‘Eternal City’ itself. Along the way, you’ll visit extraordinary towns, villages and monasteries with long and rich histories, many of which have changed little since the time St Francis. Although not a ‘hike’ the routes includes some steep climbs and some long days and requires a good level of fitness. You walk along a mixture of unsealed country lanes and mountain trails with some stretches of asphalt, particularly entering and leaving the larger towns (although we have sought to keep this to a minimum).'
+            text: '(between Assisi and Spoleto); the hills, forests, rivers and lakes of the Valnerina (between Spoleto and Rieti); and the fertile plains of northern Lazio, with their memories of ancient Rome, barbarian invasions, Renaissance princes and prelates (between Rieti and Rome) finishing in the centre of the ‘Eternal City’ itself. Along the way, you’ll visit extraordinary towns, villages and monasteries with long and rich histories, many of which have changed little since the time St Francis. Although not a ‘hike’ the routes includes some steep climbs and some long days and requires a good level of fitness. You walk along a mixture of unsealed country lanes and mountain trails with some stretches of asphalt, particularly entering and leaving the larger towns (although we have sought to keep this to a minimum).'
       -
         type: paragraph
     section_background: none
@@ -110,8 +108,16 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-show_from: true
+price: 'A$5,950 pp'
+show_from: false
 simple_likes: 0
+seasons:
+  - autumn
+  - spring
+  - summer
+locations: central-italy
+landscapes:
+  - countryside
 updated_by: 4
-updated_at: 1788140644
+updated_at: 1788140942
 ---
