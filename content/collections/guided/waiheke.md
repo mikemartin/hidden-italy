@@ -14,7 +14,8 @@ summary:
   -
     type: paragraph
     content:
-      - type: text
+      -
+        type: text
         text: 'This seven-day tour starts in Auckland and then four nights on Waiheke in superior self-contained accommodation with spectacular views overlooking the sea, a short walk from Oneroa and some of the island’s best vineyard restaurants.'
 days: 7
 grade: 0
@@ -45,7 +46,8 @@ page_builder:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: 'Stretching between Auckland and the Coromandel Peninsula, the Hauraki Gulf is dotted with islands and is as equally stunning as the Northland’s Bay of Islands. Waiheke is the largest and most beautiful of these islands. Only a forty-minute ferry ride from Auckland. Waiheke has many attractions: its stunning beaches (rocky bays on the landward side, sandy beaches on its ocean flank); beautiful hills covered in forests and crossed with walking trails; an exciting food and '
     section_background: dark
     type: overview
@@ -54,9 +56,11 @@ page_builder:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: 'wine culture that includes over thirty vineyards and a couple of the region’s best restaurants; excellent accommodation; and a vibrant artistic tradition with plenty of quirky galleries and craft stores. It’s the perfect place for a Hidden Italy gourmet escape! Your visit will include four walks: a shorter one in Auckland on Day 2 and three longer walks on the island. The tour includes all breakfasts, four dinners and three lunches at some of the island’s best restaurants, two picnic lunches and a scenic tour of the vineyards.'
-      - type: paragraph
+      -
+        type: paragraph
     title: 'The Hauraki Gulf'
     show_topography: true
   -
@@ -67,27 +71,33 @@ page_builder:
     enabled: true
     heading: 'Waiheke Island Highlights'
     activities:
-      - id: 99Csi93voHQUMsO-Ftf93
+      -
+        id: 99Csi93voHQUMsO-Ftf93
         title: 'Climb Maungawhau'
         summary: 'Maungawhau or Mt Eden is the highest natural point in Auckland.'
         icon: switzerland-mountain.svg
-      - id: P8Ij7-OZzo5-8wkiSjbk9
+      -
+        id: P8Ij7-OZzo5-8wkiSjbk9
         title: 'Spectacular coastal walking'
         summary: 'Follow a spectacular trail along the coast, passing around the western headlands'
         icon: nature-beach.svg
-      - id: XnPanF9Iw26bGlTB8_jjT
+      -
+        id: XnPanF9Iw26bGlTB8_jjT
         title: 'Discover exceptional food'
         summary: 'Waiheke is a food lovers paradise. You’ll have the opportunity to sample the amazing islands produce.'
         icon: agriculture-tomatoes.svg
-      - id: dxziOe6eqyfW6HON0PmHj
+      -
+        id: dxziOe6eqyfW6HON0PmHj
         title: 'Explore Stony Batter Historic site'
         summary: 'Participate in a fascinating guided walk of the historical reserve'
         icon: geography-cartography-hills.svg
-      - id: U0SRw302zpM5J0ENkMAz3
+      -
+        id: U0SRw302zpM5J0ENkMAz3
         title: 'Visit beautiful vineyards'
         summary: 'Visits boutique vineyards and an award-winning olive oil mill'
         icon: 'wine-wine bottle.svg'
-      - id: wCDNIXV428LypFfjpTX7a
+      -
+        id: wCDNIXV428LypFfjpTX7a
         title: 'Be immersed in Maori traditions'
         summary: 'Visit a number of places of significant importance to the Maori people of Waiheke'
         icon: winter-lake-frozen-ice-winter-travel.svg
@@ -160,7 +170,6 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-          - dinner
         title: 'Breathtaking Views'
         photo: guided/waiheke/jil-beckmann-kmsuyebwgmg-unsplash.jpg
       -
@@ -182,9 +191,11 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Waiheke is a walker’s paradise as well, with beautiful trails that take you along the beaches and rocky bays of the island as well as through the hills, forests, vineyards and nature reserves of the interior following sections of the Te Ara Hura trail. Our tour includes four walks starting with a short warm-up walk in Auckland and including three more extensive walks on the island, ranging from three to four hours each. '
-          - type: paragraph
+          -
+            type: paragraph
         image: guided/w4gr3g.jpg
       -
         id: Dd_XBmv9zur7iszLwgBWs
@@ -195,9 +206,11 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'We spend 3 nights in Auckland, staying in a centrally located hotel. The accommodation on Waiheke is in beautifully designed, modern, self-contained apartments, each with spectacular views over the western end of the island. It is a short walk from Oneroa, the main town on Waiheke as well as some of the best vineyard restaurants on the island.'
-          - type: paragraph
+          -
+            type: paragraph
         media:
           - guided/waiheke/cable-bay-house-private.jpg
       -
@@ -209,13 +222,15 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Waiheke is a food lovers paradise. There are around thirty boutique wineries scattered across the island, many with tasting rooms, excellent restaurants and great views.  There is also a number of very good eateries closer to the water. You’ll have the opportunity to sample the best of these as well as the islands own produce. The tour includes generous breakfasts each day, four dinners and five lunches as well as a scenic wine tour. '
     section_background: dark
     type: experience
     enabled: true
     show_topography: true
-  - id: l2t_F-V4UKanZV4SuzUJ5
+  -
+    id: l2t_F-V4UKanZV4SuzUJ5
     title: 'Tour Leader'
     section_background: none
     type: leader
@@ -235,7 +250,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "A pair of comfortable walking shoes and a mobile phone are the two of the most essential items. On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
       -
         id: iufHVxVfsOcGBp6_TDtkU
@@ -245,17 +261,20 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'To secure a booking, a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date.'
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour.'
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
       -
         id: x9_WpTX1T7TKvqAH_qwPd
@@ -268,11 +287,14 @@ page_builder:
               -
                 type: text
                 marks:
-                  - type: bold
+                  -
+                    type: bold
                 text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
-              - type: text
+              -
+                type: text
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
-  - id: ObVJaFBS6rkI7fVY8qu2v
+  -
+    id: ObVJaFBS6rkI7fVY8qu2v
     heading: 'Frequently asked questions'
     show_common_questions: true
     section_background: none
@@ -286,7 +308,8 @@ page_builder:
     section_background: none
     type: testimonials
     enabled: false
-  - id: lQ_gWpCewWji7tuYRs0dg
+  -
+    id: lQ_gWpCewWji7tuYRs0dg
     section_background: light
     show_topography: false
     hide_from_subnav: true
@@ -303,5 +326,5 @@ seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 4
-updated_at: 1783290757
+updated_at: 1788145066
 ---
