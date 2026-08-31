@@ -19,7 +19,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'From the Dolomites and the Lakes in the north to Puglia and Sicily in the south, and lots of places in between, including Liguria, Tuscany, Lazio, Umbria, Abruzzo, Sardinia, Campania and the Amalfi Coast, our tours are a unique way to discover a side of this fascinating country that most people only read about.'
+            text: 'From the Dolomites and the Lakes in the north to Puglia and Sicily in the south, and lots of places in between, including Liguria, Tuscany, Lazio, Umbria, Abruzzo, Sardinia, Campania and the Amalfi Coast, our walking tours are a unique way to discover a side of this fascinating country that most people only read about.'
       -
         type: paragraph
         content:
@@ -169,7 +169,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: bring-a-friend-offer.png
 updated_by: 4
-updated_at: 1788142779
+updated_at: 1788160692
 headline: 'SHARE THE ADVENTURE'
 description: 'Make it a group getaway and your 4th guest travels free on our Guided and Self-Guided Tours.'
 ---
