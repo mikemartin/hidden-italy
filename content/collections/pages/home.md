@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 4
-updated_at: 1787713678
+updated_at: 1788218147
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -14,7 +14,8 @@ headline: |-
   Explore Italy, 
   one step at a time
 buttons:
-  - id: home_hero_btn
+  -
+    id: home_hero_btn
     label: 'Discover tours'
     link_type: entry
     entry: 2d1f3903-3248-4037-8e09-e76e8d62781c
@@ -37,14 +38,16 @@ page_builder:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: "For over 30 years, we've helped inquisitive travellers explore Italy on walking tours. You'll experience the country at your own pace, with meaningful encounters, local flavour, and the comfort of knowing everything is taken care of."
     benefits:
       - d98e45f6-28fa-4018-ab67-51d82701a881
       - 987b0947-3003-41c1-86f6-c3456e1429da
       - 1473fd92-2f3e-4025-8d25-66111aef1fa0
     buttons:
-      - id: home_intro_btn
+      -
+        id: home_intro_btn
         label: 'Read our story'
         link_type: url
         url: /about
@@ -63,7 +66,8 @@ page_builder:
       - 46b6b124-89cf-4efb-b06a-cdb4d28312ba
       - fff5d1d0-e05d-4088-9a54-1f2e7f630c28
     buttons:
-      - id: home_types_btn
+      -
+        id: home_types_btn
         label: 'Browse all tours'
         link_type: entry
         entry: 2d1f3903-3248-4037-8e09-e76e8d62781c
@@ -114,21 +118,23 @@ page_builder:
     heading: 'Special Offers'
     cards:
       -
-        id: home_shop_book
-        type: card
-        enabled: true
-        image: guided/maratea-port.jpeg
-        heading: 'Basilicata Guided tour'
-        text: "Basilicata is one of Italy’s least-explored regions. Miss the crowds, enjoy long balmy days, and the changing colours of the forests. A Hidden Italy\_special!"
+        id: nyMyElUSSprTpoC6Gcm7M
+        image: bring-a-friend-offer.png
+        heading: 'Share the Adventure'
+        text: 'Make it a group getaway and your 4th guest travels free on our Guided and Self-Guided Tours.'
         button:
-          - id: home_shop_book_btn
+          -
+            id: quv0rs1QPK_2U1CCv9cBH
             label: 'Learn More'
             link_type: entry
-            entry: 11a4453e-9cd1-4418-b350-c3c35a49ae4c
-            target_blank: false
+            entry: a75d1779-a1ed-44a5-a997-e950a195e9a9
             button_type: button
+            target_blank: false
+            tracker_event: bringafriend
             type: button
             enabled: true
+        type: card
+        enabled: true
       -
         id: home_shop_gift50
         type: card
@@ -137,7 +143,8 @@ page_builder:
         heading: 'Gift card — $250'
         text: 'A Hidden Italy gift card to put towards any tour or product.'
         button:
-          - id: home_shop_gift50_btn
+          -
+            id: home_shop_gift50_btn
             label: 'View gift card'
             link_type: url
             target_blank: true
@@ -146,21 +153,22 @@ page_builder:
             enabled: true
             url: 'https://hiddenitaly.myshopify.com/'
       -
-        id: home_shop_guided_2027
+        id: home_shop_book
         type: card
         enabled: true
-        image: guided/sardinia-in-the-spring/img_5939.jpg
-        heading: '2027 Guided Tours filling fast'
+        image: guided/maratea-port.jpeg
+        heading: 'Basilicata Guided tour'
+        text: "Basilicata is one of Italy’s least-explored regions. Miss the crowds, enjoy long balmy days, and the changing colours of the forests. A Hidden Italy\_special!"
         button:
-          - id: home_shop_guided_2027_btn
-            label: 'Browse guided tours'
+          -
+            id: home_shop_book_btn
+            label: 'Learn More'
             link_type: entry
-            entry: 46b6b124-89cf-4efb-b06a-cdb4d28312ba
+            entry: 11a4453e-9cd1-4418-b350-c3c35a49ae4c
             target_blank: false
             button_type: button
             type: button
             enabled: true
-        text: 'From Basilicata, Puglia, Trieste & Friuli, our guided tours are a gentle and unique way to discover a side of this fascinating country that most people only read about.'
     section_background: none
 seo_title: 'Hidden Italy | Walking Italy since 1993'
 seo_description: "For over 30 years, we've helped inquisitive travellers explore Italy on guided and self-guided walking tours. You'll experience the country at your own pace, with meaningful encounters, local flavour, and the comfort of knowing everything is taken care of."
