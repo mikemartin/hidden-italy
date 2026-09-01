@@ -19,7 +19,8 @@ page_builder:
 
           Make the most of our introductory rate of A$ 9,590 pp (normally A$10,590) for all new bookings made by 31 October 2026.
         button:
-          - id: qtwpS9WsFY32eJxQuXlzR
+          -
+            id: qtwpS9WsFY32eJxQuXlzR
             label: 'Book now'
             link_type: entry
             entry: 40fd13ef-8bd8-42bc-b239-0f5e185e468d
@@ -49,7 +50,8 @@ page_builder:
                   -
                     type: paragraph
                     content:
-                      - type: text
+                      -
+                        type: text
                         text: 'Not valid in conjunction with any other offer.'
               -
                 type: listItem
@@ -57,7 +59,8 @@ page_builder:
                   -
                     type: paragraph
                     content:
-                      - type: text
+                      -
+                        type: text
                         text: 'Cannot be used in conjunction with gift cards.'
               -
                 type: listItem
@@ -65,7 +68,8 @@ page_builder:
                   -
                     type: paragraph
                     content:
-                      - type: text
+                      -
+                        type: text
                         text: 'Offer applies to the tour price only and excludes any single supplement, additional nights or additional transfers'
               -
                 type: listItem
@@ -73,7 +77,8 @@ page_builder:
                   -
                     type: paragraph
                     content:
-                      - type: text
+                      -
+                        type: text
                         text: 'Bookings must be made between 1 August 2026 and 31 October 2026.'
               -
                 type: listItem
@@ -81,7 +86,8 @@ page_builder:
                   -
                     type: paragraph
                     content:
-                      - type: text
+                      -
+                        type: text
                         text: 'Price is per person based on twin share.'
               -
                 type: listItem
@@ -89,7 +95,8 @@ page_builder:
                   -
                     type: paragraph
                     content:
-                      - type: text
+                      -
+                        type: text
                         text: 'General Terms and Conditions apply.'
     show_common_questions: true
     section_background: none
@@ -111,4 +118,5 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 4
 updated_at: 1787704276
+og_image: basilicata-intro-offer-og-1788230066.png
 ---

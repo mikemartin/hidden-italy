@@ -172,4 +172,5 @@ updated_by: 4
 updated_at: 1788160692
 headline: 'SHARE THE ADVENTURE'
 description: 'Make it a group getaway and your 4th guest travels free on our Guided and Self-Guided Tours.'
+og_image: special-offer-og-1788230053.png
 ---
