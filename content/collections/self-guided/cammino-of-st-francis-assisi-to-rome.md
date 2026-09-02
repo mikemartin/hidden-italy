@@ -118,6 +118,6 @@ seasons:
 locations: central-italy
 landscapes:
   - countryside
-updated_by: 4
-updated_at: 1788140942
+updated_by: 2
+updated_at: 1788366556
 ---
