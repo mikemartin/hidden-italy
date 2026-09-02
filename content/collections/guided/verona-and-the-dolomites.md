@@ -6,7 +6,7 @@ name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: 4
-updated_at: 1785119277
+updated_at: 1788312486
 locations: northern-italy
 grade: 3
 image: guided/verona-and-the-dolomites/-p9192176.jpg
@@ -45,13 +45,15 @@ page_builder:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: "Autumn is the perfect time to explore this fascinating area, a unique range of mountains with towering limestone pinnacles and spires rising dramatically above deep green valleys of pine forests that flow into rolling meadows scattered with centuries-old villages, Gothic churches and isolated timber farmhouses.\_ Along the way, you will be introduced to the history and traditions of the area, a beguiling blend of German, Italian and Ladino cultures."
     column_right:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: "The tour starts with a bang, two nights in a lovely 4-star hotel in the centre of romantic Verona, before driving north into the heart of the Dolomites, spending the next 4 nights in another gorgeous 4-star in a valley near Bolzano. \_We then head east being based for another four nights in a quiet valley off the Val Badia. Finally, we finish with another bang, with two nights in 4-star hotel in Cortina d'Ampezzo, a beautiful town known as the 'pearl of the Dolomites' that is still glowing from hosting the 2026 Winter Olympics!"
     title: 'Towering pinnacles above deep green valleys'
     images:
@@ -63,27 +65,33 @@ page_builder:
     id: mlq6wt91
     heading: 'Highlights Trentino-Alto Adige'
     activities:
-      - id: mlq6xexm
+      -
+        id: mlq6xexm
         title: 'Be seduced by Verona'
         summary: "Stay a classic 4-star hotel in the heart of old town and explore Italy's most romantic town with our own local guide."
         icon: culture-Colosseum.svg
-      - id: mlq71o6y
+      -
+        id: mlq71o6y
         title: 'Immerse yourself in the Dolomites'
         summary: 'Immerse yourself in the most beautiful mountains in the world, following well-marked trials accompanied by local guides.'
         icon: trekking-trekking.svg
-      - id: mlq77jb0
+      -
+        id: mlq77jb0
         title: 'Enjoy world-class accommodation'
         summary: 'Enjoy 4-star accommodation staying in classic hotels in Verona and Cortina, and spectacular mountains lodges in between.'
         icon: housing-house.svg
-      - id: mlq7aw9b
+      -
+        id: mlq7aw9b
         title: 'Delight in the cuisine (and wines)'
         summary: 'Enjoy excellent local food, a delicious combination of traditional mountain cooking and sophisticated Austrian cuisine.'
         icon: 'wine-wine bottle.svg'
-      - id: zlwFoh1UQw1W_TCwaaL2l
+      -
+        id: zlwFoh1UQw1W_TCwaaL2l
         title: 'Explore beautiful Bolzano'
         summary: 'Explore gorgeous Bolzano and visit its fab archaeological museum to meet its most celebrated inhabitant: Otzi the Iceman'
         icon: culture-Pantheon.svg
-      - id: mlrar05e
+      -
+        id: mlrar05e
         title: "Discover Cortina d'Ampezzo"
         summary: 'Discover Cortina (Pearl of the Dolomites), staying in a classic hotel and doing a lap of the iconic Tre Cime di Lavaredo'
         icon: switzerland-mountain.svg
@@ -238,7 +246,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "The seven beautiful walks during the tour are straightforward, following well-marked and well-maintained paths with no dramatic climbs or descents as we take cable cars to the start of the high walks and follow good tracks across alpine meadows to the valleys below.\_ On the way we stop at mountain huts for breaks and lunch (even for an occasional mid-morning cappuccino). In some cases it is possible to shorten the walk or to opt out and join the walkers for lunch.\_"
         image: guided/verona-and-the-dolomites/3.7.jpg
         type: walk
@@ -250,7 +259,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "The accommodation is in lovely 4-star hotels all the way.\_ In Verona we stay in a classic hotel in the centre of town (Maria Calls used to stay here when she was preforming at the Arena).\_ In the valleys we stay in two spacious Tyrolean-style, family-run hotels, both of which have wellness centres and swimming pools.\_ In Cortina d'Ampezzo we stay in another classic 4-star hotel, a short walk from the centre of town."
         media:
           - guided/verona-and-the-dolomites/2-1775543819.jpg
@@ -263,7 +273,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "Food, of course, is one of the highlights of the trip. The people of the Dolomites are\_extremely proud of the produce of their beautiful territory (fruit, vegetables, cheeses, hams and a wide variety of breads etc) and the local cuisine is a fascinating combination Italian and Austrian cooking. The Alto Adige/Sud Tirol is particularly famous for its high altitude white wines.\_ Wine is included with each meal."
         media:
           - guided/verona-and-the-dolomites/7.8.jpg
@@ -274,7 +285,8 @@ page_builder:
     section_background: dark
     show_topography: true
     hide_from_subnav: false
-  - id: Zhb9MH5PIPDlCMyH394IM
+  -
+    id: Zhb9MH5PIPDlCMyH394IM
     title: 'Tour Leader'
     type: leader
     enabled: true
@@ -291,7 +303,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_It is autumn and we are in the mountains so you will need to take some warm clothes, eg a pullover, a puffer-type jacket and some warm pants.  Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
         type: equipment
         enabled: true
@@ -301,17 +314,20 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date. '
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour. '
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
@@ -324,9 +340,11 @@ page_builder:
               -
                 type: text
                 marks:
-                  - type: bold
+                  -
+                    type: bold
                 text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
-              - type: text
+              -
+                type: text
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
@@ -334,7 +352,8 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  - id: 7lE6lgK2
+  -
+    id: 7lE6lgK2
     type: faqs
     enabled: true
     show_common_questions: true
@@ -352,7 +371,8 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  - id: wb_TeS9nhgQlEoHM7La
+  -
+    id: wb_TeS9nhgQlEoHM7La
     type: walking_benefits
     enabled: true
     tour_type: auto
@@ -399,7 +419,8 @@ summary:
   -
     type: paragraph
     content:
-      - type: text
+      -
+        type: text
         text: "Starting in Verona, this exciting small-group tour in the Dolomites takes you through the most beautiful mountains in the world. \_Its well-marked trails, charming villages and mountain huts provide some of the finest walking in Europe. \_"
 price: 'A$9,450 pp'
 show_from: true
@@ -411,5 +432,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 overlay_opacity: 30
-availability_text: 'Tour Start Dates: 03 Sep 27 - Last spaces  & 17 Sep 27 - Fully booked'
+availability_text: 'Tour Start Dates: 2027 - Fully booked. 2028 dates coming soon'
 ---
