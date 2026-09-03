@@ -6,7 +6,7 @@ name: 'Abruzzo and Molise'
 region: 'Apennines & Adriatic Coast'
 days: 13
 updated_by: 4
-updated_at: 1785471685
+updated_at: 1788400700
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
@@ -32,13 +32,15 @@ page_builder:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: "Abruzzo and Molise are renowned for their natural beauty: soaring mountains; vast national parks; rolling pastures scattered with villages and isolated monasteries; and long sandy beaches; but they also have fascinating histories and ancient traditions.\_ The real bonus, though, of visiting this part of the world is that you are so far from the usual tourist trails!\_ \_A holiday in Abruzzo and Molise is full of surprises, charm and authentic hospitality."
     column_right:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: "The tour starts with two nights in the heart of Rome, around the corner from the Pantheon. \_We then drive one hundred kilometres east to a beautifully restored medieval village on the edge of the Gran Sasso National Park, our base for the next four nights’. \_From here we drive south into Molise, where our base for four nights is a lovely, family-run 'agriturismo'.\_ We finish the tour with two nights on the sea, staying in the historic centre of Termoli, a charming coastal town close to the Puglia border."
     title: 'Far from the usual tourist trails'
     images:
@@ -50,27 +52,33 @@ page_builder:
     id: mloqd78x
     heading: 'Abruzzo and Molise guided tour'
     activities:
-      - id: mloqdoo9
+      -
+        id: mloqdoo9
         title: "Get an insider's view of Rome"
         summary: 'Stay in a historic hotel behind the Pantheon, explore Rome with a local. and have dinner at a traditional restaurant.'
         icon: culture-Pantheon.svg
-      - id: mloqi0iy
+      -
+        id: mloqi0iy
         title: 'Explore the Gran Sasso National Park'
         summary: 'Explore the largest national park in central Italy, following well-marked trails and beautiful historic droving trails.'
         icon: trekking-trekking.svg
-      - id: mloqndod
+      -
+        id: mloqndod
         title: 'Be a guest in marvellous accommodation'
         summary: 'Stay in an extraordinary restored medieval village; a lovely family-run agriturismo; a private apartment with seaviews.'
         icon: housing-house.svg
-      - id: mloqrnhn
+      -
+        id: mloqrnhn
         title: 'Discover Molise'
         summary: "Discover the rolling hills, vineyards, walking trails, coastline, islands food, traditions of Italy's least-known region"
         icon: geography-cartography-hills.svg
-      - id: D-ua9KFUPgLdq60ujrO0x
+      -
+        id: D-ua9KFUPgLdq60ujrO0x
         title: 'Enjoy the delicious food!'
         summary: 'Traditional food combining seasonal produce and fresh ingredients with age-old methods for healthy memorable meals. Yum!'
         icon: gastronomy-spaghetti.svg
-      - id: mmbkfbin
+      -
+        id: mmbkfbin
         title: 'Go boating around the Tremiti Islands'
         summary: 'After exploring the mountains, finish with a day on a private boat exploring the Tremiti Islands and swimming in the Med'
         icon: transport-sailboat.svg
@@ -221,7 +229,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "The walks on this tour follow trails that have been used by traders, drovers and brigands for millennia.\_\_ They include some more challenging walks on the high plains and in the spectacular mountains of the Gran Sasso National Park, as well as gentler walks in the undulating hills of Upper Molise.\_\_ The walks range from seven to fifteen kilometres following well-marked paths over hilly terrain (see the itinerary for details)."
         image: guided/abruzzo-and-molise/img_3162.jpg
         type: walk
@@ -233,7 +242,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "The accommodation is one of the highlights of the tour.\_ It includes stays in a historic hotel in the centre of Rome; a marvellous ‘albergo diffuso’, staying in meticulously restored apartments in a medieval village; a beautiful, family-run ‘agriturismo’ in the middle of vineyards with a swimming pool and gardens; and another ‘albergo diffuso’ , staying in very comfortable sea-view apartments in the historic centre of Termoli."
         media:
           - guided/abruzzo-and-molise/muro-torto.jpg
@@ -246,7 +256,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "Food in these agricultural regions centres on local, seasonal produce and the tradition of ‘cucina povera,’ combining fresh ingredients with age-old methods for healthy, memorable meals. This delicious mountain cuisine is based on vegetables, bread, cheese, and wine. Notable dishes include pasta alla chitarra, legume soups, cheese-rich polenta, scrippelle in broth, lamb arrosticini, and deep-fried pastries like cicerchiatta, pan dell’orso, and calgionetti. Coastal areas feature fresh seafood, such as brodetto di Termoli (an amazing fish soup). Abruzzo and Molise also offer quality wines, including Montepulciano d’Abruzzo, Tintilia, Trebbiano, and Bombino.\_ Wine is included with all meals."
         media:
           - guided/abruzzo-and-molise/img_8219.jpg
@@ -257,7 +268,8 @@ page_builder:
     section_background: dark
     show_topography: true
     hide_from_subnav: false
-  - id: aYXCAIktLPE-ML89McjqM
+  -
+    id: aYXCAIktLPE-ML89McjqM
     title: 'Tour Leader'
     type: leader
     enabled: true
@@ -273,7 +285,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
         type: equipment
         enabled: true
@@ -283,17 +296,20 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date. '
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour. '
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
@@ -306,9 +322,11 @@ page_builder:
               -
                 type: text
                 marks:
-                  - type: bold
+                  -
+                    type: bold
                 text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
-              - type: text
+              -
+                type: text
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
@@ -316,14 +334,16 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  - id: tm5lcBKz
+  -
+    id: tm5lcBKz
     type: faqs
     enabled: true
     show_common_questions: true
     heading: 'Frequently asked questions'
     section_background: none
     hide_from_subnav: false
-  - id: wb_EJpcUXVATPKqDV4m
+  -
+    id: wb_EJpcUXVATPKqDV4m
     type: walking_benefits
     enabled: true
     tour_type: auto
@@ -384,7 +404,8 @@ summary:
   -
     type: paragraph
     content:
-      - type: text
+      -
+        type: text
         text: 'Starting with two nights in Rome, this exclusive 7-person tour explores Abruzzo and Molise, two of Italy’s least-visited regions, nestled in the Apennines, the mountainous spine of Italy but also bound by the endless beaches of the Adriatic Coast.'
 leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 show_from: true
