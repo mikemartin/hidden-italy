@@ -133,6 +133,7 @@ page_builder:
       - 436787ff-89d4-438e-bf50-81c3672256cc
       - fa3be588-b0dd-4d37-9213-bafbd1992434
       - 08f576cb-78e7-49f2-b63a-6dddd1ce4683
+      - a57f65fe-0f32-4e5f-b2e2-6579fdb2d632
       - 47c3aafd-0cf1-4122-8cfb-84953a8a3ece
       - 63fec771-0f91-4c4d-a4c1-9106f35c0670
       - 2e1d4ebf-08b8-4191-86bd-c52f27304023
@@ -141,6 +142,7 @@ page_builder:
       - 14b37a2e-5aa2-47eb-a5a2-842d365f4130
       - 1fc8edc9-9407-4a73-ada9-1f6095316fe8
       - 7113227c-a5b4-4030-89e8-7f203c525c13
+      - 02761ca5-e751-4299-aad5-53dfc4a3791b
     section_background: none
   -
     id: about_testimonials
@@ -157,7 +159,7 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 2
-updated_at: 1779275850
+updated_by: 4
+updated_at: 1788400319
 og_image: about-og-1779331726.png
 ---
