@@ -90,14 +90,14 @@ page_builder:
       -
         id: mjflh3wl
         title: 'Arrival in Biella'
-        description: "Your first night is in Biella, a pleasant town north of Turin with a rail link. Located where the Po River plain meets the foothills of the Alps, Biella has long been a trade and commercial centre. The Oropa Valley has connected Italy to Switzerland and France since Roman times. Its centuries-old textile tradition continues today, producing high-quality wool and housing fashion brands like Ermenegildo Zegna. We'll have dinner at an innovative local restaurant."
+        description: "Your first night is in Biella, a pleasant town north of Turin with a rail link. Located where the Po River plain meets the foothills of the Alps, Biella has long been a trade and commercial centre. The Oropa Valley has connected Italy to Switzerland and France since Roman times. Its centuries-old textile tradition continues today, producing high-quality wool and housing fashion brands like Ermenegildo Zegna. We'll have dinner at a local restaurant."
         meals_included:
           - dinner
         photo: guided/trails-to-freedom/img_0975.jpg
       -
         id: mjflhmx3
         title: 'Hike to a baroque monastery'
-        description: "The path we take today leaves Biella, following a route first mentioned in 1207 that once served as a trade route to Lyon in central France. It climbs through forests and hamlets, offering spectacular views over the plains. We'll stop for a delicious picnic lunch. The hike ends at one of the most unexpected and striking sites on the walk: a vast baroque monastery that has been a popular pilgrimage destination for centuries and where we’ll stay the night."
+        description: "The path we take today leaves Biella, following a route first mentioned in 1207 that once served as a trade route to Lyon in central France. It climbs through forests and hamlets, offering spectacular views over the plains. We'll stop for a delicious picnic lunch. The hike ends at one of the most unexpected and striking sites on the walk: a vast Baroque monastery that has been a popular pilgrimage destination for centuries and where we’ll stay the night."
         duration: 5.0
         distance: 17.0
         elevation: 768
@@ -109,7 +109,7 @@ page_builder:
       -
         id: mjfliav4
         title: 'Sanctuary tour and ridge walk'
-        description: "Today is a short walk.  In the morning we'll be taken on a guided tour of this fascinating sanctuary.  After another delicious picnic lunch, we take a small trail that climbs up through pine forest to the ridge that divides the two valleys.  We then descent to the second monastery. We'll have time to relax, before having dinner on the veranda of the monastery."
+        description: "Today is a short walk.  In the morning we'll be taken on a guided tour of this fascinating sanctuary.  After another delicious picnic lunch, we take a small trail that climbs up through pine forest to the ridge that divides the two valleys.  We then descend to your accommodation for the night. We'll have time to relax before dinner."
         duration: 4.0
         distance: 11.0
         elevation: 393
@@ -133,7 +133,7 @@ page_builder:
       -
         id: mlj01a3m
         title: 'A long walk to Alagna'
-        description: "Today’s walk winds through the Alps with the first views of Monte Rosa, passing alpine lakes, glaciers, and mountain pastures that still used for grazing. Only trails connect this area; there are no roads.  After a picnic lunch, we descend a glacial valley that leads into forest and pasture, passing distinctive wooden 'Walser' farmhouses. Tonight’s stay is at a very comfortable hotel in Alagna."
+        description: "Today’s walk winds through the Alps with the first views of Monte Rosa, passing alpine lakes, and mountain pastures that are still used for grazing. Only trails connect this area; there are no roads.  After a picnic lunch, we descend a glacial valley that leads into forest and pasture, passing distinctive wooden 'Walser' farmhouses. Tonight’s stay is at a very comfortable hotel in Alagna."
         duration: 8.0
         distance: 17.0
         elevation: 540
@@ -144,7 +144,7 @@ page_builder:
       -
         id: mlj05x9f
         title: 'Free day in Alagna'
-        description: 'We have a free day in Alagna.  Time to relax and visit the shops, museums and cafes of this charming town.  We meet in the evening for dinner at a local restaurant.'
+        description: 'We have a free day in Alagna. Time to relax and visit the shops and cafes of this charming town.  We meet in the evening for dinner at a local restaurant.'
         meals_included:
           - breakfast
           - dinner
@@ -164,7 +164,7 @@ page_builder:
       -
         id: mlj0rpd5
         title: 'The first views of Switzerland'
-        description: 'Today’s walk is challenging but very rewarding. We leave the valley beneath Monte Rosa and climb an old mule trail to a 2900-meter pass with our first views of Switzerland, where we stop for lunch. After crossing the pass, we descend for long walk into a valley with a lake before crossing the Anzasca River and arriving in  Macugnaga. The last two nights are spent at a family-run 3-star hotel in Macugnaga, with your luggage delivered from Biella. The evening is free.'
+        description: 'Today’s walk is challenging but very rewarding. We leave the valley beneath Monte Rosa and climb an old mule trail to a 2900-meter pass with our first views of Switzerland, where we stop for lunch. After crossing the pass, we descend for a long walk into a valley with a lake before crossing the Anzasca River and arriving in  Macugnaga. The last two nights are spent at a family-run 3-star hotel in Macugnaga, with your luggage delivered from Biella. The evening is free.'
         duration: 8.0
         distance: 22.0
         elevation: 1217
@@ -175,7 +175,7 @@ page_builder:
       -
         id: mlj0t848
         title: 'Macugnaga and the Swiss border'
-        description: "Today is relaxed. We'll explore Macugnaga in the morning, then take the cable car up to the pass between Italy and Switzerland.  After a brief climb to the granite ridge topped with the golden Madonna, which marks the border with Switzerland, where the POWs found their freedom.  Lunch will be at the pass before our return via cable car. The afternoon is free.  We regroup in the evening for the farewell dinner."
+        description: "Today is relaxed. We'll explore Macugnaga in the morning, then take the cable car up to the pass between Italy and Switzerland. After a brief climb to the granite ridge topped with the golden Madonna, which marks the border with Switzerland, where the POWs found their freedom. Lunch will be at the pass before our return via cable car. The afternoon is free.  We regroup in the evening for the farewell dinner."
         meals_included:
           - breakfast
           - lunch
@@ -375,7 +375,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 4
-updated_at: 1788400684
+updated_at: 1788508546
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg
