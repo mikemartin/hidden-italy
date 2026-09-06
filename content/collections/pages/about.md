@@ -130,19 +130,19 @@ page_builder:
       - 469290c8-2f8b-4d10-b639-574b4f4f1b8a
       - 656b56c6-ff12-45de-86a3-c6c480d7c141
       - 699bd6c8-377d-46a8-bd97-234a3720b9f1
-      - 436787ff-89d4-438e-bf50-81c3672256cc
-      - fa3be588-b0dd-4d37-9213-bafbd1992434
-      - 08f576cb-78e7-49f2-b63a-6dddd1ce4683
       - a57f65fe-0f32-4e5f-b2e2-6579fdb2d632
+      - 08f576cb-78e7-49f2-b63a-6dddd1ce4683
+      - fa3be588-b0dd-4d37-9213-bafbd1992434
+      - 436787ff-89d4-438e-bf50-81c3672256cc
       - 47c3aafd-0cf1-4122-8cfb-84953a8a3ece
       - 63fec771-0f91-4c4d-a4c1-9106f35c0670
-      - 2e1d4ebf-08b8-4191-86bd-c52f27304023
       - 260ad302-3ace-4c95-9a32-37e12bf556a5
+      - 02761ca5-e751-4299-aad5-53dfc4a3791b
+      - 2e1d4ebf-08b8-4191-86bd-c52f27304023
       - 08fb0b17-66db-4cfb-8da9-fd9f1ca6508d
       - 14b37a2e-5aa2-47eb-a5a2-842d365f4130
       - 1fc8edc9-9407-4a73-ada9-1f6095316fe8
       - 7113227c-a5b4-4030-89e8-7f203c525c13
-      - 02761ca5-e751-4299-aad5-53dfc4a3791b
     section_background: none
   -
     id: about_testimonials
@@ -160,6 +160,6 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 4
-updated_at: 1788400319
+updated_at: 1788736696
 og_image: about-og-1779331726.png
 ---
