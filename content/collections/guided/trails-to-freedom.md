@@ -180,7 +180,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: guided/trails-to-freedom/94.jpg
+        photo: guided/trails-to-freedom/ri004524.jpg
       -
         id: mlj0uhz8
         title: 'Heading for Milano'
@@ -375,7 +375,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 4
-updated_at: 1788848209
+updated_at: 1788848648
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg
