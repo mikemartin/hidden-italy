@@ -109,7 +109,7 @@ page_builder:
       -
         id: mjfliav4
         title: 'Sanctuary tour and ridge walk'
-        description: "Today is a short walk.  In the morning we'll be taken on a guided tour of this fascinating sanctuary.  After another delicious picnic lunch, we take a small trail that climbs up through pine forest to the ridge that divides the two valleys.  We then descend to your accommodation for the night. We'll have time to relax before dinner."
+        description: "Today is a short walk. In the morning we'll be taken on a guided tour of this fascinating sanctuary. After another delicious picnic lunch, we take a small trail that climbs up through pine forest to the ridge that divides the two valleys.  We then descend to your accommodation for the night. We'll have time to relax before dinner."
         duration: 4.0
         distance: 11.0
         elevation: 393
@@ -121,7 +121,7 @@ page_builder:
       -
         id: mlizaetv
         title: 'The first big climb'
-        description: 'We follow the trail into a quirky town once home to the benefactor who built the road and tunnel connecting two monasteries in the late 1800s. The path then leads north by the river to another village in he head of the valley where we have lunch.  Afterward, we begin a challenging three-hour climb to a mountain hut beneath the peaks. The effort is rewarded with stunning views across the Alps and a convivial spot for dinner and rest.'
+        description: 'We follow the trail into a quirky town once home to the benefactor who built the road and tunnel connecting two monasteries in the late 1800s. The path then leads north by the river to another village at the head of the valley. Afterwards, we begin a challenging three-hour climb to a mountain hut beneath the peaks. The effort is rewarded with stunning views across the Alps and a convivial spot for dinner and rest.'
         duration: 6.0
         distance: 12.0
         elevation: 1406
@@ -133,7 +133,7 @@ page_builder:
       -
         id: mlj01a3m
         title: 'A long walk to Alagna'
-        description: "Today’s walk winds through the Alps with the first views of Monte Rosa, passing alpine lakes, and mountain pastures that are still used for grazing. Only trails connect this area; there are no roads.  After a picnic lunch, we descend a glacial valley that leads into forest and pasture, passing distinctive wooden 'Walser' farmhouses. Tonight’s stay is at a very comfortable hotel in Alagna."
+        description: "Today’s walk winds through the Alps with the first views of Monte Rosa, passing alpine lakes, and mountain pastures that are still used for grazing. Only trails connect this area; there are no roads. After a picnic lunch, there is a very long descent, boulder-hopping down a glacial valley that leads into forest and pasture, passing distinctive wooden 'Walser' farmhouses. Tonight’s stay is at a very comfortable hotel in Alagna."
         duration: 8.0
         distance: 17.0
         elevation: 540
@@ -375,7 +375,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 4
-updated_at: 1788846836
+updated_at: 1788848209
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg
