@@ -175,7 +175,7 @@ page_builder:
       -
         id: mlj0t848
         title: 'Macugnaga and the Swiss border'
-        description: "Today is relaxed. We'll explore Macugnaga in the morning, then take the cable car up to the pass between Italy and Switzerland. After a brief climb to the granite ridge topped with the golden Madonna, which marks the border with Switzerland, where the POWs found their freedom. Lunch will be at the pass before our return via cable car. The afternoon is free.  We regroup in the evening for the farewell dinner."
+        description: 'Today is a relaxed day. We’ll explore Macugnaga in the morning then take a chairlift up towards the old glacier bed. A short walk will lead us to the  Zamboni-Zappa Mountain Hut, where we’ll enjoy lunch with stunning views of Monte Rosa’s glaciers and the ridges that separate Italy from Switzerland. After a free afternoon, we’ll regroup in the evening for a farewell dinner.'
         meals_included:
           - breakfast
           - lunch
@@ -375,7 +375,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 4
-updated_at: 1788508546
+updated_at: 1788846836
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg
