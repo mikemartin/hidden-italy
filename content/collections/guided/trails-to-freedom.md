@@ -283,7 +283,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Because several of the legs do not have car access, you will need to carry your own gear for the week.\_ We will provide you with a comprehensive (and prescriptive) list of what is required (nothing more and nothing less!).\_ The first requirement is a good quality 35 to 40 litre backpack.\_ The total loaded weight should be no more than 12 kilos.\_"
+                text: "Because several of the legs do not have car access, you will need to carry your own gear for the week.\_ We will provide you with a comprehensive (and prescriptive) list of what is required (nothing more and nothing less!).\_ The first requirement is a good quality 35 to 40 litre backpack with a padded waist belt.\_ The total loaded weight should be no more than 12 kilos.\_"
           -
             type: paragraph
             content:
@@ -375,7 +375,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 4
-updated_at: 1788921100
+updated_at: 1788922552
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg
