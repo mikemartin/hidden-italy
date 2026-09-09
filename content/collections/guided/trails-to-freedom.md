@@ -358,8 +358,8 @@ page_builder:
     heading: 'What our travellers are saying'
     testimonials:
       - c4dad366-cfdd-443a-8db6-c29df33df79a
-      - 5e20d0e8-847b-4371-95a7-a7c859735fee
-      - 966a5684-0228-4341-8790-8ef4f90f52dc
+      - 0474fb14-705e-49f4-a755-8f2b374e537d
+      - 54333931-6556-40a7-a424-4b55db72d935
     type: testimonials
     enabled: true
     section_background: none
@@ -375,7 +375,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 4
-updated_at: 1788848648
+updated_at: 1788919911
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg
