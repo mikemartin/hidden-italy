@@ -5,8 +5,8 @@ title: 'Lazio: Cammino of St Francis Part 3 - Lazio'
 name: 'Lazio: Cammino of St Francis Part 3'
 region: Lazio
 days: 8
-updated_by: 3
-updated_at: 1780966002
+updated_by: 4
+updated_at: 1789097969
 grade: 4
 inclusions:
   - '7 nights accommodation'
@@ -211,7 +211,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "In the spirit of the long-distance pilgrimage, we have sought to keep the costs down. The tour starts on Day 1 in a 3-star hotel near the main square in Rieti and finishes in a lovely boutique hotel a short walk from the Vatican. Along the way, you stay in the best accommodation available:\_very attracitve agriturismo’s on Days 2 and 4; a private apartment on Day 3; a fantastic 3-star in the historic centre of a buzzy agricultural centre on Day 5 and a smart hotel in the Monte Sacro district of Rome on Day 6."
+                text: "In the spirit of the long-distance pilgrimage, we have sought to keep the costs down. The tour starts on Day 1 in a 3-star hotel near the main square in Rieti and finishes in a lovely boutique hotel a short walk from the Vatican. Along the way, you stay in the best accommodation available:\_very attractive agriturismos, a fantastic 3-star in the historic centre of a buzzy agricultural centre and a smart hotel in the Monte Sacro district of Rome."
         type: accommodation
         enabled: true
         media:
