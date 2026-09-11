@@ -6,7 +6,7 @@ name: 'Trieste and Friuli'
 region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: 4
-updated_at: 1789105034
+updated_at: 1789105770
 grade: 4
 inclusions:
   - '12 night’s accommodation (see the itinerary for details) in excellent boutique hotels'
@@ -110,7 +110,7 @@ page_builder:
       -
         id: mloqy5ed
         title: 'Transfer to the mountains'
-        description: 'This morning, we leave Udine, driving north across the plains and up into the Carnia Alps, stopping for a lovely forest walk and then lunch in a mountain lodge on the way.  Our base for the next four days is a small, beautifully preserved mountain village surrounded by forests and soaring peaks, twenty kilometres from the Austrian border.'
+        description: 'This morning, we leave Udine, driving north across the plains and up into the Carnia Alps, stopping for a lovely forest walk and then lunch in a mountain lodge on the way. Our base for the next four days is a small, beautifully preserved mountain village surrounded by forests and soaring peaks, twenty kilometres from the Austrian border.'
         meals_included:
           - breakfast
           - lunch
@@ -122,7 +122,7 @@ page_builder:
       -
         id: mloqzruj
         title: 'A walk in the valley'
-        description: 'This morning, we walk through the surrounding forests, contouring around the mountains with beautiful views over the lake before winding down to a neighbouring village where we’ll have lunch.   After lunch there is the option of following another trail back to the hotel (6 kms, 2 hrs, 333 mts ascent) or catching the local bus back.  The rest of the afternoon is free before regrouping for dinner.'
+        description: 'This morning, we walk through the surrounding forests, contouring around the mountains with beautiful views over the lake before winding down to a neighbouring village where we’ll have lunch. After lunch, there is the option of following another trail back to the hotel (9 kms, 2 hrs, 333m ascent) or get a lift back to the hotel. The rest of the afternoon is free before regrouping for dinner.'
         duration: 4.0
         distance: 11.0
         elevation: 270
@@ -134,19 +134,19 @@ page_builder:
       -
         id: mlor10w3
         title: 'Explore the heritage of the valley'
-        description: 'Our village and its twin neighbour form a German-speaking enclave in the heart of the Friulian Alps; its population descended from Austrian deserters who took refuge here in the 13th century.  Today we explore their rich heritage walking from one village to another, including a visit to the excellent community museum and the gorgeous church of San Osvaldo.'
+        description: 'Our village and its twin neighbour form a German-speaking enclave in the heart of the Friulian Alps; its population descended from Austrian deserters who took refuge here in the 13th century. Today we explore their rich heritage walking from one village to another, including a visit to the excellent community museum and the gorgeous church of San Osvaldo.'
         meals_included:
           - breakfast
           - lunch
           - dinner
-        duration: 4.0
-        distance: 9.0
+        duration: 3.0
+        distance: 8.0
         elevation: 365
         photo: guided/trieste-and-friuli/2.jpg
       -
         id: mlor23s2
         title: 'Walk in the mountains'
-        description: 'Today we do a loop walk down to the neighbouring village.  After a reviving coffee, we climb up through pine forest to a ridge with spectacular views down across the valley to the lake and to the beginning of the Dolomites on the western horizon.  We have lunch at a mountain lodge along the way.  After some downtime back at base, we regroup for dinner in the evening.'
+        description: 'This morning after walking back down the valley in Sauris di Sotto, we walk below the town before a steep but lovely climb up through the pine forest to a ridge with spectacular views down across the valley to the lake and to the beginning of the Dolomites on the western horizon. We have lunch at a mountain lodge along the way.  After some downtime back at base, we regroup for dinner in the evening.'
         meals_included:
           - breakfast
           - lunch
