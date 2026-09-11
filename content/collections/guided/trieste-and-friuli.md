@@ -6,7 +6,7 @@ name: 'Trieste and Friuli'
 region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: 4
-updated_at: 1789104980
+updated_at: 1789105034
 grade: 4
 inclusions:
   - '12 night’s accommodation (see the itinerary for details) in excellent boutique hotels'
@@ -95,14 +95,14 @@ page_builder:
       -
         id: mloqwjgq
         title: 'Arrive in Udine'
-        description: 'Prosperous Udine sits on a fertile plain in the middle of Friuli Venezia Giulia (FVG).  With its elegant architecture and refined way of life, Udine has retained much of its past as part of the Venetian Empire.  The first two nights of our tour are in a classic 4-star hotel in the centre of the city.  After an aperitivo in our hotel, we’ll have dinner in an elegant restaurant near the hotel.'
+        description: 'Prosperous Udine sits on a fertile plain in the middle of Friuli Venezia Giulia (FVG).  The first two nights of our tour are in a classic 4-star hotel in the centre of the city.  After an aperitivo in our hotel, we’ll have dinner in an elegant restaurant near the hotel.'
         meals_included:
           - dinner
         photo: guided/trieste-and-friuli/1.jpg
       -
         id: mloqxcnx
         title: 'Explore Udine'
-        description: 'This morning we take a guided walk through the fascinating historic centre of the city. We will have lunch together, and then the evening is free.'
+        description: 'This morning we take a guided walk through the fascinating historic centre of the city. With its elegant architecture and refined way of life, Udine has retained much of its past as part of the Venetian Empire. We will have lunch together, and then the evening is free.'
         meals_included:
           - breakfast
           - lunch
