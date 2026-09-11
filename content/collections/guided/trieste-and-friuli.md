@@ -6,7 +6,7 @@ name: 'Trieste and Friuli'
 region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: 4
-updated_at: 1789105770
+updated_at: 1789106460
 grade: 4
 inclusions:
   - '12 night’s accommodation (see the itinerary for details) in excellent boutique hotels'
@@ -162,14 +162,11 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        duration: 4.0
-        distance: 10.0
-        elevation: 355
         photo: guided/trieste-and-friuli/59a.jpg
       -
         id: mlor6aar
         title: 'A very special hike'
-        description: 'Today we go on one of the most extraordinary walks in the Hidden Italy repertoire: a spectacular itinerary along the ridges that form the border between Italy and Slovenia, the border between West and East.  It was one of the most bitterly contested fronts in WWI and was also part of the ‘Iron Curtain’. A local guide will accompany us, revealing its fascinating history.  After lunch the afternoon is free.  We regroup for dinner at an osteria that has been operating since the 14th century.'
+        description: 'Today we go on one of the most extraordinary walks in the Hidden Italy repertoire: a spectacular itinerary along the ridges that form the border between Italy and Slovenia, the border between West and East.  It was one of the most bitterly contested fronts in WWI and was also part of the ‘Iron Curtain’. A local guide will accompany us, revealing its fascinating history. After lunch the afternoon is free. We regroup for dinner at an osteria that has been operating since the 14th century.'
         meals_included:
           - breakfast
           - lunch
@@ -181,7 +178,7 @@ page_builder:
       -
         id: mlor867w
         title: 'A day of relax'
-        description: 'You will have a morning free to sleep in and explore our base. After lunch, we will take a guided tour around the town, which was founded by Julius Caesar; became an important Lombard capital in the 6th century); was the seat of the powerful Patriarch of Aquileia in the 8th century; and is now a buzzy market town.  It was declared a UNESCO World Heritage site in 2007.  In the evening, we will go to a family-run vineyard just outside the town where we will enjoy a wine tasting and a light dinner.'
+        description: 'You will have a morning free to sleep in and explore our base. After lunch, we will take a guided tour around the town, which was founded by Julius Caesar, became an important Lombard capital in the 6th century, was the seat of the powerful Patriarch of Aquileia in the 8th century, and is now a vibrant town. It was declared a UNESCO World Heritage site in 2007. In the evening, we will go to a vineyard where we will enjoy a wine tasting and a light dinner.'
         meals_included:
           - breakfast
           - dinner
@@ -189,7 +186,7 @@ page_builder:
       -
         id: mlora14b
         title: 'Vineyards and a Michelin-starred lunch'
-        description: 'This morning, we will drive a town at the centre of the Collio wine district, one of the premier wine producing regions of northern Italy.  From here we go for a lovely walk along country lanes through the rolling hills and vineyards and olive groves before arriving at a family-run Michelin-starred restaurant where we will have a long lunch with a tasting menu.  After lunch we’ll continue the walk back to town and then return to base where the evening is free.'
+        description: 'This morning, we will drive to a town at the centre of the Collio wine district, one of the premier wine-producing regions of northern Italy. From here, we go for a lovely walk along country lanes through the rolling hills and vineyards and olive groves before arriving at a family-run Michelin-starred restaurant where we will have a long lunch with a tasting menu. After lunch we’ll continue the walk back to town and then return to base where the evening is free.'
         meals_included:
           - breakfast
           - lunch
@@ -200,18 +197,15 @@ page_builder:
       -
         id: mlorbjxg
         title: 'Transfer to Trieste'
-        description: 'Today we transfer to Trieste, the capital of Friuli Venezia Giulia. For 2 centuries the main port of the Austro-Hungarian Empire, Trieste is still a busy commercial centre with many vestiges of its rich history and intellectual traditions.  On the way, we visit an important archaeological site with spectacular early Christian mosaics and then visit a castle on the coast close to Trieste.   Our hotel is an elegant 4-star hotel in the city’s famous Piazza Unita d’Italia.  The evening is free.'
+        description: 'Today we transfer to Trieste, the capital of Friuli Venezia Giulia. For 2 centuries the main port of the Austro-Hungarian Empire, Trieste is still a busy commercial centre with many vestiges of its rich history and intellectual traditions. On the way, we visit an important archaeological site with spectacular early Christian mosaics and then visit a castle on the coast close to Trieste. Our hotel is an elegant 4-star hotel in the city’s famous Piazza Unita d’Italia. The evening is free.'
         meals_included:
           - breakfast
           - lunch
-        duration: 4.0
-        distance: 12.0
-        elevation: 400
         photo: guided/trieste-and-friuli/88.7.jpg
       -
         id: mlore9l3
         title: 'Explore Trieste'
-        description: 'This morning we will have the chance to sleep in and enjoy the hotel’s wonderful breakfast. Late in the morning we will take the ferry across the gulf to a beautiful little port where we will have lunch.  Once back in the city, we will be taken on a guided tour of the fascinating city’s centre, starting in Piazza Unita d’Italia then winding our way through the old town up to the castle with its huge views of the gulf before finishing in the ‘new’ town, laid out by Empress Maria Teresa of Austria.   The evening is free.'
+        description: 'This morning we will have the chance to sleep in and enjoy the hotel’s wonderful breakfast. Late in the morning we will take the ferry across the gulf to a beautiful little port where we will have lunch. Once back in the city, we will be taken on a guided tour of the fascinating city centre, starting in Piazza Unita d’Italia then winding our way through the old town up to the castle with its huge views of the gulf before finishing in the ‘new’ town, laid out by Empress Maria Teresa of Austria. The evening is free.'
         meals_included:
           - breakfast
           - lunch
@@ -219,7 +213,7 @@ page_builder:
       -
         id: mlorf281
         title: 'Depart Trieste'
-        description: 'After breakfast you are free to continue your holiday.  Trieste railway station is a short taxi ride or walk from the hotel and has direct connections to Venice, Milan, Florence and the rest of Italy.'
+        description: 'After breakfast you are free to continue your holiday. Trieste railway station is a short taxi ride or walk from the hotel and has direct connections to Venice, Milan, Florence and the rest of Italy.'
         meals_included:
           - breakfast
         photo: guided/trieste-and-friuli/87.5.jpg
