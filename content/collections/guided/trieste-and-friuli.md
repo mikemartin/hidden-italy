@@ -6,7 +6,7 @@ name: 'Trieste and Friuli'
 region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: 4
-updated_at: 1788995336
+updated_at: 1789104980
 grade: 4
 inclusions:
   - '12 night’s accommodation (see the itinerary for details) in excellent boutique hotels'
@@ -102,7 +102,7 @@ page_builder:
       -
         id: mloqxcnx
         title: 'Explore Udine'
-        description: 'This morning we take a guided walk through the fascinating historic centre of the city, including a visit to the Tiepolo Gallery (the great Venetian artist lived and worked for many years in Udine).  We will have lunch together, and then the evening is free..'
+        description: 'This morning we take a guided walk through the fascinating historic centre of the city. We will have lunch together, and then the evening is free.'
         meals_included:
           - breakfast
           - lunch
