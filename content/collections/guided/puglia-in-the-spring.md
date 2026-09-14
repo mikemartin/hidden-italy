@@ -6,7 +6,7 @@ name: 'Puglia in the Spring'
 region: Puglia
 days: 13
 updated_by: 4
-updated_at: 1789373628
+updated_at: 1789374388
 grade: 2
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -165,7 +165,7 @@ page_builder:
         title: 'Walk through forest and orchards'
         description: "Today we enjoy a beautiful walk leaving our base along country lanes, walking through olive groves, orchards and oak forests before picking up an ancient stone path that takes us through hamlets and villages. After a very special lunch based on homegrown produce, we will head back by bus to relax at our base.  In the evening, we'll go out for dinner at a nearby restaurant."
         duration: 4.0
-        distance: 13.0
+        distance: 10.0
         elevation: 160
         meals_included:
           - breakfast
@@ -183,18 +183,19 @@ page_builder:
       -
         id: mlora14b
         title: 'Walk to Alberobello'
-        description: 'Today we walk from our base along ancient roads through vineyards, forest and cherry orchards lined with drystone walls before picking up a trail that follows an historic aqueduct to Alberobello.  This fascinating town is the capital of the ‘trulli’ district, with over 1500 of these charming, conical houses crowded into its historic centre. After lunch, you’ll have time to explore Alberobello before we return to our base.  The rest of the afternoon is free.'
+        description: 'Today we walk from our base along ancient roads through vineyards, forests, and cherry orchards lined with drystone walls before picking up a trail that follows an historic aqueduct to Alberobello. This fascinating town is the capital of the ‘trulli’ district, with over 1500 of these charming, conical houses crowded into its historic centre. After lunch, you’ll have time to explore Alberobello before we return to our base. The rest of the afternoon is free.'
         duration: 5.0
-        distance: 15.0
+        distance: 13.0
         elevation: 200
         meals_included:
           - breakfast
           - lunch
+          - dinner
         photo: guided/puglia-in-the-spring/19.8.jpg
       -
         id: mlorbjxg
         title: 'Transfer to Bari'
-        description: "This morning we leave the trulli and drive north across the rolling plains and wheat fields of Le Murghe, stopping to visit a lovely town, which is famous for bread.  After a light lunch, we'll take an easy walk through forest and farmlands, climbing up to one of the most remarkable buildings in southern Italy: Castel del Monte, a mysterious, isolated octagonal castle constructed in the 13th century.  After a visit to the castle, we’ll drive south to Bari. where the evening is free."
+        description: "This morning we leave the trulli and drive north across the rolling plains and wheat fields of Le Murghe. After a light lunch, we'll take an easy walk through forest and farmlands, climbing up to one of the most remarkable buildings in southern Italy: Castel del Monte, a mysterious, isolated octagonal castle constructed in the 13th century. After a visit to the castle, we’ll drive south to Bari, where the evening is free."
         duration: 1.0
         distance: 4.0
         elevation: 102
@@ -205,7 +206,7 @@ page_builder:
       -
         id: mlore9l3
         title: 'Explore Bari'
-        description: "Today you will be taken on a guided walk to explore the secrets of the medieval Bari Vecchia, the old town of Bari, a buzzing maze of tight alleyways and small piazzas adjacent to the city's port.  There are many x attractions, but the real pleasure of Bari Vecchia is simply wandering the narrow lanes soaking up the vibrant southern life.  The afternoon is free.  We’ll regroup for dinner in a nearby restaurant."
+        description: "Today you will be taken on a guided walk to explore the secrets of the medieval Bari Vecchia, the old town of Bari, a buzzing maze of tight alleyways and small piazzas adjacent to the city's port. There are many x attractions, but the real pleasure of Bari Vecchia is simply wandering the narrow lanes soaking up the vibrant southern life.  The afternoon is free. We’ll regroup for dinner in a nearby restaurant."
         meals_included:
           - breakfast
           - dinner
@@ -213,7 +214,7 @@ page_builder:
       -
         id: mlorf281
         title: Departure
-        description: 'After breakfast, you’ll be able to continue your holiday.  Bari is well connected by air, rail and road to the rest of Italy and Europe.'
+        description: 'After breakfast, you’ll be able to continue your holiday. Bari is well connected by air, rail and road to the rest of Italy and Europe.'
         meals_included:
           - breakfast
         photo: guided/puglia-in-the-spring/lecce-28.jpg
