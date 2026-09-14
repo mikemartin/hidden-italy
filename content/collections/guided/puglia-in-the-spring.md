@@ -6,7 +6,7 @@ name: 'Puglia in the Spring'
 region: Puglia
 days: 13
 updated_by: 4
-updated_at: 1789370983
+updated_at: 1789372440
 grade: 2
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -35,7 +35,7 @@ page_builder:
         content:
           -
             type: text
-            text: "\_Visiting Puglia is an adventure.\_ It is a delightfully different world to the fashionable streets of Florence, Milan and Venice: little English is spoken; time is flexible; it has been little touched by tourism and surprises lurk around every corner. \_A trip to Puglia is a fascinating and rewarding experience, particularly in the spring."
+            text: "Visiting Puglia is an adventure.\_ It is a delightfully different world to the fashionable streets of Florence, Milan and Venice: little English is spoken; time is flexible; it has been little touched by tourism and surprises lurk around every corner. \_A trip to Puglia is a fascinating and rewarding experience, particularly in the spring."
     column_right:
       -
         type: paragraph
@@ -123,7 +123,7 @@ page_builder:
       -
         id: mloqzruj
         title: 'Walk along the coast'
-        description: 'This morning we walk south of the town following trails along the coast, passing a number of medieval lookout towers that mark the eastern most point of Italy.  After stopping for a coffee in a strategically placed ‘agriturismo’, we’ll continue down the coast to a lovely small bay, where we will have lunch.  We’ll be given a lift back to our base, where the rest of the afternoon and evening are free.'
+        description: 'This morning we walk south of the town following trails along the coast, passing a number of medieval lookout towers that mark the easternmost point of Italy. After stopping for a coffee, we’ll continue down the coast to a lovely small bay, where we will have lunch. We’ll be given a lift back to our base, where the rest of the afternoon and evening are free.'
         duration: 4.0
         distance: 13.0
         elevation: 335
