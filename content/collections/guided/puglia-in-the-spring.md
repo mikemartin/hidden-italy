@@ -6,7 +6,7 @@ name: 'Puglia in the Spring'
 region: Puglia
 days: 13
 updated_by: 4
-updated_at: 1789373066
+updated_at: 1789373628
 grade: 2
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -163,7 +163,7 @@ page_builder:
       -
         id: mlor6aar
         title: 'Walk through forest and orchards'
-        description: "Today we enjoy a beautiful walk leaving our base along country lanes, walking through olive groves, orchards and oak forests before picking up an ancient stone path that takes us through hamlets and villages.   After a very special lunch based on homegrown produce, we will head back by bus to relax at our base.   In the evening, we'll go out for dinner at a nearby restaurant."
+        description: "Today we enjoy a beautiful walk leaving our base along country lanes, walking through olive groves, orchards and oak forests before picking up an ancient stone path that takes us through hamlets and villages. After a very special lunch based on homegrown produce, we will head back by bus to relax at our base.  In the evening, we'll go out for dinner at a nearby restaurant."
         duration: 4.0
         distance: 13.0
         elevation: 160
@@ -175,7 +175,7 @@ page_builder:
       -
         id: mlor867w
         title: 'Visit Matera'
-        description: "Matera is an extraordinary town, not only for its past but also its future.  Although only a pleasant ninety-minute drive from our base, Matera seems to belong to another world.  Below the modern town, in a deep ravine, are the famous Sassi, one of Italy's oddest urban settlements, a silent medieval cave city, with prehistoric origins.   We will be taken on a guided tour of the town in the morning.  After lunch, we head back to base, where we will have dinner."
+        description: "Matera is an extraordinary town, not only for its past but also its future. Although only a pleasant ninety-minute drive from our base, Matera seems to belong to another world. Below the modern town, in a deep ravine, are the famous Sassi, one of Italy's oddest urban settlements, a silent medieval cave city with prehistoric origins. We will be taken on a guided tour of the town in the morning. After lunch, we head back to base, where we will have dinner."
         meals_included:
           - breakfast
           - dinner
