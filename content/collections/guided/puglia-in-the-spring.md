@@ -6,7 +6,7 @@ name: 'Puglia in the Spring'
 region: Puglia
 days: 13
 updated_by: 4
-updated_at: 1789372440
+updated_at: 1789373066
 grade: 2
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -143,7 +143,7 @@ page_builder:
       -
         id: mlor23s2
         title: 'Go for a walk and a cooking lesson'
-        description: 'This morning we have a short drive inland to do a walk beginning at recently restored masseria that has a very long and fascinating history.  We will then take an easy walk through pine forests and farmlands to a 15th century lookout tower (also recently restored).  Here we will have a cooking demonstration in the tower, followed by lunch before driving back to our base.  The rest of the afternoon and evening is free.'
+        description: 'This morning we have a short drive inland to do a walk beginning at a recently restored masseria that has a very long and fascinating history. We will then take an easy walk through pine forests and farmlands to a 15th century lookout tower (also recently restored). Here we will have a cooking demonstration in the tower, followed by lunch before driving back to our base. The rest of the afternoon and evening is free.'
         duration: 2.0
         distance: 6.0
         elevation: 64
@@ -154,7 +154,7 @@ page_builder:
       -
         id: mlor3ri3
         title: 'Visit a vineyard and stay in a masseria'
-        description: 'This morning we leave the austere beauty of the Salento and head north to the Itria Valley in central Puglia.  On the way we will visit a family-run winery, which produces the celebrated ‘primitivo’, Puglia’s classic red wine.  We will enjoy a wine tasting and then a light lunch.  Our base for the next four nights is a beautiful hotel dating back to 1790 when the estate was founded by the Benedictine nuns. It features beautiful gardens and a swimming pool. Dinner is at our hotel.'
+        description: 'This morning we leave the austere beauty of the Salento and head north to the Itria Valley in central Puglia.  On the way we will visit a family-run winery, which produces the celebrated ‘primitivo’, Puglia’s classic red wine. We will enjoy a wine tasting and then a light lunch. Our base for the next four nights is a beautiful hotel dating back to 1790, when the estate was founded by the Benedictine nuns. It features beautiful gardens and a swimming pool. Dinner is at our hotel.'
         meals_included:
           - breakfast
           - lunch
