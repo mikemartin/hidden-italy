@@ -7,9 +7,9 @@ region: 'Campania and Basilicata'
 days: 13
 seasons: spring
 grade: 3
-updated_by: 3
-updated_at: 1780028414
-image: guided/campania-and-the-amalfi-coast/22.6.jpg
+updated_by: 4
+updated_at: 1789455116
+image: guided/img_3120-v2.jpg
 tour_size: 15
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in excellent boutique hotels'
@@ -107,7 +107,7 @@ page_builder:
       -
         id: mlomzy0g
         title: 'Welcome to Naples'
-        description: 'Our accommodation is an elegant 4-star hotel in a pedestrian precinct a short walk from Via Toledo.  After meeting in the foyer at 19.00, we will walk to a sophisticated nearby restaurant for dinner.'
+        description: 'Our accommodation is an elegant 4-star hotel in a pedestrian precinct, a short walk from Via Toledo. After meeting in the foyer at 19.00, we will walk to a sophisticated nearby restaurant for dinner.'
         meals_included:
           - dinner
         photo: guided/campania-and-the-amalfi-coast/1.5.png
@@ -439,4 +439,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
