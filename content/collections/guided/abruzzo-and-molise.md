@@ -6,7 +6,7 @@ name: 'Abruzzo and Molise'
 region: 'Apennines & Adriatic Coast'
 days: 13
 updated_by: 4
-updated_at: 1789453542
+updated_at: 1789454280
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
@@ -139,7 +139,7 @@ page_builder:
       -
         id: mlor23s2
         title: 'Walk on the Gran Sasso'
-        description: 'This morning we explore some of the most spectacular scenery in central Italy: the Campo Imperatore, a vast high plain and the Gran Sasso, the Apennine’s highest peak. This walk is one of the most rewarding in Abruzzo. It starts with a gradual climb up a well-made path and then contours up to a pass with a superb view of the Gran Sasso and the surrounding countryside. We then drive back to our base. The rest of the afternoon and evening are free.'
+        description: 'This morning we explore some of the most spectacular scenery in central Italy: the Campo Imperatore, a vast high plain and the Gran Sasso, the Apennines’ highest peak. This walk is one of the most rewarding in Abruzzo. It starts with a gradual climb up a well-made path and then contours up to a pass with a superb view of the Gran Sasso and the surrounding countryside. We then drive back to our base. The rest of the afternoon and evening are free.'
         duration: 3.0
         distance: 6.0
         elevation: 360
@@ -159,7 +159,7 @@ page_builder:
       -
         id: mlor6aar
         title: 'Walk along a ridge'
-        description: 'This morning, we take a thirty-minute winding drive up to a small village that is the highest point in the valley. From here we follow trails up through beech forest to a long ridge, with very spectacular views. We will have a cut lunch in the forest. The rest of the afternoon is free. In the evening, we will have a short transfer to one of the surprises of the area, a lovely farm-based restaurant where we will have a degustation dinner prepared by their Michelin-starred local chef.'
+        description: 'This morning, we take a thirty-minute winding drive up to a small village that is the highest point in the valley. From here we follow trails up through beech forest to a long ridge, with spectacular views. We will have a cut lunch in the forest. The rest of the afternoon is free. In the evening, we will have a short transfer to one of the surprises of the area, a lovely farm-based restaurant where we will have a degustation dinner prepared by their Michelin-starred local chef.'
         duration: 4.0
         distance: 10.0
         elevation: 340
@@ -171,7 +171,7 @@ page_builder:
       -
         id: mlor867w
         title: 'Get immersed in local traditions'
-        description: 'This morning, we take a short drive from our base is one of the most important archaeological sites in Molise.  After a guided tour of the site, we will have a light lunch in a small trattoria. In the afternoon, we will be taken on guided tour of the great surprises of this area: a bell foundry which has been operating in the town since the 13th century. It has been in the hands of the same family all this time, 27 generations, and so is the oldest continually operating company in the world!'
+        description: 'This morning, we take a short drive from our base to one of the most important archaeological sites in Molise. After a guided tour of the site, we will have a light lunch in a small trattoria. In the afternoon we will be taken on a guided tour of one of the great surprises of this area: a bell foundry which has been operating in the town since the 13th century which has been run by the same family all this time 27 generations and so is the oldest continually operating company in the world!'
         meals_included:
           - breakfast
           - lunch
@@ -180,7 +180,7 @@ page_builder:
       -
         id: mlora14b
         title: 'Walk in ancient beech forest'
-        description: 'At seven thousand kilometres, the Sentiero Italia is the longest walking trail in the world. It was created to connect all the Italian regions and unite their cultural diversity, beauty and traditions. This morning, we walk a section of Sentiero, a loop walk following a well-made trail through spectacular old-growth beech forest. After a cut lunch along the way, we return to our base where you can swim in the pool and relax for the rest of the afternoon. We have dinner at the agriturismo.'
+        description: 'At seven thousand kilometres, the Sentiero Italia is the longest walking trail in the world. It was created to connect all the Italian regions and unite their cultural diversity, beauty and traditions. This morning, we walk a section of the Sentiero, a loop walk following a well-made trail through spectacular old-growth beech forest. After a cut lunch along the way, we return to our base where you can swim in the pool and relax for the rest of the afternoon. We have dinner at the agriturismo.'
         duration: 4.0
         distance: 9.0
         elevation: 340
@@ -192,17 +192,17 @@ page_builder:
       -
         id: mlorbjxg
         title: 'Transfer to the coast'
-        description: 'Today we leave the mountains and drive east to Termoli, a very attractive fishing town on the southern coast of Molise, near the border with Puglia. Termoli sits on a promontory dominated by a small Norman castle. Kilometres of beaches stretch to the north and south.  Our accommodation for the last two nights will be in seaview apartments in the beautifully restored historic centre. Once we have checked in, the afternoon and evening are free to enjoy this gorgeous town and its beaches.'
+        description: 'Today we leave the mountains and drive east to Termoli, a very attractive fishing town on the southern coast of Molise, near the border with Puglia. Termoli sits on a promontory dominated by a small Norman castle. Kilometres of beaches stretch to the north and south. Our accommodation for the last two nights will be in seaview apartments in the beautifully restored historic centre. Once we have checked in, the afternoon and evening are free to enjoy this gorgeous town and its beaches.'
         meals_included:
           - breakfast
         photo: guided/abruzzo-and-molise/15-termoli.jpg
       -
         id: mlore9l3
         title: 'Touring the Tremoli Islands'
-        description: 'This morning, we take a one-hour ferry ride across the Adriatic to the Isole Tremiti, an archipelago of three magical islands off the coast of Puglia.  We will be taken by a private boat for a tour of the islands with plenty of chances for swimming. We will have a light lunch back at the port, before returning by ferry to Termoli.  In the evening we have our farewell dinner outdoors in the historic centre of Termoli at a small restaurant that specialises in the freshest of local seafood.'
+        description: 'This morning, we take a one-hour ferry ride across the Adriatic to the Isole Tremiti, an archipelago of three magical islands off the coast of Puglia. We will be taken by a private boat for a tour of the islands with plenty of chances for swimming. We will have a light lunch back at the port before returning by ferry to Termoli.'
         meals_included:
           - breakfast
-          - dinner
+          - lunch
         photo: guided/abruzzo-and-molise/14-termoli.jpg
       -
         id: mlorf281
