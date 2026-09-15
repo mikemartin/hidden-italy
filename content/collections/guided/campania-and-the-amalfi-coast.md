@@ -8,7 +8,7 @@ days: 13
 seasons: spring
 grade: 3
 updated_by: 4
-updated_at: 1789457250
+updated_at: 1789457860
 image: guided/img_3120-v2.jpg
 tour_size: 15
 inclusions:
