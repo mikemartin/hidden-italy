@@ -6,7 +6,7 @@ name: 'Abruzzo and Molise'
 region: 'Apennines & Adriatic Coast'
 days: 13
 updated_by: 4
-updated_at: 1789454730
+updated_at: 1789454882
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
@@ -207,7 +207,7 @@ page_builder:
       -
         id: mlorf281
         title: Departure
-        description: 'Termoli is connected by rail to Pescara and Bologna to the north and Bari and Lecce to the south. For those interested, we will have a transfer 50 minutes south to Foggia which has fast train connections to Naples and Rome.'
+        description: 'Termoli is connected by rail to Pescara and Bologna to the north and Bari and Lecce to the south. For those interested, we will have a morning transfer 50 minutes south to Foggia which has fast train connections to Naples and Rome.'
         meals_included:
           - breakfast
         photo: guided/abruzzo-and-molise/img_8356-v2.jpg
