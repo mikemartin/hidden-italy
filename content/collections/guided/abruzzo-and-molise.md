@@ -6,7 +6,7 @@ name: 'Abruzzo and Molise'
 region: 'Apennines & Adriatic Coast'
 days: 13
 updated_by: 4
-updated_at: 1788400700
+updated_at: 1789453542
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
@@ -95,7 +95,7 @@ page_builder:
       -
         id: mloqwjgq
         title: 'Arrive in Rome'
-        description: 'The tour starts in the heart of Rome, in an historic hotel a short walk from the Pantheon.  We will meet at the hotel at 19.00 and walk to dinner at a nearby osteria (first mentioned in a document in 1518 and reputedly the oldest in Rome and a favourite of Caravaggio) which specialises in classic Roman cuisine.'
+        description: 'The tour starts in the heart of Rome, in an historic hotel a short walk from the Pantheon. We will meet at the hotel at 19.00 and walk to dinner at a nearby osteria which specialises in classic Roman cuisine.'
         meals_included:
           - dinner
         photo: guided/abruzzo-and-molise/rome-2.jpg
@@ -110,7 +110,7 @@ page_builder:
       -
         id: mloqy5ed
         title: 'Transfer to Abruzzo'
-        description: 'This morning we drive one hundred kilometres east into the Apennine Mountains. On the way we stop for a guided tour of Tivoli, including a visit to Villa Adriana, the retirement home of Hadrian, ‘the largest and most sumptuous villa in the Roman Empire’.  After checking into our wonderful accommodation (‘a truly unique and special experience’), you will be free to explore the village. We will have dinner at our accommodation’s excellent restaurant.'
+        description: 'This morning we drive one hundred kilometres east into the Apennine Mountains. On the way we stop for a guided tour of Tivoli. After checking into our wonderful accommodation (‘a truly unique and special experience’), you will be free to explore the village. We will have dinner at our accommodation’s excellent restaurant.'
         meals_included:
           - breakfast
           - lunch
@@ -119,7 +119,7 @@ page_builder:
       -
         id: mloqzruj
         title: 'Walk through rolling hills'
-        description: 'This morning we go for a fascinating walk starting from our village, following an undulating trail that was once used by drovers moving their flocks between the mountains and the coast.  The first stop is at the spectacular ruins of a medieval castle.  From here we walk down into the valley past a lake and farmlands to the next village.  We’ll have a cut lunch along the way.  After refreshments, we will be driven back to base.  The evening is free.'
+        description: 'This morning we go for a fascinating walk starting from our village, following an undulating trail that was once used by drovers moving their flocks between the mountains and the coast. Along the way, we stop at the spectacular ruins of a medieval castle. From here we walk down into the valley past a lake and farmlands to the next village. After refreshments, we will be driven back to base. The evening is free.'
         duration: 5.0
         distance: 15.0
         elevation: 650
@@ -130,7 +130,7 @@ page_builder:
       -
         id: mlor10w3
         title: "Visit L'Aquila"
-        description: 'This morning we drive thirty kilometres north to L’Aquila, the mountain capital of Abruzzo, which has an ancient history. The city’s golden days were in the 15th century, when it had its own university, its own mint and was the home of saints and scholars.  After lunch, we will return to our base, where the rest of the afternoon is free. In the evening, we will have a lesson that will introduce us to the one of the secrets of traditional Abruzzo cuisine.  This will be followed by dinner.'
+        description: 'This morning we drive thirty kilometres north to L’Aquila, the mountain capital of Abruzzo, which has an ancient history. The city’s golden days were in the 15th century, when it had its own university, its own mint and was the home of saints and scholars. After lunch, we will return to our base, where the rest of the afternoon is free. In the evening, we will have a lesson that will introduce us to one of the secrets of traditional Abruzzo cuisine. This will be followed by dinner.'
         meals_included:
           - breakfast
           - lunch
@@ -139,7 +139,7 @@ page_builder:
       -
         id: mlor23s2
         title: 'Walk on the Gran Sasso'
-        description: 'This morning we explore some of the most spectacular scenery in central Italy: the Campo Imperatore, a vast high plain and the Gran Sasso, the Apennine’s highest peak.  This walk is one of the most rewarding in Abruzzo. It starts with a gradual climb up a well-made path and then contours up to a pass with a superb view of the Gran Sasso and the surrounding countryside.  We then drive back to our base, having a delicious lunch on the way.  The rest of the afternoon and evening are free.'
+        description: 'This morning we explore some of the most spectacular scenery in central Italy: the Campo Imperatore, a vast high plain and the Gran Sasso, the Apennine’s highest peak. This walk is one of the most rewarding in Abruzzo. It starts with a gradual climb up a well-made path and then contours up to a pass with a superb view of the Gran Sasso and the surrounding countryside. We then drive back to our base. The rest of the afternoon and evening are free.'
         duration: 3.0
         distance: 6.0
         elevation: 360
@@ -150,7 +150,7 @@ page_builder:
       -
         id: mlor3ri3
         title: 'Transfer to Alto Molise'
-        description: 'Today, we leave Abruzzo and drive south into rolling hills and forests of Molise. On the way, we stop at Isernia, the ‘capital’ of Alto Molise (Upper Molise) for a guided visit of one of the most extraordinary museums in the region.  After lunch in town, we continue our drive to Agnone, a remarkable small town in the hills of northern Molise. Our accommodation is in a beautiful, family-run ‘agriturismo’ in a vineyard in the valley.  The afternoon is free then dinner is at the agriturismo.'
+        description: 'Today, we leave Abruzzo and drive south into the rolling hills and forests of Molise. On the way, we stop at Isernia, the ‘capital’ of Alto Molise (Upper Molise) for a guided visit to one of the most extraordinary museums in the region. After lunch in town, we continue our drive to a remarkable small town in the hills of northern Molise. Our accommodation is in a beautiful, family-run ‘agriturismo’ in a vineyard in the valley below Agnone. The afternoon is free then dinner is at the agriturismo.'
         meals_included:
           - breakfast
           - lunch
@@ -159,7 +159,7 @@ page_builder:
       -
         id: mlor6aar
         title: 'Walk along a ridge'
-        description: 'This morning, we take a thirty-minute winding drive up to a small village that is the highest point in the valley.  From here we follow trails up through beech forest to a long ridge, with very spectacular views.  We will have a cut lunch in the forest.  The rest of the afternoon is free.  In the evening, we will have a short transfer to one of the surprises of the area, a lovely farm-based restaurant where we will have degustation dinner prepared by their Michelin-starred local chef.'
+        description: 'This morning, we take a thirty-minute winding drive up to a small village that is the highest point in the valley. From here we follow trails up through beech forest to a long ridge, with very spectacular views. We will have a cut lunch in the forest. The rest of the afternoon is free. In the evening, we will have a short transfer to one of the surprises of the area, a lovely farm-based restaurant where we will have a degustation dinner prepared by their Michelin-starred local chef.'
         duration: 4.0
         distance: 10.0
         elevation: 340
