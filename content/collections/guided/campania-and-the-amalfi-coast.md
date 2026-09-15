@@ -8,7 +8,7 @@ days: 13
 seasons: spring
 grade: 3
 updated_by: 4
-updated_at: 1789456389
+updated_at: 1789457250
 image: guided/img_3120-v2.jpg
 tour_size: 15
 inclusions:
@@ -164,7 +164,7 @@ page_builder:
       -
         id: mlonqtn1
         title: 'Have a picnic lunch in a beech forest'
-        description: 'Today we return to the Picentini National Park. This time we will be taken on a beautiful walk through a leafy beech forest beside a babbling brook to the source of the Calore River, where we will have a picnic lunch. At the end of the walk, we will be driven back to our base where the afternoon is free.'
+        description: "Today we return to the Picentini National Park. This time we will be taken on a beautiful walk through a leafy beech forest beside a babbling brook to the source of the Calore River, where we will have a picnic lunch. At the end of the walk, we will be driven back to our base, where the afternoon is free.  Dinner will be at our accommodation's osteria"
         duration: 4.0
         distance: 9.0
         elevation: 367
@@ -175,8 +175,8 @@ page_builder:
         photo: guided/campania-and-the-amalfi-coast/img_3162.jpg
       -
         id: mlonsfkn
-        title: 'Transfer to the Pollicastro Gulf'
-        description: 'Today we leave the mountains and drive south.  Along the way, we will stop for a guided tour of an extraordinary World Heritage listed monastery.  After lunch, we will continue on to one of Italy’s best-kept secrets: a tiny enclave on a hilltop overlooking the sparkling Pollicastro Gulf.  Our base for the next three nights is a boutique 4-star hotel set in a refurbished 18th-century monastery in the centre of town, which has gardens and a great swimming pool.  The evening is free.'
+        title: 'Transfer to the Policastro Gulf'
+        description: 'Today we leave the mountains and drive south. Along the way, we will stop for a guided tour of an extraordinary World Heritage-listed monastery. After lunch, we will continue to one of Italy’s best-kept secrets: a tiny enclave on a hilltop overlooking the sparkling Policastro Gulf. Our base for the next three nights is a boutique 4-star hotel set in a refurbished 18th-century monastery in the centre of town, which has gardens and a great swimming pool. The evening is free.'
         meals_included:
           - breakfast
           - lunch
@@ -184,7 +184,7 @@ page_builder:
       -
         id: mlonw8im
         title: 'Go for a spectacular walk above the sea'
-        description: "This morning we get a lift up to the spectacular 'belvedere' high above the town.  After admiring the views, we walk south along a mountain ridge with wide vistas inland over the mountains on one side and views over the Mediterranean Sea on the other.  At the end of the walk, we will have lunch and a swim at a family-run beach club overlooking the prettiest beach in the region.  Back at base, the rest of the afternoon is free.  Dinner is at a local trattoria."
+        description: "This morning we get a lift up to the spectacular 'belvedere' high above the town. After admiring the views, we walk south along a mountain ridge with wide vistas inland over the mountains on one side and views over the Mediterranean Sea on the other. At the end of the walk, we will have lunch and a swim at a family-run beach club overlooking the prettiest beach in the region. Back at base, the rest of the afternoon is free. Dinner is at a local trattoria."
         duration: 3.0
         distance: 8.0
         elevation: 89
@@ -196,7 +196,7 @@ page_builder:
       -
         id: mlonyye8
         title: 'Go boating up the coast'
-        description: "Today we explore the beautiful coastline where Campania borders with Basilicata, taking a small boat north, exploring rocky coves, grottos and beaches, with plenty of places to swim in the blue waters of the Mediterranean.  After lunch in the port we will return to our base, where you will have the option of relaxing at the hotel or go for a walk, climbing up a paved pilgrim trail to the ruins of the town's castle, which is perched on a promontory that has sweeping views across the gulf."
+        description: "Today we explore the beautiful coastline where Campania borders with Basilicata, taking a small boat north, exploring rocky coves, grottos and beaches, with plenty of places to swim in the blue waters of the Mediterranean. After lunch in the port, we will return to our base, where you will have the option of relaxing at the hotel or going for a walk, climbing up a paved pilgrim trail to the ruins of the town's castle, which is perched on a promontory that has sweeping views across the gulf."
         duration: 2.0
         distance: 5.0
         elevation: 363
@@ -207,7 +207,7 @@ page_builder:
       -
         id: mloo1bta
         title: 'Transfer to the Amalfi Coast'
-        description: 'This morning we drive north to the spectacular Amalfi Coast.  On the way we visit the extraordinary Greek ruins of Paestum.  After lunch, we drive to Ravello, a charming town which sits on a natural balcony looking down over the famous Amalfi Coast: ‘Closer to the sky than the seashore’.  Our accommodation is in a lovely 4-star hotel in the centre of town, which has gardens, a swimming pool and breathtaking views over the coast.  The evening is free.'
+        description: 'This morning we drive north to the spectacular Amalfi Coast. On the way, we visit the extraordinary Greek ruins of Paestum. After lunch, we drive to Ravello, a charming town which sits on a natural balcony overlooking the famous Amalfi Coast: ‘Closer to the sky than the seashore’. Our accommodation is in a lovely 4-star hotel which has a swimming pool and breathtaking views over the coast. The evening is free.'
         meals_included:
           - breakfast
           - lunch
@@ -215,7 +215,7 @@ page_builder:
       -
         id: mloo58a6
         title: 'A glorious walk to Amalfi'
-        description: "The grand finale of our tour is a glorious walk from Ravello into the extraordinary Valle delle Ferriere.  The trail takes us through a national park passing under towering cliffs and through shaded chestnut forests, with views down over the coast.  We'll have a packed lunch beside a stream.  We will be taken back to Ravello, and you'll have the option of visiting the ancient town of Amalfi along the way.  Our final dinner is in a lovely, family-run restaurant."
+        description: "The grand finale of our tour is a glorious walk from Ravello into the extraordinary Valle delle Ferriere. The trail takes us through a national park passing under towering cliffs and through shaded chestnut forests, with views down over the coast. We'll have a packed lunch beside a stream. We will be taken back to Ravello, and you'll have the option of visiting the ancient town of Amalfi along the way. Dinner tonight is in a lovely family-run restaurant."
         duration: 5.0
         distance: 12.0
         elevation: 478
@@ -227,7 +227,7 @@ page_builder:
       -
         id: mloo6vkh
         title: 'Transfer to Naples'
-        description: 'In the morning we will be transferred back to Naples, an hour’s drive from Ravello, which has national and international rail and air connections.  The transfer is scheduled for 08.30.  First stop Naples Centrale station (around 10.00) and then Naples airport (around 10.30).'
+        description: 'In the morning we will be transferred back to Naples, an hour’s drive from Ravello, which has national and international rail and air connections. The transfer is scheduled for 08.30. First stop Naples Centrale station (around 10.00) and then Naples airport (around 10.30).'
         photo: guided/campania-and-the-amalfi-coast/img_2509-v2.jpg
         meals_included:
           - breakfast
