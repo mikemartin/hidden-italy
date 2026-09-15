@@ -8,7 +8,7 @@ days: 13
 seasons: spring
 grade: 3
 updated_by: 4
-updated_at: 1789455116
+updated_at: 1789455514
 image: guided/img_3120-v2.jpg
 tour_size: 15
 inclusions:
@@ -107,22 +107,22 @@ page_builder:
       -
         id: mlomzy0g
         title: 'Welcome to Naples'
-        description: 'Our accommodation is an elegant 4-star hotel in a pedestrian precinct, a short walk from Via Toledo. After meeting in the foyer at 19.00, we will walk to a sophisticated nearby restaurant for dinner.'
+        description: 'Our accommodation is an elegant 4-star hotel in a pedestrian precinct, a short walk from Via Toledo. After meeting on the panoramic terrace at 18:30 for an appreitivo before we will walk to a sophisticated nearby restaurant for dinner.'
         meals_included:
-          - dinner
+          - lunch
         photo: guided/campania-and-the-amalfi-coast/1.5.png
       -
         id: mlondlri
-        title: 'Explore the city'
-        description: "This morning we will be taken on a guided visit to explore the heart of this extraordinary city, including visiting the celebrated archaeological museum; Santa Chiara and its marvellous cloisters; and Giuseppe Sanmartino’s incredible Veiled Christ.   Along the way, we'll enjoy lunch in one of the city's oldest pizzerias.  The evening is free."
+        title: 'Climb Mount Vesuvius and more'
+        description: 'This morning we will be driven up to the side of Mt Vesuvius and take a short walk up to the edge of the crater. From here we can enjoy extraordinary views out over Naples and its gulf. After lunch, we will be taken on a guided visit to Herculaneum, an ancient residential town on the outskirts of Naples that was swallowed up in the same eruption as Pompeii. Smaller but better preserved than Pompeii, Herculaneum is no less fascinating and more manageable. The evening is free.'
         meals_included:
           - breakfast
           - lunch
         photo: guided/campania-and-the-amalfi-coast/3.8.jpg
       -
         id: mlonefs6
-        title: 'Climb Mount Vesuvius and more'
-        description: 'This morning we will be driven up to the side of Mt Vesuvius and take a short walk up to the edge of the crater.  From here we can enjoy extraordinary views out over Naples and its gulf. After lunch we will be taken on a guided visit of Herculaneum, an ancient residential town on the outskirts of Naples that was swallowed up in the same eruption as Pompeii.  Smaller but better preserved than Pompeii, Herculaneum is no less fascinating and more manageable.   The evening is free.'
+        title: 'Explore the city'
+        description: "This morning, we will be taken on a guided visit to explore the heart of this extraordinary city, including visiting the celebrated archaeological museum, Santa Chiara and its marvellous cloisters, and Giuseppe Sanmartino’s incredible Veiled Christ. Along the way, we'll enjoy lunch in one of the city's oldest pizzerias. The evening is free."
         duration: 2.0
         distance: 4.0
         elevation: 161
