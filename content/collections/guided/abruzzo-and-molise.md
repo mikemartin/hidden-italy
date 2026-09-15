@@ -6,7 +6,7 @@ name: 'Abruzzo and Molise'
 region: 'Apennines & Adriatic Coast'
 days: 13
 updated_by: 4
-updated_at: 1789454280
+updated_at: 1789454530
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
@@ -199,7 +199,7 @@ page_builder:
       -
         id: mlore9l3
         title: 'Touring the Tremoli Islands'
-        description: 'This morning, we take a one-hour ferry ride across the Adriatic to the Isole Tremiti, an archipelago of three magical islands off the coast of Puglia. We will be taken by a private boat for a tour of the islands with plenty of chances for swimming. We will have a light lunch back at the port before returning by ferry to Termoli.'
+        description: 'Today we will be taken by a private boat across the Adriatic to the Isole Tremiti, an archipelago of three magical islands off the coast of Puglia with plenty of opportunities for swimming. We will have a lovely lunch sampling the local specialties throughout the day.'
         meals_included:
           - breakfast
           - lunch
