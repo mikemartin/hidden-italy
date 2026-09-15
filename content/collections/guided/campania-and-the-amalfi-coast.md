@@ -8,7 +8,7 @@ days: 13
 seasons: spring
 grade: 3
 updated_by: 4
-updated_at: 1789455514
+updated_at: 1789456116
 image: guided/img_3120-v2.jpg
 tour_size: 15
 inclusions:
@@ -118,7 +118,10 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: guided/campania-and-the-amalfi-coast/3.8.jpg
+        photo: guided/campania-and-the-amalfi-coast/img_1475.jpeg
+        duration: 2.0
+        distance: 4.0
+        elevation: 161
       -
         id: mlonefs6
         title: 'Explore the city'
@@ -129,11 +132,11 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: guided/campania-and-the-amalfi-coast/img_1475.jpeg
+        photo: guided/campania-and-the-amalfi-coast/3.8.jpg
       -
         id: mlonggeq
         title: 'Drive into the interior'
-        description: 'This morning we leave the bustle of Campania’s capital and head east across the fertile plains of Benevello to rolling foothills of the Apennine Mountains near the border with Puglia.  Along the way we stop at the extravagant Royal Palace in Caserta, the Bourbons’ 18th-century answer to the Palace of Versailles and the largest royal palace in Europe.  After a light lunch, we continue to our base for the next four nights, a welcoming family-run hotel on the edge of a fascinating small town.'
+        description: 'This morning we leave the bustle of Campania’s capital and head east across the fertile plains of Benevento to the rolling foothills of the Apennine Mountains near the border with Puglia. Along the way, we stop at the extravagant Royal Palace in Caserta, the Bourbons’ 18th-century answer to the Palace of Versailles and the largest royal palace in Europe. After a light lunch, we continue to our base for the next four nights, a welcoming family-run hotel on the edge of an intriguing small town.'
         meals_included:
           - breakfast
           - lunch
@@ -142,7 +145,7 @@ page_builder:
       -
         id: mlonj7ll
         title: 'Go walking in the mountains'
-        description: "Today we drive up into the Monti Picentini National Park.  We will do a beautiful walk down through beech and chestnut following well-marked trails, finishing at the ruins of a Norman castle, where we will enjoy a picnic lunch.  We will have pre-dinner drinks and dinner at a lovely 'agriturismo' in the country before driving back to our base, where the evening is free.  We will have pre-dinner drinks and dinner at a lovely 'agriturismo' in the country before driving back to our base."
+        description: "Today we drive up into the Monti Picentini National Park. We will do a beautiful walk down through beech and chestnut, following well-marked trails, finishing at the ruins of a Norman castle, where we will enjoy a picnic lunch. We will have pre-dinner drinks and dinner at a lovely 'agriturismo' in the country before driving back to our base."
         duration: 4.0
         distance: 11.0
         meals_included:
