@@ -8,7 +8,7 @@ days: 13
 seasons: spring
 grade: 3
 updated_by: 4
-updated_at: 1789456116
+updated_at: 1789456389
 image: guided/img_3120-v2.jpg
 tour_size: 15
 inclusions:
@@ -156,15 +156,15 @@ page_builder:
       -
         id: mlonlca0
         title: 'Fine wines and cuisine'
-        description: "Today we explore the fine wines and cuisine of the district.  After a late start, we will visit one of the region’s finest producers, where we’ll visit their wonderful vineyard and cellars, have a degustation of the wines and a light lunch, before returning to our base for a bit of R&R.  After the siesta, we'll have dinner in our town."
+        description: 'Today we explore the fine wines and cuisine of the district. After a late start, we will visit one of the region’s finest producers, where we’ll visit their wonderful vineyard and cellars, have a degustation of the wines and a light lunch, before returning to our base for a bit of R&R.'
         meals_included:
+          - breakfast
           - lunch
-          - dinner
         photo: guided/campania-and-the-amalfi-coast/img_2094.jpeg
       -
         id: mlonqtn1
         title: 'Have a picnic lunch in a beech forest'
-        description: 'Today we return to the Picentini National Park.  This time we will be taken on a beautiful walk through a leafy beech forest beside a babbling brook to the source of the Calore River, where we will have a picnic lunch.  (9 kms, 4 hrs, 367 mts ascent).  At the end of the walk, we will be driven back to our base where afternoon is free.'
+        description: 'Today we return to the Picentini National Park. This time we will be taken on a beautiful walk through a leafy beech forest beside a babbling brook to the source of the Calore River, where we will have a picnic lunch. At the end of the walk, we will be driven back to our base where the afternoon is free.'
         duration: 4.0
         distance: 9.0
         elevation: 367
