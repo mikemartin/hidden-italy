@@ -1,32 +1,40 @@
 title_separator: '|'
 site_name: 'Hidden Italy'
 change_page_title:
-  - id: Lql-cMMEsxn1hR_ZTpFsA
+  -
+    id: Lql-cMMEsxn1hR_ZTpFsA
     collection: guided
     manipulate_title: collection_title
-  - id: _SmdzVNFbOTifgvr9Q02C
+  -
+    id: _SmdzVNFbOTifgvr9Q02C
     collection: self-guided
     manipulate_title: collection_title
-  - id: C2mrt8rjOnTL7penm6R05
+  -
+    id: C2mrt8rjOnTL7penm6R05
     collection: inspiration
     manipulate_title: collection_title
-  - id: 4G3l7AnVrIpf8ROm0SwNY
+  -
+    id: 4G3l7AnVrIpf8ROm0SwNY
     collection: tips
     manipulate_title: collection_title
 collection_defaults:
-  - id: ApxD07MO8Tt3PvMK5a1jx
+  -
+    id: ApxD07MO8Tt3PvMK5a1jx
     collection: guided
     fallback: field
     field_handle: summary
-  - id: qDmjutCXcgpTuWFnXDHmE
+  -
+    id: qDmjutCXcgpTuWFnXDHmE
     collection: self-guided
     fallback: field
     field_handle: summary
-  - id: tP4zfxKNsjZCjfC_Z4bcC
+  -
+    id: tP4zfxKNsjZCjfC_Z4bcC
     collection: inspiration
     fallback: field
     field_handle: lead
-  - id: eA3jMRBYa7Y5tZ8ANZeDY
+  -
+    id: eA3jMRBYa7Y5tZ8ANZeDY
     collection: tips
     fallback: field
     field_handle: lead
@@ -103,8 +111,8 @@ use_google_site_verification: false
 use_fathom: false
 use_matomo: false
 use_plausible: false
+use_umami: false
 use_cloudflare_web_analytics: false
-tracker_type: gtag
-google_analytics: G-3DCCBT95HN
-anonymize_ip: true
+tracker_type: gtm
+google_tag_manager: GT-K4ZVWN98
 use_consent_banner: false
