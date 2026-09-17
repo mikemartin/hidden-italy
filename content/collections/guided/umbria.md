@@ -68,13 +68,15 @@ page_builder:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: "Often referred to as the ‘green heart of Italy’, Umbria is a beautiful, unspoilt, landlocked region of rolling hills, woods, streams and valleys.\_ Within its borders are a dozen or so classic hill-towns, each resolutely individual and crammed with artistic and architectural treasures that frequently rival bigger and more famous cities.\_ To the east, pastoral countryside gives way to more rugged scenery, none better than the dramatic twists and turns of the Nera River valley and the high mountain landscapes of the Parco Nazionale dei Monti Sibillini.\_ Designed and led by Sarah Morgan, this journey reflects her deep passion for showcasing her home region."
     column_right:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: "Taking you well off the beaten paths, this tour will introduce you to a side of Umbria only a local can share. \_It starts with two nights in a centrally located, 4-star hotel in Gubbio, and includes a guided tour of this fascinating town.\_ From here we go off-the-beaten track to ‘the most beautiful part of Umbria’, the wild Nera valley, where we’ll be based in an ‘albergo diffuso’ in a small, historic village on the river. The next stop is a 4-star hotel set beautifully restored monastery, with a pool and surrounded by gardens outside Amelia. \_The grand finale is two nights in an historic 4-star hotel two steps from Orvieto’s famous cathedral."
     images:
       - guided/monasterio-1.jpg
@@ -87,27 +89,33 @@ page_builder:
     enabled: true
     show_topography: false
     activities:
-      - id: sBhtndcz7wpXB6i4aU0kR
+      -
+        id: sBhtndcz7wpXB6i4aU0kR
         title: 'Discover the secrets of Gubbio'
         summary: 'Seated on the slopes of Monte Ingino, Gubbio is a thoroughly charming town which wears its fascinating history lightly.'
         icon: 'tourism-tour guide.svg'
-      - id: f5OmTtAzqFlzCCRaBVZN2
+      -
+        id: f5OmTtAzqFlzCCRaBVZN2
         title: 'Luxuriate in wonderful accommodation'
         summary: "Relax in exceptional accommodation: three historic 4-star hotels and a charming 'albergo diffuso' on the Nera River."
         icon: ski-alpine-hotel.svg
-      - id: pwK5yo4MPCYrS2xrAdIXn
+      -
+        id: pwK5yo4MPCYrS2xrAdIXn
         title: 'Walk the stunning landscapes'
         summary: 'Follow well-marked trails over green hills, through deep valleys and across majestic mountains.'
         icon: trekking-trekking.svg
-      - id: Wj73RrKfQG4N51CdrrGbA
+      -
+        id: Wj73RrKfQG4N51CdrrGbA
         title: "Lose yourself in the region's fine art"
         summary: "Lose yourself in small villages and towns holding some of Italy's finest art: Giotto, Pinturicchio and Fra Lippo Lippi."
         icon: medieval-castle-wall.svg
-      - id: RezgZqkCTnivlqqhDjIZb
+      -
+        id: RezgZqkCTnivlqqhDjIZb
         title: 'Enjoy Umbrian home cooking'
         summary: 'Enjoy the wholesome home-cooking the region is famous for: cold cuts, cheeses, pastas, roast meats, and fresh vegetables'
         icon: culture-cheese.svg
-      - id: f7gSb2aleggMTsZl50XLu
+      -
+        id: f7gSb2aleggMTsZl50XLu
         title: 'Explore gorgeous Orvieto'
         summary: 'Orvieto is one of the hidden treasures of Umbria.  Dramatically located on cliffs, this small town holds many treasures!'
         icon: culture-cathedral.svg
@@ -158,7 +166,7 @@ page_builder:
       -
         id: V5y6olGGteTR7aqTsF3FH
         title: 'A cultural and culinary delight'
-        description: 'Today we explore the cultural and culinary traditions of southern Umbria.  Our first stop in Spoleto.  Built on a steep hill with a very long history, Spoleto is one of the most charming towns in Umbria.  After seeing a few gems of the town, we will e will visit a winery in nearby Montefalco, home of Sagrantino, and the most celebrated wine town in the region.  After a lunch and a wine tasting we head back to base, where the evening is free.'
+        description: 'Today we explore the cultural and culinary traditions of southern Umbria.  Our first stop in Spoleto.  Built on a steep hill with a very long history, Spoleto is one of the most charming towns in Umbria.  After seeing a few gems of the town, we will visit a winery in nearby Montefalco, home of Sagrantino, and the most celebrated wine town in the region.  After a lunch and a wine tasting we head back to base, where the evening is free.'
         meals_included:
           - breakfast
           - lunch
@@ -254,7 +262,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'These gentle walks range from 3 to 12 kilometres.  They generally take three to fours hours following well-marked trails.  You are in the foothills of the Apennine Range so there are a few climbs but nothing dramatic.  They include an easy riverside walk, walks through rolling countryside and forests, and a spectacular undulating walk in the heart of the Sibillini Mountains.  You will be accompanied by your tour leader and a local guide on each of the walks'
         image: guided/foce-4.jpg
       -
@@ -266,7 +275,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "The accommodation is one of the highlights of this tour.  The tour is book ended by stays in centrally located 4-star hotels set in historic palazzi in both Gubbio and Orvieto.  In between you stay in an 'albergo diffuso' with independent rooms in a charming village on the banks of the Nera River and then in another 4-star hotel, this time set in restored monastery with a swimming pool and large gardens."
         media:
           - guided/monasterio-1.jpg
@@ -279,19 +289,23 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Food, of course, is the highlight of any visit to Italy, but especially to Umbria: hearty, home-cooked meals based on seasonal produce.  It is particularly well-known for its pasta dishes and it roast meats, especially its '
               -
                 type: text
                 marks:
-                  - type: italic
+                  -
+                    type: italic
                 text: porchetta
-              - type: text
+              -
+                type: text
                 text: ', roasted suckling pig stuffed with rosemary or sage.  Umbria is well-known for its truffles, its lentils and its fresh vegetables such as green beans from Trasimeno and cardoons from Trevi.  Umbria also produces some excellent wines including the white wines of Orvieto some outstanding reds such as Torgiano Rosso and Sagrantino.'
         media:
           - guided/porchetta-1.jpg
     show_topography: true
-  - id: Q8teFUrQd_KaHrdLR1Myv
+  -
+    id: Q8teFUrQd_KaHrdLR1Myv
     title: 'Tour Leader'
     section_background: none
     type: leader
@@ -309,7 +323,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
         type: equipment
         enabled: true
@@ -319,17 +334,20 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date. '
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour. '
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
@@ -342,19 +360,23 @@ page_builder:
               -
                 type: text
                 marks:
-                  - type: bold
+                  -
+                    type: bold
                 text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
-              - type: text
+              -
+                type: text
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
-  - id: Z4_cu9r-ejovrn4HreT7U
+  -
+    id: Z4_cu9r-ejovrn4HreT7U
     heading: 'Frequently asked questions'
     show_common_questions: true
     section_background: none
     type: faqs
     enabled: true
-  - id: SVpmWTDVRUI9wppoEPHT1
+  -
+    id: SVpmWTDVRUI9wppoEPHT1
     section_background: light
     hide_from_subnav: true
     type: walking_benefits
@@ -370,12 +392,13 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1787703576
+updated_at: 1789608396
 summary:
   -
     type: paragraph
     content:
-      - type: text
+      -
+        type: text
         text: "Designed and led by Hidden Italy guide Sarah Morgan, who has called Umbria home for fifteen years, this fabulous tour offers an insider’s view of the region. It begins in Gubbio and ends in Orvieto, two of Umbria’s most celebrated towns, with visits in between to some of the region’s hidden gems:\_ Valnerina, the Sibillini National Park, and Amelia, Sarah’s home and one of Umbria’s most fascinating towns."
 gallery:
   - guided/mattia-poli-2yytez6z44e-unsplash.jpg
