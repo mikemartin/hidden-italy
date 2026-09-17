@@ -174,7 +174,7 @@ page_builder:
       -
         id: 7HnpGnYA9oMkxf9wqePAZ
         title: 'A spectacular mountain walk'
-        description: 'Today we will drive up into the wonderful Sibillini Mountains, above the pleasant mountain retreat of Norcia, the home of St Benedict and the largest town in the Valnerina.  We will go on a spectacular mountain above the Piano Grande in the heart of the mountains (12 kms, 439 mts).  On the way home, we’ll stop at Norcia for a gelato.  Dinner is back at our base.'
+        description: 'Today we will drive up into the wonderful Sibillini Mountains, above the pleasant mountain retreat of Norcia, the home of St Benedict and the largest town in the Valnerina. We will go on a spectacular mountain above the Piano Grande in the heart of the mountains. On the way home, we’ll stop at Norcia for a gelato. Dinner is back at our base.'
         meals_included:
           - breakfast
           - lunch
@@ -186,7 +186,7 @@ page_builder:
       -
         id: KXWCs8ChKhSxYCxxb7V0p
         title: 'See the world’s highest man-made waterfall'
-        description: 'Time to leave the Valnerina and head to Amelia, Sarah’s hometown.  On the way, we’ll stop to visit the Cascata delle Marmore, a spectacular waterfall created by the Romans and then have lunch at Narni, a medieval hill-town that guards the entrance to the Nera Valley.  From here, we continue on to our accommodation, a 4-star hotel set in a recently restored monastery, which has a pool and large grounds.  Dinner is at the monastery’s restaurant.'
+        description: 'Time to leave the Valnerina and head to Amelia, Sarah’s hometown. On the way, we’ll stop to visit the Cascata delle Marmore, a spectacular waterfall created by the Romans and then have lunch at Narni, a medieval hill town that guards the entrance to the Nera Valley. From here, we continue on to our accommodation, a 4-star hotel set in a recently restored monastery, which has a pool and large grounds. Dinner is at the monastery’s restaurant.'
         meals_included:
           - breakfast
           - lunch
@@ -195,7 +195,7 @@ page_builder:
       -
         id: 0l3nLZ0EbT-jFT0RWNEs5
         title: 'Walk through woods and fields to an ancient town'
-        description: 'This morning we will take a lovely walk towards through woods and fields to the gorgeous Roman town of Amelia, which follows part of the Cammino of Germanicus, a Roman general who is something of a hero in the town.  (12 kms, 360 mts).  After a light lunch we’ll return to our base.  Dinner will be at a at a nearby restaurant specialising in truffles, mushrooms and roast meats.'
+        description: 'This morning we will take a lovely walk through woods and fields to the gorgeous Roman town of Amelia, which follows part of the Cammino of Germanicus, a Roman general who is something of a hero in the town. After a light lunch, we’ll return to our base.  Dinner will be at a nearby restaurant specialising in truffles, mushrooms and roast meats.'
         distance: 12.0
         duration: 8.0
         elevation: 360
@@ -392,7 +392,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1789608396
+updated_at: 1789608948
 summary:
   -
     type: paragraph
