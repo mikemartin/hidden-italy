@@ -207,14 +207,14 @@ page_builder:
       -
         id: yAPlMq-7I0LxA3jqvlhrw
         title: 'Explore Amelia'
-        description: 'Today is dedicated to discovering Amelia, a small but fascinating town that has a very long history (its intact, cyclopean town walls date from the 7th century BC!).  After the morning exploring the town, you will be free to have lunch on your own.  We’ll return to the monastery mid-afternoon.  Dinner is at the monastery’s restaurant.'
+        description: 'Today is dedicated to discovering Amelia, a small but fascinating town that has a very long history (its intact, cyclopean town walls date from the 7th century BC!).  After the morning exploring the town, you will be free to have lunch on your own. We’ll return to the monastery mid-afternoon. Dinner is at the monastery’s restaurant.'
         meals_included:
           - breakfast
           - dinner
         photo: guided/amelia-1.jpg
       -
         id: KHRGr3D2yhqLQdiThxIUa
-        description: 'Today we will walk from Amelia to a nearby Lugnano, officially listed as one the most beautiful towns in Italy (12 km, 370 mts), enjoying a cut lunch along the way.  After exploring this tiny town, we’ll drive back to our base.  In the evening you will be guests in guide Sarah’s home, a small olive farm on the outskirts of Amelia, having a delicious home-cooked meal under their pergola with views across the valley.'
+        description: 'Today we will walk from Amelia to a nearby Lugnano, officially listed as one of the most beautiful towns in Italy, enjoying a cut lunch along the way. After exploring this tiny town, we’ll drive back to our base. In the evening, you will be guests in guide Sarah’s home, a small olive farm on the outskirts of Amelia, having a delicious home-cooked meal under their pergola with views across the valley.'
         distance: 12.0
         meals_included:
           - breakfast
@@ -392,7 +392,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1789608948
+updated_at: 1789609228
 summary:
   -
     type: paragraph
