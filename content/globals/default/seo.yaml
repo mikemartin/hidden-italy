@@ -114,5 +114,5 @@ use_plausible: false
 use_umami: false
 use_cloudflare_web_analytics: false
 tracker_type: gtm
-google_tag_manager: GT-K4ZVWN98
+google_tag_manager: G-3DCCBT95HN
 use_consent_banner: false
