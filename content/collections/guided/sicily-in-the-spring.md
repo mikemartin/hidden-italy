@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: 4
-updated_at: 1785376276
+updated_at: 1789717258
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -38,28 +38,33 @@ page_builder:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: "There is not one but many different Sicily’s: the Baroque splendours and crowded markets of Palermo; the magnificent solitude of the island's Greek temples and theatres; the timelessness of forgotten villages scattered through the green interior; the glamour and bustle of Taormina; the dreamy mirage of the Aeolian islands and the power and majesty of Mt Etna."
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: "The challenge in organising a walking tour in Sicily lies in what to leave out rather than what to include but after more than a decade of taking walking tours around Sicily, we feel we've got the balance right."
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: 'This relaxed fourteen-day tour will take you off the beaten track and give you real insight into the island’s diversity and traditions, from cities to the mountains, from the islands to the sea.'
     column_right:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: 'A Hidden Italy special!'
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: "\_"
     title: 'Not one but many Sicilys'
     images:
@@ -71,27 +76,33 @@ page_builder:
     id: S-GxLPbJ4K3UJXaWyild9
     heading: 'Sicily in the Spring guided tour'
     activities:
-      - id: gloWg_rvBS0ZTTj_kZRfD
+      -
+        id: gloWg_rvBS0ZTTj_kZRfD
         title: 'Discover authentic Sicily'
         summary: "Let our local guide introduce you to the 'real' Sicily, meeting people and exploring places far from the madding crowds."
         icon: culture-guitar.svg
-      - id: Mmvg9lPq1cz9SwdlfdY-s
+      -
+        id: Mmvg9lPq1cz9SwdlfdY-s
         title: 'Stay in fabulous accommodation'
         summary: 'The accommodation includes 4-star hotels in Palermo, the islands and Taormina, and a boutique hotel in the mountains.'
         icon: ski-alpine-Chalet.svg
-      - id: Nq5hG3HzgmtEUg-VMunXK
+      -
+        id: Nq5hG3HzgmtEUg-VMunXK
         title: 'Enjoy a variety of walks'
         summary: 'Enjoy a fabulous variety of walks following trails across farmlands, around mountains, and along the spectacular coast.'
         icon: trekking-trekking.svg
-      - id: d3oIvR78iTmdORtYuOoEK
+      -
+        id: d3oIvR78iTmdORtYuOoEK
         title: 'Experience the food'
         summary: "One of the highlights of the tour is discovering the island's  wonderous cuisine (some would say the finest in Italy!)"
         icon: gastronomy-spaghetti.svg
-      - id: dANQOWIjeF8xx0YKt2kLG
+      -
+        id: dANQOWIjeF8xx0YKt2kLG
         title: 'Experience the marvellous Aeolian islands'
         summary: 'From our base in Lipari we explore these marvellous islands, including spectacular walks and two days on a private boat.'
         icon: nature-beach.svg
-      - id: DotGM37-xynuYv-Mjx6oV
+      -
+        id: DotGM37-xynuYv-Mjx6oV
         title: 'Taormina, the grand finale'
         summary: "We have three days to explore this enchanting part of the world, including a guided tour and a fab' walk around Mt Etna."
         icon: switzerland-mountain.svg
@@ -108,7 +119,7 @@ page_builder:
       -
         id: Oq_aVZ8gM2mizpzgstXmK
         title: 'Arrive in Palermo'
-        description: "Our Sicily tour starts in Palermo, the capital of Sicily, which is pressed between the mountains and the sea, a striking setting for what must be one of the most exotic cities in Europe. Its architecture and culture reflect the extraordinarily rich fabric of its past. Our accommodation for the first two nights is in an elegant 4-star hotel in the lively commercial centre of Palermo. We'll meet in the hotel foyer at 19.00 and have a light dinner in a neighbouring restaurant."
+        description: "Our Sicily tour starts in Palermo, the capital of Sicily, which is pressed between the mountains and the sea, a striking setting for what must be one of the most exotic cities in Europe. Its architecture and culture reflect the extraordinarily rich fabric of its past. Our accommodation for the first two nights is in an elegant hotel in the lively commercial centre of Palermo. We'll meet in the hotel foyer at 19.00 and have a light dinner in a neighbouring restaurant."
         meals_included:
           - dinner
         photo: guided/sicily-in-the-spring/04.2.jpg
@@ -123,7 +134,7 @@ page_builder:
       -
         id: ysEtAW5lQJTqXlSE064rQ
         title: 'Transfer to the mountains'
-        description: "From the bustle and intensity of Sicily's largest city, we drive into the mountainous interior to the green tranquillity of the island's second largest national park. On the way we will visit the dazzling medieval cathedral of Monreale, perched high above Palermo, and then stop at Cefalu, a lovely seaside resort for lunch.  Our base for the next four nights will be in a traditional and wonderfully restored historical property with all the comforts.  We'll have dinner in a nearby restaurant."
+        description: "From the bustle and intensity of Sicily's largest city, we drive into the mountainous interior to the green tranquillity of the island's second largest national park. On the way we will visit the dazzling medieval cathedral of Monreale, perched high above Palermo, and then stop at Cefalu, a lovely seaside resort for lunch. Our base for the next four nights will be in a traditional and wonderfully restored historical property with all the comforts. We'll have dinner in a nearby restaurant."
         meals_included:
           - breakfast
           - lunch
@@ -132,30 +143,30 @@ page_builder:
       -
         id: GZDLxY0mZk-PQrOwEsWlO
         title: 'Walk in the mountains'
-        description: "The first walk of the tour takes us into the heart of the Madonie National Natural Park. It is a beautiful high mountain walk finishing in a small fortified town, perched on the edge of the park, that was the original seat of the area's feudal lords. After a light lunch, we'll explore this beautifully situated town before returning to our base."
+        description: "The first walk of the tour takes us into the heart of the Madonie National Natural Park. It is a beautiful high mountain walk finishing in a small fortified town, perched on the edge of the park, that was the original seat of the area's feudal lords. After a light lunch, we'll explore this beautifully situated town before returning to our base, with the evening free."
         duration: 4.0
         distance: 13.0
         elevation: 455
         meals_included:
           - breakfast
           - lunch
-          - dinner
         photo: guided/sicily-in-the-spring/24.5.jpg
       -
         id: EymXPLYKFOpoqp-arNVIS
         title: 'Visit an an ancient Roman villa'
-        description: "This morning we head south to visit Piazza Armerina, the extraordinary villa at Casale, the most important relic of the Roman era in Sicily, unique for both the size and the richness of the polychrome floor mosaics.  Before the visit, we'll stop for a delicious light lunch.  After the visit, we’ll drive back to our base, where the rest of the afternoon and evening are free."
+        description: "This morning we head south to visit Piazza Armerina, the extraordinary villa at Casale, the most important relic of the Roman era in Sicily, unique for both the size and the richness of the polychrome floor mosaics.  Before the visit, we'll stop for a delicious light lunch.  After the visit, we’ll drive back to our base, where the rest of the afternoon is free before dinner."
         meals_included:
           - breakfast
           - lunch
+          - dinner
         photo: guided/sicily-in-the-spring/27.5.jpg
       -
         id: aR55SmJ_TrUEhTa-OcU7g
         title: 'Another fabulous walk'
         description: |-
-          Today we walk through rolling green hills covered with wildflowers and dotted with farmhouses and hamlets, up to a tiny hilltop village, dominated by an awesome medieval Norman castle, where we'll have a packed lunch before visiting the castle (14 kms, 4 hrs, 459 mts ascent, 528 mts descent).
+          Today we walk through rolling green hills covered with wildflowers and dotted with farmhouses and hamlets, up to a tiny hilltop village, dominated by an awesome medieval Norman castle, where we'll have a packed lunch before visiting the castle.
 
-          In the afternoon we'll drive back to our accommodation, stopping to visit possibly the most spectacularly sited town in the area, which has breath-taking views and a very good gelateria.  (Lunch/Dinner)
+          In the afternoon we'll drive back to our accommodation, stopping to visit possibly the most spectacularly sited town in the area, which has breath-taking views. (Lunch/Dinner)
         duration: 4.0
         distance: 14.0
         elevation: 459
@@ -264,7 +275,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "This tour has a variety of walks, including easy coastal strolls, longer mountain walks following unsealed country roads as well as more challenging walks such as the climb to the top of Vulcano in the Aeolian islands.\_ Going in May means that we'll be able to enjoy the island's idyllic spring weather and abundant wildflowers as well as avoid the crowds of the busier seasons.\_ In some cases it is possible to shorten the walk or to opt out and join the walkers for lunch.\_ Details for the individual walks are on the itinerary."
         image: guided/sicily-in-the-spring/60.jpg
         type: walk
@@ -276,7 +288,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "Accommodation is in very good, centrally located boutique hotels: a grand 4-star hotel in the heart of Palermo; a recently restored patrician palazzo in the heart of our sleepy village in the mountains; a 4-star hotel with generous gardens and a large swimming pool in Lipari and another 4-star hotel above Taormina, with a beautiful swimming pool and fabulous views across the sea.\_ All rooms have en suite bathrooms and air conditioning."
         media:
           - guided/sicily-in-the-spring/taormina-2.jpg
@@ -289,14 +302,16 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "One of the highlights of the tour is the exploration of the island's diverse and wonderous cuisine (some would say the finest in Italy): the rich ‘cucina povera' of Palermo; the fine country cooking of the interior; the excellent seafood of the Aeolian Islands and Taormina - all the ingredients rigorously seasonal and local.\_ We'll eat in fine restaurants, small trattoria's, enjoy picnic lunches, all exalting the best of Sicilian cooking.\_ Wine is included with all meals."
         media:
           - guided/sicily-in-the-spring/taormina-7.jpg
         type: food
         enabled: true
     hide_from_subnav: false
-  - id: 6W62AaoW5NTjMgyRKeBS_
+  -
+    id: 6W62AaoW5NTjMgyRKeBS_
     title: 'Tour Leader'
     person: 699bd6c8-377d-46a8-bd97-234a3720b9f1
     type: leader
@@ -313,7 +328,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
         type: equipment
         enabled: true
@@ -323,17 +339,20 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date. '
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour. '
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
@@ -346,9 +365,11 @@ page_builder:
               -
                 type: text
                 marks:
-                  - type: bold
+                  -
+                    type: bold
                 text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
-              - type: text
+              -
+                type: text
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
@@ -356,7 +377,8 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  - id: Mgox0cXZ
+  -
+    id: Mgox0cXZ
     type: faqs
     enabled: true
     show_common_questions: true
@@ -374,7 +396,8 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  - id: wb_JHHJeGnKbfUclixm
+  -
+    id: wb_JHHJeGnKbfUclixm
     type: walking_benefits
     enabled: true
     tour_type: auto
@@ -419,7 +442,8 @@ summary:
   -
     type: paragraph
     content:
-      - type: text
+      -
+        type: text
         text: "The largest island in the Mediterranean, Sicily is squeezed between Europe and Africa, between Christendom and Islam. It's a spectacular region with exceptional walks following country lanes, mountain trails and coastal paths. Sicily also boasts one of the finest, and surely the most diverse, cuisine in Italy based on their exceptional produce.\_ Truly, the perfect destination for an off-the-beaten track adventure."
 inclusions:
   - '13 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
