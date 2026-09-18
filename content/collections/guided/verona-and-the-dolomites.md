@@ -6,7 +6,7 @@ name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: 4
-updated_at: 1789720600
+updated_at: 1789721239
 locations: northern-italy
 grade: 3
 image: guided/verona-and-the-dolomites/-p9192176.jpg
@@ -226,7 +226,7 @@ page_builder:
       -
         id: mlrbqrqr
         title: 'Transfer to Venice'
-        description: 'After an early breakfast, we will be transferred at 8.00 am to Venice/Mestre, 1.5 hours away, with a first stop at Venice airport (which has water taxis and vaporettos directly into Venice) and then on to Mestre station (which has national and international rail connections).'
+        description: 'After an early breakfast, we will be transferred at 8.00 am to Venice/Mestre, 2 hours away, with a first stop at Venice airport (which has water taxis and vaporettos directly into Venice) and then on to Mestre station (which has national and international rail connections).'
         meals_included:
           - breakfast
         photo: guided/verona-and-the-dolomites/804729994-100.jpg
