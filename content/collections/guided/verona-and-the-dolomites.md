@@ -6,7 +6,7 @@ name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: 4
-updated_at: 1788312486
+updated_at: 1789719645
 locations: northern-italy
 grade: 3
 image: guided/verona-and-the-dolomites/-p9192176.jpg
@@ -131,9 +131,9 @@ page_builder:
       -
         id: mlrb55m6
         title: 'Meet the Dolomites'
-        description: 'Our first walk in the mountains is a spectacular introduction to the Dolomites.  We take a cable car to the top of the northern side of the valley (2,500 metres) from where you have breathtaking 360 degree views over the whole mountain range, stretching to the horizon on all sides.  From here we take a good path across and down through alpine pastures to a mountain lodge for lunch.  After lunch we continue downhill back to our base.'
-        duration: 4.0
-        distance: 10.0
+        description: 'Our first walk in the mountains is a spectacular introduction to the Dolomites. We travel to the top of the northern side of the valley (2,500 metres) from where you have breathtaking 360 degree views over the whole mountain range, stretching to the horizon on all sides. From here we take a good path across and down through alpine pastures to a mountain lodge for lunch. After lunch we continue downhill back to our base.'
+        duration: 4.5
+        distance: 12.0
         elevation: 164
         meals_included:
           - breakfast
@@ -142,7 +142,7 @@ page_builder:
       -
         id: mlrb71ly
         title: 'Explore Bolzano'
-        description: "Today we drive to Bolzano, the capital of the Alto Adige, a pretty town on a river with a long history and strong Austrian feel.  We stop in the hills above Bolzano for a short walk down hill through lovely forests (6 kms, 1.5 hrs) to a cable car which we’ll take down to Bolzano.  After lunch, we will visit one of the highlights of the region: the excellent museum dedicated to Otzi, the 5000-year-old 'Iceman’ found in 1991, before returning to our valley.  Dinner is at our hotel"
+        description: "Today we drive to Bolzano, the capital of the Alto Adige, a pretty town on a river with a long history and strong Austrian feel. We stop in the hills above Bolzano for a short walk downhill through lovely forests to a cable car, which we’ll take down to Bolzano. After lunch, we will visit one of the highlights of the region: the excellent museum dedicated to Ötzi, the 5000-year-old 'Iceman’ found in 1991, before returning to our valley. Dinner is at our hotel."
         duration: 2.0
         distance: 6.0
         meals_included:
@@ -152,9 +152,9 @@ page_builder:
       -
         id: mlrb874i
         title: 'Walk the high plains'
-        description: 'The walk today starts with another cable car ride, this time up the southern side of the valley (2,000 metres) from where we walk across the beautiful rolling pastures, across a vast undulating amphitheatre of alpine meadows surrounded by some of the most spectacular ranges in the area.  After a packed lunch, we continue under soaring cliffs back to the hotel.'
+        description: 'The walk today starts with another cable car ride, this time up the southern side of the valley (2,000 metres) from where we walk across the beautiful rolling pastures, across a vast undulating amphitheatre of alpine meadows surrounded by some of the most spectacular ranges in the area. After a packed lunch, we continue under soaring cliffs, where we get a lift back to the hotel. For those more energetic, there is an option of following a trail back to the hotel. (4kms)'
         duration: 4.0
-        distance: 14.0
+        distance: 13.0
         elevation: 468
         meals_included:
           - breakfast
