@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: 4
-updated_at: 1789717258
+updated_at: 1789718106
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -178,7 +178,7 @@ page_builder:
       -
         id: FemEj-8GNCdYUNm9nMHXz
         title: 'Transfer to the Aeolian Islands'
-        description: "After breakfast, we drive through the Nebrodie Mountains to the coast. Here we take a hydrofoil one hour north to the Aeolian Islands, and specifically to the island of Lipari, where we'll stay for the next four nights in a lovely hotel near the port which has beautiful gardens and a large swimming pool.  In the afternoon, you'll be taken on a guided visit of Lipari's small but fascinating archaeological museum.  In the evening we have dinner at an excellent local osteria."
+        description: "After breakfast, we drive through the Nebrodie Mountains to the coast. Here we take a hydrofoil one hour north to the Aeolian Islands, and specifically to the island of Lipari, where we'll stay for the next four nights in a lovely hotel near the port which has beautiful gardens and a large swimming pool.  In the afternoon, you'll be taken on a guided visit of Lipari's fascinating archaeological museum. In the evening, we will have dinner locally."
         meals_included:
           - breakfast
           - dinner
@@ -199,7 +199,7 @@ page_builder:
       -
         id: KzzRjFO9tlWGf2-Wii1Pd
         title: 'A day island-hopping'
-        description: 'This morning we will be taken by private boat (a very comfortable converted fishing boat) to explore the smallest and most picturesque island of the archipelago. We go for a walk to visit a spectacularly positioned pre-historic site before returning to the port for lunch.  After lunch we get back on the boat and continue our exploration of the island, having a swim in the blue Mediterranean sea before returning to Lipari. The evening is free'
+        description: 'This morning we will be taken by private boat (a very comfortable converted fishing boat) to explore the smallest and most picturesque island of the archipelago. We go for a walk to visit a spectacularly positioned pre-historic site before returning to the port for lunch.  After lunch we get back on the boat and continue our exploration of the island, having a swim in the blue Mediterranean sea before returning to Lipari. The evening is free.'
         duration: 2.0
         distance: 5.0
         elevation: 157
@@ -210,7 +210,7 @@ page_builder:
       -
         id: siQvsdgOurix_sZEIwh0X
         title: 'Climb a volcano'
-        description: "Today we will again take a private boat for a visit to another neighbouring island a short boat ride from Lipari, for the one hour climb up to the smoking crater of one the Mediterranean's most famous seismic phenomena, believed by the ancients to be the gates to hell (conditions permitting).  On the way back to Lipari we'll explore the coast before having a light lunch. In the evening we have dinner at an elegant restaurant which specialises in seafood and local cuisine"
+        description: "Today we will again take a private boat for a visit to another neighbouring island a short boat ride from Lipari, for the one hour climb up to the smoking crater of one the Mediterranean's most famous seismic phenomena, believed by the ancients to be the gates to hell (conditions permitting). On the way back to Lipari we'll explore the coast before having a light lunch. In the evening we have dinner at an elegant restaurant which specialises in seafood and local cuisine."
         duration: 2.0
         distance: 5.0
         elevation: 352
@@ -222,7 +222,7 @@ page_builder:
       -
         id: jvC4EyD_4eCaTbq_WjKBg
         title: 'Transfer to Taormina'
-        description: 'In the morning, we take the hydrofoil back to the mainland and drive around the north-eastern tip of Sicily to an enchanting village perched above the picturesque town of Taormina.  Our 4-star hotel has wonderful views over Taormina to Mt Etna. You will be free to unpack and relax around the swimming pool.  Later in the afternoon, we will walk down to Taormina for a guided visit of the famous Greek theatre, which dates from the 3rd century BC.    We will return to the hotel for dinner.'
+        description: 'In the morning, we take the hydrofoil back to the mainland and drive around the north-eastern tip of Sicily to an enchanting village perched above the picturesque town of Taormina. Our 4-star hotel has wonderful views over Taormina to Mt Etna. You will be free to unpack and relax around the swimming pool. Later in the afternoon, we head to Taormina for a guided visit of the famous Greek theatre, which dates from the 3rd century BC. We will return to the hotel for dinner.'
         duration: 1.0
         distance: 4.0
         meals_included:
@@ -232,7 +232,7 @@ page_builder:
       -
         id: O0emPib_FcRIp-1IWMCpC
         title: 'Walk in the forests of Mt Etna'
-        description: 'Today we drive around the northern side of Mt Etna and then up into the Etna National Park, taking a beautiful walk through forests of oak, beech and birch trees, crossing countryside modelled by centuries of lava flows with the peak of snow-capped Mount Etna looming above.  We then drive down the mountain for a wine tasting and lunch at a small family-run vineyard.  After a stroll around the vineyard, we’ll drive back to our hotel where the evening is free.'
+        description: 'Today we drive around the northern side of Mt Etna and then up into the Etna National Park, taking a beautiful walk through forests of oak, beech and birch trees, crossing countryside modelled by centuries of lava flows with the peak of snow-capped Mount Etna looming above. We then drive down the mountain for a wine tasting and lunch at a small family-run vineyard. After a stroll around the vineyard, we’ll drive back to our hotel where the evening is free.'
         duration: 4.0
         distance: 11.0
         elevation: 316
@@ -243,7 +243,7 @@ page_builder:
       -
         id: inM18Qylk6zVJhIaWY7Mu
         title: 'Relax in Taormina'
-        description: 'Today is a free day.  You’ll have the chance to relax and enjoy the romance of Taormina spending the morning shopping and exploring the town.  Otherwise, day trips are available to take you up the southern side of Mt Etna to the active crater at the top of the mountain.  Alternately, you may choose to do a day trip south to Syracuse. Additional costs apply for these excursions.  In the evening we’ll regroup in Taormina to have our farewell dinner at a fabulous family-run restaurant.'
+        description: 'Today is a free day.  You’ll have the chance to relax and enjoy the romance of Taormina, spending the morning shopping and exploring the town.  Otherwise, day trips are available to take you up the southern side of Mt Etna to the active crater at the top of the mountain.  Alternately, you may choose to do a day trip south to Syracuse. Additional costs apply for these excursions. In the evening, we’ll regroup for our farewell dinner at a fabulous restaurant.'
         meals_included:
           - breakfast
           - dinner
