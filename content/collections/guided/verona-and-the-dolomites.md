@@ -6,7 +6,7 @@ name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: 4
-updated_at: 1789719645
+updated_at: 1789720600
 locations: northern-italy
 grade: 3
 image: guided/verona-and-the-dolomites/-p9192176.jpg
@@ -164,7 +164,7 @@ page_builder:
       -
         id: mlrba04p
         title: 'Transfer to the Val Badia'
-        description: 'Today we leave the valley, driving north to visit one of the prettiest towns in the region.  From here we drive into the mountains, stopping for lunch along the way.  Our base for the next four nights is a pretty village in a Ladino speaking valley, one of the more secluded and spectacular in the Dolomites.  Our family-run hotel overlooks the village, surrounded by pastures filled with lowing cows and frolicking donkeys.  Dinner is at our hotel.'
+        description: 'Today we leave the valley, driving north to visit one of the prettiest towns in the region.  From here we drive into the mountains, stopping for lunch along the way. Our base for the next four nights is a pretty village in a Ladino speaking valley, one of the more secluded and spectacular in the Dolomites. Our family-run hotel overlooks the village, surrounded by pastures filled with lowing cows and frolicking donkeys.  Dinner is at our hotel.'
         meals_included:
           - breakfast
           - dinner
@@ -172,10 +172,10 @@ page_builder:
       -
         id: mlrbbbr6
         title: 'Another walk in the mountains'
-        description: "Today we get a lift up to the southern side of the valley, walking along a trail that takes us through pine forests, into the neighbouring valley, stopping for a packed lunch on the way.  On the way down, we pass  clusters of ancient timber farmhouses and barns that have survived from another era.  After well-earned refreshments at the local village, we'll be driven back to our base, stopping to visit a recently restored 14th century castle with a fine ethnographic museum.  Dinner back at base."
+        description: 'Today we get a lift up to the southern side of the valley, walking along a trail that takes us through pine forests, into the neighbouring valley, stopping for a packed lunch on the way. On the way down, we pass clusters of ancient timber farmhouses and barns that have survived from another era. After our walk, we will be driven back to our base, stopping to visit a recently restored 14th century castle with a fine ethnographic museum. Dinner back at base.'
         duration: 3.0
         distance: 9.0
-        elevation: 401
+        elevation: 400
         meals_included:
           - breakfast
           - lunch
@@ -184,9 +184,9 @@ page_builder:
       -
         id: mlrbfnmc
         title: 'Discover Braies Lake'
-        description: 'After a leisurely morning, we drive to the beautiful mountain lake of Braies situated in the Alta Pusteria valley.  You will have free time to walk around the lake (3.5kms, 1 hr) or hire a rowing boat or just sit on the shore of the lake and enjoy the amazing scenery.  Afternoon visit to the folklore museum in nearby Bruneck which recounts the everyday life of the rural population of earlier times, including an open-air site with original farmhouses and craft workshops.  Dinner is at our hotel.'
-        duration: 4.0
-        distance: 1.0
+        description: 'After a leisurely morning, we drive to the beautiful mountain lake of Braies situated in the Alta Pusteria valley. You will have free time to walk around the lake or hire a rowing boat or just sit on the shore of the lake and enjoy the amazing scenery. Afternoon visit to the folklore museum in nearby Bruneck which recounts the everyday life of the rural population of earlier times, including an open-air site with original farmhouses and craft workshops. Dinner is at our hotel.'
+        duration: 1.0
+        distance: 3.5
         elevation: 50
         meals_included:
           - breakfast
@@ -195,7 +195,7 @@ page_builder:
       -
         id: mlrbilht
         title: 'Visit the most magical place in the Dolomites'
-        description: "This morning we drive to the head of our valley then up a steep winding road into the rugged beauty in the heart of the National Park, to a mountain lodge perched on a plateau surrounded by soaring mountains.  We'll spend the day exploring this area, including a morning walk, followed by lunch and a stroll to the 'green' lake to see the 'parliament of marmots', a colony of furry mountain critters, famous Ladino legends, before driving back down to our base.  Dinner is at our hotel."
+        description: "This morning we drive to the head of our valley, then up a steep winding road into the rugged beauty in the heart of the National Park (2000m), to a mountain lodge perched on a plateau surrounded by soaring mountains. We'll spend the day exploring this area, including a morning walk, followed by lunch and a stroll to the 'green' lake to see the 'parliament of marmots', a colony of furry mountain critters, famous Ladino legends, before driving back down to our base. Dinner is at our hotel."
         duration: 2.0
         distance: 6.0
         elevation: 202
@@ -206,7 +206,7 @@ page_builder:
       -
         id: mlrblkbg
         title: "Transfer to Cortina d'Ampezzo"
-        description: "Today we leave the valley, along one of the most beautiful roads in the Alps.  On the way we pass under the highest peaks in the Dolomites, where we'll stop for lunch, before descending to the town Cortina d'Ampezzo, the 'Queen of the Dolomites', host of the 2026 Winter Olympics.  Cortina has a lot of charm and a wonderful setting in a sunny upland basin, with magnificent views of the mountains on all sides.  We stay in a 4-star hotel on the edge of town. The evening is free."
+        description: "Today we leave the valley, along one of the most beautiful roads in the Alps.  On the way we pass under the highest peaks in the Dolomites, where we'll stop for lunch, before descending to the town Cortina d'Ampezzo, the 'Queen of the Dolomites', host of the 2026 Winter Olympics. Cortina has a lot of charm and a wonderful setting in a sunny upland basin, with magnificent views of the mountains on all sides. We stay in a 4-star hotel on the edge of town. The evening is free."
         meals_included:
           - breakfast
           - lunch
@@ -214,9 +214,9 @@ page_builder:
       -
         id: mlrbor6n
         title: 'Loop the Tre Cime di Lavaredo'
-        description: 'The final walk is one of the most famous and spectacular in the Alps - a circular walk around the Tre Cime di Lavaredo, a 40 minute drive from Cortina. The walking route follows a mountain path that loops around the base of this extraordinary formation, three jagged peaks rising over 3000 metres - a fitting grand-finale to the tour. There is the option to shorten this walk).  After a packed lunch, we return to Cortina.  Our farewell dinner will be in a lovely restaurant in the centre of town.'
+        description: 'The final walk starting at above 2300m is one of the most famous and spectacular in the Alps - a circular walk around the Tre Cime di Lavaredo, a 40 minute drive from Cortina. The walking route follows a mountain path that loops around the base of this extraordinary formation, three jagged peaks rising 2999 metres - a fitting grand finale to the tour. After a packed lunch, we return to Cortina for our farewell drinks and dinner.'
         duration: 4.0
-        distance: 10.0
+        distance: 8.0
         elevation: 385
         meals_included:
           - breakfast
@@ -226,7 +226,7 @@ page_builder:
       -
         id: mlrbqrqr
         title: 'Transfer to Venice'
-        description: 'After an early breakfast, we will be transferred at 8.00am to Venice/Mestre, 1.5 hours away, with a first stop at Venice airport (which has water taxis and vaporettos directly into Venice) and then on to Mestre station (which has national and international rail connections).'
+        description: 'After an early breakfast, we will be transferred at 8.00 am to Venice/Mestre, 1.5 hours away, with a first stop at Venice airport (which has water taxis and vaporettos directly into Venice) and then on to Mestre station (which has national and international rail connections).'
         meals_included:
           - breakfast
         photo: guided/verona-and-the-dolomites/804729994-100.jpg
