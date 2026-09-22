@@ -327,4 +327,5 @@ locations: australasia
 simple_likes: 0
 updated_by: 4
 updated_at: 1788145066
+og_image: waiheke-new-zealand-og-1790048024.png
 ---
