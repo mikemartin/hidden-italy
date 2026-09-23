@@ -7,7 +7,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: 4
-updated_at: 1790153385
+updated_at: 1790153550
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
@@ -212,8 +212,8 @@ page_builder:
         photo: guided/sardinia-in-the-spring/77.jpg
       -
         id: mlpzmp2f
-        title: 'Walk along the Costa Smeralda'
-        description: "Today we will be transferred to the northeastern tip of the Island where we'll take a loop walk that starts and finishes at Golfo Aranci, a lovely coastal town.  Our walk takes us along coastal and valley path with scenic views."
+        title: 'Walk along the coastline'
+        description: "Today we will be walking along the coastline towards Capo Figari, the northeastern tip of the Island where we'll take a loop walk that starts and finishes at Golfo Aranci, a lovely coastal town. Our walk takes us along coastal and valley path with scenic views, with time for a swim in the bay."
         duration: 3.0
         distance: 7.0
         elevation: 150
