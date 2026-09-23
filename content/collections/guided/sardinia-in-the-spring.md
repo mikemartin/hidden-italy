@@ -7,7 +7,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: 4
-updated_at: 1790153550
+updated_at: 1790153808
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
@@ -213,18 +213,18 @@ page_builder:
       -
         id: mlpzmp2f
         title: 'Walk along the coastline'
-        description: "Today we will be walking along the coastline towards Capo Figari, the northeastern tip of the Island where we'll take a loop walk that starts and finishes at Golfo Aranci, a lovely coastal town. Our walk takes us along coastal and valley path with scenic views, with time for a swim in the bay."
-        duration: 3.0
+        description: "Today we will be walking along the coastline towards Capo Figari, the northeastern tip of the Island where we'll take a loop walk that starts and finishes at Golfo Aranci, a lovely coastal town. Our walk takes us along coastal and valley paths with scenic views, with time for a swim in the bay."
+        duration: 2.5
         distance: 7.0
         elevation: 150
         meals_included:
           - breakfast
-          - lunch
+          - dinner
         photo: guided/sardinia-in-the-spring/img_5769-(2).jpg
       -
         id: mlpzo8or
-        title: 'the grande finale!'
-        description: "As a finale, today we'll have a relaxing day out on a boat, crossing the bay to explore the archipelago of La Maddalena that makes up the northern tip of Sardinia. Apart from enjoying the truly beautiful scenery, this will include the option of a swim in the blue Mediterranean Sea. Lunch will be served on board.  In the evening, we will regroup for our farewell dinner."
+        title: 'The grande finale!'
+        description: "As a finale, after a short transfer, we'll have a relaxing day out on a boat, crossing the bay to explore the archipelago of La Maddalena that makes up the northern tip of Sardinia. Apart from enjoying the truly beautiful scenery, this will include the option of a swim in the blue Mediterranean Sea. Lunch will be served on board. In the evening, we will regroup for our farewell dinner."
         meals_included:
           - breakfast
           - lunch
