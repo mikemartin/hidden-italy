@@ -7,7 +7,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: 4
-updated_at: 1785289784
+updated_at: 1790153385
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
@@ -45,18 +45,21 @@ page_builder:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: "\_Apart from its stunning landscapes, Sardinia also has a long and interesting history, most of which has been under the domination of foreign powers from the Phoenicians to the Spanish, all of whom have left their mark on this fascinating region, not least on the island's marvellous cuisine."
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: "\_Lead by a very qualified and pasionate local guide, this marvellous tour really does uncover some of the secrets of Sardinia, taking you from the bustle of Cagliari to the hidden delights on the south-west; and then from there into the mountains (the heart of the island); finishing with three days on the celebrated Costa Smeralda.\_ What more could you want??"
     column_right:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: "\_"
     title: 'Stunning landscapes and a fascinating past'
     images:
@@ -68,27 +71,33 @@ page_builder:
     id: mlpxjjup
     heading: 'Sardinia guided tour highlights'
     activities:
-      - id: mlpxk1gl
+      -
+        id: mlpxk1gl
         title: 'Discover magical Cagliari'
         summary: 'Stay in a 4-star hotel in the city centre, and discover the secrets of fascinating Cagliari with your local tour guide.'
         icon: 'tourism-tour guide.svg'
-      - id: mlpxzpka
+      -
+        id: mlpxzpka
         title: 'Embrace the nature'
         summary: "Embrace the island's pristine nature: walking coastal paths and mountain trails; and sailing along the Costa Smeralda!"
         icon: trekking-trekking.svg
-      - id: mlpy8s53
+      -
+        id: mlpy8s53
         title: "Stay in the island's finest hotel!"
         summary: "Spend 4 nights being spoilt in Sardinia's finest hotel, a 4-star, family-run hotel in the island's mountainous interior."
         icon: housing-house.svg
-      - id: mlpxsikg
+      -
+        id: mlpxsikg
         title: 'Relish the delicious food (and wine)'
         summary: "Sardinia's cuisine revolves around the freshest ingredients: spring vegetables; handmade pasta; seafood; suckling pig!"
         icon: gastronomy-spaghetti.svg
-      - id: mlpyf1mv
+      -
+        id: mlpyf1mv
         title: 'Get spoilt on the Costa Smeralda'
         summary: 'The tour finishes with three nights in a beautiful 4-star hotel with a private beach on the legendary Costa Smeralda.'
         icon: ski-alpine-hotel.svg
-      - id: xKsmZ3r1OV4Dm758VMckF
+      -
+        id: xKsmZ3r1OV4Dm758VMckF
         title: 'Enjoy a day cruising'
         summary: 'As the grand finale, you will spend the last day cruising the Costa Smeralda in a private launch, with swims and lunch.'
         icon: transport-sailboat.svg
@@ -142,7 +151,7 @@ page_builder:
       -
         id: mlpyuve7
         title: 'Explore the island'
-        description: "This morning we walk from the village across the northern tip of the island, following a winding trail that takes us down to a tiny bay.  On our way back to town, we visit the island's only winery, where we'll have a light lunch while tasting some of our hosts' fine wines. After lunch, you’ll have the option of getting a lift or continuing back to town on foot.  In the evening we will have an alfresco dinner at the town’s best restaurant."
+        description: "This morning we walk from the village across the northern tip of the island, following a winding trail that takes us down to a tiny bay.  On our way back to town, we visit the island's only winery, where we'll have a light lunch while tasting some of our hosts' fine wines. After lunch, you’ll have the option of getting a lift or continuing back to town on foot. In the evening we will have an alfresco dinner at the town’s best restaurant."
         duration: 3.0
         distance: 9.0
         elevation: 229
@@ -154,7 +163,7 @@ page_builder:
       -
         id: mlpyzzky
         title: 'Drive into the mountains'
-        description: "Today we leave the island, and drive across the plains to visit one of the most extraordinary Bronze Age sites in Sardinia.  From here we drive up through the spectacular Gennargentu Mountains, stopping for lunch at a lovely, family-owned vineyard, and then continue on to the Supramonte mountains.  Our accommodation for the next four days is in one of Sardinia’s most celebrated hotels, a family-run, 'country house' in the heart of the walking country.  Dinner is at our accommodation."
+        description: "Today we leave the island, and drive across the plains to visit one of the most extraordinary Bronze Age sites in Sardinia. From here we drive up through the spectacular Gennargentu Mountains, stopping for lunch at a lovely, family-owned vineyard, and then continue on to the Supramonte mountains.  Our accommodation for the next four days is in one of Sardinia’s most celebrated hotels, a family-run, 'country house' in the heart of the walking country.  Dinner is at our accommodation."
         meals_included:
           - breakfast
           - lunch
@@ -175,7 +184,7 @@ page_builder:
       -
         id: mlpzcmyy
         title: 'Explore the local traditions'
-        description: 'Today we will be picked from our accommodation by Fabrizio and his team for a remarkable day exploring the heartland of Sardinia: its rugged mountains; its isolated villages and its ancient traditions.  This will include visits to the famous murals of Orgosolo (once a bandit stronghold) and the mask museum that celebrates the districts long history. We will have an outdoor lunch with some local shepherds.  Dinner is at our accommodation.'
+        description: "Today we will be picked from our accommodation by Fabrizio and his team for a remarkable day exploring the heartland of Sardinia: its rugged mountains, its isolated villages and its ancient traditions. This will include visits to the famous murals of Orgosolo (once a bandit stronghold) and the mask museum that celebrates the district's long history. We will have an outdoor lunch with some local shepherds. Dinner is at our accommodation."
         meals_included:
           - breakfast
           - lunch
@@ -184,7 +193,7 @@ page_builder:
       -
         id: mlpze0ii
         title: "Visit the island's most fascinating site"
-        description: 'This morning Fabrizio will take us on one of the area’s classic walks heading up a long valley behind our hotel, before climbing up to Mt Tiscali, a ridge where the remains of two prehistoric settlements are hidden in a huge limestone cavern – a completely stunning and unexpected sight.  After a barbeque lunch, we’ll head back to our hotel, allowing time for a swim in the pool and a relax before dinner.'
+        description: 'This morning Fabrizio will take us on one of the area’s classic walks heading up a long valley behind our hotel, before climbing up to Mt Tiscali, a ridge where the remains of two prehistoric settlements are hidden in a huge limestone cavern – a completely stunning and unexpected sight. After a barbeque lunch, we’ll head back to our hotel, allowing time for a swim in the pool and a relax before dinner.'
         duration: 3.0
         distance: 7.0
         elevation: 329
@@ -195,11 +204,11 @@ page_builder:
         photo: guided/sardinia-in-the-spring/img_5939.jpg
       -
         id: mlpzfc6o
-        title: 'Head for the Costa Smeralda'
-        description: 'This morning we leave the mountains behind us and head north to one of the most celebrated bits of coastline in Europe, the Costa Smeralda, which has been a ‘jetset’ destination since it was developed by the Aga Khan in the 1960s, driving to our base for the next three days.   We will have lunch in an agriturismo nearby.  Our accommodation is in a charming 4-star hotel in the beautiful surrounds of Cannigione.'
+        title: 'Head for Golfo Aranci'
+        description: 'This morning we leave the mountains behind us and head north towards the one of the most celebrated bits of coastline in Europe, Costa Smeralda, driving to our base for the next three days. Our accommodation is in a charming 4-star hotel in the Golfo Aranci, we will have dinner here this night.'
         meals_included:
           - breakfast
-          - lunch
+          - dinner
         photo: guided/sardinia-in-the-spring/77.jpg
       -
         id: mlpzmp2f
@@ -244,7 +253,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "The walks on this tour are as varied as Sardinia itself.\_ They include a guided morning walk through Cagliari's old town; spectacular walks along the island's peerless coastline; walks in the mountains with breath-taking views of the interior; and a forest walk to find the ruins of a Pheonician temple.\_ The walks are from 5 to 12 kilometres long, take from 2 to 4 hours.\_ They follow good trails over mostly undulating terrain. There are some steeper climbs in the mountains. Details of each day's walk are listed in the itinerary."
         image: guided/sardinia-in-the-spring/01-v3.jpg
         type: walk
@@ -256,7 +266,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "The accommodation is in excellent boutique hotels: two nights in a classic 4-star hotel in the centre of Cagliari; three nights down in the south-west corner of Sardinia, staying in a gorgeous\_family-run hotel in the historic centre of a small car-free town, a short walk from the port; four nights in a luxurious, family-run 4-star 'country house' in the mountains, which is itself part of the island's history; and. finally, three nights in a 4-star resort staying in\_deluxe rooms each of which has sea views over the Costa Smeralda!"
         media:
           - guided/sardinia-in-the-spring/hotel-1.jpg
@@ -269,7 +280,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "Sardinian cooking is deeply rooted in its past, full of flavours nearly forgotten elsewhere.\_ The essence of Sardinian cooking is unmistakeably biased towards traditional country dishes: fresh seasonal vegetabels; suckling pig and wild boar; rustic stews with wild vegetables and beans; fresh pastas; mountain cheeses; and boggling array of breads, including the famous carta da musica... and, of course, plenty of fresh seafood on the coast.\_ We will eat in a variety of settings including elegant dining in Cagliari and on the Costa Smeralda; seaside osterias, country trattorias, and picnics with the shepherds in the mountains."
         media:
           - guided/sardinia-in-the-spring/84.jpg
@@ -280,7 +292,8 @@ page_builder:
     section_background: dark
     show_topography: true
     hide_from_subnav: false
-  - id: usUm--pyAOLbxEXIGOs3A
+  -
+    id: usUm--pyAOLbxEXIGOs3A
     title: 'Tour Leader'
     person: 436787ff-89d4-438e-bf50-81c3672256cc
     type: leader
@@ -297,7 +310,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
         type: equipment
         enabled: true
@@ -307,17 +321,20 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date. '
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour. '
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
@@ -330,9 +347,11 @@ page_builder:
               -
                 type: text
                 marks:
-                  - type: bold
+                  -
+                    type: bold
                 text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
-              - type: text
+              -
+                type: text
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
@@ -340,7 +359,8 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  - id: TE6XYgRx
+  -
+    id: TE6XYgRx
     type: faqs
     enabled: true
     show_common_questions: true
@@ -358,7 +378,8 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  - id: wb_EoJ5RkwLPs4CWrTY
+  -
+    id: wb_EoJ5RkwLPs4CWrTY
     type: walking_benefits
     enabled: true
     tour_type: auto
@@ -405,7 +426,8 @@ summary:
   -
     type: paragraph
     content:
-      - type: text
+      -
+        type: text
         text: "Sardinia is the second largest island in the Mediterranean, suspended off the Italian coast between Corsica and Sicily. \_It is an island of contrasts, with buzzy cities like Cagliari, its capital, a beautiful port with ancient origins; spectacular coastline; and rugged, brooding mountains, where the 'real' Sardinians live."
 price: 'A$8,990 pp'
 show_from: true
