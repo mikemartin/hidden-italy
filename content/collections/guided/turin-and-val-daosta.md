@@ -1,12 +1,12 @@
 ---
 id: bf401969-bac2-4370-8ffd-d7c62b8f4ade
 blueprint: tour
-title: 'Turin and Val d''Aosta - Val d''Aosta'
+title: "Turin and Val d'Aosta - Val d'Aosta"
 name: "Turin and Val d'Aosta"
 region: "Val d'Aosta"
 days: 13
-updated_by: 3
-updated_at: 1780028498
+updated_by: 4
+updated_at: 1790214898
 grade: 4
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -132,6 +132,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
+          - dinner
         photo: guided/turin-and-val-daosta/img_9838.jpeg
       -
         id: mlor10w3
@@ -425,4 +426,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+overlay_opacity: 30
 ---
