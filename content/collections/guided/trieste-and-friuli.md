@@ -6,7 +6,7 @@ name: 'Trieste and Friuli'
 region: 'Friuli Venezia Giulia'
 days: 13
 updated_by: 4
-updated_at: 1789107797
+updated_at: 1790228427
 grade: 4
 inclusions:
   - '12 night’s accommodation (see the itinerary for details) in excellent boutique hotels'
@@ -408,7 +408,7 @@ finish_location:
       code: null
       level: 2
   country: Italy
-now_open: false
+now_open: true
 headline: "Italy's most diverse region"
 teaser: 'A special tour to a fascinating region: 3 borders, 4 national parks; and five languages.'
 summary:
@@ -427,4 +427,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 overlay_opacity: 20
+badge_text: Featured
 ---
