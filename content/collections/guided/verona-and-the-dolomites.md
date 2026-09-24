@@ -6,7 +6,7 @@ name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: 4
-updated_at: 1789721239
+updated_at: 1790216864
 locations: northern-italy
 grade: 3
 image: guided/verona-and-the-dolomites/-p9192176.jpg
@@ -167,6 +167,7 @@ page_builder:
         description: 'Today we leave the valley, driving north to visit one of the prettiest towns in the region.  From here we drive into the mountains, stopping for lunch along the way. Our base for the next four nights is a pretty village in a Ladino speaking valley, one of the more secluded and spectacular in the Dolomites. Our family-run hotel overlooks the village, surrounded by pastures filled with lowing cows and frolicking donkeys.  Dinner is at our hotel.'
         meals_included:
           - breakfast
+          - lunch
           - dinner
         photo: guided/verona-and-the-dolomites/39.jpg
       -
@@ -201,6 +202,7 @@ page_builder:
         elevation: 202
         meals_included:
           - breakfast
+          - lunch
           - dinner
         photo: guided/verona-and-the-dolomites/505.jpg
       -
