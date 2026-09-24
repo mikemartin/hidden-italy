@@ -8,7 +8,7 @@ days: 13
 seasons: spring
 grade: 3
 updated_by: 4
-updated_at: 1789457860
+updated_at: 1790212833
 image: guided/img_3120-v2.jpg
 tour_size: 15
 inclusions:
@@ -109,7 +109,7 @@ page_builder:
         title: 'Welcome to Naples'
         description: 'Our accommodation is an elegant 4-star hotel in a pedestrian precinct, a short walk from Via Toledo. After meeting on the panoramic terrace at 18:30 for an appreitivo before we will walk to a sophisticated nearby restaurant for dinner.'
         meals_included:
-          - lunch
+          - dinner
         photo: guided/campania-and-the-amalfi-coast/1.5.png
       -
         id: mlondlri
