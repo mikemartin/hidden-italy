@@ -207,14 +207,14 @@ page_builder:
       -
         id: yAPlMq-7I0LxA3jqvlhrw
         title: 'Explore Amelia'
-        description: 'Today is dedicated to discovering Amelia, a small but fascinating town that has a very long history (its intact, cyclopean town walls date from the 7th century BC!).  After the morning exploring the town, you will be free to have lunch on your own. We’ll return to the monastery mid-afternoon. Dinner is at the monastery’s restaurant.'
+        description: 'Today is dedicated to discovering Amelia, a small but fascinating town that has a very long history (its intact, cyclopean town walls date from the 7th century BC!). After exploring the town in the morning, you will be free to enjoy lunch and we’ll return to the monastery mid-afternoon. Dinner is at the monastery’s restaurant.'
         meals_included:
           - breakfast
           - dinner
         photo: guided/amelia-1.jpg
       -
         id: KHRGr3D2yhqLQdiThxIUa
-        description: 'Today we will walk from Amelia to a nearby Lugnano, officially listed as one of the most beautiful towns in Italy, enjoying a cut lunch along the way. After exploring this tiny town, we’ll drive back to our base. In the evening, you will be guests in guide Sarah’s home, a small olive farm on the outskirts of Amelia, having a delicious home-cooked meal under their pergola with views across the valley.'
+        description: "Today we will walk from Amelia to nearby Lugnano, officially listed as one of the most beautiful towns in Italy, enjoying a cut lunch along the way. After exploring this tiny town, we’ll drive back to our base. In the evening, you will be guests at Sarah's home, your tour leader, a small olive farm on the outskirts of Amelia, having a delicious home-cooked meal under their pergola with views across the valley."
         distance: 12.0
         meals_included:
           - breakfast
@@ -223,10 +223,11 @@ page_builder:
         duration: 4.0
         elevation: 370
         photo: guided/foce-2.jpg
+        title: 'Amelia to Lugnano'
       -
         id: j-gmsVnOqpZy0rOQpeOlG
         title: "Lunch in one of Umbria's finest restaurants"
-        description: 'Today we leave Amelia for Orvieto, the grand finale of the tour. On the way, we will visit the town of Todi before having lunch at a restaurant run by one of Umbria’s leading chefs.  After checking into our fabulous 4-star hotel (a recently renovated noble palazzo) you will be free to explore this gorgeous town.  The evening is free.'
+        description: 'Today we leave Amelia for Orvieto, the grand finale of the tour. On the way, we will visit the town of Todi before having lunch at a restaurant run by one of Umbria’s leading chefs. After checking into our fabulous 4-star hotel (a recently renovated noble palazzo), you will be free to explore this gorgeous town. The evening is free.'
         meals_included:
           - breakfast
           - lunch
@@ -234,7 +235,7 @@ page_builder:
       -
         id: 4aE_GQ_5tU2YwEUaKJNG8
         title: 'Discover the secrets of Orvieto'
-        description: 'This morning we’ll enjoy a guided tour of Orvieto, including the celebrated cathedral with its famous fresco cycle by Luca Signorelii (believed to have inspired Michelangelo’s Sistine Chapel, painted thirty years later).  The afternoon is a chance to continue to explore the town.  We will regroup for our final dinner at one of the town’s excellent restaurants.'
+        description: 'This morning we’ll enjoy a guided tour of Orvieto, including the celebrated cathedral with its famous fresco cycle by Luca Signorelli (believed to have inspired Michelangelo’s Sistine Chapel, painted thirty years later). The afternoon is free to further explore the town. We will regroup for our final dinner at one of the town’s excellent restaurants.'
         meals_included:
           - breakfast
           - dinner
@@ -242,7 +243,7 @@ page_builder:
       -
         id: fDUzSckxzWLu1D2DbqbFR
         title: 'Depart Orvieto'
-        description: 'After breakfast, you will be free to continue your holiday.  Orvieto is well-connected by regular trains to Rome, Florence and beyond'
+        description: 'After breakfast, you will be free to continue your holiday. Orvieto is well-connected by regular trains to Rome, Florence and beyond.'
         meals_included:
           - breakfast
         photo: guided/img_7469.jpg
@@ -392,7 +393,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1790218234
+updated_at: 1790218828
 summary:
   -
     type: paragraph
