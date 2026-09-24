@@ -128,14 +128,14 @@ page_builder:
       -
         id: Om5y5FTAtdk95fGc42Xbj
         title: 'Arrive in Gubbio'
-        description: 'The tour starts in Gubbio, one of Umbria’s most beautifully preserved medieval towns.  Built into the slopes of Monte Ingino, Gubbio provides an exceptional introduction to the region, with medieval streets, Roman heritage, artisan traditions, and sweeping views over the countryside.  We’ll meet at the hotel at 19.00 and walk to dinner.'
+        description: 'The tour starts in Gubbio, one of Umbria’s most beautifully preserved medieval towns. Built into the slopes of Monte Ingino, Gubbio provides an exceptional introduction to the region, with medieval streets, Roman heritage, artisan traditions, and sweeping views over the countryside. We’ll meet at the hotel at 19.00 and walk to dinner.'
         meals_included:
           - dinner
         photo: guided/ducale-1.jpg
       -
         id: YjcLZmnMamy-RsFTNTnN6
         title: 'Explore the historical town'
-        description: 'This morning we will be taken on a guided tour of this fascinating town to get to know its history, architecture, and local traditions.  Highlights include Piazza Grande and Palazzo dei Consoli and a cable car up to Basilica di Sant’Ubaldo, the town’s cathedral.  After lunch, you’ll have the option to walk to the Hermitage of Sant’Ambrogio.  The rest afternoon and evening are free.'
+        description: 'This morning we will be taken on a guided tour of this fascinating town to get to know its history, architecture, and local traditions. Highlights include Piazza Grande and Palazzo dei Consoli and a cable car up to Basilica di Sant’Ubaldo, the town’s cathedral. After lunch, you’ll have the option to walk to the Hermitage of Sant’Ambrogio. The rest afternoon and evening are free.'
         meals_included:
           - breakfast
           - lunch
@@ -146,7 +146,7 @@ page_builder:
       -
         id: dRttPDU-P82DA7eK9yvVs
         title: 'Head south to the Valenerina'
-        description: 'On the way south to the Valnerina, we will stop at Assisi to see its famous 13th century basilica with Giotto’s celebrated frescoes.  We will then be taken on a guided tour of this beautiful town, the home of St Francis, Italy and Europe’s patron saint.  After a light lunch, we will continue on to the Valnerina, stopping to visit gorgeous Spello on the way.   Our accommodation is in an historic hotel in a quaint medieval town on the banks of the Nera River.'
+        description: 'On the way south to the Valnerina, we will stop at Assisi to see its famous 13th century basilica with Giotto’s celebrated frescoes. We will then be taken on a guided tour of this beautiful town, the home of St Francis, Italy and Europe’s patron saint. After a light lunch, we will continue on to the Valnerina, stopping to visit gorgeous Spello on the way. Our accommodation is in an historic hotel in a quaint medieval town on the banks of the Nera River.'
         meals_included:
           - breakfast
           - lunch
@@ -155,7 +155,7 @@ page_builder:
       -
         id: DSEbPuDVys5s-dLV1Yqjy
         title: 'Walk to lunch in an 8th century abbey'
-        description: 'This morning is an easy walk following the Nera River south, combining mountain scenery with medieval villages.  The walk finishes at a magnificent abbey that dates from the 8th century, now a luxury 4-star hotel.  We will have a delicious lunch at the abbey and then be driven back to our accommodation, where the evening is free.'
+        description: 'This morning is an easy walk following the Nera River south, combining mountain scenery with medieval villages. The walk finishes at a magnificent abbey that dates from the 8th century, now a luxury 4-star hotel. We will have a delicious lunch at the abbey and then be driven back to our accommodation, where the evening is free.'
         distance: 11.0
         meals_included:
           - breakfast
@@ -166,7 +166,7 @@ page_builder:
       -
         id: V5y6olGGteTR7aqTsF3FH
         title: 'A cultural and culinary delight'
-        description: 'Today we explore the cultural and culinary traditions of southern Umbria.  Our first stop in Spoleto.  Built on a steep hill with a very long history, Spoleto is one of the most charming towns in Umbria.  After seeing a few gems of the town, we will visit a winery in nearby Montefalco, home of Sagrantino, and the most celebrated wine town in the region.  After a lunch and a wine tasting we head back to base, where the evening is free.'
+        description: 'Today we explore the cultural and culinary traditions of southern Umbria. Our first stop in Spoleto.  Built on a steep hill with a very long history, Spoleto is one of the most charming towns in Umbria.  After seeing a few gems of the town, we will visit a winery in nearby Montefalco, home of Sagrantino, and the most celebrated wine town in the region. After lunch and a wine tasting we head back to base, where the evening is free.'
         meals_included:
           - breakfast
           - lunch
@@ -174,7 +174,7 @@ page_builder:
       -
         id: 7HnpGnYA9oMkxf9wqePAZ
         title: 'A spectacular mountain walk'
-        description: 'Today we will drive up into the wonderful Sibillini Mountains, above the pleasant mountain retreat of Norcia, the home of St Benedict and the largest town in the Valnerina. We will go on a spectacular mountain above the Piano Grande in the heart of the mountains. On the way home, we’ll stop at Norcia for a gelato. Dinner is back at our base.'
+        description: 'Today we will drive up into the wonderful Sibillini Mountains, above the pleasant mountain retreat of Norcia, the home of St Benedict and the largest town in the Valnerina. We will experience a spectacular climb above the Piano Grande in the heart of the mountains. On the way home, we’ll stop at Norcia for a gelato. Dinner is back at our base.'
         meals_included:
           - breakfast
           - lunch
@@ -195,7 +195,7 @@ page_builder:
       -
         id: 0l3nLZ0EbT-jFT0RWNEs5
         title: 'Walk through woods and fields to an ancient town'
-        description: 'This morning we will take a lovely walk through woods and fields to the gorgeous Roman town of Amelia, which follows part of the Cammino of Germanicus, a Roman general who is something of a hero in the town. After a light lunch, we’ll return to our base.  Dinner will be at a nearby restaurant specialising in truffles, mushrooms and roast meats.'
+        description: 'This morning we will take a lovely walk through woods and fields to the gorgeous Roman town of Amelia, which follows part of the Cammino of Germanicus, a Roman general who is something of a hero in the town. After a light lunch, we’ll return to our base. Dinner will be at a nearby restaurant to enjoy local delicacies such as truffles, mushrooms and roast meats.'
         distance: 12.0
         duration: 8.0
         elevation: 360
@@ -392,7 +392,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1789609390
+updated_at: 1790218150
 summary:
   -
     type: paragraph
