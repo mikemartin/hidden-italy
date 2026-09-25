@@ -6,11 +6,11 @@ name: 'Italian Riviera 2'
 region: Liguria
 days: 9
 updated_by: 3
-updated_at: 1780965967
+updated_at: 1790314889
 grade: 3
 inclusions:
   - 'Eight nights accommodation'
-  - 'All breakfasts'
+  - 'Daily breakfasts'
   - 'Reading lists and historical and cultural notes'
   - 'The Hidden Italy booklet with maps and detailed walking instructions'
   - 'The Hidden Italy App with GPS to complement the booklet'

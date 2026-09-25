@@ -5,12 +5,12 @@ title: 'Cinque Terre - Liguria'
 name: 'Cinque Terre'
 region: Liguria
 days: 7
-updated_by: 4
-updated_at: 1790136857
+updated_by: 3
+updated_at: 1790314734
 grade: 3
 inclusions:
   - 'Six nights accommodation'
-  - 'All breakfasts'
+  - 'Daily breakfasts'
   - 'Reading lists, historical and cultural notes'
   - 'The Hidden Italy booklet with maps and detailed walking instructions'
   - 'The Hidden Italy App with GPS to complement the booklet'

@@ -6,12 +6,12 @@ name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 7
 updated_by: 3
-updated_at: 1780965977
+updated_at: 1790314907
 grade: 3
 inclusions:
   - 'Private transfer from Rome to Pitigliano on Day 1'
   - '6 nights accommodation'
-  - 'All breakfasts and one dinner'
+  - 'Daily breakfasts and one dinner'
   - 'Reading lists and historical and cultural notes'
   - 'The Hidden Italy booklet with maps and detailed walking instructions'
   - 'The Hidden Italy App with GPS to complement the booklet'

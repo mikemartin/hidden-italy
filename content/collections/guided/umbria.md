@@ -392,8 +392,8 @@ show_from: true
 seasons: autumn
 locations: central-italy
 simple_likes: 0
-updated_by: 4
-updated_at: 1790312298
+updated_by: 3
+updated_at: 1790314675
 summary:
   -
     type: paragraph
@@ -414,4 +414,5 @@ gallery:
   - guided/spello-6.jpg
   - guided/castelluccio-2.jpg
   - guided/img_7469.jpg
+price: 'A$10,499'
 ---
