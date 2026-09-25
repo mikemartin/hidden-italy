@@ -393,7 +393,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 3
-updated_at: 1790314675
+updated_at: 1790316530
 summary:
   -
     type: paragraph
