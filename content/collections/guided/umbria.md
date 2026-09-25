@@ -392,8 +392,8 @@ show_from: true
 seasons: autumn
 locations: central-italy
 simple_likes: 0
-updated_by: 3
-updated_at: 1790309289
+updated_by: 4
+updated_at: 1790312298
 summary:
   -
     type: paragraph
