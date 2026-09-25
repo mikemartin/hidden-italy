@@ -6,14 +6,14 @@ title: 'Sicily 1: the Madonie Mountains - Sicily'
 name: 'Sicily 1: the Madonie Mountains'
 region: Sicily
 days: 7
-updated_by: 4
-updated_at: 1790146623
+updated_by: 3
+updated_at: 1790314993
 grade: 3
 inclusions:
   - 'Private transfer from Palermo or Catania to Nicosia on Day 1'
   - 'Private transfer back to either Palermo or Catania on Day 7'
   - 'Six nights accommodation'
-  - 'All breakfasts and dinners'
+  - 'Daily breakfasts and dinners'
   - 'Reading lists and historical and cultural notes'
   - 'The Hidden Italy booklet with maps and detailed walking instructions'
   - 'The Hidden Italy App with GPS to complement the booklet'

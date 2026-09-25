@@ -6,12 +6,12 @@ name: 'Tuscany 3'
 region: Tuscany
 days: 5
 updated_by: 3
-updated_at: 1780966108
+updated_at: 1790315066
 grade: 2
 inclusions:
   - 'Private transfer from Florence to San Gimignano on Day 1'
   - 'Four nights accommodation'
-  - 'All breakfasts'
+  - 'Daily breakfasts'
   - 'Daily transfers of baggage between hotels'
   - 'Reading lists and historical and cultural notes'
   - 'The Hidden Italy booklet with maps and detailed walking instructions'

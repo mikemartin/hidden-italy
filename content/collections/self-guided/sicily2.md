@@ -6,14 +6,14 @@ name: 'Sicily 2: the Egadi Islands'
 region: Sicily
 days: 7
 updated_by: 3
-updated_at: 1780966046
+updated_at: 1790315009
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
   - 'Private transfer from Trapani to Lo Zingaro Regional Park on Day 5'
   - 'Private transfer back to Palermo on Day 7'
   - 'Six nights accommodation'
-  - 'All breakfasts'
+  - 'Daily breakfasts'
   - 'All ferry tickets required (from and back to Trapani and around the islands'
   - 'Entrance ticklet to the prehistoric grotto on Levanzo'
   - 'Reading lists, historical and cultural notes'

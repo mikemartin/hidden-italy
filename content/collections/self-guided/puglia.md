@@ -6,13 +6,13 @@ name: 'Puglia: The Gargano Peninsula'
 region: Puglia
 days: 8
 updated_by: 3
-updated_at: 1780966025
+updated_at: 1790314975
 grade: 3
 inclusions:
   - 'Private transfer from Foggia to San Marco on Day 1'
   - 'Private transfer from Vieste to Foggia on Day 8'
   - 'Seven nights accommodation'
-  - 'All breakfasts and 6 dinners'
+  - 'Daily breakfasts and 6 dinners'
   - 'Reading lists and historical and cultural notes'
   - 'The Hidden Italy booklet with maps and detailed walking instructions'
   - 'The Hidden Italy App with GPS to complement the booklet'

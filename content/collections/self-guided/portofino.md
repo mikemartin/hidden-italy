@@ -6,11 +6,11 @@ name: 'Portofino and the Tigullio Gulf'
 region: Liguria
 days: 6
 updated_by: 3
-updated_at: 1780966012
+updated_at: 1790314953
 grade: 1
 inclusions:
   - 'Five nights’ accommodation'
-  - 'All breakfasts'
+  - 'Daily breakfasts'
   - 'Reading lists and historical and cultural notes'
   - 'The Hidden Italy booklet with maps and detailed walking instructions'
   - 'The Hidden Italy App with GPS to complement the booklet'

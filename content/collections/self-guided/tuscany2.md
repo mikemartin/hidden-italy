@@ -6,12 +6,12 @@ name: 'Tuscany 2'
 region: Tuscany
 days: 7
 updated_by: 3
-updated_at: 1780966098
+updated_at: 1790315050
 grade: 3
 inclusions:
   - 'Private transfer from Florence on Day 1 and to Siena on Day 6'
   - 'Six nights accommodation'
-  - 'All breakfasts and one dinner'
+  - 'Daily breakfasts and one dinner'
   - 'Reading lists and historical and cultural notes'
   - 'The Hidden Italy booklet with maps and detailed walking instructions'
   - 'The Hidden Italy App with GPS to complement the booklet'
