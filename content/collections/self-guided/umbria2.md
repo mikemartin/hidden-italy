@@ -6,11 +6,11 @@ name: 'Umbria 2: Cammino of St Francis Part 2'
 region: Umbria
 days: 7
 updated_by: 3
-updated_at: 1780966131
+updated_at: 1790315130
 grade: 4
 inclusions:
   - 'Six nights accommodation'
-  - 'All breakfasts'
+  - 'Daily breakfasts'
   - 'Reading lists and historical and cultural notes'
   - 'The Hidden Italy booklet with maps and detailed walking instructions'
   - 'The Hidden Italy App with GPS to complement the booklet'
