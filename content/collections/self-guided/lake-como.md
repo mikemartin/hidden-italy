@@ -5,8 +5,8 @@ title: 'Lake Como - Lombardy'
 name: 'Lake Como'
 region: Lombardy
 days: 7
-updated_by: 3
-updated_at: 1780965989
+updated_by: 4
+updated_at: 1790308249
 grade: 3
 inclusions:
   - '6 nights accommodation'
@@ -19,7 +19,7 @@ inclusions:
   - 'Daily transfers of baggage between hotels'
   - '24-hour support from our local manager'
   - 'City taxes are not included in the cost of the tour'
-locations: southern-italy
+locations: northern-italy
 landscapes:
   - coastal
 page_builder:
