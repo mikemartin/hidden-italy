@@ -50,7 +50,7 @@ tour_size: 15
 leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 inclusions:
   - '12 nights accommodation in boutique hotels (see the itinerary for details)'
-  - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
+  - 'Breakfast daily, plus lunches, dinners and wine as shown in the itinerary.'
   - 'All transfers and activities during the tours'
   - 'All taxes and service charges at the hotels and restaurants'
   - 'All paid admissions during the tour'
@@ -392,8 +392,8 @@ show_from: true
 seasons: autumn
 locations: central-italy
 simple_likes: 0
-updated_by: 4
-updated_at: 1790306917
+updated_by: 3
+updated_at: 1790309289
 summary:
   -
     type: paragraph
@@ -414,5 +414,4 @@ gallery:
   - guided/spello-6.jpg
   - guided/castelluccio-2.jpg
   - guided/img_7469.jpg
-price: 'A$10,499'
 ---
