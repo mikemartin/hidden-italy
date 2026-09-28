@@ -56,7 +56,7 @@ inclusions:
   - 'All paid admissions during the tour'
   - '7 guided walks'
   - 'Guided sight seeing tours of Gubbio, Assisi, Spoleto and Orvieto'
-  - 'Services of a full-time, professional bi-lingual tour guide'
+  - 'Services of a full-time, professional bi-lingual tour leader'
 page_builder:
   -
     id: S79KwERvxOXW4ik46HYEL
@@ -393,14 +393,14 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 3
-updated_at: 1790316530
+updated_at: 1790567105
 summary:
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Designed and led by Hidden Italy guide Sarah Morgan, who has called Umbria home for fifteen years, this fabulous tour offers an insider’s view of the region. It begins in Gubbio and ends in Orvieto, two of Umbria’s most celebrated towns, with visits in between to some of the region’s hidden gems:\_ Valnerina, the Sibillini National Park, and Amelia, Sarah’s home and one of Umbria’s most fascinating towns."
+        text: "Designed and led by Hidden Italy tour leader Sarah Morgan, who has called Umbria home for fifteen years, this fabulous tour offers an insider’s view of the region. It begins in Gubbio and ends in Orvieto, two of Umbria’s most celebrated towns, with visits in between to some of the region’s hidden gems:\_ Valnerina, the Sibillini National Park, and Amelia, Sarah’s home and one of Umbria’s most fascinating towns."
 gallery:
   - guided/mattia-poli-2yytez6z44e-unsplash.jpg
   - guided/foce-4.jpg
