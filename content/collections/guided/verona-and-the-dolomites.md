@@ -6,7 +6,7 @@ name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: 4
-updated_at: 1790632217
+updated_at: 1790633236
 locations: northern-italy
 grade: 3
 image: guided/verona-and-the-dolomites/-p9192176.jpg
@@ -143,12 +143,11 @@ page_builder:
       -
         id: mlrb71ly
         title: 'Explore Bolzano'
-        description: "Today we drive to Bolzano, the capital of the Alto Adige, a pretty town on a river with a long history and strong Austrian feel. We stop in the hills above Bolzano for a short walk downhill through lovely forests to a cable car, which we’ll take down to Bolzano. After lunch, we will visit one of the highlights of the region: the excellent museum dedicated to Ötzi, the 5000-year-old 'Iceman’ found in 1991, before returning to our valley. Dinner is at our hotel."
+        description: "Today we drive to Bolzano, the capital of the Alto Adige, a pretty town on a river with a long history and strong Austrian feel. We stop in the hills above Bolzano for a short walk downhill through lovely forests to a cable car, which we’ll take down to Bolzano. After lunch, we will visit one of the highlights of the region: the excellent museum dedicated to Ötzi, the 5000-year-old 'Iceman’ found in 1991, before returning to our valley."
         duration: 2.0
         distance: 6.0
         meals_included:
           - breakfast
-          - dinner
         photo: guided/verona-and-the-dolomites/4.jpg
       -
         id: mlrb874i
@@ -169,7 +168,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: guided/verona-and-the-dolomites/39.jpg
+        photo: guided/day-7-dolomites-hotel-mareo.jpg
       -
         id: mlrbbbr6
         title: 'Another walk in the mountains'
@@ -192,7 +191,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        photo: guided/verona-and-the-dolomites/367.jpg
+        photo: guided/verona-and-the-dolomites/day-9-dolomites.jpg
       -
         id: mlrbilht
         title: 'Visit the most magical place in the Dolomites'
@@ -204,7 +203,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: guided/verona-and-the-dolomites/505.jpg
+        photo: guided/verona-and-the-dolomites/day-10-dolomites.jpg
       -
         id: mlrblkbg
         title: "Transfer to Cortina d'Ampezzo"
