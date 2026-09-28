@@ -66,13 +66,15 @@ page_builder:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: 'Strategically placed between Rome and the ports of Puglia, Basilicata has a long and colourful history. It was crossed by the Roman Via Appia; occupied by the Byzantines and Normans; and later traversed by the Via Francigena, which carried pilgrims and traders to the Holy Land. In the 19th century, it became known for its brigands who roamed the uplands resisting Garibaldi’s armies and Italian unification. Today it is a far more peaceful place: well off the tourist trail, with welcoming towns that retain the pace and charm of earlier times.'
     column_right:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: "This 12-night tour begins with three nights in a 4-star hotel in Matera, the region’s star attraction. We then drive west for three nights in a family-run hotel in a fairytale town below the sandstone peaks of the ‘Lucani Dolimites’, before moving to the heart of Pollino the National Park for three nights in a mountain lodge. The tour ends with three nights in a beautiful 4-star hotel with a pool overlooking the Tyrrhenian Sea, followed by transfers to Naples station and airport on the final day.\_Pure southern Italy!"
     images:
       - guided/img_2201.jpeg
@@ -85,27 +87,33 @@ page_builder:
     enabled: true
     show_topography: false
     activities:
-      - id: sBhtndcz7wpXB6i4aU0kR
+      -
+        id: sBhtndcz7wpXB6i4aU0kR
         title: "Discover Italy's most fascinating town"
         summary: 'Matera is absolutely unique.  Spend a day with a local guide unlocking the mysteries of this fascinating UNESCO town.'
         icon: culture-italy.svg
-      - id: RezgZqkCTnivlqqhDjIZb
+      -
+        id: RezgZqkCTnivlqqhDjIZb
         title: 'Stay in a unique hotel in the Sassi'
         summary: "Stay three nights in a beautifully restored, historic hotel in the heart of Matera's celebrated Sassi district"
         icon: culture-champagne.svg
-      - id: Wj73RrKfQG4N51CdrrGbA
+      -
+        id: Wj73RrKfQG4N51CdrrGbA
         title: "Explore two of Italy's most spectacular national parks"
         icon: geography-cartography-rural.svg
         summary: "Local guides take you along the trails of two of Italy's grandest national parks: the Pollino and the Gallipoli-Cognato."
-      - id: be3yfzj6SgiETet5KRbR0
+      -
+        id: be3yfzj6SgiETet5KRbR0
         summary: 'Visiting in autumn means we get to enjoy long balmy days with mild temperatures, and the changing colours of the forests'
         title: 'Enjoy the colours of autumn'
         icon: nature-leaf.svg
-      - id: pwK5yo4MPCYrS2xrAdIXn
+      -
+        id: pwK5yo4MPCYrS2xrAdIXn
         title: 'Enjoy fine southern cooking'
         summary: 'Basilicata cuisine is wholesome home-cooking based on the freshest ingredients: fish, meat, cheese and spring vegetables'
         icon: gastronomy-spaghetti.svg
-      - id: ShfhKkKPFNLPiJpU0fuQ1
+      -
+        id: ShfhKkKPFNLPiJpU0fuQ1
         summary: 'Stay in a beautiful 4-star hotel, high above the ravishing Tyhrrenian coast in gorgeous Maratea, pearl of the south!'
         title: 'Finish in ravishing Maratea'
         icon: nature-beach.svg
@@ -118,7 +126,7 @@ page_builder:
       -
         id: Om5y5FTAtdk95fGc42Xbj
         title: 'Arrive in Matera'
-        description: 'Check-in to your gorgeous hotel in Sassi district, the historic heart of Matera.  After you have unpacked and settled in, you will have a briefing from your tour leader and you will then be taken to dinner in one of the excellent nearby restaurants.'
+        description: 'Check-in to your gorgeous hotel in Sassi district, the historic heart of Matera. After you have unpacked and settled in, you will have a briefing from your tour leader and you will then be taken to dinner at one of the excellent nearby restaurants.'
         meals_included:
           - dinner
         photo: guided/102.jpg
@@ -265,7 +273,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "The walks on this tour follow well marked and well-maintained trails.  They vary in distance from 5 to 15 kilometres.  As we are walking mostly in national parks, there are some long climbs but they aren't steep and we have plenty of time."
         image: guided/img_5183.jpeg
       -
@@ -277,7 +286,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "The accommodation is one of the highlights of this tour.  We start and finish the tours staying in very nice 4-star hotels.  In Matera the hotel is an exceptional 'albergo diffuso' using very carefully restored historical spaces.  In Maratea the accommodation is in a beautifully restored 15th century convent (with a swimming pool and gardens).  In between we stay at a very welcoming family-run 3-star hotel and a very comfortable mountain lodge in the heart of the Pollino NP.  Both have celebrated restaurants!"
         media:
           - guided/110.jpg
@@ -290,12 +300,14 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "Food, of course, is also a highlight travelling anywhere in Italy, but particularly in the south.  In Basilicata, the cooking is generally very wholesome home-cooking, derived from a long tradition of the 'cucina povera'.  It is based on very fresh season ingredients: fruit and vegetables from the gardens; fresh fish on the coast; and fresh pastas (paricularly ravioli), cheeses and preserved meats in the mountains.  Peperone crusco is the signature dish, sun-dried red peppers that garnish many offering!"
         media:
           - guided/107.jpeg
     show_topography: true
-  - id: Q8teFUrQd_KaHrdLR1Myv
+  -
+    id: Q8teFUrQd_KaHrdLR1Myv
     title: 'Tour Leader'
     section_background: none
     type: leader
@@ -313,7 +325,8 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
         type: equipment
         enabled: true
@@ -323,17 +336,20 @@ page_builder:
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'To secure a booking a deposit of 25% of the total value of the booking is required on receipt of invoice. Bookings are cancelled automatically if payment is not received within 7 days from date of invoice date. '
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Deposits are refunded in the event of customer cancellations less a fee of $750 per person per tour (the cancellation fee is non-refundable and non-transferable) plus any non-refundable booking fees or third-party costs if applicable. Final payment is required 60 days before the first day of the tour. '
           -
             type: paragraph
             content:
-              - type: text
+              -
+                type: text
                 text: 'Bookings within 60 days of the first day of the tour require full payment on receipt of invoice.'
         type: booking_cancellation
         enabled: true
@@ -346,19 +362,23 @@ page_builder:
               -
                 type: text
                 marks:
-                  - type: bold
+                  -
+                    type: bold
                 text: 'Travel insurance is very strongly recommended on all of our international & domestic tours'
-              - type: text
+              -
+                type: text
                 text: '. It is you responsibility to obtain the insurance and your insurance should provide cover against personal accident and sickness, medical expenses, emergency repatriation and personal liability. We also recommend that the policy covers cancellation, curtailment and loss/theft of luggage and personal effects. Hidden Walks Pty Ltd cannot be held responsible where travel insurance has not been obtained or for insufficient cover for any loss(es).'
         type: travel_insurance
         enabled: true
-  - id: Z4_cu9r-ejovrn4HreT7U
+  -
+    id: Z4_cu9r-ejovrn4HreT7U
     heading: 'Frequently asked questions'
     show_common_questions: true
     section_background: none
     type: faqs
     enabled: true
-  - id: SVpmWTDVRUI9wppoEPHT1
+  -
+    id: SVpmWTDVRUI9wppoEPHT1
     section_background: light
     hide_from_subnav: true
     type: walking_benefits
@@ -373,8 +393,8 @@ show_from: true
 seasons: autumn
 locations: southern-italy
 simple_likes: 0
-updated_by: 2
-updated_at: 1786660460
+updated_by: 4
+updated_at: 1790579591
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
@@ -383,8 +403,9 @@ summary:
   -
     type: paragraph
     content:
-      - type: text
-        text: "Basilicata is one of Italy’s least-explored regions. This dramatic land of rocks, mountains, forests and upland meadows spans the ‘instep’ of Italy’s ‘boot’, with short coastlines on both the Tyrrhenian and Ionian Seas. It is home to two of Italy’s most striking national parks: the Pollino National Park, with its limestone mountains, beech and pine forests; and the sandstone peaks of the ‘Lucani Dolomites’ in Gallipoli-Cognato National Park; as well as some of southern Italy’s most fascinating towns.\_Going in autumn means we get mild temperatures, miss the crowds, have long balmy days, and get to enjoy the changing colours of the forests.  A Hidden Italy special!"
+      -
+        type: text
+        text: "Basilicata is one of Italy’s least-explored regions. This dramatic land of rocks, mountains, forests and upland meadows spans the ‘instep’ of Italy’s ‘boot’, with short coastlines on both the Tyrrhenian and Ionian Seas. It is home to two of Italy’s most striking national parks: the Pollino National Park, with its limestone mountains, beech and pine forests; and the sandstone peaks of the ‘Lucani Dolomites’ in Gallipoli-Cognato National Park; as well as some of southern Italy’s most fascinating towns.\_Going in autumn means we get mild temperatures, miss the crowds, have long balmy days, and get to enjoy the changing colours of the forests. A Hidden Italy special!"
 gallery:
   - guided/101.jpeg
   - guided/102.jpg
