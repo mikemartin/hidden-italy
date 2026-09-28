@@ -47,7 +47,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'This limited-time launch offer is a thank-you for discovering this special itinerary with us.'
+            text: 'Thank you for discovering this special itinerary with us.'
       -
         type: paragraph
         content:
@@ -231,7 +231,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: waterfall-1.webp
 updated_by: 4
-updated_at: 1790571442
+updated_at: 1790571559
 headline: 'PAMPER YOURSELF ON US'
 description: 'The perfect way to end our Umbria 2027 Guided Tour, with a €300 Spa Treatment.'
 og_image: special-offer-og-1788230053.png
