@@ -1,6 +1,5 @@
 ---
 id: d6f09fcd-1bd0-4830-bbff-4630b510af97
-published: false
 blueprint: page
 title: 'Spa Offer'
 header_variant: large
@@ -230,8 +229,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: waterfall-1.webp
-updated_by: 3
-updated_at: 1790572770
+updated_by: 4
+updated_at: 1790581645
 headline: 'PAMPER YOURSELF ON US'
 description: 'The perfect way to end our Umbria 2027 Guided Tour, with a €300 Spa Treatment of your choice.'
 og_image: special-offer-og-1788230053.png
