@@ -6,7 +6,7 @@ name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: 4
-updated_at: 1790216864
+updated_at: 1790632217
 locations: northern-italy
 grade: 3
 image: guided/verona-and-the-dolomites/-p9192176.jpg
@@ -131,14 +131,15 @@ page_builder:
       -
         id: mlrb55m6
         title: 'Meet the Dolomites'
-        description: 'Our first walk in the mountains is a spectacular introduction to the Dolomites. We travel to the top of the northern side of the valley (2,500 metres) from where you have breathtaking 360 degree views over the whole mountain range, stretching to the horizon on all sides. From here we take a good path across and down through alpine pastures to a mountain lodge for lunch. After lunch we continue downhill back to our base.'
-        duration: 4.5
-        distance: 12.0
-        elevation: 164
+        description: "Our first walk is a spectacular introduction to the Dolomites with a cable car ride up the southern side of the valley (2,000 metres) from where we walk across the beautiful rolling pastures, across a vast undulating amphitheatre of alpine meadows surrounded by some of the most spectacular ranges in the area.\_ After a packed lunch, we continue under soaring cliffs back to the hotel."
+        duration: 4.0
+        distance: 14.0
+        elevation: 468
         meals_included:
           - breakfast
+          - lunch
           - dinner
-        photo: guided/verona-and-the-dolomites/p9171981.jpg
+        photo: guided/verona-and-the-dolomites/3.9.jpg
       -
         id: mlrb71ly
         title: 'Explore Bolzano'
@@ -152,15 +153,14 @@ page_builder:
       -
         id: mlrb874i
         title: 'Walk the high plains'
-        description: 'The walk today starts with another cable car ride, this time up the southern side of the valley (2,000 metres) from where we walk across the beautiful rolling pastures, across a vast undulating amphitheatre of alpine meadows surrounded by some of the most spectacular ranges in the area. After a packed lunch, we continue under soaring cliffs, where we get a lift back to the hotel. For those more energetic, there is an option of following a trail back to the hotel. (4kms)'
-        duration: 4.0
-        distance: 13.0
-        elevation: 468
+        description: "Today's walk in the mountains starts with another cable car ride. We travel to the top of the northern side of the valley (2,500 metres) from where you have breathtaking 360 degree views over the whole mountain range, stretching to the horizon on all sides. From here we take a good path across and down through alpine pastures to a mountain lodge for lunch. After lunch we continue downhill back to our base."
+        duration: 3.5
+        distance: 10.0
+        elevation: 164
         meals_included:
           - breakfast
-          - lunch
           - dinner
-        photo: guided/verona-and-the-dolomites/3.9.jpg
+        photo: guided/verona-and-the-dolomites/p9171981.jpg
       -
         id: mlrba04p
         title: 'Transfer to the Val Badia'
