@@ -7,7 +7,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: 4
-updated_at: 1790154362
+updated_at: 1790634139
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
@@ -151,7 +151,7 @@ page_builder:
       -
         id: mlpyuve7
         title: 'Explore the island'
-        description: "This morning we walk from the village across the northern tip of the island, following a winding trail that takes us down to a tiny bay.  On our way back to town, we visit the island's only winery, where we'll have a light lunch while tasting some of our hosts' fine wines. After lunch, you’ll have the option of getting a lift or continuing back to town on foot. In the evening we will have an alfresco dinner at the town’s best restaurant."
+        description: "This morning we walk from the village across the northern tip of the island, arriving at the cliffs overlooking a spectacular little bay. On our way back to town, we visit the island's only winery, where we'll have a light lunch while tasting some of our hosts' fine wines. After lunch, you’ll have the option of getting a lift or continuing back to town on foot. In the evening we will have an alfresco dinner at the town’s best restaurant."
         duration: 3.0
         distance: 9.0
         elevation: 229
@@ -159,7 +159,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        photo: guided/sardinia-in-the-spring/caprera-1.jpg
+        photo: guided/sardinia-in-the-spring/day-5-sardinia.jpg
       -
         id: mlpyzzky
         title: 'Drive into the mountains'
@@ -205,7 +205,7 @@ page_builder:
       -
         id: mlpzfc6o
         title: 'Head for Golfo Aranci'
-        description: 'This morning we leave the mountains behind us and head north towards the one of the most celebrated bits of coastline in Europe, Costa Smeralda, driving to our base for the next three days. Our accommodation is in a charming 4-star hotel in the Golfo Aranci, we will have dinner here this night.'
+        description: 'This morning we leave the mountains behind us and head north towards the one of the most celebrated bits of coastline in Europe, Costa Smeralda, driving to our base for the next three days. Our accommodation is in a charming 4-star hotel in the Golfo Aranci on the beach. We will have dinner here this night.'
         meals_included:
           - breakfast
           - dinner
@@ -213,7 +213,7 @@ page_builder:
       -
         id: mlpzmp2f
         title: 'Walk along the coastline'
-        description: "Today we will be walking along the coastline towards Capo Figari, the northeastern tip of the Island where we'll take a loop walk that starts and finishes at Golfo Aranci, a lovely coastal town. Our walk takes us along coastal and valley paths with scenic views, with time for a swim in the bay."
+        description: "Today we will be walking along the coastline towards Capo Figari, the northeastern tip of the Island where we'll take a loop walk that starts and finishes at our hotel in Golfo Aranci, a lovely coastal town. Our walk takes us along coastal and valley paths with scenic views, with time for a swim in the bay."
         duration: 2.5
         distance: 7.0
         elevation: 150
