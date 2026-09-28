@@ -145,7 +145,7 @@ page_builder:
       -
         id: dRttPDU-P82DA7eK9yvVs
         title: 'Head south to the Valenerina'
-        description: 'On the way south to the Valnerina, we will stop at Assisi to see its famous 13th century basilica with Giotto’s celebrated frescoes. We will then be taken on a guided tour of this beautiful town, the home of St Francis, Italy and Europe’s patron saint. After a light lunch, we will continue on to the Valnerina, stopping to visit gorgeous Spello on the way. Our accommodation is in an historic hotel in a quaint medieval town on the banks of the Nera River.'
+        description: 'On the way south to the Valnerina, we will stop at Assisi to see its famous 13th century basilica with Giotto’s celebrated frescoes. We will then explore the home of St Francis, Italy and Europe’s patron saint. After a light lunch, we will continue on to the Valnerina, stopping to visit gorgeous Spello on the way. Our accommodation is in an historic hotel in a quaint medieval town on the banks of the Nera River.'
         meals_included:
           - breakfast
           - lunch
@@ -392,7 +392,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1790581524
+updated_at: 1790592582
 summary:
   -
     type: paragraph
