@@ -394,7 +394,7 @@ seasons: autumn
 locations: southern-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1790579591
+updated_at: 1790580737
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/img_3527.jpeg
