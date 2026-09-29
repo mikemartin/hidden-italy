@@ -34,7 +34,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Choose from a range of experiences including Massages, Body or facial treatments, and more…'
+            text: 'Choose from a range of experiences including massages, body or facial treatments, and more…'
       -
         type: paragraph
         content:
@@ -138,7 +138,16 @@ page_builder:
                     content:
                       -
                         type: text
-                        text: 'The offer provides a €150 spa voucher per person.'
+                        text: 'The offer provides a €150 spa voucher per person for use at FANVM at the final hotel of the itinerary only.'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'The spa treatments are subject to availability.'
               -
                 type: listItem
                 content:
@@ -156,16 +165,7 @@ page_builder:
                     content:
                       -
                         type: text
-                        text: 'The voucher is valid for 6 months from the issue date.'
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'The voucher is valid for use on spa treatments at the final hotel of the itinerary only and is subject to availability.'
+                        text: 'The voucher is valid for 6 months from the date of issue.'
               -
                 type: listItem
                 content:
@@ -184,15 +184,6 @@ page_builder:
                       -
                         type: text
                         text: 'This offer is not valid in conjunction with any other promotion, discount, or gift card.'
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'The spa voucher will be forfeited if the booking is cancelled or significantly amended.'
               -
                 type: listItem
                 content:
@@ -230,7 +221,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: waterfall-1.webp
 updated_by: 4
-updated_at: 1790650848
+updated_at: 1790651369
 headline: 'PAMPER YOURSELF ON US'
 description: 'The perfect way to end our Umbria 2027 Guided Tour, with a €150 per person Spa Treatment of your choice.'
 og_image: special-offer-og-1788230053.png
