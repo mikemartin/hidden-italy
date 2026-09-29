@@ -25,10 +25,10 @@ page_builder:
             marks:
               -
                 type: bold
-            text: ' €300 spa voucher per couple'
+            text: ' €150 per person spa voucher '
           -
             type: text
-            text: ' to be used at the final hotel of your journey.'
+            text: 'to be used at the final hotel on your tour.'
       -
         type: paragraph
         content:
@@ -138,7 +138,7 @@ page_builder:
                     content:
                       -
                         type: text
-                        text: 'The offer provides a €300 spa voucher per couple (based on twin-share occupancy).'
+                        text: 'The offer provides a €150 spa voucher per person.'
               -
                 type: listItem
                 content:
@@ -147,7 +147,7 @@ page_builder:
                     content:
                       -
                         type: text
-                        text: 'The spa voucher is issued only after full and final payment has been received.'
+                        text: 'The spa voucher is issued only after full and final payment for your tour has been received.'
               -
                 type: listItem
                 content:
@@ -230,9 +230,9 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: waterfall-1.webp
 updated_by: 4
-updated_at: 1790581645
+updated_at: 1790650848
 headline: 'PAMPER YOURSELF ON US'
-description: 'The perfect way to end our Umbria 2027 Guided Tour, with a €300 Spa Treatment of your choice.'
+description: 'The perfect way to end our Umbria 2027 Guided Tour, with a €150 per person Spa Treatment of your choice.'
 og_image: special-offer-og-1788230053.png
 duplicated_from: a75d1779-a1ed-44a5-a997-e950a195e9a9
 ---
