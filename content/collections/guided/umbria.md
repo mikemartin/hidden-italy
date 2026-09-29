@@ -76,7 +76,7 @@ page_builder:
         content:
           -
             type: text
-            text: "Taking you well off the beaten paths, this tour will introduce you to a side of Umbria only a local can share. \_It starts with two nights in a centrally located, 4-star hotel in Gubbio, and includes a guided tour of this fascinating town.\_ From here we go off-the-beaten track to ‘the most beautiful part of Umbria’, the wild Nera valley, where we’ll be based in an ‘albergo diffuso’ in a small, historic village on the river. The next stop is a 4-star hotel set beautifully restored monastery, with a pool and surrounded by gardens outside Amelia. \_The grand finale is two nights in an historic 4-star hotel two steps from Orvieto’s famous cathedral."
+            text: "Taking you well off the beaten path, this tour will introduce you to a side of Umbria only a local can share. It starts with two nights in a centrally located, 4-star hotel in Gubbio, and includes a guided tour of this fascinating town. From here we go off-the-beaten track to ‘the most beautiful part of Umbria’, the wild Nera Valley, where we’ll be based in an ‘albergo diffuso’ in a small, historic village on the river. The next stop is a 4-star hotel set in a beautifully restored monastery, with a pool and surrounded by gardens outside Amelia.\_The grand finale is two nights in an historic 4-star hotel two steps from Orvieto’s famous cathedral."
     images:
       - guided/monasterio-1.jpg
       - guided/castelluccio-7.jpg
@@ -392,7 +392,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1790645767
+updated_at: 1790646415
 summary:
   -
     type: paragraph
