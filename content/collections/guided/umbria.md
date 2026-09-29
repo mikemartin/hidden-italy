@@ -69,7 +69,7 @@ page_builder:
         content:
           -
             type: text
-            text: "Often referred to as the ‘green heart of Italy’, Umbria is a beautiful, unspoilt, landlocked region of rolling hills, woods, streams and valleys.\_ Within its borders are a dozen or so classic hill-towns, each resolutely individual and crammed with artistic and architectural treasures that frequently rival bigger and more famous cities.\_ To the east, pastoral countryside gives way to more rugged scenery, none better than the dramatic twists and turns of the Nera River valley and the high mountain landscapes of the Parco Nazionale dei Monti Sibillini.\_ Designed and led by Sarah Morgan, this journey reflects her deep passion for showcasing her home region."
+            text: "Often referred to as the ‘green heart of Italy’, Umbria is a beautiful, unspoilt, landlocked region of rolling hills, woods, streams and valleys.\_Within its borders are a dozen or so classic hill-towns, each resolutely individual and crammed with artistic and architectural treasures that frequently rival bigger and more famous cities.\_To the east, pastoral countryside gives way to more rugged scenery, none better than the dramatic twists and turns of the Nera River valley and the high mountain landscapes of the Parco Nazionale dei Monti Sibillini.\_Designed and led by Sarah Morgan, this journey reflects her deep passion for showcasing her home region."
     column_right:
       -
         type: paragraph
@@ -392,14 +392,14 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1790630741
+updated_at: 1790645767
 summary:
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Designed and led by Hidden Italy tour leader Sarah Morgan, who has called Umbria home for fifteen years, this fabulous tour offers an insider’s view of the region. It begins in Gubbio and ends in Orvieto, two of Umbria’s most celebrated towns, with visits in between to some of the region’s hidden gems:\_ Valnerina, the Sibillini National Park, and Amelia, Sarah’s home and one of Umbria’s most fascinating towns."
+        text: "Designed and led by Hidden Italy tour leader Sarah Morgan, who has called Umbria home for fifteen years, this fabulous tour offers an insider’s view of the region. It begins in Gubbio and ends in Orvieto, two of Umbria’s most celebrated towns, with visits in between to some of the region’s hidden gems:\_Valnerina, the Sibillini National Park, and Amelia, Sarah’s home and one of Umbria’s most fascinating towns."
 gallery:
   - guided/mattia-poli-2yytez6z44e-unsplash.jpg
   - guided/foce-4.jpg
