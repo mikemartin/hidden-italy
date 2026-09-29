@@ -54,7 +54,7 @@ inclusions:
   - 'All taxes and service charges at the hotels and restaurants'
   - 'All paid admissions during the tour'
   - '4 guided walks'
-  - 'Guided sight seeing tours of Gubbio, Assisi and Orvieto'
+  - 'Guided sight seeing tours of Gubbio, Assisi, Spoleto and Orvieto'
   - 'Services of a full-time, professional bi-lingual tour leader'
 page_builder:
   -
@@ -392,7 +392,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1790646415
+updated_at: 1790653569
 summary:
   -
     type: paragraph
