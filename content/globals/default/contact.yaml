@@ -6,14 +6,14 @@ phones:
   -
     id: phone_guided
     type: phone
-    enabled: true
+    enabled: false
     label: 'Guided Tours'
     number: '+61 457 427 472'
   -
     id: phone_self_guided
     type: phone
     enabled: true
-    label: 'Self-guided Tours'
+    label: 'Guided and Self-guided Tours'
     number: '+61 420 981 435'
 office_label: 'Sydney Office'
 office_appointment_only: 'By appointment only'
