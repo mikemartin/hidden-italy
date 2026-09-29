@@ -138,7 +138,7 @@ page_builder:
                     content:
                       -
                         type: text
-                        text: 'The offer provides a €150 spa voucher per person for use at FANVM at the final hotel of the itinerary only.'
+                        text: 'The offer includes a €150 per person spa voucher redeemable exclusively at FANVM spa at the EMME hotel only.'
               -
                 type: listItem
                 content:
@@ -221,7 +221,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: waterfall-1.webp
 updated_by: 4
-updated_at: 1790651369
+updated_at: 1790651591
 headline: 'PAMPER YOURSELF ON US'
 description: 'The perfect way to end our Umbria 2027 Guided Tour, with a €150 per person Spa Treatment of your choice.'
 og_image: special-offer-og-1788230053.png
