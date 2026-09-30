@@ -6,7 +6,7 @@ name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: 4
-updated_at: 1790739630
+updated_at: 1790753262
 locations: northern-italy
 grade: 3
 image: guided/verona-and-the-dolomites/-p9192176.jpg
@@ -131,9 +131,12 @@ page_builder:
       -
         id: mlrb55m6
         title: 'Meet the Dolomites'
-        description: "Our first walk is a spectacular introduction to the Dolomites with a cable car ride up the southern side of the valley (2,000 metres) from where we walk across the beautiful rolling pastures, across a vast undulating amphitheatre of alpine meadows surrounded by some of the most spectacular ranges in the area.\_ After a packed lunch, we continue under soaring cliffs back to the hotel."
+        description: |-
+          Today's walk is a wonderful introduction to the Dolomites with a cable car ride up the southern side of the valley (2,000 metres)from where we walk across the beautiful rolling pastures, a vast undulating amphitheatre of alpine meadows surrounded by some of the most spectacular ranges in the area. After a picnic lunch, we continue under soaring cliffs, where we get a lift back to the hotel.
+
+          For the energetic, there is the option of following a trail down through forest, into the valley to our base(4 kms).
         duration: 4.0
-        distance: 14.0
+        distance: 13.0
         elevation: 468
         meals_included:
           - breakfast
