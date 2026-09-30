@@ -6,7 +6,7 @@ name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: 4
-updated_at: 1790633507
+updated_at: 1790739630
 locations: northern-italy
 grade: 3
 image: guided/verona-and-the-dolomites/-p9192176.jpg
@@ -148,6 +148,7 @@ page_builder:
         distance: 6.0
         meals_included:
           - breakfast
+          - dinner
         photo: guided/verona-and-the-dolomites/4.jpg
       -
         id: mlrb874i
@@ -172,7 +173,7 @@ page_builder:
       -
         id: mlrbbbr6
         title: 'Another walk in the mountains'
-        description: 'Today we get a lift up to the southern side of the valley, walking along a trail that takes us through pine forests, into the neighbouring valley, stopping for a packed lunch on the way. On the way down, we pass clusters of ancient timber farmhouses and barns that have survived from another era. After our walk, we will be driven back to our base, stopping to visit a recently restored 14th century castle with a fine ethnographic museum. Dinner back at base.'
+        description: 'Today we get a lift up to the southern side of the valley, walking along a trail that takes us through pine forests, into the neighbouring valley, stopping for a packed lunch on the way. On the way down, we pass clusters of ancient timber farmhouses and barns that have survived from another era. After our walk, we will be driven back to our base, stopping to visit a recently restored 14th century castle with a fine ethnographic museum. Dinner back at our hotel.'
         duration: 3.0
         distance: 9.0
         elevation: 400
