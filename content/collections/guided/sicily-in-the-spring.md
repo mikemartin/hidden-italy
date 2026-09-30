@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: 4
-updated_at: 1790228364
+updated_at: 1790740780
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -134,7 +134,7 @@ page_builder:
       -
         id: ysEtAW5lQJTqXlSE064rQ
         title: 'Transfer to the mountains'
-        description: "From the bustle and intensity of Sicily's largest city, we drive into the mountainous interior to the green tranquillity of the island's second largest national park. On the way we will visit the dazzling medieval cathedral of Monreale, perched high above Palermo, and then stop at Cefalu, a lovely seaside resort for lunch. Our base for the next four nights will be in a traditional and wonderfully restored historical property with all the comforts. We'll have dinner in a nearby restaurant."
+        description: "From the bustle and intensity of Sicily's largest city, we drive into the mountainous interior to the green tranquillity of the island's second largest national park. On the way, we will visit the lovely seaside resortof Cefalu. Our base for the next four nights will be in a traditional and wonderfully restored historical property with all the comforts. We'll have dinner in a nearby restaurant."
         meals_included:
           - breakfast
           - lunch
