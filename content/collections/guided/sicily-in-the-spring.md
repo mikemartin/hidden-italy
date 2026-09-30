@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: 4
-updated_at: 1790740780
+updated_at: 1790741370
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -122,7 +122,7 @@ page_builder:
         description: "Our Sicily tour starts in Palermo, the capital of Sicily, which is pressed between the mountains and the sea, a striking setting for what must be one of the most exotic cities in Europe. Its architecture and culture reflect the extraordinarily rich fabric of its past. Our accommodation for the first two nights is in an elegant hotel in the lively commercial centre of Palermo. We'll meet in the hotel foyer at 19.00 and have a light dinner in a neighbouring restaurant."
         meals_included:
           - dinner
-        photo: guided/sicily-in-the-spring/04.2.jpg
+        photo: guided/sicily-in-the-spring/29.jpg
       -
         id: YLkYj4_LvvpA8FQtJRa-C
         title: 'Explore Palermo'
@@ -150,7 +150,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        photo: guided/sicily-in-the-spring/24.5.jpg
+        photo: guided/sicily-in-the-spring/day-4-sicily.jpg
       -
         id: EymXPLYKFOpoqp-arNVIS
         title: 'Visit an an ancient Roman villa'
@@ -254,7 +254,7 @@ page_builder:
         description: 'After breakfast, we leave our hotel at 8.00am and transfer to Catania, which has an international airport and rail connections to the mainland (the train is ferried across the Straits of Messina) and to the rest of Europe. If required, we can also organise transfers back to Palermo.'
         meals_included:
           - breakfast
-        photo: guided/sicily-in-the-spring/65.jpg
+        photo: guided/sicily-in-the-spring/sicily-day-13.jpg
     type: itinerary
     enabled: true
     section_background: none
