@@ -7,7 +7,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: 4
-updated_at: 1790740641
+updated_at: 1790753834
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
@@ -121,7 +121,7 @@ page_builder:
       -
         id: mlpym850
         title: 'Explore Cagliari'
-        description: 'We will be taken on a walk through the historical centre of Cagliari with tour leader Gabriela, including a visit to its extraordinary archaeological museum and finishing with a light lunch on the bastions with spectacular views over the city and the surrounding coast. The evening is free.'
+        description: 'We will be taken on a walk through the historical centre of Cagliari by tour leader Gabriela, including a visit to its extraordinary archaeological museum and finishing with a light lunch on the bastions with spectacular views over the city and the surrounding coast. The evening is free.'
         meals_included:
           - breakfast
           - lunch
@@ -205,7 +205,7 @@ page_builder:
       -
         id: mlpzfc6o
         title: 'Head for Golfo Aranci'
-        description: 'This morning we leave the mountains behind us and head north towards one of the most celebrated bits of coastline in Europe, Costa Smeralda on the Emerald Coast, driving to our base for the next three days. Our accommodation is in a charming 4-star hotel located directly on the beach in the lovely coastal town of Golfo Aranci. We will have dinner here this night.'
+        description: 'This morning we leave the mountains behind us and head north towards one of the most celebrated bits of coastline in Europe, Costa Smeralda, the Emerald Coast, driving to our base for the next three days. Our accommodation is in a charming 4-star hotel located directly on the beach in the lovely coastal town of Golfo Aranci. We will have dinner here this night.'
         meals_included:
           - breakfast
           - dinner
@@ -213,7 +213,7 @@ page_builder:
       -
         id: mlpzmp2f
         title: 'Walk along the coastline'
-        description: "Today we will be walking along the coastline towards Capo Figari, the northeastern tip of the Island where we'll take a loop walk that starts and finishes at our hotel in Golfo Aranci, a lovely coastal town. Our walk takes us along coastal and valley paths with scenic views, with time for a swim in the bay. Dinner tonight is at our hotel."
+        description: "Today we will be walking along the coastline towards Capo Figari, the northeastern tip of the Island where we'll take a loop walk that starts and finishes at our hotel in Golfo Aranci. Our walk takes us along coastal and valley paths with scenic views, with time for a swim in the bay. Dinner tonight is at our hotel."
         duration: 2.5
         distance: 7.0
         elevation: 150
