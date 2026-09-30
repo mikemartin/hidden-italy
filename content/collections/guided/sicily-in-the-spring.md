@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: 4
-updated_at: 1790741370
+updated_at: 1790741623
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -143,22 +143,22 @@ page_builder:
       -
         id: GZDLxY0mZk-PQrOwEsWlO
         title: 'Walk in the mountains'
-        description: "The first walk of the tour takes us into the heart of the Madonie National Natural Park. It is a beautiful high mountain walk finishing in a small fortified town, perched on the edge of the park, that was the original seat of the area's feudal lords. After a light lunch, we'll explore this beautifully situated town before returning to our base, with the evening free."
+        description: "The first walk of the tour takes us into the heart of the Madonie National Natural Park. It is a beautiful high mountain walk finishing in a small fortified town, perched on the edge of the park, that was the original seat of the area's feudal lords. After a light lunch, we'll explore this beautifully situated town before returning to our base."
         duration: 4.0
         distance: 13.0
         elevation: 455
         meals_included:
           - breakfast
           - lunch
+          - dinner
         photo: guided/sicily-in-the-spring/day-4-sicily.jpg
       -
         id: EymXPLYKFOpoqp-arNVIS
         title: 'Visit an an ancient Roman villa'
-        description: "This morning we head south to visit Piazza Armerina, the extraordinary villa at Casale, the most important relic of the Roman era in Sicily, unique for both the size and the richness of the polychrome floor mosaics.  Before the visit, we'll stop for a delicious light lunch.  After the visit, we’ll drive back to our base, where the rest of the afternoon is free before dinner."
+        description: "This morning we head south to visit Piazza Armerina, the extraordinary villa at Casale, the most important relic of the Roman era in Sicily, unique for both the size and the richness of the polychrome floor mosaics.  Before the visit, we'll stop for a delicious light lunch.  After the visit, we’ll drive back to our base, where the rest of the afternoon and evening is free."
         meals_included:
           - breakfast
           - lunch
-          - dinner
         photo: guided/sicily-in-the-spring/27.5.jpg
       -
         id: aR55SmJ_TrUEhTa-OcU7g
