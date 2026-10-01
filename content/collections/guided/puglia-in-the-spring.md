@@ -6,7 +6,7 @@ name: 'Puglia in the Spring'
 region: Puglia
 days: 13
 updated_by: 4
-updated_at: 1789374633
+updated_at: 1790823212
 grade: 2
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -111,7 +111,7 @@ page_builder:
       -
         id: mloqy5ed
         title: 'Transfer to the coast'
-        description: "This morning we leave Lecce and head for Otranto.  On the way, we visit Puglia's oldest national park, for a lovely walk along the Ionian Sea, where we'll have a light lunch. Our base for the next four nights is a perfectly preserved medieval port tucked behind 15th century Spanish walls above an idyllic harbour. Our accommodation is in a 5-star boutique hotel set in a 14th-century palazzo inside the town's bastions.  We'll have dinner together in one of our favourite restaurants in town."
+        description: "This morning we leave Lecce and head for Otranto. On the way, we visit Puglia's oldest national park for a lovely walk along the Ionian Sea, where we'll have a light lunch. Our accommodation for the next four nights is a perfectly preserved medieval port tucked behind 15th century Spanish walls above an idyllic harbour. We'll have dinner together in one of our favourite restaurants in town."
         duration: 2.0
         distance: 6.0
         elevation: 229
@@ -134,7 +134,7 @@ page_builder:
       -
         id: mlor10w3
         title: 'Go sailing'
-        description: "Today is a lazy day, taking two sailing boats to head down the Adriatic Coast to a small bay where we'll anchor and have a picnic lunch served on the boats. There will be plenty of chances to swim in the blue Mediterranean water.  We'll return to our bases later in the afternoon, where the rest of the afternoon is free.  We’ll regroup in the evening for a lovely fish dinner in the town's best restaurant. The female chef is well-known in Puglia for her excellence and innovation."
+        description: "Today is a lazy day, taking two sailing boats to head down the Adriatic Coast to a small bay where we'll anchor and have a picnic lunch served on the boats. There will be plenty of chances to swim in the blue Mediterranean water. We'll return to our bases later in the afternoon where the rest of the afternoon is free. We’ll regroup in the evening for a lovely fish dinner in the town's best restaurant."
         meals_included:
           - breakfast
           - lunch
@@ -154,7 +154,7 @@ page_builder:
       -
         id: mlor3ri3
         title: 'Visit a vineyard and stay in a masseria'
-        description: 'This morning we leave the austere beauty of the Salento and head north to the Itria Valley in central Puglia.  On the way we will visit a family-run winery, which produces the celebrated ‘primitivo’, Puglia’s classic red wine. We will enjoy a wine tasting and then a light lunch. Our base for the next four nights is a beautiful hotel dating back to 1790, when the estate was founded by the Benedictine nuns. It features beautiful gardens and a swimming pool. Dinner is at our hotel.'
+        description: 'This morning we leave the austere beauty of the Salento and head north to the Itria Valley in central Puglia. On the way we will visit a family-run winery, which produces the celebrated ‘primitivo’, Puglia’s classic red wine. We will enjoy a wine tasting and then a light lunch. Our base for the next four nights is a beautiful hotel dating back to 1790, when the estate was founded by the Benedictine nuns of of St. Joseph of Monopoli. It features beautiful gardens and a swimming pool.'
         meals_included:
           - breakfast
           - lunch
@@ -163,10 +163,10 @@ page_builder:
       -
         id: mlor6aar
         title: 'Walk through forest and orchards'
-        description: "Today we enjoy a beautiful walk leaving our base along country lanes, walking through olive groves, orchards and oak forests before picking up an ancient stone path that takes us through hamlets and villages. After a very special lunch based on homegrown produce, we will head back by bus to relax at our base.  In the evening, we'll go out for dinner at a nearby restaurant."
-        duration: 4.0
+        description: "Today we enjoy a beautiful walk leaving our base along country lanes, walking through olive groves, orchards and oak forests before picking up an ancient stone path that takes us through hamlets and villages. After a very special lunch based on homegrown produce, we will head back by bus to relax at our base. In the evening, we'll go out for dinner at a nearby restaurant."
+        duration: 3.0
         distance: 10.0
-        elevation: 160
+        elevation: 150
         meals_included:
           - breakfast
           - lunch
