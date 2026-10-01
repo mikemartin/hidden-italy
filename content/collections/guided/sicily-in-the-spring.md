@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: 3
-updated_at: 1790824716
+updated_at: 1790829818
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -134,7 +134,7 @@ page_builder:
       -
         id: ysEtAW5lQJTqXlSE064rQ
         title: 'Transfer to the mountains'
-        description: "From the bustle and intensity of Sicily's largest city, we drive into the mountainous interior to the green tranquillity of the island's second largest national park. On the way, we will visit the lovely seaside resortof Cefalu. Our base for the next four nights will be in a traditional and wonderfully restored historical property with all the comforts. We'll have dinner in a nearby restaurant."
+        description: "From the bustle and intensity of Sicily's largest city, we drive into the mountainous interior to the green tranquillity of the island's second largest national park. On the way, we will visit the lovely seaside resort of Cefalu. Our base for the next four nights will be in a traditional and wonderfully restored historical property with all the comforts. We'll have dinner in a nearby restaurant."
         meals_included:
           - breakfast
           - lunch
@@ -166,7 +166,7 @@ page_builder:
         description: |-
           Today we walk through rolling green hills covered with wildflowers and dotted with farmhouses and hamlets, up to a tiny hilltop village, dominated by an awesome medieval Norman castle, where we'll have a packed lunch before visiting the castle.
 
-          In the afternoon we'll drive back to our accommodation, stopping to visit possibly the most spectacularly sited town in the area, which has breath-taking views. (Lunch/Dinner)
+          In the afternoon we'll drive back to our accommodation, stopping to visit possibly the most spectacularly sited town in the area, which has breath-taking views.
         duration: 4.0
         distance: 14.0
         elevation: 459
