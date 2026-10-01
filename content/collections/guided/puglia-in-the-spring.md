@@ -6,7 +6,7 @@ name: 'Puglia in the Spring'
 region: Puglia
 days: 13
 updated_by: 4
-updated_at: 1790823212
+updated_at: 1790823921
 grade: 2
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -180,13 +180,14 @@ page_builder:
           - breakfast
           - dinner
         photo: guided/puglia-in-the-spring/matera-12.jpg
+        duration: -2.0
       -
         id: mlora14b
         title: 'Walk to Alberobello'
         description: 'Today we walk from our base along ancient roads through vineyards, forests, and cherry orchards lined with drystone walls before picking up a trail that follows an historic aqueduct to Alberobello. This fascinating town is the capital of the ‘trulli’ district, with over 1500 of these charming, conical houses crowded into its historic centre. After lunch, you’ll have time to explore Alberobello before we return to our base. The rest of the afternoon is free.'
         duration: 5.0
         distance: 13.0
-        elevation: 200
+        elevation: 130
         meals_included:
           - breakfast
           - lunch
@@ -195,7 +196,7 @@ page_builder:
       -
         id: mlorbjxg
         title: 'Transfer to Bari'
-        description: "This morning we leave the trulli and drive north across the rolling plains and wheat fields of Le Murghe. After a light lunch, we'll take an easy walk through forest and farmlands, climbing up to one of the most remarkable buildings in southern Italy: Castel del Monte, a mysterious, isolated octagonal castle constructed in the 13th century. After a visit to the castle, we’ll drive south to Bari, where the evening is free."
+        description: 'This morning we leave the trulli and drive north across the rolling plains and wheat fields of Le Murghe, to reach one of the most remarkable buildings in southern Italy: Castel del Monte, the mysterious, isolated octagonal castle constructed by Frederick II in the 13th century. After visiting the castle yourself, we’ll continue with an easy walk through forest and farmlands, making our way down to a local Masseria for a light lunch. We’ll drive south to Bari, where the evening is free.'
         duration: 1.0
         distance: 4.0
         elevation: 102
@@ -206,7 +207,7 @@ page_builder:
       -
         id: mlore9l3
         title: 'Explore Bari'
-        description: "Today you will be taken on a guided walk to explore the secrets of the medieval Bari Vecchia, the old town of Bari, a buzzing maze of tight alleyways and small piazzas adjacent to the city's port. There are many x attractions, but the real pleasure of Bari Vecchia is simply wandering the narrow lanes soaking up the vibrant southern life.  The afternoon is free. We’ll regroup for dinner in a nearby restaurant."
+        description: "Today you will be taken on a guided walk to explore the secrets of the medieval Bari Vecchia, the old town of Bari, a buzzing maze of tight alleyways and small piazzas adjacent to the city's port. There are many attractions, but the real pleasure of Bari Vecchia is simply wandering the narrow lanes, soaking up the vibrant southern life. The afternoon is free. We’ll regroup for dinner in a nearby restaurant."
         meals_included:
           - breakfast
           - dinner
