@@ -5,8 +5,8 @@ title: "Valley del Lys - Val d'Aosta"
 name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
-updated_by: 3
-updated_at: 1790315179
+updated_by: 4
+updated_at: 1791282089
 grade: 4
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
@@ -467,5 +467,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 overlay_opacity: 20
-availability_text: 'Available from mid June to September only'
+availability_text: 'Available from 8 June to 9 September only'
 ---
