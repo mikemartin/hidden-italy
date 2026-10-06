@@ -7,9 +7,9 @@ region: 'Campania and Basilicata'
 days: 13
 seasons: spring
 grade: 3
-updated_by: 4
-updated_at: 1790212833
-image: guided/img_3120-v2.jpg
+updated_by: 2
+updated_at: 1791265331
+image: guided/117.jpg
 tour_size: 15
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in excellent boutique hotels'
