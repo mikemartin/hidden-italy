@@ -393,11 +393,11 @@ show_from: true
 seasons: autumn
 locations: southern-italy
 simple_likes: 0
-updated_by: 4
-updated_at: 1790580737
+updated_by: 2
+updated_at: 1791257766
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
-image: guided/img_3527.jpeg
+image: guided/115.jpg
 headline: 'Pure southern Italy'
 summary:
   -
@@ -411,13 +411,13 @@ gallery:
   - guided/102.jpg
   - guided/103.jpeg
   - guided/105.jpeg
-  - guided/106.jpeg
+  - guided/114.jpg
   - guided/107.jpeg
   - guided/fasanelli-2.jpeg
-  - guided/109.jpg
   - guided/110.jpg
-  - guided/maratea-port-1785654095.jpeg
   - guided/img_5161.jpeg
+  - guided/109.jpg
+  - guided/maratea-port-1785654095.jpeg
   - guided/111.jpg
 price: 'Intro offer A$9,590 pp'
 ---
