@@ -394,10 +394,10 @@ seasons: autumn
 locations: southern-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1791258407
+updated_at: 1791262432
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
-image: guided/117.jpg
+image: guided/fasanelli-2.webp
 headline: 'Pure southern Italy'
 summary:
   -
