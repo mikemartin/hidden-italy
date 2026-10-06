@@ -4,7 +4,7 @@ blueprint: tour
 title: 'Basilicata Guided Tour - Basilicata'
 region: Basilicata
 name: 'Basilicata Guided Tour'
-overlay_opacity: 30
+overlay_opacity: 15
 start_location:
   label: 'Matera, Basilicata, Italy'
   lat: '40.667029'
@@ -394,10 +394,10 @@ seasons: autumn
 locations: southern-italy
 simple_likes: 0
 updated_by: 2
-updated_at: 1791257766
+updated_at: 1791258407
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
-image: guided/115.jpg
+image: guided/117.jpg
 headline: 'Pure southern Italy'
 summary:
   -
