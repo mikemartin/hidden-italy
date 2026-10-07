@@ -6,7 +6,7 @@ name: 'Italian Riviera 2'
 region: Liguria
 days: 9
 updated_by: 2
-updated_at: 1791347141
+updated_at: 1791347300
 grade: 3
 inclusions:
   - 'Eight nights accommodation'
@@ -357,7 +357,7 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: c10e8a1d-dab8-454a-8c80-abbba7b0a648
-image: self-guided/sestri-1.jpg
+image: self-guided/sestri-2.jpg
 gallery:
   - self-guided/italian-riviera-2/1.jpg
   - self-guided/italian-riviera-2/2.jpg
