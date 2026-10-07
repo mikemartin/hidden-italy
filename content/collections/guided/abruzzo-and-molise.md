@@ -6,7 +6,7 @@ name: 'Abruzzo and Molise'
 region: 'Apennines & Adriatic Coast'
 days: 13
 updated_by: 4
-updated_at: 1789454882
+updated_at: 1791331482
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
