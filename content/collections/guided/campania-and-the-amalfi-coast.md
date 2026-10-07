@@ -8,7 +8,7 @@ days: 13
 seasons: spring
 grade: 3
 updated_by: 2
-updated_at: 1791265331
+updated_at: 1791354329
 image: guided/117.jpg
 tour_size: 15
 inclusions:
@@ -22,16 +22,16 @@ inclusions:
 gallery:
   - guided/campania-and-the-amalfi-coast/1.5.png
   - guided/campania-and-the-amalfi-coast/img_1450.jpg
-  - guided/campania-and-the-amalfi-coast/img_4724-v2.jpg
   - guided/campania-and-the-amalfi-coast/3.8.jpg
-  - guided/campania-and-the-amalfi-coast/img_1680.jpg
+  - guided/campania-and-the-amalfi-coast/img_4724-v2.jpg
   - guided/campania-and-the-amalfi-coast/img_2369-v2.jpg
   - guided/campania-and-the-amalfi-coast/maratea-2.jpg
   - guided/campania-and-the-amalfi-coast/img_3120-v2.jpg
   - guided/campania-and-the-amalfi-coast/maratea-1.jpg
-  - guided/campania-and-the-amalfi-coast/img_8037.jpg
   - guided/campania-and-the-amalfi-coast/maratea-5.jpg
-  - guided/campania-and-the-amalfi-coast/img_2509-v2.jpg
+  - guided/campania-and-the-amalfi-coast/img_8037.jpg
+  - guided/img_5314.jpeg
+  - guided/ravello-1.jpg
 leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 page_builder:
   -
