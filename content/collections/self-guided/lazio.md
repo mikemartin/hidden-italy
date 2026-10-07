@@ -1,12 +1,12 @@
 ---
 id: 5e536055-01da-4264-a45c-5c879a0d73d7
 blueprint: tour
-title: 'Lazio: Cammino of St Francis Part 3 - Lazio'
-name: 'Lazio: Cammino of St Francis Part 3'
+title: 'Cammino of St Francis Part 3: Lazio - Lazio'
+name: 'Cammino of St Francis Part 3: Lazio'
 region: Lazio
 days: 8
-updated_by: 4
-updated_at: 1789097969
+updated_by: 2
+updated_at: 1791351440
 grade: 4
 inclusions:
   - '7 nights accommodation'
