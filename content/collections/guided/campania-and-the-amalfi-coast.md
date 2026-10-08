@@ -8,8 +8,8 @@ days: 13
 seasons: spring
 grade: 3
 updated_by: 2
-updated_at: 1791438056
-image: guided/maratea-7.jpg
+updated_at: 1791493354
+image: guided/22.6.jpg
 tour_size: 15
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in excellent boutique hotels'
@@ -21,16 +21,16 @@ inclusions:
   - 'Services of a full-time professional tour guide'
 gallery:
   - guided/campania-and-the-amalfi-coast/1.5.png
-  - guided/campania-and-the-amalfi-coast/3.8.jpg
-  - guided/img_1475.jpeg
   - guided/campania-and-the-amalfi-coast/img_1450.jpg
+  - guided/campania-and-the-amalfi-coast/3.8.jpg
   - guided/campania-and-the-amalfi-coast/img_4724-v2.jpg
-  - guided/maratea-6.jpeg
   - guided/campania-and-the-amalfi-coast/img_2369-v2.jpg
+  - guided/wine-1.jpeg
+  - guided/gerardo-1.jpeg
   - guided/22.6.jpg
-  - guided/campania-and-the-amalfi-coast/img_8037.jpg
   - guided/img_5314.jpeg
-  - guided/rufolo-2.jpg
+  - guided/campania-and-the-amalfi-coast/img_8037.jpg
+  - guided/rufolo-4.png
   - guided/ravello-1.jpg
 leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 page_builder:
@@ -442,5 +442,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-overlay_opacity: 30
+overlay_opacity: 15
 ---
