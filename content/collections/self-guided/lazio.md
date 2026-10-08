@@ -5,13 +5,12 @@ title: 'Cammino of St Francis Part 3: Lazio - Lazio'
 name: 'Cammino of St Francis Part 3: Lazio'
 region: Lazio
 days: 8
-updated_by: 2
-updated_at: 1791351440
+updated_by: 4
+updated_at: 1791421244
 grade: 4
 inclusions:
   - '7 nights accommodation'
   - 'Daily breakfasts'
-  - 'Private transfer to and from Turin at the beginning and end of the tour'
   - 'Reading lists, historical and cultural notes'
   - 'The Hidden Italy booklet with maps and detailed walking instructions'
   - 'The Hidden Italy App with GPS to complement the booklet'
