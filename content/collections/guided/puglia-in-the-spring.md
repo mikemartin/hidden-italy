@@ -6,7 +6,7 @@ name: 'Puglia in the Spring'
 region: Puglia
 days: 13
 updated_by: 4
-updated_at: 1790824471
+updated_at: 1791499195
 grade: 2
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -423,7 +423,7 @@ finish_location:
       code: null
       level: 2
   country: Italy
-now_open: true
+now_open: false
 headline: 'Walking the trails of Puglia'
 teaser: 'Puglia is pure southern Italy: vibrant towns, endless trails and coastline; fabulous food!'
 summary:
@@ -435,7 +435,6 @@ summary:
         text: 'A bridge between Italy and the East, Puglia is pure southern Italy: layers of history, vibrant cities and towns, ancient traditions celebrated in colourful festivals; a timeless interior edged by an endless coastline; gracious hospitality and fabulous food.'
 price: 'A$8,990 pp'
 show_from: true
-badge_text: 'Last Spots'
 og_image: puglia-puglia-in-the-spring-og-1779335247.png
 seo_noindex: inherit
 seo_nofollow: false

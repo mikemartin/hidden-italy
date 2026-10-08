@@ -42,7 +42,7 @@ finish_location:
 headline: "Explore Italy's green heart"
 date: '2027-09-19 14:00'
 now_open: true
-badge_text: 'New tour!'
+badge_text: 'New tour'
 days: 13
 grade: 2
 tour_size: 15
@@ -390,8 +390,8 @@ show_from: true
 seasons: autumn
 locations: central-italy
 simple_likes: 0
-updated_by: 3
-updated_at: 1790824579
+updated_by: 4
+updated_at: 1791499163
 summary:
   -
     type: paragraph

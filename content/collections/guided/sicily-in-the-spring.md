@@ -6,8 +6,8 @@ name: 'Sicily in the Spring'
 region: Sicily
 seasons: spring
 locations: southern-italy
-updated_by: 3
-updated_at: 1790829818
+updated_by: 4
+updated_at: 1791499138
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -435,7 +435,7 @@ finish_location:
       code: null
       level: 2
   country: Italy
-now_open: true
+now_open: false
 headline: '14 days walking spectacular Sicily'
 teaser: 'Sicily is a spectacular island with exceptional walks, fascinating history and great food!'
 summary:

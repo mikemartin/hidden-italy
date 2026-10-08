@@ -9,7 +9,7 @@ image: guided/waiheke/2.jpg
 overlay_opacity: 30
 headline: 'Spectacular Island Walking'
 date: '2027-02-19 13:00'
-now_open: false
+now_open: true
 summary:
   -
     type: paragraph
@@ -326,6 +326,7 @@ seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 4
-updated_at: 1788145066
+updated_at: 1791498970
+badge_text: 'Last Spots'
 og_image: waiheke-new-zealand-og-1790048024.png
 ---
