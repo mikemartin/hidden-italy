@@ -8,8 +8,8 @@ days: 13
 seasons: spring
 grade: 3
 updated_by: 2
-updated_at: 1791437846
-image: guided/117.jpg
+updated_at: 1791438056
+image: guided/maratea-7.jpg
 tour_size: 15
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in excellent boutique hotels'
