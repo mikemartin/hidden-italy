@@ -320,13 +320,13 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-price: 'A$5,900'
+price: 'A$5,900 pp'
 show_from: false
 seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 4
-updated_at: 1791498970
+updated_at: 1791500253
 badge_text: 'Last Spots'
 og_image: waiheke-new-zealand-og-1790048024.png
 ---
