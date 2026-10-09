@@ -6,7 +6,7 @@ name: 'Cammino of St Francis Part 2: Umbria 2'
 region: Umbria
 days: 7
 updated_by: 2
-updated_at: 1791351484
+updated_at: 1791514322
 grade: 4
 inclusions:
   - 'Six nights accommodation'
@@ -344,7 +344,7 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 65354be1-c899-4486-82f9-2883d090c270
-image: self-guided/cammino-of-st-francis-umbria-2/sofia-msnxoysxjsq-unsplash.jpg
+image: self-guided/lake-1.jpg
 gallery:
   - self-guided/cammino-of-st-francis-umbria-2/spoleto.jpg
   - self-guided/cammino-of-st-francis-umbria-2/2.5.jpg
@@ -414,5 +414,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-overlay_opacity: 30
+overlay_opacity: 16
 ---
