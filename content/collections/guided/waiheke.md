@@ -24,7 +24,7 @@ summary:
         type: text
         text: 'Please enquire about our Special Offer for this tour only ... expiring 16 October 2026'
 days: 7
-grade: 2
+grade: 3
 tour_size: 15
 leader: 8e21b5fb-a972-4a2e-a81c-2e6f8425841f
 inclusions:
@@ -332,7 +332,7 @@ seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 3
-updated_at: 1791511746
+updated_at: 1791526287
 badge_text: 'Last 2 Spots'
 og_image: waiheke-new-zealand-og-1790048024.png
 ---
