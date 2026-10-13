@@ -4,7 +4,7 @@ blueprint: tour
 title: 'Waiheke - New Zealand'
 region: 'New Zealand'
 name: Waiheke
-teaser: 'Explore the natural beauty and gourmet treats of Waiheke Island - SPECIAL OFFER AVAILABLE'
+teaser: 'Explore the natural beauty and gourmet treats of Waiheke Island'
 image: guided/waiheke/2.jpg
 overlay_opacity: 30
 headline: 'Spectacular Island Walking'
@@ -326,7 +326,7 @@ seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 3
-updated_at: 1791868415
+updated_at: 1791868847
 badge_text: 'FULLY BOOKED'
 og_image: waiheke-new-zealand-og-1790048024.png
 ---
