@@ -7,7 +7,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: 4
-updated_at: 1790753834
+updated_at: 1791868654
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
@@ -438,5 +438,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 overlay_opacity: 30
-availability_text: '2027 Fully Booked, 2028 waitlist opened'
+availability_text: '03 May 2027 - 2027 Fully Booked, 2028 waitlist opened'
 ---

@@ -17,12 +17,6 @@ summary:
       -
         type: text
         text: 'This seven-day tour starts in Auckland and then four nights on Waiheke in superior self-contained accommodation with spectacular views overlooking the sea, a short walk from Oneroa and some of the island’s best vineyard restaurants.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Please enquire about our Special Offer for this tour only ... expiring 16 October 2026'
 days: 7
 grade: 3
 tour_size: 15
@@ -332,7 +326,7 @@ seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 3
-updated_at: 1791526287
-badge_text: 'Last 2 Spots'
+updated_at: 1791868415
+badge_text: 'FULLY BOOKED'
 og_image: waiheke-new-zealand-og-1790048024.png
 ---
