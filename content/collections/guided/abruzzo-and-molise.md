@@ -6,7 +6,7 @@ name: 'Abruzzo and Molise'
 region: 'Apennines & Adriatic Coast'
 days: 13
 updated_by: 4
-updated_at: 1791868704
+updated_at: 1791869001
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
@@ -417,5 +417,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 overlay_opacity: 30
-availability_text: '04 June 2027 - 2027 Fully Booked, 2028 waitlist opened'
+availability_text: '2027 Fully Booked - 2028 waitlist opened'
 ---
