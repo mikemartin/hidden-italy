@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: 4
-updated_at: 1791868691
+updated_at: 1791869047
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -463,5 +463,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 overlay_opacity: 20
-availability_text: '14 May 2027 - 2027 Fully Booked, 2028 waitlist opened'
+availability_text: '2027 Fully Booked - 2028 waitlist opened'
 ---

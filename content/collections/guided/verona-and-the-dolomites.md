@@ -6,7 +6,7 @@ name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige'
 days: 13
 updated_by: 4
-updated_at: 1791868756
+updated_at: 1791869089
 locations: northern-italy
 grade: 3
 image: guided/verona-and-the-dolomites/-p9192176.jpg
@@ -437,5 +437,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 overlay_opacity: 30
-availability_text: 'Tour Start Dates: 2027 Fully Booked, 2028 waitlist opened'
+availability_text: '2027 Fully Booked - 2028 waitlist opened'
 ---
