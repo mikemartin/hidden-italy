@@ -1,12 +1,12 @@
 ---
 id: 8c969301-fa7c-418d-b306-3d50f60c142a
 blueprint: tour
-title: 'Verona and the Dolomites - Trentino-Alto Adige'
+title: 'Verona and the Dolomites - Trentino-Alto Adige & Veneto'
 name: 'Verona and the Dolomites'
-region: 'Trentino-Alto Adige'
+region: 'Trentino-Alto Adige & Veneto'
 days: 13
 updated_by: 4
-updated_at: 1791869089
+updated_at: 1791938957
 locations: northern-italy
 grade: 3
 image: guided/verona-and-the-dolomites/-p9192176.jpg
@@ -47,14 +47,14 @@ page_builder:
         content:
           -
             type: text
-            text: "Autumn is the perfect time to explore this fascinating area, a unique range of mountains with towering limestone pinnacles and spires rising dramatically above deep green valleys of pine forests that flow into rolling meadows scattered with centuries-old villages, Gothic churches and isolated timber farmhouses.\_ Along the way, you will be introduced to the history and traditions of the area, a beguiling blend of German, Italian and Ladino cultures."
+            text: 'Autumn is the perfect time to explore this fascinating area, a unique range of mountains with towering limestone pinnacles and spires rising dramatically above deep green valleys of pine forests that flow into rolling meadows scattered with centuries-old villages, Gothic churches and isolated timber farmhouses. Along the way, you will be introduced to the history and traditions of the area, a beguiling blend of German, Italian and Ladino cultures.'
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "The tour starts with a bang, two nights in a lovely 4-star hotel in the centre of romantic Verona, before driving north into the heart of the Dolomites, spending the next 4 nights in another gorgeous 4-star in a valley near Bolzano. \_We then head east being based for another four nights in a quiet valley off the Val Badia. Finally, we finish with another bang, with two nights in 4-star hotel in Cortina d'Ampezzo, a beautiful town known as the 'pearl of the Dolomites' that is still glowing from hosting the 2026 Winter Olympics!"
+            text: "The tour starts with a bang, two nights in a lovely 4-star hotel in the centre of romantic Verona, before driving north into the heart of the Dolomites, spending the next 4 nights in another gorgeous 4-star hotel in a valley near Bolzano. We then head east, based for another four nights in a quiet valley off the Val Badia. Finally, we finish with another bang, with two nights in a 4-star hotel in Cortina d'Ampezzo, a beautiful town known as the 'queen of the Dolomites' that is still glowing from hosting the 2026 Winter Olympics!"
     title: 'Towering pinnacles above deep green valleys'
     images:
       - guided/verona-and-the-dolomites/3.9.jpg
@@ -63,7 +63,7 @@ page_builder:
     hide_from_subnav: false
   -
     id: mlq6wt91
-    heading: 'Highlights Trentino-Alto Adige'
+    heading: 'Highlights Trentino-Alto Adige & Veneto'
     activities:
       -
         id: mlq6xexm
@@ -93,7 +93,7 @@ page_builder:
       -
         id: mlrar05e
         title: "Discover Cortina d'Ampezzo"
-        summary: 'Discover Cortina (Pearl of the Dolomites), staying in a classic hotel and doing a lap of the iconic Tre Cime di Lavaredo'
+        summary: 'Discover Cortina (Queen of the Dolomites), staying in a classic hotel and doing a lap of the iconic Tre Cime di Lavaredo'
         icon: switzerland-mountain.svg
     type: highlights
     enabled: true
@@ -123,7 +123,7 @@ page_builder:
       -
         id: mlrb41ej
         title: 'Head into the mountains'
-        description: "Today we drive north, into the heart of the Dolomites, following the 'wine road’ beside the banks of the Adige River.  We will stop at a spectacular 14th century castle for a light lunch in the courtyard and a visit to its museum (dedicated to mountaineering).  We then continue into the Dolomites. Our base for the next four nights is a lovely family-run hotel on the edge of a small town at the far end of a spectacular valley. Dinner will be at our hotel."
+        description: "Today we drive north, into the heart of the Dolomites, following the 'wine road’ beside the banks of the Adige River. We will stop at a spectacular 14th century castle for a light lunch in the courtyard and a visit to its museum (dedicated to mountaineering).  We then continue into the Dolomites. Our base for the next four nights is a lovely family-run hotel on the edge of a small town at the far end of a spectacular valley. Dinner will be at our hotel."
         meals_included:
           - breakfast
           - dinner
@@ -132,11 +132,10 @@ page_builder:
         id: mlrb55m6
         title: 'Meet the Dolomites'
         description: |-
-          Today's walk is a wonderful introduction to the Dolomites with a cable car ride up the southern side of the valley (2,000 metres)from where we walk across the beautiful rolling pastures, a vast undulating amphitheatre of alpine meadows surrounded by some of the most spectacular ranges in the area. After a picnic lunch, we continue under soaring cliffs, where we get a lift back to the hotel.
-
-          For the energetic, there is the option of following a trail down through forest, into the valley to our base(4 kms).
-        duration: 4.0
-        distance: 13.0
+          Today's walk is a wonderful introduction to the Dolomites with a cable car ride up the southern side of the valley(2,000 metres) from where we walk across the beautiful rolling pastures, a vast undulating amphitheatre of alpine meadows surrounded by some of the most spectacular ranges in the area. After a picnic lunch, we continue under soaring cliffs, where we get a lift back to the hotel.
+          For the energetic, there is an option of following a trail down through forest into the valley to our base(4 kms).
+        duration: 5.0
+        distance: 12.0
         elevation: 468
         meals_included:
           - breakfast
@@ -148,11 +147,12 @@ page_builder:
         title: 'Explore Bolzano'
         description: "Today we drive to Bolzano, the capital of the Alto Adige, a pretty town on a river with a long history and strong Austrian feel. We stop in the hills above Bolzano for a short walk downhill through lovely forests to a cable car, which we’ll take down to Bolzano. After lunch, we will visit one of the highlights of the region: the excellent museum dedicated to Ötzi, the 5000-year-old 'Iceman’ found in 1991, before returning to our valley."
         duration: 2.0
-        distance: 6.0
+        distance: 5.6
         meals_included:
           - breakfast
           - dinner
         photo: guided/verona-and-the-dolomites/4.jpg
+        elevation: 113
       -
         id: mlrb874i
         title: 'Walk the high plains'
@@ -167,7 +167,7 @@ page_builder:
       -
         id: mlrba04p
         title: 'Transfer to the Val Badia'
-        description: 'Today we leave the valley, driving north to visit one of the prettiest towns in the region.  From here we drive into the mountains, stopping for lunch along the way. Our base for the next four nights is a pretty village in a Ladino speaking valley, one of the more secluded and spectacular in the Dolomites. Our family-run hotel overlooks the village, surrounded by pastures filled with lowing cows and frolicking donkeys.  Dinner is at our hotel.'
+        description: 'Today we leave the valley, driving north to visit one of the prettiest towns in the region.  From here we drive into the mountains, stopping for lunch along the way. Our base for the next four nights is a pretty village in a Ladino speaking valley, one of the more secluded and spectacular in the Dolomites. Our family-run hotel overlooks the village, surrounded by pastures filled with lowing cows and frolicking donkeys. Dinner is at our hotel.'
         meals_included:
           - breakfast
           - lunch
@@ -178,8 +178,8 @@ page_builder:
         title: 'Another walk in the mountains'
         description: 'Today we get a lift up to the southern side of the valley, walking along a trail that takes us through pine forests, into the neighbouring valley, stopping for a packed lunch on the way. On the way down, we pass clusters of ancient timber farmhouses and barns that have survived from another era. After our walk, we will be driven back to our base, stopping to visit a recently restored 14th century castle with a fine ethnographic museum. Dinner back at our hotel.'
         duration: 3.0
-        distance: 9.0
-        elevation: 400
+        distance: 8.0
+        elevation: 315
         meals_included:
           - breakfast
           - lunch
@@ -187,11 +187,11 @@ page_builder:
         photo: guided/verona-and-the-dolomites/7.3.jpg
       -
         id: mlrbfnmc
-        title: 'Discover Braies Lake'
-        description: 'After a leisurely morning, we drive to the beautiful mountain lake of Braies situated in the Alta Pusteria valley. You will have free time to walk around the lake or hire a rowing boat or just sit on the shore of the lake and enjoy the amazing scenery. Afternoon visit to the folklore museum in nearby Bruneck which recounts the everyday life of the rural population of earlier times, including an open-air site with original farmhouses and craft workshops. Dinner is at our hotel.'
-        duration: 1.0
+        title: 'Discover Lake Braies'
+        description: 'After a leisurely morning, we drive to the beautiful mountain Lake Braies situated in the Alta Pusteria valley. You will have free time to walk around the lake or hire a rowing boat or just sit on the shore of the lake and enjoy the amazing scenery. Afternoon visit to the folklore museum in nearby Bruneck which recounts the everyday life of the rural population of earlier times, including an open-air site with original farmhouses and craft workshops. Dinner is at our hotel.'
+        duration: 1.5
         distance: 3.5
-        elevation: 50
+        elevation: 73
         meals_included:
           - breakfast
           - dinner
@@ -200,9 +200,9 @@ page_builder:
         id: mlrbilht
         title: 'Visit the most magical place in the Dolomites'
         description: "This morning we drive to the head of our valley, then up a steep winding road into the rugged beauty in the heart of the National Park (2000m), to a mountain lodge perched on a plateau surrounded by soaring mountains. We'll spend the day exploring this area, including a morning walk, followed by lunch and a stroll to the 'green' lake to see the 'parliament of marmots', a colony of furry mountain critters, famous Ladino legends, before driving back down to our base. Dinner is at our hotel."
-        duration: 2.0
-        distance: 6.0
-        elevation: 202
+        duration: 3.0
+        distance: 6.5
+        elevation: 220
         meals_included:
           - breakfast
           - lunch
@@ -211,7 +211,7 @@ page_builder:
       -
         id: mlrblkbg
         title: "Transfer to Cortina d'Ampezzo"
-        description: "Today we leave the valley, along one of the most beautiful roads in the Alps.  On the way we pass under the highest peaks in the Dolomites, where we'll stop for lunch, before descending to the town Cortina d'Ampezzo, the 'Queen of the Dolomites', host of the 2026 Winter Olympics. Cortina has a lot of charm and a wonderful setting in a sunny upland basin, with magnificent views of the mountains on all sides. We stay in a 4-star hotel on the edge of town. The evening is free."
+        description: "Today we leave the valley, along one of the most beautiful roads in the Alps. On the way we pass under the highest peaks in the Dolomites, where we'll stop for lunch, before descending to the town Cortina d'Ampezzo, the 'Queen of the Dolomites', host of the 2026 Winter Olympics. Cortina has a lot of charm and a wonderful setting in a sunny upland basin, with magnificent views of the mountains on all sides. We stay in a 4-star hotel on the edge of town. The evening is free."
         meals_included:
           - breakfast
           - lunch
@@ -222,7 +222,7 @@ page_builder:
         description: 'The final walk starting at above 2300m is one of the most famous and spectacular in the Alps - a circular walk around the Tre Cime di Lavaredo, a 40 minute drive from Cortina. The walking route follows a mountain path that loops around the base of this extraordinary formation, three jagged peaks rising 2999 metres - a fitting grand finale to the tour. After a packed lunch, we return to Cortina for our farewell drinks and dinner.'
         duration: 4.0
         distance: 8.0
-        elevation: 385
+        elevation: 261
         meals_included:
           - breakfast
           - lunch
@@ -266,7 +266,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The accommodation is in lovely 4-star hotels all the way.\_ In Verona we stay in a classic hotel in the centre of town (Maria Calls used to stay here when she was preforming at the Arena).\_ In the valleys we stay in two spacious Tyrolean-style, family-run hotels, both of which have wellness centres and swimming pools.\_ In Cortina d'Ampezzo we stay in another classic 4-star hotel, a short walk from the centre of town."
+                text: "The accommodation is in lovely 4-star hotels all the way.\_ In Verona we stay in a classic hotel in the centre of town (Maria Callas used to stay here when she was performing at the Arena).\_In the valleys we stay in two spacious Tyrolean-style, family-run hotels, both of which have wellness centres and swimming pools.\_In Cortina d'Ampezzo we stay in another classic 4-star hotel, a short walk from the centre of town."
         media:
           - guided/verona-and-the-dolomites/2-1775543819.jpg
         type: accommodation
@@ -310,7 +310,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_It is autumn and we are in the mountains so you will need to take some warm clothes, eg a pullover, a puffer-type jacket and some warm pants.  Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+                text: 'A pair of comfortable walking boots with ankle support and a good, thick sole and a mobile phone are the two most essential items. On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. You’ll need to take a good supply of water, some energy food and a small first aid kit. It is autumn and we are in the mountains, so you will need to take some warm clothes, eg a pullover, a puffer-type jacket, some warm pants, hat and gloves. Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best.'
         type: equipment
         enabled: true
       -
