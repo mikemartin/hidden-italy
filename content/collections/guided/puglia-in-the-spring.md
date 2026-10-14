@@ -6,7 +6,7 @@ name: 'Puglia in the Spring'
 region: Puglia
 days: 13
 updated_by: 4
-updated_at: 1791499195
+updated_at: 1791936519
 grade: 2
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -114,7 +114,7 @@ page_builder:
         description: "This morning we leave Lecce and head for Otranto. On the way, we visit Puglia's oldest national park for a lovely walk along the Ionian Sea, where we'll have a light lunch. Our accommodation for the next four nights is a perfectly preserved medieval port tucked behind 15th century Spanish walls above an idyllic harbour. We'll have dinner together in one of our favourite restaurants in town."
         duration: 2.0
         distance: 6.0
-        elevation: 229
+        elevation: 200
         meals_included:
           - breakfast
           - lunch
@@ -124,8 +124,8 @@ page_builder:
         id: mloqzruj
         title: 'Walk along the coast'
         description: 'This morning we walk south of the town following trails along the coast, passing a number of medieval lookout towers that mark the easternmost point of Italy. After stopping for a coffee, we’ll continue down the coast to a lovely small bay, where we will have lunch. We’ll be given a lift back to our base, where the rest of the afternoon and evening are free.'
-        duration: 4.0
-        distance: 13.0
+        duration: 5.0
+        distance: 14.0
         elevation: 335
         meals_included:
           - breakfast
@@ -154,7 +154,7 @@ page_builder:
       -
         id: mlor3ri3
         title: 'Visit a vineyard and stay in a masseria'
-        description: 'This morning we leave the austere beauty of the Salento and head north to the Itria Valley in central Puglia. On the way we will visit a family-run winery, which produces the celebrated ‘primitivo’, Puglia’s classic red wine. We will enjoy a wine tasting and then a light lunch. Our base for the next four nights is a beautiful hotel dating back to 1790, when the estate was founded by the Benedictine nuns of of St. Joseph of Monopoli. It features beautiful gardens and a swimming pool.'
+        description: 'This morning we leave the austere beauty of the Salento and head north to the Itria Valley in central Puglia. On the way, we will visit a winery, which produces the celebrated ‘primitivo’, Puglia’s classic red wine. We will enjoy a wine tasting and then a light lunch. Our base for the next four nights is a beautiful hotel dating back to 1790, when the estate was founded by the Benedictine nuns of St. Joseph of Monopoli. It features beautiful gardens and a swimming pool.'
         meals_included:
           - breakfast
           - lunch
@@ -183,11 +183,13 @@ page_builder:
         duration: -2.0
       -
         id: mlora14b
-        title: 'Walk to Alberobello'
-        description: 'Today we walk from our base along ancient roads through vineyards, forests, and cherry orchards lined with drystone walls before picking up a trail that follows an historic aqueduct to Alberobello. This fascinating town is the capital of the ‘trulli’ district, with over 1500 of these charming, conical houses crowded into its historic centre. After lunch, you’ll have time to explore Alberobello before we return to our base. The rest of the afternoon is free.'
-        duration: 5.0
+        title: 'Walk to Coreggia'
+        description: |-
+          Today we walk along ancient roads through vineyards, forests, and cherry orchards lined with drystone walls before picking up a trail that follows a historic aqueduct. After a coffee break, we drive to Alberobello, a UNESCO World Heritage Site, the capital of the ‘trulli’ district, with over 1500 of these charming, conical houses crowded into its historic centre. 
+          You’ll have time to explore Alberobello before we return to our base. The rest of the afternoon is free before dinner together.
+        duration: 4.0
         distance: 13.0
-        elevation: 130
+        elevation: 206
         meals_included:
           - breakfast
           - lunch
