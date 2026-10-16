@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 4
-updated_at: 1791499095
+updated_at: 1792127689
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -118,23 +118,6 @@ page_builder:
     heading: 'Special Offers'
     cards:
       -
-        id: home_shop_book
-        type: card
-        enabled: false
-        image: guided/maratea-port.jpeg
-        heading: 'Basilicata Guided tour'
-        text: "Basilicata is one of Italy’s least-explored regions. Miss the crowds, enjoy long balmy days, and the changing colours of the forests. A Hidden Italy\_special!"
-        button:
-          -
-            id: home_shop_book_btn
-            label: 'Learn More'
-            link_type: entry
-            entry: 11a4453e-9cd1-4418-b350-c3c35a49ae4c
-            target_blank: false
-            button_type: button
-            type: button
-            enabled: true
-      -
         id: 1v8vZudq4q1G4NQl-EpiR
         image: waterfall-1.webp
         heading: 'Pamper yourself on us'
@@ -151,6 +134,23 @@ page_builder:
             enabled: true
         type: card
         enabled: true
+      -
+        id: home_shop_book
+        type: card
+        enabled: false
+        image: guided/maratea-port.jpeg
+        heading: 'Basilicata Guided tour'
+        text: "Basilicata is one of Italy’s least-explored regions. Miss the crowds, enjoy long balmy days, and the changing colours of the forests. A Hidden Italy\_special!"
+        button:
+          -
+            id: home_shop_book_btn
+            label: 'Learn More'
+            link_type: entry
+            entry: 11a4453e-9cd1-4418-b350-c3c35a49ae4c
+            target_blank: false
+            button_type: button
+            type: button
+            enabled: true
       -
         id: home_shop_gift50
         type: card
@@ -185,7 +185,7 @@ page_builder:
             type: button
             enabled: true
         type: card
-        enabled: true
+        enabled: false
     section_background: none
 seo_title: 'Hidden Italy | Walking Italy since 1993'
 seo_description: "For over 30 years, we've helped inquisitive travellers explore Italy on guided and self-guided walking tours. You'll experience the country at your own pace, with meaningful encounters, local flavour, and the comfort of knowing everything is taken care of."

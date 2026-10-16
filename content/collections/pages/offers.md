@@ -1,5 +1,6 @@
 ---
 id: a75d1779-a1ed-44a5-a997-e950a195e9a9
+published: false
 blueprint: page
 title: 'Special Offer'
 header_variant: large
@@ -169,7 +170,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: bring-a-friend-offer.png
 updated_by: 4
-updated_at: 1788160692
+updated_at: 1792127703
 headline: 'SHARE THE ADVENTURE'
 description: 'Make it a group getaway and your 4th guest travels free on our Guided and Self-Guided Tours.'
 og_image: special-offer-og-1788230053.png
