@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 4
-updated_at: 1792127689
+updated_at: 1792370232
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -83,11 +83,11 @@ page_builder:
     enabled: true
     heading: 'Featured walking tours'
     tours:
-      - 4ac58bc7-386b-49cd-8e92-3bd8fd1e24a3
+      - a5eb2e54-ad28-467a-9e7a-b32fdce0c6d7
       - fe7d8f05-4262-4ff2-9fa6-af18f7825ec2
       - 11a4453e-9cd1-4418-b350-c3c35a49ae4c
       - 97c7707c-9b34-4f4f-9445-39668362d1fd
-      - a5eb2e54-ad28-467a-9e7a-b32fdce0c6d7
+      - 9fd38ab4-55ef-435d-82cc-d9246de83cc3
     link_text: 'View all'
     section_background: none
   -
