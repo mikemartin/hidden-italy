@@ -5,8 +5,8 @@ title: 'Amalfi Coast - Campania'
 name: 'Amalfi Coast'
 region: Campania
 days: 6
-updated_by: 3
-updated_at: 1790314808
+updated_by: 2
+updated_at: 1792459662
 grade: 3
 inclusions:
   - 'Private transfer from Naples to Ravello on Day 1'
@@ -320,14 +320,14 @@ page_builder:
 simple_likes: 0
 duplicated_from: fe7d8f05-4262-4ff2-9fa6-af18f7825ec2
 gallery:
-  - self-guided/the-amalfi-coast/1.jpg
+  - self-guided/ravello-1.jpg
   - self-guided/the-amalfi-coast/amalfi.jpg
   - self-guided/the-amalfi-coast/img_2481.jpeg
   - self-guided/the-amalfi-coast/b.jpg
   - self-guided/the-amalfi-coast/img_2216.jpg
   - self-guided/the-amalfi-coast/img_4350.jpeg
   - self-guided/the-amalfi-coast/img_4282.jpeg
-  - self-guided/the-amalfi-coast/santa-maria.jpg
+  - self-guided/ravello-2.jpg
   - self-guided/the-amalfi-coast/view-to-positano.jpg
   - self-guided/the-amalfi-coast/img_4424.jpeg
   - self-guided/the-amalfi-coast/positano-pan-1.jpg

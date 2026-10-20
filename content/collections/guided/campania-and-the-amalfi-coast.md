@@ -8,8 +8,8 @@ days: 13
 seasons: spring
 grade: 3
 updated_by: 2
-updated_at: 1791493354
-image: guided/22.6.jpg
+updated_at: 1792459784
+image: guided/ravello-1.jpg
 tour_size: 15
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in excellent boutique hotels'

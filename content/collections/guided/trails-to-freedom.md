@@ -26,14 +26,14 @@ page_builder:
         content:
           -
             type: text
-            text: 'On the 3rd of October 1943, four young Australian soldiers crossed from Italy to Switzerland at the border on Monte Moro Pass, thus ending a three-week odyssey that had started in a Fascist prison camp on the Po Plain near Biella in Piedmont (north of Turin).  The route they took followed a network of medieval paths that had been re-opened by the partisans and came to be known as the ‘sentieri della liberta’ or the trails to freedom.'
+            text: 'On the 3rd of October 1943, four young Australian soldiers crossed from Italy to Switzerland at the border on Monte Moro Pass, thus ending a three-week odyssey that had started in a Fascist prison camp on the Po Plain near Biella in Piedmont (north of Turin). The route they took followed a network of medieval paths that had been re-opened by the partisans and came to be known as the ‘sentieri della liberta’ or the trails to freedom.'
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Based on several years’ research, this magnificent hike follows the same route, starting in Biella and finishing on Mt Moro on the Swiss border.  It passes through some of the most spectacular scenery in the European Alps, staying in a mixture of hotels, pilgrim monasteries and mountain huts along the way.  Although we will walk through uncontaminated mountain landscapes, this is an ancient land: traders, pilgrims and graziers have been passing through here for millennia, in fact, since before the Bronze Age.'
+            text: 'Based on several years’ research, this magnificent hike follows the same route, starting in Biella and finishing on Mt Moro on the Swiss border. It passes through some of the most spectacular scenery in the European Alps, staying in a mixture of hotels, pilgrim monasteries and mountain huts along the way. Although we will walk through uncontaminated mountain landscapes, this is an ancient land: traders, pilgrims and graziers have been passing through here for millennia, in fact, since before the Bronze Age.'
     type: overview
     enabled: true
     section_background: dark
@@ -109,7 +109,7 @@ page_builder:
       -
         id: mjfliav4
         title: 'Sanctuary tour and ridge walk'
-        description: "Today is a short walk. In the morning we'll be taken on a guided tour of this fascinating sanctuary. After another delicious picnic lunch, we take a small trail that climbs up through pine forest to the ridge that divides the two valleys.  We then descend to your accommodation for the night. We'll have time to relax before dinner."
+        description: "Today is a short walk. In the morning we'll be taken on a guided tour of this fascinating sanctuary. After another delicious picnic lunch, we take a small trail that climbs up through pine forest to the ridge that divides the two valleys. We then descend to a second monastery. We'll have time to relax before having dinner on the verandah of the monastery."
         duration: 4.0
         distance: 11.0
         elevation: 393
@@ -121,7 +121,10 @@ page_builder:
       -
         id: mlizaetv
         title: 'The first big climb'
-        description: 'We follow the trail into a quirky town once home to the benefactor who built the road and tunnel connecting two monasteries in the late 1800s. The path then leads north by the river to another village at the head of the valley. Afterwards, we begin a challenging three-hour climb to a mountain hut beneath the peaks. The effort is rewarded with stunning views across the Alps and a convivial spot for dinner and rest.'
+        description: |-
+          We follow the trail into a quirky town once home to the benefactor who built the road and tunnel connecting two monasteries in the late 1800s.  The trail then takes us north up beside the river to a second village at the head of the valley, where we have lunch.
+
+          We start the long climb, possibly the hardest stretch of the tour, up to a welcoming mountain hut that sits spectacularly on a platform under mountain peaks.  It is a hard 3-hour challenging climb but the rewards are great - glorious views south across the Alps and a convivial place to relax, have dinner and sleep
         duration: 6.0
         distance: 12.0
         elevation: 1406
@@ -133,7 +136,7 @@ page_builder:
       -
         id: mlj01a3m
         title: 'A long walk to Alagna'
-        description: "Today’s walk winds through the Alps with the first views of Monte Rosa, passing alpine lakes, and mountain pastures that are still used for grazing. Only trails connect this area; there are no roads. After a picnic lunch, there is a very long descent, boulder-hopping down a glacial valley that leads into forest and pasture, passing distinctive wooden 'Walser' farmhouses. Tonight’s stay is at a very comfortable hotel in Alagna."
+        description: "Today’s walk winds through the Alps with the first views of Monte Rosa, passing alpine lakes and mountain pastures still used for grazing. Only trails connect this area; there are no roads. After a picnic lunch, the second half of the walk is a very long descent, boulder hopping down a narrow glacial valley which opens up into forest and then pastures where we start passing the gorgeous wooden 'Walser' farmhouses that characterise the area.\_Tonight we stay at a very comfortable hotel in Alagna."
         duration: 8.0
         distance: 17.0
         elevation: 540
@@ -375,7 +378,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 4
-updated_at: 1791869067
+updated_at: 1792459736
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg
