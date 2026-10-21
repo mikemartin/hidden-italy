@@ -356,6 +356,35 @@ page_builder:
     heading: 'Frequently Asked Questions'
     section_background: none
     hide_from_subnav: false
+    questions:
+      -
+        id: umRXtqfx2-yd0xNHRt8Fv
+        question: 'How is this tour different from all other Hidden Italy tours?'
+        answer:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Trails to Freedom is a very rewarding adventure, but good things don’t come easily.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Unlike the other Hidden Italy guided tours, Trails to Freedom is an Alpine hike, it crosses the Alps from the plains to the Swiss border.\_ This means the daily walks are considerably longer than the usual Hidden Italy offerings, eg from 17 to 22 kilometres.\_ \_There are also sustained climbs and descents, eg some days over 1200 metres up and/or down.\_ You will need to carry a pack of 10 to 12 kilos with all your gear. Due to the nature of this hike, the guides reserve the right to check the contents of each bag against this list to ensure everyone is carrying only what is required and nothing extra."
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'The trails can be rough underfoot and there are some exposed sections along the way, a high level of fitness and good judgment are essential'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'We will be accompanied by certified mountain guides, and mountain rescue services are available as a backup should we need this. Please note, it is your responsibility to ensure you are prepared for the tour’s demands.'
   -
     id: v-Y1X2gPDJm6PxI5fCblV
     heading: 'What our travellers are saying'
@@ -378,7 +407,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 4
-updated_at: 1792463128
+updated_at: 1792564206
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg
