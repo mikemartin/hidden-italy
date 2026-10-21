@@ -148,7 +148,6 @@ tabs:
               max: 5
               type: range
               display: Grade
-              append: '/ 5'
               width: 50
           -
             handle: tour_size

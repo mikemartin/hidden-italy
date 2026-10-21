@@ -330,7 +330,7 @@
                                                 <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">{{ trans:strings.walking_grade ?? 'Walking grade' }}</dt>
                                                 <dd class="mt-1 flex items-center gap-2">
                                                     <x-lucide-footprints class="size-5 lg:size-6 text-accent shrink-0" stroke-width="2" aria-hidden="true" />
-                                                    <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ trans:strings.grade ?? 'Grade' }} {{ grade }} / 5</span>
+                                                    <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ trans:strings.grade ?? 'Grade' }} {{ grade }}</span>
                                                     {{# Tooltip is desktop-only — hover affordances don't translate to touch. #}}
                                                     {{ if walk_grade_description }}
                                                         <button
