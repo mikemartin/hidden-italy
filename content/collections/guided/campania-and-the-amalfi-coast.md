@@ -8,7 +8,7 @@ days: 13
 seasons: spring
 grade: 3
 updated_by: 2
-updated_at: 1792462663
+updated_at: 1792634371
 image: guided/ravello-5.jpg
 tour_size: 15
 inclusions:
@@ -432,7 +432,7 @@ summary:
     content:
       -
         type: text
-        text: 'The Romans called the region around Naples ‘Campania Felix’ or the ‘happy lands’. With its rich history, spectacular coastline and fertile interior, Campania has much to be happy about: a stunningly beautiful area with endless surprises and all the exuberance and colour of southern Italy.'
+        text: 'The Romans called the region around Naples ‘Campania Felix’ or the ‘happy lands’. With its rich history, spectacular coastline and fertile interior, Campania has much to be happy about: a stunningly beautiful area with endless surprises and all the exuberance and colour of southern Italy.  This marvellous tour takes you from the bustle of Naples, to the tranquility of the Piacentini Mountains and the Policastro Gulf, and finishes with the incomparable beauty of the Amalfi Coast.'
 price: 'A$9,990 pp'
 show_from: true
 date: '2027-05-09 14:00'
