@@ -5,8 +5,8 @@ title: 'Tuscany 1 - Tuscany'
 name: 'Tuscany 1'
 region: Tuscany
 days: 6
-updated_by: 3
-updated_at: 1790315033
+updated_by: 4
+updated_at: 1792975507
 grade: 1
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
@@ -42,7 +42,7 @@ page_builder:
         content:
           -
             type: text
-            text: "red brick farmhouses, stands of deep green cypress pines and endless views, as it is famous for its wines and food. Along the way you stay in some of the most celebrated town in Tuscany, cultural treasures that include a beautifully restored pilgrim town; a magnificent papal town; and Montepulciano, 'pearl of the Renaissance'. At the end of the tour you will have a private transfer to Chiusi, well-connected by train to Rome and Florence.  "
+            text: "red brick farmhouses, stands of deep green cypress pines and endless views, as it is famous for its wines and food. Along the way you stay in some of the most celebrated towns in Tuscany, cultural treasures that include a beautifully restored pilgrim town; a magnificent papal town; and Montepulciano, 'pearl of the Renaissance'. At the end of the tour, you will have a private transfer to Chiusi, well-connected by train to Rome and Florence.  "
       -
         type: paragraph
     title: 'From medieval walls to rolling hills'
