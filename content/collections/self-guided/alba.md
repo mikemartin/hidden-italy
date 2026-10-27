@@ -7,7 +7,7 @@ name: 'Sicily 3: Mt Etna and Taormina'
 region: Sicily
 days: 8
 updated_by: 2
-updated_at: 1793085176
+updated_at: 1793086267
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -180,7 +180,7 @@ page_builder:
     hide_from_subnav: false
   -
     id: WkSha4RzUHTVzyntjtSpa
-    title: 'Alba and Le Langhe Experience'
+    title: 'Sicily 3: Mt Etna and Taormina experience'
     tabs:
       -
         id: AQLrEh44beSblC6yaQZgA
@@ -192,10 +192,12 @@ page_builder:
             content:
               -
                 type: text
-                text: "The trails are well-marked and generally follow unsealed country lanes over rolling hills often through vineyards and orchards. There are the occasional rougher sections and some asphalt walking into and out of the larger towns.\_The walk on Day 5 is 17 kms and on Day 6 is 19 km, which will take around 5 hours walking.\_With notice, both walks can be shortened.\_Full details on each walk are on the itinerary"
-        image: self-guided/alba-and-le-langhe/5.jpg
+                text: "This is a continuous walk from the Nebrodi Mountains to the Ionian Sea.\_ The daily walks vary from 17 kilometres to 4 kilometres with some long steady climbs and long steady descents (details on the daily itinerary).\_ You walk mostly on established hiking trails and droving tracks.\_ Although the trails are not fully way-marked the routes are straightforward to follow (you will have the detailed roadbook and Hidden Italy app to show you the way.\_"
+        image: self-guided/img_4994.jpeg
         type: walk
         enabled: true
+        total_distance: 67.0
+        total_elevation: 1457
       -
         id: RWbepClQNMoJHh8prXiV2
         title: 'Boutique accommodation'
@@ -205,9 +207,9 @@ page_builder:
             content:
               -
                 type: text
-                text: "Alba and the Langhe have a long history of hospitality and offer a range of very comfortable and welcoming accommodation. During the walk you will stay in a variety of accommodation including 4-star hotels, an ex-castle/vineyard which once belonged to the king of Italy; a lovely small hotel in the heart of the prettiest village in the district and an agriturismo outside a small hilltop village, which has a pool and an excellent restaurant.\_All with ensuite bathrooms."
+                text: "Hidden Italy uses the best accommodation available and it is one of the highlights of the tour.\_ Most of the accommodation is part of the local history.\_ It ranges from a B&B in a restored noble house to a 4-star hotel overlooking the Ionian Sea, with a luxury country resort and a family-run 3-star hotel in between.\_ All the rooms have private, en suite bathrooms.\_"
         media:
-          - self-guided/alba-and-le-langhe/benevello-6.jpg
+          - self-guided/montalbano-domus.jpg
         type: accommodation
         enabled: true
       -
@@ -219,24 +221,9 @@ page_builder:
             content:
               -
                 type: text
-                text: "Alba and the Langhe is one of Italy’s gastronomic and wine capitals so you will eat and drink very well during this tour (just as well there are some long walks!). According to Pliny the Elder and Strabo, this area was producing fine wines in Roman times.\_It’s modern manifestation started in the mid-1800s with the introduction of production techniques from nearby France.\_Big, bold Barolo, the flagship wine, is recognised as one of the finest reds in Europe.\_"
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: "The area is also famous for its food:\_ the white truffles; cheeses like toma and castelmagno; Carru beef and traditional dishes such as agnolotti (local ravioli); tajarin (‘angel hair’ pasta usually served with truffles or porcini mushrooms); bagna caoda (boiled meats); vitello tonnato; brasato al Barolo (beef stewed in Barolo); coniglio con pepperoni (rabbit slow cooked in white wine with bell peppers) and bonet (a rich chocolate pudding)."
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: italic
-                text: 'Generous breakfasts are included each day. Hidden Italy will provide you with a curated list of a range three to four restaurants for each town/village you visit. You will be able to make reservations where applicable directly through the Hidden Italy App.'
+                text: "Food is one of the highlights of a visit to this prosperous area, all based on delicious seasonal vegetables and fruits and fresh farm produce, including cheeses like fresh ricotta and\_cacciacavallo; cured hams and salami; an amazing variety of breads; olives, eggplants and wild greens and, of course, those wonderful Sicilian pastries.\_ And then there is the seafood on the coast!  Generous breakfasts are included each day. Given the relative 'isolation' of the small villages and 'agriturismo' you stay on during this wonderful walk, we have also included some of the dinners and lunches as well (see the daily itinerary for details)."
         media:
-          - self-guided/alba-and-le-langhe/9.jpg
+          - self-guided/img_0396.jpeg
         type: food
         enabled: true
     type: experience
@@ -331,7 +318,7 @@ page_builder:
       - 55fd1566-07d2-4856-b001-0d47ea0ca332
       - fbe5bdc8-92b4-4773-b6eb-b12e6d3edac2
     type: testimonials
-    enabled: true
+    enabled: false
     section_background: none
     hide_from_subnav: false
   -
