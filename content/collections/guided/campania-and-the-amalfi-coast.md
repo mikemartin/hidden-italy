@@ -7,8 +7,8 @@ region: 'Campania and Basilicata'
 days: 13
 seasons: spring
 grade: 3
-updated_by: 2
-updated_at: 1792634371
+updated_by: 3
+updated_at: 1793070343
 image: guided/ravello-5.jpg
 tour_size: 15
 inclusions:
@@ -107,7 +107,7 @@ page_builder:
       -
         id: mlomzy0g
         title: 'Welcome to Naples'
-        description: 'Our accommodation is an elegant 4-star hotel in a pedestrian precinct, a short walk from Via Toledo. After meeting on the panoramic terrace at 18:30 for an appreitivo before we will walk to a sophisticated nearby restaurant for dinner.'
+        description: 'Our accommodation is an elegant 4-star hotel in a pedestrian precinct, a short walk from Via Toledo. After meeting on the panoramic terrace at 19:00 for an appreitivo before we will walk to a sophisticated nearby restaurant for dinner.'
         meals_included:
           - dinner
         photo: guided/campania-and-the-amalfi-coast/1.5.png
