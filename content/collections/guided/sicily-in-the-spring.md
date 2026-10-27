@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: 4
-updated_at: 1791869047
+updated_at: 1793069909
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -251,7 +251,7 @@ page_builder:
       -
         id: EtPXnMrh4_7D4BidgyAzQ
         title: 'Transfer to Catania'
-        description: 'After breakfast, we leave our hotel at 8.00am and transfer to Catania, which has an international airport and rail connections to the mainland (the train is ferried across the Straits of Messina) and to the rest of Europe. If required, we can also organise transfers back to Palermo.'
+        description: 'After breakfast, we leave our hotel and transfer to Catania, which has an international airport and rail connections to the mainland (the train is ferried across the Straits of Messina) and to the rest of Europe. If required, we can also organise transfers back to Palermo.'
         meals_included:
           - breakfast
         photo: guided/sicily-in-the-spring/sicily-day-13.jpg
