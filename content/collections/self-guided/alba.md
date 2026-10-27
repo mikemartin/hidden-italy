@@ -7,7 +7,7 @@ name: 'Sicily 3: Mt Etna and Taormina'
 region: Sicily
 days: 8
 updated_by: 2
-updated_at: 1793083756
+updated_at: 1793085176
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -91,81 +91,89 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloox88g
-    title: 'Alba and Le Langhe walking tour itinerary'
+    title: 'Sicily 3: Mount Etna and Taormina walking tour itinerary'
     summary: "Starting and finishing in beautiful Alba, this 8 day circular walk explores the sweet rolling hills of the Langhe, one of Italy's premier wine and food regions, it is scattered with villages and castles that date from Roman times and crisscrossed with trails that have been walked for centuries."
     days:
       -
         id: mlooymbz
-        title: 'Transfer from Turin to Alba'
-        description: 'You will be taken by private transfer from Turin to beautiful Alba, 95 kilometres south. The plan of the historic centre of Alba reflects its Roman origins (an orderly grid tucked behind defensive walls) while its narrow streets are decidedly medieval, complete with a five brick tower-houses that date from the 13th century.'
-        photo: self-guided/alba-and-le-langhe/alba-2.jpg
+        title: 'Transfer from Catania'
+        description: 'Today you will have a private transfer from Catania (with its airport and train station) to Montalbano Elicona, 1.5 hours away.  Montalbano is a beautiful medieval hilltop town that enjoys views of both the Aeolian Islands to the north and Mt Etna to the south.  Although only small, Montalbano has a long and fascinating history.  It was also elected Italy most beautiful town in 2016.  Your accommodation is in a restored, medieval palazzo.  Dinner included.'
+        photo: self-guided/istock-1203219187.jpg
+        meals_included:
+          - dinner
       -
         id: mloozlek
-        title: 'Walk along the Tanaro River'
-        description: 'You leave Alba heading south-west, passing the Ferrero chocolate factory (home of Nutella) and then follow an easy path along the left bank of the Tanaro River, before turning south and climbing up to a small hilltop village that is famous for its. The second half of the walk takes you through vineyards to another lovely hilltop town, with a ruined castle from where you have a breathtaking view south over all the Langhe hills.'
+        title: 'Walk through the Nebrodi forests'
+        description: 'This morning you follow gently climbing mountain trails through forests and past hazelnut groves to a small village in the heart of the Nebrodi Natural Park.  The village was originally founded by the Romans who logged the surrounding forests.  It was abandoned and then re-founded in the 1600s under Spanish rule.  Your accommodation is in a restored medieval home.'
         duration: 4.0
         distance: 15.0
-        elevation: 281
+        elevation: 738
         meals_included:
           - breakfast
-        photo: self-guided/alba-and-le-langhe/monforte-2.5.jpg
+          - lunch
+          - dinner
+        photo: self-guided/img_4834.jpeg
       -
         id: mlop159i
-        title: 'Walk through vineyards'
-        description: 'Today’s walk takes you through the heart of Barolo country following lanes that cut through the middle of the some of the finest and most famous vineyards in Italy such as ‘Cannubi’ and ‘Sori’, passing through the town of Barolo itself (where you can have lunch and visit one of the cantine and/or its Oenological Museum). After passing through more vineyards, you arrive at another charming hilltop town.'
-        duration: 3.5
+        title: Walk
+        description: 'The longest walk of the tour takes you gradually downhill to Randazzo, a bustling market town at the foot of Mt Etna, overlooking the Alcantara River.  Randazzo has a colourful history.  Founded by the Romans, its heyday was in the Middle Ages when it was variously ruled by the Byzantines, the Arabs, the Normas and the Spanish.  It is nicknamed the Black City because it was built out of volcanic stones from nearby Etna.  Your accommodation is in a B & B in a historical 1800’s noble house.'
+        duration: 4.5
+        distance: 17.0
+        elevation: 230
+        meals_included:
+          - breakfast
+          - lunch
+        photo: self-guided/istock-814590114.jpg
+      -
+        id: mlop3c5r
+        title: 'Walk through chestnut forests'
+        description: 'Today is a very special day: you will have the opportunity of walking on the slopes of Mt Etna.  You have two options.  The lower option is a beautiful loop walk through pine and beach forests.  On the way you cross the solidified lava from the 1981 eruption.  The higher option takes you up towards the craters at the top of the mountain.  In both cases you will also have the option to hire a local guide.  Your accommodation is in a restores boutique hotel from the 1800’s.'
+        duration: 4.0
         distance: 13.0
         elevation: 267
         meals_included:
           - breakfast
-        photo: self-guided/alba-and-le-langhe/monforte-17.jpg
-      -
-        id: mlop3c5r
-        title: 'Walk through chestnut forests'
-        description: 'Today’s walk takes you out of the wine growing area and into the Alta Langhe, the slightly ‘wilder’ (relatively!) part of the district which is characterised by steeper hills, hazelnut and fruit orchards and tracts of chestnut forests. Although there are a couple of hills, today’s walk is quite short which will leave you time to explore the interesting places you are pass, including the very interesting castle with time for a light lunch as well.'
-        duration: 2.5
-        distance: 8.0
-        elevation: 264
-        meals_included:
-          - breakfast
-        photo: self-guided/alba-and-le-langhe/4-v2.jpg
+          - dinner
+        photo: self-guided/istock-2205176309.jpg
       -
         id: mlop5205
-        title: 'Walk along a ridge'
-        description: 'The walk today takes heads north following a ridge above the Belbo River, passing through long tracts of forest and orchards with extensive views south over the Alta Langhe. It passes through a number of small villages where you can break for lunch. With notice, this walk can be shortened.'
-        duration: 4.5
-        distance: 17.0
-        elevation: 401
+        title: 'Follow the Alcantara River'
+        description: "This morning you enjoy a beautiful walk down the fertile plains of the Alcantara River, passing vineyards, olive groves and fruit orchards.  At the end of your walk, you can dive into one of the many spectacular swimming holes that the river offers.  Once you're done, you continue to your nearby accommodation, which is in a luxury country resort."
+        duration: 3.5
+        distance: 11.0
+        elevation: 51
         meals_included:
           - breakfast
-        photo: self-guided/alba-and-le-langhe/10-v2.jpg
+          - dinner
+        photo: self-guided/istock-1203991622.jpg
       -
         id: mlop6avf
-        title: 'Stay in one of the prettiest villages'
-        description: 'Leaving your accommodation the trail further along the ridge through forests and orchards, passing close to Santo Stefano Belbo, the home of one of the Langhe’s favourite sons: Cesare Pavese (1908 to 1950), poet, novelist, critic and translator. The second part of today’s walk takes you back into the sweet rolling hills of the wine country, through vineyards dedicated to Barbaresco, a light version of Barolo, to one of the prettiest and best preserved villages in the area.'
-        duration: 5.5
-        distance: 17.0
-        elevation: 468
+        title: 'Arrive at Castelmola'
+        description: 'After a short drive to a village in the neighbouring valley, you follow a trail uphill through olive groves and almond groves to Castelmola, a medieval village perched on a promontory with breathtaking views over Taormina and the Ionian Sea.  Your accommodation for the next two nights is in a 4-star hotel.'
+        duration: 4.0
+        distance: 12.0
+        elevation: 766
         meals_included:
           - breakfast
-        photo: self-guided/alba-and-le-langhe/img_5836.jpeg
+          - dinner
+        photo: self-guided/istock-969736902.jpg
       -
         id: mlop8uiy
-        title: 'Trak the trail dedicated to Beppe Fenoglio'
-        description: 'The last walk of your visit takes you back to Alba. It loops around through more vineyards, passing a number of settlements, including the town of Barbaresco itself, before entering forest and following the banks of the Tanaro River along a trail that is dedicated to Beppe Fenoglio (1922 to 1963), another beloved local writer who fought the German occupation during World War II. Your last night is spent in Alba.'
-        duration: 3.0
-        distance: 11.0
-        elevation: 135
+        title: 'A free day to explore Taormina and the coast'
+        description: 'Today is free day.  You have the option of hanging around and enjoying what the hotel offers (a swimming pool, a terrace with spectacular views of Mt Etna etc); you can spend the day exploring Taormina, the most glamorous city in Sicily (the hotel has a regular shuttle or you can walk down the steep Trail of Saracens and take the shuttle back); or you can just enjoy the beaches around Giardini/Naxos.'
+        duration: 4.5
+        distance: 1.0
+        elevation: 297
         meals_included:
           - breakfast
-        photo: self-guided/alba-and-le-langhe/alba-view-2.jpg
+        photo: self-guided/img_8959.jpg
       -
         id: mlop9wks
-        title: 'Transfer back to Turin'
-        description: 'After breakfast, you will be taken by private vehicle back to Turin, 95 kilometres to the north.'
+        title: 'Transfer back to Catania'
+        description: "After breakfast, you will be taken by private transfer back to Catania, an hour's drive south."
         meals_included:
           - breakfast
-        photo: self-guided/alba-and-le-langhe/k.jpg
+        photo: self-guided/img_7081.jpeg
     type: itinerary
     enabled: true
     section_background: none
