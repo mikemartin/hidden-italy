@@ -6,8 +6,8 @@ name: 'Sardinia in the Spring'
 region: Sardinia
 days: 13
 seasons: spring
-updated_by: 4
-updated_at: 1791869036
+updated_by: 3
+updated_at: 1793060323
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
@@ -47,13 +47,13 @@ page_builder:
         content:
           -
             type: text
-            text: "\_Apart from its stunning landscapes, Sardinia also has a long and interesting history, most of which has been under the domination of foreign powers from the Phoenicians to the Spanish, all of whom have left their mark on this fascinating region, not least on the island's marvellous cuisine."
+            text: "Apart from its stunning landscapes, Sardinia also has a long and interesting history, most of which has been under the domination of foreign powers from the Phoenicians to the Spanish, all of whom have left their mark on this fascinating region, not least on the island's marvellous cuisine."
       -
         type: paragraph
         content:
           -
             type: text
-            text: "\_Lead by a very qualified and pasionate local guide, this marvellous tour really does uncover some of the secrets of Sardinia, taking you from the bustle of Cagliari to the hidden delights on the south-west; and then from there into the mountains (the heart of the island); finishing with three days on the celebrated Costa Smeralda.\_ What more could you want??"
+            text: "Lead by a very qualified and passionate local guide, this marvellous tour really does uncover some of the secrets of Sardinia, taking you from the bustle of Cagliari to the hidden delights on the south-west; and then from there into the mountains (the heart of the island); finishing with three days on the celebrated Costa Smeralda.\_ What more could you want??"
     column_right:
       -
         type: paragraph
