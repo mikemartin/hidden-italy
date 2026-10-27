@@ -8,13 +8,14 @@ answer:
     content:
       -
         type: text
-        text: "Below are the different gradings we use to describe the walks. Please consider these carefully before booking, and contact us if you have any questions. Please note, your fitness is your responsibility!"
+        text: 'Below are the different gradings we use to describe the walks. Please consider these carefully before booking, walking distances, times and total climb are estimates only and may vary depending on the measuring device used. Contact us if you have any questions, your fitness is your responsibility!'
   -
     type: set
     attrs:
       id: walking-grades-table
       values:
         type: walking_grades_table
-updated_by: 6e2cc1d1-1470-4391-963d-37aed038e27a
-updated_at: 1778497000
+        tour_type: both
+updated_by: 3
+updated_at: 1793076292
 ---
