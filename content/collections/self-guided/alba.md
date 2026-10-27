@@ -1,24 +1,25 @@
 ---
 id: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
+published: false
 blueprint: tour
-title: 'Alba and Le Langhe - Piedmont'
-name: 'Alba and Le Langhe'
-region: Piedmont
+title: 'Sicily 3: Mt Etna and Taormina - Sicily'
+name: 'Sicily 3: Mt Etna and Taormina'
+region: Sicily
 days: 8
-updated_by: 3
-updated_at: 1790314792
-grade: 3
+updated_by: 2
+updated_at: 1793083671
+grade: 4
 inclusions:
-  - 'Private transfer to and from Turin at the beginning and end of the tour'
-  - 'Seven nights accommodation'
-  - 'Daily breakfasts'
-  - 'Reading lists, historical and cultural notes'
+  - 'Private transfers to and from Catania at the beginning and end of the tour'
+  - "Seven nights' accommodation in lovely hotels"
+  - 'Hearty breakfasts each day, four dinners and three lunches'
   - 'The Hidden Italy booklet with maps and detailed walking instructions'
   - 'The Hidden Italy App with GPS to complement the booklet'
   - 'A curated list of restaurants for each town you visit'
   - 'Daily transfers of baggage between hotels each morning'
   - '24-hour support from our local manager'
   - 'City taxes are not included in t'
+  - 'Please note that city taxes are not included in the cost of the tour'
 locations: northern-italy
 landscapes:
   - countryside
@@ -35,19 +36,19 @@ page_builder:
         content:
           -
             type: text
-            text: 'Your well-marked walking trails will take through this exceptional area, passing undulating vineyards, pine forests, orchards and hazel nut farms. Along the way, you will visit in some very attractive towns and villages and stay in welcoming accommodation, that is often part of the history of the towns themselves.'
+            text: "The Nebrodi mountains are the eastern end of the Sicilian Apennines.\_ They are covered by thick forests: cork trees on the lowest slopes which give way to oaks and then beech trees at the higher elevations.\_ They are scattered with some of the prettiest old towns in Sicily, most with striking views of Mt Etna in one direction or the Aeolian Islands in the other.\_ Quieter than much of Sicily, traditions live on here and you are likely run into farmers grazing their stock and eat homemade, old-school fare that you won’t find in city restaurants."
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "You'll also have plenty of opportunity to sample some Le Langhe's very special treats. The district is also one of Italy’s gastronomic capitals, the home of the Slow Food Association, famous for its cheeses, meats, chocolates, hazel nuts and white truffles, as well, of course, as its excellent wines. There is much to see and do!"
-    title: 'Vineyards, pine forests and hazelnut farms'
+            text: "Your tour starts with a private transfer from Catania to Montalbano Elicona, where you spend the first night.\_ You then walk for five days, following mountain paths and droving trails that have connected the villages and towns for centuries, and staying in charming, family-run accommodation.\_ On Day 4, you will have the opportunity of walking the slopes of Mt Etna, with a high or low option, and the possibility of hiring a local guide.\_ The tour finishes with two nights in a 4-star hotel in Castelmola, a pretty town overlooking Taormina.\_ We have included a free day so you can just relax at the end of the hike or take the hotel’s shuttle down to explore Taormina and the Ionian coast."
+    title: 'Forests, Mt Etna, Taormina and the Ionian Sea'
     images:
-      - self-guided/alba-and-le-langhe/3.jpg
-      - self-guided/alba-and-le-langhe/monforte-17.jpg
-      - self-guided/alba-and-le-langhe/monforte-18.jpg
+      - self-guided/img_4834.jpeg
+      - self-guided/img_7122.jpeg
+      - self-guided/taormina-2.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -55,29 +56,29 @@ page_builder:
     activities:
       -
         id: mlooee34
-        title: 'Enjoy a continuous 8-day walk'
-        summary: 'Enjoy a continuous walk through vineyards and forest following well-marked trails from village to village for seven days'
+        title: 'Relish the peace of the forests'
+        summary: 'Relish the peace and tranquility of walking the trails through the oak and beech forests of the Nebrodi Natural Park.'
         icon: trekking-trekking.svg
       -
         id: mloog7vk
-        title: 'Savour the famous food and wines'
-        summary: "Relish the district's famous cuisine (truffles, mushrooms, cheeses, game) and its celebrated wines, both reds and whites"
+        title: 'Savour authentic Sicilian cooking'
+        summary: 'Savour authentic Sicilian cooking, made with only the best local ingredients and lots of patience and ladles of love.'
         icon: 'wine-wine bottle.svg'
       -
-        id: mlooou12
-        title: 'Be wowed by the gorgeous scenery'
-        summary: 'You walk through rolling hills covered in vineyards, past cute towns with the snowy peaks of the Alps in the distance.'
-        icon: geography-cartography-hills.svg
-      -
         id: 0cFvFwfWzMeuNllxlpi-e
-        title: 'Stay in exceptional accommodation'
-        summary: 'Stay in exceptional accommodation from a restored medieval home, to a charming agriturismo and a former royal residence.'
+        title: 'Stay in warm and welcoming accommodation'
+        summary: 'Stay in welcoming accommodation: historic private homes, boutique hotels, a luxury country resort, and a 4-star hotel.'
         icon: culture-Vineyard.svg
       -
         id: wwcrR53eEZZnhGZMcBplA
-        title: 'Explore Alba'
-        summary: 'Enjoy beautiful Alba, one of the most interesting towns in Piedmont - you will have plenty of opportunity to explore it.'
-        icon: culture-Pantheon.svg
+        title: 'Discover Mount Etna'
+        summary: "Explore the majesty and drama of Mount Etna, Europe's highest active volcano."
+        icon: switzerland-mountain.svg
+      -
+        id: vpNpWXcT6Z1VxtOVJjrdS
+        title: 'Strut your stuff in Taormina'
+        summary: "You'll have a day to spend to discover the secrets of the strikingly located Taormina, Sicily's most glamorous city."
+        icon: weather-sun.svg
       -
         id: mlooun08
         title: 'Pull on your boots, we’ll handle the rest'
@@ -334,47 +335,49 @@ page_builder:
     show_topography: false
     hide_from_subnav: true
 simple_likes: 0
-image: self-guided/alba-and-le-langhe/7-v2.jpg
+image: self-guided/img_4994.jpeg
 gallery:
-  - self-guided/alba-and-le-langhe/alba-2.jpg
-  - self-guided/alba-and-le-langhe/10-v2.jpg
-  - self-guided/alba-and-le-langhe/9.jpg
-  - self-guided/alba-and-le-langhe/4-v2.jpg
-  - self-guided/alba-and-le-langhe/5.jpg
-  - self-guided/alba-and-le-langhe/12.jpg
-  - self-guided/alba-and-le-langhe/7-v2.jpg
-  - self-guided/alba-and-le-langhe/3.jpg
-  - self-guided/alba-and-le-langhe/monforte-17.jpg
-  - self-guided/alba-and-le-langhe/monforte-18.jpg
-  - self-guided/alba-and-le-langhe/monforte-2.5.jpg
-  - self-guided/alba-and-le-langhe/img_5838.jpg
+  - self-guided/istock-1203219187.jpg
+  - self-guided/img_4994.jpeg
+  - self-guided/istock-814590114.jpg
+  - self-guided/istock-1203991622.jpg
+  - self-guided/istock-1428912223.jpg
+  - self-guided/istock-1164145134.jpg
+  - self-guided/etna-4.jpg
+  - self-guided/istock-2223022777.jpg
+  - self-guided/istock-2205176309.jpg
+  - self-guided/img_8959.jpg
+  - self-guided/istock-969736902.jpg
+  - self-guided/img_7081.jpeg
 start_location:
-  label: 'Turin, Piedmont, Italy'
-  lat: '45.0677551'
-  lon: '7.6824892'
-  locality: Turin
+  label: 'Montalbano Elicona, Messina, Sicily, 98065, Italy'
+  lat: '38.0234426'
+  lon: '15.0142498'
+  postalCode: '98065'
+  locality: 'Montalbano Elicona'
   adminLevels:
     1:
-      name: Piedmont
+      name: Sicily
       code: null
       level: 1
     2:
-      name: Turin
+      name: Messina
       code: null
       level: 2
   country: Italy
 finish_location:
-  label: 'Alba, Piedmont, Italy'
-  lat: '44.7007236'
-  lon: '8.0357786'
-  locality: Alba
+  label: 'Castelmola, Messina, Sicily, 98030, Italy'
+  lat: '37.8583477'
+  lon: '15.2773159'
+  postalCode: '98030'
+  locality: Castelmola
   adminLevels:
     1:
-      name: Piedmont
+      name: Sicily
       code: null
       level: 1
     2:
-      name: Cuneo
+      name: Messina
       code: null
       level: 2
   country: Italy
@@ -383,15 +386,15 @@ seasons:
   - autumn
   - spring
   - summer
-headline: "Explore the Langhe's rolling hills"
-teaser: 'An 8-day tour that takes you through the seductive rolling hills of southern Piedmont.'
+headline: 'Discover hidden Sicily'
+teaser: 'This fabulous 8-day tour takes you from the stunning Nebrodi mountains to the Ionian Sea.'
 summary:
   -
     type: paragraph
     content:
       -
         type: text
-        text: "This delightful 8-day/7-night circuit walk starts with a private transfer to beautiful Alba, 95 kilometres south of Turin.\_A handsome town of Roman origin, Alba is the ‘capital’ of the Langhe, a close-knit range of hills and valleys which are crowded with impeccably tended rows of nebbiolo vines, the source of some of Italy’s finest wines, including Barolo and Barbaresco.\_They form a unique and striking landscape which is dotted with attractive hill-towns, castles and wineries, so much so that the district was recently listed as a UNESCO World Heritage site."
+        text: "This extraordinary walk encompasses the north-eastern corner of Sicily, beginning above the Montalbano Elicona (named ‘The Most Beautiful Town in Italy’ in 2016) in the mountains above the Tyrrhenian coast and finishing at Castelmola, a charming town overlooking Taormina and Ionian Sea.\_ This tour has it all: it takes you through the forests and farmlands of the Nebrodi Natural Park, Sicily largest protected green space; along the pristine Alcantara River, with its famous gorge, perfect for swimming in; to the slopes of Mount Etna, the largest active volcano in Europe; and finally, to Taormina, the most glamorous town in Sicily.\_ Along the way, you enjoy relaxing walks, stay in gorgeous small towns, all with rich histories, meet fine people and eat excellent food!"
 price: 'A$3,300 pp'
 show_from: true
 og_image: piedmont-alba-and-le-langhe-og-1779335292.png
@@ -400,5 +403,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-overlay_opacity: 30
+overlay_opacity: 20
 ---
