@@ -7,7 +7,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: 3
-updated_at: 1793060323
+updated_at: 1793060569
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
