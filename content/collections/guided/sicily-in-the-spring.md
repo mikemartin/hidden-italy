@@ -6,8 +6,8 @@ name: 'Sicily in the Spring'
 region: Sicily
 seasons: spring
 locations: southern-italy
-updated_by: 4
-updated_at: 1793069909
+updated_by: 3
+updated_at: 1793075911
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -145,8 +145,8 @@ page_builder:
         title: 'Walk in the mountains'
         description: "The first walk of the tour takes us into the heart of the Madonie National Natural Park. It is a beautiful high mountain walk finishing in a small fortified town, perched on the edge of the park, that was the original seat of the area's feudal lords. After a light lunch, we'll explore this beautifully situated town before returning to our base."
         duration: 4.0
-        distance: 13.0
-        elevation: 455
+        distance: 12.0
+        elevation: 370
         meals_included:
           - breakfast
           - lunch
@@ -233,8 +233,8 @@ page_builder:
         id: O0emPib_FcRIp-1IWMCpC
         title: 'Walk in the forests of Mt Etna'
         description: 'Today we drive around the northern side of Mt Etna and then up into the Etna National Park, taking a beautiful walk through forests of oak, beech and birch trees, crossing countryside modelled by centuries of lava flows with the peak of snow-capped Mount Etna looming above. We then drive down the mountain for a wine tasting and lunch at a small family-run vineyard. After a stroll around the vineyard, we’ll drive back to our hotel where the evening is free.'
-        duration: 4.0
-        distance: 11.0
+        duration: 3.5
+        distance: 10.0
         elevation: 316
         meals_included:
           - breakfast
