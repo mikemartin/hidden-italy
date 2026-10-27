@@ -242,7 +242,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        description: "The tour finishes with a spectacular walk down the coast, following a path high above the sea.  At the end of the walk, you will be transferred to a beach club where you can have a swim and a light lunch.  The afternoon is free.  We will regroup for a farewell aperitivo and dinner in one of the town's excellent restaurants."
+        description: "The tour finishes with a spectacular walk down the coast, following a path high above the sea.  At the end of the walk, you will be transferred to a beach club where you can have a swim and lunch at leisure. The afternoon is free.  We will regroup for a farewell aperitivo and dinner in one of the town's excellent restaurants."
         duration: 3.0
         distance: 8.0
         elevation: 89
@@ -393,8 +393,8 @@ show_from: true
 seasons: autumn
 locations: southern-italy
 simple_likes: 0
-updated_by: 2
-updated_at: 1791262432
+updated_by: 4
+updated_at: 1793070649
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/fasanelli-2.webp

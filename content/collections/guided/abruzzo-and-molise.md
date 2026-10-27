@@ -6,7 +6,7 @@ name: 'Abruzzo and Molise'
 region: 'Apennines & Adriatic Coast'
 days: 13
 updated_by: 4
-updated_at: 1791869001
+updated_at: 1793070926
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
@@ -118,10 +118,10 @@ page_builder:
         photo: guided/abruzzo-and-molise/img_8437.jpeg
       -
         id: mloqzruj
-        title: 'Walk through rolling hills'
-        description: 'This morning we go for a fascinating walk starting from our village, following an undulating trail that was once used by drovers moving their flocks between the mountains and the coast. Along the way, we stop at the spectacular ruins of a medieval castle. From here we walk down into the valley past a lake and farmlands to the next village. After refreshments, we will be driven back to base. The evening is free.'
+        title: 'Panoramic walking with mountain views'
+        description: 'This morning we go for a fascinating walk starting from our village, following an undulating trail that was once used by drovers moving their flocks between the mountains and the coast. Along the way, we stop at the spectacular ruins of a medieval castle. After lunch at a trattoria below the castle, we will enjoy walking back to our village. The evening is free.'
         duration: 5.0
-        distance: 15.0
+        distance: 13.0
         elevation: 650
         meals_included:
           - breakfast
