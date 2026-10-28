@@ -1,13 +1,12 @@
 ---
 id: c347babe-d7f2-4fbf-8507-e63b3708228e
-published: false
 blueprint: tour
 title: 'Alba and Le Langhe - Piedmont'
 name: 'Alba and Le Langhe'
 region: Piedmont
 days: 8
-updated_by: 2
-updated_at: 1793080808
+updated_by: 4
+updated_at: 1793164830
 grade: 3
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
