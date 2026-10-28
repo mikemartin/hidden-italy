@@ -5,8 +5,8 @@ title: 'Abruzzo and Molise - Apennines & Adriatic Coast'
 name: 'Abruzzo and Molise'
 region: 'Apennines & Adriatic Coast'
 days: 13
-updated_by: 4
-updated_at: 1793070926
+updated_by: 3
+updated_at: 1793147549
 grade: 3
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in hotels and private apartments'
@@ -95,7 +95,7 @@ page_builder:
       -
         id: mloqwjgq
         title: 'Arrive in Rome'
-        description: 'The tour starts in the heart of Rome, in an historic hotel a short walk from the Pantheon. We will meet at the hotel at 19.00 and walk to dinner at a nearby osteria which specialises in classic Roman cuisine.'
+        description: 'The tour starts in the heart of Rome, in an historic hotel a short walk from the Pantheon. We will meet at the hotel and walk to dinner at a nearby osteria which specialises in classic Roman cuisine.'
         meals_included:
           - dinner
         photo: guided/abruzzo-and-molise/rome-2.jpg
