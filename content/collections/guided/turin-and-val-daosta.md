@@ -5,8 +5,8 @@ title: "Turin and Val d'Aosta - Val d'Aosta"
 name: "Turin and Val d'Aosta"
 region: "Val d'Aosta"
 days: 13
-updated_by: 4
-updated_at: 1790214898
+updated_by: 3
+updated_at: 1793148680
 grade: 4
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -101,7 +101,7 @@ page_builder:
       -
         id: mloqwjgq
         title: 'Arrive in Turin'
-        description: 'Arrival in Turin, my favourite Italian city: miles of arcades with bookshops, chocolate shops, excellent museums and historic cafes.  We will spend the first two nights in an elegant 4-star hotel in the pedestrian centre of the city.  We’ll meet in the hotel foyer at 19.00 and then have dinner in a very nice restaurant a short walk from the hotel.'
+        description: 'Arrival in Turin, my favourite Italian city: miles of arcades with bookshops, chocolate shops, excellent museums and historic cafes.  We will spend the first two nights in an elegant 4-star hotel in the pedestrian centre of the city.  We’ll meet in the hotel foyer and then have dinner in a very nice restaurant a short walk from the hotel.'
         meals_included:
           - dinner
         photo: guided/turin-and-val-daosta/1.jpg

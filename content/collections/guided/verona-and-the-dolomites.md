@@ -5,8 +5,8 @@ title: 'Verona and the Dolomites - Trentino-Alto Adige & Veneto'
 name: 'Verona and the Dolomites'
 region: 'Trentino-Alto Adige & Veneto'
 days: 13
-updated_by: 4
-updated_at: 1792549950
+updated_by: 3
+updated_at: 1793148721
 locations: northern-italy
 grade: 3
 image: guided/verona-and-the-dolomites/-p9192176.jpg
@@ -108,7 +108,7 @@ page_builder:
       -
         id: mlrazs21
         title: 'Arrive in Verona'
-        description: "The tour starts in Verona, one of the most beautiful and romantic towns in Italy. After meeting in our hotel foyer at 19.00, we'll have a traditional dinner in one of the town's finest osterias."
+        description: "The tour starts in Verona, one of the most beautiful and romantic towns in Italy. After meeting in our hotel foyer, we'll have a traditional dinner in one of the town's finest osterias."
         meals_included:
           - dinner
         photo: guided/verona-and-the-dolomites/7.jpg

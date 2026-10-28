@@ -326,7 +326,7 @@ seasons: summer
 locations: australasia
 simple_likes: 0
 updated_by: 3
-updated_at: 1791868847
+updated_at: 1793148834
 badge_text: 'FULLY BOOKED'
 og_image: waiheke-new-zealand-og-1790048024.png
 ---
