@@ -7,7 +7,7 @@ region: Sicily
 seasons: spring
 locations: southern-italy
 updated_by: 3
-updated_at: 1793076975
+updated_at: 1793147438
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -119,7 +119,7 @@ page_builder:
       -
         id: Oq_aVZ8gM2mizpzgstXmK
         title: 'Arrive in Palermo'
-        description: "Our Sicily tour starts in Palermo, the capital of Sicily, which is pressed between the mountains and the sea, a striking setting for what must be one of the most exotic cities in Europe. Its architecture and culture reflect the extraordinarily rich fabric of its past. Our accommodation for the first two nights is in an elegant hotel in the lively commercial centre of Palermo. We'll meet in the hotel foyer at 19.00 and have a light dinner in a neighbouring restaurant."
+        description: "Our Sicily tour starts in Palermo, the capital of Sicily, which is pressed between the mountains and the sea, a striking setting for what must be one of the most exotic cities in Europe. Its architecture and culture reflect the extraordinarily rich fabric of its past. Our accommodation for the first two nights is in an elegant hotel in the lively commercial centre of Palermo. We'll meet in the hotel foyer and have a light dinner in a neighbouring restaurant."
         meals_included:
           - dinner
         photo: guided/sicily-in-the-spring/29.jpg

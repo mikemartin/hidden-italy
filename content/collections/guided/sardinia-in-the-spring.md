@@ -7,7 +7,7 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: 3
-updated_at: 1793065969
+updated_at: 1793147207
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
@@ -114,7 +114,7 @@ page_builder:
       -
         id: mlpyl0hm
         title: 'Arrive in Cagliari'
-        description: 'Our exploration of Sardinia starts with two nights in the capital Cagliari, a buzzy but relaxed port that DH Lawrence linked to Jerusalem, “a strange and rather wonderful city”. We stay in a classic 4-star hotel on the edge of the old town, a short walk from the harbour and the medieval district. We will meet in the foyer of the hotel at 19.00 for introductions before walking to a lovely nearby restaurant for dinner.'
+        description: 'Our exploration of Sardinia starts with two nights in the capital Cagliari, a buzzy but relaxed port that DH Lawrence linked to Jerusalem, “a strange and rather wonderful city”. We stay in a classic 4-star hotel on the edge of the old town, a short walk from the harbour and the medieval district. We will meet in the foyer of the hotel for introductions before walking to a lovely nearby restaurant for dinner.'
         meals_included:
           - dinner
         photo: guided/sardinia-in-the-spring/02.jpg

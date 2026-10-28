@@ -126,7 +126,7 @@ page_builder:
       -
         id: Om5y5FTAtdk95fGc42Xbj
         title: 'Arrive in Gubbio'
-        description: 'The tour starts in Gubbio, one of Umbria’s most beautifully preserved medieval towns. Built into the slopes of Monte Ingino, Gubbio provides an exceptional introduction to the region, with medieval streets, Roman heritage, artisan traditions, and sweeping views over the countryside. We’ll meet at the hotel at 19.00 and walk to dinner.'
+        description: 'The tour starts in Gubbio, one of Umbria’s most beautifully preserved medieval towns. Built into the slopes of Monte Ingino, Gubbio provides an exceptional introduction to the region, with medieval streets, Roman heritage, artisan traditions, and sweeping views over the countryside. We’ll meet at the hotel and walk to dinner.'
         meals_included:
           - dinner
         photo: guided/ducale-1.jpg
@@ -390,8 +390,8 @@ show_from: true
 seasons: autumn
 locations: central-italy
 simple_likes: 0
-updated_by: 4
-updated_at: 1791499163
+updated_by: 3
+updated_at: 1793147336
 summary:
   -
     type: paragraph
