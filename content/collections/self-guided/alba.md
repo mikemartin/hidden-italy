@@ -7,7 +7,7 @@ name: 'Sicily 3: Mt Etna and Taormina'
 region: Sicily
 days: 8
 updated_by: 2
-updated_at: 1793170145
+updated_at: 1793170173
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -115,7 +115,7 @@ page_builder:
         photo: self-guided/img_4834.jpeg
       -
         id: mlop159i
-        title: "Walk to the 'Black Town'"
+        title: "Walk to the 'Black City'"
         description: 'The longest walk of the tour takes you gradually downhill to Randazzo, a bustling market town at the foot of Mt Etna, overlooking the Alcantara River.  Randazzo has a colourful history.  Founded by the Romans, its heyday was in the Middle Ages when it was variously ruled by the Byzantines, the Arabs, the Normas and the Spanish.  It is nicknamed the Black City because it was built out of volcanic stones from nearby Etna.  Your accommodation is in a B & B in a historical 1800’s noble house.'
         duration: 4.5
         distance: 17.0
