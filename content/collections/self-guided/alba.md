@@ -6,8 +6,8 @@ title: 'Sicily 3: Mt Etna and Taormina - Sicily'
 name: 'Sicily 3: Mt Etna and Taormina'
 region: Sicily
 days: 8
-updated_by: 2
-updated_at: 1793170173
+updated_by: 4
+updated_at: 1793226805
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -52,7 +52,7 @@ page_builder:
     hide_from_subnav: false
   -
     id: mloocwbk
-    heading: 'Highlights of the Alba and Le Langhe tour'
+    heading: 'Highlights of the Sicily 3 Tour'
     activities:
       -
         id: mlooee34
@@ -246,6 +246,8 @@ page_builder:
                 text: 'To help guide you on this wonderful walk, you’ll receive our Hidden Italy booklet — a handy A5 guide with detailed daily walking notes and clear maps, updated and revised each year. You’ll also have access to our exclusive Hidden Italy App, which complements the booklet and works on both Apple and Android devices. The app includes route maps, GPS tracks, altimetric profiles, turn-by-turn navigation, an alert if you stray off the path, and an emergency function. In addition, you’ll have 24-hour phone support from our local team.'
         type: general
         enabled: true
+        heading: 'Support on the tour'
+        link_text: 'Support on the tour'
       -
         id: 2kijTuCwT4FnieL72cjfY
         body:
