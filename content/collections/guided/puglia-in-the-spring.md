@@ -6,7 +6,7 @@ name: 'Puglia in the Spring'
 region: Puglia
 days: 13
 updated_by: 4
-updated_at: 1792458953
+updated_at: 1793228828
 grade: 2
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -175,7 +175,7 @@ page_builder:
       -
         id: mlor867w
         title: 'Visit Matera'
-        description: "Matera is an extraordinary town, not only for its past but also its future. Although only a pleasant ninety-minute drive from our base, Matera seems to belong to another world. Below the modern town, in a deep ravine, are the famous Sassi, one of Italy's oddest urban settlements, a silent medieval cave city with prehistoric origins. We will be taken on a guided tour of the town in the morning. After lunch, we head back to base, where we will have dinner."
+        description: "Matera is an extraordinary town, not only for its past but also its future. Although only a pleasant ninety-minute drive from our base, Matera seems to belong to another world. Below the modern town, in a deep ravine, are the famous Sassi, one of Italy's oddest urban settlements, a silent medieval cave city with prehistoric origins. We will be taken on a guided tour of the town in the morning. After lunch at leisure, we head back to base, where we will have dinner."
         meals_included:
           - breakfast
           - dinner
