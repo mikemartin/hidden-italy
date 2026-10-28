@@ -7,18 +7,18 @@ name: 'Sicily 3: Mt Etna and Taormina'
 region: Sicily
 days: 8
 updated_by: 4
-updated_at: 1793226805
+updated_at: 1793231380
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
   - "Seven nights' accommodation in lovely hotels"
-  - 'Hearty breakfasts each day, four dinners and three lunches'
+  - 'Daily breakfasts, four dinners and three lunches'
+  - 'Reading lists, historical and cultural notes'
   - 'The Hidden Italy booklet with maps and detailed walking instructions'
   - 'The Hidden Italy App with GPS to complement the booklet'
   - 'A curated list of restaurants for each town you visit'
   - 'Daily transfers of baggage between hotels each morning'
   - '24-hour support from our local manager'
-  - 'City taxes are not included in t'
   - 'Please note that city taxes are not included in the cost of the tour'
 locations: northern-italy
 landscapes:
@@ -389,7 +389,7 @@ summary:
     content:
       -
         type: text
-        text: "This extraordinary walk encompasses the north-eastern corner of Sicily, beginning above the Montalbano Elicona (named ‘The Most Beautiful Town in Italy’ in 2016) in the mountains above the Tyrrhenian coast and finishing at Castelmola, a charming town overlooking Taormina and Ionian Sea.\_ This tour has it all: it takes you through the forests and farmlands of the Nebrodi Natural Park, Sicily largest protected green space; along the pristine Alcantara River, with its famous gorge, perfect for swimming in; to the slopes of Mount Etna, the largest active volcano in Europe; and finally, to Taormina, the most glamorous town in Sicily.\_ Along the way, you enjoy relaxing walks, stay in gorgeous small towns, all with rich histories, meet fine people and eat excellent food!"
+        text: "This extraordinary walk encompasses the north-eastern corner of Sicily, beginning above the Montalbano Elicona (named ‘The Most Beautiful Town in Italy’ in 2016) in the mountains above the Tyrrhenian coast and finishing at Castelmola, a charming town overlooking Taormina and the Ionian Sea.\_This tour has it all: it takes you through the forests and farmlands of the Nebrodi Natural Park, Sicily's largest protected green space; along the pristine Alcantara River, with its famous gorge, perfect for swimming in; to the slopes of Mount Etna, the largest active volcano in Europe; and finally, to Taormina, the most glamorous town in Sicily.\_Along the way, you enjoy relaxing walks, stay in gorgeous small towns, all with rich histories, meet fine people and eat excellent food!"
 price: 'A$3,300 pp'
 show_from: true
 og_image: piedmont-alba-and-le-langhe-og-1779335292.png

@@ -6,7 +6,7 @@ name: 'Alba and Le Langhe'
 region: Piedmont
 days: 8
 updated_by: 4
-updated_at: 1793164830
+updated_at: 1793231397
 grade: 3
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
@@ -18,7 +18,7 @@ inclusions:
   - 'A curated list of restaurants for each town you visit'
   - 'Daily transfers of baggage between hotels each morning'
   - '24-hour support from our local manager'
-  - 'City taxes are not included in t'
+  - 'Please note that city taxes are not included in the cost of the tour'
 locations: northern-italy
 landscapes:
   - countryside
