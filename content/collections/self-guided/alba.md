@@ -7,7 +7,7 @@ name: 'Sicily 3: Mt Etna and Taormina'
 region: Sicily
 days: 8
 updated_by: 2
-updated_at: 1793086267
+updated_at: 1793169862
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -96,14 +96,14 @@ page_builder:
     days:
       -
         id: mlooymbz
-        title: 'Transfer from Catania'
+        title: 'Transfer to Montalbano Elicona'
         description: 'Today you will have a private transfer from Catania (with its airport and train station) to Montalbano Elicona, 1.5 hours away.  Montalbano is a beautiful medieval hilltop town that enjoys views of both the Aeolian Islands to the north and Mt Etna to the south.  Although only small, Montalbano has a long and fascinating history.  It was also elected Italy most beautiful town in 2016.  Your accommodation is in a restored, medieval palazzo.  Dinner included.'
         photo: self-guided/istock-1203219187.jpg
         meals_included:
           - dinner
       -
         id: mloozlek
-        title: 'Walk through the Nebrodi forests'
+        title: 'Enjoy the Nebrodi forests'
         description: 'This morning you follow gently climbing mountain trails through forests and past hazelnut groves to a small village in the heart of the Nebrodi Natural Park.  The village was originally founded by the Romans who logged the surrounding forests.  It was abandoned and then re-founded in the 1600s under Spanish rule.  Your accommodation is in a restored medieval home.'
         duration: 4.0
         distance: 15.0
@@ -115,7 +115,7 @@ page_builder:
         photo: self-guided/img_4834.jpeg
       -
         id: mlop159i
-        title: Walk
+        title: "Walk to the 'Black Town'"
         description: 'The longest walk of the tour takes you gradually downhill to Randazzo, a bustling market town at the foot of Mt Etna, overlooking the Alcantara River.  Randazzo has a colourful history.  Founded by the Romans, its heyday was in the Middle Ages when it was variously ruled by the Byzantines, the Arabs, the Normas and the Spanish.  It is nicknamed the Black City because it was built out of volcanic stones from nearby Etna.  Your accommodation is in a B & B in a historical 1800’s noble house.'
         duration: 4.5
         distance: 17.0
@@ -126,7 +126,7 @@ page_builder:
         photo: self-guided/istock-814590114.jpg
       -
         id: mlop3c5r
-        title: 'Walk through chestnut forests'
+        title: 'Discover Mount Etna'
         description: 'Today is a very special day: you will have the opportunity of walking on the slopes of Mt Etna.  You have two options.  The lower option is a beautiful loop walk through pine and beach forests.  On the way you cross the solidified lava from the 1981 eruption.  The higher option takes you up towards the craters at the top of the mountain.  In both cases you will also have the option to hire a local guide.  Your accommodation is in a restores boutique hotel from the 1800’s.'
         duration: 4.0
         distance: 13.0
@@ -137,7 +137,7 @@ page_builder:
         photo: self-guided/istock-2205176309.jpg
       -
         id: mlop5205
-        title: 'Follow the Alcantara River'
+        title: 'Walk the Alcantara River'
         description: "This morning you enjoy a beautiful walk down the fertile plains of the Alcantara River, passing vineyards, olive groves and fruit orchards.  At the end of your walk, you can dive into one of the many spectacular swimming holes that the river offers.  Once you're done, you continue to your nearby accommodation, which is in a luxury country resort."
         duration: 3.5
         distance: 11.0
@@ -159,7 +159,7 @@ page_builder:
         photo: self-guided/istock-969736902.jpg
       -
         id: mlop8uiy
-        title: 'A free day to explore Taormina and the coast'
+        title: 'Explore Taormina'
         description: 'Today is free day.  You have the option of hanging around and enjoying what the hotel offers (a swimming pool, a terrace with spectacular views of Mt Etna etc); you can spend the day exploring Taormina, the most glamorous city in Sicily (the hotel has a regular shuttle or you can walk down the steep Trail of Saracens and take the shuttle back); or you can just enjoy the beaches around Giardini/Naxos.'
         duration: 4.5
         distance: 1.0
@@ -237,7 +237,6 @@ page_builder:
     sections:
       -
         id: s5LqZM3JT9wLBd_5Qr6gN
-        heading: 'Support on the tour'
         body:
           -
             type: paragraph
@@ -314,13 +313,12 @@ page_builder:
     id: wJiPgTM98bfJql8xCh5Nc
     heading: 'What our travellers are saying'
     testimonials:
-      - 8bad08d1-c459-47ff-b947-f620f0cf5c4b
-      - 55fd1566-07d2-4856-b001-0d47ea0ca332
-      - fbe5bdc8-92b4-4773-b6eb-b12e6d3edac2
+      - 4657e340-53bf-4111-b64e-ae6016e83e16
     type: testimonials
     enabled: false
-    section_background: none
+    section_background: light
     hide_from_subnav: false
+    show_topography: true
   -
     id: wb_zSLmwMP3HTXi3dBe
     type: walking_benefits
@@ -381,7 +379,7 @@ seasons:
   - autumn
   - spring
   - summer
-headline: 'Discover hidden Sicily'
+headline: "Discover the 'real' Sicily"
 teaser: 'This fabulous 8-day tour takes you from the stunning Nebrodi mountains to the Ionian Sea.'
 summary:
   -
