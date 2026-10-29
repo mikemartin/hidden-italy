@@ -7,7 +7,7 @@ name: 'Sicily 3: Mt Etna and Taormina'
 region: Sicily
 days: 8
 updated_by: 4
-updated_at: 1793232431
+updated_at: 1793232978
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -192,7 +192,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "This is a continuous walk from the Nebrodi Mountains to the Ionian Sea.\_ The daily walks vary from 17 kilometres to 4 kilometres with some long steady climbs and long steady descents (details on the daily itinerary).\_ You walk mostly on established hiking trails and droving tracks.\_ Although the trails are not fully way-marked the routes are straightforward to follow (you will have the detailed roadbook and Hidden Italy app to show you the way.\_"
+                text: "This is a continuous walk from the Nebrodi Mountains to the Ionian Sea. The daily walks vary from 17 kilometres to 4 kilometres with some long steady climbs and long steady descents (details on the daily itinerary).\_You walk mostly on established hiking trails and droving tracks. Although the trails are not fully way-marked, the routes are straightforward to follow (you will have the detailed roadbook and Hidden Italy app to show you the way).\_"
         image: self-guided/img_4994.jpeg
         type: walk
         enabled: true
@@ -207,7 +207,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Hidden Italy uses the best accommodation available and it is one of the highlights of the tour.\_ Most of the accommodation is part of the local history.\_ It ranges from a B&B in a restored noble house to a 4-star hotel overlooking the Ionian Sea, with a luxury country resort and a family-run 3-star hotel in between.\_ All the rooms have private, en suite bathrooms.\_"
+                text: "Hidden Italy uses the best accommodation available and it is one of the highlights of the tour.\_Most of the accommodation is part of the local history.\_It ranges from a B&B in a restored noble house to a 4-star hotel overlooking the Ionian Sea, with a luxury country resort and a family-run 3-star hotel in between.\_All the rooms have private, en suite bathrooms.\_"
         media:
           - self-guided/montalbano-domus.jpg
         type: accommodation
@@ -221,7 +221,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Food is one of the highlights of a visit to this prosperous area, all based on delicious seasonal vegetables and fruits and fresh farm produce, including cheeses like fresh ricotta and\_cacciacavallo; cured hams and salami; an amazing variety of breads; olives, eggplants and wild greens and, of course, those wonderful Sicilian pastries.\_ And then there is the seafood on the coast!  Generous breakfasts are included each day. Given the relative 'isolation' of the small villages and 'agriturismo' you stay on during this wonderful walk, we have also included some of the dinners and lunches as well (see the daily itinerary for details)."
+                text: "Food is one of the highlights of a visit to this prosperous area, all based on delicious seasonal vegetables and fruits and fresh farm produce, including cheeses like fresh ricotta and\_caciocavallo; cured hams and salami; an amazing variety of breads; olives, eggplants and wild greens and of course, those wonderful Sicilian pastries. And then there is the seafood on the coast! Generous breakfasts are included each day. Given the relative 'isolation' of the small villages and 'agriturismo' you stay on during this wonderful walk, we have also included some of the dinners and lunches as well (see the daily itinerary for details)."
         media:
           - self-guided/img_0396.jpeg
         type: food
@@ -256,7 +256,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "A pair of comfortable walking shoes and a mobile phone are the two the most essential items.\_ On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
+                text: "A pair of comfortable walking shoes and a mobile phone are the two most essential items. On the walks, we suggest a loose pair of trousers or shorts, a hiking T-shirt, a hat, walking poles and a waterproof jacket. \_You’ll need to take a good supply of water, some energy food and a small first aid kit. \_Dining is fairly relaxed, so you can leave your ties and tiaras at home, but you are still in Italy: smart casual wear is best."
         type: equipment
         enabled: true
       -
