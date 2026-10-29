@@ -7,8 +7,8 @@ region: 'Campania and Basilicata'
 days: 13
 seasons: spring
 grade: 3
-updated_by: 3
-updated_at: 1793151346
+updated_by: 4
+updated_at: 1793310174
 image: guided/ravello-5.jpg
 tour_size: 15
 inclusions:
@@ -262,19 +262,19 @@ page_builder:
             content:
               -
                 type: text
-                text: "The accommodation is one of the highlights of the tour.\_ In Naples we stay in a very nice 4-star in the centre of the city, near Via Toledo.\_ In the Apennines, our base is an hour and a half east of Naples, well off the beaten tourist trails.\_ We will be staying in a lovely family-run country hotel in a small hilltop town that looks over to the mountai.\_"
+                text: "The accommodation is one of the highlights of the tour.\_In Naples, we stay in a very nice 4-star hotel in the centre of the city, near Via Toledo.\_ In the Apennines, our base is an hour and a half east of Naples, well off the beaten tourist trails.\_We will be staying in a lovely family-run country hotel in a small hilltop town that looks over to the mountains.\_"
           -
             type: paragraph
             content:
               -
                 type: text
-                text: "We then head south to the border between Campania and Basilicata.\_ Here we spend three nights in a 4-star hote, a restored 18th century monastery, in the heart of a town with views over the Pollicastro Gulf.\_ The hotel has beautiful gardens and a great swimming pool."
+                text: "We then head south to the border between Campania and Basilicata.\_ Here we spend three nights in a 4-star hotel, a restored 18th-century monastery, in the heart of a town with views over the Pollicastro Gulf.\_ The hotel has beautiful gardens and a great swimming pool."
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'The tour finishes in marvellous Ravello, perched high above the Amalfi Coast. Our accommodation is another 4-star hotel, also with gardens, a swimming pool and great views, a short walk from the mian piazza and from Villa Cimbrone.'
+                text: 'The tour finishes in marvellous Ravello, perched high above the Amalfi Coast. Our accommodation is another 4-star hotel also with gardens, a swimming pool and great views, a short walk from the main piazza and from Villa Cimbrone.'
         media:
           - guided/rufolo-2.jpg
         type: accommodation
