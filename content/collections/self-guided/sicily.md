@@ -7,7 +7,7 @@ name: 'Sicily 3: Mt Etna and Taormina'
 region: Sicily
 days: 8
 updated_by: 4
-updated_at: 1793231380
+updated_at: 1793232016
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
