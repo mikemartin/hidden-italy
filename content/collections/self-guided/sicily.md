@@ -7,7 +7,7 @@ name: 'Sicily 3: Mt Etna and Taormina'
 region: Sicily
 days: 8
 updated_by: 2
-updated_at: 1793235399
+updated_at: 1793245179
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -47,7 +47,7 @@ page_builder:
     title: 'Forests, Mt Etna, Taormina and the Ionian Sea'
     images:
       - self-guided/img_4834.jpeg
-      - self-guided/img_7163-v2.jpeg
+      - self-guided/istock-814590114.jpg
       - self-guided/taormina-2.jpg
     hide_from_subnav: false
   -
