@@ -6,7 +6,7 @@ name: 'Lake Como'
 region: Lombardy
 days: 7
 updated_by: 2
-updated_at: 1793307588
+updated_at: 1793311696
 grade: 3
 inclusions:
   - '6 nights accommodation'
@@ -378,7 +378,7 @@ now_open: false
 seasons:
   - spring
   - summer
-  - winter
+  - autumn
 teaser: 'The most romantic of the Italian lakes with an extensive network of ancient paths'
 summary:
   -
