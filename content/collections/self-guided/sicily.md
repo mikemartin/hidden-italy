@@ -7,7 +7,7 @@ name: 'Sicily 3: Mt Etna and Taormina'
 region: Sicily
 days: 8
 updated_by: 4
-updated_at: 1793232016
+updated_at: 1793232431
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -36,14 +36,14 @@ page_builder:
         content:
           -
             type: text
-            text: "The Nebrodi mountains are the eastern end of the Sicilian Apennines.\_ They are covered by thick forests: cork trees on the lowest slopes which give way to oaks and then beech trees at the higher elevations.\_ They are scattered with some of the prettiest old towns in Sicily, most with striking views of Mt Etna in one direction or the Aeolian Islands in the other.\_ Quieter than much of Sicily, traditions live on here and you are likely run into farmers grazing their stock and eat homemade, old-school fare that you won’t find in city restaurants."
+            text: "The Nebrodi mountains are the eastern end of the Sicilian Apennines.\_They are covered by thick forests: cork trees on the lowest slopes which give way to oaks and then beech trees at the higher elevations.\_They are scattered with some of the prettiest old towns in Sicily, most with striking views of Mt. Etna in one direction or the Aeolian Islands in the other. Quieter than much of Sicily, traditions live on here and you are likely to run into farmers grazing their stock and eat homemade, old-school fare that you won’t find in city restaurants."
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "Your tour starts with a private transfer from Catania to Montalbano Elicona, where you spend the first night.\_ You then walk for five days, following mountain paths and droving trails that have connected the villages and towns for centuries, and staying in charming, family-run accommodation.\_ On Day 4, you will have the opportunity of walking the slopes of Mt Etna, with a high or low option, and the possibility of hiring a local guide.\_ The tour finishes with two nights in a 4-star hotel in Castelmola, a pretty town overlooking Taormina.\_ We have included a free day so you can just relax at the end of the hike or take the hotel’s shuttle down to explore Taormina and the Ionian coast."
+            text: "Your tour starts with a private transfer from Catania to Montalbano Elicona, where you spend the first night.\_You then walk for five days, following mountain paths and droving trails that have connected the villages and towns for centuries, and staying in charming, family-run accommodation.\_On Day 4, you will have the opportunity to walk the slopes of Mt Etna, with a high or low option, and the possibility of hiring a local guide.\_The tour finishes with two nights in a 4-star hotel in Castelmola, a pretty town overlooking Taormina. We have included a free day so you can just relax at the end of the hike or take the hotel’s shuttle down to explore Taormina and the Ionian coast."
     title: 'Forests, Mt Etna, Taormina and the Ionian Sea'
     images:
       - self-guided/img_4834.jpeg
@@ -97,14 +97,14 @@ page_builder:
       -
         id: mlooymbz
         title: 'Transfer to Montalbano Elicona'
-        description: 'Today you will have a private transfer from Catania (with its airport and train station) to Montalbano Elicona, 1.5 hours away.  Montalbano is a beautiful medieval hilltop town that enjoys views of both the Aeolian Islands to the north and Mt Etna to the south.  Although only small, Montalbano has a long and fascinating history.  It was also elected Italy most beautiful town in 2016.  Your accommodation is in a restored, medieval palazzo.  Dinner included.'
+        description: "Today you will have a private transfer from Catania (with its airport and train station) to Montalbano Elicona, 1.5 hours away. Montalbano is a beautiful medieval hilltop town that enjoys views of both the Aeolian Islands to the north and Mt Etna to the south. Although only small, Montalbano has a long and fascinating history. It was also elected Italy's most beautiful town in 2016. Your accommodation is in a restored, medieval palazzo."
         photo: self-guided/istock-1203219187.jpg
         meals_included:
           - dinner
       -
         id: mloozlek
         title: 'Enjoy the Nebrodi forests'
-        description: 'This morning you follow gently climbing mountain trails through forests and past hazelnut groves to a small village in the heart of the Nebrodi Natural Park.  The village was originally founded by the Romans who logged the surrounding forests.  It was abandoned and then re-founded in the 1600s under Spanish rule.  Your accommodation is in a restored medieval home.'
+        description: 'This morning, you follow gently climbing mountain trails through forests and past hazelnut groves to a small village in the heart of the Nebrodi Natural Park. The village was originally founded by the Romans, who logged the surrounding forests.  It was abandoned and then re-founded in the 1600s under Spanish rule. Your accommodation is in a restored medieval home.'
         duration: 4.0
         distance: 15.0
         elevation: 738
@@ -116,7 +116,7 @@ page_builder:
       -
         id: mlop159i
         title: "Walk to the 'Black City'"
-        description: 'The longest walk of the tour takes you gradually downhill to Randazzo, a bustling market town at the foot of Mt Etna, overlooking the Alcantara River.  Randazzo has a colourful history.  Founded by the Romans, its heyday was in the Middle Ages when it was variously ruled by the Byzantines, the Arabs, the Normas and the Spanish.  It is nicknamed the Black City because it was built out of volcanic stones from nearby Etna.  Your accommodation is in a B & B in a historical 1800’s noble house.'
+        description: 'The longest walk of the tour takes you gradually downhill to Randazzo, a bustling market town at the foot of Mt Etna, overlooking the Alcantara River. Randazzo has a colourful history. Founded by the Romans, its heyday was in the Middle Ages when it was variously ruled by the Byzantines, the Arabs, the Normans and the Spanish. It is nicknamed the Black City because it was built out of volcanic stones from nearby Etna. Your accommodation is in a B&B in a historical 1800s noble house.'
         duration: 4.5
         distance: 17.0
         elevation: 230
@@ -127,7 +127,7 @@ page_builder:
       -
         id: mlop3c5r
         title: 'Discover Mount Etna'
-        description: 'Today is a very special day: you will have the opportunity of walking on the slopes of Mt Etna.  You have two options.  The lower option is a beautiful loop walk through pine and beach forests.  On the way you cross the solidified lava from the 1981 eruption.  The higher option takes you up towards the craters at the top of the mountain.  In both cases you will also have the option to hire a local guide.  Your accommodation is in a restores boutique hotel from the 1800’s.'
+        description: 'Today is a very special day: you will have the opportunity to walk on the slopes of Mt. Etna. You have two options. The lower option is a beautiful loop walk through pine and beach forests. On the way, you cross the solidified lava from the 1981 eruption. The higher option takes you up towards the craters at the top of the mountain. In both cases, you will also have the option to hire a local guide. Your accommodation is in a restored boutique hotel from the 1800s.'
         duration: 4.0
         distance: 13.0
         elevation: 267
@@ -138,7 +138,7 @@ page_builder:
       -
         id: mlop5205
         title: 'Walk the Alcantara River'
-        description: "This morning you enjoy a beautiful walk down the fertile plains of the Alcantara River, passing vineyards, olive groves and fruit orchards.  At the end of your walk, you can dive into one of the many spectacular swimming holes that the river offers.  Once you're done, you continue to your nearby accommodation, which is in a luxury country resort."
+        description: "This morning you enjoy a beautiful walk down the fertile plains of the Alcantara River, passing vineyards, olive groves and fruit orchards. At the end of your walk, you can dive into one of the many spectacular swimming holes that the river offers.  Once you're done, you continue to your nearby accommodation, which is in a luxury country resort."
         duration: 3.5
         distance: 11.0
         elevation: 51
@@ -149,7 +149,7 @@ page_builder:
       -
         id: mlop6avf
         title: 'Arrive at Castelmola'
-        description: 'After a short drive to a village in the neighbouring valley, you follow a trail uphill through olive groves and almond groves to Castelmola, a medieval village perched on a promontory with breathtaking views over Taormina and the Ionian Sea.  Your accommodation for the next two nights is in a 4-star hotel.'
+        description: 'After a short drive to a village in the neighbouring valley, you follow a trail uphill through olive groves and almond groves to Castelmola, a medieval village perched on a promontory with breathtaking views over Taormina and the Ionian Sea. Your accommodation for the next two nights is in a 4-star hotel.'
         duration: 4.0
         distance: 12.0
         elevation: 766
@@ -160,7 +160,7 @@ page_builder:
       -
         id: mlop8uiy
         title: 'Explore Taormina'
-        description: 'Today is free day.  You have the option of hanging around and enjoying what the hotel offers (a swimming pool, a terrace with spectacular views of Mt Etna etc); you can spend the day exploring Taormina, the most glamorous city in Sicily (the hotel has a regular shuttle or you can walk down the steep Trail of Saracens and take the shuttle back); or you can just enjoy the beaches around Giardini/Naxos.'
+        description: 'Today is a free day. You have the option of hanging around and enjoying what the hotel offers (a swimming pool, a terrace with spectacular views of Mt. Etna, etc.); you can spend the day exploring Taormina, the most glamorous city in Sicily (the hotel has a regular shuttle or you can walk down the steep Trail of Saracens and take the shuttle back); or you can just enjoy the beaches around Giardini/Naxos.'
         duration: 4.5
         distance: 1.0
         elevation: 297
@@ -376,7 +376,7 @@ finish_location:
       code: null
       level: 2
   country: Italy
-now_open: false
+now_open: true
 seasons:
   - autumn
   - spring
@@ -399,4 +399,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 overlay_opacity: 20
+badge_text: 'New Tour'
 ---
