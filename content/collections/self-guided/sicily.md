@@ -6,13 +6,13 @@ title: 'Sicily 3: Mt Etna and Taormina - Sicily'
 name: 'Sicily 3: Mt Etna and Taormina'
 region: Sicily
 days: 8
-updated_by: 4
-updated_at: 1793232978
+updated_by: 2
+updated_at: 1793234616
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
   - "Seven nights' accommodation in lovely hotels"
-  - 'Daily breakfasts, four dinners and three lunches'
+  - 'Daily breakfasts, four dinners and two lunches'
   - 'Reading lists, historical and cultural notes'
   - 'The Hidden Italy booklet with maps and detailed walking instructions'
   - 'The Hidden Italy App with GPS to complement the booklet'
@@ -155,7 +155,7 @@ page_builder:
         elevation: 766
         meals_included:
           - breakfast
-          - dinner
+          - lunch
         photo: self-guided/istock-969736902.jpg
       -
         id: mlop8uiy
