@@ -5,8 +5,8 @@ title: 'Alba and Le Langhe - Piedmont'
 name: 'Alba and Le Langhe'
 region: Piedmont
 days: 8
-updated_by: 4
-updated_at: 1793231397
+updated_by: 3
+updated_at: 1793242655
 grade: 3
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
@@ -251,6 +251,7 @@ page_builder:
                 text: 'To help guide you on this wonderful walk, you’ll receive our Hidden Italy booklet — a handy A5 guide with detailed daily walking notes and clear maps, updated and revised each year. You’ll also have access to our exclusive Hidden Italy App, which complements the booklet and works on both Apple and Android devices. The app includes route maps, GPS tracks, altimetric profiles, turn-by-turn navigation, an alert if you stray off the path, and an emergency function. In addition, you’ll have 24-hour phone support from our local team.'
         type: general
         enabled: true
+        link_text: 'Support on the tour'
       -
         id: 2kijTuCwT4FnieL72cjfY
         body:
