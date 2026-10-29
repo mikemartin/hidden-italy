@@ -6,7 +6,7 @@ name: 'Italian Riviera 2'
 region: Liguria
 days: 9
 updated_by: 2
-updated_at: 1791347300
+updated_at: 1793307627
 grade: 3
 inclusions:
   - 'Eight nights accommodation'
@@ -21,7 +21,6 @@ inclusions:
 locations: northern-italy
 landscapes:
   - coastal
-  - lakes
 page_builder:
   -
     id: efff12fdf0e81c24
