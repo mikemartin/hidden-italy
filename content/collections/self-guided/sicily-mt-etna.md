@@ -5,8 +5,8 @@ title: 'Sicily: Mt Etna and Taormina - Sicily'
 name: 'Sicily: Mt Etna and Taormina'
 region: Sicily
 days: 8
-updated_by: 4
-updated_at: 1793337568
+updated_by: 2
+updated_at: 1793403195
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -47,7 +47,7 @@ page_builder:
     images:
       - self-guided/img_4834.jpeg
       - self-guided/istock-814590114.jpg
-      - self-guided/taormina-2.jpg
+      - self-guided/castiglione-1.avif
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -172,7 +172,7 @@ page_builder:
         description: "After breakfast, you will be taken by private transfer back to Catania, an hour's drive south."
         meals_included:
           - breakfast
-        photo: self-guided/img_7081.jpeg
+        photo: self-guided/img_7081-v3.jpeg
     type: itinerary
     enabled: true
     section_background: none
@@ -208,7 +208,7 @@ page_builder:
                 type: text
                 text: "Hidden Italy uses the best accommodation available and it is one of the highlights of the tour.\_Most of the accommodation is part of the local history.\_It ranges from a B&B in a restored noble house to a 4-star hotel overlooking the Ionian Sea, with a luxury country resort and a family-run 3-star hotel in between.\_All the rooms have private, en suite bathrooms.\_"
         media:
-          - self-guided/montalbano-domus.jpg
+          - self-guided/borgo-2.avif
         type: accommodation
         enabled: true
       -
@@ -338,7 +338,7 @@ gallery:
   - self-guided/istock-1428912223.jpg
   - self-guided/istock-1164145134.jpg
   - self-guided/etna-4.jpg
-  - self-guided/istock-2223022777.jpg
+  - self-guided/img_8965-v2.jpeg
   - self-guided/istock-2205176309.jpg
   - self-guided/img_8959.jpg
   - self-guided/istock-969736902.jpg
@@ -388,7 +388,7 @@ summary:
     content:
       -
         type: text
-        text: "This extraordinary walk encompasses the north-eastern corner of Sicily, beginning above the Montalbano Elicona (named ‘The Most Beautiful Town in Italy’ in 2016) in the mountains above the Tyrrhenian coast and finishing at Castelmola, a charming town overlooking Taormina and the Ionian Sea.\_This tour has it all: it takes you through the forests and farmlands of the Nebrodi Natural Park, Sicily's largest protected green space; along the pristine Alcantara River, with its famous gorge, perfect for swimming in; to the slopes of Mount Etna, the largest active volcano in Europe; and finally, to Taormina, the most glamorous town in Sicily.\_Along the way, you enjoy relaxing walks, stay in gorgeous small towns, all with rich histories, meet fine people and eat excellent food!"
+        text: "This extraordinary walk encompasses the north-eastern corner of Sicily, beginning above the Montalbano Elicona (The Most Beautiful Town in Italy 2016, in the mountains above the Tyrrhenian coast and finishing at Castelmola, a charming town overlooking Taormina and the Ionian Sea.\_This tour has it all: it takes you through the forests and farmlands of the Nebrodi Natural Park; along the pristine Alcantara River; to the slopes of Mount Etna; and finally, to Taormina.\_Along the way, you enjoy relaxing walks, stay in gorgeous small towns, meet fine people and eat excellent food!"
 price: 'A$4,200 pp'
 show_from: true
 og_image: piedmont-alba-and-le-langhe-og-1779335292.png
