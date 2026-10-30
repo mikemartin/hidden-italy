@@ -7,7 +7,7 @@ name: 'Sicily: Mt Etna and Taormina'
 region: Sicily
 days: 8
 updated_by: 2
-updated_at: 1793330014
+updated_at: 1793330079
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -46,9 +46,9 @@ page_builder:
             text: "Your tour starts with a private transfer from Catania to Montalbano Elicona, where you spend the first night.\_You walk for the next five days from town to town, following mountain paths and droving trails that have connected the towns for centuries, staying in charming, family-run accommodation as you go.\_On Day 4, you will have the opportunity to walk the slopes of Mt Etna, with a high or a low option.\_The tour finishes with two nights in a 4-star hotel in Castelmola, a pretty town overlooking Taormina. We have included a free day so you can just relax at the end of the hike or take the hotel’s shuttle down to explore Taormina and the Ionian coast."
     title: 'Forests, Mt Etna, Taormina and the Ionian Sea'
     images:
-      - self-guided/img_4834.jpeg
       - self-guided/istock-814590114.jpg
       - self-guided/castiglione-1.avif
+      - self-guided/img_4834.jpeg
     hide_from_subnav: false
   -
     id: mloocwbk
