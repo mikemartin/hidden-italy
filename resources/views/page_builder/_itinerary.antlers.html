@@ -115,7 +115,7 @@
                                                 {{ partial:typography/h4 :content="title" color="text-foreground" }}
                                             {{ /if }}
 
-                                            {{ if duration || distance || elevation }}
+                                            {{ if duration || distance || elevation || descent }}
                                                 <ul class="flex flex-wrap items-center gap-x-4 gap-y-1 mt-2 text-text">
                                                     {{ if duration }}
                                                         <li class="inline-flex items-center gap-1.5 text-sm">
@@ -131,8 +131,14 @@
                                                     {{ /if }}
                                                     {{ if elevation }}
                                                         <li class="inline-flex items-center gap-1.5 text-sm">
-                                                            <x-lucide-mountain class="size-4 text-accent-2 shrink-0" stroke-width="1.75" aria-hidden="true" />
+                                                            <x-lucide-trending-up class="size-4 text-accent-2 shrink-0" stroke-width="1.75" aria-hidden="true" />
                                                             <span>{{ elevation }} m</span>
+                                                        </li>
+                                                    {{ /if }}
+                                                    {{ if descent }}
+                                                        <li class="inline-flex items-center gap-1.5 text-sm">
+                                                            <x-lucide-trending-down class="size-4 text-accent-2 shrink-0" stroke-width="1.75" aria-hidden="true" />
+                                                            <span>{{ descent }} m</span>
                                                         </li>
                                                     {{ /if }}
                                                 </ul>

@@ -60,7 +60,7 @@ fields:
                           append: hr
                           type: float
                           display: Duration
-                          width: 33
+                          width: 50
                           instructions: 'Total walking time for the day.'
                       -
                         handle: distance
@@ -68,16 +68,24 @@ fields:
                           append: km
                           type: float
                           display: Distance
-                          width: 33
+                          width: 50
                           instructions: 'Total walking distance.'
                       -
                         handle: elevation
                         field:
                           append: m
                           type: integer
-                          display: Elevation
-                          width: 33
-                          instructions: 'Total ascent.'
+                          display: Ascent
+                          width: 50
+                          instructions: 'Total elevation gain.'
+                      -
+                        handle: descent
+                        field:
+                          append: m
+                          type: integer
+                          display: Descent
+                          width: 50
+                          instructions: 'Total elevation loss.'
                       -
                         handle: photo
                         field:
@@ -189,14 +197,21 @@ fields:
                                   append: km
                                   type: float
                                   display: 'Total Distance'
-                                  width: 50
+                                  width: 33
                               -
                                 handle: total_elevation
                                 field:
                                   append: m
                                   type: integer
-                                  display: 'Total Elevation'
-                                  width: 50
+                                  display: 'Total Ascent'
+                                  width: 33
+                              -
+                                handle: total_descent
+                                field:
+                                  append: m
+                                  type: integer
+                                  display: 'Total Descent'
+                                  width: 33
                               -
                                 handle: description
                                 field:

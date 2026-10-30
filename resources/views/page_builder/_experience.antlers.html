@@ -275,11 +275,12 @@
                                     </div>
                                 {{ /if }}
 
-                                {{# Locations row — Start / Finish under the
-                                    map, dots colour-matched to the markers.
-                                    Two equal columns. #}}
-                                {{ if start_location:label || finish_location:label }}
-                                    <dl class="grid grid-cols-2 gap-x-6 gap-y-5 px-5 pt-4 pb-5 md:px-6 md:pt-5 md:pb-6">
+                                {{# Trip stats — Start / Finish / Walking grade /
+                                    Distance / Ascent / Descent in one grid under
+                                    the map, location dots colour-matched to the
+                                    markers. Two columns on mobile, three from sm. #}}
+                                {{ if start_location:label || finish_location:label || grade || total_distance || total_elevation || total_descent }}
+                                    <dl class="grid grid-cols-2 sm:grid-cols-3 gap-x-6 gap-y-5 px-5 pt-4 pb-5 md:px-6 md:pt-5 md:pb-6">
                                         {{ if start_location:label }}
                                             <div>
                                                 <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">{{ trans:strings.start ?? 'Start' }}</dt>
@@ -295,33 +296,6 @@
                                                 <dd class="mt-1 flex items-center gap-2">
                                                     <x-lucide-circle-dot class="size-5 lg:size-6 text-[#D4704E] shrink-0" stroke-width="2" aria-hidden="true" />
                                                     <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ finish_location:locality ?? finish_location:label }}</span>
-                                                </dd>
-                                            </div>
-                                        {{ /if }}
-                                    </dl>
-                                {{ /if }}
-
-                                {{# Physical stats — 3-up grid (Distance,
-                                    Elevation, Walking grade) below the
-                                    locations, separated by a thin `border-t`
-                                    divider. #}}
-                                {{ if total_distance || total_elevation || grade }}
-                                    <dl class="grid grid-cols-3 gap-x-6 gap-y-5 px-5 py-5 md:px-6 md:py-6 border-t border-blue-d-100">
-                                        {{ if total_distance }}
-                                            <div>
-                                                <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">{{ trans:strings.distance ?? 'Distance' }}</dt>
-                                                <dd class="mt-1 flex items-center gap-2">
-                                                    <x-lucide-route class="size-5 lg:size-6 text-accent shrink-0" stroke-width="2" aria-hidden="true" />
-                                                    <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ total_distance }} km</span>
-                                                </dd>
-                                            </div>
-                                        {{ /if }}
-                                        {{ if total_elevation }}
-                                            <div>
-                                                <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">{{ trans:strings.elevation ?? 'Elevation' }}</dt>
-                                                <dd class="mt-1 flex items-center gap-2">
-                                                    <x-lucide-mountain class="size-5 lg:size-6 text-accent shrink-0" stroke-width="2" aria-hidden="true" />
-                                                    <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ total_elevation }} m</span>
                                                 </dd>
                                             </div>
                                         {{ /if }}
@@ -345,6 +319,33 @@
                                                             <x-lucide-info class="size-4" stroke-width="2" aria-hidden="true" />
                                                         </button>
                                                     {{ /if }}
+                                                </dd>
+                                            </div>
+                                        {{ /if }}
+                                        {{ if total_distance }}
+                                            <div>
+                                                <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">{{ trans:strings.distance ?? 'Distance' }}</dt>
+                                                <dd class="mt-1 flex items-center gap-2">
+                                                    <x-lucide-route class="size-5 lg:size-6 text-accent shrink-0" stroke-width="2" aria-hidden="true" />
+                                                    <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ total_distance }} km</span>
+                                                </dd>
+                                            </div>
+                                        {{ /if }}
+                                        {{ if total_elevation }}
+                                            <div>
+                                                <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">{{ trans:strings.ascent ?? 'Ascent' }}</dt>
+                                                <dd class="mt-1 flex items-center gap-2">
+                                                    <x-lucide-trending-up class="size-5 lg:size-6 text-accent shrink-0" stroke-width="2" aria-hidden="true" />
+                                                    <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ total_elevation }} m</span>
+                                                </dd>
+                                            </div>
+                                        {{ /if }}
+                                        {{ if total_descent }}
+                                            <div>
+                                                <dt class="font-display font-semibold text-xs uppercase tracking-[1px] leading-[1.5] text-text">{{ trans:strings.descent ?? 'Descent' }}</dt>
+                                                <dd class="mt-1 flex items-center gap-2">
+                                                    <x-lucide-trending-down class="size-5 lg:size-6 text-accent shrink-0" stroke-width="2" aria-hidden="true" />
+                                                    <span class="font-display font-medium text-base lg:text-lg leading-[1.25] lg:leading-[1.5] text-foreground">{{ total_descent }} m</span>
                                                 </dd>
                                             </div>
                                         {{ /if }}

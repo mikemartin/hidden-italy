@@ -136,6 +136,8 @@ return [
     'walking_grade' => 'Walking grade',
     'grade' => 'Grade',
     'elevation' => 'Elevation',
+    'ascent' => 'Ascent',
+    'descent' => 'Descent',
     'distance' => 'Distance',
     'filters' => 'Filters',
     'find_your_tour' => 'Find your tour',
