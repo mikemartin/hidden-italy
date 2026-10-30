@@ -6,8 +6,8 @@ title: 'Sicily: Mt Etna and Taormina - Sicily'
 name: 'Sicily: Mt Etna and Taormina'
 region: Sicily
 days: 8
-updated_by: 2
-updated_at: 1793330662
+updated_by: 4
+updated_at: 1793335636
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -16,13 +16,13 @@ inclusions:
   - 'Reading lists, historical and cultural notes'
   - 'The Hidden Italy booklet with maps and detailed walking instructions'
   - 'The Hidden Italy App with GPS to complement the booklet'
+  - 'A curated list of restaurants for each town you visit'
   - 'Daily transfers of baggage between hotels each morning'
   - '24-hour support from our local manager'
   - 'Please note that city taxes are not included in the cost of the tour'
-locations: southern-italy
+locations: northern-italy
 landscapes:
-  - coastal
-  - mountains
+  - countryside
 page_builder:
   -
     id: 88c92d20ff387f2c
@@ -36,19 +36,19 @@ page_builder:
         content:
           -
             type: text
-            text: "The Nebrodi mountains are in the north-east corner of Sicily.\_They are covered by thick forests of cork trees, oaks and beech.  They are scattered with some of the prettiest towns in Sicily, most with striking views of Mt. Etna in one direction or the Aeolian Islands in the other. Quieter than much of Sicily, traditions live on here: you are likely to run into farmers grazing their stock; meet craftsmen; and eat delicious homemade fare that you won’t find in any city restaurants."
+            text: "The Nebrodi mountains are the eastern end of the Sicilian Apennines.\_They are covered by thick forests: cork trees on the lowest slopes which give way to oaks and then beech trees at the higher elevations.\_They are scattered with some of the prettiest old towns in Sicily, most with striking views of Mt. Etna in one direction or the Aeolian Islands in the other. Quieter than much of Sicily, traditions live on here and you are likely to run into farmers grazing their stock and eat homemade, old-school fare that you won’t find in city restaurants."
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "Your tour starts with a private transfer from Catania to Montalbano Elicona, where you spend the first night.\_You walk for the next five days from town to town, following mountain paths and droving trails that have connected the towns for centuries, staying in charming, family-run accommodation as you go.\_On Day 4, you will have the opportunity to walk the slopes of Mt Etna, with a high or a low option.\_The tour finishes with two nights in a 4-star hotel in Castelmola, a pretty town overlooking Taormina. We have included a free day so you can just relax at the end of the hike or take the hotel’s shuttle down to explore Taormina and the Ionian coast."
+            text: "Your tour starts with a private transfer from Catania to Montalbano Elicona, where you spend the first night.\_You then walk for five days, following mountain paths and droving trails that have connected the villages and towns for centuries, and staying in charming, family-run accommodation.\_On Day 4, you will have the opportunity to walk the slopes of Mt Etna, with a high or low option, and the possibility of hiring a local guide.\_The tour finishes with two nights in a 4-star hotel in Castelmola, a pretty town overlooking Taormina. We have included a free day so you can just relax at the end of the hike or take the hotel’s shuttle down to explore Taormina and the Ionian coast."
     title: 'Forests, Mt Etna, Taormina and the Ionian Sea'
     images:
       - self-guided/img_4834.jpeg
       - self-guided/istock-814590114.jpg
-      - self-guided/castiglione-1.avif
+      - self-guided/taormina-2.jpg
     hide_from_subnav: false
   -
     id: mloocwbk
@@ -173,7 +173,7 @@ page_builder:
         description: "After breakfast, you will be taken by private transfer back to Catania, an hour's drive south."
         meals_included:
           - breakfast
-        photo: self-guided/img_7081-v2.jpeg
+        photo: self-guided/img_7081.jpeg
     type: itinerary
     enabled: true
     section_background: none
@@ -209,7 +209,7 @@ page_builder:
                 type: text
                 text: "Hidden Italy uses the best accommodation available and it is one of the highlights of the tour.\_Most of the accommodation is part of the local history.\_It ranges from a B&B in a restored noble house to a 4-star hotel overlooking the Ionian Sea, with a luxury country resort and a family-run 3-star hotel in between.\_All the rooms have private, en suite bathrooms.\_"
         media:
-          - self-guided/img_8965-v2.jpeg
+          - self-guided/montalbano-domus.jpg
         type: accommodation
         enabled: true
       -
@@ -339,7 +339,7 @@ gallery:
   - self-guided/istock-1428912223.jpg
   - self-guided/istock-1164145134.jpg
   - self-guided/etna-4.jpg
-  - self-guided/img_8965-v2.jpeg
+  - self-guided/istock-2223022777.jpg
   - self-guided/istock-2205176309.jpg
   - self-guided/img_8959.jpg
   - self-guided/istock-969736902.jpg
@@ -389,7 +389,7 @@ summary:
     content:
       -
         type: text
-        text: "This extraordinary walk starts in Montalbano Elicona (The Most Beautiful Town in Italy 2016) in the mountains above the Tyrrhenian coast and finishes at Castelmola, a charming town overlooking Taormina and the Ionian coast.\_ It takes you through the forests and farmlands of the Nebrodi Natural Park; up the slopes of Mount Etna; beside the pristine Alcantara River; and, finally, into Taormina, Sicily’s most glamorous town.\_ Along the way, you enjoy relaxing walks, visit gorgeous towns, stay in great accommodation, meet fine people and eat excellent food!"
+        text: "This extraordinary walk encompasses the north-eastern corner of Sicily, beginning above the Montalbano Elicona (named ‘The Most Beautiful Town in Italy’ in 2016) in the mountains above the Tyrrhenian coast and finishing at Castelmola, a charming town overlooking Taormina and the Ionian Sea.\_This tour has it all: it takes you through the forests and farmlands of the Nebrodi Natural Park, Sicily's largest protected green space; along the pristine Alcantara River, with its famous gorge, perfect for swimming in; to the slopes of Mount Etna, the largest active volcano in Europe; and finally, to Taormina, the most glamorous town in Sicily.\_Along the way, you enjoy relaxing walks, stay in gorgeous small towns, all with rich histories, meet fine people and eat excellent food!"
 price: 'A$4,200 pp'
 show_from: true
 og_image: piedmont-alba-and-le-langhe-og-1779335292.png
