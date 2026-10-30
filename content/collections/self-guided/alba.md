@@ -5,8 +5,8 @@ title: 'Alba and Le Langhe - Piedmont'
 name: 'Alba and Le Langhe'
 region: Piedmont
 days: 8
-updated_by: 4
-updated_at: 1793321474
+updated_by: 2
+updated_at: 1793337239
 grade: 3
 inclusions:
   - 'Private transfer to and from Turin at the beginning and end of the tour'
@@ -108,6 +108,7 @@ page_builder:
         meals_included:
           - breakfast
         photo: self-guided/alba-and-le-langhe/monforte-2.5.jpg
+        descent: 231
       -
         id: mlop159i
         title: 'Walk through vineyards'
