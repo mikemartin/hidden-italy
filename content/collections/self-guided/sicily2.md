@@ -1,12 +1,12 @@
 ---
 id: 4890c31c-65dd-42bf-8f81-1bd6835115e9
 blueprint: tour
-title: 'Sicily 2: the Egadi Islands - Sicily'
-name: 'Sicily 2: the Egadi Islands'
+title: 'Sicily: Egadi Islands - Sicily'
+name: 'Sicily: Egadi Islands'
 region: Sicily
 days: 7
 updated_by: 2
-updated_at: 1792641212
+updated_at: 1793329771
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
