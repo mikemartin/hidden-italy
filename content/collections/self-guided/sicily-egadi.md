@@ -5,8 +5,8 @@ title: 'Sicily: Egadi Islands - Sicily'
 name: 'Sicily: Egadi Islands'
 region: Sicily
 days: 7
-updated_by: 2
-updated_at: 1793329771
+updated_by: 4
+updated_at: 1793336072
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
