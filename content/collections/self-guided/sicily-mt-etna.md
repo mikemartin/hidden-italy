@@ -1,13 +1,12 @@
 ---
 id: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
-published: false
 blueprint: tour
 title: 'Sicily: Mt Etna and Taormina - Sicily'
 name: 'Sicily: Mt Etna and Taormina'
 region: Sicily
 days: 8
 updated_by: 4
-updated_at: 1793335636
+updated_at: 1793337568
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
