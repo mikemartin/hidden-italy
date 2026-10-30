@@ -21,7 +21,7 @@
         </header>
 
         <div class="span-content flex flex-col" x-data x-reveal data-reveal-stagger="80">
-            {{ block:sections }}            
+            {{ block:sections scope="section" }}
                 <div data-reveal-item class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-12 py-8 md:py-10 first:pt-0 last:pb-0 border-t border-parchment-200 first:border-t-0">
                     <div class="lg:col-span-4 flex items-start gap-4">
                         <span class="shrink-0 inline-flex items-center justify-center size-10 rounded-full bg-parchment-200 text-accent-2">
@@ -42,8 +42,8 @@
                                 {{ trans:strings.travel_insurance }}
                             {{ elseif type == 'booking_cancellation' }}
                                 {{ trans:strings.booking_cancellation }}
-                            {{ else type == 'general' }}
-                                {{ heading }}
+                            {{ else }}
+                                {{ section:heading }}
                             {{ /if }}
                         </h3>
                     </div>
