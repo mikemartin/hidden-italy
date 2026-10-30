@@ -6,8 +6,8 @@ title: 'Sicily 3: Mt Etna and Taormina - Sicily'
 name: 'Sicily 3: Mt Etna and Taormina'
 region: Sicily
 days: 8
-updated_by: 4
-updated_at: 1793321918
+updated_by: 2
+updated_at: 1793327864
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -20,9 +20,10 @@ inclusions:
   - 'Daily transfers of baggage between hotels each morning'
   - '24-hour support from our local manager'
   - 'Please note that city taxes are not included in the cost of the tour'
-locations: northern-italy
+locations: southern-italy
 landscapes:
-  - countryside
+  - coastal
+  - mountains
 page_builder:
   -
     id: 88c92d20ff387f2c
@@ -209,7 +210,7 @@ page_builder:
                 type: text
                 text: "Hidden Italy uses the best accommodation available and it is one of the highlights of the tour.\_Most of the accommodation is part of the local history.\_It ranges from a B&B in a restored noble house to a 4-star hotel overlooking the Ionian Sea, with a luxury country resort and a family-run 3-star hotel in between.\_All the rooms have private, en suite bathrooms.\_"
         media:
-          - self-guided/montalbano-domus.jpg
+          - self-guided/borgo-2.avif
         type: accommodation
         enabled: true
       -
@@ -339,7 +340,7 @@ gallery:
   - self-guided/istock-1428912223.jpg
   - self-guided/istock-1164145134.jpg
   - self-guided/etna-4.jpg
-  - self-guided/istock-2223022777.jpg
+  - self-guided/borgo-2.avif
   - self-guided/istock-2205176309.jpg
   - self-guided/img_8959.jpg
   - self-guided/istock-969736902.jpg
