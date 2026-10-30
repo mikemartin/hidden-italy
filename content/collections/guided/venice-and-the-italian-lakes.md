@@ -6,12 +6,12 @@ title: 'Venice and the Italian Lakes - Lombardy-Piedmont'
 name: 'Venice and the Italian Lakes'
 region: Lombardy-Piedmont
 days: 13
-updated_by: 4
-updated_at: 1785805531
+updated_by: 3
+updated_at: 1793340253
 grade: 4
 inclusions:
   - '12 nights accommodation in 4-star boutique hotels (see itinerary for details)'
-  - 'All breakfasts, and all lunches and dinners (with wine) listed in the itinerary.'
+  - 'All breakfasts, and all lunches and dinners (with wine) as listed in the itinerary.'
   - 'All land and lakes transfers listed in the itinerary'
   - 'All taxes and service charges at the hotels'
   - 'All paid admissions during the tour'
@@ -32,18 +32,21 @@ page_builder:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: "This wonderful tour starts in magical Venice and finishes in elegant Turin. In between you stay on two of the most beautiful of all Italian lake: Lago di Como and Lago Maggiore.\_ Along the way you also visit the smaller lakes of Lugano and Orta."
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: "\_Strung along the foot of the Alps, for millennia the Italian Lakes have been a gateway to the colour and life of the Mediterranean world.\_ The walks on the tour follow these same ancient stone paths winding high above the lakes passing through forests and isolated hamlets, with spectacular views across to soaring mountains, deep valleys and historic villas."
     column_right:
       -
         type: paragraph
         content:
-          - type: text
+          -
+            type: text
             text: 'We start in a 4-star hotel on the canals of Venice and finish in a 4-star hotel in the Baroque arcades of Turin. In between, we spend four nights based in a 4-star hotel on the shores of Lake Como, before crossing the Swiss border into the Italian-speaking canton of Ticino, and spending four nights in a 400-year-old hotel in the lush valleys above the northern reaches of Lake Maggiore.'
     title: 'From magical Venice to elegant Turin'
     images:
@@ -55,23 +58,28 @@ page_builder:
     id: mloqd78x
     heading: 'Venice and the Italian Lakes'
     activities:
-      - id: mloqdoo9
+      -
+        id: mloqdoo9
         title: 'Explore the secrets of Venice'
         summary: 'Stay in a tucked away 4-star hotel, and join a local guide to explore the hidden secrets of this most magical of cities.'
         icon: geography-cartography-city.svg
-      - id: mloqi0iy
+      -
+        id: mloqi0iy
         title: 'Stay in fabulous accommodation'
         summary: 'Stay in 4-star hotels: on a Venetian canal; overlooking Lake Como; in a mountain village; and in the arcades of Turin.'
         icon: housing-house.svg
-      - id: mloqndod
+      -
+        id: mloqndod
         title: 'Discover the glories of the Italian Lakes'
         summary: 'Follow a network of historic stone paths to discover the beauty of the Italian Lakes and mountains that surround them.'
         icon: nature-lake.svg
-      - id: mloqrnhn
+      -
+        id: mloqrnhn
         title: 'Immerse yourself in the history and culture'
         summary: 'Local guides will reveal the fascinating history of Venice, lakeside villas, ancient villages and the arcades of Turin.'
         icon: culture-Colosseum.svg
-      - id: mm4fpvo1
+      -
+        id: mm4fpvo1
         title: 'Indulge yourself in the food and wine of northern Italy'
         summary: 'Enjoy fabulous cuisine, from the seafood of Venice; to the risotto of Lake Como; and the cheeses and wines of Turin.'
         icon: culture-wine.svg
@@ -198,7 +206,8 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  - id: S7STwpDO
+  -
+    id: S7STwpDO
     type: faqs
     enabled: true
     show_common_questions: true
@@ -216,7 +225,8 @@ page_builder:
     enabled: true
     section_background: none
     hide_from_subnav: false
-  - id: wb_RLuxl19O8KA6Co6r
+  -
+    id: wb_RLuxl19O8KA6Co6r
     type: walking_benefits
     enabled: true
     tour_type: auto
@@ -277,7 +287,8 @@ summary:
   -
     type: paragraph
     content:
-      - type: text
+      -
+        type: text
         text: "The Italian Lakes are a little slice of paradise: deep, slender fjords gouged by glaciers, edged by dramatic forested slopes and shores lined with ancient villages and flower-bedecked villas.\_"
 og_image: lombardy-piedmont-venice-and-the-italian-lakes-og-1779335246.png
 seo_noindex: inherit

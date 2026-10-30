@@ -46,7 +46,7 @@ tour_size: 15
 leader: fa3be588-b0dd-4d37-9213-bafbd1992434
 inclusions:
   - '12 nights accommodation (see the itinerary for details)'
-  - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
+  - 'All breakfast, and all lunches and dinners (wine included) as listed in the itinerary'
   - 'All transfers and activities during the tours'
   - 'All taxes and service charges at the hotels and restaurants'
   - 'All paid admissions during the tour'
@@ -393,8 +393,8 @@ show_from: true
 seasons: autumn
 locations: southern-italy
 simple_likes: 0
-updated_by: 4
-updated_at: 1793070649
+updated_by: 3
+updated_at: 1793340118
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/fasanelli-2.webp

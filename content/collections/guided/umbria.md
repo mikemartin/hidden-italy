@@ -49,7 +49,7 @@ tour_size: 15
 leader: 469290c8-2f8b-4d10-b639-574b4f4f1b8a
 inclusions:
   - '12 nights accommodation in boutique hotels (see the itinerary for details)'
-  - 'Breakfast daily, plus lunches, dinners and wine as shown in the itinerary.'
+  - 'All breakfast, and all lunches and dinners (wine included) as listed in the itinerary'
   - 'All transfers and activities during the tours'
   - 'All taxes and service charges at the hotels and restaurants'
   - 'All paid admissions during the tour'
@@ -391,7 +391,7 @@ seasons: autumn
 locations: central-italy
 simple_likes: 0
 updated_by: 3
-updated_at: 1793147336
+updated_at: 1793340283
 summary:
   -
     type: paragraph

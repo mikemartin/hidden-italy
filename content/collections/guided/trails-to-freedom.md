@@ -10,7 +10,7 @@ tour_size: 12
 date: '2027-08-21 14:00'
 inclusions:
   - '9 nights in comfortable accommodation'
-  - 'Breakfast, lunch, and dinner daily (with wine)'
+  - 'All breakfast, and all lunches and dinners (wine included) as listed in the itinerary'
   - 'All transfers during the tour, including cable cars'
   - 'Taxes and service charges at hotels and restaurants'
   - 'Entry to all scheduled sites and activities'
@@ -406,8 +406,8 @@ page_builder:
     hide_from_subnav: true
 seasons: summer
 locations: northern-italy
-updated_by: 4
-updated_at: 1792564206
+updated_by: 3
+updated_at: 1793340336
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg

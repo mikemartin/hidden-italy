@@ -7,13 +7,13 @@ region: 'Campania and Basilicata'
 days: 13
 seasons: spring
 grade: 3
-updated_by: 4
-updated_at: 1793310174
+updated_by: 3
+updated_at: 1793340139
 image: guided/ravello-5.jpg
 tour_size: 15
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in excellent boutique hotels'
-  - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
+  - 'All breakfast, and all lunches and dinners (wine included) as listed in the itinerary'
   - 'All land and sea transfers during the tours'
   - 'All taxes and service charges at the hotels and restaurants'
   - 'All paid admissions during the tour'

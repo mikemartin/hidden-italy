@@ -5,12 +5,12 @@ title: 'Puglia in the Spring - Puglia'
 name: 'Puglia in the Spring'
 region: Puglia
 days: 13
-updated_by: 4
-updated_at: 1793228828
+updated_by: 3
+updated_at: 1793340152
 grade: 2
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
-  - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
+  - 'All breakfast, and all lunches and dinners (wine included) as listed in the itinerary'
   - 'All transfers and activities during the tours'
   - 'All taxes and service charges at the hotels and restaurants'
   - 'All paid admissions during the tour'

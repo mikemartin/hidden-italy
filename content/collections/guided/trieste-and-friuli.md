@@ -5,12 +5,12 @@ title: 'Trieste and Friuli - Friuli Venezia Giulia'
 name: 'Trieste and Friuli'
 region: 'Friuli Venezia Giulia'
 days: 13
-updated_by: 4
-updated_at: 1791499212
+updated_by: 3
+updated_at: 1793340213
 grade: 4
 inclusions:
   - '12 night’s accommodation (see the itinerary for details) in excellent boutique hotels'
-  - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
+  - 'All breakfast, and all lunches and dinners (wine included) as listed in the itinerary'
   - 'All transfers during the tours'
   - 'All taxes and service charges at the hotels and restaurants'
   - 'All paid admissions during the tour'

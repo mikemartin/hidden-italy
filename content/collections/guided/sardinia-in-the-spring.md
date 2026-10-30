@@ -7,13 +7,13 @@ region: Sardinia
 days: 13
 seasons: spring
 updated_by: 3
-updated_at: 1793151839
+updated_at: 1793340165
 grade: 3
 tour_size: 15
 date: '2027-05-02 14:00'
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
-  - 'All breakfast, and all lunches and dinners (wine included) listed in the itinerary'
+  - 'All breakfast, and all lunches and dinners (wine included) as listed in the itinerary'
   - 'All land and sea transfers during the tours'
   - 'All taxes and service charges at the hotels and restaurants'
   - 'All paid admissions during the tour'
