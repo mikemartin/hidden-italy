@@ -6,7 +6,7 @@ name: 'Sicily: Mt Etna and Taormina'
 region: Sicily
 days: 8
 updated_by: 2
-updated_at: 1793403195
+updated_at: 1793666318
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -21,7 +21,8 @@ inclusions:
   - 'Please note that city taxes are not included in the cost of the tour'
 locations: northern-italy
 landscapes:
-  - countryside
+  - mountains
+  - coastal
 page_builder:
   -
     id: 88c92d20ff387f2c
