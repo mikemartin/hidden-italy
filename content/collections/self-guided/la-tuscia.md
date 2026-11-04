@@ -6,7 +6,7 @@ name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 7
 updated_by: 2
-updated_at: 1793755757
+updated_at: 1793755895
 grade: 3
 inclusions:
   - 'Private transfer from Rome to Pitigliano on Day 1'
@@ -118,7 +118,7 @@ page_builder:
         elevation: 160
         meals_included:
           - breakfast
-        photo: self-guided/la-tuscia/sorano-1-a.jpg
+        photo: self-guided/sorano-view-3.jpg
       -
         id: mlop3c5r
         title: 'Discover an abandoned city'
