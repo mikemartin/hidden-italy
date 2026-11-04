@@ -5,8 +5,8 @@ title: 'La Tuscia - Tuscany and Umbria'
 name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 7
-updated_by: 3
-updated_at: 1790314907
+updated_by: 2
+updated_at: 1793755757
 grade: 3
 inclusions:
   - 'Private transfer from Rome to Pitigliano on Day 1'
@@ -335,7 +335,7 @@ page_builder:
     hide_from_subnav: true
 simple_likes: 0
 duplicated_from: 0a9fa8ea-0566-4e26-b235-c7a7b1aa9b34
-image: self-guided/la-tuscia/pitigliano_-tuscany-s-hilltop-beauty.png
+image: self-guided/sorano-view-2.jpg
 gallery:
   - self-guided/la-tuscia/pitigliano_-tuscany-s-hilltop-beauty.png
   - self-guided/la-tuscia/f1020002.jpg
@@ -403,5 +403,5 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-overlay_opacity: 30
+overlay_opacity: 20
 ---
