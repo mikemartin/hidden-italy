@@ -148,9 +148,9 @@ page_builder:
           - breakfast
           - lunch
         description: "This morning you pull on your boots and head south out of town into the 'Murgia', rolling hills that surround Matera.  The walk finishes at a rock hewn, 9th century church whose frecoes have been called the 'Sistine Chapel of the Dark Ages'.  After a guided visit, we head to a nearby 'agriturismo' for a farm-fresh lunch and then are transferred back to town.  The evening is free."
-        duration: 4.0
-        distance: 15.0
-        elevation: 250
+        duration: 3.0
+        distance: 10.0
+        elevation: 304
         photo: guided/103.jpeg
       -
         id: DSEbPuDVys5s-dLV1Yqjy
@@ -393,8 +393,8 @@ show_from: true
 seasons: autumn
 locations: southern-italy
 simple_likes: 0
-updated_by: 3
-updated_at: 1793340118
+updated_by: 4
+updated_at: 1793932061
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/fasanelli-2.webp
