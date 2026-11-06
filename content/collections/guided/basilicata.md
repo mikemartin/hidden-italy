@@ -159,7 +159,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        description: "This morning we leave Matera and head west for the 'Lucani Dolomites', a spectacular sandstone range on the edge of the Gallipoli-Cognato National Park.  On the way, we stop for a guided visit to Craco, the most fascinating 'phantom town' in Italy, abandoned due to an earthquake in 1963.  In the 'Lucani Dolomites' we stay in a lovely family-run 3-star hotel in a fairytale town under soaring rock peaks.  Dinner tonight is at their celebrated restaurant."
+        description: "This morning we leave Matera and head west for the 'Lucani Dolomites', a spectacular sandstone range on the edge of the Gallipoli-Cognato National Park.  On the way, we stop for a guided visit to Craco, the most fascinating 'phantom town' in Italy, abandoned due to an earthquake in 1963.  In the 'Lucani Dolomites, ' we stay in a lovely family-run 3-star hotel in a fairytale town under soaring rock peaks.  Dinner tonight is at their celebrated restaurant."
         photo: guided/106.jpeg
       -
         id: V5y6olGGteTR7aqTsF3FH
@@ -167,10 +167,10 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        description: "Today's is a loop walk that takes around the spectacular rock formations that surround the town and across the ravine to the neighbouring twin-town.  Along the way, our local guide will introduce us to the fascinating history of these two ancient rivals.  Having enjoyed the views, we will have lunch and then return to our base, where the evening is free."
-        duration: 4.0
-        distance: 10.0
-        elevation: 768
+        description: 'Today is a loop walk that takes you around the spectacular rock formations that surround the town before being transferred across the ravine to the neighbouring twin-town.  Along the way, our local guide will introduce us to the fascinating history of these two ancient rivals.  Having enjoyed the views, we will have lunch and then return to our base, where the evening is free.'
+        duration: 3.0
+        distance: 5.0
+        elevation: 223
         photo: guided/img_3589-v2.jpeg
       -
         id: 7HnpGnYA9oMkxf9wqePAZ
@@ -179,10 +179,10 @@ page_builder:
           - lunch
           - dinner
         title: 'Explore the remains of a pre-Roman city'
-        description: 'A short drive takes us into the heart of the Gallipoli-Cognato National Park, where we will walk through woods with breathtaking scenery to visit the fascinating remains of an Osco-Samnite city, which was hidden in the forests for over two millennia.  It predates Roman settlement by several centuries. We will have a light picnic lunch along the way before returning to our base.'
+        description: 'A short drive takes us into the heart of the Gallipoli-Cognato National Park, to visit the fascinating remains of an Osco-Samnite city, which was hidden in the forests for over two millennia.  We will then walk through woods with breathtaking scenery to the end of the trail, where we will have a packed lunch before heading back to Castelmezzano.  We will have a tiramisu lesson by the hotel’s own chef Antonietta before dinner.'
         duration: 4.0
-        distance: 12.0
-        elevation: 590
+        distance: 10.0
+        elevation: 250
         photo: guided/105.jpeg
       -
         id: KXWCs8ChKhSxYCxxb7V0p
@@ -394,7 +394,7 @@ seasons: autumn
 locations: southern-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1793932061
+updated_at: 1793936568
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/fasanelli-2.webp
