@@ -191,20 +191,19 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        description: "Today we leave the 'Lucani Dolomites' and drive to our next base, a beautiful mountain lodge in the heart of the Pollino National Park, Italy's largest. On the way, we will stop for coffee at Aliano (made famous by Carlo Levi's book Christ Stopped at Eboli) and for lunch and a visit to Viggianello, a charming village with a Byzantine chapel and a Norman castle.  After settling into our accommodation, we'll have an aperitivo and dinner at the lodge's excellent restaurant."
+        description: "Today we leave the 'Lucani Dolomites' and drive to our next base in the heart of the Pollino National Park, Italy's largest.  On the way, we will stop for coffee before having a light lunch.  After settling into our accommodation, we'll have an aperitivo and dinner at the one of the accommodation's excellent restaurants."
         photo: guided/108.jpg
       -
         id: 0l3nLZ0EbT-jFT0RWNEs5
         title: 'Explore the woods and fields'
         distance: 10.0
-        description: "Today's walk is a great introduction to the national park  It follows a loop route, that leaves our accommodation winding through pine forests before climbing up to the top of Montagna di Grasta (1434 mts) which has spectacular views south into Calabria. We'll have a picnic lunch along the way.  Back at base the rest of the afternoon is free. Dinner will be at the lodge."
+        description: 'It follows a loop route, winding up to a rare old-growth beech forest that has been untouched by human hands and that has been preserved by UNESCO.  It has spectacular views south into Calabria.  The walk finishes at a rifugio (mountain lodge) where we’ll have a hearty lunch before heading back to our accommodation. The evening is free.'
         duration: 4.0
         elevation: 430
         photo: guided/fasanelli-1.webp
         meals_included:
           - breakfast
           - lunch
-          - dinner
       -
         id: yAPlMq-7I0LxA3jqvlhrw
         title: 'A hike to the roof of the Pollino NP'
@@ -394,7 +393,7 @@ seasons: autumn
 locations: southern-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1793936568
+updated_at: 1793941153
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/fasanelli-2.webp
