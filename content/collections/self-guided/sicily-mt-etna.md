@@ -6,7 +6,7 @@ name: 'Sicily: Mt Etna and Taormina'
 region: Sicily
 days: 8
 updated_by: 2
-updated_at: 1793666385
+updated_at: 1794189506
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -104,7 +104,7 @@ page_builder:
       -
         id: mloozlek
         title: 'Enjoy the Nebrodi forests'
-        description: 'This morning, you follow gently climbing mountain trails through forests and past hazelnut groves to a small village in the heart of the Nebrodi Natural Park. The village was originally founded by the Romans, who logged the surrounding forests.  It was abandoned and then re-founded in the 1600s under Spanish rule. Your accommodation is in a restored medieval home.'
+        description: 'This morning, you follow gently climbing mountain trails (mostly unsealed country lanes) through forests and past hazelnut groves to a small village in the heart of the Nebrodi Natural Park. The village was originally founded by the Romans, who logged the surrounding forests.  It was abandoned and then re-founded in the 1600s under Spanish rule. Your accommodation is in a restored medieval home.'
         duration: 4.0
         distance: 15.0
         elevation: 738
@@ -116,7 +116,7 @@ page_builder:
       -
         id: mlop159i
         title: "Walk to the 'Black City'"
-        description: 'The longest walk of the tour takes you gradually downhill to Randazzo, a bustling market town at the foot of Mt Etna, overlooking the Alcantara River. Randazzo has a colourful history. Founded by the Romans, its heyday was in the Middle Ages when it was variously ruled by the Byzantines, the Arabs, the Normans and the Spanish. It is nicknamed the Black City because it was built out of volcanic stones from nearby Etna. Your accommodation is in a B&B in a historical 1800s noble house.'
+        description: 'The longest walk of the tour takes you gradually downhill following unsealed country lanes to Randazzo, a bustling market town at the foot of Mt Etna. Randazzo has a colourful history. Founded by the Romans, its heyday was in the Middle Ages when it was variously ruled by the Byzantines, the Arabs, the Normans and the Spanish. It is nicknamed the Black City because it was built out of volcanic stones from nearby Etna. Your accommodation is in a B&B in a historical 1800s noble house.'
         duration: 4.5
         distance: 17.0
         elevation: 230
@@ -127,7 +127,7 @@ page_builder:
       -
         id: mlop3c5r
         title: 'Discover Mount Etna'
-        description: 'Today is a very special day: you will have the opportunity to walk on the slopes of Mt. Etna. You have two options. The lower option is a beautiful loop walk through pine and beach forests. On the way, you cross the solidified lava from the 1981 eruption. The higher option takes you up towards the craters at the top of the mountain. In both cases, you will also have the option to hire a local guide. Your accommodation is in a restored boutique hotel from the 1800s.'
+        description: 'Today is a very special day: you will have the opportunity to walk on the slopes of Mt. Etna. You have two options, both follow clear well-marked along unsealed tracks. The lower option is a beautiful loop walk through pine and beach forests.  The higher option takes you up towards the craters at the top of the mountain. In both cases, you will also have the option to hire a local guide. Your accommodation is in a restored boutique hotel from the 1800s.'
         duration: 4.0
         distance: 13.0
         elevation: 267
@@ -138,7 +138,7 @@ page_builder:
       -
         id: mlop5205
         title: 'Walk the Alcantara River'
-        description: "This morning you enjoy a beautiful walk down the fertile plains of the Alcantara River, passing vineyards, olive groves and fruit orchards. At the end of your walk, you can dive into one of the many spectacular swimming holes that the river offers.  Once you're done, you continue to your nearby accommodation, which is in a luxury country resort."
+        description: "This morning you enjoy a beautiful walk down the fertile plains of the Alcantara River, passing vineyards, olive groves and fruit orchards.  The route follows 50% unsealed country lane and 50% (quiet) sealed country lanes.  At the end of your walk, you can dive into one of the many spectacular swimming holes that the river offers.  Once you're done, you continue to your nearby accommodation, which is in a luxury country resort."
         duration: 3.5
         distance: 11.0
         elevation: 51
@@ -149,7 +149,7 @@ page_builder:
       -
         id: mlop6avf
         title: 'Arrive at Castelmola'
-        description: 'After a short drive to a village in the neighbouring valley, you follow a trail uphill through olive groves and almond groves to Castelmola, a medieval village perched on a promontory with breathtaking views over Taormina and the Ionian Sea. Your accommodation for the next two nights is in a 4-star hotel.'
+        description: 'After a short drive to a village in the neighbouring valley, you follow a trail uphill through olive groves and almond groves with spectacular views over the coastline and sea, finally descending to Castelmola, a medieval village perched on a promontory with breathtaking views over Taormina and the Ionian Sea. The route follows 50% unsealed country lane and 50% (quiet) sealed country lanes.  Your accommodation for the next two nights is in a 4-star hotel.'
         duration: 4.0
         distance: 12.0
         elevation: 766
@@ -192,7 +192,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "This is a continuous walk from the Nebrodi Mountains to the Ionian Sea. The daily walks vary from 17 kilometres to 4 kilometres with some long steady climbs and long steady descents (details on the daily itinerary).\_You walk mostly on established hiking trails and droving tracks. Although the trails are not fully way-marked, the routes are straightforward to follow (you will have the detailed roadbook and Hidden Italy app to show you the way).\_"
+                text: "This is a continuous walk from the Nebrodi Mountains to the Ionian Sea. The daily walks vary from 17 kilometres to 4 kilometres with some long steady climbs and long steady descents (details on the daily itinerary).\_You walk mostly on established hiking trails and droving tracks. Although the trails are not fully way-marked, the routes are straightforward to follow (you will have the detailed roadbook and Hidden Italy app to show you the way).\_ The walk follows mostly unsealed country lanes.  There are short sections of asphalt roads leaving the villages and some longer sections of (little-used) sealed country lanes, particularly in the two last walks (see itinerary for details)."
         image: self-guided/img_4994.jpeg
         type: walk
         enabled: true
