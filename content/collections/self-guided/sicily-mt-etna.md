@@ -6,7 +6,7 @@ name: 'Sicily: Mt Etna and Taormina'
 region: Sicily
 days: 8
 updated_by: 2
-updated_at: 1794190194
+updated_at: 1794200008
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -389,7 +389,7 @@ summary:
     content:
       -
         type: text
-        text: "This extraordinary walk encompasses the north-eastern corner of Sicily, beginning above the Montalbano Elicona (The Most Beautiful Town in Italy 2016, in the mountains above the Tyrrhenian coast and finishing at Castelmola, a charming town overlooking Taormina and the Ionian Sea.\_This tour has it all: it takes you through the forests and farmlands of the Nebrodi Natural Park; along the pristine Alcantara River; to the slopes of Mount Etna; and finally, to Taormina.\_Along the way, you enjoy relaxing walks, stay in gorgeous small towns, meet fine people and eat excellent food!"
+        text: "This extraordinary walk encompasses the north-eastern corner of Sicily, beginning at Montalbano Elicona (The Most Beautiful Town in Italy, 2016) in the mountains above the Tyrrhenian coast and finishing at Castelmola, a charming hilltop town overlooking Taormina and the Ionian Sea.\_This tour has it all: it takes you through the forests and farmlands of the Nebrodi Natural Park; along the pristine Alcantara River; to the slopes of Mount Etna; and finally, to Taormina.\_Along the way, you enjoy relaxing walks, stay in gorgeous small towns, meet fine people and eat excellent food!"
 price: 'A$4,200 pp'
 show_from: true
 og_image: piedmont-alba-and-le-langhe-og-1779335292.png
