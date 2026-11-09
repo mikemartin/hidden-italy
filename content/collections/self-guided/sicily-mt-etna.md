@@ -6,7 +6,7 @@ name: 'Sicily: Mt Etna and Taormina'
 region: Sicily
 days: 8
 updated_by: 2
-updated_at: 1794189506
+updated_at: 1794190194
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -127,7 +127,7 @@ page_builder:
       -
         id: mlop3c5r
         title: 'Discover Mount Etna'
-        description: 'Today is a very special day: you will have the opportunity to walk on the slopes of Mt. Etna. You have two options, both follow clear well-marked along unsealed tracks. The lower option is a beautiful loop walk through pine and beach forests.  The higher option takes you up towards the craters at the top of the mountain. In both cases, you will also have the option to hire a local guide. Your accommodation is in a restored boutique hotel from the 1800s.'
+        description: 'Today is a very special day: you will have the opportunity to walk on the slopes of Mt. Etna. You have two options, both follow clear, well-marked, unsealed trails. The lower option is a beautiful loop walk through pine and beach forests.  The higher option takes you up towards the craters at the top of the mountain. In both cases, you will also have the option to hire a local guide. Your accommodation is in a restored boutique hotel from the 1800s.'
         duration: 4.0
         distance: 13.0
         elevation: 267
