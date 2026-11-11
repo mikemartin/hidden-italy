@@ -6,7 +6,7 @@ name: "Turin and Val d'Aosta"
 region: "Val d'Aosta"
 days: 13
 updated_by: 3
-updated_at: 1793340226
+updated_at: 1794393255
 grade: 4
 inclusions:
   - '12 nights accommodation (see the itinerary for details) in 4-star boutique hotels'
@@ -216,7 +216,7 @@ page_builder:
       -
         id: mlorf281
         title: 'Return to Turin'
-        description: 'This morning, we leave to 08.00 and head back to Turin (approximately 2 hours away) which has excellent national and international rail and air connections.'
+        description: 'This morning, we leave early and head back to Turin (approximately 2 hours away) which has excellent national and international rail and air connections.'
         meals_included:
           - breakfast
         photo: guided/turin-and-val-daosta/c.jpg
