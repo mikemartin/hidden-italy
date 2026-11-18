@@ -197,7 +197,7 @@ page_builder:
         id: 0l3nLZ0EbT-jFT0RWNEs5
         title: 'Explore the woods and fields'
         distance: 10.0
-        description: 'It follows a loop route, winding up to a rare old-growth beech forest that has been untouched by human hands and that has been preserved by UNESCO.  It has spectacular views south into Calabria.  The walk finishes at a rifugio (mountain lodge) where we’ll have a hearty lunch before heading back to our accommodation. The evening is free.'
+        description: "Today's walk is a great introduction to the national park. It follows a loop route, winding up to a rare old-growth beech forest that has been untouched by human hands and that has been preserved by UNESCO.  It has spectacular views south into Calabria.  The walk finishes at a rifugio (mountain lodge) where we’ll have a hearty lunch before heading back to our accommodation. The evening is free."
         duration: 4.0
         elevation: 430
         photo: guided/fasanelli-1.webp
@@ -211,10 +211,10 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        description: "Today is another loop route, which requires a short transfer to start with. We then follow historical droving trails up through chestnut and beech forests to the tree free ridges to enjoy 360% views over the whole national park.  We will have a picnic lunch at the top. On the way back, we will visit some ancient 'loricato' pine, only found in the Pollino NP. Dinner is at our accommodation."
-        duration: 4.0
-        distance: 12.0
-        elevation: 660
+        description: "Today is another loop route, which requires a short transfer to start. We then follow historical droving trails up through chestnut and beech forests to the tree free ridges to enjoy 360% views over the whole national park.  We will have a picnic lunch. On the way back, we will visit some ancient 'loricato' pine, only found in the Pollino NP. Dinner is at our accommodation."
+        duration: 3.0
+        distance: 10.0
+        elevation: 300
         photo: guided/fasanelli-2.jpeg
       -
         id: KHRGr3D2yhqLQdiThxIUa
@@ -222,7 +222,7 @@ page_builder:
           - breakfast
           - lunch
         title: 'Transfer to Maratea'
-        description: 'Today we leave the mountains and forest and embrace the beautiful Tyhrrenian coastline.  Along the way, we stop for a coffee in Rotonda and then lunch in Rivello, a picture-perfect medieval village where we will have a delicious lunch.  Maratea is drive further on.  After checking into our gorgeous hotel, the rest of the day and evening to explore this fascinating town.'
+        description: 'Today we leave the mountains and forest and embrace the beautiful Tyrrhenian coastline. Along the way, we stop in a picture-perfect medieval village where we will have a delicious lunch. We then drive on to Maratea, a very attractive town overlooking the coast. After checking into our gorgeous hotel, the rest of the day and evening to explore this fascinating place. The evening is free.'
         photo: guided/110.jpg
       -
         id: j-gmsVnOqpZy0rOQpeOlG
@@ -230,7 +230,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        description: 'This morning a private boat will take us up the coast, with plenty of opportunities to explore the rugged coastline and plenty of opportunities to dive into the blue Mediterranean Sea.  We will return to port for a wonderful seafood dinner in one of the best restaurants in the district.  Back at base, you will have the option of a short walk up to visit the famous gigantic statue of Jesus that dominates the bay or to simply relax and enjoy the accommodation. The evening is free.'
+        description: 'This morning a private boat will take us up the coast, with plenty of opportunities to explore the rugged coastline and plenty of opportunities to dive into the blue Mediterranean Sea. We will return to port for a wonderful seafood lunch in one of the best restaurants in the district. Back at base, you will have the option of a short walk up to visit the famous gigantic statue of Jesus that dominates the bay or to simply relax and enjoy the accommodation. The evening is free.'
         duration: 2.0
         distance: 5.0
         elevation: 263
@@ -393,7 +393,7 @@ seasons: autumn
 locations: southern-italy
 simple_likes: 0
 updated_by: 4
-updated_at: 1793941153
+updated_at: 1794963908
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/fasanelli-2.webp
