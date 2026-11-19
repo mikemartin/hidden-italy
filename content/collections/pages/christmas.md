@@ -1,13 +1,12 @@
 ---
 id: 85e803cb-fc81-4eea-b0af-b61fd3a9d6c4
-published: false
 blueprint: page
-title: 'Christmas with Hidden Italy'
+title: 'Book a tour. Get a gift card.'
 header_variant: large
 page_builder:
   -
     id: AlnE_xc7Bkb-kv3EUIcnV
-    heading: 'GEAR UP ON US!'
+    heading: 'Book a tour. Get a gift card.'
     image: offers/newsletter-offer.png
     image_position: right
     image_aspect: square
@@ -32,10 +31,16 @@ page_builder:
             marks:
               -
                 type: bold
-            text: 'Every 2027 Guided tour booking includes an A$250 per person '
+            text: 'The first 10 people to book a 2027 Guided tour receive an A$250 per person '
           -
             type: text
             text: 'outdoor adventure store gift card*.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Use it on new boots, a backpack, layers or anything that will make walking in Italy more comfortable. Or gift it to someone special.'
       -
         type: paragraph
         content:
@@ -49,8 +54,15 @@ page_builder:
             type: text
             marks:
               -
+                type: link
+                attrs:
+                  href: 'statamic://entry::46b6b124-89cf-4efb-b06a-cdb4d28312ba'
+                  rel: null
+                  target: null
+                  title: null
+              -
                 type: bold
-            text: 'This limited-time Christmas Deal is exclusive to the first 10 people to book! '
+            text: 'Discover our guided tours today!'
   -
     id: Ys3bA1m99Fd9tDRU5MaSo
     questions:
@@ -146,9 +158,9 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 card_image: offers/newsletter-offer.png
 updated_by: 4
-updated_at: 1795130804
-headline: 'Something for the Trails Ahead'
-description: 'Our Christmas gift to you: Use it on new boots, a backpack, layers or anything that will make walking in Italy more comfortable. Or gift it to someone special.'
+updated_at: 1795131578
+headline: 'GEAR UP ON US!'
+description: 'Receive an A$250 per person outdoor adventure store gift card.'
 og_image: special-offer-og-1788230053.png
 duplicated_from: d6f09fcd-1bd0-4830-bbff-4630b510af97
 ---
