@@ -8,7 +8,7 @@ page_builder:
   -
     id: AlnE_xc7Bkb-kv3EUIcnV
     heading: 'GEAR UP ON US!'
-    image: 50-v2.jpg
+    image: offers/newsletter-offer.png
     image_position: right
     image_aspect: square
     section_background: none
@@ -144,9 +144,9 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-card_image: waterfall-1.webp
+card_image: offers/newsletter-offer.png
 updated_by: 4
-updated_at: 1795130409
+updated_at: 1795130804
 headline: 'Something for the Trails Ahead'
 description: 'Our Christmas gift to you: Use it on new boots, a backpack, layers or anything that will make walking in Italy more comfortable. Or gift it to someone special.'
 og_image: special-offer-og-1788230053.png
