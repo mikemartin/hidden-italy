@@ -6,7 +6,7 @@ name: 'Sicily: Mt Etna and Taormina'
 region: Sicily
 days: 8
 updated_by: 2
-updated_at: 1794275561
+updated_at: 1795065082
 grade: 4
 inclusions:
   - 'Private transfers to and from Catania at the beginning and end of the tour'
@@ -116,7 +116,7 @@ page_builder:
       -
         id: mlop159i
         title: "Walk to the 'Black City'"
-        description: 'The longest walk of the tour takes you gradually downhill following mostly unsealed country lanes to Randazzo, a bustling market town at the foot of Mt Etna. Randazzo has a colourful history. Founded by the Romans, its heyday was in the Middle Ages when it was variously ruled by the Byzantines, the Arabs, the Normans and the Spanish. It is nicknamed the Black City because it was built out of volcanic stones from nearby Etna. Your accommodation is in a B&B in a historical 1800s noble house.'
+        description: "The longest walk of the tour takes you gradually downhill following mostly unsealed country lanes to Randazzo, a bustling market town at the foot of Mt Etna. Randazzo has a colourful history. Founded by the Romans, its heyday was in the Middle Ages when it was variously ruled by the Byzantines, the Arabs, the Normans and the Spanish. It is nicknamed the Black City because it was built out of volcanic stones from nearby Etna. Your accommodation is in a B&B in a historical 1800s 'palazzo nobile'."
         duration: 4.5
         distance: 17.0
         elevation: 230
@@ -138,7 +138,7 @@ page_builder:
       -
         id: mlop5205
         title: 'Walk the Alcantara River'
-        description: "This morning you enjoy a beautiful walk down the fertile plains of the Alcantara River, passing vineyards, olive groves and fruit orchards.  The route follows 50% unsealed country lane and 50% (quiet) sealed country lanes.  At the end of your walk, you can dive into one of the many spectacular swimming holes that the river offers.  Once you're done, you continue to your nearby accommodation, which is in a luxury country resort."
+        description: "This morning you enjoy a beautiful walk down the fertile plains of the Alcantara River, passing vineyards, olive groves and fruit orchards.  The route follows 50% unsealed country lane and 50% (quiet) sealed country lanes.  At the end of your walk, you can dive into one of the many spectacular swimming holes that the river offers.  Once you're done, you continue to your nearby accommodation, which is in a luxury country resort with a swimming pool."
         duration: 3.5
         distance: 11.0
         elevation: 51
