@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 4
-updated_at: 1792370232
+updated_at: 1795211013
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -118,6 +118,40 @@ page_builder:
     heading: 'Special Offers'
     cards:
       -
+        id: 8weerAwVYSf2Ih6Ck2vTl
+        image: offers/newsletter-offer.png
+        heading: 'Gear up on us!'
+        text: 'This Christmas we’re adding a practical bonus: The first 10 people to book a 2027 Guided tour receive an A$250 per person outdoor adventure store gift card*.'
+        button:
+          -
+            id: PGbYTgl8Jw7ZYUL3v0l8z
+            link_type: entry
+            entry: 85e803cb-fc81-4eea-b0af-b61fd3a9d6c4
+            button_type: inline
+            target_blank: false
+            type: button
+            enabled: true
+            label: 'Learn More'
+        type: card
+        enabled: true
+      -
+        id: home_shop_gift50
+        type: card
+        enabled: true
+        image: shop/hidden-italy_gift-crd-mock_02-1786682937.png
+        heading: 'Gift card — $250'
+        text: 'A Hidden Italy gift card to put towards any tour or product.'
+        button:
+          -
+            id: home_shop_gift50_btn
+            label: 'View gift card'
+            link_type: url
+            target_blank: true
+            button_type: button
+            type: button
+            enabled: true
+            url: 'https://hiddenitaly.myshopify.com/'
+      -
         id: 1v8vZudq4q1G4NQl-EpiR
         image: waterfall-1.webp
         heading: 'Pamper yourself on us'
@@ -151,23 +185,6 @@ page_builder:
             button_type: button
             type: button
             enabled: true
-      -
-        id: home_shop_gift50
-        type: card
-        enabled: true
-        image: shop/hidden-italy_gift-crd-mock_02-1786682937.png
-        heading: 'Gift card — $250'
-        text: 'A Hidden Italy gift card to put towards any tour or product.'
-        button:
-          -
-            id: home_shop_gift50_btn
-            label: 'View gift card'
-            link_type: url
-            target_blank: true
-            button_type: button
-            type: button
-            enabled: true
-            url: 'https://hiddenitaly.myshopify.com/'
       -
         id: nyMyElUSSprTpoC6Gcm7M
         image: bring-a-friend-offer.png
