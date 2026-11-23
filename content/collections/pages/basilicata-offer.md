@@ -1,5 +1,6 @@
 ---
 id: 47e43933-0e1d-48c5-98b4-b306feaad485
+published: false
 blueprint: home
 title: 'BASILICATA INTRO OFFER'
 page_builder:
@@ -117,6 +118,6 @@ og_description: |-
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 4
-updated_at: 1787704276
+updated_at: 1795395362
 og_image: basilicata-intro-offer-og-1788230066.png
 ---
