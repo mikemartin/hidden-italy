@@ -19,7 +19,7 @@ inclusions:
 page_builder:
   -
     id: Ovh3ytUJq2Rwd06pw-R_-
-    title: "Follow the escape route used\L by Allied POW's"
+    title: "Follow the escape route used\L by Allied POWs"
     column_left:
       -
         type: paragraph
@@ -167,7 +167,7 @@ page_builder:
       -
         id: mlj0rpd5
         title: 'The first views of Switzerland'
-        description: 'Today’s walk is challenging but very rewarding. We leave the valley beneath Monte Rosa and climb an old mule trail to a 2900-meter pass with our first views of Switzerland, where we stop for lunch. After crossing the pass, we descend for a long walk into a valley with a lake before crossing the Anzasca River and arriving in  Macugnaga. The last two nights are spent at a family-run 3-star hotel in Macugnaga, with your luggage delivered from Biella. The evening is free.'
+        description: 'Today’s walk is challenging but very rewarding. We leave the valley beneath Monte Rosa and climb an old mule trail to a 2900-metre pass with our first views of Switzerland, where we stop for lunch. After crossing the pass, we descend for a long walk into a valley with a lake before crossing the Anzasca River and arriving in  Macugnaga. The last two nights are spent at a family-run 3-star hotel in Macugnaga, with your luggage delivered from Biella. The evening is free.'
         duration: 8.0
         distance: 22.0
         elevation: 1217
@@ -230,7 +230,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The accommodation is one of the highlights of the tour.\_ We will start with the first night in a 4-star hotel in Biella in Piedmont.\_ For the next two night we will stay in a very comfortable pilgrim accommodation in magnificent monasteries that date from the Middle Ages.\_ The next night is in a ‘rifugio’, or mountain hut, where we will sleep overnight in shared rooms (with shared bathrooms).\_ The following two nights are in a lovely 3-star hotel in a town at the head of the Sesia Valley.\_ The next night is in a gorgeous rifugio at the foot of Mont Rosa, with shared rooms (with shared bathrooms)..\_ The last two nights we spend in a family-run 3-star hotel in a village below the Mt Moro Pass and the Swiss border"
+                text: "The accommodation is one of the highlights of the tour.\_ We will start with the first night in a 4-star hotel in Biella in Piedmont.\_ For the next two nights we will stay in a very comfortable pilgrim accommodation in magnificent monasteries that date from the Middle Ages.\_ The next night is in a ‘rifugio’, or mountain hut, where we will sleep overnight in shared rooms (with shared bathrooms).\_ The following two nights are in a lovely 3-star hotel in a town at the head of the Sesia Valley.\_ The next night is in a gorgeous rifugio at the foot of Monte Rosa, with shared rooms (with shared bathrooms).\_ The last two nights we spend in a family-run 3-star hotel in a village below the Mt Moro Pass and the Swiss border"
         media:
           - guided/trails-to-freedom/b96f4a2a-dec1-40ff-b7cb-9c99a23a7e4f.jpg
         type: accommodation
@@ -406,8 +406,8 @@ page_builder:
     hide_from_subnav: true
 seasons: summer
 locations: northern-italy
-updated_by: 3
-updated_at: 1793340336
+updated_by: 4
+updated_at: 1795396604
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg
