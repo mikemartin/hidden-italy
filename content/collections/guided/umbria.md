@@ -133,7 +133,7 @@ page_builder:
       -
         id: YjcLZmnMamy-RsFTNTnN6
         title: 'Explore the historical town'
-        description: 'This morning we will be taken on a guided tour of this fascinating town to get to know its history, architecture, and local traditions. Highlights include Piazza Grande and Palazzo dei Consoli and a cable car up to Basilica di Sant’Ubaldo, the town’s cathedral. After lunch, you’ll have the option to walk to the Hermitage of Sant’Ambrogio. The rest afternoon and evening are free.'
+        description: 'This morning we will be taken on a guided tour of this fascinating town to get to know its history, architecture, and local traditions. Highlights include Piazza Grande and Palazzo dei Consoli and a cable car up to Basilica di Sant’Ubaldo, the town’s cathedral. After lunch, you’ll have the option to walk to the Hermitage of Sant’Ambrogio. The rest of the afternoon and evening are free.'
         meals_included:
           - breakfast
           - lunch
@@ -143,7 +143,7 @@ page_builder:
         photo: guided/gubbio-3.jpg
       -
         id: dRttPDU-P82DA7eK9yvVs
-        title: 'Head south to the Valenerina'
+        title: 'Head south to the Valnerina'
         description: 'On the way south to the Valnerina, we will stop at Assisi to see its famous 13th century basilica with Giotto’s celebrated frescoes. We will then explore the home of St Francis, Italy and Europe’s patron saint. After a light lunch, we will continue on to the Valnerina, stopping to visit gorgeous Spello on the way. Our accommodation is in an historic hotel in a quaint medieval town on the banks of the Nera River.'
         meals_included:
           - breakfast
@@ -263,7 +263,7 @@ page_builder:
             content:
               -
                 type: text
-                text: 'These gentle walks range from 3 to 12 kilometres.  They generally take three to fours hours following well-marked trails.  You are in the foothills of the Apennine Range so there are a few climbs but nothing dramatic.  They include an easy riverside walk, walks through rolling countryside and forests, and a spectacular undulating walk in the heart of the Sibillini Mountains.  You will be accompanied by your tour leader and a local guide on each of the walks'
+                text: 'These gentle walks range from 3 to 12 kilometres.  They generally take three to four hours following well-marked trails.  You are in the foothills of the Apennine Range so there are a few climbs but nothing dramatic.  They include an easy riverside walk, walks through rolling countryside and forests, and a spectacular undulating walk in the heart of the Sibillini Mountains.  You will be accompanied by your tour leader and a local guide on each of the walks'
         image: guided/foce-4.jpg
       -
         id: PEePl_7BCgVNDSxdSJl6B
@@ -299,7 +299,7 @@ page_builder:
                 text: porchetta
               -
                 type: text
-                text: ', roasted suckling pig stuffed with rosemary or sage.  Umbria is well-known for its truffles, its lentils and its fresh vegetables such as green beans from Trasimeno and cardoons from Trevi.  Umbria also produces some excellent wines including the white wines of Orvieto some outstanding reds such as Torgiano Rosso and Sagrantino.'
+                text: ', roasted suckling pig stuffed with rosemary or sage.  Umbria is well-known for its truffles, its lentils and its fresh vegetables such as green beans from Trasimeno and cardoons from Trevi.  Umbria also produces some excellent wines including the white wines of Orvieto and some outstanding reds such as Torgiano Rosso and Sagrantino.'
         media:
           - guided/porchetta-1.jpg
     show_topography: true
@@ -390,8 +390,8 @@ show_from: true
 seasons: autumn
 locations: central-italy
 simple_likes: 0
-updated_by: 3
-updated_at: 1793340283
+updated_by: 4
+updated_at: 1795396434
 summary:
   -
     type: paragraph
