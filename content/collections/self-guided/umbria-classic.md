@@ -5,8 +5,8 @@ title: 'Umbria Classic - Umbria'
 name: 'Umbria Classic'
 region: Umbria
 days: 7
-updated_by: 3
-updated_at: 1790315144
+updated_by: 4
+updated_at: 1795397230
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -138,7 +138,7 @@ page_builder:
       -
         id: mlop5205
         title: "Stay in a 'borgo'"
-        description: 'Descending from the hills, you cross the valley floor again, following a medieval path through wheat fields, past quiet farming villages and springs from a river source sacred to the Romans which inspired poets from Virgil to Byron, before climbing up to your accommodation. Dinner is included tonight. Please note that this walk can be shortened with an night in an excellent 4-star hotel along the way (7kms + 14 kms).'
+        description: 'Descending from the hills, you cross the valley floor again, following a medieval path through wheat fields, past quiet farming villages and springs from a river source sacred to the Romans which inspired poets from Virgil to Byron, before climbing up to your accommodation. Dinner is included tonight. Please note that this walk can be shortened with a night in an excellent 4-star hotel along the way (7kms + 14 kms).'
         duration: 5.5
         distance: 21.0
         elevation: 238
@@ -183,7 +183,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The walks mainly\_follow unsealed country roads passing thdough farmlands, olive groves and vineyards. The walks range from 8 to 21 kilometres (3 to 6 hours).\_The first walk on Day 2 is probably the most challenging with a steep climb at the beginning (the views on the top of Mt Subasio are your reward) however, there is a shorter option with less climbing is included in the notes.\_Day 5 walk (21 kms) can be shortened with an night in an excellent 4-star hotel along the way (highly recommended!).\_"
+                text: "The walks mainly\_follow unsealed country roads passing thdough farmlands, olive groves and vineyards. The walks range from 8 to 21 kilometres (3 to 6 hours).\_The first walk on Day 2 is probably the most challenging with a steep climb at the beginning (the views on the top of Mt Subasio are your reward) however, there is a shorter option with less climbing is included in the notes.\_Day 5 walk (21 kms) can be shortened with a night in an excellent 4-star hotel along the way (highly recommended!).\_"
               -
                 type: text
                 marks:

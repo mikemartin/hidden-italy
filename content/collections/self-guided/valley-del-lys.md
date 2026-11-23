@@ -6,7 +6,7 @@ name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
 updated_by: 4
-updated_at: 1793666026
+updated_at: 1795397191
 grade: 4
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
@@ -130,7 +130,7 @@ page_builder:
       -
         id: mlrcpsyv
         title: 'Visit Gressoney-la-Trinite'
-        description: 'A pretty and relaxed walk today that descends gradually through larch forest down to the pretty town of Gressoney-la-Trinite, where you’ll have the chance to have a break and visit the Walser Museum. From here you follow the Lys River up to the head of the valley, Monte Rosa and its glaciers looming large in front of you beckoning you to to stay. Your accommodation is in an elegantly restored historic inn.'
+        description: 'A pretty and relaxed walk today that descends gradually through larch forest down to the pretty town of Gressoney-la-Trinite, where you’ll have the chance to have a break and visit the Walser Museum. From here you follow the Lys River up to the head of the valley, Monte Rosa and its glaciers looming large in front of you beckoning you to stay. Your accommodation is in an elegantly restored historic inn.'
         duration: 2.5
         distance: 7.0
         elevation: 269
@@ -153,7 +153,7 @@ page_builder:
       -
         id: mlrczqmb
         title: 'Return to the valley!'
-        description: 'The last stage of our tour takes you up to a pass before descending down the Salza Valley (with a possible detour at the bottom to visit the glacier that form the source of the Lys River). From here you walk down the valley and then beside the river back to Gressoney-la-Trinite, where your accommodation tonight, the grand finale, is in an historic Walser residence, famous for its mountain cooking.'
+        description: 'The last stage of our tour takes you up to a pass before descending down the Salza Valley (with a possible detour at the bottom to visit the glacier that form the source of the Lys River). From here you walk down the valley and then beside the river back to Gressoney-la-Trinité, where your accommodation tonight, the grand finale, is in an historic Walser residence, famous for its mountain cooking.'
         duration: 4.0
         distance: 12.0
         elevation: 600
