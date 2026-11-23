@@ -5,8 +5,8 @@ title: 'Lake Como - Lombardy'
 name: 'Lake Como'
 region: Lombardy
 days: 7
-updated_by: 2
-updated_at: 1793311696
+updated_by: 4
+updated_at: 1795396997
 grade: 3
 inclusions:
   - '6 nights accommodation'
@@ -61,7 +61,7 @@ page_builder:
       -
         id: mloog7vk
         title: 'Stay in fabulous accommodation'
-        summary: 'Stay in in excellent family-run, romantic hotels, with views over the lake!'
+        summary: 'Stay in excellent family-run, romantic hotels, with views over the lake!'
         icon: ski-alpine-hotel.svg
       -
         id: mlooou12
@@ -120,7 +120,7 @@ page_builder:
       -
         id: mlop159i
         title: 'Visit a Villa'
-        description: 'Today is a free day to enjoy what the the lake has to offer. We will provide you with details (opening information, ferry timetables etc) to visit two of the finest villas and gardens on the central lake, both of which can be easily reached with short pleasant ferry rides. We have also included an additional walk that starts that can be combined with the villa visits or can be done as an alternative to the villa visits.'
+        description: 'Today is a free day to enjoy what the lake has to offer. We will provide you with details (opening information, ferry timetables etc) to visit two of the finest villas and gardens on the central lake, both of which can be easily reached with short pleasant ferry rides. We have also included an additional walk that can be combined with the villa visits or can be done as an alternative to the villa visits.'
         duration: 3.5
         distance: 9.0
         meals_included:

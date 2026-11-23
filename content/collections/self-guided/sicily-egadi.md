@@ -6,7 +6,7 @@ name: 'Sicily: Egadi Islands'
 region: Sicily
 days: 7
 updated_by: 4
-updated_at: 1793336072
+updated_at: 1795397149
 grade: 3
 inclusions:
   - 'Private transfer from Palermo to Trapani on Day 1'
@@ -194,7 +194,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The accommodation is in very comfortable, family-run 3-star hotels. \_The superior rooms have en suite bathrooms, terraces and ample breakfasts are included.  The first hotel is in the centre of the main town of the Egadi Islands, only 50 metres from the seaside and a short walk from the port. \_It is in an historical building that has been recently restored. \_You'll spend four nights here. \_The second hotel is in the centre of a small fortified hamlet a short walk from the seashore. \_You'll spend two nights here. \_Both hotel's have excellent restaurants."
+                text: "The accommodation is in very comfortable, family-run 3-star hotels. \_The superior rooms have en suite bathrooms, terraces and ample breakfasts are included.  The first hotel is in the centre of the main town of the Egadi Islands, only 50 metres from the seaside and a short walk from the port. \_It is in an historical building that has been recently restored. \_You'll spend four nights here. \_The second hotel is in the centre of a small fortified hamlet a short walk from the seashore. \_You'll spend two nights here. \_Both hotels have excellent restaurants."
         media:
           - self-guided/sicily-2-the-egadi-islands/tavernetta-1.jpg
         type: accommodation
@@ -208,13 +208,13 @@ page_builder:
             content:
               -
                 type: text
-                text: "As far as Sicilians' are convinced that the best things in life include good company, family life, sunny days and above all, good food.\_ Sicilian food is completely hybrid, reflecting the island's extraordinary history.\_ From Greece came the the traditional country dishes around Syracuse and Ragusa; the Arabs introduced sweet and sour; the Spanish a Baroque taste for excess; the French introduced the onion, while Swiss chefs influenced their desserts with cream and stuffing.\_ Eating and drinking in Sicily is synonymous with a delicious journey back in time!"
+                text: "Sicilians are convinced that the best things in life include good company, family life, sunny days and above all, good food.\_ Sicilian food is completely hybrid, reflecting the island's extraordinary history.\_ From Greece came the traditional country dishes around Syracuse and Ragusa; the Arabs introduced sweet and sour; the Spanish introduced a Baroque taste for excess; the French introduced the onion, while Swiss chefs influenced their desserts with cream and stuffing.\_ Eating and drinking in Sicily is synonymous with a delicious journey back in time!"
           -
             type: paragraph
             content:
               -
                 type: text
-                text: "On the coast, the cooking mixes staples like pasta, tomato sauce and fresh vegetables with local specialities like the abundant freshfish, including tuna, sardines swordfish, with chillies, olives, pine nuts and capers.\_ The Arabic influence is clear through the couscous and rich sweets and desserts like marzipan and cassata."
+                text: "On the coast, the cooking mixes staples like pasta, tomato sauce and fresh vegetables with local specialities like the abundant fresh fish, including tuna, sardines swordfish, with chillies, olives, pine nuts and capers.\_ The Arabic influence is clear through the couscous and rich sweets and desserts like marzipan and cassata."
           -
             type: paragraph
             content:
