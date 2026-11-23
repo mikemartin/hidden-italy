@@ -6,7 +6,7 @@ name: 'Tuscany 1'
 region: Tuscany
 days: 6
 updated_by: 4
-updated_at: 1792975507
+updated_at: 1795397591
 grade: 1
 inclusions:
   - 'Pick up at either Siena or Chiusi (on the Rome/Florence rail line) and drop-off at the end back in Chiusi'
@@ -143,7 +143,7 @@ page_builder:
       -
         id: mlop6avf
         title: 'Transfer to Chiusi station'
-        description: "After breakfast at 9.00 you'll be transfered to nearby Chiusi on the main Rome/Florence railway line."
+        description: "After breakfast at 9.00 you'll be transferred to nearby Chiusi on the main Rome/Florence railway line."
         meals_included:
           - breakfast
         photo: self-guided/tuscany-1/img_0741.jpg
@@ -186,7 +186,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Hidden Italy uses the best accommodation available.\_On this tour all the accommodation is in family-run, three star hotels which are based in centrally located, restored heritage buildings which themselves are part of the the local history. The exception is\_Day 2 when you'll stay in a private serviced apartment in the centre of a tiny\_medieval village (there are no hotels here)."
+                text: "Hidden Italy uses the best accommodation available.\_On this tour all the accommodation is in family-run, three star hotels which are based in centrally located, restored heritage buildings which themselves are part of the local history. The exception is\_Day 2 when you'll stay in a private serviced apartment in the centre of a tiny\_medieval village (there are no hotels here)."
         media:
           - self-guided/tuscany-1/hotel-view-montalcino.jpg
         type: accommodation

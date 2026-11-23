@@ -428,7 +428,7 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-price: A$3900
+price: 'A$3,900pp'
 show_from: true
 simple_likes: 0
 seasons:
@@ -439,7 +439,7 @@ seasons:
 landscapes:
   - coastal
 updated_by: 4
-updated_at: 1795396873
+updated_at: 1795397452
 locations: australasia
 gallery:
   - self-guided/22.5.jpeg
