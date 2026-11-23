@@ -5,8 +5,8 @@ title: 'Cinque Terre - Liguria'
 name: 'Cinque Terre'
 region: Liguria
 days: 7
-updated_by: 2
-updated_at: 1794804767
+updated_by: 4
+updated_at: 1795397412
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -57,7 +57,7 @@ page_builder:
             text: 'extend your tour by 4 days to take in Santa Margherita and Portofino'
           -
             type: text
-            text: ", from A$2000. Santa Margherita Ligure is a lively and picturesque port at the foot of the superb Portofino National Park. A large promontory surrounded by cliffs and small coves, which has some of the most rewarding walking on the Italian Riviera. Santa Margherita is easily accessed by rail or road and is an ideal base from which to explore this fascinating part of the Ligurian coast. You'll stay in an excellent family-run hotel near the waterfront."
+            text: ", from A$2,000. Santa Margherita Ligure is a lively and picturesque port at the foot of the superb Portofino National Park. A large promontory surrounded by cliffs and small coves, which has some of the most rewarding walking on the Italian Riviera. Santa Margherita is easily accessed by rail or road and is an ideal base from which to explore this fascinating part of the Ligurian coast. You'll stay in an excellent family-run hotel near the waterfront."
   -
     id: mloocwbk
     heading: 'Highlights of the Cinque Terre walk'
