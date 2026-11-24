@@ -6,8 +6,8 @@ name: 'Sicily in the Spring'
 region: Sicily
 seasons: spring
 locations: southern-italy
-updated_by: 3
-updated_at: 1793340182
+updated_by: 4
+updated_at: 1795563132
 days: 14
 image: guided/sicily-in-the-spring/804728531-13.jpg
 grade: 4
@@ -154,7 +154,7 @@ page_builder:
         photo: guided/sicily-in-the-spring/day-4-sicily.jpg
       -
         id: EymXPLYKFOpoqp-arNVIS
-        title: 'Visit an an ancient Roman villa'
+        title: 'Visit an ancient Roman villa'
         description: "This morning we head south to visit Piazza Armerina, the extraordinary villa at Casale, the most important relic of the Roman era in Sicily, unique for both the size and the richness of the polychrome floor mosaics.  Before the visit, we'll stop for a delicious light lunch.  After the visit, we’ll drive back to our base, where the rest of the afternoon and evening is free."
         meals_included:
           - breakfast
