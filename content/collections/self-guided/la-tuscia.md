@@ -5,8 +5,8 @@ title: 'La Tuscia - Tuscany and Umbria'
 name: 'La Tuscia'
 region: 'Tuscany and Umbria'
 days: 7
-updated_by: 2
-updated_at: 1793755895
+updated_by: 4
+updated_at: 1795562309
 grade: 3
 inclusions:
   - 'Private transfer from Rome to Pitigliano on Day 1'
@@ -387,7 +387,7 @@ finish_location:
       code: null
       level: 2
   country: Italy
-teaser: 'Explore forests and sleepy country villages steeped history, all well off the beaten track'
+teaser: 'Explore forests and sleepy country villages steeped in history all off the beaten track'
 summary:
   -
     type: paragraph
