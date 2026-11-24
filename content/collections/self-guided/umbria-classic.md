@@ -6,7 +6,7 @@ name: 'Umbria Classic'
 region: Umbria
 days: 7
 updated_by: 4
-updated_at: 1795397230
+updated_at: 1795563959
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -173,7 +173,7 @@ page_builder:
     tabs:
       -
         id: _mDmVfayfhOdoqr-fftAm
-        title: 'Exceptional walkings'
+        title: 'Exceptional Walking'
         total_distance: 73.0
         total_elevation: 1312
         grade: 0
