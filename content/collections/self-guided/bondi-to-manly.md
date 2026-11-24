@@ -46,14 +46,14 @@ page_builder:
         content:
           -
             type: text
-            text: "Staying in ‘king’ rooms in 4-star accommodation each night, you will explore the city’s colourful history, vibrant cultural life and rich gastronomic traditions along the way (passing some of the city’s finest, and best-situated, restaurants).\_"
+            text: "Staying in ‘king’ rooms in 4-star accommodation each night, you will explore the city’s colourful history, vibrant cultural life and rich gastronomic traditions along the way (passing some of the city’s finest and best-situated, restaurants).\_"
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'You will also spend a night in the heart in the centre of the CBD, with access to theatres, art galleries and cinemas as well as the celebrated Sydney Harbour Bridge Climb. As a special treat, we include a night with dinner at Sydney’s celebrated Taronga Zoo’s 4-star eco-retreat.'
+            text: 'You will also spend a night in the heart of the CBD, with access to theatres, art galleries and cinemas as well as the celebrated Sydney Harbour Bridge Climb. As a special treat, we include a night with dinner at Sydney’s celebrated Taronga Zoo’s 4-star eco-retreat.'
       -
         type: paragraph
         content:
@@ -439,7 +439,7 @@ seasons:
 landscapes:
   - coastal
 updated_by: 4
-updated_at: 1795561991
+updated_at: 1795563244
 locations: australasia
 gallery:
   - self-guided/22.5.jpeg

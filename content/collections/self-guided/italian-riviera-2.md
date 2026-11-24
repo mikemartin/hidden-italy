@@ -5,8 +5,8 @@ title: 'Italian Riviera 2 - Liguria'
 name: 'Italian Riviera 2'
 region: Liguria
 days: 9
-updated_by: 2
-updated_at: 1793307627
+updated_by: 4
+updated_at: 1795563347
 grade: 3
 inclusions:
   - 'Eight nights accommodation'
@@ -137,8 +137,8 @@ page_builder:
         photo: self-guided/italian-riviera-2/yy.jpg
       -
         id: mlop5205
-        title: 'Walk the Sentiero Azzuro'
-        description: "With today's walk you start on the Sentiero Azzuro, the celebrated path that links the five villages of the Cinque Terre. The walk weaves along cliffs and through terraces, offering spectacular views over the bays and the villages, taking you to Vernazza."
+        title: 'Walk the Sentiero Azzurro'
+        description: "With today's walk you start on the Sentiero Azzurro, the celebrated path that links the five villages of the Cinque Terre. The walk weaves along cliffs and through terraces, offering spectacular views over the bays and the villages, taking you to Vernazza."
         duration: 2.5
         distance: 5.0
         elevation: 197
@@ -148,7 +148,7 @@ page_builder:
       -
         id: mlop6avf
         title: 'Pass through olive groves'
-        description: "This morning, you pick up the Sentiero Azzuro again passing through olive groves with views up to the ancient terraces climbing  the mountains above you  You pass through two more of the Cinque Terre villages (where you can stop for lunch) before finishing at the last of the five villages, where you'll stay the night.  A beautiful alternative high walk through the vineyards of Volastra for this day is included as a more challenging option."
+        description: "This morning, you pick up the Sentiero Azzurro again, passing through olive groves with views up to the ancient terraces climbing the mountains above you. You pass through two more of the Cinque Terre villages (where you can stop for lunch) before finishing at the last of the five villages, where you'll stay the night.  A beautiful alternative high walk through the vineyards of Volastra for this day is included as a more challenging option."
         duration: 2.0
         distance: 7.0
         elevation: 184
