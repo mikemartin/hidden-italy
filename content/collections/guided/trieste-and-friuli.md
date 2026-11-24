@@ -5,8 +5,8 @@ title: 'Trieste and Friuli - Friuli Venezia Giulia'
 name: 'Trieste and Friuli'
 region: 'Friuli Venezia Giulia'
 days: 13
-updated_by: 3
-updated_at: 1793340213
+updated_by: 4
+updated_at: 1795563473
 grade: 4
 inclusions:
   - '12 night’s accommodation (see the itinerary for details) in excellent boutique hotels'
@@ -65,7 +65,7 @@ page_builder:
       -
         id: mloqrnhn
         title: 'Walk incomparable trails'
-        summary: 'Led by local guides enjoy a variety of beautiful walks: through mountain and valleys, and along along beautiful coasts.'
+        summary: 'Led by local guides, enjoy a variety of beautiful walks: through mountains and valleys, and along beautiful coasts.'
         icon: trekking-trekking.svg
       -
         id: mloqndod

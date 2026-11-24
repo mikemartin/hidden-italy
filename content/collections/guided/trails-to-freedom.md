@@ -230,7 +230,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The accommodation is one of the highlights of the tour.\_ We will start with the first night in a 4-star hotel in Biella in Piedmont.\_ For the next two nights we will stay in a very comfortable pilgrim accommodation in magnificent monasteries that date from the Middle Ages.\_ The next night is in a ‘rifugio’, or mountain hut, where we will sleep overnight in shared rooms (with shared bathrooms).\_ The following two nights are in a lovely 3-star hotel in a town at the head of the Sesia Valley.\_ The next night is in a gorgeous rifugio at the foot of Monte Rosa, with shared rooms (with shared bathrooms).\_ The last two nights we spend in a family-run 3-star hotel in a village below the Mt Moro Pass and the Swiss border"
+                text: "The accommodation is one of the highlights of the tour.\_ We will start with the first night in a 4-star hotel in Biella in Piedmont.\_ For the next two nights we will stay in a very comfortable pilgrim accommodation in magnificent monasteries that date from the Middle Ages.\_ The next night is in a ‘rifugio’, or mountain hut, where we will sleep overnight in shared rooms (with shared bathrooms).\_ The following two nights are in a lovely 3-star hotel in a town at the head of the Sesia Valley.\_ The next night is in a gorgeous rifugio at the foot of Monte Rosa, with shared rooms (with shared bathrooms).\_ The last two nights we spend in a family-run 3-star hotel in a village below the Mt. Moro Pass and the Swiss border."
         media:
           - guided/trails-to-freedom/b96f4a2a-dec1-40ff-b7cb-9c99a23a7e4f.jpg
         type: accommodation
@@ -407,7 +407,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 4
-updated_at: 1795397440
+updated_at: 1795563508
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg

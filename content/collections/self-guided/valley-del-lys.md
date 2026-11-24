@@ -6,7 +6,7 @@ name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
 updated_by: 4
-updated_at: 1795397191
+updated_at: 1795563440
 grade: 4
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
@@ -129,8 +129,8 @@ page_builder:
         photo: self-guided/valley-del-lys/7.jpg
       -
         id: mlrcpsyv
-        title: 'Visit Gressoney-la-Trinite'
-        description: 'A pretty and relaxed walk today that descends gradually through larch forest down to the pretty town of Gressoney-la-Trinite, where you’ll have the chance to have a break and visit the Walser Museum. From here you follow the Lys River up to the head of the valley, Monte Rosa and its glaciers looming large in front of you beckoning you to stay. Your accommodation is in an elegantly restored historic inn.'
+        title: 'Visit Gressoney-la-Trinité'
+        description: 'A pretty and relaxed walk today that descends gradually through larch forest down to the pretty town of Gressoney-la-Trinité, where you’ll have the chance to have a break and visit the Walser Museum. From here you follow the Lys River up to the head of the valley, Monte Rosa and its glaciers looming large in front of you beckoning you to stay. Your accommodation is in an elegantly restored historic inn.'
         duration: 2.5
         distance: 7.0
         elevation: 269
