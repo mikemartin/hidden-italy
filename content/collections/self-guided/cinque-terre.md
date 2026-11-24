@@ -6,7 +6,7 @@ name: 'Cinque Terre'
 region: Liguria
 days: 7
 updated_by: 4
-updated_at: 1795397412
+updated_at: 1795562195
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -381,7 +381,7 @@ seasons:
   - summer
   - winter
 headline: "7 days along Italy's finest coast"
-teaser: "Follow a continuous trail along Italy's most spectacualr stretch of coastline!"
+teaser: "Follow a continuous trail along Italy's most spectacular stretch of coastline!"
 summary:
   -
     type: paragraph
