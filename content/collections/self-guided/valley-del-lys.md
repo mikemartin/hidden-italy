@@ -6,7 +6,7 @@ name: 'Valley del Lys'
 region: "Val d'Aosta"
 days: 7
 updated_by: 4
-updated_at: 1795563440
+updated_at: 1795566987
 grade: 4
 inclusions:
   - 'Private transfer to and from Pont-Saint-Martin at the beginning and end of the tour'
@@ -153,7 +153,7 @@ page_builder:
       -
         id: mlrczqmb
         title: 'Return to the valley!'
-        description: 'The last stage of our tour takes you up to a pass before descending down the Salza Valley (with a possible detour at the bottom to visit the glacier that form the source of the Lys River). From here you walk down the valley and then beside the river back to Gressoney-la-Trinité, where your accommodation tonight, the grand finale, is in an historic Walser residence, famous for its mountain cooking.'
+        description: 'The last stage of our tour takes you up to a pass before descending down the Salza Valley (with a possible detour at the bottom to visit the glacier that forms the source of the Lys River). From here you walk down the valley and then beside the river back to Gressoney-la-Trinité, where your accommodation tonight, the grand finale, is in an historic Walser residence, famous for its mountain cooking.'
         duration: 4.0
         distance: 12.0
         elevation: 600

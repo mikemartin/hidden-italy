@@ -250,7 +250,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "Dinner each night will usually consists of three courses: a first course which may consist of risotto, ravioli or polenta; mains such as veal or rabbit stew; and a desserts such as bonet (a thick chocolate pudding) or a slice of excellent mature local cheese, chased down with coffee and/or a shot of grappa.\_ Wine with the meals is included.\_"
+                text: "Dinner each night usually consists of three courses: a first course which may consist of risotto, ravioli or polenta; mains such as veal or rabbit stew; and a dessert such as bonet (a thick chocolate pudding) or a slice of excellent mature local cheese, chased down with coffee and/or a shot of grappa.\_ Wine with the meals is included.\_"
           -
             type: paragraph
             content:
@@ -407,7 +407,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 4
-updated_at: 1795563508
+updated_at: 1795567070
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg
