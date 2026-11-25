@@ -6,7 +6,7 @@ name: 'Umbria Classic'
 region: Umbria
 days: 7
 updated_by: 4
-updated_at: 1795563959
+updated_at: 1795565570
 grade: 3
 inclusions:
   - 'Six nights accommodation'
@@ -183,7 +183,7 @@ page_builder:
             content:
               -
                 type: text
-                text: "The walks mainly\_follow unsealed country roads passing thdough farmlands, olive groves and vineyards. The walks range from 8 to 21 kilometres (3 to 6 hours).\_The first walk on Day 2 is probably the most challenging with a steep climb at the beginning (the views on the top of Mt Subasio are your reward) however, there is a shorter option with less climbing is included in the notes.\_Day 5 walk (21 kms) can be shortened with a night in an excellent 4-star hotel along the way (highly recommended!).\_"
+                text: "The walks mainly\_follow unsealed country roads passing through farmlands, olive groves and vineyards. The walks range from 8 to 21 kilometres (3 to 6 hours).\_The first walk on Day 2 is probably the most challenging with a steep climb at the beginning (the views at the top of Mt Subasio are your reward) however, there is a shorter option with less climbing included in the notes.\_Day 5 walk (21 kms) can be shortened with a night in an excellent 4-star hotel along the way (highly recommended!).\_"
               -
                 type: text
                 marks:
