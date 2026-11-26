@@ -72,6 +72,13 @@ page_builder:
           -
             type: text
             text: 'In 1209, Francis and his posse of bare-footed disciples walked from Assisi to Rome to confront the not-so-innocent Pope Innocent III. This beautiful nineteen-day walk recreates this journey, starting in Assisi, passing through vineyards and art towns of the Vale Umbria; the forests and rivers of the Nerina Valley and the undulating hills of northern Lazio before finishing on the steps of St Peter’s Basilica in the heart of Rome. No saint speaks to the modern mind like St Francis, the patron saint of Italy, his love of nature and his messages of freedom, fraternity and modesty still resonating across the centuries. St Francis was also a great walker, indeed, his career began with a long walk from Assisi to Rome: this marvellous walk follows this route. The trail takes you through some of the most striking and varied countryside in central Italy: the olive groves, vineyards and farmlands of the Valle Umbra.'
+    column_right:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '(between Assisi and Spoleto); the hills, forests, rivers and lakes of the Valnerina (between Spoleto and Rieti); and the fertile plains of northern Lazio, with their memories of ancient Rome, barbarian invasions, Renaissance princes and prelates (between Rieti and Rome) finishing in the centre of the ‘Eternal City’ itself. Along the way, you’ll visit extraordinary towns, villages and monasteries with long and rich histories, many of which have changed little since the time St Francis. Although not a ‘hike’ the routes includes some steep climbs and some long days and requires a good level of fitness. You walk along a mixture of unsealed country lanes and mountain trails with some stretches of asphalt, particularly entering and leaving the larger towns (although we have sought to keep this to a minimum).'
       -
         type: paragraph
       -
@@ -83,20 +90,39 @@ page_builder:
               -
                 type: link
                 attrs:
-                  href: 'https://hiddenitaly.com.au/tours/self-guided/umbria1'
+                  href: 'statamic://entry::f0135e9f-7439-4a88-b4d1-cc54b20d7e0c'
                   rel: null
                   target: null
                   title: 'Umbria 1'
             text: 'https://hiddenitaly.com.au/tours/self-guided/umbria1'
-    column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: '(between Assisi and Spoleto); the hills, forests, rivers and lakes of the Valnerina (between Spoleto and Rieti); and the fertile plains of northern Lazio, with their memories of ancient Rome, barbarian invasions, Renaissance princes and prelates (between Rieti and Rome) finishing in the centre of the ‘Eternal City’ itself. Along the way, you’ll visit extraordinary towns, villages and monasteries with long and rich histories, many of which have changed little since the time St Francis. Although not a ‘hike’ the routes includes some steep climbs and some long days and requires a good level of fitness. You walk along a mixture of unsealed country lanes and mountain trails with some stretches of asphalt, particularly entering and leaving the larger towns (although we have sought to keep this to a minimum).'
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://hiddenitaly.com.au/tours/self-guided/umbria2'
+                  rel: null
+                  target: null
+                  title: null
+            text: 'https://hiddenitaly.com.au/tours/self-guided/umbria2'
       -
         type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://hiddenitaly.com.au/tours/self-guided/lazio'
+                  rel: null
+                  target: null
+                  title: null
+            text: 'https://hiddenitaly.com.au/tours/self-guided/lazio'
     section_background: none
     type: overview
     enabled: true
@@ -162,5 +188,5 @@ locations: central-italy
 landscapes:
   - countryside
 updated_by: 4
-updated_at: 1795660031
+updated_at: 1795660181
 ---
