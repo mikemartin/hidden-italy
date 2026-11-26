@@ -78,9 +78,13 @@ page_builder:
         content:
           -
             type: text
-            text: '(between Assisi and Spoleto); the hills, forests, rivers and lakes of the Valnerina (between Spoleto and Rieti); and the fertile plains of northern Lazio, with their memories of ancient Rome, barbarian invasions, Renaissance princes and prelates (between Rieti and Rome) finishing in the centre of the ‘Eternal City’ itself. Along the way, you’ll visit extraordinary towns, villages and monasteries with long and rich histories, many of which have changed little since the time St Francis. Although not a ‘hike’ the routes includes some steep climbs and some long days and requires a good level of fitness. You walk along a mixture of unsealed country lanes and mountain trails with some stretches of asphalt, particularly entering and leaving the larger towns (although we have sought to keep this to a minimum).'
+            text: '(between Assisi and Spoleto); the hills, forests, rivers and lakes of the Valnerina (between Spoleto and Rieti); and the fertile plains of northern Lazio, with their memories of ancient Rome, barbarian invasions, Renaissance princes and prelates (between Rieti and Rome), finishing in the centre of the ‘Eternal City’ itself. Along the way, you’ll visit extraordinary towns, villages and monasteries with long and rich histories, many of which have changed little since the time St Francis. Although not a ‘hike’ the routes includes some steep climbs and some long days and requires a good level of fitness. You walk along a mixture of unsealed country lanes and mountain trails with some stretches of asphalt, particularly entering and leaving the larger towns (although we have sought to keep this to a minimum).'
       -
         type: paragraph
+        content:
+          -
+            type: text
+            text: 'View each section below:'
       -
         type: paragraph
         content:
@@ -90,11 +94,13 @@ page_builder:
               -
                 type: link
                 attrs:
-                  href: 'statamic://entry::f0135e9f-7439-4a88-b4d1-cc54b20d7e0c'
+                  href: 'https://hiddenitaly.com.au/tours/self-guided/umbria1'
                   rel: null
                   target: null
-                  title: 'Umbria 1'
-            text: 'https://hiddenitaly.com.au/tours/self-guided/umbria1'
+                  title: null
+              -
+                type: bold
+            text: 'Umbria 1 - Section 1'
       -
         type: paragraph
         content:
@@ -108,7 +114,9 @@ page_builder:
                   rel: null
                   target: null
                   title: null
-            text: 'https://hiddenitaly.com.au/tours/self-guided/umbria2'
+              -
+                type: bold
+            text: 'Umbria 2 - Section 2'
       -
         type: paragraph
         content:
@@ -122,7 +130,9 @@ page_builder:
                   rel: null
                   target: null
                   title: null
-            text: 'https://hiddenitaly.com.au/tours/self-guided/lazio'
+              -
+                type: bold
+            text: 'Lazio - Section 3'
     section_background: none
     type: overview
     enabled: true
@@ -152,19 +162,19 @@ page_builder:
     days:
       -
         id: Ie5cEJe1IJlcH_0DcU42G
-        title: 'Section 1 - 6 Days'
+        title: 'Umbria 1 - Section 1 - 6 Days'
         description: |-
           The first section of the Way of St Francis, this walk takes you across the beautiful Valle Umbra from the stunning art of Assisi to elegant Spoleto, passing through olive groves, vineyards, farmland and some of the most interesting towns in
           Umbria.
         distance: 70.0
       -
         id: 60zOhviODV1vo5QZg_2BX
-        title: 'Section 2 - 7 days'
+        title: 'Umbria 2 - Section 2 - 7 days'
         description: 'The second section of the Way of St Francis, this walk takes you from Spoleto over Monteluco and into the Nera River Valley, a remote area of steep wooded valleys and upland villages surrounded by high mountains. It follows well-marked trails through forests, along river valleys and past lakes to Rieti, home of the Sabines and an ancient rival of Rome.'
         distance: 86.0
       -
         id: R4OxYw3qVa2U4bzvvqcDs
-        title: 'Section 3 - 8 Days'
+        title: 'Lazio - Section 3 - 8 Days'
         description: |-
           The final section of the Way of St Francis takes you along marked trails through the foothills of the Apennines and across fertile plains and farmlands to Rome, the Eternal City. On the last day you follow a cycle path/greenway beside the Tiber
           River to the steps of St. Peter's Basilica in Vatican City.
@@ -188,5 +198,5 @@ locations: central-italy
 landscapes:
   - countryside
 updated_by: 4
-updated_at: 1795660181
+updated_at: 1795728937
 ---
