@@ -197,5 +197,11 @@ locations: central-italy
 landscapes:
   - countryside
 updated_by: 4
-updated_at: 1795729450
+updated_at: 1795730065
+image: self-guided/p5020858.jpg
+gallery:
+  - self-guided/rome-1.jpg
+  - self-guided/1.5.jpg
+  - self-guided/7.jpg
+  - self-guided/14.jpg
 ---
