@@ -71,14 +71,14 @@ page_builder:
         content:
           -
             type: text
-            text: 'In 1209, Francis and his posse of bare-footed disciples walked from Assisi to Rome to confront the not-so-innocent Pope Innocent III. This beautiful nineteen-day walk recreates this journey, starting in Assisi, passing through vineyards and art towns of the Vale Umbria; the forests and rivers of the Nerina Valley and the undulating hills of northern Lazio before finishing on the steps of St Peter’s Basilica in the heart of Rome. No saint speaks to the modern mind like St Francis, the patron saint of Italy, his love of nature and his messages of freedom, fraternity and modesty still resonating across the centuries. St Francis was also a great walker, indeed, his career began with a long walk from Assisi to Rome: this marvellous walk follows this route. The trail takes you through some of the most striking and varied countryside in central Italy: the olive groves, vineyards and farmlands of the Valle Umbra.'
+            text: 'In 1209, Francis and his posse of bare-footed disciples walked from Assisi to Rome to confront the not-so-innocent Pope Innocent III. This beautiful nineteen-day walk recreates this journey, starting in Assisi, passing through vineyards and art towns of the Vale Umbria; the forests and rivers of the Nerina Valley and the undulating hills of northern Lazio before finishing on the steps of St Peter’s Basilica in the heart of Rome. No saint speaks to the modern mind like St Francis, the patron saint of Italy, his love of nature and his messages of freedom, fraternity and modesty still resonating across the centuries. St Francis was also a great walker, indeed, his career began with a long walk from Assisi to Rome: this marvellous walk follows this route. The trail takes you through some of the most striking and varied countryside in central Italy: the olive groves, vineyards and farmlands of the Valle Umbra. (between Assisi and Spoleto); the hills, forests, rivers and lakes of the Valnerina (between Spoleto and Rieti); and the fertile plains of northern Lazio, with '
     column_right:
       -
         type: paragraph
         content:
           -
             type: text
-            text: '(between Assisi and Spoleto); the hills, forests, rivers and lakes of the Valnerina (between Spoleto and Rieti); and the fertile plains of northern Lazio, with their memories of ancient Rome, barbarian invasions, Renaissance princes and prelates (between Rieti and Rome), finishing in the centre of the ‘Eternal City’ itself. Along the way, you’ll visit extraordinary towns, villages and monasteries with long and rich histories, many of which have changed little since the time St Francis. Although not a ‘hike’ the routes includes some steep climbs and some long days and requires a good level of fitness. You walk along a mixture of unsealed country lanes and mountain trails with some stretches of asphalt, particularly entering and leaving the larger towns (although we have sought to keep this to a minimum).'
+            text: 'their memories of ancient Rome, barbarian invasions, Renaissance princes and prelates (between Rieti and Rome), finishing in the centre of the ‘Eternal City’ itself. Along the way, you’ll visit extraordinary towns, villages and monasteries with long and rich histories, many of which have changed little since the time St Francis. Although not a ‘hike’ the routes includes some steep climbs and some long days and requires a good level of fitness. You walk along a mixture of unsealed country lanes and mountain trails with some stretches of asphalt, particularly entering and leaving the larger towns (although we have sought to keep this to a minimum).'
       -
         type: paragraph
         content:
@@ -163,22 +163,21 @@ page_builder:
       -
         id: Ie5cEJe1IJlcH_0DcU42G
         title: 'Umbria 1 - Section 1 - 6 Days'
-        description: |-
-          The first section of the Way of St Francis, this walk takes you across the beautiful Valle Umbra from the stunning art of Assisi to elegant Spoleto, passing through olive groves, vineyards, farmland and some of the most interesting towns in
-          Umbria.
+        description: 'The first section takes you across the beautiful Valle Umbra from the stunning art of Assisi to elegant Spoleto, passing through olive groves, vineyards, farmland and some of the most interesting towns in Umbria.'
         distance: 70.0
+        photo: self-guided/cammino-of-st-francis-umbria-1/umbria-3686911_1280.jpg
       -
         id: 60zOhviODV1vo5QZg_2BX
         title: 'Umbria 2 - Section 2 - 7 days'
-        description: 'The second section of the Way of St Francis, this walk takes you from Spoleto over Monteluco and into the Nera River Valley, a remote area of steep wooded valleys and upland villages surrounded by high mountains. It follows well-marked trails through forests, along river valleys and past lakes to Rieti, home of the Sabines and an ancient rival of Rome.'
+        description: 'The second section takes you from Spoleto over Monteluco and into the Nera River Valley, a remote area of steep wooded valleys and upland villages surrounded by high mountains. It follows well-marked trails through forests, along river valleys and past lakes to Rieti, home of the Sabines and an ancient rival of Rome.'
         distance: 86.0
+        photo: self-guided/cammino-of-st-francis-umbria-2/sofia-msnxoysxjsq-unsplash.jpg
       -
         id: R4OxYw3qVa2U4bzvvqcDs
         title: 'Lazio - Section 3 - 8 Days'
-        description: |-
-          The final section of the Way of St Francis takes you along marked trails through the foothills of the Apennines and across fertile plains and farmlands to Rome, the Eternal City. On the last day you follow a cycle path/greenway beside the Tiber
-          River to the steps of St. Peter's Basilica in Vatican City.
+        description: "The final section takes you along marked trails through the foothills of the Apennines and across fertile plains and farmlands to Rome, the Eternal City. On the last day, you follow a cycle path/greenway beside the Tiber River to the steps of St. Peter's Basilica in Vatican City."
         distance: 104.0
+        photo: self-guided/cammino-of-st-francis-lazio/rome-1.jpg
     section_background: none
     type: itinerary
     enabled: true
@@ -198,5 +197,5 @@ locations: central-italy
 landscapes:
   - countryside
 updated_by: 4
-updated_at: 1795728937
+updated_at: 1795729450
 ---
