@@ -109,7 +109,7 @@ page_builder:
       -
         id: mjfliav4
         title: 'Sanctuary tour and ridge walk'
-        description: "Today is a short walk. In the morning we'll be taken on a guided tour of this fascinating sanctuary. After another delicious picnic lunch, we take a small trail that climbs up through pine forest to the ridge that divides the two valleys. We then descend to a second monastery. We'll have time to relax before having dinner on the verandah of the monastery."
+        description: 'In the morning you will be taken on a tour of the monastery.  After a light lunch, we take a small trail that climbs up through pines and beech forest to a ridge.  From here we drop down into the neighbouring valley, passing another monastery along the way.  We follow an ancient trail through more forest to a charming village on the Cervo River, our accommodation for the night.'
         duration: 4.0
         distance: 11.0
         elevation: 393
@@ -122,11 +122,13 @@ page_builder:
         id: mlizaetv
         title: 'The first big climb'
         description: |-
-          We follow the trail into a quirky town once home to the benefactor who built the road and tunnel connecting two monasteries in the late 1800s.  The trail then takes us north up beside the river to a second village at the head of the valley, where we have lunch.
+          We take a short walk up the river to the head of the valley.  Here we start the long climb, possibly the hardest stretch of the tour, up to a welcoming mountain hut that sits spectacularly on a platform under mountain peaks.  
 
-          We start the long climb, possibly the hardest stretch of the tour, up to a welcoming mountain hut that sits spectacularly on a platform under mountain peaks.  It is a hard 3-hour challenging climb but the rewards are great - glorious views south across the Alps and a convivial place to relax, have dinner and sleep
-        duration: 6.0
-        distance: 12.0
+          It is a hard 3-4 hour ascent but the rewards are great with glorious views south across the Alps and a convivial place to relax,  
+
+          We will have lunch and dinner here.
+        duration: 5.0
+        distance: 8.0
         elevation: 1406
         meals_included:
           - breakfast
@@ -406,8 +408,8 @@ page_builder:
     hide_from_subnav: true
 seasons: summer
 locations: northern-italy
-updated_by: 4
-updated_at: 1795567070
+updated_by: 3
+updated_at: 1795737555
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg
