@@ -171,22 +171,28 @@ page_builder:
         description: 'The first section takes you across the beautiful Valle Umbra from the stunning art of Assisi to elegant Spoleto, passing through olive groves, vineyards, farmland and some of the most interesting towns in Umbria.'
         distance: 70.0
         photo: self-guided/cammino-of-st-francis-umbria-1/umbria-3686911_1280.jpg
+        meals_included:
+          - breakfast
       -
         id: 60zOhviODV1vo5QZg_2BX
         title: 'Umbria 2 - Section 2 - 7 days'
         description: 'The second section takes you from Spoleto over Monteluco and into the Nera River Valley, a remote area of steep wooded valleys and upland villages surrounded by high mountains. It follows well-marked trails through forests, along river valleys and past lakes to Rieti, home of the Sabines and an ancient rival of Rome.'
         distance: 86.0
         photo: self-guided/cammino-of-st-francis-umbria-2/sofia-msnxoysxjsq-unsplash.jpg
+        meals_included:
+          - breakfast
       -
         id: R4OxYw3qVa2U4bzvvqcDs
         title: 'Lazio - Section 3 - 8 Days'
         description: "The final section takes you along marked trails through the foothills of the Apennines and across fertile plains and farmlands to Rome, the Eternal City. On the last day, you follow a cycle path/greenway beside the Tiber River to the steps of St. Peter's Basilica in Vatican City."
         distance: 104.0
         photo: self-guided/cammino-of-st-francis-lazio/rome-1.jpg
+        meals_included:
+          - breakfast
     section_background: none
     type: itinerary
     enabled: true
-    title: 'Cammino of St Frances sections'
+    title: 'Cammino of St Francis Sections'
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -203,7 +209,7 @@ locations: central-italy
 landscapes:
   - countryside
 updated_by: 4
-updated_at: 1795742793
+updated_at: 1795742864
 image: self-guided/p5020858.jpg
 gallery:
   - self-guided/rome-1.jpg
