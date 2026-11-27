@@ -197,11 +197,19 @@ locations: central-italy
 landscapes:
   - countryside
 updated_by: 4
-updated_at: 1795737860
+updated_at: 1795742053
 image: self-guided/p5020858.jpg
 gallery:
   - self-guided/rome-1.jpg
-  - self-guided/1.5.jpg
-  - self-guided/7.jpg
   - self-guided/14.jpg
+  - self-guided/7.jpg
+  - self-guided/04.jpg
+  - self-guided/6.jpg
+  - self-guided/11.jpg
+  - self-guided/umbria-1.jpg
+  - self-guided/img_5360.jpg
+  - self-guided/1.5.jpg
+  - self-guided/img_5409.jpg
+  - self-guided/7.6.jpg
+  - self-guided/umbria-2.jpg
 ---
