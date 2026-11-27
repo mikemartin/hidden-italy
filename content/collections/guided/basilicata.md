@@ -50,11 +50,11 @@ inclusions:
   - 'All transfers and activities during the tours'
   - 'All taxes and service charges at the hotels and restaurants'
   - 'All paid admissions during the tour'
-  - '7 guided walks'
   - 'Services of qualified local hiking guides on each walk'
+  - 'Services of a full-time professional tour leader'
+  - '7 guided walks'
   - "Guided sight seeing tours of Matera, Craco and the 'Lucani Dolomites'"
   - 'Private boat trip exploring the Tyhrrenian coastline'
-  - 'Services of a full-time professional tour leader'
 page_builder:
   -
     id: S79KwERvxOXW4ik46HYEL
@@ -390,7 +390,7 @@ seasons: autumn
 locations: southern-italy
 simple_likes: 0
 updated_by: 3
-updated_at: 1795742768
+updated_at: 1795745438
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/fasanelli-2.webp
