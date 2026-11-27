@@ -84,7 +84,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'View each section below:'
+            text: 'This tour can be broken up in to 3 sections should you not wish to walk the full 17 days as follows:'
       -
         type: paragraph
         content:
@@ -150,18 +150,19 @@ page_builder:
     activities:
       -
         id: 2GTrPDugpqsCNKiic01OB
-        title: "This is not just another 'cammino'"
-        summary: |-
-          It is also a beautiful 'off-the-beaten-track' walk that takes you through some of the prettiest
-          country in central Italy, starting with Umbria, 'the green heart of Italy'.
+        title: 'Section 1 Umbria 1 - 6 days'
+        summary: 'The first section takes you across the beautiful Valle Umbra from the stunning art of Assisi to elegant Spoleto, passing through olive groves, vineyards, farmland and some of the most interesting towns in Umbria.'
+        icon: agriculture-sunflower.svg
       -
         id: T2J5h8w3ZmFDYpuibTvSN
-        title: 'The quality of the food and accommodation'
-        summary: "Hidden Italy uses the best accommodation available, a mix of 3-star hotels and lovely family-run 'agriturismo's, always with private, en suite bathrooms."
+        title: 'Section 2 Umbria 2 - 7 days'
+        summary: 'The second section takes you from Spoleto over Monteluco and into the Nera River Valley, a remote area of steep wooded valleys and upland villages surrounded by high mountains. It follows well-marked trails through forests, along river valleys and past lakes to Rieti, home of the Sabines and an ancient rival of Rome.'
+        icon: culture-cappuccino.svg
       -
         id: Le3aVYxUSahcg-9dpqxfg
-        title: Safety
-        summary: 'Hidden Italy notes are updated annually and are complemented by an exclusive downloadable app that includes maps, GPS tracks, an alert function (if you stray off the track) and an emergency function.'
+        title: 'Section 3 Lazio'
+        summary: "The final section takes you along marked trails through the foothills of the Apennines and across fertile plains and farmlands to Rome, the Eternal City. On the last day, you follow a cycle path/greenway beside the Tiber River to the steps of St. Peter's Basilica in Vatican City."
+        icon: culture-cheese.svg
   -
     id: Caw8prNC_xr-10UnjrGkF
     days:
@@ -209,7 +210,7 @@ locations: central-italy
 landscapes:
   - countryside
 updated_by: 4
-updated_at: 1795742864
+updated_at: 1795743337
 image: self-guided/p5020858.jpg
 gallery:
   - self-guided/rome-1.jpg
