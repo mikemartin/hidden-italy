@@ -8,7 +8,7 @@ days: 13
 seasons: spring
 grade: 3
 updated_by: 3
-updated_at: 1795749214
+updated_at: 1795749692
 image: guided/ravello-5.jpg
 tour_size: 15
 inclusions:
@@ -150,6 +150,7 @@ page_builder:
           - lunch
           - dinner
         photo: guided/campania-and-the-amalfi-coast/13.5.jpg
+        descent: 565
       -
         id: mlonlca0
         title: 'Fine wines and cuisine'
