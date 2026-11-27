@@ -126,7 +126,7 @@ page_builder:
       -
         id: Om5y5FTAtdk95fGc42Xbj
         title: 'Arrive in Matera'
-        description: 'Check-in to your gorgeous hotel in Sassi district, the historic heart of Matera. After you have unpacked and settled in, you will have a briefing from your tour leader and you will then be taken to dinner at one of the excellent nearby restaurants.'
+        description: 'Check-in to your gorgeous hotel in Sassi district, the historic heart of Matera. After you have unpacked and settled in, you will meet you tour leader at 18:30 in front of the hotels restaurant for a briefing followed by an aperitif and dinner.'
         meals_included:
           - dinner
         photo: guided/102.jpg
@@ -147,7 +147,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        description: "This morning you pull on your boots and head south out of town into the 'Murgia', rolling hills that surround Matera.  The walk finishes at a rock hewn, 9th century church whose frecoes have been called the 'Sistine Chapel of the Dark Ages'.  After a guided visit, we head to a nearby 'agriturismo' for a farm-fresh lunch and then are transferred back to town.  The evening is free."
+        description: "This morning you pull on your boots and head south out of town into the 'Murgia', rolling hills that surround Matera.  At the end of the walk we head to a nearby 'agriturismo' for a farm-fresh lunch, followed by a guided visit to rock hewn, 9th century church whose frecoes have been called the 'Sistine Chapel of the Dark Ages' and after the visit we are transferred back to town.  The evening is free."
         duration: 3.0
         distance: 10.0
         elevation: 304
@@ -392,8 +392,8 @@ show_from: true
 seasons: autumn
 locations: southern-italy
 simple_likes: 0
-updated_by: 4
-updated_at: 1794965553
+updated_by: 3
+updated_at: 1795741450
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/fasanelli-2.webp
