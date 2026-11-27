@@ -8,7 +8,7 @@ days: 13
 seasons: spring
 grade: 3
 updated_by: 3
-updated_at: 1795748873
+updated_at: 1795749214
 image: guided/ravello-5.jpg
 tour_size: 15
 inclusions:
@@ -126,9 +126,6 @@ page_builder:
         id: mlonefs6
         title: 'Explore the city'
         description: "This morning, we will be taken on a guided visit to explore the heart of this extraordinary city, including visiting the celebrated archaeological museum, Santa Chiara and its marvellous cloisters, and Giuseppe Sanmartino’s incredible Veiled Christ. Along the way, we'll enjoy lunch in one of the city's oldest pizzerias. The evening is free."
-        duration: 2.0
-        distance: 4.0
-        elevation: 161
         meals_included:
           - breakfast
           - lunch
