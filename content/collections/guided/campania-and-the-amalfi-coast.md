@@ -8,7 +8,7 @@ days: 13
 seasons: spring
 grade: 3
 updated_by: 3
-updated_at: 1793340139
+updated_at: 1795748873
 image: guided/ravello-5.jpg
 tour_size: 15
 inclusions:
@@ -164,7 +164,7 @@ page_builder:
       -
         id: mlonqtn1
         title: 'Have a picnic lunch in a beech forest'
-        description: "Today we return to the Picentini National Park. This time we will be taken on a beautiful walk through a leafy beech forest beside a babbling brook to the source of the Calore River, where we will have a picnic lunch. At the end of the walk, we will be driven back to our base, where the afternoon is free.  Dinner will be at our accommodation's osteria"
+        description: "Today we return to the Picentini National Park. This time we will be taken on a beautiful walk through a leafy beech forest beside a babbling brook to the source of the Calore River, where we will have a picnic lunch. At the end of the walk, we will be driven back to our base, where the afternoon is free.  Dinner will be at our accommodation's osteria."
         duration: 4.0
         distance: 9.0
         elevation: 367
@@ -227,7 +227,7 @@ page_builder:
       -
         id: mloo6vkh
         title: 'Transfer to Naples'
-        description: 'In the morning we will be transferred back to Naples, an hour’s drive from Ravello, which has national and international rail and air connections. The transfer is scheduled for 08.30. First stop Naples Centrale station (around 10.00) and then Naples airport (around 10.30).'
+        description: 'In the morning we will be transferred back to Naples, an hour’s drive from Ravello, which has national and international rail and air connections. The transfer is scheduled for 08:30. First stop Naples Centrale station (around 10:00) and then Naples airport (around 10:30).'
         photo: guided/campania-and-the-amalfi-coast/img_2509-v2.jpg
         meals_included:
           - breakfast
