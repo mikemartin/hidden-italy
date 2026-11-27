@@ -64,7 +64,7 @@ inclusions:
 page_builder:
   -
     id: 56recR0dXL7IsMJExSJQa
-    title: Overview
+    title: 'Follow the official pilgrim route'
     column_left:
       -
         type: paragraph
@@ -133,14 +133,19 @@ page_builder:
               -
                 type: bold
             text: 'Lazio - Section 3'
-    section_background: none
+    section_background: dark
     type: overview
     enabled: true
+    images:
+      - self-guided/cammino-of-st-francis-lazio/p6051915.jpg
+      - self-guided/cammino-of-st-francis-umbria-1/3.jpg
+      - self-guided/cammino-of-st-francis-umbria-2/spoleto.jpg
+    show_topography: false
   -
     id: 20t7JMHrpYxHnqlm593a4
     section_background: none
     type: highlights
-    enabled: true
+    enabled: false
     heading: 'Cammino of St Francis'
     activities:
       -
@@ -181,6 +186,7 @@ page_builder:
     section_background: none
     type: itinerary
     enabled: true
+    title: 'Cammino of St Frances sections'
 seo_noindex: inherit
 seo_nofollow: false
 seo_canonical_type: entry
@@ -197,7 +203,7 @@ locations: central-italy
 landscapes:
   - countryside
 updated_by: 4
-updated_at: 1795742053
+updated_at: 1795742793
 image: self-guided/p5020858.jpg
 gallery:
   - self-guided/rome-1.jpg

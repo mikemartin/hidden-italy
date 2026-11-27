@@ -138,9 +138,6 @@ page_builder:
           - breakfast
           - lunch
         photo: guided/img_2201.jpeg
-        duration: 6.0
-        distance: 12.0
-        elevation: 220
       -
         id: dRttPDU-P82DA7eK9yvVs
         title: 'Go for a walk'
@@ -179,7 +176,7 @@ page_builder:
           - lunch
           - dinner
         title: 'Explore the remains of a pre-Roman city'
-        description: 'A short drive takes us into the heart of the Gallipoli-Cognato National Park, to visit the fascinating remains of an Osco-Samnite city, which was hidden in the forests for over two millennia.  We will then walk through woods with breathtaking scenery to the end of the trail, where we will have a packed lunch before heading back to Castelmezzano.  We will have a tiramisu lesson by the hotel’s own chef Antonietta before dinner.'
+        description: 'A short drive takes us into the heart of the Gallipoli-Cognato National Park, to visit the fascinating remains of an Osco-Samnite city, which was hidden in the forests for over two millennia.  We will then walk through woods with breathtaking scenery to the end of the trail, where we will have a packed lunch before heading back to Castelmezzano.  We will have a cooking lesson by the hotel’s own chef before dinner.'
         duration: 4.0
         distance: 10.0
         elevation: 250
@@ -211,7 +208,7 @@ page_builder:
           - breakfast
           - lunch
           - dinner
-        description: "Today is another loop route, which requires a short transfer to start. We then follow historical droving trails up through chestnut and beech forests to the tree free ridges to enjoy 360% views over the whole national park.  We will have a picnic lunch. On the way back, we will visit some ancient 'loricato' pine, only found in the Pollino NP. Dinner is at our accommodation."
+        description: "Today is another loop route, following historical droving trails up through chestnut and beech forests to the tree-free ridges to enjoy 360 degrees views over the whole national park.  We will have a picnic lunch. On the way back, we will visit some ancient 'loricato' pine, only found in the Pollino NP.  Dinner is at our accommodation."
         duration: 3.0
         distance: 10.0
         elevation: 300
@@ -222,7 +219,7 @@ page_builder:
           - breakfast
           - lunch
         title: 'Transfer to Maratea'
-        description: 'Today we leave the mountains and forest and embrace the beautiful Tyrrhenian coastline. Along the way, we stop in a picture-perfect medieval village where we will have a delicious lunch. We then drive on to Maratea, a very attractive town overlooking the coast. After checking into our gorgeous hotel, the rest of the day and evening to explore this fascinating place. The evening is free.'
+        description: 'Today we leave the mountains and forest and embrace the beautiful Tyrrhenian coastline. Along the way, we stop in a picture-perfect medieval village where we will have a delicious lunch. We then drive on to Maratea, a very attractive town overlooking the coast. After checking into our gorgeous hotel, the rest of the day and evening is free to explore this fascinating place.'
         photo: guided/110.jpg
       -
         id: j-gmsVnOqpZy0rOQpeOlG
@@ -230,7 +227,7 @@ page_builder:
         meals_included:
           - breakfast
           - lunch
-        description: 'This morning a private boat will take us up the coast, with plenty of opportunities to explore the rugged coastline and plenty of opportunities to dive into the blue Mediterranean Sea. We will return to port for a wonderful seafood lunch in one of the best restaurants in the district. Back at base, you will have the option of a short walk up to visit the famous gigantic statue of Jesus that dominates the bay or to simply relax and enjoy the accommodation. The evening is free.'
+        description: 'This morning a private boat will take us up the coast, with plenty of opportunities to explore the rugged coastline and to dive into the blue Mediterranean Sea. We will return to port for a wonderful seafood lunch in one of the best restaurants in the district. Back at base, you will have the option of a short walk up to visit the famous gigantic statue of Jesus that dominates the bay or to simply relax and enjoy the accommodation. The evening is free.'
         duration: 2.0
         distance: 5.0
         elevation: 263
@@ -241,7 +238,7 @@ page_builder:
         meals_included:
           - breakfast
           - dinner
-        description: "The tour finishes with a spectacular walk down the coast, following a path high above the sea.  At the end of the walk, you will be transferred to a beach club where you can have a swim and lunch at leisure. The afternoon is free.  We will regroup for a farewell aperitivo and dinner in one of the town's excellent restaurants."
+        description: "The tour finishes with a spectacular walk down the coast, following a path high above the sea.  At the end of the walk, you will be transferred to a beach club where you can have a swim and lunch at leisure. Your afternoon is free.  We will regroup for a farewell aperitivo and dinner in one of the town's excellent restaurants."
         duration: 3.0
         distance: 8.0
         elevation: 89
@@ -393,7 +390,7 @@ seasons: autumn
 locations: southern-italy
 simple_likes: 0
 updated_by: 3
-updated_at: 1795741450
+updated_at: 1795742768
 duplicated_from: d1cf26b9-fdc7-42a1-b94e-f54b36e98efe
 teaser: 'Twelve nights in the heart of southern Italy: mountains, parks and spectacular coastline!'
 image: guided/fasanelli-2.webp
