@@ -409,7 +409,7 @@ page_builder:
 seasons: summer
 locations: northern-italy
 updated_by: 3
-updated_at: 1795737555
+updated_at: 1795740125
 gallery:
   - guided/trails-to-freedom/94.jpg
   - guided/trails-to-freedom/3-(2).jpg
